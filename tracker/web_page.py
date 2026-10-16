@@ -27,12 +27,15 @@ for s in sorted(db["sets"], key=lambda s: -s.get("added", 0)):
             r = R.get(l["eid"], {}); ft = r.get("ft"); ht = r.get("ht")
             sc = (f"{ft[0]}:{ft[1]}" if ft else "") + (f" ({ht[0]}:{ht[1]})" if ht else "")
             mk = l["mdesc"] + ((" " + l["spec"].replace("total=", "").replace("hcp=", "")) if l["spec"] and "Asian" not in l["mdesc"] and l["spec"].split("=")[-1] not in l["mdesc"] else "")
-            legs.append([int(l["kickoff"]), si(l["match"]), si(mk), si(l["pick"]), l["odds"], sc, code[rr]])
+            leg = [int(l["kickoff"]), si(l["match"]), si(mk), si(l["pick"]), l["odds"], sc, code[rr]]
+            if rr in ("pending", "check") and not r.get("final"):   # what the page needs to fetch and settle this leg live
+                leg.append([l["eid"].split(":")[-1], l["mid"], l["spec"], l["pick"]])
+            legs.append(leg)
         odds = 1.0
         for l in t["legs"]: odds *= l["odds"]
         tk.append([t["ticket"], t["code"], round(odds, 2), st, legs])
     sets.append(dict(n=s["name"], a=int(s.get("added", 0)), c=dict(cnt), t=tk))
-data = dict(when=dt.datetime.now(WAT).strftime("%a %d %b %Y, %H:%M"), tot=dict(tot), s=S, sets=sets)
+data = dict(tl=sorted(track.TL_MIDS), ended=sorted(track.ENDED), void=sorted(track.VOID), when=dt.datetime.now(WAT).strftime("%a %d %b %Y, %H:%M"), tot=dict(tot), s=S, sets=sets)
 tpl = open(os.path.join(HERE, "web_template.html")).read()
 os.makedirs(os.path.join(HERE, "web"), exist_ok=True)
 out = tpl.replace("/*DATA*/null", json.dumps(data, separators=(",", ":")).replace("</", "<\\/"))
