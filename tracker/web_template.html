@@ -182,7 +182,7 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   var SR='https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/', TL=new Set(D.tl||[]), END=new Set(D.ended||[]), VOID=new Set(D.void||[]);
   var liveBtn=document.getElementById('live'), msg=document.getElementById('livemsg'), py=null;
   document.getElementById('reload').addEventListener('click',function(){location.reload()});
-  function getJ(u){return fetch(SR+u,{credentials:'omit'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})}
+  function getJ(u){return fetch(SR+u,{credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})}
   function info(id){return getJ('match_info/'+id).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1;
     return {status:(m.status||{}).name||'',ft:res.home!=null?[res.home,res.away]:null,ht:p1?[p1.home,p1.away]:null,played:(m.timeinfo||{}).played}})}
   function extra(id){return Promise.all([getJ('match_timeline/'+id),getJ('match_detailsextended/'+id).catch(function(){return null})]).then(function(a){
