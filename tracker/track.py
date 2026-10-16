@@ -443,6 +443,7 @@ def check():
         for e, x in zip(todo, ex.map(extra, todo)):
             if x is not None: R[e]["x"] = x
     json.dump(R, open(CACHE, "w"))
+    print(f"scores fetched for {sum(1 for e, k in events.items() if R.get(e, {}).get('final'))} of {len(events)} games ({len(todo)} timeline checks this run)")
 
     cls = {"won": "w", "half-won": "w", "lost": "l", "half-lost": "l", "void": "v", "pending": "p", "check": "c"}
     lab = {"won": "Won", "half-won": "Half won", "lost": "Lost", "half-lost": "Half lost", "void": "Void", "pending": "Not finished", "check": "Needs check"}
