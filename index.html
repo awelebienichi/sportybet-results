@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><style>:root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,-apple-system,"Segoe UI",sans-serif}img{max-width:100%}[hidden]{display:none!important}</style></head><body><title>My Ticket Results</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#13201a"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="icon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="My Tickets"><style>:root{color-scheme:light dark;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,-apple-system,"Segoe UI",sans-serif}img{max-width:100%}[hidden]{display:none!important}#offline{display:none;background:#a87a0c;color:#fff;text-align:center;padding:6px 12px;font:600 13px system-ui,sans-serif}</style></head><body><div id="offline">You are offline - showing the results saved on this device.</div><title>My Ticket Results</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@600;700&display=swap">
 <style>
@@ -172,4 +172,4 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   render();
 })();
 </script>
-</body></html>
+<script>if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js");function o(){document.getElementById("offline").style.display=navigator.onLine?"none":"block"}addEventListener("online",o);addEventListener("offline",o);o();</script></body></html>

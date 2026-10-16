@@ -1,0 +1,174 @@
+<title>My Ticket Results</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@600;700&display=swap">
+<style>
+/* Layout: one narrow column of betting slips - totals first, then filters, then each ticket set as a stack of slips */
+:root{
+  --bg:#edf1ef; --card:#ffffff; --ink:#13201a; --muted:#5b6a62; --line:#d4ddd8; --soft:#f4f7f5;
+  --code-bg:#ffe58a; --code-ink:#3a2e00; --code-line:#e2c044;
+  --won:#16804a; --won-bg:#e2f3e9; --lost:#c0372d; --lost-bg:#fbe5e2; --run:#66757f; --run-bg:#e9eef1; --chk:#a87a0c; --chk-bg:#f8eecb; --void:#8a949b;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif; --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0d1411; --card:#151e1a; --ink:#e3ebe7; --muted:#97a69e; --line:#26322c; --soft:#1a2520;
+  --code-bg:#4a3c06; --code-ink:#ffe69a; --code-line:#7d6710;
+  --won:#45c07f; --won-bg:#16301f; --lost:#f06c60; --lost-bg:#3a1b18; --run:#a3b1ba; --run-bg:#24302b; --chk:#e0b43c; --chk-bg:#3a3210; --void:#7d8a93; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0d1411; --card:#151e1a; --ink:#e3ebe7; --muted:#97a69e; --line:#26322c; --soft:#1a2520;
+  --code-bg:#4a3c06; --code-ink:#ffe69a; --code-line:#7d6710;
+  --won:#45c07f; --won-bg:#16301f; --lost:#f06c60; --lost-bg:#3a1b18; --run:#a3b1ba; --run-bg:#24302b; --chk:#e0b43c; --chk-bg:#3a3210; --void:#7d8a93; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45}
+.wrap{max-width:860px;margin:0 auto;padding-block:20px 48px;padding-inline:16px;display:flex;flex-direction:column;gap:18px}
+h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01em;margin:0;line-height:1.05;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0;font-size:14px}
+.tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:2px;cursor:pointer;text-align:left;font:inherit;color:inherit}
+.tile:focus-visible,.chip:focus-visible,.set>summary:focus-visible,.slip>summary:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--code-line);outline-offset:2px}
+.tile b{font-family:var(--display);font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
+.tile span{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.tile.W b{color:var(--won)}.tile.L b{color:var(--lost)}.tile.R b{color:var(--run)}.tile.C b{color:var(--chk)}
+.tile[aria-pressed="true"]{border-color:var(--ink)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar input{flex:1 1 220px;min-width:0;font:inherit;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase;padding:9px 12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.bar input::placeholder{text-transform:none;font-family:var(--body);letter-spacing:0;color:var(--muted)}
+.chip{font:inherit;font-size:14px;font-weight:600;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.sets{display:flex;flex-direction:column;gap:12px}
+.set{background:var(--card);border:1px solid var(--line);border-radius:10px}
+.set>summary{list-style:none;cursor:pointer;padding:12px 14px;display:flex;flex-direction:column;gap:4px}
+.set>summary::-webkit-details-marker{display:none}
+.set-name{font-weight:600;font-size:15px}
+.set-meta{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.set-meta .w{color:var(--won);font-weight:600}.set-meta .l{color:var(--lost);font-weight:600}.set-meta .r{color:var(--run);font-weight:600}
+.set[open]>summary{border-bottom:1px solid var(--line)}
+.slips{display:flex;flex-direction:column}
+.slip{border-bottom:1px solid var(--line);border-left:4px solid var(--run)}
+.slip:last-child{border-bottom:0;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
+.slip.W{border-left-color:var(--won)}.slip.L{border-left-color:var(--lost)}.slip.C{border-left-color:var(--chk)}
+.slip>summary{list-style:none;cursor:pointer;padding:10px 12px;display:grid;grid-template-columns:2.4em auto 1fr auto;gap:6px 10px;align-items:center}
+.slip>summary::-webkit-details-marker{display:none}
+.num{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.code{font-family:var(--mono);font-weight:700;font-size:15px;letter-spacing:.05em;background:var(--code-bg);color:var(--code-ink);border:1px solid var(--code-line);border-radius:6px;padding:2px 8px}
+.odds{font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}.odds small{color:var(--muted);font-weight:400;margin-left:3px}
+.pill{font-size:12px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;padding:3px 9px;border-radius:999px;justify-self:end;white-space:nowrap}
+.pill.W{background:var(--won);color:var(--card)}.pill.L{background:var(--lost);color:var(--card)}.pill.R{background:var(--run-bg);color:var(--ink)}.pill.C{background:var(--chk);color:var(--card)}
+.legline{grid-column:2/-1;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.dots{display:flex;flex-wrap:wrap;gap:2px}
+.dots i{width:9px;height:9px;border-radius:2px;display:block;background:var(--line)}
+.dots .w{background:var(--won)}.dots .l{background:var(--lost)}.dots .v{background:var(--void)}.dots .c{background:var(--chk)}
+.legsum{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.legs{padding:0 12px 12px 12px;display:flex;flex-direction:column;gap:4px}
+.tools{display:flex;gap:8px;padding:0 0 4px}
+.tools button{font:inherit;font-size:13px;padding:5px 10px;border-radius:6px;border:1px solid var(--line);background:var(--soft);color:var(--ink);cursor:pointer}
+.leg{display:grid;grid-template-columns:5.6em minmax(0,1fr) auto;gap:2px 10px;padding:7px 9px;border-radius:6px;background:var(--soft);font-size:13px}
+.leg.w{background:var(--won-bg)}.leg.l{background:var(--lost-bg)}.leg.c{background:var(--chk-bg)}
+.leg .t{color:var(--muted);font-variant-numeric:tabular-nums}
+.leg .m{min-width:0}.leg .m b{font-weight:600}.leg .m div{color:var(--muted)}
+.leg .r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.leg .r b{display:block;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.leg.w .r b{color:var(--won)}.leg.l .r b{color:var(--lost)}.leg.c .r b{color:var(--chk)}.leg.p .r b,.leg.v .r b{color:var(--muted)}
+.empty{color:var(--muted);padding:20px;text-align:center;background:var(--card);border:1px dashed var(--line);border-radius:10px}
+.note{font-size:13px;color:var(--muted)}
+.more{font:inherit;font-weight:600;padding:10px;border:0;background:var(--soft);color:var(--ink);cursor:pointer;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
+@media (max-width:560px){
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .slip>summary{grid-template-columns:2em auto 1fr}
+  .slip>summary .pill{grid-column:3;grid-row:1}
+  .slip>summary .odds{grid-column:2/-1;grid-row:2}
+  .legline{grid-row:3}
+  .leg{grid-template-columns:minmax(0,1fr) auto}.leg .t{grid-column:1/-1}
+}
+@media (prefers-reduced-motion:no-preference){.slip>summary,.tile,.chip{transition:background-color .15s,border-color .15s}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>My Ticket Results</h1>
+    <p class="sub" id="when">Loading results…</p>
+  </header>
+  <div class="tiles" id="tiles" role="group" aria-label="Show tickets by result"></div>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Find a booking code" autocomplete="off" spellcheck="false" aria-label="Find a booking code">
+    <button class="chip" id="all" aria-pressed="true">All tickets</button>
+  </div>
+  <p class="note">Every leg is marked from the final score (Sportradar), not from SportyBet's settlement. Tap a ticket to see its games.</p>
+  <div class="sets" id="sets"></div>
+</div>
+
+<script id="data" type="application/json">/*DATA*/null</script>
+<script>
+(function(){
+  var D=JSON.parse(document.getElementById('data').textContent||'null');
+  var setsEl=document.getElementById('sets'),tilesEl=document.getElementById('tiles'),q=document.getElementById('q'),allBtn=document.getElementById('all');
+  if(!D){setsEl.innerHTML='<div class="empty">No results yet.</div>';return}
+  var S=D.s, WORD={W:'Won',L:'Lost',R:'Still running',C:'Needs check'}, LEG={w:'Won',l:'Lost',v:'Void',p:'Not finished',c:'Needs check'};
+  var filt=null, PAGE=40;
+  document.getElementById('when').textContent='Updated '+D.when+' (Nigeria time) · '+D.sets.length+' ticket sets';
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function fmt(o){return o<1000?o.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}):Math.round(o).toLocaleString('en-US')}
+  var DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+  function ko(t){var d=new Date((t+3600)*1000);return DAYS[d.getUTCDay()]+' '+d.getUTCDate()+' '+('0'+d.getUTCHours()).slice(-2)+':'+('0'+d.getUTCMinutes()).slice(-2)}
+  [['R','Still running'],['W','Won'],['L','Lost'],['C','Needs check']].forEach(function(k){
+    var b=document.createElement('button');b.className='tile '+k[0];b.setAttribute('aria-pressed','false');b.dataset.k=k[0];
+    b.innerHTML='<b>'+(D.tot[k[0]]||0).toLocaleString('en-US')+'</b><span>'+k[1]+'</span>';
+    b.addEventListener('click',function(){filt=(filt===k[0])?null:k[0];render()});tilesEl.appendChild(b);
+  });
+  allBtn.addEventListener('click',function(){filt=null;q.value='';render()});
+  q.addEventListener('input',render);
+  function legsHTML(t){
+    var w=0,l=0,p=0,h='';
+    t[4].forEach(function(g){
+      h+='<div class="leg '+g[6]+'"><span class="t">'+ko(g[0])+'</span><div class="m"><b>'+esc(S[g[1]])+'</b><div>'+esc(S[g[2]])+' – '+esc(S[g[3]])+' @'+g[4]+'</div></div><div class="r">'+esc(g[5]||'')+'<b>'+LEG[g[6]]+'</b></div></div>';
+    });
+    return h;
+  }
+  function slip(t){
+    var c={w:0,l:0,p:0,c:0,v:0};t[4].forEach(function(g){c[g[6]]++});
+    var dots=t[4].map(function(g){return '<i class="'+g[6]+'"></i>'}).join('');
+    var sum='won '+c.w+'/'+t[4].length+(c.l?' · lost '+c.l:'')+(c.p?' · to play '+c.p:'')+(c.c?' · check '+c.c:'');
+    var d=document.createElement('details');d.className='slip '+t[3];
+    d.innerHTML='<summary><span class="num">#'+t[0]+'</span><span class="code">'+esc(t[1])+'</span><span class="odds">'+fmt(t[2])+'<small>odds</small></span><span class="pill '+t[3]+'">'+WORD[t[3]]+'</span><span class="legline"><span class="dots">'+dots+'</span><span class="legsum">'+sum+'</span></span></summary>';
+    d.addEventListener('toggle',function(){
+      if(d.open&&!d.querySelector('.legs')){
+        var box=document.createElement('div');box.className='legs';
+        box.innerHTML='<div class="tools"><button type="button">Copy code</button></div>'+legsHTML(t);
+        var btn=box.querySelector('button');
+        btn.addEventListener('click',function(){
+          var ok=function(){btn.textContent='Copied '+t[1]};
+          try{navigator.clipboard.writeText(t[1]).then(ok,function(){btn.textContent=t[1]+' (select to copy)'})}catch(e){btn.textContent=t[1]+' (select to copy)'}
+        });
+        d.appendChild(box);
+      }
+    });
+    return d;
+  }
+  function render(){
+    var term=q.value.trim().toUpperCase();
+    Array.prototype.forEach.call(tilesEl.children,function(b){b.setAttribute('aria-pressed',String(b.dataset.k===filt))});
+    allBtn.setAttribute('aria-pressed',String(!filt&&!term));
+    setsEl.innerHTML='';var shown=0;
+    D.sets.forEach(function(s,si){
+      var tk=s.t.filter(function(t){return (!filt||t[3]===filt)&&(!term||t[1].indexOf(term)>=0)});
+      if(!tk.length)return;shown++;
+      var d=document.createElement('details');d.className='set';
+      var c=s.c,added=s.a?ko(s.a).replace(/ \d\d:\d\d$/,''):'';
+      d.innerHTML='<summary><span class="set-name">'+esc(s.n)+'</span><span class="set-meta"><span>'+s.t.length+' ticket'+(s.t.length>1?'s':'')+'</span>'
+        +(c.R?'<span class="r">'+c.R+' running</span>':'')+(c.W?'<span class="w">'+c.W+' won</span>':'')+(c.L?'<span class="l">'+c.L+' lost</span>':'')+(c.C?'<span>'+c.C+' check</span>':'')
+        +(added?'<span>added '+added+'</span>':'')+'</span></summary>';
+      var box=document.createElement('div');box.className='slips';d.appendChild(box);
+      var n=0;
+      function more(){
+        var end=Math.min(n+PAGE,tk.length);for(;n<end;n++)box.appendChild(slip(tk[n]));
+        var old=box.querySelector('.more');if(old)old.remove();
+        if(n<tk.length){var m=document.createElement('button');m.className='more';m.type='button';m.textContent='Show '+Math.min(PAGE,tk.length-n)+' more of '+(tk.length-n);m.addEventListener('click',more);box.appendChild(m)}
+      }
+      d.addEventListener('toggle',function(){if(d.open&&!n)more()});
+      if(shown<=2||term||filt){d.open=true;more()}
+      setsEl.appendChild(d);
+    });
+    if(!shown)setsEl.innerHTML='<div class="empty">'+(term?'No ticket with code “'+esc(term)+'”.':'No tickets here yet.')+'</div>';
+  }
+  render();
+})();
+</script>
