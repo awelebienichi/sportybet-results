@@ -16,6 +16,11 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
+      - name: Check the score feeds answer from here
+        run: |
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+          curl -s -m 30 -A "$UA" -H "Referer: https://www.sportybet.com/" https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/match_info/68849790 | head -c 160; echo
+          curl -s -m 30 -A "$UA" -H "Accept: application/json" -H "Referer: https://www.sportybet.com/ng/" "https://www.sportybet.com/api/ng/factsCenter/event?eventId=sr:match:68849790&productId=3" | head -c 160; echo
       - name: Check scores and rebuild the page
         run: |
           cd tracker
