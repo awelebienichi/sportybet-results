@@ -208,7 +208,7 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   autoBtn.addEventListener('click',function(){setAuto(!auto);if(auto)refresh(true)});
   document.getElementById('reload').addEventListener('click',function(){location.reload()});
   function getJ(u){return fetch(SR+u,{credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})}
-  function info(id){return getJ('match_info/'+id).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1,ti=m.timeinfo||{};
+  function info(id){return getJ('match_info/'+id).catch(function(){return new Promise(function(r){setTimeout(r,1500)}).then(function(){return getJ('match_info/'+id)})}).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1,ti=m.timeinfo||{};
     return {status:(m.status||{}).name||'',ft:res.home!=null?[res.home,res.away]:null,ht:p1?[p1.home,p1.away]:null,played:ti.played!=null?+ti.played:null,running:!!ti.running}})}
   function extra(id){return Promise.all([getJ('match_timeline/'+id),getJ('match_detailsextended/'+id).catch(function(){return null})]).then(function(a){
     var ev=a[0].doc[0].data.events,ok=function(e){return (e.team==='home'||e.team==='away')&&!e.disabled};
@@ -242,12 +242,12 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   function refresh(quiet){
     if(busy)return;
     var now=Date.now()/1000, legs=[], ids={};
-    D.sets.forEach(function(s){s.t.forEach(function(t){if(t[3]!=='R'&&t[3]!=='C')return;t[4].forEach(function(g){if(g[7]&&g[0]<now){legs.push([g,t,s]);ids[g[7][0]]=1}})})});
+    D.sets.forEach(function(s){s.t.forEach(function(t){if(t[3]!=='R'&&t[3]!=='C')return;t[4].forEach(function(g){if(g[7]&&g[0]<now&&g[0]>now-3.5*3600){legs.push([g,t,s]);ids[g[7][0]]=1}})})});
     var list=Object.keys(ids);
     if(!list.length){drawLive([]);if(!quiet)msg.textContent='No games on your running tickets have started yet.';return}
     busy=true;liveBtn.disabled=true;if(!quiet)msg.textContent='Getting scores for '+list.length+' games…';
     var rec={};
-    pool(list,6,function(id){return info(id).then(function(a){rec[id]=a})}).then(function(){
+    pool(list,3,function(id){return info(id).then(function(a){rec[id]=a})}).then(function(){
       var needX=[];legs.forEach(function(z){var g=z[0],a=rec[g[7][0]];if(a&&a.ft&&TL.has(g[7][1])&&needX.indexOf(g[7][0])<0)needX.push(g[7][0])});
       return pool(needX,4,function(id){return extra(id).then(function(x){if(x)rec[id].x=x})});
     }).then(function(){
