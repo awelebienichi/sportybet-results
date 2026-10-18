@@ -74,6 +74,17 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
 .live button[disabled]{opacity:.6;cursor:progress}
 #livemsg{font-size:13px;color:var(--muted)}
 .leg .r i{display:block;font-style:normal;font-size:12px;font-weight:700;color:var(--chk)}
+.livebox{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.livebox h2{margin:0;font-family:var(--display);font-size:20px;letter-spacing:.02em;display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--lost);display:inline-block}
+@media (prefers-reduced-motion:no-preference){.dot{animation:pulse 1.6s ease-in-out infinite}@keyframes pulse{50%{opacity:.25}}}
+.lv{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;padding:8px 10px;border-radius:6px;background:var(--soft);font-size:13px;border-left:4px solid var(--run)}
+.lv.w{border-left-color:var(--won);background:var(--won-bg)}.lv.l{border-left-color:var(--lost);background:var(--lost-bg)}
+.lv .m b{font-weight:600}.lv .m div{color:var(--muted)}
+.lv .sc{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}.lv .sc b{font-size:17px;display:block}
+.lv .st{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+.lv.w .st{color:var(--won)}.lv.l .st{color:var(--lost)}
+.leg.lw{box-shadow:inset 3px 0 0 var(--won)}.leg.ll{box-shadow:inset 3px 0 0 var(--lost)}
 .empty{color:var(--muted);padding:20px;text-align:center;background:var(--card);border:1px dashed var(--line);border-radius:10px}
 .note{font-size:13px;color:var(--muted)}
 .more{font:inherit;font-weight:600;padding:10px;border:0;background:var(--soft);color:var(--ink);cursor:pointer;border-bottom-left-radius:10px;border-bottom-right-radius:10px}
@@ -92,8 +103,12 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   <header>
     <h1>My Ticket Results</h1>
     <p class="sub" id="when">Loading results…</p>
-    <div class="live"><button type="button" id="live">Refresh scores now</button><button type="button" id="reload" class="ghost">Reload page</button><span id="livemsg" aria-live="polite"></span></div>
+    <div class="live"><button type="button" id="live">Refresh scores now</button><button type="button" id="auto" class="ghost" aria-pressed="true">Live updates: on</button><button type="button" id="reload" class="ghost">Reload page</button><span id="livemsg" aria-live="polite"></span></div>
   </header>
+  <section class="livebox" id="livebox" hidden aria-label="Games live now">
+    <h2><span class="dot" aria-hidden="true"></span>Live now on your running tickets</h2>
+    <div id="livelist"></div>
+  </section>
   <div class="tiles" id="tiles" role="group" aria-label="Show tickets by result"></div>
   <div class="bar">
     <input id="q" type="search" placeholder="Find a booking code" autocomplete="off" spellcheck="false" aria-label="Find a booking code">
@@ -126,7 +141,7 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   function legsHTML(t){
     var w=0,l=0,p=0,h='';
     t[4].forEach(function(g){
-      h+='<div class="leg '+g[6]+'"><span class="t">'+ko(g[0])+'</span><div class="m"><b>'+esc(S[g[1]])+'</b><div>'+esc(S[g[2]])+' – '+esc(S[g[3]])+' @'+g[4]+'</div></div><div class="r">'+esc(g[5]||'')+(g[9]?'<i>'+esc(g[9])+'</i>':'')+'<b>'+LEG[g[6]]+'</b></div></div>';
+      h+='<div class="leg '+g[6]+(g[10]?' l'+g[10]:'')+'"><span class="t">'+ko(g[0])+'</span><div class="m"><b>'+esc(S[g[1]])+'</b><div>'+esc(S[g[2]])+' – '+esc(S[g[3]])+' @'+g[4]+'</div></div><div class="r">'+esc(g[5]||'')+(g[9]?'<i>'+esc(g[9])+(g[10]?(g[10]==='w'?' · winning now':' · losing now'):'')+'</i>':'')+'<b>'+LEG[g[6]]+'</b></div></div>';
     });
     return h;
   }
@@ -134,7 +149,7 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
     var c={w:0,l:0,p:0,c:0,v:0};t[4].forEach(function(g){c[g[6]]++});
     var dots=t[4].map(function(g){return '<i class="'+g[6]+'"></i>'}).join('');
     var sum='won '+c.w+'/'+t[4].length+(c.l?' · lost '+c.l:'')+(c.p?' · to play '+c.p:'')+(c.c?' · check '+c.c:'');
-    var d=document.createElement('details');d.className='slip '+t[3];
+    var d=document.createElement('details');d.className='slip '+t[3];d.dataset.k=t[1];
     d.innerHTML='<summary><span class="num">#'+t[0]+'</span><span class="code">'+esc(t[1])+'</span><span class="odds">'+fmt(t[2])+'<small>odds</small></span><span class="pill '+t[3]+'">'+WORD[t[3]]+'</span><span class="legline"><span class="dots">'+dots+'</span><span class="legsum">'+sum+'</span></span></summary>';
     d.addEventListener('toggle',function(){
       if(d.open&&!d.querySelector('.legs')){
@@ -154,11 +169,14 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
     var term=q.value.trim().toUpperCase();
     Array.prototype.forEach.call(tilesEl.children,function(b){b.setAttribute('aria-pressed',String(b.dataset.k===filt))});
     allBtn.setAttribute('aria-pressed',String(!filt&&!term));
+    var openSets={},openSlips={};
+    setsEl.querySelectorAll('details.set[open]').forEach(function(d){openSets[d.dataset.k]=1});
+    setsEl.querySelectorAll('details.slip[open]').forEach(function(d){openSlips[d.dataset.k]=1});
     setsEl.innerHTML='';var shown=0;
     D.sets.forEach(function(s,si){
       var tk=s.t.filter(function(t){return (!filt||t[3]===filt)&&(!term||t[1].indexOf(term)>=0)});
       if(!tk.length)return;shown++;
-      var d=document.createElement('details');d.className='set';
+      var d=document.createElement('details');d.className='set';d.dataset.k=s.n;
       var c=s.c,added=s.a?ko(s.a).replace(/ \d\d:\d\d$/,''):'';
       d.innerHTML='<summary><span class="set-name">'+esc(s.n)+'</span><span class="set-meta"><span>'+s.t.length+' ticket'+(s.t.length>1?'s':'')+'</span>'
         +(c.R?'<span class="r">'+c.R+' running</span>':'')+(c.W?'<span class="w">'+c.W+' won</span>':'')+(c.L?'<span class="l">'+c.L+' lost</span>':'')+(c.C?'<span>'+c.C+' check</span>':'')
@@ -171,20 +189,27 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
         if(n<tk.length){var m=document.createElement('button');m.className='more';m.type='button';m.textContent='Show '+Math.min(PAGE,tk.length-n)+' more of '+(tk.length-n);m.addEventListener('click',more);box.appendChild(m)}
       }
       d.addEventListener('toggle',function(){if(d.open&&!n)more()});
-      if(shown<=2||term||filt){d.open=true;more()}
+      if(shown<=2||term||filt||openSets[s.n]){d.open=true;more()}
+      box.querySelectorAll('details.slip').forEach(function(x){if(openSlips[x.dataset.k])x.open=true});
       setsEl.appendChild(d);
     });
     if(!shown)setsEl.innerHTML='<div class="empty">'+(term?'No ticket with code “'+esc(term)+'”.':'No tickets here yet.')+'</div>';
   }
   render();
 
-  // ---- live refresh: scores straight from Sportradar in this browser, legs marked with the tracker's own rules (track.py run by Pyodide)
+  // ---- live scores: fetched from Sportradar in this browser; legs marked with the tracker's own rules (track.py in Pyodide).
+  // Finished games are settled; games in play are marked "winning now / losing now" as if they ended at the current score.
   var SR='https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/', TL=new Set(D.tl||[]), END=new Set(D.ended||[]), VOID=new Set(D.void||[]);
-  var liveBtn=document.getElementById('live'), msg=document.getElementById('livemsg'), py=null;
+  var liveBtn=document.getElementById('live'), autoBtn=document.getElementById('auto'), msg=document.getElementById('livemsg'), py=null, busy=false;
+  var liveBox=document.getElementById('livebox'), liveList=document.getElementById('livelist');
+  var auto=true;try{auto=localStorage.getItem('liveAuto')!=='off'}catch(e){}
+  function setAuto(v){auto=v;autoBtn.setAttribute('aria-pressed',String(v));autoBtn.textContent='Live updates: '+(v?'on':'off');try{localStorage.setItem('liveAuto',v?'on':'off')}catch(e){}}
+  setAuto(auto);
+  autoBtn.addEventListener('click',function(){setAuto(!auto);if(auto)refresh(true)});
   document.getElementById('reload').addEventListener('click',function(){location.reload()});
-  function getJ(u){return fetch(SR+u,{credentials:'omit',referrerPolicy:'no-referrer'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})}
-  function info(id){return getJ('match_info/'+id).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1;
-    return {status:(m.status||{}).name||'',ft:res.home!=null?[res.home,res.away]:null,ht:p1?[p1.home,p1.away]:null,played:(m.timeinfo||{}).played}})}
+  function getJ(u){return fetch(SR+u,{credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})}
+  function info(id){return getJ('match_info/'+id).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1,ti=m.timeinfo||{};
+    return {status:(m.status||{}).name||'',ft:res.home!=null?[res.home,res.away]:null,ht:p1?[p1.home,p1.away]:null,played:ti.played!=null?+ti.played:null,running:!!ti.running}})}
   function extra(id){return Promise.all([getJ('match_timeline/'+id),getJ('match_detailsextended/'+id).catch(function(){return null})]).then(function(a){
     var ev=a[0].doc[0].data.events,ok=function(e){return (e.team==='home'||e.team==='away')&&!e.disabled};
     var x={goals:ev.filter(function(e){return e.type==='goal'&&ok(e)}).map(function(e){return [e.time,e.team]}),
@@ -193,9 +218,9 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
     try{var v=a[1].doc[0].data.values;[['124','corners'],['125','sot'],['126','soff'],['171','sblk'],['129','fouls'],['123','offsides'],['40','yellow'],['45','yellowred'],['50','red']].forEach(function(k){
       if(v[k[0]])x.stats[k[1]]=[+v[k[0]].value.home,+v[k[0]].value.away]})}catch(e){}
     return x}).catch(function(){return null})}
-  function pool(items,n,fn){var i=0,out=[];return new Promise(function(done){var busy=0;(function next(){
-    if(i>=items.length&&!busy)return done(out);
-    while(busy<n&&i<items.length){(function(k){busy++;fn(items[k]).then(function(v){out[k]=v},function(){out[k]=null}).then(function(){busy--;next()})})(i++)}})()})}
+  function pool(items,n,fn){var i=0,out=[];return new Promise(function(done){var b=0;(function next(){
+    if(i>=items.length&&!b)return done(out);
+    while(b<n&&i<items.length){(function(k){b++;fn(items[k]).then(function(v){out[k]=v},function(){out[k]=null}).then(function(){b--;next()})})(i++)}})()})}
   function loadPy(){
     if(py)return py;
     py=new Promise(function(ok,bad){var sc=document.createElement('script');sc.src='https://cdn.jsdelivr.net/pyodide/v0.26.4/full/pyodide.js';
@@ -205,45 +230,67 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
     py.catch(function(){py=null});return py;
   }
   function hhmm(){var d=new Date(Date.now()+3600e3);return ('0'+d.getUTCHours()).slice(-2)+':'+('0'+d.getUTCMinutes()).slice(-2)}
-  liveBtn.addEventListener('click',function(){
+  function minute(a){if(/half ?time|pause/i.test(a.status))return 'HT';if(a.played==null)return a.status;var mn=Math.floor(a.played/60)+1;return (mn>90&&/2nd/i.test(a.status)?'90+':mn)+"'"}
+  var C={won:'w','half-won':'w',lost:'l','half-lost':'l','void':'v',pending:'p',check:'c'};
+  function drawLive(rows){
+    if(!rows.length){liveBox.hidden=true;return}
+    liveBox.hidden=false;
+    liveList.innerHTML=rows.map(function(r){
+      return '<div class="lv '+(r.st||'')+'"><div class="m"><b>'+esc(r.match)+'</b><div>'+esc(r.mk)+' – '+esc(r.pick)+' @'+r.od+' · on '+r.codes.length+' ticket'+(r.codes.length>1?'s':'')+': '+esc(r.codes.slice(0,4).join(' ')+(r.codes.length>4?' …':''))+'</div></div>'
+        +'<div class="sc"><b>'+esc(r.score)+'</b>'+esc(r.min)+(r.st?'<div class="st">'+(r.st==='w'?'Winning now':'Losing now')+'</div>':'')+'</div></div>'}).join('');
+  }
+  function refresh(quiet){
+    if(busy)return;
     var now=Date.now()/1000, legs=[], ids={};
     D.sets.forEach(function(s){s.t.forEach(function(t){if(t[3]!=='R'&&t[3]!=='C')return;t[4].forEach(function(g){if(g[7]&&g[0]<now){legs.push([g,t,s]);ids[g[7][0]]=1}})})});
     var list=Object.keys(ids);
-    if(!list.length){msg.textContent='No games on your running tickets have started yet.';return}
-    liveBtn.disabled=true;msg.textContent='Getting scores for '+list.length+' games…';
+    if(!list.length){drawLive([]);if(!quiet)msg.textContent='No games on your running tickets have started yet.';return}
+    busy=true;liveBtn.disabled=true;if(!quiet)msg.textContent='Getting scores for '+list.length+' games…';
     var rec={};
     pool(list,6,function(id){return info(id).then(function(a){rec[id]=a})}).then(function(){
-      var needX=[];legs.forEach(function(z){var g=z[0],a=rec[g[7][0]];if(a&&END.has(a.status)&&a.ft&&TL.has(g[7][1])&&needX.indexOf(g[7][0])<0)needX.push(g[7][0])});
+      var needX=[];legs.forEach(function(z){var g=z[0],a=rec[g[7][0]];if(a&&a.ft&&TL.has(g[7][1])&&needX.indexOf(g[7][0])<0)needX.push(g[7][0])});
       return pool(needX,4,function(id){return extra(id).then(function(x){if(x)rec[id].x=x})});
     }).then(function(){
-      var fin=[],nlive=0,nfail=0;
-      legs.forEach(function(z){var g=z[0],a=rec[g[7][0]];g[9]='';
+      var fin=[],live=[],nfail=0;
+      legs.forEach(function(z){var g=z[0],a=rec[g[7][0]];g[9]='';g[10]='';
         if(!a){nfail++;return}
         if(a.ft)g[5]=a.ft[0]+':'+a.ft[1]+(a.ht?' ('+a.ht[0]+':'+a.ht[1]+')':'');
-        if(VOID.has(a.status)||(END.has(a.status)&&a.ft)){fin.push(z)}
-        else if(a.ft){nlive++;g[9]='LIVE '+a.status+(typeof a.played==='number'?' '+Math.round(a.played/60)+"'":(a.played?' '+a.played:''))}
+        if(VOID.has(a.status)||(END.has(a.status)&&a.ft))fin.push(z);
+        else if(a.ft){g[9]='LIVE '+minute(a);live.push(z)}
       });
-      if(!fin.length)return {fin:fin,nlive:nlive,nfail:nfail};
-      msg.textContent='Marking '+fin.length+' finished legs…';
+      if(!fin.length&&!live.length)return {fin:fin,live:live,nfail:nfail};
       return loadPy().then(function(p){
-        var items=fin.map(function(z){var g=z[0],a=rec[g[7][0]];return [{eid:'sr:match:'+g[7][0],mid:g[7][1],spec:g[7][2],pick:g[7][3]},
-          {final:true,void:VOID.has(a.status),status:a.status,ft:a.ft,ht:a.ht,x:a.x}]});
+        var mk=function(z,isLive){var g=z[0],a=rec[g[7][0]];
+          var ht=a.ht||((isLive&&/1st|first|half ?time|pause/i.test(a.status))?a.ft:null);
+          return [{eid:'sr:match:'+g[7][0],mid:g[7][1],spec:g[7][2],pick:g[7][3]},{final:true,void:VOID.has(a.status),status:a.status,ft:a.ft,ht:ht,x:a.x}]};
+        var items=fin.map(function(z){return mk(z,false)}).concat(live.map(function(z){return mk(z,true)}));
         p.globals.set('J',JSON.stringify(items));
         var out=JSON.parse(p.runPython('json.dumps([track.settle(l, r) for l, r in json.loads(J)])'));
-        var C={won:'w','half-won':'w',lost:'l','half-lost':'l','void':'v',pending:'p',check:'c'};
         fin.forEach(function(z,k){z[0][6]=C[out[k]]||'c';if(z[0][6]!=='p')z[0][7]=0});
-        return {fin:fin,nlive:nlive,nfail:nfail};
-      },function(){fin.forEach(function(z){z[0][9]='Finished - result at next update'});return {fin:fin,nlive:nlive,nfail:nfail,nopy:true}});
+        live.forEach(function(z,k){var r=C[out[fin.length+k]];z[0][10]=(r==='w'||r==='l')?r:''});
+        return {fin:fin,live:live,nfail:nfail};
+      },function(){fin.forEach(function(z){z[0][9]='Finished - result at next update'});return {fin:fin,live:live,nfail:nfail,nopy:true}});
     }).then(function(r){
-      // re-count every ticket and set from the legs
       var tot={W:0,L:0,R:0,C:0};
       D.sets.forEach(function(s){var c={};s.t.forEach(function(t){var k={w:0,l:0,p:0,c:0};t[4].forEach(function(g){k[g[6]]=(k[g[6]]||0)+1});
         t[3]=k.l?'L':(k.p?'R':(k.c?'C':'W'));c[t[3]]=(c[t[3]]||0)+1;tot[t[3]]++});s.c=c});
       D.tot=tot;Array.prototype.forEach.call(tilesEl.children,function(b){b.querySelector('b').textContent=(tot[b.dataset.k]||0).toLocaleString('en-US')});
+      // one row per live game + pick, listing the running tickets it is on
+      var rows={};
+      r.live.forEach(function(z){var g=z[0],t=z[1];if(t[3]!=='R'&&t[3]!=='C')return;var k=g[7][0]+'|'+g[2]+'|'+g[3];
+        rows[k]=rows[k]||{t:g[0],match:S[g[1]],mk:S[g[2]],pick:S[g[3]],od:g[4],score:(g[5]||'').split(' ')[0],min:g[9].replace('LIVE ',''),st:g[10],codes:[]};
+        if(rows[k].codes.indexOf(t[1])<0)rows[k].codes.push(t[1])});
+      drawLive(Object.keys(rows).map(function(k){return rows[k]}).sort(function(a,b){return a.t-b.t}));
       render();
-      msg.textContent='Scores checked '+hhmm()+': '+r.fin.length+' finished'+(r.nlive?', '+r.nlive+' live now':'')+(r.nfail?', '+r.nfail+' could not be reached':'')+(r.nopy?' (results show at the next update)':'')+'.';
-    }).catch(function(){msg.textContent='Could not reach the score service. Check your connection and try again.'})
-      .then(function(){liveBtn.disabled=false});
-  });
+      var wn=r.live.filter(function(z){return z[0][10]==='w'}).length, ls=r.live.filter(function(z){return z[0][10]==='l'}).length;
+      msg.textContent='Updated '+hhmm()+': '+r.live.length+' live legs ('+wn+' winning, '+ls+' losing)'+', '+r.fin.length+' finished'+(r.nfail?', '+r.nfail+' not reachable':'')+(r.nopy?' (results show at the next update)':'')+(auto?' · next update in 1 min':'')+'.';
+    }).catch(function(){msg.textContent='Could not reach the score service. Check your connection; it will try again.'})
+      .then(function(){busy=false;liveBtn.disabled=false});
+  }
+  liveBtn.addEventListener('click',function(){refresh(false)});
+  // automatic live updates while the page is open and on screen
+  setInterval(function(){if(auto&&document.visibilityState==='visible')refresh(true)},60000);
+  document.addEventListener('visibilitychange',function(){if(auto&&document.visibilityState==='visible')refresh(true)});
+  if(auto)setTimeout(function(){refresh(true)},800);
 })();
 </script>
