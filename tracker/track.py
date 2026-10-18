@@ -35,13 +35,13 @@ def load_db():
 
 # ---------------------------------------------------------------- add codes
 def read_code(code):
-    for _ in range(3):
+    for i in range(6):   # SportyBet throttles straight after a burst of bookings
         d = get(f"https://www.sportybet.com/api/ng/orders/share/{code}")
         try:
             O = d["data"]["outcomes"]
             break
         except Exception:
-            time.sleep(1.5)
+            time.sleep(3 + 3 * i)
     else:
         return None
     legs = []
@@ -60,7 +60,7 @@ def add(set_name, codes):
         db["sets"].append(s)
     have = {t["code"] for t in s["tickets"]}
     todo = [c.upper() for c in codes if c.upper() not in have]
-    with cf.ThreadPoolExecutor(6) as ex:
+    with cf.ThreadPoolExecutor(2) as ex:
         got = list(ex.map(read_code, todo))
     n = len(s["tickets"])
     for c, legs in zip(todo, got):
