@@ -208,9 +208,11 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
   autoBtn.addEventListener('click',function(){setAuto(!auto);if(auto)refresh(true)});
   document.getElementById('reload').addEventListener('click',function(){location.reload()});
   function getJ(u){return fetch(SR+u,{credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})}
-  function info(id){return getJ('match_info/'+id).catch(function(){return new Promise(function(r){setTimeout(r,1500)}).then(function(){return getJ('match_info/'+id)})}).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1,ti=m.timeinfo||{};
+  function wait(ms){return new Promise(function(r){setTimeout(r,ms)})}
+  function getR(u,n){return getJ(u).catch(function(e){if(n<=0)throw e;return wait(1500*(4-n)+Math.random()*800).then(function(){return getR(u,n-1)})})}
+  function info(id){return getR('match_info/'+id,3).then(function(d){var m=d.doc[0].data.match,res=m.result||{},p1=(m.periods||{}).p1,ti=m.timeinfo||{};
     return {status:(m.status||{}).name||'',ft:res.home!=null?[res.home,res.away]:null,ht:p1?[p1.home,p1.away]:null,played:ti.played!=null?+ti.played:null,running:!!ti.running}})}
-  function extra(id){return Promise.all([getJ('match_timeline/'+id),getJ('match_detailsextended/'+id).catch(function(){return null})]).then(function(a){
+  function extra(id){return Promise.all([getR('match_timeline/'+id,2),getR('match_detailsextended/'+id,1).catch(function(){return null})]).then(function(a){
     var ev=a[0].doc[0].data.events,ok=function(e){return (e.team==='home'||e.team==='away')&&!e.disabled};
     var x={goals:ev.filter(function(e){return e.type==='goal'&&ok(e)}).map(function(e){return [e.time,e.team]}),
            corners:ev.filter(function(e){return e.type==='corner'&&ok(e)}).map(function(e){return [e.time,e.team]}),
@@ -247,7 +249,7 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
     if(!list.length){drawLive([]);if(!quiet)msg.textContent='No games on your running tickets have started yet.';return}
     busy=true;liveBtn.disabled=true;if(!quiet)msg.textContent='Getting scores for '+list.length+' games…';
     var rec={};
-    pool(list,3,function(id){return info(id).then(function(a){rec[id]=a})}).then(function(){
+    pool(list,2,function(id){return info(id).then(function(a){rec[id]=a})}).then(function(){
       var needX=[];legs.forEach(function(z){var g=z[0],a=rec[g[7][0]];if(a&&a.ft&&TL.has(g[7][1])&&needX.indexOf(g[7][0])<0)needX.push(g[7][0])});
       return pool(needX,4,function(id){return extra(id).then(function(x){if(x)rec[id].x=x})});
     }).then(function(){
@@ -283,7 +285,7 @@ h1{font-family:var(--display);font-weight:700;font-size:34px;letter-spacing:.01e
       drawLive(Object.keys(rows).map(function(k){return rows[k]}).sort(function(a,b){return a.t-b.t}));
       render();
       var wn=r.live.filter(function(z){return z[0][10]==='w'}).length, ls=r.live.filter(function(z){return z[0][10]==='l'}).length;
-      msg.textContent='Updated '+hhmm()+': '+r.live.length+' live legs ('+wn+' winning, '+ls+' losing)'+', '+r.fin.length+' finished'+(r.nfail?', '+r.nfail+' not reachable':'')+(r.nopy?' (results show at the next update)':'')+(auto?' · next update in 1 min':'')+'.';
+      msg.textContent='Updated '+hhmm()+': '+r.live.length+' live legs ('+wn+' winning, '+ls+' losing)'+', '+r.fin.length+' finished'+(r.nfail?', '+r.nfail+' will retry next update':'')+(r.nopy?' (results show at the next update)':'')+(auto?' · next update in 1 min':'')+'.';
     }).catch(function(){msg.textContent='Could not reach the score service. Check your connection; it will try again.'})
       .then(function(){busy=false;liveBtn.disabled=false});
   }
