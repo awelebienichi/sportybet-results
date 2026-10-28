@@ -16,7 +16,8 @@ jobs:
       - name: Test push to phone
         if: ${{ inputs.test }}
         env: { NTFY_TOPIC: "${{ secrets.NTFY_TOPIC }}" }
-        run: curl -s -H "Title: Cloud scanner connected" -H "Priority: urgent" -H "Tags: cloud" -d "Test from GitHub cloud - glitch alerts will reach you even when your Mac is off." "https://ntfy.sh/$NTFY_TOPIC" | head -c 120
+        run: |
+          curl -s -H "Title: Cloud scanner connected" -H "Priority: urgent" -H "Tags: cloud" -d "Test from GitHub cloud - glitch alerts will reach you even when your Mac is off." "https://ntfy.sh/$NTFY_TOPIC" | head -c 120
       - name: Scan SportyBet once
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
