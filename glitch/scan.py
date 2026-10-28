@@ -110,6 +110,47 @@ def b9ev(x, M):
     except Exception: ko = 0
     return {"eventId": x["eventId"], "book": "Bet9ja", "homeTeamName": h, "awayTeamName": a or "", "estimateStartTime": ko, "M": M, "b9league": x.get("league", "")}
 
+# ---------------- MSport (msport.com/ng) - same market ids as SportyBet; needs header operId: 2; booking codes work
+MS = "https://www.msport.com/api/ng"; MSM = "1,60,18,10,11,29,68,19,20,16"
+def msreq(path, body=None):
+    cmd = ["curl", "-s", "-m", "40", "-A", UA, "-H", "Accept: application/json", "-H", "operId: 2", "-H", "Referer: https://www.msport.com/ng/web"]
+    if body is not None: cmd += ["-X", "POST", "-H", "Content-Type: application/json", "--data", json.dumps(body)]
+    for i in range(3):
+        try:
+            d = json.loads(subprocess.run(cmd + [MS + path], capture_output=True, text=True).stdout)
+            if d.get("bizCode") == 10000: return d.get("data")
+        except Exception: time.sleep(2)
+    return None
+def msev(e):
+    mk_ = [{"id": str(m["id"]), "specifier": m.get("specifiers") or "", "status": 0 if m.get("status") in (0, None) else 1,
+            "outcomes": [{"desc": o["description"], "odds": o["odds"], "isActive": o.get("isActive", 1), "id": o["id"]} for o in m.get("outcomes") or []]}
+           for m in e.get("markets") or []]
+    return {"eventId": "ms:" + e["eventId"], "msid": e["eventId"], "book": "MSport", "homeTeamName": e["homeTeam"], "awayTeamName": e["awayTeam"],
+            "estimateStartTime": e["startTime"], "markets": mk_, "b9league": f"{e.get('category','')} {e.get('tournament','')}",
+            "setScore": e.get("scoreOfWholeMatch") or "0:0", "playedSeconds": e.get("playedTime") or "0:0"}
+def ms_upcoming():
+    menu = msreq("/facts-center/query/frontend/sports-matches-list/menu/v2?sportId=sr:sport:1")
+    if not menu: return []
+    T = [(t["tournamentId"], t["count"]) for c in menu.get("azs") or [] for t in c["tournaments"]]
+    batches, cur, n = [], [], 0
+    for tid, c in T:                                   # pack leagues so each request stays under the 50-game cap
+        if cur and n + c > 45: batches.append(cur); cur, n = [], 0
+        cur.append(tid); n += c
+    if cur: batches.append(cur)
+    def one(b):
+        d = msreq(f"/facts-center/query/frontend/sports-matches-list?sportId=sr:sport:1&marketIds={MSM}", b) or {}
+        return [e for t in d.get("tournaments") or [] for e in t.get("events") or []]
+    with ThreadPoolExecutor(8) as ex: L = [e for r in ex.map(one, batches) for e in r]
+    end = (time.time() + 24 * 3600) * 1000
+    return [msev(e) for e in {e["eventId"]: e for e in L}.values() if e["startTime"] <= end]
+def ms_live():
+    d = msreq(f"/facts-center/query/frontend/live-matches/list/v2?sportId=sr:sport:1&marketIds={MSM}") or {}
+    E = list(d.get("events") or []) + [e for t in (d.get("topLeagues") or []) + (d.get("otherLeagues") or []) for e in t.get("events") or []]
+    return [msev(e) for e in E]
+def ms_book(e, mid, spec, oid):
+    d = msreq("/orders/real-sports/order/share", {"selections": [{"eventId": e["msid"], "marketId": mid, "specifier": spec or "", "outcomeId": oid}]})
+    return (d or {}).get("shareCode") or "-"
+
 def mk(e):
     if "M" in e: return e["M"]
     out = {}
@@ -156,7 +197,7 @@ def cross(M, R=1.25):
             ln = spec.split("=")[1]; full = M.get(("18", spec)) or {}
             if f"Under {ln}" in o and f"Under {ln}" in full: flag("R9", f"1st Half Under {ln} at {o[f'Under {ln}'][0]} pays more than full-match Under {ln}", "68", spec, f"Under {ln}", o, full[f"Under {ln}"][0])
             if f"Over {ln}" in full and f"Over {ln}" in o: flag("R9", f"full-match Over {ln} at {full[f'Over {ln}'][0]} pays more than 1st Half Over {ln}", "18", spec, f"Over {ln}", full, o[f"Over {ln}"][0])
-        if mid in ("19", "20") and spec.startswith("total="):   # one team's goals can never be more than the match total
+        if mid in ("19", "20") and spec.startswith("total=") and float(spec.split("=")[1]) <= 3.5:   # one team's goals can never be more than the match total (lines above 3.5 are often flat placeholder prices)
             ln = spec.split("=")[1]; full = M.get(("18", spec)) or {}; side = "Home" if mid == "19" else "Away"
             if f"Under {ln}" in o and f"Under {ln}" in full: flag("R10", f"{side} team Under {ln} at {o[f'Under {ln}'][0]} pays more than match Under {ln}", mid, spec, f"Under {ln}", o, full[f"Under {ln}"][0])
             if f"Over {ln}" in full and f"Over {ln}" in o: flag("R10", f"match Over {ln} at {full[f'Over {ln}'][0]} pays more than {side} team Over {ln}", "18", spec, f"Over {ln}", full, o[f"Over {ln}"][0])
@@ -203,12 +244,12 @@ def check(e, is_live):
 
 CFG = json.load(open(os.path.join(HERE, "config.json"))) if os.path.exists(os.path.join(HERE, "config.json")) else {}
 if os.environ.get("NTFY_TOPIC"): CFG["ntfy_topic"] = os.environ["NTFY_TOPIC"]
-def notify(t, m, code=None):
+def notify(t, m, code=None, bookie="SportyBet"):
     try: subprocess.run(["osascript", "-e", f'display notification {json.dumps(m)} with title {json.dumps(t)} sound name "Glass"'], timeout=10)
     except Exception: pass
     if CFG.get("ntfy_topic"):   # phone push via the free ntfy app (subscribe to this topic)
         hdr = ["-H", "Title: " + t.encode("ascii", "ignore").decode(), "-H", "Priority: urgent", "-H", "Tags: rotating_light"]
-        if code and code != "-" and " " not in code: hdr += ["-H", f"Click: https://www.sportybet.com/ng/?shareCode={code}"]
+        if bookie == "SportyBet" and code and code != "-" and " " not in code: hdr += ["-H", f"Click: https://www.sportybet.com/ng/?shareCode={code}"]
         try: subprocess.run(["curl", "-s", "-m", "20", *hdr, "-d", m, "https://ntfy.sh/" + CFG["ntfy_topic"]], capture_output=True, timeout=30)
         except Exception: pass
 
@@ -219,7 +260,7 @@ def page(alerts):
 body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padding:16px}}h1{{font-size:20px;margin:0 0 4px}}p{{color:var(--mut);margin:0 0 12px}}
 .t{{overflow-x:auto}}table{{border-collapse:collapse;width:100%;min-width:640px}}td,th{{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}}
 .c{{font:600 16px ui-monospace,monospace;color:var(--acc)}}small{{color:var(--mut)}}a{{color:var(--acc)}}</style>
-<h1>Odds glitch alerts</h1><p>Prices on SportyBet and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
+<h1>Odds glitch alerts</h1><p>Prices on SportyBet, MSport and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
 <p>SportyBet can void bets on obvious pricing errors, and live errors last seconds - always check the price on the slip before you stake.</p>
 <div class=t><table><tr><th>Spotted</th><th>Kick-off</th><th>Match</th><th>Price</th><th>Booking code</th><th>When</th></tr>{rows or '<tr><td colspan=6>No glitches spotted yet.</td></tr>'}</table></div></html>"""
     try:
@@ -251,6 +292,8 @@ def main():
         try:
             feeds = [(False, upcoming()), (True, live())]
             LOOP[0] += 1
+            feeds += [(True, ms_live())]
+            if LOOP[0] % 2 == 0 or "--once" in sys.argv: feeds += [(False, ms_upcoming())]
             if os.environ.get("NO_BET9JA") != "1" and (LOOP[0] % 2 == 1 or "--once" in sys.argv):
                 feeds += [(False, b9_upcoming()), (True, b9_live())]
             sizes = [len(E) for _, E in feeds]
@@ -265,16 +308,16 @@ def main():
                                  match=f"{e['homeTeamName']} vs {e['awayTeamName']}", league=e.get("b9league") or (e.get("sport", {}).get("category", {}).get("tournament", {}) or {}).get("name", ""),
                                  pick=f"{ {'1':'1X2','60':'1st Half 1X2','18':'Over/Under','10':'Double Chance','11':'Draw No Bet','29':'GG/NG','68':'1st Half Over/Under','19':'Home team goals','20':'Away team goals','16':'Asian Handicap'}.get(mid, mid)} {pick}", odds=od, why=why,
                                  status="LIVE " + str(e.get("setScore", "")) + " " + str(e.get("playedSeconds", "")) if is_live else "before kick-off",
-                                 code=book(e, mid, spec, oid) if e.get("book") != "Bet9ja" else "search on Bet9ja", bookie=e.get("book", "SportyBet"))
+                                 code=ms_book(e, mid, spec, oid) if e.get("book") == "MSport" else book(e, mid, spec, oid) if e.get("book") != "Bet9ja" else "search on Bet9ja", bookie=e.get("book", "SportyBet"))
                         new.append(a)
                         line = f"{a['when']}  {a['match']}  {a['pick']} @ {od}  ({why})  code {a['code']}  [{a['status']}]"
                         print(line, flush=True); open(LOG, "a").write(line + "\n")
-                        notify(f"{a['bookie']} glitch: {a['pick']} @ {od}", f"{a['match']} ({a['kick']}, {a['status']}) - {why} - booking code {a['code']}", a['code'])
+                        notify(f"{a['bookie']} glitch: {a['pick']} @ {od}", f"{a['match']} ({a['kick']}, {a['status']}) - {why} - booking code {a['code']}", a['code'], a['bookie'])
         except Exception as x:
             print("scan error", x, flush=True)
         if new:
             alerts += new; page(alerts); json.dump(alerts[-500:], open(JS, "w"))
-        print(dt.datetime.now(W).strftime("%H:%M:%S"), "scan done", round(time.time() - t0), "s,", len(new), "new alerts | games SportyBet", "+".join(map(str, sizes[:2])), "Bet9ja", "+".join(map(str, sizes[2:])) or "skipped", flush=True)
+        print(dt.datetime.now(W).strftime("%H:%M:%S"), "scan done", round(time.time() - t0), "s,", len(new), "new alerts | games (upcoming+live) by feed:", sizes, flush=True)
         if "--once" in sys.argv: break
         time.sleep(max(20, 90 - (time.time() - t0)))
 
