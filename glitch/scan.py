@@ -10,7 +10,7 @@
                against the markets they must agree with; flagged when one pays 25%+ more than it can be worth
 Each alert: Mac notification + sound, a ready booking code, a line in alerts.log, and the alerts page on the site.
 usage: scan.py [--once]"""
-import json, os, sys, time, subprocess, datetime as dt
+import json, os, sys, time, subprocess, datetime as dt, re
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
 HERE = os.environ.get("SCAN_HOME") or os.path.dirname(os.path.abspath(__file__)); SITE = os.environ.get("SITE") or os.path.expanduser("~/ticket_tracker/site")
 WHO = os.environ.get("SCAN_WHO", "Mac")   # "Mac" here, "cloud" in the GitHub job
@@ -121,10 +121,10 @@ def msreq(path, body=None):
             if d.get("bizCode") == 10000: return d.get("data")
         except Exception: time.sleep(2)
     return None
-def msev(e):
+def msev(e, product=3):
     mk_ = [{"id": str(m["id"]), "specifier": m.get("specifiers") or "", "status": 0 if m.get("status") in (0, None) else 1,
             "outcomes": [{"desc": o["description"], "odds": o["odds"], "isActive": o.get("isActive", 1), "id": o["id"]} for o in m.get("outcomes") or []]}
-           for m in e.get("markets") or []]
+           for m in e.get("markets") or [] if m.get("product", product) == product]
     return {"eventId": "ms:" + e["eventId"], "msid": e["eventId"], "book": "MSport", "homeTeamName": e["homeTeam"], "awayTeamName": e["awayTeam"],
             "estimateStartTime": e["startTime"], "markets": mk_, "b9league": f"{e.get('category','')} {e.get('tournament','')}",
             "setScore": e.get("scoreOfWholeMatch") or "0:0", "playedSeconds": e.get("playedTime") or "0:0"}
@@ -146,7 +146,7 @@ def ms_upcoming():
 def ms_live():
     d = msreq(f"/facts-center/query/frontend/live-matches/list/v2?sportId=sr:sport:1&marketIds={MSM}") or {}
     E = list(d.get("events") or []) + [e for t in (d.get("topLeagues") or []) + (d.get("otherLeagues") or []) for e in t.get("events") or []]
-    return [msev(e) for e in E]
+    return [msev(e, 1) for e in E]
 def ms_book(e, mid, spec, oid):
     d = msreq("/orders/real-sports/order/share", {"selections": [{"eventId": e["msid"], "marketId": mid, "specifier": spec or "", "outcomeId": oid}]})
     return (d or {}).get("shareCode") or "-"
@@ -270,7 +270,9 @@ def cross(M, R=1.25):
             if f"Over {ln}" in full and f"Over {ln}" in o: flag("R10", f"match Over {ln} at {full[f'Over {ln}'][0]} pays more than {side} team Over {ln}", "18", spec, f"Over {ln}", full, o[f"Over {ln}"][0])
     return A
 
+VIRTUAL = re.compile(r"\bSRL\b|simulated|virtual|\bGO\.|esoccer|e-soccer|\(e\)", re.I)
 def check(e, is_live):
+    if VIRTUAL.search(f"{e.get('homeTeamName','')} {e.get('awayTeamName','')} {e.get('b9league','')}"): return []   # simulated (SRL) / virtual games swing at random
     M = mk(e); A = []
     ft = M.get(("1", "")) or {}; ht = M.get(("60", "")) or {}
     # R2 broken market: implied total < 97%
@@ -295,7 +297,7 @@ def check(e, is_live):
         for (mid, spec), o in M.items():
             for k, v in o.items():
                 pv = PREV.get((e["eventId"], mid, spec, k))
-                if pv and v[0] >= 3 * pv and v[0] >= 4 and pv <= 3:
+                if pv and v[0] >= 3 * pv and v[0] >= 4 and pv <= 3 and e.get("estimateStartTime", 0) / 1000 > time.time() + 20 * 60:
                     A.append(("R4", f"{k} jumped from {pv} to {v[0]} since the last scan", mid, spec, k, v))
                 PREV[(e["eventId"], mid, spec, k)] = v[0]
     else:
