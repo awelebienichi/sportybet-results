@@ -6,6 +6,8 @@
   R3 prematch: goal lines out of order (Over 3.5 cheaper than Over 2.5, etc.)
   R4 prematch: a price that jumped 3x or more since the last scan
   R5 live:     the team that is leading is still priced 3.0+ to win (feed stuck / not updated)
+  R6-R11 prematch: double chance, draw no bet, Asian handicap, GG/NG, 1st-half goals and team goals checked
+               against the markets they must agree with; flagged when one pays 25%+ more than it can be worth
 Each alert: Mac notification + sound, a ready booking code, a line in alerts.log, and the alerts page on the site.
 usage: scan.py [--once]"""
 import json, os, sys, time, subprocess, datetime as dt
@@ -21,19 +23,30 @@ def get(u):
         except Exception: time.sleep(2)
     return {}
 
+GROUPS = ["1,18,60", "10,11,29", "68", "19,20", "16"]   # 1X2, goals, 1st-half 1X2 | double chance, DNB, GG/NG | 1st-half goals | team goals | Asian handicap
+from concurrent.futures import ThreadPoolExecutor
+def _merge(lists):
+    E = {}
+    for L in lists:
+        for e in L:
+            if e["eventId"] in E: E[e["eventId"]]["markets"] = (E[e["eventId"]].get("markets") or []) + (e.get("markets") or [])
+            else: E[e["eventId"]] = dict(e, markets=list(e.get("markets") or []))
+    return list(E.values())
+def _page(a):
+    g, p = a
+    d = (get(f"{B}/factsCenter/pcUpcomingEvents?sportId=sr%3Asport%3A1&marketId={g}&pageSize=100&pageNum={p}&timeline=24") or {}).get("data")
+    return ([e for t in d["tournaments"] for e in t["events"]], d["totalNum"]) if d else ([], 0)
 def upcoming():
-    E = []; p = 1
-    while p < 15:
-        d = (get(f"{B}/factsCenter/pcUpcomingEvents?sportId=sr%3Asport%3A1&marketId=1,18,60&pageSize=100&pageNum={p}&timeline=24") or {}).get("data")
-        if not d: break
-        E += [e for t in d["tournaments"] for e in t["events"]]
-        if p * 100 >= d["totalNum"]: break
-        p += 1
-    return E
+    first = _page((GROUPS[0], 1)); n = max(1, -(-first[1] // 100))
+    jobs = [(g, p) for g in GROUPS for p in range(1, n + 1) if (g, p) != (GROUPS[0], 1)]
+    with ThreadPoolExecutor(10) as ex: rest = [r[0] for r in ex.map(_page, jobs)]
+    return _merge([first[0]] + rest)
 
 def live():
-    d = (get(f"{B}/factsCenter/liveOrPrematchEvents?sportId=sr%3Asport%3A1&marketId=1,18,60") or {}).get("data") or []
-    return [e for t in d for e in t["events"]]
+    def one(g):
+        d = (get(f"{B}/factsCenter/liveOrPrematchEvents?sportId=sr%3Asport%3A1&marketId={g}") or {}).get("data") or []
+        return [e for t in d for e in t["events"]]
+    with ThreadPoolExecutor(5) as ex: return _merge(list(ex.map(one, GROUPS)))
 
 def mk(e):
     out = {}
@@ -50,17 +63,54 @@ def book(e, mid, spec, oid):
     try: return json.loads(r)["data"]["shareCode"]
     except Exception: return "-"
 
+def _fair(ft):   # de-margined full-time win/draw/win chances
+    if not all(k in ft for k in ("Home", "Draw", "Away")): return None
+    q = {k: 1 / ft[k][0] for k in ("Home", "Draw", "Away")}; t = sum(q.values())
+    return {k: v / t for k, v in q.items()}
+
+def cross(M, R=1.25):
+    """prices that must agree with another market on the same game; flag when one pays 25%+ more than it can be worth"""
+    A = []; ft = M.get(("1", "")) or {}; p = _fair(ft)
+    def flag(rule, why, mid, spec, k, o, lim):
+        if k in o and o[k][0] >= 1.5 and o[k][0] > lim * R: A.append((rule, why + f" (should be about {lim:.2f})", mid, spec, k, o[k]))
+    if p:
+        dc = M.get(("10", "")) or {}
+        for k, a, b in (("Home or Draw", "Home", "Draw"), ("Draw or Away", "Draw", "Away"), ("Home or Away", "Home", "Away")):
+            if k in dc: flag("R6", f"Double Chance {k} at {dc[k][0]} but 1X2 says it's a {p[a]+p[b]:.0%} chance", "10", "", k, dc, 1 / (p[a] + p[b]))
+        dnb = M.get(("11", "")) or {}
+        for k in ("Home", "Away"):
+            if k in dnb: flag("R7", f"Draw No Bet {k} at {dnb[k][0]} doesn't fit the 1X2", "11", "", k, dnb, (p["Home"] + p["Away"]) / p[k])
+        ah = {spec: o for (mid, spec), o in M.items() if mid == "16"}
+        if "hcp=-0.5" in ah: flag("R11", f"Asian Handicap Home -0.5 at {ah['hcp=-0.5'].get('Home (-0.5)', (0,))[0]} is the same bet as 1X2 Home {ft['Home'][0]}", "16", "hcp=-0.5", "Home (-0.5)", ah["hcp=-0.5"], ft["Home"][0])
+        if "hcp=0.5" in ah: flag("R11", f"Asian Handicap Away -0.5 is the same bet as 1X2 Away {ft['Away'][0]}", "16", "hcp=0.5", "Away (-0.5)", ah["hcp=0.5"], ft["Away"][0])
+        if "hcp=0" in ah and dnb:
+            for k, h in (("Home", "Home (0)"), ("Away", "Away (0)")):
+                if k in dnb: flag("R11", f"Asian Handicap {h} is the same bet as Draw No Bet {k} {dnb[k][0]}", "16", "hcp=0", h, ah["hcp=0"], dnb[k][0])
+    gg = M.get(("29", "")) or {}; u15 = (M.get(("18", "total=1.5")) or {}).get("Under 1.5")
+    if u15 and "No" in gg: flag("R8", f"GG/NG No at {gg['No'][0]} - but 'no goal for one side' is at least as likely as Under 1.5 ({u15[0]})", "29", "", "No", gg, u15[0])
+    for (mid, spec), o in list(M.items()):
+        if mid == "68" and spec.startswith("total="):          # 1st-half goals can never be more than full-match goals
+            ln = spec.split("=")[1]; full = M.get(("18", spec)) or {}
+            if f"Under {ln}" in o and f"Under {ln}" in full: flag("R9", f"1st Half Under {ln} at {o[f'Under {ln}'][0]} pays more than full-match Under {ln}", "68", spec, f"Under {ln}", o, full[f"Under {ln}"][0])
+            if f"Over {ln}" in full and f"Over {ln}" in o: flag("R9", f"full-match Over {ln} at {full[f'Over {ln}'][0]} pays more than 1st Half Over {ln}", "18", spec, f"Over {ln}", full, o[f"Over {ln}"][0])
+        if mid in ("19", "20") and spec.startswith("total="):   # one team's goals can never be more than the match total
+            ln = spec.split("=")[1]; full = M.get(("18", spec)) or {}; side = "Home" if mid == "19" else "Away"
+            if f"Under {ln}" in o and f"Under {ln}" in full: flag("R10", f"{side} team Under {ln} at {o[f'Under {ln}'][0]} pays more than match Under {ln}", mid, spec, f"Under {ln}", o, full[f"Under {ln}"][0])
+            if f"Over {ln}" in full and f"Over {ln}" in o: flag("R10", f"match Over {ln} at {full[f'Over {ln}'][0]} pays more than {side} team Over {ln}", "18", spec, f"Over {ln}", full, o[f"Over {ln}"][0])
+    return A
+
 def check(e, is_live):
     M = mk(e); A = []
     ft = M.get(("1", "")) or {}; ht = M.get(("60", "")) or {}
     # R2 broken market: implied total < 97%
     for (mid, spec), o in M.items():
-        if (mid in ("1", "60") and len(o) == 3) or (mid == "18" and len(o) == 2):
+        if (mid in ("1", "60") and len(o) == 3) or (mid in ("18", "68", "19", "20", "29", "11", "16") and len(o) == 2):
             tot = sum(1 / v[0] for v in o.values())
             if tot < 0.97:
                 best = max(o.items(), key=lambda kv: kv[1][0])
                 A.append(("R2", f"market adds up to {tot:.0%} - every outcome can be backed for profit", mid, spec, best[0], best[1]))
     if not is_live:
+        A += cross(M)
         # R1 1st half far above full time
         for side in ("Home", "Away"):
             if side in ft and side in ht and ft[side][0] <= 3.0 and ht[side][0] >= max(4 * ft[side][0], ft[side][0] + 6):
@@ -145,7 +195,7 @@ def main():
                         a = dict(key=key, ts=time.time(), who=WHO, when=dt.datetime.now(W).strftime("%a %H:%M"), rule=rule,
                                  kick=dt.datetime.fromtimestamp(e["estimateStartTime"] / 1000, W).strftime("%a %H:%M"),
                                  match=f"{e['homeTeamName']} vs {e['awayTeamName']}", league=(e.get("sport", {}).get("category", {}).get("tournament", {}) or {}).get("name", ""),
-                                 pick=f"{ {'1':'1X2','60':'1st Half 1X2','18':'Over/Under'}.get(mid, mid)} {pick}", odds=od, why=why,
+                                 pick=f"{ {'1':'1X2','60':'1st Half 1X2','18':'Over/Under','10':'Double Chance','11':'Draw No Bet','29':'GG/NG','68':'1st Half Over/Under','19':'Home team goals','20':'Away team goals','16':'Asian Handicap'}.get(mid, mid)} {pick}", odds=od, why=why,
                                  status="LIVE " + str(e.get("setScore", "")) + " " + str(e.get("playedSeconds", "")) if is_live else "before kick-off",
                                  code=book(e, mid, spec, oid))
                         new.append(a)
