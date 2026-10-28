@@ -14,7 +14,7 @@ import json, os, sys, time, subprocess, datetime as dt
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
 HERE = os.environ.get("SCAN_HOME") or os.path.dirname(os.path.abspath(__file__)); SITE = os.environ.get("SITE") or os.path.expanduser("~/ticket_tracker/site")
 WHO = os.environ.get("SCAN_WHO", "Mac")   # "Mac" here, "cloud" in the GitHub job
-LOG = os.path.join(HERE, "alerts.log"); JS = os.path.join(HERE, "alerts.json"); PREV = {}
+LOOP = [0]; LOG = os.path.join(HERE, "alerts.log"); JS = os.path.join(HERE, "alerts.json"); PREV = {}
 W = dt.timezone(dt.timedelta(hours=1)); B = "https://www.sportybet.com/api/ng"
 
 def get(u):
@@ -48,7 +48,70 @@ def live():
         return [e for t in d for e in t["events"]]
     with ThreadPoolExecutor(5) as ex: return _merge(list(ex.map(one, GROUPS)))
 
+# ---------------- Bet9ja (sports.bet9ja.com) - same checks, its own feed; Bet9ja booking codes can't be made, so alerts say "search the match on Bet9ja"
+B9 = "https://sports.bet9ja.com/desktop/feapi"; B9V = "v_cache_version=1.330.1.251"
+def b9get(u):
+    for i in range(3):
+        try:
+            d = json.loads(subprocess.run(["curl", "-s", "-m", "40", "-A", UA, "-H", "Referer: https://sports.bet9ja.com/", u], capture_output=True, text=True).stdout)
+            if d.get("R") == "OK": return d["D"]
+        except Exception: time.sleep(2)
+    return None
+def b9map(O, pre):
+    """Bet9ja odds keys (S_1X2_1, S_OU@2.5_O, LIVES_DC_1X, ...) -> {(sportybet market id, spec): {outcome: (odds, key)}}"""
+    M = {}; side = {"1": "Home", "X": "Draw", "2": "Away"}; dc = {"1X": "Home or Draw", "12": "Home or Away", "X2": "Draw or Away"}
+    for k, v in O.items():
+        try: od = float(v["v"] if isinstance(v, dict) else v)
+        except Exception: continue
+        if isinstance(v, dict) and not v.get("a", True): continue
+        if od <= 1 or not k.startswith(pre): continue
+        b = k[len(pre):]; mkt, _, sel = b.rpartition("_"); line = ""
+        if "@" in mkt: mkt, line = mkt.split("@", 1)
+        key = None
+        if mkt == "1X2" and sel in side: key, name = ("1", ""), side[sel]
+        elif mkt == "1X21T" and sel in side: key, name = ("60", ""), side[sel]
+        elif mkt == "DC" and sel in dc: key, name = ("10", ""), dc[sel]
+        elif mkt == "OU" and line and sel in ("O", "U"): key, name = ("18", "total=" + line), ("Over " if sel == "O" else "Under ") + line
+        elif mkt == "OU1T" and line and sel in ("O", "U"): key, name = ("68", "total=" + line), ("Over " if sel == "O" else "Under ") + line
+        elif mkt == "HAOU" and line and sel in ("OH", "UH", "OA", "UA"): key, name = ("19" if sel[1] == "H" else "20", "total=" + line), ("Over " if sel[0] == "O" else "Under ") + line
+        if key: M.setdefault(key, {})[name] = (od, k)
+    return M
+def b9_upcoming():
+    d = b9get(f"{B9}/PalimpsestAjax/GetSports?DISP=0&{B9V}")
+    if not d: return []
+    soon = [gk for s in d["PAL"]["1"]["SG"].values() for gk, g in s.get("G", {}).items()
+            if g.get("D") and time.mktime(time.strptime(g["D"], "%Y-%m-%d %H:%M:%S")) < time.time() + 24 * 3600]
+    jobs = [(g, gm) for g in soon for gm in (1, 150, 171)]
+    def one(a):
+        x = b9get(f"{B9}/PalimpsestAjax/GetEventsInGroupV2?GROUPID={a[0]}&DISP=0&GROUPMARKETID={a[1]}&{B9V}") or {}
+        E = x.get("E") or []; return E if isinstance(E, list) else list(E.values())
+    with ThreadPoolExecutor(12) as ex: L = list(ex.map(one, jobs))
+    ev = {}
+    for E in L:
+        for e in E:
+            x = ev.setdefault(e["ID"], {"eventId": f"b9:{e['ID']}", "book": "Bet9ja", "O": {}, "DS": e["DS"], "UTC": e.get("STARTDATEUTC"), "league": f"{e.get('SG','')} {e.get('GN','')}"})
+            x["O"].update(e.get("O") or {})
+    return [b9ev(x, b9map(x["O"], "S_")) for x in ev.values()]
+def b9_live():
+    d = b9get(f"{B9}/PalimpsestLiveAjax/GetLiveEventsV4?{B9V}")
+    if not d: return []
+    out = []
+    for e in (d.get("E") or {}).values():
+        if str(e.get("SID")) != "3000001": continue
+        a = (e.get("EOD") or {}).get("A") or {}
+        x = {"eventId": f"b9:{e['ID']}", "book": "Bet9ja", "DS": e["DS"], "UTC": e.get("STARTDATEUTC"), "league": ""}
+        y = b9ev(x, b9map((e.get("EOD") or {}).get("OD") or e.get("OD") or {}, "LIVES_"))
+        y["setScore"] = ((a.get("R") or {}).get("S") or "0-0").replace("-", ":"); y["playedSeconds"] = f"{a.get('T', 0)}:00"
+        out.append(y)
+    return out
+def b9ev(x, M):
+    h, _, a = x["DS"].partition(" - ")
+    try: ko = dt.datetime.strptime(x["UTC"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc).timestamp() * 1000
+    except Exception: ko = 0
+    return {"eventId": x["eventId"], "book": "Bet9ja", "homeTeamName": h, "awayTeamName": a or "", "estimateStartTime": ko, "M": M, "b9league": x.get("league", "")}
+
 def mk(e):
+    if "M" in e: return e["M"]
     out = {}
     for m in e.get("markets") or []:
         if m.get("status", 0) != 0: continue
@@ -145,18 +208,18 @@ def notify(t, m, code=None):
     except Exception: pass
     if CFG.get("ntfy_topic"):   # phone push via the free ntfy app (subscribe to this topic)
         hdr = ["-H", "Title: " + t.encode("ascii", "ignore").decode(), "-H", "Priority: urgent", "-H", "Tags: rotating_light"]
-        if code and code != "-": hdr += ["-H", f"Click: https://www.sportybet.com/ng/?shareCode={code}"]
+        if code and code != "-" and " " not in code: hdr += ["-H", f"Click: https://www.sportybet.com/ng/?shareCode={code}"]
         try: subprocess.run(["curl", "-s", "-m", "20", *hdr, "-d", m, "https://ntfy.sh/" + CFG["ntfy_topic"]], capture_output=True, timeout=30)
         except Exception: pass
 
 def page(alerts):
-    rows = "".join(f"<tr><td>{a['when']}</td><td>{a['kick']}</td><td>{a['match']}<br><small>{a['league']}</small></td><td><b>{a['pick']}</b> @ {a['odds']}<br><small>{a['why']}</small></td><td class=c>{a['code']}</td><td>{a['status']}</td></tr>" for a in reversed(alerts[-200:]))
+    rows = "".join(f"<tr><td>{a['when']}</td><td>{a['kick']}</td><td>{a['match']}<br><small>{a.get('bookie','SportyBet')} - {a['league']}</small></td><td><b>{a['pick']}</b> @ {a['odds']}<br><small>{a['why']}</small></td><td class=c>{a['code']}</td><td>{a['status']}</td></tr>" for a in reversed(alerts[-200:]))
     html = f"""<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Odds Glitch Alerts</title>
 <style>:root{{--bg:#fff;--fg:#111;--mut:#666;--line:#ddd;--acc:#0a7}}@media (prefers-color-scheme:dark){{:root{{--bg:#111;--fg:#eee;--mut:#999;--line:#333;--acc:#3c9}}}}
 body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padding:16px}}h1{{font-size:20px;margin:0 0 4px}}p{{color:var(--mut);margin:0 0 12px}}
 .t{{overflow-x:auto}}table{{border-collapse:collapse;width:100%;min-width:640px}}td,th{{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}}
 .c{{font:600 16px ui-monospace,monospace;color:var(--acc)}}small{{color:var(--mut)}}a{{color:var(--acc)}}</style>
-<h1>Odds glitch alerts</h1><p>Prices on SportyBet that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
+<h1>Odds glitch alerts</h1><p>Prices on SportyBet and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
 <p>SportyBet can void bets on obvious pricing errors, and live errors last seconds - always check the price on the slip before you stake.</p>
 <div class=t><table><tr><th>Spotted</th><th>Kick-off</th><th>Match</th><th>Price</th><th>Booking code</th><th>When</th></tr>{rows or '<tr><td colspan=6>No glitches spotted yet.</td></tr>'}</table></div></html>"""
     try:
@@ -166,7 +229,7 @@ body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padd
         old = json.load(open(sh)) if os.path.exists(sh) else []; keys = {a["key"] for a in alerts}
         alerts[:] = sorted([a for a in old if a["key"] not in keys] + alerts, key=lambda a: a["ts"])[-500:]
         json.dump(alerts, open(sh, "w"))
-        rows = "".join(f"<tr><td>{a['when']}<br><small>{a.get('who','Mac')}</small></td><td>{a['kick']}</td><td>{a['match']}<br><small>{a['league']}</small></td><td><b>{a['pick']}</b> @ {a['odds']}<br><small>{a['why']}</small></td><td class=c>{a['code']}</td><td>{a['status']}</td></tr>" for a in reversed(alerts[-200:]))
+        rows = "".join(f"<tr><td>{a['when']}<br><small>{a.get('who','Mac')}</small></td><td>{a['kick']}</td><td>{a['match']}<br><small>{a.get('bookie','SportyBet')} - {a['league']}</small></td><td><b>{a['pick']}</b> @ {a['odds']}<br><small>{a['why']}</small></td><td class=c>{a['code']}</td><td>{a['status']}</td></tr>" for a in reversed(alerts[-200:]))
         html = html.split("<tr><th>")[0] + "<tr><th>Spotted</th><th>Kick-off</th><th>Match</th><th>Price</th><th>Booking code</th><th>When</th></tr>" + (rows or "<tr><td colspan=6>No glitches spotted yet.</td></tr>") + "</table></div></html>"
         open(os.path.join(SITE, "alerts.html"), "w").write(html)
         g("add", "alerts.html", "glitch/alerts.json")
@@ -184,9 +247,14 @@ def main():
     seen = {a["key"]: a["ts"] for a in alerts}
     if not os.path.exists(os.path.join(SITE, "alerts.html")): page(alerts)
     while True:
-        t0 = time.time(); new = []
+        t0 = time.time(); new = []; sizes = []
         try:
-            for is_live, E in ((False, upcoming()), (True, live())):
+            feeds = [(False, upcoming()), (True, live())]
+            LOOP[0] += 1
+            if os.environ.get("NO_BET9JA") != "1" and (LOOP[0] % 2 == 1 or "--once" in sys.argv):
+                feeds += [(False, b9_upcoming()), (True, b9_live())]
+            sizes = [len(E) for _, E in feeds]
+            for is_live, E in feeds:
                 for e in E:
                     for rule, why, mid, spec, pick, (od, oid) in check(e, is_live):
                         key = f"{e['eventId']}|{rule}|{mid}|{spec}|{pick}"
@@ -194,19 +262,19 @@ def main():
                         seen[key] = time.time()
                         a = dict(key=key, ts=time.time(), who=WHO, when=dt.datetime.now(W).strftime("%a %H:%M"), rule=rule,
                                  kick=dt.datetime.fromtimestamp(e["estimateStartTime"] / 1000, W).strftime("%a %H:%M"),
-                                 match=f"{e['homeTeamName']} vs {e['awayTeamName']}", league=(e.get("sport", {}).get("category", {}).get("tournament", {}) or {}).get("name", ""),
+                                 match=f"{e['homeTeamName']} vs {e['awayTeamName']}", league=e.get("b9league") or (e.get("sport", {}).get("category", {}).get("tournament", {}) or {}).get("name", ""),
                                  pick=f"{ {'1':'1X2','60':'1st Half 1X2','18':'Over/Under','10':'Double Chance','11':'Draw No Bet','29':'GG/NG','68':'1st Half Over/Under','19':'Home team goals','20':'Away team goals','16':'Asian Handicap'}.get(mid, mid)} {pick}", odds=od, why=why,
                                  status="LIVE " + str(e.get("setScore", "")) + " " + str(e.get("playedSeconds", "")) if is_live else "before kick-off",
-                                 code=book(e, mid, spec, oid))
+                                 code=book(e, mid, spec, oid) if e.get("book") != "Bet9ja" else "search on Bet9ja", bookie=e.get("book", "SportyBet"))
                         new.append(a)
                         line = f"{a['when']}  {a['match']}  {a['pick']} @ {od}  ({why})  code {a['code']}  [{a['status']}]"
                         print(line, flush=True); open(LOG, "a").write(line + "\n")
-                        notify(f"Odds glitch: {a['pick']} @ {od}", f"{a['match']} ({a['kick']}, {a['status']}) - {why} - booking code {a['code']}", a['code'])
+                        notify(f"{a['bookie']} glitch: {a['pick']} @ {od}", f"{a['match']} ({a['kick']}, {a['status']}) - {why} - booking code {a['code']}", a['code'])
         except Exception as x:
             print("scan error", x, flush=True)
         if new:
             alerts += new; page(alerts); json.dump(alerts[-500:], open(JS, "w"))
-        print(dt.datetime.now(W).strftime("%H:%M:%S"), "scan done", round(time.time() - t0), "s,", len(new), "new alerts", flush=True)
+        print(dt.datetime.now(W).strftime("%H:%M:%S"), "scan done", round(time.time() - t0), "s,", len(new), "new alerts | games SportyBet", "+".join(map(str, sizes[:2])), "Bet9ja", "+".join(map(str, sizes[2:])) or "skipped", flush=True)
         if "--once" in sys.argv: break
         time.sleep(max(20, 90 - (time.time() - t0)))
 
