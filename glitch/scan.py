@@ -151,6 +151,73 @@ def ms_book(e, mid, spec, oid):
     d = msreq("/orders/real-sports/order/share", {"selections": [{"eventId": e["msid"], "marketId": mid, "specifier": spec or "", "outcomeId": oid}]})
     return (d or {}).get("shareCode") or "-"
 
+# ---------------- BetKing (betking.com) - open feeds on sportsapicdn-desktop.betking.com; no booking codes from outside, alerts say "search on BetKing"
+BK = "https://sportsapicdn-desktop.betking.com/api/feeds"
+def bkget(path):
+    for i in range(3):
+        try: return json.loads(subprocess.run(["curl", "-s", "-m", "60", "-A", UA, BK + path], capture_output=True, text=True).stdout)
+        except Exception: time.sleep(2)
+    return None
+def bkmap(rows):
+    """rows: (typeId, typeName, specialValue, [(selectionName, odds, active, id)]) -> SportyBet-style market layout"""
+    M = {}; one = {"1": "Home", "X": "Draw", "2": "Away"}
+    for tid, tname, sv, sel in rows:
+        tname = (tname or "").lower(); sv = ("%g" % float(sv)) if sv not in (None, "", 0, 0.0) else ""
+        for nm, od, act, oid in sel:
+            if not act or od is None or od <= 1: continue
+            key = name = None
+            if tid == 110 and nm in one: key, name = ("1", ""), one[nm]
+            elif tid == 142 or nm in ("1 HT", "X HT", "2 HT"):
+                if nm.split()[0] in one: key, name = ("60", ""), one[nm.split()[0]]
+            elif tid == 146 and nm in ("1X", "12", "X2"): key, name = ("10", ""), {"1X": "Home or Draw", "12": "Home or Away", "X2": "Draw or Away"}[nm]
+            elif tid == 160 and sv and nm in ("Over", "Under"): key, name = ("18", "total=" + sv), f"{nm} {sv}"
+            elif tid == 302 and nm in ("GG", "NG"): key, name = ("29", ""), "Yes" if nm == "GG" else "No"
+            elif tid == 147 and nm in ("1 DNB", "2 DNB"): key, name = ("11", ""), "Home" if nm[0] == "1" else "Away"
+            elif sv and nm in ("Over", "Under") and "total goals home" in tname: key, name = ("19", "total=" + sv), f"{nm} {sv}"
+            elif sv and nm in ("Over", "Under") and "total goals away" in tname: key, name = ("20", "total=" + sv), f"{nm} {sv}"
+            if key: M.setdefault(key, {})[name] = (od, oid)
+    return M
+def bk_upcoming():
+    today = dt.datetime.now(W).date(); end = time.time() + 24 * 3600; ev = {}
+    def page(a):
+        day, area, skip = a
+        d = bkget(f"/prematch/GetPagedEvents/en/{day}/{area}/0/1/{skip}/50") or {}
+        return d.get("TotalNoOfItems", 0), [it for am in d.get("AreaMatches") or [] for it in am.get("Items") or []]
+    jobs = []
+    for day in (today, today + dt.timedelta(days=1)):
+        tot, first = page((day, 531, 0)); jobs += [(day, 531, k) for k in range(50, tot, 50)] + [(day, 560, k) for k in range(0, tot, 50)]
+        for it in first: ev.setdefault(it["ItemID"], [it, []])[1].append(it)
+    with ThreadPoolExecutor(8) as ex:
+        for _, items in ex.map(page, jobs):
+            for it in items: ev.setdefault(it["ItemID"], [it, []])[1].append(it)
+    out = []
+    for iid, (it, parts) in ev.items():
+        try: ko = dt.datetime.fromisoformat(it["ItemDate"]).timestamp()
+        except Exception: continue
+        if not time.time() < ko < end: continue
+        rows = [(oc["OddsType"]["OddsTypeID"], oc["OddsType"]["OddsTypeName"], oc.get("SpecialBetValue"),
+                 [(o["OddAttribute"]["OddName"], (o.get("Outcome") or {}).get("OddOutcome"), (o.get("Outcome") or {}).get("ScheduleStatus", 0) == 0, o.get("MatchOddsID")) for o in oc.get("MatchOdds") or []])
+                for p in parts for oc in p.get("OddsCollection") or []]
+        h, _, a = it["ItemName"].partition(" - ")
+        out.append({"eventId": f"bk:{iid}", "book": "BetKing", "homeTeamName": h, "awayTeamName": a, "estimateStartTime": ko * 1000,
+                    "M": bkmap(rows), "b9league": f"{it.get('CategoryName','')} {it.get('TournamentName','')}"})
+    return out
+def bk_live():
+    d = bkget("/live/overview/general/en") or {}; out = []
+    for sp in d.get("Sports") or []:
+        if sp.get("Name") != "Football": continue                 # skips FootballGO / eSports (virtual)
+        for t in sp.get("Tournaments") or []:
+            for e in t.get("Events") or []:
+                rows = [(m.get("TypeId"), m.get("Name"), m.get("SpecialValue"),
+                         [(x["Name"], (x.get("Odds") or [{}])[0].get("Value"), m.get("Status") == 1 and (x.get("Odds") or [{}])[0].get("Status") == 1, x.get("Id")) for x in m.get("Selections") or []])
+                        for m in e.get("Markets") or []]
+                h, _, a = e["Name"].partition(" - ")
+                try: ko = dt.datetime.fromisoformat(e["Date"]).timestamp() * 1000
+                except Exception: ko = 0
+                out.append({"eventId": f"bk:{e['Id']}", "book": "BetKing", "homeTeamName": h, "awayTeamName": a, "estimateStartTime": ko, "M": bkmap(rows),
+                            "b9league": f"{e.get('CategoryName','')} {e.get('TournamentName','')}", "setScore": e.get("Score") or "0:0", "playedSeconds": f"{e.get('MatchTime') or 0}:00"})
+    return out
+
 def mk(e):
     if "M" in e: return e["M"]
     out = {}
@@ -260,7 +327,7 @@ def page(alerts):
 body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padding:16px}}h1{{font-size:20px;margin:0 0 4px}}p{{color:var(--mut);margin:0 0 12px}}
 .t{{overflow-x:auto}}table{{border-collapse:collapse;width:100%;min-width:640px}}td,th{{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}}
 .c{{font:600 16px ui-monospace,monospace;color:var(--acc)}}small{{color:var(--mut)}}a{{color:var(--acc)}}</style>
-<h1>Odds glitch alerts</h1><p>Prices on SportyBet, MSport and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
+<h1>Odds glitch alerts</h1><p>Prices on SportyBet, MSport, BetKing and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
 <p>SportyBet can void bets on obvious pricing errors, and live errors last seconds - always check the price on the slip before you stake.</p>
 <div class=t><table><tr><th>Spotted</th><th>Kick-off</th><th>Match</th><th>Price</th><th>Booking code</th><th>When</th></tr>{rows or '<tr><td colspan=6>No glitches spotted yet.</td></tr>'}</table></div></html>"""
     try:
@@ -293,7 +360,8 @@ def main():
             feeds = [(False, upcoming()), (True, live())]
             LOOP[0] += 1
             feeds += [(True, ms_live())]
-            if LOOP[0] % 2 == 0 or "--once" in sys.argv: feeds += [(False, ms_upcoming())]
+            feeds += [(True, bk_live())]
+            if LOOP[0] % 2 == 0 or "--once" in sys.argv: feeds += [(False, ms_upcoming()), (False, bk_upcoming())]
             if os.environ.get("NO_BET9JA") != "1" and (LOOP[0] % 2 == 1 or "--once" in sys.argv):
                 feeds += [(False, b9_upcoming()), (True, b9_live())]
             sizes = [len(E) for _, E in feeds]
@@ -308,7 +376,7 @@ def main():
                                  match=f"{e['homeTeamName']} vs {e['awayTeamName']}", league=e.get("b9league") or (e.get("sport", {}).get("category", {}).get("tournament", {}) or {}).get("name", ""),
                                  pick=f"{ {'1':'1X2','60':'1st Half 1X2','18':'Over/Under','10':'Double Chance','11':'Draw No Bet','29':'GG/NG','68':'1st Half Over/Under','19':'Home team goals','20':'Away team goals','16':'Asian Handicap'}.get(mid, mid)} {pick}", odds=od, why=why,
                                  status="LIVE " + str(e.get("setScore", "")) + " " + str(e.get("playedSeconds", "")) if is_live else "before kick-off",
-                                 code=ms_book(e, mid, spec, oid) if e.get("book") == "MSport" else book(e, mid, spec, oid) if e.get("book") != "Bet9ja" else "search on Bet9ja", bookie=e.get("book", "SportyBet"))
+                                 code=ms_book(e, mid, spec, oid) if e.get("book") == "MSport" else book(e, mid, spec, oid) if e.get("book") not in ("Bet9ja", "BetKing") else f"search on {e['book']}" if e.get("book") in ("Bet9ja", "BetKing") else "-", bookie=e.get("book", "SportyBet"))
                         new.append(a)
                         line = f"{a['when']}  {a['match']}  {a['pick']} @ {od}  ({why})  code {a['code']}  [{a['status']}]"
                         print(line, flush=True); open(LOG, "a").write(line + "\n")
