@@ -6,6 +6,8 @@
   R3 prematch: goal lines out of order (Over 3.5 cheaper than Over 2.5, etc.)
   R4 prematch: a price that jumped 3x or more since the last scan
   R5 live:     the team that is leading is still priced 3.0+ to win (feed stuck / not updated)
+  R12 prematch: the same game and pick on SportyBet, MSport, BetKing and Bet9ja - one bookmaker paying 25%+ above the
+               fair price the others agree on (needs 2+ other bookmakers; prices 1.50-8.00)
   R6-R11 prematch: double chance, draw no bet, Asian handicap, GG/NG, 1st-half goals and team goals checked
                against the markets they must agree with; flagged when one pays 25%+ more than it can be worth
 Each alert: Mac notification + sound, a ready booking code, a line in alerts.log, and the alerts page on the site.
@@ -89,7 +91,7 @@ def b9_upcoming():
     ev = {}
     for E in L:
         for e in E:
-            x = ev.setdefault(e["ID"], {"eventId": f"b9:{e['ID']}", "book": "Bet9ja", "O": {}, "DS": e["DS"], "UTC": e.get("STARTDATEUTC"), "league": f"{e.get('SG','')} {e.get('GN','')}"})
+            x = ev.setdefault(e["ID"], {"eventId": f"b9:{e['ID']}", "book": "Bet9ja", "O": {}, "DS": e["DS"], "UTC": e.get("STARTDATEUTC"), "league": f"{e.get('SG','')} {e.get('GN','')}", "EXTID": e.get("EXTID")})
             x["O"].update(e.get("O") or {})
     return [b9ev(x, b9map(x["O"], "S_")) for x in ev.values()]
 def b9_live():
@@ -99,7 +101,7 @@ def b9_live():
     for e in (d.get("E") or {}).values():
         if str(e.get("SID")) != "3000001": continue
         a = (e.get("EOD") or {}).get("A") or {}
-        x = {"eventId": f"b9:{e['ID']}", "book": "Bet9ja", "DS": e["DS"], "UTC": e.get("STARTDATEUTC"), "league": ""}
+        x = {"eventId": f"b9:{e['ID']}", "book": "Bet9ja", "DS": e["DS"], "UTC": e.get("STARTDATEUTC"), "league": "", "EXTID": e.get("EXTID")}
         y = b9ev(x, b9map((e.get("EOD") or {}).get("OD") or e.get("OD") or {}, "LIVES_"))
         y["setScore"] = ((a.get("R") or {}).get("S") or "0-0").replace("-", ":"); y["playedSeconds"] = f"{a.get('T', 0)}:00"
         out.append(y)
@@ -108,7 +110,8 @@ def b9ev(x, M):
     h, _, a = x["DS"].partition(" - ")
     try: ko = dt.datetime.strptime(x["UTC"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc).timestamp() * 1000
     except Exception: ko = 0
-    return {"eventId": x["eventId"], "book": "Bet9ja", "homeTeamName": h, "awayTeamName": a or "", "estimateStartTime": ko, "M": M, "b9league": x.get("league", "")}
+    return {"eventId": x["eventId"], "book": "Bet9ja", "homeTeamName": h, "awayTeamName": a or "", "estimateStartTime": ko, "M": M, "b9league": x.get("league", ""),
+            "sr": f"sr:match:{x['EXTID']}" if x.get("EXTID") else None}
 
 # ---------------- MSport (msport.com/ng) - same market ids as SportyBet; needs header operId: 2; booking codes work
 MS = "https://www.msport.com/api/ng"; MSM = "1,60,18,10,11,29,68,19,20,16"
@@ -125,7 +128,7 @@ def msev(e, product=3):
     mk_ = [{"id": str(m["id"]), "specifier": m.get("specifiers") or "", "status": 0 if m.get("status") in (0, None) else 1,
             "outcomes": [{"desc": o["description"], "odds": o["odds"], "isActive": o.get("isActive", 1), "id": o["id"]} for o in m.get("outcomes") or []]}
            for m in e.get("markets") or [] if m.get("product", product) == product]
-    return {"eventId": "ms:" + e["eventId"], "msid": e["eventId"], "book": "MSport", "homeTeamName": e["homeTeam"], "awayTeamName": e["awayTeam"],
+    return {"eventId": "ms:" + e["eventId"], "msid": e["eventId"], "sr": e["eventId"], "book": "MSport", "homeTeamName": e["homeTeam"], "awayTeamName": e["awayTeam"],
             "estimateStartTime": e["startTime"], "markets": mk_, "b9league": f"{e.get('category','')} {e.get('tournament','')}",
             "setScore": e.get("scoreOfWholeMatch") or "0:0", "playedSeconds": e.get("playedTime") or "0:0"}
 def ms_upcoming():
@@ -199,7 +202,7 @@ def bk_upcoming():
                  [(o["OddAttribute"]["OddName"], (o.get("Outcome") or {}).get("OddOutcome"), (o.get("Outcome") or {}).get("ScheduleStatus", 0) == 0, o.get("MatchOddsID")) for o in oc.get("MatchOdds") or []])
                 for p in parts for oc in p.get("OddsCollection") or []]
         h, _, a = it["ItemName"].partition(" - ")
-        out.append({"eventId": f"bk:{iid}", "book": "BetKing", "homeTeamName": h, "awayTeamName": a, "estimateStartTime": ko * 1000,
+        out.append({"eventId": f"bk:{iid}", "book": "BetKing", "sr": f"sr:match:{it['ExtProvIDItem']}" if it.get("ExtProvIDItem") else None, "homeTeamName": h, "awayTeamName": a, "estimateStartTime": ko * 1000,
                     "M": bkmap(rows), "b9league": f"{it.get('CategoryName','')} {it.get('TournamentName','')}"})
     return out
 def bk_live():
@@ -271,6 +274,49 @@ def cross(M, R=1.25):
     return A
 
 VIRTUAL = re.compile(r"\bSRL\b|simulated|virtual|\bGO\.|esoccer|e-soccer|\(e\)", re.I)
+PRE = {}; CACHE = {}
+def remember(E):
+    """keep each bookmaker's latest pre-match prices: for R5 and for the cross-bookmaker check"""
+    if not E: return
+    b = E[0].get("book", "SportyBet"); idx = {}
+    for e in E:
+        k = e.get("sr") or (e["eventId"] if e["eventId"].startswith("sr:match") else None)
+        if not k: continue
+        M = mk(e); idx[k] = (e, M); ft = M.get(("1", "")) or {}
+        if len(ft) == 3: PRE[k] = {n: v[0] for n, v in ft.items()}
+    CACHE[b] = (time.time(), idx)
+
+def _probs(o, mid):
+    q = {k: 1 / v[0] for k, v in o.items()}; t = sum(q.values()); n = 2 if mid == "10" else 1   # double chance outcomes overlap: chances add to 2
+    return {k: n * v / t for k, v in q.items()} if t else {}
+
+def cross_books(R=1.25):
+    """one bookmaker paying 30%+ more than the fair price the other bookmakers agree on (at least 2 of them)"""
+    fresh = {b: idx for b, (ts, idx) in CACHE.items() if time.time() - ts < 9 * 60}
+    out = []
+    if len(fresh) < 3: return out
+    for k in set().union(*[set(i) for i in fresh.values()]):
+        have = {b: idx[k] for b, idx in fresh.items() if k in idx}
+        if len(have) < 3: continue
+        e0 = next(iter(have.values()))[0]
+        if e0.get("estimateStartTime", 0) / 1000 < time.time() + 20 * 60: continue
+        for b, (e, M) in have.items():
+            if VIRTUAL.search(f"{e.get('homeTeamName','')} {e.get('awayTeamName','')}"): continue
+            for key in [x for x in M if x[0] in ("1", "60", "10", "11", "29") or (x[0] == "18" and x[1] in ("total=1.5", "total=2.5", "total=3.5"))]:
+                o = M[key]
+                if len(o) < (3 if key[0] in ("1", "60", "10") else 2): continue
+                others = [_probs(M2[key], key[0]) for b2, (e2, M2) in have.items() if b2 != b and key in M2 and len(M2[key]) == len(o)]
+                raw = [M2[key] for b2, (e2, M2) in have.items() if b2 != b and key in M2]
+                if len(others) < 2: continue
+                for pick, (od, oid) in o.items():
+                    ps = [p[pick] for p in others if pick in p]
+                    if len(ps) < 2 or not 1.5 <= od <= 8: continue   # long shots differ a lot between bookmakers - not glitches
+                    fair = 1 / (sum(ps) / len(ps)); best = max(r[pick][0] for r in raw if pick in r)
+                    if od >= R * fair and od >= 1.15 * best:
+                        names = ", ".join(f"{b2} {M2[key][pick][0]}" for b2, (e2, M2) in have.items() if b2 != b and key in M2 and pick in M2[key])
+                        out.append((e, ("R12", f"{b} pays {od} - the other bookmakers pay {names} (fair about {fair:.2f})", key[0], key[1], pick, (od, oid))))
+    return out
+
 def check(e, is_live):
     if VIRTUAL.search(f"{e.get('homeTeamName','')} {e.get('awayTeamName','')} {e.get('b9league','')}"): return []   # simulated (SRL) / virtual games swing at random
     M = mk(e); A = []
@@ -307,8 +353,9 @@ def check(e, is_live):
         except Exception: h = a = mins = 0
         if h != a and mins >= 20:
             lead = "Home" if h > a else "Away"
-            if lead in ft and ft[lead][0] >= 3.0 and abs(h - a) >= 1:
-                A.append(("R5", f"{lead} leads {h}-{a} at {mins}' but is still {ft[lead][0]} to win", "1", "", lead, ft[lead]))
+            pre = PRE.get(e.get("sr") or e["eventId"], {}).get(lead)
+            if lead in ft and ft[lead][0] >= 3.0 and pre and ft[lead][0] > pre * 1.3 and mins >= 25:   # leading, yet priced higher than BEFORE kick-off = feed stuck
+                A.append(("R5", f"{lead} leads {h}-{a} at {mins}' but is {ft[lead][0]} to win - more than before kick-off ({pre})", "1", "", lead, ft[lead]))
     return A
 
 CFG = json.load(open(os.path.join(HERE, "config.json"))) if os.path.exists(os.path.join(HERE, "config.json")) else {}
@@ -368,8 +415,10 @@ def main():
                 feeds += [(False, b9_upcoming()), (True, b9_live())]
             sizes = [len(E) for _, E in feeds]
             for is_live, E in feeds:
-                for e in E:
-                    for rule, why, mid, spec, pick, (od, oid) in check(e, is_live):
+                if not is_live: remember(E)
+            items = [(is_live, e, x) for is_live, E in feeds for e in E for x in check(e, is_live)] + [(False, e, x) for e, x in cross_books()]
+            for is_live, e, (rule, why, mid, spec, pick, (od, oid)) in items:
+                if True:
                         key = f"{e['eventId']}|{rule}|{mid}|{spec}|{pick}"
                         if time.time() - seen.get(key, 0) < 3600: continue
                         seen[key] = time.time()
