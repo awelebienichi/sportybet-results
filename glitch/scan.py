@@ -317,6 +317,70 @@ def cross_books(R=1.25):
                         out.append((e, ("R12", f"{b} pays {od} - the other bookmakers pay {names} (fair about {fair:.2f})", key[0], key[1], pick, (od, oid))))
     return out
 
+NAMES = {"1": "1X2", "60": "1st Half 1X2", "10": "Double Chance", "11": "Draw No Bet", "29": "GG/NG", "18": "Over/Under"}
+LASTPAGE = [0]
+def bestpage():
+    """site page: for every game on 3+ bookmakers, which bookmaker pays most for each popular pick (Mac only, at most every 15 min)"""
+    if WHO != "Mac" or time.time() - LASTPAGE[0] < 15 * 60: return
+    fresh = {b: idx for b, (ts, idx) in CACHE.items() if time.time() - ts < 15 * 60}
+    if len(fresh) < 3: return
+    games = []
+    for k in set().union(*[set(i) for i in fresh.values()]):
+        have = {b: idx[k] for b, idx in fresh.items() if k in idx}
+        if len(have) < 3: continue
+        e0 = next(iter(have.values()))[0]; ko = e0.get("estimateStartTime", 0) / 1000
+        if not time.time() + 10 * 60 < ko < time.time() + 24 * 3600 or VIRTUAL.search(e0["homeTeamName"] + " " + e0["awayTeamName"]): continue
+        rows = []
+        keys = [("1", ""), ("10", ""), ("11", ""), ("29", ""), ("18", "total=1.5"), ("18", "total=2.5"), ("18", "total=3.5")]
+        for key in keys:
+            picks = set().union(*[set(M.get(key, {})) for e, M in have.values()])
+            for pick in sorted(picks):
+                pr = {b: M[key][pick][0] for b, (e, M) in have.items() if pick in M.get(key, {})}
+                if len(pr) < 3: continue
+                hi = max(pr.values()); lo = min(pr.values())
+                if not 1.2 <= hi <= 6 or hi < lo * 1.03: continue     # only picks where shopping around actually pays
+                best = [b for b, v in pr.items() if v == hi]
+                rows.append((hi / lo, f"{NAMES.get(key[0], key[0])} {pick}", best, hi, pr))
+        if rows: games.append((ko, f"{e0['homeTeamName']} vs {e0['awayTeamName']}", e0.get("b9league", ""), sorted(rows, key=lambda r: -r[0])[:6]))
+    games.sort()
+    def row(r):
+        others = " · ".join(f"{b} {v}" for b, v in sorted(r[4].items(), key=lambda t: -t[1]) if b not in r[2])
+        return f"<tr><td>{r[1]}</td><td class=b>{' / '.join(r[2])} <b>{r[3]}</b></td><td class=o>{others}</td><td class=g>+{(r[0]-1)*100:.0f}%</td></tr>"
+    body = "".join(f"<h2>{dt.datetime.fromtimestamp(ko, W).strftime('%a %H:%M')} &nbsp;{m}<small>{lg}</small></h2><table>{''.join(row(r) for r in R)}</table>" for ko, m, lg, R in games[:250])
+    html = f"""<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Best Prices Today</title>
+<style>:root{{--bg:#fff;--fg:#111;--mut:#666;--line:#e3e3e3;--acc:#0a7}}@media (prefers-color-scheme:dark){{:root{{--bg:#111;--fg:#eee;--mut:#999;--line:#2a2a2a;--acc:#3c9}}}}
+body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padding:16px;max-width:900px}}h1{{font-size:20px;margin:0 0 4px}}p{{color:var(--mut);margin:0 0 12px}}
+h2{{font-size:15px;margin:18px 0 4px}}h2 small{{display:block;color:var(--mut);font-weight:400;font-size:12px}}table{{border-collapse:collapse;width:100%}}td{{border-bottom:1px solid var(--line);padding:6px 4px;vertical-align:top}}
+.b{{color:var(--acc);white-space:nowrap}}.o{{color:var(--mut);font-size:13px}}.g{{text-align:right;white-space:nowrap;color:var(--acc)}}a{{color:var(--acc)}}</style>
+<h1>Best prices today</h1><p>Same pick on SportyBet, MSport, BetKing and Bet9ja - green is the bookmaker paying most, % is how much more than the lowest. Only picks where the gap is 3%+ are shown. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')} (every 15 min while the Mac is on). <a href="index.html">Results</a> · <a href="alerts.html">Glitch alerts</a></p>
+{body or '<p>No price gaps right now.</p>'}</html>"""
+    try:
+        g = lambda *a: subprocess.run(["git", "-C", SITE, *a], capture_output=True, text=True)
+        g("pull", "--rebase", "--autostash", "-q"); open(os.path.join(SITE, "bestprices.html"), "w").write(html); g("add", "bestprices.html")
+        if g("diff", "--cached", "--quiet").returncode:
+            g("commit", "-m", "best prices")
+            for i in range(3):
+                if g("push", "-q", "origin", "HEAD:main").returncode == 0: break
+                g("pull", "--rebase", "--autostash", "-q")
+        LASTPAGE[0] = time.time()
+    except Exception as x: print("bestpage error", x, flush=True)
+
+DAILY = os.path.join(HERE, "daily.json")
+def daily(scanned, alerts):
+    """one check-in push a day at 9am: proof the scanner is alive, even on days with no glitches (Mac only)"""
+    if WHO != "Mac": return
+    st = json.load(open(DAILY)) if os.path.exists(DAILY) else {}
+    today = dt.datetime.now(W).strftime("%Y-%m-%d"); st.setdefault("games", 0); st.setdefault("scans", 0)
+    st["games"] += scanned; st["scans"] += 1
+    if dt.datetime.now(W).hour >= 9 and st.get("sent") != today:
+        n = sum(1 for a in alerts if a["ts"] > time.time() - 86400)
+        msg = f"Scanner alive: {st['scans']} scans, {st['games']:,} game checks across SportyBet, MSport, BetKing, Bet9ja since the last check-in. Glitches found in the last 24h: {n}."
+        if CFG.get("ntfy_topic"):
+            try: subprocess.run(["curl", "-s", "-m", "20", "-H", "Title: Daily glitch check-in", "-H", "Priority: default", "-H", "Tags: sunrise", "-H", "Click: https://awelebienichi.github.io/sportybet-results/bestprices.html", "-d", msg, "https://ntfy.sh/" + CFG["ntfy_topic"]], capture_output=True, timeout=30)
+            except Exception: pass
+        st = {"sent": today, "games": 0, "scans": 0}
+    json.dump(st, open(DAILY, "w"))
+
 def check(e, is_live):
     if VIRTUAL.search(f"{e.get('homeTeamName','')} {e.get('awayTeamName','')} {e.get('b9league','')}"): return []   # simulated (SRL) / virtual games swing at random
     M = mk(e); A = []
@@ -376,7 +440,7 @@ def page(alerts):
 body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padding:16px}}h1{{font-size:20px;margin:0 0 4px}}p{{color:var(--mut);margin:0 0 12px}}
 .t{{overflow-x:auto}}table{{border-collapse:collapse;width:100%;min-width:640px}}td,th{{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}}
 .c{{font:600 16px ui-monospace,monospace;color:var(--acc)}}small{{color:var(--mut)}}a{{color:var(--acc)}}</style>
-<h1>Odds glitch alerts</h1><p>Prices on SportyBet, MSport, BetKing and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a></p>
+<h1>Odds glitch alerts</h1><p>Prices on SportyBet, MSport, BetKing and Bet9ja that contradict the same game's other markets. Checked about every 90 seconds while the Mac is on. Updated {dt.datetime.now(W).strftime('%a %d %b %H:%M')}. <a href="index.html">Back to results</a> · <a href="bestprices.html">Best prices today</a></p>
 <p>SportyBet can void bets on obvious pricing errors, and live errors last seconds - always check the price on the slip before you stake.</p>
 <div class=t><table><tr><th>Spotted</th><th>Kick-off</th><th>Match</th><th>Price</th><th>Booking code</th><th>When</th></tr>{rows or '<tr><td colspan=6>No glitches spotted yet.</td></tr>'}</table></div></html>"""
     try:
@@ -436,6 +500,8 @@ def main():
             print("scan error", x, flush=True)
         if new:
             alerts += new; page(alerts); json.dump(alerts[-500:], open(JS, "w"))
+        try: bestpage(); daily(sum(sizes), alerts)
+        except Exception as x: print("extras error", x, flush=True)
         print(dt.datetime.now(W).strftime("%H:%M:%S"), "scan done", round(time.time() - t0), "s,", len(new), "new alerts | games (upcoming+live) by feed:", sizes, flush=True)
         if "--once" in sys.argv: break
         time.sleep(max(20, 90 - (time.time() - t0)))
