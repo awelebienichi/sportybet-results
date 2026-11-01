@@ -381,6 +381,34 @@ def daily(scanned, alerts):
         st = {"sent": today, "games": 0, "scans": 0}
     json.dump(st, open(DAILY, "w"))
 
+# ---------------- ARB: best price for every outcome across the 4 bookmakers; if 1/a + 1/b (+ 1/c) < 1 the bettor wins whatever happens
+ARBSETS = [(("1", ""), ("Home", "Draw", "Away")), (("11", ""), ("Home", "Away")), (("29", ""), ("Yes", "No")),
+           (("18", "total=1.5"), ("Over 1.5", "Under 1.5")), (("18", "total=2.5"), ("Over 2.5", "Under 2.5")), (("18", "total=3.5"), ("Over 3.5", "Under 3.5")),
+           # double chance against the one result it doesn't cover - also a complete set
+           ((("10", ""), "Home or Draw"), (("1", ""), "Away")), ((("10", ""), "Draw or Away"), (("1", ""), "Home")), ((("10", ""), "Home or Away"), (("1", ""), "Draw"))]
+def arbs(minp=0.5, stake=10000):
+    fresh = {b: idx for b, (ts, idx) in CACHE.items() if time.time() - ts < 9 * 60}
+    out = []
+    if len(fresh) < 2: return out
+    for k in set().union(*[set(i) for i in fresh.values()]):
+        have = {b: idx[k] for b, idx in fresh.items() if k in idx}
+        if len(have) < 2: continue
+        e0 = next(iter(have.values()))[0]
+        if e0.get("estimateStartTime", 0) / 1000 < time.time() + 20 * 60 or VIRTUAL.search(e0["homeTeamName"] + " " + e0["awayTeamName"]): continue
+        for spec in ARBSETS:
+            legs = [(spec[0], o) for o in spec[1]] if isinstance(spec[1], tuple) else [spec[0], spec[1]]
+            best = []
+            for (mkey, pick) in legs:
+                cand = [(M[mkey][pick][0], b, M[mkey][pick][1], e) for b, (e, M) in have.items() if pick in M.get(mkey, {})]
+                if not cand: break
+                best.append(max(cand, key=lambda c: c[0]) + (mkey, pick))
+            if len(best) != len(legs) or any(c[0] > 15 for c in best) or len({c[1] for c in best}) < 2: continue   # needs 2+ bookmakers; ignore long shots
+            tot = sum(1 / c[0] for c in best); pct = (1 / tot - 1) * 100
+            if pct < minp: continue
+            split = [(c, round(stake * (1 / c[0]) / tot)) for c in best]
+            out.append(dict(e=e0, pct=pct, split=split, back=round(stake / tot)))
+    return out
+
 def check(e, is_live):
     if VIRTUAL.search(f"{e.get('homeTeamName','')} {e.get('awayTeamName','')} {e.get('b9league','')}"): return []   # simulated (SRL) / virtual games swing at random
     M = mk(e); A = []
@@ -481,6 +509,23 @@ def main():
             for is_live, E in feeds:
                 if not is_live: remember(E)
             items = [(is_live, e, x) for is_live, E in feeds for e in E for x in check(e, is_live)] + [(False, e, x) for e, x in cross_books()]
+            for x in arbs():
+                e = x["e"]; key = f"ARB|{e.get('sr') or e['eventId']}|" + "|".join(f"{c[4]}{c[5]}" for c, st in x["split"])
+                if time.time() - seen.get(key, 0) < 3600: continue
+                seen[key] = time.time()
+                codes = []
+                for c, st in x["split"]:
+                    ev_, mk_, pk_ = c[3], c[4], c[5]
+                    cd = ms_book(ev_, mk_[0], mk_[1], c[2]) if c[1] == "MSport" else book(ev_, mk_[0], mk_[1], c[2]) if c[1] == "SportyBet" else f"search on {c[1]}"
+                    codes.append(f"{c[1]}: {NAMES.get(mk_[0], mk_[0])} {pk_} @ {c[0]} - stake N{st:,} ({cd})")
+                a = dict(key=key, ts=time.time(), who=WHO, when=dt.datetime.now(W).strftime("%a %H:%M"), rule="ARB", bookie="ARB",
+                         kick=dt.datetime.fromtimestamp(e["estimateStartTime"] / 1000, W).strftime("%a %H:%M"), match=f"{e['homeTeamName']} vs {e['awayTeamName']}",
+                         league=e.get("b9league", ""), pick=" + ".join(f"{c[5]} ({c[1]})" for c, st in x["split"]), odds=f"+{x['pct']:.1f}%",
+                         why=f"Guaranteed: N10,000 split as below returns about N{x['back']:,} whatever the result. " + " | ".join(codes),
+                         status="before kick-off", code=" / ".join(codes))
+                new.append(a); line = f"{a['when']}  ARB {a['odds']}  {a['match']}  {a['why']}"
+                print(line, flush=True); open(LOG, "a").write(line + "\n")
+                notify(f"ARB {a['odds']} guaranteed: {a['match']}", a["why"], None, "ARB")
             for is_live, e, (rule, why, mid, spec, pick, (od, oid)) in items:
                 if True:
                         key = f"{e['eventId']}|{rule}|{mid}|{spec}|{pick}"
