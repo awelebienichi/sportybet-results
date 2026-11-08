@@ -160,7 +160,9 @@ def main(req):
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")
-    days = {"today": 0, "tomorrow": 1}.get(until, (6 - today.weekday()) % 7 if until == "sun" else 0)
+    WD = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
+    if until in WD: days = (WD.index(until) - today.weekday()) % 7          # up to the end of the next such day (today's name = tonight)
+    else: days = {"today": 0, "tomorrow": 1}.get(until, 0)
     hi = dt.datetime.combine(today + dt.timedelta(days=days), dt.time(23, 59), LAGOS).timestamp()
     lo = now + 20 * 60 if until != "tomorrow" or req.get("from_now", True) else now
     G = games(lo, hi)
