@@ -1,5 +1,85 @@
 [
 {
+"when": "Mon 09 Nov 00:02",
+"req": {
+"type": "best",
+"legs": 4,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [],
+"tickets": [
+{
+"code": "S9STV2",
+"odds": 1.67,
+"legs": [
+{
+"t": "Mon 02:00",
+"game": "CD FAS Santa Ana vs CD Fuerte San Francisco Morazan",
+"lg": "El Salvador - Primera Division",
+"pick": "1st half double chance CD FAS Santa Ana or draw",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794186000.0,
+"eid": "sr:match:73075384",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73075384|63||9"
+},
+{
+"t": "Mon 18:00",
+"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
+"lg": "Israel - National League",
+"pick": "Goal bounds 2-5+",
+"odds": 1.19,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings; Flashscore home/away form 80%",
+"ts": 1794243600.0,
+"eid": "sr:match:75661174",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75661174|450001||25"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 98%",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76509750|450001||25"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75802948|450001||25"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 00:00",
 "req": {
 "type": "combine",
@@ -3398,16 +3478,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 15:30",
-"req": {
-"type": "o25yw",
-"legs": 15,
-"tickets": 1,
-"until": "today"
-},
-"ok": false,
-"msg": "Only 9 games pass the checks for Over 2.5 (youth & women's leagues) up to Sun 23:59. Not enough for 15 legs. Ask for 9 legs or fewer."
 }
 ]
