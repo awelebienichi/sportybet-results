@@ -299,7 +299,9 @@ def main(req):
         odds = 1.0
         for e in o: odds *= float(e["markets"][0]["outcomes"][0]["odds"])
         if not okc: note.append(f"{code} failed the reload check and was not used."); continue
-        res.append(dict(code=code, odds=round(odds, 2), legs=[dict(t=hm(p["ts"]), game=p["game"], lg=p["lg"], pick=p["pick"], odds=p["odds"], why=p["why"]) for p in t]))
+        res.append(dict(code=code, odds=round(odds, 2), legs=[dict(t=hm(p["ts"]), game=p["game"], lg=p["lg"], pick=p["pick"], odds=p["odds"], why=p["why"],
+                                                                        ts=p["ts"], eid=p["eid"], mid=p["mid"], spec=p["spec"], oid=p["oid"],
+                                                                        k=f"{p['eid'].split(':')[-1]}|{p['mid']}|{p['spec']}|{p['oid']}") for p in t]))
     if kind == "u25": note.append("Under 2.5 has been the weakest market in your tracker.")
     return dict(ok=bool(res), kind=names[kind], req=req, tickets=res, note=note, first=min((p["ts"] for p in use), default=None))
 
