@@ -1,5 +1,57 @@
 [
 {
+"when": "Sun 08 Nov 09:01",
+"req": {
+"type": "fav1h",
+"legs": 4,
+"tickets": 1,
+"until": "today"
+},
+"ok": true,
+"kind": "strong team to score in the 1st half",
+"note": [],
+"tickets": [
+{
+"code": "S7XXDM",
+"odds": 4.26,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Raufoss IL vs Egersunds IK",
+"lg": "Norway - 1st Division",
+"pick": "Egersunds IK to score in 1st half",
+"odds": 1.49,
+"why": "Egersunds IK scored before half-time in 80% of last 10; Raufoss IL conceded before half-time in 70% of last 10; win odds 1.64"
+},
+{
+"t": "Sun 14:00",
+"game": "FC Hradec Kralove vs SFC Opava",
+"lg": "Czechia - U19 1. Liga",
+"pick": "FC Hradec Kralove to score in 1st half",
+"odds": 1.37,
+"why": "FC Hradec Kralove scored before half-time in 80% of last 10; SFC Opava conceded before half-time in 60% of last 10; win odds 1.53"
+},
+{
+"t": "Sun 15:30",
+"game": "Cologne vs Bayer Leverkusen",
+"lg": "Germany - Bundesliga",
+"pick": "Bayer Leverkusen to score in 1st half",
+"odds": 1.58,
+"why": "Bayer Leverkusen scored before half-time in 80% of last 10; Cologne conceded before half-time in 60% of last 10; win odds 1.87"
+},
+{
+"t": "Sun 17:00",
+"game": "Viking FK vs KFUM Oslo",
+"lg": "Norway - Eliteserien",
+"pick": "Viking FK to score in 1st half",
+"odds": 1.32,
+"why": "Viking FK scored before half-time in 80% of last 10; KFUM Oslo conceded before half-time in 60% of last 10; win odds 1.28"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 08:50",
 "req": {
 "type": "u25",
