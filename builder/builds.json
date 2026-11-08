@@ -1,5 +1,65 @@
 [
 {
+"when": "Sun 08 Nov 08:16",
+"req": {
+"type": "o25",
+"legs": 5,
+"tickets": 1,
+"until": "mon"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "Q80JP3",
+"odds": 4.04,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "AKS 1947 Busko Zdroj vs JKS 1909 Jaroslaw",
+"lg": "Poland - III Liga, Group 4",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "Over 2.5 in 100% / 90% of the teams' last 10, league avg 4.0 goals"
+},
+{
+"t": "Sun 14:00",
+"game": "FK Bospor Bohumin vs Opava B",
+"lg": "Czechia - Divize F",
+"pick": "Over 2.5",
+"odds": 1.22,
+"why": "Over 2.5 in 100% / 100% of the teams' last 10, 67% of 6 meetings, league avg 3.6 goals"
+},
+{
+"t": "Sun 14:00",
+"game": "FC Hradec Kralove vs SFC Opava",
+"lg": "Czechia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, 75% of 8 meetings, league avg 4.3 goals"
+},
+{
+"t": "Sun 14:00",
+"game": "Tottenham Hotspur U21 vs Chelsea U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, 100% of 8 meetings, league avg 4.1 goals"
+},
+{
+"t": "Sun 14:30",
+"game": "US Quevilly-Rouen Metropole vs RC Lens",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "Over 2.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.5 goals"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 08:10",
 "req": {
 "type": "fav",
