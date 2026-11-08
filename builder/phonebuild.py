@@ -230,6 +230,34 @@ def pick_h1o05(G, LX, half=1):
                         why=f"goal in the {'1st' if half == 1 else '2nd'} half in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
     return sorted(out, key=lambda r: -r["s"])
 
+def pick_yw_strong(G, LX):
+    """Over 2.5 in youth & women's games where a strong side plays: a clear favourite (win odds 1.80 or less, rival 2.5x+) that won 60%+
+    and averages 2.0+ goals, whose games went over 2.5 in 70%+ of its last 10, against a rival that concedes 1.2+ a game"""
+    C = []
+    for g in G:
+        if not YW.search(g["lg"]) or ("total=2.5", "12") not in g["ou"]: continue
+        for side, oid, other in (("home", "1", "3"), ("away", "3", "1")):
+            od = g["x"].get(oid); oo = g["x"].get(other, 99)
+            if not od or od > 1.8 or oo < 2.5 * od: continue
+            me, op = (g["hid"], g["aid"]) if side == "home" else (g["aid"], g["hid"])
+            F, O = LX.get(me, []), LX.get(op, [])
+            if len(F) < 6 or len(O) < 6: continue
+            fo = sum(m["gf"] + m["ga"] >= 3 for m in F) / len(F); fg = sum(m["gf"] for m in F) / len(F)
+            oc = sum(m["ga"] for m in O) / len(O); oo25 = sum(m["gf"] + m["ga"] >= 3 for m in O) / len(O)
+            fw = sum(m["gf"] > m["ga"] for m in F) / len(F)
+            if fo < .7 or fg < 2.0 or oc < 1.2 or fw < .6: continue
+            C.append(dict(g=g, side=side, od=od, fo=fo, fg=fg, oc=oc, oo25=oo25, nf=len(F), no=len(O)))
+    with ThreadPoolExecutor(8) as ex: HH = list(ex.map(lambda c: h2h(c["g"]["hid"], c["g"]["aid"]), C))
+    out = []
+    for c, hh in zip(C, HH):
+        hr = sum(a + b >= 3 for a, b in hh) / len(hh) if len(hh) >= 3 else None
+        if hr is not None and hr < .5: continue
+        g = c["g"]; team = g["h"] if c["side"] == "home" else g["a"]; opp = g["a"] if c["side"] == "home" else g["h"]
+        out.append(dict(eid=g["eid"], mid="18", spec="total=2.5", oid="12", pick="Over 2.5", odds=g["ou"][("total=2.5", "12")], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
+                        s=c["fo"] * .35 + min(c["fg"], 4) / 4 * .25 + min(c["oc"], 3) / 3 * .2 + c["oo25"] * .1 + (hr if hr is not None else c["fo"]) * .1,
+                        why=f"strong side {team} (win {c['od']}) scores {c['fg']:.1f} a game, {c['fo']:.0%} of its games over 2.5; {opp} concedes {c['oc']:.1f} a game" + (f"; {hr:.0%} of {len(hh)} meetings over" if hr is not None else "")))
+    return sorted(out, key=lambda r: -r["s"])
+
 # ---------- main ----------
 def main(req):
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
@@ -240,16 +268,22 @@ def main(req):
     else: days = {"today": 0, "tomorrow": 1}.get(until, 0)
     hi = dt.datetime.combine(today + dt.timedelta(days=days), dt.time(23, 59), LAGOS).timestamp()
     lo = now + 20 * 60 if until != "tomorrow" or req.get("from_now", True) else now
-    G = games_cached(lo, hi)
+    pick_days = sorted({d for d in (req.get("days") or []) if re.fullmatch(r"\d{4}-\d\d-\d\d", str(d))})
+    if pick_days:   # ticked days on build.html: only games on those dates (Lagos time), in any combination
+        hi = dt.datetime.combine(dt.date.fromisoformat(pick_days[-1]), dt.time(23, 59), LAGOS).timestamp()
+        G = [g for g in games_cached(lo, hi) if dt.datetime.fromtimestamp(g["ts"], LAGOS).date().isoformat() in pick_days]
+        span = ", ".join(dt.date.fromisoformat(d).strftime("%a %d") for d in pick_days)
+    else:
+        G = games_cached(lo, hi); span = "up to " + hm(hi)
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
     names = {"h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
-             "o25yw": "Over 2.5 (youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
+             "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = []
     can = len(P) // legs
     if can == 0:
-        return dict(ok=False, msg=f"Only {len(P)} games pass the checks for {names[kind]} up to {hm(hi)}. Not enough for {legs} legs. Ask for {len(P)} legs or fewer.")
+        return dict(ok=False, msg=f"Only {len(P)} games pass the checks for {names[kind]} ({span}). Not enough for {legs} legs. Ask for {len(P)} legs or fewer.")
     if can < nt: note.append(f"Only {len(P)} games qualified, enough for {can} ticket(s) of {legs} with no game repeated (you asked for {nt}).")
     nt = min(nt, can); use = P[:nt*legs]
     T = [[] for _ in range(nt)]

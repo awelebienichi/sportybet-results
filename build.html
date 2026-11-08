@@ -29,13 +29,20 @@
   details summary { cursor:pointer; color:var(--muted); font-size:.9rem; margin-top:4px; }
   ol { padding-left:20px; margin:6px 0; font-size:.88rem; } li { margin:3px 0; }
   a { color:var(--accent); }
+  .days { display:grid; grid-template-columns:repeat(auto-fill, minmax(92px, 1fr)); gap:8px; }
+  .day { display:flex; flex-direction:column; align-items:center; padding:8px 4px; border:1px solid var(--line); border-radius:10px; background:var(--bg); cursor:pointer; user-select:none; font-size:.9rem; }
+  .day input { position:absolute; opacity:0; pointer-events:none; }
+  .day b { font-size:1rem; }
+  .day:has(input:checked) { border-color:var(--accent); background:var(--accent); color:var(--accent-ink); }
+  .quick { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+  button.q { width:auto; margin:0; padding:6px 10px; font-size:13px; font-weight:600; background:transparent; color:var(--accent); border:1px solid var(--accent); }
 </style>
 </head>
 <body>
 <main>
   <a href="index.html">&larr; Results</a>
   <h1>Build a ticket</h1>
-  <p class="sub">Works with your Mac off. The code arrives as a phone notification (ntfy) in about 5–15 minutes, and it shows below and on your results page.</p>
+  <p class="sub">Works with your Mac off. The code arrives as a phone notification (ntfy), usually within a minute, and it shows below and on your results page.</p>
 
   <div class="card">
     <label for="type">Ticket type</label>
@@ -48,15 +55,16 @@
       <option value="h2o05">2nd half Over 0.5 (goal after half-time)</option>
       <option value="o15">Over 1.5 goals</option>
       <option value="o25">Over 2.5 – highest-scoring leagues</option>
-      <option value="o25yw">Over 2.5 – youth &amp; women's leagues</option>
+      <option value="o25yw">Over 2.5 – strong teams in youth &amp; women's leagues</option>
       <option value="u25">Under 2.5 – lowest-scoring leagues</option>
     </select>
     <div class="row">
       <div><label for="legs">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
       <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
     </div>
-    <label for="until">Use games from now up to the end of</label>
-    <select id="until"><option value="today">Today (all of today's remaining games)</option></select>
+    <label>Days to use (tick one or more)</label>
+    <div id="days" class="days" role="group" aria-label="Days to use"></div>
+    <div class="quick"><button type="button" class="q" data-n="1">Today</button><button type="button" class="q" data-n="2">2 days</button><button type="button" class="q" data-n="3">3 days</button><button type="button" class="q" data-n="4">4 days</button><button type="button" class="q" data-n="7">Whole week</button></div>
     <button id="go" type="button">Build ticket</button>
     <div id="msg" aria-live="polite"></div>
   </div>
@@ -69,29 +77,39 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 youth & women", u25:"Under 2.5 low-scoring"};
+const names = {fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
-// "until" choices: tonight, then each of the next 6 days by name (Lagos time)
+// day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
+const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 (function () {
-  const W = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"], N = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const N = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Africa/Lagos" }));
-  for (let i = 1; i <= 6; i++) {
+  for (let i = 0; i < 7; i++) {
     const d = new Date(now); d.setDate(now.getDate() + i);
-    const o = document.createElement("option"); o.value = W[d.getDay()];
-    o.textContent = `${N[d.getDay()]} ${d.getDate()} ${d.toLocaleString("en-GB", { month: "short" })}` + (i === 1 ? " (tomorrow)" : "") + " – all games until then";
-    $("until").appendChild(o);
+    const l = document.createElement("label"); l.className = "day";
+    l.innerHTML = `<input type="checkbox" value="${iso(d)}"${i === 0 ? " checked" : ""}><b>${i === 0 ? "Today" : i === 1 ? "Tomorrow" : N[d.getDay()]}</b><span>${N[d.getDay()]} ${d.getDate()} ${d.toLocaleString("en-GB", { month: "short" })}</span>`;
+    $("days").appendChild(l);
   }
+  document.querySelectorAll("button.q").forEach(b => b.onclick = () => {
+    const n = +b.dataset.n; document.querySelectorAll("#days input").forEach((x, i) => x.checked = i < n);
+  });
 })();
-try { const s = JSON.parse(localStorage.getItem("buildForm") || "{}"); for (const k in s) if ($(k)) $(k).value = s[k]; } catch (e) {}
+const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
+try {
+  const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
+  for (const k of ["type", "legs", "tickets"]) if (s[k] != null && $(k)) $(k).value = s[k];
+} catch (e) {}
 $("go").onclick = async () => {
-  const req = { type: $("type").value, legs: +$("legs").value || 10, tickets: +$("tickets").value || 1, until: $("until").value };
+  const days = pickedDays();
+  if (!days.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one day."; return; }
+  const req = { type: $("type").value, legs: +$("legs").value || 10, tickets: +$("tickets").value || 1, days };
   try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
     if (!r.ok) throw new Error(r.status);
     $("msg").className = "ok";
-    $("msg").textContent = `Request sent: ${req.tickets} × ${req.legs} legs, ${names[req.type]}. Your code will arrive as a notification in about 5–15 minutes (longer when you pick several days).`;
+    $("msg").textContent = `Request sent: ${req.tickets} × ${req.legs} legs, ${names[req.type]}. Days: ${days.length}. Your code will arrive as a notification in about a minute (a little longer for several days).`;
   } catch (e) { $("msg").className = "err"; $("msg").textContent = "Could not send the request. Check your internet and try again."; }
   setTimeout(() => $("go").disabled = false, 4000);
 };
