@@ -141,7 +141,9 @@ async function loadList() {
 let SC = {};
 async function loadScores() {
   try {
-    const r = await fetch("https://api.github.com/repos/awelebienichi/sportybet-results/contents/scores.json?ref=scores", { headers: { Accept: "application/vnd.github.raw+json" }, cache: "no-store" });
+    // GitHub API first (fresh); if its hourly limit for this connection is used up, the raw copy (up to ~5 min old)
+    let r = await fetch("https://api.github.com/repos/awelebienichi/sportybet-results/contents/scores.json?ref=scores", { headers: { Accept: "application/vnd.github.raw+json" }, cache: "no-cache" });
+    if (!r.ok) r = await fetch("https://raw.githubusercontent.com/awelebienichi/sportybet-results/scores/scores.json?t=" + Math.floor(Date.now() / 60000));
     if (!r.ok) return;
     const d = await r.json(); SC = d.legs || {};
     $("scoretime").textContent = "Scores updated " + new Date(d.updated * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
@@ -165,7 +167,10 @@ function paintScores() {
     el.textContent = l ? `❌ lost (${l} leg${l > 1 ? "s" : ""})` : w === n ? "✅ WON" : `${w}/${n} won` + (live ? ` · ${live} live` : "");
   });
 }
-loadList(); loadScores(); setInterval(loadList, 60000); setInterval(loadScores, 90000);
+loadList(); loadScores();
+setInterval(() => { if (!document.hidden) loadList(); }, 60000);
+setInterval(() => { if (!document.hidden) loadScores(); }, 120000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { loadList(); loadScores(); } });
 </script>
 </body>
 </html>
