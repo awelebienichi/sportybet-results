@@ -1,5 +1,49 @@
 [
 {
+"when": "Sun 08 Nov 09:10",
+"req": {
+"type": "fav2h",
+"legs": 3,
+"tickets": 1,
+"until": "today"
+},
+"ok": true,
+"kind": "strong team to score in the 2nd half",
+"note": [],
+"tickets": [
+{
+"code": "Z7CC0R",
+"odds": 2.47,
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "FK Zenit Saint Petersburg vs FK Rostov",
+"lg": "Russia - Premier League",
+"pick": "FK Zenit Saint Petersburg to score in 2nd half",
+"odds": 1.43,
+"why": "FK Zenit Saint Petersburg scored in the 2nd half in 100% of last 10; FK Rostov conceded in it in 60% of last 10; win odds 1.42"
+},
+{
+"t": "Sun 19:00",
+"game": "Vasas FC vs Ferencvarosi Budapest",
+"lg": "Hungary - NB I",
+"pick": "Ferencvarosi Budapest to score in 2nd half",
+"odds": 1.38,
+"why": "Ferencvarosi Budapest scored in the 2nd half in 100% of last 10; Vasas FC conceded in it in 80% of last 10; win odds 1.69"
+},
+{
+"t": "Sun 21:30",
+"game": "Estrela Amadora vs Benfica",
+"lg": "Portugal - Liga Portugal",
+"pick": "Benfica to score in 2nd half",
+"odds": 1.25,
+"why": "Benfica scored in the 2nd half in 100% of last 10; Estrela Amadora conceded in it in 70% of last 10; win odds 1.27"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 09:08",
 "req": {
 "type": "fav2h",
