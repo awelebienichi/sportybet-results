@@ -51,8 +51,8 @@
       <div><label for="legs">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
       <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
     </div>
-    <label for="until">Games from now until</label>
-    <select id="until"><option value="today">Tonight (today's games)</option></select>
+    <label for="until">Use games from now up to the end of</label>
+    <select id="until"><option value="today">Today (all of today's remaining games)</option></select>
     <button id="go" type="button">Build ticket</button>
     <div id="msg" aria-live="polite"></div>
   </div>
@@ -74,7 +74,7 @@ const $ = id => document.getElementById(id);
   for (let i = 1; i <= 6; i++) {
     const d = new Date(now); d.setDate(now.getDate() + i);
     const o = document.createElement("option"); o.value = W[d.getDay()];
-    o.textContent = `${N[d.getDay()]} night (${d.getDate()} ${d.toLocaleString("en-GB", { month: "short" })})` + (i === 1 ? " – tomorrow" : "");
+    o.textContent = `${N[d.getDay()]} ${d.getDate()} ${d.toLocaleString("en-GB", { month: "short" })}` + (i === 1 ? " (tomorrow)" : "") + " – all games until then";
     $("until").appendChild(o);
   }
 })();
