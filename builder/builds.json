@@ -2,6 +2,21 @@
 {
 "when": "Sun 08 Nov 23:54",
 "req": {
+"type": "h1o05",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for 1st half Over 0.5 (Sun 08, Mon 09) out of 84 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
+"when": "Sun 08 Nov 23:54",
+"req": {
 "type": "fav1h",
 "legs": 2,
 "tickets": 1,
@@ -4472,187 +4487,5 @@
 },
 "ok": false,
 "msg": "Only 37 games pass the checks for 2nd half Over 0.5 up to Sun 23:59. Not enough for 40 legs. Ask for 37 legs or fewer."
-},
-{
-"when": "Sun 08 Nov 10:17",
-"req": {
-"type": "h2o05",
-"legs": 20,
-"tickets": 2,
-"until": "today"
-},
-"ok": true,
-"kind": "2nd half Over 0.5",
-"note": [
-"Only 37 games qualified, enough for 1 ticket(s) of 20 with no game repeated (you asked for 2)."
-],
-"tickets": [
-{
-"code": "MYX6V7",
-"odds": 19.01,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "Eastern District vs Tai Po FC",
-"lg": "Hong Kong, China - Premier League",
-"pick": "2nd half Over 0.5",
-"odds": 1.15,
-"why": "goal in the 2nd half in 100% of Eastern District's last 10 and 90% of Tai Po FC's last 10"
-},
-{
-"t": "Sun 12:00",
-"game": "Rekord Bielsko Biala vs MKS Chojniczanka Chojnice",
-"lg": "Poland - II Liga",
-"pick": "2nd half Over 0.5",
-"odds": 1.16,
-"why": "goal in the 2nd half in 90% of Rekord Bielsko Biala's last 10 and 100% of MKS Chojniczanka Chojnice's last 10"
-},
-{
-"t": "Sun 12:15",
-"game": "SC Heerenveen vs Feyenoord",
-"lg": "Netherlands - Eredivisie",
-"pick": "2nd half Over 0.5",
-"odds": 1.13,
-"why": "goal in the 2nd half in 90% of SC Heerenveen's last 10 and 100% of Feyenoord's last 10"
-},
-{
-"t": "Sun 12:30",
-"game": "Napoli vs Lazio",
-"lg": "Italy - Serie A",
-"pick": "2nd half Over 0.5",
-"odds": 1.19,
-"why": "goal in the 2nd half in 100% of Napoli's last 10 and 90% of Lazio's last 10"
-},
-{
-"t": "Sun 13:00",
-"game": "Sandnes Ulf vs Aasane Fotball",
-"lg": "Norway - 1st Division",
-"pick": "2nd half Over 0.5",
-"odds": 1.13,
-"why": "goal in the 2nd half in 100% of Sandnes Ulf's last 10 and 100% of Aasane Fotball's last 10"
-},
-{
-"t": "Sun 13:15",
-"game": "FK Suduva Marijampole vs Dziugas",
-"lg": "Lithuania - TOPLYGA",
-"pick": "2nd half Over 0.5",
-"odds": 1.21,
-"why": "goal in the 2nd half in 90% of FK Suduva Marijampole's last 10 and 100% of Dziugas's last 10"
-},
-{
-"t": "Sun 13:30",
-"game": "Club Brugge vs RSC Anderlecht",
-"lg": "Belgium - Pro League",
-"pick": "2nd half Over 0.5",
-"odds": 1.12,
-"why": "goal in the 2nd half in 90% of Club Brugge's last 10 and 90% of RSC Anderlecht's last 10"
-},
-{
-"t": "Sun 13:55",
-"game": "Al-Nasr Dubai CSC vs Dubai United FC",
-"lg": "United Arab Emirates - Arabian Gulf League",
-"pick": "2nd half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 2nd half in 100% of Al-Nasr Dubai CSC's last 10 and 100% of Dubai United FC's last 10"
-},
-{
-"t": "Sun 14:30",
-"game": "WSG Tirol vs FK Austria Wien",
-"lg": "Austria - Bundesliga",
-"pick": "2nd half Over 0.5",
-"odds": 1.2,
-"why": "goal in the 2nd half in 90% of WSG Tirol's last 10 and 100% of FK Austria Wien's last 10"
-},
-{
-"t": "Sun 14:45",
-"game": "Jagiellonia Bialystok vs GKS Katowice",
-"lg": "Poland - Ekstraklasa",
-"pick": "2nd half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 2nd half in 100% of Jagiellonia Bialystok's last 10 and 90% of GKS Katowice's last 10"
-},
-{
-"t": "Sun 15:00",
-"game": "FC Stockholm Internazionale vs Piteaa IF",
-"lg": "Sweden - Ettan",
-"pick": "2nd half Over 0.5",
-"odds": 1.11,
-"why": "goal in the 2nd half in 90% of FC Stockholm Internazionale's last 10 and 100% of Piteaa IF's last 10"
-},
-{
-"t": "Sun 16:45",
-"game": "SC Cambuur vs PSV Eindhoven",
-"lg": "Netherlands - Eredivisie",
-"pick": "2nd half Over 0.5",
-"odds": 1.1,
-"why": "goal in the 2nd half in 100% of SC Cambuur's last 10 and 100% of PSV Eindhoven's last 10"
-},
-{
-"t": "Sun 17:15",
-"game": "Le Mans FC vs Monaco",
-"lg": "France - Ligue 1",
-"pick": "2nd half Over 0.5",
-"odds": 1.24,
-"why": "goal in the 2nd half in 89% of Le Mans FC's last 9 and 100% of Monaco's last 10"
-},
-{
-"t": "Sun 17:30",
-"game": "Man Utd vs Aston Villa",
-"lg": "England - Premier League",
-"pick": "2nd half Over 0.5",
-"odds": 1.17,
-"why": "goal in the 2nd half in 100% of Man Utd's last 10 and 90% of Aston Villa's last 10"
-},
-{
-"t": "Sun 19:00",
-"game": "Besiktas Istanbul vs Genclerbirligi SK",
-"lg": "Turkiye - Super Lig",
-"pick": "2nd half Over 0.5",
-"odds": 1.12,
-"why": "goal in the 2nd half in 90% of Besiktas Istanbul's last 10 and 100% of Genclerbirligi SK's last 10"
-},
-{
-"t": "Sun 19:00",
-"game": "Universidad de Chile vs Cobresal",
-"lg": "Chile - Primera Division",
-"pick": "2nd half Over 0.5",
-"odds": 1.13,
-"why": "goal in the 2nd half in 90% of Universidad de Chile's last 10 and 100% of Cobresal's last 10"
-},
-{
-"t": "Sun 19:00",
-"game": "Vasas FC vs Ferencvarosi Budapest",
-"lg": "Hungary - NB I",
-"pick": "2nd half Over 0.5",
-"odds": 1.15,
-"why": "goal in the 2nd half in 90% of Vasas FC's last 10 and 100% of Ferencvarosi Budapest's last 10"
-},
-{
-"t": "Sun 19:00",
-"game": "Sporting Lisbon B vs CD Tondela",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "2nd half Over 0.5",
-"odds": 1.27,
-"why": "goal in the 2nd half in 90% of Sporting Lisbon B's last 10 and 100% of CD Tondela's last 10"
-},
-{
-"t": "Sun 21:00",
-"game": "Atletico Madrid vs Barcelona",
-"lg": "Spain - LaLiga",
-"pick": "2nd half Over 0.5",
-"odds": 1.12,
-"why": "goal in the 2nd half in 100% of Atletico Madrid's last 10 and 100% of Barcelona's last 10"
-},
-{
-"t": "Sun 22:05",
-"game": "Jaguares de Cordoba vs CA Bucaramanga",
-"lg": "Colombia - Liga DIMAYOR",
-"pick": "2nd half Over 0.5",
-"odds": 1.21,
-"why": "goal in the 2nd half in 100% of Jaguares de Cordoba's last 10 and 90% of CA Bucaramanga's last 10"
-}
-]
-}
-]
 }
 ]
