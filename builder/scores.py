@@ -98,6 +98,27 @@ def verdict(leg, s):
     if mid == "1":
         if not fin: return ""
         return "W" if (oid == "1" and h > a) or (oid == "2" and h == a) or (oid == "3" and a > h) else "L"
+    if mid == "60200":                      # 1UP: a win is a win; without a win it depends on leading at some point (not in the score), so leave open
+        side_won = (oid == "1" and h > a) or (oid == "3" and a > h)
+        return "W" if fin and side_won else ""
+    if mid == "10":                         # double chance: 9 home or draw, 10 home or away, 11 draw or away
+        if not fin: return ""
+        return "W" if (oid == "9" and h >= a) or (oid == "10" and h != a) or (oid == "11" and a >= h) else "L"
+    if mid == "63":                         # 1st half double chance, decided at half-time
+        if ht is None: return ""
+        x, y = ht
+        return "W" if (oid == "9" and x >= y) or (oid == "10" and x != y) or (oid == "11" and y >= x) else "L"
+    if mid == "29":                         # GG yes (74) / no (76)
+        gg = h > 0 and a > 0
+        if gg: return "W" if oid == "74" else "L"
+        return ("L" if oid == "74" else "W") if fin else ""
+    if mid == "860":                        # home team or GG
+        if h > 0 and a > 0: return "W" if oid == "74" else "L"
+        if not fin: return ""
+        return "W" if (h > a) == (oid == "74") else "L"
+    if mid == "450001" and oid == "25":     # goal bounds 2-5+ = two goals or more
+        if h + a >= 2: return "W"
+        return "L" if fin else ""
     if mid == "18":
         tot = h + a; over = oid == "12"
         if tot > line: return "W" if over else "L"

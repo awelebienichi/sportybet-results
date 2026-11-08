@@ -258,6 +258,92 @@ def pick_yw_strong(G, LX):
                         why=f"strong side {team} (win {c['od']}) scores {c['fg']:.1f} a game, {c['fo']:.0%} of its games over 2.5; {opp} concedes {c['oc']:.1f} a game" + (f"; {hr:.0%} of {len(hh)} meetings over" if hr is not None else "")))
     return sorted(out, key=lambda r: -r["s"])
 
+# ---------- multi-market: GG, tracker's best markets, safest mix ----------
+MK = {  # key: (market id, specifier, outcome id, label)
+    "win_h": ("1", "", "1", "{h} to win"), "win_a": ("1", "", "3", "{a} to win"),
+    "up_h": ("60200", "", "1", "{h} to win (1UP)"), "up_a": ("60200", "", "3", "{a} to win (1UP)"),
+    "dc_x2": ("10", "", "11", "Double chance {a} or draw"),
+    "h1dc_1x": ("63", "", "9", "1st half double chance {h} or draw"), "h1dc_x2": ("63", "", "11", "1st half double chance {a} or draw"),
+    "o15": ("18", "total=1.5", "12", "Over 1.5"), "gb25": ("450001", "", "25", "Goal bounds 2-5+"),
+    "h1o05": ("68", "total=0.5", "12", "1st half Over 0.5"), "h2o05": ("90", "total=0.5", "12", "2nd half Over 0.5"),
+    "gg": ("29", "", "74", "GG (both teams score)"), "hgg": ("860", "", "74", "{h} or GG"),
+}
+SETS = {"gg": ["gg"], "best": ["up_h", "up_a", "h1dc_1x", "hgg", "gb25"],
+        "mix": ["win_h", "win_a", "up_h", "up_a", "dc_x2", "h1dc_1x", "h1dc_x2", "o15", "h1o05", "h2o05", "gg", "hgg"]}
+
+def rates(g, LX, hh):
+    """chance-like rates from both teams' last 10 (and meetings for full-time markets); keys as in MK"""
+    H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+    if len(H) < 6 or len(A) < 6: return {}
+    f = lambda L, c: sum(1 for m in L if c(m)) / len(L)
+    def both(ch, ca, hc=None):
+        r = (f(H, ch) + f(A, ca)) / 2
+        if hc and len(hh) >= 3: r = r * .7 + sum(1 for x in hh if hc(*x)) / len(hh) * .3
+        return r
+    H1, A1 = [m for m in H if m["h1f"] is not None], [m for m in A if m["h1f"] is not None]
+    h1 = lambda ch, ca: (f(H1, ch) + f(A1, ca)) / 2 if len(H1) >= 6 and len(A1) >= 6 else 0
+    xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+    R = {"o15": both(lambda m: m["gf"] + m["ga"] >= 2, lambda m: m["gf"] + m["ga"] >= 2, lambda a, b: a + b >= 2),
+         "gb25": both(lambda m: m["gf"] + m["ga"] >= 2, lambda m: m["gf"] + m["ga"] >= 2, lambda a, b: a + b >= 2),
+         "gg": both(lambda m: m["gf"] > 0 and m["ga"] > 0, lambda m: m["gf"] > 0 and m["ga"] > 0, lambda a, b: a > 0 and b > 0),
+         "hgg": both(lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["ga"] > 0), lambda m: m["gf"] < m["ga"] or (m["gf"] > 0 and m["ga"] > 0), lambda a, b: a > b or (a > 0 and b > 0)),
+         "h1o05": h1(lambda m: m["h1f"] + m["h1a"] > 0, lambda m: m["h1f"] + m["h1a"] > 0),
+         "h2o05": h1(lambda m: m["h2f"] + m["h2a"] > 0, lambda m: m["h2f"] + m["h2a"] > 0),
+         "h1dc_1x": h1(lambda m: m["h1f"] >= m["h1a"], lambda m: m["h1f"] <= m["h1a"]) if xh <= xa * 1.3 else 0,
+         "h1dc_x2": h1(lambda m: m["h1f"] <= m["h1a"], lambda m: m["h1f"] >= m["h1a"]) if xa <= xh * 1.3 else 0}
+    if xh <= 1.8 and xa >= 1.5 * xh:   # home is a clear favourite
+        R["win_h"] = both(lambda m: m["gf"] > m["ga"], lambda m: m["gf"] < m["ga"], lambda a, b: a > b)
+        R["up_h"] = both(lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["gf"] == m["ga"]) * .5, lambda m: m["gf"] < m["ga"] or (m["ga"] > 0 and m["gf"] == m["ga"]) * .5)
+    if xa <= 1.8 and xh >= 1.5 * xa:   # away is a clear favourite
+        R["win_a"] = both(lambda m: m["gf"] < m["ga"], lambda m: m["gf"] > m["ga"], lambda a, b: b > a)
+        R["up_a"] = both(lambda m: m["gf"] < m["ga"] or (m["ga"] > 0 and m["gf"] == m["ga"]) * .5, lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["gf"] == m["ga"]) * .5)
+        R["dc_x2"] = both(lambda m: m["gf"] <= m["ga"], lambda m: m["gf"] >= m["ga"], lambda a, b: b >= a)
+    return R
+
+def pick_multi(G, LX, kind, want):
+    keys = SETS[kind]; floor = {"gg": .68, "best": .8, "mix": .82}[kind]
+    pre = []
+    for g in G:
+        R = rates(g, LX, [])
+        best = max(((R[k], k) for k in keys if R.get(k, 0) >= floor), default=None)
+        if best: pre.append((best[0], g))
+    pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(60, want * 3)]]
+    def detail(g):
+        hh = h2h(g["hid"], g["aid"])
+        mk = {(m["id"], m.get("specifier") or "", o["id"]): float(o["odds"]) for m in event_markets(g["eid"]) for o in m.get("outcomes", []) if o.get("isActive")}
+        return g, hh, mk
+    with ThreadPoolExecutor(8) as ex: D = list(ex.map(detail, pre))
+    out = []
+    for g, hh, mk in D:
+        R = rates(g, LX, hh); opts = []
+        for k in keys:
+            mid, spec, oid, lab = MK[k]; od = mk.get((mid, spec, oid))
+            if not od or R.get(k, 0) < floor or od < 1.06: continue      # 1.01-1.05 prices add nothing to a ticket
+            opts.append((R[k] - od * .015, R[k], k, od))
+        if not opts: continue
+        sc, r, k, od = max(opts); mid, spec, oid, lab = MK[k]
+        out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=sc,
+                        why=f"stats rate {r:.0%} from both teams' last 10" + (f" and {len(hh)} meetings" if len(hh) >= 3 and mid in ("1", "10", "18", "29", "860", "450001") else "")))
+    return sorted(out, key=lambda r: -r["s"])
+
+def finish(T, kind, names, note, req):
+    """book every ticket, reload and check it, report"""
+    res = []
+    for t in T:
+        t.sort(key=lambda p: p["ts"])
+        code = post([dict(eventId=p["eid"], marketId=p["mid"], specifier=p["spec"], outcomeId=p["oid"]) for p in t])
+        if not code: note.append("SportyBet refused one booking."); continue
+        time.sleep(2); o = load(code)
+        okc = len(o) == len(t) and len({e["eventId"] for e in o}) == len(o) and all(e["estimateStartTime"]/1000 > time.time() for e in o)
+        odds = 1.0
+        for e in o: odds *= float(e["markets"][0]["outcomes"][0]["odds"])
+        if not okc: note.append(f"{code} failed the reload check and was not used."); continue
+        res.append(dict(code=code, odds=round(odds, 2), legs=[dict(t=hm(p["ts"]), game=p["game"], lg=p["lg"], pick=p["pick"], odds=p["odds"], why=p["why"],
+                                                                        ts=p["ts"], eid=p["eid"], mid=p["mid"], spec=p["spec"], oid=p["oid"],
+                                                                        k=f"{p['eid'].split(':')[-1]}|{p['mid']}|{p['spec']}|{p['oid']}") for p in t]))
+    if kind == "u25": note.append("Under 2.5 has been the weakest market in your tracker.")
+    return dict(ok=bool(res), kind=names[kind], req=req, tickets=res, note=note, first=min((p["ts"] for t in T for p in t), default=None))
+
 # ---------- main ----------
 def main(req):
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
@@ -276,11 +362,22 @@ def main(req):
     else:
         G = games_cached(lo, hi); span = "up to " + hm(hi)
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
-    names = {"h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
+    names = {"gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = []
+    target = float(req.get("target") or 0)
+    if target > 1:   # fill each ticket with the strongest legs until it reaches the target odds (legs = the most allowed)
+        T, i = [], 0
+        for _ in range(nt):
+            t, prod = [], 1.0
+            while i < len(P) and prod < target and len(t) < legs: t.append(P[i]); prod *= P[i]["odds"]; i += 1
+            if t and prod >= target * .9: T.append(t)
+        if not T:
+            return dict(ok=False, msg=f"Could not reach {target:g} odds with {legs} legs or fewer from the {len(P)} games that pass the checks for {names[kind]} ({span}). Allow more legs or a lower target.")
+        if len(T) < nt: note.append(f"Only enough strong games for {len(T)} ticket(s) at about {target:g} odds with no game repeated (you asked for {nt}).")
+        return finish(T, kind, names, note, req)
     can = len(P) // legs
     if can == 0:
         return dict(ok=False, msg=f"Only {len(P)} games pass the checks for {names[kind]} ({span}). Not enough for {legs} legs. Ask for {len(P)} legs or fewer.")
@@ -289,21 +386,7 @@ def main(req):
     T = [[] for _ in range(nt)]
     for i, p in enumerate(use):                 # snake split so every ticket gets a fair share of the strongest legs
         r, k = divmod(i, nt); T[k if r % 2 == 0 else nt-1-k].append(p)
-    res = []
-    for t in T:
-        t.sort(key=lambda p: p["ts"])
-        code = post([dict(eventId=p["eid"], marketId=p["mid"], specifier=p["spec"], outcomeId=p["oid"]) for p in t])
-        if not code: note.append("SportyBet refused one booking."); continue
-        time.sleep(2); o = load(code)
-        okc = len(o) == len(t) and len({e["eventId"] for e in o}) == len(o) and all(e["estimateStartTime"]/1000 > time.time() for e in o)
-        odds = 1.0
-        for e in o: odds *= float(e["markets"][0]["outcomes"][0]["odds"])
-        if not okc: note.append(f"{code} failed the reload check and was not used."); continue
-        res.append(dict(code=code, odds=round(odds, 2), legs=[dict(t=hm(p["ts"]), game=p["game"], lg=p["lg"], pick=p["pick"], odds=p["odds"], why=p["why"],
-                                                                        ts=p["ts"], eid=p["eid"], mid=p["mid"], spec=p["spec"], oid=p["oid"],
-                                                                        k=f"{p['eid'].split(':')[-1]}|{p['mid']}|{p['spec']}|{p['oid']}") for p in t]))
-    if kind == "u25": note.append("Under 2.5 has been the weakest market in your tracker.")
-    return dict(ok=bool(res), kind=names[kind], req=req, tickets=res, note=note, first=min((p["ts"] for p in use), default=None))
+    return finish(T, kind, names, note, req)
 
 if __name__ == "__main__":
     req = json.loads(sys.argv[1]) if len(sys.argv) > 1 else {"type": "fav", "legs": 10}
