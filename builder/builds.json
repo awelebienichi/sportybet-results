@@ -1,5 +1,23 @@
 [
 {
+"when": "Sun 08 Nov 22:45",
+"req": {
+"type": "u25",
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-13",
+"2026-11-14"
+]
+},
+"ok": false,
+"msg": "Only 1 games pass the checks for Under 2.5 (low-scoring leagues) (Sun 08, Mon 09, Tue 10, Wed 11, Fri 13, Sat 14). Not enough for 15 legs. Ask for 1 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 22:23",
 "req": {
 "type": "mix",
