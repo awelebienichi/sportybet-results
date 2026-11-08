@@ -62,11 +62,19 @@ def games(lo, hi):
             p += 1
     return list(G.values())
 
+_GAMES = {"at": 0, "hi": 0, "list": []}
+def games_cached(lo, hi, fresh=15 * 60):
+    """reuse the game list fetched in the last 15 minutes (the listener keeps a 7-day list warm); prices are re-checked when the code is reloaded"""
+    if time.time() - _GAMES["at"] > fresh or _GAMES["hi"] < hi:
+        far = max(hi, time.time() + 7 * 86400)
+        _GAMES.update(at=time.time(), hi=far, list=games(time.time() + 5 * 60, far))
+    return [g for g in _GAMES["list"] if lo <= g["ts"] <= hi]
+
 def lastx(t):
     f = os.path.join(CACHE, t + ".json")
     if not (os.path.exists(f) and time.time() - os.path.getmtime(f) < 6 * 3600):
         d = get(f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/stats_team_lastx/{t}/10", "https://www.sportybet.com/")
-        if d: json.dump(d, open(f, "w"))
+        if d: json.dump(d, open(f + ".tmp", "w")); os.replace(f + ".tmp", f)     # atomic: the listener's warm-up thread may read it at the same time
     try: d = json.load(open(f))["doc"][0]["data"]
     except Exception: return []
     ms = [m for m in ((d.get("matches") if isinstance(d, dict) else None) or []) if isinstance(m, dict) and (m.get("result") or {}).get("home") is not None and not m.get("canceled")]
@@ -165,7 +173,7 @@ def main(req):
     else: days = {"today": 0, "tomorrow": 1}.get(until, 0)
     hi = dt.datetime.combine(today + dt.timedelta(days=days), dt.time(23, 59), LAGOS).timestamp()
     lo = now + 20 * 60 if until != "tomorrow" or req.get("from_now", True) else now
-    G = games(lo, hi)
+    G = games_cached(lo, hi)
     LX = fetch_teams(G)
     P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
