@@ -415,9 +415,15 @@ def main(req):
     LX = fetch_teams(G)
     P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
+    dropped = 0
+    if req.get("check", True):   # Flashscore home/away form + footybets must not go against a leg
+        try:
+            import extra
+            P, dropped = extra.confirm(P, legs * nt)
+        except Exception as e: print("extra checks skipped:", e)
     names = {"htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
-    note = []
+    note = [f"{dropped} leg(s) dropped because Flashscore home/away form or footybets went against them."] if dropped else []
     target = float(req.get("target") or 0)
     if target > 1:   # fill each ticket with the strongest legs until it reaches the target odds (legs = the most allowed)
         T, i = [], 0

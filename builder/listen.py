@@ -15,6 +15,8 @@ def warm():
             t0 = time.time()
             with LOCK: G = phonebuild.games_cached(time.time(), time.time() + 7 * 86400, fresh=0)   # fresh list
             phonebuild.fetch_teams(G)                                                           # cached files < 6h old are reused
+            import extra, scores
+            print("warm: footybets tips", extra.warm_footybets(), "| flashscore games", len(scores.day_list(True)), flush=True)
             print(f"warm: {len(G)} games, team form ready in {time.time()-t0:.0f}s", flush=True)
         except Exception: traceback.print_exc()
         time.sleep(90 * 60)
