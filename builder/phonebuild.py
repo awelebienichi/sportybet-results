@@ -102,6 +102,7 @@ def fetch_teams(G):
     T = sorted({t for g in G for t in (g["hid"], g["aid"])})
     with ThreadPoolExecutor(16) as ex: return dict(zip(T, ex.map(lastx, T)))
 
+ST = {"L": 0.1}     # strictness: strict 0, normal 0.1 (default), relaxed 0.2; lowers the stats bars by about that much
 YW = re.compile(r"U1[5-9]|U2[0-3]|Youth|Junior|Juniori|Primavera|Reserve|Women|Femin|Frauen|Damallsvenskan|Elitettan|Toppserien|Next Gen|Development", re.I)
 
 # ---------- pickers: each returns a ranked list of legs {eid, mid, spec, oid, pick, odds, why, ts, game, lg} ----------
@@ -110,21 +111,22 @@ def pick_fav(G, LX, smallest=False):
     for g in G:
         for side, oid, other in (("home", "1", "3"), ("away", "3", "1")):
             od = g["x"].get(oid); oo = g["x"].get(other, 99)
-            if not od or od > 2.6 or oo < 1.5 * od: continue                    # clear bookmaker favourite only
+            if not od or od > 2.6 or oo < (1.5 - ST["L"] * 1.5) * od: continue     # clear bookmaker favourite only
             me, op = (g["hid"], g["aid"]) if side == "home" else (g["aid"], g["hid"])
             F, O = LX.get(me, []), LX.get(op, [])
             if len(F) < 6 or len(O) < 6: continue
             fw = sum(m["gf"] > m["ga"] for m in F) / len(F); fl = sum(m["gf"] < m["ga"] for m in F) / len(F)
             ol = sum(m["gf"] < m["ga"] for m in O) / len(O); gd = sum(m["gf"] - m["ga"] for m in F) / len(F)
             V = [m for m in F if m["home"] == (side == "home")]; vw = sum(m["gf"] > m["ga"] for m in V) / len(V) if len(V) >= 3 else fw
-            if fw < .6 or fl > .2 or vw < .5 or ol < .3 or gd < .6: continue
+            L = ST["L"]
+            if fw < .6 - L or fl > .2 + L or vw < .5 - L or ol < .3 - L or gd < .6 - 3 * L: continue
             C.append(dict(g=g, side=side, oid=oid, od=od, fw=fw, fl=fl, ol=ol, vw=vw, gd=gd))
     with ThreadPoolExecutor(8) as ex: H = list(ex.map(lambda c: h2h(c["g"]["hid"], c["g"]["aid"]), C))
     out = []
     for c, hh in zip(C, H):
         if c["side"] == "away": hh = [(b, a) for a, b in hh]
         hw = sum(a > b for a, b in hh) / len(hh) if hh else None; hl = sum(a < b for a, b in hh) / len(hh) if hh else None
-        if len(hh) >= 3 and (hl > .25 or hw < .5): continue
+        if len(hh) >= 3 and (hl > .25 + ST["L"] or hw < .5 - ST["L"]): continue
         s = c["fw"]*.35 + c["vw"]*.2 + c["ol"]*.15 + (1-c["fl"])*.1 + min(c["gd"], 3)/3*.1 + (hw if len(hh) >= 3 else c["fw"])*.1
         g = c["g"]; team = g["h"] if c["side"] == "home" else g["a"]
         out.append(dict(eid=g["eid"], mid="1", spec="", oid=c["oid"], pick=f"{team} to win", odds=c["od"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
@@ -140,12 +142,13 @@ def league_stats(G, LX):
 
 def pick_goals(G, LX, kind):
     LS = league_stats(G, LX)
-    if kind == "o25": ok_lg = lambda k: LS[k][0] >= 3.1 and LS[k][1] >= .6
+    if kind == "o25": ok_lg = lambda k: LS[k][0] >= 3.1 - 3 * ST["L"] and LS[k][1] >= .6 - ST["L"]
     elif kind == "o25yw": ok_lg = lambda k: YW.search(k) and LS[k][0] >= 2.9
     elif kind == "u25": ok_lg = lambda k: LS[k][0] <= 2.3 and LS[k][2] >= .3
     else: ok_lg = lambda k: LS[k][0] >= 2.6                                 # o15
     spec, oid, line, over = {"o25": ("total=2.5", "12", 3, True), "o25yw": ("total=2.5", "12", 3, True), "u25": ("total=2.5", "13", 3, False), "o15": ("total=1.5", "12", 2, True)}[kind]
     need, hneed = {"o25": (.6, .5), "o25yw": (.6, .5), "u25": (.6, .5), "o15": (.8, .7)}[kind]
+    need, hneed = need - ST["L"], hneed - ST["L"]
     C = []
     for g in G:
         if g["lg"] not in LS or not ok_lg(g["lg"]) or (spec, oid) not in g["ou"]: continue
@@ -179,13 +182,13 @@ def pick_fav1h(G, LX, half=1):
     for g in G:
         for side, oid, other in (("home", "1", "3"), ("away", "3", "1")):
             od = g["x"].get(oid); oo = g["x"].get(other, 99)
-            if not od or od > 2.2 or oo < 1.5 * od: continue
+            if not od or od > 2.2 or oo < (1.5 - ST["L"] * 1.5) * od: continue
             me, op = (g["hid"], g["aid"]) if side == "home" else (g["aid"], g["hid"])
             kf, ka = f"h{half}f", f"h{half}a"
             F = [m for m in LX.get(me, []) if m[kf] is not None]; O = [m for m in LX.get(op, []) if m[ka] is not None]
             if len(F) < 6 or len(O) < 6: continue
             fs = sum(m[kf] > 0 for m in F) / len(F); oc = sum(m[ka] > 0 for m in O) / len(O)
-            if fs < .8 or oc < .6: continue
+            if fs < .8 - ST["L"] or oc < .6 - ST["L"]: continue
             C.append(dict(g=g, side=side, fs=fs, oc=oc, nf=len(F), no=len(O), od=od))
     C.sort(key=lambda c: -(c["fs"] * .6 + c["oc"] * .4)); C = C[:80]
     def price(c):
@@ -213,7 +216,7 @@ def pick_h1o05(G, LX, half=1):
         H = [m for m in LX.get(g["hid"], []) if m[kf] is not None]; A = [m for m in LX.get(g["aid"], []) if m[kf] is not None]
         if len(H) < 6 or len(A) < 6: continue
         hr = sum(m[kf] + m[ka] > 0 for m in H) / len(H); ar = sum(m[kf] + m[ka] > 0 for m in A) / len(A)
-        if min(hr, ar) < .85: continue
+        if min(hr, ar) < .85 - ST["L"]: continue
         C.append((g, hr, ar, len(H), len(A)))
     C.sort(key=lambda c: -(min(c[1], c[2]) * .6 + (c[1] + c[2]) / 2 * .4)); C = C[:80]
     def price(c):
@@ -245,7 +248,8 @@ def pick_yw_strong(G, LX):
             fo = sum(m["gf"] + m["ga"] >= 3 for m in F) / len(F); fg = sum(m["gf"] for m in F) / len(F)
             oc = sum(m["ga"] for m in O) / len(O); oo25 = sum(m["gf"] + m["ga"] >= 3 for m in O) / len(O)
             fw = sum(m["gf"] > m["ga"] for m in F) / len(F)
-            if fo < .7 or fg < 2.0 or oc < 1.2 or fw < .6: continue
+            L = ST["L"]
+            if fo < .7 - L or fg < 2.0 - 3 * L or oc < 1.2 - 2 * L or fw < .6 - L: continue
             C.append(dict(g=g, side=side, od=od, fo=fo, fg=fg, oc=oc, oo25=oo25, nf=len(F), no=len(O)))
     with ThreadPoolExecutor(8) as ex: HH = list(ex.map(lambda c: h2h(c["g"]["hid"], c["g"]["aid"]), C))
     out = []
@@ -301,7 +305,7 @@ def rates(g, LX, hh):
     return R
 
 def pick_multi(G, LX, kind, want):
-    keys = SETS[kind]; floor = {"gg": .68, "best": .8, "mix": .82}[kind]
+    keys = SETS[kind]; floor = {"gg": .68, "best": .8, "mix": .82}[kind] - ST["L"]
     pre = []
     for g in G:
         R = rates(g, LX, [])
@@ -354,7 +358,7 @@ def pick_htdraw(G, LX):
         if len(H) < 6 or len(A) < 6: continue
         hr = sum(m["h1f"] == m["h1a"] for m in H) / len(H); ar = sum(m["h1f"] == m["h1a"] for m in A) / len(A)
         lr = LR.get(g["lg"])
-        if min(hr, ar) < .6 or (lr is not None and lr < .42): continue
+        if min(hr, ar) < .6 - ST["L"] / 2 or (lr is not None and lr < .42 - ST["L"] / 2): continue
         C.append(dict(g=g, hr=hr, ar=ar, lr=lr, nh=len(H), na=len(A), h0=sum(m["h1f"] + m["h1a"] == 0 for m in H + A) / len(H + A)))
     C.sort(key=lambda c: -(min(c["hr"], c["ar"]) * .6 + (c["lr"] or .45) * .4)); C = C[:70]
     def detail(c):
@@ -447,7 +451,7 @@ def rebuild(req):
         if xa * 1.5 <= xh: against |= {"dc_1x", "h1dc_1x"}
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
-            if k in against or not od or od < 1.04 or R.get(k, 0) < .55: continue
+            if k in against or not od or od < 1.04 or R.get(k, 0) < .55 - ST["L"] / 2: continue
             if True: opts.append(dict(k=k, od=od, r=R[k], mid=mid, spec=spec, oid=oid, lab=lab.format(h=g["h"], a=g["a"])))
         if not opts: continue
         opts.sort(key=lambda o: (-o["r"], o["od"]))
@@ -498,6 +502,7 @@ def finish(T, kind, names, note, req):
 
 # ---------- main ----------
 def main(req):
+    ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
     if req.get("type") == "rebuild": return rebuild(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
@@ -537,9 +542,12 @@ def main(req):
             return dict(ok=False, msg=f"Could not reach {target:g} odds with {legs} legs or fewer from the {len(P)} games that pass the checks for {names[kind]} ({span}). Allow more legs or a lower target.")
         if len(T) < nt: note.append(f"Only enough strong games for {len(T)} ticket(s) at about {target:g} odds with no game repeated (you asked for {nt}).")
         return finish(T, kind, names, note, req)
+    if len(P) < 2:
+        return dict(ok=False, msg=f"Only {len(P)} game(s) pass the checks for {names[kind]} ({span}) out of {len(G)} on SportyBet. Try 'Relaxed', more days, or another type.")
+    if len(P) < legs:
+        note.append(f"Only {len(P)} games passed the checks ({span}, {len(G)} games on SportyBet), so this ticket has {len(P)} legs instead of {legs}. Tick more days or use 'Relaxed' for more.")
+        legs = len(P)
     can = len(P) // legs
-    if can == 0:
-        return dict(ok=False, msg=f"Only {len(P)} games pass the checks for {names[kind]} ({span}). Not enough for {legs} legs. Ask for {len(P)} legs or fewer.")
     if can < nt: note.append(f"Only {len(P)} games qualified, enough for {can} ticket(s) of {legs} with no game repeated (you asked for {nt}).")
     nt = min(nt, can); use = P[:nt*legs]
     T = [[] for _ in range(nt)]

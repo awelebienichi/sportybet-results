@@ -72,6 +72,12 @@
       <div><label for="legs" id="legslabel">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
       <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
     </div>
+    <label for="strict">How strict</label>
+    <select id="strict">
+      <option value="normal">Normal – good stats, more games (recommended)</option>
+      <option value="strict">Strict – only the very strongest (fewer games)</option>
+      <option value="relaxed">Relaxed – most games, a bit riskier</option>
+    </select>
     <label>Days to use (tick one or more)</label>
     <div id="days" class="days" role="group" aria-label="Days to use"></div>
     <div class="quick"><button type="button" class="q" data-n="1">Today</button><button type="button" class="q" data-n="2">2 days</button><button type="button" class="q" data-n="3">3 days</button><button type="button" class="q" data-n="4">4 days</button><button type="button" class="q" data-n="7">Whole week</button></div>
@@ -133,7 +139,7 @@ $("rgo").onclick = async () => {
   const markets = [...document.querySelectorAll("#rmk input:checked")].map(x => x.value);
   if (code.length < 5) { $("rmsg").className = "err"; $("rmsg").textContent = "Enter the booking code."; return; }
   if (!markets.length) { $("rmsg").className = "err"; $("rmsg").textContent = "Tick at least one market."; return; }
-  const req = { type: "rebuild", code, markets }; const t = +$("rtarget").value; if (t > 1) req.target = t;
+  const req = { type: "rebuild", code, markets, strict: $("strict").value }; const t = +$("rtarget").value; if (t > 1) req.target = t;
   $("rgo").disabled = true; $("rmsg").className = ""; $("rmsg").textContent = "Sending…";
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
@@ -145,13 +151,13 @@ $("rgo").onclick = async () => {
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
-  for (const k of ["type", "legs", "tickets", "target"]) if (s[k] != null && $(k)) $(k).value = s[k];
+  for (const k of ["type", "legs", "tickets", "target", "strict"]) if (s[k] != null && $(k)) $(k).value = s[k];
 } catch (e) {}
 $("go").onclick = async () => {
   const days = pickedDays();
   if (!days.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one day."; return; }
   const target = +$("target").value || 0;
-  const req = { type: $("type").value, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days };
+  const req = { type: $("type").value, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days, strict: $("strict").value };
   if (target > 1) req.target = target;
   try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
