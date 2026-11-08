@@ -52,6 +52,9 @@
   <div class="card">
     <label for="type">Ticket type</label>
     <select id="type">
+      <option value="mix">⭐ Safest market per game (mix)</option>
+      <option value="best">⭐ Your tracker's best markets</option>
+      <option value="gg">GG – both teams score</option>
       <option value="fav">Strong favourites to win</option>
       <option value="smallfav">Smallest-odds favourites to win</option>
       <option value="fav1h">Strong team to score in 1st half (team Over 0.5)</option>
@@ -64,7 +67,8 @@
       <option value="u25">Under 2.5 – lowest-scoring leagues</option>
     </select>
     <div class="row">
-      <div><label for="legs">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
+      <div><label for="target">Target odds (optional)</label><input id="target" type="number" min="1.5" step="any" placeholder="e.g. 20" inputmode="decimal"></div>
+      <div><label for="legs" id="legslabel">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
       <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
     </div>
     <label>Days to use (tick one or more)</label>
@@ -82,7 +86,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
+const names = {mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -99,22 +103,30 @@ const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")
     const n = +b.dataset.n; document.querySelectorAll("#days input").forEach((x, i) => x.checked = i < n);
   });
 })();
+const syncLegsLabel = () => {
+  const t = +$("target").value > 1;
+  $("legslabel").textContent = t ? "Most legs allowed" : "Legs per ticket";
+  if (t && +$("legs").value === 10) $("legs").value = 40;      // give the target room: low-priced safe legs need more of them
+};
+$("target").addEventListener("input", syncLegsLabel);
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
-  for (const k of ["type", "legs", "tickets"]) if (s[k] != null && $(k)) $(k).value = s[k];
+  for (const k of ["type", "legs", "tickets", "target"]) if (s[k] != null && $(k)) $(k).value = s[k];
 } catch (e) {}
 $("go").onclick = async () => {
   const days = pickedDays();
   if (!days.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one day."; return; }
-  const req = { type: $("type").value, legs: +$("legs").value || 10, tickets: +$("tickets").value || 1, days };
+  const target = +$("target").value || 0;
+  const req = { type: $("type").value, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days };
+  if (target > 1) req.target = target;
   try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
     if (!r.ok) throw new Error(r.status);
     $("msg").className = "ok";
-    $("msg").textContent = `Request sent: ${req.tickets} × ${req.legs} legs, ${names[req.type]}. Days: ${days.length}. Your code will arrive as a notification in about a minute (a little longer for several days).`;
+    $("msg").textContent = `Request sent: ${req.tickets} × ` + (req.target ? `about ${req.target} odds (up to ${req.legs} legs)` : `${req.legs} legs`) + `, ${names[req.type]}. Days: ${days.length}. Your code will arrive as a notification in about a minute (a little longer for several days).`;
   } catch (e) { $("msg").className = "err"; $("msg").textContent = "Could not send the request. Check your internet and try again."; }
   setTimeout(() => $("go").disabled = false, 4000);
 };
@@ -167,10 +179,10 @@ function paintScores() {
     el.textContent = l ? `❌ lost (${l} leg${l > 1 ? "s" : ""})` : w === n ? "✅ WON" : `${w}/${n} won` + (live ? ` · ${live} live` : "");
   });
 }
-loadList(); loadScores();
+syncLegsLabel(); loadList(); loadScores();
 setInterval(() => { if (!document.hidden) loadList(); }, 60000);
 setInterval(() => { if (!document.hidden) loadScores(); }, 120000);
-document.addEventListener("visibilitychange", () => { if (!document.hidden) { loadList(); loadScores(); } });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { syncLegsLabel(); loadList(); loadScores(); } });
 </script>
 </body>
 </html>
