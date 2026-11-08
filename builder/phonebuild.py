@@ -326,6 +326,57 @@ def pick_multi(G, LX, kind, want):
                         why=f"stats rate {r:.0%} from both teams' last 10" + (f" and {len(hh)} meetings" if len(hh) >= 3 and mid in ("1", "10", "18", "29", "860", "450001") else "")))
     return sorted(out, key=lambda r: -r["s"])
 
+def h2h_ht(h, a):
+    """half-time scores of the teams' meetings (from today's home side), where the feed has them"""
+    d = get(f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/stats_team_versusrecent/{h}/{a}", "https://www.sportybet.com/")
+    out = []
+    try:
+        for m in d["doc"][0]["data"]["matches"][:10]:
+            p = (m.get("periods") or {}).get("p1")
+            if not p: continue
+            hh = m["teams"]["home"]["uid"] == int(h); out.append((p["home"], p["away"]) if hh else (p["away"], p["home"]))
+    except Exception: pass
+    return out
+
+def pick_htdraw(G, LX):
+    """1st half 1X2 Draw (market 60, outcome 2): both teams level at half-time in 60%+ of recent games (the usual rate is about 40%), in a league where
+    half-time draws are common, no big favourite (they tend to score early), and meetings agree where known"""
+    L = collections.defaultdict(dict)
+    for g in G:
+        for t in (g["hid"], g["aid"]):
+            for m in LX.get(t, []):
+                if m["h1f"] is not None: L[g["lg"]][m["id"]] = m["h1f"] == m["h1a"]
+    LR = {k: sum(v.values()) / len(v) for k, v in L.items() if len(v) >= 15}
+    C = []
+    for g in G:
+        if min(g["x"].get("1", 9), g["x"].get("3", 9)) < 1.6: continue
+        H = [m for m in LX.get(g["hid"], []) if m["h1f"] is not None]; A = [m for m in LX.get(g["aid"], []) if m["h1f"] is not None]
+        if len(H) < 6 or len(A) < 6: continue
+        hr = sum(m["h1f"] == m["h1a"] for m in H) / len(H); ar = sum(m["h1f"] == m["h1a"] for m in A) / len(A)
+        lr = LR.get(g["lg"])
+        if min(hr, ar) < .6 or (lr is not None and lr < .42): continue
+        C.append(dict(g=g, hr=hr, ar=ar, lr=lr, nh=len(H), na=len(A), h0=sum(m["h1f"] + m["h1a"] == 0 for m in H + A) / len(H + A)))
+    C.sort(key=lambda c: -(min(c["hr"], c["ar"]) * .6 + (c["lr"] or .45) * .4)); C = C[:70]
+    def detail(c):
+        g = c["g"]; hh = h2h_ht(g["hid"], g["aid"]); od = None
+        for m in event_markets(g["eid"]):
+            if m["id"] == "60":
+                for o in m["outcomes"]:
+                    if o["id"] == "2" and o.get("isActive"): od = float(o["odds"])
+        return c, hh, od
+    with ThreadPoolExecutor(8) as ex: D = list(ex.map(detail, C))
+    out = []
+    for c, hh, od in D:
+        if not od: continue
+        hd = sum(x == y for x, y in hh) / len(hh) if len(hh) >= 3 else None
+        if hd is not None and hd < .4: continue      # meetings must not be against it (the usual half-time draw rate is ~40%)
+        g = c["g"]; avg = (c["hr"] + c["ar"]) / 2
+        out.append(dict(eid=g["eid"], mid="60", spec="", oid="2", pick="Half-time draw", odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
+                        s=min(c["hr"], c["ar"]) * .45 + avg * .25 + (c["lr"] or avg) * .15 + (hd if hd is not None else avg) * .15,
+                        why=f"level at half-time in {c['hr']:.0%} of {g['h']}'s last {c['nh']} and {c['ar']:.0%} of {g['a']}'s last {c['na']} ({c['h0']:.0%} were 0-0)"
+                            + (f"; league {c['lr']:.0%} half-time draws" if c["lr"] is not None else "") + (f"; {hd:.0%} of {len(hh)} meetings level at half-time" if hd is not None else "")))
+    return sorted(out, key=lambda r: -r["s"])
+
 def finish(T, kind, names, note, req):
     """book every ticket, reload and check it, report"""
     res = []
@@ -362,9 +413,9 @@ def main(req):
     else:
         G = games_cached(lo, hi); span = "up to " + hm(hi)
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
-    names = {"gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
+    names = {"htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = []
     target = float(req.get("target") or 0)

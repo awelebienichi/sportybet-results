@@ -104,6 +104,12 @@ def verdict(leg, s):
     if mid == "10":                         # double chance: 9 home or draw, 10 home or away, 11 draw or away
         if not fin: return ""
         return "W" if (oid == "9" and h >= a) or (oid == "10" and h != a) or (oid == "11" and a >= h) else "L"
+    if mid == "60":                         # 1st half 1X2, decided at half-time
+        if ht is None:
+            if s["st"] == "live" and s.get("det") == "12": return ""
+            return ""
+        x, y = ht
+        return "W" if (oid == "1" and x > y) or (oid == "2" and x == y) or (oid == "3" and y > x) else "L"
     if mid == "63":                         # 1st half double chance, decided at half-time
         if ht is None: return ""
         x, y = ht
