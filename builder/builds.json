@@ -1,5 +1,163 @@
 [
 {
+"when": "Sun 08 Nov 10:22",
+"req": {
+"type": "fav2h",
+"legs": 17,
+"tickets": 2,
+"until": "today"
+},
+"ok": true,
+"kind": "strong team to score in the 2nd half",
+"note": [
+"Only 17 games qualified, enough for 1 ticket(s) of 17 with no game repeated (you asked for 2)."
+],
+"tickets": [
+{
+"code": "VM69T6",
+"odds": 346.45,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Sogndal Fotball vs Hoedd IL",
+"lg": "Norway - 1st Division",
+"pick": "Sogndal Fotball to score in 2nd half",
+"odds": 1.31,
+"why": "Sogndal Fotball scored in the 2nd half in 80% of last 10; Hoedd IL conceded in it in 80% of last 10; win odds 1.5"
+},
+{
+"t": "Sun 13:00",
+"game": "Java United FC vs Persib Bandung",
+"lg": "Indonesia - Super League",
+"pick": "Persib Bandung to score in 2nd half",
+"odds": 1.5,
+"why": "Persib Bandung scored in the 2nd half in 80% of last 10; Java United FC conceded in it in 70% of last 10; win odds 1.91"
+},
+{
+"t": "Sun 13:00",
+"game": "FK Haugesund vs Odds BK",
+"lg": "Norway - 1st Division",
+"pick": "FK Haugesund to score in 2nd half",
+"odds": 1.22,
+"why": "FK Haugesund scored in the 2nd half in 80% of last 10; Odds BK conceded in it in 60% of last 10; win odds 1.47"
+},
+{
+"t": "Sun 13:00",
+"game": "Corluspor 1947 vs 68 Aksaray Belediyespor",
+"lg": "Turkiye Amateur - 2. Lig",
+"pick": "Corluspor 1947 to score in 2nd half",
+"odds": 1.53,
+"why": "Corluspor 1947 scored in the 2nd half in 80% of last 10; 68 Aksaray Belediyespor conceded in it in 60% of last 10; win odds 1.81"
+},
+{
+"t": "Sun 13:00",
+"game": "Karacabey Belediyespor vs Kirklarelispor",
+"lg": "Turkiye Amateur - 2. Lig",
+"pick": "Karacabey Belediyespor to score in 2nd half",
+"odds": 1.55,
+"why": "Karacabey Belediyespor scored in the 2nd half in 80% of last 10; Kirklarelispor conceded in it in 60% of last 10; win odds 1.88"
+},
+{
+"t": "Sun 14:00",
+"game": "Js El Biar vs MC Alger",
+"lg": "Algeria - Ligue 1",
+"pick": "MC Alger to score in 2nd half",
+"odds": 1.71,
+"why": "MC Alger scored in the 2nd half in 83% of last 6; Js El Biar conceded in it in 75% of last 8; win odds 1.73"
+},
+{
+"t": "Sun 14:00",
+"game": "Halmstads BK vs Djurgardens IF",
+"lg": "Sweden - Allsvenskan",
+"pick": "Djurgardens IF to score in 2nd half",
+"odds": 1.39,
+"why": "Djurgardens IF scored in the 2nd half in 80% of last 10; Halmstads BK conceded in it in 70% of last 10; win odds 1.43"
+},
+{
+"t": "Sun 14:30",
+"game": "AC Savoia 1908 vs Potenza Calcio",
+"lg": "Italy - Serie C, Group C",
+"pick": "Potenza Calcio to score in 2nd half",
+"odds": 1.51,
+"why": "Potenza Calcio scored in the 2nd half in 80% of last 10; AC Savoia 1908 conceded in it in 70% of last 10; win odds 1.96"
+},
+{
+"t": "Sun 15:00",
+"game": "OGC Nice vs Le Mans FC",
+"lg": "France - Seconde Ligue, Women",
+"pick": "Le Mans FC to score in 2nd half",
+"odds": 1.44,
+"why": "Le Mans FC scored in the 2nd half in 80% of last 10; OGC Nice conceded in it in 70% of last 10; win odds 1.49"
+},
+{
+"t": "Sun 15:00",
+"game": "Ipswich Town vs Bournemouth",
+"lg": "England - Premier League",
+"pick": "Bournemouth to score in 2nd half",
+"odds": 1.54,
+"why": "Bournemouth scored in the 2nd half in 80% of last 10; Ipswich Town conceded in it in 70% of last 10; win odds 1.98"
+},
+{
+"t": "Sun 16:30",
+"game": "FK Zenit Saint Petersburg vs FK Rostov",
+"lg": "Russia - Premier League",
+"pick": "FK Zenit Saint Petersburg to score in 2nd half",
+"odds": 1.44,
+"why": "FK Zenit Saint Petersburg scored in the 2nd half in 100% of last 10; FK Rostov conceded in it in 60% of last 10; win odds 1.42"
+},
+{
+"t": "Sun 16:30",
+"game": "POT Iraklis vs Panathinaikos",
+"lg": "Greece - Super League",
+"pick": "Panathinaikos to score in 2nd half",
+"odds": 1.36,
+"why": "Panathinaikos scored in the 2nd half in 80% of last 10; POT Iraklis conceded in it in 60% of last 10; win odds 1.3"
+},
+{
+"t": "Sun 18:00",
+"game": "CFR Cluj vs CS Universitatea Craiova",
+"lg": "Romania - Superliga",
+"pick": "CS Universitatea Craiova to score in 2nd half",
+"odds": 1.41,
+"why": "CS Universitatea Craiova scored in the 2nd half in 80% of last 10; CFR Cluj conceded in it in 70% of last 10; win odds 1.55"
+},
+{
+"t": "Sun 19:00",
+"game": "Vasas FC vs Ferencvarosi Budapest",
+"lg": "Hungary - NB I",
+"pick": "Ferencvarosi Budapest to score in 2nd half",
+"odds": 1.38,
+"why": "Ferencvarosi Budapest scored in the 2nd half in 100% of last 10; Vasas FC conceded in it in 80% of last 10; win odds 1.69"
+},
+{
+"t": "Sun 19:00",
+"game": "Besiktas Istanbul vs Genclerbirligi SK",
+"lg": "Turkiye - Super Lig",
+"pick": "Besiktas Istanbul to score in 2nd half",
+"odds": 1.21,
+"why": "Besiktas Istanbul scored in the 2nd half in 80% of last 10; Genclerbirligi SK conceded in it in 80% of last 10; win odds 1.22"
+},
+{
+"t": "Sun 20:15",
+"game": "KKS Lech Poznan vs Zaglebie Lubin",
+"lg": "Poland - Ekstraklasa",
+"pick": "KKS Lech Poznan to score in 2nd half",
+"odds": 1.35,
+"why": "KKS Lech Poznan scored in the 2nd half in 80% of last 10; Zaglebie Lubin conceded in it in 70% of last 10; win odds 1.47"
+},
+{
+"t": "Sun 21:30",
+"game": "Estrela Amadora vs Benfica",
+"lg": "Portugal - Liga Portugal",
+"pick": "Benfica to score in 2nd half",
+"odds": 1.23,
+"why": "Benfica scored in the 2nd half in 100% of last 10; Estrela Amadora conceded in it in 70% of last 10; win odds 1.25"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 10:21",
 "req": {
 "type": "fav2h",
