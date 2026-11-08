@@ -3,3 +3,4 @@ tracker/__pycache__/
 builder/cache/
 builder/last.json
 builder/__pycache__/
+builder/scores.json

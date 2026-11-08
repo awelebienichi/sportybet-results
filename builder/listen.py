@@ -19,7 +19,15 @@ def warm():
         except Exception: traceback.print_exc()
         time.sleep(90 * 60)
 
+def live_scores():
+    import scores
+    while time.time() < END:
+        try: scores.publish(scores.run_once())
+        except Exception: traceback.print_exc()
+        time.sleep(75)
+
 threading.Thread(target=warm, daemon=True).start()
+threading.Thread(target=live_scores, daemon=True).start()
 state = poll.load_state()
 while time.time() < END:
     try:

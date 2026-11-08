@@ -145,7 +145,12 @@ def run_once():
         s = S.get(l["eid"])
         if not s or s["st"] == "ns": continue
         out[k] = dict(st=s["st"], sc=f"{s['h']}-{s['a']}", ht=f"{s['ht'][0]}-{s['ht'][1]}" if s["ht"] else "", m=s["min"], r=verdict(l, s), src=s["src"])
-    doc = dict(updated=int(now), legs=out)
+    by_code = {}   # also by "CODE#leg number", so the page can match legs of older builds too
+    for b in B:
+        for t in b.get("tickets", []) if b.get("ok") else []:
+            for i, l in enumerate(t["legs"]):
+                if l.get("k") in out: by_code[f"{t['code']}#{i}"] = out[l["k"]]
+    doc = dict(updated=int(now), legs=by_code)
     json.dump(doc, open(OUT, "w"))
     return doc
 

@@ -29,6 +29,11 @@
   details summary { cursor:pointer; color:var(--muted); font-size:.9rem; margin-top:4px; }
   ol { padding-left:20px; margin:6px 0; font-size:.88rem; } li { margin:3px 0; }
   a { color:var(--accent); }
+  .sc { display:inline-block; font:600 .8rem ui-monospace, Menlo, monospace; padding:1px 6px; border-radius:6px; margin-right:6px; }
+  .sc:empty { display:none; }
+  .sc.live { background:#fff3cd; color:#7a5a00; } .sc.won { background:#d6f5e0; color:#0a6b33; } .sc.lost { background:#fde2e1; color:#a1201a; }
+  @media (prefers-color-scheme: dark) { .sc.live { background:#3d3210; color:#f0c36d; } .sc.won { background:#123d24; color:#6fe0a0; } .sc.lost { background:#47201e; color:#ff9c94; } }
+  .tally { font-weight:700; font-size:.85rem; } .tally.won { color:var(--accent); } .tally.lost { color:var(--bad); }
   .days { display:grid; grid-template-columns:repeat(auto-fill, minmax(92px, 1fr)); gap:8px; }
   .day { display:flex; flex-direction:column; align-items:center; padding:8px 4px; border:1px solid var(--line); border-radius:10px; background:var(--bg); cursor:pointer; user-select:none; font-size:.9rem; }
   .day input { position:absolute; opacity:0; pointer-events:none; }
@@ -70,7 +75,7 @@
   </div>
 
   <div class="card">
-    <strong>Recent tickets</strong>
+    <strong>Recent tickets</strong> <span id="scoretime" class="meta"></span>
     <div id="list"><p class="meta">Loading…</p></div>
   </div>
   <p class="meta">Every team passes your rules: favourites must have good form, head-to-head and be clear bookmaker favourites. Goal picks need both teams' last 10 and their meetings to agree. No game is used twice, and every code is reloaded and checked before it is sent. All codes are added to your tracker.</p>
@@ -118,19 +123,49 @@ async function loadList() {
   try {
     const r = await fetch("builder/builds.json?t=" + Date.now()); const B = r.ok ? await r.json() : [];
     if (!B.length) { $("list").innerHTML = '<p class="meta">No phone tickets yet.</p>'; return; }
+    let shown = 0;
     $("list").innerHTML = B.map(b => {
       const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc((b.req||{}).legs)} legs</div>`;
       if (!b.ok) return `<div class="b">${head}<div class="warn">${esc(b.msg || "Not built")}</div></div>`;
       return `<div class="b">${head}` + b.tickets.map(t => `
         <div style="margin-top:6px"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button>
-        <span class="meta"> ${t.legs.length} legs · ${Number(t.odds).toLocaleString()} odds · first ${esc(t.legs[0].t)}</span>
-        <details><summary>Show legs</summary><ol>${t.legs.map(l => `<li>${esc(l.t)} ${esc(l.game)} — <b>${esc(l.pick)}</b> @ ${l.odds}<br><span class="meta">${esc(l.why)}</span></li>`).join("")}</ol></details></div>`).join("")
+        <span class="meta"> ${t.legs.length} legs · ${Number(t.odds).toLocaleString()} odds · first ${esc(t.legs[0].t)}</span> <span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span>
+        <details${shown++ < 4 ? " open" : ""}><summary>Show legs</summary><ol>${t.legs.map((l, i) => `<li><span class="sc" data-k="${esc(t.code)}#${i}"></span>${esc(l.t)} ${esc(l.game)} — <b>${esc(l.pick)}</b> @ ${l.odds}<br><span class="meta">${esc(l.why)}</span></li>`).join("")}</ol></details></div>`).join("")
         + (b.note && b.note.length ? `<div class="warn meta">${esc(b.note.join(" "))}</div>` : "") + `</div>`;
     }).join("");
+    paintScores();
     document.querySelectorAll(".copy").forEach(x => x.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(x.dataset.c); x.textContent = "Copied"; });
   } catch (e) { $("list").innerHTML = '<p class="meta">Could not load recent tickets.</p>'; }
 }
-loadList(); setInterval(loadList, 60000);
+// live / final scores (Flashscore, Sportradar backup), refreshed by the cloud listener about every 75 seconds
+let SC = {};
+async function loadScores() {
+  try {
+    const r = await fetch("https://api.github.com/repos/awelebienichi/sportybet-results/contents/scores.json?ref=scores", { headers: { Accept: "application/vnd.github.raw+json" }, cache: "no-store" });
+    if (!r.ok) return;
+    const d = await r.json(); SC = d.legs || {};
+    $("scoretime").textContent = "Scores updated " + new Date(d.updated * 1000).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+    paintScores();
+  } catch (e) {}
+}
+function paintScores() {
+  document.querySelectorAll(".sc").forEach(el => {
+    const s = SC[el.dataset.k];
+    if (!s) { el.className = "sc"; el.textContent = ""; return; }
+    const res = s.r === "W" ? "✅" : s.r === "L" ? "❌" : "";
+    const ht = s.ht ? ` (HT ${s.ht})` : "";
+    el.className = "sc " + (s.r === "W" ? "won" : s.r === "L" ? "lost" : s.st === "live" ? "live" : "");
+    el.textContent = s.st === "live" ? `${res} LIVE ${s.m} ${s.sc}${ht}` : `${res} FT ${s.sc}${ht}`;
+  });
+  document.querySelectorAll(".tally").forEach(el => {
+    let w = 0, l = 0, live = 0; const n = +el.dataset.n;
+    for (let i = 0; i < n; i++) { const s = SC[el.dataset.code + "#" + i]; if (!s) continue; if (s.r === "W") w++; else if (s.r === "L") l++; else if (s.st === "live") live++; }
+    if (!w && !l && !live) { el.textContent = ""; el.className = "tally"; return; }
+    el.className = "tally " + (l ? "lost" : w === n ? "won" : "");
+    el.textContent = l ? `❌ lost (${l} leg${l > 1 ? "s" : ""})` : w === n ? "✅ WON" : `${w}/${n} won` + (live ? ` · ${live} live` : "");
+  });
+}
+loadList(); loadScores(); setInterval(loadList, 60000); setInterval(loadScores, 90000);
 </script>
 </body>
 </html>
