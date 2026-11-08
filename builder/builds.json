@@ -1,5 +1,16 @@
 [
 {
+"when": "Sun 08 Nov 09:15",
+"req": {
+"type": "h1o05",
+"legs": 20,
+"tickets": 2,
+"until": "today"
+},
+"ok": false,
+"msg": "Only 10 games pass the checks for 1st half Over 0.5 up to Sun 23:59. Not enough for 20 legs. Ask for 10 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 09:14",
 "req": {
 "type": "fav1h",
