@@ -1,5 +1,65 @@
 [
 {
+"when": "Sun 08 Nov 08:10",
+"req": {
+"type": "fav",
+"legs": 5,
+"tickets": 1,
+"until": "today"
+},
+"ok": true,
+"kind": "strong favourites to win",
+"note": [],
+"tickets": [
+{
+"code": "Y9JFEK",
+"odds": 4.24,
+"legs": [
+{
+"t": "Sun 16:00",
+"game": "Atert Bissen vs FC Differdange 03",
+"lg": "Luxembourg - Coupe de Luxembourg",
+"pick": "FC Differdange 03 to win",
+"odds": 1.89,
+"why": "won 100% lost 0% of last 10, rival lost 30%, won 75% of 4 meetings"
+},
+{
+"t": "Sun 16:00",
+"game": "FC Barcelona W vs Madrid CFF",
+"lg": "Spain - Primera Division Women",
+"pick": "FC Barcelona W to win",
+"odds": 1.03,
+"why": "won 90% lost 10% of last 10, rival lost 30%, won 88% of 8 meetings"
+},
+{
+"t": "Sun 16:00",
+"game": "Avenir Beggen vs FC Una Strassen",
+"lg": "Luxembourg - Coupe de Luxembourg",
+"pick": "FC Una Strassen to win",
+"odds": 1.09,
+"why": "won 90% lost 0% of last 10, rival lost 50%"
+},
+{
+"t": "Sun 18:00",
+"game": "Spartak Kostroma vs FC Nizhny Novgorod",
+"lg": "Russia - 1. Liga",
+"pick": "FC Nizhny Novgorod to win",
+"odds": 1.77,
+"why": "won 100% lost 0% of last 10, rival lost 40%"
+},
+{
+"t": "Sun 19:00",
+"game": "CA Penarol Montevideo vs Liverpool FC Montevideo",
+"lg": "Uruguay - Primera Division, Women",
+"pick": "CA Penarol Montevideo to win",
+"odds": 1.13,
+"why": "won 100% lost 0% of last 10, rival lost 40%, won 80% of 5 meetings"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 08:08",
 "req": {
 "type": "o25",
