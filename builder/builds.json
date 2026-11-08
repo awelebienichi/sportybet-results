@@ -1,5 +1,16 @@
 [
 {
+"when": "Sun 08 Nov 09:08",
+"req": {
+"type": "fav2h",
+"legs": 3,
+"tickets": 1,
+"until": "today"
+},
+"ok": false,
+"msg": "Builder error: [Errno 2] No such file or directory: '/home/runner/work/sportybet-results/sportybet-results/builder/cache/1054013.json.tmp' -> '/home/runner/work/sportybet-results/sportybet-results/builder/cache/1054013.json'"
+},
+{
 "when": "Sun 08 Nov 09:01",
 "req": {
 "type": "fav1h",
