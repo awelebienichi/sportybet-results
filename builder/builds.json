@@ -1,5 +1,24 @@
 [
 {
+"when": "Sun 08 Nov 15:53",
+"req": {
+"type": "o25yw",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14"
+]
+},
+"ok": false,
+"msg": "Only 6 games pass the checks for Over 2.5 (strong teams in youth & women's leagues) (Sun 08, Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14). Not enough for 20 legs. Ask for 6 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 15:52",
 "req": {
 "type": "o25yw",
