@@ -1,5 +1,16 @@
 [
 {
+"when": "Sun 08 Nov 15:30",
+"req": {
+"type": "o25yw",
+"legs": 15,
+"tickets": 1,
+"until": "today"
+},
+"ok": false,
+"msg": "Only 9 games pass the checks for Over 2.5 (youth & women's leagues) up to Sun 23:59. Not enough for 15 legs. Ask for 9 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 15:29",
 "req": {
 "type": "o25",
