@@ -1,5 +1,89 @@
 [
 {
+"when": "Sun 08 Nov 23:17",
+"req": {
+"type": "rebuild",
+"code": "V52LQ8",
+"target": 8,
+"markets": [
+"o15",
+"gg",
+"win",
+"dc",
+"h1"
+]
+},
+"ok": true,
+"kind": "rebuild of V52LQ8",
+"note": [
+"Highest odds possible with your markets on these games: about 5.40 (you asked for 8)."
+],
+"tickets": [
+{
+"code": "L07YTS",
+"odds": 5.4,
+"legs": [
+{
+"t": "Mon 00:00",
+"game": "Chattanooga FC vs Los Angeles FC 2",
+"lg": "USA - MLS Next Pro",
+"pick": "Chattanooga FC to win",
+"odds": 1.79,
+"why": "stats rate 60% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794178800.0,
+"eid": "sr:match:76363606",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "76363606|1||1"
+},
+{
+"t": "Mon 13:00",
+"game": "KF Ferizaj vs FC Suhareka",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Double chance KF Ferizaj or FC Suhareka",
+"odds": 1.16,
+"why": "stats rate 68% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794225600.0,
+"eid": "sr:match:76480650",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76480650|10||10"
+},
+{
+"t": "Mon 13:55",
+"game": "AL Ain FC vs AL Wahda FC",
+"lg": "United Arab Emirates - U23 Pro League",
+"pick": "AL Ain FC to win",
+"odds": 1.54,
+"why": "stats rate 60% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794228900.0,
+"eid": "sr:match:75186204",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75186204|1||1"
+},
+{
+"t": "Mon 14:00",
+"game": "Coventry City U21 vs Queens Park Rangers U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Coventry City U21 to win",
+"odds": 1.69,
+"why": "stats rate 61% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794229200.0,
+"eid": "sr:match:73601820",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "73601820|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 23:11",
 "req": {
 "type": "o15",
@@ -4997,272 +5081,6 @@
 "pick": "Over 2.5",
 "odds": 1.53,
 "why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 3.6 goals"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 08:34",
-"req": {
-"type": "o15",
-"legs": 15,
-"tickets": 2,
-"until": "today"
-},
-"ok": true,
-"kind": "Over 1.5",
-"note": [],
-"tickets": [
-{
-"code": "T4R3HH",
-"odds": 7.75,
-"legs": [
-{
-"t": "Sun 09:30",
-"game": "Hong Kong FC vs Eastern SC",
-"lg": "Hong Kong, China - Premier League",
-"pick": "Over 1.5",
-"odds": 1.11,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, 100% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Leeds United U21 vs Bournemouth U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 4.1 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Sogndal Fotball vs Hoedd IL",
-"lg": "Norway - 1st Division",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Stafford Rangers vs Grimsby Town",
-"lg": "England - FA Cup",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.2 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "Tottenham Hotspur U21 vs Chelsea U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, 100% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "FC St. Gallen 1879 vs Lugano",
-"lg": "Switzerland - Super League",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 88% of 8 meetings, league avg 4.0 goals"
-},
-{
-"t": "Sun 14:30",
-"game": "FC Aarau vs FC Yverdon",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, 100% of 5 meetings, league avg 4.0 goals"
-},
-{
-"t": "Sun 14:30",
-"game": "FC Twente Enschede vs Ajax",
-"lg": "Netherlands - Eredivisie",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.7 goals"
-},
-{
-"t": "Sun 15:00",
-"game": "Ipswich Town vs Bournemouth",
-"lg": "England - Premier League",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, 100% of 6 meetings, league avg 3.4 goals"
-},
-{
-"t": "Sun 15:00",
-"game": "Monza vs Atalanta",
-"lg": "Italy - Serie A",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.4 goals"
-},
-{
-"t": "Sun 17:00",
-"game": "Viking FK vs KFUM Oslo",
-"lg": "Norway - Eliteserien",
-"pick": "Over 1.5",
-"odds": 1.11,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, 86% of 7 meetings, league avg 3.7 goals"
-},
-{
-"t": "Sun 17:30",
-"game": "Atletico Club Pueblonuevo vs Moralo CP",
-"lg": "Spain Amateur - Tercera Federacion, Group 14",
-"pick": "Over 1.5",
-"odds": 1.29,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 88% of 8 meetings, league avg 2.8 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "FC Midtjylland vs SonderjyskE",
-"lg": "Denmark - Superliga",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 100% of 8 meetings, league avg 3.2 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "Tomares UD vs Malaga CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.6 goals"
-},
-{
-"t": "Sun 19:15",
-"game": "Fredrikstad FK vs SK Brann",
-"lg": "Norway - Eliteserien",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.7 goals"
-}
-]
-},
-{
-"code": "RBBNEA",
-"odds": 11.61,
-"legs": [
-{
-"t": "Sun 09:00",
-"game": "Sekhukhune United vs Mamelodi Sundowns",
-"lg": "South Africa - Diski Challenge, Reserves",
-"pick": "Over 1.5",
-"odds": 1.25,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, league avg 3.4 goals"
-},
-{
-"t": "Sun 10:15",
-"game": "SK Slavia Prague B vs SK Kladno",
-"lg": "Czechia - FNL",
-"pick": "Over 1.5",
-"odds": 1.11,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.6 goals"
-},
-{
-"t": "Sun 11:30",
-"game": "CD Galapagar vs UD Sanse",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "Over 1.5",
-"odds": 1.19,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.4 goals"
-},
-{
-"t": "Sun 12:00",
-"game": "Hung Yen FC vs Binh Dinh FC",
-"lg": "Vietnam - V-League 2",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.1 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "FK Haugesund vs Odds BK",
-"lg": "Norway - 1st Division",
-"pick": "Over 1.5",
-"odds": 1.06,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, 100% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Ampem Darkoa vs AS Far Rabat W",
-"lg": "International Clubs - CAF Champions League, Women",
-"pick": "Over 1.5",
-"odds": 1.34,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.8 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Inegolspor vs Belediye Kutahyaspor",
-"lg": "Turkiye Amateur - 2. Lig",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.3 goals"
-},
-{
-"t": "Sun 13:30",
-"game": "Isparta 32 Spor vs Erbaaspor",
-"lg": "Turkiye Amateur - 2. Lig",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.3 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "BSC Young Boys U21 vs AC Bellinzona",
-"lg": "Switzerland - Promotion League",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.4 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "FSV Zwickau vs 1. FC Lokomotive Leipzig",
-"lg": "Germany Amateur - Regionalliga Northeast",
-"pick": "Over 1.5",
-"odds": 1.19,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.3 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "Corum FK vs Fenerbahce Istanbul",
-"lg": "Turkiye - Super Lig",
-"pick": "Over 1.5",
-"odds": 1.19,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.2 goals"
-},
-{
-"t": "Sun 15:00",
-"game": "Wolverhampton Wanderers WFC vs Nottingham Forest Lfc",
-"lg": "England Amateur - Super League 2, Women",
-"pick": "Over 1.5",
-"odds": 1.19,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, 100% of 3 meetings, league avg 3.9 goals"
-},
-{
-"t": "Sun 15:00",
-"game": "Arsenal U21 vs Aston Villa U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 15:00",
-"game": "IF Karlstad Fotbol vs Umea FC",
-"lg": "Sweden - Ettan",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "Over 1.5 in 90% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.1 goals"
-},
-{
-"t": "Sun 16:30",
-"game": "Yverdon-Sport vs Neuchatel Xamax",
-"lg": "Switzerland - Challenge League",
-"pick": "Over 1.5",
-"odds": 1.17,
-"why": "Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.2 goals"
 }
 ]
 }
