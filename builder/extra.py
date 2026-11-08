@@ -118,7 +118,7 @@ def fs_rate(leg, F):
 def confirm(P, need):
     """check the best `need`*2 legs (at least 40) against Flashscore venue form and footybets; drop contradicted ones"""
     top, rest = P[:max(need * 2, 40)], P[max(need * 2, 40):]
-    scores.day_list(True)            # Flashscore game list (kept 20 minutes; the listener keeps it warm)
+    scores.day_list(False)           # Flashscore game list: the listener keeps it warm; never wait for it here (first minutes after a restart: no Flashscore check)
     def one(p):
         fid = scores.match_fid(dict(k=p["eid"] + "|x", game=p["game"], ts=p["ts"]))
         F = fs_form(fid) if fid else None
