@@ -1,5 +1,57 @@
 [
 {
+"when": "Sun 08 Nov 23:53",
+"req": {
+"type": "fav",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "strong favourites to win",
+"note": [],
+"tickets": [
+{
+"code": "UU2BLJ",
+"odds": 2.91,
+"legs": [
+{
+"t": "Mon 13:55",
+"game": "AL Ain FC vs AL Wahda FC",
+"lg": "United Arab Emirates - U23 Pro League",
+"pick": "AL Ain FC to win",
+"odds": 1.54,
+"why": "won 90% lost 0% of last 10, rival lost 30%; Flashscore home/away form 65%",
+"ts": 1794228900.0,
+"eid": "sr:match:75186204",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75186204|1||1"
+},
+{
+"t": "Mon 20:00",
+"game": "Colon FC Reserve vs Defensor Sporting",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Defensor Sporting to win",
+"odds": 1.89,
+"why": "won 70% lost 10% of last 10, rival lost 50%",
+"ts": 1794250800.0,
+"eid": "sr:match:76458600",
+"mid": "1",
+"spec": "",
+"oid": "3",
+"k": "76458600|1||3"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 23:52",
 "req": {
 "type": "mix",
@@ -4739,16 +4791,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 09:15",
-"req": {
-"type": "h1o05",
-"legs": 20,
-"tickets": 2,
-"until": "today"
-},
-"ok": false,
-"msg": "Only 10 games pass the checks for 1st half Over 0.5 up to Sun 23:59. Not enough for 20 legs. Ask for 10 legs or fewer."
 }
 ]
