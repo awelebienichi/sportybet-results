@@ -1,5 +1,20 @@
 [
 {
+"when": "Sun 08 Nov 23:55",
+"req": {
+"type": "h1o05",
+"legs": 1,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for 1st half Over 0.5 (Sun 08, Mon 09) out of 83 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Sun 08 Nov 23:54",
 "req": {
 "type": "h1o05",
@@ -4476,16 +4491,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 10:18",
-"req": {
-"type": "h2o05",
-"legs": 40,
-"tickets": 2,
-"until": "today"
-},
-"ok": false,
-"msg": "Only 37 games pass the checks for 2nd half Over 0.5 up to Sun 23:59. Not enough for 40 legs. Ask for 37 legs or fewer."
 }
 ]
