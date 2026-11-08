@@ -2,6 +2,58 @@
 {
 "when": "Sun 08 Nov 23:58",
 "req": {
+"type": "o25",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "XMHYNW",
+"odds": 1.82,
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 2.5",
+"odds": 1.37,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 3.6 goals; Flashscore home/away form 65%",
+"ts": 1794250800.0,
+"eid": "sr:match:75153534",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75153534|18|total=2.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Middlesbrough U21 vs Derby County U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, 57% of 7 meetings, league avg 5.0 goals; Flashscore home/away form 70%",
+"ts": 1794250800.0,
+"eid": "sr:match:73603148",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603148|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
+"when": "Sun 08 Nov 23:58",
+"req": {
 "type": "o15",
 "legs": 3,
 "tickets": 1,
@@ -4033,106 +4085,6 @@
 "pick": "Over 1.5",
 "odds": 1.19,
 "why": "Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.2 goals"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 11:44",
-"req": {
-"type": "o25",
-"legs": 10,
-"tickets": 1,
-"until": "today"
-},
-"ok": true,
-"kind": "Over 2.5 (high-scoring leagues)",
-"note": [],
-"tickets": [
-{
-"code": "VGPQZN",
-"odds": 18.07,
-"legs": [
-{
-"t": "Sun 13:00",
-"game": "AKS 1947 Busko Zdroj vs JKS 1909 Jaroslaw",
-"lg": "Poland - III Liga, Group 4",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "Over 2.5 in 100% / 90% of the teams' last 10, league avg 4.0 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Leeds United U21 vs Bournemouth U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 4.1 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "FK Haugesund vs Odds BK",
-"lg": "Norway - 1st Division",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, 88% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "FK Bospor Bohumin vs Opava B",
-"lg": "Czechia - Divize F",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "Over 2.5 in 100% / 100% of the teams' last 10, 67% of 6 meetings, league avg 3.6 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "FC Hradec Kralove vs SFC Opava",
-"lg": "Czechia - U19 1. Liga",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "Over 2.5 in 90% / 90% of the teams' last 10, 75% of 8 meetings, league avg 4.3 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "Tottenham Hotspur U21 vs Chelsea U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, 100% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "FC Union Berlin vs TSG Hoffenheim W",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.9 goals"
-},
-{
-"t": "Sun 14:00",
-"game": "NK Odranci vs NK Carda",
-"lg": "Slovenia - 3. SNL",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 4.3 goals"
-},
-{
-"t": "Sun 14:30",
-"game": "US Quevilly-Rouen Metropole vs RC Lens",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "Over 2.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.5 goals"
-},
-{
-"t": "Sun 17:10",
-"game": "Rangers LFC vs Heart of Midlothian WFC",
-"lg": "Scotland - Premier League, Women",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.7 goals"
 }
 ]
 }
