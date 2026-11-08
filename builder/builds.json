@@ -1,5 +1,75 @@
 [
 {
+"when": "Sun 08 Nov 22:56",
+"req": {
+"type": "htdraw",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14"
+]
+},
+"ok": true,
+"kind": "half-time draw",
+"note": [],
+"tickets": [
+{
+"code": "Z5RDH6",
+"odds": 9.71,
+"legs": [
+{
+"t": "Mon 19:00",
+"game": "Mushuc Runa SC vs Delfin SC",
+"lg": "Ecuador - LigaPro Primera A",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 80% of Mushuc Runa SC's last 10 and 60% of Delfin SC's last 10 (35% were 0-0); league 53% half-time draws; 40% of 10 meetings level at half-time",
+"ts": 1794247200.0,
+"eid": "sr:match:74735328",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74735328|60||2"
+},
+{
+"t": "Sat 16:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 2.1,
+"why": "level at half-time in 70% of Deportivo Madryn's last 10 and 70% of CD Maipu's last 10 (55% were 0-0); league 53% half-time draws; 40% of 5 meetings level at half-time",
+"ts": 1794668400.0,
+"eid": "sr:match:76413240",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413240|60||2"
+},
+{
+"t": "Sat 20:30",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 80% of Sao Bernardo FC's last 10 and 70% of Athletic Club Sjdr MG's last 10 (40% were 0-0); league 45% half-time draws",
+"ts": 1794684600.0,
+"eid": "sr:match:68823468",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "68823468|60||2"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 22:55",
 "req": {
 "type": "htdraw",
@@ -5175,66 +5245,6 @@
 "pick": "Over 2.5",
 "odds": 1.41,
 "why": "Over 2.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.5 goals"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 08:10",
-"req": {
-"type": "fav",
-"legs": 5,
-"tickets": 1,
-"until": "today"
-},
-"ok": true,
-"kind": "strong favourites to win",
-"note": [],
-"tickets": [
-{
-"code": "Y9JFEK",
-"odds": 4.24,
-"legs": [
-{
-"t": "Sun 16:00",
-"game": "Atert Bissen vs FC Differdange 03",
-"lg": "Luxembourg - Coupe de Luxembourg",
-"pick": "FC Differdange 03 to win",
-"odds": 1.89,
-"why": "won 100% lost 0% of last 10, rival lost 30%, won 75% of 4 meetings"
-},
-{
-"t": "Sun 16:00",
-"game": "FC Barcelona W vs Madrid CFF",
-"lg": "Spain - Primera Division Women",
-"pick": "FC Barcelona W to win",
-"odds": 1.03,
-"why": "won 90% lost 10% of last 10, rival lost 30%, won 88% of 8 meetings"
-},
-{
-"t": "Sun 16:00",
-"game": "Avenir Beggen vs FC Una Strassen",
-"lg": "Luxembourg - Coupe de Luxembourg",
-"pick": "FC Una Strassen to win",
-"odds": 1.09,
-"why": "won 90% lost 0% of last 10, rival lost 50%"
-},
-{
-"t": "Sun 18:00",
-"game": "Spartak Kostroma vs FC Nizhny Novgorod",
-"lg": "Russia - 1. Liga",
-"pick": "FC Nizhny Novgorod to win",
-"odds": 1.77,
-"why": "won 100% lost 0% of last 10, rival lost 40%"
-},
-{
-"t": "Sun 19:00",
-"game": "CA Penarol Montevideo vs Liverpool FC Montevideo",
-"lg": "Uruguay - Primera Division, Women",
-"pick": "CA Penarol Montevideo to win",
-"odds": 1.13,
-"why": "won 100% lost 0% of last 10, rival lost 40%, won 80% of 5 meetings"
 }
 ]
 }
