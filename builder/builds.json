@@ -1,5 +1,16 @@
 [
 {
+"when": "Sun 08 Nov 09:14",
+"req": {
+"type": "fav1h",
+"legs": 20,
+"tickets": 2,
+"until": "today"
+},
+"ok": false,
+"msg": "Only 5 games pass the checks for strong team to score in the 1st half up to Sun 23:59. Not enough for 20 legs. Ask for 5 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 09:10",
 "req": {
 "type": "fav2h",
