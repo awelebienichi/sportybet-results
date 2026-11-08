@@ -482,6 +482,38 @@ def rebuild(req):
     if target > 1 and p < target * .95: note.append(f"Highest odds possible with your markets on these games: about {p:,.2f} (you asked for {target:g}).")
     return finish([legs], "rebuild", {"rebuild": f"rebuild of {code}"}, note, req)
 
+# ---------- combine several booking codes into one ----------
+def combine(req):
+    codes = []
+    for c in re.split(r"[^A-Za-z0-9]+", " ".join(req.get("codes") or [])):
+        c = c.upper()
+        if len(c) >= 5 and c not in codes: codes.append(c)
+    if len(codes) < 2: return dict(ok=False, msg="Enter at least two booking codes to combine.")
+    size = 50 if req.get("split50") else 100
+    with ThreadPoolExecutor(6) as ex: L = list(ex.map(load, codes))
+    now = time.time(); legs, seen, note, started, clash, bad = [], {}, [], 0, 0, []
+    for code, outs in zip(codes, L):
+        if not outs: bad.append(code); continue
+        for e in outs:
+            m = e["markets"][0]; o = m["outcomes"][0]; ts = e["estimateStartTime"] / 1000
+            if ts <= now + 60: started += 1; continue
+            key = (m["id"], m.get("specifier") or "", o["id"])
+            if e["eventId"] in seen:
+                if seen[e["eventId"]] != key: clash += 1
+                continue
+            seen[e["eventId"]] = key
+            desc = m.get("desc") or m.get("name") or ""
+            legs.append(dict(eid=e["eventId"], mid=m["id"], spec=m.get("specifier") or "", oid=o["id"], pick=f"{desc} – {o['desc']}".strip(" –"), odds=float(o["odds"]),
+                             ts=ts, game=f"{e['homeTeamName']} vs {e['awayTeamName']}", lg=e["sport"]["category"]["name"] + " - " + e["sport"]["category"]["tournament"]["name"], why=f"from {code}"))
+    if bad: note.append("Could not load: " + ", ".join(bad) + ".")
+    if started: note.append(f"{started} leg(s) had already started and were left out.")
+    if clash: note.append(f"{clash} game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip).")
+    if not legs: return dict(ok=False, msg=" ".join(note) or "No legs left to combine.")
+    legs.sort(key=lambda p: p["ts"])
+    T = [legs[i:i + size] for i in range(0, len(legs), size)]
+    if len(T) > 1: note.append(f"{len(legs)} legs is more than {size} per code, so they were split into {len(T)} codes.")
+    return finish(T, "combine", {"combine": "combined " + " + ".join(codes)}, note, req)
+
 def finish(T, kind, names, note, req):
     """book every ticket, reload and check it, report"""
     res = []
@@ -504,6 +536,7 @@ def finish(T, kind, names, note, req):
 def main(req):
     ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
     if req.get("type") == "rebuild": return rebuild(req)
+    if req.get("type") == "combine": return combine(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")

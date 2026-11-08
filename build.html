@@ -100,6 +100,16 @@
   </div>
 
   <div class="card">
+    <strong>Combine codes into one</strong>
+    <p class="meta" style="margin:4px 0 0">Paste two or more booking codes (spaces, commas or new lines between them). Every leg keeps its game, market and pick. Started games are left out; a game on more than one code is kept once.</p>
+    <label for="ccodes">Booking codes</label>
+    <textarea id="ccodes" rows="3" style="width:100%;font:16px ui-monospace,Menlo,monospace;padding:10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);text-transform:uppercase" placeholder="e.g. V52LQ8 JQSW4W K846WN"></textarea>
+    <label class="day" style="flex-direction:row;gap:8px;justify-content:flex-start;margin-top:8px"><input type="checkbox" id="csplit" style="position:static;opacity:1;pointer-events:auto"> Split into codes of 50 legs (if your bet slip won't take more)</label>
+    <button id="cgo" type="button">Combine codes</button>
+    <div id="cmsg" aria-live="polite"></div>
+  </div>
+
+  <div class="card">
     <strong>Recent tickets</strong> <span id="scoretime" class="meta"></span>
     <div id="list"><p class="meta">Loading…</p></div>
   </div>
@@ -107,7 +117,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {rebuild:"Rebuild", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
+const names = {rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -148,6 +158,18 @@ $("rgo").onclick = async () => {
   } catch (e) { $("rmsg").className = "err"; $("rmsg").textContent = "Could not send. Check your internet and try again."; }
   setTimeout(() => $("rgo").disabled = false, 4000);
 };
+$("cgo").onclick = async () => {
+  const codes = $("ccodes").value.toUpperCase().split(/[^A-Z0-9]+/).filter(c => c.length >= 5);
+  if (codes.length < 2) { $("cmsg").className = "err"; $("cmsg").textContent = "Enter at least two booking codes."; return; }
+  const req = { type: "combine", codes, split50: $("csplit").checked };
+  $("cgo").disabled = true; $("cmsg").className = ""; $("cmsg").textContent = "Sending…";
+  try {
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    if (!r.ok) throw new Error(r.status);
+    $("cmsg").className = "ok"; $("cmsg").textContent = `Combining ${codes.length} codes. The new code arrives as a notification in a few seconds.`;
+  } catch (e) { $("cmsg").className = "err"; $("cmsg").textContent = "Could not send. Check your internet and try again."; }
+  setTimeout(() => $("cgo").disabled = false, 4000);
+};
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
@@ -176,7 +198,7 @@ async function loadList() {
     if (!B.length) { $("list").innerHTML = '<p class="meta">No phone tickets yet.</p>'; return; }
     let shown = 0;
     $("list").innerHTML = B.map(b => {
-      const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc(b.tickets && b.tickets[0] ? b.tickets[0].legs.length : (b.req||{}).legs || "")} legs${b.req && b.req.code ? " · from " + esc(b.req.code) : ""}</div>`;
+      const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc(b.tickets && b.tickets[0] ? b.tickets[0].legs.length : (b.req||{}).legs || "")} legs${b.req && b.req.code ? " · from " + esc(b.req.code) : ""}${b.req && b.req.codes ? " · from " + esc(b.req.codes.join(" + ")) : ""}</div>`;
       if (!b.ok) return `<div class="b">${head}<div class="warn">${esc(b.msg || "Not built")}</div></div>`;
       return `<div class="b">${head}` + b.tickets.map(t => `
         <div style="margin-top:6px"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button>
