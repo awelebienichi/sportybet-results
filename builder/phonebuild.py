@@ -6,7 +6,7 @@ types: fav (strong favourites to win), smallfav (smallest-odds strong favourites
 Rules are the user's standing rules: favourites must pass form + h2h checks AND be clear bookmaker favourites
 (opponent's odds 1.5x+), goal picks need both teams' last-10 + h2h to agree, no game repeated across tickets,
 every code reloaded and checked before it is reported, then added to the tracker."""
-import json, os, re, subprocess, sys, time, collections, datetime as dt
+import json, os, re, subprocess, sys, time, collections, threading, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
 HERE = os.path.dirname(os.path.abspath(__file__)); SITE = os.path.dirname(HERE)
 CACHE = os.path.join(HERE, "cache"); os.makedirs(CACHE, exist_ok=True)
@@ -74,7 +74,10 @@ def lastx(t):
     f = os.path.join(CACHE, t + ".json")
     if not (os.path.exists(f) and time.time() - os.path.getmtime(f) < 6 * 3600):
         d = get(f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/stats_team_lastx/{t}/10", "https://www.sportybet.com/")
-        if d: json.dump(d, open(f + ".tmp", "w")); os.replace(f + ".tmp", f)     # atomic: the listener's warm-up thread may read it at the same time
+        if d:   # atomic, and a temp name of its own: the listener's warm-up thread may fetch the same team at the same moment
+            tmp = f"{f}.{os.getpid()}.{threading.get_ident()}.tmp"
+            try: json.dump(d, open(tmp, "w")); os.replace(tmp, f)
+            except OSError: pass
     try: d = json.load(open(f))["doc"][0]["data"]
     except Exception: return []
     ms = [m for m in ((d.get("matches") if isinstance(d, dict) else None) or []) if isinstance(m, dict) and (m.get("result") or {}).get("home") is not None and not m.get("canceled")]
