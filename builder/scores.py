@@ -30,7 +30,19 @@ def sim(a, b):
     if not a or not b: return 0
     return 1.0 if (a in b or b in a) and min(len(a), len(b)) >= 4 else difflib.SequenceMatcher(None, a, b).ratio()
 
-def day_list():
+_loading = {"on": False}
+def day_list(block=True):
+    """Flashscore's full day lists (slow, ~1MB each, often cut off). Without block, load them in the background and
+    return what we have, so the first scores come straight from Sportradar instead of waiting"""
+    if not block:
+        if time.time() - _list["at"] > 20 * 60 and not _loading["on"]:
+            import threading
+            def bg():
+                _loading["on"] = True
+                try: day_list(True)
+                finally: _loading["on"] = False
+            threading.Thread(target=bg, daemon=True).start()
+        return _list["rows"]
     if time.time() - _list["at"] > 20 * 60:
         with ThreadPoolExecutor(3) as ex: feeds = list(ex.map(lambda off: fs(f"f_1_{off}_3_en_1", 8), (-1, 0, 1)))
         rows = [dict(id=r["AA"], h=r.get("AE", ""), a=r.get("AF", ""), t=int(r.get("AD", 0) or 0)) for f in feeds for r in recs(f) if "AA" in r]
@@ -39,8 +51,10 @@ def day_list():
 
 def match_fid(leg):
     if leg["k"] in _fid: return _fid[leg["k"]]
+    rows = day_list(False)
+    if not rows: return None            # Flashscore list still loading: use Sportradar this round
     h, a = leg["game"].split(" vs ", 1); best = None
-    for r in day_list():
+    for r in rows:
         if abs(r["t"] - leg["ts"]) > 50 * 60: continue
         s = min(sim(h, r["h"]), sim(a, r["a"]))
         if s >= 0.72 and (best is None or s > best[0]): best = (s, r["id"])
@@ -130,7 +144,7 @@ def run_once():
                 if "k" in l and now - 36 * 3600 < l["ts"] < now + 5 * 60: legs[l["k"]] = l
     games = {}
     for k, l in legs.items(): games.setdefault(l["eid"], l)
-    day_list()                                   # once, before the parallel lookups
+    day_list(False)                              # starts the Flashscore download in the background if needed
     def score(l):
         gk = l["eid"]
         if gk in _final: return gk, _final[gk]
