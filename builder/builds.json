@@ -1,5 +1,16 @@
 [
 {
+"when": "Sun 08 Nov 08:50",
+"req": {
+"type": "u25",
+"legs": 15,
+"tickets": 2,
+"until": "today"
+},
+"ok": false,
+"msg": "Only 13 games pass the checks for Under 2.5 (low-scoring leagues) up to Sun 23:59. Not enough for 15 legs. Ask for 13 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 08:40",
 "req": {
 "type": "smallfav",
