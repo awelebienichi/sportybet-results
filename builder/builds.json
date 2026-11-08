@@ -1,5 +1,57 @@
 [
 {
+"when": "Sun 08 Nov 23:57",
+"req": {
+"type": "h2o05",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "2nd half Over 0.5",
+"note": [],
+"tickets": [
+{
+"code": "YDUL01",
+"odds": 1.34,
+"legs": [
+{
+"t": "Mon 02:00",
+"game": "Piratas Veracruz vs Cancun FC",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"why": "goal in the 2nd half in 90% of Piratas Veracruz's last 10 and 100% of Cancun FC's last 10",
+"ts": 1794186000.0,
+"eid": "sr:match:76367028",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76367028|90|total=0.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"why": "goal in the 2nd half in 100% of Kristiansund BK's last 10 and 90% of Vaalerenga IF's last 10",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76509750|90|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 23:56",
 "req": {
 "type": "h1o05",
@@ -4177,16 +4229,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 10:21",
-"req": {
-"type": "fav2h",
-"legs": 37,
-"tickets": 2,
-"until": "today"
-},
-"ok": false,
-"msg": "Only 17 games pass the checks for strong team to score in the 2nd half up to Sun 23:59. Not enough for 37 legs. Ask for 17 legs or fewer."
 }
 ]
