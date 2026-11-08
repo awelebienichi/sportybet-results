@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Build a ticket</title>
+<link rel="icon" href="icon.svg">
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#15202b; --muted:#5b6b7a; --line:#dde3ea; --accent:#0a7d3b; --accent-ink:#fff; --bad:#b42318; --warn:#9a6700; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1419; --card:#18202a; --ink:#e7ecf0; --muted:#93a1ad; --line:#2a3542; --accent:#2fbf71; --accent-ink:#06210f; --bad:#ff8a80; --warn:#f0c36d; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:16px; }
+  h1 { font-size:1.4rem; margin:4px 0 2px; }
+  p.sub { color:var(--muted); margin:0 0 14px; font-size:.95rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:14px; }
+  label { display:block; font-weight:600; margin:10px 0 4px; font-size:.95rem; }
+  select, input { width:100%; font-size:16px; padding:10px; border-radius:8px; border:1px solid var(--line); background:var(--bg); color:var(--ink); }
+  .row { display:flex; gap:10px; } .row > div { flex:1; }
+  button { width:100%; margin-top:14px; padding:13px; font-size:17px; font-weight:700; border:0; border-radius:10px; background:var(--accent); color:var(--accent-ink); }
+  button:disabled { opacity:.6; }
+  #msg { margin-top:10px; font-size:.95rem; }
+  .ok { color:var(--accent); } .err { color:var(--bad); } .warn { color:var(--warn); }
+  .b { border-top:1px solid var(--line); padding:10px 0; }
+  .b:first-child { border-top:0; }
+  .code { font:700 1.25rem ui-monospace, Menlo, monospace; letter-spacing:.06em; }
+  .copy { width:auto; margin:0 0 0 8px; padding:4px 10px; font-size:13px; }
+  .meta { color:var(--muted); font-size:.85rem; }
+  details summary { cursor:pointer; color:var(--muted); font-size:.9rem; margin-top:4px; }
+  ol { padding-left:20px; margin:6px 0; font-size:.88rem; } li { margin:3px 0; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <a href="index.html">&larr; Results</a>
+  <h1>Build a ticket</h1>
+  <p class="sub">Works with your Mac off. The code arrives as a phone notification (ntfy) in about 5–15 minutes, and it shows below and on your results page.</p>
+
+  <div class="card">
+    <label for="type">Ticket type</label>
+    <select id="type">
+      <option value="fav">Strong favourites to win</option>
+      <option value="smallfav">Smallest-odds favourites to win</option>
+      <option value="o15">Over 1.5 goals</option>
+      <option value="o25">Over 2.5 – highest-scoring leagues</option>
+      <option value="o25yw">Over 2.5 – youth &amp; women's leagues</option>
+      <option value="u25">Under 2.5 – lowest-scoring leagues</option>
+    </select>
+    <div class="row">
+      <div><label for="legs">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
+      <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
+    </div>
+    <label for="until">Games from now until</label>
+    <select id="until">
+      <option value="today">Tonight (today's games)</option>
+      <option value="tomorrow">End of tomorrow</option>
+      <option value="sun">Sunday night</option>
+    </select>
+    <button id="go" type="button">Build ticket</button>
+    <div id="msg" aria-live="polite"></div>
+  </div>
+
+  <div class="card">
+    <strong>Recent tickets</strong>
+    <div id="list"><p class="meta">Loading…</p></div>
+  </div>
+  <p class="meta">Every team passes your rules: favourites must have good form, head-to-head and be clear bookmaker favourites. Goal picks need both teams' last 10 and their meetings to agree. No game is used twice, and every code is reloaded and checked before it is sent. All codes are added to your tracker.</p>
+</main>
+<script>
+const REQ = "sportyreq-8b4fc11513";
+const names = {fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 youth & women", u25:"Under 2.5 low-scoring"};
+const $ = id => document.getElementById(id);
+try { const s = JSON.parse(localStorage.getItem("buildForm") || "{}"); for (const k in s) if ($(k)) $(k).value = s[k]; } catch (e) {}
+$("go").onclick = async () => {
+  const req = { type: $("type").value, legs: +$("legs").value || 10, tickets: +$("tickets").value || 1, until: $("until").value };
+  try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
+  $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
+  try {
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    if (!r.ok) throw new Error(r.status);
+    $("msg").className = "ok";
+    $("msg").textContent = `Request sent: ${req.tickets} × ${req.legs} legs, ${names[req.type]}. Your code will arrive as a notification in about 5–15 minutes (longer for "Sunday night").`;
+  } catch (e) { $("msg").className = "err"; $("msg").textContent = "Could not send the request. Check your internet and try again."; }
+  setTimeout(() => $("go").disabled = false, 4000);
+};
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+async function loadList() {
+  try {
+    const r = await fetch("builder/builds.json?t=" + Date.now()); const B = r.ok ? await r.json() : [];
+    if (!B.length) { $("list").innerHTML = '<p class="meta">No phone tickets yet.</p>'; return; }
+    $("list").innerHTML = B.map(b => {
+      const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc((b.req||{}).legs)} legs</div>`;
+      if (!b.ok) return `<div class="b">${head}<div class="warn">${esc(b.msg || "Not built")}</div></div>`;
+      return `<div class="b">${head}` + b.tickets.map(t => `
+        <div style="margin-top:6px"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button>
+        <span class="meta"> ${t.legs.length} legs · ${Number(t.odds).toLocaleString()} odds · first ${esc(t.legs[0].t)}</span>
+        <details><summary>Show legs</summary><ol>${t.legs.map(l => `<li>${esc(l.t)} ${esc(l.game)} — <b>${esc(l.pick)}</b> @ ${l.odds}<br><span class="meta">${esc(l.why)}</span></li>`).join("")}</ol></details></div>`).join("")
+        + (b.note && b.note.length ? `<div class="warn meta">${esc(b.note.join(" "))}</div>` : "") + `</div>`;
+    }).join("");
+    document.querySelectorAll(".copy").forEach(x => x.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(x.dataset.c); x.textContent = "Copied"; });
+  } catch (e) { $("list").innerHTML = '<p class="meta">Could not load recent tickets.</p>'; }
+}
+loadList(); setInterval(loadList, 60000);
+</script>
+</body>
+</html>

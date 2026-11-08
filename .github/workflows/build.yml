@@ -1,0 +1,44 @@
+name: Build tickets from phone
+on:
+  schedule:
+    - cron: "*/5 * * * *"     # checks for new requests from build.html (GitHub may start it a few minutes late)
+  workflow_dispatch:
+concurrency:
+  group: phone-build
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - name: Any new requests?
+        id: peek
+        run: |
+          S=$(python3 -c "import json;print(json.load(open('builder/state.json'))['since'])" 2>/dev/null || echo 3h)
+          N=$(curl -s -m 30 "https://ntfy.sh/sportyreq-8b4fc11513/json?poll=1&since=$S" | grep -c '"event":"message"' || true)
+          echo "new=$N" >> "$GITHUB_OUTPUT"; echo "new requests: $N"
+      - uses: actions/cache@v4
+        if: steps.peek.outputs.new != '0'
+        with:
+          path: builder/cache
+          key: sr-${{ github.run_id }}
+          restore-keys: sr-
+      - name: Build, book, verify, track and notify
+        if: steps.peek.outputs.new != '0'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TZ: Africa/Lagos
+        run: python3 builder/poll.py
+      - name: Save
+        if: steps.peek.outputs.new != '0'
+        run: |
+          git config user.name "results-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add builder/state.json builder/builds.json tracker/tracker.json
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "Phone tickets $(TZ=Africa/Lagos date '+%a %d %b %H:%M')"
+          for i in 1 2 3 4; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          exit 1

@@ -1,2 +1,5 @@
 tracker/web/
 tracker/__pycache__/
+builder/cache/
+builder/last.json
+builder/__pycache__/
