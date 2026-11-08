@@ -1,5 +1,20 @@
 [
 {
+"when": "Sun 08 Nov 23:54",
+"req": {
+"type": "fav1h",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for strong team to score in the 1st half (Sun 08, Mon 09) out of 84 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Sun 08 Nov 23:53",
 "req": {
 "type": "smallfav",
@@ -4635,108 +4650,6 @@
 "pick": "2nd half Over 0.5",
 "odds": 1.21,
 "why": "goal in the 2nd half in 100% of Jaguares de Cordoba's last 10 and 90% of CA Bucaramanga's last 10"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 09:18",
-"req": {
-"type": "h1o05",
-"legs": 10,
-"tickets": 2,
-"until": "today"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 10 games qualified, enough for 1 ticket(s) of 10 with no game repeated (you asked for 2)."
-],
-"tickets": [
-{
-"code": "Z4AB7A",
-"odds": 7.63,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "Eastern District vs Tai Po FC",
-"lg": "Hong Kong, China - Premier League",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "goal in the 1st half in 90% of Eastern District's last 10 and 90% of Tai Po FC's last 10"
-},
-{
-"t": "Sun 12:00",
-"game": "BG Pathum United vs Rayong FC",
-"lg": "Thailand - Thai League 1",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"why": "goal in the 1st half in 90% of BG Pathum United's last 10 and 90% of Rayong FC's last 10"
-},
-{
-"t": "Sun 13:00",
-"game": "FK Haugesund vs Odds BK",
-"lg": "Norway - 1st Division",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 1st half in 90% of FK Haugesund's last 10 and 100% of Odds BK's last 10"
-},
-{
-"t": "Sun 13:00",
-"game": "Bryne FK vs Kongsvinger IL Toppfotball",
-"lg": "Norway - 1st Division",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "goal in the 1st half in 90% of Bryne FK's last 10 and 100% of Kongsvinger IL Toppfotball's last 10"
-},
-{
-"t": "Sun 13:00",
-"game": "Raufoss IL vs Egersunds IK",
-"lg": "Norway - 1st Division",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"why": "goal in the 1st half in 90% of Raufoss IL's last 10 and 90% of Egersunds IK's last 10"
-},
-{
-"t": "Sun 13:30",
-"game": "Club Brugge vs RSC Anderlecht",
-"lg": "Belgium - Pro League",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "goal in the 1st half in 100% of Club Brugge's last 10 and 90% of RSC Anderlecht's last 10"
-},
-{
-"t": "Sun 14:00",
-"game": "FC St. Gallen 1879 vs Lugano",
-"lg": "Switzerland - Super League",
-"pick": "1st half Over 0.5",
-"odds": 1.28,
-"why": "goal in the 1st half in 90% of FC St. Gallen 1879's last 10 and 100% of Lugano's last 10"
-},
-{
-"t": "Sun 17:00",
-"game": "Viking FK vs KFUM Oslo",
-"lg": "Norway - Eliteserien",
-"pick": "1st half Over 0.5",
-"odds": 1.19,
-"why": "goal in the 1st half in 90% of Viking FK's last 10 and 90% of KFUM Oslo's last 10"
-},
-{
-"t": "Sun 18:00",
-"game": "CS Cartagines vs CD Escorpiones Belen",
-"lg": "Costa Rica - Primera Division",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "goal in the 1st half in 100% of CS Cartagines's last 10 and 90% of CD Escorpiones Belen's last 10"
-},
-{
-"t": "Sun 19:30",
-"game": "FC Wurzburger Kickers vs TSG Hoffenheim II",
-"lg": "Germany - 3. Liga",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "goal in the 1st half in 90% of FC Wurzburger Kickers's last 10 and 100% of TSG Hoffenheim II's last 10"
 }
 ]
 }
