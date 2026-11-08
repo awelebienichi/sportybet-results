@@ -1,5 +1,156 @@
 [
 {
+"when": "Sun 08 Nov 23:47",
+"req": {
+"type": "combine",
+"codes": [
+"K846WN",
+"XET35E",
+"L07YTS"
+],
+"split50": false
+},
+"ok": true,
+"kind": "combined K846WN + XET35E + L07YTS",
+"note": [
+"3 game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip)."
+],
+"tickets": [
+{
+"code": "ZH5Q53",
+"odds": 6.64,
+"legs": [
+{
+"t": "Mon 00:00",
+"game": "Chattanooga FC vs Los Angeles FC 2",
+"lg": "USA - MLS Next Pro",
+"pick": "GG/NG \u2013 Yes",
+"odds": 1.55,
+"why": "from XET35E",
+"ts": 1794178800.0,
+"eid": "sr:match:76363606",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "76363606|29||74"
+},
+{
+"t": "Mon 02:00",
+"game": "Piratas Veracruz vs Cancun FC",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.23,
+"why": "from K846WN",
+"ts": 1794186000.0,
+"eid": "sr:match:76367028",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76367028|18|total=1.5|12"
+},
+{
+"t": "Mon 13:00",
+"game": "KF Ferizaj vs FC Suhareka",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Double Chance \u2013 Home or Away",
+"odds": 1.16,
+"why": "from L07YTS",
+"ts": 1794225600.0,
+"eid": "sr:match:76480650",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76480650|10||10"
+},
+{
+"t": "Mon 13:55",
+"game": "AL Ain FC vs AL Wahda FC",
+"lg": "United Arab Emirates - U23 Pro League",
+"pick": "1X2 \u2013 Home",
+"odds": 1.54,
+"why": "from L07YTS",
+"ts": 1794228900.0,
+"eid": "sr:match:75186204",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75186204|1||1"
+},
+{
+"t": "Mon 14:00",
+"game": "Coventry City U21 vs Queens Park Rangers U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.06,
+"why": "from K846WN",
+"ts": 1794229200.0,
+"eid": "sr:match:73601820",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73601820|18|total=1.5|12"
+},
+{
+"t": "Mon 18:00",
+"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
+"lg": "Israel - National League",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.2,
+"why": "from K846WN",
+"ts": 1794243600.0,
+"eid": "sr:match:75661174",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75661174|18|total=1.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.12,
+"why": "from K846WN",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76509750|18|total=1.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Colon FC Reserve vs Defensor Sporting",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.17,
+"why": "from XET35E",
+"ts": 1794250800.0,
+"eid": "sr:match:76458600",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76458600|18|total=1.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.17,
+"why": "from K846WN",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75802948|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 23:43",
 "req": {
 "type": "h1o05",
@@ -4438,16 +4589,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 09:08",
-"req": {
-"type": "fav2h",
-"legs": 3,
-"tickets": 1,
-"until": "today"
-},
-"ok": false,
-"msg": "Builder error: [Errno 2] No such file or directory: '/home/runner/work/sportybet-results/sportybet-results/builder/cache/1054013.json.tmp' -> '/home/runner/work/sportybet-results/sportybet-results/builder/cache/1054013.json'"
 }
 ]
