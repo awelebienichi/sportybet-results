@@ -3,6 +3,274 @@
 "when": "Sun 08 Nov 15:57",
 "req": {
 "type": "o25",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-08",
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14"
+]
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "Y8XXHZ",
+"odds": 103873.38,
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "FC Thun vs Basel",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, 88% of 8 meetings, league avg 4.1 goals"
+},
+{
+"t": "Sun 16:30",
+"game": "Yverdon-Sport vs Neuchatel Xamax",
+"lg": "Switzerland - Challenge League",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "Over 2.5 in 60% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals"
+},
+{
+"t": "Sun 16:30",
+"game": "FK Zenit Saint Petersburg vs FK Rostov",
+"lg": "Russia - Premier League",
+"pick": "Over 2.5",
+"odds": 1.96,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, 50% of 8 meetings, league avg 3.3 goals"
+},
+{
+"t": "Sun 17:00",
+"game": "Viking FK vs KFUM Oslo",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, 71% of 7 meetings, league avg 3.6 goals"
+},
+{
+"t": "Sun 17:00",
+"game": "HamKam vs Sarpsborg 08",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, 62% of 8 meetings, league avg 3.6 goals"
+},
+{
+"t": "Sun 17:10",
+"game": "Rangers LFC vs Heart of Midlothian WFC",
+"lg": "Scotland - Premier League, Women",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.3 goals"
+},
+{
+"t": "Sun 18:00",
+"game": "Santutxu FC vs Ef Mareo Logrono Youth",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "Over 2.5 in 70% / 100% of the teams' last 10, league avg 3.8 goals"
+},
+{
+"t": "Sun 18:00",
+"game": "FC Midtjylland vs SonderjyskE",
+"lg": "Denmark - Superliga",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, 100% of 8 meetings, league avg 3.8 goals"
+},
+{
+"t": "Sun 18:00",
+"game": "Tomares UD vs Malaga CF",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 3.8 goals"
+},
+{
+"t": "Sun 18:00",
+"game": "APOEL Nikosia vs Aris Limassol",
+"lg": "Cyprus - 1st Division",
+"pick": "Over 2.5",
+"odds": 1.8,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, 62% of 8 meetings, league avg 3.3 goals"
+},
+{
+"t": "Sun 19:00",
+"game": "CA Penarol Montevideo vs Liverpool FC Montevideo",
+"lg": "Uruguay - Primera Division, Women",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, 60% of 5 meetings, league avg 4.8 goals"
+},
+{
+"t": "Sun 19:30",
+"game": "FC Wurzburger Kickers vs TSG Hoffenheim II",
+"lg": "Germany - 3. Liga",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, league avg 3.3 goals"
+},
+{
+"t": "Mon 00:00",
+"game": "Chattanooga FC vs Los Angeles FC 2",
+"lg": "USA - MLS Next Pro",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 5.0 goals"
+},
+{
+"t": "Mon 14:00",
+"game": "Coventry City U21 vs Queens Park Rangers U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, 75% of 8 meetings, league avg 4.2 goals"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, 75% of 8 meetings, league avg 3.6 goals"
+},
+{
+"t": "Mon 20:00",
+"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 3.6 goals"
+},
+{
+"t": "Mon 20:00",
+"game": "Middlesbrough U21 vs Derby County U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, 57% of 7 meetings, league avg 5.0 goals"
+},
+{
+"t": "Tue 20:45",
+"game": "Enfield Town vs Lewes FC",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "Over 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals"
+},
+{
+"t": "Tue 20:45",
+"game": "Anstey Nomads vs Kettering Town",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, league avg 3.5 goals"
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Three Bridges",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 4.1 goals"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "Over 2.5 in 100% / 90% of the teams' last 10, 71% of 7 meetings, league avg 3.8 goals"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.8 goals"
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"lg": "Scotland - League 1",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "Over 2.5 in 89% / 70% of the teams' last 10, league avg 3.6 goals"
+},
+{
+"t": "Sat 16:00",
+"game": "Harrogate Town vs Altrincham FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, 88% of 8 meetings, league avg 3.8 goals"
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, 62% of 8 meetings, league avg 3.8 goals"
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.7 goals"
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"lg": "Scotland - League 1",
+"pick": "Over 2.5",
+"odds": 1.63,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.6 goals"
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.37,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.5 goals"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, 50% of 8 meetings, league avg 3.5 goals"
+}
+]
+}
+]
+},
+{
+"when": "Sun 08 Nov 15:57",
+"req": {
+"type": "o25",
 "legs": 40,
 "tickets": 1,
 "days": [
