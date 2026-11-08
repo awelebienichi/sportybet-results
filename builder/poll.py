@@ -43,7 +43,7 @@ def handle(msgs, state):
             builds.insert(0, dict(when=when, req=req, ok=False, msg=msg))
             continue
         codes = [t["code"] for t in res["tickets"]]
-        name = f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - phone: {res['kind']} {req.get('legs')} legs"
+        name = f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - phone: {res['kind']} {len(res['tickets'][0]['legs'])} legs"
         subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", name, *codes], capture_output=True)
         for t in res["tickets"]:
             body = f"{len(t['legs'])} legs - {res['kind']} - total odds {t['odds']:,}\nFirst game {t['legs'][0]['t']}\n\n" + \

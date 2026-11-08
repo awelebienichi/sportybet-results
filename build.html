@@ -80,6 +80,20 @@
   </div>
 
   <div class="card">
+    <strong>Rebuild a code</strong>
+    <p class="meta" style="margin:4px 0 0">Same games, new markets. Games that have started are left out. Each game gets the safest of the markets you tick; if you give target odds, the strongest games move to higher-priced markets until it gets there. It never backs the weaker team.</p>
+    <div class="row">
+      <div><label for="rcode">Booking code</label><input id="rcode" type="text" autocapitalize="characters" autocomplete="off" placeholder="e.g. N7FDVL"></div>
+      <div><label for="rtarget">Target odds (optional)</label><input id="rtarget" type="number" min="1.2" step="any" placeholder="e.g. 50" inputmode="decimal"></div>
+    </div>
+    <label>Markets it may use</label>
+    <div id="rmk" class="days"></div>
+    <div class="quick"><button type="button" class="q" id="rall">Tick all</button><button type="button" class="q" id="rnone">Clear</button></div>
+    <button id="rgo" type="button">Rebuild code</button>
+    <div id="rmsg" aria-live="polite"></div>
+  </div>
+
+  <div class="card">
     <strong>Recent tickets</strong> <span id="scoretime" class="meta"></span>
     <div id="list"><p class="meta">Loading…</p></div>
   </div>
@@ -87,7 +101,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
+const names = {rebuild:"Rebuild", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -110,6 +124,24 @@ const syncLegsLabel = () => {
   if (t && +$("legs").value === 10) $("legs").value = 40;      // give the target room: low-priced safe legs need more of them
 };
 $("target").addEventListener("input", syncLegsLabel);
+const RMK = [["o15","Over 1.5"],["o25","Over 2.5"],["gg","GG"],["win","Win (favourite)"],["up","1UP"],["dc","Double chance"],["hgg","Home or GG"],["gb25","Goal bounds 2-5+"],["h1","1st half goal"],["h2","2nd half goal"],["h1dc","1st half double chance"],["htx","Half-time draw"]];
+RMK.forEach(([v, t]) => { const l = document.createElement("label"); l.className = "day"; l.innerHTML = `<input type="checkbox" value="${v}" checked><b style="font-size:.85rem">${t}</b>`; $("rmk").appendChild(l); });
+$("rall").onclick = () => document.querySelectorAll("#rmk input").forEach(x => x.checked = true);
+$("rnone").onclick = () => document.querySelectorAll("#rmk input").forEach(x => x.checked = false);
+$("rgo").onclick = async () => {
+  const code = $("rcode").value.replace(/[^A-Za-z0-9]/g, "").toUpperCase();
+  const markets = [...document.querySelectorAll("#rmk input:checked")].map(x => x.value);
+  if (code.length < 5) { $("rmsg").className = "err"; $("rmsg").textContent = "Enter the booking code."; return; }
+  if (!markets.length) { $("rmsg").className = "err"; $("rmsg").textContent = "Tick at least one market."; return; }
+  const req = { type: "rebuild", code, markets }; const t = +$("rtarget").value; if (t > 1) req.target = t;
+  $("rgo").disabled = true; $("rmsg").className = ""; $("rmsg").textContent = "Sending…";
+  try {
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    if (!r.ok) throw new Error(r.status);
+    $("rmsg").className = "ok"; $("rmsg").textContent = `Rebuilding ${code}` + (req.target ? ` to about ${req.target} odds` : "") + `. The new code arrives as a notification in about a minute.`;
+  } catch (e) { $("rmsg").className = "err"; $("rmsg").textContent = "Could not send. Check your internet and try again."; }
+  setTimeout(() => $("rgo").disabled = false, 4000);
+};
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
@@ -138,7 +170,7 @@ async function loadList() {
     if (!B.length) { $("list").innerHTML = '<p class="meta">No phone tickets yet.</p>'; return; }
     let shown = 0;
     $("list").innerHTML = B.map(b => {
-      const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc((b.req||{}).legs)} legs</div>`;
+      const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc(b.tickets && b.tickets[0] ? b.tickets[0].legs.length : (b.req||{}).legs || "")} legs${b.req && b.req.code ? " · from " + esc(b.req.code) : ""}</div>`;
       if (!b.ok) return `<div class="b">${head}<div class="warn">${esc(b.msg || "Not built")}</div></div>`;
       return `<div class="b">${head}` + b.tickets.map(t => `
         <div style="margin-top:6px"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button>

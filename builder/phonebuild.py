@@ -377,6 +377,107 @@ def pick_htdraw(G, LX):
                             + (f"; league {c['lr']:.0%} half-time draws" if c["lr"] is not None else "") + (f"; {hd:.0%} of {len(hh)} meetings level at half-time" if hd is not None else "")))
     return sorted(out, key=lambda r: -r["s"])
 
+# ---------- rebuild a booking code: same games, the markets the user ticks, aiming at their target odds ----------
+RB = dict(MK, **{"o25": ("18", "total=2.5", "12", "Over 2.5"), "htx": ("60", "", "2", "Half-time draw"),
+                 "dc_1x": ("10", "", "9", "Double chance {h} or draw"), "dc_12": ("10", "", "10", "Double chance {h} or {a}")})
+RB_GROUPS = {"o15": ["o15"], "o25": ["o25"], "gg": ["gg"], "win": ["win_h", "win_a"], "up": ["up_h", "up_a"],
+             "dc": ["dc_1x", "dc_x2", "dc_12"], "hgg": ["hgg"], "h1": ["h1o05"], "h2": ["h2o05"], "htx": ["htx"],
+             "h1dc": ["h1dc_1x", "h1dc_x2"], "gb25": ["gb25"]}
+
+def event_game(eid):
+    d = curl(["-H", "Accept: application/json", "-H", "Referer: https://www.sportybet.com/ng/", f"https://www.sportybet.com/api/ng/factsCenter/event?eventId={eid}&productId=3"], 180)
+    e = (d or {}).get("data") or {}
+    if not e: return None, {}
+    g = dict(eid=eid, ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"], lg=e["sport"]["category"]["name"] + " - " + e["sport"]["category"]["tournament"]["name"],
+             hid=e["homeTeamId"].split(":")[-1], aid=e["awayTeamId"].split(":")[-1], x={}, ou={})
+    mk = {}
+    for m in e.get("markets", []):
+        for o in m.get("outcomes", []):
+            if not o.get("isActive"): continue
+            mk[(m["id"], m.get("specifier") or "", o["id"])] = float(o["odds"])
+            if m["id"] == "1": g["x"][o["id"]] = float(o["odds"])
+    return g, mk
+
+def rebuild_rates(g, LX, hh):
+    """rates() plus the extra markets a rebuild may use; win/double chance for either side, not only clear favourites"""
+    R = dict(rates(g, LX, hh))
+    H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+    if len(H) < 6 or len(A) < 6: return R
+    f = lambda L, c: sum(1 for m in L if c(m)) / len(L)
+    def both(ch, ca, hc=None):
+        r = (f(H, ch) + f(A, ca)) / 2
+        if hc and len(hh) >= 3: r = r * .7 + sum(1 for x in hh if hc(*x)) / len(hh) * .3
+        return r
+    H1, A1 = [m for m in H if m["h1f"] is not None], [m for m in A if m["h1f"] is not None]
+    R["o25"] = both(lambda m: m["gf"] + m["ga"] >= 3, lambda m: m["gf"] + m["ga"] >= 3, lambda a, b: a + b >= 3)
+    R["htx"] = (f(H1, lambda m: m["h1f"] == m["h1a"]) + f(A1, lambda m: m["h1f"] == m["h1a"])) / 2 if len(H1) >= 6 and len(A1) >= 6 else 0
+    R["dc_1x"] = both(lambda m: m["gf"] >= m["ga"], lambda m: m["gf"] <= m["ga"], lambda a, b: a >= b)
+    R["dc_12"] = both(lambda m: m["gf"] != m["ga"], lambda m: m["gf"] != m["ga"], lambda a, b: a != b)
+    R.setdefault("dc_x2", both(lambda m: m["gf"] <= m["ga"], lambda m: m["gf"] >= m["ga"], lambda a, b: b >= a))
+    R.setdefault("win_h", both(lambda m: m["gf"] > m["ga"], lambda m: m["gf"] < m["ga"], lambda a, b: a > b))
+    R.setdefault("win_a", both(lambda m: m["gf"] < m["ga"], lambda m: m["gf"] > m["ga"], lambda a, b: b > a))
+    for k, a, b in (("up_h", "win_h", "dc_1x"), ("up_a", "win_a", "dc_x2")): R.setdefault(k, (R[a] * 2 + R[b]) / 3)
+    for k, cond in (("h1dc_1x", lambda m: m["h1f"] >= m["h1a"]), ("h1dc_x2", lambda m: m["h1f"] <= m["h1a"])):
+        if not R.get(k) and len(H1) >= 6 and len(A1) >= 6:
+            R[k] = (f(H1, cond) + f(A1, (lambda m: m["h1f"] <= m["h1a"]) if k == "h1dc_1x" else (lambda m: m["h1f"] >= m["h1a"]))) / 2
+    return R
+
+def rebuild(req):
+    code = re.sub(r"[^A-Za-z0-9]", "", str(req.get("code", ""))).upper()
+    target = float(req.get("target") or 0)
+    groups = [x for x in (req.get("markets") or list(RB_GROUPS)) if x in RB_GROUPS] or list(RB_GROUPS)
+    keys = [k for gname in groups for k in RB_GROUPS[gname]]
+    old = load(code) if code else []
+    if not old: return dict(ok=False, msg=f"Could not load code {code or '(empty)'} from SportyBet.")
+    now = time.time()
+    live = [e for e in old if e["estimateStartTime"] / 1000 > now + 120]
+    gone = len(old) - len(live)
+    with ThreadPoolExecutor(8) as ex: EG = list(ex.map(lambda e: event_game(e["eventId"]), live))
+    G = [(g, mk) for g, mk in EG if g]
+    LX = fetch_teams([g for g, _ in G])
+    with ThreadPoolExecutor(8) as ex: HH = list(ex.map(lambda gm: h2h(gm[0]["hid"], gm[0]["aid"]), G))
+    games = []
+    for (g, mk), hh in zip(G, HH):
+        R = rebuild_rates(g, LX, hh); opts = []
+        xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+        against = set()                       # never back the weaker side (user's rule)
+        if xh < xa: against |= {"win_a", "up_a"}
+        if xa < xh: against |= {"win_h", "up_h"}
+        if xh * 1.5 <= xa: against |= {"dc_x2", "h1dc_x2"}
+        if xa * 1.5 <= xh: against |= {"dc_1x", "h1dc_1x"}
+        for k in keys:
+            mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
+            if k in against or not od or od < 1.04 or R.get(k, 0) < .55: continue
+            if True: opts.append(dict(k=k, od=od, r=R[k], mid=mid, spec=spec, oid=oid, lab=lab.format(h=g["h"], a=g["a"])))
+        if not opts: continue
+        opts.sort(key=lambda o: (-o["r"], o["od"]))
+        games.append(dict(g=g, opts=opts, i=0))
+    if not games: return dict(ok=False, msg=f"None of the games on {code} offer the markets you ticked (or they have all started).")
+    import math
+    prod = lambda: math.prod(x["opts"][x["i"]]["od"] for x in games)
+    if target > 1:   # cheapest upgrades first: most odds gained for the least chance given up
+        while prod() < target:
+            best = None
+            for x in games:
+                cur = x["opts"][x["i"]]
+                for j, o in enumerate(x["opts"]):
+                    if o["od"] <= cur["od"]: continue
+                    cost = (cur["r"] - o["r"] + .01) / math.log(o["od"] / cur["od"])
+                    if best is None or cost < best[0]: best = (cost, x, j)
+            if not best: break
+            best[1]["i"] = best[2]
+    legs = []
+    for x in sorted(games, key=lambda x: x["g"]["ts"]):
+        o = x["opts"][x["i"]]; g = x["g"]
+        legs.append(dict(eid=g["eid"], mid=o["mid"], spec=o["spec"], oid=o["oid"], pick=o["lab"], odds=o["od"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
+                         why=f"stats rate {o['r']:.0%} from both teams' last 10" + (f" (chosen to reach your odds)" if x["i"] > 0 else " (safest of your markets for this game)")))
+    note = []
+    if gone: note.append(f"{gone} game(s) on {code} had already started and were left out.")
+    if len(games) < len(live): note.append(f"{len(live) - len(games)} game(s) had none of your markets with strong enough stats (55%+) and were left out.")
+    p = math.prod(l["odds"] for l in legs)
+    if target > 1 and p < target * .95: note.append(f"Highest odds possible with your markets on these games: about {p:,.2f} (you asked for {target:g}).")
+    return finish([legs], "rebuild", {"rebuild": f"rebuild of {code}"}, note, req)
+
 def finish(T, kind, names, note, req):
     """book every ticket, reload and check it, report"""
     res = []
@@ -397,6 +498,7 @@ def finish(T, kind, names, note, req):
 
 # ---------- main ----------
 def main(req):
+    if req.get("type") == "rebuild": return rebuild(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")
