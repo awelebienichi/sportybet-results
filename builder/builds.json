@@ -1,5 +1,19 @@
 [
 {
+"when": "Sun 08 Nov 23:42",
+"req": {
+"type": "h1o05",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-08"
+],
+"strict": "normal"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for 1st half Over 0.5 (Sun 08) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Sun 08 Nov 23:41",
 "req": {
 "type": "fav",
@@ -4401,133 +4415,6 @@
 "pick": "Viking FK to score in 1st half",
 "odds": 1.32,
 "why": "Viking FK scored before half-time in 80% of last 10; KFUM Oslo conceded before half-time in 60% of last 10; win odds 1.28"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 08:50",
-"req": {
-"type": "u25",
-"legs": 13,
-"tickets": 2,
-"until": "today"
-},
-"ok": true,
-"kind": "Under 2.5 (low-scoring leagues)",
-"note": [
-"Only 13 games qualified, enough for 1 ticket(s) of 13 with no game repeated (you asked for 2).",
-"Under 2.5 has been the weakest market in your tracker."
-],
-"tickets": [
-{
-"code": "Q023EJ",
-"odds": 91.75,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "Al Shorta SC vs AL Naft",
-"lg": "Iraq - Stars League",
-"pick": "Under 2.5",
-"odds": 1.63,
-"why": "Under 2.5 in 80% / 70% of the teams' last 10, 75% of 4 meetings, league avg 1.9 goals"
-},
-{
-"t": "Sun 12:00",
-"game": "Bandari FC vs Tusker Football Club",
-"lg": "Kenya - Premier League",
-"pick": "Under 2.5",
-"odds": 1.35,
-"why": "Under 2.5 in 80% / 70% of the teams' last 10, 62% of 8 meetings, league avg 2.0 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Kakamega Homeboyz vs Kenya Police FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 2.5",
-"odds": 1.39,
-"why": "Under 2.5 in 80% / 80% of the teams' last 10, 50% of 8 meetings, league avg 2.0 goals"
-},
-{
-"t": "Sun 13:00",
-"game": "Mathare United FC vs Posta Rangers FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 2.5",
-"odds": 1.42,
-"why": "Under 2.5 in 60% / 60% of the teams' last 10, 50% of 8 meetings, league avg 2.0 goals"
-},
-{
-"t": "Sun 13:45",
-"game": "Gol Gohar Sirjan FC vs Zob Ahan Isfahan FC",
-"lg": "Iran - Pro League",
-"pick": "Under 2.5",
-"odds": 1.47,
-"why": "Under 2.5 in 80% / 70% of the teams' last 10, 62% of 8 meetings, league avg 1.6 goals"
-},
-{
-"t": "Sun 14:15",
-"game": "Gor Mahia FC vs Nairobi United FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 2.5",
-"odds": 1.59,
-"why": "Under 2.5 in 60% / 70% of the teams' last 10, league avg 2.0 goals"
-},
-{
-"t": "Sun 15:00",
-"game": "Shenavar Sazi Qeshm vs Mes Rafsanjan FC",
-"lg": "Iran - Azadegan League",
-"pick": "Under 2.5",
-"odds": 1.31,
-"why": "Under 2.5 in 70% / 90% of the teams' last 10, league avg 1.4 goals"
-},
-{
-"t": "Sun 17:30",
-"game": "Stade de Mbour vs ASC Jaraaf",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.28,
-"why": "Under 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 1.6 goals"
-},
-{
-"t": "Sun 17:30",
-"game": "Teungueth FC vs Hlm",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.31,
-"why": "Under 2.5 in 100% / 60% of the teams' last 10, 75% of 4 meetings, league avg 1.6 goals"
-},
-{
-"t": "Sun 17:30",
-"game": "US Ouakam vs Generation Foot",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.31,
-"why": "Under 2.5 in 70% / 60% of the teams' last 10, 62% of 8 meetings, league avg 1.6 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "Guediawaye FC vs ASC Linguere",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.31,
-"why": "Under 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 1.6 goals"
-},
-{
-"t": "Sun 19:00",
-"game": "Stella Club D'Adjame vs FC San Pedro",
-"lg": "Ivory Coast - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.48,
-"why": "Under 2.5 in 60% / 70% of the teams' last 10, 62% of 8 meetings, league avg 1.8 goals"
-},
-{
-"t": "Sun 19:00",
-"game": "Central SC PE vs Belo Jardim",
-"lg": "Brazil - Pernambucano",
-"pick": "Under 2.5",
-"odds": 1.62,
-"why": "Under 2.5 in 60% / 60% of the teams' last 10, 50% of 8 meetings, league avg 1.9 goals"
 }
 ]
 }
