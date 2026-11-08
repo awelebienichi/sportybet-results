@@ -1,5 +1,169 @@
 [
 {
+"when": "Sun 08 Nov 23:49",
+"req": {
+"type": "combine",
+"codes": [
+"ZH5Q53",
+"PVSY7S"
+],
+"split50": false
+},
+"ok": true,
+"kind": "combined ZH5Q53 + PVSY7S",
+"note": [
+"3 game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip)."
+],
+"tickets": [
+{
+"code": "L39ZSK",
+"odds": 9.37,
+"legs": [
+{
+"t": "Mon 00:00",
+"game": "Chattanooga FC vs Los Angeles FC 2",
+"lg": "USA - MLS Next Pro",
+"pick": "GG/NG \u2013 Yes",
+"odds": 1.55,
+"why": "from ZH5Q53",
+"ts": 1794178800.0,
+"eid": "sr:match:76363606",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "76363606|29||74"
+},
+{
+"t": "Mon 02:00",
+"game": "Piratas Veracruz vs Cancun FC",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.23,
+"why": "from ZH5Q53",
+"ts": 1794186000.0,
+"eid": "sr:match:76367028",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76367028|18|total=1.5|12"
+},
+{
+"t": "Mon 13:00",
+"game": "KF Ferizaj vs FC Suhareka",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Double Chance \u2013 Home or Away",
+"odds": 1.16,
+"why": "from ZH5Q53",
+"ts": 1794225600.0,
+"eid": "sr:match:76480650",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76480650|10||10"
+},
+{
+"t": "Mon 13:55",
+"game": "AL Ain FC vs AL Wahda FC",
+"lg": "United Arab Emirates - U23 Pro League",
+"pick": "1X2 \u2013 Home",
+"odds": 1.54,
+"why": "from ZH5Q53",
+"ts": 1794228900.0,
+"eid": "sr:match:75186204",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75186204|1||1"
+},
+{
+"t": "Mon 14:00",
+"game": "Coventry City U21 vs Queens Park Rangers U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.06,
+"why": "from ZH5Q53",
+"ts": 1794229200.0,
+"eid": "sr:match:73601820",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73601820|18|total=1.5|12"
+},
+{
+"t": "Mon 18:00",
+"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
+"lg": "Israel - National League",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.2,
+"why": "from ZH5Q53",
+"ts": 1794243600.0,
+"eid": "sr:match:75661174",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75661174|18|total=1.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.12,
+"why": "from ZH5Q53",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76509750|18|total=1.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Colon FC Reserve vs Defensor Sporting",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.17,
+"why": "from ZH5Q53",
+"ts": 1794250800.0,
+"eid": "sr:match:76458600",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76458600|18|total=1.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.17,
+"why": "from ZH5Q53",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75802948|18|total=1.5|12"
+},
+{
+"t": "Mon 21:30",
+"game": "CD Tecnico Universitario vs Manta FC",
+"lg": "Ecuador - LigaPro Primera A",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.41,
+"why": "from PVSY7S",
+"ts": 1794256200.0,
+"eid": "sr:match:74735326",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74735326|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sun 08 Nov 23:47",
 "req": {
 "type": "combine",
@@ -4545,49 +4709,5 @@
 },
 "ok": false,
 "msg": "Only 5 games pass the checks for strong team to score in the 1st half up to Sun 23:59. Not enough for 20 legs. Ask for 5 legs or fewer."
-},
-{
-"when": "Sun 08 Nov 09:10",
-"req": {
-"type": "fav2h",
-"legs": 3,
-"tickets": 1,
-"until": "today"
-},
-"ok": true,
-"kind": "strong team to score in the 2nd half",
-"note": [],
-"tickets": [
-{
-"code": "Z7CC0R",
-"odds": 2.47,
-"legs": [
-{
-"t": "Sun 16:30",
-"game": "FK Zenit Saint Petersburg vs FK Rostov",
-"lg": "Russia - Premier League",
-"pick": "FK Zenit Saint Petersburg to score in 2nd half",
-"odds": 1.43,
-"why": "FK Zenit Saint Petersburg scored in the 2nd half in 100% of last 10; FK Rostov conceded in it in 60% of last 10; win odds 1.42"
-},
-{
-"t": "Sun 19:00",
-"game": "Vasas FC vs Ferencvarosi Budapest",
-"lg": "Hungary - NB I",
-"pick": "Ferencvarosi Budapest to score in 2nd half",
-"odds": 1.38,
-"why": "Ferencvarosi Budapest scored in the 2nd half in 100% of last 10; Vasas FC conceded in it in 80% of last 10; win odds 1.69"
-},
-{
-"t": "Sun 21:30",
-"game": "Estrela Amadora vs Benfica",
-"lg": "Portugal - Liga Portugal",
-"pick": "Benfica to score in 2nd half",
-"odds": 1.25,
-"why": "Benfica scored in the 2nd half in 100% of last 10; Estrela Amadora conceded in it in 70% of last 10; win odds 1.27"
-}
-]
-}
-]
 }
 ]
