@@ -1,5 +1,16 @@
 [
 {
+"when": "Sun 08 Nov 10:18",
+"req": {
+"type": "h2o05",
+"legs": 40,
+"tickets": 2,
+"until": "today"
+},
+"ok": false,
+"msg": "Only 37 games pass the checks for 2nd half Over 0.5 up to Sun 23:59. Not enough for 40 legs. Ask for 37 legs or fewer."
+},
+{
 "when": "Sun 08 Nov 10:17",
 "req": {
 "type": "h2o05",
