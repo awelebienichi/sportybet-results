@@ -42,6 +42,8 @@
     <select id="type">
       <option value="fav">Strong favourites to win</option>
       <option value="smallfav">Smallest-odds favourites to win</option>
+      <option value="fav1h">Strong team to score in 1st half (team Over 0.5)</option>
+      <option value="h1o05">1st half Over 0.5 (goal before half-time)</option>
       <option value="o15">Over 1.5 goals</option>
       <option value="o25">Over 2.5 – highest-scoring leagues</option>
       <option value="o25yw">Over 2.5 – youth &amp; women's leagues</option>
@@ -65,7 +67,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 youth & women", u25:"Under 2.5 low-scoring"};
+const names = {fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 youth & women", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // "until" choices: tonight, then each of the next 6 days by name (Lagos time)
 (function () {

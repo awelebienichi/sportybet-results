@@ -80,8 +80,9 @@ def lastx(t):
     ms = [m for m in ((d.get("matches") if isinstance(d, dict) else None) or []) if isinstance(m, dict) and (m.get("result") or {}).get("home") is not None and not m.get("canceled")]
     ms.sort(key=lambda m: -m["time"]["uts"]); out = []
     for m in ms[:10]:
-        home = m["teams"]["home"]["uid"] == int(t); r = m["result"]
-        out.append(dict(id=m["_id"], gf=r["home"] if home else r["away"], ga=r["away"] if home else r["home"], home=home))   # always from this team's side
+        home = m["teams"]["home"]["uid"] == int(t); r = m["result"]; p1 = (m.get("periods") or {}).get("p1")
+        out.append(dict(id=m["_id"], gf=r["home"] if home else r["away"], ga=r["away"] if home else r["home"], home=home,   # always from this team's side
+                        h1f=(p1["home"] if home else p1["away"]) if p1 else None, h1a=(p1["away"] if home else p1["home"]) if p1 else None))
     return out
 def h2h(h, a):
     d = get(f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/stats_team_versusrecent/{h}/{a}", "https://www.sportybet.com/")
@@ -163,6 +164,66 @@ def pick_goals(G, LX, kind):
                         why=f"{word} in {hu:.0%} / {au:.0%} of the teams' last 10" + (f", {hr:.0%} of {len(hh)} meetings" if hr is not None else "") + f", league avg {LS[g['lg']][0]:.1f} goals"))
     return sorted(out, key=lambda r: -r["s"])
 
+def event_markets(eid):
+    d = curl(["-H", "Accept: application/json", "-H", "Referer: https://www.sportybet.com/ng/", f"https://www.sportybet.com/api/ng/factsCenter/event?eventId={eid}&productId=3"], 180)
+    return ((d or {}).get("data") or {}).get("markets", [])
+
+def pick_fav1h(G, LX):
+    """strong side to score in the 1st half (1st half team Over 0.5: market 69 home / 70 away): a clear favourite that scored
+    before half-time in 80%+ of its recent games, against a side that concedes before half-time 60%+ of the time"""
+    C = []
+    for g in G:
+        for side, oid, other in (("home", "1", "3"), ("away", "3", "1")):
+            od = g["x"].get(oid); oo = g["x"].get(other, 99)
+            if not od or od > 2.2 or oo < 1.5 * od: continue
+            me, op = (g["hid"], g["aid"]) if side == "home" else (g["aid"], g["hid"])
+            F = [m for m in LX.get(me, []) if m["h1f"] is not None]; O = [m for m in LX.get(op, []) if m["h1a"] is not None]
+            if len(F) < 6 or len(O) < 6: continue
+            fs = sum(m["h1f"] > 0 for m in F) / len(F); oc = sum(m["h1a"] > 0 for m in O) / len(O)
+            if fs < .8 or oc < .6: continue
+            C.append(dict(g=g, side=side, fs=fs, oc=oc, nf=len(F), no=len(O), od=od))
+    C.sort(key=lambda c: -(c["fs"] * .6 + c["oc"] * .4)); C = C[:80]
+    def price(c):
+        mid = "69" if c["side"] == "home" else "70"
+        for m in event_markets(c["g"]["eid"]):
+            if m["id"] == mid and m.get("specifier") == "total=0.5":
+                for o in m["outcomes"]:
+                    if o["id"] == "12" and o.get("isActive"): return mid, float(o["odds"])
+        return mid, None
+    with ThreadPoolExecutor(8) as ex: PR = list(ex.map(price, C))
+    out = []
+    for c, (mid, odds) in zip(C, PR):
+        if not odds: continue
+        g = c["g"]; team = g["h"] if c["side"] == "home" else g["a"]; opp = g["a"] if c["side"] == "home" else g["h"]
+        out.append(dict(eid=g["eid"], mid=mid, spec="total=0.5", oid="12", pick=f"{team} to score in 1st half", odds=odds, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
+                        s=c["fs"] * .6 + c["oc"] * .4 - odds * .02,
+                        why=f"{team} scored before half-time in {c['fs']:.0%} of last {c['nf']}; {opp} conceded before half-time in {c['oc']:.0%} of last {c['no']}; win odds {c['od']}"))
+    return sorted(out, key=lambda r: -r["s"])
+
+def pick_h1o05(G, LX):
+    """1st half Over 0.5 (market 68): a goal before half-time in 85%+ of both teams' recent games"""
+    C = []
+    for g in G:
+        H = [m for m in LX.get(g["hid"], []) if m["h1f"] is not None]; A = [m for m in LX.get(g["aid"], []) if m["h1f"] is not None]
+        if len(H) < 6 or len(A) < 6: continue
+        hr = sum(m["h1f"] + m["h1a"] > 0 for m in H) / len(H); ar = sum(m["h1f"] + m["h1a"] > 0 for m in A) / len(A)
+        if min(hr, ar) < .85: continue
+        C.append((g, hr, ar, len(H), len(A)))
+    C.sort(key=lambda c: -(min(c[1], c[2]) * .6 + (c[1] + c[2]) / 2 * .4)); C = C[:80]
+    def price(c):
+        for m in event_markets(c[0]["eid"]):
+            if m["id"] == "68" and m.get("specifier") == "total=0.5":
+                for o in m["outcomes"]:
+                    if o["id"] == "12" and o.get("isActive"): return float(o["odds"])
+    with ThreadPoolExecutor(8) as ex: PR = list(ex.map(price, C))
+    out = []
+    for (g, hr, ar, nh, na), odds in zip(C, PR):
+        if not odds: continue
+        out.append(dict(eid=g["eid"], mid="68", spec="total=0.5", oid="12", pick="1st half Over 0.5", odds=odds, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
+                        s=min(hr, ar) * .6 + (hr + ar) / 2 * .4 - odds * .02,
+                        why=f"goal before half-time in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
+    return sorted(out, key=lambda r: -r["s"])
+
 # ---------- main ----------
 def main(req):
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
@@ -175,9 +236,9 @@ def main(req):
     lo = now + 20 * 60 if until != "tomorrow" or req.get("from_now", True) else now
     G = games_cached(lo, hi)
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
-    names = {"fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
+    names = {"h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = []
     can = len(P) // legs
