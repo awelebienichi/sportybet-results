@@ -1,5 +1,475 @@
 [
 {
+"when": "Mon 09 Nov 14:33",
+"req": {
+"type": "rebuild",
+"code": "ZMNEPU",
+"markets": [
+"o15",
+"o25",
+"gg",
+"win",
+"up",
+"dc",
+"hgg",
+"gb25",
+"h1",
+"h2",
+"h1dc"
+],
+"strict": "relaxed",
+"target": 100
+},
+"ok": true,
+"kind": "rebuild of ZMNEPU",
+"note": [
+"5 game(s) on ZMNEPU had already started and were left out.",
+"3 game(s) had none of your markets with strong enough stats (55%+) and were left out."
+],
+"tickets": [
+{
+"code": "JRLM9Q",
+"odds": 624.52,
+"legs": [
+{
+"t": "Mon 15:50",
+"game": "Hapoel Katamon Jerusalem vs Maccabi Tel Aviv WFC",
+"lg": "Israel - Liga Al, Women",
+"pick": "Double chance Hapoel Katamon Jerusalem or Maccabi Tel Aviv WFC",
+"odds": 1.12,
+"why": "stats rate 86% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794235800.0,
+"eid": "sr:match:76366222",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76366222|10||10"
+},
+{
+"t": "Mon 15:55",
+"game": "AL Najma SC U21 vs Al-Wehda",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "Double chance AL Najma SC U21 or Al-Wehda",
+"odds": 1.28,
+"why": "stats rate 75% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794236100.0,
+"eid": "sr:match:73326494",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73326494|10||10"
+},
+{
+"t": "Mon 16:00",
+"game": "SFC Etar Veliko Tarnovo vs PFC Montana 1921",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Double chance SFC Etar Veliko Tarnovo or PFC Montana 1921",
+"odds": 1.24,
+"why": "stats rate 89% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794236400.0,
+"eid": "sr:match:72466622",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72466622|10||10"
+},
+{
+"t": "Mon 16:30",
+"game": "Deportivo Maldonado Reserve vs Nacional de Montevideo",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Double chance Deportivo Maldonado Reserve or Nacional de Montevideo",
+"odds": 1.26,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794238200.0,
+"eid": "sr:match:76458594",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76458594|10||10"
+},
+{
+"t": "Mon 17:00",
+"game": "MFK Tatran Liptovsky Mikulas vs MFk Bytca",
+"lg": "Slovakia - 2. Liga",
+"pick": "Double chance MFK Tatran Liptovsky Mikulas or MFk Bytca",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794240000.0,
+"eid": "sr:match:76146334",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76146334|10||10"
+},
+{
+"t": "Mon 17:30",
+"game": "FK Veles Moscow vs FC Kamaz Naberezhnye Chelny",
+"lg": "Russia - 1. Liga",
+"pick": "2nd half Over 0.5",
+"odds": 1.27,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794241800.0,
+"eid": "sr:match:72578418",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72578418|90|total=0.5|12"
+},
+{
+"t": "Mon 18:00",
+"game": "1 FC Cologne vs RB Leipzig",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Double chance 1 FC Cologne or RB Leipzig",
+"odds": 1.24,
+"why": "stats rate 96% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794243600.0,
+"eid": "sr:match:72961070",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72961070|10||10"
+},
+{
+"t": "Mon 18:00",
+"game": "FK Javor Ivanjica vs Backa Topola",
+"lg": "Serbia - Prva Liga",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794243600.0,
+"eid": "sr:match:72121006",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72121006|450001||25"
+},
+{
+"t": "Mon 18:00",
+"game": "Central Espanol Reserve vs Montevideo Wanderers",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794243600.0,
+"eid": "sr:match:76458602",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76458602|18|total=1.5|12"
+},
+{
+"t": "Mon 18:00",
+"game": "FC Kafr Qasim vs Hapoel Afula FC",
+"lg": "Israel - National League",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "stats rate 80% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794243600.0,
+"eid": "sr:match:75661176",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75661176|90|total=0.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Hvidovre IF vs Aarhus Fremad",
+"lg": "Denmark - 1. Division",
+"pick": "Double chance Hvidovre IF or draw",
+"odds": 1.25,
+"why": "stats rate 82% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794247200.0,
+"eid": "sr:match:72044396",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72044396|10||9"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76509750|450001||25"
+},
+{
+"t": "Mon 19:00",
+"game": "Atletico Madrid W vs FC Badalona Women",
+"lg": "Spain - Primera Division Women",
+"pick": "1st half double chance Atletico Madrid W or draw",
+"odds": 1.1,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794247200.0,
+"eid": "sr:match:72491426",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72491426|63||9"
+},
+{
+"t": "Mon 19:00",
+"game": "FC Botosani vs ASC Otelul Galati",
+"lg": "Romania - Superliga",
+"pick": "2nd half Over 0.5",
+"odds": 1.24,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794247200.0,
+"eid": "sr:match:72388088",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72388088|90|total=0.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "SE Palmeiras SP vs Santos FC SP",
+"lg": "Brazil - U20 Paulista",
+"pick": "SE Palmeiras SP to win",
+"odds": 1.8,
+"why": "stats rate 54% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794247200.0,
+"eid": "sr:match:76411420",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "76411420|1||1"
+},
+{
+"t": "Mon 20:00",
+"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Double chance West Bromwich Albion FC U21 or Bromley FC U21",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794250800.0,
+"eid": "sr:match:75153534",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75153534|10||10"
+},
+{
+"t": "Mon 20:00",
+"game": "Penarol Montevideo vs Juventud de Las Piedras",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"why": "stats rate 83% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794250800.0,
+"eid": "sr:match:76458596",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76458596|450001||25"
+},
+{
+"t": "Mon 20:00",
+"game": "Torque vs Boston River",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Double chance Torque or Boston River",
+"odds": 1.23,
+"why": "stats rate 93% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794250800.0,
+"eid": "sr:match:76458598",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76458598|10||10"
+},
+{
+"t": "Mon 20:00",
+"game": "Racing Club Montevideo vs CA River Plate (URU)",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794250800.0,
+"eid": "sr:match:76458592",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76458592|18|total=1.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75802948|450001||25"
+},
+{
+"t": "Mon 20:30",
+"game": "Las Palmas vs Club Deportivo Eldense",
+"lg": "Spain - LaLiga 2",
+"pick": "Double chance Las Palmas or Club Deportivo Eldense",
+"odds": 1.29,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794252600.0,
+"eid": "sr:match:72477576",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72477576|10||10"
+},
+{
+"t": "Mon 20:30",
+"game": "CE Sabadell FC vs Real Sociedad San Sebastian B",
+"lg": "Spain - LaLiga 2",
+"pick": "CE Sabadell FC or GG",
+"odds": 1.18,
+"why": "stats rate 82% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794252600.0,
+"eid": "sr:match:72477578",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "72477578|860||74"
+},
+{
+"t": "Mon 20:30",
+"game": "Calcio Foggia vs Barletta Calcio",
+"lg": "Italy - Serie C, Group C",
+"pick": "Double chance Calcio Foggia or Barletta Calcio",
+"odds": 1.32,
+"why": "stats rate 75% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794252600.0,
+"eid": "sr:match:73294810",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73294810|10||10"
+},
+{
+"t": "Mon 20:45",
+"game": "Chelmsford City vs Ebbsfleet United FC",
+"lg": "England Amateur - National League South",
+"pick": "Double chance Chelmsford City or Ebbsfleet United FC",
+"odds": 1.25,
+"why": "stats rate 86% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794253500.0,
+"eid": "sr:match:75018348",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75018348|10||10"
+},
+{
+"t": "Mon 20:45",
+"game": "Redditch United vs Peterborough Sports",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"why": "stats rate 78% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794253500.0,
+"eid": "sr:match:73022092",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73022092|450001||25"
+},
+{
+"t": "Mon 20:45",
+"game": "AZ Picerno vs SSC Bari",
+"lg": "Italy - Serie C, Group C",
+"pick": "Double chance AZ Picerno or SSC Bari",
+"odds": 1.32,
+"why": "stats rate 82% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794253500.0,
+"eid": "sr:match:73294816",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73294816|10||10"
+},
+{
+"t": "Mon 21:00",
+"game": "Sportivo San Lorenzo vs Rubio Nu",
+"lg": "Paraguay - Division de Honor",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794254400.0,
+"eid": "sr:match:73038656",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73038656|90|total=0.5|12"
+},
+{
+"t": "Mon 21:00",
+"game": "RC Deportivo De La Coruna vs Valencia CF",
+"lg": "Spain - Primera Division Women",
+"pick": "Over 1.5",
+"odds": 1.26,
+"why": "stats rate 86% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794254400.0,
+"eid": "sr:match:72491430",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72491430|18|total=1.5|12"
+},
+{
+"t": "Mon 21:15",
+"game": "SCU Torreense vs UD Leiria",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "Double chance SCU Torreense or UD Leiria",
+"odds": 1.28,
+"why": "stats rate 86% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794255300.0,
+"eid": "sr:match:72531662",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72531662|10||10"
+},
+{
+"t": "Mon 21:30",
+"game": "Independiente Valle Del Cauca vs Union Magdalena",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Double chance Union Magdalena or draw",
+"odds": 1.43,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794256200.0,
+"eid": "sr:match:76174024",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76174024|10||11"
+},
+{
+"t": "Mon 23:05",
+"game": "Chapelton Maroons FC vs Racing United FC",
+"lg": "Jamaica - Premier League",
+"pick": "1st half double chance Racing United FC or draw",
+"odds": 1.18,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794261900.0,
+"eid": "sr:match:74695520",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "74695520|63||11"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 14:32",
 "req": {
 "type": "rebuild",
@@ -4806,274 +5276,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "75802948|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 15:57",
-"req": {
-"type": "o25",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14"
-]
-},
-"ok": true,
-"kind": "Over 2.5 (high-scoring leagues)",
-"note": [],
-"tickets": [
-{
-"code": "Y8XXHZ",
-"odds": 103873.38,
-"legs": [
-{
-"t": "Sun 16:30",
-"game": "FC Thun vs Basel",
-"lg": "Switzerland - Super League",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "Over 2.5 in 70% / 90% of the teams' last 10, 88% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Sun 16:30",
-"game": "Yverdon-Sport vs Neuchatel Xamax",
-"lg": "Switzerland - Challenge League",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "Over 2.5 in 60% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals"
-},
-{
-"t": "Sun 16:30",
-"game": "FK Zenit Saint Petersburg vs FK Rostov",
-"lg": "Russia - Premier League",
-"pick": "Over 2.5",
-"odds": 1.96,
-"why": "Over 2.5 in 90% / 70% of the teams' last 10, 50% of 8 meetings, league avg 3.3 goals"
-},
-{
-"t": "Sun 17:00",
-"game": "Viking FK vs KFUM Oslo",
-"lg": "Norway - Eliteserien",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "Over 2.5 in 90% / 70% of the teams' last 10, 71% of 7 meetings, league avg 3.6 goals"
-},
-{
-"t": "Sun 17:00",
-"game": "HamKam vs Sarpsborg 08",
-"lg": "Norway - Eliteserien",
-"pick": "Over 2.5",
-"odds": 1.6,
-"why": "Over 2.5 in 80% / 70% of the teams' last 10, 62% of 8 meetings, league avg 3.6 goals"
-},
-{
-"t": "Sun 17:10",
-"game": "Rangers LFC vs Heart of Midlothian WFC",
-"lg": "Scotland - Premier League, Women",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.3 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "Santutxu FC vs Ef Mareo Logrono Youth",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "Over 2.5 in 70% / 100% of the teams' last 10, league avg 3.8 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "FC Midtjylland vs SonderjyskE",
-"lg": "Denmark - Superliga",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "Over 2.5 in 70% / 70% of the teams' last 10, 100% of 8 meetings, league avg 3.8 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "Tomares UD vs Malaga CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 3.8 goals"
-},
-{
-"t": "Sun 18:00",
-"game": "APOEL Nikosia vs Aris Limassol",
-"lg": "Cyprus - 1st Division",
-"pick": "Over 2.5",
-"odds": 1.8,
-"why": "Over 2.5 in 90% / 70% of the teams' last 10, 62% of 8 meetings, league avg 3.3 goals"
-},
-{
-"t": "Sun 19:00",
-"game": "CA Penarol Montevideo vs Liverpool FC Montevideo",
-"lg": "Uruguay - Primera Division, Women",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "Over 2.5 in 80% / 70% of the teams' last 10, 60% of 5 meetings, league avg 4.8 goals"
-},
-{
-"t": "Sun 19:30",
-"game": "FC Wurzburger Kickers vs TSG Hoffenheim II",
-"lg": "Germany - 3. Liga",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "Over 2.5 in 70% / 70% of the teams' last 10, league avg 3.3 goals"
-},
-{
-"t": "Mon 00:00",
-"game": "Chattanooga FC vs Los Angeles FC 2",
-"lg": "USA - MLS Next Pro",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 5.0 goals"
-},
-{
-"t": "Mon 14:00",
-"game": "Coventry City U21 vs Queens Park Rangers U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Over 2.5",
-"odds": 1.24,
-"why": "Over 2.5 in 70% / 90% of the teams' last 10, 75% of 8 meetings, league avg 4.2 goals"
-},
-{
-"t": "Mon 19:00",
-"game": "Kristiansund BK vs Vaalerenga IF",
-"lg": "Norway - Eliteserien",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "Over 2.5 in 80% / 70% of the teams' last 10, 75% of 8 meetings, league avg 3.6 goals"
-},
-{
-"t": "Mon 20:00",
-"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 3.6 goals"
-},
-{
-"t": "Mon 20:00",
-"game": "Middlesbrough U21 vs Derby County U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, 57% of 7 meetings, league avg 5.0 goals"
-},
-{
-"t": "Tue 20:45",
-"game": "Enfield Town vs Lewes FC",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "Over 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals"
-},
-{
-"t": "Tue 20:45",
-"game": "Anstey Nomads vs Kettering Town",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "Over 2.5 in 70% / 90% of the teams' last 10, league avg 3.5 goals"
-},
-{
-"t": "Tue 20:45",
-"game": "Cray Wanderers vs Three Bridges",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 4.1 goals"
-},
-{
-"t": "Tue 21:00",
-"game": "AS Roma W vs Servette Geneva W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals"
-},
-{
-"t": "Wed 21:00",
-"game": "Juventus Turin W vs Olympique Lyon W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "Over 2.5 in 100% / 90% of the teams' last 10, 71% of 7 meetings, league avg 3.8 goals"
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.8 goals"
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"lg": "Scotland - League 1",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "Over 2.5 in 89% / 70% of the teams' last 10, league avg 3.6 goals"
-},
-{
-"t": "Sat 16:00",
-"game": "Harrogate Town vs Altrincham FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.6,
-"why": "Over 2.5 in 70% / 70% of the teams' last 10, 88% of 8 meetings, league avg 3.8 goals"
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "Over 2.5 in 70% / 90% of the teams' last 10, 62% of 8 meetings, league avg 3.8 goals"
-},
-{
-"t": "Sat 18:15",
-"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.7 goals"
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"lg": "Scotland - League 1",
-"pick": "Over 2.5",
-"odds": 1.63,
-"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.6 goals"
-},
-{
-"t": "Sat 20:00",
-"game": "Almere City FC vs Helmond Sport",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.37,
-"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.5 goals"
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "Over 2.5 in 70% / 90% of the teams' last 10, 50% of 8 meetings, league avg 3.5 goals"
 }
 ]
 }
