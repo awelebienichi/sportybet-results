@@ -170,7 +170,8 @@ const syncLegsLabel = () => {
 };
 $("target").addEventListener("input", syncLegsLabel);
 const RMK = [["o15","Over 1.5"],["o25","Over 2.5"],["gg","GG"],["win","Win (favourite)"],["up","1UP"],["dc","Double chance"],["hgg","Home or GG"],["gb25","Goal bounds 2-5+"],["h1","1st half goal"],["h2","2nd half goal"],["h1dc","1st half double chance"],["htx","Half-time draw"],
-  ["wu25","Weaker team Under 2.5"],["h1u25","1st half Under 2.5"],["u35","Under 3.5"],["u45","Under 4.5"],["u55","Under 5.5"],["h1ggy","1st half GG – Yes"],["h1ggn","1st half GG – No"]];
+  ["wu25","Weaker team Under 2.5"],["h1u25","1st half Under 2.5"],["u35","Under 3.5"],["u45","Under 4.5"],["u55","Under 5.5"],["h1ggy","1st half GG – Yes"],["h1ggn","1st half GG – No"],
+  ["xg","Excluded goals (match)"],["xgt","Excluded goals (home / away team)"],["xg1","Excluded goals (1st half)"]];
 RMK.forEach(([v, t]) => { const l = document.createElement("label"); l.className = "day"; l.innerHTML = `<input type="checkbox" value="${v}"><b style="font-size:.85rem">${t}</b>`; $("bmk").appendChild(l); });
 const syncMk = () => { $("bmkbox").style.display = $("type").value === "markets" ? "" : "none"; };
 $("type").addEventListener("change", syncMk);

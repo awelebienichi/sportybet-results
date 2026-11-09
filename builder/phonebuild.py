@@ -388,10 +388,16 @@ RB = dict(MK, **{"o25": ("18", "total=2.5", "12", "Over 2.5"), "htx": ("60", "",
                  "h1u25": ("68", "total=2.5", "13", "1st half Under 2.5"), "u35": ("18", "total=3.5", "13", "Under 3.5"),
                  "u45": ("18", "total=4.5", "13", "Under 4.5"), "u55": ("18", "total=5.5", "13", "Under 5.5"),
                  "h1gg_y": ("75", "", "74", "1st half GG – Yes"), "h1gg_n": ("75", "", "76", "1st half GG – No")})
+# Excluded Number of Goals: the pick wins when the count is NOT that number (top outcome "5+"/"3+": when it is below it)
+for _n, _lab in ((0, "0"), (1, "1"), (2, "2"), (3, "3"), (4, "4"), (5, "5+")): RB[f"xg_{_n}"] = ("450004", "", str(_n), f"Excluded goals: {_lab}")
+for _n, _lab in ((0, "0"), (1, "1"), (2, "2"), (3, "3+")):
+    RB[f"xgh_{_n}"] = ("450005", "", str(_n), "{h} excluded goals: " + _lab); RB[f"xga_{_n}"] = ("450006", "", str(_n), "{a} excluded goals: " + _lab)
+for _n, _lab in ((0, "0"), (2, "2"), (3, "3+")): RB[f"xg1_{_n}"] = ("810002", "", str(_n), f"1st half excluded goals: {_lab}")   # "1" left out: a tracker loser
 RB_GROUPS = {"o15": ["o15"], "o25": ["o25"], "gg": ["gg"], "win": ["win_h", "win_a"], "up": ["up_h", "up_a"],
              "dc": ["dc_1x", "dc_x2", "dc_12"], "hgg": ["hgg"], "h1": ["h1o05"], "h2": ["h2o05"], "htx": ["htx"],
              "h1dc": ["h1dc_1x", "h1dc_x2"], "gb25": ["gb25"], "wu25": ["wu25_h", "wu25_a"], "h1u25": ["h1u25"],
-             "u35": ["u35"], "u45": ["u45"], "u55": ["u55"], "h1ggy": ["h1gg_y"], "h1ggn": ["h1gg_n"]}
+             "u35": ["u35"], "u45": ["u45"], "u55": ["u55"], "h1ggy": ["h1gg_y"], "h1ggn": ["h1gg_n"],
+             "xg": [f"xg_{n}" for n in range(6)], "xgt": [f"xg{s}_{n}" for s in ("h", "a") for n in range(4)], "xg1": ["xg1_0", "xg1_2", "xg1_3"]}
 
 _EV = {}
 def event_game(eid):
@@ -439,10 +445,25 @@ def rebuild_rates(g, LX, hh):
     if xa > xh: R["wu25_a"] = both(lambda m: m["ga"] <= 2, lambda m: m["gf"] <= 2, lambda a, b: b <= 2)     # away is the weaker team
     for k, n in (("u35", 3), ("u45", 4), ("u55", 5)):
         R[k] = both(lambda m, n=n: m["gf"] + m["ga"] <= n, lambda m, n=n: m["gf"] + m["ga"] <= n, lambda a, b, n=n: a + b <= n)
+    for n in range(6):      # match total is not n (5 = "5+": fewer than 5)
+        c = (lambda t, n=n: t != n) if n < 5 else (lambda t: t < 5)
+        R[f"xg_{n}"] = both(lambda m, c=c: c(m["gf"] + m["ga"]), lambda m, c=c: c(m["gf"] + m["ga"]), lambda a, b, c=c: c(a + b))
+    for n in range(4):      # a team's goals are not n (3 = "3+": fewer than 3) – home: its scoring and the away side's conceding
+        c = (lambda t, n=n: t != n) if n < 3 else (lambda t: t < 3)
+        R[f"xgh_{n}"] = both(lambda m, c=c: c(m["gf"]), lambda m, c=c: c(m["ga"]), lambda a, b, c=c: c(a))
+        R[f"xga_{n}"] = both(lambda m, c=c: c(m["ga"]), lambda m, c=c: c(m["gf"]), lambda a, b, c=c: c(b))
+    # the user's rules: never "strong team won't score 3" (favourite excluded 3+), never "weak team will score" (weak side excluded 0)
+    if xh < xa: R.pop("xgh_3", None)
+    if xa < xh: R.pop("xga_3", None)
+    if xh >= 3.1: R.pop("xgh_0", None)
+    if xa >= 3.1: R.pop("xga_0", None)
     if len(H1) >= 6 and len(A1) >= 6:
         R["h1u25"] = (f(H1, lambda m: m["h1f"] + m["h1a"] <= 2) + f(A1, lambda m: m["h1f"] + m["h1a"] <= 2)) / 2
         R["h1gg_y"] = (f(H1, lambda m: m["h1f"] > 0 and m["h1a"] > 0) + f(A1, lambda m: m["h1f"] > 0 and m["h1a"] > 0)) / 2
         R["h1gg_n"] = 1 - R["h1gg_y"]
+        for n in (0, 2, 3):
+            c = (lambda t, n=n: t != n) if n < 3 else (lambda t: t < 3)
+            R[f"xg1_{n}"] = (f(H1, lambda m, c=c: c(m["h1f"] + m["h1a"])) + f(A1, lambda m, c=c: c(m["h1f"] + m["h1a"]))) / 2
     for k, cond in (("h1dc_1x", lambda m: m["h1f"] >= m["h1a"]), ("h1dc_x2", lambda m: m["h1f"] <= m["h1a"])):
         if not R.get(k) and len(H1) >= 6 and len(A1) >= 6:
             R[k] = (f(H1, cond) + f(A1, (lambda m: m["h1f"] <= m["h1a"]) if k == "h1dc_1x" else (lambda m: m["h1f"] >= m["h1a"]))) / 2

@@ -134,6 +134,18 @@ def verdict(leg, s):
         g = h if mid == "19" else a
         if g > line: return "W" if oid == "12" else "L"
         return ("L" if oid == "12" else "W") if fin else ""
+    if mid in ("450004", "450005", "450006", "810002"):   # excluded number of goals: wins when the count is NOT the number
+        n = int(oid); top = {"450004": 5, "450005": 3, "450006": 3, "810002": 3}[mid]
+        if mid == "810002":
+            if ht is not None: cnt, done = ht[0] + ht[1], True
+            elif s["st"] == "live" and s.get("det") == "12": cnt, done = h + a, False
+            else: return ""
+        else: cnt, done = {"450004": h + a, "450005": h, "450006": a}[mid], fin
+        if n == top:                                   # "5+" / "3+": wins if the count stays below it
+            if cnt >= n: return "L"
+            return "W" if done else ""
+        if cnt > n: return "W"                         # already past the number
+        return ("W" if cnt != n else "L") if done else ""
     if mid == "75":                         # 1st half GG: 74 yes / 76 no
         x, y = ht if ht is not None else ((h, a) if s["st"] == "live" and s.get("det") == "12" else (None, None))
         if x is None: return ""
