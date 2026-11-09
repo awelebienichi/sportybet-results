@@ -20,7 +20,7 @@ def handle(req, notify):
     if t == "rollover_start":
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
         hour = int(req.get("hour") or 10) % 24
-        s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today())
+        s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today(), short="skip" if req.get("short") == "skip" else "lower")
         save(s); notify("Daily rollover started", f"Stake {naira(stake)}, about {odds:g} odds a day, ticket every day at {hour:02d}:00.\nToday's ticket is being built now.")
         build_today(s, notify, force=True)
     elif t == "rollover_stop":
@@ -29,24 +29,79 @@ def handle(req, notify):
         if not s.get("active"): notify("No rollover running", "Start one on the builder page first.", "default", "warning"); return
         build_today(s, notify, force=True)
 
-def pick_safe(target):
-    """fewest, strongest legs to reach `target`: candidates from the safest-market picker plus strong favourites (strict),
-    chosen by odds gained per unit of risk, at most 6 legs"""
+def team_rates(leg, g, LX):
+    """each team's own rate for this pick from its last 10 (the rollover needs BOTH teams strong, not just the average)"""
+    H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+    if len(H) < 7 or len(A) < 7: return None
+    f = lambda L, c: sum(1 for m in L if c(m)) / len(L)
+    H1, A1 = [m for m in H if m["h1f"] is not None], [m for m in A if m["h1f"] is not None]
+    f1 = lambda L, c: f(L, c) if len(L) >= 7 else None
+    mid, oid, spec = leg["mid"], leg["oid"], leg["spec"]
+    if mid == "18" and spec == "total=1.5" or (mid == "450001" and oid == "25"): c = lambda m: m["gf"] + m["ga"] >= 2; return f(H, c), f(A, c)
+    if mid == "18" and spec == "total=2.5" and oid == "12": c = lambda m: m["gf"] + m["ga"] >= 3; return f(H, c), f(A, c)
+    if mid == "29": c = lambda m: m["gf"] > 0 and m["ga"] > 0; return f(H, c), f(A, c)
+    if mid == "860": return f(H, lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["ga"] > 0)), f(A, lambda m: m["gf"] < m["ga"] or (m["gf"] > 0 and m["ga"] > 0))
+    if mid == "68": c = lambda m: m["h1f"] + m["h1a"] > 0; return f1(H1, c), f1(A1, c)
+    if mid == "90": c = lambda m: m["h2f"] + m["h2a"] > 0; return f1(H1, c), f1(A1, c)
+    if mid == "63": return (f1(H1, lambda m: m["h1f"] >= m["h1a"]), f1(A1, lambda m: m["h1f"] <= m["h1a"])) if oid == "9" else (f1(H1, lambda m: m["h1f"] <= m["h1a"]), f1(A1, lambda m: m["h1f"] >= m["h1a"]))
+    if mid in ("1", "60200"):
+        return (f(H, lambda m: m["gf"] > m["ga"]), f(A, lambda m: m["gf"] < m["ga"])) if oid == "1" else (f(A, lambda m: m["gf"] > m["ga"]), f(H, lambda m: m["gf"] < m["ga"]))
+    if mid == "10" and oid == "11": return f(H, lambda m: m["gf"] <= m["ga"]), f(A, lambda m: m["gf"] >= m["ga"])
+    return None
+
+def h2h_rate(leg, hh):
+    if len(hh) < 3: return None
+    mid, oid, spec = leg["mid"], leg["oid"], leg["spec"]
+    c = {("18", "total=1.5"): lambda a, b: a + b >= 2, ("18", "total=2.5"): lambda a, b: a + b >= 3}.get((mid, spec))
+    if mid == "450001": c = lambda a, b: a + b >= 2
+    if mid == "29": c = lambda a, b: a > 0 and b > 0
+    if mid == "860": c = lambda a, b: a > b or (a > 0 and b > 0)
+    if mid in ("1", "60200"): c = (lambda a, b: a > b) if oid == "1" else (lambda a, b: b > a)
+    if mid == "10" and oid == "11": c = lambda a, b: b >= a
+    return sum(1 for x in hh if c(*x)) / len(hh) if c else None
+
+def pick_safe(target):  # noqa: the strictest picker
+    """the strictest picker on the builder: each leg needs BOTH teams at 85%+ for the pick in their own last 10, at least one
+    more source agreeing (head-to-head 75%+, Flashscore home/away form 80%+, or a footybets tip) and nothing against it"""
     now = time.time(); end = dt.datetime.combine(dt.datetime.now(LAGOS).date(), dt.time(23, 59), LAGOS).timestamp()
-    phonebuild.ST["L"] = 0.0
+    phonebuild.ST["L"] = -0.05                      # underlying pickers stricter than "strict"
     G = phonebuild.games_cached(now + 45 * 60, end)
     LX = phonebuild.fetch_teams(G)
     C = phonebuild.pick_multi(G, LX, "mix", 30) + phonebuild.pick_fav(G, LX)
+    phonebuild.ST["L"] = 0.1
+    GM = {g["eid"]: g for g in G}
     try:
-        import extra
-        C, _ = extra.confirm(C, 30)
-    except Exception: pass
-    best = {}
+        import extra, scores
+        scores.day_list(False)
+    except Exception: extra = None
+    pre = []
     for c in C:
-        r = c.get("rate", .7)
-        r = min(r, .97); c["r"] = r
-        if c["odds"] < 1.12 or r < .75: continue          # tiny prices need too many legs; weak stats are out
-        if c["eid"] not in best or (c["r"], -c["odds"]) > (best[c["eid"]]["r"], -best[c["eid"]]["odds"]): best[c["eid"]] = c
+        if c["odds"] < 1.12 or c["eid"] not in GM: continue
+        tr = team_rates(c, GM[c["eid"]], LX)
+        if not tr or None in tr or min(tr) < .85: continue
+        c["tr"] = tr; pre.append(c)
+    def sources(c):
+        g = GM[c["eid"]]; hh = phonebuild.h2h(g["hid"], g["aid"]); hr = h2h_rate(c, hh)
+        fr = sup = None; bad = False
+        if extra:
+            try:
+                fid = scores.match_fid(dict(k=c["eid"] + "|x", game=c["game"], ts=c["ts"]))
+                F = extra.fs_form(fid) if fid else None
+                fr = extra.fs_rate(c, F) if F else None
+                sup, bad = extra.fb_verdict(c, extra.fb_for(c))
+            except Exception: pass
+        return c, hr, fr, sup, bad
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(8) as ex: S = list(ex.map(sources, pre))
+    best = {}
+    for c, hr, fr, sup, bad in S:
+        if bad or (hr is not None and hr < .75) or (fr is not None and fr < .8): continue      # anything against it: out
+        agree = [x for x in (("head-to-head", hr) if hr is not None and hr >= .75 else None, ("Flashscore home/away", fr) if fr is not None and fr >= .8 else None,
+                             ("footybets", sup / 100) if sup and sup >= 70 else None) if x]
+        if not agree: continue                                                                    # at least two sources
+        c["r"] = min(.97, min(c["tr"]) * .6 + sum(v for _, v in agree) / len(agree) * .4)
+        c["why"] = f"both teams {min(c['tr']):.0%}+ in their own last 10 (home {c['tr'][0]:.0%}, away {c['tr'][1]:.0%}); " + ", ".join(f"{n} {v:.0%}" for n, v in agree)
+        if c["eid"] not in best or c["r"] > best[c["eid"]]["r"]: best[c["eid"]] = c
     pool = list(best.values())
     plan = None                                   # for 3..7 legs: the strongest legs priced high enough to reach the target together
     for k in range(2, 8):
@@ -72,8 +127,12 @@ def build_today(s, notify, force=False):
     if s.get("current") and s["current"].get("result") is None and s["current"].get("date") == today():
         notify("Rollover ticket already out", f"Today's code is {s['current']['code']}.", "default"); return
     legs, prod = pick_safe(s["odds"])
-    if not legs or prod < s["odds"] * .85:
-        notify("Rollover: no safe ticket today", f"Not enough strong games left today to reach about {s['odds']:g} odds safely. The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
+    short = not legs or prod < s["odds"] * .85
+    lower_note = ""
+    if short and s.get("short", "lower") == "lower" and legs and prod >= 1.5:
+        short = False; lower_note = f"Only {prod:.2f} odds today: not enough games passed the strict rollover checks to reach {s['odds']:g}.\n"
+    if short:
+        notify("Rollover: no safe ticket today", f"Not enough games passed the strict rollover checks today ({prod:.2f} odds possible, minimum 1.5" + (f", your target {s['odds']:g}" if s.get("short") == "skip" else "") + f"). The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
         s["current"] = {"date": today(), "code": None, "result": "skip"}; save(s); return
     res = phonebuild.finish([legs], "rollover", {"rollover": f"daily rollover day {s['day']}"}, [], {"type": "rollover"})
     if not res.get("ok"):
@@ -86,7 +145,7 @@ def build_today(s, notify, force=False):
                           kind=f"daily rollover – day {s['day']}", note=[f"Stake {naira(s['stake'])} → returns {naira(s['stake'] * t['odds'])} if it wins"], tickets=[t]))
     json.dump(builds[:40], open(os.path.join(HERE, "builds.json"), "w"), indent=0)
     subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - daily rollover day {s['day']}", t["code"]], capture_output=True)
-    body = f"Stake {naira(s['stake'])} → {naira(s['stake'] * t['odds'])} if it wins\n{len(t['legs'])} legs, {t['odds']} odds\n\n" + "\n".join(f"{l['t']} {l['game']}: {l['pick']} @ {l['odds']}" for l in t["legs"])
+    body = lower_note + f"Stake {naira(s['stake'])} → {naira(s['stake'] * t['odds'])} if it wins\n{len(t['legs'])} legs, {t['odds']} odds\n\n" + "\n".join(f"{l['t']} {l['game']}: {l['pick']} @ {l['odds']}" for l in t["legs"])
     notify(f"Rollover day {s['day']}: {t['code']}", body)
 
 def tick(notify, lock=None):
