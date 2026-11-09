@@ -52,7 +52,6 @@
   <div class="card">
     <label for="type">Ticket type</label>
     <select id="type">
-      <option value="markets">✅ Choose markets (tick several)</option>
       <option value="mix">⭐ Safest market per game (mix)</option>
       <option value="best">⭐ Your tracker's best markets</option>
       <option value="gg">GG – both teams score</option>
@@ -73,10 +72,6 @@
       <div><label for="legs" id="legslabel">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
       <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
     </div>
-    <div id="bmkbox" style="display:none">
-      <label>Markets to use (tick one or more – each game gets the best of them)</label>
-      <div id="bmk" class="days"></div>
-    </div>
     <label for="strict">How strict</label>
     <select id="strict">
       <option value="normal">Normal – good stats, more games (recommended)</option>
@@ -88,6 +83,15 @@
     <div class="quick"><button type="button" class="q" data-n="1">Today</button><button type="button" class="q" data-n="2">2 days</button><button type="button" class="q" data-n="3">3 days</button><button type="button" class="q" data-n="4">4 days</button><button type="button" class="q" data-n="7">Whole week</button></div>
     <button id="go" type="button">Build ticket</button>
     <div id="msg" aria-live="polite"></div>
+  </div>
+
+  <div class="card">
+    <strong>Build from chosen markets</strong>
+    <p class="meta" style="margin:4px 0 0">Tick the markets you want; every game gets the one of them that fits its two teams best. Uses the days, legs, target odds and strictness set above.</p>
+    <div id="bmk" class="days" style="margin-top:8px"></div>
+    <div class="quick"><button type="button" class="q" id="ball">Tick all</button><button type="button" class="q" id="bnone">Clear</button></div>
+    <button id="mgo" type="button">Build from these markets</button>
+    <div id="mmsg" aria-live="polite"></div>
   </div>
 
   <div class="card">
@@ -173,8 +177,25 @@ const RMK = [["o15","Over 1.5"],["o25","Over 2.5"],["gg","GG"],["win","Win (favo
   ["wu25","Weaker team Under 2.5"],["h1u25","1st half Under 2.5"],["u35","Under 3.5"],["u45","Under 4.5"],["u55","Under 5.5"],["h1ggy","1st half GG – Yes"],["h1ggn","1st half GG – No"],
   ["xg","Excluded goals (match)"],["xgt","Excluded goals (home / away team)"],["xg1","Excluded goals (1st half)"]];
 RMK.forEach(([v, t]) => { const l = document.createElement("label"); l.className = "day"; l.innerHTML = `<input type="checkbox" value="${v}"><b style="font-size:.85rem">${t}</b>`; $("bmk").appendChild(l); });
-const syncMk = () => { $("bmkbox").style.display = $("type").value === "markets" ? "" : "none"; };
-$("type").addEventListener("change", syncMk);
+$("ball").onclick = () => document.querySelectorAll("#bmk input").forEach(x => x.checked = true);
+$("bnone").onclick = () => document.querySelectorAll("#bmk input").forEach(x => x.checked = false);
+$("mgo").onclick = async () => {
+  const mks = [...document.querySelectorAll("#bmk input:checked")].map(x => x.value);
+  const days = pickedDays();
+  if (!mks.length) { $("mmsg").className = "err"; $("mmsg").textContent = "Tick at least one market."; return; }
+  if (!days.length) { $("mmsg").className = "err"; $("mmsg").textContent = "Tick at least one day in the box above."; return; }
+  const target = +$("target").value || 0;
+  const req = { type: "markets", markets: mks, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days, strict: $("strict").value };
+  if (target > 1) req.target = target;
+  try { localStorage.setItem("buildMk", JSON.stringify(mks)); } catch (e) {}
+  $("mgo").disabled = true; $("mmsg").className = ""; $("mmsg").textContent = "Sending…";
+  try {
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    if (!r.ok) throw new Error(r.status);
+    $("mmsg").className = "ok"; $("mmsg").textContent = `Request sent: ${mks.length} market(s), ${days.length} day(s). Your code arrives as a notification in about a minute.`;
+  } catch (e) { $("mmsg").className = "err"; $("mmsg").textContent = "Could not send. Check your internet and try again."; }
+  setTimeout(() => $("mgo").disabled = false, 4000);
+};
 RMK.forEach(([v, t]) => { const l = document.createElement("label"); l.className = "day"; l.innerHTML = `<input type="checkbox" value="${v}" checked><b style="font-size:.85rem">${t}</b>`; $("rmk").appendChild(l); });
 $("rall").onclick = () => document.querySelectorAll("#rmk input").forEach(x => x.checked = true);
 $("rnone").onclick = () => document.querySelectorAll("#rmk input").forEach(x => x.checked = false);
@@ -236,17 +257,15 @@ const pickedDays = () => [...document.querySelectorAll("#days input:checked")].m
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
   for (const k of ["type", "legs", "tickets", "target", "strict"]) if (s[k] != null && $(k)) $(k).value = s[k];
+  if (!$("type").value) $("type").selectedIndex = 0;
 } catch (e) {}
 $("go").onclick = async () => {
   const days = pickedDays();
   if (!days.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one day."; return; }
-  const mks = [...document.querySelectorAll("#bmk input:checked")].map(x => x.value);
-  if ($("type").value === "markets" && !mks.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one market."; return; }
   const target = +$("target").value || 0;
   const req = { type: $("type").value, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days, strict: $("strict").value };
   if (target > 1) req.target = target;
-  if (req.type === "markets") req.markets = mks;
-  try { localStorage.setItem("buildForm", JSON.stringify(req)); localStorage.setItem("buildMk", JSON.stringify(mks)); } catch (e) {}
+  try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
@@ -305,10 +324,10 @@ function paintScores() {
     el.textContent = l ? `❌ lost (${l} leg${l > 1 ? "s" : ""})` : w === n ? "✅ WON" : `${w}/${n} won` + (live ? ` · ${live} live` : "");
   });
 }
-syncLegsLabel(); syncMk(); loadList(); loadScores();
+syncLegsLabel(); loadList(); loadScores();
 setInterval(() => { if (!document.hidden) loadList(); }, 60000);
 setInterval(() => { if (!document.hidden) loadScores(); }, 120000);
-document.addEventListener("visibilitychange", () => { if (!document.hidden) { syncLegsLabel(); syncMk(); loadList(); loadScores(); } });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { syncLegsLabel(); loadList(); loadScores(); } });
 </script>
 </body>
 </html>
