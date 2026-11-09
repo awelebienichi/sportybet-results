@@ -20,7 +20,8 @@ def handle(req, notify):
     if t == "rollover_start":
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
         hour = int(req.get("hour") or 10) % 24
-        s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today(), short="skip" if req.get("short") == "skip" else "lower")
+        s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today(), short="skip" if req.get("short") == "skip" else "lower",
+                 min_odds=min(odds, max(1.3, float(req.get("min_odds") or 1.8))))
         save(s); notify("Daily rollover started", f"Stake {naira(stake)}, about {odds:g} odds a day, ticket every day at {hour:02d}:00.\nToday's ticket is being built now.")
         build_today(s, notify, force=True)
     elif t == "rollover_stop":
@@ -158,10 +159,10 @@ def build_today(s, notify, force=False):
     legs, prod = pick_safe(s["odds"])
     short = not legs or prod < s["odds"] * .85
     lower_note = ""
-    if short and s.get("short", "lower") == "lower" and legs and prod >= 2.5:
+    if short and s.get("short", "lower") == "lower" and legs and prod >= s.get("min_odds", 1.8):
         short = False; lower_note = f"Only {prod:.2f} odds today: not enough games passed the strict rollover checks to reach {s['odds']:g}.\n"
     if short:
-        notify("Rollover: no safe ticket today", f"Not enough games passed the strict rollover checks today ({prod:.2f} odds possible, minimum 2.5" + (f", your target {s['odds']:g}" if s.get("short") == "skip" else "") + f"). The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
+        notify("Rollover: no safe ticket today", f"Not enough games passed the strict rollover checks today ({prod:.2f} odds possible, your minimum {s.get('min_odds', 1.8):g}" + (f", your target {s['odds']:g}" if s.get("short") == "skip" else "") + f"). The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
         s["current"] = {"date": today(), "code": None, "result": "skip"}; save(s); return
     res = phonebuild.finish([legs], "rollover", {"rollover": f"daily rollover day {s['day']}"}, [], {"type": "rollover"})
     if not res.get("ok"):
