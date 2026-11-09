@@ -21,7 +21,7 @@ def handle(req, notify):
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
         hour = int(req.get("hour") or 10) % 24
         s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today(), short="skip" if req.get("short") == "skip" else "lower",
-                 min_odds=min(odds, max(1.3, float(req.get("min_odds") or 1.8))))
+                 min_odds=min(odds, max(1.3, float(req.get("min_odds") or 1.8))), level="strictest" if req.get("level") == "strictest" else "strong")
         save(s); notify("Daily rollover started", f"Stake {naira(stake)}, about {odds:g} odds a day, ticket every day at {hour:02d}:00.\nToday's ticket is being built now.")
         build_today(s, notify, force=True)
     elif t == "rollover_stop":
@@ -87,15 +87,29 @@ def h2h_rate(leg, hh):
     if mid == "10" and oid == "11": c = lambda a, b: b >= a
     return sum(1 for x in hh if c(*x)) / len(hh) if c else None
 
-def pick_safe(target, lo=None, hi=None):  # noqa: the strictest picker
+LEVELS = {"strictest": dict(team=.85, need_second=True, legs=7), "strong": dict(team=.80, need_second=False, legs=8)}
+def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest picker
     """the strictest picker on the builder: each leg needs BOTH teams at 85%+ for the pick in their own last 10, at least one
     more source agreeing (head-to-head 75%+, Flashscore home/away form 80%+, or a footybets tip) and nothing against it"""
     now = time.time(); end = dt.datetime.combine(dt.datetime.now(LAGOS).date(), dt.time(23, 59), LAGOS).timestamp()
     phonebuild.ST["L"] = -0.05                      # underlying pickers stricter than "strict"
     G = phonebuild.games_cached(lo or now + 45 * 60, hi or end)
     LX = phonebuild.fetch_teams(G)
-    C = (phonebuild.pick_multi(G, LX, "mix", 30) + phonebuild.pick_fav(G, LX) + phonebuild.pick_goals(G, LX, "o25") + phonebuild.pick_goals(G, LX, "o15")
-         + phonebuild.pick_fav1h(G, LX) + phonebuild.pick_fav1h(G, LX, 2) + phonebuild.pick_h1o05(G, LX) + phonebuild.pick_h1o05(G, LX, 2))
+    # every market on every game (not just what the other pickers shortlisted): odds from each game's full market list
+    from concurrent.futures import ThreadPoolExecutor as _TPE
+    def _all(g):
+        _, mk = phonebuild.event_game(g["eid"]); out = []
+        for k, (mid, spec, oid, lab) in phonebuild.RB.items():
+            od = mk.get((mid, spec, oid))
+            if od: out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], why=""))
+        for mid in ("69", "70", "91", "92"):          # a team to score in a half
+            od = mk.get((mid, "total=0.5", "12"))
+            if od:
+                side = g["h"] if mid in ("69", "91") else g["a"]; half = "1st" if mid in ("69", "70") else "2nd"
+                out.append(dict(eid=g["eid"], mid=mid, spec="total=0.5", oid="12", pick=f"{side} to score in {half} half", odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], why=""))
+        return out
+    usable = [g for g in G if len(LX.get(g["hid"], [])) >= 7 and len(LX.get(g["aid"], [])) >= 7]
+    with _TPE(8) as ex: C = [c for cs in ex.map(_all, usable) for c in cs]
     phonebuild.ST["L"] = 0.1
     GM = {g["eid"]: g for g in G}
     try:
@@ -119,12 +133,15 @@ def pick_safe(target, lo=None, hi=None):  # noqa: the strictest picker
     for c in C:
         if c["odds"] < 1.12 or c["eid"] not in GM: continue
         g = GM[c["eid"]]
+        xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+        if c["mid"] in ("1", "60200") and ((c["oid"] == "1" and xh >= xa) or (c["oid"] == "3" and xa >= xh)): continue   # never the weaker side
+        if c["mid"] in ("10", "63") and ((c["oid"] == "11" and xh * 1.5 <= xa) or (c["oid"] == "9" and xa * 1.5 <= xh)): continue
         if c["mid"] in GOAL:
             H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
             if not H or not A or min(sum(m["gf"] + m["ga"] for m in H) / len(H), sum(m["gf"] + m["ga"] for m in A) / len(A)) < 2.5: continue   # a low-scoring team: out
             if not league_ok(c, g): continue
         tr = team_rates(c, g, LX)
-        if not tr or None in tr or min(tr) < .85: continue
+        if not tr or None in tr or min(tr) < LEVELS[level]["team"]: continue
         c["tr"] = tr; pre.append(c)
     def sources(c):
         g = GM[c["eid"]]
@@ -146,13 +163,13 @@ def pick_safe(target, lo=None, hi=None):  # noqa: the strictest picker
         if bad or (hr is not None and hr < .75) or (fr is not None and fr < .8): continue      # anything against it: out
         agree = [x for x in (("head-to-head", hr) if hr is not None and hr >= .75 else None, ("Flashscore home/away", fr) if fr is not None and fr >= .8 else None,
                              ("footybets", sup / 100) if sup and sup >= 70 else None) if x]
-        if not agree: continue                                                                    # at least two sources
-        c["r"] = min(.97, min(c["tr"]) * .6 + sum(v for _, v in agree) / len(agree) * .4)
-        c["why"] = f"both teams {min(c['tr']):.0%}+ in their own last 10 (home {c['tr'][0]:.0%}, away {c['tr'][1]:.0%}); " + ", ".join(f"{n} {v:.0%}" for n, v in agree)
+        if not agree and (LEVELS[level]["need_second"] or hr is not None or fr is not None): continue   # second source must agree when there is one
+        c["r"] = min(.97, min(c["tr"]) * .6 + (sum(v for _, v in agree) / len(agree) if agree else min(c["tr"]) - .05) * .4)
+        c["why"] = f"both teams {min(c['tr']):.0%}+ in their own last 10 (home {c['tr'][0]:.0%}, away {c['tr'][1]:.0%})" + ("; " + ", ".join(f"{n} {v:.0%}" for n, v in agree) if agree else "; no head-to-head/Flashscore data, nothing against")
         if c["eid"] not in best or c["r"] > best[c["eid"]]["r"]: best[c["eid"]] = c
     pool = list(best.values())
     plan = None                                   # for 3..7 legs: the strongest legs priced high enough to reach the target together
-    for k in range(2, 8):
+    for k in range(2, LEVELS[level]["legs"] + 1):
         floor = target ** (1 / k) * .9
         cand = sorted((c for c in pool if c["odds"] >= floor), key=lambda c: -c["r"])[:k + 6]
         cand.sort(key=lambda c: -c["r"])
@@ -165,7 +182,7 @@ def pick_safe(target, lo=None, hi=None):  # noqa: the strictest picker
             chance = math.prod(c["r"] for c in legs)
             if plan is None or chance > plan[0]: plan = (chance, legs)
     if not plan:
-        legs = sorted(pool, key=lambda c: -math.log(c["odds"]) / -math.log(c["r"]))[:7]
+        legs = sorted(pool, key=lambda c: -math.log(c["odds"]) / -math.log(c["r"]))[:LEVELS[level]["legs"]]
         return legs, math.prod(c["odds"] for c in legs) if legs else 0
     return plan[1], math.prod(c["odds"] for c in plan[1])
 
@@ -174,7 +191,7 @@ def build_today(s, notify, force=False):
     if s.get("current") and s["current"].get("date") == today() and not force: return
     if s.get("current") and s["current"].get("result") is None and s["current"].get("date") == today():
         notify("Rollover ticket already out", f"Today's code is {s['current']['code']}.", "default"); return
-    legs, prod = pick_safe(s["odds"])
+    legs, prod = pick_safe(s["odds"], level=s.get("level", "strong"))
     short = not legs or prod < s["odds"] * .85
     lower_note = ""
     if short and s.get("short", "lower") == "lower" and legs and prod >= s.get("min_odds", 1.8):
