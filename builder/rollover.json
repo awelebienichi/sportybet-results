@@ -8,8 +8,11 @@
 "day": 1,
 "current": {
 "date": "2026-11-09",
-"code": null,
-"result": "skip"
+"code": "MCR4X6",
+"odds": 4.87,
+"stake": 500.0,
+"n": 7,
+"result": null
 },
 "started": "2026-11-09"
 }
