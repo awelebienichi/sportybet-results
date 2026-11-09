@@ -1,5 +1,174 @@
 [
 {
+"when": "Mon 09 Nov 20:36",
+"req": {
+"type": "o25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "HE4FRN",
+"odds": 36.03,
+"legs": [
+{
+"t": "Tue 02:00",
+"game": "AD Rosario vs Pitbulls Santa Barbara FC",
+"lg": "Costa Rica - Liga de Ascenso",
+"pick": "Over 2.5",
+"odds": 1.85,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.4 goals; Flashscore home/away form 70%",
+"ts": 1794272400.0,
+"eid": "sr:match:76409632",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76409632|18|total=2.5|12"
+},
+{
+"t": "Tue 15:00",
+"game": "Colchester United U21 vs Charlton Athletic U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.22,
+"why": "Over 2.5 in 90% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.7 goals; Flashscore home/away form 90%",
+"ts": 1794319200.0,
+"eid": "sr:match:73601828",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601828|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Grimsby Town vs Nottingham Forest U21",
+"lg": "England - EFL Trophy",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.7 goals; Flashscore home/away form 70%",
+"ts": 1794337200.0,
+"eid": "sr:match:73661220",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73661220|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Enfield Town vs Lewes FC",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "Over 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals; Flashscore home/away form 70%",
+"ts": 1794339900.0,
+"eid": "sr:match:75997138",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75997138|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Three Bridges",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 4.1 goals; Flashscore home/away form 80%",
+"ts": 1794339900.0,
+"eid": "sr:match:75232648",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75232648|18|total=2.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 80%",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371842|18|total=2.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "Over 2.5 in 100% / 90% of the teams' last 10, 71% of 7 meetings, league avg 3.8 goals",
+"ts": 1794427200.0,
+"eid": "sr:match:74371852",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371852|18|total=2.5|12"
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"lg": "International - UEFA Nations League",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, 75% of 8 meetings, league avg 3.0 goals",
+"ts": 1794512700.0,
+"eid": "sr:match:68931756",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "68931756|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.8 goals",
+"ts": 1794668400.0,
+"eid": "sr:match:72740804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740804|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "West Ham United FC Women vs Charlton Athletic",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 2.5",
+"odds": 1.7,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, 100% of 3 meetings, league avg 3.6 goals",
+"ts": 1794751200.0,
+"eid": "sr:match:73346116",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346116|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 20:27",
 "req": {
 "type": "rebuild",
@@ -12226,146 +12395,6 @@
 "spec": "",
 "oid": "25",
 "k": "75802948|450001||25"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 00:00",
-"req": {
-"type": "combine",
-"codes": [
-"S31YNL",
-"UU2BLJ",
-"S0LR59",
-"YDUL01",
-"YP0NNP",
-"XMHYNW"
-],
-"split50": true
-},
-"ok": true,
-"kind": "combined S31YNL + UU2BLJ + S0LR59 + YDUL01 + YP0NNP + XMHYNW",
-"note": [
-"2 game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip)."
-],
-"tickets": [
-{
-"code": "ZH5Q7X",
-"odds": 11.62,
-"legs": [
-{
-"t": "Mon 02:00",
-"game": "Piratas Veracruz vs Cancun FC",
-"lg": "Mexico - Liga de Expansion MX",
-"pick": "2nd Half - Over/Under \u2013 Over 0.5",
-"odds": 1.19,
-"why": "from YDUL01",
-"ts": 1794186000.0,
-"eid": "sr:match:76367028",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76367028|90|total=0.5|12"
-},
-{
-"t": "Mon 13:00",
-"game": "KF Ferizaj vs FC Suhareka",
-"lg": "Kosovo - Liga e Pare",
-"pick": "1X2 \u2013 Home",
-"odds": 1.37,
-"why": "from S0LR59",
-"ts": 1794225600.0,
-"eid": "sr:match:76480650",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "76480650|1||1"
-},
-{
-"t": "Mon 13:55",
-"game": "AL Ain FC vs AL Wahda FC",
-"lg": "United Arab Emirates - U23 Pro League",
-"pick": "1X2 \u2013 Home",
-"odds": 1.54,
-"why": "from UU2BLJ",
-"ts": 1794228900.0,
-"eid": "sr:match:75186204",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75186204|1||1"
-},
-{
-"t": "Mon 18:00",
-"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
-"lg": "Israel - National League",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.2,
-"why": "from S31YNL",
-"ts": 1794243600.0,
-"eid": "sr:match:75661174",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75661174|18|total=1.5|12"
-},
-{
-"t": "Mon 19:00",
-"game": "Kristiansund BK vs Vaalerenga IF",
-"lg": "Norway - Eliteserien",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.12,
-"why": "from S31YNL",
-"ts": 1794247200.0,
-"eid": "sr:match:76509750",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76509750|18|total=1.5|12"
-},
-{
-"t": "Mon 20:00",
-"game": "Colon FC Reserve vs Defensor Sporting",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "1X2 \u2013 Away",
-"odds": 1.89,
-"why": "from UU2BLJ",
-"ts": 1794250800.0,
-"eid": "sr:match:76458600",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "76458600|1||3"
-},
-{
-"t": "Mon 20:00",
-"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.37,
-"why": "from XMHYNW",
-"ts": 1794250800.0,
-"eid": "sr:match:75153534",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75153534|18|total=2.5|12"
-},
-{
-"t": "Mon 20:00",
-"game": "Middlesbrough U21 vs Derby County U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.33,
-"why": "from XMHYNW",
-"ts": 1794250800.0,
-"eid": "sr:match:73603148",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73603148|18|total=2.5|12"
 }
 ]
 }
