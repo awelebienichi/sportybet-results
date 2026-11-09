@@ -44,6 +44,19 @@ def team_rates(leg, g, LX):
     if mid == "860": return f(H, lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["ga"] > 0)), f(A, lambda m: m["gf"] < m["ga"] or (m["gf"] > 0 and m["ga"] > 0))
     if mid == "68": c = lambda m: m["h1f"] + m["h1a"] > 0; return f1(H1, c), f1(A1, c)
     if mid == "90": c = lambda m: m["h2f"] + m["h2a"] > 0; return f1(H1, c), f1(A1, c)
+    if mid == "18" and oid == "13" and spec in ("total=3.5", "total=4.5", "total=5.5"):
+        n = int(float(spec.split("=")[1])); c = lambda m: m["gf"] + m["ga"] <= n; return f(H, c), f(A, c)
+    if mid == "19" and oid == "13" and spec == "total=2.5": return f(H, lambda m: m["gf"] <= 2), f(A, lambda m: m["ga"] <= 2)
+    if mid == "20" and oid == "13" and spec == "total=2.5": return f(A, lambda m: m["gf"] <= 2), f(H, lambda m: m["ga"] <= 2)
+    if mid == "68" and oid == "13" and spec == "total=2.5": c = lambda m: m["h1f"] + m["h1a"] <= 2; return f1(H1, c), f1(A1, c)
+    if mid == "75": c = (lambda m: m["h1f"] > 0 and m["h1a"] > 0) if oid == "74" else (lambda m: not (m["h1f"] > 0 and m["h1a"] > 0)); return f1(H1, c), f1(A1, c)
+    if mid in ("450004", "450005", "450006", "810002"):
+        n = int(oid); top = 5 if mid == "450004" else 3
+        ok = (lambda t: t != n) if n < top else (lambda t: t < n)
+        if mid == "450004": c = lambda m: ok(m["gf"] + m["ga"]); return f(H, c), f(A, c)
+        if mid == "450005": return f(H, lambda m: ok(m["gf"])), f(A, lambda m: ok(m["ga"]))
+        if mid == "450006": return f(A, lambda m: ok(m["gf"])), f(H, lambda m: ok(m["ga"]))
+        c = lambda m: ok(m["h1f"] + m["h1a"]); return f1(H1, c), f1(A1, c)
     if mid in ("69", "70", "91", "92"):          # a team to score in a half: that team scores, and the rival concedes, in that half
         k = "h1" if mid in ("69", "70") else "h2"
         home_side = mid in ("69", "91")
@@ -71,6 +84,12 @@ def h2h_halves(h, a):
 def h2h_half_rate(leg, HH):
     if len(HH) < 3: return None
     mid, oid = leg["mid"], leg["oid"]
+    if mid == "68" and leg["oid"] == "13": c = lambda a, b, x, y: a + b <= 2
+    elif mid == "75": c = (lambda a, b, x, y: a > 0 and b > 0) if oid == "74" else (lambda a, b, x, y: not (a > 0 and b > 0))
+    elif mid == "810002":
+        n = int(oid); c = (lambda a, b, x, y: a + b != n) if n < 3 else (lambda a, b, x, y: a + b < 3)
+    else: c = None
+    if c: return sum(1 for z in HH if c(*z)) / len(HH)
     c = {"68": lambda a, b, x, y: a + b > 0, "90": lambda a, b, x, y: (x - a) + (y - b) > 0,
          "69": lambda a, b, x, y: a > 0, "70": lambda a, b, x, y: b > 0, "91": lambda a, b, x, y: x - a > 0, "92": lambda a, b, x, y: y - b > 0,
          "63": (lambda a, b, x, y: a >= b) if oid == "9" else (lambda a, b, x, y: b >= a)}.get(mid)
@@ -85,6 +104,13 @@ def h2h_rate(leg, hh):
     if mid == "860": c = lambda a, b: a > b or (a > 0 and b > 0)
     if mid in ("1", "60200"): c = (lambda a, b: a > b) if oid == "1" else (lambda a, b: b > a)
     if mid == "10" and oid == "11": c = lambda a, b: b >= a
+    if mid == "18" and oid == "13" and spec in ("total=3.5", "total=4.5", "total=5.5"):
+        n = int(float(spec.split("=")[1])); c = lambda a, b: a + b <= n
+    if mid == "19" and oid == "13": c = lambda a, b: a <= 2
+    if mid == "20" and oid == "13": c = lambda a, b: b <= 2
+    if mid in ("450004", "450005", "450006"):
+        n = int(oid); top = 5 if mid == "450004" else 3; ok = (lambda t: t != n) if n < top else (lambda t: t < n)
+        c = {"450004": lambda a, b: ok(a + b), "450005": lambda a, b: ok(a), "450006": lambda a, b: ok(b)}[mid]
     return sum(1 for x in hh if c(*x)) / len(hh) if c else None
 
 LEVELS = {"strictest": dict(team=.85, need_second=True, legs=7), "strong": dict(team=.80, need_second=False, legs=8)}
@@ -136,7 +162,14 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
         if c["mid"] in ("1", "60200") and ((c["oid"] == "1" and xh >= xa) or (c["oid"] == "3" and xa >= xh)): continue   # never the weaker side
         if c["mid"] in ("10", "63") and ((c["oid"] == "11" and xh * 1.5 <= xa) or (c["oid"] == "9" and xa * 1.5 <= xh)): continue
-        if c["mid"] in GOAL:
+        mid, oid = c["mid"], c["oid"]
+        if mid in ("19", "20") and oid == "13" and ((mid == "19" and xh <= xa) or (mid == "20" and xa <= xh)): continue   # weaker team only
+        if (mid == "450005" and ((oid == "3" and xh < xa) or (oid == "0" and xh >= 3.1))) or (mid == "450006" and ((oid == "3" and xa < xh) or (oid == "0" and xa >= 3.1))): continue
+        if mid == "810002" and oid == "1": continue
+        few_goals = (mid == "18" and oid == "13") or (mid == "450004" and oid == "5") or (mid == "68" and oid == "13") or (mid == "810002" and oid == "3")
+        if few_goals and min(xh, xa) <= 1.35: continue          # blowout risk: a heavy favourite can run up the score
+        goals_happen = (mid in ("18", "68") and oid == "12") or mid in ("29", "450001", "90", "69", "70", "91", "92", "860") or (mid == "75" and oid == "74")
+        if goals_happen:
             H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
             if not H or not A or min(sum(m["gf"] + m["ga"] for m in H) / len(H), sum(m["gf"] + m["ga"] for m in A) / len(A)) < 2.5: continue   # a low-scoring team: out
             if not league_ok(c, g): continue
@@ -145,7 +178,7 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         c["tr"] = tr; pre.append(c)
     def sources(c):
         g = GM[c["eid"]]
-        if c["mid"] in ("68", "90", "69", "70", "91", "92", "63"): hr = h2h_half_rate(c, h2h_halves(g["hid"], g["aid"]))
+        if c["mid"] in ("68", "90", "69", "70", "91", "92", "63", "75", "810002"): hr = h2h_half_rate(c, h2h_halves(g["hid"], g["aid"]))
         else: hr = h2h_rate(c, phonebuild.h2h(g["hid"], g["aid"]))
         fr = sup = None; bad = False
         if extra:
