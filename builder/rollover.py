@@ -191,7 +191,14 @@ def build_today(s, notify, force=False):
     if s.get("current") and s["current"].get("date") == today() and not force: return
     if s.get("current") and s["current"].get("result") is None and s["current"].get("date") == today():
         notify("Rollover ticket already out", f"Today's code is {s['current']['code']}.", "default"); return
-    legs, prod = pick_safe(s["odds"], level=s.get("level", "strong"))
+    level = s.get("level", "strong")
+    legs, prod = pick_safe(s["odds"], level=level)
+    level_note = ""
+    if level == "strictest" and (not legs or prod < max(s.get("min_odds", 1.8), s["odds"] * .85)):
+        legs2, prod2 = pick_safe(s["odds"], level="strong")     # strictest can't reach it today: use Strong for today only
+        if legs2 and prod2 > prod:
+            legs, prod = legs2, prod2
+            level_note = "Strictest checks only reached {:.2f} odds today, so today's ticket uses the Strong checks (both teams 80%+).\n".format(prod)
     short = not legs or prod < s["odds"] * .85
     lower_note = ""
     if short and s.get("short", "lower") == "lower" and legs and prod >= s.get("min_odds", 1.8):
@@ -210,7 +217,7 @@ def build_today(s, notify, force=False):
                           kind=f"daily rollover – day {s['day']}", note=[f"Stake {naira(s['stake'])} → returns {naira(s['stake'] * t['odds'])} if it wins"], tickets=[t]))
     json.dump(builds[:40], open(os.path.join(HERE, "builds.json"), "w"), indent=0)
     subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - daily rollover day {s['day']}", t["code"]], capture_output=True)
-    body = lower_note + f"Stake {naira(s['stake'])} → {naira(s['stake'] * t['odds'])} if it wins\n{len(t['legs'])} legs, {t['odds']} odds\n\n" + "\n".join(f"{l['t']} {l['game']}: {l['pick']} @ {l['odds']}" for l in t["legs"])
+    body = level_note + lower_note + f"Stake {naira(s['stake'])} → {naira(s['stake'] * t['odds'])} if it wins\n{len(t['legs'])} legs, {t['odds']} odds\n\n" + "\n".join(f"{l['t']} {l['game']}: {l['pick']} @ {l['odds']}" for l in t["legs"])
     notify(f"Rollover day {s['day']}: {t['code']}", body)
 
 def tick(notify, lock=None):
