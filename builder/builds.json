@@ -1,5 +1,19 @@
 [
 {
+"when": "Mon 09 Nov 17:18",
+"req": {
+"type": "h1o05",
+"legs": 20,
+"tickets": 2,
+"days": [
+"2026-11-09"
+],
+"strict": "strict"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for 1st half Over 0.5 (Mon 09) out of 37 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Mon 09 Nov 17:16",
 "req": {
 "type": "mix",
@@ -9408,88 +9422,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "75802948|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sun 08 Nov 23:43",
-"req": {
-"type": "h1o05",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09"
-],
-"strict": "normal"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 4 games passed the checks (Sun 08, Mon 09, 85 games on SportyBet), so this ticket has 4 legs instead of 10. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "PVSY7S",
-"odds": 2.55,
-"legs": [
-{
-"t": "Mon 14:00",
-"game": "Coventry City U21 vs Queens Park Rangers U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 1st half in 90% of Coventry City U21's last 10 and 100% of Queens Park Rangers U21's last 10",
-"ts": 1794229200.0,
-"eid": "sr:match:73601820",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73601820|68|total=0.5|12"
-},
-{
-"t": "Mon 18:00",
-"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
-"lg": "Israel - National League",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"why": "goal in the 1st half in 100% of Hapoel Kfar Saba FC's last 10 and 80% of Maccabi Bney Reine's last 10",
-"ts": 1794243600.0,
-"eid": "sr:match:75661174",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75661174|68|total=0.5|12"
-},
-{
-"t": "Mon 19:00",
-"game": "Kristiansund BK vs Vaalerenga IF",
-"lg": "Norway - Eliteserien",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"why": "goal in the 1st half in 90% of Kristiansund BK's last 10 and 80% of Vaalerenga IF's last 10",
-"ts": 1794247200.0,
-"eid": "sr:match:76509750",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76509750|68|total=0.5|12"
-},
-{
-"t": "Mon 21:30",
-"game": "CD Tecnico Universitario vs Manta FC",
-"lg": "Ecuador - LigaPro Primera A",
-"pick": "1st half Over 0.5",
-"odds": 1.41,
-"why": "goal in the 1st half in 90% of CD Tecnico Universitario's last 10 and 80% of Manta FC's last 10",
-"ts": 1794256200.0,
-"eid": "sr:match:74735326",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "74735326|68|total=0.5|12"
 }
 ]
 }
