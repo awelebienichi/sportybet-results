@@ -8,11 +8,8 @@
 "day": 1,
 "current": {
 "date": "2026-11-09",
-"code": "LLEK7A",
-"odds": 2.34,
-"stake": 1000.0,
-"n": 5,
-"result": null
+"code": null,
+"result": "skip"
 },
 "started": "2026-11-09",
 "short": "lower",
