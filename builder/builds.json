@@ -1,5 +1,174 @@
 [
 {
+"when": "Mon 09 Nov 20:37",
+"req": {
+"type": "o25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "XGUQ5P",
+"odds": 44.85,
+"legs": [
+{
+"t": "Tue 02:00",
+"game": "AD Rosario vs Pitbulls Santa Barbara FC",
+"lg": "Costa Rica - Liga de Ascenso",
+"pick": "Over 2.5",
+"odds": 1.85,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.4 goals; Flashscore home/away form 70%",
+"ts": 1794272400.0,
+"eid": "sr:match:76409632",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76409632|18|total=2.5|12"
+},
+{
+"t": "Tue 15:00",
+"game": "Colchester United U21 vs Charlton Athletic U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.22,
+"why": "Over 2.5 in 90% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.7 goals; Flashscore home/away form 90%",
+"ts": 1794319200.0,
+"eid": "sr:match:73601828",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601828|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Enfield Town vs Lewes FC",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "Over 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals; Flashscore home/away form 70%",
+"ts": 1794339900.0,
+"eid": "sr:match:75997138",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75997138|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Three Bridges",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 4.1 goals; Flashscore home/away form 80%",
+"ts": 1794339900.0,
+"eid": "sr:match:75232648",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75232648|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Anstey Nomads vs Kettering Town",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 70%",
+"ts": 1794339900.0,
+"eid": "sr:match:73022094",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73022094|18|total=2.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 80%",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371842|18|total=2.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "Over 2.5 in 100% / 90% of the teams' last 10, 71% of 7 meetings, league avg 3.8 goals",
+"ts": 1794427200.0,
+"eid": "sr:match:74371852",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371852|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.8 goals",
+"ts": 1794668400.0,
+"eid": "sr:match:72740804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740804|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"lg": "Scotland - League 1",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "Over 2.5 in 89% / 70% of the teams' last 10, league avg 3.6 goals",
+"ts": 1794668400.0,
+"eid": "sr:match:72203982",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72203982|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "West Ham United FC Women vs Charlton Athletic",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 2.5",
+"odds": 1.7,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, 100% of 3 meetings, league avg 3.6 goals",
+"ts": 1794751200.0,
+"eid": "sr:match:73346116",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346116|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 20:36",
 "req": {
 "type": "o25",
@@ -12315,86 +12484,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "73022092|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 00:02",
-"req": {
-"type": "best",
-"legs": 4,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09"
-],
-"strict": "strict"
-},
-"ok": true,
-"kind": "your tracker's best markets",
-"note": [],
-"tickets": [
-{
-"code": "S9STV2",
-"odds": 1.67,
-"legs": [
-{
-"t": "Mon 02:00",
-"game": "CD FAS Santa Ana vs CD Fuerte San Francisco Morazan",
-"lg": "El Salvador - Primera Division",
-"pick": "1st half double chance CD FAS Santa Ana or draw",
-"odds": 1.1,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794186000.0,
-"eid": "sr:match:73075384",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73075384|63||9"
-},
-{
-"t": "Mon 18:00",
-"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
-"lg": "Israel - National League",
-"pick": "Goal bounds 2-5+",
-"odds": 1.19,
-"why": "stats rate 96% from both teams' last 10 and 4 meetings; Flashscore home/away form 80%",
-"ts": 1794243600.0,
-"eid": "sr:match:75661174",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75661174|450001||25"
-},
-{
-"t": "Mon 19:00",
-"game": "Kristiansund BK vs Vaalerenga IF",
-"lg": "Norway - Eliteserien",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 98%",
-"ts": 1794247200.0,
-"eid": "sr:match:76509750",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76509750|450001||25"
-},
-{
-"t": "Mon 20:30",
-"game": "Plymouth Parkway vs Berkhamsted FC",
-"lg": "England - FA Cup",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
-"ts": 1794252600.0,
-"eid": "sr:match:75802948",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75802948|450001||25"
 }
 ]
 }
