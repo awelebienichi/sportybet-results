@@ -1,5 +1,20 @@
 [
 {
+"when": "Mon 09 Nov 01:53",
+"req": {
+"type": "best",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-09"
+],
+"strict": "relaxed",
+"target": 100
+},
+"ok": false,
+"msg": "Could not reach 100 odds with 20 legs or fewer from the 54 games that pass the checks for your tracker's best markets (Mon 09). Allow more legs or a lower target."
+},
+{
 "when": "Mon 09 Nov 01:52",
 "req": {
 "type": "best",
@@ -3855,20 +3870,5 @@
 },
 "ok": false,
 "msg": "Only 6 games pass the checks for Over 2.5 (strong teams in youth & women's leagues) (Sun 08, Mon 09, Tue 10, Wed 11, Thu 12). Not enough for 20 legs. Ask for 6 legs or fewer."
-},
-{
-"when": "Sun 08 Nov 15:52",
-"req": {
-"type": "o25yw",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09",
-"2026-11-10"
-]
-},
-"ok": false,
-"msg": "Only 3 games pass the checks for Over 2.5 (strong teams in youth & women's leagues) (Sun 08, Mon 09, Tue 10). Not enough for 20 legs. Ask for 3 legs or fewer."
 }
 ]
