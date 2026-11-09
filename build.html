@@ -66,6 +66,30 @@
       <option value="o25">Over 2.5 – highest-scoring leagues</option>
       <option value="o25yw">Over 2.5 – strong teams in youth &amp; women's leagues</option>
       <option value="u25">Under 2.5 – lowest-scoring leagues</option>
+      <optgroup label="Single market (same options as Rebuild)">
+      <option value="mk_o15">Over 1.5</option>
+      <option value="mk_o25">Over 2.5</option>
+      <option value="mk_gg">GG</option>
+      <option value="mk_win">Win (favourite)</option>
+      <option value="mk_up">1UP</option>
+      <option value="mk_dc">Double chance</option>
+      <option value="mk_hgg">Home or GG</option>
+      <option value="mk_gb25">Goal bounds 2-5+</option>
+      <option value="mk_h1">1st half goal</option>
+      <option value="mk_h2">2nd half goal</option>
+      <option value="mk_h1dc">1st half double chance</option>
+      <option value="mk_htx">Half-time draw</option>
+      <option value="mk_wu25">Weaker team Under 2.5</option>
+      <option value="mk_h1u25">1st half Under 2.5</option>
+      <option value="mk_u35">Under 3.5</option>
+      <option value="mk_u45">Under 4.5</option>
+      <option value="mk_u55">Under 5.5</option>
+      <option value="mk_h1ggy">1st half GG – Yes</option>
+      <option value="mk_h1ggn">1st half GG – No</option>
+      <option value="mk_xg">Excluded goals (match)</option>
+      <option value="mk_xgt">Excluded goals (home / away team)</option>
+      <option value="mk_xg1">Excluded goals (1st half)</option>
+      </optgroup>
     </select>
     <div class="row">
       <div><label for="target">Target odds (optional)</label><input id="target" type="number" min="1.5" step="any" placeholder="e.g. 20" inputmode="decimal"></div>
@@ -150,7 +174,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {markets:"Chosen markets", rollover:"Daily rollover", rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
+const names = {markets:"Chosen market", rollover:"Daily rollover", rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -264,8 +288,9 @@ $("go").onclick = async () => {
   if (!days.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one day."; return; }
   const target = +$("target").value || 0;
   const req = { type: $("type").value, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days, strict: $("strict").value };
+  if (req.type.startsWith("mk_")) { req.markets = [req.type.slice(3)]; req.type = "markets"; }
   if (target > 1) req.target = target;
-  try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
+  try { localStorage.setItem("buildForm", JSON.stringify(Object.assign({}, req, { type: $("type").value }))); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
