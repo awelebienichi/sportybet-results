@@ -1,6 +1,6 @@
 [
 {
-"when": "Mon 09 Nov 15:28",
+"when": "Mon 09 Nov 16:10",
 "req": {
 "type": "h1o05",
 "legs": 45,
@@ -22,8 +22,8 @@
 "note": [],
 "tickets": [
 {
-"code": "Y9K2PN",
-"odds": 63407.22,
+"code": "YLSKSQ",
+"odds": 59918.99,
 "legs": [
 {
 "t": "Mon 18:00",
@@ -198,7 +198,7 @@
 "game": "Paris Saint-Germain W vs Bayern Munich W",
 "lg": "International Clubs - UEFA Champions League Women",
 "pick": "1st half Over 0.5",
-"odds": 1.26,
+"odds": 1.25,
 "why": "goal in the 1st half in 80% of Paris Saint-Germain W's last 10 and 80% of Bayern Munich W's last 10",
 "ts": 1794340800.0,
 "eid": "sr:match:74371840",
@@ -268,7 +268,7 @@
 "game": "Mozambique vs Ethiopia",
 "lg": "International - Africa Cup of Nations Qualification",
 "pick": "1st half Over 0.5",
-"odds": 1.48,
+"odds": 1.49,
 "why": "goal in the 1st half in 90% of Mozambique's last 10 and 80% of Ethiopia's last 10",
 "ts": 1794574800.0,
 "eid": "sr:match:75802298",
@@ -474,6 +474,20 @@
 "k": "72342380|68|total=0.5|12"
 },
 {
+"t": "Sat 16:30",
+"game": "NAC Breda vs FC Emmen",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "goal in the 1st half in 80% of NAC Breda's last 10 and 90% of FC Emmen's last 10",
+"ts": 1794670200.0,
+"eid": "sr:match:72044810",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72044810|68|total=0.5|12"
+},
+{
 "t": "Sat 18:30",
 "game": "Hamilton Academical FC vs Ross County FC",
 "lg": "Scotland - League 1",
@@ -572,20 +586,6 @@
 "k": "74402390|68|total=0.5|12"
 },
 {
-"t": "Sun 00:00",
-"game": "Club Nacional de Football vs Albion FC",
-"lg": "Uruguay - Primera Division",
-"pick": "1st half Over 0.5",
-"odds": 1.3,
-"why": "goal in the 1st half in 100% of Club Nacional de Football's last 7 and 75% of Albion FC's last 8",
-"ts": 1794697200.0,
-"eid": "sr:match:76455616",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76455616|68|total=0.5|12"
-},
-{
 "t": "Sun 00:30",
 "game": "Chapecoense SC vs CR Vasco da Gama RJ",
 "lg": "Brazil - Brasileiro Serie A",
@@ -646,7 +646,7 @@
 ]
 },
 {
-"when": "Mon 09 Nov 15:27",
+"when": "Mon 09 Nov 16:10",
 "req": {
 "type": "h1o05",
 "legs": 45,
@@ -667,7 +667,7 @@
 "msg": "Could not reach 50000 odds with 45 legs or fewer from the 17 games that pass the checks for 1st half Over 0.5 (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15). Allow more legs or a lower target."
 },
 {
-"when": "Mon 09 Nov 15:27",
+"when": "Mon 09 Nov 16:09",
 "req": {
 "type": "h1o05",
 "legs": 45,
@@ -686,7 +686,7 @@
 "ok": true,
 "kind": "1st half Over 0.5",
 "note": [
-"Only 17 games passed the checks (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 364 games on SportyBet), so this ticket has 17 legs instead of 45. Tick more days or use 'Relaxed' for more."
+"Only 17 games passed the checks (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 368 games on SportyBet), so this ticket has 17 legs instead of 45. Tick more days or use 'Relaxed' for more."
 ],
 "tickets": [
 {
@@ -936,7 +936,7 @@
 ]
 },
 {
-"when": "Mon 09 Nov 15:19",
+"when": "Mon 09 Nov 16:09",
 "req": {
 "type": "o25",
 "legs": 45,
@@ -958,43 +958,29 @@
 "note": [],
 "tickets": [
 {
-"code": "M0H4PW",
-"odds": 776883.56,
+"code": "VZEZB2",
+"odds": 565976.86,
 "legs": [
 {
-"t": "Mon 15:50",
-"game": "Maccabi Holon FC vs Hapoel Raanana",
-"lg": "Israel - Liga Al, Women",
+"t": "Mon 18:00",
+"game": "FK Javor Ivanjica vs Backa Topola",
+"lg": "Serbia - Prva Liga",
 "pick": "Over 2.5",
-"odds": 1.65,
-"why": "Over 2.5 in 70% / 70% of the teams' last 10, 71% of 7 meetings, league avg 3.2 goals",
-"ts": 1794235800.0,
-"eid": "sr:match:76366224",
+"odds": 1.78,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, 50% of 8 meetings, league avg 3.6 goals; Flashscore home/away form 80%",
+"ts": 1794243600.0,
+"eid": "sr:match:72121006",
 "mid": "18",
 "spec": "total=2.5",
 "oid": "12",
-"k": "76366224|18|total=2.5|12"
-},
-{
-"t": "Mon 15:50",
-"game": "Maccabi Kishronot Hadera vs Kiryat Gat SC",
-"lg": "Israel - Liga Al, Women",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "Over 2.5 in 80% / 60% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals",
-"ts": 1794235800.0,
-"eid": "sr:match:76366220",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76366220|18|total=2.5|12"
+"k": "72121006|18|total=2.5|12"
 },
 {
 "t": "Mon 19:00",
 "game": "Kristiansund BK vs Vaalerenga IF",
 "lg": "Norway - Eliteserien",
 "pick": "Over 2.5",
-"odds": 1.4,
+"odds": 1.39,
 "why": "Over 2.5 in 80% / 70% of the teams' last 10, 75% of 8 meetings, league avg 4.0 goals; Flashscore home/away form 70%, footybets 91%",
 "ts": 1794247200.0,
 "eid": "sr:match:76509750",
@@ -1008,7 +994,7 @@
 "game": "West Bromwich Albion FC U21 vs Bromley FC U21",
 "lg": "England Amateur - Premier League Cup",
 "pick": "Over 2.5",
-"odds": 1.34,
+"odds": 1.33,
 "why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 3.6 goals; Flashscore home/away form 65%",
 "ts": 1794250800.0,
 "eid": "sr:match:75153534",
@@ -1036,7 +1022,7 @@
 "game": "Racing Club Montevideo vs CA River Plate (URU)",
 "lg": "Uruguay - Tercera Division, Reserves",
 "pick": "Over 2.5",
-"odds": 1.61,
+"odds": 1.67,
 "why": "Over 2.5 in 70% / 100% of the teams' last 10, 67% of 3 meetings, league avg 3.2 goals",
 "ts": 1794250800.0,
 "eid": "sr:match:76458592",
@@ -1176,7 +1162,7 @@
 "game": "Quorn FC vs Stockton Town",
 "lg": "England Amateur - Northern Premier League Premier",
 "pick": "Over 2.5",
-"odds": 1.56,
+"odds": 1.54,
 "why": "Over 2.5 in 80% / 60% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 80%",
 "ts": 1794339900.0,
 "eid": "sr:match:75799146",
@@ -1240,6 +1226,20 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "74371852|18|total=2.5|12"
+},
+{
+"t": "Sat 12:00",
+"game": "Gornik Leczna vs KS Hutnik Krakow SSA",
+"lg": "Poland - II Liga",
+"pick": "Over 2.5",
+"odds": 1.66,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, league avg 3.1 goals",
+"ts": 1794654000.0,
+"eid": "sr:match:72398810",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72398810|18|total=2.5|12"
 },
 {
 "t": "Sat 16:00",
@@ -1338,20 +1338,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "72740790|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Dumbarton FC vs Annan Athletic FC",
-"lg": "Scotland - League 2",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "Over 2.5 in 70% / 60% of the teams' last 10, 75% of 8 meetings, league avg 3.4 goals",
-"ts": 1794668400.0,
-"eid": "sr:match:72204334",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72204334|18|total=2.5|12"
 },
 {
 "t": "Sat 18:15",
