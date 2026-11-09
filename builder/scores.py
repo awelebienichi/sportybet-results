@@ -130,6 +130,16 @@ def verdict(leg, s):
         tot = h + a; over = oid == "12"
         if tot > line: return "W" if over else "L"
         return ("L" if over else "W") if fin else ""
+    if mid in ("19", "20"):                 # a team's own goals over/under
+        g = h if mid == "19" else a
+        if g > line: return "W" if oid == "12" else "L"
+        return ("L" if oid == "12" else "W") if fin else ""
+    if mid == "75":                         # 1st half GG: 74 yes / 76 no
+        x, y = ht if ht is not None else ((h, a) if s["st"] == "live" and s.get("det") == "12" else (None, None))
+        if x is None: return ""
+        both_scored = x > 0 and y > 0
+        if both_scored: return "W" if oid == "74" else "L"
+        return ("L" if oid == "74" else "W") if ht is not None else ""
     if mid in ("68", "69", "70"):           # 1st half totals: decided by the half-time score
         first_half_done = ht is not None or fin
         g = None

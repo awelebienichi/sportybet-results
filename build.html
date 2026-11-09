@@ -52,6 +52,7 @@
   <div class="card">
     <label for="type">Ticket type</label>
     <select id="type">
+      <option value="markets">✅ Choose markets (tick several)</option>
       <option value="mix">⭐ Safest market per game (mix)</option>
       <option value="best">⭐ Your tracker's best markets</option>
       <option value="gg">GG – both teams score</option>
@@ -71,6 +72,10 @@
       <div><label for="target">Target odds (optional)</label><input id="target" type="number" min="1.5" step="any" placeholder="e.g. 20" inputmode="decimal"></div>
       <div><label for="legs" id="legslabel">Legs per ticket</label><input id="legs" type="number" min="1" max="50" value="10" inputmode="numeric"></div>
       <div><label for="tickets">Tickets</label><input id="tickets" type="number" min="1" max="10" value="1" inputmode="numeric"></div>
+    </div>
+    <div id="bmkbox" style="display:none">
+      <label>Markets to use (tick one or more – each game gets the best of them)</label>
+      <div id="bmk" class="days"></div>
     </div>
     <label for="strict">How strict</label>
     <select id="strict">
@@ -141,7 +146,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {rollover:"Daily rollover", rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
+const names = {markets:"Chosen markets", rollover:"Daily rollover", rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -164,7 +169,11 @@ const syncLegsLabel = () => {
   if (t && +$("legs").value === 10) $("legs").value = 40;      // give the target room: low-priced safe legs need more of them
 };
 $("target").addEventListener("input", syncLegsLabel);
-const RMK = [["o15","Over 1.5"],["o25","Over 2.5"],["gg","GG"],["win","Win (favourite)"],["up","1UP"],["dc","Double chance"],["hgg","Home or GG"],["gb25","Goal bounds 2-5+"],["h1","1st half goal"],["h2","2nd half goal"],["h1dc","1st half double chance"],["htx","Half-time draw"]];
+const RMK = [["o15","Over 1.5"],["o25","Over 2.5"],["gg","GG"],["win","Win (favourite)"],["up","1UP"],["dc","Double chance"],["hgg","Home or GG"],["gb25","Goal bounds 2-5+"],["h1","1st half goal"],["h2","2nd half goal"],["h1dc","1st half double chance"],["htx","Half-time draw"],
+  ["wu25","Weaker team Under 2.5"],["h1u25","1st half Under 2.5"],["u35","Under 3.5"],["u45","Under 4.5"],["u55","Under 5.5"],["h1ggy","1st half GG – Yes"],["h1ggn","1st half GG – No"]];
+RMK.forEach(([v, t]) => { const l = document.createElement("label"); l.className = "day"; l.innerHTML = `<input type="checkbox" value="${v}"><b style="font-size:.85rem">${t}</b>`; $("bmk").appendChild(l); });
+const syncMk = () => { $("bmkbox").style.display = $("type").value === "markets" ? "" : "none"; };
+$("type").addEventListener("change", syncMk);
 RMK.forEach(([v, t]) => { const l = document.createElement("label"); l.className = "day"; l.innerHTML = `<input type="checkbox" value="${v}" checked><b style="font-size:.85rem">${t}</b>`; $("rmk").appendChild(l); });
 $("rall").onclick = () => document.querySelectorAll("#rmk input").forEach(x => x.checked = true);
 $("rnone").onclick = () => document.querySelectorAll("#rmk input").forEach(x => x.checked = false);
@@ -221,6 +230,7 @@ async function loadRollover() {
   } catch (e) { $("rostatus").textContent = "No rollover running yet."; }
 }
 loadRollover(); setInterval(() => { if (!document.hidden) loadRollover(); }, 120000);
+try { const saved = JSON.parse(localStorage.getItem("buildMk") || "[]"); document.querySelectorAll("#bmk input").forEach(x => x.checked = saved.includes(x.value)); } catch (e) {}
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");
@@ -229,10 +239,13 @@ try {
 $("go").onclick = async () => {
   const days = pickedDays();
   if (!days.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one day."; return; }
+  const mks = [...document.querySelectorAll("#bmk input:checked")].map(x => x.value);
+  if ($("type").value === "markets" && !mks.length) { $("msg").className = "err"; $("msg").textContent = "Tick at least one market."; return; }
   const target = +$("target").value || 0;
   const req = { type: $("type").value, legs: +$("legs").value || (target ? 40 : 10), tickets: +$("tickets").value || 1, days, strict: $("strict").value };
   if (target > 1) req.target = target;
-  try { localStorage.setItem("buildForm", JSON.stringify(req)); } catch (e) {}
+  if (req.type === "markets") req.markets = mks;
+  try { localStorage.setItem("buildForm", JSON.stringify(req)); localStorage.setItem("buildMk", JSON.stringify(mks)); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
@@ -291,10 +304,10 @@ function paintScores() {
     el.textContent = l ? `❌ lost (${l} leg${l > 1 ? "s" : ""})` : w === n ? "✅ WON" : `${w}/${n} won` + (live ? ` · ${live} live` : "");
   });
 }
-syncLegsLabel(); loadList(); loadScores();
+syncLegsLabel(); syncMk(); loadList(); loadScores();
 setInterval(() => { if (!document.hidden) loadList(); }, 60000);
 setInterval(() => { if (!document.hidden) loadScores(); }, 120000);
-document.addEventListener("visibilitychange", () => { if (!document.hidden) { syncLegsLabel(); loadList(); loadScores(); } });
+document.addEventListener("visibilitychange", () => { if (!document.hidden) { syncLegsLabel(); syncMk(); loadList(); loadScores(); } });
 </script>
 </body>
 </html>
