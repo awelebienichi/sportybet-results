@@ -1,5 +1,309 @@
 [
 {
+"when": "Mon 09 Nov 18:45",
+"req": {
+"type": "mix",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-09",
+"2026-11-10"
+],
+"strict": "normal"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [],
+"tickets": [
+{
+"code": "RSNFJY",
+"odds": 30.08,
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "Racing Club Montevideo vs CA River Plate (URU)",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Over 1.5",
+"odds": 1.26,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings",
+"ts": 1794250800.0,
+"eid": "sr:match:76458592",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76458592|18|total=1.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75802948|18|total=1.5|12"
+},
+{
+"t": "Mon 23:30",
+"game": "Sportivo Luqueno vs CS 2 de Mayo",
+"lg": "Paraguay - Division de Honor",
+"pick": "2nd half Over 0.5",
+"odds": 1.27,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794263400.0,
+"eid": "sr:match:73038652",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73038652|90|total=0.5|12"
+},
+{
+"t": "Tue 01:30",
+"game": "Club Aurora vs FC Universitario de Vinto",
+"lg": "Bolivia - Division Profesional",
+"pick": "1st half Over 0.5",
+"odds": 1.26,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794270600.0,
+"eid": "sr:match:75449088",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75449088|68|total=0.5|12"
+},
+{
+"t": "Tue 02:00",
+"game": "AD Rosario vs Pitbulls Santa Barbara FC",
+"lg": "Costa Rica - Liga de Ascenso",
+"pick": "AD Rosario or GG",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794272400.0,
+"eid": "sr:match:76409632",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "76409632|860||74"
+},
+{
+"t": "Tue 15:00",
+"game": "Colchester United U21 vs Charlton Athletic U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794319200.0,
+"eid": "sr:match:73601828",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73601828|68|total=0.5|12"
+},
+{
+"t": "Tue 18:45",
+"game": "Real Madrid W vs Paris FC W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794332700.0,
+"eid": "sr:match:74371836",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74371836|68|total=0.5|12"
+},
+{
+"t": "Tue 19:00",
+"game": "CA Tigre Reserve vs Velez Sarsfield Reserve",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Double chance Velez Sarsfield Reserve or draw",
+"odds": 1.13,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%",
+"ts": 1794333600.0,
+"eid": "sr:match:75133612",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "75133612|10||11"
+},
+{
+"t": "Tue 20:00",
+"game": "Barnet FC vs Leyton Orient London",
+"lg": "England - EFL Trophy",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794337200.0,
+"eid": "sr:match:73661456",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73661456|90|total=0.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Burton Albion vs Notts County",
+"lg": "England - EFL Trophy",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794337200.0,
+"eid": "sr:match:73661218",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73661218|90|total=0.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Leicester vs Walsall FC",
+"lg": "England - EFL Trophy",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794337200.0,
+"eid": "sr:match:73661276",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73661276|68|total=0.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Crewe Alexandra vs Wigan Athletic",
+"lg": "England - EFL Trophy",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794337200.0,
+"eid": "sr:match:73661542",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73661542|90|total=0.5|12"
+},
+{
+"t": "Tue 20:30",
+"game": "Bromley FC vs Milton Keynes Dons",
+"lg": "England - EFL Trophy",
+"pick": "1st half double chance Milton Keynes Dons or draw",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794339000.0,
+"eid": "sr:match:73661478",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73661478|63||11"
+},
+{
+"t": "Tue 20:45",
+"game": "Uxbridge FC vs Hanwell Town FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025152",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025152|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Darlington FC vs Oxford City",
+"lg": "England Amateur - National League North",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings; Flashscore home/away form 75%",
+"ts": 1794339900.0,
+"eid": "sr:match:76077312",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76077312|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Salisbury FC vs Braintree Town FC",
+"lg": "England Amateur - National League South",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"why": "stats rate 93% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:76122400",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76122400|68|total=0.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Sholing FC vs Chippenham Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings; Flashscore home/away form 90%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025150",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025150|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Evesham United vs Yate Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.22,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025142",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025142|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Leamington FC vs Bromsgrove Sporting",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings; Flashscore home/away form 80%",
+"ts": 1794339900.0,
+"eid": "sr:match:73022098",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73022098|18|total=1.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%, footybets 71%",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371842|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 18:39",
 "req": {
 "type": "markets",
@@ -9896,20 +10200,5 @@
 },
 "ok": false,
 "msg": "Only 1 game(s) pass the checks for 1st half Over 0.5 (Sun 08, Mon 09) out of 83 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Sun 08 Nov 23:54",
-"req": {
-"type": "h1o05",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09"
-],
-"strict": "strict"
-},
-"ok": false,
-"msg": "Only 1 game(s) pass the checks for 1st half Over 0.5 (Sun 08, Mon 09) out of 84 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
