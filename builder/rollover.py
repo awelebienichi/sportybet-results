@@ -197,8 +197,8 @@ def build_today(s, notify, force=False):
     if level == "strictest" and (not legs or prod < max(s.get("min_odds", 1.8), s["odds"] * .85)):
         legs2, prod2 = pick_safe(s["odds"], level="strong")     # strictest can't reach it today: use Strong for today only
         if legs2 and prod2 > prod:
-            legs, prod = legs2, prod2
             level_note = "Strictest checks only reached {:.2f} odds today, so today's ticket uses the Strong checks (both teams 80%+).\n".format(prod)
+            legs, prod = legs2, prod2
     short = not legs or prod < s["odds"] * .85
     lower_note = ""
     if short and s.get("short", "lower") == "lower" and legs and prod >= s.get("min_odds", 1.8):
