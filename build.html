@@ -86,6 +86,24 @@
   </div>
 
   <div class="card">
+    <strong>Daily rollover</strong>
+    <p class="meta" style="margin:4px 0 0">One safe ticket a day of about your target odds (fewest legs, strongest stats). A win rolls the whole return into tomorrow's stake; a loss starts again from your starting stake. Each day's code arrives as a notification at the time you set.</p>
+    <div id="rostatus" class="meta" style="margin:8px 0">Loading rollover…</div>
+    <div class="row">
+      <div><label for="rostake">Starting stake (₦)</label><input id="rostake" type="number" min="100" step="100" value="1000" inputmode="numeric"></div>
+      <div><label for="roodds">Odds a day</label><input id="roodds" type="number" min="1.5" max="20" step="0.5" value="4" inputmode="decimal"></div>
+      <div><label for="rohour">Ticket time</label><select id="rohour"></select></div>
+    </div>
+    <div class="row">
+      <div><button id="rostart" type="button">Start rollover</button></div>
+      <div><button id="ronow" type="button" style="background:transparent;color:var(--accent);border:1px solid var(--accent)">Today's ticket now</button></div>
+      <div><button id="rostop" type="button" style="background:transparent;color:var(--bad);border:1px solid var(--bad)">Stop</button></div>
+    </div>
+    <div id="romsg" aria-live="polite"></div>
+    <details id="rohist" style="margin-top:8px"><summary>History</summary><ol id="rolist" style="padding-left:18px"></ol></details>
+  </div>
+
+  <div class="card">
     <strong>Rebuild a code</strong>
     <p class="meta" style="margin:4px 0 0">Same games, new markets. Games that have started are left out. Each game gets the safest of the markets you tick; if you give target odds, the strongest games move to higher-priced markets until it gets there. It never backs the weaker team.</p>
     <div class="row">
@@ -117,7 +135,7 @@
 </main>
 <script>
 const REQ = "sportyreq-8b4fc11513";
-const names = {rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
+const names = {rollover:"Daily rollover", rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -170,6 +188,33 @@ $("cgo").onclick = async () => {
   } catch (e) { $("cmsg").className = "err"; $("cmsg").textContent = "Could not send. Check your internet and try again."; }
   setTimeout(() => $("cgo").disabled = false, 4000);
 };
+for (let i = 6; i <= 20; i++) { const o = document.createElement("option"); o.value = i; o.textContent = `${String(i).padStart(2, "0")}:00`; if (i === 10) o.selected = true; $("rohour").appendChild(o); }
+const naira = x => "₦" + Math.round(x).toLocaleString();
+async function roSend(req, msg) {
+  $("romsg").className = ""; $("romsg").textContent = "Sending…";
+  try { const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) }); if (!r.ok) throw 0; $("romsg").className = "ok"; $("romsg").textContent = msg; }
+  catch (e) { $("romsg").className = "err"; $("romsg").textContent = "Could not send. Check your internet and try again."; }
+}
+$("rostart").onclick = () => {
+  const stake = +$("rostake").value || 1000, odds = +$("roodds").value || 4, hour = +$("rohour").value;
+  if (!confirm(`Start a daily rollover: ${naira(stake)} at about ${odds} odds a day, ticket at ${String(hour).padStart(2, "0")}:00? This replaces any rollover already running.`)) return;
+  roSend({ type: "rollover_start", stake, odds, hour }, "Rollover started. Today's ticket arrives as a notification in about a minute.");
+};
+$("ronow").onclick = () => roSend({ type: "rollover_now" }, "Building today's rollover ticket – notification in about a minute.");
+$("rostop").onclick = () => { if (confirm("Stop the daily rollover?")) roSend({ type: "rollover_stop" }, "Rollover stopped."); };
+async function loadRollover() {
+  try {
+    const r = await fetch("builder/rollover.json?t=" + Date.now()); if (!r.ok) throw 0; const s = await r.json();
+    if (!s.active && !(s.history || []).length) { $("rostatus").textContent = "No rollover running yet."; return; }
+    const c = s.current || {};
+    const today = c.code ? ` · today's code <span class="code" style="font-size:1rem">${esc(c.code)}</span> (${c.odds} odds${c.result ? ", " + c.result : ", in play"})` : "";
+    $("rostatus").innerHTML = s.active
+      ? `<b>Running – day ${s.day}</b> · stake ${naira(s.stake)} (started with ${naira(s.start_stake)}) · about ${s.odds} odds daily at ${String(s.hour).padStart(2, "0")}:00${today}`
+      : `Stopped on day ${s.day || 1}.`;
+    $("rolist").innerHTML = (s.history || []).map(h => `<li>${esc(h.date)} day ${h.day}: ${esc(h.code)} · ${naira(h.stake)} @ ${h.odds} → ${h.result === "won" ? "✅ " + naira(h.returned) : "❌ lost"}</li>`).join("") || "<li>No finished days yet.</li>";
+  } catch (e) { $("rostatus").textContent = "No rollover running yet."; }
+}
+loadRollover(); setInterval(() => { if (!document.hidden) loadRollover(); }, 120000);
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
   const s = JSON.parse(localStorage.getItem("buildForm") || "{}");

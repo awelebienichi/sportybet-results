@@ -33,6 +33,11 @@ def handle(msgs, state):
         try: req = json.loads(m.get("message", "{}"))
         except Exception: continue
         if time.time() - m.get("time", time.time()) > 3 * 3600: continue        # stale request
+        if str(req.get("type", "")).startswith("rollover"):
+            import rollover
+            try: rollover.handle(req, notify)
+            except Exception as e: notify("Rollover error", str(e), "default", "warning")
+            continue
         print("building", req, flush=True); t0 = time.time()
         try: res = phonebuild.main(req)
         except Exception as e: res = dict(ok=False, msg=f"Builder error: {e}")
@@ -58,7 +63,7 @@ def handle(msgs, state):
 def save():
     """commit the new codes (tracker + builds list) so the website and the Mac see them"""
     g = lambda *a: subprocess.run(["git", "-C", SITE, *a], capture_output=True, text=True)
-    g("add", "builder/state.json", "builder/builds.json", "tracker/tracker.json")
+    g("add", "builder/state.json", "builder/builds.json", "tracker/tracker.json", "builder/rollover.json")
     if g("diff", "--cached", "--quiet").returncode == 0: return
     g("commit", "-qm", "Phone tickets " + dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"))
     for i in range(5):

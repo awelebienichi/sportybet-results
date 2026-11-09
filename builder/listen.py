@@ -37,6 +37,8 @@ while time.time() < END:
         if ms:
             with LOCK: poll.handle(ms, state)
             poll.save()
+        import rollover
+        if rollover.tick(poll.notify, LOCK): poll.save()
     except Exception: traceback.print_exc()
     time.sleep(6)
 print("listener run finished; the next queued run takes over", flush=True)

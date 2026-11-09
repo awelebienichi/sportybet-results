@@ -130,7 +130,7 @@ def pick_fav(G, LX, smallest=False):
         s = c["fw"]*.35 + c["vw"]*.2 + c["ol"]*.15 + (1-c["fl"])*.1 + min(c["gd"], 3)/3*.1 + (hw if len(hh) >= 3 else c["fw"])*.1
         g = c["g"]; team = g["h"] if c["side"] == "home" else g["a"]
         out.append(dict(eid=g["eid"], mid="1", spec="", oid=c["oid"], pick=f"{team} to win", odds=c["od"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
-                        s=-c["od"] if smallest else s, why=f"won {c['fw']:.0%} lost {c['fl']:.0%} of last 10, rival lost {c['ol']:.0%}" + (f", won {hw:.0%} of {len(hh)} meetings" if len(hh) >= 3 else "")))
+                        rate=(c["fw"] + c["ol"] + c["vw"]) / 3, s=-c["od"] if smallest else s, why=f"won {c['fw']:.0%} lost {c['fl']:.0%} of last 10, rival lost {c['ol']:.0%}" + (f", won {hw:.0%} of {len(hh)} meetings" if len(hh) >= 3 else "")))
     return sorted(out, key=lambda r: -r["s"])
 
 def league_stats(G, LX):
@@ -326,7 +326,7 @@ def pick_multi(G, LX, kind, want):
             opts.append((R[k] - od * .015, R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = MK[k]
-        out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=sc,
+        out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=sc, rate=r,
                         why=f"stats rate {r:.0%} from both teams' last 10" + (f" and {len(hh)} meetings" if len(hh) >= 3 and mid in ("1", "10", "18", "29", "860", "450001") else "")))
     return sorted(out, key=lambda r: -r["s"])
 
