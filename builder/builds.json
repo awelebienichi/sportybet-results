@@ -1,5 +1,26 @@
 [
 {
+"when": "Mon 09 Nov 15:14",
+"req": {
+"type": "mix",
+"legs": 45,
+"tickets": 1,
+"days": [
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "relaxed",
+"target": 500000
+},
+"ok": false,
+"msg": "Could not reach 500000 odds with 45 legs or fewer from the 118 games that pass the checks for safest market per game (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15). Allow more legs or a lower target."
+},
+{
 "when": "Mon 09 Nov 14:42",
 "req": {
 "type": "rebuild",
@@ -6946,24 +6967,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 22:55",
-"req": {
-"type": "htdraw",
-"legs": 11,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14"
-]
-},
-"ok": false,
-"msg": "Only 3 games pass the checks for half-time draw (Sun 08, Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14). Not enough for 11 legs. Ask for 3 legs or fewer."
 }
 ]
