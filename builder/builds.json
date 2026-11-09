@@ -1,5 +1,168 @@
 [
 {
+"when": "Mon 09 Nov 17:16",
+"req": {
+"type": "mix",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-09"
+],
+"strict": "normal"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [],
+"tickets": [
+{
+"code": "XTN5S0",
+"odds": 4.49,
+"legs": [
+{
+"t": "Mon 18:00",
+"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
+"lg": "Israel - National League",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings; Flashscore home/away form 80%",
+"ts": 1794243600.0,
+"eid": "sr:match:75661174",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75661174|18|total=1.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 98%",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76509750|18|total=1.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Atletico Madrid W vs FC Badalona Women",
+"lg": "Spain - Primera Division Women",
+"pick": "1st half double chance Atletico Madrid W or draw",
+"odds": 1.08,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794247200.0,
+"eid": "sr:match:72491426",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72491426|63||9"
+},
+{
+"t": "Mon 19:00",
+"game": "Mushuc Runa SC vs Delfin SC",
+"lg": "Ecuador - LigaPro Primera A",
+"pick": "1st half double chance Mushuc Runa SC or draw",
+"odds": 1.14,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794247200.0,
+"eid": "sr:match:74735328",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74735328|63||9"
+},
+{
+"t": "Mon 20:00",
+"game": "Racing Club Montevideo vs CA River Plate (URU)",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings",
+"ts": 1794250800.0,
+"eid": "sr:match:76458592",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76458592|18|total=1.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Middlesbrough U21 vs Derby County U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Middlesbrough U21 or GG",
+"odds": 1.09,
+"why": "stats rate 88% from both teams' last 10 and 7 meetings; Flashscore home/away form 90%",
+"ts": 1794250800.0,
+"eid": "sr:match:73603148",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "73603148|860||74"
+},
+{
+"t": "Mon 20:00",
+"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 82%",
+"ts": 1794250800.0,
+"eid": "sr:match:75153534",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75153534|18|total=1.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75802948|18|total=1.5|12"
+},
+{
+"t": "Mon 21:00",
+"game": "RC Deportivo De La Coruna vs Valencia CF",
+"lg": "Spain - Primera Division Women",
+"pick": "Over 1.5",
+"odds": 1.26,
+"why": "stats rate 86% from both teams' last 10 and 6 meetings; Flashscore home/away form 70%",
+"ts": 1794254400.0,
+"eid": "sr:match:72491430",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72491430|18|total=1.5|12"
+},
+{
+"t": "Mon 23:30",
+"game": "Sportivo Luqueno vs CS 2 de Mayo",
+"lg": "Paraguay - Division de Honor",
+"pick": "2nd half Over 0.5",
+"odds": 1.27,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794263400.0,
+"eid": "sr:match:73038652",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73038652|90|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 16:10",
 "req": {
 "type": "h1o05",
@@ -9331,19 +9494,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sun 08 Nov 23:42",
-"req": {
-"type": "h1o05",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-08"
-],
-"strict": "normal"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for 1st half Over 0.5 (Sun 08) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
