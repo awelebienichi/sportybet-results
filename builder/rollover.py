@@ -43,11 +43,37 @@ def team_rates(leg, g, LX):
     if mid == "860": return f(H, lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["ga"] > 0)), f(A, lambda m: m["gf"] < m["ga"] or (m["gf"] > 0 and m["ga"] > 0))
     if mid == "68": c = lambda m: m["h1f"] + m["h1a"] > 0; return f1(H1, c), f1(A1, c)
     if mid == "90": c = lambda m: m["h2f"] + m["h2a"] > 0; return f1(H1, c), f1(A1, c)
+    if mid in ("69", "70", "91", "92"):          # a team to score in a half: that team scores, and the rival concedes, in that half
+        k = "h1" if mid in ("69", "70") else "h2"
+        home_side = mid in ("69", "91")
+        T, O = (H1, A1) if home_side else (A1, H1)
+        return f1(T, lambda m: m[k + "f"] > 0), f1(O, lambda m: m[k + "a"] > 0)
     if mid == "63": return (f1(H1, lambda m: m["h1f"] >= m["h1a"]), f1(A1, lambda m: m["h1f"] <= m["h1a"])) if oid == "9" else (f1(H1, lambda m: m["h1f"] <= m["h1a"]), f1(A1, lambda m: m["h1f"] >= m["h1a"]))
     if mid in ("1", "60200"):
         return (f(H, lambda m: m["gf"] > m["ga"]), f(A, lambda m: m["gf"] < m["ga"])) if oid == "1" else (f(A, lambda m: m["gf"] > m["ga"]), f(H, lambda m: m["gf"] < m["ga"]))
     if mid == "10" and oid == "11": return f(H, lambda m: m["gf"] <= m["ga"]), f(A, lambda m: m["gf"] >= m["ga"])
     return None
+
+def h2h_halves(h, a):
+    """meetings with half-time and full-time scores, from today's home side: (h1 home, h1 away, ft home, ft away)"""
+    d = phonebuild.get(f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/stats_team_versusrecent/{h}/{a}", "https://www.sportybet.com/")
+    out = []
+    try:
+        for m in d["doc"][0]["data"]["matches"][:10]:
+            p = (m.get("periods") or {}).get("p1"); r = m.get("result") or {}
+            if not p or r.get("home") is None: continue
+            hh = m["teams"]["home"]["uid"] == int(h)
+            out.append((p["home"], p["away"], r["home"], r["away"]) if hh else (p["away"], p["home"], r["away"], r["home"]))
+    except Exception: pass
+    return out
+
+def h2h_half_rate(leg, HH):
+    if len(HH) < 3: return None
+    mid, oid = leg["mid"], leg["oid"]
+    c = {"68": lambda a, b, x, y: a + b > 0, "90": lambda a, b, x, y: (x - a) + (y - b) > 0,
+         "69": lambda a, b, x, y: a > 0, "70": lambda a, b, x, y: b > 0, "91": lambda a, b, x, y: x - a > 0, "92": lambda a, b, x, y: y - b > 0,
+         "63": (lambda a, b, x, y: a >= b) if oid == "9" else (lambda a, b, x, y: b >= a)}.get(mid)
+    return sum(1 for z in HH if c(*z)) / len(HH) if c else None
 
 def h2h_rate(leg, hh):
     if len(hh) < 3: return None
@@ -60,14 +86,15 @@ def h2h_rate(leg, hh):
     if mid == "10" and oid == "11": c = lambda a, b: b >= a
     return sum(1 for x in hh if c(*x)) / len(hh) if c else None
 
-def pick_safe(target):  # noqa: the strictest picker
+def pick_safe(target, lo=None, hi=None):  # noqa: the strictest picker
     """the strictest picker on the builder: each leg needs BOTH teams at 85%+ for the pick in their own last 10, at least one
     more source agreeing (head-to-head 75%+, Flashscore home/away form 80%+, or a footybets tip) and nothing against it"""
     now = time.time(); end = dt.datetime.combine(dt.datetime.now(LAGOS).date(), dt.time(23, 59), LAGOS).timestamp()
     phonebuild.ST["L"] = -0.05                      # underlying pickers stricter than "strict"
-    G = phonebuild.games_cached(now + 45 * 60, end)
+    G = phonebuild.games_cached(lo or now + 45 * 60, hi or end)
     LX = phonebuild.fetch_teams(G)
-    C = phonebuild.pick_multi(G, LX, "mix", 30) + phonebuild.pick_fav(G, LX)
+    C = (phonebuild.pick_multi(G, LX, "mix", 30) + phonebuild.pick_fav(G, LX) + phonebuild.pick_goals(G, LX, "o25") + phonebuild.pick_goals(G, LX, "o15")
+         + phonebuild.pick_fav1h(G, LX) + phonebuild.pick_fav1h(G, LX, 2) + phonebuild.pick_h1o05(G, LX) + phonebuild.pick_h1o05(G, LX, 2))
     phonebuild.ST["L"] = 0.1
     GM = {g["eid"]: g for g in G}
     try:
@@ -81,7 +108,9 @@ def pick_safe(target):  # noqa: the strictest picker
         if not tr or None in tr or min(tr) < .85: continue
         c["tr"] = tr; pre.append(c)
     def sources(c):
-        g = GM[c["eid"]]; hh = phonebuild.h2h(g["hid"], g["aid"]); hr = h2h_rate(c, hh)
+        g = GM[c["eid"]]
+        if c["mid"] in ("68", "90", "69", "70", "91", "92", "63"): hr = h2h_half_rate(c, h2h_halves(g["hid"], g["aid"]))
+        else: hr = h2h_rate(c, phonebuild.h2h(g["hid"], g["aid"]))
         fr = sup = None; bad = False
         if extra:
             try:
@@ -129,10 +158,10 @@ def build_today(s, notify, force=False):
     legs, prod = pick_safe(s["odds"])
     short = not legs or prod < s["odds"] * .85
     lower_note = ""
-    if short and s.get("short", "lower") == "lower" and legs and prod >= 1.5:
+    if short and s.get("short", "lower") == "lower" and legs and prod >= 2.5:
         short = False; lower_note = f"Only {prod:.2f} odds today: not enough games passed the strict rollover checks to reach {s['odds']:g}.\n"
     if short:
-        notify("Rollover: no safe ticket today", f"Not enough games passed the strict rollover checks today ({prod:.2f} odds possible, minimum 1.5" + (f", your target {s['odds']:g}" if s.get("short") == "skip" else "") + f"). The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
+        notify("Rollover: no safe ticket today", f"Not enough games passed the strict rollover checks today ({prod:.2f} odds possible, minimum 2.5" + (f", your target {s['odds']:g}" if s.get("short") == "skip" else "") + f"). The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
         s["current"] = {"date": today(), "code": None, "result": "skip"}; save(s); return
     res = phonebuild.finish([legs], "rollover", {"rollover": f"daily rollover day {s['day']}"}, [], {"type": "rollover"})
     if not res.get("ok"):
