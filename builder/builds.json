@@ -1,5 +1,77 @@
 [
 {
+"when": "Mon 09 Nov 21:07",
+"req": {
+"type": "o25yw",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-09",
+"2026-11-10",
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"note": [
+"Only 3 games passed the checks (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, 316 games on SportyBet), so this ticket has 3 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "MZRHS0",
+"odds": 2.06,
+"legs": [
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "strong side AS Roma W (win 1.22) scores 2.5 a game, 80% of its games over 2.5; Servette Geneva W concedes 2.2 a game; Flashscore home/away form 80%",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371842|18|total=2.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "strong side Olympique Lyon W (win 1.14) scores 5.5 a game, 90% of its games over 2.5; Juventus Turin W concedes 2.1 a game; 71% of 7 meetings over",
+"ts": 1794427200.0,
+"eid": "sr:match:74371852",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371852|18|total=2.5|12"
+},
+{
+"t": "Thu 18:45",
+"game": "FC Barcelona W vs Arsenal WFC",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "strong side FC Barcelona W (win 1.22) scores 4.7 a game, 90% of its games over 2.5; Arsenal WFC concedes 1.2 a game; 80% of 5 meetings over",
+"ts": 1794505500.0,
+"eid": "sr:match:74371846",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371846|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Mon 09 Nov 20:48",
 "req": {
 "type": "rebuild",
@@ -12770,379 +12842,6 @@
 "spec": "total=0.5",
 "oid": "12",
 "k": "73038652|90|total=0.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 01:54",
-"req": {
-"type": "best",
-"legs": 25,
-"tickets": 1,
-"days": [
-"2026-11-09"
-],
-"strict": "relaxed"
-},
-"ok": true,
-"kind": "your tracker's best markets",
-"note": [],
-"tickets": [
-{
-"code": "QRSDQ0",
-"odds": 46.16,
-"legs": [
-{
-"t": "Mon 02:30",
-"game": "Universitario de Deportes vs CD Moquegua",
-"lg": "Peru - Liga 1",
-"pick": "Universitario de Deportes or GG",
-"odds": 1.06,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794187800.0,
-"eid": "sr:match:71936242",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "71936242|860||74"
-},
-{
-"t": "Mon 03:10",
-"game": "Club Leon vs CD Guadalajara",
-"lg": "Mexico - Liga MX",
-"pick": "Goal bounds 2-5+",
-"odds": 1.19,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, footybets 98%",
-"ts": 1794190200.0,
-"eid": "sr:match:72055314",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72055314|450001||25"
-},
-{
-"t": "Mon 14:00",
-"game": "Coventry City U21 vs Queens Park Rangers U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Goal bounds 2-5+",
-"odds": 1.06,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings",
-"ts": 1794229200.0,
-"eid": "sr:match:73601820",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73601820|450001||25"
-},
-{
-"t": "Mon 16:00",
-"game": "SFC Etar Veliko Tarnovo vs PFC Montana 1921",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
-"ts": 1794236400.0,
-"eid": "sr:match:72466622",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72466622|450001||25"
-},
-{
-"t": "Mon 16:30",
-"game": "FC Fratria Varna vs PFK Sportist Svoge",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "1st half double chance FC Fratria Varna or draw",
-"odds": 1.1,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794238200.0,
-"eid": "sr:match:72466618",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72466618|63||9"
-},
-{
-"t": "Mon 17:00",
-"game": "MFK Tatran Liptovsky Mikulas vs MFk Bytca",
-"lg": "Slovakia - 2. Liga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794240000.0,
-"eid": "sr:match:76146334",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76146334|450001||25"
-},
-{
-"t": "Mon 17:00",
-"game": "FC Iberia 1999 vs FC Gagra",
-"lg": "Georgia - Erovnuli Liga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.22,
-"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
-"ts": 1794240000.0,
-"eid": "sr:match:75674346",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75674346|450001||25"
-},
-{
-"t": "Mon 18:00",
-"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
-"lg": "Israel - National League",
-"pick": "Goal bounds 2-5+",
-"odds": 1.19,
-"why": "stats rate 96% from both teams' last 10 and 4 meetings; Flashscore home/away form 80%",
-"ts": 1794243600.0,
-"eid": "sr:match:75661174",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75661174|450001||25"
-},
-{
-"t": "Mon 18:00",
-"game": "Central Espanol Reserve vs Montevideo Wanderers",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794243600.0,
-"eid": "sr:match:76458602",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76458602|450001||25"
-},
-{
-"t": "Mon 18:00",
-"game": "FK Javor Ivanjica vs Backa Topola",
-"lg": "Serbia - Prva Liga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.25,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings",
-"ts": 1794243600.0,
-"eid": "sr:match:72121006",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72121006|450001||25"
-},
-{
-"t": "Mon 19:00",
-"game": "Kristiansund BK vs Vaalerenga IF",
-"lg": "Norway - Eliteserien",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 98%",
-"ts": 1794247200.0,
-"eid": "sr:match:76509750",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76509750|450001||25"
-},
-{
-"t": "Mon 19:00",
-"game": "Atletico Madrid W vs FC Badalona Women",
-"lg": "Spain - Primera Division Women",
-"pick": "1st half double chance Atletico Madrid W or draw",
-"odds": 1.12,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794247200.0,
-"eid": "sr:match:72491426",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72491426|63||9"
-},
-{
-"t": "Mon 19:00",
-"game": "Mushuc Runa SC vs Delfin SC",
-"lg": "Ecuador - LigaPro Primera A",
-"pick": "1st half double chance Mushuc Runa SC or draw",
-"odds": 1.15,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794247200.0,
-"eid": "sr:match:74735328",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "74735328|63||9"
-},
-{
-"t": "Mon 20:00",
-"game": "Racing Club Montevideo vs CA River Plate (URU)",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "Goal bounds 2-5+",
-"odds": 1.19,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:76458592",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76458592|450001||25"
-},
-{
-"t": "Mon 20:00",
-"game": "Middlesbrough U21 vs Derby County U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Middlesbrough U21 or GG",
-"odds": 1.09,
-"why": "stats rate 88% from both teams' last 10 and 7 meetings; Flashscore home/away form 90%",
-"ts": 1794250800.0,
-"eid": "sr:match:73603148",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "73603148|860||74"
-},
-{
-"t": "Mon 20:00",
-"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 82%",
-"ts": 1794250800.0,
-"eid": "sr:match:75153534",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75153534|450001||25"
-},
-{
-"t": "Mon 20:00",
-"game": "Penarol Montevideo vs Juventud de Las Piedras",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"why": "stats rate 83% from both teams' last 10 and 3 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:76458596",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76458596|450001||25"
-},
-{
-"t": "Mon 20:00",
-"game": "Torque vs Boston River",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "stats rate 83% from both teams' last 10 and 3 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:76458598",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76458598|450001||25"
-},
-{
-"t": "Mon 20:30",
-"game": "Plymouth Parkway vs Berkhamsted FC",
-"lg": "England - FA Cup",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
-"ts": 1794252600.0,
-"eid": "sr:match:75802948",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75802948|450001||25"
-},
-{
-"t": "Mon 20:30",
-"game": "CE Sabadell FC vs Real Sociedad San Sebastian B",
-"lg": "Spain - LaLiga 2",
-"pick": "CE Sabadell FC or GG",
-"odds": 1.19,
-"why": "stats rate 82% from both teams' last 10 and 4 meetings; Flashscore home/away form 85%, footybets 77%",
-"ts": 1794252600.0,
-"eid": "sr:match:72477578",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "72477578|860||74"
-},
-{
-"t": "Mon 20:30",
-"game": "ASD Pineto Calcio vs Vis Pesaro 1898",
-"lg": "Italy - Serie C, Group B",
-"pick": "Goal bounds 2-5+",
-"odds": 1.26,
-"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%",
-"ts": 1794252600.0,
-"eid": "sr:match:73294070",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73294070|450001||25"
-},
-{
-"t": "Mon 21:00",
-"game": "Universitario de Deportes vs FC Melgar",
-"lg": "Peru - Liga Femenina",
-"pick": "Goal bounds 2-5+",
-"odds": 1.09,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings",
-"ts": 1794254400.0,
-"eid": "sr:match:76090266",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76090266|450001||25"
-},
-{
-"t": "Mon 21:00",
-"game": "RC Deportivo De La Coruna vs Valencia CF",
-"lg": "Spain - Primera Division Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.32,
-"why": "stats rate 86% from both teams' last 10 and 6 meetings",
-"ts": 1794254400.0,
-"eid": "sr:match:72491430",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72491430|450001||25"
-},
-{
-"t": "Mon 21:15",
-"game": "SCU Torreense vs UD Leiria",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "1st half double chance SCU Torreense or draw",
-"odds": 1.25,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794255300.0,
-"eid": "sr:match:72531662",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72531662|63||9"
-},
-{
-"t": "Mon 21:30",
-"game": "Independiente Valle Del Cauca vs Union Magdalena",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "Goal bounds 2-5+",
-"odds": 1.41,
-"why": "stats rate 82% from both teams' last 10 and 3 meetings; Flashscore home/away form 65%",
-"ts": 1794256200.0,
-"eid": "sr:match:76174024",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76174024|450001||25"
 }
 ]
 }
