@@ -2,7 +2,7 @@
 """Daily rollover: one safe ticket of about the target odds each day (few legs, strongest stats), settled from the live
 scores; a win rolls the whole return into the next day's stake, a loss starts again from the starting stake.
 State lives in rollover.json (committed with the other builder files, shown on build.html)."""
-import json, math, os, sys, time, subprocess, datetime as dt
+import json, math, os, sys, time, subprocess, collections, datetime as dt
 HERE = os.path.dirname(os.path.abspath(__file__)); SITE = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import phonebuild
@@ -102,10 +102,28 @@ def pick_safe(target, lo=None, hi=None):  # noqa: the strictest picker
         import extra, scores
         scores.day_list(False)
     except Exception: extra = None
+    # league numbers from every team playing in this window: goals a game and how often each goal pick lands
+    LG = collections.defaultdict(dict)
+    for g in G:
+        for t in (g["hid"], g["aid"]):
+            for m in LX.get(t, []): LG[g["lg"]][m["id"]] = m
+    def league_ok(c, g):
+        M = list(LG[g["lg"]].values())
+        if len(M) < 20: return True                       # too little league data to judge: team checks decide
+        avg = sum(m["gf"] + m["ga"] for m in M) / len(M)
+        if avg < 2.5: return False                        # low-scoring league: no goal picks in the rollover
+        tr = team_rates(c, g, {g["hid"]: M, g["aid"]: M})
+        return tr is None or None in tr or min(tr) >= .8
+    GOAL = {"18", "29", "450001", "68", "90", "69", "70", "91", "92", "860"}
     pre = []
     for c in C:
         if c["odds"] < 1.12 or c["eid"] not in GM: continue
-        tr = team_rates(c, GM[c["eid"]], LX)
+        g = GM[c["eid"]]
+        if c["mid"] in GOAL:
+            H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+            if not H or not A or min(sum(m["gf"] + m["ga"] for m in H) / len(H), sum(m["gf"] + m["ga"] for m in A) / len(A)) < 2.5: continue   # a low-scoring team: out
+            if not league_ok(c, g): continue
+        tr = team_rates(c, g, LX)
         if not tr or None in tr or min(tr) < .85: continue
         c["tr"] = tr; pre.append(c)
     def sources(c):

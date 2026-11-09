@@ -56,7 +56,8 @@ def match_fid(leg):
     h, a = leg["game"].split(" vs ", 1); best = None
     for r in rows:
         if abs(r["t"] - leg["ts"]) > 50 * 60: continue
-        s = min(sim(h, r["h"]), sim(a, r["a"]))
+        s1, s2 = sim(h, r["h"]), sim(a, r["a"]); s = min(s1, s2)
+        if s < 0.72 and max(s1, s2) >= 0.9 and abs(r["t"] - leg["ts"]) <= 10 * 60: s = 0.73   # short names ("QPR U21", "Oss"): one side exact + same kick-off
         if s >= 0.72 and (best is None or s > best[0]): best = (s, r["id"])
     _fid[leg["k"]] = best[1] if best else None
     return _fid[leg["k"]]
