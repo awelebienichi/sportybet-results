@@ -8,14 +8,14 @@
 "day": 1,
 "current": {
 "date": "2026-11-09",
-"code": "Q4Z6YX",
-"odds": 4.05,
+"code": "K6PZLS",
+"odds": 4.21,
 "stake": 1000.0,
-"n": 6,
+"n": 7,
 "result": null
 },
 "started": "2026-11-09",
-"short": "lower",
+"short": "skip",
 "min_odds": 1.8,
-"level": "strong"
+"level": "strictest"
 }
