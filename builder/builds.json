@@ -10,6 +10,323 @@
 "2026-11-10"
 ],
 "strict": "strict",
+"markets": [
+"o15",
+"o25",
+"wu25",
+"h1u25",
+"u35",
+"u45",
+"u55",
+"h1ggn",
+"xg",
+"xgt",
+"xg1"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "ZAF0ZL",
+"odds": 10.99,
+"legs": [
+{
+"t": "Mon 19:00",
+"game": "Kristiansund BK vs Vaalerenga IF",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 98%",
+"ts": 1794247200.0,
+"eid": "sr:match:76509750",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76509750|18|total=1.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Middlesbrough U21 vs Derby County U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Excluded goals: 2",
+"odds": 1.15,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings",
+"ts": 1794250800.0,
+"eid": "sr:match:73603148",
+"mid": "450004",
+"spec": "",
+"oid": "2",
+"k": "73603148|450004||2"
+},
+{
+"t": "Mon 20:00",
+"game": "La Luz FC Reserves vs Albion FC",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Excluded goals: 2",
+"odds": 1.25,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings",
+"ts": 1794250800.0,
+"eid": "sr:match:76458604",
+"mid": "450004",
+"spec": "",
+"oid": "2",
+"k": "76458604|450004||2"
+},
+{
+"t": "Mon 20:30",
+"game": "Plymouth Parkway vs Berkhamsted FC",
+"lg": "England - FA Cup",
+"pick": "Under 5.5",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794252600.0,
+"eid": "sr:match:75802948",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "75802948|18|total=5.5|13"
+},
+{
+"t": "Mon 20:45",
+"game": "Chelmsford City vs Ebbsfleet United FC",
+"lg": "England Amateur - National League South",
+"pick": "1st half GG \u2013 No",
+"odds": 1.25,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1794253500.0,
+"eid": "sr:match:75018348",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75018348|75||76"
+},
+{
+"t": "Mon 21:30",
+"game": "Independiente Valle Del Cauca vs Union Magdalena",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Excluded goals: 0",
+"odds": 1.08,
+"why": "stats rate 100% from both teams' last 10 and 3 meetings",
+"ts": 1794256200.0,
+"eid": "sr:match:76174024",
+"mid": "450004",
+"spec": "",
+"oid": "0",
+"k": "76174024|450004||0"
+},
+{
+"t": "Tue 15:00",
+"game": "Colchester United U21 vs Charlton Athletic U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Excluded goals: 2",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1794319200.0,
+"eid": "sr:match:73601828",
+"mid": "450004",
+"spec": "",
+"oid": "2",
+"k": "73601828|450004||2"
+},
+{
+"t": "Tue 16:00",
+"game": "Al Mokawloon Al Arab vs We SC",
+"lg": "Egypt - Egypt Cup",
+"pick": "Excluded goals: 0",
+"odds": 1.07,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings",
+"ts": 1794322800.0,
+"eid": "sr:match:76079156",
+"mid": "450004",
+"spec": "",
+"oid": "0",
+"k": "76079156|450004||0"
+},
+{
+"t": "Tue 18:30",
+"game": "AFC Metalul Buzau vs Csa Steaua Bucuresti",
+"lg": "Romania - Liga 2",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10 and 3 meetings",
+"ts": 1794331800.0,
+"eid": "sr:match:76121460",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76121460|810002||3"
+},
+{
+"t": "Tue 19:00",
+"game": "Estudiantes de LP Reserve vs San Martin de San Juan Reserve",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Excluded goals: 3",
+"odds": 1.22,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794333600.0,
+"eid": "sr:match:75133606",
+"mid": "450004",
+"spec": "",
+"oid": "3",
+"k": "75133606|450004||3"
+},
+{
+"t": "Tue 19:00",
+"game": "Gimnasia de Mendoza Reserve vs CA Aldosivi Reserve",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Excluded goals: 5+",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794333600.0,
+"eid": "sr:match:75133608",
+"mid": "450004",
+"spec": "",
+"oid": "5",
+"k": "75133608|450004||5"
+},
+{
+"t": "Tue 20:00",
+"game": "Bristol Rovers vs Reading FC",
+"lg": "England - EFL Trophy",
+"pick": "Bristol Rovers Under 2.5 goals",
+"odds": 1.12,
+"why": "stats rate 100% from both teams' last 10 and 7 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661290",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73661290|19|total=2.5|13"
+},
+{
+"t": "Tue 20:00",
+"game": "Leicester vs Walsall FC",
+"lg": "England - EFL Trophy",
+"pick": "Excluded goals: 1",
+"odds": 1.07,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661276",
+"mid": "450004",
+"spec": "",
+"oid": "1",
+"k": "73661276|450004||1"
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Three Bridges",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Excluded goals: 1",
+"odds": 1.1,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:75232648",
+"mid": "450004",
+"spec": "",
+"oid": "1",
+"k": "75232648|450004||1"
+},
+{
+"t": "Tue 20:45",
+"game": "Anstey Nomads vs Kettering Town",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Kettering Town excluded goals: 0",
+"odds": 1.25,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:73022094",
+"mid": "450006",
+"spec": "",
+"oid": "0",
+"k": "73022094|450006||0"
+},
+{
+"t": "Tue 20:45",
+"game": "Darlington FC vs Oxford City",
+"lg": "England Amateur - National League North",
+"pick": "Oxford City excluded goals: 0",
+"odds": 1.14,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings",
+"ts": 1794339900.0,
+"eid": "sr:match:76077312",
+"mid": "450006",
+"spec": "",
+"oid": "0",
+"k": "76077312|450006||0"
+},
+{
+"t": "Tue 20:45",
+"game": "Sholing FC vs Chippenham Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Excluded goals: 4",
+"odds": 1.15,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings",
+"ts": 1794339900.0,
+"eid": "sr:match:73025150",
+"mid": "450004",
+"spec": "",
+"oid": "4",
+"k": "73025150|450004||4"
+},
+{
+"t": "Tue 20:45",
+"game": "Chertsey Town vs Chichester City FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Excluded goals: 1",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:73025140",
+"mid": "450004",
+"spec": "",
+"oid": "1",
+"k": "73025140|450004||1"
+},
+{
+"t": "Tue 20:45",
+"game": "Uxbridge FC vs Hanwell Town FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Excluded goals: 1",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:73025152",
+"mid": "450004",
+"spec": "",
+"oid": "1",
+"k": "73025152|450004||1"
+},
+{
+"t": "Tue 21:30",
+"game": "Envigado FC vs Boca Juniors de Cali",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Excluded goals: 0",
+"odds": 1.06,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings",
+"ts": 1794342600.0,
+"eid": "sr:match:76174026",
+"mid": "450004",
+"spec": "",
+"oid": "0",
+"k": "76174026|450004||0"
+}
+]
+}
+]
+},
+{
+"when": "Mon 09 Nov 18:36",
+"req": {
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-09",
+"2026-11-10"
+],
+"strict": "strict",
 "target": 50000,
 "markets": [
 "o15",
@@ -9289,57 +9606,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for strong team to score in the 1st half (Sun 08, Mon 09) out of 84 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Sun 08 Nov 23:53",
-"req": {
-"type": "smallfav",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-08",
-"2026-11-09"
-],
-"strict": "strict"
-},
-"ok": true,
-"kind": "smallest-odds favourites to win",
-"note": [],
-"tickets": [
-{
-"code": "S0LR59",
-"odds": 2.11,
-"legs": [
-{
-"t": "Mon 13:00",
-"game": "KF Ferizaj vs FC Suhareka",
-"lg": "Kosovo - Liga e Pare",
-"pick": "KF Ferizaj to win",
-"odds": 1.37,
-"why": "won 60% lost 0% of last 10, rival lost 40%, won 50% of 4 meetings; Flashscore home/away form 55%",
-"ts": 1794225600.0,
-"eid": "sr:match:76480650",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "76480650|1||1"
-},
-{
-"t": "Mon 13:55",
-"game": "AL Ain FC vs AL Wahda FC",
-"lg": "United Arab Emirates - U23 Pro League",
-"pick": "AL Ain FC to win",
-"odds": 1.54,
-"why": "won 90% lost 0% of last 10, rival lost 30%; Flashscore home/away form 65%",
-"ts": 1794228900.0,
-"eid": "sr:match:75186204",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75186204|1||1"
-}
-]
-}
-]
 }
 ]
