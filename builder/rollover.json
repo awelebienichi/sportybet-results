@@ -8,8 +8,11 @@
 "day": 1,
 "current": {
 "date": "2026-11-09",
-"code": null,
-"result": "skip"
+"code": "N83SKU",
+"odds": 4.18,
+"stake": 1000.0,
+"n": 8,
+"result": null
 },
 "started": "2026-11-09",
 "short": "lower",
