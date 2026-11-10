@@ -1,5 +1,125 @@
 [
 {
+"when": "Wed 11 Nov 00:46",
+"req": {
+"u": "obicubana-j22i",
+"name": "Obi Cubana",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbc9bax3aly"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 6 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, Mon 16, Tue 17, 572 games on SportyBet), so this ticket has 6 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "UPDCAL",
+"odds": 7.28,
+"legs": [
+{
+"t": "Thu 02:00",
+"game": "Club America vs Deportivo Toluca FC",
+"lg": "Mexico - Liga MX, Women",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "season: 5.4 and 3.6 goals a game (14/14 games); last 10 rate 85%; Flashscore home/away form 90%, season: 4.5 goals a game",
+"ts": 1794445200.0,
+"eid": "sr:match:76595256",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76595256|18|total=2.5|12"
+},
+{
+"t": "Thu 04:00",
+"game": "CF Pachuca vs CF Monterrey",
+"lg": "Mexico - Liga MX, Women",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "season: 3.5 and 4.7 goals a game (14/14 games); last 10 rate 85%; Flashscore home/away form 75%, season: 4.1 goals a game",
+"ts": 1794452400.0,
+"eid": "sr:match:76595258",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76595258|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Treowen Stars",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 2.5",
+"odds": 1.31,
+"why": "season: 4.5 and 3.8 goals a game (11/12 games); last 10 rate 75%; season: 4.1 goals a game",
+"ts": 1794598200.0,
+"eid": "sr:match:76488396",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76488396|18|total=2.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "Hoersholm-Usseroed IK vs Naesby BK",
+"lg": "Denmark - 3rd Division",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 3.9 and 3.5 goals a game (15/15 games); last 10 rate 75%; season: 3.7 goals a game",
+"ts": 1794661200.0,
+"eid": "sr:match:72500828",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72500828|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "season: 3.4 and 3.8 goals a game (16/16 games); last 10 rate 80%; FotMob: 3.6 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72740812",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740812|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "season: 4.2 and 3.5 goals a game (14/14 games); last 10 rate 80%; footybets 85%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044822|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 00:44",
 "req": {
 "u": "obicubana-j22i",
