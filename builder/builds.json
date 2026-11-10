@@ -1,5 +1,56 @@
 [
 {
+"when": "Tue 10 Nov 10:22",
+"req": {
+"type": "h2o05",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "2nd half Over 0.5",
+"note": [],
+"tickets": [
+{
+"code": "HJ05H5",
+"odds": 1.21,
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Grimsby Town vs Nottingham Forest U21",
+"lg": "England - EFL Trophy",
+"pick": "2nd half Over 0.5",
+"odds": 1.07,
+"why": "goal in the 2nd half in 90% of Grimsby Town's last 10 and 100% of Nottingham Forest U21's last 7",
+"ts": 1794337200.0,
+"eid": "sr:match:73661220",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73661220|90|total=0.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Barnet FC vs Leyton Orient London",
+"lg": "England - EFL Trophy",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"why": "goal in the 2nd half in 100% of Barnet FC's last 10 and 90% of Leyton Orient London's last 10",
+"ts": 1794337200.0,
+"eid": "sr:match:73661456",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73661456|90|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 10:21",
 "req": {
 "type": "h1o05",
@@ -10496,26 +10547,5 @@
 ]
 }
 ]
-},
-{
-"when": "Mon 09 Nov 15:14",
-"req": {
-"type": "mix",
-"legs": 45,
-"tickets": 1,
-"days": [
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "relaxed",
-"target": 500000
-},
-"ok": false,
-"msg": "Could not reach 500000 odds with 45 legs or fewer from the 118 games that pass the checks for safest market per game (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15). Allow more legs or a lower target."
 }
 ]
