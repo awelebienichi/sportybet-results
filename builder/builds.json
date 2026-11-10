@@ -1,5 +1,273 @@
 [
 {
+"when": "Tue 10 Nov 19:39",
+"req": {
+"type": "rebuild",
+"code": "RVQR2H",
+"markets": [
+"o15",
+"o25",
+"gg",
+"win",
+"up",
+"dc",
+"hgg",
+"gb25",
+"h1",
+"h2",
+"h1dc",
+"htx",
+"wu25",
+"h1u25",
+"u35",
+"u45",
+"u55",
+"h1ggy",
+"h1ggn",
+"xg",
+"xgt",
+"xg1"
+],
+"strict": "strict",
+"target": 200
+},
+"ok": true,
+"kind": "rebuild of RVQR2H",
+"note": [],
+"tickets": [
+{
+"code": "UJ9WHZ",
+"odds": 234.0,
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Huddersfield vs Liverpool U21",
+"lg": "England - EFL Trophy",
+"pick": "GG (both teams score)",
+"odds": 1.45,
+"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661548",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73661548|29||74"
+},
+{
+"t": "Tue 20:00",
+"game": "Leicester vs Walsall FC",
+"lg": "England - EFL Trophy",
+"pick": "GG (both teams score)",
+"odds": 1.45,
+"why": "stats rate 73% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661276",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73661276|29||74"
+},
+{
+"t": "Tue 20:00",
+"game": "Barnet FC vs Leyton Orient London",
+"lg": "England - EFL Trophy",
+"pick": "Double chance Barnet FC or draw",
+"odds": 1.62,
+"why": "stats rate 71% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661456",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "73661456|10||9"
+},
+{
+"t": "Tue 20:00",
+"game": "Oxford United vs Cheltenham Town",
+"lg": "England - EFL Trophy",
+"pick": "1st half excluded goals: 2",
+"odds": 1.29,
+"why": "stats rate 95% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661252",
+"mid": "810002",
+"spec": "",
+"oid": "2",
+"k": "73661252|810002||2"
+},
+{
+"t": "Tue 20:00",
+"game": "Plymouth Argyle vs Swindon Town",
+"lg": "England - EFL Trophy",
+"pick": "1st half excluded goals: 2",
+"odds": 1.29,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661326",
+"mid": "810002",
+"spec": "",
+"oid": "2",
+"k": "73661326|810002||2"
+},
+{
+"t": "Tue 20:00",
+"game": "Stevenage FC vs Fulham U21",
+"lg": "England - EFL Trophy",
+"pick": "Excluded goals: 4",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661278",
+"mid": "450004",
+"spec": "",
+"oid": "4",
+"k": "73661278|450004||4"
+},
+{
+"t": "Tue 20:00",
+"game": "Stockport County FC vs Tranmere Rovers FC",
+"lg": "England - EFL Trophy",
+"pick": "Under 3.5",
+"odds": 1.88,
+"why": "stats rate 71% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794337200.0,
+"eid": "sr:match:73661206",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73661206|18|total=3.5|13"
+},
+{
+"t": "Tue 20:30",
+"game": "Crawley Town vs Brentford U21",
+"lg": "England - EFL Trophy",
+"pick": "Under 3.5",
+"odds": 2.05,
+"why": "stats rate 55% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794339000.0,
+"eid": "sr:match:73661480",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73661480|18|total=3.5|13"
+},
+{
+"t": "Tue 20:45",
+"game": "Darlington FC vs Oxford City",
+"lg": "England Amateur - National League North",
+"pick": "GG (both teams score)",
+"odds": 1.52,
+"why": "stats rate 72% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794339900.0,
+"eid": "sr:match:76077312",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "76077312|29||74"
+},
+{
+"t": "Tue 20:45",
+"game": "Salisbury FC vs Braintree Town FC",
+"lg": "England Amateur - National League South",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794339900.0,
+"eid": "sr:match:76122400",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76122400|68|total=0.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Curzon Ashton FC vs Ilkeston Town FC",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Double chance Curzon Ashton FC or Ilkeston Town FC",
+"odds": 1.14,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794339900.0,
+"eid": "sr:match:75799134",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75799134|10||10"
+},
+{
+"t": "Tue 20:45",
+"game": "Redcar Athletic FC vs Bamber Bridge",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Excluded goals: 3",
+"odds": 1.21,
+"why": "stats rate 89% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794339900.0,
+"eid": "sr:match:75603532",
+"mid": "450004",
+"spec": "",
+"oid": "3",
+"k": "75603532|450004||3"
+},
+{
+"t": "Tue 20:45",
+"game": "Eastbourne Borough vs Dulwich Hamlet",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Dulwich Hamlet excluded goals: 1",
+"odds": 1.49,
+"why": "stats rate 78% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794339900.0,
+"eid": "sr:match:73026104",
+"mid": "450006",
+"spec": "",
+"oid": "1",
+"k": "73026104|450006||1"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Servette Geneva W excluded goals: 1",
+"odds": 1.48,
+"why": "stats rate 80% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "450006",
+"spec": "",
+"oid": "1",
+"k": "74371842|450006||1"
+},
+{
+"t": "Tue 21:00",
+"game": "Inter Milano vs Manchester City WFC",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Manchester City WFC excluded goals: 2",
+"odds": 1.28,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794340800.0,
+"eid": "sr:match:74371844",
+"mid": "450006",
+"spec": "",
+"oid": "2",
+"k": "74371844|450006||2"
+},
+{
+"t": "Tue 21:00",
+"game": "Paris Saint-Germain W vs Bayern Munich W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Under 4.5",
+"odds": 1.3,
+"why": "stats rate 86% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794340800.0,
+"eid": "sr:match:74371840",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74371840|18|total=4.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 19:34",
 "req": {
 "type": "combine",
@@ -7007,25 +7275,5 @@
 ]
 }
 ]
-},
-{
-"when": "Mon 09 Nov 21:08",
-"req": {
-"type": "fav1h",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "strict"
-},
-"ok": false,
-"msg": "Only 1 game(s) pass the checks for strong team to score in the 1st half (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15) out of 364 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
