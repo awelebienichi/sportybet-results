@@ -2,6 +2,171 @@
 {
 "when": "Tue 10 Nov 14:31",
 "req": {
+"type": "best",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [
+"Only 10 games passed the checks (Tue 10, 86 games on SportyBet), so this ticket has 10 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "NZTW29",
+"odds": 3.77,
+"legs": [
+{
+"t": "Tue 18:45",
+"game": "Real Madrid W vs Paris FC W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"why": "stats rate 94% from both teams' last 10 and 5 meetings; Flashscore home/away form 90%",
+"ts": 1794332700.0,
+"eid": "sr:match:74371836",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74371836|450001||25"
+},
+{
+"t": "Tue 20:30",
+"game": "Crawley Town vs Brentford U21",
+"lg": "England - EFL Trophy",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794339000.0,
+"eid": "sr:match:73661480",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73661480|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Hanworth Villa vs Berkhamsted FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:73025146",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73025146|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Uxbridge FC vs Hanwell Town FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025152",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73025152|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Anstey Nomads vs Kettering Town",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794339900.0,
+"eid": "sr:match:73022094",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73022094|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Evesham United vs Yate Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025142",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73025142|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Darlington FC vs Oxford City",
+"lg": "England Amateur - National League North",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings; Flashscore home/away form 75%",
+"ts": 1794339900.0,
+"eid": "sr:match:76077312",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76077312|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Chertsey Town vs Chichester City FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025140",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73025140|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Three Bridges",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794339900.0,
+"eid": "sr:match:75232648",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75232648|450001||25"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74371842|450001||25"
+}
+]
+}
+]
+},
+{
+"when": "Tue 10 Nov 14:31",
+"req": {
 "type": "mix",
 "legs": 20,
 "tickets": 1,
@@ -7198,175 +7363,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "72203982|18|total=2.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "West Ham United FC Women vs Charlton Athletic",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.7,
-"why": "Over 2.5 in 90% / 70% of the teams' last 10, 100% of 3 meetings, league avg 3.6 goals",
-"ts": 1794751200.0,
-"eid": "sr:match:73346116",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346116|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 20:36",
-"req": {
-"type": "o25",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal"
-},
-"ok": true,
-"kind": "Over 2.5 (high-scoring leagues)",
-"note": [],
-"tickets": [
-{
-"code": "HE4FRN",
-"odds": 36.03,
-"legs": [
-{
-"t": "Tue 02:00",
-"game": "AD Rosario vs Pitbulls Santa Barbara FC",
-"lg": "Costa Rica - Liga de Ascenso",
-"pick": "Over 2.5",
-"odds": 1.85,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.4 goals; Flashscore home/away form 70%",
-"ts": 1794272400.0,
-"eid": "sr:match:76409632",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76409632|18|total=2.5|12"
-},
-{
-"t": "Tue 15:00",
-"game": "Colchester United U21 vs Charlton Athletic U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "Over 2.5 in 90% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.7 goals; Flashscore home/away form 90%",
-"ts": 1794319200.0,
-"eid": "sr:match:73601828",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73601828|18|total=2.5|12"
-},
-{
-"t": "Tue 20:00",
-"game": "Grimsby Town vs Nottingham Forest U21",
-"lg": "England - EFL Trophy",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.7 goals; Flashscore home/away form 70%",
-"ts": 1794337200.0,
-"eid": "sr:match:73661220",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73661220|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Enfield Town vs Lewes FC",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "Over 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals; Flashscore home/away form 70%",
-"ts": 1794339900.0,
-"eid": "sr:match:75997138",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75997138|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Cray Wanderers vs Three Bridges",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 4.1 goals; Flashscore home/away form 80%",
-"ts": 1794339900.0,
-"eid": "sr:match:75232648",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75232648|18|total=2.5|12"
-},
-{
-"t": "Tue 21:00",
-"game": "AS Roma W vs Servette Geneva W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 80%",
-"ts": 1794340800.0,
-"eid": "sr:match:74371842",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371842|18|total=2.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Juventus Turin W vs Olympique Lyon W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "Over 2.5 in 100% / 90% of the teams' last 10, 71% of 7 meetings, league avg 3.8 goals",
-"ts": 1794427200.0,
-"eid": "sr:match:74371852",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371852|18|total=2.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"lg": "International - UEFA Nations League",
-"pick": "Over 2.5",
-"odds": 1.49,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, 75% of 8 meetings, league avg 3.0 goals",
-"ts": 1794512700.0,
-"eid": "sr:match:68931756",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "68931756|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.8 goals",
-"ts": 1794668400.0,
-"eid": "sr:match:72740804",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740804|18|total=2.5|12"
 },
 {
 "t": "Sun 15:00",
