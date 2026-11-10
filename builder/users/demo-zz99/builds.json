@@ -1,0 +1,41 @@
+[
+{
+"when": "Tue 10 Nov 20:44",
+"req": {
+"type": "combine",
+"codes": [
+"QGLGEF",
+"YDURTZ"
+],
+"u": "demo-zz99",
+"name": "Demo"
+},
+"ok": true,
+"kind": "combined QGLGEF + YDURTZ",
+"note": [
+"8 leg(s) had already started and were left out."
+],
+"tickets": [
+{
+"code": "WCX0KM",
+"odds": 1.06,
+"legs": [
+{
+"t": "Tue 21:30",
+"game": "Envigado FC vs Boca Juniors de Cali",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Excluded Number of Goals \u2013 0",
+"odds": 1.06,
+"why": "from YDURTZ",
+"ts": 1794342600.0,
+"eid": "sr:match:76174026",
+"mid": "450004",
+"spec": "",
+"oid": "0",
+"k": "76174026|450004||0"
+}
+]
+}
+]
+}
+]
