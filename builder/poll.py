@@ -15,7 +15,7 @@ def notify(title, body, prio="high", tags="soccer", topic=None, click=None):
     topic = topic or OUT
     if not topic: print("NOTIFY", title, body); return
     subprocess.run(["curl", "-s", "-m", "20", "-H", "Title: " + title, "-H", "Priority: " + prio, "-H", "Tags: " + tags,
-                    "-H", "Click: " + (click or "https://awelebienichi.github.io/sportybet-results/build.html"), "-d", body[:3900], "https://ntfy.sh/" + topic], capture_output=True)
+                    "-H", "Click: " + (click or "https://sportybet.awelebienichi.workers.dev/build.html"), "-d", body[:3900], "https://ntfy.sh/" + topic], capture_output=True)
 def notifier(uid):
     """notify() bound to one person's own topic and page"""
     P = users.paths(uid)

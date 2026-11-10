@@ -18,7 +18,7 @@ def paths(uid):
     d = folder(uid)
     return dict(builds=os.path.join(d, "builds.json"), roll=os.path.join(d, "rollover.json"), profile=os.path.join(d, "profile.json"),
                 topic=os.environ.get("NTFY_TOPIC", "") if uid == OWNER else "",      # only the owner gets ntfy; everyone else sees codes on the site
-                track=uid == OWNER, page=f"https://awelebienichi.github.io/sportybet-results/build.html?u={uid}")
+                track=uid == OWNER, page=f"https://sportybet.awelebienichi.workers.dev/build.html?u={uid}")
 
 def remember(uid, name):
     p = paths(uid)["profile"]
