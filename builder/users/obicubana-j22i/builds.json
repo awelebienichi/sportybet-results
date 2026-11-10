@@ -1,0 +1,176 @@
+[
+{
+"when": "Wed 11 Nov 00:44",
+"req": {
+"u": "obicubana-j22i",
+"name": "Obi Cubana",
+"type": "htdraw",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbc6vbhn54s"
+},
+"ok": true,
+"kind": "half-time draw",
+"note": [],
+"tickets": [
+{
+"code": "X50QQT",
+"odds": 1468.07,
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Vissel Kobe vs Machida Zelvia",
+"lg": "Japan - J.League Cup",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 60% of Vissel Kobe's last 10 and 60% of Machida Zelvia's last 10 (55% were 0-0); league 48% half-time draws; 50% of 6 meetings level at half-time",
+"ts": 1794391200.0,
+"eid": "sr:match:76186246",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76186246|60||2"
+},
+{
+"t": "Wed 17:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "Half-time draw",
+"odds": 2.0,
+"why": "level at half-time in 60% of Bourges FC's last 10 and 60% of Hyeres FC's last 10 (45% were 0-0); league 57% half-time draws",
+"ts": 1794412800.0,
+"eid": "sr:match:74041580",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74041580|60||2"
+},
+{
+"t": "Thu 00:00",
+"game": "Real Cundinamarca vs Real Cartagena FC",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Half-time draw",
+"odds": 2.0,
+"why": "level at half-time in 70% of Real Cundinamarca's last 10 and 60% of Real Cartagena FC's last 10 (55% were 0-0); league 55% half-time draws; 50% of 10 meetings level at half-time",
+"ts": 1794438000.0,
+"eid": "sr:match:76204162",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76204162|60||2"
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Half-time draw",
+"odds": 2.2,
+"why": "level at half-time in 80% of Sao Bernardo FC's last 10 and 70% of Athletic Club Sjdr MG's last 10 (40% were 0-0); league 46% half-time draws",
+"ts": 1794524400.0,
+"eid": "sr:match:68823468",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "68823468|60||2"
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"lg": "Greece - Super League 2",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 90% of Hellas Syrou's last 10 and 60% of Panthrakikos FC Komotini's last 10 (55% were 0-0); league 52% half-time draws",
+"ts": 1794657600.0,
+"eid": "sr:match:74172536",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74172536|60||2"
+},
+{
+"t": "Sat 14:00",
+"game": "Bronshoj BK vs Vanloese IF",
+"lg": "Denmark - 3rd Division",
+"pick": "Half-time draw",
+"odds": 2.25,
+"why": "level at half-time in 60% of Bronshoj BK's last 10 and 70% of Vanloese IF's last 10 (35% were 0-0); league 42% half-time draws; 70% of 10 meetings level at half-time",
+"ts": 1794661200.0,
+"eid": "sr:match:72500826",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72500826|60||2"
+},
+{
+"t": "Sat 18:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 1.91,
+"why": "level at half-time in 70% of CA Temperley's last 10 and 70% of Club Ciudad de Bolivar's last 10 (55% were 0-0); league 54% half-time draws",
+"ts": 1794675600.0,
+"eid": "sr:match:76413238",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413238|60||2"
+},
+{
+"t": "Sat 18:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 1.86,
+"why": "level at half-time in 70% of CA Atlanta's last 10 and 60% of CA Estudiantes's last 10 (55% were 0-0); league 54% half-time draws; 80% of 10 meetings level at half-time",
+"ts": 1794675600.0,
+"eid": "sr:match:76413236",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413236|60||2"
+},
+{
+"t": "Sat 18:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 2.1,
+"why": "level at half-time in 70% of Deportivo Madryn's last 10 and 70% of CD Maipu's last 10 (55% were 0-0); league 54% half-time draws; 40% of 5 meetings level at half-time",
+"ts": 1794675600.0,
+"eid": "sr:match:76413240",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413240|60||2"
+},
+{
+"t": "Sun 12:00",
+"game": "UD Ibiza vs FC Cartagena",
+"lg": "Spain - Primera Federacion",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 60% of UD Ibiza's last 10 and 60% of FC Cartagena's last 10 (45% were 0-0); league 43% half-time draws; 44% of 9 meetings level at half-time",
+"ts": 1794740400.0,
+"eid": "sr:match:73068202",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "73068202|60||2"
+}
+]
+}
+]
+}
+]
