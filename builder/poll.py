@@ -19,6 +19,7 @@ def notify(title, body, prio="high", tags="soccer", topic=None, click=None):
 def notifier(uid):
     """notify() bound to one person's own topic and page"""
     P = users.paths(uid)
+    if not P["topic"]: return lambda *a, **k: None                       # not the owner: no notifications at all
     return lambda title, body, prio="high", tags="soccer": notify(title, body, prio, tags, P["topic"], P["page"])
 
 def load_state(): return json.load(open(STATE)) if os.path.exists(STATE) else {"since": "3h", "done": []}

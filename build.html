@@ -137,7 +137,7 @@
 
   <div class="card">
     <strong>Daily rollover</strong>
-    <p class="meta" style="margin:4px 0 0">One safe ticket a day of about your target odds, built from every market on every game: BOTH teams must be strong for the pick in their own last 10 (80%+ on Strong, 85%+ on Strictest), no low-scoring teams or leagues for goal picks, never the weaker side, and nothing against it (head-to-head, Flashscore home/away form, footybets). A win rolls the whole return into tomorrow's stake; a loss starts again from your starting stake. Each day's code arrives as a notification at the time you set.</p>
+    <p class="meta" style="margin:4px 0 0">One safe ticket a day of about your target odds, built from every market on every game: BOTH teams must be strong for the pick in their own last 10 (80%+ on Strong, 85%+ on Strictest), no low-scoring teams or leagues for goal picks, never the weaker side, and nothing against it (head-to-head, Flashscore home/away form, footybets). A win rolls the whole return into tomorrow's stake; a loss starts again from your starting stake. Each day's code appears in Recent tickets at the time you set.</p>
     <div id="rostatus" class="meta" style="margin:8px 0">Loading rollover…</div>
     <div class="row">
       <div><label for="rostake">Starting stake (₦)</label><input id="rostake" type="number" min="100" step="100" value="1000" inputmode="numeric"></div>
@@ -205,7 +205,14 @@ try { ME = JSON.parse(localStorage.getItem("sbUser") || "null"); } catch (e) {}
 if (qs.get("u") && (!ME || ME.u !== qs.get("u"))) ME = { u: qs.get("u").toLowerCase().replace(/[^a-z0-9-]/g, "").slice(0, 40), name: (ME && ME.u === qs.get("u")) ? ME.name : "" };
 const UID = ME && ME.u && ME.u.length >= 3 ? ME.u : null;
 const USERBASE = UID ? `builder/users/${UID}/` : null;
-const withU = req => Object.assign({ u: UID, name: ME && ME.name }, req);
+const withU = req => { setTimeout(fastRefresh, 15000); return Object.assign({ u: UID, name: ME && ME.name }, req); };
+let fastUntil = 0;
+function fastRefresh() {
+  const start = !fastUntil || Date.now() > fastUntil; fastUntil = Date.now() + 5 * 60 * 1000;
+  if (!start) return;
+  const tick = () => { if (Date.now() > fastUntil) { fastUntil = 0; return; } try { loadList(); loadRollover(); } catch (e) {} setTimeout(tick, 20000); };
+  tick();
+}
 if (qs.get("k")) { try { localStorage.setItem("sbAdmin", qs.get("k")); } catch (e) {} history.replaceState(null, "", location.pathname + "?u=" + (UID || "")); }
 let ADMIN = null; try { ADMIN = localStorage.getItem("sbAdmin"); } catch (e) {}
 function slug(s) { return (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "").slice(0, 14) || "user"; }
@@ -253,7 +260,7 @@ $("mgo").onclick = async () => {
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
-    $("mmsg").className = "ok"; $("mmsg").textContent = `Request sent: ${mks.length} market(s), ${days.length} day(s). Your code arrives as a notification in about a minute.`;
+    $("mmsg").className = "ok"; $("mmsg").textContent = `Request sent: ${mks.length} market(s), ${days.length} day(s). Your code will appear in Recent tickets below in about 1–2 minutes.`;
   } catch (e) { $("mmsg").className = "err"; $("mmsg").textContent = "Could not send. Check your internet and try again."; }
   setTimeout(() => $("mgo").disabled = false, 4000);
 };
@@ -270,7 +277,7 @@ $("rgo").onclick = async () => {
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
-    $("rmsg").className = "ok"; $("rmsg").textContent = `Rebuilding ${code}` + (req.target ? ` to about ${req.target} odds` : "") + `. The new code arrives as a notification in about a minute.`;
+    $("rmsg").className = "ok"; $("rmsg").textContent = `Rebuilding ${code}` + (req.target ? ` to about ${req.target} odds` : "") + `. The new code will appear in Recent tickets below in about 1–2 minutes.`;
   } catch (e) { $("rmsg").className = "err"; $("rmsg").textContent = "Could not send. Check your internet and try again."; }
   setTimeout(() => $("rgo").disabled = false, 4000);
 };
@@ -282,7 +289,7 @@ $("cgo").onclick = async () => {
   try {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
-    $("cmsg").className = "ok"; $("cmsg").textContent = `Combining ${codes.length} codes. The new code arrives as a notification in a few seconds.`;
+    $("cmsg").className = "ok"; $("cmsg").textContent = `Combining ${codes.length} codes. The new code will appear in Recent tickets below in about a minute.`;
   } catch (e) { $("cmsg").className = "err"; $("cmsg").textContent = "Could not send. Check your internet and try again."; }
   setTimeout(() => $("cgo").disabled = false, 4000);
 };
@@ -296,9 +303,9 @@ async function roSend(req, msg) {
 $("rostart").onclick = () => {
   const stake = +$("rostake").value || 1000, odds = +$("roodds").value || 4, hour = +$("rohour").value;
   if (!confirm(`Start a daily rollover: ${naira(stake)} at about ${odds} odds a day, ticket at ${String(hour).padStart(2, "0")}:00? This replaces any rollover already running.`)) return;
-  roSend({ type: "rollover_start", stake, odds, hour, short: $("roshort").value, level: $("rolevel").value, min_odds: +$("romin").value || 1.8 }, "Rollover started. Today's ticket arrives as a notification in about a minute.");
+  roSend({ type: "rollover_start", stake, odds, hour, short: $("roshort").value, level: $("rolevel").value, min_odds: +$("romin").value || 1.8 }, "Rollover started. Today's ticket will appear in Recent tickets below in about 1–2 minutes.");
 };
-$("ronow").onclick = () => roSend({ type: "rollover_now" }, "Building today's rollover ticket – notification in about a minute.");
+$("ronow").onclick = () => roSend({ type: "rollover_now" }, "Building today's rollover ticket – it will appear in Recent tickets below in about 1–2 minutes.");
 $("rostop").onclick = () => { if (confirm("Stop the daily rollover?")) roSend({ type: "rollover_stop" }, "Rollover stopped."); };
 async function loadRollover() {
   try {
@@ -419,7 +426,7 @@ $("go").onclick = async () => {
     const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
     $("msg").className = "ok";
-    $("msg").textContent = `Request sent: ${req.tickets} × ` + (req.target ? `about ${req.target} odds (up to ${req.legs} legs)` : `${req.legs} legs`) + `, ${names[req.type]}. Days: ${days.length}. Your code will arrive as a notification in about a minute (a little longer for several days).`;
+    $("msg").textContent = `Request sent: ${req.tickets} × ` + (req.target ? `about ${req.target} odds (up to ${req.legs} legs)` : `${req.legs} legs`) + `, ${names[req.type]}. Days: ${days.length}. Your code will appear in Recent tickets below in about 1–2 minutes.`;
   } catch (e) { $("msg").className = "err"; $("msg").textContent = "Could not send the request. Check your internet and try again."; }
   setTimeout(() => $("go").disabled = false, 4000);
 };
