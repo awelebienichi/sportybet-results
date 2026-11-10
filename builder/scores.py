@@ -183,8 +183,12 @@ def backfill(b):
                      k=f"{e['eventId'].split(':')[-1]}|{m['id']}|{m.get('specifier') or ''}|{o['id']}")
 
 def run_once():
-    try: B = json.load(open(BUILDS))
-    except Exception: return {}
+    import glob
+    B = []
+    for f in glob.glob(os.path.join(HERE, "users", "*", "builds.json")) + [BUILDS]:   # everyone's tickets
+        try: B += json.load(open(f))
+        except Exception: pass
+    if not B: return {}
     now = time.time(); legs = {}
     for b in B:
         if not b.get("ok"): continue

@@ -47,6 +47,13 @@
 <main>
   <a href="index.html">&larr; Results</a>
   <h1>Build a ticket</h1>
+  <div id="who" class="card" style="padding:10px 14px"></div>
+  <div id="welcome" class="card" style="display:none">
+    <strong>Welcome! What's your name?</strong>
+    <p class="meta" style="margin:4px 0 8px">Your tickets, scores and rollover will be kept on your own page. Nobody else's tickets will show here.</p>
+    <input id="wname" type="text" maxlength="30" placeholder="e.g. Tunde" autocomplete="nickname">
+    <button id="wgo" type="button">Start</button>
+  </div>
   <p class="sub">Works with your Mac off. The code arrives as a phone notification (ntfy), usually within a minute, and it shows below and on your results page.</p>
 
   <div class="card">
@@ -166,6 +173,11 @@
     <div id="cmsg" aria-live="polite"></div>
   </div>
 
+  <div id="allusers" class="card" style="display:none">
+    <strong>All users</strong> <span class="meta">(only you see this)</span>
+    <div id="ulist"><p class="meta">Loading…</p></div>
+  </div>
+
   <div class="card">
     <strong>Recent tickets</strong> <span id="scoretime" class="meta"></span>
     <div id="list"><p class="meta">Loading…</p></div>
@@ -176,6 +188,19 @@
 const REQ = "sportyreq-8b4fc11513";
 const names = {markets:"Chosen market", rollover:"Daily rollover", rebuild:"Rebuild", combine:"Combined codes", mix:"Safest market per game", best:"Tracker's best markets", gg:"GG both teams score", htdraw:"Half-time draw", fav:"Strong favourites to win", smallfav:"Smallest-odds favourites", fav1h:"Strong team to score in 1st half", h1o05:"1st half Over 0.5", fav2h:"Strong team to score in 2nd half", h2o05:"2nd half Over 0.5", o15:"Over 1.5", o25:"Over 2.5 high-scoring", o25yw:"Over 2.5 strong youth & women teams", u25:"Under 2.5 low-scoring"};
 const $ = id => document.getElementById(id);
+// ---- who is using the page: everyone has their own id (in the link and remembered on the phone) ----
+const qs = new URLSearchParams(location.search);
+let ME = null;
+try { ME = JSON.parse(localStorage.getItem("sbUser") || "null"); } catch (e) {}
+if (qs.get("u") && (!ME || ME.u !== qs.get("u"))) ME = { u: qs.get("u").toLowerCase().replace(/[^a-z0-9-]/g, "").slice(0, 40), name: (ME && ME.u === qs.get("u")) ? ME.name : "" };
+const UID = ME && ME.u && ME.u.length >= 3 ? ME.u : null;
+const USERBASE = UID ? `builder/users/${UID}/` : null;
+const withU = req => Object.assign({ u: UID, name: ME && ME.name }, req);
+function slug(s) { return (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "").slice(0, 14) || "user"; }
+if (!UID) {
+  document.querySelectorAll(".card").forEach(c => { if (c.id !== "welcome") c.style.display = "none"; });
+  document.getElementById("welcome").style.display = "";
+}
 // day tick boxes: today + the next 6 days (Lagos time); any combination can be ticked
 const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 (function () {
@@ -214,7 +239,7 @@ $("mgo").onclick = async () => {
   try { localStorage.setItem("buildMk", JSON.stringify(mks)); } catch (e) {}
   $("mgo").disabled = true; $("mmsg").className = ""; $("mmsg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
     $("mmsg").className = "ok"; $("mmsg").textContent = `Request sent: ${mks.length} market(s), ${days.length} day(s). Your code arrives as a notification in about a minute.`;
   } catch (e) { $("mmsg").className = "err"; $("mmsg").textContent = "Could not send. Check your internet and try again."; }
@@ -231,7 +256,7 @@ $("rgo").onclick = async () => {
   const req = { type: "rebuild", code, markets, strict: $("strict").value }; const t = +$("rtarget").value; if (t > 1) req.target = t;
   $("rgo").disabled = true; $("rmsg").className = ""; $("rmsg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
     $("rmsg").className = "ok"; $("rmsg").textContent = `Rebuilding ${code}` + (req.target ? ` to about ${req.target} odds` : "") + `. The new code arrives as a notification in about a minute.`;
   } catch (e) { $("rmsg").className = "err"; $("rmsg").textContent = "Could not send. Check your internet and try again."; }
@@ -243,7 +268,7 @@ $("cgo").onclick = async () => {
   const req = { type: "combine", codes, split50: $("csplit").checked };
   $("cgo").disabled = true; $("cmsg").className = ""; $("cmsg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
     $("cmsg").className = "ok"; $("cmsg").textContent = `Combining ${codes.length} codes. The new code arrives as a notification in a few seconds.`;
   } catch (e) { $("cmsg").className = "err"; $("cmsg").textContent = "Could not send. Check your internet and try again."; }
@@ -253,7 +278,7 @@ for (let i = 6; i <= 20; i++) { const o = document.createElement("option"); o.va
 const naira = x => "₦" + Math.round(x).toLocaleString();
 async function roSend(req, msg) {
   $("romsg").className = ""; $("romsg").textContent = "Sending…";
-  try { const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) }); if (!r.ok) throw 0; $("romsg").className = "ok"; $("romsg").textContent = msg; }
+  try { const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) }); if (!r.ok) throw 0; $("romsg").className = "ok"; $("romsg").textContent = msg; }
   catch (e) { $("romsg").className = "err"; $("romsg").textContent = "Could not send. Check your internet and try again."; }
 }
 $("rostart").onclick = () => {
@@ -265,7 +290,8 @@ $("ronow").onclick = () => roSend({ type: "rollover_now" }, "Building today's ro
 $("rostop").onclick = () => { if (confirm("Stop the daily rollover?")) roSend({ type: "rollover_stop" }, "Rollover stopped."); };
 async function loadRollover() {
   try {
-    const r = await fetch("builder/rollover.json?t=" + Date.now()); if (!r.ok) throw 0; const s = await r.json();
+    if (!USERBASE) return;
+    const r = await fetch(USERBASE + "rollover.json?t=" + Date.now()); if (!r.ok) throw 0; const s = await r.json();
     if (!s.active && !(s.history || []).length) { $("rostatus").textContent = "No rollover running yet."; return; }
     const c = s.current || {};
     const today = c.code ? ` · today's code <span class="code" style="font-size:1rem">${esc(c.code)}</span> (${c.odds} odds${c.result ? ", " + c.result : ", in play"})` : "";
@@ -276,6 +302,46 @@ async function loadRollover() {
   } catch (e) { $("rostatus").textContent = "No rollover running yet."; }
 }
 loadRollover(); setInterval(() => { if (!document.hidden) loadRollover(); }, 120000);
+$("wgo").onclick = async () => {
+  const name = $("wname").value.trim();
+  if (name.length < 2) { $("wname").focus(); return; }
+  const u = slug(name) + "-" + Math.random().toString(36).slice(2, 6);
+  try { localStorage.setItem("sbUser", JSON.stringify({ u, name })); } catch (e) {}
+  try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "hello", u, name }) }); } catch (e) {}
+  location.href = location.pathname + "?u=" + u;
+};
+async function whoBar() {
+  if (!UID) return;
+  let prof = {};
+  try { const r = await fetch(USERBASE + "profile.json?t=" + Date.now()); if (r.ok) prof = await r.json(); } catch (e) {}
+  const name = (ME && ME.name) || prof.name || UID;
+  try { localStorage.setItem("sbUser", JSON.stringify({ u: UID, name })); } catch (e) {}
+  const link = location.origin + location.pathname + "?u=" + UID;
+  const topic = "sportyuser-" + UID;
+  $("who").innerHTML = `👋 <b>${esc(name)}</b> · <span class="meta">your own page – save this link:</span> <span class="code" style="font-size:.85rem">${esc(link)}</span> <button class="copy" type="button" id="cplink">Copy link</button>`
+    + (prof.owner ? `<div class="meta" style="margin-top:6px">Your codes go to your usual ntfy topic and your main results page.</div>`
+                  : `<div class="meta" style="margin-top:6px">Get your codes as notifications: install the free <b>ntfy</b> app and subscribe to <b>${esc(topic)}</b> <a href="https://ntfy.sh/${esc(topic)}" target="_blank" rel="noopener">(open)</a>.<br>Note: the site owner can see the tickets built here.</div>`)
+    + `<div class="meta" style="margin-top:4px"><a href="#" id="switchu">Not you? Switch user</a></div>`;
+  $("cplink").onclick = () => { navigator.clipboard && navigator.clipboard.writeText(link); $("cplink").textContent = "Copied"; };
+  $("switchu").onclick = e => { e.preventDefault(); try { localStorage.removeItem("sbUser"); } catch (x) {} location.href = location.pathname; };
+  if (prof.owner) { $("allusers").style.display = ""; loadAllUsers(); setInterval(() => { if (!document.hidden) loadAllUsers(); }, 180000); }
+}
+async function loadAllUsers() {
+  try {
+    const r = await fetch("builder/users/index.json?t=" + Date.now()); const U = r.ok ? await r.json() : [];
+    const others = U.filter(x => !x.owner);
+    if (!others.length) { $("ulist").innerHTML = '<p class="meta">Nobody else has used the builder yet. Share your site link: people pick a name and get their own page.</p>'; return; }
+    const parts = await Promise.all(others.map(async x => {
+      let B = []; try { const rr = await fetch(`builder/users/${x.u}/builds.json?t=` + Date.now()); if (rr.ok) B = await rr.json(); } catch (e) {}
+      const last = x.last ? new Date(x.last * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" }) : "";
+      const rows = B.filter(b => b.ok).slice(0, 8).map(b => b.tickets.map(t => `<li><span class="code" style="font-size:.9rem">${esc(t.code)}</span> <span class="meta">${esc(b.when)} · ${esc(b.kind || "")} · ${t.legs.length} legs · ${t.odds} odds</span> <span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span></li>`).join("")).join("");
+      return `<details><summary><b>${esc(x.name)}</b> <span class="meta">· ${x.builds} request(s) · last seen ${esc(last)}</span></summary><ol>${rows || "<li class='meta'>No tickets yet.</li>"}</ol></details>`;
+    }));
+    $("ulist").innerHTML = parts.join("");
+    paintScores();
+  } catch (e) { $("ulist").innerHTML = '<p class="meta">Could not load users.</p>'; }
+}
+whoBar();
 try { const saved = JSON.parse(localStorage.getItem("buildMk") || "[]"); document.querySelectorAll("#bmk input").forEach(x => x.checked = saved.includes(x.value)); } catch (e) {}
 const pickedDays = () => [...document.querySelectorAll("#days input:checked")].map(x => x.value);
 try {
@@ -293,7 +359,7 @@ $("go").onclick = async () => {
   try { localStorage.setItem("buildForm", JSON.stringify(Object.assign({}, req, { type: $("type").value }))); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(req) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
     if (!r.ok) throw new Error(r.status);
     $("msg").className = "ok";
     $("msg").textContent = `Request sent: ${req.tickets} × ` + (req.target ? `about ${req.target} odds (up to ${req.legs} legs)` : `${req.legs} legs`) + `, ${names[req.type]}. Days: ${days.length}. Your code will arrive as a notification in about a minute (a little longer for several days).`;
@@ -303,7 +369,8 @@ $("go").onclick = async () => {
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 async function loadList() {
   try {
-    const r = await fetch("builder/builds.json?t=" + Date.now()); const B = r.ok ? await r.json() : [];
+    if (!USERBASE) return;
+    const r = await fetch(USERBASE + "builds.json?t=" + Date.now()); const B = r.ok ? await r.json() : [];
     if (!B.length) { $("list").innerHTML = '<p class="meta">No phone tickets yet.</p>'; return; }
     let shown = 0;
     $("list").innerHTML = B.map(b => {

@@ -6,16 +6,19 @@ import json, math, os, sys, time, subprocess, collections, datetime as dt
 HERE = os.path.dirname(os.path.abspath(__file__)); SITE = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import phonebuild
-STATE = os.path.join(HERE, "rollover.json"); LAGOS = dt.timezone(dt.timedelta(hours=1))
+import users
+LAGOS = dt.timezone(dt.timedelta(hours=1))
+CUR = {"uid": users.OWNER}                 # whose rollover is being worked on (handle/tick set it)
 def today(): return dt.datetime.now(LAGOS).date().isoformat()
 def load():
-    try: return json.load(open(STATE))
+    try: return json.load(open(users.paths(CUR["uid"])["roll"]))
     except Exception: return {"active": False, "history": []}
-def save(s): json.dump(s, open(STATE, "w"), indent=0)
+def save(s): json.dump(s, open(users.paths(CUR["uid"])["roll"], "w"), indent=0)
 def naira(x): return f"₦{x:,.0f}"
 
-def handle(req, notify):
+def handle(req, notify, uid=None):
     """requests from build.html: rollover_start {stake, odds, hour}, rollover_stop, rollover_now"""
+    CUR["uid"] = uid or users.OWNER
     s = load(); t = req.get("type")
     if t == "rollover_start":
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
@@ -247,15 +250,26 @@ def build_today(s, notify, force=False):
     t = res["tickets"][0]
     s["current"] = {"date": today(), "code": t["code"], "odds": t["odds"], "stake": s["stake"], "n": len(t["legs"]), "result": None}
     save(s)
-    builds = json.load(open(os.path.join(HERE, "builds.json"))) if os.path.exists(os.path.join(HERE, "builds.json")) else []
+    P = users.paths(CUR["uid"])
+    builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
     builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), req={"type": "rollover", "legs": len(t["legs"])}, ok=True,
                           kind=f"daily rollover – day {s['day']}", note=[f"Stake {naira(s['stake'])} → returns {naira(s['stake'] * t['odds'])} if it wins"], tickets=[t]))
-    json.dump(builds[:40], open(os.path.join(HERE, "builds.json"), "w"), indent=0)
-    subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - daily rollover day {s['day']}", t["code"]], capture_output=True)
+    json.dump(builds[:40], open(P["builds"], "w"), indent=0)
+    if P["track"]: subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - daily rollover day {s['day']}", t["code"]], capture_output=True)
     body = level_note + lower_note + f"Stake {naira(s['stake'])} → {naira(s['stake'] * t['odds'])} if it wins\n{len(t['legs'])} legs, {t['odds']} odds\n\n" + "\n".join(f"{l['t']} {l['game']}: {l['pick']} @ {l['odds']}" for l in t["legs"])
     notify(f"Rollover day {s['day']}: {t['code']}", body)
 
-def tick(notify, lock=None):
+def tick(notify_for, lock=None):
+    """every person's rollover: notify_for(uid) gives the notify function for that person"""
+    changed = False
+    for uid in users.all_users():
+        if os.path.exists(users.paths(uid)["roll"]):
+            CUR["uid"] = uid
+            try: changed |= bool(tick_one(notify_for(uid), lock))
+            except Exception as e: print("rollover tick", uid, e, flush=True)
+    return changed
+
+def tick_one(notify, lock=None):
     """called every few seconds by the listener: build today's ticket at the set hour; settle it from scores.json"""
     s = load()
     if not s.get("active"): return False
