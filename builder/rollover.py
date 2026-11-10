@@ -18,7 +18,7 @@ def naira(x): return f"₦{x:,.0f}"
 
 def handle(req, notify, uid=None):
     """requests from build.html: rollover_start {stake, odds, hour}, rollover_stop, rollover_now"""
-    CUR["uid"] = uid or users.OWNER
+    CUR["uid"] = uid or users.OWNER; CUR["rid"] = req.get("rid")
     s = load(); t = req.get("type")
     if t == "rollover_start":
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
@@ -224,11 +224,19 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         return legs, math.prod(c["odds"] for c in legs) if legs else 0
     return plan[1], math.prod(c["odds"] for c in plan[1])
 
+def page_note(msg):
+    """put a message where the person's page can show it next to the rollover button (matched by the request id)"""
+    if not CUR.get("rid"): return
+    P = users.paths(CUR["uid"])
+    builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
+    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), req={"type": "rollover", "rid": CUR["rid"]}, ok=False, msg=msg))
+    json.dump(builds[:40], open(P["builds"], "w"), indent=0)
+
 def build_today(s, notify, force=False):
     if not s.get("active"): return
     if s.get("current") and s["current"].get("date") == today() and not force: return
     if s.get("current") and s["current"].get("result") is None and s["current"].get("date") == today():
-        notify("Rollover ticket already out", f"Today's code is {s['current']['code']}.", "default"); return
+        notify("Rollover ticket already out", f"Today's code is {s['current']['code']}.", "default"); page_note(f"Today's rollover code is already out: {s['current']['code']}"); return
     level = s.get("level", "strong")
     legs, prod = pick_safe(s["odds"], level=level)
     level_note = ""
@@ -243,16 +251,17 @@ def build_today(s, notify, force=False):
         short = False; lower_note = f"Only {prod:.2f} odds today: not enough games passed the strict rollover checks to reach {s['odds']:g}.\n"
     if short:
         notify("Rollover: no safe ticket today", f"Not enough games passed the strict rollover checks today ({prod:.2f} odds possible, your minimum {s.get('min_odds', 1.8):g}" + (f", your target {s['odds']:g}" if s.get("short") == "skip" else "") + f"). The rollover waits for tomorrow (stake stays {naira(s['stake'])}).", "default", "warning")
-        s["current"] = {"date": today(), "code": None, "result": "skip"}; save(s); return
+        s["current"] = {"date": today(), "code": None, "result": "skip"}; save(s)
+        page_note(f"No safe rollover ticket today ({prod:.2f} odds possible, your minimum {s.get('min_odds', 1.8):g}). Your stake waits for tomorrow."); return
     res = phonebuild.finish([legs], "rollover", {"rollover": f"daily rollover day {s['day']}"}, [], {"type": "rollover"})
     if not res.get("ok"):
-        notify("Rollover: booking failed", "SportyBet refused the booking; it will try again in a few minutes.", "default", "warning"); return
+        notify("Rollover: booking failed", "SportyBet refused the booking; it will try again in a few minutes.", "default", "warning"); page_note("SportyBet refused the booking; it will try again in a few minutes."); return
     t = res["tickets"][0]
     s["current"] = {"date": today(), "code": t["code"], "odds": t["odds"], "stake": s["stake"], "n": len(t["legs"]), "result": None}
     save(s)
     P = users.paths(CUR["uid"])
     builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
-    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), req={"type": "rollover", "legs": len(t["legs"])}, ok=True,
+    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), req={"type": "rollover", "legs": len(t["legs"]), "rid": CUR.get("rid")}, ok=True,
                           kind=f"daily rollover – day {s['day']}", note=[f"Stake {naira(s['stake'])} → returns {naira(s['stake'] * t['odds'])} if it wins"], tickets=[t]))
     json.dump(builds[:40], open(P["builds"], "w"), indent=0)
     if P["track"]: subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - daily rollover day {s['day']}", t["code"]], capture_output=True)
@@ -264,7 +273,7 @@ def tick(notify_for, lock=None):
     changed = False
     for uid in users.all_users():
         if os.path.exists(users.paths(uid)["roll"]) and not users.suspended(uid):      # a suspended person's rollover stops
-            CUR["uid"] = uid
+            CUR["uid"] = uid; CUR["rid"] = None
             try: changed |= bool(tick_one(notify_for(uid), lock))
             except Exception as e: print("rollover tick", uid, e, flush=True)
     return changed
