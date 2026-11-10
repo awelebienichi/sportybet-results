@@ -1,5 +1,117 @@
 [
 {
+"when": "Tue 10 Nov 17:17",
+"req": {
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
+"o15"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 6 games passed the checks (Tue 10, 83 games on SportyBet), so this ticket has 6 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "PXMS62",
+"odds": 2.46,
+"legs": [
+{
+"t": "Tue 18:45",
+"game": "Real Madrid W vs Paris FC W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.13,
+"why": "stats rate 94% from both teams' last 10 and 5 meetings; Flashscore home/away form 90%",
+"ts": 1794332700.0,
+"eid": "sr:match:74371836",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371836|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Hanworth Villa vs Berkhamsted FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:73025146",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025146|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Uxbridge FC vs Hanwell Town FC",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025152",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025152|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Evesham United vs Yate Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794339900.0,
+"eid": "sr:match:73025142",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025142|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Darlington FC vs Oxford City",
+"lg": "England Amateur - National League North",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings; Flashscore home/away form 75%",
+"ts": 1794339900.0,
+"eid": "sr:match:76077312",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76077312|18|total=1.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "AS Roma W vs Servette Geneva W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794340800.0,
+"eid": "sr:match:74371842",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371842|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 17:11",
 "req": {
 "type": "markets",
@@ -6509,379 +6621,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "74371846|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 20:48",
-"req": {
-"type": "rebuild",
-"code": "M9P9RK",
-"markets": [
-"o25"
-],
-"strict": "strict",
-"target": 500
-},
-"ok": true,
-"kind": "rebuild of M9P9RK",
-"note": [],
-"tickets": [
-{
-"code": "M9P9RK",
-"odds": 23501.56,
-"legs": [
-{
-"t": "Tue 02:00",
-"game": "AD Rosario vs Pitbulls Santa Barbara FC",
-"lg": "Costa Rica - Liga de Ascenso",
-"pick": "Over 2.5",
-"odds": 1.85,
-"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794272400.0,
-"eid": "sr:match:76409632",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76409632|18|total=2.5|12"
-},
-{
-"t": "Tue 15:00",
-"game": "Colchester United U21 vs Charlton Athletic U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794319200.0,
-"eid": "sr:match:73601828",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73601828|18|total=2.5|12"
-},
-{
-"t": "Tue 20:00",
-"game": "Grimsby Town vs Nottingham Forest U21",
-"lg": "England - EFL Trophy",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794337200.0,
-"eid": "sr:match:73661220",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73661220|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Anstey Nomads vs Kettering Town",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "stats rate 80% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794339900.0,
-"eid": "sr:match:73022094",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73022094|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Chatham Town vs Leatherhead FC",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794339900.0,
-"eid": "sr:match:75396846",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75396846|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Quorn FC vs Stockton Town",
-"lg": "England Amateur - Northern Premier League Premier",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794339900.0,
-"eid": "sr:match:75799146",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75799146|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Darlington FC vs Oxford City",
-"lg": "England Amateur - National League North",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "stats rate 68% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794339900.0,
-"eid": "sr:match:76077312",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76077312|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Enfield Town vs Lewes FC",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "stats rate 82% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794339900.0,
-"eid": "sr:match:75997138",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75997138|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Cray Wanderers vs Three Bridges",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "stats rate 80% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794339900.0,
-"eid": "sr:match:75232648",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75232648|18|total=2.5|12"
-},
-{
-"t": "Tue 21:00",
-"game": "AS Roma W vs Servette Geneva W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794340800.0,
-"eid": "sr:match:74371842",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371842|18|total=2.5|12"
-},
-{
-"t": "Wed 18:45",
-"game": "Oud-Heverlee Leuven W vs HB KOEGE W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794419100.0,
-"eid": "sr:match:74371850",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371850|18|total=2.5|12"
-},
-{
-"t": "Wed 20:45",
-"game": "Avro FC vs Whitby Town",
-"lg": "England Amateur - Northern Premier League Premier",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794426300.0,
-"eid": "sr:match:75799148",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75799148|18|total=2.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Juventus Turin W vs Olympique Lyon W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "stats rate 88% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794427200.0,
-"eid": "sr:match:74371852",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371852|18|total=2.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"lg": "International - UEFA Nations League",
-"pick": "Over 2.5",
-"odds": 1.49,
-"why": "stats rate 78% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794512700.0,
-"eid": "sr:match:68931756",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "68931756|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Gornik Leczna vs KS Hutnik Krakow SSA",
-"lg": "Poland - II Liga",
-"pick": "Over 2.5",
-"odds": 1.66,
-"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794654000.0,
-"eid": "sr:match:72398810",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72398810|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"lg": "Scotland - League 1",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "stats rate 79% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794668400.0,
-"eid": "sr:match:72203982",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72203982|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Dumbarton FC vs Annan Athletic FC",
-"lg": "Scotland - League 2",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "stats rate 68% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794668400.0,
-"eid": "sr:match:72204334",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72204334|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Harrogate Town vs Altrincham FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.67,
-"why": "stats rate 75% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794668400.0,
-"eid": "sr:match:72740796",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740796|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "AFC Hornchurch vs Tamworth FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.65,
-"why": "stats rate 70% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794668400.0,
-"eid": "sr:match:72740800",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740800|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794668400.0,
-"eid": "sr:match:72740804",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740804|18|total=2.5|12"
-},
-{
-"t": "Sat 18:15",
-"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "stats rate 71% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794676500.0,
-"eid": "sr:match:73346120",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346120|18|total=2.5|12"
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"lg": "Scotland - League 1",
-"pick": "Over 2.5",
-"odds": 1.63,
-"why": "stats rate 71% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794677400.0,
-"eid": "sr:match:72203984",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72203984|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "Almere City FC vs Helmond Sport",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.37,
-"why": "stats rate 71% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794682800.0,
-"eid": "sr:match:72044812",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044812|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "De Graafschap vs TOP Oss",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.38,
-"why": "stats rate 68% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794682800.0,
-"eid": "sr:match:72044814",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044814|18|total=2.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "West Ham United FC Women vs Charlton Athletic",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.7,
-"why": "stats rate 86% from both teams' last 10 (safest of your markets for this game)",
-"ts": 1794751200.0,
-"eid": "sr:match:73346116",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346116|18|total=2.5|12"
 }
 ]
 }
