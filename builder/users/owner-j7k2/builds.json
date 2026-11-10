@@ -1,1 +1,70 @@
-[]
+[
+{
+"when": "Tue 10 Nov 23:15",
+"req": {
+"type": "smallfav",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"u": "owner-j7k2",
+"rid": "test1794348923"
+},
+"ok": true,
+"kind": "smallest-odds favourites to win",
+"note": [
+"3 leg(s) dropped because Flashscore home/away form or footybets went against them."
+],
+"tickets": [
+{
+"code": "R0YYU6",
+"odds": 1.14,
+"legs": [
+{
+"t": "Wed 13:00",
+"game": "Slovenia vs England",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "England to win",
+"odds": 1.07,
+"why": "won 70% lost 30% of last 10, rival lost 50%, won 75% of 4 meetings; Flashscore home/away form 55%",
+"ts": 1794398400.0,
+"eid": "sr:match:74723254",
+"mid": "1",
+"spec": "",
+"oid": "3",
+"k": "74723254|1||3"
+},
+{
+"t": "Wed 16:00",
+"game": "Spain vs Iceland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Spain to win",
+"odds": 1.03,
+"why": "won 100% lost 0% of last 10, rival lost 60%; Flashscore home/away form 65%",
+"ts": 1794409200.0,
+"eid": "sr:match:74723370",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "74723370|1||1"
+},
+{
+"t": "Wed 20:00",
+"game": "Everton FC Women vs Durham LFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Everton FC Women to win",
+"odds": 1.03,
+"why": "won 50% lost 30% of last 10, rival lost 100%; Flashscore home/away form 75%",
+"ts": 1794423600.0,
+"eid": "sr:match:73607360",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "73607360|1||1"
+}
+]
+}
+]
+}
+]
