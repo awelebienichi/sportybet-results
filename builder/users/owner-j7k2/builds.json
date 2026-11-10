@@ -1,5 +1,24 @@
 [
 {
+"when": "Wed 11 Nov 00:51",
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "beaten",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbcgnyoe0fa"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for always-beaten teams (season data) (Wed 11) out of 114 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Wed 11 Nov 00:39",
 "req": {
 "type": "rollover",
