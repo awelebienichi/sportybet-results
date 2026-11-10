@@ -10,6 +10,60 @@
 ],
 "strict": "strict",
 "markets": [
+"h1u25"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "KVYNLC",
+"odds": 1.43,
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Burton Albion vs Notts County",
+"lg": "England - EFL Trophy",
+"pick": "1st half Under 2.5",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661218",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73661218|68|total=2.5|13"
+},
+{
+"t": "Tue 20:00",
+"game": "Stockport County FC vs Tranmere Rovers FC",
+"lg": "England - EFL Trophy",
+"pick": "1st half Under 2.5",
+"odds": 1.23,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661206",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73661206|68|total=2.5|13"
+}
+]
+}
+]
+},
+{
+"when": "Tue 10 Nov 10:28",
+"req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
 "wu25"
 ]
 },
@@ -7703,105 +7757,6 @@
 "spec": "",
 "oid": "0",
 "k": "76174026|450004||0"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 17:54",
-"req": {
-"type": "markets",
-"markets": [
-"u35",
-"wu25",
-"h1ggn",
-"h1u25"
-],
-"legs": 5,
-"tickets": 1,
-"days": [
-"2026-11-10"
-],
-"strict": "normal"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "QGLGEF",
-"odds": 1.84,
-"legs": [
-{
-"t": "Tue 20:00",
-"game": "Bristol Rovers vs Reading FC",
-"lg": "England - EFL Trophy",
-"pick": "Bristol Rovers Under 2.5 goals",
-"odds": 1.12,
-"why": "stats rate 100% from both teams' last 10 and 7 meetings",
-"ts": 1794337200.0,
-"eid": "sr:match:73661290",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73661290|19|total=2.5|13"
-},
-{
-"t": "Tue 20:00",
-"game": "Burton Albion vs Notts County",
-"lg": "England - EFL Trophy",
-"pick": "1st half Under 2.5",
-"odds": 1.13,
-"why": "stats rate 95% from both teams' last 10 and 5 meetings",
-"ts": 1794337200.0,
-"eid": "sr:match:73661218",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73661218|68|total=2.5|13"
-},
-{
-"t": "Tue 20:00",
-"game": "Stockport County FC vs Tranmere Rovers FC",
-"lg": "England - EFL Trophy",
-"pick": "1st half Under 2.5",
-"odds": 1.16,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794337200.0,
-"eid": "sr:match:73661206",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73661206|68|total=2.5|13"
-},
-{
-"t": "Tue 20:30",
-"game": "Bromley FC vs Milton Keynes Dons",
-"lg": "England - EFL Trophy",
-"pick": "Bromley FC Under 2.5 goals",
-"odds": 1.12,
-"why": "stats rate 96% from both teams' last 10 and 5 meetings",
-"ts": 1794339000.0,
-"eid": "sr:match:73661478",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73661478|19|total=2.5|13"
-},
-{
-"t": "Tue 20:45",
-"game": "Scarborough Athletic vs Marine FC",
-"lg": "England Amateur - National League North",
-"pick": "1st half Under 2.5",
-"odds": 1.12,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings",
-"ts": 1794339900.0,
-"eid": "sr:match:75445664",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75445664|68|total=2.5|13"
 }
 ]
 }
