@@ -2,6 +2,60 @@
 {
 "when": "Tue 10 Nov 10:25",
 "req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
+"dc"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "J0XVX7",
+"odds": 1.37,
+"legs": [
+{
+"t": "Tue 20:45",
+"game": "Curzon Ashton FC vs Ilkeston Town FC",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Double chance Curzon Ashton FC or Ilkeston Town FC",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794339900.0,
+"eid": "sr:match:75799134",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75799134|10||10"
+},
+{
+"t": "Tue 20:45",
+"game": "Whitehawk FC vs Welling United",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Double chance Whitehawk FC or Welling United",
+"odds": 1.19,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings",
+"ts": 1794339900.0,
+"eid": "sr:match:75997142",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75997142|10||10"
+}
+]
+}
+]
+},
+{
+"when": "Tue 10 Nov 10:25",
+"req": {
 "type": "u25",
 "legs": 2,
 "tickets": 1,
@@ -8483,26 +8537,5 @@
 ]
 }
 ]
-},
-{
-"when": "Mon 09 Nov 16:10",
-"req": {
-"type": "h1o05",
-"legs": 45,
-"tickets": 1,
-"days": [
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "strict",
-"target": 50000
-},
-"ok": false,
-"msg": "Could not reach 50000 odds with 45 legs or fewer from the 17 games that pass the checks for 1st half Over 0.5 (Mon 09, Tue 10, Wed 11, Thu 12, Fri 13, Sat 14, Sun 15). Allow more legs or a lower target."
 }
 ]
