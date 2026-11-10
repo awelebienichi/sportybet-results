@@ -689,7 +689,7 @@ def main(req):
         except Exception as e: print("extra checks skipped:", e)
     names = {"markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
-    note = [f"{dropped} leg(s) dropped because Flashscore home/away form or footybets went against them."] if dropped else []
+    note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)
     if target > 1:   # fill each ticket with the strongest legs until it reaches the target odds (legs = the most allowed)
         T, i = [], 0
