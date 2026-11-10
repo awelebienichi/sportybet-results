@@ -10,6 +10,60 @@
 ],
 "strict": "strict",
 "markets": [
+"u35"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "X50J2T",
+"odds": 1.67,
+"legs": [
+{
+"t": "Tue 16:00",
+"game": "Al Mokawloon Al Arab vs We SC",
+"lg": "Egypt - Egypt Cup",
+"pick": "Under 3.5",
+"odds": 1.22,
+"why": "stats rate 86% from both teams' last 10 and 3 meetings; Flashscore home/away form 75%",
+"ts": 1794322800.0,
+"eid": "sr:match:76079156",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76079156|18|total=3.5|13"
+},
+{
+"t": "Tue 20:00",
+"game": "SD Amorebieta vs UD Logrones",
+"lg": "Spain - Copa del Rey",
+"pick": "Under 3.5",
+"odds": 1.37,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%",
+"ts": 1794337200.0,
+"eid": "sr:match:76482542",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76482542|18|total=3.5|13"
+}
+]
+}
+]
+},
+{
+"when": "Tue 10 Nov 10:28",
+"req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
 "h1u25"
 ]
 },
@@ -7679,87 +7733,5 @@
 },
 "ok": false,
 "msg": "Could not reach 50000 odds with 20 legs or fewer from the 58 games that pass the checks for your chosen markets (Mon 09, Tue 10). Allow more legs or a lower target."
-},
-{
-"when": "Mon 09 Nov 18:15",
-"req": {
-"type": "markets",
-"markets": [
-"xg"
-],
-"legs": 4,
-"tickets": 1,
-"days": [
-"2026-11-10"
-],
-"strict": "normal"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "YDURTZ",
-"odds": 1.58,
-"legs": [
-{
-"t": "Tue 15:00",
-"game": "Colchester United U21 vs Charlton Athletic U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Excluded goals: 2",
-"odds": 1.11,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1794319200.0,
-"eid": "sr:match:73601828",
-"mid": "450004",
-"spec": "",
-"oid": "2",
-"k": "73601828|450004||2"
-},
-{
-"t": "Tue 19:00",
-"game": "Estudiantes de LP Reserve vs San Martin de San Juan Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "Excluded goals: 3",
-"odds": 1.22,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794333600.0,
-"eid": "sr:match:75133606",
-"mid": "450004",
-"spec": "",
-"oid": "3",
-"k": "75133606|450004||3"
-},
-{
-"t": "Tue 20:45",
-"game": "Cray Wanderers vs Three Bridges",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Excluded goals: 1",
-"odds": 1.1,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794339900.0,
-"eid": "sr:match:75232648",
-"mid": "450004",
-"spec": "",
-"oid": "1",
-"k": "75232648|450004||1"
-},
-{
-"t": "Tue 21:30",
-"game": "Envigado FC vs Boca Juniors de Cali",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "Excluded goals: 0",
-"odds": 1.06,
-"why": "stats rate 96% from both teams' last 10 and 3 meetings",
-"ts": 1794342600.0,
-"eid": "sr:match:76174026",
-"mid": "450004",
-"spec": "",
-"oid": "0",
-"k": "76174026|450004||0"
-}
-]
-}
-]
 }
 ]
