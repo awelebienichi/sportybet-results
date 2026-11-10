@@ -7,15 +7,15 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-09",
-"code": "K6PZLS",
-"odds": 4.21,
+"date": "2026-11-10",
+"code": "UABBWL",
+"odds": 4.16,
 "stake": 1000.0,
 "n": 7,
 "result": null
 },
-"started": "2026-11-09",
-"short": "skip",
+"started": "2026-11-10",
+"short": "lower",
 "min_odds": 1.8,
-"level": "strictest"
+"level": "strong"
 }
