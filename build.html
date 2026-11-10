@@ -346,7 +346,7 @@ async function whoBar() {
   const name = prof.name || (ME && ME.name) || UID;
   if (!prof.owner && name.trim().split(/\s+/).length < 2) {
     const box = document.createElement("div"); box.className = "card";
-    box.innerHTML = `<strong>Please add your full name</strong><p class="meta" style="margin:4px 0 8px">So the site owner can tell everyone apart. First and last name.</p><input id="fname" type="text" maxlength="40" value="${esc(name)} " autocomplete="name"><div id="fmsg" class="err" style="margin-top:6px"></div><button id="fgo" type="button">Save my name</button>`;
+    box.innerHTML = `<strong>Please add your full name</strong><p class="meta" style="margin:4px 0 8px">First and last name.</p><input id="fname" type="text" maxlength="40" value="${esc(name)} " autocomplete="name"><div id="fmsg" class="err" style="margin-top:6px"></div><button id="fgo" type="button">Save my name</button>`;
     $("who").after(box);
     $("fgo").onclick = async () => {
       const [nm, err] = await checkName($("fname").value, UID);
