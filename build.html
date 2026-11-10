@@ -495,7 +495,9 @@ let SC = {};
 async function loadScores() {
   try {
     // GitHub API first (fresh); if its hourly limit for this connection is used up, the raw copy (up to ~5 min old)
-    let r = await fetch("https://api.github.com/repos/awelebienichi/sportybet-results/contents/scores.json?ref=scores", { headers: { Accept: "application/vnd.github.raw+json" }, cache: "no-cache" });
+    let r = location.hostname.endsWith("workers.dev") || !location.hostname.endsWith("github.io")
+      ? await fetch("/_scores?t=" + Date.now(), { cache: "no-store" })      // served through Cloudflare: fast in Nigeria
+      : await fetch("https://api.github.com/repos/awelebienichi/sportybet-results/contents/scores.json?ref=scores", { headers: { Accept: "application/vnd.github.raw+json" }, cache: "no-cache" });
     if (!r.ok) r = await fetch("https://raw.githubusercontent.com/awelebienichi/sportybet-results/scores/scores.json?t=" + Math.floor(Date.now() / 60000));
     if (!r.ok) return;
     const d = await r.json(); SC = d.legs || {};
