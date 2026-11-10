@@ -1,5 +1,59 @@
 [
 {
+"when": "Tue 10 Nov 10:28",
+"req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
+"wu25"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "ZQHPGM",
+"odds": 1.25,
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Bristol Rovers vs Reading FC",
+"lg": "England - EFL Trophy",
+"pick": "Bristol Rovers Under 2.5 goals",
+"odds": 1.13,
+"why": "stats rate 100% from both teams' last 10 and 7 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661290",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73661290|19|total=2.5|13"
+},
+{
+"t": "Tue 20:30",
+"game": "Bromley FC vs Milton Keynes Dons",
+"lg": "England - EFL Trophy",
+"pick": "Bromley FC Under 2.5 goals",
+"odds": 1.11,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings",
+"ts": 1794339000.0,
+"eid": "sr:match:73661478",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73661478|19|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 10:27",
 "req": {
 "type": "markets",
@@ -7748,130 +7802,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "75445664|68|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 17:20",
-"req": {
-"type": "h1o05",
-"legs": 20,
-"tickets": 2,
-"days": [
-"2026-11-09"
-],
-"strict": "relaxed"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 7 games passed the checks (Mon 09, 37 games on SportyBet), so this ticket has 7 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Only 7 games qualified, enough for 1 ticket(s) of 7 with no game repeated (you asked for 2)."
-],
-"tickets": [
-{
-"code": "J5E4P0",
-"odds": 6.7,
-"legs": [
-{
-"t": "Mon 18:00",
-"game": "Hapoel Kfar Saba FC vs Maccabi Bney Reine",
-"lg": "Israel - National League",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"why": "goal in the 1st half in 100% of Hapoel Kfar Saba FC's last 10 and 80% of Maccabi Bney Reine's last 10",
-"ts": 1794243600.0,
-"eid": "sr:match:75661174",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75661174|68|total=0.5|12"
-},
-{
-"t": "Mon 19:00",
-"game": "Kristiansund BK vs Vaalerenga IF",
-"lg": "Norway - Eliteserien",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"why": "goal in the 1st half in 90% of Kristiansund BK's last 10 and 80% of Vaalerenga IF's last 10",
-"ts": 1794247200.0,
-"eid": "sr:match:76509750",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76509750|68|total=0.5|12"
-},
-{
-"t": "Mon 20:00",
-"game": "West Bromwich Albion FC U21 vs Bromley FC U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "goal in the 1st half in 67% of West Bromwich Albion FC U21's last 6 and 80% of Bromley FC U21's last 10",
-"ts": 1794250800.0,
-"eid": "sr:match:75153534",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75153534|68|total=0.5|12"
-},
-{
-"t": "Mon 20:30",
-"game": "ASD Pineto Calcio vs Vis Pesaro 1898",
-"lg": "Italy - Serie C, Group B",
-"pick": "1st half Over 0.5",
-"odds": 1.37,
-"why": "goal in the 1st half in 70% of ASD Pineto Calcio's last 10 and 70% of Vis Pesaro 1898's last 10",
-"ts": 1794252600.0,
-"eid": "sr:match:73294070",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73294070|68|total=0.5|12"
-},
-{
-"t": "Mon 21:00",
-"game": "Sportivo San Lorenzo vs Rubio Nu",
-"lg": "Paraguay - Division de Honor",
-"pick": "1st half Over 0.5",
-"odds": 1.36,
-"why": "goal in the 1st half in 80% of Sportivo San Lorenzo's last 10 and 70% of Rubio Nu's last 10",
-"ts": 1794254400.0,
-"eid": "sr:match:73038656",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73038656|68|total=0.5|12"
-},
-{
-"t": "Mon 21:15",
-"game": "SCU Torreense vs UD Leiria",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "1st half Over 0.5",
-"odds": 1.31,
-"why": "goal in the 1st half in 70% of SCU Torreense's last 10 and 80% of UD Leiria's last 10",
-"ts": 1794255300.0,
-"eid": "sr:match:72531662",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72531662|68|total=0.5|12"
-},
-{
-"t": "Mon 21:30",
-"game": "Independiente Valle Del Cauca vs Union Magdalena",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "1st half Over 0.5",
-"odds": 1.49,
-"why": "goal in the 1st half in 70% of Independiente Valle Del Cauca's last 10 and 80% of Union Magdalena's last 10",
-"ts": 1794256200.0,
-"eid": "sr:match:76174024",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76174024|68|total=0.5|12"
 }
 ]
 }
