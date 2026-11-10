@@ -1,5 +1,218 @@
 [
 {
+"when": "Tue 10 Nov 14:35",
+"req": {
+"type": "rebuild",
+"code": "Y27N43",
+"markets": [
+"o15",
+"o25",
+"gg",
+"win",
+"up",
+"dc",
+"hgg",
+"gb25",
+"h1",
+"h2",
+"h1dc",
+"htx",
+"wu25",
+"h1u25",
+"u35",
+"u45",
+"u55",
+"h1ggy",
+"h1ggn",
+"xg",
+"xgt",
+"xg1"
+],
+"strict": "strict"
+},
+"ok": true,
+"kind": "rebuild of Y27N43",
+"note": [
+"1 game(s) on Y27N43 had already started and were left out."
+],
+"tickets": [
+{
+"code": "L8TLH2",
+"odds": 9.53,
+"legs": [
+{
+"t": "Tue 15:00",
+"game": "Traktor Chelyabinsk vs Shanghai Dragons",
+"lg": "Russia - KHL",
+"pick": "Double chance Traktor Chelyabinsk or Shanghai Dragons",
+"odds": 1.23,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794319200.0,
+"eid": "sr:match:72166580",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72166580|10||10"
+},
+{
+"t": "Tue 15:00",
+"game": "HC Yugra Khanty-Mansiysk vs Chelmet Chelyabinsk",
+"lg": "Russia - VHL",
+"pick": "Double chance HC Yugra Khanty-Mansiysk or Chelmet Chelyabinsk",
+"odds": 1.22,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794319200.0,
+"eid": "sr:match:73708452",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73708452|10||10"
+},
+{
+"t": "Tue 15:00",
+"game": "Rubin Tyumen vs Gornyak-UGMK Verkhnyaya Pyshma",
+"lg": "Russia - VHL",
+"pick": "Double chance Rubin Tyumen or Gornyak-UGMK Verkhnyaya Pyshma",
+"odds": 1.25,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794319200.0,
+"eid": "sr:match:73708450",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73708450|10||10"
+},
+{
+"t": "Tue 15:30",
+"game": "Kristall Saratov vs Toros Neftekamsk",
+"lg": "Russia - VHL",
+"pick": "Double chance Kristall Saratov or Toros Neftekamsk",
+"odds": 1.25,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794321000.0,
+"eid": "sr:match:73708454",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73708454|10||10"
+},
+{
+"t": "Tue 16:35",
+"game": "Springfield Thunderbirds vs Hartford Wolf Pack",
+"lg": "USA - AHL",
+"pick": "Double chance Springfield Thunderbirds or Hartford Wolf Pack",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794324900.0,
+"eid": "sr:match:72734704",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72734704|10||10"
+},
+{
+"t": "Tue 17:00",
+"game": "Dizel Penza vs HK Molot",
+"lg": "Russia - VHL",
+"pick": "Double chance Dizel Penza or HK Molot",
+"odds": 1.26,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794326400.0,
+"eid": "sr:match:73708456",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73708456|10||10"
+},
+{
+"t": "Tue 17:10",
+"game": "HC Dinamo Minsk vs HK Avangard Omsk",
+"lg": "Russia - KHL",
+"pick": "Double chance HC Dinamo Minsk or HK Avangard Omsk",
+"odds": 1.24,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794327000.0,
+"eid": "sr:match:72166582",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72166582|10||10"
+},
+{
+"t": "Tue 18:45",
+"game": "Hacken Gothenburg W vs Chelsea FC W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Chelsea FC W excluded goals: 2",
+"odds": 1.26,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794332700.0,
+"eid": "sr:match:74371838",
+"mid": "450006",
+"spec": "",
+"oid": "2",
+"k": "74371838|450006||2"
+},
+{
+"t": "Tue 19:30",
+"game": "HG Dunkerque vs Meudon Hockey Club",
+"lg": "France - Division 1",
+"pick": "Double chance HG Dunkerque or Meudon Hockey Club",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794335400.0,
+"eid": "sr:match:73738092",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73738092|10||10"
+},
+{
+"t": "Tue 19:30",
+"game": "Rungsted Seier Capital vs Esbjerg Energy",
+"lg": "Denmark - Superisligaen",
+"pick": "Double chance Rungsted Seier Capital or Esbjerg Energy",
+"odds": 1.16,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794335400.0,
+"eid": "sr:match:73350460",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73350460|10||10"
+},
+{
+"t": "Tue 19:45",
+"game": "EHC Basel vs EHC Chur Capricorns",
+"lg": "Switzerland - Swiss League",
+"pick": "Double chance EHC Basel or EHC Chur Capricorns",
+"odds": 1.16,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794336300.0,
+"eid": "sr:match:72710472",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72710472|10||10"
+},
+{
+"t": "Tue 20:15",
+"game": "IC Epinal vs Morzine-Avoriaz",
+"lg": "France - Division 1",
+"pick": "Double chance IC Epinal or Morzine-Avoriaz",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794338100.0,
+"eid": "sr:match:73738090",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73738090|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 14:31",
 "req": {
 "type": "best",
@@ -7208,175 +7421,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "72044812|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 20:37",
-"req": {
-"type": "o25",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-09",
-"2026-11-10",
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "strict"
-},
-"ok": true,
-"kind": "Over 2.5 (high-scoring leagues)",
-"note": [],
-"tickets": [
-{
-"code": "XGUQ5P",
-"odds": 44.85,
-"legs": [
-{
-"t": "Tue 02:00",
-"game": "AD Rosario vs Pitbulls Santa Barbara FC",
-"lg": "Costa Rica - Liga de Ascenso",
-"pick": "Over 2.5",
-"odds": 1.85,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.4 goals; Flashscore home/away form 70%",
-"ts": 1794272400.0,
-"eid": "sr:match:76409632",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76409632|18|total=2.5|12"
-},
-{
-"t": "Tue 15:00",
-"game": "Colchester United U21 vs Charlton Athletic U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "Over 2.5 in 90% / 80% of the teams' last 10, 100% of 8 meetings, league avg 3.7 goals; Flashscore home/away form 90%",
-"ts": 1794319200.0,
-"eid": "sr:match:73601828",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73601828|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Enfield Town vs Lewes FC",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "Over 2.5 in 90% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals; Flashscore home/away form 70%",
-"ts": 1794339900.0,
-"eid": "sr:match:75997138",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75997138|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Cray Wanderers vs Three Bridges",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 4.1 goals; Flashscore home/away form 80%",
-"ts": 1794339900.0,
-"eid": "sr:match:75232648",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75232648|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Anstey Nomads vs Kettering Town",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "Over 2.5 in 70% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 70%",
-"ts": 1794339900.0,
-"eid": "sr:match:73022094",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73022094|18|total=2.5|12"
-},
-{
-"t": "Tue 21:00",
-"game": "AS Roma W vs Servette Geneva W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 80%",
-"ts": 1794340800.0,
-"eid": "sr:match:74371842",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371842|18|total=2.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Juventus Turin W vs Olympique Lyon W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "Over 2.5 in 100% / 90% of the teams' last 10, 71% of 7 meetings, league avg 3.8 goals",
-"ts": 1794427200.0,
-"eid": "sr:match:74371852",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371852|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.8 goals",
-"ts": 1794668400.0,
-"eid": "sr:match:72740804",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740804|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"lg": "Scotland - League 1",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "Over 2.5 in 89% / 70% of the teams' last 10, league avg 3.6 goals",
-"ts": 1794668400.0,
-"eid": "sr:match:72203982",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72203982|18|total=2.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "West Ham United FC Women vs Charlton Athletic",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.7,
-"why": "Over 2.5 in 90% / 70% of the teams' last 10, 100% of 3 meetings, league avg 3.6 goals",
-"ts": 1794751200.0,
-"eid": "sr:match:73346116",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346116|18|total=2.5|12"
 }
 ]
 }
