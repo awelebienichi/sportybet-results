@@ -196,7 +196,12 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
             import sources
             msup, mbad = sources.check(c)
         except Exception: msup, mbad = [], []
-        if mbad: bad = True                                              # FotMob / DFP / Vitibet clearly against it
+        try:
+            import season
+            ss, sb = season.check(c, g); msup += ss
+            if sb: mbad = (mbad or []) + sb
+        except Exception: pass
+        if mbad: bad = True                                              # FotMob / DFP / Vitibet / the season record clearly against it
         c["more"] = msup
         return c, hr, fr, sup, bad
     from concurrent.futures import ThreadPoolExecutor

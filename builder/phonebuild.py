@@ -631,6 +631,75 @@ def pick_markets(G, LX, groups, want):
                         why=f"stats rate {r:.0%} from both teams' last 10" + (f" and {len(hh)} meetings" if len(hh) >= 3 else "")))
     return sorted(out, key=lambda r: -r["s"])
 
+# ---------- season-data ticket types (lower divisions too): goal-fest, always-beaten, draw & low-scoring ----------
+def pick_season(G, LX, kind, want):
+    import season
+    L = ST["L"]
+    usable = [g for g in G if len(LX.get(g["hid"], [])) >= 6 and len(LX.get(g["aid"], [])) >= 6]
+    # quick last-10 pre-filter so only promising games need their season tables
+    def l10(g):
+        H, A = LX[g["hid"]], LX[g["aid"]]
+        tot = lambda L_: sum(m["gf"] + m["ga"] for m in L_) / len(L_)
+        lose = lambda L_: sum(m["gf"] < m["ga"] for m in L_) / len(L_)
+        if kind == "goalfest": return min(tot(H), tot(A))
+        if kind == "beaten": return max(lose(H), lose(A))
+        return -max(tot(H), tot(A))                                   # drawlow: the lower the better
+    pre = sorted(usable, key=lambda g: -l10(g))[:max(80, want * 4)]
+    season.prefetch(pre, len(pre))
+    C = []
+    for g in pre:
+        Hs, As = season.teams(g)
+        if not Hs or not As or min(Hs["n"], As["n"]) < 5: continue
+        h, a = season.rates(Hs), season.rates(As)
+        H, A = LX[g["hid"]], LX[g["aid"]]
+        f = lambda L_, c: sum(1 for m in L_ if c(m)) / len(L_)
+        if kind == "goalfest":
+            g2 = (h["gpg"] + a["gpg"]) / 2
+            if min(h["gpg"], a["gpg"]) < 3.0 - L * 3 or g2 < 3.5 - L * 3: continue
+            o25 = (f(H, lambda m: m["gf"] + m["ga"] >= 3) + f(A, lambda m: m["gf"] + m["ga"] >= 3)) / 2
+            o35 = (f(H, lambda m: m["gf"] + m["ga"] >= 4) + f(A, lambda m: m["gf"] + m["ga"] >= 4)) / 2
+            for k, r_, line in (("o25", o25, "total=2.5"), ("o35", o35, "total=3.5")):
+                C.append((g, "18", line, "12", f"Over {line[-3:]}", r_, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game ({h['n']}/{a['n']} games)"))
+        elif kind == "beaten":
+            for weak, strong, side in ((h, a, "a"), (a, h, "h")):
+                if weak["loss"] < .7 - L or strong["loss"] > .4 + L or strong["ppg"] < 1.3 - L * 2: continue
+                venue_loss = weak["hloss"] if side == "a" else weak["aloss"]
+                if venue_loss is not None and venue_loss < .6 - L: continue
+                S, W = (A, H) if side == "a" else (H, A)
+                r_win = (f(S, lambda m: m["gf"] > m["ga"]) + f(W, lambda m: m["gf"] < m["ga"])) / 2
+                r_dc = (f(S, lambda m: m["gf"] >= m["ga"]) + f(W, lambda m: m["gf"] <= m["ga"])) / 2
+                team = g["a"] if side == "a" else g["h"]; wk = g["h"] if side == "a" else g["a"]
+                why = f"season: {wk} lost {weak['loss']:.0%} of {weak['n']}; {team} lost only {strong['loss']:.0%}"
+                C.append((g, "1", "", "3" if side == "a" else "1", f"{team} to win", r_win, why))
+                C.append((g, "10", "", "11" if side == "a" else "9", f"Double chance {team} or draw", r_dc, why))
+        else:   # drawlow
+            g2 = (h["gpg"] + a["gpg"]) / 2
+            low = max(h["gpg"], a["gpg"]) <= 2.4 + L * 3
+            if low:
+                u35 = (f(H, lambda m: m["gf"] + m["ga"] <= 3) + f(A, lambda m: m["gf"] + m["ga"] <= 3)) / 2
+                u25 = (f(H, lambda m: m["gf"] + m["ga"] <= 2) + f(A, lambda m: m["gf"] + m["ga"] <= 2)) / 2
+                C.append((g, "18", "total=3.5", "13", "Under 3.5", u35, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
+                if g2 <= 2.0 + L * 3: C.append((g, "18", "total=2.5", "13", "Under 2.5", u25, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
+            if min(h["draw"], a["draw"]) >= .40:
+                dr = (f(H, lambda m: m["gf"] == m["ga"]) + f(A, lambda m: m["gf"] == m["ga"])) / 2
+                C.append((g, "1", "", "2", "Draw", dr, f"season: draws {h['draw']:.0%} and {a['draw']:.0%}"))
+    # prices for the shortlisted games, then the best-value safe option per game
+    eids = list({c[0]["eid"]: c[0] for c in C}.values())
+    with ThreadPoolExecutor(8) as ex: MK = dict(zip([g["eid"] for g in eids], ex.map(lambda g: event_game(g["eid"])[1], eids)))
+    floor = .75 - L / 2
+    best = {}
+    for g, mid, spec, oid, pick, r_, why in C:
+        od = MK.get(g["eid"], {}).get((mid, spec, oid))
+        if not od or od < 1.06: continue
+        if not (mid == "1" and oid == "2") and (r_ < floor or od > 1.70): continue    # no coin-flip prices (draws are judged on their draw rate)
+        if mid == "18" and spec == "total=2.5" and oid == "13" and r_ < .80: continue     # Under 2.5: the tracker's weakest market
+        if mid == "1" and oid == "2" and r_ < .45 - L: continue
+        v = edge(r_, od)
+        if g["eid"] not in best or v > best[g["eid"]]["s"]:
+            best[g["eid"]] = dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=v, rate=r_,
+                                  why=f"{why}; last 10 rate {r_:.0%}")
+    return sorted(best.values(), key=lambda x: -x["s"])
+
 def finish(T, kind, names, note, req):
     """book every ticket, reload and check it, report"""
     res = []
@@ -679,7 +748,7 @@ def main(req):
             return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "beaten", "drawlow") else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
     dropped = 0
     if req.get("check", True):   # Flashscore home/away form + footybets must not go against a leg
@@ -687,7 +756,7 @@ def main(req):
             import extra
             P, dropped = extra.confirm(P, legs * nt)
         except Exception as e: print("extra checks skipped:", e)
-    names = {"markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
+    names = {"goalfest": "goal-fest teams (season data)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)

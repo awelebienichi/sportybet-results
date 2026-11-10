@@ -125,6 +125,10 @@ def confirm(P, need):
         F = fs_form(fid) if fid else None
         try: more = sources.check(p)
         except Exception: more = ([], [])
+        try:
+            import season
+            ss, sb = season.check_leg(p); more = (more[0] + ss, more[1] + sb)        # whole-season record (lower divisions too)
+        except Exception: pass
         return p, (fs_rate(p, F) if F else None), fb_verdict(p, fb_for(p)), more
     with ThreadPoolExecutor(8) as ex: R = list(ex.map(one, top))
     out = []; dropped = 0
