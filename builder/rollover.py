@@ -165,7 +165,7 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         mid, oid = c["mid"], c["oid"]
         if mid in ("19", "20") and oid == "13" and ((mid == "19" and xh <= xa) or (mid == "20" and xa <= xh)): continue   # weaker team only
         if (mid == "450005" and ((oid == "3" and xh < xa) or (oid == "0" and xh >= 3.1))) or (mid == "450006" and ((oid == "3" and xa < xh) or (oid == "0" and xa >= 3.1))): continue
-        if mid == "810002" and oid == "1": continue
+        if mid in ("450004", "450005", "450006", "810002") or (mid == "75" and oid == "76"): continue   # user, 10 Nov: no excluded goals or 1st half GG No in the rollover
         few_goals = (mid == "18" and oid == "13") or (mid == "450004" and oid == "5") or (mid == "68" and oid == "13") or (mid == "810002" and oid == "3")
         if few_goals and min(xh, xa) <= 1.35: continue          # blowout risk: a heavy favourite can run up the score
         goals_happen = (mid in ("18", "68") and oid == "12") or mid in ("29", "450001", "90", "69", "70", "91", "92", "860") or (mid == "75" and oid == "74")
