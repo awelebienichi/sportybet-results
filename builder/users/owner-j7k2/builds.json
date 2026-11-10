@@ -1,1 +1,15 @@
-[]
+[
+{
+"when": "Tue 10 Nov 21:52",
+"req": {
+"type": "combine",
+"codes": [
+"QGLGEF",
+"YDURTZ"
+],
+"u": "owner-j7k2"
+},
+"ok": false,
+"msg": "Could not load: QGLGEF, YDURTZ."
+}
+]
