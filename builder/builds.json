@@ -10,6 +10,60 @@
 ],
 "strict": "strict",
 "markets": [
+"xgt"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "Q5L4YX",
+"odds": 1.23,
+"legs": [
+{
+"t": "Tue 19:00",
+"game": "Ibis PE vs Centro Limoeirense",
+"lg": "Brazil - Pernambucano",
+"pick": "Centro Limoeirense excluded goals: 3+",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794333600.0,
+"eid": "sr:match:76594100",
+"mid": "450006",
+"spec": "",
+"oid": "3",
+"k": "76594100|450006||3"
+},
+{
+"t": "Tue 20:00",
+"game": "Bristol Rovers vs Reading FC",
+"lg": "England - EFL Trophy",
+"pick": "Bristol Rovers excluded goals: 3+",
+"odds": 1.13,
+"why": "stats rate 100% from both teams' last 10 and 7 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661290",
+"mid": "450005",
+"spec": "",
+"oid": "3",
+"k": "73661290|450005||3"
+}
+]
+}
+]
+},
+{
+"when": "Tue 10 Nov 10:31",
+"req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
 "xg"
 ]
 },
@@ -6799,176 +6853,6 @@
 "pick": "Excluded Number of Goals - Home \u2013 2",
 "odds": 1.21,
 "why": "from L22KJM",
-"ts": 1794256200.0,
-"eid": "sr:match:76174024",
-"mid": "450005",
-"spec": "",
-"oid": "2",
-"k": "76174024|450005||2"
-}
-]
-}
-]
-},
-{
-"when": "Mon 09 Nov 18:58",
-"req": {
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-09"
-],
-"strict": "normal",
-"markets": [
-"o25",
-"wu25",
-"u35",
-"u55",
-"xgt"
-]
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "L22KJM",
-"odds": 6.92,
-"legs": [
-{
-"t": "Mon 20:00",
-"game": "Middlesbrough U21 vs Derby County U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Middlesbrough U21 excluded goals: 2",
-"odds": 1.3,
-"why": "stats rate 96% from both teams' last 10 and 7 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:73603148",
-"mid": "450005",
-"spec": "",
-"oid": "2",
-"k": "73603148|450005||2"
-},
-{
-"t": "Mon 20:00",
-"game": "Torque vs Boston River",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "Torque excluded goals: 0",
-"odds": 1.12,
-"why": "stats rate 93% from both teams' last 10 and 3 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:76458598",
-"mid": "450005",
-"spec": "",
-"oid": "0",
-"k": "76458598|450005||0"
-},
-{
-"t": "Mon 20:00",
-"game": "Racing Club Montevideo vs CA River Plate (URU)",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "Racing Club Montevideo excluded goals: 1",
-"odds": 1.43,
-"why": "stats rate 93% from both teams' last 10 and 3 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:76458592",
-"mid": "450005",
-"spec": "",
-"oid": "1",
-"k": "76458592|450005||1"
-},
-{
-"t": "Mon 20:00",
-"game": "La Luz FC Reserves vs Albion FC",
-"lg": "Uruguay - Tercera Division, Reserves",
-"pick": "La Luz FC Reserves excluded goals: 2",
-"odds": 1.28,
-"why": "stats rate 90% from both teams' last 10 and 4 meetings",
-"ts": 1794250800.0,
-"eid": "sr:match:76458604",
-"mid": "450005",
-"spec": "",
-"oid": "2",
-"k": "76458604|450005||2"
-},
-{
-"t": "Mon 20:30",
-"game": "CE Sabadell FC vs Real Sociedad San Sebastian B",
-"lg": "Spain - LaLiga 2",
-"pick": "CE Sabadell FC excluded goals: 2",
-"odds": 1.28,
-"why": "stats rate 96% from both teams' last 10 and 4 meetings",
-"ts": 1794252600.0,
-"eid": "sr:match:72477578",
-"mid": "450005",
-"spec": "",
-"oid": "2",
-"k": "72477578|450005||2"
-},
-{
-"t": "Mon 20:30",
-"game": "Plymouth Parkway vs Berkhamsted FC",
-"lg": "England - FA Cup",
-"pick": "Under 5.5",
-"odds": 1.08,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794252600.0,
-"eid": "sr:match:75802948",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "75802948|18|total=5.5|13"
-},
-{
-"t": "Mon 20:45",
-"game": "Chelmsford City vs Ebbsfleet United FC",
-"lg": "England Amateur - National League South",
-"pick": "Chelmsford City excluded goals: 2",
-"odds": 1.22,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794253500.0,
-"eid": "sr:match:75018348",
-"mid": "450005",
-"spec": "",
-"oid": "2",
-"k": "75018348|450005||2"
-},
-{
-"t": "Mon 20:45",
-"game": "Redditch United vs Peterborough Sports",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "Peterborough Sports excluded goals: 0",
-"odds": 1.2,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings",
-"ts": 1794253500.0,
-"eid": "sr:match:73022092",
-"mid": "450006",
-"spec": "",
-"oid": "0",
-"k": "73022092|450006||0"
-},
-{
-"t": "Mon 21:00",
-"game": "Sportivo San Lorenzo vs Rubio Nu",
-"lg": "Paraguay - Division de Honor",
-"pick": "Sportivo San Lorenzo excluded goals: 3+",
-"odds": 1.06,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings",
-"ts": 1794254400.0,
-"eid": "sr:match:73038656",
-"mid": "450005",
-"spec": "",
-"oid": "3",
-"k": "73038656|450005||3"
-},
-{
-"t": "Mon 21:30",
-"game": "Independiente Valle Del Cauca vs Union Magdalena",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "Independiente Valle Del Cauca excluded goals: 2",
-"odds": 1.21,
-"why": "stats rate 93% from both teams' last 10 and 3 meetings",
 "ts": 1794256200.0,
 "eid": "sr:match:76174024",
 "mid": "450005",
