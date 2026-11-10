@@ -1,5 +1,105 @@
 [
 {
+"when": "Tue 10 Nov 23:51",
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "mix",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "strict",
+"from": "02:00",
+"to": "12:00",
+"rid": "mwbaav8m9als"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"Only 5 games passed the checks (Wed 11, 02:00\u201312:00, 24 games on SportyBet), so this ticket has 5 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "ZPX2JM",
+"odds": 2.87,
+"legs": [
+{
+"t": "Wed 02:00",
+"game": "Pumas Unam vs CF Tigres UANL",
+"lg": "Mexico - Liga MX, Women",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794358800.0,
+"eid": "sr:match:76595252",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76595252|68|total=0.5|12"
+},
+{
+"t": "Wed 04:00",
+"game": "FC Juarez vs CD Guadalajara",
+"lg": "Mexico - Liga MX, Women",
+"pick": "2nd half Over 0.5",
+"odds": 1.28,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794366000.0,
+"eid": "sr:match:76595254",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76595254|90|total=0.5|12"
+},
+{
+"t": "Wed 11:00",
+"game": "Kawasaki Frontale vs Kashiwa Reysol",
+"lg": "Japan - J.League Cup",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794391200.0,
+"eid": "sr:match:76186252",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76186252|90|total=0.5|12"
+},
+{
+"t": "Wed 11:30",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"lg": "Japan - J.League Cup",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794393000.0,
+"eid": "sr:match:76186248",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76186248|90|total=0.5|12"
+},
+{
+"t": "Wed 12:00",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794394800.0,
+"eid": "sr:match:72889702",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72889702|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 23:19",
 "req": {
 "u": "folabienichi-z8gl",
