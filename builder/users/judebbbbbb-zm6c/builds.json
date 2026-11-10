@@ -1,0 +1,18 @@
+[
+{
+"when": "Tue 10 Nov 21:31",
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "mix",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "normal"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for safest market per game (Tue 10) out of 3 on SportyBet. Try 'Relaxed', more days, or another type."
+}
+]
