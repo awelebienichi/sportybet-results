@@ -196,6 +196,8 @@ if (qs.get("u") && (!ME || ME.u !== qs.get("u"))) ME = { u: qs.get("u").toLowerC
 const UID = ME && ME.u && ME.u.length >= 3 ? ME.u : null;
 const USERBASE = UID ? `builder/users/${UID}/` : null;
 const withU = req => Object.assign({ u: UID, name: ME && ME.name }, req);
+if (qs.get("k")) { try { localStorage.setItem("sbAdmin", qs.get("k")); } catch (e) {} history.replaceState(null, "", location.pathname + "?u=" + (UID || "")); }
+let ADMIN = null; try { ADMIN = localStorage.getItem("sbAdmin"); } catch (e) {}
 function slug(s) { return (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "").slice(0, 14) || "user"; }
 if (!UID) {
   document.querySelectorAll(".card").forEach(c => { if (c.id !== "welcome") c.style.display = "none"; });
@@ -314,6 +316,11 @@ async function whoBar() {
   if (!UID) return;
   let prof = {};
   try { const r = await fetch(USERBASE + "profile.json?t=" + Date.now()); if (r.ok) prof = await r.json(); } catch (e) {}
+  if (prof.suspended) {
+    document.querySelectorAll(".card").forEach(c => { if (c.id !== "who") c.style.display = "none"; });
+    $("who").innerHTML = "⛔ <b>Your access has been paused by the site owner.</b><div class='meta' style='margin-top:6px'>Contact the site owner if you think this is a mistake.</div>";
+    return;
+  }
   const name = (ME && ME.name) || prof.name || UID;
   try { localStorage.setItem("sbUser", JSON.stringify({ u: UID, name })); } catch (e) {}
   const link = location.origin + location.pathname + "?u=" + UID;
@@ -335,9 +342,18 @@ async function loadAllUsers() {
       let B = []; try { const rr = await fetch(`builder/users/${x.u}/builds.json?t=` + Date.now()); if (rr.ok) B = await rr.json(); } catch (e) {}
       const last = x.last ? new Date(x.last * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" }) : "";
       const rows = B.filter(b => b.ok).slice(0, 8).map(b => b.tickets.map(t => `<li><span class="code" style="font-size:.9rem">${esc(t.code)}</span> <span class="meta">${esc(b.when)} · ${esc(b.kind || "")} · ${t.legs.length} legs · ${t.odds} odds</span> <span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span></li>`).join("")).join("");
-      return `<details><summary><b>${esc(x.name)}</b> <span class="meta">· ${x.builds} request(s) · last seen ${esc(last)}</span></summary><ol>${rows || "<li class='meta'>No tickets yet.</li>"}</ol></details>`;
+      const btn = ADMIN ? ` <button class="copy adm" type="button" data-u="${esc(x.u)}" data-a="${x.suspended ? "restore" : "suspend"}" style="${x.suspended ? "" : "background:var(--bad);color:#fff"}">${x.suspended ? "Restore" : "Suspend"}</button>` : "";
+      return `<details><summary><b>${esc(x.name)}</b>${x.suspended ? ' <span class="err">⛔ suspended</span>' : ""} <span class="meta">· ${x.builds} request(s) · last seen ${esc(last)}</span>${btn}</summary><ol>${rows || "<li class='meta'>No tickets yet.</li>"}</ol></details>`;
     }));
-    $("ulist").innerHTML = parts.join("");
+    $("ulist").innerHTML = parts.join("") + (ADMIN ? "" : '<p class="meta">Open your admin link once on this phone to get Suspend buttons here.</p>');
+    document.querySelectorAll("button.adm").forEach(b => b.onclick = async ev => {
+      ev.preventDefault(); ev.stopPropagation();
+      const who = b.closest("details").querySelector("b").textContent;
+      if (!confirm(`${b.dataset.a === "suspend" ? "Suspend" : "Restore"} ${who}?`)) return;
+      b.disabled = true; b.textContent = "Sending…";
+      try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "admin", action: b.dataset.a, target: b.dataset.u, key: ADMIN, u: UID }) }); b.textContent = "Done – updates in a minute"; }
+      catch (e) { b.textContent = "Failed – try again"; b.disabled = false; }
+    });
     paintScores();
   } catch (e) { $("ulist").innerHTML = '<p class="meta">Could not load users.</p>'; }
 }

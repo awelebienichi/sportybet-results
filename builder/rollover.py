@@ -263,7 +263,7 @@ def tick(notify_for, lock=None):
     """every person's rollover: notify_for(uid) gives the notify function for that person"""
     changed = False
     for uid in users.all_users():
-        if os.path.exists(users.paths(uid)["roll"]):
+        if os.path.exists(users.paths(uid)["roll"]) and not users.suspended(uid):      # a suspended person's rollover stops
             CUR["uid"] = uid
             try: changed |= bool(tick_one(notify_for(uid), lock))
             except Exception as e: print("rollover tick", uid, e, flush=True)

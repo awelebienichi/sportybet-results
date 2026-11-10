@@ -39,6 +39,17 @@ def handle(msgs, state):
         except Exception: continue
         if time.time() - m.get("time", time.time()) > 3 * 3600: continue        # stale request
         uid = users.resolve(req.get("u")); P = users.paths(uid); say = notifier(uid)
+        if req.get("type") == "admin":                                          # owner tools: suspend / restore a person
+            if not users.is_admin(req.get("key")): continue                     # wrong or missing admin key: ignored
+            tgt = users.resolve(req.get("target"))
+            if tgt != users.OWNER and req.get("action") in ("suspend", "restore"):
+                users.set_suspended(tgt, req["action"] == "suspend"); users.write_index()
+                if req["action"] == "suspend": notifier(tgt)("Access paused", "The site owner has paused your access to the ticket builder.", "default", "no_entry")
+                notifier(users.OWNER)(f"{users.profile(tgt).get('name', tgt)}: {'suspended' if req['action'] == 'suspend' else 'restored'}", "Done from your All users list.", "default", "lock")
+            continue
+        if users.suspended(uid):                                                 # suspended people can't book anything
+            if req.get("type") != "hello": say("Access paused", "The site owner has paused your access to the ticket builder.", "default", "no_entry")
+            continue
         users.remember(uid, req.get("name"))
         if req.get("type") == "hello": continue                                 # first visit: just registers the name
         if str(req.get("type", "")).startswith("rollover"):

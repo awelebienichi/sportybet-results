@@ -41,5 +41,23 @@ def write_index():
         except Exception: prof = {}
         try: n = len(json.load(open(P["builds"])))
         except Exception: n = 0
-        out.append(dict(u=uid, name=prof.get("name", uid), last=prof.get("last", 0), builds=n, owner=bool(prof.get("owner"))))
+        out.append(dict(u=uid, name=prof.get("name", uid), last=prof.get("last", 0), builds=n, owner=bool(prof.get("owner")), suspended=bool(prof.get("suspended"))))
     json.dump(sorted(out, key=lambda x: -x["last"]), open(os.path.join(USERS, "index.json"), "w"))
+
+import hashlib
+def is_admin(key):
+    """the owner's admin key (only its salted fingerprint is stored in the public repo)"""
+    try: want = json.load(open(os.path.join(HERE, "admin.json")))["sha256"]
+    except Exception: return False
+    return bool(key) and hashlib.sha256(("sportybet-admin:" + str(key)).encode()).hexdigest() == want
+
+def profile(uid):
+    try: return json.load(open(paths(uid)["profile"]))
+    except Exception: return {}
+
+def suspended(uid): return bool(profile(uid).get("suspended"))
+
+def set_suspended(uid, on):
+    p = paths(uid)["profile"]; prof = profile(uid)
+    prof["suspended"] = bool(on); prof["suspended_at"] = int(time.time()) if on else None
+    json.dump(prof, open(p, "w"))
