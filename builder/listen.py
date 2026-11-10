@@ -17,6 +17,8 @@ def warm():
             phonebuild.fetch_teams(G)                                                           # cached files < 6h old are reused
             import extra, scores
             print("warm: footybets tips", extra.warm_footybets(), "| flashscore games", len(scores.day_list(True)), flush=True)
+            import sources
+            print("warm: fotmob / dfp / vitibet per day", sources.warm([g["ts"] for g in G]), flush=True)
             print(f"warm: {len(G)} games, team form ready in {time.time()-t0:.0f}s", flush=True)
         except Exception: traceback.print_exc()
         time.sleep(90 * 60)

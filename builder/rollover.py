@@ -192,6 +192,12 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
                 fr = extra.fs_rate(c, F) if F else None
                 sup, bad = extra.fb_verdict(c, extra.fb_for(c))
             except Exception: pass
+        try:
+            import sources
+            msup, mbad = sources.check(c)
+        except Exception: msup, mbad = [], []
+        if mbad: bad = True                                              # FotMob / DFP / Vitibet clearly against it
+        c["more"] = msup
         return c, hr, fr, sup, bad
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(8) as ex: S = list(ex.map(sources, pre))
@@ -202,7 +208,8 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
                              ("footybets", sup / 100) if sup and sup >= 70 else None) if x]
         if not agree and (LEVELS[level]["need_second"] or hr is not None or fr is not None): continue   # second source must agree when there is one
         c["r"] = min(.97, min(c["tr"]) * .6 + (sum(v for _, v in agree) / len(agree) if agree else min(c["tr"]) - .05) * .4)
-        c["why"] = f"both teams {min(c['tr']):.0%}+ in their own last 10 (home {c['tr'][0]:.0%}, away {c['tr'][1]:.0%})" + ("; " + ", ".join(f"{n} {v:.0%}" for n, v in agree) if agree else "; no head-to-head/Flashscore data, nothing against")
+        agree += [(m, 1.0) for m in c.get("more", [])][:0]           # (shown below; not part of the rate)
+        c["why"] = f"both teams {min(c['tr']):.0%}+ in their own last 10 (home {c['tr'][0]:.0%}, away {c['tr'][1]:.0%})" + ("; " + ", ".join(f"{n} {v:.0%}" for n, v in agree) if agree else "; no head-to-head/Flashscore data, nothing against") + ("; " + ", ".join(c.get("more", [])) if c.get("more") else "")
         c["edge"] = phonebuild.value(c.get("key", ""), c["r"], c["odds"])
         if c["eid"] not in best or c["edge"] > best[c["eid"]]["edge"]: best[c["eid"]] = c      # the game's best-value strong pick
     pool = list(best.values())

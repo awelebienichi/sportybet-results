@@ -119,18 +119,22 @@ def confirm(P, need):
     """check the best `need`*2 legs (at least 40) against Flashscore venue form and footybets; drop contradicted ones"""
     top, rest = P[:max(need * 2, 40)], P[max(need * 2, 40):]
     scores.day_list(False)           # Flashscore game list: the listener keeps it warm; never wait for it here (first minutes after a restart: no Flashscore check)
+    import sources
     def one(p):
         fid = scores.match_fid(dict(k=p["eid"] + "|x", game=p["game"], ts=p["ts"]))
         F = fs_form(fid) if fid else None
-        return p, (fs_rate(p, F) if F else None), fb_verdict(p, fb_for(p))
+        try: more = sources.check(p)
+        except Exception: more = ([], [])
+        return p, (fs_rate(p, F) if F else None), fb_verdict(p, fb_for(p)), more
     with ThreadPoolExecutor(8) as ex: R = list(ex.map(one, top))
     out = []; dropped = 0
-    for p, fr, (sup, bad) in R:
-        if bad or (fr is not None and fr < .5): dropped += 1; continue
+    for p, fr, (sup, bad), (msup, mbad) in R:
+        if bad or mbad or (fr is not None and fr < .5): dropped += 1; continue      # any source clearly against it: out
         extra = []
         if fr is not None: extra.append(f"Flashscore home/away form {fr:.0%}")
         if sup: extra.append(f"footybets {sup}%")
+        extra += msup
         if extra: p["why"] += "; " + ", ".join(extra)
-        p["src"] = 1 + (fr is not None) + (sup is not None)
+        p["src"] = 1 + (fr is not None) + (sup is not None) + len(msup)
         out.append(p)
     return out + rest, dropped
