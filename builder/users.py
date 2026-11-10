@@ -51,6 +51,21 @@ def is_admin(key):
     except Exception: return False
     return bool(key) and hashlib.sha256(("sportybet-admin:" + str(key)).encode()).hexdigest() == want
 
+import hmac
+_SEEN = set()
+def signed_ok(req):
+    """owner actions are signed on the owner's phone: sig = HMAC-SHA256(owner key, "ts|type|target|u"), valid 10 minutes, once.
+    The key itself never travels (requests go through a public channel); the cloud knows it from the ADMIN_KEY secret."""
+    key = os.environ.get("ADMIN_KEY", "")
+    try: ts = int(req.get("ts", 0))
+    except Exception: return False
+    sig = str(req.get("sig", ""))
+    if not key or not sig or abs(time.time() - ts / 1000) > 600 or sig in _SEEN: return False
+    msg = f"{ts}|{req.get('type', '')}|{req.get('target', '')}|{req.get('u', '')}"
+    ok = hmac.compare_digest(hmac.new(key.encode(), msg.encode(), "sha256").hexdigest(), sig)
+    if ok: _SEEN.add(sig)
+    return ok
+
 def profile(uid):
     try: return json.load(open(paths(uid)["profile"]))
     except Exception: return {}

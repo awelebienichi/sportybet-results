@@ -24,6 +24,7 @@ jobs:
       - name: Listen and build
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ADMIN_KEY: ${{ secrets.ADMIN_KEY }}
           GH_TOKEN: ${{ github.token }}
           TZ: Africa/Lagos
           RUN_SECONDS: "20700"

@@ -41,13 +41,15 @@ def handle(msgs, state):
         if time.time() - m.get("time", time.time()) > 3 * 3600: continue        # stale request
         uid = users.resolve(req.get("u")); P = users.paths(uid); say = notifier(uid)
         if req.get("type") == "admin":                                          # owner tools: suspend / restore a person
-            if not users.is_admin(req.get("key")): continue                     # wrong or missing admin key: ignored
+            if not users.signed_ok(req): continue                               # not signed with the owner key: ignored
             tgt = users.resolve(req.get("target"))
             if tgt != users.OWNER and req.get("action") in ("suspend", "restore"):
                 users.set_suspended(tgt, req["action"] == "suspend"); users.write_index()
                 if req["action"] == "suspend": notifier(tgt)("Access paused", "The site owner has paused your access to the ticket builder.", "default", "no_entry")
                 notifier(users.OWNER)(f"{users.profile(tgt).get('name', tgt)}: {'suspended' if req['action'] == 'suspend' else 'restored'}", "Done from your All users list.", "default", "lock")
             continue
+        if uid == users.OWNER and not users.signed_ok(req):                      # nobody can act as the owner without the owner key
+            print("refused: owner request without a valid key", flush=True); continue
         if users.suspended(uid):                                                 # suspended people can't book anything
             if req.get("type") != "hello": say("Access paused", "The site owner has paused your access to the ticket builder.", "default", "no_entry")
             continue
@@ -60,6 +62,7 @@ def handle(msgs, state):
             try: rollover.handle(req, say, uid)
             except Exception as e: say("Rollover error", str(e), "default", "warning")
             continue
+        for _k in ("key", "sig", "ts"): req.pop(_k, None)                        # nothing secret goes into the public lists
         builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
         print("building", uid, req, flush=True); t0 = time.time()
         try: res = phonebuild.main(req)

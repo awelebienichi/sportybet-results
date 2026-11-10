@@ -206,6 +206,14 @@ if (qs.get("u") && (!ME || ME.u !== qs.get("u"))) ME = { u: qs.get("u").toLowerC
 const UID = ME && ME.u && ME.u.length >= 3 ? ME.u : null;
 const USERBASE = UID ? `builder/users/${UID}/` : null;
 const withU = req => { setTimeout(fastRefresh, 15000); return Object.assign({ u: UID, name: ME && ME.name }, req); };
+async function signReq(req) {
+  // owner phone only: a one-time signature made from the owner key; the key itself is never sent
+  if (!ADMIN || !(window.crypto && crypto.subtle)) return req;
+  const ts = Date.now(), msg = `${ts}|${req.type || ""}|${req.target || ""}|${req.u || ""}`;
+  const k = await crypto.subtle.importKey("raw", new TextEncoder().encode(ADMIN), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+  const s = await crypto.subtle.sign("HMAC", k, new TextEncoder().encode(msg));
+  return Object.assign({}, req, { ts, sig: [...new Uint8Array(s)].map(b => b.toString(16).padStart(2, "0")).join("") });
+}
 let fastUntil = 0;
 function fastRefresh() {
   const start = !fastUntil || Date.now() > fastUntil; fastUntil = Date.now() + 5 * 60 * 1000;
@@ -214,7 +222,7 @@ function fastRefresh() {
   tick();
 }
 if (qs.get("k")) { try { localStorage.setItem("sbAdmin", qs.get("k")); } catch (e) {} history.replaceState(null, "", location.pathname + "?u=" + (UID || "")); }
-let ADMIN = null; try { ADMIN = localStorage.getItem("sbAdmin"); } catch (e) {}
+var ADMIN = null; try { ADMIN = localStorage.getItem("sbAdmin"); } catch (e) {}
 function slug(s) { return (s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "").slice(0, 14) || "user"; }
 if (!UID) {
   document.querySelectorAll(".card").forEach(c => { if (c.id !== "welcome") c.style.display = "none"; });
@@ -258,7 +266,7 @@ $("mgo").onclick = async () => {
   try { localStorage.setItem("buildMk", JSON.stringify(mks)); } catch (e) {}
   $("mgo").disabled = true; $("mmsg").className = ""; $("mmsg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq(withU(req))) });
     if (!r.ok) throw new Error(r.status);
     $("mmsg").className = "ok"; $("mmsg").textContent = `Request sent: ${mks.length} market(s), ${days.length} day(s). Your code will appear in Recent tickets below in about 1–2 minutes.`;
   } catch (e) { $("mmsg").className = "err"; $("mmsg").textContent = "Could not send. Check your internet and try again."; }
@@ -275,7 +283,7 @@ $("rgo").onclick = async () => {
   const req = { type: "rebuild", code, markets, strict: $("strict").value }; const t = +$("rtarget").value; if (t > 1) req.target = t;
   $("rgo").disabled = true; $("rmsg").className = ""; $("rmsg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq(withU(req))) });
     if (!r.ok) throw new Error(r.status);
     $("rmsg").className = "ok"; $("rmsg").textContent = `Rebuilding ${code}` + (req.target ? ` to about ${req.target} odds` : "") + `. The new code will appear in Recent tickets below in about 1–2 minutes.`;
   } catch (e) { $("rmsg").className = "err"; $("rmsg").textContent = "Could not send. Check your internet and try again."; }
@@ -287,7 +295,7 @@ $("cgo").onclick = async () => {
   const req = { type: "combine", codes, split50: $("csplit").checked };
   $("cgo").disabled = true; $("cmsg").className = ""; $("cmsg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq(withU(req))) });
     if (!r.ok) throw new Error(r.status);
     $("cmsg").className = "ok"; $("cmsg").textContent = `Combining ${codes.length} codes. The new code will appear in Recent tickets below in about a minute.`;
   } catch (e) { $("cmsg").className = "err"; $("cmsg").textContent = "Could not send. Check your internet and try again."; }
@@ -297,7 +305,7 @@ for (let i = 6; i <= 20; i++) { const o = document.createElement("option"); o.va
 const naira = x => "₦" + Math.round(x).toLocaleString();
 async function roSend(req, msg) {
   $("romsg").className = ""; $("romsg").textContent = "Sending…";
-  try { const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) }); if (!r.ok) throw 0; $("romsg").className = "ok"; $("romsg").textContent = msg; }
+  try { const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq(withU(req))) }); if (!r.ok) throw 0; $("romsg").className = "ok"; $("romsg").textContent = msg; }
   catch (e) { $("romsg").className = "err"; $("romsg").textContent = "Could not send. Check your internet and try again."; }
 }
 $("rostart").onclick = () => {
@@ -341,10 +349,28 @@ $("wgo").onclick = async () => {
   try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "hello", u, name }) }); } catch (e) {}
   location.href = location.pathname + "?u=" + u;
 };
+async function keyOk(k) {
+  if (!k || !(window.crypto && crypto.subtle)) return false;
+  try {
+    const want = (await (await fetch("builder/admin.json?t=" + Date.now(), { cache: "no-store" })).json()).sha256;
+    const d = await crypto.subtle.digest("SHA-256", new TextEncoder().encode("sportybet-admin:" + k));
+    return [...new Uint8Array(d)].map(b => b.toString(16).padStart(2, "0")).join("") === want;
+  } catch (e) { return false; }
+}
 async function whoBar() {
   if (!UID) return;
   let prof = {};
   try { const r = await fetch(USERBASE + "profile.json?t=" + Date.now()); if (r.ok) prof = await r.json(); } catch (e) {}
+  if (prof.owner && !(await keyOk(ADMIN))) {
+    document.querySelectorAll(".card").forEach(c => { if (c.id !== "who") c.style.display = "none"; });
+    $("who").innerHTML = `🔒 <b>Owner dashboard</b><p class="meta" style="margin:6px 0">Enter your owner key to open it.</p><input id="okey" type="password" autocomplete="current-password" placeholder="Owner key"><div id="okmsg" class="err" style="margin-top:6px"></div><button id="okgo" type="button">Unlock</button>`;
+    $("okgo").onclick = async () => {
+      const k = $("okey").value.trim();
+      if (await keyOk(k)) { try { localStorage.setItem("sbAdmin", k); } catch (e) {} location.reload(); }
+      else { $("okmsg").textContent = "Wrong key."; }
+    };
+    return;
+  }
   if (prof.suspended) {
     document.querySelectorAll(".card").forEach(c => { if (c.id !== "who") c.style.display = "none"; });
     $("who").innerHTML = "⛔ <b>Your access has been paused by the site owner.</b><div class='meta' style='margin-top:6px'>Contact the site owner if you think this is a mistake.</div>";
@@ -397,7 +423,7 @@ async function loadAllUsers() {
       if (!confirm(`${b.dataset.a === "suspend" ? "Suspend" : "Restore"} ${b.dataset.who}?`)) return;
       b.disabled = true; b.textContent = "Sending…";
       try {
-        for (const id of b.dataset.ids.split(",")) await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "admin", action: b.dataset.a, target: id, key: ADMIN, u: UID }) });
+        for (const id of b.dataset.ids.split(",")) await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq({ type: "admin", action: b.dataset.a, target: id, u: UID })) });
         b.textContent = b.dataset.a === "suspend" ? "Suspended – list updates in a few minutes" : "Restored – list updates in a few minutes";
       } catch (e) { b.textContent = "Failed – try again"; b.disabled = false; }
     });
@@ -423,7 +449,7 @@ $("go").onclick = async () => {
   try { localStorage.setItem("buildForm", JSON.stringify(Object.assign({}, req, { type: $("type").value }))); } catch (e) {}
   $("go").disabled = true; $("msg").className = ""; $("msg").textContent = "Sending…";
   try {
-    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU(req)) });
+    const r = await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq(withU(req))) });
     if (!r.ok) throw new Error(r.status);
     $("msg").className = "ok";
     $("msg").textContent = `Request sent: ${req.tickets} × ` + (req.target ? `about ${req.target} odds (up to ${req.legs} legs)` : `${req.legs} legs`) + `, ${names[req.type]}. Days: ${days.length}. Your code will appear in Recent tickets below in about 1–2 minutes.`;
@@ -439,7 +465,7 @@ $("clearlist").onclick = async () => {
     localStorage.setItem("sbCleared", JSON.stringify(codes.slice(0, 400)));
   } catch (e) {}
   $("list").innerHTML = '<p class="meta" style="padding:8px 10px">Cleared.</p>';
-  try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU({ type: "clear_builds" })) }); } catch (e) {}
+  try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(await signReq(withU({ type: "clear_builds" }))) }); } catch (e) {}
 };
 async function loadList() {
   try {
