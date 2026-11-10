@@ -10,6 +10,60 @@
 ],
 "strict": "strict",
 "markets": [
+"h1dc"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "JSMMDF",
+"odds": 1.68,
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Barnet FC vs Leyton Orient London",
+"lg": "England - EFL Trophy",
+"pick": "1st half double chance Leyton Orient London or draw",
+"odds": 1.38,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings",
+"ts": 1794337200.0,
+"eid": "sr:match:73661456",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73661456|63||11"
+},
+{
+"t": "Tue 20:30",
+"game": "Bromley FC vs Milton Keynes Dons",
+"lg": "England - EFL Trophy",
+"pick": "1st half double chance Milton Keynes Dons or draw",
+"odds": 1.22,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings",
+"ts": 1794339000.0,
+"eid": "sr:match:73661478",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73661478|63||11"
+}
+]
+}
+]
+},
+{
+"when": "Tue 10 Nov 10:27",
+"req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
 "gb25"
 ]
 },
@@ -7822,19 +7876,5 @@
 ]
 }
 ]
-},
-{
-"when": "Mon 09 Nov 17:18",
-"req": {
-"type": "h1o05",
-"legs": 20,
-"tickets": 2,
-"days": [
-"2026-11-09"
-],
-"strict": "strict"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for 1st half Over 0.5 (Mon 09) out of 37 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
