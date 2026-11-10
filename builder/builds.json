@@ -1,5 +1,59 @@
 [
 {
+"when": "Tue 10 Nov 10:29",
+"req": {
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-10"
+],
+"strict": "strict",
+"markets": [
+"u45"
+]
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "KJBD7B",
+"odds": 1.36,
+"legs": [
+{
+"t": "Tue 16:00",
+"game": "Al Mokawloon Al Arab vs We SC",
+"lg": "Egypt - Egypt Cup",
+"pick": "Under 4.5",
+"odds": 1.07,
+"why": "stats rate 93% from both teams' last 10 and 3 meetings; Flashscore home/away form 90%",
+"ts": 1794322800.0,
+"eid": "sr:match:76079156",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76079156|18|total=4.5|13"
+},
+{
+"t": "Tue 19:00",
+"game": "FC Midtjylland vs Odense Q",
+"lg": "Denmark - A Liga, Women",
+"pick": "Under 4.5",
+"odds": 1.27,
+"why": "stats rate 93% from both teams' last 10 and 5 meetings; Flashscore home/away form 85%",
+"ts": 1794333600.0,
+"eid": "sr:match:72652492",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72652492|18|total=4.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Tue 10 Nov 10:28",
 "req": {
 "type": "markets",
@@ -7704,34 +7758,5 @@
 ]
 }
 ]
-},
-{
-"when": "Mon 09 Nov 18:36",
-"req": {
-"type": "markets",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-09",
-"2026-11-10"
-],
-"strict": "strict",
-"target": 50000,
-"markets": [
-"o15",
-"o25",
-"wu25",
-"h1u25",
-"u35",
-"u45",
-"u55",
-"h1ggn",
-"xg",
-"xgt",
-"xg1"
-]
-},
-"ok": false,
-"msg": "Could not reach 50000 odds with 20 legs or fewer from the 58 games that pass the checks for your chosen markets (Mon 09, Tue 10). Allow more legs or a lower target."
 }
 ]
