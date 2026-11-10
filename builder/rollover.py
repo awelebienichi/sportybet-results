@@ -127,7 +127,7 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         _, mk = phonebuild.event_game(g["eid"]); out = []
         for k, (mid, spec, oid, lab) in phonebuild.RB.items():
             od = mk.get((mid, spec, oid))
-            if od: out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], why=""))
+            if od: out.append(dict(key=k, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], why=""))
         for mid in ("69", "70", "91", "92"):          # a team to score in a half
             od = mk.get((mid, "total=0.5", "12"))
             if od:
@@ -159,6 +159,7 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
     for c in C:
         if c["odds"] < 1.12 or c["eid"] not in GM: continue
         g = GM[c["eid"]]
+        if not phonebuild.fits(c.get("key", ""), phonebuild.profile(g, LX)) or not phonebuild.side_ok(c.get("key", ""), g): continue     # nothing that contradicts the game
         xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
         if c["mid"] in ("1", "60200") and ((c["oid"] == "1" and xh >= xa) or (c["oid"] == "3" and xa >= xh)): continue   # never the weaker side
         if c["mid"] in ("10", "63") and ((c["oid"] == "11" and xh * 1.5 <= xa) or (c["oid"] == "9" and xa * 1.5 <= xh)): continue
@@ -199,7 +200,8 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         if not agree and (LEVELS[level]["need_second"] or hr is not None or fr is not None): continue   # second source must agree when there is one
         c["r"] = min(.97, min(c["tr"]) * .6 + (sum(v for _, v in agree) / len(agree) if agree else min(c["tr"]) - .05) * .4)
         c["why"] = f"both teams {min(c['tr']):.0%}+ in their own last 10 (home {c['tr'][0]:.0%}, away {c['tr'][1]:.0%})" + ("; " + ", ".join(f"{n} {v:.0%}" for n, v in agree) if agree else "; no head-to-head/Flashscore data, nothing against")
-        if c["eid"] not in best or c["r"] > best[c["eid"]]["r"]: best[c["eid"]] = c
+        c["edge"] = phonebuild.value(c.get("key", ""), c["r"], c["odds"])
+        if c["eid"] not in best or c["edge"] > best[c["eid"]]["edge"]: best[c["eid"]] = c      # the game's best-value strong pick
     pool = list(best.values())
     plan = None                                   # for 3..7 legs: the strongest legs priced high enough to reach the target together
     for k in range(2, LEVELS[level]["legs"] + 1):

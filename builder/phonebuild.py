@@ -304,6 +304,35 @@ def rates(g, LX, hh):
         R["dc_x2"] = both(lambda m: m["gf"] <= m["ga"], lambda m: m["gf"] >= m["ga"], lambda a, b: b >= a)
     return R
 
+# ---------- picking the RIGHT market for a game: value over the bookmaker, and nothing that contradicts the game ----------
+FEW = {"u35", "u45", "u55", "xg_5", "h1u25", "wu25_h", "wu25_a", "xg1_3", "h1gg_n", "xgh_3", "xga_3"}           # "few goals" picks
+MANY = {"o25", "gg", "h1gg_y", "gb25", "o15"}                                                                     # "goals" picks
+def edge(rate, odds):
+    """how far the stats beat the price: stats rate minus the bookmaker's de-margined chance"""
+    return rate - 1 / (odds * 1.06)
+MAIN = {"o15", "o25", "gg", "win_h", "win_a", "up_h", "up_a", "dc_1x", "dc_x2", "dc_12", "h1o05", "h2o05", "u35", "hgg", "h1dc_1x", "h1dc_x2"}
+def value(k, rate, odds):
+    """what the picker maximises: value over the price, with a nudge towards the main markets over exotic ones"""
+    return edge(rate, odds) + (.04 if k in MAIN else 0)
+def profile(g, LX):
+    """'high' if both teams' games went over 2.5 in 70%+ of their last 10 (or a heavy favourite could run up the score),
+    'low' if both stayed under 2.5 in 70%+"""
+    if min(g["x"].get("1", 99), g["x"].get("3", 99)) <= 1.35: return "high"     # blowout risk: no few-goals picks
+    H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+    if len(H) < 6 or len(A) < 6: return ""
+    o = lambda L: sum(m["gf"] + m["ga"] >= 3 for m in L) / len(L)
+    if o(H) >= .7 and o(A) >= .7: return "high"
+    if o(H) <= .3 and o(A) <= .3: return "low"
+    return ""
+def side_ok(k, g):
+    """never lean on the weaker side: 'Home or GG' only when the home team is the favourite or close to it"""
+    xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+    return not (k == "hgg" and xh > xa * 1.2)
+def fits(k, prof):
+    if prof == "high" and k in FEW: return False
+    if prof == "low" and k in ("o25", "gg", "h1gg_y"): return False
+    return True
+
 def pick_multi(G, LX, kind, want):
     keys = SETS[kind]; floor = {"gg": .68, "best": .8, "mix": .82}[kind] - ST["L"]
     pre = []
@@ -319,11 +348,11 @@ def pick_multi(G, LX, kind, want):
     with ThreadPoolExecutor(8) as ex: D = list(ex.map(detail, pre))
     out = []
     for g, hh, mk in D:
-        R = rates(g, LX, hh); opts = []
+        R = rates(g, LX, hh); opts = []; prof = profile(g, LX)
         for k in keys:
             mid, spec, oid, lab = MK[k]; od = mk.get((mid, spec, oid))
-            if not od or R.get(k, 0) < floor or od < 1.06: continue      # 1.01-1.05 prices add nothing to a ticket
-            opts.append((R[k] - od * .015, R[k], k, od))
+            if not od or R.get(k, 0) < floor or od < 1.06 or not fits(k, prof) or not side_ok(k, g): continue
+            opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = MK[k]
         out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=sc, rate=r,
@@ -494,10 +523,10 @@ def rebuild(req):
         if xa * 1.5 <= xh: against |= {"dc_1x", "h1dc_1x"}
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
-            if k in against or not od or od < 1.04 or R.get(k, 0) < .55 - ST["L"] / 2: continue
+            if k in against or not od or od < 1.04 or R.get(k, 0) < .55 - ST["L"] / 2 or not fits(k, profile(g, LX)) or not side_ok(k, g): continue
             if True: opts.append(dict(k=k, od=od, r=R[k], mid=mid, spec=spec, oid=oid, lab=lab.format(h=g["h"], a=g["a"])))
         if not opts: continue
-        opts.sort(key=lambda o: (-o["r"], o["od"]))
+        opts.sort(key=lambda o: (-value(o["k"], o["r"], o["od"]) if o["r"] >= .7 else 1 - o["r"], o["od"]))   # strong options by value first
         games.append(dict(g=g, opts=opts, i=0))
     if not games: return dict(ok=False, msg=f"None of the games on {code} offer the markets you ticked (or they have all started).")
     import math
@@ -573,7 +602,7 @@ def pick_markets(G, LX, groups, want):
     with ThreadPoolExecutor(8) as ex: D = list(ex.map(detail, pre))
     out = []
     for g, hh, mk in D:
-        R = rebuild_rates(g, LX, hh); xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+        R = rebuild_rates(g, LX, hh); xh, xa = g["x"].get("1", 99), g["x"].get("3", 99); prof = profile(g, LX)
         against = set()
         if xh < xa: against |= {"win_a", "up_a"}
         if xa < xh: against |= {"win_h", "up_h"}
@@ -582,8 +611,8 @@ def pick_markets(G, LX, groups, want):
         opts = []
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
-            if k in against or not od or od < 1.06 or R.get(k, 0) < floor: continue
-            opts.append((R[k] - od * .015, R[k], k, od))
+            if k in against or not od or od < 1.06 or R.get(k, 0) < floor or not fits(k, prof) or not side_ok(k, g): continue
+            opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = RB[k]
         out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=sc, rate=r,
