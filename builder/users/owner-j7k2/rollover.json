@@ -1,5 +1,5 @@
 {
-"active": false,
+"active": true,
 "history": [],
 "start_stake": 1000.0,
 "stake": 1000.0,
@@ -7,15 +7,15 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-10",
-"code": "RA4WTR",
-"odds": 4.07,
+"date": "2026-11-11",
+"code": "ND0NSW",
+"odds": 4.29,
 "stake": 1000.0,
-"n": 8,
+"n": 7,
 "result": null
 },
-"started": "2026-11-10",
+"started": "2026-11-11",
 "short": "lower",
-"min_odds": 1.8,
+"min_odds": 2.0,
 "level": "strong"
 }
