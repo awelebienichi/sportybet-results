@@ -669,6 +669,15 @@ def main(req):
         span = ", ".join(dt.date.fromisoformat(d).strftime("%a %d") for d in pick_days)
     else:
         G = games_cached(lo, hi); span = "up to " + hm(hi)
+    # time window within each day (Lagos time): "from"/"to" as HH:MM; to < from wraps past midnight (e.g. 22:00-06:00)
+    def _mins(x):
+        m = re.fullmatch(r"(\d{1,2}):(\d\d)", str(x or "")); return int(m.group(1)) * 60 + int(m.group(2)) if m else None
+    f_, t_ = _mins(req.get("from")), _mins(req.get("to"))
+    if f_ is not None and t_ is not None and not (f_ == 0 and t_ >= 23 * 60 + 59):
+        def _in(g):
+            w = dt.datetime.fromtimestamp(g["ts"], LAGOS); m = w.hour * 60 + w.minute
+            return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
+        G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
     P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_goals(G, LX, kind)
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
