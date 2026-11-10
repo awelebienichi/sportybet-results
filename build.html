@@ -315,7 +315,9 @@ loadRollover(); setInterval(() => { if (!document.hidden) loadRollover(); }, 120
 $("wgo").onclick = async () => {
   const name = $("wname").value.trim();
   if (name.length < 2) { $("wname").focus(); return; }
-  const u = slug(name) + "-" + Math.random().toString(36).slice(2, 6);
+  $("wgo").disabled = true; $("wgo").textContent = "Setting up your page…";     // one tap = one account
+  let prev = null; try { prev = JSON.parse(localStorage.getItem("sbUser") || "null"); } catch (e) {}
+  const u = prev && prev.u ? prev.u : slug(name) + "-" + Math.random().toString(36).slice(2, 6);
   try { localStorage.setItem("sbUser", JSON.stringify({ u, name })); } catch (e) {}
   try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "hello", u, name }) }); } catch (e) {}
   location.href = location.pathname + "?u=" + u;
@@ -343,7 +345,7 @@ async function whoBar() {
 }
 async function loadAllUsers() {
   try {
-    const r = await fetch("builder/users/index.json?t=" + Date.now()); const U = r.ok ? await r.json() : [];
+    const r = await fetch("builder/users/index.json?t=" + Date.now(), { cache: "no-store" }); const U = r.ok ? await r.json() : [];
     const others = U.filter(x => !x.owner);
     if (!others.length) { $("ulist").innerHTML = '<p class="meta">Nobody else has used the builder yet. Share your site link: people pick a name and get their own page.</p>'; return; }
     const parts = await Promise.all(others.map(async x => {
@@ -351,7 +353,7 @@ async function loadAllUsers() {
       const last = x.last ? new Date(x.last * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" }) : "";
       const rows = B.filter(b => b.ok).slice(0, 8).map(b => b.tickets.map(t => `<li><span class="code" style="font-size:.9rem">${esc(t.code)}</span> <span class="meta">${esc(b.when)} · ${esc(b.kind || "")} · ${t.legs.length} legs · ${t.odds} odds</span> <span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span></li>`).join("")).join("");
       const btn = ADMIN ? ` <button class="copy adm" type="button" data-u="${esc(x.u)}" data-a="${x.suspended ? "restore" : "suspend"}" style="${x.suspended ? "" : "background:var(--bad);color:#fff"}">${x.suspended ? "Restore" : "Suspend"}</button>` : "";
-      return `<details><summary><b>${esc(x.name)}</b>${x.suspended ? ' <span class="err">⛔ suspended</span>' : ""} <span class="meta">· ${x.builds} request(s) · last seen ${esc(last)}</span>${btn}</summary><ol>${rows || "<li class='meta'>No tickets yet.</li>"}</ol></details>`;
+      return `<details><summary><b>${esc(x.name)}</b> <span class="meta">(${esc(x.u)})</span>${x.suspended ? ' <span class="err">⛔ suspended</span>' : ""} <span class="meta">· ${x.builds} request(s) · last seen ${esc(last)}</span>${btn}</summary><ol>${rows || "<li class='meta'>No tickets yet.</li>"}</ol></details>`;
     }));
     $("ulist").innerHTML = parts.join("") + (ADMIN ? "" : '<p class="meta">Open your admin link once on this phone to get Suspend buttons here.</p>');
     document.querySelectorAll("button.adm").forEach(b => b.onclick = async ev => {
@@ -359,7 +361,7 @@ async function loadAllUsers() {
       const who = b.closest("details").querySelector("b").textContent;
       if (!confirm(`${b.dataset.a === "suspend" ? "Suspend" : "Restore"} ${who}?`)) return;
       b.disabled = true; b.textContent = "Sending…";
-      try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "admin", action: b.dataset.a, target: b.dataset.u, key: ADMIN, u: UID }) }); b.textContent = "Done – updates in a minute"; }
+      try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "admin", action: b.dataset.a, target: b.dataset.u, key: ADMIN, u: UID }) }); b.textContent = "Done – the list updates in a few minutes"; }
       catch (e) { b.textContent = "Failed – try again"; b.disabled = false; }
     });
     paintScores();
