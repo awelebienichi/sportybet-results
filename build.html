@@ -59,9 +59,10 @@
   <h1>Build a ticket</h1>
   <div id="who" class="card" style="padding:10px 14px"></div>
   <div id="welcome" class="card" style="display:none">
-    <strong>Welcome! What's your name?</strong>
-    <p class="meta" style="margin:4px 0 8px">Your tickets, scores and rollover will be kept on your own page. Nobody else's tickets will show here.</p>
-    <input id="wname" type="text" maxlength="30" placeholder="e.g. Tunde" autocomplete="nickname">
+    <strong>Welcome! What's your full name?</strong>
+    <p class="meta" style="margin:4px 0 8px">First and last name. Your tickets, scores and rollover will be kept on your own page; nobody else's tickets will show here.</p>
+    <input id="wname" type="text" maxlength="40" placeholder="e.g. Tunde Bakare" autocomplete="name">
+    <div id="wmsg" class="err" style="margin-top:6px"></div>
     <button id="wgo" type="button">Start</button>
   </div>
   <p class="sub">Works with your Mac off. The code arrives as a phone notification (ntfy), usually within a minute, and it shows below and on your results page.</p>
@@ -314,9 +315,19 @@ async function loadRollover() {
   } catch (e) { $("rostatus").textContent = "No rollover running yet."; }
 }
 loadRollover(); setInterval(() => { if (!document.hidden) loadRollover(); }, 120000);
+async function checkName(name, myId) {
+  name = name.replace(/\s+/g, " ").trim();
+  const words = name.split(" ").filter(w => w.replace(/[^\p{L}]/gu, "").length >= 2);
+  if (words.length < 2) return [null, "Please enter your first and last name."];
+  try {
+    const r = await fetch("builder/users/index.json?t=" + Date.now(), { cache: "no-store" }); const U = r.ok ? await r.json() : [];
+    if (U.some(x => x.u !== myId && (x.name || "").trim().toLowerCase() === name.toLowerCase())) return [null, "Someone already uses that name. Add your middle name or an initial (e.g. Tunde A. Bakare)."];
+  } catch (e) {}
+  return [name.replace(/\b\p{L}/gu, c => c.toUpperCase()), ""];
+}
 $("wgo").onclick = async () => {
-  const name = $("wname").value.trim();
-  if (name.length < 2) { $("wname").focus(); return; }
+  const [name, err] = await checkName($("wname").value, null);
+  if (!name) { $("wmsg").textContent = err; $("wname").focus(); return; }
   $("wgo").disabled = true; $("wgo").textContent = "Setting up your page…";     // one tap = one account
   let prev = null; try { prev = JSON.parse(localStorage.getItem("sbUser") || "null"); } catch (e) {}
   const u = prev && prev.u ? prev.u : slug(name) + "-" + Math.random().toString(36).slice(2, 6);
@@ -333,7 +344,20 @@ async function whoBar() {
     $("who").innerHTML = "⛔ <b>Your access has been paused by the site owner.</b><div class='meta' style='margin-top:6px'>Contact the site owner if you think this is a mistake.</div>";
     return;
   }
-  const name = (ME && ME.name) || prof.name || UID;
+  const name = prof.name || (ME && ME.name) || UID;
+  if (!prof.owner && name.trim().split(/\s+/).length < 2) {
+    const box = document.createElement("div"); box.className = "card";
+    box.innerHTML = `<strong>Please add your full name</strong><p class="meta" style="margin:4px 0 8px">So the site owner can tell everyone apart. First and last name.</p><input id="fname" type="text" maxlength="40" value="${esc(name)} " autocomplete="name"><div id="fmsg" class="err" style="margin-top:6px"></div><button id="fgo" type="button">Save my name</button>`;
+    $("who").after(box);
+    $("fgo").onclick = async () => {
+      const [nm, err] = await checkName($("fname").value, UID);
+      if (!nm) { $("fmsg").textContent = err; return; }
+      $("fgo").disabled = true; $("fgo").textContent = "Saving…";
+      try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "hello", u: UID, name: nm }) }); } catch (e) {}
+      try { localStorage.setItem("sbUser", JSON.stringify({ u: UID, name: nm })); } catch (e) {}
+      box.innerHTML = `<b>Thanks, ${esc(nm)}!</b> <span class="meta">Your name is saved.</span>`;
+    };
+  }
   try { localStorage.setItem("sbUser", JSON.stringify({ u: UID, name })); } catch (e) {}
   const link = location.origin + location.pathname + "?u=" + UID;
   const topic = "sportyuser-" + UID;
