@@ -29,6 +29,8 @@
   details summary { cursor:pointer; color:var(--muted); font-size:.9rem; margin-top:4px; }
   ol { padding-left:20px; margin:6px 0; font-size:.88rem; } li { margin:3px 0; }
   a { color:var(--accent); }
+  .ubox { border:1px solid var(--line); border-radius:12px; padding:10px; margin-top:10px; background:var(--bg); }
+  .ubox > .tline b { font-size:1.05rem; }
   .tlist { max-height:62vh; overflow-y:auto; margin-top:8px; border:1px solid var(--line); border-radius:10px; }
   .trow { padding:8px 10px; border-top:1px solid var(--line); }
   .trow:first-child { border-top:0; }
@@ -348,22 +350,30 @@ async function loadAllUsers() {
     const r = await fetch("builder/users/index.json?t=" + Date.now(), { cache: "no-store" }); const U = r.ok ? await r.json() : [];
     const others = U.filter(x => !x.owner);
     if (!others.length) { $("ulist").innerHTML = '<p class="meta">Nobody else has used the builder yet. Share your site link: people pick a name and get their own page.</p>'; return; }
-    const parts = await Promise.all(others.map(async x => {
-      let B = []; try { const rr = await fetch(`builder/users/${x.u}/builds.json?t=` + Date.now()); if (rr.ok) B = await rr.json(); } catch (e) {}
-      const last = x.last ? new Date(x.last * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" }) : "";
-      const rows = B.filter(b => b.ok).slice(0, 8).map(b => b.tickets.map(t => `<li><span class="code" style="font-size:.9rem">${esc(t.code)}</span> <span class="meta">${esc(b.when)} · ${esc(b.kind || "")} · ${t.legs.length} legs · ${t.odds} odds</span> <span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span></li>`).join("")).join("");
-      const btn = ADMIN ? ` <button class="copy adm" type="button" data-u="${esc(x.u)}" data-a="${x.suspended ? "restore" : "suspend"}" style="${x.suspended ? "" : "background:var(--bad);color:#fff"}">${x.suspended ? "Restore" : "Suspend"}</button>` : "";
-      return `<details><summary><b>${esc(x.name)}</b> <span class="meta">(${esc(x.u)})</span>${x.suspended ? ' <span class="err">⛔ suspended</span>' : ""} <span class="meta">· ${x.builds} request(s) · last seen ${esc(last)}</span>${btn}</summary><ol>${rows || "<li class='meta'>No tickets yet.</li>"}</ol></details>`;
+    // one box per person: accounts with the same name (e.g. Start tapped twice) are shown together
+    const people = {};
+    others.forEach(x => { const k = (x.name || x.u).trim().toLowerCase(); (people[k] = people[k] || { name: x.name || x.u, ids: [], last: 0, suspended: false }); people[k].ids.push(x.u); people[k].last = Math.max(people[k].last, x.last || 0); people[k].suspended = people[k].suspended || x.suspended; });
+    const boxes = await Promise.all(Object.values(people).sort((a, b) => b.last - a.last).map(async p => {
+      const lists = await Promise.all(p.ids.map(async id => { try { const rr = await fetch(`builder/users/${id}/builds.json?t=` + Date.now(), { cache: "no-store" }); return rr.ok ? await rr.json() : []; } catch (e) { return []; } }));
+      const tickets = lists.flat().filter(b => b.ok).flatMap(b => b.tickets.map(t => ({ t, b })));
+      const last = p.last ? new Date(p.last * 1000).toLocaleString([], { weekday: "short", hour: "2-digit", minute: "2-digit" }) : "";
+      const rows = tickets.slice(0, 30).map(({ t, b }) => `<div class="trow"><div class="tline"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button><span class="meta">${t.legs.length} legs · ${Number(t.odds).toLocaleString()} odds · ${esc(b.when)}</span><span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span></div>`
+        + `<details><summary>${esc(b.kind || "")} – show legs</summary><ol>${t.legs.map((l, i) => `<li><span class="sc" data-k="${esc(t.code)}#${i}"></span>${esc(l.t)} ${esc(l.game)} — <b>${esc(l.pick)}</b> @ ${l.odds}</li>`).join("")}</ol></details></div>`).join("");
+      const btn = ADMIN ? `<button class="copy adm" type="button" data-ids="${esc(p.ids.join(","))}" data-who="${esc(p.name)}" data-a="${p.suspended ? "restore" : "suspend"}" style="margin-left:auto;${p.suspended ? "" : "background:var(--bad);color:#fff"}">${p.suspended ? "Restore" : "Suspend"}</button>` : "";
+      return `<div class="ubox"><div class="tline"><b>${esc(p.name)}</b>${p.suspended ? ' <span class="err">⛔ suspended</span>' : ""}<span class="meta">${tickets.length} ticket(s) · last seen ${esc(last)}${p.ids.length > 1 ? " · " + p.ids.length + " sign-ins" : ""}</span>${btn}</div>`
+        + `<div class="tlist" style="max-height:40vh">${rows || '<p class="meta" style="padding:8px 10px">No tickets yet.</p>'}</div></div>`;
     }));
-    $("ulist").innerHTML = parts.join("") + (ADMIN ? "" : '<p class="meta">Open your admin link once on this phone to get Suspend buttons here.</p>');
+    $("ulist").innerHTML = boxes.join("") + (ADMIN ? "" : '<p class="meta">Open your admin link once on this phone to get Suspend buttons here.</p>');
     document.querySelectorAll("button.adm").forEach(b => b.onclick = async ev => {
-      ev.preventDefault(); ev.stopPropagation();
-      const who = b.closest("details").querySelector("b").textContent;
-      if (!confirm(`${b.dataset.a === "suspend" ? "Suspend" : "Restore"} ${who}?`)) return;
+      ev.preventDefault();
+      if (!confirm(`${b.dataset.a === "suspend" ? "Suspend" : "Restore"} ${b.dataset.who}?`)) return;
       b.disabled = true; b.textContent = "Sending…";
-      try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "admin", action: b.dataset.a, target: b.dataset.u, key: ADMIN, u: UID }) }); b.textContent = "Done – the list updates in a few minutes"; }
-      catch (e) { b.textContent = "Failed – try again"; b.disabled = false; }
+      try {
+        for (const id of b.dataset.ids.split(",")) await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify({ type: "admin", action: b.dataset.a, target: id, key: ADMIN, u: UID }) });
+        b.textContent = b.dataset.a === "suspend" ? "Suspended – list updates in a few minutes" : "Restored – list updates in a few minutes";
+      } catch (e) { b.textContent = "Failed – try again"; b.disabled = false; }
     });
+    document.querySelectorAll("#ulist .copy:not(.adm)").forEach(x => x.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(x.dataset.c); x.textContent = "Copied"; });
     paintScores();
   } catch (e) { $("ulist").innerHTML = '<p class="meta">Could not load users.</p>'; }
 }
