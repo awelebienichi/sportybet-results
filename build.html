@@ -361,8 +361,6 @@ async function whoBar() {
   const link = location.origin + location.pathname + "?u=" + UID;
   const topic = "sportyuser-" + UID;
   $("who").innerHTML = `👋 <b>${esc(name)}</b> · <span class="meta">your own page – save this link:</span> <span class="code" style="font-size:.85rem">${esc(link)}</span> <button class="copy" type="button" id="cplink">Copy link</button>`
-    + (prof.owner ? `<div class="meta" style="margin-top:6px">Your codes go to your usual ntfy topic and your main results page.</div>`
-                  : `<div class="meta" style="margin-top:6px">Get your codes as notifications: install the free <b>ntfy</b> app and subscribe to <b>${esc(topic)}</b> <a href="https://ntfy.sh/${esc(topic)}" target="_blank" rel="noopener">(open)</a>.<br>Note: the site owner can see the tickets built here.</div>`)
     + `<div class="meta" style="margin-top:4px"><a href="#" id="switchu">Not you? Switch user</a></div>`;
   $("cplink").onclick = () => { navigator.clipboard && navigator.clipboard.writeText(link); $("cplink").textContent = "Copied"; };
   $("switchu").onclick = e => { e.preventDefault(); try { localStorage.removeItem("sbUser"); } catch (x) {} location.href = location.pathname; };
