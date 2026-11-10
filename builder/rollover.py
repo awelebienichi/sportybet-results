@@ -157,7 +157,7 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
     GOAL = {"18", "29", "450001", "68", "90", "69", "70", "91", "92", "860"}
     pre = []
     for c in C:
-        if c["odds"] < 1.12 or c["eid"] not in GM: continue
+        if c["odds"] < 1.12 or c["odds"] > 1.60 or c["eid"] not in GM: continue      # no coin-flip prices in a rollover
         g = GM[c["eid"]]
         if not phonebuild.fits(c.get("key", ""), phonebuild.profile(g, LX)) or not phonebuild.side_ok(c.get("key", ""), g): continue     # nothing that contradicts the game
         xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)

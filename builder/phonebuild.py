@@ -328,6 +328,18 @@ def side_ok(k, g):
     """never lean on the weaker side: 'Home or GG' only when the home team is the favourite or close to it"""
     xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
     return not (k == "hgg" and xh > xa * 1.2)
+def safe_enough(k, g, LX, rate, odds):
+    """a leg only goes on a ticket if BOTH teams are strong for it on their own (80%+), the pair is 85%+ (normal),
+    and it is not a coin-flip price (1.60 max). Value only decides between legs that already pass this."""
+    if odds > 1.60: return False
+    if rate < {0.0: .90, 0.1: .85, 0.2: .80}.get(round(ST["L"], 1), .85) - (0 if ST["L"] >= 0 else -.03): return False
+    try:
+        import rollover
+        mid, spec, oid, _ = RB.get(k, MK.get(k, (None, None, None, None)))
+        tr = rollover.team_rates(dict(mid=mid, spec=spec, oid=oid), g, LX) if mid else None
+    except Exception: tr = None
+    if tr and None not in tr and min(tr) < .80: return False
+    return True
 def fits(k, prof):
     if prof == "high" and k in FEW: return False
     if prof == "low" and k in ("o25", "gg", "h1gg_y"): return False
@@ -351,7 +363,7 @@ def pick_multi(G, LX, kind, want):
         R = rates(g, LX, hh); opts = []; prof = profile(g, LX)
         for k in keys:
             mid, spec, oid, lab = MK[k]; od = mk.get((mid, spec, oid))
-            if not od or R.get(k, 0) < floor or od < 1.06 or not fits(k, prof) or not side_ok(k, g): continue
+            if not od or R.get(k, 0) < floor or od < 1.06 or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R[k], od): continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = MK[k]
@@ -611,7 +623,7 @@ def pick_markets(G, LX, groups, want):
         opts = []
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
-            if k in against or not od or od < 1.06 or R.get(k, 0) < floor or not fits(k, prof) or not side_ok(k, g): continue
+            if k in against or not od or od < 1.06 or R.get(k, 0) < floor or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R[k], od): continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = RB[k]
