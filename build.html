@@ -29,6 +29,14 @@
   details summary { cursor:pointer; color:var(--muted); font-size:.9rem; margin-top:4px; }
   ol { padding-left:20px; margin:6px 0; font-size:.88rem; } li { margin:3px 0; }
   a { color:var(--accent); }
+  .tlist { max-height:62vh; overflow-y:auto; margin-top:8px; border:1px solid var(--line); border-radius:10px; }
+  .trow { padding:8px 10px; border-top:1px solid var(--line); }
+  .trow:first-child { border-top:0; }
+  .tline { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .tline .code { font-size:1rem; }
+  .tline .meta { font-size:.8rem; }
+  .trow details summary { font-size:.8rem; margin-top:2px; }
+  .trow ol { margin:4px 0 0; }
   .sc { display:inline-block; font:600 .8rem ui-monospace, Menlo, monospace; padding:1px 6px; border-radius:6px; margin-right:6px; }
   .sc:empty { display:none; }
   .sc.live { background:#fff3cd; color:#7a5a00; } .sc.won { background:#d6f5e0; color:#0a6b33; } .sc.lost { background:#fde2e1; color:#a1201a; }
@@ -179,8 +187,8 @@
   </div>
 
   <div class="card">
-    <strong>Recent tickets</strong> <span id="scoretime" class="meta"></span>
-    <div id="list"><p class="meta">Loading…</p></div>
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap"><strong>Recent tickets</strong> <span id="scoretime" class="meta"></span><button type="button" class="q" id="clearlist" style="margin-left:auto">Clear</button></div>
+    <div id="list" class="tlist"><p class="meta">Loading…</p></div>
   </div>
   <p class="meta">Every team passes your rules: favourites must have good form, head-to-head and be clear bookmaker favourites. Goal picks need both teams' last 10 and their meetings to agree. No game is used twice, and every code is reloaded and checked before it is sent. All codes are added to your tracker.</p>
 </main>
@@ -383,21 +391,35 @@ $("go").onclick = async () => {
   setTimeout(() => $("go").disabled = false, 4000);
 };
 function esc(s) { return String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+$("clearlist").onclick = async () => {
+  if (!confirm("Clear your recent tickets list? (Your main results page is not affected.)")) return;
+  try {
+    const r = await fetch(USERBASE + "builds.json?t=" + Date.now()); const B = r.ok ? await r.json() : [];
+    const codes = B.flatMap(b => b.ok ? b.tickets.map(t => t.code) : ["x" + b.when]);
+    localStorage.setItem("sbCleared", JSON.stringify(codes.slice(0, 400)));
+  } catch (e) {}
+  $("list").innerHTML = '<p class="meta" style="padding:8px 10px">Cleared.</p>';
+  try { await fetch("https://ntfy.sh/" + REQ, { method: "POST", body: JSON.stringify(withU({ type: "clear_builds" })) }); } catch (e) {}
+};
 async function loadList() {
   try {
     if (!USERBASE) return;
     const r = await fetch(USERBASE + "builds.json?t=" + Date.now()); const B = r.ok ? await r.json() : [];
-    if (!B.length) { $("list").innerHTML = '<p class="meta">No phone tickets yet.</p>'; return; }
-    let shown = 0;
-    $("list").innerHTML = B.map(b => {
-      const head = `<div class="meta">${esc(b.when)} · ${esc(b.kind || names[b.req && b.req.type] || "")} · ${esc(b.tickets && b.tickets[0] ? b.tickets[0].legs.length : (b.req||{}).legs || "")} legs${b.req && b.req.code ? " · from " + esc(b.req.code) : ""}${b.req && b.req.codes ? " · from " + esc(b.req.codes.join(" + ")) : ""}</div>`;
-      if (!b.ok) return `<div class="b">${head}<div class="warn">${esc(b.msg || "Not built")}</div></div>`;
-      return `<div class="b">${head}` + b.tickets.map(t => `
-        <div style="margin-top:6px"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button>
-        <span class="meta"> ${t.legs.length} legs · ${Number(t.odds).toLocaleString()} odds · first ${esc(t.legs[0].t)}</span> <span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span>
-        <details${shown++ < 4 ? " open" : ""}><summary>Show legs</summary><ol>${t.legs.map((l, i) => `<li><span class="sc" data-k="${esc(t.code)}#${i}"></span>${esc(l.t)} ${esc(l.game)} — <b>${esc(l.pick)}</b> @ ${l.odds}<br><span class="meta">${esc(l.why)}</span></li>`).join("")}</ol></details></div>`).join("")
-        + (b.note && b.note.length ? `<div class="warn meta">${esc(b.note.join(" "))}</div>` : "") + `</div>`;
-    }).join("");
+    if (!B.length) { $("list").innerHTML = '<p class="meta" style="padding:8px 10px">No tickets yet.</p>'; return; }
+    let hidden = []; try { hidden = JSON.parse(localStorage.getItem("sbCleared") || "[]"); } catch (e) {}
+    const rows = [];
+    B.forEach(b => {
+      const what = esc(b.kind || names[b.req && b.req.type] || "") + (b.req && b.req.code ? " · from " + esc(b.req.code) : "") + (b.req && b.req.codes ? " · from " + esc(b.req.codes.join(" + ")) : "");
+      if (!b.ok) { if (!hidden.includes("x" + b.when)) rows.push(`<div class="trow"><div class="meta">${esc(b.when)} · ${what}</div><div class="warn meta">${esc(b.msg || "Not built")}</div></div>`); return; }
+      b.tickets.forEach(t => {
+        if (hidden.includes(t.code)) return;
+        rows.push(`<div class="trow"><div class="tline"><span class="code">${esc(t.code)}</span><button class="copy" type="button" data-c="${esc(t.code)}">Copy</button>`
+          + `<span class="meta">${t.legs.length} legs · ${Number(t.odds).toLocaleString()} odds · ${esc(b.when)}</span><span class="tally" data-code="${esc(t.code)}" data-n="${t.legs.length}"></span></div>`
+          + `<details><summary>${what} – show legs</summary><ol>${t.legs.map((l, i) => `<li><span class="sc" data-k="${esc(t.code)}#${i}"></span>${esc(l.t)} ${esc(l.game)} — <b>${esc(l.pick)}</b> @ ${l.odds}<br><span class="meta">${esc(l.why)}</span></li>`).join("")}</ol>`
+          + (b.note && b.note.length ? `<div class="warn meta">${esc(b.note.join(" "))}</div>` : "") + `</details></div>`);
+      });
+    });
+    $("list").innerHTML = rows.join("") || '<p class="meta" style="padding:8px 10px">No tickets yet.</p>';
     paintScores();
     document.querySelectorAll(".copy").forEach(x => x.onclick = () => { navigator.clipboard && navigator.clipboard.writeText(x.dataset.c); x.textContent = "Copied"; });
   } catch (e) { $("list").innerHTML = '<p class="meta">Could not load recent tickets.</p>'; }

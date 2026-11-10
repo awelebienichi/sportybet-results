@@ -52,6 +52,8 @@ def handle(msgs, state):
             continue
         users.remember(uid, req.get("name"))
         if req.get("type") == "hello": continue                                 # first visit: just registers the name
+        if req.get("type") == "clear_builds":                                   # "Clear" on Recent tickets: empty this person's list
+            json.dump([], open(P["builds"], "w")); continue
         if str(req.get("type", "")).startswith("rollover"):
             import rollover
             try: rollover.handle(req, say, uid)
