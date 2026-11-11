@@ -2,6 +2,135 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NHX6NE",
+"at": 1794397568,
+"when": "Wed 11 Nov 12:46",
+"kind": "goal-fest teams (season data)",
+"odds": 717.15,
+"status": "open",
+"legs": [
+{
+"t": "Wed 20:45",
+"game": "Avro FC vs Whitby Town",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794426300.0
+},
+{
+"t": "Thu 02:00",
+"game": "Club America vs Deportivo Toluca FC",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1794445200.0
+},
+{
+"t": "Thu 04:00",
+"game": "CF Pachuca vs CF Monterrey",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794452400.0
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "Over 2.5",
+"odds": 1.65,
+"ts": 1794519000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Treowen Stars",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Crusaders FC vs Carrick Rangers",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794599100.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ringsted IF vs BK Frem",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Hoersholm-Usseroed IK vs Naesby BK",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Brentwood Town FC vs Ramsgate FC",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Harrogate Town vs Altrincham FC",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "MKS Chojniczanka Chojnice vs Zawisza Bydgoszcz",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1794676500.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794682800.0
+},
+{
+"t": "Sun 15:00",
+"game": "West Ham United FC Women vs Charlton Athletic",
+"pick": "Over 2.5",
+"odds": 1.7,
+"ts": 1794751200.0
+}
+]
+},
+{
 "code": "HE4V0Z",
 "at": 1794397476,
 "when": "Wed 11 Nov 12:44",
