@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PV6RGA",
+"at": 1794398064,
+"when": "Wed 11 Nov 12:54",
+"kind": "live \u2013 best of all",
+"odds": 2.89,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:55",
+"game": "Croatia vs Hungary",
+"pick": "Under 4.5",
+"odds": 1.25,
+"ts": 1794398118.9701042
+},
+{
+"t": "Wed 12:55",
+"game": "Ukraine vs Israel",
+"pick": "Under 5.5",
+"odds": 1.35,
+"ts": 1794398120.2728345
+},
+{
+"t": "Wed 12:55",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.35,
+"ts": 1794398120.4101636
+},
+{
+"t": "Wed 12:55",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"pick": "Over 1.5 (another goal)",
+"odds": 1.27,
+"ts": 1794398120.8636575
+}
+]
+},
+{
 "code": "LRYBZS",
 "at": 1794397804,
 "when": "Wed 11 Nov 12:50",
