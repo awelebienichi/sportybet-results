@@ -1,5 +1,111 @@
 [
 {
+"when": "Wed 11 Nov 13:54",
+"at": 1794401647,
+"req": {
+"type": "rollover",
+"legs": 6,
+"rid": "mwc4eg2kr61y"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6200 \u2192 returns \u20a6756 if it wins"
+],
+"tickets": [
+{
+"code": "ZYGFLM",
+"odds": 3.78,
+"legs": [
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.22,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 85%",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74838476|18|total=1.5|12"
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"lg": "France - Premiere Ligue, Women",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 80%; FotMob: 3.8 goals a game, Vitibet tip 2-1, season: 3.8 goals a game",
+"ts": 1794412800.0,
+"eid": "sr:match:76587064",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76587064|18|total=1.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Over 1.5",
+"odds": 1.25,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 90%",
+"ts": 1794416400.0,
+"eid": "sr:match:75233056",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75233056|18|total=1.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "SC Wiedenbruck vs SC Preussen Munster II",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Asian handicap SC Preussen Munster II +1.5",
+"odds": 1.56,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794416400.0,
+"eid": "sr:match:76604662",
+"mid": "16",
+"spec": "hcp=-1.5",
+"oid": "1715",
+"k": "76604662|16|hcp=-1.5|1715"
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "both teams 80%+ in their own last 10 (home 90%, away 80%); Flashscore home/away 95%; season: 1.6 goals a game",
+"ts": 1794416400.0,
+"eid": "sr:match:74041580",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74041580|18|total=3.5|13"
+},
+{
+"t": "Wed 19:00",
+"game": "Independiente Reserve vs CA Lanus",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 100%); head-to-head 86%, Flashscore home/away 85%",
+"ts": 1794420000.0,
+"eid": "sr:match:75133622",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75133622|450001||25"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:48",
 "at": 1794401307,
 "req": {

@@ -8,14 +8,14 @@
 "day": 1,
 "current": {
 "date": "2026-11-11",
-"code": "G2FD41",
-"odds": 4.01,
+"code": "ZYGFLM",
+"odds": 3.78,
 "stake": 200.0,
-"n": 7,
+"n": 6,
 "result": null
 },
 "started": "2026-11-11",
-"short": "skip",
-"min_odds": 4.0,
+"short": "lower",
+"min_odds": 1.8,
 "level": "strong"
 }
