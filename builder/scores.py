@@ -262,7 +262,7 @@ def run_once():
         fid = match_fid(l)
         s = (flash_score(fid) if fid else None) or radar_score(gk)
         if (not s or s["st"] == "ns") and now - l["ts"] > 20 * 60: s = sporty_score(gk) or s      # neither source has it: SportyBet's own score
-        if s and s["st"] == "ft" and (s["ht"] is not None or s["src"] in ("sportradar", "sportybet")): _final[gk] = s
+        if s and s["st"] == "ft" and (s["ht"] is not None or s["src"] == "sportradar"): _final[gk] = s     # SportyBet's score (no half-time) is not kept as final: Flashscore is tried again
         return gk, s
     with ThreadPoolExecutor(10) as ex: S = dict(ex.map(score, games.values()))
     out = {}
