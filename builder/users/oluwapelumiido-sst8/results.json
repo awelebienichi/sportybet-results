@@ -2,6 +2,30 @@
 "from": 1794392334,
 "tickets": [
 {
+"code": "UVXA39",
+"at": 1794394371,
+"when": "Wed 11 Nov 11:52",
+"kind": "live \u2013 another goal coming",
+"odds": 1.33,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:53",
+"game": "Kawasaki Frontale vs Kashiwa Reysol",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.16,
+"ts": 1794394427.4237247
+},
+{
+"t": "Wed 11:53",
+"game": "Yokohama F Marinos vs Kashima Antlers",
+"pick": "Over 2.5 (another goal)",
+"odds": 1.15,
+"ts": 1794394428.550317
+}
+]
+},
+{
 "code": "S3PBM9",
 "at": 1794392657,
 "when": "Wed 11 Nov 11:24",
