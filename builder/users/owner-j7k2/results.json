@@ -2220,14 +2220,17 @@
 "when": "Wed 11 Nov 12:50",
 "kind": "always-beaten teams (season data)",
 "odds": 159.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 18:30",
 "game": "NK Sampion Celje vs NK Smartno 1928",
 "pick": "NK Smartno 1928 to win",
 "odds": 1.7,
-"ts": 1794418200.0
+"ts": 1794418200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Thu 13:30",
@@ -2682,14 +2685,17 @@
 "when": "Wed 11 Nov 07:29",
 "kind": "always-beaten teams (season data)",
 "odds": 1.68,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 18:30",
 "game": "NK Sampion Celje vs NK Smartno 1928",
 "pick": "NK Smartno 1928 to win",
 "odds": 1.68,
-"ts": 1794418200.0
+"ts": 1794418200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 }
