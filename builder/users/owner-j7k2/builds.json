@@ -1,5 +1,71 @@
 [
 {
+"when": "Wed 11 Nov 23:24",
+"at": 1794435885,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "rebuild",
+"code": "WBGQ2A",
+"markets": [
+"o15",
+"o25",
+"gg",
+"win",
+"up",
+"dc",
+"hgg",
+"gb25",
+"h1",
+"h2",
+"h1dc",
+"htx",
+"wu25",
+"h1u25",
+"u35",
+"u45",
+"u55",
+"h1ggy",
+"h1ggn",
+"eh",
+"m5x",
+"m10x",
+"xg",
+"xgt",
+"xg1"
+],
+"strict": "normal",
+"rid": "mwcosexaazs1"
+},
+"ok": true,
+"kind": "rebuild of WBGQ2A",
+"note": [
+"1 game(s) had none of your markets with strong enough stats (55%+) and were left out."
+],
+"tickets": [
+{
+"code": "YJ4Z9F",
+"odds": 1.61,
+"legs": [
+{
+"t": "Thu 01:00",
+"game": "New York Knicks vs Cleveland Cavaliers",
+"lg": "USA - NBA",
+"pick": "New York Knicks to win",
+"odds": 1.61,
+"why": "stats rate 65% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794441600.0,
+"eid": "sr:match:73719608",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "73719608|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 23:01",
 "at": 1794434472,
 "req": {
@@ -9575,21 +9641,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 17:55",
-"at": 1794416103,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 2,
-"strict": "relaxed",
-"rid": "mwcd0cehme2j",
-"target": 2
-},
-"ok": false,
-"msg": "2 odds can't be reached right now: 7 live leg(s) are strong enough, and the most they make with up to 2 legs is 1.20 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
