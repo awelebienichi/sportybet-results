@@ -1,5 +1,50 @@
 [
 {
+"when": "Wed 11 Nov 07:29",
+"at": 1794378596,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "beaten",
+"legs": 1,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbqodjesrt9"
+},
+"ok": true,
+"kind": "always-beaten teams (season data)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "RCL947",
+"odds": 1.68,
+"legs": [
+{
+"t": "Wed 18:30",
+"game": "NK Sampion Celje vs NK Smartno 1928",
+"lg": "Slovenia - 3. SNL",
+"pick": "NK Smartno 1928 to win",
+"odds": 1.68,
+"why": "season: NK Sampion Celje lost 75% of 12; NK Smartno 1928 lost only 33%; last 10 rate 75%; Flashscore home/away form 55%",
+"ts": 1794418200.0,
+"eid": "sr:match:76195354",
+"mid": "1",
+"spec": "",
+"oid": "3",
+"k": "76195354|1||3"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 07:20",
 "req": {
 "u": "owner-j7k2",
