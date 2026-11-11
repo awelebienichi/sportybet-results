@@ -2,6 +2,65 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "G2FD41",
+"at": 1794385206,
+"when": "Wed 11 Nov 09:20",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.01,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Kawasaki Frontale vs Kashiwa Reysol",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794391200.0
+},
+{
+"t": "Wed 11:00",
+"game": "Georgia vs Denmark",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794391200.0
+},
+{
+"t": "Wed 12:00",
+"game": "Ukraine vs Israel",
+"pick": "Over 1.5",
+"odds": 1.28,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 13:00",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Under 3.5",
+"odds": 1.35,
+"ts": 1794398400.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794423600.0
+}
+]
+},
+{
 "code": "TTTTM0",
 "at": 1794385059,
 "when": "Wed 11 Nov 09:17",
