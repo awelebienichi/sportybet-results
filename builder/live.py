@@ -125,6 +125,7 @@ def _prematch(g, mid, oid, spec):
     season table, head-to-head) blocks the leg; the ones for it are listed in the reason."""
     import extra, scores, sources, season
     ln = float(spec.split("=")[1]) if spec.startswith("total=") else None
+    if mid in ("14", "16", "19", "20"): return _own_record(g, mid, oid, spec, ln)
     if mid in ("14", "16"):                                                     # the backed side: needs to outscore from here -> its win record, else its not-lose record
         back_h = oid in ("1711", "1714"); hs, as_ = g["score"]
         if mid == "16": v = float(spec.split("=")[1]); cushion = (hs - as_ + v) if back_h else (as_ - hs - v)
@@ -168,7 +169,48 @@ def _prematch(g, mid, oid, spec):
     except Exception: pass
     return sup, bad
 
+def _own_record(g, mid, oid, spec, ln):
+    """handicaps and team goals have their own test – a 1X2 or match-total proxy would judge the wrong thing
+    (e.g. 'Romania +2.5' only needs Romania not to lose by 3+, not to avoid defeat).
+    Handicap: how often each side's recent games (and the meetings) ended with a margin that clears the line.
+    Team goals: that team's own scoring and the rival's conceding against the line."""
+    LX = P.fetch_teams([g]); H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+    if len(H) < 6 or len(A) < 6: return [], ["not enough recent games"]
+    f = lambda L, c: sum(1 for m in L if c(m)) / len(L)
+    hh = P.h2h(g["hid"], g["aid"])
+    if mid in ("14", "16"):
+        if mid == "16": v = float(spec.split("=")[1]); need = -v                          # home margin must be > need (home side) / < need (away side)
+        else:
+            x, y = [int(t) for t in spec.split("=")[1].split(":")]; need = y - x
+        home_side = oid in ("1711", "1714")
+        ok_h = (lambda m: m["gf"] - m["ga"] > need) if home_side else (lambda m: m["gf"] - m["ga"] < need)      # home team's games, its own side
+        ok_a = (lambda m: m["ga"] - m["gf"] > need) if home_side else (lambda m: m["ga"] - m["gf"] < need)      # away team's games, seen from the home side
+        rh, ra = f(H, ok_h), f(A, ok_a)
+        hr = (sum(1 for a_, b_ in hh if ((a_ - b_ > need) if home_side else (a_ - b_ < need))) / len(hh)) if len(hh) >= 3 else None
+        label = "margin record"
+    else:
+        over = oid == "12"; home_team = mid == "19"
+        own, opp = (H, A) if home_team else (A, H)
+        c_own = (lambda m: m["gf"] > ln) if over else (lambda m: m["gf"] < ln)
+        c_opp = (lambda m: m["ga"] > ln) if over else (lambda m: m["ga"] < ln)
+        rh, ra = f(own, c_own), f(opp, c_opp)
+        hr = (sum(1 for a_, b_ in hh if (((a_ if home_team else b_) > ln) == over)) / len(hh)) if len(hh) >= 3 else None
+        label = "goals record"
+    sup, bad = [], []
+    lo = min(rh, ra)
+    if lo < .6: bad.append(f"{label} only {lo:.0%} in one side's last games")
+    elif lo >= .8: sup.append(f"{label} {rh:.0%} / {ra:.0%} in both sides' last games")
+    if hr is not None:
+        if hr < .5: bad.append(f"h2h only {hr:.0%} of {len(hh)} meetings")
+        elif hr >= .75: sup.append(f"h2h {hr:.0%} of {len(hh)} meetings")
+    return sup, bad
+
+# safety levels: (stats chance, chance after the bookmaker's price, a backing source required). From the replay of 696 finished
+# matches, legs the model put at 88%+ came true ~93-95% of the time, 85-88% about 88%, 80-85% about 82%.
+LEVELS = {"strict": (.88, .82, True), "normal": (.85, .78, False), "relaxed": (.80, .74, False)}
+
 def build(req):
+    LV = LEVELS.get(req.get("strict", "strict"), LEVELS["strict"])
     strat = req.get("strategy", "mix"); legs = max(1, min(int(req.get("legs", 2)), 40))
     E = [e for e in _live_list() if _in_play(e)]
     if not E: return dict(ok=False, msg="No games are in play right now. Try again when matches are on (usually from late morning).")
@@ -225,7 +267,7 @@ def build(req):
             # half-time were weaker (85-89%) than from 45' on (94-95%); handicaps and results held at 93-96% at every minute
             if kind == "goals": p -= .06
             if kind == "dead" and g["minute"] < 45: continue
-            if p < .88: continue
+            if p < LV[0]: continue
             if strat != "mix" and kind != strat: continue
             C.append((g, mid, spec, oid, _label(g, mid, spec, oid), p,
                       f"{g['h']} expected {g['lh']:.1f} and {g['a']} {g['la']:.1f} more goals ({g['src']}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance"))
@@ -238,13 +280,13 @@ def build(req):
         od = MK.get(g["eid"], {}).get((mid, spec, oid))
         if not od: continue
         p = (p + 1 / (od * 1.06)) / 2                                           # the stats model and the bookmaker's own price must agree
-        if p < .82: continue                                                    # high chance, no coin-flip prices
+        if p < LV[1]: continue                                                  # high chance, no coin-flip prices
         per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
                                                  lg=g["lg"], rate=p, s=P.edge(p, od), why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
     def choose(L):
         for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5))[:4]:      # best value with a high chance first; no market is preferred
             sup, bad = _prematch(leg["g"], leg["mid"], leg["oid"], leg["spec"])    # every pre-match source the builder uses
-            if bad or not sup: continue                                         # at least one source for it, none against
+            if bad or (LV[2] and not sup): continue                             # none against it (strict: at least one source for it too)
             if sup: leg["why"] += "; " + ", ".join(sup)
             leg.pop("g"); return leg
     with ThreadPoolExecutor(6) as ex: best = {k: v for k, v in zip(per, ex.map(choose, per.values())) if v}
@@ -265,5 +307,6 @@ def build(req):
     else: B = B[:legs]
     if target > 1: note = [f"Target {target:g} odds reached with {len(B)} leg(s), strongest first."]
     else: note = [] if len(B) >= legs else [f"Only {len(B)} live leg(s) were strong enough right now (you asked for {legs})."]
+    if req.get("strict", "strict") != "strict": note.append({"normal": "Normal safety: in testing about 88 in 100 such legs came true.", "relaxed": "Relaxed safety: in testing only about 82 in 100 such legs came true."}[req["strict"]])
     note.append("Live odds move fast – load the code on SportyBet straight away.")
     return P.finish([B], "live", {"live": f"live – {dict(handicap='handicap & Asian handicap', goals='another goal coming', hold='favourite holding a lead', dead='quiet game', mix='best of all').get(strat, strat)}"}, note, req)
