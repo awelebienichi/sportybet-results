@@ -1,5 +1,180 @@
 [
 {
+"when": "Wed 11 Nov 09:06",
+"at": 1794384408,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"markets": [
+"o15",
+"up",
+"dc",
+"u55"
+],
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbu4z34ymo4"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "LJLNDS",
+"odds": 10.69,
+"legs": [
+{
+"t": "Wed 12:00",
+"game": "Ukraine vs Israel",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.28,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%",
+"ts": 1794394800.0,
+"eid": "sr:match:75856724",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75856724|18|total=1.5|12"
+},
+{
+"t": "Wed 12:00",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"lg": "Spain - Primera Federacion, Women",
+"pick": "Double chance Villarreal CF or CD Alba Fundacion",
+"odds": 1.32,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings",
+"ts": 1794394800.0,
+"eid": "sr:match:75880544",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75880544|10||10"
+},
+{
+"t": "Wed 15:00",
+"game": "Newell's Old Boys vs CA Huracan",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Double chance Newell's Old Boys or CA Huracan",
+"odds": 1.31,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings",
+"ts": 1794405600.0,
+"eid": "sr:match:76585764",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76585764|10||10"
+},
+{
+"t": "Wed 15:00",
+"game": "Barycz Sulow vs Miedz Legnica II",
+"lg": "Poland - III Liga, Group 3",
+"pick": "Double chance Barycz Sulow or Miedz Legnica II",
+"odds": 1.27,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794405600.0,
+"eid": "sr:match:72516820",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72516820|10||10"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Double chance Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.27,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72891356|10||10"
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"lg": "Spain Amateur - Tercera Federacion, Group 11",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings; Flashscore home/away form 75%, season: 3.1 goals a game",
+"ts": 1794414600.0,
+"eid": "sr:match:75667382",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75667382|18|total=1.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Over 1.5",
+"odds": 1.24,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794416400.0,
+"eid": "sr:match:75233056",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75233056|18|total=1.5|12"
+},
+{
+"t": "Wed 18:45",
+"game": "UD Castellonense vs CF La Nucia",
+"lg": "Spain - Segunda Federacion",
+"pick": "Double chance UD Castellonense or CF La Nucia",
+"odds": 1.31,
+"why": "stats rate 86% from both teams' last 10 and 6 meetings",
+"ts": 1794419100.0,
+"eid": "sr:match:75879234",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75879234|10||10"
+},
+{
+"t": "Wed 19:00",
+"game": "CD Castellon B vs Club Deportiva Minera",
+"lg": "Spain - Segunda Federacion",
+"pick": "Double chance CD Castellon B or Club Deportiva Minera",
+"odds": 1.25,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794420000.0,
+"eid": "sr:match:75880552",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "75880552|10||10"
+},
+{
+"t": "Wed 20:00",
+"game": "Zamora FC Barinas II vs Deportivo Lara",
+"lg": "Venezuela - Segunda Division",
+"pick": "Double chance Zamora FC Barinas II or Deportivo Lara",
+"odds": 1.25,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings",
+"ts": 1794423600.0,
+"eid": "sr:match:76676540",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76676540|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 09:05",
 "at": 1794384339,
 "req": {
