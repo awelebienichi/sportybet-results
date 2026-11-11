@@ -1,4 +1,22 @@
 {
 "from": 1794378137,
-"tickets": []
+"tickets": [
+{
+"code": "RCL947",
+"at": 1794378596,
+"when": "Wed 11 Nov 07:29",
+"kind": "always-beaten teams (season data)",
+"odds": 1.68,
+"status": "open",
+"legs": [
+{
+"t": "Wed 18:30",
+"game": "NK Sampion Celje vs NK Smartno 1928",
+"pick": "NK Smartno 1928 to win",
+"odds": 1.68,
+"ts": 1794418200.0
+}
+]
+}
+]
 }
