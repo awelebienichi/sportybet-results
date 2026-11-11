@@ -265,9 +265,10 @@ def build(req):
             if kind == "goals" and oid not in ("12", "74"): kind = "dead"
             # replay test (696 matches): "another goal" legs came true ~6 points less often than the model said; Unders before
             # half-time were weaker (85-89%) than from 45' on (94-95%); handicaps and results held at 93-96% at every minute
-            if kind == "goals": p -= .06
+            o15 = mid == "18" and spec == "total=1.5" and oid == "12"
+            if kind == "goals" and not o15: p -= .06                          # Over 1.5 tested the other way: the model under-rated it (85-90% said, 92% real)
             if kind == "dead" and g["minute"] < 45: continue
-            if p < LV[0]: continue
+            if p < (LV[0] - .05 if o15 else LV[0]): continue                    # Over 1.5 comes true ~5 points more often than the model says
             if strat != "mix" and kind != strat: continue
             C.append((g, mid, spec, oid, _label(g, mid, spec, oid), p,
                       f"{g['h']} expected {g['lh']:.1f} and {g['a']} {g['la']:.1f} more goals ({g['src']}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance"))
@@ -283,14 +284,26 @@ def build(req):
         if p < LV[1]: continue                                                  # high chance, no coin-flip prices
         per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
                                                  lg=g["lg"], rate=p, s=P.edge(p, od), why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
+    HC = lambda x: x["mid"] in ("14", "16")
+    O15 = lambda x: x["mid"] == "18" and x["spec"] == "total=1.5" and x["oid"] == "12"
     def choose(L):
-        for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5))[:4]:      # best value with a high chance first; no market is preferred
+        """the legs of one game that pass every check, best first: Over 1.5 first when it is strong, handicaps behind other markets"""
+        out = []
+        for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5 + (.05 if O15(x) else 0) - (.02 if HC(x) else 0)))[:4]:
             sup, bad = _prematch(leg["g"], leg["mid"], leg["oid"], leg["spec"])    # every pre-match source the builder uses
             if bad or (LV[2] and not sup): continue                             # none against it (strict: at least one source for it too)
             if sup: leg["why"] += "; " + ", ".join(sup)
-            leg.pop("g"); return leg
-    with ThreadPoolExecutor(6) as ex: best = {k: v for k, v in zip(per, ex.map(choose, per.values())) if v}
-    B = sorted(best.values(), key=lambda x: (-x["rate"], -x["s"]))
+            leg.pop("g", None); out.append(leg)
+        return out
+    with ThreadPoolExecutor(6) as ex: OK = [v for v in ex.map(choose, per.values()) if v]
+    OK.sort(key=lambda L: (-L[0]["rate"], -L[0]["s"]))
+    cap = max(1, legs // 3)                                                     # handicaps: at most a third of the ticket
+    B, nh = [], 0
+    for L in OK:                                                                # one leg per game
+        leg = next((x for x in L if not HC(x) or nh < cap), None)
+        if not leg: continue
+        nh += HC(leg); B.append(leg)
+    B.sort(key=lambda x: (-x["rate"], -x["s"]))
     if not B: return dict(ok=False, msg=f"{len(G)} games are in play and {len(per)} looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes.")
     target = float(req.get("target") or 0)
     if target > 1:                                                              # target odds: strongest legs first until the target is reached
