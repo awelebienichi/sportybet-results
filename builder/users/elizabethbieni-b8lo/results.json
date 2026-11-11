@@ -2,6 +2,58 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "ZYGFLM",
+"at": 1794401647,
+"when": "Wed 11 Nov 13:54",
+"kind": "daily rollover \u2013 day 1",
+"odds": 3.78,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "SC Wiedenbruck vs SC Preussen Munster II",
+"pick": "Asian handicap SC Preussen Munster II +1.5",
+"odds": 1.56,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 19:00",
+"game": "Independiente Reserve vs CA Lanus",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"ts": 1794420000.0
+}
+]
+},
+{
 "code": "T1H8DJ",
 "at": 1794401307,
 "when": "Wed 11 Nov 13:48",
@@ -742,7 +794,10 @@
 "game": "Villarreal CF vs CD Alba Fundacion",
 "pick": "Double chance Villarreal CF or CD Alba Fundacion",
 "odds": 1.32,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 13:00",
@@ -1267,7 +1322,10 @@
 "game": "Villarreal CF vs CD Alba Fundacion",
 "pick": "Double chance Villarreal CF or CD Alba Fundacion",
 "odds": 1.32,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 15:00",
