@@ -41,6 +41,13 @@ def team_rates(leg, g, LX):
     H1, A1 = [m for m in H if m["h1f"] is not None], [m for m in A if m["h1f"] is not None]
     f1 = lambda L, c: f(L, c) if len(L) >= 7 else None
     mid, oid, spec = leg["mid"], leg["oid"], leg["spec"]
+    if mid in ("14", "16") and spec.startswith("hcp="):    # handicaps: the backed side's goal margin must clear the line (home margin from each team's games)
+        if mid == "16": v = float(spec.split("=")[1]); need_h = -v if oid == "1714" else None; need_a = v if oid == "1715" else None
+        else:
+            x, y = [int(t) for t in spec.split("=")[1].split(":")]; need_h = y - x if oid == "1711" else None; need_a = x - y if oid == "1713" else None
+        if need_h is not None: return f(H, lambda m: m["gf"] - m["ga"] > need_h), f(A, lambda m: m["ga"] - m["gf"] > need_h)
+        if need_a is not None: return f(H, lambda m: m["ga"] - m["gf"] > need_a), f(A, lambda m: m["gf"] - m["ga"] > need_a)
+        return None
     if mid == "18" and spec == "total=1.5" or (mid == "450001" and oid == "25"): c = lambda m: m["gf"] + m["ga"] >= 2; return f(H, c), f(A, c)
     if mid == "18" and spec == "total=2.5" and oid == "12": c = lambda m: m["gf"] + m["ga"] >= 3; return f(H, c), f(A, c)
     if mid == "29": c = lambda m: m["gf"] > 0 and m["ga"] > 0; return f(H, c), f(A, c)

@@ -39,6 +39,31 @@ def _pois_le(k, lam):
     """P(X <= k) for a Poisson(lam)"""
     return sum(math.exp(-lam) * lam ** i / math.factorial(i) for i in range(k + 1))
 
+def _pois(k, lam): return math.exp(-lam) * lam ** k / math.factorial(k)
+
+def _final_dist(hs, as_, lh, la, cap=10):
+    """{(home goals, away goals) at full time: probability}, each side's remaining goals an independent Poisson"""
+    ph = [_pois(i, lh) for i in range(cap)]; pa = [_pois(j, la) for j in range(cap)]
+    return {(hs + i, as_ + j): ph[i] * pa[j] for i in range(cap) for j in range(cap)}
+
+def _hcp_p(D, mid, spec, oid):
+    """chance a handicap outcome wins (Asian whole-line pushes count as not winning)"""
+    if mid == "14":
+        x, y = [int(v) for v in spec.split("=")[1].split(":")]
+        f = {"1711": lambda h, a: h + x > a + y, "1712": lambda h, a: h + x == a + y, "1713": lambda h, a: a + y > h + x}[oid]
+    else:
+        v = float(spec.split("=")[1])
+        f = (lambda h, a: h - a + v > 0) if oid == "1714" else (lambda h, a: a - h - v > 0)
+    return sum(p for (h, a), p in D.items() if f(h, a))
+
+def _hcp_label(g, mid, spec, oid):
+    if mid == "14":
+        x, y = spec.split("=")[1].split(":")
+        side = {"1711": g["h"], "1712": "Draw", "1713": g["a"]}[oid]
+        return f"Handicap {x}:{y} – {side}"
+    v = float(spec.split("=")[1]); v = v if oid == "1714" else -v
+    return f"Asian handicap {g['h'] if oid == '1714' else g['a']} {'+' if v > 0 else ''}{v:g}"
+
 def _live_odds(eid):
     d = P.curl(["-H", "Accept: application/json", "-H", "Referer: https://www.sportybet.com/ng/",
                 f"https://www.sportybet.com/api/ng/factsCenter/event?eventId={eid}&productId=1"], 60) or {}
@@ -55,7 +80,15 @@ def _prematch(g, mid, oid, spec):
     season table, head-to-head) blocks the leg; the ones for it are listed in the reason."""
     import extra, scores, sources, season
     ln = float(spec.split("=")[1]) if spec.startswith("total=") else None
-    if mid in ("1", "10"): proxy = dict(mid="1", oid={"9": "1", "11": "3"}.get(oid, oid), spec="")
+    if mid in ("14", "16"):                                                     # the backed side: needs to outscore from here -> its win record, else its not-lose record
+        back_h = oid in ("1711", "1714"); hs, as_ = g["score"]
+        if mid == "16": v = float(spec.split("=")[1]); cushion = (hs - as_ + v) if back_h else (as_ - hs - v)
+        else:
+            x, y = [int(t) for t in spec.split("=")[1].split(":")]; cushion = (hs + x - as_ - y) if back_h else (as_ + y - hs - x)
+        mid, oid = ("10", "9" if back_h else "11") if cushion > 0 else ("1", "1" if back_h else "3")
+        spec = ""
+    if mid == "10": proxy = dict(mid="10", oid=oid, spec="")                    # not-lose record (9 home or draw, 11 draw or away)
+    elif mid == "1": proxy = dict(mid="1", oid=oid, spec="")
     elif oid == "12": proxy = dict(mid="18", oid="12", spec=f"total={min(max(ln, 1.5), 2.5)}")     # Over 0.5/1.5 legs -> the teams' Over 1.5 record
     else: proxy = dict(mid="18", oid="13", spec=f"total={max(ln, 2.5) if ln <= 3.5 else 3.5}")
     p = dict(proxy, eid=g["eid"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", pick="", lg=g["lg"])
@@ -77,7 +110,10 @@ def _prematch(g, mid, oid, spec):
     try:                                                                         # head-to-head (last 8 meetings)
         hh = P.h2h(g["hid"], g["aid"])
         if len(hh) >= 3:
-            if mid in ("1", "10"):
+            if mid == "10":
+                lost = sum((a > h) if proxy["oid"] == "9" else (h > a) for h, a in hh) / len(hh)
+                if lost >= .6: bad.append(f"h2h: lost {lost:.0%} of {len(hh)} meetings")
+            elif mid == "1":
                 lost = sum((a > h) if proxy["oid"] == "1" else (h > a) for h, a in hh) / len(hh)
                 if lost >= .5: bad.append(f"h2h: lost {lost:.0%} of {len(hh)} meetings")
             else:
@@ -87,7 +123,7 @@ def _prematch(g, mid, oid, spec):
     return sup, bad
 
 def build(req):
-    strat = req.get("strategy", "mix"); legs = max(1, min(int(req.get("legs", 2)), 40))
+    strat = req.get("strategy", "handicap"); legs = max(1, min(int(req.get("legs", 2)), 40))
     E = [e for e in _live_list() if _in_play(e)]
     if not E: return dict(ok=False, msg="No games are in play right now. Try again when matches are on (usually from late morning).")
     G = [dict(eid=e["eventId"], ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"],
@@ -114,7 +150,14 @@ def build(req):
         left = max(1, 93 - g["minute"]) / 90                                    # share of the game still to play (with stoppage time)
         lam = gpg * left
         hs, as_ = g["score"]; tot = hs + as_
-        g.update(gpg=gpg, lam=lam, sH=sH, sA=sA)
+        # each side's scoring rate: its own scoring and the other side's conceding (last 10 and/or season)
+        def rate(L_, key):
+            return sum(m[key] for m in L_) / len(L_)
+        parts_h, parts_a = [], []
+        if have10: parts_h.append((rate(H, "gf") + rate(A, "ga")) / 2); parts_a.append((rate(A, "gf") + rate(H, "ga")) / 2)
+        if sH: parts_h.append((sH["gf"] + sA["ga"]) / 2); parts_a.append((sA["gf"] + sH["ga"]) / 2)
+        lh, la = sum(parts_h) / len(parts_h) * left, sum(parts_a) / len(parts_a) * left
+        g.update(gpg=gpg, lam=lam, sH=sH, sA=sA, lh=lh, la=la, src=src)
         # another goal coming: over (goals so far + 0.5)
         if strat in ("goals", "mix") and 10 <= g["minute"] <= 75:
             p = 1 - math.exp(-lam)
@@ -141,23 +184,44 @@ def build(req):
                 C.append((g, "1", "", "1" if lead_h else "3", f"{team} to win (leading {hs}-{as_})", p_win, f"{team} won {wr:.0%} of recent games, leads {hs}-{as_} at {g['minute']}'"))
                 p_dc = _pois_le(diff, lam_t)
                 C.append((g, "10", "", "9" if lead_h else "11", f"{team} or draw (leading {hs}-{as_})", p_dc, f"{team} won {wr:.0%} of recent games, leads {hs}-{as_} at {g['minute']}'"))
+    # handicap & Asian handicap (settled on the full-time score; SportyBet moves the lines with the live score)
+    if strat in ("handicap", "mix"):
+        HG = [g for g in G if "gpg" in g and g["minute"] is not None and 10 <= g["minute"] <= 85]
+        with ThreadPoolExecutor(8) as ex: HM = dict(zip([g["eid"] for g in HG], ex.map(lambda g: _live_odds(g["eid"]), HG)))
+        for g in HG:
+            g["mk"] = HM.get(g["eid"], {})
+            D = _final_dist(*g["score"], g["lh"], g["la"])
+            for (mid, spec, oid), od in g["mk"].items():
+                if mid not in ("14", "16") or not spec.startswith("hcp="): continue
+                if mid == "16" and float(spec.split("=")[1]) % 1 == 0: continue    # whole lines can end level (stake back) – half lines only
+                if mid == "14" and oid == "1712": continue                         # handicap draws: too narrow
+                if not 1.08 <= od <= 1.75: continue
+                p = _hcp_p(D, mid, spec, oid)
+                if p < .75: continue
+                back_h = oid in ("1711", "1714"); hs, as_ = g["score"]
+                C.append((g, mid, spec, oid, _hcp_label(g, mid, spec, oid), p,
+                          f"{g['h']} expected {g['lh']:.1f} and {g['a']} {g['la']:.1f} more goals ({g['src']}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance this handicap lands"))
     nodata = sum(1 for g in G if "gpg" not in g)
     if not C: return dict(ok=False, msg=f"{len(G)} games are in play, but none fits that strategy right now ({nodata} have no stats to judge them on). Try 'Best of all' or check back in a few minutes – the picture changes every few minutes.")
     # live prices for the candidates (the full in-play market list per game)
-    eids = list({c[0]["eid"] for c in C})
+    eids = [e for e in {c[0]["eid"] for c in C} if not next((g for g in G if g["eid"] == e and "mk" in g), None)]
     with ThreadPoolExecutor(8) as ex: MK = dict(zip(eids, ex.map(_live_odds, eids)))
+    MK.update({g["eid"]: g["mk"] for g in G if "mk" in g})
     best = {}
     for g, mid, spec, oid, pick, p, why in C:
         od = MK.get(g["eid"], {}).get((mid, spec, oid))
-        if not od or od < 1.08 or od > 1.75 or p < .75: continue                # high chance, no coin-flip prices
+        if not od or od < 1.08 or od > 1.75: continue
+        p = (p + 1 / (od * 1.06)) / 2                                           # the stats model and the bookmaker's own price must agree
+        if p < .75: continue                                                    # high chance, no coin-flip prices
         leg = dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=time.time() + 60, game=f"{g['h']} vs {g['a']}", lg=g["lg"],
                    rate=p, s=P.edge(p, od), why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}")
         sup, bad = _prematch(g, mid, oid, spec)                               # every pre-match source the builder uses
         if bad: continue
         if sup: leg["why"] += "; " + ", ".join(sup)
-        if g["eid"] not in best or leg["s"] > best[g["eid"]]["s"]: best[g["eid"]] = leg
-    B = sorted(best.values(), key=lambda x: (-x["rate"], -x["s"]))[:legs]
+        leg["pref"] = leg["s"] + (.05 if mid in ("14", "16") else 0)            # the live tab leans on handicaps
+        if g["eid"] not in best or leg["pref"] > best[g["eid"]]["pref"]: best[g["eid"]] = leg
+    B = sorted(best.values(), key=lambda x: (-(x["rate"] + (.03 if x["mid"] in ("14", "16") else 0)), -x["s"]))[:legs]
     if not B: return dict(ok=False, msg=f"{len(G)} games are in play and {len({c[0]['eid'] for c in C})} looked promising, but none reached a 75% chance at a fair price (1.08–1.75) without a stats source against it. Try again in a few minutes.")
     note = [] if len(B) >= legs else [f"Only {len(B)} live leg(s) were strong enough right now (you asked for {legs})."]
     note.append("Live odds move fast – load the code on SportyBet straight away.")
-    return P.finish([B], "live", {"live": f"live – {dict(goals='another goal coming', hold='favourite holding a lead', dead='quiet game', mix='best of all').get(strat, strat)}"}, note, req)
+    return P.finish([B], "live", {"live": f"live – {dict(handicap='handicap & Asian handicap', goals='another goal coming', hold='favourite holding a lead', dead='quiet game', mix='best of all').get(strat, strat)}"}, note, req)

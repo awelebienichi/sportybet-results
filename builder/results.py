@@ -18,7 +18,7 @@ def reset(uid):
 
 def status(legs):
     rs = [l.get("r", "") for l in legs]
-    return "lost" if "L" in rs else "won" if rs and all(r == "W" for r in rs) else "open"
+    return "lost" if "L" in rs else "won" if rs and all(r in ("W", "V") for r in rs) else "open"      # V: a void leg (Asian handicap push)
 
 def update(doc):
     """add new tickets and settle legs from the scores pass (doc = scores.run_once()); True when any file changed"""

@@ -161,6 +161,15 @@ def verdict(leg, s):
         if g is not None and g > line: return "W" if oid == "12" else "L"
         if ht is not None: return ("L" if oid == "12" else "W")
         return ""
+    if mid == "14":                         # handicap (3-way), "hcp=a:b": home gets a goals, away gets b; 1711 home, 1712 draw, 1713 away
+        if not fin: return ""
+        x, y = [int(v) for v in spec.split("=")[1].split(":")]
+        hh, aa = h + x, a + y
+        return "W" if (oid == "1711" and hh > aa) or (oid == "1712" and hh == aa) or (oid == "1713" and aa > hh) else "L"
+    if mid == "16":                         # Asian handicap, "hcp=x" for home (away gets -x); 1714 home, 1715 away; whole lines can push
+        if not fin: return ""
+        x = float(spec.split("=")[1]); d = (h - a + x) if oid == "1714" else (a - h - x)
+        return "W" if d > 0 else "L" if d < 0 else "V"
     if mid in ("90", "91", "92"):           # 2nd half totals: full time minus half time
         if ht is None: return ""
         g = {"90": (h + a) - (ht[0] + ht[1]), "91": h - ht[0], "92": a - ht[1]}[mid]

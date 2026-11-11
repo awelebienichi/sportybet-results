@@ -327,15 +327,18 @@ def profile(g, LX):
 def side_ok(k, g):
     """never lean on the weaker side: 'Home or GG' only when the home team is the favourite or close to it"""
     xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+    if k in ("ah_h_m15", "eh_h_01") and xh >= xa: return False                  # win by 2+: the favourite only
+    if k in ("ah_a_m15", "eh_a_10") and xa >= xh: return False
     return not (k == "hgg" and xh > xa * 1.2)
 SAFE = {0.0: (1.60, .02), 0.1: (1.75, -.03), 0.2: (2.00, -.08)}   # strictness -> (max odds, shift of the market's bar)
 # what "strong" means differs by market: a side winning 80% of games is rare, Over 1.5 at 80% is ordinary.
 # The pair (both teams' last 10 + meetings) must reach BAR + shift; each team on its own BAR + shift - 0.07.
 BAR = {"o15": .88, "o25": .78, "gg": .75, "win_h": .70, "win_a": .70, "up_h": .72, "up_a": .72, "dc_1x": .88, "dc_x2": .88, "dc_12": .85,
        "hgg": .85, "gb25": .85, "h1o05": .85, "h2o05": .88, "htx": .55, "h1dc_1x": .85, "h1dc_x2": .85, "wu25_h": .85, "wu25_a": .85,
-       "h1u25": .90, "u35": .85, "u45": .92, "u55": .96, "h1gg_y": .50, "h1gg_n": .85}
-LONG = {"htx": .9, "h1gg_y": 1.2}
-GAP = {"win_h": .15, "win_a": .15, "up_h": .15, "up_a": .15}   # result markets: one side wins most games, the other loses a fair share – a smaller share is enough           # markets that are never short prices: their price cap is raised by this much
+       "h1u25": .90, "u35": .85, "u45": .92, "u55": .96, "h1gg_y": .50, "h1gg_n": .85,
+       "ah_h_m15": .62, "ah_a_m15": .62, "eh_h_01": .62, "eh_a_10": .62, "ah_h_p15": .88, "ah_a_p15": .88, "eh_h_20": .88, "eh_a_02": .88, "ah_h_p25": .94, "ah_a_p25": .94}
+LONG = {"htx": .9, "h1gg_y": 1.2, "ah_h_m15": .3, "ah_a_m15": .3, "eh_h_01": .3, "eh_a_10": .3}           # markets that are never short prices: their price cap is raised by this much
+GAP = {"win_h": .15, "win_a": .15, "up_h": .15, "up_a": .15, "ah_h_m15": .15, "ah_a_m15": .15, "eh_h_01": .15, "eh_a_10": .15}   # result markets: one side wins most games, the other loses a fair share – a smaller share is enough
 def bar(k): return BAR.get(k, .85) + SAFE.get(round(ST["L"], 1), SAFE[0.1])[1]
 def safe_enough(k, g, LX, rate, odds):
     """a leg only goes on a ticket if BOTH teams are strong for this market on their own, the pair is strong too, and the price
@@ -439,6 +442,12 @@ RB = dict(MK, **{"o25": ("18", "total=2.5", "12", "Over 2.5"), "htx": ("60", "",
                  "h1u25": ("68", "total=2.5", "13", "1st half Under 2.5"), "u35": ("18", "total=3.5", "13", "Under 3.5"),
                  "u45": ("18", "total=4.5", "13", "Under 4.5"), "u55": ("18", "total=5.5", "13", "Under 5.5"),
                  "h1gg_y": ("75", "", "74", "1st half GG – Yes"), "h1gg_n": ("75", "", "76", "1st half GG – No")})
+# Asian handicap (16, "hcp=x" for home; 1714 home, 1715 away) and handicap (14, "hcp=home:away" head start; 1711 home, 1713 away)
+RB.update({"ah_h_m15": ("16", "hcp=-1.5", "1714", "Asian handicap {h} -1.5"), "ah_a_m15": ("16", "hcp=1.5", "1715", "Asian handicap {a} -1.5"),
+           "ah_h_p15": ("16", "hcp=1.5", "1714", "Asian handicap {h} +1.5"), "ah_a_p15": ("16", "hcp=-1.5", "1715", "Asian handicap {a} +1.5"),
+           "ah_h_p25": ("16", "hcp=2.5", "1714", "Asian handicap {h} +2.5"), "ah_a_p25": ("16", "hcp=-2.5", "1715", "Asian handicap {a} +2.5"),
+           "eh_h_01": ("14", "hcp=0:1", "1711", "Handicap 0:1 – {h}"), "eh_a_10": ("14", "hcp=1:0", "1713", "Handicap 1:0 – {a}"),
+           "eh_h_20": ("14", "hcp=2:0", "1711", "Handicap 2:0 – {h}"), "eh_a_02": ("14", "hcp=0:2", "1713", "Handicap 0:2 – {a}")})
 # Excluded Number of Goals: the pick wins when the count is NOT that number (top outcome "5+"/"3+": when it is below it)
 for _n, _lab in ((0, "0"), (1, "1"), (2, "2"), (3, "3"), (4, "4"), (5, "5+")): RB[f"xg_{_n}"] = ("450004", "", str(_n), f"Excluded goals: {_lab}")
 for _n, _lab in ((0, "0"), (1, "1"), (2, "2"), (3, "3+")):
@@ -448,6 +457,7 @@ RB_GROUPS = {"o15": ["o15"], "o25": ["o25"], "gg": ["gg"], "win": ["win_h", "win
              "dc": ["dc_1x", "dc_x2", "dc_12"], "hgg": ["hgg"], "h1": ["h1o05"], "h2": ["h2o05"], "htx": ["htx"],
              "h1dc": ["h1dc_1x", "h1dc_x2"], "gb25": ["gb25"], "wu25": ["wu25_h", "wu25_a"], "h1u25": ["h1u25"],
              "u35": ["u35"], "u45": ["u45"], "u55": ["u55"], "h1ggy": ["h1gg_y"], "h1ggn": ["h1gg_n"],
+             "ah": ["ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "ah_h_p25", "ah_a_p25"], "eh": ["eh_h_01", "eh_a_10", "eh_h_20", "eh_a_02"],
              "xg": [f"xg_{n}" for n in range(6)], "xgt": [f"xg{s}_{n}" for s in ("h", "a") for n in range(4)], "xg1": ["xg1_0", "xg1_2", "xg1_3"]}
 
 _EV = {}
@@ -494,6 +504,15 @@ def rebuild_rates(g, LX, hh):
     xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
     if xh > xa: R["wu25_h"] = both(lambda m: m["gf"] <= 2, lambda m: m["ga"] <= 2, lambda a, b: a <= 2)     # home is the weaker team
     if xa > xh: R["wu25_a"] = both(lambda m: m["ga"] <= 2, lambda m: m["gf"] <= 2, lambda a, b: b <= 2)     # away is the weaker team
+    # handicaps by goal margin (home's margin d = home goals - away goals)
+    for k, ch, ca, hc in (("ah_h_m15", lambda m: m["gf"] - m["ga"] >= 2, lambda m: m["ga"] - m["gf"] >= 2, lambda a, b: a - b >= 2),
+                          ("ah_a_m15", lambda m: m["ga"] - m["gf"] >= 2, lambda m: m["gf"] - m["ga"] >= 2, lambda a, b: b - a >= 2),
+                          ("ah_h_p15", lambda m: m["gf"] - m["ga"] >= -1, lambda m: m["ga"] - m["gf"] >= -1, lambda a, b: a - b >= -1),
+                          ("ah_a_p15", lambda m: m["ga"] - m["gf"] >= -1, lambda m: m["gf"] - m["ga"] >= -1, lambda a, b: b - a >= -1),
+                          ("ah_h_p25", lambda m: m["gf"] - m["ga"] >= -2, lambda m: m["ga"] - m["gf"] >= -2, lambda a, b: a - b >= -2),
+                          ("ah_a_p25", lambda m: m["ga"] - m["gf"] >= -2, lambda m: m["gf"] - m["ga"] >= -2, lambda a, b: b - a >= -2)):
+        R[k] = both(ch, ca, hc)
+    R["eh_h_01"], R["eh_a_10"], R["eh_h_20"], R["eh_a_02"] = R["ah_h_m15"], R["ah_a_m15"], R["ah_h_p15"], R["ah_a_p15"]   # same goal margins, 3-way market
     for k, n in (("u35", 3), ("u45", 4), ("u55", 5)):
         R[k] = both(lambda m, n=n: m["gf"] + m["ga"] <= n, lambda m, n=n: m["gf"] + m["ga"] <= n, lambda a, b, n=n: a + b <= n)
     for n in range(6):      # match total is not n (5 = "5+": fewer than 5)
