@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 21:58",
 "kind": "live \u2013 best of all",
 "odds": 3.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 20:30",
@@ -38,7 +38,10 @@
 "game": "Charlton Athletic vs Ipswich Town Lfc",
 "pick": "Ipswich Town Lfc or draw",
 "odds": 1.37,
-"ts": 1794425400.0
+"ts": 1794425400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -532,7 +535,10 @@
 "game": "Charlton Athletic vs Ipswich Town Lfc",
 "pick": "Handicap 0:2 \u2013 Ipswich Town Lfc",
 "odds": 1.09,
-"ts": 1794425400.0
+"ts": 1794425400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",
@@ -634,7 +640,10 @@
 "game": "Charlton Athletic vs Ipswich Town Lfc",
 "pick": "Handicap 0:2 \u2013 Ipswich Town Lfc",
 "odds": 1.1,
-"ts": 1794425400.0
+"ts": 1794425400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",
@@ -1952,7 +1961,10 @@
 "game": "Charlton Athletic vs Ipswich Town Lfc",
 "pick": "Double chance Ipswich Town Lfc or draw",
 "odds": 1.53,
-"ts": 1794425400.0
+"ts": 1794425400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
