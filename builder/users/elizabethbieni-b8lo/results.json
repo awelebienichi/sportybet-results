@@ -1,4 +1,85 @@
 {
 "from": 1794384334,
-"tickets": []
+"tickets": [
+{
+"code": "LJLNDS",
+"at": 1794384408,
+"when": "Wed 11 Nov 09:06",
+"kind": "your chosen markets",
+"odds": 10.69,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:00",
+"game": "Ukraine vs Israel",
+"pick": "Over 1.5",
+"odds": 1.28,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 12:00",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"pick": "Double chance Villarreal CF or CD Alba Fundacion",
+"odds": 1.32,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 15:00",
+"game": "Newell's Old Boys vs CA Huracan",
+"pick": "Double chance Newell's Old Boys or CA Huracan",
+"odds": 1.31,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 15:00",
+"game": "Barycz Sulow vs Miedz Legnica II",
+"pick": "Double chance Barycz Sulow or Miedz Legnica II",
+"odds": 1.27,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Double chance Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.27,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:45",
+"game": "UD Castellonense vs CF La Nucia",
+"pick": "Double chance UD Castellonense or CF La Nucia",
+"odds": 1.31,
+"ts": 1794419100.0
+},
+{
+"t": "Wed 19:00",
+"game": "CD Castellon B vs Club Deportiva Minera",
+"pick": "Double chance CD Castellon B or Club Deportiva Minera",
+"odds": 1.25,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 20:00",
+"game": "Zamora FC Barinas II vs Deportivo Lara",
+"pick": "Double chance Zamora FC Barinas II or Deportivo Lara",
+"odds": 1.25,
+"ts": 1794423600.0
+}
+]
+}
+]
 }
