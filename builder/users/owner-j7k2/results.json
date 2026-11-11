@@ -2,6 +2,240 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KXTCZA",
+"at": 1794402333,
+"when": "Wed 11 Nov 14:05",
+"kind": "rebuild of G9LBMM",
+"odds": 6989.16,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:00",
+"game": "Bangladesh vs Sri Lanka",
+"pick": "Excluded goals: 2",
+"odds": 1.27,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 15:00",
+"game": "Barycz Sulow vs Miedz Legnica II",
+"pick": "Double chance Barycz Sulow or Miedz Legnica II",
+"odds": 1.27,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"pick": "Czarni Sosnowiec excluded goals: 1",
+"odds": 1.48,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Double chance Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.25,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 18:00",
+"game": "Colombe Sportive Du Dja Et Lobo vs Victoria United Limbe",
+"pick": "Double chance Colombe Sportive Du Dja Et Lobo or Victoria United Limbe",
+"odds": 1.12,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "France vs Norway",
+"pick": "1st half excluded goals: 0",
+"odds": 1.25,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Fenerbahce Istanbul vs Real Sociedad San Sebastian",
+"pick": "Fenerbahce Istanbul excluded goals: 2",
+"odds": 1.14,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "Double chance Hyeres FC or draw",
+"odds": 1.24,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "SK Artis Brno vs FK Jablonec",
+"pick": "SK Artis Brno excluded goals: 2",
+"odds": 1.2,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 19:00",
+"game": "Independiente Reserve vs CA Lanus",
+"pick": "Over 2.5",
+"odds": 1.69,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Retro FC PE vs SC Recife PE",
+"pick": "Over 2.5",
+"odds": 1.79,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Malmo FF vs Ajax Amsterdam",
+"pick": "Double chance Malmo FF or Ajax Amsterdam",
+"odds": 1.27,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "CD Castellon B vs Club Deportiva Minera",
+"pick": "Double chance CD Castellon B or Club Deportiva Minera",
+"odds": 1.26,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "At Rafaela Reserve vs CA Belgrano",
+"pick": "Goal bounds 2-5+",
+"odds": 1.24,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Instituto AC Cordoba Reserves vs San Lorenzo de Almagro Res.",
+"pick": "Excluded goals: 0",
+"odds": 1.07,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"pick": "1st half Over 0.5",
+"odds": 1.47,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Olaria AC RJ vs America FC RJ",
+"pick": "Over 2.5",
+"odds": 1.64,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:30",
+"game": "CD Fuerte San Francisco vs Alianza FC",
+"pick": "Excluded goals: 2",
+"odds": 1.2,
+"ts": 1794421800.0
+},
+{
+"t": "Wed 20:00",
+"game": "Barnsley FC vs Oldham Athletic",
+"pick": "1st half GG \u2013 No",
+"odds": 1.4,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"pick": "GG (both teams score)",
+"odds": 1.58,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Tottenham Hotspur FC vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Zamora FC Barinas II vs Deportivo Lara",
+"pick": "Double chance Zamora FC Barinas II or Deportivo Lara",
+"odds": 1.25,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Sunderland U21 vs Paris Saint Germain",
+"pick": "Under 4.5",
+"odds": 1.63,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.3,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:30",
+"game": "Tacuarembo FC vs Miramar Misiones",
+"pick": "Excluded goals: 0",
+"odds": 1.1,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:30",
+"game": "Charlton Athletic vs Ipswich Town Lfc",
+"pick": "Double chance Ipswich Town Lfc or draw",
+"odds": 1.53,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:45",
+"game": "Avro FC vs Whitby Town",
+"pick": "Double chance Avro FC or Whitby Town",
+"odds": 1.15,
+"ts": 1794426300.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794427200.0
+},
+{
+"t": "Wed 22:30",
+"game": "AD Isidro Metapan vs CD Platense",
+"pick": "GG (both teams score)",
+"odds": 1.48,
+"ts": 1794432600.0
+},
+{
+"t": "Wed 23:00",
+"game": "Independiente Petrolero vs Always Ready",
+"pick": "Excluded goals: 3",
+"odds": 1.22,
+"ts": 1794434400.0
+}
+]
+},
+{
 "code": "TYQAJG",
 "at": 1794401765,
 "when": "Wed 11 Nov 13:56",

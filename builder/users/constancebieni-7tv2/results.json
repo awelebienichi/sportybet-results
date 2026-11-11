@@ -2,6 +2,93 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "U36WBY",
+"at": 1794402320,
+"when": "Wed 11 Nov 14:05",
+"kind": "live \u2013 best of all",
+"odds": 4.3,
+"status": "open",
+"legs": [
+{
+"t": "Wed 14:06",
+"game": "Vietnam vs Chinese Taipei",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794402376.4536037
+},
+{
+"t": "Wed 14:06",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Under 2.5",
+"odds": 1.08,
+"ts": 1794402376.4536238
+},
+{
+"t": "Wed 14:06",
+"game": "Slovenia vs England",
+"pick": "Slovenia or England",
+"odds": 1.14,
+"ts": 1794402376.4536445
+},
+{
+"t": "Wed 14:06",
+"game": "Albania vs Cyprus",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794402376.4536498
+},
+{
+"t": "Wed 14:06",
+"game": "Latvia vs Moldova",
+"pick": "Latvia Under 3.5",
+"odds": 1.15,
+"ts": 1794402376.4536712
+},
+{
+"t": "Wed 14:06",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"pick": "Handicap 0:3 \u2013 Valmiera FC",
+"odds": 1.25,
+"ts": 1794402376.453678
+},
+{
+"t": "Wed 14:06",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Asian handicap FKM Nove Zamky +2.5",
+"odds": 1.12,
+"ts": 1794402376.4536948
+},
+{
+"t": "Wed 14:06",
+"game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
+"pick": "Gaziemir Gog Sy Under 3.5",
+"odds": 1.18,
+"ts": 1794402376.453711
+},
+{
+"t": "Wed 14:06",
+"game": "Karsiyaka vs Bursa Nilufer Futbol AS",
+"pick": "Handicap 0:2 \u2013 Bursa Nilufer Futbol AS",
+"odds": 1.09,
+"ts": 1794402376.4537241
+},
+{
+"t": "Wed 14:06",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Asian handicap RESOVIA RZESZOW +3.5",
+"odds": 1.12,
+"ts": 1794402376.4537358
+},
+{
+"t": "Wed 14:06",
+"game": "FC Bansko vs PFC Levski Sofia II",
+"pick": "FC Bansko to win",
+"odds": 1.12,
+"ts": 1794402376.453742
+}
+]
+},
+{
 "code": "ZJDXTN",
 "at": 1794402109,
 "when": "Wed 11 Nov 14:01",
