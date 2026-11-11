@@ -1,5 +1,71 @@
 [
 {
+"when": "Wed 11 Nov 22:56",
+"at": 1794434164,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u55"
+],
+"rid": "mwcnrjdw9n9h"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 2 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 577 games on SportyBet), so this ticket has 2 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "U944JV",
+"odds": 1.13,
+"legs": [
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"lg": "Spain - Copa del Rey",
+"pick": "Under 5.5",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 100%",
+"ts": 1794504600.0,
+"eid": "sr:match:76516976",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76516976|18|total=5.5|13"
+},
+{
+"t": "Sun 00:30",
+"game": "Chapecoense SC vs CR Vasco da Gama RJ",
+"lg": "Brazil - Brasileiro Serie A",
+"pick": "Under 5.5",
+"odds": 1.07,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 2.9 goals a game, Vitibet tip 1-2, season: 2.9 goals a game",
+"ts": 1794699000.0,
+"eid": "sr:match:76229052",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76229052|18|total=5.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 22:55",
 "at": 1794434130,
 "req": {
@@ -8280,104 +8346,5 @@
 },
 "ok": false,
 "msg": "4 odds can't be reached right now: 6 live leg(s) are strong enough, and the most they make with up to 12 legs is 2.58 odds. Lower the target, allow more legs, or try again in a few minutes."
-},
-{
-"when": "Wed 11 Nov 17:06",
-"at": 1794413166,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "relaxed",
-"rid": "mwcb9dxhzads",
-"target": 2
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Target 2 odds reached with 5 leg(s), strongest first.",
-"Relaxed safety: in testing only about 82 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "XZSQLT",
-"odds": 2.44,
-"legs": [
-{
-"t": "Wed 16:00",
-"game": "Spain vs Iceland",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Spain Under 5.5",
-"odds": 1.12,
-"why": "LIVE 2-0 47': Spain expected 1.4 and Iceland 0.4 more goals (last 10); 2-0 at 47' \u2013 93% chance; goals record 90% / 100% in both sides' last games",
-"ts": 1794409200.0,
-"eid": "sr:match:74723370",
-"mid": "19",
-"spec": "total=5.5",
-"oid": "13",
-"k": "74723370|19|total=5.5|13"
-},
-{
-"t": "Wed 16:00",
-"game": "FK Zeleziarne Podbrezova vs FC Vion Zlate Moravce - Vrable",
-"lg": "Slovakia - Slovensky Pohar",
-"pick": "FK Zeleziarne Podbrezova Under 3.5",
-"odds": 1.12,
-"why": "LIVE 1-0 45': FK Zeleziarne Podbrezova expected 0.9 and FC Vion Zlate Moravce - Vrable 0.7 more goals (last 10); 1-0 at 45' \u2013 91% chance; goals record 80% / 90% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794409200.0,
-"eid": "sr:match:76309260",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76309260|19|total=3.5|13"
-},
-{
-"t": "Wed 16:45",
-"game": "Kazakhstan vs Scotland",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Asian handicap Kazakhstan +1.5",
-"odds": 1.16,
-"why": "LIVE 0-0 13': Kazakhstan expected 1.4 and Scotland 1.4 more goals (last 10); 0-0 at 13' \u2013 81% chance",
-"ts": 1794411900.0,
-"eid": "sr:match:74838476",
-"mid": "16",
-"spec": "hcp=1.5",
-"oid": "1714",
-"k": "74838476|16|hcp=1.5|1714"
-},
-{
-"t": "Wed 17:00",
-"game": "Serbia vs Faroe Islands",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Handicap 0:4 \u2013 Faroe Islands",
-"odds": 1.35,
-"why": "LIVE 0-0 5': Serbia expected 1.9 and Faroe Islands 1.1 more goals (last 10); 0-0 at 5' \u2013 92% chance",
-"ts": 1794412800.0,
-"eid": "sr:match:74754154",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "74754154|14|hcp=0:4|1713"
-},
-{
-"t": "Wed 17:00",
-"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
-"lg": "France - National 1",
-"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
-"odds": 1.24,
-"why": "LIVE 0-0 5': AS Saint Priest expected 1.3 and GFA Rumilly-Vallieres 2.3 more goals (last 10 + season); 0-0 at 5' \u2013 81% chance",
-"ts": 1794412800.0,
-"eid": "sr:match:74041572",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "74041572|10||10"
-}
-]
-}
-]
 }
 ]
