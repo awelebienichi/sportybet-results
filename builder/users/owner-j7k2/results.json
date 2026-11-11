@@ -1813,7 +1813,10 @@
 "game": "Zamora FC Barinas II vs Deportivo Lara",
 "pick": "Double chance Zamora FC Barinas II or Deportivo Lara",
 "odds": 1.25,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 20:00",
@@ -1842,8 +1845,8 @@
 "odds": 1.1,
 "ts": 1794425400.0,
 "r": "W",
-"sc": "1-0",
-"ht": ""
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Wed 20:30",
