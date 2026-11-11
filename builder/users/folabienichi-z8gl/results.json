@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HK1991",
+"at": 1794395406,
+"when": "Wed 11 Nov 12:10",
+"kind": "live \u2013 best of all",
+"odds": 1.28,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:11",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.14,
+"ts": 1794395461.1513677
+},
+{
+"t": "Wed 12:11",
+"game": "Georgia vs Denmark",
+"pick": "Over 5.5 (another goal)",
+"odds": 1.12,
+"ts": 1794395463.628822
+}
+]
+},
+{
 "code": "NRVMZX",
 "at": 1794395131,
 "when": "Wed 11 Nov 12:05",
