@@ -636,7 +636,7 @@
 "when": "Wed 11 Nov 13:19",
 "kind": "your chosen markets",
 "odds": 8.63,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 14:00",
@@ -673,7 +673,10 @@
 "game": "France vs Norway",
 "pick": "Asian handicap Norway +1.5",
 "odds": 1.56,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "L",
+"sc": "6-0",
+"ht": "3-0"
 },
 {
 "t": "Wed 18:00",
