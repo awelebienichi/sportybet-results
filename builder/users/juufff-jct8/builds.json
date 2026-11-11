@@ -1,5 +1,120 @@
 [
 {
+"when": "Wed 11 Nov 13:46",
+"at": 1794401203,
+"req": {
+"u": "juufff-jct8",
+"name": "Juu Fff",
+"type": "o25yw",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwc452wav8fp"
+},
+"ok": true,
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"note": [
+"Only 6 games passed the checks (Wed 11, 72 games on SportyBet), so this ticket has 6 legs instead of 30. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "SH5347",
+"odds": 7.67,
+"legs": [
+{
+"t": "Wed 16:00",
+"game": "Spain vs Iceland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 2.5",
+"odds": 1.23,
+"why": "strong side Spain (win 1.03) scores 3.5 a game, 80% of its games over 2.5; Iceland concedes 1.8 a game; Flashscore home/away form 55%",
+"ts": 1794409200.0,
+"eid": "sr:match:74723370",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74723370|18|total=2.5|12"
+},
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "strong side Eintracht Frankfurt (win 1.41) scores 2.5 a game, 60% of its games over 2.5; PSV Eindhoven concedes 1.2 a game; 67% of 3 meetings over; Flashscore home/away form 60%",
+"ts": 1794418200.0,
+"eid": "sr:match:75233066",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75233066|18|total=2.5|12"
+},
+{
+"t": "Wed 18:45",
+"game": "Oud-Heverlee Leuven W vs HB KOEGE W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.72,
+"why": "strong side HB KOEGE W (win 1.62) scores 2.7 a game, 80% of its games over 2.5; Oud-Heverlee Leuven W concedes 1.5 a game; Flashscore home/away form 70%",
+"ts": 1794419100.0,
+"eid": "sr:match:74371850",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371850|18|total=2.5|12"
+},
+{
+"t": "Wed 19:30",
+"game": "CD Fuerte San Francisco vs Alianza FC",
+"lg": "El Salvador - Primera Division, Reserves",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "strong side Alianza FC (win 1.57) scores 2.3 a game, 70% of its games over 2.5; CD Fuerte San Francisco concedes 1.2 a game; 100% of 8 meetings over",
+"ts": 1794421800.0,
+"eid": "sr:match:76642466",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76642466|18|total=2.5|12"
+},
+{
+"t": "Wed 20:00",
+"game": "Tottenham Hotspur FC vs Crystal Palace",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "strong side Tottenham Hotspur FC (win 1.21) scores 3.1 a game, 90% of its games over 2.5; Crystal Palace concedes 1.9 a game; 80% of 5 meetings over; Flashscore home/away form 70%",
+"ts": 1794423600.0,
+"eid": "sr:match:73607438",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73607438|18|total=2.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.25,
+"why": "strong side Olympique Lyon W (win 1.1) scores 5.5 a game, 90% of its games over 2.5; Juventus Turin W concedes 2.1 a game; 71% of 7 meetings over; Flashscore home/away form 75%",
+"ts": 1794427200.0,
+"eid": "sr:match:74371852",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371852|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:44",
 "at": 1794401041,
 "req": {
