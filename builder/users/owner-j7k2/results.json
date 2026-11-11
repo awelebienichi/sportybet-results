@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "N380NC",
+"at": 1794429696,
+"when": "Wed 11 Nov 21:41",
+"kind": "live \u2013 best of all",
+"odds": 3.06,
+"status": "open",
+"legs": [
+{
+"t": "Wed 20:00",
+"game": "Everton FC Women vs Durham LFC",
+"pick": "Everton FC Women Under 5.5",
+"odds": 1.08,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Barnsley FC vs Oldham Athletic",
+"pick": "Under 7.5",
+"odds": 1.08,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Wales vs Finland",
+"pick": "Finland or draw",
+"odds": 1.18,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Sheffield Wednesday vs Accrington Stanley",
+"pick": "GG \u2013 No",
+"odds": 1.15,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:30",
+"game": "Charlton Athletic vs Ipswich Town Lfc",
+"pick": "Handicap 0:2 \u2013 Ipswich Town Lfc",
+"odds": 1.1,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:30",
+"game": "CD Cieza vs Valencia CF Mestalla",
+"pick": "Valencia CF Mestalla Under 1.5",
+"odds": 1.1,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:30",
+"game": "Tacuarembo FC vs Miramar Misiones",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:30",
+"game": "La Luz FC vs CA Fenix Montevideo",
+"pick": "La Luz FC Under 2.5",
+"odds": 1.1,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:45",
+"game": "Avro FC vs Whitby Town",
+"pick": "Avro FC Under 5.5",
+"odds": 1.15,
+"ts": 1794426300.0
+},
+{
+"t": "Wed 21:00",
+"game": "CA Talleres de Cordoba Reserve vs CA Sarmiento de Junin",
+"pick": "Handicap 0:3 \u2013 CA Sarmiento de Junin",
+"odds": 1.14,
+"ts": 1794427200.0
+}
+]
+},
+{
 "code": "WV8052",
 "at": 1794416644,
 "when": "Wed 11 Nov 18:04",
