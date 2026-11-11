@@ -41,9 +41,15 @@ def _pois_le(k, lam):
 
 def _pois(k, lam): return math.exp(-lam) * lam ** k / math.factorial(k)
 
-def _final_dist(hs, as_, lh, la, cap=10):
-    """{(home goals, away goals) at full time: probability}, each side's remaining goals an independent Poisson"""
-    ph = [_pois(i, lh) for i in range(cap)]; pa = [_pois(j, la) for j in range(cap)]
+DISP = 1.3       # tested on 696 finished matches replayed at 15'-75': with this extra spread the chances match what really happened
+def _final_dist(hs, as_, lh, la, cap=12):
+    """{(home goals, away goals) at full time: probability}. Each side's remaining goals: negative binomial with the expected
+    count as its mean – real games end lopsided (5-1, 6-0) more often than a plain Poisson says, which had made the model overconfident"""
+    def pm(l):
+        if l <= 0: return [1.0] + [0.0] * (cap - 1)
+        r = l / (DISP - 1); q = r / (r + l)
+        return [math.exp(math.lgamma(k + r) - math.lgamma(r) - math.lgamma(k + 1) + r * math.log(q) + k * math.log(1 - q)) for k in range(cap)]
+    ph, pa = pm(lh), pm(la)
     return {(hs + i, as_ + j): ph[i] * pa[j] for i in range(cap) for j in range(cap)}
 
 def _hcp_p(D, mid, spec, oid):
@@ -182,7 +188,7 @@ def build(req):
             Hs, As = season.teams(g)
             if Hs and As and min(Hs["n"], As["n"]) >= 5: sH, sA = season.rates(Hs), season.rates(As)
         have10 = len(H) >= 6 and len(A) >= 6
-        if not have10 and not sH: continue                                      # nothing to judge the teams on
+        if not ((len(H) >= 8 and len(A) >= 8) or (have10 and sH)): continue      # strong data only: 8+ recent games each, or 6+ plus the season table
         g10 = (sum(m["gf"] + m["ga"] for m in H) / len(H) + sum(m["gf"] + m["ga"] for m in A) / len(A)) / 2 if have10 else None
         gs = (sH["gpg"] + sA["gpg"]) / 2 if sH else None
         gpg = (g10 + gs) / 2 if g10 is not None and gs is not None else (g10 if g10 is not None else gs)
@@ -212,9 +218,14 @@ def build(req):
         for (mid, spec, oid), od in g["mk"].items():
             if not 1.08 <= od <= 1.75: continue
             p = _p(D, D1, mid, spec, oid, lead)
-            if p is None or p < .6: continue
+            if p is None: continue
             kind = KIND.get(mid, "")
             if kind == "goals" and oid not in ("12", "74"): kind = "dead"
+            # replay test (696 matches): "another goal" legs came true ~6 points less often than the model said; Unders before
+            # half-time were weaker (85-89%) than from 45' on (94-95%); handicaps and results held at 93-96% at every minute
+            if kind == "goals": p -= .06
+            if kind == "dead" and g["minute"] < 45: continue
+            if p < .88: continue
             if strat != "mix" and kind != strat: continue
             C.append((g, mid, spec, oid, _label(g, mid, spec, oid), p,
                       f"{g['h']} expected {g['lh']:.1f} and {g['a']} {g['la']:.1f} more goals ({g['src']}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance"))
@@ -227,13 +238,13 @@ def build(req):
         od = MK.get(g["eid"], {}).get((mid, spec, oid))
         if not od: continue
         p = (p + 1 / (od * 1.06)) / 2                                           # the stats model and the bookmaker's own price must agree
-        if p < .75: continue                                                    # high chance, no coin-flip prices
+        if p < .82: continue                                                    # high chance, no coin-flip prices
         per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
                                                  lg=g["lg"], rate=p, s=P.edge(p, od), why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
     def choose(L):
         for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5))[:4]:      # best value with a high chance first; no market is preferred
             sup, bad = _prematch(leg["g"], leg["mid"], leg["oid"], leg["spec"])    # every pre-match source the builder uses
-            if bad: continue
+            if bad or not sup: continue                                         # at least one source for it, none against
             if sup: leg["why"] += "; " + ", ".join(sup)
             leg.pop("g"); return leg
     with ThreadPoolExecutor(6) as ex: best = {k: v for k, v in zip(per, ex.map(choose, per.values())) if v}
