@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WUM40U",
+"at": 1794396408,
+"when": "Wed 11 Nov 12:26",
+"kind": "live \u2013 best of all",
+"odds": 2.65,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:27",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.2,
+"ts": 1794396463.030692
+},
+{
+"t": "Wed 12:27",
+"game": "Azerbaijan vs Montenegro",
+"pick": "Under 9.5",
+"odds": 1.14,
+"ts": 1794396463.3110416
+},
+{
+"t": "Wed 12:27",
+"game": "Georgia vs Denmark",
+"pick": "Under 8.5",
+"odds": 1.14,
+"ts": 1794396463.5304785
+},
+{
+"t": "Wed 12:27",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.14,
+"ts": 1794396463.9697425
+},
+{
+"t": "Wed 12:27",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"pick": "Over 1.5 (another goal)",
+"odds": 1.12,
+"ts": 1794396464.8162704
+}
+]
+},
+{
 "code": "NK4QER",
 "at": 1794385031,
 "when": "Wed 11 Nov 09:17",
