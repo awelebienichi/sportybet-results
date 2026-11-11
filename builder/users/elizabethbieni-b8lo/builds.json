@@ -1,5 +1,15 @@
 [
 {
+"when": "Wed 11 Nov 20:06",
+"at": 1794423984,
+"req": {
+"type": "rollover",
+"rid": "mwchphx9mr8x"
+},
+"ok": false,
+"msg": "Today's rollover code is already out: ZYGFLM"
+},
+{
 "when": "Wed 11 Nov 20:05",
 "at": 1794423921,
 "req": {
