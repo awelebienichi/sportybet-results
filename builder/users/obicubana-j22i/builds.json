@@ -1,5 +1,162 @@
 [
 {
+"when": "Wed 11 Nov 10:53",
+"at": 1794390826,
+"req": {
+"u": "obicubana-j22i",
+"name": "Obi Cubana",
+"type": "best",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbxy8p7ldx6"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [
+"Only 9 games passed the checks (Wed 11, 101 games on SportyBet), so this ticket has 9 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "S3PBM9",
+"odds": 5.52,
+"legs": [
+{
+"t": "Wed 12:00",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794394800.0,
+"eid": "sr:match:72889702",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72889702|450001||25"
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74838476|450001||25"
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"lg": "France - Premiere Ligue, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.8 goals a game, Vitibet tip 2-1",
+"ts": 1794412800.0,
+"eid": "sr:match:76587064",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76587064|450001||25"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Goal bounds 2-5+",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72891356|450001||25"
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"lg": "Spain Amateur - Tercera Federacion, Group 11",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 4 meetings; Flashscore home/away form 75%",
+"ts": 1794414600.0,
+"eid": "sr:match:75667382",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75667382|450001||25"
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794416400.0,
+"eid": "sr:match:75233056",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75233056|450001||25"
+},
+{
+"t": "Wed 19:00",
+"game": "At Rafaela Reserve vs CA Belgrano",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Goal bounds 2-5+",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794420000.0,
+"eid": "sr:match:75133626",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75133626|450001||25"
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%",
+"ts": 1794423600.0,
+"eid": "sr:match:73607356",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73607356|450001||25"
+},
+{
+"t": "Wed 22:30",
+"game": "AD Isidro Metapan vs CD Platense",
+"lg": "El Salvador - Primera Division, Reserves",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings",
+"ts": 1794432600.0,
+"eid": "sr:match:76642468",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76642468|450001||25"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 00:48",
 "req": {
 "u": "obicubana-j22i",
