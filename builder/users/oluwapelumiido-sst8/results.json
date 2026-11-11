@@ -1,4 +1,78 @@
 {
 "from": 1794392334,
-"tickets": []
+"tickets": [
+{
+"code": "S3PBM9",
+"at": 1794392657,
+"when": "Wed 11 Nov 11:24",
+"kind": "your tracker's best markets",
+"odds": 5.52,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:00",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Goal bounds 2-5+",
+"odds": 1.23,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 19:00",
+"game": "At Rafaela Reserve vs CA Belgrano",
+"pick": "Goal bounds 2-5+",
+"odds": 1.24,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 22:30",
+"game": "AD Isidro Metapan vs CD Platense",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794432600.0
+}
+]
+}
+]
 }
