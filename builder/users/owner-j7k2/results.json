@@ -24,7 +24,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Under 4.5",
 "odds": 1.15,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -82,7 +85,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Asian handicap Kazakhstan +3.5",
 "odds": 1.11,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -164,7 +170,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Asian handicap Kazakhstan +2.5",
 "odds": 1.13,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -212,7 +221,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Asian handicap Kazakhstan +2.5",
 "odds": 1.12,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -277,7 +289,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Asian handicap Kazakhstan +2.5",
 "odds": 1.12,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -325,7 +340,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Asian handicap Kazakhstan +2.5",
 "odds": 1.12,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -363,7 +381,7 @@
 "when": "Wed 11 Nov 17:06",
 "kind": "live \u2013 best of all",
 "odds": 2.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:00",
@@ -390,7 +408,10 @@
 "game": "Kazakhstan vs Scotland",
 "pick": "Asian handicap Kazakhstan +1.5",
 "odds": 1.16,
-"ts": 1794411900.0
+"ts": 1794411900.0,
+"r": "L",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
