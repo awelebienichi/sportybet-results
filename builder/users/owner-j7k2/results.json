@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NNTPXF",
+"at": 1794415373,
+"when": "Wed 11 Nov 17:42",
+"kind": "live \u2013 best of all",
+"odds": 2.05,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Asian handicap Kazakhstan +2.5",
+"odds": 1.12,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
+"odds": 1.08,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.15,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"pick": "Handicap 6:0 \u2013 Czarni Sosnowiec",
+"odds": 1.27,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Asian handicap Inter Ibiza CD +3.5",
+"odds": 1.16,
+"ts": 1794414600.0
+}
+]
+},
+{
 "code": "XZSQLT",
 "at": 1794413166,
 "when": "Wed 11 Nov 17:06",
@@ -786,7 +831,10 @@
 "game": "FC Fleury vs Toulouse FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 17:30",
@@ -1006,7 +1054,10 @@
 "game": "FC Fleury vs Toulouse FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 17:30",
@@ -1226,7 +1277,10 @@
 "game": "FC Fleury vs Toulouse FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 17:30",
