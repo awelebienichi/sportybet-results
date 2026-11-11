@@ -328,17 +328,19 @@ def side_ok(k, g):
     """never lean on the weaker side: 'Home or GG' only when the home team is the favourite or close to it"""
     xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
     return not (k == "hgg" and xh > xa * 1.2)
+SAFE = {0.0: (1.60, .80, .90), 0.1: (1.75, .75, .82), 0.2: (2.00, .70, .78)}   # strictness -> (max odds, each team, the pair)
 def safe_enough(k, g, LX, rate, odds):
-    """a leg only goes on a ticket if BOTH teams are strong for it on their own (80%+), the pair is 85%+ (normal),
-    and it is not a coin-flip price (1.60 max). Value only decides between legs that already pass this."""
-    if odds > 1.60: return False
-    if rate < {0.0: .90, 0.1: .85, 0.2: .80}.get(round(ST["L"], 1), .85) - (0 if ST["L"] >= 0 else -.03): return False
+    """a leg only goes on a ticket if BOTH teams are strong for it on their own, the pair is strong too, and the price is not a
+    coin flip. Strict: 1.60 max, each team 80%+, pair 90%+. Normal: 1.75, 75%, 82%. Relaxed: 2.00, 70%, 78%.
+    Value only decides between legs that already pass this."""
+    mx, team, pair = SAFE.get(round(ST["L"], 1), SAFE[0.1])
+    if odds > mx or rate < pair: return False
     try:
         import rollover
         mid, spec, oid, _ = RB.get(k, MK.get(k, (None, None, None, None)))
         tr = rollover.team_rates(dict(mid=mid, spec=spec, oid=oid), g, LX) if mid else None
     except Exception: tr = None
-    if tr and None not in tr and min(tr) < .80: return False
+    if tr and None not in tr and min(tr) < team: return False
     return True
 def fits(k, prof):
     if prof == "high" and k in FEW: return False
@@ -352,7 +354,7 @@ def pick_multi(G, LX, kind, want):
         R = rates(g, LX, [])
         best = max(((R[k], k) for k in keys if R.get(k, 0) >= floor), default=None)
         if best: pre.append((best[0], g))
-    pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(60, want * 3)]]
+    pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(200, want * 6)]]
     def detail(g):
         hh = h2h(g["hid"], g["aid"])
         mk = {(m["id"], m.get("specifier") or "", o["id"]): float(o["odds"]) for m in event_markets(g["eid"]) for o in m.get("outcomes", []) if o.get("isActive")}
@@ -608,7 +610,7 @@ def pick_markets(G, LX, groups, want):
         R = rebuild_rates(g, LX, [])
         best = max((R.get(k, 0) for k in keys), default=0)
         if best >= floor: pre.append((best, g))
-    pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(60, want * 3)]]
+    pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(200, want * 6)]]
     def detail(g):
         _, mk = event_game(g["eid"]); return g, h2h(g["hid"], g["aid"]), mk
     with ThreadPoolExecutor(8) as ex: D = list(ex.map(detail, pre))
