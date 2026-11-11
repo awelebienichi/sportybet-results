@@ -1,5 +1,32 @@
 [
 {
+"when": "Wed 11 Nov 22:59",
+"at": 1794434342,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwcnvg19pvcp"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Wed 11 Nov 22:58",
 "at": 1794434313,
 "req": {
@@ -8858,21 +8885,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 17:45",
-"at": 1794415528,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "hold",
-"legs": 12,
-"strict": "relaxed",
-"rid": "mwcco5q880fs",
-"target": 2
-},
-"ok": false,
-"msg": "2 odds can't be reached right now: 3 live leg(s) are strong enough, and the most they make with up to 12 legs is 1.43 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
