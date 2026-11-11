@@ -1,5 +1,28 @@
 [
 {
+"when": "Wed 11 Nov 20:05",
+"at": 1794423921,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1u25"
+],
+"rid": "mwchnnemk5el"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for your chosen markets (Wed 11) out of 12 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Wed 11 Nov 15:12",
 "at": 1794406346,
 "req": {
