@@ -271,7 +271,7 @@
 "when": "Wed 11 Nov 13:15",
 "kind": "live \u2013 best of all",
 "odds": 8.54,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 13:15",
@@ -299,7 +299,10 @@
 "game": "Urawa Red Diamonds vs Cerezo Osaka",
 "pick": "Handicap 0:2 \u2013 Cerezo Osaka",
 "odds": 1.16,
-"ts": 1794399356.5847955
+"ts": 1794399356.5847955,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 13:15",
