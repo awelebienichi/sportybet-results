@@ -1,5 +1,131 @@
 [
 {
+"when": "Wed 11 Nov 20:07",
+"at": 1794424028,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwchq87773g4"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 7 live leg(s) were strong enough right now (you asked for 10).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "VE9LYZ",
+"odds": 2.34,
+"legs": [
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Handicap 0:3 \u2013 PSV Eindhoven",
+"odds": 1.09,
+"why": "LIVE 2-1 79': Eintracht Frankfurt expected 0.3 and PSV Eindhoven 0.3 more goals (last 10); 2-1 at 79' \u2013 96% chance; h2h 100% of 3 meetings",
+"ts": 1794418200.0,
+"eid": "sr:match:75233066",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75233066|14|hcp=0:3|1713"
+},
+{
+"t": "Wed 18:45",
+"game": "UD Castellonense vs CF La Nucia",
+"lg": "Spain - Segunda Federacion",
+"pick": "UD Castellonense Under 2.5",
+"odds": 1.16,
+"why": "LIVE 1-1 62': UD Castellonense expected 0.5 and CF La Nucia 0.5 more goals (last 10 + season); 1-1 at 62' \u2013 88% chance; goals record 80% / 80% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1794419100.0,
+"eid": "sr:match:75879234",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75879234|19|total=2.5|13"
+},
+{
+"t": "Wed 19:00",
+"game": "Hammarby IF vs Spartak Myjava",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Handicap 0:3 \u2013 Spartak Myjava",
+"odds": 1.12,
+"why": "LIVE 0-0 51': Hammarby IF expected 0.8 and Spartak Myjava 1.1 more goals (last 10); 0-0 at 51' \u2013 97% chance",
+"ts": 1794420000.0,
+"eid": "sr:match:75233064",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75233064|14|hcp=0:3|1713"
+},
+{
+"t": "Wed 19:00",
+"game": "Ferro Carril Oeste vs Defensa Y Justicia Reserve",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Ferro Carril Oeste Under 1.5",
+"odds": 1.12,
+"why": "LIVE 0-1 47': Ferro Carril Oeste expected 0.5 and Defensa Y Justicia Reserve 0.7 more goals (last 10 + season); 0-1 at 47' \u2013 89% chance",
+"ts": 1794420000.0,
+"eid": "sr:match:75133624",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "75133624|19|total=1.5|13"
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Afogados Ingazeira PE Under 1.5",
+"odds": 1.12,
+"why": "LIVE 1-0 45': Ypiranga PE expected 0.6 and Afogados Ingazeira PE 0.5 more goals (last 10); 1-0 at 45' \u2013 88% chance",
+"ts": 1794420000.0,
+"eid": "sr:match:76678982",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "76678982|20|total=1.5|13"
+},
+{
+"t": "Wed 19:30",
+"game": "CD Alcoyano vs Elche Ilicitano CF",
+"lg": "Spain - Segunda Federacion",
+"pick": "Handicap 0:2 \u2013 Elche Ilicitano CF",
+"odds": 1.1,
+"why": "LIVE 0-1 34': CD Alcoyano expected 1.1 and Elche Ilicitano CF 0.8 more goals (last 10 + season); 0-1 at 34' \u2013 92% chance",
+"ts": 1794421800.0,
+"eid": "sr:match:76320398",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76320398|14|hcp=0:2|1713"
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Liverpool LFC or Aston Villa WFC",
+"odds": 1.2,
+"why": "LIVE 0-1 6': Liverpool LFC expected 1.8 and Aston Villa WFC 2.2 more goals (last 10); 0-1 at 6' \u2013 85% chance",
+"ts": 1794423600.0,
+"eid": "sr:match:73607356",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73607356|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 20:06",
 "at": 1794423994,
 "req": {
