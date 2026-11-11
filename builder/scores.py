@@ -89,9 +89,10 @@ def radar_score(eid):
     except Exception: return None
     r = m.get("result") or {}; p = (m.get("periods") or {}).get("p1")
     if r.get("home") is None: return dict(st="ns", h=0, a=0, ht=None, min="", src="sportradar")
-    st = "ft" if (m.get("status") or {}).get("name") in ("Ended", "AET", "AP") else "live"
+    st = "ft" if (m.get("status") or {}).get("name") in ("Ended", "AET", "AP", "AOT", "After overtime", "After OT") else "live"
     return dict(st=st, h=r["home"], a=r["away"], ht=(p["home"], p["away"]) if p else None, min="" if st == "ft" else "live", src="sportradar")
 
+BB = ("219", "223", "225", "227", "228")      # basketball markets: settled from Sportradar / SportyBet, never matched against the football list
 _SB = {}
 def sporty_score(eid):
     """last resort (games Flashscore and Sportradar do not cover, e.g. non-Sportradar ids): SportyBet's own score; no half-time score"""
@@ -195,6 +196,13 @@ def verdict(leg, s):
         if g is not None and g > line: return "W" if oid == "12" else "L"
         if ht is not None: return ("L" if oid == "12" else "W")
         return ""
+    if mid in BB:                           # basketball (results include overtime)
+        if not fin: return ""
+        v = float(spec.split("=")[1]) if "=" in spec else None
+        if mid == "219": return "W" if (oid == "4" and h > a) or (oid == "5" and a > h) else "L"
+        if mid == "223": d = (h - a + v) if oid == "1714" else (a - h - v); return "W" if d > 0 else "L" if d < 0 else "V"
+        t = {"225": h + a, "227": h, "228": a}[mid]
+        return ("W" if t > v else "L") if oid == "12" else ("W" if t < v else "L")
     if mid in ("900069", "105") and oid == "2":   # draw over the opening 5 / 10 minutes: from the goal minutes (Sportradar timeline)
         n = 5 if mid == "900069" else 10
         played = fin or (s["st"] == "live" and str(s.get("min", "")).rstrip("'+").split("+")[0].isdigit() and int(str(s["min"]).rstrip("'+").split("+")[0]) > n)
@@ -259,7 +267,7 @@ def run_once():
         gk = l["eid"]
         if gk in _final: return gk, _final[gk]
         if now < l["ts"]: return gk, None
-        fid = match_fid(l)
+        fid = None if l.get("mid") in BB else match_fid(l)
         s = (flash_score(fid) if fid else None) or radar_score(gk)
         if (not s or s["st"] == "ns") and now - l["ts"] > 20 * 60: s = sporty_score(gk) or s      # neither source has it: SportyBet's own score
         if s and s["st"] == "ft" and (s["ht"] is not None or s["src"] == "sportradar"): _final[gk] = s     # SportyBet's score (no half-time) is not kept as final: Flashscore is tried again

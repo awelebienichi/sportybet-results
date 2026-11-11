@@ -760,6 +760,8 @@ def main(req):
     if req.get("type") == "combine": return combine(req)
     if req.get("type") == "live":
         import live; return live.build(req)
+    if req.get("type") == "bball":
+        import bball; return bball.build(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")
