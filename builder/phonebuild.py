@@ -6,7 +6,7 @@ types: fav (strong favourites to win), smallfav (smallest-odds strong favourites
 Rules are the user's standing rules: favourites must pass form + h2h checks AND be clear bookmaker favourites
 (opponent's odds 1.5x+), goal picks need both teams' last-10 + h2h to agree, no game repeated across tickets,
 every code reloaded and checked before it is reported, then added to the tracker."""
-import json, os, re, subprocess, sys, time, collections, threading, datetime as dt
+import json, math, os, re, subprocess, sys, time, collections, threading, datetime as dt
 from concurrent.futures import ThreadPoolExecutor
 HERE = os.path.dirname(os.path.abspath(__file__)); SITE = os.path.dirname(HERE)
 CACHE = os.path.join(HERE, "cache"); os.makedirs(CACHE, exist_ok=True)
@@ -274,7 +274,7 @@ MK = {  # key: (market id, specifier, outcome id, label)
 }
 SETS = {"gg": ["gg"], "best": ["up_h", "up_a", "h1dc_1x", "hgg", "gb25"],
         "mix": ["win_h", "win_a", "up_h", "up_a", "dc_x2", "h1dc_1x", "h1dc_x2", "o15", "h1o05", "h2o05", "gg", "hgg",
-                "u35", "h1u25", "ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15"]}      # every game gets whichever of these suits it best
+                "u35", "h1u25", "ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "m5x", "m10x"]}      # every game gets whichever of these suits it best
 
 def rates(g, LX, hh):
     """chance-like rates from both teams' last 10 (and meetings for full-time markets); keys as in MK"""
@@ -306,7 +306,7 @@ def rates(g, LX, hh):
     return R
 
 # ---------- picking the RIGHT market for a game: value over the bookmaker, and nothing that contradicts the game ----------
-FEW = {"u35", "u45", "u55", "xg_5", "h1u25", "wu25_h", "wu25_a", "xg1_3", "h1gg_n", "xgh_3", "xga_3"}           # "few goals" picks
+FEW = {"m5x", "m10x", "u35", "u45", "u55", "xg_5", "h1u25", "wu25_h", "wu25_a", "xg1_3", "h1gg_n", "xgh_3", "xga_3"}           # "few goals" picks
 MANY = {"o25", "gg", "h1gg_y", "gb25", "o15"}                                                                     # "goals" picks
 def edge(rate, odds):
     """how far the stats beat the price: stats rate minus the bookmaker's de-margined chance"""
@@ -337,7 +337,7 @@ SAFE = {0.0: (1.60, .02), 0.1: (1.75, -.03), 0.2: (2.00, -.08)}   # strictness -
 BAR = {"o15": .88, "o25": .78, "gg": .75, "win_h": .70, "win_a": .70, "up_h": .72, "up_a": .72, "dc_1x": .88, "dc_x2": .88, "dc_12": .85,
        "hgg": .85, "gb25": .85, "h1o05": .85, "h2o05": .88, "htx": .55, "h1dc_1x": .85, "h1dc_x2": .85, "wu25_h": .85, "wu25_a": .85,
        "h1u25": .90, "u35": .85, "u45": .92, "u55": .96, "h1gg_y": .50, "h1gg_n": .85,
-       "ah_h_m15": .62, "ah_a_m15": .62, "eh_h_01": .62, "eh_a_10": .62, "ah_h_p15": .88, "ah_a_p15": .88, "eh_h_20": .88, "eh_a_02": .88, "ah_h_p25": .94, "ah_a_p25": .94}
+       "m5x": .88, "m10x": .78, "ah_h_m15": .62, "ah_a_m15": .62, "eh_h_01": .62, "eh_a_10": .62, "ah_h_p15": .88, "ah_a_p15": .88, "eh_h_20": .88, "eh_a_02": .88, "ah_h_p25": .94, "ah_a_p25": .94}
 LONG = {"htx": .9, "h1gg_y": 1.2, "ah_h_m15": .3, "ah_a_m15": .3, "eh_h_01": .3, "eh_a_10": .3}           # markets that are never short prices: their price cap is raised by this much
 GAP = {"win_h": .15, "win_a": .15, "up_h": .15, "up_a": .15, "ah_h_m15": .15, "ah_a_m15": .15, "eh_h_01": .15, "eh_a_10": .15}   # result markets: one side wins most games, the other loses a fair share – a smaller share is enough
 def bar(k): return BAR.get(k, .85) + SAFE.get(round(ST["L"], 1), SAFE[0.1])[1]
@@ -449,6 +449,8 @@ RB.update({"ah_h_m15": ("16", "hcp=-1.5", "1714", "Asian handicap {h} -1.5"), "a
            "ah_h_p25": ("16", "hcp=2.5", "1714", "Asian handicap {h} +2.5"), "ah_a_p25": ("16", "hcp=-2.5", "1715", "Asian handicap {a} +2.5"),
            "eh_h_01": ("14", "hcp=0:1", "1711", "Handicap 0:1 – {h}"), "eh_a_10": ("14", "hcp=1:0", "1713", "Handicap 1:0 – {a}"),
            "eh_h_20": ("14", "hcp=2:0", "1711", "Handicap 2:0 – {h}"), "eh_a_02": ("14", "hcp=0:2", "1713", "Handicap 0:2 – {a}")})
+# draw in the opening minutes (SportyBet opens these mostly on match day, mainly bigger leagues): 0-0 or level after 5 / 10 minutes
+RB.update({"m5x": ("900069", "minute=5", "2", "1–5 minutes draw"), "m10x": ("105", "from=1|to=10", "2", "1–10 minutes draw")})
 # Excluded Number of Goals: the pick wins when the count is NOT that number (top outcome "5+"/"3+": when it is below it)
 for _n, _lab in ((0, "0"), (1, "1"), (2, "2"), (3, "3"), (4, "4"), (5, "5+")): RB[f"xg_{_n}"] = ("450004", "", str(_n), f"Excluded goals: {_lab}")
 for _n, _lab in ((0, "0"), (1, "1"), (2, "2"), (3, "3+")):
@@ -458,6 +460,7 @@ RB_GROUPS = {"o15": ["o15"], "o25": ["o25"], "gg": ["gg"], "win": ["win_h", "win
              "dc": ["dc_1x", "dc_x2", "dc_12"], "hgg": ["hgg"], "h1": ["h1o05"], "h2": ["h2o05"], "htx": ["htx"],
              "h1dc": ["h1dc_1x", "h1dc_x2"], "gb25": ["gb25"], "wu25": ["wu25_h", "wu25_a"], "h1u25": ["h1u25"],
              "u35": ["u35"], "u45": ["u45"], "u55": ["u55"], "h1ggy": ["h1gg_y"], "h1ggn": ["h1gg_n"],
+             "m5x": ["m5x"], "m10x": ["m10x"],
              "ah": ["ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "ah_h_p25", "ah_a_p25"], "eh": ["eh_h_01", "eh_a_10", "eh_h_20", "eh_a_02"],
              "xg": [f"xg_{n}" for n in range(6)], "xgt": [f"xg{s}_{n}" for s in ("h", "a") for n in range(4)], "xg1": ["xg1_0", "xg1_2", "xg1_3"]}
 
@@ -514,6 +517,11 @@ def rebuild_rates(g, LX, hh):
                           ("ah_a_p25", lambda m: m["ga"] - m["gf"] >= -2, lambda m: m["gf"] - m["ga"] >= -2, lambda a, b: b - a >= -2)):
         R[k] = both(ch, ca, hc)
     R["eh_h_01"], R["eh_a_10"], R["eh_h_20"], R["eh_a_02"] = R["ah_h_m15"], R["ah_a_m15"], R["ah_h_p15"], R["ah_a_p15"]   # same goal margins, 3-way market
+    if len(H1) >= 6 and len(A1) >= 6:                  # opening-minutes draw: both sides' 1st-half goal rate, spread evenly over the half
+        h1 = (sum(m["h1f"] + m["h1a"] for m in H1) / len(H1) + sum(m["h1f"] + m["h1a"] for m in A1) / len(A1)) / 2
+        for k, mins in (("m5x", 5), ("m10x", 10)):
+            lam = h1 * mins / 45 / 2                   # each side's share
+            R[k] = sum((math.exp(-lam) * lam ** i / math.factorial(i)) ** 2 for i in range(4))   # level: 0-0, 1-1, ...
     for k, n in (("u35", 3), ("u45", 4), ("u55", 5)):
         R[k] = both(lambda m, n=n: m["gf"] + m["ga"] <= n, lambda m, n=n: m["gf"] + m["ga"] <= n, lambda a, b, n=n: a + b <= n)
     for n in range(6):      # match total is not n (5 = "5+": fewer than 5)
@@ -803,6 +811,8 @@ def main(req):
         if len(T) < nt: note.append(f"Only enough strong games for {len(T)} ticket(s) at about {target:g} odds with no game repeated (you asked for {nt}).")
         return finish(T, kind, names, note, req)
     if len(P) < 2:
+        if kind == "markets" and set(req.get("markets") or []) <= {"m5x", "m10x"}:
+            return dict(ok=False, msg=f"Only {len(P)} game(s) have a strong 1–5 / 1–10 minutes draw right now ({span}). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues – try again closer to kick-off, or tick them together with other markets.")
         return dict(ok=False, msg=f"Only {len(P)} game(s) pass the checks for {names[kind]} ({span}) out of {len(G)} on SportyBet. Try 'Relaxed', more days, or another type.")
     if len(P) < legs:
         note.append(f"Only {len(P)} games passed the checks ({span}, {len(G)} games on SportyBet), so this ticket has {len(P)} legs instead of {legs}. Tick more days or use 'Relaxed' for more.")

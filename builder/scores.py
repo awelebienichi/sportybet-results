@@ -92,6 +92,20 @@ def radar_score(eid):
     st = "ft" if (m.get("status") or {}).get("name") in ("Ended", "AET", "AP") else "live"
     return dict(st=st, h=r["home"], a=r["away"], ht=(p["home"], p["away"]) if p else None, min="" if st == "ft" else "live", src="sportradar")
 
+_WIN = {}
+def window_goals(eid, n):
+    """(home, away) goals scored up to minute n, from the Sportradar timeline; cached once known"""
+    k = (eid, n)
+    if k in _WIN: return _WIN[k]
+    try:
+        d = json.loads(subprocess.run(["curl", "-s", "--compressed", "-m", "30", "-A", "Mozilla/5.0", "-H", "Referer: https://www.sportybet.com/",
+                                       f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/match_timeline/{eid.split(':')[-1]}"], capture_output=True, text=True).stdout)
+        ev = d["doc"][0]["data"]["events"]
+    except Exception: return None
+    h = sum(1 for e in ev if e.get("type") == "goal" and e.get("team") == "home" and 0 < (e.get("time") or 99) <= n)
+    a = sum(1 for e in ev if e.get("type") == "goal" and e.get("team") == "away" and 0 < (e.get("time") or 99) <= n)
+    _WIN[k] = (h, a); return _WIN[k]
+
 def verdict(leg, s):
     """W / L when decided, '' while still open (or when the half-time score is needed but missing)"""
     mid, oid, spec = leg["mid"], leg["oid"], leg["spec"]; h, a, ht = s["h"], s["a"], s["ht"]; fin = s["st"] == "ft"
@@ -161,6 +175,13 @@ def verdict(leg, s):
         if g is not None and g > line: return "W" if oid == "12" else "L"
         if ht is not None: return ("L" if oid == "12" else "W")
         return ""
+    if mid in ("900069", "105") and oid == "2":   # draw over the opening 5 / 10 minutes: from the goal minutes (Sportradar timeline)
+        n = 5 if mid == "900069" else 10
+        played = fin or (s["st"] == "live" and str(s.get("min", "")).rstrip("'+").split("+")[0].isdigit() and int(str(s["min"]).rstrip("'+").split("+")[0]) > n)
+        if not played and not (s["st"] == "live" and s.get("det") in ("13", "6", "7")): return ""
+        w = window_goals(leg["eid"], n)
+        if w is None: return ""
+        return "W" if w[0] == w[1] else "L"
     if mid == "14":                         # handicap (3-way), "hcp=a:b": home gets a goals, away gets b; 1711 home, 1712 draw, 1713 away
         if not fin: return ""
         x, y = [int(v) for v in spec.split("=")[1].split(":")]
