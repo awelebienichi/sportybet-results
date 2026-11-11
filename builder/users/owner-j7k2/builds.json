@@ -1,5 +1,21 @@
 [
 {
+"when": "Wed 11 Nov 17:45",
+"at": 1794415528,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "hold",
+"legs": 12,
+"strict": "relaxed",
+"rid": "mwcco5q880fs",
+"target": 2
+},
+"ok": false,
+"msg": "2 odds can't be reached right now: 3 live leg(s) are strong enough, and the most they make with up to 12 legs is 1.43 odds. Lower the target, allow more legs, or try again in a few minutes."
+},
+{
 "when": "Wed 11 Nov 17:44",
 "at": 1794415500,
 "req": {
@@ -4971,24 +4987,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 00:51",
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "beaten",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-11"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwbcgnyoe0fa"
-},
-"ok": false,
-"msg": "Only 1 game(s) pass the checks for always-beaten teams (season data) (Wed 11) out of 114 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
