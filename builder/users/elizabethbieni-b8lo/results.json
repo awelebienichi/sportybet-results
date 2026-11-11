@@ -244,7 +244,10 @@
 "game": "Broendby IF vs Rosenborg BK Kvinner",
 "pick": "Over 1.5",
 "odds": 1.25,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
@@ -422,7 +425,7 @@
 "odds": 1.23,
 "ts": 1794418200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -503,7 +506,7 @@
 "odds": 1.23,
 "ts": 1794418200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -582,7 +585,10 @@
 "game": "Broendby IF vs Rosenborg BK Kvinner",
 "pick": "Over 1.5",
 "odds": 1.25,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:30",
@@ -690,7 +696,7 @@
 "odds": 1.23,
 "ts": 1794418200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -1256,7 +1262,10 @@
 "game": "Broendby IF vs Rosenborg BK Kvinner",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
@@ -1442,7 +1451,10 @@
 "game": "Broendby IF vs Rosenborg BK Kvinner",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 20:00",
@@ -1586,7 +1598,10 @@
 "game": "Broendby IF vs Rosenborg BK Kvinner",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
@@ -1747,7 +1762,10 @@
 "game": "Broendby IF vs Rosenborg BK Kvinner",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:45",
