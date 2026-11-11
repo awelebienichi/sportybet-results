@@ -8,14 +8,14 @@
 "day": 1,
 "current": {
 "date": "2026-11-11",
-"code": "ND0NSW",
-"odds": 4.29,
+"code": "U1S7YY",
+"odds": 3.63,
 "stake": 1000.0,
 "n": 7,
 "result": null
 },
 "started": "2026-11-11",
 "short": "lower",
-"min_odds": 2.0,
-"level": "strong"
+"min_odds": 1.8,
+"level": "strictest"
 }
