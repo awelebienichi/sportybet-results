@@ -1,5 +1,180 @@
 [
 {
+"when": "Wed 11 Nov 22:43",
+"at": 1794433396,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "htdraw",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwcnb3f8fiw9"
+},
+"ok": true,
+"kind": "half-time draw",
+"note": [
+"Only 10 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 577 games on SportyBet), so this ticket has 10 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "NLZCKQ",
+"odds": 1314.64,
+"legs": [
+{
+"t": "Thu 00:00",
+"game": "Real Cundinamarca vs Real Cartagena FC",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Half-time draw",
+"odds": 2.05,
+"why": "level at half-time in 70% of Real Cundinamarca's last 10 and 60% of Real Cartagena FC's last 10 (55% were 0-0); league 55% half-time draws; 50% of 10 meetings level at half-time",
+"ts": 1794438000.0,
+"eid": "sr:match:76204162",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76204162|60||2"
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Half-time draw",
+"odds": 2.2,
+"why": "level at half-time in 80% of Sao Bernardo FC's last 10 and 70% of Athletic Club Sjdr MG's last 10 (40% were 0-0); league 46% half-time draws",
+"ts": 1794524400.0,
+"eid": "sr:match:68823468",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "68823468|60||2"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "Half-time draw",
+"odds": 1.92,
+"why": "level at half-time in 75% of JS Saoura's last 8 and 70% of USM Khenchela's last 10 (72% were 0-0); league 72% half-time draws; 62% of 8 meetings level at half-time",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "75722348|60||2"
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"lg": "Greece - Super League 2",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 90% of Hellas Syrou's last 10 and 60% of Panthrakikos FC Komotini's last 10 (55% were 0-0); league 53% half-time draws",
+"ts": 1794657600.0,
+"eid": "sr:match:74172536",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74172536|60||2"
+},
+{
+"t": "Sat 14:00",
+"game": "Bronshoj BK vs Vanloese IF",
+"lg": "Denmark - 3rd Division",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 60% of Bronshoj BK's last 10 and 70% of Vanloese IF's last 10 (35% were 0-0); league 42% half-time draws; 70% of 10 meetings level at half-time",
+"ts": 1794661200.0,
+"eid": "sr:match:72500826",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72500826|60||2"
+},
+{
+"t": "Sat 18:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 1.91,
+"why": "level at half-time in 70% of CA Temperley's last 10 and 70% of Club Ciudad de Bolivar's last 10 (55% were 0-0); league 53% half-time draws",
+"ts": 1794675600.0,
+"eid": "sr:match:76413238",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413238|60||2"
+},
+{
+"t": "Sat 18:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 1.86,
+"why": "level at half-time in 70% of CA Atlanta's last 10 and 60% of CA Estudiantes's last 10 (55% were 0-0); league 53% half-time draws; 80% of 10 meetings level at half-time",
+"ts": 1794675600.0,
+"eid": "sr:match:76413236",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413236|60||2"
+},
+{
+"t": "Sat 18:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 70% of Deportivo Madryn's last 10 and 70% of CD Maipu's last 10 (55% were 0-0); league 53% half-time draws; 40% of 5 meetings level at half-time",
+"ts": 1794675600.0,
+"eid": "sr:match:76413240",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413240|60||2"
+},
+{
+"t": "Sun 12:00",
+"game": "UD Ibiza vs FC Cartagena",
+"lg": "Spain - Primera Federacion",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "level at half-time in 60% of UD Ibiza's last 10 and 60% of FC Cartagena's last 10 (45% were 0-0); league 43% half-time draws; 44% of 9 meetings level at half-time",
+"ts": 1794740400.0,
+"eid": "sr:match:73068202",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "73068202|60||2"
+},
+{
+"t": "Sun 13:30",
+"game": "PFK Sportist Svoge vs PFC Spartak Pleven",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Half-time draw",
+"odds": 2.0,
+"why": "level at half-time in 70% of PFK Sportist Svoge's last 10 and 60% of PFC Spartak Pleven's last 10 (45% were 0-0); league 41% half-time draws; 88% of 8 meetings level at half-time",
+"ts": 1794745800.0,
+"eid": "sr:match:72466628",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72466628|60||2"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 22:42",
 "at": 1794433370,
 "req": {
@@ -6311,87 +6486,6 @@
 "odds": 1.16,
 "why": "LIVE 1-1 27': Czarni Sosnowiec II expected 1.0 and RESOVIA RZESZOW 1.1 more goals (last 10 + season); 1-1 at 27' \u2013 87% chance this handicap lands",
 "ts": 1794400204.6231782,
-"eid": "sr:match:72576702",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "72576702|14|hcp=0:2|1713"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 13:28",
-"at": 1794400128,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 4,
-"rid": "mwc3hsy4t4qs"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "TUMLRT",
-"odds": 2.21,
-"legs": [
-{
-"t": "Wed 13:29",
-"game": "North Macedonia vs Northern Ireland",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Handicap 2:0 \u2013 North Macedonia",
-"odds": 1.16,
-"why": "LIVE 0-0 26': North Macedonia expected 0.5 and Northern Ireland 0.7 more goals (last 10); 0-0 at 26' \u2013 88% chance this handicap lands; Flashscore home/away form 56%",
-"ts": 1794400182.8772845,
-"eid": "sr:match:75244192",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "75244192|14|hcp=2:0|1711"
-},
-{
-"t": "Wed 13:29",
-"game": "FK Tukums 2000/TSS vs Valmiera FC",
-"lg": "Latvia - Virsliga",
-"pick": "Handicap 0:2 \u2013 Valmiera FC",
-"odds": 1.37,
-"why": "LIVE 0-0 28': FK Tukums 2000/TSS expected 0.7 and Valmiera FC 1.6 more goals (last 10); 0-0 at 28' \u2013 96% chance this handicap lands; Flashscore home/away form 80%",
-"ts": 1794400183.721609,
-"eid": "sr:match:76653244",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76653244|14|hcp=0:2|1713"
-},
-{
-"t": "Wed 13:29",
-"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
-"lg": "Slovakia - Slovensky Pohar",
-"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
-"odds": 1.2,
-"why": "LIVE 0-0 26': FKM Nove Zamky expected 1.2 and MFK Zemplin Michalovce 1.0 more goals (last 10); 0-0 at 26' \u2013 97% chance this handicap lands; Flashscore home/away form 60%",
-"ts": 1794400184.2253056,
-"eid": "sr:match:75948774",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "75948774|14|hcp=3:0|1711"
-},
-{
-"t": "Wed 13:29",
-"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
-"lg": "Poland - 1. Liga, Women",
-"pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
-"odds": 1.16,
-"why": "LIVE 1-1 26': Czarni Sosnowiec II expected 1.0 and RESOVIA RZESZOW 1.1 more goals (last 10 + season); 1-1 at 26' \u2013 87% chance this handicap lands",
-"ts": 1794400185.037266,
 "eid": "sr:match:72576702",
 "mid": "14",
 "spec": "hcp=0:2",
