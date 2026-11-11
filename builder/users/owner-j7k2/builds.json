@@ -1,5 +1,131 @@
 [
 {
+"when": "Wed 11 Nov 18:04",
+"at": 1794416644,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 8,
+"strict": "relaxed",
+"rid": "mwcdbz1371bp"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 7 live leg(s) were strong enough right now (you asked for 8).",
+"Relaxed safety: in testing only about 82 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "WV8052",
+"odds": 3.0,
+"legs": [
+{
+"t": "Wed 16:30",
+"game": "Bosnia and Herzegovina vs San Marino",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Bosnia and Herzegovina Under 4.5",
+"odds": 1.12,
+"why": "LIVE 3-1 77': Bosnia and Herzegovina expected 0.4 and San Marino 0.2 more goals (last 10); 3-1 at 77' \u2013 91% chance",
+"ts": 1794411000.0,
+"eid": "sr:match:74827230",
+"mid": "19",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74827230|19|total=4.5|13"
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 4.5",
+"odds": 1.15,
+"why": "LIVE 0-2 53': Kazakhstan expected 0.7 and Scotland 0.7 more goals (last 10); 0-2 at 53' \u2013 82% chance; Flashscore home/away form 60%",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74838476|18|total=4.5|13"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Silifke Belediyespor Under 1.5",
+"odds": 1.1,
+"why": "LIVE 0-1 45': Silifke Belediyespor expected 0.5 and Icel Idmanyurdu Spor 1.0 more goals (last 10 + season); 0-1 at 45' \u2013 89% chance; goals record 80% / 80% in both sides' last games",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "72891356|19|total=1.5|13"
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 4.5",
+"odds": 1.16,
+"why": "LIVE 0-1 45': Serbia expected 1.0 and Faroe Islands 0.6 more goals (last 10); 0-1 at 45' \u2013 90% chance; Flashscore home/away form 65%",
+"ts": 1794412800.0,
+"eid": "sr:match:74754154",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74754154|18|total=4.5|13"
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"lg": "France - National 1",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "LIVE 0-1 46': AS Saint Priest expected 0.7 and GFA Rumilly-Vallieres 1.2 more goals (last 10 + season); 0-1 at 46' \u2013 81% chance; Flashscore home/away form 80%, season: 3.7 goals a game, h2h 100% of 3 meetings (1.5 line)",
+"ts": 1794412800.0,
+"eid": "sr:match:74041572",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74041572|18|total=1.5|12"
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "SK Brann Under 6.5",
+"odds": 1.3,
+"why": "LIVE 0-4 45': Czarni Sosnowiec expected 0.7 and SK Brann 1.0 more goals (last 10); 0-4 at 45' \u2013 90% chance; goals record 100% / 100% in both sides' last games",
+"ts": 1794412800.0,
+"eid": "sr:match:75233058",
+"mid": "20",
+"spec": "total=6.5",
+"oid": "13",
+"k": "75233058|20|total=6.5|13"
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"lg": "Spain Amateur - Tercera Federacion, Group 11",
+"pick": "Handicap 0:3 \u2013 Inter Ibiza CD",
+"odds": 1.22,
+"why": "LIVE 0-0 32': CD Manacor expected 1.4 and Inter Ibiza CD 0.7 more goals (last 10 + season); 0-0 at 32' \u2013 86% chance; h2h 75% of 4 meetings",
+"ts": 1794414600.0,
+"eid": "sr:match:75667382",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75667382|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 17:58",
 "at": 1794416295,
 "req": {
@@ -5129,24 +5255,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 07:19",
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 1,
-"tickets": 1,
-"days": [
-"2026-11-11"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwbqbl7nkj1f"
-},
-"ok": false,
-"msg": "Only 1 game(s) pass the checks for goal-fest teams (season data) (Wed 11) out of 110 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
