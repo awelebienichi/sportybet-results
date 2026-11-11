@@ -47,14 +47,17 @@
 "when": "Wed 11 Nov 13:48",
 "kind": "draw & low-scoring teams (season data)",
 "odds": 3.6,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 18:00",
 "game": "Bourges FC vs Hyeres FC",
 "pick": "Draw",
 "odds": 3.1,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",

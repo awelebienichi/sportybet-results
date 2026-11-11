@@ -154,7 +154,10 @@
 "game": "FK Babrungas Plunge vs FK Minija 2017",
 "pick": "Over 0.5",
 "odds": 1.16,
-"ts": 1794414600.0
+"ts": 1794414600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:30",
@@ -231,7 +234,10 @@
 "game": "FK Babrungas Plunge vs FK Minija 2017",
 "pick": "Over 0.5",
 "odds": 1.15,
-"ts": 1794414600.0
+"ts": 1794414600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
@@ -1051,7 +1057,10 @@
 "game": "Colombe Sportive Du Dja Et Lobo vs Victoria United Limbe",
 "pick": "Double chance Colombe Sportive Du Dja Et Lobo or Victoria United Limbe",
 "odds": 1.12,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
@@ -1088,7 +1097,10 @@
 "game": "Bourges FC vs Hyeres FC",
 "pick": "Double chance Hyeres FC or draw",
 "odds": 1.24,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -2587,14 +2599,17 @@
 "when": "Wed 11 Nov 09:17",
 "kind": "draw & low-scoring teams (season data)",
 "odds": 58.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 18:00",
 "game": "Bourges FC vs Hyeres FC",
 "pick": "Draw",
 "odds": 3.0,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 00:00",

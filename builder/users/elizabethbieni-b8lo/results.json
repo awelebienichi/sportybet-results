@@ -264,7 +264,10 @@
 "game": "Bourges FC vs Hyeres FC",
 "pick": "Under 3.5",
 "odds": 1.17,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
@@ -1291,7 +1294,10 @@
 "game": "Bourges FC vs Hyeres FC",
 "pick": "Double chance Hyeres FC or draw",
 "odds": 1.23,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
