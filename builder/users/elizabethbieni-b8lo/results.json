@@ -24,7 +24,10 @@
 "game": "UD Castellonense vs CF La Nucia",
 "pick": "UD Castellonense Under 2.5",
 "odds": 1.16,
-"ts": 1794419100.0
+"ts": 1794419100.0,
+"r": "W",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Wed 19:00",
@@ -1404,7 +1407,10 @@
 "game": "UD Castellonense vs CF La Nucia",
 "pick": "Double chance UD Castellonense or CF La Nucia",
 "odds": 1.31,
-"ts": 1794419100.0
+"ts": 1794419100.0,
+"r": "L",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:45",
@@ -1894,7 +1900,10 @@
 "game": "UD Castellonense vs CF La Nucia",
 "pick": "Double chance UD Castellonense or CF La Nucia",
 "odds": 1.31,
-"ts": 1794419100.0
+"ts": 1794419100.0,
+"r": "L",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Wed 19:00",
