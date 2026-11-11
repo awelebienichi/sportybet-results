@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JWASBN",
+"at": 1794406969,
+"when": "Wed 11 Nov 15:22",
+"kind": "live \u2013 best of all",
+"odds": 1.89,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:23",
+"game": "Czechia vs Netherlands",
+"pick": "Under 4.5",
+"odds": 1.12,
+"ts": 1794407025.7051673
+},
+{
+"t": "Wed 15:23",
+"game": "Ireland vs Greece",
+"pick": "Under 3.5",
+"odds": 1.15,
+"ts": 1794407025.7051828
+},
+{
+"t": "Wed 15:23",
+"game": "Ethiopian Coffee SC vs Hadiya Hossana FC",
+"pick": "Hadiya Hossana FC to win",
+"odds": 1.12,
+"ts": 1794407025.705199
+},
+{
+"t": "Wed 15:23",
+"game": "Bangladesh vs Sri Lanka",
+"pick": "Handicap 0:3 \u2013 Sri Lanka",
+"odds": 1.14,
+"ts": 1794407025.7052083
+},
+{
+"t": "Wed 15:23",
+"game": "Newell's Old Boys vs CA Huracan",
+"pick": "Over 0.5",
+"odds": 1.15,
+"ts": 1794407025.705213
+}
+]
+},
+{
 "code": "NVJHCR",
 "at": 1794403685,
 "when": "Wed 11 Nov 14:28",
