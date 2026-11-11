@@ -1,6 +1,33 @@
 [
 {
 "when": "Wed 11 Nov 22:56",
+"at": 1794434192,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1ggy"
+],
+"rid": "mwcnsa0mwbso"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for your chosen markets (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15) out of 577 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
+"when": "Wed 11 Nov 22:56",
 "at": 1794434164,
 "req": {
 "u": "owner-j7k2",
@@ -8330,21 +8357,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 17:42",
-"at": 1794415347,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 12,
-"strict": "relaxed",
-"rid": "mwcckas3aerp",
-"target": 4
-},
-"ok": false,
-"msg": "4 odds can't be reached right now: 6 live leg(s) are strong enough, and the most they make with up to 12 legs is 2.58 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
