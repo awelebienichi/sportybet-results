@@ -362,8 +362,17 @@ h2{{font-size:15px;margin:18px 0 4px}}h2 small{{display:block;color:var(--mut);f
             for i in range(3):
                 if g("push", "-q", "origin", "HEAD:main").returncode == 0: break
                 g("pull", "--rebase", "--autostash", "-q")
+            else: api_send([("bestprices.html", "same", html.encode())], "best prices")
         LASTPAGE[0] = time.time()
     except Exception as x: print("bestpage error", x, flush=True)
+
+def api_send(items, msg):
+    """git push failed (Mac background job / weak connection): send through the GitHub API instead, merging alerts with the online copy"""
+    try:
+        import sys as _s; _s.path.insert(0, os.path.dirname(HERE)); import gh_publish
+        ch = [(p, gh_publish.merge_alerts(v) if kind == "alerts" else gh_publish.same_as(v)) for p, kind, v in items]
+        print("sent through the GitHub API" if gh_publish.publish(ch, msg) else "API send failed", flush=True)
+    except Exception as x: print("API send error", x, flush=True)
 
 DAILY = os.path.join(HERE, "daily.json")
 def daily(scanned, alerts):
@@ -487,6 +496,7 @@ body{{background:var(--bg);color:var(--fg);font:15px/1.4 system-ui;margin:0;padd
             for i in range(3):
                 if g("push", "-q", "origin", "HEAD:main").returncode == 0: break
                 g("pull", "--rebase", "--autostash", "-q")
+            else: api_send([("glitch/alerts.json", "alerts", alerts), ("alerts.html", "same", html.encode())], f"glitch alerts ({WHO})")
     except Exception as x: print("page error", x)
 
 def main():
