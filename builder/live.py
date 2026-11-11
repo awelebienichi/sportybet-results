@@ -228,7 +228,7 @@ def build(req):
         if not od: continue
         p = (p + 1 / (od * 1.06)) / 2                                           # the stats model and the bookmaker's own price must agree
         if p < .75: continue                                                    # high chance, no coin-flip prices
-        per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=time.time() + 60, game=f"{g['h']} vs {g['a']}",
+        per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
                                                  lg=g["lg"], rate=p, s=P.edge(p, od), why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
     def choose(L):
         for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5))[:4]:      # best value with a high chance first; no market is preferred

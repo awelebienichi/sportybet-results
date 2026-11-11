@@ -92,6 +92,26 @@ def radar_score(eid):
     st = "ft" if (m.get("status") or {}).get("name") in ("Ended", "AET", "AP") else "live"
     return dict(st=st, h=r["home"], a=r["away"], ht=(p["home"], p["away"]) if p else None, min="" if st == "ft" else "live", src="sportradar")
 
+_SB = {}
+def sporty_score(eid):
+    """last resort (games Flashscore and Sportradar do not cover, e.g. non-Sportradar ids): SportyBet's own score; no half-time score"""
+    d = subprocess.run(["curl", "-s", "--compressed", "-m", "30", "-A", UA, "-H", "Referer: https://www.sportybet.com/ng/",
+                        f"https://www.sportybet.com/api/ng/factsCenter/event?eventId={eid}&productId=1"], capture_output=True, text=True).stdout
+    try: e = json.loads(d)["data"]
+    except Exception: return None
+    _SB[eid] = e.get("estimateStartTime", 0) / 1000 or _SB.get(eid)
+    st = str(e.get("matchStatus") or "")
+    try: h, a = [int(x) for x in str(e.get("setScore") or "").split(":")]
+    except Exception: return None
+    if st == "Ended": return dict(st="ft", h=h, a=a, ht=None, min="", src="sportybet")
+    if st in ("H1", "H2", "HT"): return dict(st="live", h=h, a=a, ht=None, min=str(e.get("playedSeconds") or "").split(":")[0] + "'", src="sportybet")
+    return None
+
+def kickoff(eid):
+    """real kick-off time of a game (live tickets booked before 11 Nov 16:30 stored the booking time instead)"""
+    if eid not in _SB: sporty_score(eid)
+    return _SB.get(eid)
+
 _WIN = {}
 def window_goals(eid, n):
     """(home, away) goals scored up to minute n, from the Sportradar timeline; cached once known"""
@@ -199,7 +219,13 @@ def verdict(leg, s):
     return ""
 
 def backfill(b):
-    """older builds have no event ids: read them once from the booking code"""
+    """older builds have no event ids: read them once from the booking code; live tickets get their games' real kick-off times"""
+    if (b.get("req") or {}).get("type") == "live" and not b.get("_ko"):
+        for t in b.get("tickets", []):
+            for l in t["legs"]:
+                ko = kickoff(l["eid"]) if "eid" in l else None
+                if ko and abs(ko - l["ts"]) > 120: l["ts"] = ko
+        b["_ko"] = True
     for t in b.get("tickets", []):
         if all("k" in l for l in t["legs"]): continue
         if t["code"] not in _codes:
@@ -235,7 +261,8 @@ def run_once():
         if now < l["ts"]: return gk, None
         fid = match_fid(l)
         s = (flash_score(fid) if fid else None) or radar_score(gk)
-        if s and s["st"] == "ft" and (s["ht"] is not None or s["src"] == "sportradar"): _final[gk] = s
+        if (not s or s["st"] == "ns") and now - l["ts"] > 20 * 60: s = sporty_score(gk) or s      # neither source has it: SportyBet's own score
+        if s and s["st"] == "ft" and (s["ht"] is not None or s["src"] in ("sportradar", "sportybet")): _final[gk] = s
         return gk, s
     with ThreadPoolExecutor(10) as ex: S = dict(ex.map(score, games.values()))
     out = {}
