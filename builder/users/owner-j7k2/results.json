@@ -2,6 +2,152 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JX4GZS",
+"at": 1794433793,
+"when": "Wed 11 Nov 22:49",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 63.29,
+"status": "open",
+"legs": [
+{
+"t": "Thu 00:00",
+"game": "Real Cundinamarca vs Real Cartagena FC",
+"pick": "Under 2.5",
+"odds": 1.69,
+"ts": 1794438000.0
+},
+{
+"t": "Thu 02:10",
+"game": "Deportes Quindio vs Tigres FC",
+"pick": "Under 2.5",
+"odds": 1.44,
+"ts": 1794445800.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Under 2.5",
+"odds": 1.45,
+"ts": 1794589200.0
+},
+{
+"t": "Sat 12:00",
+"game": "Nairobi United FC vs Mara Sugar FC",
+"pick": "Under 2.5",
+"odds": 1.43,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ulinzi Stars FC vs Migori Youth FC",
+"pick": "Under 2.5",
+"odds": 1.43,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 18:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"pick": "Under 2.5",
+"odds": 1.43,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Colon de Santa Fe vs CA Ferrocarril Midland",
+"pick": "Under 2.5",
+"odds": 1.43,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 23:00",
+"game": "CD Armenio vs CS Italiano",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1794693600.0
+},
+{
+"t": "Sun 00:00",
+"game": "Envigado FC vs Union Magdalena",
+"pick": "Under 2.5",
+"odds": 1.49,
+"ts": 1794697200.0
+},
+{
+"t": "Sun 11:45",
+"game": "Kenya Police FC vs Posta Rangers FC",
+"pick": "Under 2.5",
+"odds": 1.49,
+"ts": 1794739500.0
+}
+]
+},
+{
+"code": "Q67D4N",
+"at": 1794433756,
+"when": "Wed 11 Nov 22:49",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 11.68,
+"status": "open",
+"legs": [
+{
+"t": "Thu 02:00",
+"game": "Club America vs Deportivo Toluca FC",
+"pick": "Over 2.5",
+"odds": 1.18,
+"ts": 1794445200.0
+},
+{
+"t": "Thu 14:00",
+"game": "Germany vs Sweden",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 18:00",
+"game": "SCU Torreense vs Sparta Prague",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:45",
+"game": "FC Barcelona W vs Arsenal WFC",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1794505500.0
+},
+{
+"t": "Sat 05:00",
+"game": "Melbourne City FC vs Newcastle Jets",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794628800.0
+},
+{
+"t": "Sat 13:45",
+"game": "Manchester United WFC vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794660300.0
+},
+{
+"t": "Sat 16:00",
+"game": "Tottenham Hotspur FC vs Everton FC Women",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "TL2G7N",
 "at": 1794433729,
 "when": "Wed 11 Nov 22:48",
@@ -2878,7 +3024,7 @@
 "odds": 1.13,
 "ts": 1794427200.0,
 "r": "W",
-"sc": "0-5",
+"sc": "0-6",
 "ht": "0-3"
 },
 {
