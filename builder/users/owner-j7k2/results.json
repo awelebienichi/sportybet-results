@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X3TC1C",
+"at": 1794433916,
+"when": "Wed 11 Nov 22:51",
+"kind": "draw & low-scoring teams (season data)",
+"odds": 744.8,
+"status": "open",
+"legs": [
+{
+"t": "Thu 15:00",
+"game": "Boca Juniors vs Social Atletico Television",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1794492000.0
+},
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1794508200.0
+},
+{
+"t": "Fri 00:00",
+"game": "Cerro Largo FC vs CA Progreso",
+"pick": "Under 3.5",
+"odds": 1.29,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Under 2.5",
+"odds": 1.45,
+"ts": 1794589200.0
+},
+{
+"t": "Sat 12:00",
+"game": "Nairobi United FC vs Mara Sugar FC",
+"pick": "Draw",
+"odds": 2.95,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "Draw",
+"odds": 3.4,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ulinzi Stars FC vs Migori Youth FC",
+"pick": "Under 3.5",
+"odds": 1.14,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "AE Larissa FC vs Nestos Chrysoupoli FC",
+"pick": "Under 3.5",
+"odds": 1.33,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Asteras Tripolis B vs PAOK Thessaloniki B",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 20:30",
+"game": "America FC MG vs Avai FC SC",
+"pick": "Under 3.5",
+"odds": 1.32,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "AC Goianiense GO vs Cuiaba EC MT",
+"pick": "Under 3.5",
+"odds": 1.3,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 22:30",
+"game": "Mirassol FC SP vs Atletico Mineiro MG",
+"pick": "Under 3.5",
+"odds": 1.37,
+"ts": 1794691800.0
+},
+{
+"t": "Sun 05:00",
+"game": "Hokkaido Consadole Sapporo vs Sagan Tosu",
+"pick": "Under 3.5",
+"odds": 1.3,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 11:30",
+"game": "Apollon Kalamarias vs Kallithea FC",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1794738600.0
+},
+{
+"t": "Sun 13:30",
+"game": "Leopards SC vs Mombasa United FC",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 14:30",
+"game": "Guidonia Montecelio 1937 FC vs AS Ostiamare",
+"pick": "Under 3.5",
+"odds": 1.31,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"pick": "Under 3.5",
+"odds": 1.46,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 17:30",
+"game": "AS Cittadella vs US Folgore Caratese",
+"pick": "Under 3.5",
+"odds": 1.28,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1794765600.0
+}
+]
+},
+{
 "code": "JEDZW7",
 "at": 1794433875,
 "when": "Wed 11 Nov 22:51",
@@ -2152,7 +2302,10 @@
 "game": "Juventus Turin W vs Olympique Lyon W",
 "pick": "Olympique Lyon W Under 6.5",
 "odds": 1.15,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "0-6",
+"ht": "0-3"
 }
 ]
 },
