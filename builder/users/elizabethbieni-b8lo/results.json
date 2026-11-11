@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 20:45",
 "kind": "live \u2013 best of all",
 "odds": 7.63,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 19:00",
@@ -35,7 +35,10 @@
 "game": "CD Castellon B vs Club Deportiva Minera",
 "pick": "CD Castellon B Under 2.5",
 "odds": 1.15,
-"ts": 1794420000.0
+"ts": 1794420000.0,
+"r": "L",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
