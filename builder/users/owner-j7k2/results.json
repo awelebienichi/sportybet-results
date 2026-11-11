@@ -2,6 +2,243 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "P1NPB9",
+"at": 1794434040,
+"when": "Wed 11 Nov 22:53",
+"kind": "your chosen markets",
+"odds": 2.43,
+"status": "open",
+"legs": [
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"pick": "1st half Under 2.5",
+"odds": 1.13,
+"ts": 1794535200.0
+},
+{
+"t": "Fri 14:00",
+"game": "Mozambique vs Ethiopia",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794589200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Central Espanol FC vs CA Boston River",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Stenhousemuir FC vs Queens Park FC",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 20:30",
+"game": "Deportivo Maldonado vs CA Cerro",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "Fortaleza EC CE vs Vila Nova FC GO",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794684600.0
+},
+{
+"t": "Sun 00:30",
+"game": "Chapecoense SC vs CR Vasco da Gama RJ",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"ts": 1794699000.0
+},
+{
+"t": "Sun 12:30",
+"game": "Novara FC vs Calcio Lecco 1912",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794771000.0
+}
+]
+},
+{
+"code": "MDZFN9",
+"at": 1794433990,
+"when": "Wed 11 Nov 22:53",
+"kind": "your chosen markets",
+"odds": 5.47,
+"status": "open",
+"legs": [
+{
+"t": "Thu 00:00",
+"game": "Real Cundinamarca vs Real Cartagena FC",
+"pick": "Real Cartagena FC Under 2.5 goals",
+"odds": 1.09,
+"ts": 1794438000.0
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"pick": "Athletic Club Sjdr MG Under 2.5 goals",
+"odds": 1.07,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 15:45",
+"game": "Qatar vs Australia",
+"pick": "Qatar Under 2.5 goals",
+"odds": 1.07,
+"ts": 1794581100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Netherlands vs Greece",
+"pick": "Greece Under 2.5 goals",
+"odds": 1.06,
+"ts": 1794599100.0
+},
+{
+"t": "Sat 06:00",
+"game": "Oita Trinita vs Tochigi City FC",
+"pick": "Tochigi City FC Under 2.5 goals",
+"odds": 1.12,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Shonan Bellmare vs Yokohama FC",
+"pick": "Shonan Bellmare Under 2.5 goals",
+"odds": 1.1,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Central Espanol FC vs CA Boston River",
+"pick": "Central Espanol FC Under 2.5 goals",
+"odds": 1.1,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "Boston United FC Under 2.5 goals",
+"odds": 1.08,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Georgia vs Hungary",
+"pick": "Georgia Under 2.5 goals",
+"odds": 1.07,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 20:30",
+"game": "Fortaleza EC CE vs Vila Nova FC GO",
+"pick": "Vila Nova FC GO Under 2.5 goals",
+"odds": 1.07,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "Criciuma EC SC vs Gremio Novorizontino SP",
+"pick": "Criciuma EC SC Under 2.5 goals",
+"odds": 1.09,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "SC Recife PE vs Goias EC GO",
+"pick": "SC Recife PE Under 2.5 goals",
+"odds": 1.09,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:45",
+"game": "Northern Ireland vs Ukraine",
+"pick": "Ukraine Under 2.5 goals",
+"odds": 1.06,
+"ts": 1794685500.0
+},
+{
+"t": "Sat 21:30",
+"game": "Atletico Nacional vs CD Once Caldas",
+"pick": "CD Once Caldas Under 2.5 goals",
+"odds": 1.14,
+"ts": 1794688200.0
+},
+{
+"t": "Sat 21:30",
+"game": "Aguilas Doradas Rionegro vs Independiente Medellin",
+"pick": "Independiente Medellin Under 2.5 goals",
+"odds": 1.11,
+"ts": 1794688200.0
+},
+{
+"t": "Sun 05:00",
+"game": "Vanraure Hachinohe FC vs Iwaki FC",
+"pick": "Vanraure Hachinohe FC Under 2.5 goals",
+"odds": 1.09,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 06:00",
+"game": "FC Imabari vs Jubilo Iwata",
+"pick": "FC Imabari Under 2.5 goals",
+"odds": 1.09,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 12:30",
+"game": "FK Ufa vs Spartak Kostroma",
+"pick": "Spartak Kostroma Under 2.5 goals",
+"odds": 1.06,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 14:30",
+"game": "MVV Maastricht vs Vitesse Arnhem",
+"pick": "MVV Maastricht Under 2.5 goals",
+"odds": 1.15,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "Lusitania FC Lourosa Under 2.5 goals",
+"odds": 1.07,
+"ts": 1794756600.0
+}
+]
+},
+{
 "code": "X3TC1C",
 "at": 1794433916,
 "when": "Wed 11 Nov 22:51",
