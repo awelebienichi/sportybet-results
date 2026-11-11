@@ -8,6 +8,7 @@ Markets: 219 winner (incl. OT), 223 handicap (incl. OT), 225 total points (incl.
 import datetime as dt, json, math, re, time
 from concurrent.futures import ThreadPoolExecutor
 import phonebuild as P
+import bbsources
 
 HCA, SDM, SDT, SDTEAM = 3.65, 15.1, 17.9, 11.7
 LEVELS = {"strict": (.85, .80), "normal": (.80, .76), "relaxed": (.75, .72)}      # stats chance, chance after the bookmaker's price
@@ -101,9 +102,12 @@ def build(req):
     G = [g for g in G if len(LX.get(g["hid"], [])) >= 8 and len(LX.get(g["aid"], [])) >= 8]      # strong data only
     if not G: return dict(ok=False, msg=f"None of the basketball games for {span} have enough recent results for both teams.")
     MK = _within([g["eid"] for g in G], lambda e: P.event_game(e)[1], 45)
-    want = KINDS[kind]; best = []
+    want = KINDS[kind]; best = []; cand = []
     for g in G:
         H, A = LX[g["hid"]], LX[g["aid"]]; mh, ma = expect(H, A)
+        rest = []
+        if bbsources.tired(g["hid"], g["ts"]): mh -= 1.0; rest.append(f"{g['h']} on 2nd game in 2 days")    # measured on 5,343 games: ~-1 point
+        if bbsources.tired(g["aid"], g["ts"]): ma -= 1.0; rest.append(f"{g['a']} on 2nd game in 2 days")
         opts = []
         for (mid, spec, oid), od in MK.get(g["eid"], {}).items():
             if mid not in ("219", "223", "225", "227", "228") or (want and mid not in want): continue
@@ -117,13 +121,34 @@ def build(req):
                 if sum(m["gf"] > m["ga"] for m in me) / len(me) < .6: continue
             opts.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=label(g, mid, spec, oid), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
                              rate=pb, s=P.edge(pb, od),
-                             why=f"expected {g['h']} {mh:.0f} – {g['a']} {ma:.0f} (last {len(H)}/{len(A)} games, home edge included); {p:.0%} by the stats, {pb:.0%} with the price"))
+                             why=f"expected {g['h']} {mh:.0f} – {g['a']} {ma:.0f} (last {len(H)}/{len(A)} games, home edge included" + (", " + ", ".join(rest) if rest else "") + f"); {p:.0%} by the stats, {pb:.0%} with the price"))
         if opts:
             # one leg per game: best value with a high chance; total points (incl. overtime) lead, then team points, handicaps last
-            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "227": .03, "228": .03, "223": -.02}.get(o["mid"], 0))); top = opts[0]
-            alt = next((o for o in opts if o["mid"] != "223"), None)                # its best non-handicap option, used if handicaps are full
-            if alt and alt is not top: top["alt"] = alt
-            best.append(top)
+            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "227": .03, "228": .03, "223": -.02}.get(o["mid"], 0)))
+            cand.append((g, opts))
+    # every candidate goes through the extra checks (ESPN injuries, Flashscore home/away form, NBA ratings), best first per game
+    strict = req.get("strict", "normal") == "strict"
+    def judge(item):
+        g, opts = item; nba = "NBA" in g["lg"] and "G League" not in g["lg"]; ok = []
+        for o in opts[:4]:
+            try: sup, bad = bbsources.check(g, o, nba)
+            except Exception: sup, bad = [], []
+            if bad or (strict and not sup): continue
+            if sup: o["why"] += "; " + ", ".join(sup)
+            ok.append(o)
+            if len(ok) == 2: break
+        return g["eid"], ok
+    res = {}
+    with ThreadPoolExecutor(8) as ex:
+        futs = {ex.submit(judge, c): c for c in cand}
+        for f in futs:
+            try: eid, ok = f.result(timeout=90)
+            except Exception: continue
+            if ok:
+                top = ok[0]
+                alt = next((o for o in ok if o["mid"] != "223"), None)
+                if alt and alt is not top: top["alt"] = alt
+                best.append(top)
     best.sort(key=lambda o: (-o["rate"], -o["s"]))
     if kind == "mix":                                                         # handicaps: at most half the ticket, other markets fill the rest
         cap, n, keep = max(1, legs // 2), 0, []

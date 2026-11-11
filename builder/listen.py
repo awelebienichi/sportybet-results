@@ -21,6 +21,8 @@ def warm():
             print("warm: fotmob / dfp / vitibet per day", sources.warm([g["ts"] for g in G]), flush=True)
             import bball
             print("warm: basketball games", bball.warm(), flush=True)
+            import bbsources
+            print("warm: basketball injuries / ratings / flashscore", bbsources.warm(), flush=True)
             print(f"warm: {len(G)} games, team form ready in {time.time()-t0:.0f}s", flush=True)
         except Exception: traceback.print_exc()
         time.sleep(90 * 60)
