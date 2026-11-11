@@ -3845,14 +3845,17 @@
 "when": "Wed 11 Nov 21:46",
 "kind": "safest market per game",
 "odds": 2514.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 23:00",
 "game": "Londrina EC PR vs Nautico PE",
 "pick": "1st half Over 0.5",
 "odds": 1.35,
-"ts": 1794434400.0
+"ts": 1794434400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 03:00",
