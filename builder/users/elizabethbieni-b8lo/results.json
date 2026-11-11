@@ -2,6 +2,110 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "TW92S3",
+"at": 1794399528,
+"when": "Wed 11 Nov 13:18",
+"kind": "live \u2013 best of all",
+"odds": 6.63,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:19",
+"game": "Andorra vs Poland",
+"pick": "Under 6.5",
+"odds": 1.3,
+"ts": 1794399579.515777
+},
+{
+"t": "Wed 13:19",
+"game": "Croatia vs Hungary",
+"pick": "Under 6.5",
+"odds": 1.14,
+"ts": 1794399579.779539
+},
+{
+"t": "Wed 13:19",
+"game": "Ukraine vs Israel",
+"pick": "Handicap 2:0 \u2013 Ukraine",
+"odds": 1.32,
+"ts": 1794399582.0916555
+},
+{
+"t": "Wed 13:19",
+"game": "Belgium vs Kosovo",
+"pick": "Handicap 0:3 \u2013 Kosovo",
+"odds": 1.14,
+"ts": 1794399582.5155294
+},
+{
+"t": "Wed 13:19",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Handicap 2:0 \u2013 North Macedonia",
+"odds": 1.15,
+"ts": 1794399582.841869
+},
+{
+"t": "Wed 13:19",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.44,
+"ts": 1794399583.9143949
+},
+{
+"t": "Wed 13:19",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.22,
+"ts": 1794399584.5815408
+},
+{
+"t": "Wed 13:19",
+"game": "South United FC vs SC Bengaluru",
+"pick": "Asian handicap SC Bengaluru +2.5",
+"odds": 1.14,
+"ts": 1794399585.159211
+},
+{
+"t": "Wed 13:19",
+"game": "FK Sutjeska Foca vs FK Leotar Trebinje",
+"pick": "Asian handicap FK Leotar Trebinje +0.5",
+"odds": 1.11,
+"ts": 1794399585.3698592
+},
+{
+"t": "Wed 13:19",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
+"odds": 1.2,
+"ts": 1794399585.7471557
+}
+]
+},
+{
+"code": "V8S971",
+"at": 1794399485,
+"when": "Wed 11 Nov 13:18",
+"kind": "live \u2013 quiet game",
+"odds": 1.5,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:19",
+"game": "Andorra vs Poland",
+"pick": "Under 6.5",
+"odds": 1.32,
+"ts": 1794399541.9222848
+},
+{
+"t": "Wed 13:19",
+"game": "Croatia vs Hungary",
+"pick": "Under 6.5",
+"odds": 1.14,
+"ts": 1794399542.2712398
+}
+]
+},
+{
 "code": "VB7GMH",
 "at": 1794399307,
 "when": "Wed 11 Nov 13:15",
