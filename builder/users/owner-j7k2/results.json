@@ -1151,7 +1151,10 @@
 "game": "At Rafaela Reserve vs CA Belgrano",
 "pick": "Goal bounds 2-5+",
 "odds": 1.24,
-"ts": 1794420000.0
+"ts": 1794420000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 19:00",
@@ -1185,7 +1188,10 @@
 "game": "CD Fuerte San Francisco vs Alianza FC",
 "pick": "Excluded goals: 2",
 "odds": 1.2,
-"ts": 1794421800.0
+"ts": 1794421800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Wed 20:00",
