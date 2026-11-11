@@ -1399,14 +1399,20 @@
 "game": "Ukraine vs Israel",
 "pick": "Handicap 2:0 \u2013 Ukraine",
 "odds": 1.12,
-"ts": 1794400998.4603186
+"ts": 1794400998.4603186,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Wed 13:43",
 "game": "Belgium vs Kosovo",
 "pick": "Handicap 0:4 \u2013 Kosovo",
 "odds": 1.18,
-"ts": 1794400998.460324
+"ts": 1794400998.460324,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 13:43",
@@ -1603,7 +1609,10 @@
 "game": "Ukraine vs Israel",
 "pick": "Under 5.5",
 "odds": 1.35,
-"ts": 1794398120.2728345
+"ts": 1794398120.2728345,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Wed 12:55",

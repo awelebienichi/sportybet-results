@@ -102,7 +102,10 @@
 "game": "Slovenia vs England",
 "pick": "Slovenia or England",
 "odds": 1.14,
-"ts": 1794402181.649651
+"ts": 1794402181.649651,
+"r": "W",
+"sc": "1-4",
+"ht": ""
 },
 {
 "t": "Wed 14:03",
@@ -680,14 +683,20 @@
 "game": "Ukraine vs Israel",
 "pick": "Handicap 2:0 \u2013 Ukraine",
 "odds": 1.32,
-"ts": 1794399582.0916555
+"ts": 1794399582.0916555,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Wed 13:19",
 "game": "Belgium vs Kosovo",
 "pick": "Handicap 0:3 \u2013 Kosovo",
 "odds": 1.14,
-"ts": 1794399582.5155294
+"ts": 1794399582.5155294,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 13:19",
@@ -724,7 +733,10 @@
 "game": "South United FC vs SC Bengaluru",
 "pick": "Asian handicap SC Bengaluru +2.5",
 "odds": 1.14,
-"ts": 1794399585.159211
+"ts": 1794399585.159211,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 13:19",
@@ -811,7 +823,10 @@
 "game": "Ukraine vs Israel",
 "pick": "Under 5.5",
 "odds": 1.18,
-"ts": 1794399353.720865
+"ts": 1794399353.720865,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Wed 13:15",
@@ -828,7 +843,10 @@
 "game": "Belgium vs Kosovo",
 "pick": "Handicap 0:3 \u2013 Kosovo",
 "odds": 1.15,
-"ts": 1794399357.511125
+"ts": 1794399357.511125,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 13:15",
@@ -875,7 +893,10 @@
 "game": "South United FC vs SC Bengaluru",
 "pick": "Asian handicap SC Bengaluru +2.5",
 "odds": 1.19,
-"ts": 1794399363.5133946
+"ts": 1794399363.5133946,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 13:16",
@@ -1303,7 +1324,7 @@
 "odds": 1.28,
 "ts": 1794394800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "3-2",
 "ht": ""
 },
 {
@@ -1394,7 +1415,7 @@
 "odds": 1.28,
 "ts": 1794394800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "3-2",
 "ht": ""
 },
 {
@@ -1566,7 +1587,7 @@
 "odds": 1.28,
 "ts": 1794394800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "3-2",
 "ht": ""
 },
 {
