@@ -2,6 +2,65 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "GD94SA",
+"at": 1794406346,
+"when": "Wed 11 Nov 15:12",
+"kind": "live \u2013 best of all",
+"odds": 4.31,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:13",
+"game": "Albania vs Cyprus",
+"pick": "Handicap 0:3 \u2013 Albania",
+"odds": 1.09,
+"ts": 1794406402.5375423
+},
+{
+"t": "Wed 15:13",
+"game": "Ireland vs Greece",
+"pick": "Over 1.5",
+"odds": 1.28,
+"ts": 1794406402.537577
+},
+{
+"t": "Wed 15:13",
+"game": "Switzerland vs Malta",
+"pick": "Switzerland Under 6.5",
+"odds": 1.42,
+"ts": 1794406402.537591
+},
+{
+"t": "Wed 15:13",
+"game": "Ethiopian Coffee SC vs Hadiya Hossana FC",
+"pick": "Hadiya Hossana FC to win",
+"odds": 1.2,
+"ts": 1794406402.5375936
+},
+{
+"t": "Wed 15:13",
+"game": "Bangladesh vs Sri Lanka",
+"pick": "Asian handicap Sri Lanka +2.5",
+"odds": 1.2,
+"ts": 1794406402.537607
+},
+{
+"t": "Wed 15:13",
+"game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
+"pick": "Gaziemir Gog Sy Under 3.5",
+"odds": 1.35,
+"ts": 1794406402.537616
+},
+{
+"t": "Wed 15:13",
+"game": "Newell's Old Boys vs CA Huracan",
+"pick": "Asian handicap Newell's Old Boys +1.5",
+"odds": 1.12,
+"ts": 1794406402.5376227
+}
+]
+},
+{
 "code": "L3XECM",
 "at": 1794402126,
 "when": "Wed 11 Nov 14:02",
