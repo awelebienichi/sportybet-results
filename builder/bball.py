@@ -34,6 +34,25 @@ def games():
     _G.update(at=time.time(), list=sorted(out.values(), key=lambda g: g["ts"]))
     return _G["list"]
 
+def _within(keys, fn, secs, workers=12):
+    """run fn on every key in parallel, but give up waiting after `secs`: a slow stats source must never block the builder"""
+    from concurrent.futures import ThreadPoolExecutor, wait
+    ex = ThreadPoolExecutor(workers); fut = {ex.submit(fn, k): k for k in keys}
+    done, _ = wait(fut, timeout=secs); ex.shutdown(wait=False, cancel_futures=True)
+    out = {}
+    for f in done:
+        try: out[fut[f]] = f.result()
+        except Exception: pass
+    return out
+
+def teams(G, secs=60):
+    T = sorted({t for g in G for t in (g["hid"], g["aid"])})
+    return _within(T, P.lastx, secs)
+
+def warm():
+    """listener warm-up: the game list and every team's last 10, so a basketball build only needs prices"""
+    G = games(); teams(G, 600); return len(G)
+
 def expect(H, A):
     """expected points for home and away from both teams' last games (own scoring + the rival's conceding) and the home edge"""
     pf = lambda L: sum(m["gf"] for m in L) / len(L); pa = lambda L: sum(m["ga"] for m in L) / len(L)
@@ -78,10 +97,10 @@ def build(req):
             return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     if not G: return dict(ok=False, msg=f"No basketball games on SportyBet for {span}. SportyBet usually lists basketball 2–4 days ahead.")
-    LX = P.fetch_teams(G)
+    LX = teams(G, 60)
     G = [g for g in G if len(LX.get(g["hid"], [])) >= 8 and len(LX.get(g["aid"], [])) >= 8]      # strong data only
     if not G: return dict(ok=False, msg=f"None of the basketball games for {span} have enough recent results for both teams.")
-    with ThreadPoolExecutor(8) as ex: MK = dict(zip([g["eid"] for g in G], ex.map(lambda g: P.event_game(g["eid"])[1], G)))
+    MK = _within([g["eid"] for g in G], lambda e: P.event_game(e)[1], 45)
     want = KINDS[kind]; best = []
     for g in G:
         H, A = LX[g["hid"]], LX[g["aid"]]; mh, ma = expect(H, A)
