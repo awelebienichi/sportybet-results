@@ -74,7 +74,10 @@
 "game": "CD Manacor vs Inter Ibiza CD",
 "pick": "Handicap 0:3 \u2013 Inter Ibiza CD",
 "odds": 1.22,
-"ts": 1794414600.0
+"ts": 1794414600.0,
+"r": "L",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -158,7 +161,10 @@
 "game": "CD Manacor vs Inter Ibiza CD",
 "pick": "Handicap 0:3 \u2013 Inter Ibiza CD",
 "odds": 1.27,
-"ts": 1794414600.0
+"ts": 1794414600.0,
+"r": "L",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -375,7 +381,7 @@
 "when": "Wed 11 Nov 17:42",
 "kind": "live \u2013 best of all",
 "odds": 2.05,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 16:45",
@@ -422,7 +428,10 @@
 "game": "CD Manacor vs Inter Ibiza CD",
 "pick": "Asian handicap Inter Ibiza CD +3.5",
 "odds": 1.16,
-"ts": 1794414600.0
+"ts": 1794414600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
