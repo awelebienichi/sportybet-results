@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XPCZG1",
+"at": 1794400763,
+"when": "Wed 11 Nov 13:39",
+"kind": "live \u2013 best of all",
+"odds": 1.56,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:40",
+"game": "Vietnam vs Chinese Taipei",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1794400817.2060719
+},
+{
+"t": "Wed 13:40",
+"game": "Albania vs Cyprus",
+"pick": "Cyprus Under 2.5",
+"odds": 1.09,
+"ts": 1794400817.20614
+},
+{
+"t": "Wed 13:40",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.16,
+"ts": 1794400817.2061625
+},
+{
+"t": "Wed 13:40",
+"game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
+"pick": "Gaziemir Gog Sy Under 3.5",
+"odds": 1.12,
+"ts": 1794400817.2061877
+}
+]
+},
+{
 "code": "TUMLRT",
 "at": 1794400128,
 "when": "Wed 11 Nov 13:28",
