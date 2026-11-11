@@ -1,5 +1,185 @@
 [
 {
+"when": "Wed 11 Nov 14:05",
+"at": 1794402320,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 20,
+"rid": "mwc4t2bpqlsu"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 11 live leg(s) were strong enough right now (you asked for 20).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "U36WBY",
+"odds": 4.3,
+"legs": [
+{
+"t": "Wed 14:06",
+"game": "Vietnam vs Chinese Taipei",
+"lg": "International - Int. Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "LIVE 1-0 45': Vietnam expected 1.4 and Chinese Taipei 0.5 more goals (last 10); 1-0 at 45' \u2013 85% chance; Flashscore home/away form 90%, h2h 100% of 3 meetings (1.5 line)",
+"ts": 1794402376.4536037,
+"eid": "sr:match:76140432",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76140432|18|total=1.5|12"
+},
+{
+"t": "Wed 14:06",
+"game": "North Macedonia vs Northern Ireland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 2.5",
+"odds": 1.08,
+"why": "LIVE 0-0 47': North Macedonia expected 0.3 and Northern Ireland 0.5 more goals (last 10); 0-0 at 47' \u2013 95% chance; Flashscore home/away form 76%",
+"ts": 1794402376.4536238,
+"eid": "sr:match:75244192",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75244192|18|total=2.5|13"
+},
+{
+"t": "Wed 14:06",
+"game": "Slovenia vs England",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Slovenia or England",
+"odds": 1.14,
+"why": "LIVE 1-1 45': Slovenia expected 0.6 and England 1.1 more goals (last 10); 1-1 at 45' \u2013 67% chance",
+"ts": 1794402376.4536445,
+"eid": "sr:match:74723254",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74723254|10||10"
+},
+{
+"t": "Wed 14:06",
+"game": "Albania vs Cyprus",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "LIVE 1-0 33': Albania expected 1.3 and Cyprus 0.8 more goals (last 10); 1-0 at 33' \u2013 87% chance; Flashscore home/away form 54%",
+"ts": 1794402376.4536498,
+"eid": "sr:match:74754178",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74754178|18|total=1.5|12"
+},
+{
+"t": "Wed 14:06",
+"game": "Latvia vs Moldova",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Latvia Under 3.5",
+"odds": 1.15,
+"why": "LIVE 1-0 31': Latvia expected 0.7 and Moldova 1.1 more goals (last 10); 1-0 at 31' \u2013 96% chance; Flashscore home/away form 68%",
+"ts": 1794402376.4536712,
+"eid": "sr:match:74723610",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74723610|19|total=3.5|13"
+},
+{
+"t": "Wed 14:06",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"lg": "Latvia - Virsliga",
+"pick": "Handicap 0:3 \u2013 Valmiera FC",
+"odds": 1.25,
+"why": "LIVE 1-0 49': FK Tukums 2000/TSS expected 0.5 and Valmiera FC 1.1 more goals (last 10); 1-0 at 49' \u2013 97% chance; Flashscore home/away form 80%",
+"ts": 1794402376.453678,
+"eid": "sr:match:76653244",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76653244|14|hcp=0:3|1713"
+},
+{
+"t": "Wed 14:06",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"lg": "Slovakia - Slovensky Pohar",
+"pick": "Asian handicap FKM Nove Zamky +2.5",
+"odds": 1.12,
+"why": "LIVE 0-0 46': FKM Nove Zamky expected 0.8 and MFK Zemplin Michalovce 0.7 more goals (last 10); 0-0 at 46' \u2013 98% chance; Flashscore home/away form 60%",
+"ts": 1794402376.4536948,
+"eid": "sr:match:75948774",
+"mid": "16",
+"spec": "hcp=2.5",
+"oid": "1714",
+"k": "75948774|16|hcp=2.5|1714"
+},
+{
+"t": "Wed 14:06",
+"game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Gaziemir Gog Sy Under 3.5",
+"odds": 1.18,
+"why": "LIVE 1-0 35': Gaziemir Gog Sy expected 1.2 and 1922 Aksehir Spor Kulubu 0.8 more goals (last 10 + season); 1-0 at 35' \u2013 88% chance; Flashscore home/away form 69%",
+"ts": 1794402376.453711,
+"eid": "sr:match:72890730",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72890730|19|total=3.5|13"
+},
+{
+"t": "Wed 14:06",
+"game": "Karsiyaka vs Bursa Nilufer Futbol AS",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Handicap 0:2 \u2013 Bursa Nilufer Futbol AS",
+"odds": 1.09,
+"why": "LIVE 0-1 33': Karsiyaka expected 0.7 and Bursa Nilufer Futbol AS 0.8 more goals (last 10 + season); 0-1 at 33' \u2013 98% chance; Flashscore home/away form 65%",
+"ts": 1794402376.4537241,
+"eid": "sr:match:72890736",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "72890736|14|hcp=0:2|1713"
+},
+{
+"t": "Wed 14:06",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"lg": "Poland - 1. Liga, Women",
+"pick": "Asian handicap RESOVIA RZESZOW +3.5",
+"odds": 1.12,
+"why": "LIVE 3-1 45': Czarni Sosnowiec II expected 0.7 and RESOVIA RZESZOW 0.8 more goals (last 10 + season); 3-1 at 45' \u2013 91% chance",
+"ts": 1794402376.4537358,
+"eid": "sr:match:72576702",
+"mid": "16",
+"spec": "hcp=-3.5",
+"oid": "1715",
+"k": "72576702|16|hcp=-3.5|1715"
+},
+{
+"t": "Wed 14:06",
+"game": "FC Bansko vs PFC Levski Sofia II",
+"lg": "Bulgaria - Treta Liga",
+"pick": "FC Bansko to win",
+"odds": 1.12,
+"why": "LIVE 1-0 46': FC Bansko expected 0.8 and PFC Levski Sofia II 0.6 more goals (last 10 + season); 1-0 at 46' \u2013 73% chance; Flashscore home/away form 60%",
+"ts": 1794402376.453742,
+"eid": "sr:match:75679632",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75679632|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 14:01",
 "at": 1794402109,
 "req": {
