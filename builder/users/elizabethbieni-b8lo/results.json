@@ -1278,7 +1278,10 @@
 "game": "Fenerbahce Istanbul vs Real Sociedad San Sebastian",
 "pick": "Fenerbahce Istanbul excluded goals: 2",
 "odds": 1.17,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Wed 18:00",
@@ -1614,7 +1617,10 @@
 "game": "Austria vs Belarus",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1794416400.0
+"ts": 1794416400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:45",
