@@ -187,7 +187,10 @@
 "game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
 "pick": "Over 0.5 (another goal)",
 "odds": 1.35,
-"ts": 1794398120.4101636
+"ts": 1794398120.4101636,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:55",
@@ -486,7 +489,7 @@
 "when": "Wed 11 Nov 12:44",
 "kind": "live \u2013 another goal coming",
 "odds": 2.01,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 12:45",
@@ -503,7 +506,10 @@
 "game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
 "pick": "Over 0.5 (another goal)",
 "odds": 1.27,
-"ts": 1794397533.1480684
+"ts": 1794397533.1480684,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:45",
@@ -523,7 +529,7 @@
 "when": "Wed 11 Nov 12:26",
 "kind": "live \u2013 best of all",
 "odds": 2.65,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 12:27",
@@ -560,7 +566,10 @@
 "game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
 "pick": "Over 0.5 (another goal)",
 "odds": 1.14,
-"ts": 1794396463.9697425
+"ts": 1794396463.9697425,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:27",
