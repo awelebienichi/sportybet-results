@@ -2,6 +2,65 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "UJA2GB",
+"at": 1794401123,
+"when": "Wed 11 Nov 13:45",
+"kind": "your chosen markets",
+"odds": 3.12,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:30",
+"game": "Italy vs Romania",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1794407400.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.31,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794434400.0
+}
+]
+},
+{
 "code": "REEST0",
 "at": 1794400613,
 "when": "Wed 11 Nov 13:36",
