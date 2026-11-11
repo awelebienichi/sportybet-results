@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YJ4Z9F",
+"at": 1794435885,
+"when": "Wed 11 Nov 23:24",
+"kind": "rebuild of WBGQ2A",
+"odds": 1.61,
+"status": "open",
+"legs": [
+{
+"t": "Thu 01:00",
+"game": "New York Knicks vs Cleveland Cavaliers",
+"pick": "New York Knicks to win",
+"odds": 1.61,
+"ts": 1794441600.0
+}
+]
+},
+{
 "code": "W5CP0L",
 "at": 1794434472,
 "when": "Wed 11 Nov 23:01",
