@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "JD68SH",
+"at": 1794402893,
+"when": "Wed 11 Nov 14:14",
+"kind": "daily rollover \u2013 day 1",
+"odds": 6.32,
+"status": "open",
+"legs": [
+{
+"t": "Wed 18:00",
+"game": "SC Wiedenbruck vs SC Preussen Munster II",
+"pick": "Asian handicap SC Preussen Munster II +1.5",
+"odds": 1.48,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 20:00",
+"game": "Wales vs Finland",
+"pick": "1st half double chance Finland or draw",
+"odds": 1.3,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Barnsley FC vs Oldham Athletic",
+"pick": "Asian handicap Oldham Athletic +1.5",
+"odds": 1.48,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Sheffield Wednesday vs Accrington Stanley",
+"pick": "Asian handicap Accrington Stanley +1.5",
+"odds": 1.48,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Ontinyent CF vs CD Utiel",
+"pick": "Asian handicap CD Utiel +1.5",
+"odds": 1.5,
+"ts": 1794423600.0
+}
+]
+},
+{
 "code": "U36WBY",
 "at": 1794402320,
 "when": "Wed 11 Nov 14:05",
