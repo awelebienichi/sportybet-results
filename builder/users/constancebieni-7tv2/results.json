@@ -1,4 +1,36 @@
 {
 "from": 1794401861,
-"tickets": []
+"tickets": [
+{
+"code": "ZJDXTN",
+"at": 1794402109,
+"when": "Wed 11 Nov 14:01",
+"kind": "2nd half Over 0.5",
+"odds": 1.47,
+"status": "open",
+"legs": [
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Sheffield Wednesday vs Accrington Stanley",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 23:00",
+"game": "Independiente Petrolero vs Always Ready",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1794434400.0
+}
+]
+}
+]
 }
