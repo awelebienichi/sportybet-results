@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YFPNTJ",
+"at": 1794415572,
+"when": "Wed 11 Nov 17:46",
+"kind": "live \u2013 best of all",
+"odds": 2.04,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:30",
+"game": "Bosnia and Herzegovina vs San Marino",
+"pick": "Bosnia and Herzegovina Under 4.5",
+"odds": 1.1,
+"ts": 1794411000.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Asian handicap Kazakhstan +2.5",
+"odds": 1.12,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"pick": "Serbia Under 3.5",
+"odds": 1.1,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
+"odds": 1.09,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"pick": "Handicap 7:0 \u2013 Czarni Sosnowiec",
+"odds": 1.2,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.15,
+"ts": 1794412800.0
+}
+]
+},
+{
 "code": "NNTPXF",
 "at": 1794415373,
 "when": "Wed 11 Nov 17:42",

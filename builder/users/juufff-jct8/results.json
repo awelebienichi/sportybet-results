@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 13:50",
 "kind": "your chosen markets",
 "odds": 8.71,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 15:00",
@@ -24,7 +24,10 @@
 "game": "EFC Frejus Saint-Raphael vs Estac Troyes 2",
 "pick": "Half-time draw",
 "odds": 2.1,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 18:00",
