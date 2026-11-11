@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TK8LBP",
+"at": 1794401508,
+"when": "Wed 11 Nov 13:51",
+"kind": "your tracker's best markets",
+"odds": 671.65,
+"status": "open",
+"legs": [
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794416400.0
+},
+{
+"t": "Thu 00:00",
+"game": "Real Cundinamarca vs Real Cartagena FC",
+"pick": "1st half double chance Real Cundinamarca or draw",
+"odds": 1.27,
+"ts": 1794438000.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "1st half double chance Italy or draw",
+"odds": 1.54,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "CD Aguila San Miguel to win (1UP)",
+"odds": 1.31,
+"ts": 1794519000.0
+},
+{
+"t": "Fri 15:30",
+"game": "Saudi Arabia vs Korea Republic",
+"pick": "1st half double chance Saudi Arabia or draw",
+"odds": 1.5,
+"ts": 1794580200.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.16,
+"ts": 1794592800.0
+},
+{
+"t": "Sat 02:00",
+"game": "Peru vs Bolivia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.33,
+"ts": 1794618000.0
+},
+{
+"t": "Sat 13:30",
+"game": "Marek Dupnica vs PFC Chernomorets Burgas",
+"pick": "Goal bounds 2-5+",
+"odds": 1.35,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bronshoj BK vs Vanloese IF",
+"pick": "1st half double chance Bronshoj BK or draw",
+"odds": 1.22,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:30",
+"game": "US Albinoleffe vs Union Brescia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"pick": "Llantwit Major or GG",
+"odds": 1.18,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"pick": "1st half double chance Swindon Town or draw",
+"odds": 1.45,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walsall FC vs Barnet FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.19,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"pick": "Barrow AFC to win (1UP)",
+"odds": 1.29,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cove Rangers FC vs Montrose FC",
+"pick": "Cove Rangers FC or GG",
+"odds": 1.23,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Brentwood Town FC vs Ramsgate FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Basingstoke Town FC vs Chippenham Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Frome Town vs Hanworth Villa",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:00",
+"game": "Uganda vs Botswana",
+"pick": "Uganda or GG",
+"odds": 1.17,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:30",
+"game": "SSC Bari vs Calcio Foggia",
+"pick": "1st half double chance SSC Bari or draw",
+"odds": 1.15,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"pick": "1st half double chance CA Temperley or draw",
+"odds": 1.15,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.19,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"pick": "1st half double chance Almere City FC or draw",
+"odds": 1.15,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:45",
+"game": "Portugal vs Denmark",
+"pick": "1st half double chance Portugal or draw",
+"odds": 1.16,
+"ts": 1794685500.0
+},
+{
+"t": "Sat 23:00",
+"game": "CD Armenio vs CS Italiano",
+"pick": "1st half double chance CD Armenio or draw",
+"odds": 1.25,
+"ts": 1794693600.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Chelyabinsk vs FK Veles Moscow",
+"pick": "FC Chelyabinsk or GG",
+"odds": 1.28,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"pick": "Goal bounds 2-5+",
+"odds": 1.25,
+"ts": 1794745800.0
+}
+]
+},
+{
 "code": "YFPLUA",
 "at": 1794400943,
 "when": "Wed 11 Nov 13:42",

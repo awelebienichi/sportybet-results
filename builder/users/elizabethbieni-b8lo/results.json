@@ -417,7 +417,10 @@
 "game": "Croatia vs Hungary",
 "pick": "Under 6.5",
 "odds": 1.14,
-"ts": 1794399579.779539
+"ts": 1794399579.779539,
+"r": "W",
+"sc": "4-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 13:19",
@@ -483,7 +486,7 @@
 "when": "Wed 11 Nov 13:18",
 "kind": "live \u2013 quiet game",
 "odds": 1.5,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 13:19",
@@ -500,7 +503,10 @@
 "game": "Croatia vs Hungary",
 "pick": "Under 6.5",
 "odds": 1.14,
-"ts": 1794399542.2712398
+"ts": 1794399542.2712398,
+"r": "W",
+"sc": "4-1",
+"ht": "1-1"
 }
 ]
 },
@@ -527,7 +533,10 @@
 "game": "Croatia vs Hungary",
 "pick": "Under 6.5",
 "odds": 1.16,
-"ts": 1794399351.9187396
+"ts": 1794399351.9187396,
+"r": "W",
+"sc": "4-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 13:15",
