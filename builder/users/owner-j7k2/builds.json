@@ -1,5 +1,135 @@
 [
 {
+"when": "Wed 11 Nov 16:02",
+"at": 1794409335,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwc8yyv5kdqu"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 7 games passed the checks (Wed 11, Thu 12, 150 games on SportyBet), so this ticket has 7 legs instead of 30. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "W44YNA",
+"odds": 5.85,
+"legs": [
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "1st half Over 0.5",
+"odds": 1.35,
+"why": "goal in the 1st half in 86% of Londrina EC PR's last 7 and 90% of Nautico PE's last 10",
+"ts": 1794434400.0,
+"eid": "sr:match:68823472",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68823472|68|total=0.5|12"
+},
+{
+"t": "Thu 03:00",
+"game": "Piratas Veracruz vs Club Atletico La Paz",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"why": "goal in the 1st half in 90% of Piratas Veracruz's last 10 and 100% of Club Atletico La Paz's last 10",
+"ts": 1794448800.0,
+"eid": "sr:match:76629020",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76629020|68|total=0.5|12"
+},
+{
+"t": "Thu 04:00",
+"game": "CF Pachuca vs CF Monterrey",
+"lg": "Mexico - Liga MX, Women",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"why": "goal in the 1st half in 90% of CF Pachuca's last 10 and 90% of CF Monterrey's last 10",
+"ts": 1794452400.0,
+"eid": "sr:match:76595258",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76595258|68|total=0.5|12"
+},
+{
+"t": "Thu 07:00",
+"game": "New Zealand vs India",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"why": "goal in the 1st half in 100% of New Zealand's last 10 and 100% of India's last 10",
+"ts": 1794463200.0,
+"eid": "sr:match:73686224",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73686224|68|total=0.5|12"
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"lg": "International Youth - U21 UEFA European Championship, Qualification",
+"pick": "1st half Over 0.5",
+"odds": 1.37,
+"why": "goal in the 1st half in 90% of Iceland's last 10 and 90% of Greece's last 10",
+"ts": 1794488400.0,
+"eid": "sr:match:75439646",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75439646|68|total=0.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Bonaire vs Cuba",
+"lg": "International - CONCACAF Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "goal in the 1st half in 90% of Bonaire's last 10 and 90% of Cuba's last 10",
+"ts": 1794513600.0,
+"eid": "sr:match:75468426",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75468426|68|total=0.5|12"
+},
+{
+"t": "Thu 23:00",
+"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "1st half Over 0.5",
+"odds": 1.32,
+"why": "goal in the 1st half in 90% of AA Ponte Preta SP's last 10 and 90% of Operario Ferroviario EC PR's last 10",
+"ts": 1794520800.0,
+"eid": "sr:match:68823466",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68823466|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 15:22",
 "at": 1794406969,
 "req": {
