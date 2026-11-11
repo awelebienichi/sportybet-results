@@ -1,5 +1,65 @@
 [
 {
+"when": "Wed 11 Nov 13:48",
+"at": 1794401319,
+"req": {
+"u": "juufff-jct8",
+"name": "Juu Fff",
+"type": "drawlow",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwc46wegt14q"
+},
+"ok": true,
+"kind": "draw & low-scoring teams (season data)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 2 games passed the checks (Wed 11, 72 games on SportyBet), so this ticket has 2 legs instead of 30. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "N5P40H",
+"odds": 3.6,
+"legs": [
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "Draw",
+"odds": 3.1,
+"why": "season: draws 50% and 67%; last 10 rate 50%; Flashscore home/away form 55%",
+"ts": 1794416400.0,
+"eid": "sr:match:74041580",
+"mid": "1",
+"spec": "",
+"oid": "2",
+"k": "74041580|1||2"
+},
+{
+"t": "Wed 20:30",
+"game": "Tacuarembo FC vs Miramar Misiones",
+"lg": "Uruguay - Segunda Division",
+"pick": "Under 3.5",
+"odds": 1.16,
+"why": "season: 2.3 and 1.7 goals a game; last 10 rate 85%; Flashscore home/away form 85%, FotMob: 2.1 goals a game, Vitibet tip 1-1, season: 2.0 goals a game",
+"ts": 1794425400.0,
+"eid": "sr:match:76455730",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76455730|18|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:46",
 "at": 1794401203,
 "req": {
