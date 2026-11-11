@@ -1,6 +1,60 @@
 [
 {
 "when": "Wed 11 Nov 12:13",
+"at": 1794395606,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "live",
+"strategy": "dead",
+"legs": 5,
+"rid": "mwc0t5gvho1v"
+},
+"ok": true,
+"kind": "live \u2013 quiet game",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 5).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "MAAG24",
+"odds": 1.71,
+"legs": [
+{
+"t": "Wed 12:14",
+"game": "Azerbaijan vs Montenegro",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 9.5",
+"odds": 1.35,
+"why": "LIVE 1-6 50': 3.3 goals a game (last 10); 1-6 at 50' \u2013 79% chance of at most 2 more; Flashscore home/away form 76%",
+"ts": 1794395663.3473535,
+"eid": "sr:match:74754156",
+"mid": "18",
+"spec": "total=9.5",
+"oid": "13",
+"k": "74754156|18|total=9.5|13"
+},
+{
+"t": "Wed 12:14",
+"game": "Georgia vs Denmark",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 7.5",
+"odds": 1.27,
+"why": "LIVE 1-4 54': 3.7 goals a game (last 10); 1-4 at 54' \u2013 78% chance of at most 2 more; Flashscore home/away form 50%",
+"ts": 1794395663.637861,
+"eid": "sr:match:74827232",
+"mid": "18",
+"spec": "total=7.5",
+"oid": "13",
+"k": "74827232|18|total=7.5|13"
+}
+]
+}
+]
+},
+{
+"when": "Wed 11 Nov 12:13",
 "at": 1794395581,
 "req": {
 "u": "folabienichi-z8gl",
