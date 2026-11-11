@@ -69,8 +69,8 @@ def _p(D, D1, mid, spec, oid, lead):
     if "|" in spec: return None                                                 # "rest of match" style lines (settled from the current score)
     ln = float(spec.split("=")[1]) if spec.startswith("total=") else None
     ev = lambda Dx, f: sum(p for (h, a), p in Dx.items() if f(h, a))
+    if mid == "16": return None                                                 # Asian handicap: not used (user's choice, 11 Nov)
     if mid in ("14", "16") and spec.startswith("hcp="):
-        if mid == "16" and float(spec.split("=")[1]) % 1 == 0: return None     # whole lines can end level (stake back)
         if mid == "14" and oid == "1712": return None                          # handicap draws: too narrow
         return _hcp_p(D, mid, spec, oid)
     if mid == "1":

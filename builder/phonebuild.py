@@ -274,7 +274,7 @@ MK = {  # key: (market id, specifier, outcome id, label)
 }
 SETS = {"gg": ["gg"], "best": ["up_h", "up_a", "h1dc_1x", "hgg", "gb25"],
         "mix": ["win_h", "win_a", "up_h", "up_a", "dc_x2", "h1dc_1x", "h1dc_x2", "o15", "h1o05", "h2o05", "gg", "hgg",
-                "u35", "h1u25", "ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "m5x", "m10x"]}      # every game gets whichever of these suits it best
+                "u35", "h1u25", "m5x", "m10x"]}      # every game gets whichever of these suits it best
 
 def rates(g, LX, hh):
     """chance-like rates from both teams' last 10 (and meetings for full-time markets); keys as in MK"""
@@ -311,7 +311,7 @@ MANY = {"o25", "gg", "h1gg_y", "gb25", "o15"}                                   
 def edge(rate, odds):
     """how far the stats beat the price: stats rate minus the bookmaker's de-margined chance"""
     return rate - 1 / (odds * 1.06)
-MAIN = {"ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "h1u25", "o15", "o25", "gg", "win_h", "win_a", "up_h", "up_a", "dc_1x", "dc_x2", "dc_12", "h1o05", "h2o05", "u35", "hgg", "h1dc_1x", "h1dc_x2"}
+MAIN = {"h1u25", "o15", "o25", "gg", "win_h", "win_a", "up_h", "up_a", "dc_1x", "dc_x2", "dc_12", "h1o05", "h2o05", "u35", "hgg", "h1dc_1x", "h1dc_x2"}
 def value(k, rate, odds):
     """what the picker maximises: value over the price, with a nudge towards the main markets over exotic ones"""
     return edge(rate, odds) + (.04 if k in MAIN else 0)
@@ -443,11 +443,8 @@ RB = dict(MK, **{"o25": ("18", "total=2.5", "12", "Over 2.5"), "htx": ("60", "",
                  "h1u25": ("68", "total=2.5", "13", "1st half Under 2.5"), "u35": ("18", "total=3.5", "13", "Under 3.5"),
                  "u45": ("18", "total=4.5", "13", "Under 4.5"), "u55": ("18", "total=5.5", "13", "Under 5.5"),
                  "h1gg_y": ("75", "", "74", "1st half GG – Yes"), "h1gg_n": ("75", "", "76", "1st half GG – No")})
-# Asian handicap (16, "hcp=x" for home; 1714 home, 1715 away) and handicap (14, "hcp=home:away" head start; 1711 home, 1713 away)
-RB.update({"ah_h_m15": ("16", "hcp=-1.5", "1714", "Asian handicap {h} -1.5"), "ah_a_m15": ("16", "hcp=1.5", "1715", "Asian handicap {a} -1.5"),
-           "ah_h_p15": ("16", "hcp=1.5", "1714", "Asian handicap {h} +1.5"), "ah_a_p15": ("16", "hcp=-1.5", "1715", "Asian handicap {a} +1.5"),
-           "ah_h_p25": ("16", "hcp=2.5", "1714", "Asian handicap {h} +2.5"), "ah_a_p25": ("16", "hcp=-2.5", "1715", "Asian handicap {a} +2.5"),
-           "eh_h_01": ("14", "hcp=0:1", "1711", "Handicap 0:1 – {h}"), "eh_a_10": ("14", "hcp=1:0", "1713", "Handicap 1:0 – {a}"),
+# Asian handicap removed 11 Nov (user's choice); handicap (14, "hcp=home:away" head start; 1711 home, 1713 away)
+RB.update({"eh_h_01": ("14", "hcp=0:1", "1711", "Handicap 0:1 – {h}"), "eh_a_10": ("14", "hcp=1:0", "1713", "Handicap 1:0 – {a}"),
            "eh_h_20": ("14", "hcp=2:0", "1711", "Handicap 2:0 – {h}"), "eh_a_02": ("14", "hcp=0:2", "1713", "Handicap 0:2 – {a}")})
 # draw in the opening minutes (SportyBet opens these mostly on match day, mainly bigger leagues): 0-0 or level after 5 / 10 minutes
 RB.update({"m5x": ("900069", "minute=5", "2", "1–5 minutes draw"), "m10x": ("105", "from=1|to=10", "2", "1–10 minutes draw")})
@@ -461,7 +458,7 @@ RB_GROUPS = {"o15": ["o15"], "o25": ["o25"], "gg": ["gg"], "win": ["win_h", "win
              "h1dc": ["h1dc_1x", "h1dc_x2"], "gb25": ["gb25"], "wu25": ["wu25_h", "wu25_a"], "h1u25": ["h1u25"],
              "u35": ["u35"], "u45": ["u45"], "u55": ["u55"], "h1ggy": ["h1gg_y"], "h1ggn": ["h1gg_n"],
              "m5x": ["m5x"], "m10x": ["m10x"],
-             "ah": ["ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "ah_h_p25", "ah_a_p25"], "eh": ["eh_h_01", "eh_a_10", "eh_h_20", "eh_a_02"],
+             "eh": ["eh_h_01", "eh_a_10", "eh_h_20", "eh_a_02"],
              "xg": [f"xg_{n}" for n in range(6)], "xgt": [f"xg{s}_{n}" for s in ("h", "a") for n in range(4)], "xg1": ["xg1_0", "xg1_2", "xg1_3"]}
 
 _EV = {}
