@@ -328,19 +328,27 @@ def side_ok(k, g):
     """never lean on the weaker side: 'Home or GG' only when the home team is the favourite or close to it"""
     xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
     return not (k == "hgg" and xh > xa * 1.2)
-SAFE = {0.0: (1.60, .80, .90), 0.1: (1.75, .75, .82), 0.2: (2.00, .70, .78)}   # strictness -> (max odds, each team, the pair)
+SAFE = {0.0: (1.60, .02), 0.1: (1.75, -.03), 0.2: (2.00, -.08)}   # strictness -> (max odds, shift of the market's bar)
+# what "strong" means differs by market: a side winning 80% of games is rare, Over 1.5 at 80% is ordinary.
+# The pair (both teams' last 10 + meetings) must reach BAR + shift; each team on its own BAR + shift - 0.07.
+BAR = {"o15": .88, "o25": .78, "gg": .75, "win_h": .70, "win_a": .70, "up_h": .72, "up_a": .72, "dc_1x": .88, "dc_x2": .88, "dc_12": .85,
+       "hgg": .85, "gb25": .85, "h1o05": .85, "h2o05": .88, "htx": .55, "h1dc_1x": .85, "h1dc_x2": .85, "wu25_h": .85, "wu25_a": .85,
+       "h1u25": .90, "u35": .85, "u45": .92, "u55": .96, "h1gg_y": .50, "h1gg_n": .85}
+LONG = {"htx": .9, "h1gg_y": 1.2}
+GAP = {"win_h": .15, "win_a": .15, "up_h": .15, "up_a": .15}   # result markets: one side wins most games, the other loses a fair share – a smaller share is enough           # markets that are never short prices: their price cap is raised by this much
+def bar(k): return BAR.get(k, .85) + SAFE.get(round(ST["L"], 1), SAFE[0.1])[1]
 def safe_enough(k, g, LX, rate, odds):
-    """a leg only goes on a ticket if BOTH teams are strong for it on their own, the pair is strong too, and the price is not a
-    coin flip. Strict: 1.60 max, each team 80%+, pair 90%+. Normal: 1.75, 75%, 82%. Relaxed: 2.00, 70%, 78%.
+    """a leg only goes on a ticket if BOTH teams are strong for this market on their own, the pair is strong too, and the price
+    is not a coin flip. Strict: 1.60 max and the market's bar +2 points; Normal: 1.75, -3; Relaxed: 2.00, -8.
     Value only decides between legs that already pass this."""
-    mx, team, pair = SAFE.get(round(ST["L"], 1), SAFE[0.1])
-    if odds > mx or rate < pair: return False
+    mx = SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0)
+    if odds > mx or rate < bar(k): return False
     try:
         import rollover
         mid, spec, oid, _ = RB.get(k, MK.get(k, (None, None, None, None)))
         tr = rollover.team_rates(dict(mid=mid, spec=spec, oid=oid), g, LX) if mid else None
     except Exception: tr = None
-    if tr and None not in tr and min(tr) < team: return False
+    if tr and None not in tr and min(tr) < bar(k) - GAP.get(k, .07): return False
     return True
 def fits(k, prof):
     if prof == "high" and k in FEW: return False
@@ -352,8 +360,8 @@ def pick_multi(G, LX, kind, want):
     pre = []
     for g in G:
         R = rates(g, LX, [])
-        best = max(((R[k], k) for k in keys if R.get(k, 0) >= floor), default=None)
-        if best: pre.append((best[0], g))
+        best = max((R.get(k, 0) - bar(k) for k in keys), default=-1)
+        if best >= -.1: pre.append((best, g))
     pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(200, want * 6)]]
     def detail(g):
         hh = h2h(g["hid"], g["aid"])
@@ -365,7 +373,7 @@ def pick_multi(G, LX, kind, want):
         R = rates(g, LX, hh); opts = []; prof = profile(g, LX)
         for k in keys:
             mid, spec, oid, lab = MK[k]; od = mk.get((mid, spec, oid))
-            if not od or R.get(k, 0) < floor or od < 1.06 or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R[k], od): continue
+            if not od or od < 1.06 or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R.get(k, 0), od): continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = MK[k]
@@ -608,8 +616,8 @@ def pick_markets(G, LX, groups, want):
     pre = []
     for g in G:
         R = rebuild_rates(g, LX, [])
-        best = max((R.get(k, 0) for k in keys), default=0)
-        if best >= floor: pre.append((best, g))
+        best = max((R.get(k, 0) - bar(k) for k in keys), default=-1)
+        if best >= -.1: pre.append((best, g))
     pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(200, want * 6)]]
     def detail(g):
         _, mk = event_game(g["eid"]); return g, h2h(g["hid"], g["aid"]), mk
@@ -625,7 +633,7 @@ def pick_markets(G, LX, groups, want):
         opts = []
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
-            if k in against or not od or od < 1.06 or R.get(k, 0) < floor or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R[k], od): continue
+            if k in against or not od or od < 1.06 or R.get(k, 0) < bar(k) or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R.get(k, 0), od): continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = RB[k]
