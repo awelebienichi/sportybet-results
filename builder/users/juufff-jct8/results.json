@@ -14,7 +14,10 @@
 "game": "Ireland vs Greece",
 "pick": "Half-time draw",
 "odds": 2.15,
-"ts": 1794405600.0
+"ts": 1794405600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:00",
@@ -114,14 +117,17 @@
 "when": "Wed 11 Nov 13:44",
 "kind": "safest market per game",
 "odds": 23.13,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 15:00",
 "game": "Bangladesh vs Sri Lanka",
 "pick": "1st half double chance Sri Lanka or draw",
 "odds": 1.44,
-"ts": 1794405600.0
+"ts": 1794405600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 17:00",
