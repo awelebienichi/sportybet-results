@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MAAG24",
+"at": 1794395606,
+"when": "Wed 11 Nov 12:13",
+"kind": "live \u2013 quiet game",
+"odds": 1.71,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:14",
+"game": "Azerbaijan vs Montenegro",
+"pick": "Under 9.5",
+"odds": 1.35,
+"ts": 1794395663.3473535
+},
+{
+"t": "Wed 12:14",
+"game": "Georgia vs Denmark",
+"pick": "Under 7.5",
+"odds": 1.27,
+"ts": 1794395663.637861
+}
+]
+},
+{
 "code": "R3E9D1",
 "at": 1794395505,
 "when": "Wed 11 Nov 12:11",
