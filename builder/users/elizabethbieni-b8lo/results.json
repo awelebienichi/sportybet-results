@@ -2,6 +2,86 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "WFS7JJ",
+"at": 1794399983,
+"when": "Wed 11 Nov 13:26",
+"kind": "safest market per game",
+"odds": 13.52,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:30",
+"game": "NK Sampion Celje vs NK Smartno 1928",
+"pick": "NK Smartno 1928 to win",
+"odds": 1.7,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 20:00",
+"game": "Wales vs Finland",
+"pick": "1st half double chance Finland or draw",
+"odds": 1.37,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 22:00",
+"game": "Csd Vendaval vs CD Once Municipal",
+"pick": "Double chance CD Once Municipal or draw",
+"odds": 1.14,
+"ts": 1794430800.0
+},
+{
+"t": "Wed 22:30",
+"game": "AD Isidro Metapan vs CD Platense",
+"pick": "GG (both teams score)",
+"odds": 1.48,
+"ts": 1794432600.0
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"pick": "1st half Over 0.5",
+"odds": 1.35,
+"ts": 1794434400.0
+}
+]
+},
+{
 "code": "NW5A5U",
 "at": 1794399582,
 "when": "Wed 11 Nov 13:19",
@@ -254,7 +334,10 @@
 "game": "Ethio Electric vs Ethiopian Medhin",
 "pick": "Asian handicap Ethiopian Medhin +3.5",
 "odds": 1.14,
-"ts": 1794399363.2237875
+"ts": 1794399363.2237875,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 13:16",
