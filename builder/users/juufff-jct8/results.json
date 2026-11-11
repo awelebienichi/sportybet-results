@@ -74,7 +74,7 @@
 "when": "Wed 11 Nov 13:46",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 7.67,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:00",
@@ -101,7 +101,10 @@
 "game": "Oud-Heverlee Leuven W vs HB KOEGE W",
 "pick": "Over 2.5",
 "odds": 1.72,
-"ts": 1794419100.0
+"ts": 1794419100.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:30",
