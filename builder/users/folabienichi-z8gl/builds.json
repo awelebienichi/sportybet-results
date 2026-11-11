@@ -1,6 +1,20 @@
 [
 {
 "when": "Wed 11 Nov 10:51",
+"at": 1794390676,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "live",
+"strategy": "dead",
+"legs": 1,
+"rid": "mwbxvk8kuq24"
+},
+"ok": false,
+"msg": "No live game fits that strategy with strong enough stats right now. Try 'Best of all' or check back in a few minutes."
+},
+{
+"when": "Wed 11 Nov 10:51",
 "at": 1794390661,
 "req": {
 "u": "folabienichi-z8gl",
