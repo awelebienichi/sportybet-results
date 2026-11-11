@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "W44YNA",
+"at": 1794409335,
+"when": "Wed 11 Nov 16:02",
+"kind": "1st half Over 0.5",
+"odds": 5.85,
+"status": "open",
+"legs": [
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"pick": "1st half Over 0.5",
+"odds": 1.35,
+"ts": 1794434400.0
+},
+{
+"t": "Thu 03:00",
+"game": "Piratas Veracruz vs Club Atletico La Paz",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794448800.0
+},
+{
+"t": "Thu 04:00",
+"game": "CF Pachuca vs CF Monterrey",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794452400.0
+},
+{
+"t": "Thu 07:00",
+"game": "New Zealand vs India",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794463200.0
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "1st half Over 0.5",
+"odds": 1.37,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 21:00",
+"game": "Bonaire vs Cuba",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1794513600.0
+},
+{
+"t": "Thu 23:00",
+"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
+"pick": "1st half Over 0.5",
+"odds": 1.32,
+"ts": 1794520800.0
+}
+]
+},
+{
 "code": "JWASBN",
 "at": 1794406969,
 "when": "Wed 11 Nov 15:22",
