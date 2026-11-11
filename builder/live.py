@@ -54,9 +54,10 @@ def _prematch(g, mid, oid, spec):
     a quiet game -> Under 2.5. Any source clearly against it (Flashscore venue form under 50%, footybets, FotMob/DFP/Vitibet,
     season table, head-to-head) blocks the leg; the ones for it are listed in the reason."""
     import extra, scores, sources, season
-    if mid == "1": proxy = dict(mid="1", oid=oid, spec="")
-    elif oid == "12": proxy = dict(mid="18", oid="12", spec="total=2.5")
-    else: proxy = dict(mid="18", oid="13", spec="total=2.5")
+    ln = float(spec.split("=")[1]) if spec.startswith("total=") else None
+    if mid in ("1", "10"): proxy = dict(mid="1", oid={"9": "1", "11": "3"}.get(oid, oid), spec="")
+    elif oid == "12": proxy = dict(mid="18", oid="12", spec=f"total={min(max(ln, 1.5), 2.5)}")     # Over 0.5/1.5 legs -> the teams' Over 1.5 record
+    else: proxy = dict(mid="18", oid="13", spec=f"total={max(ln, 2.5) if ln <= 3.5 else 3.5}")
     p = dict(proxy, eid=g["eid"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", pick="", lg=g["lg"])
     sup, bad = [], []
     try:
@@ -76,12 +77,12 @@ def _prematch(g, mid, oid, spec):
     try:                                                                         # head-to-head (last 8 meetings)
         hh = P.h2h(g["hid"], g["aid"])
         if len(hh) >= 3:
-            if mid == "1":
-                lost = sum((a > h) if oid == "1" else (h > a) for h, a in hh) / len(hh)
+            if mid in ("1", "10"):
+                lost = sum((a > h) if proxy["oid"] == "1" else (h > a) for h, a in hh) / len(hh)
                 if lost >= .5: bad.append(f"h2h: lost {lost:.0%} of {len(hh)} meetings")
             else:
-                ov = sum(h + a > 2.5 for h, a in hh) / len(hh); r = ov if oid == "12" else 1 - ov
-                (bad if r < .4 else sup if r >= .6 else []).append(f"h2h {r:.0%} of {len(hh)} meetings")
+                pl = float(proxy["spec"].split("=")[1]); ov = sum(h + a > pl for h, a in hh) / len(hh); r = ov if oid == "12" else 1 - ov
+                (bad if r < .4 else sup if r >= .6 else []).append(f"h2h {r:.0%} of {len(hh)} meetings ({proxy['spec'].split('=')[1]} line)")
     except Exception: pass
     return sup, bad
 
@@ -99,38 +100,49 @@ def build(req):
     C = []
     for g in G:
         H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
-        if len(H) < 6 or len(A) < 6 or g["minute"] is None: continue
-        gpg = (sum(m["gf"] + m["ga"] for m in H) / len(H) + sum(m["gf"] + m["ga"] for m in A) / len(A)) / 2
+        if g["minute"] is None: continue
         sH = sA = None
         if season:
             Hs, As = season.teams(g)
-            if Hs and As and min(Hs["n"], As["n"]) >= 5: sH, sA = season.rates(Hs), season.rates(As); gpg = (gpg + (sH["gpg"] + sA["gpg"]) / 2) / 2
+            if Hs and As and min(Hs["n"], As["n"]) >= 5: sH, sA = season.rates(Hs), season.rates(As)
+        have10 = len(H) >= 6 and len(A) >= 6
+        if not have10 and not sH: continue                                      # nothing to judge the teams on
+        g10 = (sum(m["gf"] + m["ga"] for m in H) / len(H) + sum(m["gf"] + m["ga"] for m in A) / len(A)) / 2 if have10 else None
+        gs = (sH["gpg"] + sA["gpg"]) / 2 if sH else None
+        gpg = (g10 + gs) / 2 if g10 is not None and gs is not None else (g10 if g10 is not None else gs)
+        src = "last 10 + season" if have10 and sH else "last 10" if have10 else "season table"
         left = max(1, 93 - g["minute"]) / 90                                    # share of the game still to play (with stoppage time)
         lam = gpg * left
         hs, as_ = g["score"]; tot = hs + as_
         g.update(gpg=gpg, lam=lam, sH=sH, sA=sA)
         # another goal coming: over (goals so far + 0.5)
-        if strat in ("goals", "mix") and 15 <= g["minute"] <= 70 and gpg >= 2.8:
+        if strat in ("goals", "mix") and 10 <= g["minute"] <= 75:
             p = 1 - math.exp(-lam)
-            C.append((g, "18", f"total={tot + 0.5}", "12", f"Over {tot + 0.5} (another goal)", p, f"{gpg:.1f} goals a game; {hs}-{as_} at {g['minute']}' – {p:.0%} chance of another"))
-        # quiet game: under (goals so far + 1.5)
-        if strat in ("dead", "mix") and g["minute"] >= 55 and tot <= 1 and gpg <= 2.6:
-            p = _pois_le(1, lam)
-            C.append((g, "18", f"total={tot + 1.5}", "13", f"Under {tot + 1.5}", p, f"{gpg:.1f} goals a game; {hs}-{as_} at {g['minute']}' – {p:.0%} chance of at most one more"))
-        # strong favourite holding a lead late on
-        if strat in ("hold", "mix") and g["minute"] >= 65 and hs != as_:
+            C.append((g, "18", f"total={tot + 0.5}", "12", f"Over {tot + 0.5} (another goal)", p, f"{gpg:.1f} goals a game ({src}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance of another"))
+        # quiet game: at most one more goal (from 55'), or at most two more (from 45')
+        if strat in ("dead", "mix") and g["minute"] >= 45:
+            for more, frm in ((1, 55), (2, 45)):
+                if g["minute"] < frm: continue
+                p = _pois_le(more, lam)
+                C.append((g, "18", f"total={tot + more + 0.5}", "13", f"Under {tot + more + 0.5}", p, f"{gpg:.1f} goals a game ({src}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance of at most {more} more"))
+        # a side holding a lead (from 55'): straight win, or win-or-draw when the lead is one goal
+        if strat in ("hold", "mix") and g["minute"] >= 55 and hs != as_:
             lead_h = hs > as_; diff = abs(hs - as_)
-            Lw, Tw = (H, A) if lead_h else (A, H)
-            wr = sum(m["gf"] > m["ga"] for m in Lw) / len(Lw); tl = sum(m["gf"] < m["ga"] for m in Tw) / len(Tw)
-            leader_strong = wr >= .55 and (not sH or (sH if lead_h else sA)["loss"] <= .35)
-            # chance the trailing side scores `diff` or more in the time left (they score at their own rate)
-            trail_gf = sum(m["gf"] for m in Tw) / len(Tw); lam_t = trail_gf * left
-            p = _pois_le(diff - 1, lam_t)
-            if leader_strong:
+            if have10:
+                Lw, Tw = (H, A) if lead_h else (A, H)
+                wr = sum(m["gf"] > m["ga"] for m in Lw) / len(Lw); trail_gf = sum(m["gf"] for m in Tw) / len(Tw)
+            else:
+                wr = (sH if lead_h else sA)["win"]; trail_gf = (sA if lead_h else sH)["gf"]
+            ls = sH if lead_h else sA
+            if wr >= .45 and (not ls or ls["loss"] <= .45):
+                lam_t = trail_gf * left * 1.15                                   # a trailing side pushes harder
                 team = g["h"] if lead_h else g["a"]
-                C.append((g, "1", "", "1" if lead_h else "3", f"{team} to win (leading {hs}-{as_})", p * (0.97 if tl >= .4 else 0.93),
-                          f"{team} won {wr:.0%} of last 10, leads {hs}-{as_} at {g['minute']}'"))
-    if not C: return dict(ok=False, msg="No live game fits that strategy with strong enough stats right now. Try 'Best of all' or check back in a few minutes.")
+                p_win = _pois_le(diff - 1, lam_t)
+                C.append((g, "1", "", "1" if lead_h else "3", f"{team} to win (leading {hs}-{as_})", p_win, f"{team} won {wr:.0%} of recent games, leads {hs}-{as_} at {g['minute']}'"))
+                p_dc = _pois_le(diff, lam_t)
+                C.append((g, "10", "", "9" if lead_h else "11", f"{team} or draw (leading {hs}-{as_})", p_dc, f"{team} won {wr:.0%} of recent games, leads {hs}-{as_} at {g['minute']}'"))
+    nodata = sum(1 for g in G if "gpg" not in g)
+    if not C: return dict(ok=False, msg=f"{len(G)} games are in play, but none fits that strategy right now ({nodata} have no stats to judge them on). Try 'Best of all' or check back in a few minutes – the picture changes every few minutes.")
     # live prices for the candidates (the full in-play market list per game)
     eids = list({c[0]["eid"] for c in C})
     with ThreadPoolExecutor(8) as ex: MK = dict(zip(eids, ex.map(_live_odds, eids)))
@@ -145,7 +157,7 @@ def build(req):
         if sup: leg["why"] += "; " + ", ".join(sup)
         if g["eid"] not in best or leg["s"] > best[g["eid"]]["s"]: best[g["eid"]] = leg
     B = sorted(best.values(), key=lambda x: (-x["rate"], -x["s"]))[:legs]
-    if not B: return dict(ok=False, msg="Live prices for the strong picks are either too low, too high or suspended right now. Try again in a minute.")
+    if not B: return dict(ok=False, msg=f"{len(G)} games are in play and {len({c[0]['eid'] for c in C})} looked promising, but none reached a 75% chance at a fair price (1.08–1.75) without a stats source against it. Try again in a few minutes.")
     note = [] if len(B) >= legs else [f"Only {len(B)} live leg(s) were strong enough right now (you asked for {legs})."]
     note.append("Live odds move fast – load the code on SportyBet straight away.")
     return P.finish([B], "live", {"live": f"live – {dict(goals='another goal coming', hold='favourite holding a lead', dead='quiet game', mix='best of all').get(strat, strat)}"}, note, req)
