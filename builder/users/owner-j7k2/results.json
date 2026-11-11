@@ -244,7 +244,7 @@
 "when": "Wed 11 Nov 15:22",
 "kind": "live \u2013 best of all",
 "odds": 1.89,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 15:23",
@@ -281,14 +281,20 @@
 "game": "Bangladesh vs Sri Lanka",
 "pick": "Handicap 0:3 \u2013 Sri Lanka",
 "odds": 1.14,
-"ts": 1794407025.7052083
+"ts": 1794407025.7052083,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 15:23",
 "game": "Newell's Old Boys vs CA Huracan",
 "pick": "Over 0.5",
 "odds": 1.15,
-"ts": 1794407025.705213
+"ts": 1794407025.705213,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },

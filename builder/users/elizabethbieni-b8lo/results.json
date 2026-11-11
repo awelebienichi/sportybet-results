@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 15:12",
 "kind": "live \u2013 best of all",
 "odds": 4.31,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 15:13",
@@ -54,7 +54,10 @@
 "game": "Bangladesh vs Sri Lanka",
 "pick": "Asian handicap Sri Lanka +2.5",
 "odds": 1.2,
-"ts": 1794406402.537607
+"ts": 1794406402.537607,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 15:13",
@@ -71,7 +74,10 @@
 "game": "Newell's Old Boys vs CA Huracan",
 "pick": "Asian handicap Newell's Old Boys +1.5",
 "odds": 1.12,
-"ts": 1794406402.5376227
+"ts": 1794406402.5376227,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
@@ -1128,7 +1134,10 @@
 "game": "Newell's Old Boys vs CA Huracan",
 "pick": "Double chance Newell's Old Boys or CA Huracan",
 "odds": 1.31,
-"ts": 1794405600.0
+"ts": 1794405600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 15:00",
@@ -1596,7 +1605,7 @@
 "when": "Wed 11 Nov 09:06",
 "kind": "your chosen markets",
 "odds": 10.69,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 12:00",
@@ -1623,7 +1632,10 @@
 "game": "Newell's Old Boys vs CA Huracan",
 "pick": "Double chance Newell's Old Boys or CA Huracan",
 "odds": 1.31,
-"ts": 1794405600.0
+"ts": 1794405600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 15:00",
