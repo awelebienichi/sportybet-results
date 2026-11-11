@@ -1,5 +1,58 @@
 [
 {
+"when": "Wed 11 Nov 12:10",
+"at": 1794395406,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "live",
+"strategy": "mix",
+"legs": 2,
+"rid": "mwc0opu7hwze"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "HK1991",
+"odds": 1.28,
+"legs": [
+{
+"t": "Wed 12:11",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"lg": "Japan - J.League Cup",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.14,
+"why": "LIVE 0-0 35': 3.5 goals a game (last 10); 0-0 at 35' \u2013 90% chance of another; Flashscore home/away form 85%, h2h 75% of 8 meetings (1.5 line)",
+"ts": 1794395461.1513677,
+"eid": "sr:match:76186248",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76186248|18|total=0.5|12"
+},
+{
+"t": "Wed 12:11",
+"game": "Georgia vs Denmark",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 5.5 (another goal)",
+"odds": 1.12,
+"why": "LIVE 1-4 50': 3.7 goals a game (last 10); 1-4 at 50' \u2013 83% chance of another; Flashscore home/away form 65%",
+"ts": 1794395463.628822,
+"eid": "sr:match:74827232",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "12",
+"k": "74827232|18|total=5.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 12:05",
 "at": 1794395131,
 "req": {
