@@ -68,14 +68,20 @@
 "game": "Kirsehir Belediye Spor vs Mazidagi Fosfat Spor",
 "pick": "Kirsehir Belediye Spor excluded goals: 2",
 "odds": 1.24,
-"ts": 1794391200.0
+"ts": 1794391200.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:00",
 "game": "Vissel Kobe vs Machida Zelvia",
 "pick": "Excluded goals: 2",
 "odds": 1.28,
-"ts": 1794391200.0
+"ts": 1794391200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:00",
