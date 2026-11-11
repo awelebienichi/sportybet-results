@@ -1,5 +1,86 @@
 [
 {
+"when": "Wed 11 Nov 13:28",
+"at": 1794400128,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 4,
+"rid": "mwc3hsy4t4qs"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "TUMLRT",
+"odds": 2.21,
+"legs": [
+{
+"t": "Wed 13:29",
+"game": "North Macedonia vs Northern Ireland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Handicap 2:0 \u2013 North Macedonia",
+"odds": 1.16,
+"why": "LIVE 0-0 26': North Macedonia expected 0.5 and Northern Ireland 0.7 more goals (last 10); 0-0 at 26' \u2013 88% chance this handicap lands; Flashscore home/away form 56%",
+"ts": 1794400182.8772845,
+"eid": "sr:match:75244192",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75244192|14|hcp=2:0|1711"
+},
+{
+"t": "Wed 13:29",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"lg": "Latvia - Virsliga",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.37,
+"why": "LIVE 0-0 28': FK Tukums 2000/TSS expected 0.7 and Valmiera FC 1.6 more goals (last 10); 0-0 at 28' \u2013 96% chance this handicap lands; Flashscore home/away form 80%",
+"ts": 1794400183.721609,
+"eid": "sr:match:76653244",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76653244|14|hcp=0:2|1713"
+},
+{
+"t": "Wed 13:29",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"lg": "Slovakia - Slovensky Pohar",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.2,
+"why": "LIVE 0-0 26': FKM Nove Zamky expected 1.2 and MFK Zemplin Michalovce 1.0 more goals (last 10); 0-0 at 26' \u2013 97% chance this handicap lands; Flashscore home/away form 60%",
+"ts": 1794400184.2253056,
+"eid": "sr:match:75948774",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "75948774|14|hcp=3:0|1711"
+},
+{
+"t": "Wed 13:29",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"lg": "Poland - 1. Liga, Women",
+"pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
+"odds": 1.16,
+"why": "LIVE 1-1 26': Czarni Sosnowiec II expected 1.0 and RESOVIA RZESZOW 1.1 more goals (last 10 + season); 1-1 at 26' \u2013 87% chance this handicap lands",
+"ts": 1794400185.037266,
+"eid": "sr:match:72576702",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "72576702|14|hcp=0:2|1713"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 12:54",
 "at": 1794398064,
 "req": {
