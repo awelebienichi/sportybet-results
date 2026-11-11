@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 12:15",
 "kind": "live \u2013 best of all",
 "odds": 2.3,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 12:16",
@@ -24,7 +24,10 @@
 "game": "Urawa Red Diamonds vs Cerezo Osaka",
 "pick": "Over 0.5 (another goal)",
 "odds": 1.16,
-"ts": 1794395791.931287
+"ts": 1794395791.931287,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:16",
@@ -103,7 +106,7 @@
 "odds": 1.25,
 "ts": 1794393000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -460,7 +463,10 @@
 "game": "Urawa Red Diamonds vs Cerezo Osaka",
 "pick": "2nd half Over 0.5",
 "odds": 1.18,
-"ts": 1794393000.0
+"ts": 1794393000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:00",
