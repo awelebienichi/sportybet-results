@@ -1,5 +1,19 @@
 [
 {
+"when": "Wed 11 Nov 11:00",
+"at": 1794391241,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "live",
+"strategy": "mix",
+"legs": 2,
+"rid": "mwby7ocq3jt7"
+},
+"ok": false,
+"msg": "Live prices for the strong picks are either too low, too high or suspended right now. Try again in a minute."
+},
+{
 "when": "Wed 11 Nov 10:51",
 "at": 1794390676,
 "req": {
