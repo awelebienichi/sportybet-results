@@ -1,5 +1,87 @@
 [
 {
+"when": "Wed 11 Nov 12:54",
+"at": 1794398064,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"rid": "mwc29rjpspzy"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 4 live leg(s) were strong enough right now (you asked for 10).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "PV6RGA",
+"odds": 2.89,
+"legs": [
+{
+"t": "Wed 12:55",
+"game": "Croatia vs Hungary",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 4.5",
+"odds": 1.25,
+"why": "LIVE 1-1 45': 2.8 goals a game (last 10); 1-1 at 45' \u2013 81% chance of at most 2 more; Flashscore home/away form 65%, h2h 100% of 3 meetings (3.5 line)",
+"ts": 1794398118.9701042,
+"eid": "sr:match:74723530",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74723530|18|total=4.5|13"
+},
+{
+"t": "Wed 12:55",
+"game": "Ukraine vs Israel",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 5.5",
+"odds": 1.35,
+"why": "LIVE 1-2 45': 3.2 goals a game (last 10); 1-2 at 45' \u2013 76% chance of at most 2 more; Flashscore home/away form 70%, h2h 62% of 8 meetings (3.5 line)",
+"ts": 1794398120.2728345,
+"eid": "sr:match:75856724",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "75856724|18|total=5.5|13"
+},
+{
+"t": "Wed 12:55",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.35,
+"why": "LIVE 0-0 45': 2.9 goals a game (last 10 + season); 0-0 at 45' \u2013 78% chance of another; Flashscore home/away form 90%, season: 2.8 goals a game",
+"ts": 1794398120.4101636,
+"eid": "sr:match:72889702",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72889702|18|total=0.5|12"
+},
+{
+"t": "Wed 12:55",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"lg": "Spain - Primera Federacion, Women",
+"pick": "Over 1.5 (another goal)",
+"odds": 1.27,
+"why": "LIVE 1-0 45': 2.7 goals a game (last 10 + season); 1-0 at 45' \u2013 76% chance of another; Flashscore home/away form 85%, h2h 75% of 4 meetings (1.5 line)",
+"ts": 1794398120.8636575,
+"eid": "sr:match:75880544",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75880544|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 12:50",
 "at": 1794397804,
 "req": {
