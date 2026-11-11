@@ -1,4 +1,85 @@
 {
 "from": 1794401030,
-"tickets": []
+"tickets": [
+{
+"code": "X2KLL8",
+"at": 1794401041,
+"when": "Wed 11 Nov 13:44",
+"kind": "safest market per game",
+"odds": 23.13,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:00",
+"game": "Bangladesh vs Sri Lanka",
+"pick": "1st half double chance Sri Lanka or draw",
+"odds": 1.44,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 18:00",
+"game": "SC Wiedenbruck vs SC Preussen Munster II",
+"pick": "Asian handicap SC Preussen Munster II +1.5",
+"odds": 1.56,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "SK Artis Brno vs FK Jablonec",
+"pick": "Asian handicap SK Artis Brno +1.5",
+"odds": 1.29,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:30",
+"game": "NK Sampion Celje vs NK Smartno 1928",
+"pick": "NK Smartno 1928 to win",
+"odds": 1.7,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 20:00",
+"game": "Wales vs Finland",
+"pick": "1st half double chance Finland or draw",
+"odds": 1.35,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 22:30",
+"game": "AD Isidro Metapan vs CD Platense",
+"pick": "GG (both teams score)",
+"odds": 1.48,
+"ts": 1794432600.0
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"pick": "1st half Over 0.5",
+"odds": 1.35,
+"ts": 1794434400.0
+}
+]
+}
+]
 }
