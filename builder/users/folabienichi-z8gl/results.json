@@ -176,7 +176,7 @@
 "odds": 1.06,
 "ts": 1794427200.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -554,7 +554,10 @@
 "game": "Juventus Turin W vs Olympique Lyon W",
 "pick": "Over 2.5",
 "odds": 1.23,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Thu 02:00",
@@ -690,7 +693,10 @@
 "game": "Juventus Turin W vs Olympique Lyon W",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Thu 09:30",
@@ -735,7 +741,10 @@
 "game": "Juventus Turin W vs Olympique Lyon W",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Thu 09:30",
