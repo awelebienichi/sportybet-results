@@ -1,6 +1,16 @@
 {
 "active": true,
-"history": [],
+"history": [
+{
+"date": "2026-11-11",
+"day": 1,
+"code": "JD68SH",
+"stake": 100.0,
+"odds": 6.32,
+"result": "lost",
+"returned": 0
+}
+],
 "start_stake": 100.0,
 "stake": 100.0,
 "odds": 6.0,
@@ -12,7 +22,7 @@
 "odds": 6.32,
 "stake": 100.0,
 "n": 5,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-11",
 "short": "lower",
