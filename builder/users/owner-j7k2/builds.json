@@ -1,6 +1,22 @@
 [
 {
 "when": "Wed 11 Nov 17:03",
+"at": 1794413016,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "relaxed",
+"rid": "mwcb6euy2e0k",
+"target": 3
+},
+"ok": false,
+"msg": "3 odds can't be reached right now: 4 live leg(s) are strong enough, and the most they make with up to 10 legs is 2.02 odds. Lower the target, allow more legs, or try again in a few minutes."
+},
+{
+"when": "Wed 11 Nov 17:03",
 "at": 1794413001,
 "req": {
 "u": "owner-j7k2",
