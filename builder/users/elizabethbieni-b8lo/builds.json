@@ -1,5 +1,239 @@
 [
 {
+"when": "Wed 11 Nov 13:48",
+"at": 1794401307,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "20:59",
+"markets": [
+"up"
+],
+"rid": "mwc46lnfvxrc"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 14 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 00:00\u201320:59, 522 games on SportyBet), so this ticket has 14 legs instead of 40. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "T1H8DJ",
+"odds": 17.64,
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Cameroon vs Namibia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Cameroon to win (1UP)",
+"odds": 1.2,
+"why": "stats rate 75% from both teams' last 10 and 4 meetings; Flashscore home/away form 65%, Vitibet 66%",
+"ts": 1794510000.0,
+"eid": "sr:match:75803686",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "75803686|60200||1"
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"lg": "International - UEFA Nations League",
+"pick": "Spain to win (1UP)",
+"odds": 1.11,
+"why": "stats rate 85% from both teams' last 10 and 6 meetings; Flashscore home/away form 55%, FotMob: 1st vs 4th of 4, Vitibet 73%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931754",
+"mid": "60200",
+"spec": "",
+"oid": "3",
+"k": "68931754|60200||3"
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"lg": "International - UEFA Nations League",
+"pick": "England to win (1UP)",
+"odds": 1.13,
+"why": "stats rate 70% from both teams' last 10 and 8 meetings; Flashscore home/away form 55%, Vitibet 65%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931756",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "68931756|60200||1"
+},
+{
+"t": "Sat 05:00",
+"game": "Melbourne City FC vs Newcastle Jets",
+"lg": "Australia - A-League, Women",
+"pick": "Melbourne City FC to win (1UP)",
+"odds": 1.13,
+"why": "stats rate 80% from both teams' last 10 and 8 meetings",
+"ts": 1794628800.0,
+"eid": "sr:match:73928174",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "73928174|60200||1"
+},
+{
+"t": "Sat 14:00",
+"game": "NK Vrhnika vs Tabor Sezana",
+"lg": "Slovenia - 2. Liga",
+"pick": "Tabor Sezana to win (1UP)",
+"odds": 1.29,
+"why": "stats rate 70% from both teams' last 10; season: won 79%, rival lost 57%",
+"ts": 1794661200.0,
+"eid": "sr:match:72281458",
+"mid": "60200",
+"spec": "",
+"oid": "3",
+"k": "72281458|60200||3"
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"lg": "England - National League",
+"pick": "Barrow AFC to win (1UP)",
+"odds": 1.29,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; FotMob: 9th vs 24th of 24, Vitibet 72%",
+"ts": 1794668400.0,
+"eid": "sr:match:72740794",
+"mid": "60200",
+"spec": "",
+"oid": "3",
+"k": "72740794|60200||3"
+},
+{
+"t": "Sat 16:00",
+"game": "Salford City vs Northampton Town",
+"lg": "England - League Two",
+"pick": "Salford City to win (1UP)",
+"odds": 1.37,
+"why": "stats rate 75% from both teams' last 10 and 6 meetings; FotMob: 1st vs 21st of 24",
+"ts": 1794668400.0,
+"eid": "sr:match:72342374",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "72342374|60200||1"
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"lg": "England - National League",
+"pick": "Carlisle United to win (1UP)",
+"odds": 1.23,
+"why": "stats rate 70% from both teams' last 10 and 8 meetings; FotMob: 8th vs 19th of 24, Vitibet 68%",
+"ts": 1794668400.0,
+"eid": "sr:match:72740790",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "72740790|60200||1"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "VVV Venlo to win (1UP)",
+"odds": 1.29,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; FotMob: 2nd vs 20th of 20, Vitibet 65%, season: won 64%, rival lost 64%",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "72044822|60200||1"
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Almere City FC to win (1UP)",
+"odds": 1.21,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; FotMob: 3rd vs 17th of 20, Vitibet 64%, season: won 64%, rival lost 57%",
+"ts": 1794682800.0,
+"eid": "sr:match:72044812",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "72044812|60200||1"
+},
+{
+"t": "Sat 20:00",
+"game": "FC Dordrecht vs Heracles Almelo",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Heracles Almelo to win (1UP)",
+"odds": 1.2,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; FotMob: 1st vs 18th of 20, Vitibet 67%, season: won 79%, rival lost 57%",
+"ts": 1794682800.0,
+"eid": "sr:match:72044816",
+"mid": "60200",
+"spec": "",
+"oid": "3",
+"k": "72044816|60200||3"
+},
+{
+"t": "Sat 20:30",
+"game": "Deportivo Maldonado vs CA Cerro",
+"lg": "Uruguay - Primera Division",
+"pick": "Deportivo Maldonado to win (1UP)",
+"odds": 1.35,
+"why": "stats rate 70% from both teams' last 10 and 8 meetings; FotMob: 4th vs 9th of 16, Vitibet 64%",
+"ts": 1794684600.0,
+"eid": "sr:match:76455618",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "76455618|60200||1"
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"lg": "Spain - LaLiga 2",
+"pick": "Eibar to win (1UP)",
+"odds": 1.33,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; FotMob: 4th vs 20th of 22, Vitibet 56%",
+"ts": 1794763800.0,
+"eid": "sr:match:72477586",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "72477586|60200||1"
+},
+{
+"t": "Sun 20:45",
+"game": "France vs Turkiye",
+"lg": "International - UEFA Nations League",
+"pick": "France to win (1UP)",
+"odds": 1.1,
+"why": "stats rate 70% from both teams' last 10 and 5 meetings; FotMob: 1st vs 4th of 4, Vitibet 69%",
+"ts": 1794771900.0,
+"eid": "sr:match:68931506",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "68931506|60200||1"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:45",
 "at": 1794401123,
 "req": {

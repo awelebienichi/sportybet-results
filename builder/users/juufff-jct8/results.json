@@ -2,6 +2,58 @@
 "from": 1794401030,
 "tickets": [
 {
+"code": "SH5347",
+"at": 1794401203,
+"when": "Wed 11 Nov 13:46",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 7.67,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:00",
+"game": "Spain vs Iceland",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1794409200.0
+},
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 18:45",
+"game": "Oud-Heverlee Leuven W vs HB KOEGE W",
+"pick": "Over 2.5",
+"odds": 1.72,
+"ts": 1794419100.0
+},
+{
+"t": "Wed 19:30",
+"game": "CD Fuerte San Francisco vs Alianza FC",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1794421800.0
+},
+{
+"t": "Wed 20:00",
+"game": "Tottenham Hotspur FC vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794427200.0
+}
+]
+},
+{
 "code": "X2KLL8",
 "at": 1794401041,
 "when": "Wed 11 Nov 13:44",
