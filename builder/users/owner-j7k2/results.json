@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SU5QG1",
+"at": 1794433229,
+"when": "Wed 11 Nov 22:40",
+"kind": "safest market per game",
+"odds": 663.02,
+"status": "open",
+"legs": [
+{
+"t": "Thu 03:00",
+"game": "Piratas Veracruz vs Club Atletico La Paz",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1794448800.0
+},
+{
+"t": "Thu 07:00",
+"game": "New Zealand vs India",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1794463200.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "1st half double chance Eswatini or draw",
+"odds": 1.59,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "1st half double chance Italy or draw",
+"odds": 1.52,
+"ts": 1794512700.0
+},
+{
+"t": "Fri 14:00",
+"game": "Comoros vs Congo",
+"pick": "1st half double chance Congo or draw",
+"odds": 1.45,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.4,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.43,
+"ts": 1794599100.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "1st half double chance Panthrakikos FC Komotini or draw",
+"odds": 1.45,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Marek Dupnica vs PFC Chernomorets Burgas",
+"pick": "Over 1.5",
+"odds": 1.35,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.65,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walsall FC vs Barnet FC",
+"pick": "GG (both teams score)",
+"odds": 1.53,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Leighton Town vs Stratford Town",
+"pick": "Double chance Stratford Town or draw",
+"odds": 1.4,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cove Rangers FC vs Montrose FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wycombe Wanderers vs Huddersfield",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"pick": "1st half double chance CD Maipu or draw",
+"odds": 1.57,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 22:30",
+"game": "Haiti vs USA",
+"pick": "1st half Over 0.5",
+"odds": 1.28,
+"ts": 1794691800.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Chelyabinsk vs FK Veles Moscow",
+"pick": "2nd half Over 0.5",
+"odds": 1.29,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half Over 0.5",
+"odds": 1.43,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"pick": "2nd half Over 0.5",
+"odds": 1.22,
+"ts": 1794771900.0
+}
+]
+},
+{
 "code": "X7G5WK",
 "at": 1794430705,
 "when": "Wed 11 Nov 21:58",
