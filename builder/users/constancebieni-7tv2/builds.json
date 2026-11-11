@@ -1,5 +1,25 @@
 [
 {
+"when": "Wed 11 Nov 14:00",
+"at": 1794402024,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "fav1h",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwc4modbh0nt"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for strong team to score in the 1st half (Wed 11) out of 72 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Wed 11 Nov 13:58",
 "at": 1794401935,
 "req": {
