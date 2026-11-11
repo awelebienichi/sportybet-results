@@ -1,5 +1,73 @@
 [
 {
+"when": "Wed 11 Nov 12:44",
+"at": 1794397476,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "goals",
+"legs": 6,
+"rid": "mwc1x55v5hdg"
+},
+"ok": true,
+"kind": "live \u2013 another goal coming",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 6).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "HE4V0Z",
+"odds": 2.01,
+"legs": [
+{
+"t": "Wed 12:45",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"lg": "Japan - J.League Cup",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.27,
+"why": "LIVE 0-0 52': 3.5 goals a game (last 10); 0-0 at 52' \u2013 80% chance of another; Flashscore home/away form 85%, h2h 75% of 8 meetings (1.5 line)",
+"ts": 1794397531.3940475,
+"eid": "sr:match:76186248",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76186248|18|total=0.5|12"
+},
+{
+"t": "Wed 12:45",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.27,
+"why": "LIVE 0-0 40': 2.9 goals a game (last 10 + season); 0-0 at 40' \u2013 82% chance of another; Flashscore home/away form 90%, season: 2.8 goals a game",
+"ts": 1794397533.1480684,
+"eid": "sr:match:72889702",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72889702|18|total=0.5|12"
+},
+{
+"t": "Wed 12:45",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"lg": "Spain - Primera Federacion, Women",
+"pick": "Over 1.5 (another goal)",
+"odds": 1.22,
+"why": "LIVE 1-0 42': 2.7 goals a game (last 10 + season); 1-0 at 42' \u2013 78% chance of another; Flashscore home/away form 85%, h2h 75% of 4 meetings (1.5 line)",
+"ts": 1794397533.4251661,
+"eid": "sr:match:75880544",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75880544|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 12:26",
 "at": 1794396408,
 "req": {
