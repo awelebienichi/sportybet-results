@@ -5063,14 +5063,17 @@
 "when": "Wed 11 Nov 22:43",
 "kind": "half-time draw",
 "odds": 1314.64,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 00:00",
 "game": "Real Cundinamarca vs Real Cartagena FC",
 "pick": "Half-time draw",
 "odds": 2.05,
-"ts": 1794438000.0
+"ts": 1794438000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 00:00",
@@ -5279,7 +5282,10 @@
 "game": "Real Cundinamarca vs Real Cartagena FC",
 "pick": "1st half double chance Real Cundinamarca or draw",
 "odds": 1.27,
-"ts": 1794438000.0
+"ts": 1794438000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 16:00",
