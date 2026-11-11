@@ -1,5 +1,173 @@
 [
 {
+"when": "Wed 11 Nov 13:21",
+"at": 1794399690,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "combine",
+"codes": [
+"NW5A5U",
+"TW92S3"
+],
+"split50": false,
+"rid": "mwc38mq45qpa"
+},
+"ok": true,
+"kind": "combined NW5A5U + TW92S3",
+"note": [
+"9 leg(s) had already started and were left out."
+],
+"tickets": [
+{
+"code": "NW5A5U",
+"odds": 8.56,
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Czechia vs Netherlands",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.26,
+"why": "from NW5A5U",
+"ts": 1794402000.0,
+"eid": "sr:match:74723528",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74723528|75||76"
+},
+{
+"t": "Wed 15:30",
+"game": "Italy vs Romania",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.13,
+"why": "from NW5A5U",
+"ts": 1794407400.0,
+"eid": "sr:match:75649660",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75649660|75||76"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.22,
+"why": "from NW5A5U",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72891356|75||76"
+},
+{
+"t": "Wed 18:00",
+"game": "France vs Norway",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Asian Handicap -1.5 \u2013 Away (+1.5)",
+"odds": 1.56,
+"why": "from NW5A5U",
+"ts": 1794416400.0,
+"eid": "sr:match:75140414",
+"mid": "16",
+"spec": "hcp=-1.5",
+"oid": "1715",
+"k": "75140414|16|hcp=-1.5|1715"
+},
+{
+"t": "Wed 18:00",
+"game": "SK Artis Brno vs FK Jablonec",
+"lg": "Czechia - Czech Cup",
+"pick": "Asian Handicap 1.5 \u2013 Home (+1.5)",
+"odds": 1.29,
+"why": "from NW5A5U",
+"ts": 1794416400.0,
+"eid": "sr:match:75869416",
+"mid": "16",
+"spec": "hcp=1.5",
+"oid": "1714",
+"k": "75869416|16|hcp=1.5|1714"
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.12,
+"why": "from NW5A5U",
+"ts": 1794416400.0,
+"eid": "sr:match:74041580",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74041580|75||76"
+},
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.23,
+"why": "from NW5A5U",
+"ts": 1794418200.0,
+"eid": "sr:match:75233066",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75233066|75||76"
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"lg": "Brazil - Pernambucano",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.14,
+"why": "from NW5A5U",
+"ts": 1794420000.0,
+"eid": "sr:match:76678982",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76678982|75||76"
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"lg": "International Youth - U21 Premier League International Cup",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.3,
+"why": "from NW5A5U",
+"ts": 1794423600.0,
+"eid": "sr:match:73734902",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73734902|75||76"
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.2,
+"why": "from NW5A5U",
+"ts": 1794434400.0,
+"eid": "sr:match:68823472",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68823472|75||76"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:19",
 "at": 1794399582,
 "req": {
