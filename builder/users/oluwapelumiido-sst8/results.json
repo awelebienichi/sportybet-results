@@ -7,14 +7,17 @@
 "when": "Wed 11 Nov 11:52",
 "kind": "live \u2013 another goal coming",
 "odds": 1.33,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 11:53",
 "game": "Kawasaki Frontale vs Kashiwa Reysol",
 "pick": "Over 0.5 (another goal)",
 "odds": 1.16,
-"ts": 1794394427.4237247
+"ts": 1794394427.4237247,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:53",
