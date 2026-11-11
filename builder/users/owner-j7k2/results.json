@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "U944JV",
+"at": 1794434164,
+"when": "Wed 11 Nov 22:56",
+"kind": "your chosen markets",
+"odds": 1.13,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"pick": "Under 5.5",
+"odds": 1.06,
+"ts": 1794504600.0
+},
+{
+"t": "Sun 00:30",
+"game": "Chapecoense SC vs CR Vasco da Gama RJ",
+"pick": "Under 5.5",
+"odds": 1.07,
+"ts": 1794699000.0
+}
+]
+},
+{
 "code": "TXGUEL",
 "at": 1794434130,
 "when": "Wed 11 Nov 22:55",
