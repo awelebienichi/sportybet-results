@@ -1,5 +1,86 @@
 [
 {
+"when": "Wed 11 Nov 13:39",
+"at": 1794400763,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 4,
+"rid": "mwc3vhzwg2s0"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "XPCZG1",
+"odds": 1.56,
+"legs": [
+{
+"t": "Wed 13:40",
+"game": "Vietnam vs Chinese Taipei",
+"lg": "International - Int. Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "LIVE 1-0 37': Vietnam expected 1.6 and Chinese Taipei 0.6 more goals (last 10); 1-0 at 37' \u2013 89% chance; Flashscore home/away form 90%, h2h 100% of 3 meetings (1.5 line)",
+"ts": 1794400817.2060719,
+"eid": "sr:match:76140432",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76140432|18|total=1.5|12"
+},
+{
+"t": "Wed 13:40",
+"game": "Albania vs Cyprus",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Cyprus Under 2.5",
+"odds": 1.09,
+"why": "LIVE 0-0 7': Albania expected 1.9 and Cyprus 1.1 more goals (last 10); 0-0 at 7' \u2013 90% chance; Flashscore home/away form 64%",
+"ts": 1794400817.20614,
+"eid": "sr:match:74754178",
+"mid": "20",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74754178|20|total=2.5|13"
+},
+{
+"t": "Wed 13:40",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"lg": "Slovakia - Slovensky Pohar",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.16,
+"why": "LIVE 0-0 37': FKM Nove Zamky expected 1.0 and MFK Zemplin Michalovce 0.8 more goals (last 10); 0-0 at 37' \u2013 98% chance; Flashscore home/away form 60%",
+"ts": 1794400817.2061625,
+"eid": "sr:match:75948774",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "75948774|14|hcp=3:0|1711"
+},
+{
+"t": "Wed 13:40",
+"game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Gaziemir Gog Sy Under 3.5",
+"odds": 1.12,
+"why": "LIVE 0-0 9': Gaziemir Gog Sy expected 1.7 and 1922 Aksehir Spor Kulubu 1.1 more goals (last 10 + season); 0-0 at 9' \u2013 90% chance; Flashscore home/away form 69%",
+"ts": 1794400817.2061877,
+"eid": "sr:match:72890730",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72890730|19|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:29",
 "at": 1794400147,
 "req": {
