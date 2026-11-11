@@ -2,6 +2,306 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T6DU15",
+"at": 1794433630,
+"when": "Wed 11 Nov 22:47",
+"kind": "2nd half Over 0.5",
+"odds": 25.26,
+"status": "open",
+"legs": [
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794512700.0
+},
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"pick": "2nd half Over 0.5",
+"odds": 1.18,
+"ts": 1794535200.0
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 20:45",
+"game": "Serbia vs Germany",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 21:00",
+"game": "Grenada vs Saint Kitts and Nevis",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794600000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wycombe Wanderers vs Huddersfield",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cove Rangers FC vs Montrose FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wigan Athletic vs Barnsley FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rochdale AFC vs York City FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walsall FC vs Barnet FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.18,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Norway vs Wales",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794684600.0
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"pick": "2nd half Over 0.5",
+"odds": 1.22,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "France vs Turkiye",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"pick": "2nd half Over 0.5",
+"odds": 1.18,
+"ts": 1794771900.0
+}
+]
+},
+{
+"code": "PWMDHS",
+"at": 1794433590,
+"when": "Wed 11 Nov 22:46",
+"kind": "strong team to score in the 2nd half",
+"odds": 1096.34,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "Spain to score in 2nd half",
+"odds": 1.25,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "England to score in 2nd half",
+"odds": 1.27,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "France to score in 2nd half",
+"odds": 1.52,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:00",
+"game": "Bonaire vs Cuba",
+"pick": "Cuba to score in 2nd half",
+"odds": 1.16,
+"ts": 1794513600.0
+},
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"pick": "Atletico Morelia to score in 2nd half",
+"odds": 1.43,
+"ts": 1794535200.0
+},
+{
+"t": "Sat 00:00",
+"game": "Argentina vs Uruguay",
+"pick": "Argentina to score in 2nd half",
+"odds": 1.54,
+"ts": 1794610800.0
+},
+{
+"t": "Sat 14:30",
+"game": "US Albinoleffe vs Union Brescia",
+"pick": "Union Brescia to score in 2nd half",
+"odds": 1.57,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"pick": "Barrow AFC to score in 2nd half",
+"odds": 1.41,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dumbarton FC vs Annan Athletic FC",
+"pick": "Dumbarton FC to score in 2nd half",
+"odds": 1.5,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wycombe Wanderers vs Huddersfield",
+"pick": "Huddersfield to score in 2nd half",
+"odds": 1.58,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Airdrieonians FC vs Queen of the South FC",
+"pick": "Airdrieonians FC to score in 2nd half",
+"odds": 1.42,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"pick": "Ross County FC to score in 2nd half",
+"odds": 1.47,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Fleetwood Town vs Tranmere Rovers FC",
+"pick": "Fleetwood Town to score in 2nd half",
+"odds": 1.57,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "VVV Venlo to score in 2nd half",
+"odds": 1.36,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"pick": "Almere City FC to score in 2nd half",
+"odds": 1.29,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:30",
+"game": "Deportivo Maldonado vs CA Cerro",
+"pick": "Deportivo Maldonado to score in 2nd half",
+"odds": 1.5,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 23:00",
+"game": "CA Banfield vs Boca Juniors",
+"pick": "Boca Juniors to score in 2nd half",
+"odds": 1.58,
+"ts": 1794693600.0
+},
+{
+"t": "Sun 14:30",
+"game": "Delfino Pescara vs US Sambenedettese",
+"pick": "Delfino Pescara to score in 2nd half",
+"odds": 1.42,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 17:30",
+"game": "AS Cittadella vs US Folgore Caratese",
+"pick": "AS Cittadella to score in 2nd half",
+"odds": 1.46,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 20:45",
+"game": "France vs Turkiye",
+"pick": "France to score in 2nd half",
+"odds": 1.2,
+"ts": 1794771900.0
+}
+]
+},
+{
 "code": "KRPG3U",
 "at": 1794433533,
 "when": "Wed 11 Nov 22:45",
