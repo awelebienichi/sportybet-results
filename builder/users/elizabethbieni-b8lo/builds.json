@@ -1,1 +1,12 @@
-[]
+[
+{
+"when": "Wed 11 Nov 20:44",
+"at": 1794426278,
+"req": {
+"type": "rollover",
+"rid": "mwcj2amxm2fp"
+},
+"ok": false,
+"msg": "No safe rollover ticket today (1.29 odds possible, your minimum 4). Your stake waits for tomorrow."
+}
+]

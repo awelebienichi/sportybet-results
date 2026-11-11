@@ -1,9 +1,9 @@
 {
 "active": true,
 "history": [],
-"start_stake": 1000.0,
-"stake": 1000.0,
-"odds": 4.0,
+"start_stake": 200.0,
+"stake": 200.0,
+"odds": 10.0,
 "hour": 10,
 "day": 1,
 "current": {
@@ -13,6 +13,6 @@
 },
 "started": "2026-11-11",
 "short": "lower",
-"min_odds": 1.8,
+"min_odds": 4.0,
 "level": "strong"
 }
