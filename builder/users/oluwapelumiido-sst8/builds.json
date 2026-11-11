@@ -1,5 +1,59 @@
 [
 {
+"when": "Wed 11 Nov 11:52",
+"at": 1794394371,
+"req": {
+"u": "oluwapelumiido-sst8",
+"name": "Oluwapelumi Idowu",
+"type": "live",
+"strategy": "goals",
+"legs": 3,
+"rid": "mwc02knt5yx5"
+},
+"ok": true,
+"kind": "live \u2013 another goal coming",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 3).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "UVXA39",
+"odds": 1.33,
+"legs": [
+{
+"t": "Wed 11:53",
+"game": "Kawasaki Frontale vs Kashiwa Reysol",
+"lg": "Japan - J.League Cup",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.16,
+"why": "LIVE 0-0 45': 3.6 goals a game; 0-0 at 45' \u2013 85% chance of another; Flashscore home/away form 70%, h2h 75% of 8 meetings",
+"ts": 1794394427.4237247,
+"eid": "sr:match:76186252",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76186252|18|total=0.5|12"
+},
+{
+"t": "Wed 11:53",
+"game": "Yokohama F Marinos vs Kashima Antlers",
+"lg": "Japan - J.League Cup",
+"pick": "Over 2.5 (another goal)",
+"odds": 1.15,
+"why": "LIVE 2-0 45': 2.9 goals a game; 2-0 at 45' \u2013 79% chance of another; Flashscore home/away form 55%, h2h 88% of 8 meetings",
+"ts": 1794394428.550317,
+"eid": "sr:match:76186250",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76186250|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 11:24",
 "at": 1794392657,
 "req": {
