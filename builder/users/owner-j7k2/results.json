@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WV8052",
+"at": 1794416644,
+"when": "Wed 11 Nov 18:04",
+"kind": "live \u2013 best of all",
+"odds": 3.0,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:30",
+"game": "Bosnia and Herzegovina vs San Marino",
+"pick": "Bosnia and Herzegovina Under 4.5",
+"odds": 1.12,
+"ts": 1794411000.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Under 4.5",
+"odds": 1.15,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Silifke Belediyespor Under 1.5",
+"odds": 1.1,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"pick": "Under 4.5",
+"odds": 1.16,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"pick": "SK Brann Under 6.5",
+"odds": 1.3,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Handicap 0:3 \u2013 Inter Ibiza CD",
+"odds": 1.22,
+"ts": 1794414600.0
+}
+]
+},
+{
 "code": "GX0FDH",
 "at": 1794416295,
 "when": "Wed 11 Nov 17:58",
