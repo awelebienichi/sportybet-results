@@ -2,6 +2,222 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KRPG3U",
+"at": 1794433533,
+"when": "Wed 11 Nov 22:45",
+"kind": "1st half Over 0.5",
+"odds": 111.82,
+"status": "open",
+"legs": [
+{
+"t": "Thu 03:00",
+"game": "Piratas Veracruz vs Club Atletico La Paz",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1794448800.0
+},
+{
+"t": "Thu 04:00",
+"game": "CF Pachuca vs CF Monterrey",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794452400.0
+},
+{
+"t": "Thu 07:00",
+"game": "New Zealand vs India",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1794463200.0
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "1st half Over 0.5",
+"odds": 1.37,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 21:00",
+"game": "Bonaire vs Cuba",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1794513600.0
+},
+{
+"t": "Thu 23:00",
+"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
+"pick": "1st half Over 0.5",
+"odds": 1.33,
+"ts": 1794520800.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1794596400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Valladolid vs CD Castellon",
+"pick": "1st half Over 0.5",
+"odds": 1.33,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"pick": "1st half Over 0.5",
+"odds": 1.26,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Eastleigh FC vs AFC Fylde",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Harrogate Town vs Altrincham FC",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 22:30",
+"game": "Haiti vs USA",
+"pick": "1st half Over 0.5",
+"odds": 1.28,
+"ts": 1794691800.0
+},
+{
+"t": "Sun 14:30",
+"game": "Potenza Calcio vs Scafatese Calcio 1922",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half Over 0.5",
+"odds": 1.43,
+"ts": 1794756600.0
+}
+]
+},
+{
+"code": "XUWCJY",
+"at": 1794433505,
+"when": "Wed 11 Nov 22:45",
+"kind": "strong team to score in the 1st half",
+"odds": 21.16,
+"status": "open",
+"legs": [
+{
+"t": "Thu 21:00",
+"game": "Bonaire vs Cuba",
+"pick": "Cuba to score in 1st half",
+"odds": 1.23,
+"ts": 1794513600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Southend United vs Aldershot Town FC",
+"pick": "Southend United to score in 1st half",
+"odds": 1.37,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"pick": "East Kilbride FC to score in 1st half",
+"odds": 1.54,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Edinburgh City FC vs Clyde FC",
+"pick": "Clyde FC to score in 1st half",
+"odds": 1.69,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:30",
+"game": "NAC Breda vs FC Emmen",
+"pick": "NAC Breda to score in 1st half",
+"odds": 1.47,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 22:30",
+"game": "Haiti vs USA",
+"pick": "USA to score in 1st half",
+"odds": 1.45,
+"ts": 1794691800.0
+},
+{
+"t": "Sun 00:00",
+"game": "Club Nacional de Football vs Albion FC",
+"pick": "Club Nacional de Football to score in 1st half",
+"odds": 1.54,
+"ts": 1794697200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "Ravenna FC 1913 to score in 1st half",
+"odds": 1.47,
+"ts": 1794760200.0
+}
+]
+},
+{
 "code": "LSKAFX",
 "at": 1794433479,
 "when": "Wed 11 Nov 22:44",
