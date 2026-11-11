@@ -1,5 +1,170 @@
 [
 {
+"when": "Wed 11 Nov 13:42",
+"at": 1794400943,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"rid": "mwc3zezbmzcf"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "YFPLUA",
+"odds": 4.71,
+"legs": [
+{
+"t": "Wed 13:43",
+"game": "Vietnam vs Chinese Taipei",
+"lg": "International - Int. Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "LIVE 1-0 40': Vietnam expected 1.5 and Chinese Taipei 0.6 more goals (last 10); 1-0 at 40' \u2013 88% chance; Flashscore home/away form 90%, h2h 100% of 3 meetings (1.5 line)",
+"ts": 1794400998.4602926,
+"eid": "sr:match:76140432",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76140432|18|total=1.5|12"
+},
+{
+"t": "Wed 13:43",
+"game": "Ukraine vs Israel",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Handicap 2:0 \u2013 Ukraine",
+"odds": 1.12,
+"why": "LIVE 1-2 84': Ukraine expected 0.2 and Israel 0.1 more goals (last 10); 1-2 at 84' \u2013 90% chance; Flashscore home/away form 65%",
+"ts": 1794400998.4603186,
+"eid": "sr:match:75856724",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75856724|14|hcp=2:0|1711"
+},
+{
+"t": "Wed 13:43",
+"game": "Belgium vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Handicap 0:4 \u2013 Kosovo",
+"odds": 1.18,
+"why": "LIVE 2-0 68': Belgium expected 0.5 and Kosovo 0.5 more goals (last 10); 2-0 at 68' \u2013 94% chance; Flashscore home/away form 50%",
+"ts": 1794400998.460324,
+"eid": "sr:match:74838474",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "74838474|14|hcp=0:4|1713"
+},
+{
+"t": "Wed 13:43",
+"game": "North Macedonia vs Northern Ireland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 2.5",
+"odds": 1.18,
+"why": "LIVE 0-0 40': North Macedonia expected 0.4 and Northern Ireland 0.6 more goals (last 10); 0-0 at 40' \u2013 92% chance; Flashscore home/away form 76%",
+"ts": 1794400998.4603288,
+"eid": "sr:match:75244192",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75244192|18|total=2.5|13"
+},
+{
+"t": "Wed 13:43",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"lg": "Latvia - Virsliga",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.32,
+"why": "LIVE 0-0 42': FK Tukums 2000/TSS expected 0.5 and Valmiera FC 1.2 more goals (last 10); 0-0 at 42' \u2013 96% chance; Flashscore home/away form 80%",
+"ts": 1794400998.4603662,
+"eid": "sr:match:76653244",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76653244|14|hcp=0:2|1713"
+},
+{
+"t": "Wed 13:43",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"lg": "Slovakia - Slovensky Pohar",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.15,
+"why": "LIVE 0-0 40': FKM Nove Zamky expected 0.9 and MFK Zemplin Michalovce 0.8 more goals (last 10); 0-0 at 40' \u2013 98% chance; Flashscore home/away form 60%",
+"ts": 1794400998.4603732,
+"eid": "sr:match:75948774",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "75948774|14|hcp=3:0|1711"
+},
+{
+"t": "Wed 13:43",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Asian handicap Fatsa Belediyespor +0.5",
+"odds": 1.18,
+"why": "LIVE 0-0 80': Kucukcekmece Sinop Spor AS expected 0.2 and Fatsa Belediyespor 0.2 more goals (last 10 + season); 0-0 at 80' \u2013 87% chance; Flashscore home/away form 55%",
+"ts": 1794400998.460386,
+"eid": "sr:match:72889702",
+"mid": "16",
+"spec": "hcp=-0.5",
+"oid": "1715",
+"k": "72889702|16|hcp=-0.5|1715"
+},
+{
+"t": "Wed 13:43",
+"game": "Karsiyaka vs Bursa Nilufer Futbol AS",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Karsiyaka Under 2.5",
+"odds": 1.18,
+"why": "LIVE 0-0 10': Karsiyaka expected 1.0 and Bursa Nilufer Futbol AS 1.1 more goals (last 10 + season); 0-0 at 10' \u2013 92% chance; Flashscore home/away form 55%",
+"ts": 1794400998.4604063,
+"eid": "sr:match:72890736",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72890736|19|total=2.5|13"
+},
+{
+"t": "Wed 13:43",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"lg": "Poland - 1. Liga, Women",
+"pick": "Under 6.5",
+"odds": 1.12,
+"why": "LIVE 2-1 40': Czarni Sosnowiec II expected 0.8 and RESOVIA RZESZOW 0.9 more goals (last 10 + season); 2-1 at 40' \u2013 91% chance",
+"ts": 1794400998.460409,
+"eid": "sr:match:72576702",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "72576702|18|total=6.5|13"
+},
+{
+"t": "Wed 13:43",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"lg": "Spain - Primera Federacion, Women",
+"pick": "Handicap 0:3 \u2013 CD Alba Fundacion",
+"odds": 1.18,
+"why": "LIVE 2-0 80': Villarreal CF expected 0.2 and CD Alba Fundacion 0.2 more goals (last 10 + season); 2-0 at 80' \u2013 86% chance; Flashscore home/away form 60%",
+"ts": 1794400998.4604206,
+"eid": "sr:match:75880544",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75880544|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:39",
 "at": 1794400763,
 "req": {
