@@ -1,5 +1,321 @@
 [
 {
+"when": "Wed 11 Nov 22:55",
+"at": 1794434130,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u45"
+],
+"rid": "mwcnqoiu086b"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "TXGUEL",
+"odds": 12.09,
+"legs": [
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"lg": "Spain - Copa del Rey",
+"pick": "Under 4.5",
+"odds": 1.17,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794504600.0,
+"eid": "sr:match:76516976",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76516976|18|total=4.5|13"
+},
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "Under 4.5",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; season: 3.3 goals a game",
+"ts": 1794535200.0,
+"eid": "sr:match:76629018",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76629018|18|total=4.5|13"
+},
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Under 4.5",
+"odds": 1.06,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings; Flashscore home/away form 85%, Vitibet tip 2-1",
+"ts": 1794585600.0,
+"eid": "sr:match:75802274",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "75802274|18|total=4.5|13"
+},
+{
+"t": "Sat 12:00",
+"game": "Podhale Nowy Targ vs Avia Swidnik",
+"lg": "Poland - II Liga",
+"pick": "Under 4.5",
+"odds": 1.2,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; FotMob: 3.0 goals a game, season: 3.0 goals a game",
+"ts": 1794654000.0,
+"eid": "sr:match:72398812",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72398812|18|total=4.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Aveley FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 4.5",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:76125278",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76125278|18|total=4.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Spennymoor Town FC vs Scarborough Athletic",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 4.5",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings",
+"ts": 1794668400.0,
+"eid": "sr:match:76125234",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76125234|18|total=4.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Alfreton Town FC vs Southport FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 4.5",
+"odds": 1.21,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings",
+"ts": 1794668400.0,
+"eid": "sr:match:76125242",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76125242|18|total=4.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Bath City FC vs Truro City",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 4.5",
+"odds": 1.15,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; FotMob: 2.5 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:76125298",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76125298|18|total=4.5|13"
+},
+{
+"t": "Sat 17:00",
+"game": "Uganda vs Botswana",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Under 4.5",
+"odds": 1.06,
+"why": "stats rate 100% from both teams' last 10 and 4 meetings; Vitibet tip 2-1",
+"ts": 1794672000.0,
+"eid": "sr:match:74372596",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74372596|18|total=4.5|13"
+},
+{
+"t": "Sat 17:30",
+"game": "AC Lumezzane vs AC Trento",
+"lg": "Italy - Serie C, Group A",
+"pick": "Under 4.5",
+"odds": 1.09,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 2.2 goals a game, Vitibet tip 0-1, season: 2.2 goals a game",
+"ts": 1794673800.0,
+"eid": "sr:match:73293344",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73293344|18|total=4.5|13"
+},
+{
+"t": "Sat 17:30",
+"game": "SSC Bari vs Calcio Foggia",
+"lg": "Italy - Serie C, Group C",
+"pick": "Under 4.5",
+"odds": 1.06,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 2.1 goals a game, Vitibet tip 2-1, season: 2.1 goals a game",
+"ts": 1794673800.0,
+"eid": "sr:match:73294824",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73294824|18|total=4.5|13"
+},
+{
+"t": "Sat 18:30",
+"game": "Mallorca vs Cordoba CF",
+"lg": "Spain - LaLiga 2",
+"pick": "Under 4.5",
+"odds": 1.21,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; FotMob: 2.6 goals a game, Vitibet tip 2-1, season: 2.6 goals a game",
+"ts": 1794677400.0,
+"eid": "sr:match:72477594",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72477594|18|total=4.5|13"
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Under 4.5",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; FotMob: 2.6 goals a game, Vitibet tip 1-0, season: 2.6 goals a game",
+"ts": 1794684600.0,
+"eid": "sr:match:68823482",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "68823482|18|total=4.5|13"
+},
+{
+"t": "Sat 22:30",
+"game": "Mirassol FC SP vs Atletico Mineiro MG",
+"lg": "Brazil - Brasileiro Serie A",
+"pick": "Under 4.5",
+"odds": 1.13,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; FotMob: 2.5 goals a game, Vitibet tip 1-0, season: 2.5 goals a game",
+"ts": 1794691800.0,
+"eid": "sr:match:66887166",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "66887166|18|total=4.5|13"
+},
+{
+"t": "Sun 12:30",
+"game": "Novara FC vs Calcio Lecco 1912",
+"lg": "Italy - Serie C, Group A",
+"pick": "Under 4.5",
+"odds": 1.07,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 2.4 goals a game, Vitibet tip 0-1, season: 2.4 goals a game",
+"ts": 1794742200.0,
+"eid": "sr:match:73293346",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73293346|18|total=4.5|13"
+},
+{
+"t": "Sun 13:30",
+"game": "Leopards SC vs Mombasa United FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 4.5",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10; season: 1.7 goals a game",
+"ts": 1794745800.0,
+"eid": "sr:match:74056908",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74056908|18|total=4.5|13"
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"lg": "Poland - II Liga",
+"pick": "Under 4.5",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 and 3 meetings; FotMob: 2.3 goals a game, season: 2.3 goals a game",
+"ts": 1794751200.0,
+"eid": "sr:match:72398814",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72398814|18|total=4.5|13"
+},
+{
+"t": "Sun 17:30",
+"game": "AS Cittadella vs US Folgore Caratese",
+"lg": "Italy - Serie C, Group A",
+"pick": "Under 4.5",
+"odds": 1.09,
+"why": "stats rate 95% from both teams' last 10; FotMob: 2.2 goals a game, Vitibet tip 2-1, season: 2.2 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:73293340",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73293340|18|total=4.5|13"
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"lg": "Italy - Serie C, Group B",
+"pick": "Under 4.5",
+"odds": 1.16,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; FotMob: 2.6 goals a game, Vitibet tip 2-1, season: 2.6 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:73294090",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73294090|18|total=4.5|13"
+},
+{
+"t": "Sun 17:30",
+"game": "Juventus Next Gen vs Treviso FBC 1993",
+"lg": "Italy - Serie C, Group A",
+"pick": "Under 4.5",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10; FotMob: 2.2 goals a game, Vitibet tip 0-1, season: 2.2 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:73293342",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73293342|18|total=4.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 22:54",
 "at": 1794434089,
 "req": {
@@ -8063,21 +8379,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 17:03",
-"at": 1794413016,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "relaxed",
-"rid": "mwcb6euy2e0k",
-"target": 3
-},
-"ok": false,
-"msg": "3 odds can't be reached right now: 4 live leg(s) are strong enough, and the most they make with up to 10 legs is 2.02 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
