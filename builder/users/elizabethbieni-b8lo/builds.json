@@ -1,5 +1,59 @@
 [
 {
+"when": "Wed 11 Nov 13:18",
+"at": 1794399485,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "dead",
+"legs": 20,
+"rid": "mwc347jbdkgs"
+},
+"ok": true,
+"kind": "live \u2013 quiet game",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 20).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "V8S971",
+"odds": 1.5,
+"legs": [
+{
+"t": "Wed 13:19",
+"game": "Andorra vs Poland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 6.5",
+"odds": 1.32,
+"why": "LIVE 0-4 62': 2.0 goals a game (last 10); 0-4 at 62' \u2013 97% chance of at most 2 more; Flashscore home/away form 80%",
+"ts": 1794399541.9222848,
+"eid": "sr:match:74838726",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "74838726|18|total=6.5|13"
+},
+{
+"t": "Wed 13:19",
+"game": "Croatia vs Hungary",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 6.5",
+"odds": 1.14,
+"why": "LIVE 3-1 58': 2.8 goals a game (last 10); 3-1 at 58' \u2013 90% chance of at most 2 more; Flashscore home/away form 65%, h2h 100% of 3 meetings (3.5 line)",
+"ts": 1794399542.2712398,
+"eid": "sr:match:74723530",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "74723530|18|total=6.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:15",
 "at": 1794399307,
 "req": {
