@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 14:14",
 "kind": "daily rollover \u2013 day 1",
 "odds": 6.32,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 18:00",
@@ -34,7 +34,10 @@
 "game": "Barnsley FC vs Oldham Athletic",
 "pick": "Asian handicap Oldham Athletic +1.5",
 "odds": 1.48,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "L",
+"sc": "5-2",
+"ht": "3-0"
 },
 {
 "t": "Wed 20:00",
