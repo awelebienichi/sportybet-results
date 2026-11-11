@@ -7,7 +7,7 @@
 "when": "Wed 11 Nov 18:04",
 "kind": "live \u2013 best of all",
 "odds": 3.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:30",
@@ -38,7 +38,10 @@
 "game": "Serbia vs Faroe Islands",
 "pick": "Under 4.5",
 "odds": 1.16,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "4-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -72,7 +75,7 @@
 "when": "Wed 11 Nov 17:58",
 "kind": "live \u2013 best of all",
 "odds": 3.85,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:45",
@@ -93,7 +96,10 @@
 "game": "Serbia vs Faroe Islands",
 "pick": "Under 4.5",
 "odds": 1.16,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "4-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -141,7 +147,7 @@
 "when": "Wed 11 Nov 17:55",
 "kind": "live \u2013 best of all",
 "odds": 2.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:30",
@@ -172,7 +178,10 @@
 "game": "Serbia vs Faroe Islands",
 "pick": "Under 4.5",
 "odds": 1.16,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "4-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -196,7 +205,7 @@
 "when": "Wed 11 Nov 17:48",
 "kind": "live \u2013 best of all",
 "odds": 2.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:45",
@@ -210,7 +219,10 @@
 "game": "Serbia vs Faroe Islands",
 "pick": "Under 4.5",
 "odds": 1.14,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "4-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -248,7 +260,7 @@
 "when": "Wed 11 Nov 17:46",
 "kind": "live \u2013 best of all",
 "odds": 2.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:30",
@@ -272,7 +284,10 @@
 "game": "Serbia vs Faroe Islands",
 "pick": "Serbia Under 3.5",
 "odds": 1.1,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "4-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
