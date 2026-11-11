@@ -2,6 +2,65 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "VE9LYZ",
+"at": 1794424028,
+"when": "Wed 11 Nov 20:07",
+"kind": "live \u2013 best of all",
+"odds": 2.34,
+"status": "open",
+"legs": [
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"pick": "Handicap 0:3 \u2013 PSV Eindhoven",
+"odds": 1.09,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 18:45",
+"game": "UD Castellonense vs CF La Nucia",
+"pick": "UD Castellonense Under 2.5",
+"odds": 1.16,
+"ts": 1794419100.0
+},
+{
+"t": "Wed 19:00",
+"game": "Hammarby IF vs Spartak Myjava",
+"pick": "Handicap 0:3 \u2013 Spartak Myjava",
+"odds": 1.12,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ferro Carril Oeste vs Defensa Y Justicia Reserve",
+"pick": "Ferro Carril Oeste Under 1.5",
+"odds": 1.12,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"pick": "Afogados Ingazeira PE Under 1.5",
+"odds": 1.12,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:30",
+"game": "CD Alcoyano vs Elche Ilicitano CF",
+"pick": "Handicap 0:2 \u2013 Elche Ilicitano CF",
+"odds": 1.1,
+"ts": 1794421800.0
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"pick": "Liverpool LFC or Aston Villa WFC",
+"odds": 1.2,
+"ts": 1794423600.0
+}
+]
+},
+{
 "code": "GD94SA",
 "at": 1794406346,
 "when": "Wed 11 Nov 15:12",
@@ -217,7 +276,7 @@
 "when": "Wed 11 Nov 13:54",
 "kind": "daily rollover \u2013 day 1",
 "odds": 3.78,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 16:45",
@@ -274,7 +333,10 @@
 "game": "Independiente Reserve vs CA Lanus",
 "pick": "Goal bounds 2-5+",
 "odds": 1.22,
-"ts": 1794420000.0
+"ts": 1794420000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
