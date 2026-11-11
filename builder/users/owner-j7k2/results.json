@@ -69,14 +69,20 @@
 "game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
 "pick": "Under 7.5",
 "odds": 1.08,
-"ts": 1794403739.5698502
+"ts": 1794403739.5698502,
+"r": "W",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Wed 14:28",
 "game": "FC Bansko vs PFC Levski Sofia II",
 "pick": "FC Bansko to win",
 "odds": 1.12,
-"ts": 1794403739.5698583
+"ts": 1794403739.5698583,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
@@ -144,14 +150,20 @@
 "game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
 "pick": "Under 6.5",
 "odds": 1.09,
-"ts": 1794403652.287747
+"ts": 1794403652.287747,
+"r": "W",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Wed 14:27",
 "game": "FC Bansko vs PFC Levski Sofia II",
 "pick": "FC Bansko or PFC Levski Sofia II",
 "odds": 1.08,
-"ts": 1794403652.2877572
+"ts": 1794403652.2877572,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
@@ -1133,7 +1145,10 @@
 "game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
 "pick": "Under 6.5",
 "odds": 1.12,
-"ts": 1794400998.460409
+"ts": 1794400998.460409,
+"r": "W",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Wed 13:43",
@@ -1197,7 +1212,7 @@
 "when": "Wed 11 Nov 13:28",
 "kind": "live \u2013 best of all",
 "odds": 2.21,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 13:29",
@@ -1234,7 +1249,10 @@
 "game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
 "pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
 "odds": 1.16,
-"ts": 1794400185.037266
+"ts": 1794400185.037266,
+"r": "L",
+"sc": "5-1",
+"ht": "3-1"
 }
 ]
 },

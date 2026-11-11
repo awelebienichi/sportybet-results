@@ -52,7 +52,7 @@
 "when": "Wed 11 Nov 14:05",
 "kind": "live \u2013 best of all",
 "odds": 4.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 14:06",
@@ -137,14 +137,20 @@
 "game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
 "pick": "Asian handicap RESOVIA RZESZOW +3.5",
 "odds": 1.12,
-"ts": 1794402376.4537358
+"ts": 1794402376.4537358,
+"r": "L",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Wed 14:06",
 "game": "FC Bansko vs PFC Levski Sofia II",
 "pick": "FC Bansko to win",
 "odds": 1.12,
-"ts": 1794402376.453742
+"ts": 1794402376.453742,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
