@@ -86,7 +86,7 @@ def _prematch(g, mid, oid, spec):
     return sup, bad
 
 def build(req):
-    strat = req.get("strategy", "mix"); legs = max(1, min(int(req.get("legs", 2)), 6))
+    strat = req.get("strategy", "mix"); legs = max(1, min(int(req.get("legs", 2)), 10))
     E = [e for e in _live_list() if _in_play(e)]
     if not E: return dict(ok=False, msg="No games are in play right now. Try again when matches are on (usually from late morning).")
     G = [dict(eid=e["eventId"], ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"],
