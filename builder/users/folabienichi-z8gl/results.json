@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MR6MC6",
+"at": 1794392674,
+"when": "Wed 11 Nov 11:24",
+"kind": "your chosen markets",
+"odds": 5.0,
+"status": "open",
+"legs": [
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1794427200.0
+},
+{
+"t": "Thu 09:30",
+"game": "APIA Leichhardt vs Adelaide City FC",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794472200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794596400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "ZSZ5XM",
 "at": 1794392586,
 "when": "Wed 11 Nov 11:23",
