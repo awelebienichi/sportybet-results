@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XZSQLT",
+"at": 1794413166,
+"when": "Wed 11 Nov 17:06",
+"kind": "live \u2013 best of all",
+"odds": 2.44,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:00",
+"game": "Spain vs Iceland",
+"pick": "Spain Under 5.5",
+"odds": 1.12,
+"ts": 1794409200.0
+},
+{
+"t": "Wed 16:00",
+"game": "FK Zeleziarne Podbrezova vs FC Vion Zlate Moravce - Vrable",
+"pick": "FK Zeleziarne Podbrezova Under 3.5",
+"odds": 1.12,
+"ts": 1794409200.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Asian handicap Kazakhstan +1.5",
+"odds": 1.16,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"pick": "Handicap 0:4 \u2013 Faroe Islands",
+"odds": 1.35,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
+"odds": 1.24,
+"ts": 1794412800.0
+}
+]
+},
+{
 "code": "TSL9YA",
 "at": 1794409411,
 "when": "Wed 11 Nov 16:03",
