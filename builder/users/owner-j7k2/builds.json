@@ -1,5 +1,18 @@
 [
 {
+"when": "Wed 11 Nov 07:04",
+"req": {
+"u": "owner-j7k2",
+"name": "",
+"type": "live",
+"strategy": "goals",
+"legs": 4,
+"rid": "mwbprzjyw7s3"
+},
+"ok": false,
+"msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
+},
+{
 "when": "Wed 11 Nov 07:01",
 "req": {
 "type": "live",
