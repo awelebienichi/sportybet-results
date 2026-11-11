@@ -1,6 +1,119 @@
 [
 {
 "when": "Wed 11 Nov 17:55",
+"at": 1794416124,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "relaxed",
+"rid": "mwcd0tzniugp",
+"target": 2
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Target 2 odds reached with 6 leg(s), strongest first.",
+"Relaxed safety: in testing only about 82 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "HN3CP5",
+"odds": 2.3,
+"legs": [
+{
+"t": "Wed 16:30",
+"game": "Bosnia and Herzegovina vs San Marino",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 5.5",
+"odds": 1.09,
+"why": "LIVE 2-1 69': Bosnia and Herzegovina expected 0.6 and San Marino 0.3 more goals (last 10); 2-1 at 69' \u2013 91% chance; Flashscore home/away form 55%",
+"ts": 1794411000.0,
+"eid": "sr:match:74827230",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "74827230|18|total=5.5|13"
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Asian handicap Kazakhstan +2.5",
+"odds": 1.13,
+"why": "LIVE 0-1 45': Kazakhstan expected 0.8 and Scotland 0.8 more goals (last 10); 0-1 at 45' \u2013 87% chance; margin record 80% / 90% in both sides' last games",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "16",
+"spec": "hcp=2.5",
+"oid": "1714",
+"k": "74838476|16|hcp=2.5|1714"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Silifke Belediyespor Under 1.5",
+"odds": 1.1,
+"why": "LIVE 0-1 45': Silifke Belediyespor expected 0.5 and Icel Idmanyurdu Spor 1.0 more goals (last 10 + season); 0-1 at 45' \u2013 89% chance; goals record 80% / 80% in both sides' last games",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "72891356|19|total=1.5|13"
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 4.5",
+"odds": 1.16,
+"why": "LIVE 0-1 45': Serbia expected 1.0 and Faroe Islands 0.6 more goals (last 10); 0-1 at 45' \u2013 90% chance; Flashscore home/away form 65%",
+"ts": 1794412800.0,
+"eid": "sr:match:74754154",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74754154|18|total=4.5|13"
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "SK Brann Under 6.5",
+"odds": 1.27,
+"why": "LIVE 0-4 45': Czarni Sosnowiec expected 0.7 and SK Brann 1.0 more goals (last 10); 0-4 at 45' \u2013 90% chance; goals record 100% / 100% in both sides' last games",
+"ts": 1794412800.0,
+"eid": "sr:match:75233058",
+"mid": "20",
+"spec": "total=6.5",
+"oid": "13",
+"k": "75233058|20|total=6.5|13"
+},
+{
+"t": "Wed 17:30",
+"game": "FK Babrungas Plunge vs FK Minija 2017",
+"lg": "Lithuania - 1 Lyga",
+"pick": "Over 0.5",
+"odds": 1.15,
+"why": "LIVE 0-0 24': FK Babrungas Plunge expected 1.2 and FK Minija 2017 1.2 more goals (last 10 + season); 0-0 at 24' \u2013 82% chance; Flashscore home/away form 65%, season: 2.9 goals a game",
+"ts": 1794414600.0,
+"eid": "sr:match:76669520",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76669520|18|total=0.5|12"
+}
+]
+}
+]
+},
+{
+"when": "Wed 11 Nov 17:55",
 "at": 1794416103,
 "req": {
 "u": "owner-j7k2",
@@ -4914,18 +5027,5 @@
 },
 "ok": false,
 "msg": "Only 1 game(s) pass the checks for goal-fest teams (season data) (Wed 11) out of 110 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Wed 11 Nov 07:15",
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 1,
-"rid": "mwbq63bhknsx"
-},
-"ok": false,
-"msg": "No live game fits that strategy with strong enough stats right now. Try 'Best of all' or check back in a few minutes."
 }
 ]
