@@ -1,5 +1,145 @@
 [
 {
+"when": "Wed 11 Nov 21:58",
+"at": 1794430705,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "relaxed",
+"rid": "mwclp48iq364"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 8 live leg(s) were strong enough right now (you asked for 10).",
+"Relaxed safety: in testing only about 82 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "X7G5WK",
+"odds": 3.45,
+"legs": [
+{
+"t": "Wed 20:30",
+"game": "CD Cieza vs Valencia CF Mestalla",
+"lg": "Spain - Segunda Federacion",
+"pick": "CD Cieza or Valencia CF Mestalla",
+"odds": 1.18,
+"why": "LIVE 1-0 69': CD Cieza expected 0.4 and Valencia CF Mestalla 0.3 more goals (last 10 + season); 1-0 at 69' \u2013 87% chance",
+"ts": 1794425400.0,
+"eid": "sr:match:76320402",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76320402|10||10"
+},
+{
+"t": "Wed 20:30",
+"game": "Tacuarembo FC vs Miramar Misiones",
+"lg": "Uruguay - Segunda Division",
+"pick": "Tacuarembo FC or Miramar Misiones",
+"odds": 1.18,
+"why": "LIVE 1-2 66': Tacuarembo FC expected 0.3 and Miramar Misiones 0.3 more goals (last 10 + season); 1-2 at 66' \u2013 86% chance",
+"ts": 1794425400.0,
+"eid": "sr:match:76455730",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76455730|10||10"
+},
+{
+"t": "Wed 20:30",
+"game": "La Luz FC vs CA Fenix Montevideo",
+"lg": "Uruguay - Segunda Division",
+"pick": "La Luz FC or CA Fenix Montevideo",
+"odds": 1.15,
+"why": "LIVE 1-0 62': La Luz FC expected 0.4 and CA Fenix Montevideo 0.4 more goals (last 10 + season); 1-0 at 62' \u2013 82% chance",
+"ts": 1794425400.0,
+"eid": "sr:match:76455728",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76455728|10||10"
+},
+{
+"t": "Wed 20:30",
+"game": "Charlton Athletic vs Ipswich Town Lfc",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Ipswich Town Lfc or draw",
+"odds": 1.37,
+"why": "LIVE 0-0 69': Charlton Athletic expected 0.3 and Ipswich Town Lfc 0.7 more goals (last 10); 0-0 at 69' \u2013 85% chance; Flashscore home/away form 75%",
+"ts": 1794425400.0,
+"eid": "sr:match:73607440",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "73607440|10||11"
+},
+{
+"t": "Wed 20:45",
+"game": "Brighton and Hove Albion WFC vs Watford LFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Brighton and Hove Albion WFC Under 3.5",
+"odds": 1.1,
+"why": "LIVE 0-1 56': Brighton and Hove Albion WFC expected 0.9 and Watford LFC 0.6 more goals (last 10); 0-1 at 56' \u2013 97% chance",
+"ts": 1794426300.0,
+"eid": "sr:match:73607442",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73607442|19|total=3.5|13"
+},
+{
+"t": "Wed 20:45",
+"game": "Avro FC vs Whitby Town",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Avro FC Under 5.5",
+"odds": 1.12,
+"why": "LIVE 3-0 50': Avro FC expected 1.0 and Whitby Town 0.8 more goals (last 10 + season); 3-0 at 50' \u2013 89% chance; goals record 100% / 90% in both sides' last games",
+"ts": 1794426300.0,
+"eid": "sr:match:75799148",
+"mid": "19",
+"spec": "total=5.5",
+"oid": "13",
+"k": "75799148|19|total=5.5|13"
+},
+{
+"t": "Wed 21:00",
+"game": "CA Talleres de Cordoba Reserve vs CA Sarmiento de Junin",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "CA Sarmiento de Junin Under 1.5",
+"odds": 1.1,
+"why": "LIVE 1-0 45': CA Talleres de Cordoba Reserve expected 0.7 and CA Sarmiento de Junin 0.4 more goals (last 10 + season); 1-0 at 45' \u2013 91% chance; goals record 80% / 90% in both sides' last games, h2h 86% of 7 meetings",
+"ts": 1794427200.0,
+"eid": "sr:match:75133614",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "75133614|20|total=1.5|13"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Olympique Lyon W Under 6.5",
+"odds": 1.15,
+"why": "LIVE 0-3 45': Juventus Turin W expected 0.8 and Olympique Lyon W 2.0 more goals (last 10); 0-3 at 45' \u2013 83% chance; h2h 100% of 7 meetings",
+"ts": 1794427200.0,
+"eid": "sr:match:74371852",
+"mid": "20",
+"spec": "total=6.5",
+"oid": "13",
+"k": "74371852|20|total=6.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 21:47",
 "at": 1794430023,
 "req": {
@@ -6078,102 +6218,6 @@
 "odds": 1.22,
 "why": "LIVE 1-0 42': 2.7 goals a game (last 10 + season); 1-0 at 42' \u2013 78% chance of another; Flashscore home/away form 85%, h2h 75% of 4 meetings (1.5 line)",
 "ts": 1794397533.4251661,
-"eid": "sr:match:75880544",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75880544|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 12:26",
-"at": 1794396408,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"rid": "mwc1a9ntosak"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 5 live leg(s) were strong enough right now (you asked for 10).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "WUM40U",
-"odds": 2.65,
-"legs": [
-{
-"t": "Wed 12:27",
-"game": "Urawa Red Diamonds vs Cerezo Osaka",
-"lg": "Japan - J.League Cup",
-"pick": "Over 0.5 (another goal)",
-"odds": 1.2,
-"why": "LIVE 0-0 45': 3.5 goals a game (last 10); 0-0 at 45' \u2013 85% chance of another; Flashscore home/away form 85%, h2h 75% of 8 meetings (1.5 line)",
-"ts": 1794396463.030692,
-"eid": "sr:match:76186248",
-"mid": "18",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76186248|18|total=0.5|12"
-},
-{
-"t": "Wed 12:27",
-"game": "Azerbaijan vs Montenegro",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Under 9.5",
-"odds": 1.14,
-"why": "LIVE 1-6 63': 3.3 goals a game (last 10); 1-6 at 63' \u2013 90% chance of at most 2 more; Flashscore home/away form 76%",
-"ts": 1794396463.3110416,
-"eid": "sr:match:74754156",
-"mid": "18",
-"spec": "total=9.5",
-"oid": "13",
-"k": "74754156|18|total=9.5|13"
-},
-{
-"t": "Wed 12:27",
-"game": "Georgia vs Denmark",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Under 8.5",
-"odds": 1.14,
-"why": "LIVE 1-5 67': 3.7 goals a game (last 10); 1-5 at 67' \u2013 91% chance of at most 2 more; Flashscore home/away form 50%",
-"ts": 1794396463.5304785,
-"eid": "sr:match:74827232",
-"mid": "18",
-"spec": "total=8.5",
-"oid": "13",
-"k": "74827232|18|total=8.5|13"
-},
-{
-"t": "Wed 12:27",
-"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
-"lg": "Turkiye Amateur - 3. Lig",
-"pick": "Over 0.5 (another goal)",
-"odds": 1.14,
-"why": "LIVE 0-0 23': 2.9 goals a game (last 10 + season); 0-0 at 23' \u2013 89% chance of another; Flashscore home/away form 90%, season: 2.8 goals a game",
-"ts": 1794396463.9697425,
-"eid": "sr:match:72889702",
-"mid": "18",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72889702|18|total=0.5|12"
-},
-{
-"t": "Wed 12:27",
-"game": "Villarreal CF vs CD Alba Fundacion",
-"lg": "Spain - Primera Federacion, Women",
-"pick": "Over 1.5 (another goal)",
-"odds": 1.12,
-"why": "LIVE 1-0 24': 2.7 goals a game (last 10 + season); 1-0 at 24' \u2013 87% chance of another; Flashscore home/away form 85%, h2h 75% of 4 meetings (1.5 line)",
-"ts": 1794396464.8162704,
 "eid": "sr:match:75880544",
 "mid": "18",
 "spec": "total=1.5",
