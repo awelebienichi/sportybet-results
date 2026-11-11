@@ -1,18 +1,15 @@
 {
 "active": true,
 "history": [],
-"start_stake": 200.0,
-"stake": 200.0,
+"start_stake": 1000.0,
+"stake": 1000.0,
 "odds": 4.0,
 "hour": 10,
 "day": 1,
 "current": {
 "date": "2026-11-11",
-"code": "ZYGFLM",
-"odds": 3.78,
-"stake": 200.0,
-"n": 6,
-"result": null
+"code": null,
+"result": "skip"
 },
 "started": "2026-11-11",
 "short": "lower",

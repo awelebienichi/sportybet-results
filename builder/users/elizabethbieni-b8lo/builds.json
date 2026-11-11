@@ -1,6 +1,16 @@
 [
 {
 "when": "Wed 11 Nov 20:06",
+"at": 1794423994,
+"req": {
+"type": "rollover",
+"rid": "mwchplbycz59"
+},
+"ok": false,
+"msg": "No safe rollover ticket today (1.46 odds possible, your minimum 1.8). Your stake waits for tomorrow."
+},
+{
+"when": "Wed 11 Nov 20:06",
 "at": 1794423984,
 "req": {
 "type": "rollover",
