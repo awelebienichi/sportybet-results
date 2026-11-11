@@ -1,0 +1,64 @@
+[
+{
+"when": "Wed 11 Nov 13:43",
+"at": 1794400981,
+"req": {
+"u": "juufff-jct8",
+"name": "Juu Fff",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u35"
+],
+"rid": "mwc40c918879"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 2 games passed the checks (Wed 11, 72 games on SportyBet), so this ticket has 2 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "W2AHBU",
+"odds": 1.4,
+"legs": [
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 95%, season: 1.6 goals a game",
+"ts": 1794416400.0,
+"eid": "sr:match:74041580",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74041580|18|total=3.5|13"
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794420000.0,
+"eid": "sr:match:76678982",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76678982|18|total=3.5|13"
+}
+]
+}
+]
+}
+]
