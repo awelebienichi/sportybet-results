@@ -529,7 +529,7 @@
 "when": "Wed 11 Nov 13:26",
 "kind": "safest market per game",
 "odds": 13.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:45",
@@ -556,7 +556,10 @@
 "game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:30",
@@ -1197,7 +1200,10 @@
 "game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
 "pick": "Double chance Silifke Belediyespor or Icel Idmanyurdu Spor",
 "odds": 1.27,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -1551,7 +1557,10 @@
 "game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:30",
@@ -1709,7 +1718,10 @@
 "game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
 "pick": "Double chance Silifke Belediyespor or Icel Idmanyurdu Spor",
 "odds": 1.27,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:30",
