@@ -1,5 +1,19 @@
 [
 {
+"when": "Wed 11 Nov 12:13",
+"at": 1794395581,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "live",
+"strategy": "hold",
+"legs": 5,
+"rid": "mwc0spbj9uns"
+},
+"ok": false,
+"msg": "26 games are in play, but none fits that strategy right now (11 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
+},
+{
 "when": "Wed 11 Nov 12:11",
 "at": 1794395505,
 "req": {
