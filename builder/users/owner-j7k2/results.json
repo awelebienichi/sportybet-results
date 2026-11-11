@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YFPLUA",
+"at": 1794400943,
+"when": "Wed 11 Nov 13:42",
+"kind": "live \u2013 best of all",
+"odds": 4.71,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:43",
+"game": "Vietnam vs Chinese Taipei",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1794400998.4602926
+},
+{
+"t": "Wed 13:43",
+"game": "Ukraine vs Israel",
+"pick": "Handicap 2:0 \u2013 Ukraine",
+"odds": 1.12,
+"ts": 1794400998.4603186
+},
+{
+"t": "Wed 13:43",
+"game": "Belgium vs Kosovo",
+"pick": "Handicap 0:4 \u2013 Kosovo",
+"odds": 1.18,
+"ts": 1794400998.460324
+},
+{
+"t": "Wed 13:43",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Under 2.5",
+"odds": 1.18,
+"ts": 1794400998.4603288
+},
+{
+"t": "Wed 13:43",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.32,
+"ts": 1794400998.4603662
+},
+{
+"t": "Wed 13:43",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.15,
+"ts": 1794400998.4603732
+},
+{
+"t": "Wed 13:43",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"pick": "Asian handicap Fatsa Belediyespor +0.5",
+"odds": 1.18,
+"ts": 1794400998.460386
+},
+{
+"t": "Wed 13:43",
+"game": "Karsiyaka vs Bursa Nilufer Futbol AS",
+"pick": "Karsiyaka Under 2.5",
+"odds": 1.18,
+"ts": 1794400998.4604063
+},
+{
+"t": "Wed 13:43",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Under 6.5",
+"odds": 1.12,
+"ts": 1794400998.460409
+},
+{
+"t": "Wed 13:43",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"pick": "Handicap 0:3 \u2013 CD Alba Fundacion",
+"odds": 1.18,
+"ts": 1794400998.4604206
+}
+]
+},
+{
 "code": "XPCZG1",
 "at": 1794400763,
 "when": "Wed 11 Nov 13:39",
