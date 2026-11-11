@@ -178,6 +178,11 @@ def settle(l, r):
     h1 = ht; h2 = [H - ht[0], A - ht[1]] if ht else None
     mid, spec, p = l["mid"], l["spec"], l["pick"]
     try:
+        if mid == "219": return "won" if (H > A) == p.startswith("Home") else "lost"          # basketball winner (incl. overtime)
+        if mid == "223":                                                                     # basketball handicap (incl. overtime)
+            v = num(spec, "hcp"); d = (H - A + v) if p.startswith("Home") else (A - H - v)
+            return "won" if d > 0 else "lost" if d < 0 else "void"
+        if mid in ("225", "227", "228"): return ou({"225": T, "227": H, "228": A}[mid], num(spec, "total"), p)   # basketball points
         if mid == "1": return "won" if res1x2(H, A) == p else "lost"
         if mid in ("10", "63"):
             sc = ft if mid == "10" else h1
