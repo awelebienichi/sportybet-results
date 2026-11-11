@@ -273,7 +273,8 @@ MK = {  # key: (market id, specifier, outcome id, label)
     "gg": ("29", "", "74", "GG (both teams score)"), "hgg": ("860", "", "74", "{h} or GG"),
 }
 SETS = {"gg": ["gg"], "best": ["up_h", "up_a", "h1dc_1x", "hgg", "gb25"],
-        "mix": ["win_h", "win_a", "up_h", "up_a", "dc_x2", "h1dc_1x", "h1dc_x2", "o15", "h1o05", "h2o05", "gg", "hgg"]}
+        "mix": ["win_h", "win_a", "up_h", "up_a", "dc_x2", "h1dc_1x", "h1dc_x2", "o15", "h1o05", "h2o05", "gg", "hgg",
+                "u35", "h1u25", "ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15"]}      # every game gets whichever of these suits it best
 
 def rates(g, LX, hh):
     """chance-like rates from both teams' last 10 (and meetings for full-time markets); keys as in MK"""
@@ -310,7 +311,7 @@ MANY = {"o25", "gg", "h1gg_y", "gb25", "o15"}                                   
 def edge(rate, odds):
     """how far the stats beat the price: stats rate minus the bookmaker's de-margined chance"""
     return rate - 1 / (odds * 1.06)
-MAIN = {"o15", "o25", "gg", "win_h", "win_a", "up_h", "up_a", "dc_1x", "dc_x2", "dc_12", "h1o05", "h2o05", "u35", "hgg", "h1dc_1x", "h1dc_x2"}
+MAIN = {"ah_h_m15", "ah_a_m15", "ah_h_p15", "ah_a_p15", "h1u25", "o15", "o25", "gg", "win_h", "win_a", "up_h", "up_a", "dc_1x", "dc_x2", "dc_12", "h1o05", "h2o05", "u35", "hgg", "h1dc_1x", "h1dc_x2"}
 def value(k, rate, odds):
     """what the picker maximises: value over the price, with a nudge towards the main markets over exotic ones"""
     return edge(rate, odds) + (.04 if k in MAIN else 0)
@@ -362,7 +363,7 @@ def pick_multi(G, LX, kind, want):
     keys = SETS[kind]; floor = {"gg": .68, "best": .8, "mix": .82}[kind] - ST["L"]
     pre = []
     for g in G:
-        R = rates(g, LX, [])
+        R = rebuild_rates(g, LX, [])
         best = max((R.get(k, 0) - bar(k) for k in keys), default=-1)
         if best >= -.1: pre.append((best, g))
     pre.sort(key=lambda x: -x[0]); pre = [g for _, g in pre[:max(200, want * 6)]]
@@ -373,13 +374,13 @@ def pick_multi(G, LX, kind, want):
     with ThreadPoolExecutor(8) as ex: D = list(ex.map(detail, pre))
     out = []
     for g, hh, mk in D:
-        R = rates(g, LX, hh); opts = []; prof = profile(g, LX)
+        R = rebuild_rates(g, LX, hh); opts = []; prof = profile(g, LX)
         for k in keys:
-            mid, spec, oid, lab = MK[k]; od = mk.get((mid, spec, oid))
+            mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
             if not od or od < 1.06 or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R.get(k, 0), od): continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
-        sc, r, k, od = max(opts); mid, spec, oid, lab = MK[k]
+        sc, r, k, od = max(opts); mid, spec, oid, lab = RB[k]
         out.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"], a=g["a"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=sc, rate=r,
                         why=f"stats rate {r:.0%} from both teams' last 10" + (f" and {len(hh)} meetings" if len(hh) >= 3 and mid in ("1", "10", "18", "29", "860", "450001") else "")))
     return sorted(out, key=lambda r: -r["s"])
