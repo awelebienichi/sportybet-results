@@ -106,7 +106,10 @@
 "game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
 "pick": "Gaziemir Gog Sy Under 4.5",
 "odds": 1.1,
-"ts": 1794403739.5698328
+"ts": 1794403739.5698328,
+"r": "W",
+"sc": "3-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 14:28",
@@ -190,7 +193,10 @@
 "game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
 "pick": "Gaziemir Gog Sy Under 4.5",
 "odds": 1.1,
-"ts": 1794403652.287728
+"ts": 1794403652.287728,
+"r": "W",
+"sc": "3-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 14:27",
@@ -1222,7 +1228,7 @@
 "when": "Wed 11 Nov 13:39",
 "kind": "live \u2013 best of all",
 "odds": 1.56,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 13:40",
@@ -1259,7 +1265,10 @@
 "game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
 "pick": "Gaziemir Gog Sy Under 3.5",
 "odds": 1.12,
-"ts": 1794400817.2061877
+"ts": 1794400817.2061877,
+"r": "W",
+"sc": "3-1",
+"ht": "2-0"
 }
 ]
 },
