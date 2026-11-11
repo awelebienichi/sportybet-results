@@ -1,5 +1,30 @@
 [
 {
+"when": "Wed 11 Nov 11:21",
+"at": 1794392510,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "markets",
+"legs": 25,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwbyyu6lb05m"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for your chosen markets (Wed 11, Thu 12, Fri 13) out of 236 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Wed 11 Nov 11:05",
 "at": 1794391550,
 "req": {
