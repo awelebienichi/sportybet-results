@@ -1,5 +1,21 @@
 [
 {
+"when": "Wed 11 Nov 17:55",
+"at": 1794416103,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 2,
+"strict": "relaxed",
+"rid": "mwcd0cehme2j",
+"target": 2
+},
+"ok": false,
+"msg": "2 odds can't be reached right now: 7 live leg(s) are strong enough, and the most they make with up to 2 legs is 1.20 odds. Lower the target, allow more legs, or try again in a few minutes."
+},
+{
 "when": "Wed 11 Nov 17:48",
 "at": 1794415729,
 "req": {
@@ -4911,18 +4927,5 @@
 },
 "ok": false,
 "msg": "No live game fits that strategy with strong enough stats right now. Try 'Best of all' or check back in a few minutes."
-},
-{
-"when": "Wed 11 Nov 07:04",
-"req": {
-"u": "owner-j7k2",
-"name": "",
-"type": "live",
-"strategy": "goals",
-"legs": 4,
-"rid": "mwbprzjyw7s3"
-},
-"ok": false,
-"msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
 }
 ]
