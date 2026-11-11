@@ -440,7 +440,10 @@
 "game": "Sheffield Wednesday vs Accrington Stanley",
 "pick": "GG \u2013 No",
 "odds": 1.12,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "W",
+"sc": "0-4",
+"ht": "0-2"
 },
 {
 "t": "Wed 20:00",
@@ -537,7 +540,10 @@
 "game": "Sheffield Wednesday vs Accrington Stanley",
 "pick": "GG \u2013 No",
 "odds": 1.15,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "W",
+"sc": "0-4",
+"ht": "0-2"
 },
 {
 "t": "Wed 20:30",
