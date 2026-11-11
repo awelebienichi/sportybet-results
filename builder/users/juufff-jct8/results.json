@@ -2,6 +2,37 @@
 "from": 1794401030,
 "tickets": [
 {
+"code": "SFAP23",
+"at": 1794401403,
+"when": "Wed 11 Nov 13:50",
+"kind": "your chosen markets",
+"odds": 8.71,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:00",
+"game": "Ireland vs Greece",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 17:00",
+"game": "EFC Frejus Saint-Raphael vs Estac Troyes 2",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "Half-time draw",
+"odds": 1.93,
+"ts": 1794416400.0
+}
+]
+},
+{
 "code": "N5P40H",
 "at": 1794401319,
 "when": "Wed 11 Nov 13:48",
