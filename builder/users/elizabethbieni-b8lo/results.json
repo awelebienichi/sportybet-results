@@ -48,7 +48,7 @@
 "when": "Wed 11 Nov 09:22",
 "kind": "your chosen markets",
 "odds": 17249.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -106,7 +106,10 @@
 "game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
 "pick": "1st half Over 0.5",
 "odds": 1.39,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:00",
@@ -415,7 +418,7 @@
 "when": "Wed 11 Nov 09:17",
 "kind": "safest market per game",
 "odds": 85.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -449,7 +452,10 @@
 "game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
 "pick": "1st half Over 0.5",
 "odds": 1.39,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 12:00",

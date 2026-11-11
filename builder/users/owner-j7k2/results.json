@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LRYBZS",
+"at": 1794397804,
+"when": "Wed 11 Nov 12:50",
+"kind": "always-beaten teams (season data)",
+"odds": 159.23,
+"status": "open",
+"legs": [
+{
+"t": "Wed 18:30",
+"game": "NK Sampion Celje vs NK Smartno 1928",
+"pick": "NK Smartno 1928 to win",
+"odds": 1.7,
+"ts": 1794418200.0
+},
+{
+"t": "Thu 13:30",
+"game": "Mega Sport Belqas vs El Sekka El Hadid",
+"pick": "Double chance El Sekka El Hadid or draw",
+"odds": 1.25,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 23:00",
+"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
+"pick": "Double chance Operario Ferroviario EC PR or draw",
+"odds": 1.17,
+"ts": 1794520800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Helsingoer vs Holstebro BK",
+"pick": "Double chance FC Helsingoer or draw",
+"odds": 1.15,
+"ts": 1794592800.0
+},
+{
+"t": "Sat 06:00",
+"game": "Oita Trinita vs Tochigi City FC",
+"pick": "Double chance Oita Trinita or draw",
+"odds": 1.32,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 13:00",
+"game": "FK Zvijezda 09 vs FK Potkozarje Aleksandrovac",
+"pick": "Double chance FK Potkozarje Aleksandrovac or draw",
+"odds": 1.44,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Slask II Wroclaw vs KS Lechia Zielona Gora",
+"pick": "Double chance KS Lechia Zielona Gora or draw",
+"odds": 1.48,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ringsted IF vs BK Frem",
+"pick": "Double chance BK Frem or draw",
+"odds": 1.22,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:00",
+"game": "MFk Bytca vs FC Petrzalka",
+"pick": "Double chance FC Petrzalka or draw",
+"odds": 1.07,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "AE Larissa FC vs Nestos Chrysoupoli FC",
+"pick": "Double chance AE Larissa FC or draw",
+"odds": 1.06,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"pick": "Barrow AFC to win",
+"odds": 1.53,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "Double chance Worthing FC or draw",
+"odds": 1.6,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Evesham United vs Gosport Borough",
+"pick": "Double chance Gosport Borough or draw",
+"odds": 1.41,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Lewes FC vs Stanway Rovers",
+"pick": "Double chance Lewes FC or draw",
+"odds": 1.18,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:30",
+"game": "AS Gubbio vs US Grosseto",
+"pick": "Double chance US Grosseto or draw",
+"odds": 1.33,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 22:00",
+"game": "CD Universitario Penonome vs Herrera FC",
+"pick": "Double chance CD Universitario Penonome or draw",
+"odds": 1.18,
+"ts": 1794690000.0
+},
+{
+"t": "Sun 05:00",
+"game": "Vanraure Hachinohe FC vs Iwaki FC",
+"pick": "Double chance Iwaki FC or draw",
+"odds": 1.33,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 14:00",
+"game": "Tenerife CD vs AD Ceuta",
+"pick": "Double chance Tenerife CD or draw",
+"odds": 1.22,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Nd Slovan vs NK Krsko Posavje",
+"pick": "Double chance Nd Slovan or draw",
+"odds": 1.21,
+"ts": 1794747600.0
+},
+{
+"t": "Mon 17:00",
+"game": "1. FC Tatran Presov vs MFK Zvolen",
+"pick": "Double chance 1. FC Tatran Presov or draw",
+"odds": 1.14,
+"ts": 1794844800.0
+}
+]
+},
+{
 "code": "NHX6NE",
 "at": 1794397568,
 "when": "Wed 11 Nov 12:46",
