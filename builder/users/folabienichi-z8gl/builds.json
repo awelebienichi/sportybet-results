@@ -1,5 +1,115 @@
 [
 {
+"when": "Wed 11 Nov 11:59",
+"at": 1794394748,
+"req": {
+"u": "folabienichi-z8gl",
+"name": "FOLA BIENICHI",
+"type": "markets",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwc0aq3t9k1c"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 5 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, Mon 16, Tue 17, 592 games on SportyBet), so this ticket has 5 legs instead of 30. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "MR6MC6",
+"odds": 4.96,
+"legs": [
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Olympique Lyon W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 2.5",
+"odds": 1.23,
+"why": "stats rate 88% from both teams' last 10 and 7 meetings; Flashscore home/away form 75%",
+"ts": 1794427200.0,
+"eid": "sr:match:74371852",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74371852|18|total=2.5|12"
+},
+{
+"t": "Thu 09:30",
+"game": "APIA Leichhardt vs Adelaide City FC",
+"lg": "Australia - Australian Championship",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 72%, FotMob: 3.8 goals a game",
+"ts": 1794472200.0,
+"eid": "sr:match:74827320",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74827320|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"lg": "International - CONCACAF Nations League",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "stats rate 90% from both teams' last 10; FotMob: 3.9 goals a game",
+"ts": 1794596400.0,
+"eid": "sr:match:75468314",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75468314|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"lg": "Wales - Cymru Championship, North",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "stats rate 80% from both teams' last 10; season: 3.9 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:76487950",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76487950|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "stats rate 90% from both teams' last 10; FotMob: 3.4 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72740804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740804|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 11:57",
 "at": 1794394678,
 "req": {
