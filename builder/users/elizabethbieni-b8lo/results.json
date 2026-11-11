@@ -2,6 +2,296 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "M6MLV0",
+"at": 1794385373,
+"when": "Wed 11 Nov 09:22",
+"kind": "your chosen markets",
+"odds": 17249.48,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Georgia vs Denmark",
+"pick": "1st half excluded goals: 2",
+"odds": 1.27,
+"ts": 1794391200.0
+},
+{
+"t": "Wed 11:00",
+"game": "Kirsehir Belediye Spor vs Mazidagi Fosfat Spor",
+"pick": "Kirsehir Belediye Spor excluded goals: 2",
+"odds": 1.24,
+"ts": 1794391200.0
+},
+{
+"t": "Wed 11:00",
+"game": "Vissel Kobe vs Machida Zelvia",
+"pick": "Excluded goals: 2",
+"odds": 1.28,
+"ts": 1794391200.0
+},
+{
+"t": "Wed 11:00",
+"game": "Pazarspor vs Bulvarspor",
+"pick": "Excluded goals: 3",
+"odds": 1.21,
+"ts": 1794391200.0
+},
+{
+"t": "Wed 11:30",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "1st half excluded goals: 2",
+"odds": 1.25,
+"ts": 1794393000.0
+},
+{
+"t": "Wed 12:00",
+"game": "Ukraine vs Israel",
+"pick": "1st half excluded goals: 0",
+"odds": 1.39,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 12:00",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 12:00",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"pick": "Double chance Villarreal CF or CD Alba Fundacion",
+"odds": 1.32,
+"ts": 1794394800.0
+},
+{
+"t": "Wed 13:00",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Northern Ireland excluded goals: 2",
+"odds": 1.27,
+"ts": 1794398400.0
+},
+{
+"t": "Wed 13:00",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Czarni Sosnowiec II excluded goals: 2",
+"odds": 1.3,
+"ts": 1794398400.0
+},
+{
+"t": "Wed 13:30",
+"game": "Albania vs Cyprus",
+"pick": "Excluded goals: 2",
+"odds": 1.28,
+"ts": 1794400200.0
+},
+{
+"t": "Wed 13:30",
+"game": "Latvia vs Moldova",
+"pick": "Under 3.5",
+"odds": 1.34,
+"ts": 1794400200.0
+},
+{
+"t": "Wed 14:00",
+"game": "Czechia vs Netherlands",
+"pick": "Netherlands excluded goals: 2",
+"odds": 1.3,
+"ts": 1794402000.0
+},
+{
+"t": "Wed 14:30",
+"game": "RCS Onhaye vs RSC Habay",
+"pick": "Excluded goals: 2",
+"odds": 1.25,
+"ts": 1794403800.0
+},
+{
+"t": "Wed 15:00",
+"game": "Newell's Old Boys vs CA Huracan",
+"pick": "Double chance Newell's Old Boys or CA Huracan",
+"odds": 1.31,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 15:00",
+"game": "Barycz Sulow vs Miedz Legnica II",
+"pick": "Double chance Barycz Sulow or Miedz Legnica II",
+"odds": 1.27,
+"ts": 1794405600.0
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794411900.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "Double chance Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.27,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"pick": "Faroe Islands excluded goals: 1",
+"odds": 1.44,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:00",
+"game": "FC Fleury vs Toulouse FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 17:30",
+"game": "FK Babrungas Plunge vs FK Minija 2017",
+"pick": "FK Babrungas Plunge excluded goals: 2",
+"odds": 1.23,
+"ts": 1794414600.0
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Fenerbahce Istanbul vs Real Sociedad San Sebastian",
+"pick": "Fenerbahce Istanbul excluded goals: 2",
+"odds": 1.17,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "Double chance Hyeres FC or draw",
+"odds": 1.23,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "SK Artis Brno vs FK Jablonec",
+"pick": "SK Artis Brno excluded goals: 2",
+"odds": 1.2,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:30",
+"game": "NK Sampion Celje vs NK Smartno 1928",
+"pick": "NK Sampion Celje excluded goals: 2",
+"odds": 1.26,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 18:45",
+"game": "UD Castellonense vs CF La Nucia",
+"pick": "Double chance UD Castellonense or CF La Nucia",
+"odds": 1.31,
+"ts": 1794419100.0
+},
+{
+"t": "Wed 18:45",
+"game": "Oud-Heverlee Leuven W vs HB KOEGE W",
+"pick": "Excluded goals: 3",
+"odds": 1.22,
+"ts": 1794419100.0
+},
+{
+"t": "Wed 19:00",
+"game": "Retro FC PE vs SC Recife PE",
+"pick": "SC Recife PE excluded goals: 1",
+"odds": 1.47,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Malmo FF vs Ajax Amsterdam",
+"pick": "Double chance Malmo FF or Ajax Amsterdam",
+"odds": 1.27,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "CD Castellon B vs Club Deportiva Minera",
+"pick": "Double chance CD Castellon B or Club Deportiva Minera",
+"odds": 1.25,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:30",
+"game": "CD Fuerte San Francisco vs Alianza FC",
+"pick": "Excluded goals: 2",
+"odds": 1.2,
+"ts": 1794421800.0
+},
+{
+"t": "Wed 20:00",
+"game": "Zamora FC Barinas II vs Deportivo Lara",
+"pick": "Double chance Zamora FC Barinas II or Deportivo Lara",
+"odds": 1.25,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Wales vs Finland",
+"pick": "1st half double chance Finland or draw",
+"odds": 1.35,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Birmingham City WFC vs Sunderland AFC",
+"pick": "Birmingham City WFC excluded goals: 2",
+"odds": 1.3,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.37,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Sheffield Wednesday vs Accrington Stanley",
+"pick": "1st half excluded goals: 2",
+"odds": 1.28,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:30",
+"game": "Charlton Athletic vs Ipswich Town Lfc",
+"pick": "Ipswich Town Lfc excluded goals: 2",
+"odds": 1.25,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"pick": "1st half Over 0.5",
+"odds": 1.34,
+"ts": 1794434400.0
+}
+]
+},
+{
 "code": "G2FD41",
 "at": 1794385206,
 "when": "Wed 11 Nov 09:20",
