@@ -7,14 +7,17 @@
 "when": "Wed 11 Nov 12:13",
 "kind": "live \u2013 quiet game",
 "odds": 1.71,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 12:14",
 "game": "Azerbaijan vs Montenegro",
 "pick": "Under 9.5",
 "odds": 1.35,
-"ts": 1794395663.3473535
+"ts": 1794395663.3473535,
+"r": "W",
+"sc": "2-7",
+"ht": "1-6"
 },
 {
 "t": "Wed 12:14",
@@ -68,7 +71,10 @@
 "game": "Azerbaijan vs Montenegro",
 "pick": "Under 9.5",
 "odds": 1.37,
-"ts": 1794395562.9478016
+"ts": 1794395562.9478016,
+"r": "W",
+"sc": "2-7",
+"ht": "1-6"
 },
 {
 "t": "Wed 12:12",
