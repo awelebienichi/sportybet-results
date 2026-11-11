@@ -2,6 +2,306 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TXGUEL",
+"at": 1794434130,
+"when": "Wed 11 Nov 22:55",
+"kind": "your chosen markets",
+"odds": 12.09,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"pick": "Under 4.5",
+"odds": 1.17,
+"ts": 1794504600.0
+},
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"pick": "Under 4.5",
+"odds": 1.17,
+"ts": 1794535200.0
+},
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"pick": "Under 4.5",
+"odds": 1.06,
+"ts": 1794585600.0
+},
+{
+"t": "Sat 12:00",
+"game": "Podhale Nowy Targ vs Avia Swidnik",
+"pick": "Under 4.5",
+"odds": 1.2,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Aveley FC",
+"pick": "Under 4.5",
+"odds": 1.19,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Spennymoor Town FC vs Scarborough Athletic",
+"pick": "Under 4.5",
+"odds": 1.17,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Alfreton Town FC vs Southport FC",
+"pick": "Under 4.5",
+"odds": 1.21,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bath City FC vs Truro City",
+"pick": "Under 4.5",
+"odds": 1.15,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:00",
+"game": "Uganda vs Botswana",
+"pick": "Under 4.5",
+"odds": 1.06,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:30",
+"game": "AC Lumezzane vs AC Trento",
+"pick": "Under 4.5",
+"odds": 1.09,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 17:30",
+"game": "SSC Bari vs Calcio Foggia",
+"pick": "Under 4.5",
+"odds": 1.06,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:30",
+"game": "Mallorca vs Cordoba CF",
+"pick": "Under 4.5",
+"odds": 1.21,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"pick": "Under 4.5",
+"odds": 1.17,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 22:30",
+"game": "Mirassol FC SP vs Atletico Mineiro MG",
+"pick": "Under 4.5",
+"odds": 1.13,
+"ts": 1794691800.0
+},
+{
+"t": "Sun 12:30",
+"game": "Novara FC vs Calcio Lecco 1912",
+"pick": "Under 4.5",
+"odds": 1.07,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 13:30",
+"game": "Leopards SC vs Mombasa United FC",
+"pick": "Under 4.5",
+"odds": 1.07,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"pick": "Under 4.5",
+"odds": 1.17,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 17:30",
+"game": "AS Cittadella vs US Folgore Caratese",
+"pick": "Under 4.5",
+"odds": 1.09,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "Under 4.5",
+"odds": 1.16,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Juventus Next Gen vs Treviso FBC 1993",
+"pick": "Under 4.5",
+"odds": 1.08,
+"ts": 1794760200.0
+}
+]
+},
+{
+"code": "T2QZU0",
+"at": 1794434089,
+"when": "Wed 11 Nov 22:54",
+"kind": "your chosen markets",
+"odds": 144.71,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:30",
+"game": "Plaza Colonia vs CA Rentistas",
+"pick": "Under 3.5",
+"odds": 1.23,
+"ts": 1794511800.0
+},
+{
+"t": "Fri 00:00",
+"game": "Cerro Largo FC vs CA Progreso",
+"pick": "Under 3.5",
+"odds": 1.29,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 01:00",
+"game": "Llaneros FC vs Boyaca Chico FC",
+"pick": "Under 3.5",
+"odds": 1.29,
+"ts": 1794528000.0
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1794592800.0
+},
+{
+"t": "Sat 06:00",
+"game": "Oita Trinita vs Tochigi City FC",
+"pick": "Under 3.5",
+"odds": 1.43,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ulinzi Stars FC vs Migori Youth FC",
+"pick": "Under 3.5",
+"odds": 1.14,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Asteras Tripolis B vs PAOK Thessaloniki B",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 15:00",
+"game": "BK Fremad Amager vs Brabrand IF",
+"pick": "Under 3.5",
+"odds": 1.35,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "East Fife FC vs Peterhead FC",
+"pick": "Under 3.5",
+"odds": 1.36,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 20:30",
+"game": "SC Recife PE vs Goias EC GO",
+"pick": "Under 3.5",
+"odds": 1.41,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "America FC MG vs Avai FC SC",
+"pick": "Under 3.5",
+"odds": 1.32,
+"ts": 1794684600.0
+},
+{
+"t": "Sun 02:00",
+"game": "Jamaica vs Mexico",
+"pick": "Under 3.5",
+"odds": 1.32,
+"ts": 1794704400.0
+},
+{
+"t": "Sun 13:00",
+"game": "HNK Capljina vs FK Sloboda Tuzla",
+"pick": "Under 3.5",
+"odds": 1.23,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:30",
+"game": "Leopards SC vs Mombasa United FC",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 14:30",
+"game": "Salernitana vs Catania FC",
+"pick": "Under 3.5",
+"odds": 1.3,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"pick": "Under 3.5",
+"odds": 1.46,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "FK Sochi vs FC Shinnik Yaroslavl",
+"pick": "Under 3.5",
+"odds": 1.33,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"pick": "Under 3.5",
+"odds": 1.26,
+"ts": 1794771000.0
+}
+]
+},
+{
 "code": "P1NPB9",
 "at": 1794434040,
 "when": "Wed 11 Nov 22:53",
@@ -2532,7 +2832,10 @@
 "game": "CA Talleres de Cordoba Reserve vs CA Sarmiento de Junin",
 "pick": "CA Sarmiento de Junin Under 1.5",
 "odds": 1.1,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-0"
 },
 {
 "t": "Wed 21:00",
@@ -3068,7 +3371,10 @@
 "game": "CA Talleres de Cordoba Reserve vs CA Sarmiento de Junin",
 "pick": "Handicap 0:3 \u2013 CA Sarmiento de Junin",
 "odds": 1.12,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-0"
 }
 ]
 },
@@ -3175,7 +3481,10 @@
 "game": "CA Talleres de Cordoba Reserve vs CA Sarmiento de Junin",
 "pick": "Handicap 0:3 \u2013 CA Sarmiento de Junin",
 "odds": 1.14,
-"ts": 1794427200.0
+"ts": 1794427200.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-0"
 }
 ]
 },
