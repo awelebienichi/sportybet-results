@@ -1,5 +1,26 @@
 [
 {
+"when": "Wed 11 Nov 09:15",
+"at": 1794384920,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "mix",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 1000,
+"rid": "mwbufktwoa2f"
+},
+"ok": false,
+"msg": "Could not reach 1000 odds with 40 legs or fewer from the 25 games that pass the checks for safest market per game (Wed 11). Allow more legs or a lower target."
+},
+{
 "when": "Wed 11 Nov 09:06",
 "at": 1794384408,
 "req": {
