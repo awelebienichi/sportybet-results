@@ -1,5 +1,17 @@
 [
 {
+"when": "Wed 11 Nov 07:01",
+"req": {
+"type": "live",
+"strategy": "mix",
+"legs": 2,
+"rid": "lvtestuhkq",
+"u": "owner-j7k2"
+},
+"ok": false,
+"msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
+},
+{
 "when": "Wed 11 Nov 01:07",
 "req": {
 "type": "rollover",
