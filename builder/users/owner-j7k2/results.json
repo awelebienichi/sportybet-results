@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TUMLRT",
+"at": 1794400128,
+"when": "Wed 11 Nov 13:28",
+"kind": "live \u2013 best of all",
+"odds": 2.21,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:29",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Handicap 2:0 \u2013 North Macedonia",
+"odds": 1.16,
+"ts": 1794400182.8772845
+},
+{
+"t": "Wed 13:29",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.37,
+"ts": 1794400183.721609
+},
+{
+"t": "Wed 13:29",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.2,
+"ts": 1794400184.2253056
+},
+{
+"t": "Wed 13:29",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
+"odds": 1.16,
+"ts": 1794400185.037266
+}
+]
+},
+{
 "code": "PV6RGA",
 "at": 1794398064,
 "when": "Wed 11 Nov 12:54",
@@ -35,7 +73,10 @@
 "game": "Villarreal CF vs CD Alba Fundacion",
 "pick": "Over 1.5 (another goal)",
 "odds": 1.27,
-"ts": 1794398120.8636575
+"ts": 1794398120.8636575,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
@@ -348,7 +389,10 @@
 "game": "Villarreal CF vs CD Alba Fundacion",
 "pick": "Over 1.5 (another goal)",
 "odds": 1.22,
-"ts": 1794397533.4251661
+"ts": 1794397533.4251661,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
@@ -402,7 +446,10 @@
 "game": "Villarreal CF vs CD Alba Fundacion",
 "pick": "Over 1.5 (another goal)",
 "odds": 1.12,
-"ts": 1794396464.8162704
+"ts": 1794396464.8162704,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
