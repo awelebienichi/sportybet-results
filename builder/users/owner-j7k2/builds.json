@@ -1,5 +1,21 @@
 [
 {
+"when": "Wed 11 Nov 17:48",
+"at": 1794415705,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 12,
+"strict": "normal",
+"rid": "mwccrziq77ga",
+"target": 2
+},
+"ok": false,
+"msg": "2 odds can't be reached right now: 5 live leg(s) are strong enough, and the most they make with up to 12 legs is 1.99 odds. Lower the target, allow more legs, or try again in a few minutes."
+},
+{
 "when": "Wed 11 Nov 17:46",
 "at": 1794415572,
 "req": {
@@ -4807,124 +4823,5 @@
 },
 "ok": false,
 "msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
-},
-{
-"when": "Wed 11 Nov 01:07",
-"req": {
-"type": "rollover",
-"legs": 7,
-"rid": "mwbd0garzcck"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a61,000 \u2192 returns \u20a63,630 if it wins"
-],
-"tickets": [
-{
-"code": "U1S7YY",
-"odds": 3.63,
-"legs": [
-{
-"t": "Wed 02:00",
-"game": "Pumas Unam vs CF Tigres UANL",
-"lg": "Mexico - Liga MX, Women",
-"pick": "Pumas Unam Under 2.5 goals",
-"odds": 1.17,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%",
-"ts": 1794358800.0,
-"eid": "sr:match:76595252",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76595252|19|total=2.5|13"
-},
-{
-"t": "Wed 12:00",
-"game": "Ukraine vs Israel",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Over 1.5",
-"odds": 1.27,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 88%, Flashscore home/away 80%",
-"ts": 1794394800.0,
-"eid": "sr:match:75856724",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75856724|18|total=1.5|12"
-},
-{
-"t": "Wed 16:45",
-"game": "Kazakhstan vs Scotland",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 85%",
-"ts": 1794411900.0,
-"eid": "sr:match:74838476",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74838476|18|total=1.5|12"
-},
-{
-"t": "Wed 17:00",
-"game": "FC Fleury vs Toulouse FC",
-"lg": "France - Premiere Ligue, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 80%; FotMob: 3.8 goals a game, Vitibet tip 2-1",
-"ts": 1794412800.0,
-"eid": "sr:match:76587064",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76587064|450001||25"
-},
-{
-"t": "Wed 18:00",
-"game": "Broendby IF vs Rosenborg BK Kvinner",
-"lg": "International Clubs - UEFA Europa Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.23,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 90%",
-"ts": 1794416400.0,
-"eid": "sr:match:75233056",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75233056|18|total=1.5|12"
-},
-{
-"t": "Wed 20:00",
-"game": "Liverpool LFC vs Aston Villa WFC",
-"lg": "England Amateur - FA Womens League Cup",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%, Flashscore home/away 95%",
-"ts": 1794423600.0,
-"eid": "sr:match:73607356",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73607356|18|total=1.5|12"
-},
-{
-"t": "Wed 23:00",
-"game": "Londrina EC PR vs Nautico PE",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "1st half Under 2.5",
-"odds": 1.15,
-"why": "both teams 86%+ in their own last 10 (home 86%, away 90%); head-to-head 90%",
-"ts": 1794434400.0,
-"eid": "sr:match:68823472",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68823472|68|total=2.5|13"
-}
-]
-}
-]
 }
 ]
