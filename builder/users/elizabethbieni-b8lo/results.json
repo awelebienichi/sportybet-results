@@ -1,4 +1,113 @@
 {
 "from": 1794426211,
-"tickets": []
+"tickets": [
+{
+"code": "LXFQ4Q",
+"at": 1794426338,
+"when": "Wed 11 Nov 20:45",
+"kind": "live \u2013 best of all",
+"odds": 7.63,
+"status": "open",
+"legs": [
+{
+"t": "Wed 19:00",
+"game": "Ferro Carril Oeste vs Defensa Y Justicia Reserve",
+"pick": "GG \u2013 No",
+"odds": 1.12,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"pick": "Ypiranga PE or Afogados Ingazeira PE",
+"odds": 1.1,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Olaria AC RJ vs America FC RJ",
+"pick": "Olaria AC RJ or America FC RJ",
+"odds": 1.1,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "CD Castellon B vs Club Deportiva Minera",
+"pick": "CD Castellon B Under 2.5",
+"odds": 1.15,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Instituto AC Cordoba Reserves vs San Lorenzo de Almagro Res.",
+"pick": "San Lorenzo de Almagro Res. or draw",
+"odds": 1.2,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Independiente Reserve vs CA Lanus",
+"pick": "CA Lanus or draw",
+"odds": 1.14,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:00",
+"game": "At Rafaela Reserve vs CA Belgrano",
+"pick": "Handicap 0:2 \u2013 CA Belgrano",
+"odds": 1.27,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 19:30",
+"game": "CD Alcoyano vs Elche Ilicitano CF",
+"pick": "Handicap 0:2 \u2013 Elche Ilicitano CF",
+"odds": 1.22,
+"ts": 1794421800.0
+},
+{
+"t": "Wed 20:00",
+"game": "Wales vs Finland",
+"pick": "Handicap 0:3 \u2013 Finland",
+"odds": 1.09,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"pick": "Liverpool LFC Under 3.5",
+"odds": 1.12,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"pick": "Handicap 0:2 \u2013 Juventus Next Gen",
+"odds": 1.16,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Ontinyent CF vs CD Utiel",
+"pick": "Handicap 0:2 \u2013 CD Utiel",
+"odds": 1.18,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 20:30",
+"game": "La Luz FC vs CA Fenix Montevideo",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1794425400.0
+},
+{
+"t": "Wed 20:30",
+"game": "Charlton Athletic vs Ipswich Town Lfc",
+"pick": "Handicap 0:2 \u2013 Ipswich Town Lfc",
+"odds": 1.3,
+"ts": 1794425400.0
+}
+]
+}
+]
 }
