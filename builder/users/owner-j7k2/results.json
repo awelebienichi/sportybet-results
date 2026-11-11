@@ -135,7 +135,10 @@
 "game": "FC Fleury vs Toulouse FC",
 "pick": "Asian handicap Toulouse FC +4.5",
 "odds": 1.26,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "7-0",
+"ht": "3-0"
 },
 {
 "t": "Wed 17:30",
@@ -277,7 +280,10 @@
 "game": "FC Fleury vs Toulouse FC",
 "pick": "Asian handicap Toulouse FC +4.5",
 "odds": 1.26,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "7-0",
+"ht": "3-0"
 }
 ]
 },
