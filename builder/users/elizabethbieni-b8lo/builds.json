@@ -1,5 +1,125 @@
 [
 {
+"when": "Wed 11 Nov 09:20",
+"at": 1794385206,
+"req": {
+"type": "rollover",
+"legs": 7,
+"rid": "mwbum5jy5z4w"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6200 \u2192 returns \u20a6802 if it wins"
+],
+"tickets": [
+{
+"code": "G2FD41",
+"odds": 4.01,
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Kawasaki Frontale vs Kashiwa Reysol",
+"lg": "Japan - J.League Cup",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"why": "both teams 80%+ in their own last 10 (home 100%, away 80%); head-to-head 100%",
+"ts": 1794391200.0,
+"eid": "sr:match:76186252",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76186252|90|total=0.5|12"
+},
+{
+"t": "Wed 11:00",
+"game": "Georgia vs Denmark",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 80%",
+"ts": 1794391200.0,
+"eid": "sr:match:74827232",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74827232|450001||25"
+},
+{
+"t": "Wed 12:00",
+"game": "Ukraine vs Israel",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.28,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 88%, Flashscore home/away 80%",
+"ts": 1794394800.0,
+"eid": "sr:match:75856724",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75856724|18|total=1.5|12"
+},
+{
+"t": "Wed 13:00",
+"game": "North Macedonia vs Northern Ireland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 3.5",
+"odds": 1.35,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 90%); Flashscore home/away 90%",
+"ts": 1794398400.0,
+"eid": "sr:match:75244192",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75244192|18|total=3.5|13"
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.22,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 85%",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74838476|18|total=1.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "Broendby IF vs Rosenborg BK Kvinner",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Over 1.5",
+"odds": 1.24,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 90%",
+"ts": 1794416400.0,
+"eid": "sr:match:75233056",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75233056|18|total=1.5|12"
+},
+{
+"t": "Wed 20:00",
+"game": "Liverpool LFC vs Aston Villa WFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%, Flashscore home/away 95%",
+"ts": 1794423600.0,
+"eid": "sr:match:73607356",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73607356|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 09:17",
 "at": 1794385059,
 "req": {
