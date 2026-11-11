@@ -2,6 +2,93 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "VB7GMH",
+"at": 1794399307,
+"when": "Wed 11 Nov 13:15",
+"kind": "live \u2013 best of all",
+"odds": 8.54,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:15",
+"game": "Andorra vs Poland",
+"pick": "Under 6.5",
+"odds": 1.35,
+"ts": 1794399350.8052168
+},
+{
+"t": "Wed 13:15",
+"game": "Croatia vs Hungary",
+"pick": "Under 6.5",
+"odds": 1.16,
+"ts": 1794399351.9187396
+},
+{
+"t": "Wed 13:15",
+"game": "Ukraine vs Israel",
+"pick": "Under 5.5",
+"odds": 1.18,
+"ts": 1794399353.720865
+},
+{
+"t": "Wed 13:15",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "Handicap 0:2 \u2013 Cerezo Osaka",
+"odds": 1.16,
+"ts": 1794399356.5847955
+},
+{
+"t": "Wed 13:15",
+"game": "Belgium vs Kosovo",
+"pick": "Handicap 0:3 \u2013 Kosovo",
+"odds": 1.15,
+"ts": 1794399357.511125
+},
+{
+"t": "Wed 13:15",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Handicap 2:0 \u2013 North Macedonia",
+"odds": 1.15,
+"ts": 1794399358.094659
+},
+{
+"t": "Wed 13:15",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.47,
+"ts": 1794399359.9266756
+},
+{
+"t": "Wed 13:16",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.25,
+"ts": 1794399361.270419
+},
+{
+"t": "Wed 13:16",
+"game": "Ethio Electric vs Ethiopian Medhin",
+"pick": "Asian handicap Ethiopian Medhin +3.5",
+"odds": 1.14,
+"ts": 1794399363.2237875
+},
+{
+"t": "Wed 13:16",
+"game": "South United FC vs SC Bengaluru",
+"pick": "Asian handicap SC Bengaluru +2.5",
+"odds": 1.19,
+"ts": 1794399363.5133946
+},
+{
+"t": "Wed 13:16",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
+"odds": 1.2,
+"ts": 1794399364.621094
+}
+]
+},
+{
 "code": "LBVUWX",
 "at": 1794395735,
 "when": "Wed 11 Nov 12:15",
