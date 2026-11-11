@@ -2,6 +2,79 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NVJHCR",
+"at": 1794403685,
+"when": "Wed 11 Nov 14:28",
+"kind": "live \u2013 best of all",
+"odds": 2.88,
+"status": "open",
+"legs": [
+{
+"t": "Wed 14:28",
+"game": "North Macedonia vs Northern Ireland",
+"pick": "Under 1.5",
+"odds": 1.1,
+"ts": 1794403739.5697408
+},
+{
+"t": "Wed 14:28",
+"game": "Albania vs Cyprus",
+"pick": "Cyprus Under 1.5",
+"odds": 1.12,
+"ts": 1794403739.5697727
+},
+{
+"t": "Wed 14:28",
+"game": "Latvia vs Moldova",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1794403739.5697763
+},
+{
+"t": "Wed 14:28",
+"game": "Czechia vs Netherlands",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1794403739.569784
+},
+{
+"t": "Wed 14:28",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.09,
+"ts": 1794403739.5698125
+},
+{
+"t": "Wed 14:28",
+"game": "Gaziemir Gog Sy vs 1922 Aksehir Spor Kulubu",
+"pick": "Gaziemir Gog Sy Under 4.5",
+"odds": 1.1,
+"ts": 1794403739.5698328
+},
+{
+"t": "Wed 14:28",
+"game": "Karsiyaka vs Bursa Nilufer Futbol AS",
+"pick": "Karsiyaka Under 2.5",
+"odds": 1.1,
+"ts": 1794403739.5698478
+},
+{
+"t": "Wed 14:28",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"pick": "Under 7.5",
+"odds": 1.08,
+"ts": 1794403739.5698502
+},
+{
+"t": "Wed 14:28",
+"game": "FC Bansko vs PFC Levski Sofia II",
+"pick": "FC Bansko to win",
+"odds": 1.12,
+"ts": 1794403739.5698583
+}
+]
+},
+{
 "code": "NXZQT8",
 "at": 1794403596,
 "when": "Wed 11 Nov 14:26",
