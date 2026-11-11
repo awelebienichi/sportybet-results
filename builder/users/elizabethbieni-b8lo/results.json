@@ -55,7 +55,10 @@
 "game": "FK Tukums 2000/TSS vs Valmiera FC",
 "pick": "Handicap 0:2 \u2013 Valmiera FC",
 "odds": 1.28,
-"ts": 1794402181.6496797
+"ts": 1794402181.6496797,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 14:03",
@@ -333,7 +336,10 @@
 "game": "Czechia vs Netherlands",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1794402000.0
+"ts": 1794402000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 15:30",
@@ -479,7 +485,10 @@
 "game": "Czechia vs Netherlands",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1794402000.0
+"ts": 1794402000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 15:30",
@@ -600,7 +609,10 @@
 "game": "FK Tukums 2000/TSS vs Valmiera FC",
 "pick": "Handicap 0:2 \u2013 Valmiera FC",
 "odds": 1.44,
-"ts": 1794399583.9143949
+"ts": 1794399583.9143949,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 13:19",
@@ -621,7 +633,10 @@
 "game": "FK Sutjeska Foca vs FK Leotar Trebinje",
 "pick": "Asian handicap FK Leotar Trebinje +0.5",
 "odds": 1.11,
-"ts": 1794399585.3698592
+"ts": 1794399585.3698592,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 13:19",
@@ -726,7 +741,10 @@
 "game": "FK Tukums 2000/TSS vs Valmiera FC",
 "pick": "Handicap 0:2 \u2013 Valmiera FC",
 "odds": 1.47,
-"ts": 1794399359.9266756
+"ts": 1794399359.9266756,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 13:16",
@@ -1289,7 +1307,10 @@
 "game": "FK Sutjeska Foca vs FK Leotar Trebinje",
 "pick": "Double chance FK Leotar Trebinje or draw",
 "odds": 1.15,
-"ts": 1794400200.0
+"ts": 1794400200.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 16:45",
