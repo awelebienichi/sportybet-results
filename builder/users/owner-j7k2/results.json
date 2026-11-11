@@ -61,7 +61,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "SK Brann Under 6.5",
 "odds": 1.3,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:30",
@@ -112,7 +115,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "SK Brann Under 6.5",
 "odds": 1.27,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:00",
@@ -197,7 +203,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "SK Brann Under 6.5",
 "odds": 1.27,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:30",
@@ -251,7 +260,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "Handicap 7:0 \u2013 Czarni Sosnowiec",
 "odds": 1.22,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:00",
@@ -322,7 +334,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "Handicap 7:0 \u2013 Czarni Sosnowiec",
 "odds": 1.2,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:00",
@@ -373,7 +388,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "Handicap 6:0 \u2013 Czarni Sosnowiec",
 "odds": 1.27,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:30",
@@ -940,7 +958,7 @@
 "when": "Wed 11 Nov 14:05",
 "kind": "rebuild of G9LBMM",
 "odds": 6989.16,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 15:00",
@@ -977,7 +995,10 @@
 "game": "Czarni Sosnowiec vs SK Brann",
 "pick": "Czarni Sosnowiec excluded goals: 1",
 "odds": 1.48,
-"ts": 1794412800.0
+"ts": 1794412800.0,
+"r": "L",
+"sc": "1-5",
+"ht": "0-4"
 },
 {
 "t": "Wed 17:00",
