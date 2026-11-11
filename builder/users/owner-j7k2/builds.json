@@ -1,5 +1,118 @@
 [
 {
+"when": "Wed 11 Nov 17:46",
+"at": 1794415572,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 12,
+"strict": "normal",
+"rid": "mwccp3bysrwp",
+"target": 2
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Target 2 odds reached with 6 leg(s), strongest first.",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "YFPNTJ",
+"odds": 2.04,
+"legs": [
+{
+"t": "Wed 16:30",
+"game": "Bosnia and Herzegovina vs San Marino",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Bosnia and Herzegovina Under 4.5",
+"odds": 1.1,
+"why": "LIVE 2-1 59': Bosnia and Herzegovina expected 0.9 and San Marino 0.5 more goals (last 10); 2-1 at 59' \u2013 91% chance",
+"ts": 1794411000.0,
+"eid": "sr:match:74827230",
+"mid": "19",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74827230|19|total=4.5|13"
+},
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Asian handicap Kazakhstan +2.5",
+"odds": 1.12,
+"why": "LIVE 0-1 45': Kazakhstan expected 0.8 and Scotland 0.8 more goals (last 10); 0-1 at 45' \u2013 87% chance; margin record 80% / 90% in both sides' last games",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "16",
+"spec": "hcp=2.5",
+"oid": "1714",
+"k": "74838476|16|hcp=2.5|1714"
+},
+{
+"t": "Wed 17:00",
+"game": "Serbia vs Faroe Islands",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Serbia Under 3.5",
+"odds": 1.1,
+"why": "LIVE 0-1 45': Serbia expected 1.0 and Faroe Islands 0.6 more goals (last 10); 0-1 at 45' \u2013 96% chance",
+"ts": 1794412800.0,
+"eid": "sr:match:74754154",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74754154|19|total=3.5|13"
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"lg": "France - National 1",
+"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
+"odds": 1.09,
+"why": "LIVE 0-1 45': AS Saint Priest expected 0.7 and GFA Rumilly-Vallieres 1.3 more goals (last 10 + season); 0-1 at 45' \u2013 86% chance",
+"ts": 1794412800.0,
+"eid": "sr:match:74041572",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74041572|10||10"
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Handicap 7:0 \u2013 Czarni Sosnowiec",
+"odds": 1.2,
+"why": "LIVE 0-4 45': Czarni Sosnowiec expected 0.7 and SK Brann 1.0 more goals (last 10); 0-4 at 45' \u2013 93% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794412800.0,
+"eid": "sr:match:75233058",
+"mid": "14",
+"spec": "hcp=7:0",
+"oid": "1711",
+"k": "75233058|14|hcp=7:0|1711"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.15,
+"why": "LIVE 0-1 41': Silifke Belediyespor expected 0.6 and Icel Idmanyurdu Spor 1.1 more goals (last 10 + season); 0-1 at 41' \u2013 87% chance",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72891356|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 17:45",
 "at": 1794415528,
 "req": {
@@ -4809,180 +4922,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "68823472|68|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 00:53",
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "drawlow",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15",
-"2026-11-16",
-"2026-11-17"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwbcivc4idpr"
-},
-"ok": true,
-"kind": "draw & low-scoring teams (season data)",
-"note": [],
-"tickets": [
-{
-"code": "NK4QER",
-"odds": 66.31,
-"legs": [
-{
-"t": "Wed 17:00",
-"game": "Bourges FC vs Hyeres FC",
-"lg": "France - National 1",
-"pick": "Draw",
-"odds": 3.33,
-"why": "season: draws 50% and 67%; last 10 rate 50%",
-"ts": 1794412800.0,
-"eid": "sr:match:74041580",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "74041580|1||2"
-},
-{
-"t": "Fri 00:00",
-"game": "Cerro Largo FC vs CA Progreso",
-"lg": "Uruguay - Primera Division",
-"pick": "Under 3.5",
-"odds": 1.29,
-"why": "season: 2.1 and 2.3 goals a game; last 10 rate 85%; FotMob: 2.1 goals a game, Vitibet tip 1-0, season: 2.2 goals a game",
-"ts": 1794524400.0,
-"eid": "sr:match:76455612",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76455612|18|total=3.5|13"
-},
-{
-"t": "Sat 12:00",
-"game": "Nairobi United FC vs Mara Sugar FC",
-"lg": "Kenya - Premier League",
-"pick": "Draw",
-"odds": 2.95,
-"why": "season: draws 83% and 50%; last 10 rate 55%",
-"ts": 1794654000.0,
-"eid": "sr:match:74056914",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "74056914|1||2"
-},
-{
-"t": "Sat 13:00",
-"game": "Ulinzi Stars FC vs Migori Youth FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 3.5",
-"odds": 1.14,
-"why": "season: 2.0 and 1.8 goals a game; last 10 rate 95%; Vitibet tip 0-0, season: 1.9 goals a game",
-"ts": 1794657600.0,
-"eid": "sr:match:74056924",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74056924|18|total=3.5|13"
-},
-{
-"t": "Sat 14:00",
-"game": "AE Larissa FC vs Nestos Chrysoupoli FC",
-"lg": "Greece - Super League 2",
-"pick": "Under 3.5",
-"odds": 1.35,
-"why": "season: 2.1 and 2.4 goals a game; last 10 rate 85%; season: 2.2 goals a game",
-"ts": 1794661200.0,
-"eid": "sr:match:74172532",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74172532|18|total=3.5|13"
-},
-{
-"t": "Sat 14:00",
-"game": "Asteras Tripolis B vs PAOK Thessaloniki B",
-"lg": "Greece - Super League 2",
-"pick": "Under 3.5",
-"odds": 1.21,
-"why": "season: 2.1 and 2.3 goals a game; last 10 rate 90%; season: 2.2 goals a game",
-"ts": 1794661200.0,
-"eid": "sr:match:74172530",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74172530|18|total=3.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "America FC MG vs Avai FC SC",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 3.5",
-"odds": 1.32,
-"why": "season: 2.2 and 2.2 goals a game; last 10 rate 95%; FotMob: 2.2 goals a game, Vitibet tip 1-1, season: 2.2 goals a game",
-"ts": 1794684600.0,
-"eid": "sr:match:68823470",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "68823470|18|total=3.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "AC Goianiense GO vs Cuiaba EC MT",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 3.5",
-"odds": 1.3,
-"why": "season: 2.2 and 1.8 goals a game; last 10 rate 85%; FotMob: 2.0 goals a game, Vitibet tip 1-0, season: 2.0 goals a game",
-"ts": 1794684600.0,
-"eid": "sr:match:68823476",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "68823476|18|total=3.5|13"
-},
-{
-"t": "Sun 11:30",
-"game": "Apollon Kalamarias vs Kallithea FC",
-"lg": "Greece - Super League 2",
-"pick": "Under 3.5",
-"odds": 1.25,
-"why": "season: 2.0 and 1.8 goals a game; last 10 rate 95%; season: 1.9 goals a game",
-"ts": 1794738600.0,
-"eid": "sr:match:74172544",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74172544|18|total=3.5|13"
-},
-{
-"t": "Sun 14:30",
-"game": "Guidonia Montecelio 1937 FC vs AS Ostiamare",
-"lg": "Italy - Serie C, Group B",
-"pick": "Under 3.5",
-"odds": 1.31,
-"why": "season: 2.4 and 2.2 goals a game; last 10 rate 85%; FotMob: 2.3 goals a game, Vitibet tip 1-0, season: 2.3 goals a game",
-"ts": 1794749400.0,
-"eid": "sr:match:73294082",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73294082|18|total=3.5|13"
 }
 ]
 }
