@@ -1,6 +1,172 @@
 [
 {
 "when": "Wed 11 Nov 13:18",
+"at": 1794399528,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 20,
+"rid": "mwc352jvytwf"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 10 live leg(s) were strong enough right now (you asked for 20).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "TW92S3",
+"odds": 6.63,
+"legs": [
+{
+"t": "Wed 13:19",
+"game": "Andorra vs Poland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 6.5",
+"odds": 1.3,
+"why": "LIVE 0-4 62': 2.0 goals a game (last 10); 0-4 at 62' \u2013 97% chance of at most 2 more; Flashscore home/away form 80%",
+"ts": 1794399579.515777,
+"eid": "sr:match:74838726",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "74838726|18|total=6.5|13"
+},
+{
+"t": "Wed 13:19",
+"game": "Croatia vs Hungary",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 6.5",
+"odds": 1.14,
+"why": "LIVE 3-1 59': 2.8 goals a game (last 10); 3-1 at 59' \u2013 91% chance of at most 2 more; Flashscore home/away form 65%, h2h 100% of 3 meetings (3.5 line)",
+"ts": 1794399579.779539,
+"eid": "sr:match:74723530",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "74723530|18|total=6.5|13"
+},
+{
+"t": "Wed 13:19",
+"game": "Ukraine vs Israel",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Handicap 2:0 \u2013 Ukraine",
+"odds": 1.32,
+"why": "LIVE 1-2 60': Ukraine expected 0.7 and Israel 0.5 more goals (last 10); 1-2 at 60' \u2013 79% chance this handicap lands; Flashscore home/away form 65%",
+"ts": 1794399582.0916555,
+"eid": "sr:match:75856724",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75856724|14|hcp=2:0|1711"
+},
+{
+"t": "Wed 13:19",
+"game": "Belgium vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Handicap 0:3 \u2013 Kosovo",
+"odds": 1.14,
+"why": "LIVE 0-0 45': Belgium expected 1.0 and Kosovo 0.9 more goals (last 10); 0-0 at 45' \u2013 96% chance this handicap lands; Flashscore home/away form 50%",
+"ts": 1794399582.5155294,
+"eid": "sr:match:74838474",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "74838474|14|hcp=0:3|1713"
+},
+{
+"t": "Wed 13:19",
+"game": "North Macedonia vs Northern Ireland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Handicap 2:0 \u2013 North Macedonia",
+"odds": 1.15,
+"why": "LIVE 0-0 16': North Macedonia expected 0.6 and Northern Ireland 0.9 more goals (last 10); 0-0 at 16' \u2013 86% chance this handicap lands; Flashscore home/away form 56%",
+"ts": 1794399582.841869,
+"eid": "sr:match:75244192",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75244192|14|hcp=2:0|1711"
+},
+{
+"t": "Wed 13:19",
+"game": "FK Tukums 2000/TSS vs Valmiera FC",
+"lg": "Latvia - Virsliga",
+"pick": "Handicap 0:2 \u2013 Valmiera FC",
+"odds": 1.44,
+"why": "LIVE 0-0 18': FK Tukums 2000/TSS expected 0.8 and Valmiera FC 1.8 more goals (last 10); 0-0 at 18' \u2013 95% chance this handicap lands; Flashscore home/away form 80%",
+"ts": 1794399583.9143949,
+"eid": "sr:match:76653244",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76653244|14|hcp=0:2|1713"
+},
+{
+"t": "Wed 13:19",
+"game": "FKM Nove Zamky vs MFK Zemplin Michalovce",
+"lg": "Slovakia - Slovensky Pohar",
+"pick": "Handicap 3:0 \u2013 FKM Nove Zamky",
+"odds": 1.22,
+"why": "LIVE 0-0 16': FKM Nove Zamky expected 1.3 and MFK Zemplin Michalovce 1.2 more goals (last 10); 0-0 at 16' \u2013 96% chance this handicap lands; Flashscore home/away form 60%",
+"ts": 1794399584.5815408,
+"eid": "sr:match:75948774",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "75948774|14|hcp=3:0|1711"
+},
+{
+"t": "Wed 13:19",
+"game": "South United FC vs SC Bengaluru",
+"lg": "India - Bangalore Super Division",
+"pick": "Asian handicap SC Bengaluru +2.5",
+"odds": 1.14,
+"why": "LIVE 2-0 84': South United FC expected 0.1 and SC Bengaluru 0.3 more goals (last 10); 2-0 at 84' \u2013 90% chance this handicap lands",
+"ts": 1794399585.159211,
+"eid": "sr:match:111111114633266",
+"mid": "16",
+"spec": "hcp=-2.5",
+"oid": "1715",
+"k": "111111114633266|16|hcp=-2.5|1715"
+},
+{
+"t": "Wed 13:19",
+"game": "FK Sutjeska Foca vs FK Leotar Trebinje",
+"lg": "Bosnia and Herzegovina - Prva Liga, Rep of Srpska",
+"pick": "Asian handicap FK Leotar Trebinje +0.5",
+"odds": 1.11,
+"why": "LIVE 0-0 18': FK Sutjeska Foca expected 0.5 and FK Leotar Trebinje 1.7 more goals (last 10 + season); 0-0 at 18' \u2013 90% chance this handicap lands; Flashscore home/away form 70%",
+"ts": 1794399585.3698592,
+"eid": "sr:match:76260634",
+"mid": "16",
+"spec": "hcp=-0.5",
+"oid": "1715",
+"k": "76260634|16|hcp=-0.5|1715"
+},
+{
+"t": "Wed 13:19",
+"game": "Czarni Sosnowiec II vs RESOVIA RZESZOW",
+"lg": "Poland - 1. Liga, Women",
+"pick": "Handicap 0:2 \u2013 RESOVIA RZESZOW",
+"odds": 1.2,
+"why": "LIVE 1-1 16': Czarni Sosnowiec II expected 1.2 and RESOVIA RZESZOW 1.2 more goals (last 10 + season); 1-1 at 16' \u2013 85% chance this handicap lands",
+"ts": 1794399585.7471557,
+"eid": "sr:match:72576702",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "72576702|14|hcp=0:2|1713"
+}
+]
+}
+]
+},
+{
+"when": "Wed 11 Nov 13:18",
 "at": 1794399485,
 "req": {
 "u": "elizabethbieni-b8lo",
