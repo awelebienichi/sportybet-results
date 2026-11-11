@@ -708,7 +708,7 @@ def finish(T, kind, names, note, req):
         code = post([dict(eventId=p["eid"], marketId=p["mid"], specifier=p["spec"], outcomeId=p["oid"]) for p in t])
         if not code: note.append("SportyBet refused one booking."); continue
         time.sleep(2); o = load(code)
-        okc = len(o) == len(t) and len({e["eventId"] for e in o}) == len(o) and all(e["estimateStartTime"]/1000 > time.time() for e in o)
+        okc = len(o) == len(t) and len({e["eventId"] for e in o}) == len(o) and (kind == "live" or all(e["estimateStartTime"]/1000 > time.time() for e in o))
         odds = 1.0
         for e in o: odds *= float(e["markets"][0]["outcomes"][0]["odds"])
         if not okc: note.append(f"{code} failed the reload check and was not used."); continue
@@ -723,6 +723,8 @@ def main(req):
     ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
     if req.get("type") == "rebuild": return rebuild(req)
     if req.get("type") == "combine": return combine(req)
+    if req.get("type") == "live":
+        import live; return live.build(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")

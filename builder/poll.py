@@ -2,7 +2,7 @@
 """Ticket requests sent from build.html arrive on ntfy topic REQ_TOPIC. For each one: build it with phonebuild.py,
 add the codes to the tracker, record them in builds.json and push the result to the user's phone (ntfy NTFY_TOPIC).
 listen.py calls handle() the moment a request arrives; running this file directly handles whatever is waiting once."""
-import json, os, subprocess, sys, time, datetime as dt
+import json, os, re, subprocess, sys, time, datetime as dt
 HERE = os.path.dirname(os.path.abspath(__file__)); SITE = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import phonebuild
@@ -84,6 +84,10 @@ def handle(msgs, state):
                 say(f"Ticket ready: {t['code']}  ({t['odds']:,} odds)", body)
             print(f"done {uid} {codes} in {time.time()-t0:.0f}s", flush=True)
             builds.insert(0, dict(when=when, req=req, ok=True, kind=res["kind"], note=res.get("note", []), tickets=res["tickets"]))
+        if req.get("type") == "live" and re.fullmatch(r"[A-Za-z0-9_-]{6,40}", str(req.get("rid", ""))):   # live: straight back to the page (no wait for the site to update)
+            out = builds[0]
+            subprocess.run(["curl", "-s", "-m", "20", "-d", json.dumps(dict(ok=out["ok"], msg=out.get("msg"), note=out.get("note", []), tickets=out.get("tickets", []))),
+                            f"https://ntfy.sh/sportylive-{req['rid']}"], capture_output=True)
         json.dump(builds[:40], open(P["builds"], "w"), indent=0)
     json.dump(state, open(STATE, "w"))
 
