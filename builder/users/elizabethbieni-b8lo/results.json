@@ -2,6 +2,86 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "NW5A5U",
+"at": 1794399582,
+"when": "Wed 11 Nov 13:19",
+"kind": "your chosen markets",
+"odds": 8.63,
+"status": "open",
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Czechia vs Netherlands",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1794402000.0
+},
+{
+"t": "Wed 15:30",
+"game": "Italy vs Romania",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1794407400.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1794412800.0
+},
+{
+"t": "Wed 18:00",
+"game": "France vs Norway",
+"pick": "Asian handicap Norway +1.5",
+"odds": 1.56,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "SK Artis Brno vs FK Jablonec",
+"pick": "Asian handicap SK Artis Brno +1.5",
+"odds": 1.29,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1794418200.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1794420000.0
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.3,
+"ts": 1794423600.0
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794434400.0
+}
+]
+},
+{
 "code": "TW92S3",
 "at": 1794399528,
 "when": "Wed 11 Nov 13:18",
