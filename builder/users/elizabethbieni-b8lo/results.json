@@ -1498,7 +1498,7 @@
 "when": "Wed 11 Nov 09:20",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.01,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -1565,7 +1565,10 @@
 "game": "Liverpool LFC vs Aston Villa WFC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },
@@ -1753,7 +1756,10 @@
 "game": "Liverpool LFC vs Aston Villa WFC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:00",

@@ -1193,7 +1193,10 @@
 "game": "Liverpool LFC vs Aston Villa WFC",
 "pick": "GG (both teams score)",
 "odds": 1.58,
-"ts": 1794423600.0
+"ts": 1794423600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:00",
