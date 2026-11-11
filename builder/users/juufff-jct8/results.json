@@ -2,6 +2,30 @@
 "from": 1794401030,
 "tickets": [
 {
+"code": "N5P40H",
+"at": 1794401319,
+"when": "Wed 11 Nov 13:48",
+"kind": "draw & low-scoring teams (season data)",
+"odds": 3.6,
+"status": "open",
+"legs": [
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"pick": "Draw",
+"odds": 3.1,
+"ts": 1794416400.0
+},
+{
+"t": "Wed 20:30",
+"game": "Tacuarembo FC vs Miramar Misiones",
+"pick": "Under 3.5",
+"odds": 1.16,
+"ts": 1794425400.0
+}
+]
+},
+{
 "code": "SH5347",
 "at": 1794401203,
 "when": "Wed 11 Nov 13:46",

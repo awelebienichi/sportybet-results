@@ -2,6 +2,114 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "T1H8DJ",
+"at": 1794401307,
+"when": "Wed 11 Nov 13:48",
+"kind": "your chosen markets",
+"odds": 17.64,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Cameroon vs Namibia",
+"pick": "Cameroon to win (1UP)",
+"odds": 1.2,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "Spain to win (1UP)",
+"odds": 1.11,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "England to win (1UP)",
+"odds": 1.13,
+"ts": 1794512700.0
+},
+{
+"t": "Sat 05:00",
+"game": "Melbourne City FC vs Newcastle Jets",
+"pick": "Melbourne City FC to win (1UP)",
+"odds": 1.13,
+"ts": 1794628800.0
+},
+{
+"t": "Sat 14:00",
+"game": "NK Vrhnika vs Tabor Sezana",
+"pick": "Tabor Sezana to win (1UP)",
+"odds": 1.29,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"pick": "Barrow AFC to win (1UP)",
+"odds": 1.29,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Salford City vs Northampton Town",
+"pick": "Salford City to win (1UP)",
+"odds": 1.37,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "Carlisle United to win (1UP)",
+"odds": 1.23,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "VVV Venlo to win (1UP)",
+"odds": 1.29,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"pick": "Almere City FC to win (1UP)",
+"odds": 1.21,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "FC Dordrecht vs Heracles Almelo",
+"pick": "Heracles Almelo to win (1UP)",
+"odds": 1.2,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:30",
+"game": "Deportivo Maldonado vs CA Cerro",
+"pick": "Deportivo Maldonado to win (1UP)",
+"odds": 1.35,
+"ts": 1794684600.0
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"pick": "Eibar to win (1UP)",
+"odds": 1.33,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 20:45",
+"game": "France vs Turkiye",
+"pick": "France to win (1UP)",
+"odds": 1.1,
+"ts": 1794771900.0
+}
+]
+},
+{
 "code": "UJA2GB",
 "at": 1794401123,
 "when": "Wed 11 Nov 13:45",
@@ -299,7 +407,10 @@
 "game": "Andorra vs Poland",
 "pick": "Under 6.5",
 "odds": 1.3,
-"ts": 1794399579.515777
+"ts": 1794399579.515777,
+"r": "W",
+"sc": "0-5",
+"ht": "0-3"
 },
 {
 "t": "Wed 13:19",
@@ -379,7 +490,10 @@
 "game": "Andorra vs Poland",
 "pick": "Under 6.5",
 "odds": 1.32,
-"ts": 1794399541.9222848
+"ts": 1794399541.9222848,
+"r": "W",
+"sc": "0-5",
+"ht": "0-3"
 },
 {
 "t": "Wed 13:19",
@@ -403,7 +517,10 @@
 "game": "Andorra vs Poland",
 "pick": "Under 6.5",
 "odds": 1.35,
-"ts": 1794399350.8052168
+"ts": 1794399350.8052168,
+"r": "W",
+"sc": "0-5",
+"ht": "0-3"
 },
 {
 "t": "Wed 13:15",
