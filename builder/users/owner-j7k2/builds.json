@@ -1,6 +1,105 @@
 [
 {
 "when": "Wed 11 Nov 17:42",
+"at": 1794415373,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 12,
+"strict": "relaxed",
+"rid": "mwcckqbolgt5",
+"target": 2
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Target 2 odds reached with 5 leg(s), strongest first.",
+"Relaxed safety: in testing only about 82 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "NNTPXF",
+"odds": 2.05,
+"legs": [
+{
+"t": "Wed 16:45",
+"game": "Kazakhstan vs Scotland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Asian handicap Kazakhstan +2.5",
+"odds": 1.12,
+"why": "LIVE 0-1 45': Kazakhstan expected 0.8 and Scotland 0.8 more goals (last 10); 0-1 at 45' \u2013 87% chance; margin record 80% / 90% in both sides' last games",
+"ts": 1794411900.0,
+"eid": "sr:match:74838476",
+"mid": "16",
+"spec": "hcp=2.5",
+"oid": "1714",
+"k": "74838476|16|hcp=2.5|1714"
+},
+{
+"t": "Wed 17:00",
+"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
+"lg": "France - National 1",
+"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
+"odds": 1.08,
+"why": "LIVE 0-1 42': AS Saint Priest expected 0.7 and GFA Rumilly-Vallieres 1.3 more goals (last 10 + season); 0-1 at 42' \u2013 86% chance",
+"ts": 1794412800.0,
+"eid": "sr:match:74041572",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74041572|10||10"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "Silifke Belediyespor or Icel Idmanyurdu Spor",
+"odds": 1.15,
+"why": "LIVE 0-1 37': Silifke Belediyespor expected 0.6 and Icel Idmanyurdu Spor 1.2 more goals (last 10 + season); 0-1 at 37' \u2013 87% chance",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72891356|10||10"
+},
+{
+"t": "Wed 17:00",
+"game": "Czarni Sosnowiec vs SK Brann",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "Handicap 6:0 \u2013 Czarni Sosnowiec",
+"odds": 1.27,
+"why": "LIVE 0-3 41': Czarni Sosnowiec expected 0.7 and SK Brann 1.1 more goals (last 10); 0-3 at 41' \u2013 92% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794412800.0,
+"eid": "sr:match:75233058",
+"mid": "14",
+"spec": "hcp=6:0",
+"oid": "1711",
+"k": "75233058|14|hcp=6:0|1711"
+},
+{
+"t": "Wed 17:30",
+"game": "CD Manacor vs Inter Ibiza CD",
+"lg": "Spain Amateur - Tercera Federacion, Group 11",
+"pick": "Asian handicap Inter Ibiza CD +3.5",
+"odds": 1.16,
+"why": "LIVE 0-0 11': CD Manacor expected 1.9 and Inter Ibiza CD 0.9 more goals (last 10 + season); 0-0 at 11' \u2013 90% chance; margin record 90% / 80% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1794414600.0,
+"eid": "sr:match:75667382",
+"mid": "16",
+"spec": "hcp=-3.5",
+"oid": "1715",
+"k": "75667382|16|hcp=-3.5|1715"
+}
+]
+}
+]
+},
+{
+"when": "Wed 11 Nov 17:42",
 "at": 1794415347,
 "req": {
 "u": "owner-j7k2",
@@ -4990,162 +5089,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "73607356|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 00:37",
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "fav",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-11"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwbby5fwhysu"
-},
-"ok": true,
-"kind": "strong favourites to win",
-"note": [
-"Only 9 games passed the checks (Wed 11, 114 games on SportyBet), so this ticket has 9 legs instead of 10. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "M9PKZY",
-"odds": 13.92,
-"legs": [
-{
-"t": "Wed 02:00",
-"game": "Pumas Unam vs CF Tigres UANL",
-"lg": "Mexico - Liga MX, Women",
-"pick": "CF Tigres UANL to win",
-"odds": 1.82,
-"why": "won 70% lost 10% of last 10, rival lost 40%, won 75% of 8 meetings; Flashscore home/away form 55%",
-"ts": 1794358800.0,
-"eid": "sr:match:76595252",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "76595252|1||3"
-},
-{
-"t": "Wed 13:00",
-"game": "Vietnam vs Chinese Taipei",
-"lg": "International - Int. Friendly Games",
-"pick": "Vietnam to win",
-"odds": 1.13,
-"why": "won 70% lost 20% of last 10, rival lost 90%, won 67% of 3 meetings; Flashscore home/away form 85%",
-"ts": 1794398400.0,
-"eid": "sr:match:76140432",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "76140432|1||1"
-},
-{
-"t": "Wed 16:00",
-"game": "Spain vs Iceland",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Spain to win",
-"odds": 1.02,
-"why": "won 100% lost 0% of last 10, rival lost 60%; Flashscore home/away form 65%",
-"ts": 1794409200.0,
-"eid": "sr:match:74723370",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "74723370|1||1"
-},
-{
-"t": "Wed 16:00",
-"game": "CD Ibiza Islas Pitiusas vs UD Arenal",
-"lg": "Spain Amateur - Tercera Federacion, Group 11",
-"pick": "CD Ibiza Islas Pitiusas to win",
-"odds": 1.07,
-"why": "won 70% lost 0% of last 10, rival lost 80%; Flashscore home/away form 55%, season: won 67%, rival lost 78%",
-"ts": 1794409200.0,
-"eid": "sr:match:75910284",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75910284|1||1"
-},
-{
-"t": "Wed 17:00",
-"game": "Czarni Sosnowiec vs SK Brann",
-"lg": "International Clubs - UEFA Europa Cup, Women",
-"pick": "SK Brann to win",
-"odds": 1.26,
-"why": "won 80% lost 10% of last 10, rival lost 30%; Flashscore home/away form 50%",
-"ts": 1794412800.0,
-"eid": "sr:match:75233058",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "75233058|1||3"
-},
-{
-"t": "Wed 18:00",
-"game": "Colombe Sportive Du Dja Et Lobo vs Victoria United Limbe",
-"lg": "Cameroon - Elite One",
-"pick": "Colombe Sportive Du Dja Et Lobo to win",
-"odds": 1.28,
-"why": "won 80% lost 0% of last 10, rival lost 60%, won 100% of 5 meetings; Flashscore home/away form 75%, Vitibet 75%",
-"ts": 1794416400.0,
-"eid": "sr:match:75619152",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75619152|1||1"
-},
-{
-"t": "Wed 18:00",
-"game": "Austria vs Belarus",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Austria to win",
-"odds": 1.24,
-"why": "won 60% lost 20% of last 10, rival lost 40%; Flashscore home/away form 50%",
-"ts": 1794416400.0,
-"eid": "sr:match:74723252",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "74723252|1||1"
-},
-{
-"t": "Wed 19:30",
-"game": "CD Fuerte San Francisco vs Alianza FC",
-"lg": "El Salvador - Primera Division, Reserves",
-"pick": "Alianza FC to win",
-"odds": 1.55,
-"why": "won 60% lost 10% of last 10, rival lost 40%, won 88% of 8 meetings",
-"ts": 1794421800.0,
-"eid": "sr:match:76642466",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "76642466|1||3"
-},
-{
-"t": "Wed 20:00",
-"game": "Zamora FC Barinas II vs Deportivo Lara",
-"lg": "Venezuela - Segunda Division",
-"pick": "Deportivo Lara to win",
-"odds": 2.0,
-"why": "won 70% lost 20% of last 10, rival lost 40%, won 75% of 4 meetings; Flashscore home/away form 50%",
-"ts": 1794423600.0,
-"eid": "sr:match:76676540",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "76676540|1||3"
 }
 ]
 }
