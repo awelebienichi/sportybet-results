@@ -187,7 +187,7 @@
 "when": "Wed 11 Nov 14:01",
 "kind": "2nd half Over 0.5",
 "odds": 1.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 20:00",
@@ -214,7 +214,10 @@
 "game": "Independiente Petrolero vs Always Ready",
 "pick": "2nd half Over 0.5",
 "odds": 1.14,
-"ts": 1794434400.0
+"ts": 1794434400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 }
