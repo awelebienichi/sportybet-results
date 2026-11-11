@@ -2,6 +2,215 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NLZCKQ",
+"at": 1794433396,
+"when": "Wed 11 Nov 22:43",
+"kind": "half-time draw",
+"odds": 1314.64,
+"status": "open",
+"legs": [
+{
+"t": "Thu 00:00",
+"game": "Real Cundinamarca vs Real Cartagena FC",
+"pick": "Half-time draw",
+"odds": 2.05,
+"ts": 1794438000.0
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"pick": "Half-time draw",
+"odds": 2.2,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Half-time draw",
+"odds": 1.92,
+"ts": 1794589200.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bronshoj BK vs Vanloese IF",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 18:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"pick": "Half-time draw",
+"odds": 1.91,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"pick": "Half-time draw",
+"odds": 1.86,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794675600.0
+},
+{
+"t": "Sun 12:00",
+"game": "UD Ibiza vs FC Cartagena",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 13:30",
+"game": "PFK Sportist Svoge vs PFC Spartak Pleven",
+"pick": "Half-time draw",
+"odds": 2.0,
+"ts": 1794745800.0
+}
+]
+},
+{
+"code": "Q4ZSBT",
+"at": 1794433370,
+"when": "Wed 11 Nov 22:42",
+"kind": "GG (both teams score)",
+"odds": 1122.66,
+"status": "open",
+"legs": [
+{
+"t": "Thu 02:00",
+"game": "CD FAS Santa Ana vs Inter Santa Tecla",
+"pick": "GG (both teams score)",
+"odds": 1.75,
+"ts": 1794445200.0
+},
+{
+"t": "Fri 19:30",
+"game": "SC Neusiedl am See 1919 vs SV Lackenbach",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"ts": 1794594600.0
+},
+{
+"t": "Sat 05:00",
+"game": "Sydney United 58 FC vs South Melbourne FC",
+"pick": "GG (both teams score)",
+"odds": 1.58,
+"ts": 1794628800.0
+},
+{
+"t": "Sat 09:30",
+"game": "Bayswater City vs Sydney Olympic FC",
+"pick": "GG (both teams score)",
+"odds": 1.39,
+"ts": 1794645000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ringsted IF vs BK Frem",
+"pick": "GG (both teams score)",
+"odds": 1.48,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Hoersholm-Usseroed IK vs Naesby BK",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"pick": "GG (both teams score)",
+"odds": 1.44,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walsall FC vs Barnet FC",
+"pick": "GG (both teams score)",
+"odds": 1.53,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Crewe Alexandra vs Newport County",
+"pick": "GG (both teams score)",
+"odds": 1.74,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gloucester City vs Sholing FC",
+"pick": "GG (both teams score)",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Frome Town vs Hanworth Villa",
+"pick": "GG (both teams score)",
+"odds": 1.52,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Halesowen Town FC vs Redditch United",
+"pick": "GG (both teams score)",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Braintree Town FC vs Kettering Town",
+"pick": "GG (both teams score)",
+"odds": 1.52,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Leighton Town vs Stratford Town",
+"pick": "GG (both teams score)",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "GG (both teams score)",
+"odds": 1.41,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Didcot Town vs Slough Town",
+"pick": "GG (both teams score)",
+"odds": 1.4,
+"ts": 1794668400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Potenza Calcio vs Scafatese Calcio 1922",
+"pick": "GG (both teams score)",
+"odds": 1.63,
+"ts": 1794749400.0
+}
+]
+},
+{
 "code": "JBBZ6N",
 "at": 1794433317,
 "when": "Wed 11 Nov 22:41",
@@ -364,7 +573,10 @@
 "game": "Avro FC vs Whitby Town",
 "pick": "Avro FC Under 5.5",
 "odds": 1.12,
-"ts": 1794426300.0
+"ts": 1794426300.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Wed 21:00",
@@ -884,7 +1096,10 @@
 "game": "Avro FC vs Whitby Town",
 "pick": "Avro FC Under 5.5",
 "odds": 1.15,
-"ts": 1794426300.0
+"ts": 1794426300.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Wed 20:45",
@@ -998,7 +1213,10 @@
 "game": "Avro FC vs Whitby Town",
 "pick": "Avro FC Under 5.5",
 "odds": 1.15,
-"ts": 1794426300.0
+"ts": 1794426300.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Wed 21:00",
@@ -2298,7 +2516,10 @@
 "game": "Avro FC vs Whitby Town",
 "pick": "Double chance Avro FC or Whitby Town",
 "odds": 1.15,
-"ts": 1794426300.0
+"ts": 1794426300.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Wed 21:00",
