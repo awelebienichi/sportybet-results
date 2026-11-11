@@ -1,5 +1,51 @@
 [
 {
+"when": "Thu 12 Nov 00:58",
+"at": 1794441533,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 15,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "strict",
+"rid": "mwcs5isua90o"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 1 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 79 judged), so the ticket has 1 legs."
+],
+"tickets": [
+{
+"code": "SH58HC",
+"odds": 1.25,
+"legs": [
+{
+"t": "Thu 03:30",
+"game": "Houston Rockets vs Golden State Warriors",
+"lg": "USA - NBA",
+"pick": "Over 206.5 total points",
+"odds": 1.25,
+"why": "expected Houston Rockets 114 \u2013 Golden State Warriors 112 (last 10/10 games, home edge included); 86% by the stats, 81% with the price; NBA ratings say 226 points",
+"ts": 1794450600.0,
+"eid": "sr:match:73719622",
+"mid": "225",
+"spec": "total=206.5",
+"oid": "12",
+"k": "73719622|225|total=206.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 00:57",
 "at": 1794441471,
 "req": {
@@ -12275,423 +12321,6 @@
 "spec": "total=6.5",
 "oid": "13",
 "k": "74371852|20|total=6.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 21:47",
-"at": 1794430023,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"o25"
-],
-"rid": "mwclao4454yh"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 27 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 581 games on SportyBet), so this ticket has 27 legs instead of 30. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "RT9TT6",
-"odds": 53205.29,
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "Club America vs Deportivo Toluca FC",
-"lg": "Mexico - Liga MX, Women",
-"pick": "Over 2.5",
-"odds": 1.17,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, season: 4.5 goals a game",
-"ts": 1794445200.0,
-"eid": "sr:match:76595256",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76595256|18|total=2.5|12"
-},
-{
-"t": "Thu 09:30",
-"game": "APIA Leichhardt vs Adelaide City FC",
-"lg": "Australia - Australian Championship",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 72%, FotMob: 3.8 goals a game",
-"ts": 1794472200.0,
-"eid": "sr:match:74827320",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74827320|18|total=2.5|12"
-},
-{
-"t": "Thu 14:00",
-"game": "Germany vs Sweden",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 75%",
-"ts": 1794488400.0,
-"eid": "sr:match:75894688",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75894688|18|total=2.5|12"
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"lg": "International Clubs - UEFA Europa Cup, Women",
-"pick": "Over 2.5",
-"odds": 1.68,
-"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 65%",
-"ts": 1794502800.0,
-"eid": "sr:match:75233062",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75233062|18|total=2.5|12"
-},
-{
-"t": "Thu 20:30",
-"game": "England vs Czechia",
-"lg": "International Youth - U20 Friendly Games",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "stats rate 77% from both teams' last 10 and 7 meetings; Flashscore home/away form 75%",
-"ts": 1794511800.0,
-"eid": "sr:match:76558318",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76558318|18|total=2.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"lg": "International - UEFA Nations League",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "stats rate 78% from both teams' last 10 and 8 meetings; Flashscore home/away form 65%, footybets 92%, FotMob: 4.4 goals a game",
-"ts": 1794512700.0,
-"eid": "sr:match:68931756",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "68931756|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"lg": "International - CONCACAF Nations League",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "stats rate 90% from both teams' last 10; FotMob: 3.9 goals a game",
-"ts": 1794596400.0,
-"eid": "sr:match:75468314",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75468314|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Treowen Stars",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.31,
-"why": "stats rate 75% from both teams' last 10; season: 4.1 goals a game",
-"ts": 1794598200.0,
-"eid": "sr:match:76488396",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76488396|18|total=2.5|12"
-},
-{
-"t": "Fri 21:00",
-"game": "Grenada vs Saint Kitts and Nevis",
-"lg": "International - CONCACAF Nations League",
-"pick": "Over 2.5",
-"odds": 1.58,
-"why": "stats rate 86% from both teams' last 10 and 4 meetings; FotMob: 4.0 goals a game",
-"ts": 1794600000.0,
-"eid": "sr:match:75468428",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75468428|18|total=2.5|12"
-},
-{
-"t": "Sat 11:15",
-"game": "Japan vs Brazil",
-"lg": "International - Int. Friendly Games",
-"pick": "Over 2.5",
-"odds": 1.69,
-"why": "stats rate 79% from both teams' last 10 and 8 meetings; footybets 85%",
-"ts": 1794651300.0,
-"eid": "sr:match:76123804",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76123804|18|total=2.5|12"
-},
-{
-"t": "Sat 14:00",
-"game": "Hoersholm-Usseroed IK vs Naesby BK",
-"lg": "Denmark - 3rd Division",
-"pick": "Over 2.5",
-"odds": 1.38,
-"why": "stats rate 76% from both teams' last 10 and 5 meetings; season: 3.7 goals a game",
-"ts": 1794661200.0,
-"eid": "sr:match:72500828",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72500828|18|total=2.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
-"lg": "Wales - Cymru Championship, North",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "stats rate 80% from both teams' last 10; season: 3.9 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:76487950",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76487950|18|total=2.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "ASA Aarhus vs Holbaek B&I",
-"lg": "Denmark - 3rd Division",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794664800.0,
-"eid": "sr:match:72500830",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72500830|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "stats rate 90% from both teams' last 10; FotMob: 3.4 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:72740804",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740804|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Leamington FC vs Leiston FC",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "stats rate 85% from both teams' last 10; FotMob: 3.6 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73022126",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73022126|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Farnham Town vs Ebbsfleet United FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "stats rate 80% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125280",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125280|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Halesowen Town FC vs Redditch United",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.58,
-"why": "stats rate 79% from both teams' last 10 and 8 meetings",
-"ts": 1794668400.0,
-"eid": "sr:match:76125260",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125260|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125272",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125272|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"lg": "Scotland - League 1",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "stats rate 79% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:72203982",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72203982|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Leatherhead FC vs St Albans City",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.61,
-"why": "stats rate 75% from both teams' last 10; FotMob: 3.4 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73026106",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73026106|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Worksop Town vs South Shields",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125246",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125246|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Braintree Town FC vs Kettering Town",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "stats rate 80% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125256",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125256|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Bridlington Town vs Macclesfield FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "stats rate 80% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125232",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125232|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Harrogate Town vs Altrincham FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.55,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings",
-"ts": 1794668400.0,
-"eid": "sr:match:72740796",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740796|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Enfield Town vs Spalding United",
-"lg": "England Amateur - FA Trophy",
-"pick": "Over 2.5",
-"odds": 1.55,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125274",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76125274|18|total=2.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "West Ham United FC Women vs Charlton Athletic",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.7,
-"why": "stats rate 86% from both teams' last 10 and 3 meetings",
-"ts": 1794751200.0,
-"eid": "sr:match:73346116",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346116|18|total=2.5|12"
-},
-{
-"t": "Sun 20:45",
-"game": "Croatia vs Czechia",
-"lg": "International - UEFA Nations League",
-"pick": "Over 2.5",
-"odds": 1.66,
-"why": "stats rate 76% from both teams' last 10 and 6 meetings; footybets 83%, FotMob: 3.8 goals a game",
-"ts": 1794771900.0,
-"eid": "sr:match:68931758",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "68931758|18|total=2.5|12"
 }
 ]
 }
