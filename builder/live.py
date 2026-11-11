@@ -248,8 +248,22 @@ def build(req):
             if sup: leg["why"] += "; " + ", ".join(sup)
             leg.pop("g"); return leg
     with ThreadPoolExecutor(6) as ex: best = {k: v for k, v in zip(per, ex.map(choose, per.values())) if v}
-    B = sorted(best.values(), key=lambda x: (-x["rate"], -x["s"]))[:legs]
-    if not B: return dict(ok=False, msg=f"{len(G)} games are in play and {len(per)} looked promising, but none reached a 75% chance at a fair price (1.08–1.75) without a stats source against it. Try again in a few minutes.")
-    note = [] if len(B) >= legs else [f"Only {len(B)} live leg(s) were strong enough right now (you asked for {legs})."]
+    B = sorted(best.values(), key=lambda x: (-x["rate"], -x["s"]))
+    if not B: return dict(ok=False, msg=f"{len(G)} games are in play and {len(per)} looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes.")
+    target = float(req.get("target") or 0)
+    if target > 1:                                                              # target odds: strongest legs first until the target is reached
+        T, o = [], 1.0
+        for leg in B:
+            if len(T) >= legs or o >= target: break
+            T.append(leg); o *= leg["odds"]
+        if o < target:
+            allo = 1.0
+            for leg in B[:legs]: allo *= leg["odds"]
+            return dict(ok=False, msg=f"{target:g} odds can't be reached right now: {len(B)} live leg(s) are strong enough, and the most they make with up to {legs} legs is {allo:.2f} odds. "
+                                      f"Lower the target, allow more legs, or try again in a few minutes.")
+        B = T
+    else: B = B[:legs]
+    if target > 1: note = [f"Target {target:g} odds reached with {len(B)} leg(s), strongest first."]
+    else: note = [] if len(B) >= legs else [f"Only {len(B)} live leg(s) were strong enough right now (you asked for {legs})."]
     note.append("Live odds move fast – load the code on SportyBet straight away.")
     return P.finish([B], "live", {"live": f"live – {dict(handicap='handicap & Asian handicap', goals='another goal coming', hold='favourite holding a lead', dead='quiet game', mix='best of all').get(strat, strat)}"}, note, req)
