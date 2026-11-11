@@ -26,7 +26,12 @@ def warm():
 def live_scores():
     import scores
     while time.time() < END:
-        try: scores.publish(scores.run_once())
+        try:
+            doc = scores.run_once(); scores.publish(doc)
+            import results
+            with LOCK: changed = results.update(doc)                                # each person's results list (results.json)
+            if changed:
+                with LOCK: poll.save()
         except Exception: traceback.print_exc()
         time.sleep(75)
 
@@ -37,10 +42,10 @@ while time.time() < END:
     try:
         ms = poll.waiting(state)
         if ms:
-            with LOCK: poll.handle(ms, state)
-            poll.save()
+            with LOCK: poll.handle(ms, state); poll.save()
         import rollover
-        if rollover.tick(poll.notifier, LOCK): poll.save()
+        if rollover.tick(poll.notifier, LOCK):
+            with LOCK: poll.save()
     except Exception: traceback.print_exc()
     time.sleep(6)
 print("listener run finished; the next queued run takes over", flush=True)

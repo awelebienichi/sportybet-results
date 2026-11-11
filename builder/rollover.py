@@ -241,7 +241,7 @@ def page_note(msg):
     if not CUR.get("rid"): return
     P = users.paths(CUR["uid"])
     builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
-    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), req={"type": "rollover", "rid": CUR["rid"]}, ok=False, msg=msg))
+    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), at=int(time.time()), req={"type": "rollover", "rid": CUR["rid"]}, ok=False, msg=msg))
     json.dump(builds[:40], open(P["builds"], "w"), indent=0)
 
 def build_today(s, notify, force=False):
@@ -273,7 +273,7 @@ def build_today(s, notify, force=False):
     save(s)
     P = users.paths(CUR["uid"])
     builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
-    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), req={"type": "rollover", "legs": len(t["legs"]), "rid": CUR.get("rid")}, ok=True,
+    builds.insert(0, dict(when=dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M"), at=int(time.time()), req={"type": "rollover", "legs": len(t["legs"]), "rid": CUR.get("rid")}, ok=True,
                           kind=f"daily rollover – day {s['day']}", note=[f"Stake {naira(s['stake'])} → returns {naira(s['stake'] * t['odds'])} if it wins"], tickets=[t]))
     json.dump(builds[:40], open(P["builds"], "w"), indent=0)
     if P["track"]: subprocess.run([sys.executable, os.path.join(SITE, "tracker", "track.py"), "add", f"{dt.datetime.now(LAGOS).strftime('%a %d %b')} - daily rollover day {s['day']}", t["code"]], capture_output=True)

@@ -55,6 +55,8 @@ def handle(msgs, state):
             continue
         users.remember(uid, req.get("name"))
         if req.get("type") == "hello": continue                                 # first visit: just registers the name
+        if req.get("type") == "reset_results":                                  # "Reset" on Results: this person's results start again from now
+            import results; results.reset(uid); continue
         if req.get("type") == "clear_builds":                                   # "Clear" on Recent tickets: empty this person's list
             json.dump([], open(P["builds"], "w")); continue
         if str(req.get("type", "")).startswith("rollover"):
@@ -71,7 +73,7 @@ def handle(msgs, state):
         if not res.get("ok"):
             msg = res.get("msg") or "; ".join(res.get("note", [])) or "No ticket passed the checks."
             say("Ticket request could not be built", msg, "default", "warning")
-            builds.insert(0, dict(when=when, req=req, ok=False, msg=msg))
+            builds.insert(0, dict(when=when, at=int(time.time()), req=req, ok=False, msg=msg))
         else:
             codes = [t["code"] for t in res["tickets"]]
             if P["track"]:      # only the owner's codes go to the main results tracker
@@ -83,7 +85,7 @@ def handle(msgs, state):
                 if res.get("note"): body += "\n\n" + " ".join(res["note"])
                 say(f"Ticket ready: {t['code']}  ({t['odds']:,} odds)", body)
             print(f"done {uid} {codes} in {time.time()-t0:.0f}s", flush=True)
-            builds.insert(0, dict(when=when, req=req, ok=True, kind=res["kind"], note=res.get("note", []), tickets=res["tickets"]))
+            builds.insert(0, dict(when=when, at=int(time.time()), req=req, ok=True, kind=res["kind"], note=res.get("note", []), tickets=res["tickets"]))
         if req.get("type") == "live" and re.fullmatch(r"[A-Za-z0-9_-]{6,40}", str(req.get("rid", ""))):   # live: straight back to the page (no wait for the site to update)
             out = builds[0]
             subprocess.run(["curl", "-s", "-m", "20", "-d", json.dumps(dict(ok=out["ok"], msg=out.get("msg"), note=out.get("note", []), tickets=out.get("tickets", []))),
