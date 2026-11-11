@@ -1,5 +1,81 @@
 [
 {
+"when": "Wed 11 Nov 13:50",
+"at": 1794401403,
+"req": {
+"u": "juufff-jct8",
+"name": "Juu Fff",
+"type": "markets",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"htx"
+],
+"rid": "mwc499k3t7zz"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 3 games passed the checks (Wed 11, 72 games on SportyBet), so this ticket has 3 legs instead of 30. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "SFAP23",
+"odds": 8.71,
+"legs": [
+{
+"t": "Wed 15:00",
+"game": "Ireland vs Greece",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "stats rate 55% from both teams' last 10 and 3 meetings",
+"ts": 1794405600.0,
+"eid": "sr:match:75140416",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "75140416|60||2"
+},
+{
+"t": "Wed 17:00",
+"game": "EFC Frejus Saint-Raphael vs Estac Troyes 2",
+"lg": "France - National 1",
+"pick": "Half-time draw",
+"odds": 2.1,
+"why": "stats rate 58% from both teams' last 10",
+"ts": 1794412800.0,
+"eid": "sr:match:74348536",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74348536|60||2"
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "Half-time draw",
+"odds": 1.93,
+"why": "stats rate 60% from both teams' last 10",
+"ts": 1794416400.0,
+"eid": "sr:match:74041580",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74041580|60||2"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:48",
 "at": 1794401319,
 "req": {

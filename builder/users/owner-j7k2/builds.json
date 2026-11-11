@@ -1,5 +1,34 @@
 [
 {
+"when": "Wed 11 Nov 13:50",
+"at": 1794401411,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwc49dbl7ya7"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, Mon 16, Tue 17). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Wed 11 Nov 13:42",
 "at": 1794400943,
 "req": {
