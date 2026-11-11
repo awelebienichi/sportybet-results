@@ -1,5 +1,100 @@
 [
 {
+"when": "Wed 11 Nov 15:22",
+"at": 1794406969,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"rid": "mwc7kjx92ymv"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "JWASBN",
+"odds": 1.89,
+"legs": [
+{
+"t": "Wed 15:23",
+"game": "Czechia vs Netherlands",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 4.5",
+"odds": 1.12,
+"why": "LIVE 2-0 63': Czechia expected 0.7 and Netherlands 0.4 more goals (last 10); 2-0 at 63' \u2013 90% chance; Flashscore home/away form 65%",
+"ts": 1794407025.7051673,
+"eid": "sr:match:74723528",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "74723528|18|total=4.5|13"
+},
+{
+"t": "Wed 15:23",
+"game": "Ireland vs Greece",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Under 3.5",
+"odds": 1.15,
+"why": "LIVE 0-0 20': Ireland expected 1.0 and Greece 1.5 more goals (last 10); 0-0 at 20' \u2013 75% chance; Flashscore home/away form 65%, h2h 67% of 3 meetings (3.5 line)",
+"ts": 1794407025.7051828,
+"eid": "sr:match:75140416",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75140416|18|total=3.5|13"
+},
+{
+"t": "Wed 15:23",
+"game": "Ethiopian Coffee SC vs Hadiya Hossana FC",
+"lg": "Ethiopia - Addis Ababa Cup",
+"pick": "Hadiya Hossana FC to win",
+"odds": 1.12,
+"why": "LIVE 0-1 77': Ethiopian Coffee SC expected 0.1 and Hadiya Hossana FC 0.1 more goals (last 10); 0-1 at 77' \u2013 90% chance",
+"ts": 1794407025.705199,
+"eid": "sr:match:76679192",
+"mid": "1",
+"spec": "",
+"oid": "3",
+"k": "76679192|1||3"
+},
+{
+"t": "Wed 15:23",
+"game": "Bangladesh vs Sri Lanka",
+"lg": "International - SAFF Championship",
+"pick": "Handicap 0:3 \u2013 Sri Lanka",
+"odds": 1.14,
+"why": "LIVE 1-0 22': Bangladesh expected 0.9 and Sri Lanka 1.5 more goals (last 10); 1-0 at 22' \u2013 91% chance; Flashscore home/away form 50%",
+"ts": 1794407025.7052083,
+"eid": "sr:match:75391954",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75391954|14|hcp=0:3|1713"
+},
+{
+"t": "Wed 15:23",
+"game": "Newell's Old Boys vs CA Huracan",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Over 0.5",
+"odds": 1.15,
+"why": "LIVE 0-0 19': Newell's Old Boys expected 0.9 and CA Huracan 1.2 more goals (last 10 + season); 0-0 at 19' \u2013 88% chance; Flashscore home/away form 55%, h2h 60% of 5 meetings (1.5 line)",
+"ts": 1794407025.705213,
+"eid": "sr:match:76585764",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76585764|18|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 14:28",
 "at": 1794403685,
 "req": {
