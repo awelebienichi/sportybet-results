@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HE4V0Z",
+"at": 1794397476,
+"when": "Wed 11 Nov 12:44",
+"kind": "live \u2013 another goal coming",
+"odds": 2.01,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:45",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.27,
+"ts": 1794397531.3940475
+},
+{
+"t": "Wed 12:45",
+"game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.27,
+"ts": 1794397533.1480684
+},
+{
+"t": "Wed 12:45",
+"game": "Villarreal CF vs CD Alba Fundacion",
+"pick": "Over 1.5 (another goal)",
+"odds": 1.22,
+"ts": 1794397533.4251661
+}
+]
+},
+{
 "code": "WUM40U",
 "at": 1794396408,
 "when": "Wed 11 Nov 12:26",
