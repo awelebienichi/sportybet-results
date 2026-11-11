@@ -1,5 +1,47 @@
 [
 {
+"when": "Wed 11 Nov 07:20",
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 1,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwbqctzz611z"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [],
+"tickets": [
+{
+"code": "XPCS1K",
+"odds": 1.68,
+"legs": [
+{
+"t": "Wed 19:00",
+"game": "Independiente Reserve vs CA Lanus",
+"lg": "Argentina - Primera LPF, Reserves",
+"pick": "Over 2.5",
+"odds": 1.68,
+"why": "season: 3.1 and 3.7 goals a game (16/16 games); last 10 rate 80%; Flashscore home/away form 65%",
+"ts": 1794420000.0,
+"eid": "sr:match:75133622",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75133622|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 07:19",
 "req": {
 "u": "owner-j7k2",
