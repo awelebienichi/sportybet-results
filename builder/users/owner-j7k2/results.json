@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UKQS83",
+"at": 1794434313,
+"when": "Wed 11 Nov 22:58",
+"kind": "your chosen markets",
+"odds": 103.41,
+"status": "open",
+"legs": [
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"pick": "Handicap 0:2 \u2013 Club Olimpo",
+"odds": 1.42,
+"ts": 1794508200.0
+},
+{
+"t": "Thu 20:00",
+"game": "Barbados vs Guadeloupe",
+"pick": "Handicap 2:0 \u2013 Barbados",
+"odds": 1.22,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 23:00",
+"game": "Aruba vs Martinique",
+"pick": "Handicap 2:0 \u2013 Aruba",
+"odds": 1.55,
+"ts": 1794520800.0
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"pick": "Handicap 0:2 \u2013 Athletic Club Sjdr MG",
+"odds": 1.27,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Handicap 0:2 \u2013 Kazakhstan",
+"odds": 1.14,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Leganes vs Burgos CF",
+"pick": "Handicap 0:2 \u2013 Burgos CF",
+"odds": 1.18,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "Handicap 0:2 \u2013 Gibraltar",
+"odds": 1.25,
+"ts": 1794599100.0
+},
+{
+"t": "Sat 12:00",
+"game": "Podhale Nowy Targ vs Avia Swidnik",
+"pick": "Handicap 0:2 \u2013 Avia Swidnik",
+"odds": 1.26,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 12:00",
+"game": "Nairobi United FC vs Mara Sugar FC",
+"pick": "Handicap 0:2 \u2013 Mara Sugar FC",
+"odds": 1.14,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Central Espanol FC vs CA Boston River",
+"pick": "Handicap 0:2 \u2013 CA Boston River",
+"odds": 1.12,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hereford FC vs Brackley Town FC",
+"pick": "Handicap 0:2 \u2013 Brackley Town FC",
+"odds": 1.44,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Handicap 0:2 \u2013 Guiseley FC",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Folkestone Invicta vs Cray Wanderers",
+"pick": "Handicap 0:2 \u2013 Cray Wanderers",
+"odds": 1.27,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Crewe Alexandra vs Newport County",
+"pick": "Handicap 0:2 \u2013 Newport County",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Gimnasia y Esgrima de Jujuy vs Club Almirante Brown",
+"pick": "Handicap 0:2 \u2013 Club Almirante Brown",
+"odds": 1.27,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 20:30",
+"game": "America FC MG vs Avai FC SC",
+"pick": "Handicap 2:0 \u2013 America FC MG",
+"odds": 1.29,
+"ts": 1794684600.0
+},
+{
+"t": "Sun 00:00",
+"game": "Charleston Battery vs Louisville City FC",
+"pick": "Handicap 0:2 \u2013 Louisville City FC",
+"odds": 1.19,
+"ts": 1794697200.0
+},
+{
+"t": "Sun 05:00",
+"game": "Hokkaido Consadole Sapporo vs Sagan Tosu",
+"pick": "Handicap 2:0 \u2013 Hokkaido Consadole Sapporo",
+"odds": 1.21,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 06:00",
+"game": "Kataller Toyama vs Tokushima Vortis",
+"pick": "Handicap 0:2 \u2013 Tokushima Vortis",
+"odds": 1.31,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 11:45",
+"game": "Kenya Police FC vs Posta Rangers FC",
+"pick": "Handicap 0:2 \u2013 Posta Rangers FC",
+"odds": 1.29,
+"ts": 1794739500.0
+}
+]
+},
+{
 "code": "Y10EEZ",
 "at": 1794434272,
 "when": "Wed 11 Nov 22:57",
