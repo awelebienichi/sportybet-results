@@ -1,5 +1,29 @@
 [
 {
+"when": "Wed 11 Nov 13:58",
+"at": 1794401935,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-11",
+"2026-11-12"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwc4kqqr02mv"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Wed 11, Thu 12). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Wed 11 Nov 13:57",
 "at": 1794401829,
 "req": {
