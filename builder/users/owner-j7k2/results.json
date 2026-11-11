@@ -667,7 +667,7 @@
 "when": "Wed 11 Nov 13:42",
 "kind": "live \u2013 best of all",
 "odds": 4.71,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 13:43",
@@ -716,7 +716,10 @@
 "game": "Kucukcekmece Sinop Spor AS vs Fatsa Belediyespor",
 "pick": "Asian handicap Fatsa Belediyespor +0.5",
 "odds": 1.18,
-"ts": 1794400998.460386
+"ts": 1794400998.460386,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 13:43",
