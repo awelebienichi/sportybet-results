@@ -2,6 +2,44 @@
 "from": 1794384334,
 "tickets": [
 {
+"code": "LBVUWX",
+"at": 1794395735,
+"when": "Wed 11 Nov 12:15",
+"kind": "live \u2013 best of all",
+"odds": 2.3,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:16",
+"game": "Yokohama F Marinos vs Kashima Antlers",
+"pick": "Over 3.5 (another goal)",
+"odds": 1.2,
+"ts": 1794395791.3254874
+},
+{
+"t": "Wed 12:16",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "Over 0.5 (another goal)",
+"odds": 1.16,
+"ts": 1794395791.931287
+},
+{
+"t": "Wed 12:16",
+"game": "Azerbaijan vs Montenegro",
+"pick": "Under 9.5",
+"odds": 1.32,
+"ts": 1794395792.4888952
+},
+{
+"t": "Wed 12:16",
+"game": "Georgia vs Denmark",
+"pick": "Under 8.5",
+"odds": 1.25,
+"ts": 1794395792.8552501
+}
+]
+},
+{
 "code": "M6MLV0",
 "at": 1794385373,
 "when": "Wed 11 Nov 09:22",
@@ -54,7 +92,7 @@
 "odds": 1.39,
 "ts": 1794394800.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": ""
 },
 {
@@ -330,7 +368,10 @@
 "game": "Ukraine vs Israel",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 13:00",
@@ -409,7 +450,10 @@
 "game": "Ukraine vs Israel",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 13:00",
@@ -566,7 +610,10 @@
 "game": "Ukraine vs Israel",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794394800.0
+"ts": 1794394800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 12:00",
