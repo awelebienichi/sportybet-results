@@ -1,5 +1,154 @@
 [
 {
+"when": "Wed 11 Nov 13:36",
+"at": 1794400613,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"markets": [
+"up",
+"h1u25",
+"h1ggy",
+"h1ggn"
+],
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-11"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwc3seugubqv"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 8 games passed the checks (Wed 11, 75 games on SportyBet), so this ticket has 8 legs instead of 40. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "REEST0",
+"odds": 3.93,
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Czechia vs Netherlands",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"why": "stats rate 85% from both teams' last 10 and 6 meetings",
+"ts": 1794402000.0,
+"eid": "sr:match:74723528",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74723528|75||76"
+},
+{
+"t": "Wed 15:30",
+"game": "Italy vs Romania",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings",
+"ts": 1794407400.0,
+"eid": "sr:match:75649660",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75649660|75||76"
+},
+{
+"t": "Wed 17:00",
+"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"why": "stats rate 89% from both teams' last 10",
+"ts": 1794412800.0,
+"eid": "sr:match:72891356",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72891356|75||76"
+},
+{
+"t": "Wed 18:00",
+"game": "Bourges FC vs Hyeres FC",
+"lg": "France - National 1",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794416400.0,
+"eid": "sr:match:74041580",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74041580|75||76"
+},
+{
+"t": "Wed 18:30",
+"game": "Eintracht Frankfurt vs PSV Eindhoven",
+"lg": "International Clubs - UEFA Europa Cup, Women",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings",
+"ts": 1794418200.0,
+"eid": "sr:match:75233066",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75233066|75||76"
+},
+{
+"t": "Wed 19:00",
+"game": "Ypiranga PE vs Afogados Ingazeira PE",
+"lg": "Brazil - Pernambucano",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794420000.0,
+"eid": "sr:match:76678982",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76678982|75||76"
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham U21 vs Juventus Next Gen",
+"lg": "International Youth - U21 Premier League International Cup",
+"pick": "1st half GG \u2013 No",
+"odds": 1.31,
+"why": "stats rate 87% from both teams' last 10",
+"ts": 1794423600.0,
+"eid": "sr:match:73734902",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73734902|75||76"
+},
+{
+"t": "Wed 23:00",
+"game": "Londrina EC PR vs Nautico PE",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1794434400.0,
+"eid": "sr:match:68823472",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68823472|68|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Wed 11 Nov 13:28",
 "at": 1794400115,
 "req": {
