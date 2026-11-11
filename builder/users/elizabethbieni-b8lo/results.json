@@ -24,7 +24,10 @@
 "game": "Ireland vs Greece",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794406402.537577
+"ts": 1794406402.537577,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 15:13",
@@ -1112,7 +1115,10 @@
 "game": "RCS Onhaye vs RSC Habay",
 "pick": "Excluded goals: 2",
 "odds": 1.25,
-"ts": 1794403800.0
+"ts": 1794403800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 15:00",
