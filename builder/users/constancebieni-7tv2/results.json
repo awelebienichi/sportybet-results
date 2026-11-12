@@ -303,7 +303,10 @@
 "game": "FC Barcelona W vs Arsenal WFC",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1794505500.0
+"ts": 1794505500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -649,7 +652,10 @@
 "game": "FC Barcelona W vs Arsenal WFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1794505500.0
+"ts": 1794505500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
