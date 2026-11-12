@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "RY6J4Y",
+"at": 1794512316,
+"when": "Thu 12 Nov 20:38",
+"kind": "live \u2013 best of all",
+"odds": 1.43,
+"status": "open",
+"legs": [
+{
+"t": "Thu 19:00",
+"game": "CD Tarancon vs Levante",
+"pick": "Handicap 2:0 \u2013 CD Tarancon",
+"odds": 1.03,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Handicap 3:0 \u2013 Chambery SF",
+"odds": 1.07,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA Barracas Central Reserve vs Argentinos Juniors Reserve",
+"pick": "Under 2.5",
+"odds": 1.06,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"pick": "Under 3.5",
+"odds": 1.05,
+"ts": 1794508200.0
+},
+{
+"t": "Thu 20:00",
+"game": "Benin vs Central African Republic",
+"pick": "Handicap 0:5 \u2013 Central African Republic",
+"odds": 1.04,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Ivory Coast vs Gambia",
+"pick": "Handicap 0:4 \u2013 Gambia",
+"odds": 1.12,
+"ts": 1794510000.0
+}
+]
+},
+{
 "code": "PWMMUR",
 "at": 1794509641,
 "when": "Thu 12 Nov 19:54",
