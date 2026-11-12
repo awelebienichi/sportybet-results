@@ -1,0 +1,75 @@
+[
+{
+"when": "Thu 12 Nov 19:46",
+"at": 1794509184,
+"req": {
+"u": "oladipupoodelo-u1g8",
+"name": "Oladipupo Odelola",
+"type": "gg",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwdwewfk9s1u"
+},
+"ok": true,
+"kind": "GG (both teams score)",
+"note": [
+"Only 3 games passed the checks (Fri 13, 154 games on SportyBet), so this ticket has 3 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "ZLVJ05",
+"odds": 3.58,
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Transit Camp FC vs Mbeya Kwanza FC",
+"lg": "Tanzania - Championship League",
+"pick": "GG (both teams score)",
+"odds": 1.73,
+"why": "stats rate 75% from both teams' last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:74167648",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "74167648|29||74"
+},
+{
+"t": "Fri 19:30",
+"game": "SC Neusiedl am See 1919 vs SV Lackenbach",
+"lg": "Austria Amateur - Burgenlandliga",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 78%",
+"ts": 1794594600.0,
+"eid": "sr:match:72560450",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72560450|29||74"
+},
+{
+"t": "Fri 20:45",
+"game": "Baglan Dragons vs Barry Town United FC",
+"lg": "Wales - FAW Welsh Cup",
+"pick": "GG (both teams score)",
+"odds": 1.39,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 65%",
+"ts": 1794599100.0,
+"eid": "sr:match:75827926",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "75827926|29||74"
+}
+]
+}
+]
+}
+]
