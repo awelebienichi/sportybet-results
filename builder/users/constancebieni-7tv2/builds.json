@@ -1,5 +1,21 @@
 [
 {
+"when": "Thu 12 Nov 08:09",
+"at": 1794467349,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "strict",
+"rid": "mwd7iw7d8pnv",
+"target": 5
+},
+"ok": false,
+"msg": "5 odds can't be reached right now: 1 live leg(s) are strong enough, and the most they make with up to 10 legs is 1.19 odds. Lower the target, allow more legs, or try again in a few minutes."
+},
+{
 "when": "Thu 12 Nov 08:07",
 "at": 1794467267,
 "req": {
