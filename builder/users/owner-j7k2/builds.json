@@ -1,5 +1,206 @@
 [
 {
+"when": "Thu 12 Nov 01:02",
+"at": 1794441738,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 15,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "relaxed",
+"rid": "mwcs9wjgpyu0"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 12 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 79 judged), so the ticket has 12 legs.",
+"Relaxed: in testing about 80 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "SHS1WZ",
+"odds": 13.73,
+"legs": [
+{
+"t": "Thu 02:00",
+"game": "Memphis Grizzlies vs Denver Nuggets",
+"lg": "USA - NBA",
+"pick": "Under 243.5 total points",
+"odds": 1.27,
+"why": "expected Memphis Grizzlies 117 \u2013 Denver Nuggets 111 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 90%, NBA ratings say 225 points",
+"ts": 1794445200.0,
+"eid": "sr:match:73719614",
+"mid": "225",
+"spec": "total=243.5",
+"oid": "13",
+"k": "73719614|225|total=243.5|13"
+},
+{
+"t": "Thu 02:00",
+"game": "Milwaukee Bucks vs Los Angeles Lakers",
+"lg": "USA - NBA",
+"pick": "Over 215.5 total points",
+"odds": 1.24,
+"why": "expected Milwaukee Bucks 111 \u2013 Los Angeles Lakers 119 (last 10/10 games, home edge included, Milwaukee Bucks on 2nd game in 2 days); 79% by the stats, 78% with the price; NBA ratings say 232 points",
+"ts": 1794445200.0,
+"eid": "sr:match:73719616",
+"mid": "225",
+"spec": "total=215.5",
+"oid": "12",
+"k": "73719616|225|total=215.5|12"
+},
+{
+"t": "Thu 02:00",
+"game": "Chicago Bulls vs San Antonio Spurs",
+"lg": "USA - NBA",
+"pick": "Under 249.5 total points",
+"odds": 1.27,
+"why": "expected Chicago Bulls 112 \u2013 San Antonio Spurs 122 (last 10/10 games, home edge included); 80% by the stats, 77% with the price; 30 pts a game missing through injury, Flashscore home/away form 95%, NBA ratings say 233 points",
+"ts": 1794445200.0,
+"eid": "sr:match:73719612",
+"mid": "225",
+"spec": "total=249.5",
+"oid": "13",
+"k": "73719612|225|total=249.5|13"
+},
+{
+"t": "Thu 03:30",
+"game": "Houston Rockets vs Golden State Warriors",
+"lg": "USA - NBA",
+"pick": "Over 206.5 total points",
+"odds": 1.25,
+"why": "expected Houston Rockets 114 \u2013 Golden State Warriors 112 (last 10/10 games, home edge included); 86% by the stats, 81% with the price; NBA ratings say 226 points",
+"ts": 1794450600.0,
+"eid": "sr:match:73719622",
+"mid": "225",
+"spec": "total=206.5",
+"oid": "12",
+"k": "73719622|225|total=206.5|12"
+},
+{
+"t": "Thu 04:00",
+"game": "Portland Trail Blazers vs Oklahoma City Thunder",
+"lg": "USA - NBA",
+"pick": "Under 237.5 total points",
+"odds": 1.26,
+"why": "expected Portland Trail Blazers 114 \u2013 Oklahoma City Thunder 109 (last 10/10 games, home edge included, Portland Trail Blazers on 2nd game in 2 days, Oklahoma City Thunder on 2nd game in 2 days); 80% by the stats, 77% with the price; 31 pts a game missing through injury, Flashscore home/away form 95%, NBA ratings say 225 points",
+"ts": 1794452400.0,
+"eid": "sr:match:73719624",
+"mid": "225",
+"spec": "total=237.5",
+"oid": "13",
+"k": "73719624|225|total=237.5|13"
+},
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"lg": "International - FIBA Europe Cup",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794502800.0,
+"eid": "sr:match:75200582",
+"mid": "225",
+"spec": "total=143.5",
+"oid": "12",
+"k": "75200582|225|total=143.5|12"
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"lg": "International - Eurocup",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
+"ts": 1794510000.0,
+"eid": "sr:match:72902308",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72902308|225|total=186.5|13"
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"lg": "International - Euroleague",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794510300.0,
+"eid": "sr:match:73263142",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73263142|225|total=194.5|13"
+},
+{
+"t": "Thu 20:15",
+"game": "BC Olympiakos Piraeus vs Dubai Basketball",
+"lg": "International - Euroleague",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"why": "expected BC Olympiakos Piraeus 86 \u2013 Dubai Basketball 83 (last 10/10 games, home edge included); 78% by the stats, 78% with the price",
+"ts": 1794510900.0,
+"eid": "sr:match:73263144",
+"mid": "225",
+"spec": "total=155.5",
+"oid": "12",
+"k": "73263144|225|total=155.5|12"
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"lg": "International - Euroleague",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 80%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263148",
+"mid": "225",
+"spec": "total=196.5",
+"oid": "13",
+"k": "73263148|225|total=196.5|13"
+},
+{
+"t": "Thu 20:30",
+"game": "Olimpia Milano vs BC Zalgiris Kaunas",
+"lg": "International - Euroleague",
+"pick": "Over 157.5 total points",
+"odds": 1.24,
+"why": "expected Olimpia Milano 85 \u2013 BC Zalgiris Kaunas 87 (last 10/10 games, home edge included); 79% by the stats, 78% with the price; Flashscore home/away form 80%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263146",
+"mid": "225",
+"spec": "total=157.5",
+"oid": "12",
+"k": "73263146|225|total=157.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Real Madrid vs KK Crvena zvezda Belgrade",
+"lg": "International - Euroleague",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"why": "expected Real Madrid 93 \u2013 KK Crvena zvezda Belgrade 87 (last 10/10 games, home edge included); 85% by the stats, 81% with the price",
+"ts": 1794513600.0,
+"eid": "sr:match:73263150",
+"mid": "225",
+"spec": "total=161.5",
+"oid": "12",
+"k": "73263150|225|total=161.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 00:58",
 "at": 1794441533,
 "req": {
@@ -12185,145 +12386,5 @@
 },
 "ok": false,
 "msg": "5 odds can't be reached right now: 2 live leg(s) are strong enough, and the most they make with up to 20 legs is 1.29 odds. Lower the target, allow more legs, or try again in a few minutes."
-},
-{
-"when": "Wed 11 Nov 21:58",
-"at": 1794430705,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "relaxed",
-"rid": "mwclp48iq364"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 8 live leg(s) were strong enough right now (you asked for 10).",
-"Relaxed safety: in testing only about 82 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "X7G5WK",
-"odds": 3.45,
-"legs": [
-{
-"t": "Wed 20:30",
-"game": "CD Cieza vs Valencia CF Mestalla",
-"lg": "Spain - Segunda Federacion",
-"pick": "CD Cieza or Valencia CF Mestalla",
-"odds": 1.18,
-"why": "LIVE 1-0 69': CD Cieza expected 0.4 and Valencia CF Mestalla 0.3 more goals (last 10 + season); 1-0 at 69' \u2013 87% chance",
-"ts": 1794425400.0,
-"eid": "sr:match:76320402",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76320402|10||10"
-},
-{
-"t": "Wed 20:30",
-"game": "Tacuarembo FC vs Miramar Misiones",
-"lg": "Uruguay - Segunda Division",
-"pick": "Tacuarembo FC or Miramar Misiones",
-"odds": 1.18,
-"why": "LIVE 1-2 66': Tacuarembo FC expected 0.3 and Miramar Misiones 0.3 more goals (last 10 + season); 1-2 at 66' \u2013 86% chance",
-"ts": 1794425400.0,
-"eid": "sr:match:76455730",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76455730|10||10"
-},
-{
-"t": "Wed 20:30",
-"game": "La Luz FC vs CA Fenix Montevideo",
-"lg": "Uruguay - Segunda Division",
-"pick": "La Luz FC or CA Fenix Montevideo",
-"odds": 1.15,
-"why": "LIVE 1-0 62': La Luz FC expected 0.4 and CA Fenix Montevideo 0.4 more goals (last 10 + season); 1-0 at 62' \u2013 82% chance",
-"ts": 1794425400.0,
-"eid": "sr:match:76455728",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76455728|10||10"
-},
-{
-"t": "Wed 20:30",
-"game": "Charlton Athletic vs Ipswich Town Lfc",
-"lg": "England Amateur - FA Womens League Cup",
-"pick": "Ipswich Town Lfc or draw",
-"odds": 1.37,
-"why": "LIVE 0-0 69': Charlton Athletic expected 0.3 and Ipswich Town Lfc 0.7 more goals (last 10); 0-0 at 69' \u2013 85% chance; Flashscore home/away form 75%",
-"ts": 1794425400.0,
-"eid": "sr:match:73607440",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "73607440|10||11"
-},
-{
-"t": "Wed 20:45",
-"game": "Brighton and Hove Albion WFC vs Watford LFC",
-"lg": "England Amateur - FA Womens League Cup",
-"pick": "Brighton and Hove Albion WFC Under 3.5",
-"odds": 1.1,
-"why": "LIVE 0-1 56': Brighton and Hove Albion WFC expected 0.9 and Watford LFC 0.6 more goals (last 10); 0-1 at 56' \u2013 97% chance",
-"ts": 1794426300.0,
-"eid": "sr:match:73607442",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73607442|19|total=3.5|13"
-},
-{
-"t": "Wed 20:45",
-"game": "Avro FC vs Whitby Town",
-"lg": "England Amateur - Northern Premier League Premier",
-"pick": "Avro FC Under 5.5",
-"odds": 1.12,
-"why": "LIVE 3-0 50': Avro FC expected 1.0 and Whitby Town 0.8 more goals (last 10 + season); 3-0 at 50' \u2013 89% chance; goals record 100% / 90% in both sides' last games",
-"ts": 1794426300.0,
-"eid": "sr:match:75799148",
-"mid": "19",
-"spec": "total=5.5",
-"oid": "13",
-"k": "75799148|19|total=5.5|13"
-},
-{
-"t": "Wed 21:00",
-"game": "CA Talleres de Cordoba Reserve vs CA Sarmiento de Junin",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "CA Sarmiento de Junin Under 1.5",
-"odds": 1.1,
-"why": "LIVE 1-0 45': CA Talleres de Cordoba Reserve expected 0.7 and CA Sarmiento de Junin 0.4 more goals (last 10 + season); 1-0 at 45' \u2013 91% chance; goals record 80% / 90% in both sides' last games, h2h 86% of 7 meetings",
-"ts": 1794427200.0,
-"eid": "sr:match:75133614",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "75133614|20|total=1.5|13"
-},
-{
-"t": "Wed 21:00",
-"game": "Juventus Turin W vs Olympique Lyon W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Olympique Lyon W Under 6.5",
-"odds": 1.15,
-"why": "LIVE 0-3 45': Juventus Turin W expected 0.8 and Olympique Lyon W 2.0 more goals (last 10); 0-3 at 45' \u2013 83% chance; h2h 100% of 7 meetings",
-"ts": 1794427200.0,
-"eid": "sr:match:74371852",
-"mid": "20",
-"spec": "total=6.5",
-"oid": "13",
-"k": "74371852|20|total=6.5|13"
-}
-]
-}
-]
 }
 ]
