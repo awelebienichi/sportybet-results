@@ -184,7 +184,10 @@
 "game": "Elche CF U19 vs Patacona CF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 20:45",
@@ -668,7 +671,10 @@
 "game": "Elche CF U19 vs Patacona CF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 19:00",
