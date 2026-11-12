@@ -1,6 +1,90 @@
 [
 {
 "when": "Fri 13 Nov 00:59",
+"at": 1794527991,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwe7miw409pe"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 4 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "UF8HA3",
+"odds": 1.38,
+"legs": [
+{
+"t": "Fri 00:00",
+"game": "Real Potosi vs CA Nacional Potosi",
+"lg": "Bolivia - Copa Bolivia",
+"pick": "Real Potosi or CA Nacional Potosi",
+"odds": 1.05,
+"why": "LIVE 2-4 45': Real Potosi expected 0.7 and CA Nacional Potosi 1.0 more goals (last 10 + season); 2-4 at 45' \u2013 93% chance",
+"ts": 1794524400.0,
+"eid": "sr:match:76485248",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76485248|10||10"
+},
+{
+"t": "Fri 00:00",
+"game": "AD Pasto vs CD Junior FC",
+"lg": "Colombia - Liga DIMAYOR",
+"pick": "Handicap 3:0 \u2013 AD Pasto",
+"odds": 1.09,
+"why": "LIVE 0-0 45': AD Pasto expected 0.5 and CD Junior FC 0.8 more goals (last 10 + season); 0-0 at 45' \u2013 96% chance; h2h 100% of 8 meetings",
+"ts": 1794524400.0,
+"eid": "sr:match:76676658",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "76676658|14|hcp=3:0|1711"
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Handicap 2:0 \u2013 Sao Bernardo FC",
+"odds": 1.05,
+"why": "LIVE 0-0 45': Sao Bernardo FC expected 0.7 and Athletic Club Sjdr MG 0.6 more goals (last 10 + season); 0-0 at 45' \u2013 91% chance; margin record 100% / 90% in both sides' last games",
+"ts": 1794524400.0,
+"eid": "sr:match:68823468",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "68823468|14|hcp=2:0|1711"
+},
+{
+"t": "Fri 00:00",
+"game": "Cerro Largo FC vs CA Progreso",
+"lg": "Uruguay - Primera Division",
+"pick": "Cerro Largo FC Under 2.5",
+"odds": 1.15,
+"why": "LIVE 1-0 45': Cerro Largo FC expected 0.6 and CA Progreso 0.6 more goals (last 10 + season); 1-0 at 45' \u2013 88% chance; goals record 100% / 80% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794524400.0,
+"eid": "sr:match:76455612",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76455612|19|total=2.5|13"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 00:59",
 "at": 1794527965,
 "req": {
 "u": "owner-j7k2",
@@ -4907,52 +4991,6 @@
 "spec": "total=240.5",
 "oid": "13",
 "k": "73719630|225|total=240.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 06:39",
-"at": 1794461990,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 20,
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "strict",
-"rid": "mwd417zpsl2e"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Only 1 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 87 judged), so the ticket has 1 legs."
-],
-"tickets": [
-{
-"code": "RP087Q",
-"odds": 1.43,
-"legs": [
-{
-"t": "Fri 00:30",
-"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Under 176.5 total points",
-"odds": 1.43,
-"why": "expected Indiana Hoosiers 75 \u2013 Tennessee Tech Golden Eagles 73 (last 10/10 games, home edge included); 94% by the stats, 80% with the price; Flashscore home/away form 95%",
-"ts": 1794526200.0,
-"eid": "sr:match:74064592",
-"mid": "225",
-"spec": "total=176.5",
-"oid": "13",
-"k": "74064592|225|total=176.5|13"
 }
 ]
 }
