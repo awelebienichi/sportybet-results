@@ -1,5 +1,116 @@
 [
 {
+"when": "Thu 12 Nov 21:57",
+"at": 1794517045,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwe13ybejzm4"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "Y7RK7A",
+"odds": 1.33,
+"legs": [
+{
+"t": "Thu 20:30",
+"game": "CS Cerrito vs Colon FC",
+"lg": "Uruguay - Segunda Division",
+"pick": "Under 3.5",
+"odds": 1.04,
+"why": "LIVE 0-1 63': CS Cerrito expected 0.4 and Colon FC 0.4 more goals (last 10 + season); 0-1 at 63' \u2013 92% chance; Flashscore home/away form 75%, FotMob: 2.3 goals a game, Vitibet tip 1-1, season: 2.4 goals a game, h2h 100% of 6 meetings (3.5 line)",
+"ts": 1794511800.0,
+"eid": "sr:match:76455732",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76455732|18|total=3.5|13"
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"lg": "International - UEFA Nations League",
+"pick": "Handicap 3:0 \u2013 Italy",
+"odds": 1.04,
+"why": "LIVE 1-1 51': Italy expected 0.7 and France 0.8 more goals (last 10); 1-1 at 51' \u2013 95% chance; h2h 100% of 8 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68931500",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "68931500|14|hcp=3:0|1711"
+},
+{
+"t": "Thu 20:45",
+"game": "Montenegro vs Latvia",
+"lg": "International - UEFA Nations League",
+"pick": "Handicap 0:3 \u2013 Latvia",
+"odds": 1.06,
+"why": "LIVE 0-0 54': Montenegro expected 0.7 and Latvia 0.5 more goals (last 10); 0-0 at 54' \u2013 96% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 5 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68932424",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "68932424|14|hcp=0:3|1713"
+},
+{
+"t": "Thu 20:45",
+"game": "Albania vs Finland",
+"lg": "International - UEFA Nations League",
+"pick": "Albania or Finland",
+"odds": 1.04,
+"why": "LIVE 2-0 54': Albania expected 0.5 and Finland 0.6 more goals (last 10); 2-0 at 54' \u2013 92% chance",
+"ts": 1794512700.0,
+"eid": "sr:match:68932518",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "68932518|10||10"
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"lg": "International - UEFA Nations League",
+"pick": "Handicap 4:0 \u2013 Czechia",
+"odds": 1.07,
+"why": "LIVE 0-1 52': Czechia expected 0.5 and Spain 1.0 more goals (last 10); 0-1 at 52' \u2013 93% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68931754",
+"mid": "14",
+"spec": "hcp=4:0",
+"oid": "1711",
+"k": "68931754|14|hcp=4:0|1711"
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs FK Austria Wien",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "SL Benfica Lisbon W Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-0 45': SL Benfica Lisbon W expected 0.8 and FK Austria Wien 0.9 more goals (last 10); 1-0 at 45' \u2013 94% chance",
+"ts": 1794513600.0,
+"eid": "sr:match:74403630",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74403630|19|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 21:56",
 "at": 1794516996,
 "req": {
