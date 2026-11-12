@@ -1,5 +1,206 @@
 [
 {
+"when": "Thu 12 Nov 13:22",
+"at": 1794486129,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bball",
+"kind": "mix",
+"legs": 20,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"rid": "mwdipe7v6dwo"
+},
+"ok": true,
+"kind": "basketball \u2013 best market per game",
+"note": [
+"Only 12 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 89 judged), so the ticket has 12 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "RNDHLK",
+"odds": 15.06,
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"lg": "International - FIBA Europe Cup",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794502800.0,
+"eid": "sr:match:75200582",
+"mid": "225",
+"spec": "total=143.5",
+"oid": "12",
+"k": "75200582|225|total=143.5|12"
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"lg": "International - Eurocup",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
+"ts": 1794510000.0,
+"eid": "sr:match:72902308",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72902308|225|total=186.5|13"
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"lg": "International - Euroleague",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794510300.0,
+"eid": "sr:match:73263142",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73263142|225|total=194.5|13"
+},
+{
+"t": "Thu 20:15",
+"game": "BC Olympiakos Piraeus vs Dubai Basketball",
+"lg": "International - Euroleague",
+"pick": "Over 153.5 total points",
+"odds": 1.22,
+"why": "expected BC Olympiakos Piraeus 86 \u2013 Dubai Basketball 83 (last 10/10 games, home edge included); 81% by the stats, 79% with the price",
+"ts": 1794510900.0,
+"eid": "sr:match:73263144",
+"mid": "225",
+"spec": "total=153.5",
+"oid": "12",
+"k": "73263144|225|total=153.5|12"
+},
+{
+"t": "Thu 20:30",
+"game": "Olimpia Milano vs BC Zalgiris Kaunas",
+"lg": "International - Euroleague",
+"pick": "BC Zalgiris Kaunas +12.5 (handicap)",
+"odds": 1.1,
+"why": "expected Olimpia Milano 85 \u2013 BC Zalgiris Kaunas 87 (last 10/10 games, home edge included); 82% by the stats, 84% with the price; Flashscore home/away form 90%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263146",
+"mid": "223",
+"spec": "hcp=-12.5",
+"oid": "1715",
+"k": "73263146|223|hcp=-12.5|1715"
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"lg": "International - Euroleague",
+"pick": "Under 196.5 total points",
+"odds": 1.24,
+"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 80%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263148",
+"mid": "225",
+"spec": "total=196.5",
+"oid": "13",
+"k": "73263148|225|total=196.5|13"
+},
+{
+"t": "Fri 00:30",
+"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Indiana Hoosiers Under 99.5 points",
+"odds": 1.58,
+"why": "expected Indiana Hoosiers 75 \u2013 Tennessee Tech Golden Eagles 73 (last 10/10 games, home edge included); 98% by the stats, 79% with the price; Flashscore home/away form 100%",
+"ts": 1794526200.0,
+"eid": "sr:match:74064592",
+"mid": "227",
+"spec": "total=99.5",
+"oid": "13",
+"k": "74064592|227|total=99.5|13"
+},
+{
+"t": "Fri 01:00",
+"game": "Philadelphia 76ers vs Toronto Raptors",
+"lg": "USA - NBA",
+"pick": "Toronto Raptors +23.5 (handicap)",
+"odds": 1.15,
+"why": "expected Philadelphia 76ers 114 \u2013 Toronto Raptors 109 (last 10/10 games, home edge included, Toronto Raptors on 2nd game in 2 days); 89% by the stats, 85% with the price; Flashscore home/away form 100%, NBA ratings margin +3",
+"ts": 1794528000.0,
+"eid": "sr:match:73719626",
+"mid": "223",
+"spec": "hcp=-23.5",
+"oid": "1715",
+"k": "73719626|223|hcp=-23.5|1715"
+},
+{
+"t": "Fri 01:00",
+"game": "Washington Wizards vs Detroit Pistons",
+"lg": "USA - NBA",
+"pick": "Under 233.5 total points",
+"odds": 1.27,
+"why": "expected Washington Wizards 106 \u2013 Detroit Pistons 111 (last 10/10 games, home edge included, Washington Wizards on 2nd game in 2 days); 82% by the stats, 78% with the price; Flashscore home/away form 75%, NBA ratings say 219 points",
+"ts": 1794528000.0,
+"eid": "sr:match:73719628",
+"mid": "225",
+"spec": "total=233.5",
+"oid": "13",
+"k": "73719628|225|total=233.5|13"
+},
+{
+"t": "Fri 01:00",
+"game": "High Point Panthers vs Southern Utah Thunderbirds",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Southern Utah Thunderbirds Over 63.5 points",
+"odds": 1.5,
+"why": "expected High Point Panthers 78 \u2013 Southern Utah Thunderbirds 80 (last 10/10 games, home edge included); 92% by the stats, 77% with the price; Flashscore home/away form 70%",
+"ts": 1794528000.0,
+"eid": "sr:match:74124352",
+"mid": "228",
+"spec": "total=63.5",
+"oid": "12",
+"k": "74124352|228|total=63.5|12"
+},
+{
+"t": "Fri 02:00",
+"game": "Minnesota Timberwolves vs Dallas Mavericks",
+"lg": "USA - NBA",
+"pick": "Under 240.5 total points",
+"odds": 1.26,
+"why": "expected Minnesota Timberwolves 114 \u2013 Dallas Mavericks 109 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 85%, NBA ratings say 224 points",
+"ts": 1794531600.0,
+"eid": "sr:match:73719630",
+"mid": "225",
+"spec": "total=240.5",
+"oid": "13",
+"k": "73719630|225|total=240.5|13"
+},
+{
+"t": "Fri 20:00",
+"game": "VFL Kirchheim Knights vs PS Karlsruhe Lions",
+"lg": "Germany - Pro A",
+"pick": "VFL Kirchheim Knights to win (incl. OT)",
+"odds": 1.08,
+"why": "expected VFL Kirchheim Knights 90 \u2013 PS Karlsruhe Lions 76 (last 10/10 games, home edge included); 82% by the stats, 85% with the price; Flashscore home/away form 70%",
+"ts": 1794596400.0,
+"eid": "sr:match:72658496",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "72658496|219||4"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 13:21",
 "at": 1794486098,
 "req": {
