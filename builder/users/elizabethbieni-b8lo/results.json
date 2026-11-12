@@ -2,6 +2,72 @@
 "from": 1794472340,
 "tickets": [
 {
+"code": "J4M7F0",
+"at": 1794473454,
+"when": "Thu 12 Nov 09:50",
+"kind": "basketball \u2013 total points",
+"odds": 7.3,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"ts": 1794510300.0
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Real Madrid vs KK Crvena zvezda Belgrade",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"ts": 1794513600.0
+},
+{
+"t": "Fri 00:30",
+"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
+"pick": "Under 173.5 total points",
+"odds": 1.57,
+"ts": 1794526200.0
+},
+{
+"t": "Fri 01:00",
+"game": "Washington Wizards vs Detroit Pistons",
+"pick": "Under 233.5 total points",
+"odds": 1.27,
+"ts": 1794528000.0
+},
+{
+"t": "Fri 02:00",
+"game": "Minnesota Timberwolves vs Dallas Mavericks",
+"pick": "Under 240.5 total points",
+"odds": 1.26,
+"ts": 1794531600.0
+}
+]
+},
+{
 "code": "K31TCX",
 "at": 1794472822,
 "when": "Thu 12 Nov 09:40",
