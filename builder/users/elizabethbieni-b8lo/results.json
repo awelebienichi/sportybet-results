@@ -1,4 +1,57 @@
 {
 "from": 1794426649,
-"tickets": []
+"tickets": [
+{
+"code": "KLT2GF",
+"at": 1794448284,
+"when": "Thu 12 Nov 02:51",
+"kind": "basketball \u2013 total points",
+"odds": 3.63,
+"status": "open",
+"legs": [
+{
+"t": "Thu 03:30",
+"game": "Houston Rockets vs Golden State Warriors",
+"pick": "Over 206.5 total points",
+"odds": 1.25,
+"ts": 1794450600.0
+},
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"ts": 1794510300.0
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Real Madrid vs KK Crvena zvezda Belgrade",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"ts": 1794513600.0
+}
+]
+}
+]
 }
