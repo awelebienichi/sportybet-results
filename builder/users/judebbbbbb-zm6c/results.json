@@ -1039,7 +1039,10 @@
 "game": "Kimberley de Mar Del Plata vs Club Olimpo",
 "pick": "Handicap 0:2 \u2013 Club Olimpo",
 "odds": 1.34,
-"ts": 1794508200.0
+"ts": 1794508200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 20:00",
@@ -1111,7 +1114,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "1st half excluded goals: 2",
 "odds": 1.23,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -1680,7 +1686,7 @@
 "when": "Thu 12 Nov 13:11",
 "kind": "Under 2.5 (low-scoring leagues)",
 "odds": 2.23,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 14:50",
@@ -1697,7 +1703,10 @@
 "game": "Kimberley de Mar Del Plata vs Club Olimpo",
 "pick": "Under 2.5",
 "odds": 1.4,
-"ts": 1794508200.0
+"ts": 1794508200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
@@ -1744,7 +1753,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "Half-time draw",
 "odds": 2.65,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 23:00",
@@ -1892,7 +1904,10 @@
 "game": "Kimberley de Mar Del Plata vs Club Olimpo",
 "pick": "Under 3.5",
 "odds": 1.12,
-"ts": 1794508200.0
+"ts": 1794508200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 20:00",
