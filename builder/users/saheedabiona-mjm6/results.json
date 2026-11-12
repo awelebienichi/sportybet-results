@@ -2,6 +2,86 @@
 "from": 1794513554,
 "tickets": [
 {
+"code": "RF20DJ",
+"at": 1794515451,
+"when": "Thu 12 Nov 21:30",
+"kind": "safest market per game",
+"odds": 24.98,
+"status": "open",
+"legs": [
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"pick": "2nd half Over 0.5",
+"odds": 1.24,
+"ts": 1794535200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.43,
+"ts": 1794589200.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "1st half double chance Panthrakikos FC Komotini or draw",
+"odds": 1.45,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs SV Dinamo Helfort 15",
+"pick": "1st half double chance SV Dinamo Helfort 15 or draw",
+"odds": 1.33,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"pick": "1st half double chance GVVV Veenendaal or draw",
+"odds": 1.42,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walsall FC vs Barnet FC",
+"pick": "GG (both teams score)",
+"odds": 1.53,
+"ts": 1794668400.0
+},
+{
+"t": "Sun 10:15",
+"game": "FK Teplice B vs FC Hradec Kralove B",
+"pick": "1st half double chance FC Hradec Kralove B or draw",
+"odds": 1.43,
+"ts": 1794734100.0
+},
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"pick": "Over 1.5",
+"odds": 1.31,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half Over 0.5",
+"odds": 1.37,
+"ts": 1794756600.0
+},
+{
+"t": "Tue 14:00",
+"game": "Tanzania vs Nigeria",
+"pick": "2nd half Over 0.5",
+"odds": 1.31,
+"ts": 1794920400.0
+}
+]
+},
+{
 "code": "TRD1VW",
 "at": 1794513563,
 "when": "Thu 12 Nov 20:59",
