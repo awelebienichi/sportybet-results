@@ -14,7 +14,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Handicap 0:3 \u2013 Eswatini",
 "odds": 1.06,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -106,7 +109,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Handicap 0:3 \u2013 Eswatini",
 "odds": 1.03,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -1193,7 +1199,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Excluded goals: 4",
 "odds": 1.1,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:30",
