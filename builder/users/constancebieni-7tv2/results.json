@@ -2,6 +2,23 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "LEB9PF",
+"at": 1794467267,
+"when": "Thu 12 Nov 08:07",
+"kind": "live \u2013 best of all",
+"odds": 1.16,
+"status": "open",
+"legs": [
+{
+"t": "Thu 07:10",
+"game": "New Zealand vs India",
+"pick": "Handicap 0:6 \u2013 India",
+"odds": 1.16,
+"ts": 1794463800.0
+}
+]
+},
+{
 "code": "YF3048",
 "at": 1794467133,
 "when": "Thu 12 Nov 08:05",
