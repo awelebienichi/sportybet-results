@@ -92,7 +92,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "Handicap 0:3 \u2013 Latvia",
 "odds": 1.06,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -160,7 +163,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "Handicap 0:3 \u2013 Latvia",
 "odds": 1.07,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -228,7 +234,10 @@
 "game": "San Marino vs Belarus",
 "pick": "Handicap 6:0 \u2013 San Marino",
 "odds": 1.06,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Thu 21:00",

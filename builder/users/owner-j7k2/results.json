@@ -1841,7 +1841,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "Handicap 0:2 \u2013 Latvia",
 "odds": 1.9,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -2167,7 +2170,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "Handicap 0:2 \u2013 Latvia",
 "odds": 1.98,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -2448,7 +2454,10 @@
 "game": "Montenegro vs Latvia",
 "pick": "Handicap 0:2 \u2013 Latvia",
 "odds": 1.98,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -2569,7 +2578,10 @@
 "game": "Olimpia Milano vs BC Zalgiris Kaunas",
 "pick": "Over 157.5 total points",
 "odds": 1.24,
-"ts": 1794511800.0
+"ts": 1794511800.0,
+"r": "W",
+"sc": "83-86",
+"ht": "25-18"
 },
 {
 "t": "Thu 21:00",
@@ -2810,7 +2822,10 @@
 "game": "Olimpia Milano vs BC Zalgiris Kaunas",
 "pick": "Over 157.5 total points",
 "odds": 1.24,
-"ts": 1794511800.0
+"ts": 1794511800.0,
+"r": "W",
+"sc": "83-86",
+"ht": "25-18"
 },
 {
 "t": "Thu 21:00",
