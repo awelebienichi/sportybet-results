@@ -639,7 +639,10 @@
 "game": "APIA Leichhardt vs Adelaide City FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1794472200.0
+"ts": 1794472200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 13:30",
@@ -2233,7 +2236,10 @@
 "game": "APIA Leichhardt vs Adelaide City FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1794472200.0
+"ts": 1794472200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 13:30",
@@ -4512,7 +4518,10 @@
 "game": "APIA Leichhardt vs Adelaide City FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1794472200.0
+"ts": 1794472200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 17:00",
