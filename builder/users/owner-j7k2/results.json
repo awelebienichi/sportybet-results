@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LQR2BZ",
+"at": 1794496639,
+"when": "Thu 12 Nov 16:17",
+"kind": "live \u2013 best of all",
+"odds": 1.25,
+"status": "open",
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"pick": "Handicap 0:2 \u2013 Amman FC",
+"odds": 1.25,
+"ts": 1794495600.0
+}
+]
+},
+{
 "code": "KYEFPW",
 "at": 1794490434,
 "when": "Thu 12 Nov 14:33",
