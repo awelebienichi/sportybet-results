@@ -7,14 +7,17 @@
 "when": "Thu 12 Nov 13:28",
 "kind": "live \u2013 best of all",
 "odds": 1.14,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 12:00",
 "game": "Hannover 96 vs TSV Havelse",
 "pick": "Hannover 96 Under 7.5",
 "odds": 1.14,
-"ts": 1794481200.0
+"ts": 1794481200.0,
+"r": "W",
+"sc": "6-1",
+"ht": "4-0"
 }
 ]
 },
@@ -24,14 +27,17 @@
 "when": "Thu 12 Nov 13:17",
 "kind": "live \u2013 best of all",
 "odds": 1.25,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 12:00",
 "game": "Hannover 96 vs TSV Havelse",
 "pick": "Hannover 96 Under 6.5",
 "odds": 1.25,
-"ts": 1794481200.0
+"ts": 1794481200.0,
+"r": "W",
+"sc": "6-1",
+"ht": "4-0"
 }
 ]
 },
