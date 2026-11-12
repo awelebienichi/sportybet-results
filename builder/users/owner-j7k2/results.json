@@ -237,7 +237,10 @@
 "game": "CE Europa vs RC Deportivo De La Coruna",
 "pick": "Handicap 3:0 \u2013 CE Europa",
 "odds": 1.12,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:45",
@@ -852,7 +855,10 @@
 "game": "BC Olympiakos Piraeus vs Dubai Basketball",
 "pick": "Over 153.5 total points",
 "odds": 1.22,
-"ts": 1794510900.0
+"ts": 1794510900.0,
+"r": "W",
+"sc": "101-72",
+"ht": "25-18"
 },
 {
 "t": "Thu 20:30",
@@ -1989,8 +1995,8 @@
 "odds": 1.04,
 "ts": 1794512700.0,
 "r": "W",
-"sc": "0-1",
-"ht": ""
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Thu 20:45",
@@ -2256,7 +2262,10 @@
 "game": "Czechia vs Spain",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Thu 20:45",
@@ -2378,7 +2387,10 @@
 "game": "BC Olympiakos Piraeus vs Dubai Basketball",
 "pick": "Over 155.5 total points",
 "odds": 1.23,
-"ts": 1794510900.0
+"ts": 1794510900.0,
+"r": "W",
+"sc": "101-72",
+"ht": "25-18"
 },
 {
 "t": "Thu 20:30",
@@ -2604,7 +2616,10 @@
 "game": "BC Olympiakos Piraeus vs Dubai Basketball",
 "pick": "Over 155.5 total points",
 "odds": 1.21,
-"ts": 1794510900.0
+"ts": 1794510900.0,
+"r": "W",
+"sc": "101-72",
+"ht": "25-18"
 },
 {
 "t": "Thu 20:30",
@@ -2719,7 +2734,10 @@
 "game": "BC Olympiakos Piraeus vs Dubai Basketball",
 "pick": "Over 155.5 total points",
 "odds": 1.21,
-"ts": 1794510900.0
+"ts": 1794510900.0,
+"r": "W",
+"sc": "101-72",
+"ht": "25-18"
 },
 {
 "t": "Thu 20:30",
