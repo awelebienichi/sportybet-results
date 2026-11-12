@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KH4GPZ",
+"at": 1794513801,
+"when": "Thu 12 Nov 21:03",
+"kind": "live \u2013 best of all",
+"odds": 1.46,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Senegal vs Sudan",
+"pick": "Handicap 0:4 \u2013 Sudan",
+"odds": 1.05,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Benin vs Central African Republic",
+"pick": "Handicap 0:5 \u2013 Central African Republic",
+"odds": 1.04,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Ivory Coast vs Gambia",
+"pick": "Handicap 0:4 \u2013 Gambia",
+"odds": 1.09,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "CE Europa vs RC Deportivo De La Coruna",
+"pick": "Handicap 3:0 \u2013 CE Europa",
+"odds": 1.12,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:45",
+"game": "Albania vs Finland",
+"pick": "Handicap 0:3 \u2013 Finland",
+"odds": 1.04,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "Over 1.5",
+"odds": 1.05,
+"ts": 1794512700.0
+}
+]
+},
+{
 "code": "RY6J4Y",
 "at": 1794512316,
 "when": "Thu 12 Nov 20:38",
