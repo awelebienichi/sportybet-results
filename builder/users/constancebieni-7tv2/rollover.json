@@ -4,6 +4,15 @@
 {
 "date": "2026-11-12",
 "day": 1,
+"code": "NR95TL",
+"stake": 100.0,
+"odds": 4.01,
+"result": "lost",
+"returned": 0
+},
+{
+"date": "2026-11-12",
+"day": 1,
 "code": "YF3048",
 "stake": 200.0,
 "odds": 4.14,
@@ -31,7 +40,7 @@
 "odds": 4.01,
 "stake": 100.0,
 "n": 8,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-12",
 "short": "lower",
