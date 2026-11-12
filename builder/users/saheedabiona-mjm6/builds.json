@@ -1,5 +1,106 @@
 [
 {
+"when": "Thu 12 Nov 21:19",
+"at": 1794514781,
+"req": {
+"u": "saheedabiona-mjm6",
+"name": "Saheed Abiona",
+"type": "mix",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "normal",
+"from": "21:30",
+"to": "07:59",
+"rid": "mwdzqyapm0pa"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"Only 5 games passed the checks (Thu 12, 21:30\u201307:59, 9 games on SportyBet), so this ticket has 5 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "TRD1VW",
+"odds": 3.06,
+"legs": [
+{
+"t": "Thu 22:00",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"lg": "El Salvador - Primera Division",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 100%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
+"ts": 1794517200.0,
+"eid": "sr:match:73075396",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73075396|18|total=1.5|12"
+},
+{
+"t": "Thu 23:00",
+"game": "Aurora FC vs Deportivo Mixco",
+"lg": "Guatemala - Liga Nacional",
+"pick": "1st half double chance Deportivo Mixco or draw",
+"odds": 1.45,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794520800.0,
+"eid": "sr:match:72475084",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72475084|63||11"
+},
+{
+"t": "Thu 23:00",
+"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "1st half Over 0.5",
+"odds": 1.33,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794520800.0,
+"eid": "sr:match:68823466",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68823466|68|total=0.5|12"
+},
+{
+"t": "Thu 23:00",
+"game": "Academia Puerto Cabello vs Monagas SC",
+"lg": "Venezuela - Primera Division",
+"pick": "1st half double chance Academia Puerto Cabello or draw",
+"odds": 1.13,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794520800.0,
+"eid": "sr:match:75834004",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "75834004|63||9"
+},
+{
+"t": "Thu 23:00",
+"game": "Aruba vs Martinique",
+"lg": "International - CONCACAF Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794520800.0,
+"eid": "sr:match:75512542",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75512542|90|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 20:59",
 "at": 1794513563,
 "req": {
