@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "G11CH5",
+"at": 1794485514,
+"when": "Thu 12 Nov 13:11",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 2.23,
+"status": "open",
+"legs": [
+{
+"t": "Thu 14:50",
+"game": "Oman Club vs AL Nasr SC (OMA)",
+"pick": "Under 2.5",
+"odds": 1.59,
+"ts": 1794491400.0
+},
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"pick": "Under 2.5",
+"odds": 1.4,
+"ts": 1794508200.0
+}
+]
+},
+{
 "code": "L0VKR3",
 "at": 1794461505,
 "when": "Thu 12 Nov 06:31",
