@@ -1561,7 +1561,10 @@
 "game": "Academia Puerto Cabello vs Monagas SC",
 "pick": "Excluded goals: 4",
 "odds": 1.13,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 23:00",
@@ -2236,7 +2239,10 @@
 "game": "Aruba vs Martinique",
 "pick": "Handicap 2:0 \u2013 Aruba",
 "odds": 1.7,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 23:00",
@@ -2520,7 +2526,10 @@
 "game": "Aruba vs Martinique",
 "pick": "Handicap 2:0 \u2013 Aruba",
 "odds": 1.7,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 23:00",
