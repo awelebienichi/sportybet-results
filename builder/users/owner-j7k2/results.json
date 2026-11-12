@@ -1948,7 +1948,10 @@
 "game": "Club America vs Deportivo Toluca FC",
 "pick": "1X2 \u2013 Home",
 "odds": 1.14,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 02:10",
@@ -5068,7 +5071,10 @@
 "game": "Club America vs Deportivo Toluca FC",
 "pick": "Club America to win",
 "odds": 1.12,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 19:00",
@@ -5218,7 +5224,10 @@
 "game": "Club America vs Deportivo Toluca FC",
 "pick": "Club America to win",
 "odds": 1.12,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 19:00",
