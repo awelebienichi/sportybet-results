@@ -1,6 +1,22 @@
 [
 {
 "when": "Thu 12 Nov 06:29",
+"at": 1794461368,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "live",
+"strategy": "mix",
+"legs": 30,
+"strict": "normal",
+"rid": "mwd3ynkzin78",
+"target": 20
+},
+"ok": false,
+"msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
+},
+{
+"when": "Thu 12 Nov 06:29",
 "at": 1794461353,
 "req": {
 "u": "judebbbbbb-zm6c",
