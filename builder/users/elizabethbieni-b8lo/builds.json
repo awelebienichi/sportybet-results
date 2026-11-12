@@ -1,5 +1,119 @@
 [
 {
+"when": "Thu 12 Nov 13:14",
+"at": 1794485646,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bball",
+"kind": "mix",
+"legs": 20,
+"days": [
+"2026-11-12"
+],
+"strict": "normal",
+"rid": "mwdiey3xdd91"
+},
+"ok": true,
+"kind": "basketball \u2013 best market per game",
+"note": [
+"Only 6 basketball games passed the checks (Thu 12, 13 judged), so the ticket has 6 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "JF0XDQ",
+"odds": 3.17,
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"lg": "International - FIBA Europe Cup",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794502800.0,
+"eid": "sr:match:75200582",
+"mid": "225",
+"spec": "total=143.5",
+"oid": "12",
+"k": "75200582|225|total=143.5|12"
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"lg": "International - Eurocup",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
+"ts": 1794510000.0,
+"eid": "sr:match:72902308",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72902308|225|total=186.5|13"
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"lg": "International - Euroleague",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794510300.0,
+"eid": "sr:match:73263142",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73263142|225|total=194.5|13"
+},
+{
+"t": "Thu 20:15",
+"game": "BC Olympiakos Piraeus vs Dubai Basketball",
+"lg": "International - Euroleague",
+"pick": "Over 153.5 total points",
+"odds": 1.22,
+"why": "expected BC Olympiakos Piraeus 86 \u2013 Dubai Basketball 83 (last 10/10 games, home edge included); 81% by the stats, 79% with the price",
+"ts": 1794510900.0,
+"eid": "sr:match:73263144",
+"mid": "225",
+"spec": "total=153.5",
+"oid": "12",
+"k": "73263144|225|total=153.5|12"
+},
+{
+"t": "Thu 20:30",
+"game": "Olimpia Milano vs BC Zalgiris Kaunas",
+"lg": "International - Euroleague",
+"pick": "BC Zalgiris Kaunas +12.5 (handicap)",
+"odds": 1.1,
+"why": "expected Olimpia Milano 85 \u2013 BC Zalgiris Kaunas 87 (last 10/10 games, home edge included); 82% by the stats, 84% with the price; Flashscore home/away form 90%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263146",
+"mid": "223",
+"spec": "hcp=-12.5",
+"oid": "1715",
+"k": "73263146|223|hcp=-12.5|1715"
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"lg": "International - Euroleague",
+"pick": "Under 196.5 total points",
+"odds": 1.24,
+"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 80%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263148",
+"mid": "225",
+"spec": "total=196.5",
+"oid": "13",
+"k": "73263148|225|total=196.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 09:54",
 "at": 1794473663,
 "req": {
