@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VMUKRT",
+"at": 1794527965,
+"when": "Fri 13 Nov 00:59",
+"kind": "basketball \u2013 total points",
+"odds": 1.83,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:30",
+"game": "Anadolu Efes SK vs Virtus Bologna",
+"pick": "Over 160.5 total points",
+"odds": 1.23,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"ts": 1794597300.0
+},
+{
+"t": "Fri 20:30",
+"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
+"pick": "Over 162.5 total points",
+"odds": 1.22,
+"ts": 1794598200.0
+}
+]
+},
+{
 "code": "W5CMR2",
 "at": 1794519089,
 "when": "Thu 12 Nov 22:31",
