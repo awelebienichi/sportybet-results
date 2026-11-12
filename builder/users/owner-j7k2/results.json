@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "W5CMR2",
+"at": 1794519089,
+"when": "Thu 12 Nov 22:31",
+"kind": "live basketball",
+"odds": 1.05,
+"status": "open",
+"legs": [
+{
+"t": "Thu 21:00",
+"game": "Cestistica Citta Di San Severo vs Pelle Livorno",
+"pick": "Pelle Livorno to win (incl. OT)",
+"odds": 1.05,
+"ts": 1794513600.0
+}
+]
+},
+{
 "code": "TD4YXA",
 "at": 1794517149,
 "when": "Thu 12 Nov 21:59",
