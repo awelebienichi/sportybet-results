@@ -123,7 +123,10 @@
 "game": "Italy vs Portugal",
 "pick": "Over 1.5",
 "odds": 1.26,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:00",
@@ -257,7 +260,10 @@
 "game": "Italy vs Portugal",
 "pick": "Portugal excluded goals: 0",
 "odds": 1.28,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -445,7 +451,10 @@
 "game": "Italy vs Portugal",
 "pick": "Goal bounds 2-5+",
 "odds": 1.26,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:00",

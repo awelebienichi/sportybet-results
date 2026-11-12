@@ -97,7 +97,10 @@
 "game": "Italy vs Portugal",
 "pick": "Handicap 0:3 \u2013 Portugal",
 "odds": 1.07,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -215,7 +218,10 @@
 "game": "Italy vs Portugal",
 "pick": "Handicap 0:2 \u2013 Portugal",
 "odds": 1.14,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -635,7 +641,10 @@
 "game": "Italy vs Portugal",
 "pick": "Portugal excluded goals: 0",
 "odds": 1.28,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -932,7 +941,10 @@
 "game": "Italy vs Portugal",
 "pick": "Portugal excluded goals: 0",
 "odds": 1.28,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -2342,7 +2354,10 @@
 "game": "Italy vs Portugal",
 "pick": "Over 2.5",
 "odds": 1.85,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:00",
@@ -3957,7 +3972,10 @@
 "game": "Italy vs Portugal",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.85,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:00",
