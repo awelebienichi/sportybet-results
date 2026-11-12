@@ -1,5 +1,221 @@
 [
 {
+"when": "Thu 12 Nov 03:08",
+"at": 1794449299,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "rebuild",
+"code": "KE27TL",
+"markets": [
+"h1u25",
+"h1ggy",
+"h1ggn",
+"m5x",
+"m10x"
+],
+"strict": "relaxed",
+"target": 1000,
+"rid": "mwcwrzhna1fg"
+},
+"ok": true,
+"kind": "rebuild of KE27TL",
+"note": [
+"27 game(s) had none of your markets with strong enough stats (55%+) and were left out.",
+"Highest odds possible with your markets on these games: about 8.56 (you asked for 1000)."
+],
+"tickets": [
+{
+"code": "P6K57M",
+"odds": 8.56,
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"lg": "International Youth - U21 UEFA European Championship, Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"why": "stats rate 75% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794488400.0,
+"eid": "sr:match:75439646",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75439646|75||76"
+},
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794488400.0,
+"eid": "sr:match:76558024",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76558024|75||76"
+},
+{
+"t": "Thu 14:00",
+"game": "Scotland vs Ukraine",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.22,
+"why": "stats rate 80% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794488400.0,
+"eid": "sr:match:76484482",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76484482|75||76"
+},
+{
+"t": "Thu 14:00",
+"game": "Borussia M\u00b4gladbach vs Standard Liege",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"why": "stats rate 75% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794488400.0,
+"eid": "sr:match:76693526",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76693526|75||76"
+},
+{
+"t": "Thu 14:00",
+"game": "Kigezi Homeboyz FC vs Vipers SC",
+"lg": "Uganda - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"why": "stats rate 94% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794488400.0,
+"eid": "sr:match:76579164",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76579164|75||76"
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794495600.0,
+"eid": "sr:match:75879158",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75879158|75||76"
+},
+{
+"t": "Thu 17:00",
+"game": "Madagascar vs Guinea-Bissau",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794499200.0,
+"eid": "sr:match:75802318",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75802318|75||76"
+},
+{
+"t": "Thu 17:00",
+"game": "Equatorial Guinea vs Zimbabwe",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 85% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794499200.0,
+"eid": "sr:match:75802266",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75802266|75||76"
+},
+{
+"t": "Thu 18:00",
+"game": "Armenia vs Cyprus",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"why": "stats rate 85% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794502800.0,
+"eid": "sr:match:68932422",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932422|75||76"
+},
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 90% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794502800.0,
+"eid": "sr:match:76354526",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76354526|75||76"
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.3,
+"why": "stats rate 80% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794502800.0,
+"eid": "sr:match:68931496",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68931496|75||76"
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 85% from both teams' last 10 (chosen to reach your odds)",
+"ts": 1794504600.0,
+"eid": "sr:match:76140570",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76140570|75||76"
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"lg": "Spain - Copa del Rey",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"why": "stats rate 95% from both teams' last 10 (safest of your markets for this game)",
+"ts": 1794504600.0,
+"eid": "sr:match:76516976",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76516976|75||76"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 03:05",
 "at": 1794449157,
 "req": {
