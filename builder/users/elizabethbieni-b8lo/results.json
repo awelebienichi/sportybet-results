@@ -2,6 +2,282 @@
 "from": 1794426649,
 "tickets": [
 {
+"code": "Z8M78N",
+"at": 1794449157,
+"when": "Thu 12 Nov 03:05",
+"kind": "rebuild of KE27TL",
+"odds": 11554.2,
+"status": "open",
+"legs": [
+{
+"t": "Thu 04:00",
+"game": "CF Pachuca vs CF Monterrey",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794452400.0
+},
+{
+"t": "Thu 07:00",
+"game": "New Zealand vs India",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794463200.0
+},
+{
+"t": "Thu 09:30",
+"game": "APIA Leichhardt vs Adelaide City FC",
+"pick": "APIA Leichhardt to win",
+"odds": 1.29,
+"ts": 1794472200.0
+},
+{
+"t": "Thu 12:00",
+"game": "Hannover 96 vs TSV Havelse",
+"pick": "Hannover 96 to win",
+"odds": 1.24,
+"ts": 1794481200.0
+},
+{
+"t": "Thu 13:30",
+"game": "Dayrout vs Proxy SC",
+"pick": "Over 1.5",
+"odds": 1.44,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 13:30",
+"game": "Mega Sport Belqas vs El Sekka El Hadid",
+"pick": "Over 1.5",
+"odds": 1.39,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 13:30",
+"game": "Al Nasr Cairo vs Pharco FC",
+"pick": "Over 1.5",
+"odds": 1.45,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 13:30",
+"game": "El Entag El Harby vs Baladiyyat AL Mehalla",
+"pick": "Over 1.5",
+"odds": 1.46,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 13:30",
+"game": "FC Masar vs El Terasanah",
+"pick": "Over 1.5",
+"odds": 1.42,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "Over 1.5",
+"odds": 1.27,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Scotland vs Ukraine",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Germany vs Sweden",
+"pick": "Germany to win (1UP)",
+"odds": 1.29,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Borussia M\u00b4gladbach vs Standard Liege",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Maan SC vs Al Yarmouk",
+"pick": "Over 1.5",
+"odds": 1.37,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Kigezi Homeboyz FC vs Vipers SC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 15:00",
+"game": "Boca Juniors vs Social Atletico Television",
+"pick": "Over 1.5",
+"odds": 1.31,
+"ts": 1794492000.0
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"pick": "Over 1.5",
+"odds": 1.39,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al Aqaba vs Hay AL Amir Hassan",
+"pick": "Over 1.5",
+"odds": 1.27,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"pick": "Over 1.5",
+"odds": 1.34,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Italy vs Portugal",
+"pick": "Over 1.5",
+"odds": 1.26,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Madagascar vs Guinea-Bissau",
+"pick": "Over 1.5",
+"odds": 1.45,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Equatorial Guinea vs Zimbabwe",
+"pick": "1st half Under 2.5",
+"odds": 1.05,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "France vs Denmark",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Congo DR vs Sierra Leone",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 18:00",
+"game": "SCU Torreense vs Sparta Prague",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Armenia vs Cyprus",
+"pick": "Over 1.5",
+"odds": 1.34,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"pick": "Over 1.5",
+"odds": 1.45,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"pick": "1st half Under 2.5",
+"odds": 1.19,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Over 1.5",
+"odds": 1.4,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FC Barcelona W vs Arsenal WFC",
+"pick": "FC Barcelona W to win (1UP)",
+"odds": 1.08,
+"ts": 1794505500.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "Colon de Santa Fe Reserve vs CA Central Cordoba SE Reserve",
+"pick": "Colon de Santa Fe Reserve to win",
+"odds": 1.87,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CDA Navalcarnero vs Betis",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA Banfield vs CA River Plate (ARG)",
+"pick": "Over 1.5",
+"odds": 1.36,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA San Lorenzo de Almagro vs Union de Santa Fe",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA Osasuna vs Logrono United",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794506400.0
+}
+]
+},
+{
 "code": "KE27TL",
 "at": 1794449009,
 "when": "Thu 12 Nov 03:03",
