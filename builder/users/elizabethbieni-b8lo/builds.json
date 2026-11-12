@@ -1,1 +1,44 @@
-[]
+[
+{
+"when": "Thu 12 Nov 21:43",
+"at": 1794516211,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "goals",
+"legs": 6,
+"strict": "normal",
+"rid": "mwe0m34rsi70"
+},
+"ok": true,
+"kind": "live \u2013 another goal coming",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "QKV9QU",
+"odds": 1.16,
+"legs": [
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"lg": "International - UEFA Nations League",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "LIVE 1-0 44': England expected 1.5 and Croatia 0.7 more goals (last 10); 1-0 at 44' \u2013 85% chance; Flashscore home/away form 80%, footybets 88%, FotMob: 4.4 goals a game, Vitibet tip 2-1, h2h 75% of 8 meetings (1.5 line)",
+"ts": 1794512700.0,
+"eid": "sr:match:68931756",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "68931756|18|total=1.5|12"
+}
+]
+}
+]
+}
+]
