@@ -1,6 +1,117 @@
 [
 {
 "when": "Thu 12 Nov 21:43",
+"at": 1794516236,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "dead",
+"legs": 6,
+"strict": "normal",
+"rid": "mwe0mlkxg2vf"
+},
+"ok": true,
+"kind": "live \u2013 quiet game",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "NGQ0QB",
+"odds": 1.92,
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Gimnasia Y Esgrima La Plata vs Belgrano de Cordoba",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Gimnasia Y Esgrima La Plata Under 2.5",
+"odds": 1.17,
+"why": "LIVE 2-1 80': Gimnasia Y Esgrima La Plata expected 0.1 and Belgrano de Cordoba 0.2 more goals (last 10 + season); 2-1 at 80' \u2013 90% chance; h2h 100% of 5 meetings",
+"ts": 1794510000.0,
+"eid": "sr:match:76585756",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76585756|19|total=2.5|13"
+},
+{
+"t": "Thu 20:30",
+"game": "Plaza Colonia vs CA Rentistas",
+"lg": "Uruguay - Segunda Division",
+"pick": "CA Rentistas Under 3.5",
+"odds": 1.07,
+"why": "LIVE 0-1 48': Plaza Colonia expected 0.6 and CA Rentistas 0.5 more goals (last 10 + season); 0-1 at 48' \u2013 97% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1794511800.0,
+"eid": "sr:match:76455736",
+"mid": "20",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76455736|20|total=3.5|13"
+},
+{
+"t": "Thu 20:30",
+"game": "CA Atenas de San Carlos vs Club Oriental de Football",
+"lg": "Uruguay - Segunda Division",
+"pick": "CA Atenas de San Carlos Under 1.5",
+"odds": 1.09,
+"why": "LIVE 0-0 56': CA Atenas de San Carlos expected 0.4 and Club Oriental de Football 0.6 more goals (last 10 + season); 0-0 at 56' \u2013 91% chance; h2h 88% of 8 meetings",
+"ts": 1794511800.0,
+"eid": "sr:match:76455734",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "76455734|19|total=1.5|13"
+},
+{
+"t": "Thu 20:45",
+"game": "Montenegro vs Latvia",
+"lg": "International - UEFA Nations League",
+"pick": "Montenegro Under 2.5",
+"odds": 1.12,
+"why": "LIVE 0-0 45': Montenegro expected 0.9 and Latvia 0.6 more goals (last 10); 0-0 at 45' \u2013 92% chance; goals record 90% / 90% in both sides' last games, h2h 100% of 5 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68932424",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932424|19|total=2.5|13"
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"lg": "International - UEFA Nations League",
+"pick": "France Under 3.5",
+"odds": 1.12,
+"why": "LIVE 1-1 45': Italy expected 0.7 and France 0.9 more goals (last 10); 1-1 at 45' \u2013 91% chance; h2h 100% of 8 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68931500",
+"mid": "20",
+"spec": "total=3.5",
+"oid": "13",
+"k": "68931500|20|total=3.5|13"
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"lg": "International - UEFA Nations League",
+"pick": "Spain Under 3.5",
+"odds": 1.12,
+"why": "LIVE 0-1 45': Czechia expected 0.5 and Spain 1.1 more goals (last 10); 0-1 at 45' \u2013 87% chance; goals record 90% / 100% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68931754",
+"mid": "20",
+"spec": "total=3.5",
+"oid": "13",
+"k": "68931754|20|total=3.5|13"
+}
+]
+}
+]
+},
+{
+"when": "Thu 12 Nov 21:43",
 "at": 1794516211,
 "req": {
 "u": "elizabethbieni-b8lo",
