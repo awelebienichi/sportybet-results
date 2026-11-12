@@ -1,5 +1,20 @@
 [
 {
+"when": "Thu 12 Nov 12:09",
+"at": 1794481762,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 3,
+"strict": "strict",
+"rid": "mwdg3rgzaqrk"
+},
+"ok": false,
+"msg": "8 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
+},
+{
 "when": "Thu 12 Nov 12:08",
 "at": 1794481716,
 "req": {
