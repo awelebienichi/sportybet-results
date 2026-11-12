@@ -13,13 +13,13 @@
 ],
 "start_stake": 200.0,
 "stake": 200.0,
-"odds": 4.0,
-"hour": 10,
+"odds": 10.0,
+"hour": 9,
 "day": 1,
 "current": {
 "date": "2026-11-12",
-"code": "YF3048",
-"odds": 4.14,
+"code": "PBFM34",
+"odds": 10.24,
 "stake": 200.0,
 "n": 7,
 "result": null
