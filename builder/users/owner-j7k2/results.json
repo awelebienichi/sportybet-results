@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KYEFPW",
+"at": 1794490434,
+"when": "Thu 12 Nov 14:33",
+"kind": "live \u2013 best of all",
+"odds": 2.14,
+"status": "open",
+"legs": [
+{
+"t": "Thu 13:30",
+"game": "El Entag El Harby vs Baladiyyat AL Mehalla",
+"pick": "Baladiyyat AL Mehalla Under 1.5",
+"odds": 1.14,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 14:00",
+"game": "Scotland vs Ukraine",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "Handicap 0:2 \u2013 Greece",
+"odds": 1.12,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"pick": "Handicap 0:4 \u2013 North Macedonia",
+"odds": 1.22,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Germany vs Sweden",
+"pick": "Handicap 0:2 \u2013 Sweden",
+"odds": 1.27,
+"ts": 1794488400.0
+}
+]
+},
+{
 "code": "PBFPDF",
 "at": 1794486539,
 "when": "Thu 12 Nov 13:28",
