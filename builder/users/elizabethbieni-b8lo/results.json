@@ -2,6 +2,107 @@
 "from": 1794426649,
 "tickets": [
 {
+"code": "NZ7GWY",
+"at": 1794448577,
+"when": "Thu 12 Nov 02:56",
+"kind": "your tracker's best markets",
+"odds": 10.87,
+"status": "open",
+"legs": [
+{
+"t": "Thu 07:00",
+"game": "New Zealand vs India",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"ts": 1794463200.0
+},
+{
+"t": "Thu 09:30",
+"game": "APIA Leichhardt vs Adelaide City FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794472200.0
+},
+{
+"t": "Thu 12:00",
+"game": "Hannover 96 vs TSV Havelse",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1794481200.0
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Borussia M\u00b4gladbach vs Standard Liege",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Germany vs Sweden",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.38,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Italy vs Portugal",
+"pick": "Goal bounds 2-5+",
+"odds": 1.25,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 18:00",
+"game": "SCU Torreense vs Sparta Prague",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Goal bounds 2-5+",
+"odds": 1.38,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 19:00",
+"game": "Elche CF U19 vs Patacona CF",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794506400.0
+}
+]
+},
+{
 "code": "PTCHHQ",
 "at": 1794448401,
 "when": "Thu 12 Nov 02:53",
