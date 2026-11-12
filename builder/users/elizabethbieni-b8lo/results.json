@@ -754,14 +754,17 @@
 "when": "Thu 12 Nov 03:00",
 "kind": "live \u2013 best of all",
 "odds": 1.13,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 02:10",
 "game": "Deportes Quindio vs Tigres FC",
 "pick": "GG \u2013 No",
 "odds": 1.13,
-"ts": 1794445800.0
+"ts": 1794445800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
