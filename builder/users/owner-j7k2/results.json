@@ -2,6 +2,212 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LWV1BQ",
+"at": 1794479958,
+"when": "Thu 12 Nov 11:39",
+"kind": "rebuild of QBQPYP",
+"odds": 7295.77,
+"status": "open",
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "Kigezi Homeboyz FC vs Vipers SC",
+"pick": "Vipers SC excluded goals: 2",
+"odds": 1.29,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:50",
+"game": "Oman Club vs AL Nasr SC (OMA)",
+"pick": "Double chance Oman Club or AL Nasr SC (OMA)",
+"odds": 1.29,
+"ts": 1794491400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Ghana vs Somalia",
+"pick": "Double chance Ghana or Somalia",
+"odds": 1.04,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Congo DR vs Sierra Leone",
+"pick": "Congo DR excluded goals: 2",
+"odds": 1.3,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Equatorial Guinea vs Zimbabwe",
+"pick": "Double chance Equatorial Guinea or Zimbabwe",
+"odds": 1.38,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Madagascar vs Guinea-Bissau",
+"pick": "1st half Over 0.5",
+"odds": 1.54,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 18:00",
+"game": "Armenia vs Cyprus",
+"pick": "1st half double chance Cyprus or draw",
+"odds": 1.32,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"pick": "Over 1.5",
+"odds": 1.47,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"pick": "1st half GG \u2013 No",
+"odds": 1.22,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FC Barcelona W vs Arsenal WFC",
+"pick": "FC Barcelona W excluded goals: 2",
+"odds": 1.23,
+"ts": 1794505500.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Handicap 2:0 \u2013 Chambery SF",
+"odds": 2.45,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CD Tarancon vs Levante",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CDA Navalcarnero vs Betis",
+"pick": "GG (both teams score)",
+"odds": 2.3,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 20:00",
+"game": "Benin vs Central African Republic",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Cameroon vs Namibia",
+"pick": "Handicap 0:2 \u2013 Namibia",
+"odds": 1.87,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Ivory Coast vs Gambia",
+"pick": "Double chance Ivory Coast or Gambia",
+"odds": 1.11,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Senegal vs Sudan",
+"pick": "1st half double chance Senegal or draw",
+"odds": 1.04,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:00",
+"game": "Cayman Islands vs Guyana",
+"pick": "1st half Over 0.5",
+"odds": 1.12,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:45",
+"game": "Albania vs Finland",
+"pick": "Double chance Albania or Finland",
+"odds": 1.37,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "1st half excluded goals: 2",
+"odds": 1.24,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Montenegro vs Latvia",
+"pick": "Handicap 0:2 \u2013 Latvia",
+"odds": 1.98,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "San Marino vs Belarus",
+"pick": "Belarus excluded goals: 1",
+"odds": 1.19,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:00",
+"game": "Bonaire vs Cuba",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1794513600.0
+},
+{
+"t": "Thu 23:00",
+"game": "Aruba vs Martinique",
+"pick": "Handicap 2:0 \u2013 Aruba",
+"odds": 1.7,
+"ts": 1794520800.0
+},
+{
+"t": "Thu 23:00",
+"game": "AD Pasto vs CD Junior FC",
+"pick": "Handicap 2:0 \u2013 AD Pasto",
+"odds": 2.7,
+"ts": 1794520800.0
+}
+]
+},
+{
 "code": "MWH917",
 "at": 1794478053,
 "when": "Thu 12 Nov 11:07",
