@@ -1,5 +1,5 @@
 {
-"active": false,
+"active": true,
 "history": [],
 "start_stake": 200.0,
 "stake": 200.0,
@@ -7,11 +7,14 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-11",
-"code": null,
-"result": "skip"
+"date": "2026-11-12",
+"code": "X6VDZ3",
+"odds": 10.39,
+"stake": 200.0,
+"n": 7,
+"result": null
 },
-"started": "2026-11-11",
+"started": "2026-11-12",
 "short": "lower",
 "min_odds": 4.0,
 "level": "strong"
