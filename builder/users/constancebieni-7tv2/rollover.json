@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-12",
+"day": 1,
+"code": "YF3048",
+"stake": 200.0,
+"odds": 4.14,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-11",
 "day": 1,
 "code": "JD68SH",
@@ -22,7 +31,7 @@
 "odds": 4.14,
 "stake": 200.0,
 "n": 7,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-12",
 "short": "lower",
