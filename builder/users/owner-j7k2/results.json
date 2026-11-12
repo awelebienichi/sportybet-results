@@ -21,7 +21,10 @@
 "game": "Armenia vs Cyprus",
 "pick": "Armenia Under 2.5",
 "odds": 1.06,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
@@ -137,7 +140,10 @@
 "game": "Armenia vs Cyprus",
 "pick": "Cyprus or draw",
 "odds": 1.12,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
@@ -1363,7 +1369,10 @@
 "game": "Armenia vs Cyprus",
 "pick": "Under 5.5",
 "odds": 1.04,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
