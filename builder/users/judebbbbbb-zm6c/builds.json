@@ -1,5 +1,28 @@
 [
 {
+"when": "Thu 12 Nov 06:28",
+"at": 1794461307,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1u25"
+],
+"rid": "mwd3x944dpsq"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for your chosen markets (Thu 12) out of 93 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Thu 12 Nov 06:25",
 "at": 1794461159,
 "req": {
