@@ -571,7 +571,11 @@ def rebuild(req):
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
             if k in against or not od or od < 1.04 or R.get(k, 0) < .55 - ST["L"] / 2 or not fits(k, profile(g, LX)) or not side_ok(k, g): continue
-            if True: opts.append(dict(k=k, od=od, r=R[k], mid=mid, spec=spec, oid=oid, lab=lab.format(h=g["h"], a=g["a"])))
+            # the stats and the bookmaker's own price must agree: last-10 form can't see a gap in level (a cup game between a
+            # lower-league side and a top club), the price can – and no coin-flip prices (same cap as the other builders)
+            pb = (R[k] + 1 / (od * 1.06)) / 2
+            if od > SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0) or pb < .62: continue
+            opts.append(dict(k=k, od=od, r=pb, rs=R[k], mid=mid, spec=spec, oid=oid, lab=lab.format(h=g["h"], a=g["a"])))
         if not opts: continue
         opts.sort(key=lambda o: (-value(o["k"], o["r"], o["od"]) if o["r"] >= .7 else 1 - o["r"], o["od"]))   # strong options by value first
         games.append(dict(g=g, opts=opts, i=0))
@@ -607,7 +611,7 @@ def rebuild(req):
     for x in sorted(games, key=lambda x: x["g"]["ts"]):
         o = x["opts"][x["i"]]; g = x["g"]
         legs.append(dict(eid=g["eid"], mid=o["mid"], spec=o["spec"], oid=o["oid"], pick=o["lab"], odds=o["od"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
-                         why=f"stats rate {o['r']:.0%} from both teams' last 10" + (f" (chosen to land on your odds)" if x["i"] > 0 else " (safest of your markets for this game)")))
+                         why=f"stats rate {o['rs']:.0%} from both teams' last 10, {o['r']:.0%} with the bookmaker's price" + (f" (chosen to land on your odds)" if x["i"] > 0 else " (safest of your markets for this game)")))
     note = []
     if gone: note.append(f"{gone} game(s) on {code} had already started and were left out.")
     if usable < len(live): note.append(f"{len(live) - usable} game(s) had none of your markets with strong enough stats (55%+) and were left out.")
