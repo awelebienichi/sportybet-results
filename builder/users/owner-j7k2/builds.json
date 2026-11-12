@@ -1,5 +1,116 @@
 [
 {
+"when": "Thu 12 Nov 21:59",
+"at": 1794517149,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwe165f99rul"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "TD4YXA",
+"odds": 1.35,
+"legs": [
+{
+"t": "Thu 20:30",
+"game": "CS Cerrito vs Colon FC",
+"lg": "Uruguay - Segunda Division",
+"pick": "Under 3.5",
+"odds": 1.04,
+"why": "LIVE 0-1 65': CS Cerrito expected 0.4 and Colon FC 0.4 more goals (last 10 + season); 0-1 at 65' \u2013 93% chance; Flashscore home/away form 75%, FotMob: 2.3 goals a game, Vitibet tip 1-1, season: 2.4 goals a game, h2h 100% of 6 meetings (3.5 line)",
+"ts": 1794511800.0,
+"eid": "sr:match:76455732",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76455732|18|total=3.5|13"
+},
+{
+"t": "Thu 20:30",
+"game": "CA Atenas de San Carlos vs Club Oriental de Football",
+"lg": "Uruguay - Segunda Division",
+"pick": "GG \u2013 No",
+"odds": 1.09,
+"why": "LIVE 0-0 71': CA Atenas de San Carlos expected 0.3 and Club Oriental de Football 0.3 more goals (last 10 + season); 0-0 at 71' \u2013 95% chance",
+"ts": 1794511800.0,
+"eid": "sr:match:76455734",
+"mid": "29",
+"spec": "",
+"oid": "76",
+"k": "76455734|29||76"
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"lg": "International - UEFA Nations League",
+"pick": "Handicap 3:0 \u2013 Italy",
+"odds": 1.04,
+"why": "LIVE 1-1 53': Italy expected 0.6 and France 0.8 more goals (last 10); 1-1 at 53' \u2013 96% chance; h2h 100% of 8 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68931500",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "68931500|14|hcp=3:0|1711"
+},
+{
+"t": "Thu 20:45",
+"game": "Albania vs Finland",
+"lg": "International - UEFA Nations League",
+"pick": "Albania or Finland",
+"odds": 1.03,
+"why": "LIVE 2-0 56': Albania expected 0.5 and Finland 0.6 more goals (last 10); 2-0 at 56' \u2013 92% chance",
+"ts": 1794512700.0,
+"eid": "sr:match:68932518",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "68932518|10||10"
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"lg": "International - UEFA Nations League",
+"pick": "Handicap 4:0 \u2013 Czechia",
+"odds": 1.07,
+"why": "LIVE 0-1 54': Czechia expected 0.4 and Spain 0.9 more goals (last 10); 0-1 at 54' \u2013 93% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1794512700.0,
+"eid": "sr:match:68931754",
+"mid": "14",
+"spec": "hcp=4:0",
+"oid": "1711",
+"k": "68931754|14|hcp=4:0|1711"
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs FK Austria Wien",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "SL Benfica Lisbon W Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-0 45': SL Benfica Lisbon W expected 0.8 and FK Austria Wien 0.9 more goals (last 10); 1-0 at 45' \u2013 94% chance",
+"ts": 1794513600.0,
+"eid": "sr:match:74403630",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74403630|19|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 21:47",
 "at": 1794516469,
 "req": {
@@ -5132,137 +5243,6 @@
 "spec": "total=206.5",
 "oid": "12",
 "k": "73719622|225|total=206.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 00:57",
-"at": 1794441471,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 15,
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"rid": "mwcs42y51elr"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Only 7 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 79 judged), so the ticket has 7 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "UXRY1F",
-"odds": 4.61,
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "Memphis Grizzlies vs Denver Nuggets",
-"lg": "USA - NBA",
-"pick": "Under 243.5 total points",
-"odds": 1.27,
-"why": "expected Memphis Grizzlies 117 \u2013 Denver Nuggets 111 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 90%, NBA ratings say 225 points",
-"ts": 1794445200.0,
-"eid": "sr:match:73719614",
-"mid": "225",
-"spec": "total=243.5",
-"oid": "13",
-"k": "73719614|225|total=243.5|13"
-},
-{
-"t": "Thu 03:30",
-"game": "Houston Rockets vs Golden State Warriors",
-"lg": "USA - NBA",
-"pick": "Over 206.5 total points",
-"odds": 1.25,
-"why": "expected Houston Rockets 114 \u2013 Golden State Warriors 112 (last 10/10 games, home edge included); 86% by the stats, 81% with the price; NBA ratings say 226 points",
-"ts": 1794450600.0,
-"eid": "sr:match:73719622",
-"mid": "225",
-"spec": "total=206.5",
-"oid": "12",
-"k": "73719622|225|total=206.5|12"
-},
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"lg": "International - FIBA Europe Cup",
-"pick": "Over 143.5 total points",
-"odds": 1.2,
-"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 85%",
-"ts": 1794502800.0,
-"eid": "sr:match:75200582",
-"mid": "225",
-"spec": "total=143.5",
-"oid": "12",
-"k": "75200582|225|total=143.5|12"
-},
-{
-"t": "Thu 20:00",
-"game": "Skyliners Frankfurt vs Maxima Roma",
-"lg": "International - Eurocup",
-"pick": "Under 186.5 total points",
-"odds": 1.26,
-"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
-"ts": 1794510000.0,
-"eid": "sr:match:72902308",
-"mid": "225",
-"spec": "total=186.5",
-"oid": "13",
-"k": "72902308|225|total=186.5|13"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"lg": "International - Euroleague",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
-"ts": 1794510300.0,
-"eid": "sr:match:73263142",
-"mid": "225",
-"spec": "total=194.5",
-"oid": "13",
-"k": "73263142|225|total=194.5|13"
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"lg": "International - Euroleague",
-"pick": "Under 196.5 total points",
-"odds": 1.25,
-"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 80%",
-"ts": 1794511800.0,
-"eid": "sr:match:73263148",
-"mid": "225",
-"spec": "total=196.5",
-"oid": "13",
-"k": "73263148|225|total=196.5|13"
-},
-{
-"t": "Thu 21:00",
-"game": "Real Madrid vs KK Crvena zvezda Belgrade",
-"lg": "International - Euroleague",
-"pick": "Over 161.5 total points",
-"odds": 1.22,
-"why": "expected Real Madrid 93 \u2013 KK Crvena zvezda Belgrade 87 (last 10/10 games, home edge included); 85% by the stats, 81% with the price",
-"ts": 1794513600.0,
-"eid": "sr:match:73263150",
-"mid": "225",
-"spec": "total=161.5",
-"oid": "12",
-"k": "73263150|225|total=161.5|12"
 }
 ]
 }
