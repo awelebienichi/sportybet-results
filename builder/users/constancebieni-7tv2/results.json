@@ -7,7 +7,7 @@
 "when": "Thu 12 Nov 13:18",
 "kind": "your chosen markets",
 "odds": 16.02,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
@@ -21,7 +21,10 @@
 "game": "Borussia M\u00b4gladbach vs Standard Liege",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 14:00",
@@ -152,7 +155,10 @@
 "game": "Germany vs Sweden",
 "pick": "Sweden excluded goals: 1",
 "odds": 1.49,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:00",
@@ -281,7 +287,7 @@
 "when": "Thu 12 Nov 08:14",
 "kind": "your chosen markets",
 "odds": 23.84,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 09:30",
@@ -315,7 +321,10 @@
 "game": "Borussia M\u00b4gladbach vs Standard Liege",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 14:00",

@@ -48,7 +48,10 @@
 "game": "Germany vs Sweden",
 "pick": "Handicap 0:2 \u2013 Sweden",
 "odds": 1.27,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 }
 ]
 },
@@ -1750,7 +1753,10 @@
 "game": "Germany vs Sweden",
 "pick": "Sweden excluded goals: 1",
 "odds": 1.49,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
