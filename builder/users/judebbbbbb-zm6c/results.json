@@ -134,7 +134,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:30",
@@ -453,7 +456,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
@@ -484,7 +490,10 @@
 "game": "CA Talleres de Cordoba vs San Luis FC",
 "pick": "Double chance CA Talleres de Cordoba or San Luis FC",
 "odds": 1.16,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:30",
@@ -1061,7 +1070,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
@@ -1095,7 +1107,10 @@
 "game": "CA Talleres de Cordoba vs San Luis FC",
 "pick": "Double chance CA Talleres de Cordoba or San Luis FC",
 "odds": 1.16,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:30",
@@ -1517,7 +1532,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
@@ -1548,7 +1566,10 @@
 "game": "CA Talleres de Cordoba vs San Luis FC",
 "pick": "Double chance CA Talleres de Cordoba or San Luis FC",
 "odds": 1.16,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:30",

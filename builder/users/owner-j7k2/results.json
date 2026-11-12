@@ -216,7 +216,10 @@
 "game": "Senegal vs Sudan",
 "pick": "Handicap 0:4 \u2013 Sudan",
 "odds": 1.05,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "1-1"
 },
 {
 "t": "Thu 20:00",
@@ -1300,7 +1303,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
@@ -1314,7 +1320,10 @@
 "game": "CA Talleres de Cordoba vs San Luis FC",
 "pick": "Double chance CA Talleres de Cordoba or San Luis FC",
 "odds": 1.16,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:00",
@@ -1651,7 +1660,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
@@ -1665,7 +1677,10 @@
 "game": "CA Talleres de Cordoba vs San Luis FC",
 "pick": "Double chance CA Talleres de Cordoba or San Luis FC",
 "odds": 1.16,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:00",
@@ -1952,7 +1967,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
@@ -1995,7 +2013,7 @@
 "odds": 1.04,
 "ts": 1794512700.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-1",
 "ht": "0-1"
 },
 {
@@ -2221,7 +2239,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "Handicap 0:2 \u2013 Namibia",
 "odds": 1.87,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",

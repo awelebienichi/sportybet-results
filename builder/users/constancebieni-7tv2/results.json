@@ -14,7 +14,10 @@
 "game": "Senegal vs Sudan",
 "pick": "Handicap 0:4 \u2013 Sudan",
 "odds": 1.04,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "1-1"
 },
 {
 "t": "Thu 20:30",
@@ -552,7 +555,10 @@
 "game": "Cameroon vs Namibia",
 "pick": "2nd half Over 0.5",
 "odds": 1.33,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 20:00",
