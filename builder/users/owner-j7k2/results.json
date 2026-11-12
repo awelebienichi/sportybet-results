@@ -947,7 +947,10 @@
 "game": "FC Barcelona W vs Arsenal WFC",
 "pick": "FC Barcelona W excluded goals: 2",
 "odds": 1.23,
-"ts": 1794505500.0
+"ts": 1794505500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -1274,7 +1277,10 @@
 "game": "FC Barcelona W vs Arsenal WFC",
 "pick": "FC Barcelona W excluded goals: 2",
 "odds": 1.23,
-"ts": 1794505500.0
+"ts": 1794505500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -1561,7 +1567,10 @@
 "game": "FC Barcelona W vs Arsenal WFC",
 "pick": "FC Barcelona W excluded goals: 2",
 "odds": 1.23,
-"ts": 1794505500.0
+"ts": 1794505500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -1625,7 +1634,7 @@
 "odds": 1.12,
 "ts": 1794510000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -1806,7 +1815,10 @@
 "game": "FC Barcelona W vs Arsenal WFC",
 "pick": "FC Barcelona W excluded goals: 2",
 "odds": 1.23,
-"ts": 1794505500.0
+"ts": 1794505500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -1873,7 +1885,7 @@
 "odds": 1.12,
 "ts": 1794510000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
