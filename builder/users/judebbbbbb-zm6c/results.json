@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SLU3JY",
+"at": 1794461422,
+"when": "Thu 12 Nov 06:30",
+"kind": "your chosen markets",
+"odds": 21.28,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"pick": "Half-time draw",
+"odds": 1.96,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"pick": "Half-time draw",
+"odds": 1.98,
+"ts": 1794508200.0
+},
+{
+"t": "Thu 23:00",
+"game": "Aruba vs Martinique",
+"pick": "Half-time draw",
+"odds": 2.55,
+"ts": 1794520800.0
+}
+]
+},
+{
 "code": "U1SHH4",
 "at": 1794461159,
 "when": "Thu 12 Nov 06:25",
