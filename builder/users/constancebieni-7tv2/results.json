@@ -319,7 +319,10 @@
 "game": "Chambery SF vs Grenoble Foot",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Thu 19:00",
@@ -498,7 +501,10 @@
 "game": "Barbados vs Guadeloupe",
 "pick": "1st half double chance Barbados or draw",
 "odds": 1.4,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Thu 20:00",
@@ -684,7 +690,10 @@
 "game": "Chambery SF vs Grenoble Foot",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Thu 20:30",
