@@ -1913,7 +1913,10 @@
 "game": "Aruba vs Martinique",
 "pick": "Half-time draw",
 "odds": 2.55,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 23:00",
@@ -1967,7 +1970,10 @@
 "game": "Aruba vs Martinique",
 "pick": "Half-time draw",
 "odds": 2.55,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
