@@ -272,7 +272,7 @@ def build(req):
         for (mid, spec, oid), od in g["mk"].items():
             cu = _cushion(g, mid, spec, oid)
             big = cu is not None and cu >= 3 and g["minute"] >= 30                 # a side with a 3+ goal head start from 30': safe padding, priced 1.03+
-            if not (1.03 if big else 1.08) <= od <= 1.75: continue
+            if not 1.03 <= od <= 1.75: continue                                 # short prices count too: a safe 1.03-1.07 leg still adds a leg
             p = _p(D, D1, mid, spec, oid, lead)
             if p is None: continue
             kind = KIND.get(mid, "")
@@ -292,14 +292,24 @@ def build(req):
         ND = [g for g in G if "gpg" not in g and g["minute"] is not None and 30 <= g["minute"] <= 85]
         with ThreadPoolExecutor(8) as ex: NM = dict(zip([g["eid"] for g in ND], ex.map(lambda g: _live_odds(g["eid"]), ND)))
         for g in ND:
+            hs, as_ = g["score"]; lead = (hs > as_) - (hs < as_)
             for (mid, spec, oid), od in NM.get(g["eid"], {}).items():
-                cu = _cushion(g, mid, spec, oid)
-                if cu is None or cu < 3 or not 1.03 <= od <= 1.07: continue
+                if "|" in spec or not 1.03 <= od <= 1.10: continue
+                # main markets only, never against the side in front; SportyBet's own chance must be 86%+
+                if mid == "14": cu = _cushion(g, mid, spec, oid); ok = cu is not None and cu >= 2
+                elif mid == "1": ok = (oid == "1" and lead > 0) or (oid == "3" and lead < 0)
+                elif mid == "10": ok = not ((oid == "9" and lead < 0) or (oid == "11" and lead > 0))
+                elif mid == "18": ok = oid == "12" or abs(hs - as_) < 2                 # no Unders while a side leads by 2+
+                else: ok = False
+                if not ok: continue
+                kind = {"14": "handicap", "1": "hold", "10": "hold", "18": "goals" if oid == "12" else "dead"}[mid]
+                if strat != "mix" and kind != strat: continue
                 p = 1 / (od * 1.06)
-                if strat not in ("mix", "handicap"): continue
+                if p < .86: continue
+                cu = _cushion(g, mid, spec, oid)
                 NOD.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=_label(g, mid, spec, oid), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
-                                lg=g["lg"], rate=p, s=P.edge(p, od), nodata=True, cush=True,
-                                why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': no team stats for this game – {cu}-goal head start, SportyBet's own price says {p:.0%}"))
+                                lg=g["lg"], rate=p, s=P.edge(p, od), nodata=True, cush=(cu or 0) >= 3,
+                                why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': no team stats for this game – SportyBet's own price says {p:.0%}"))
     nodata = sum(1 for g in G if "gpg" not in g)
     if not C and not NOD: return dict(ok=False, msg=f"{len(G)} games are in play, but none fits that strategy right now ({nodata} have no stats to judge them on). Try 'Best of all' or check back in a few minutes – the picture changes every few minutes.")
     # live prices for the candidates (the full in-play market list per game)
@@ -312,7 +322,8 @@ def build(req):
         if p < LV[1]: continue                                                  # high chance, no coin-flip prices
         per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
                                                  lg=g["lg"], rate=p, s=P.edge(p, od), cush=(_cushion(g, mid, spec, oid) or 0) >= 3, why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
-    for leg in NOD:                                                             # one pick per game: keep the best price-only head start
+    NOD.sort(key=lambda x: -x["s"])
+    for leg in NOD:                                                             # games without stats: their price-only legs, best value first
         if leg["eid"] not in per or all(x.get("nodata") for x in per[leg["eid"]]): per.setdefault(leg["eid"], []).append(leg)
     HC = lambda x: x["mid"] in ("14", "16") and not x.get("cush")              # big head starts don't count towards the handicap cap
     O15 = lambda x: x["mid"] == "18" and x["spec"] == "total=1.5" and x["oid"] == "12"
