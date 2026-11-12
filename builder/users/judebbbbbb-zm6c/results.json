@@ -7,7 +7,7 @@
 "when": "Thu 12 Nov 13:33",
 "kind": "your chosen markets",
 "odds": 3311.99,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
@@ -24,7 +24,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.36,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
@@ -160,7 +163,7 @@
 "when": "Thu 12 Nov 13:32",
 "kind": "your chosen markets",
 "odds": 2417058.92,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
@@ -177,7 +180,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.36,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
@@ -645,7 +651,7 @@
 "when": "Thu 12 Nov 13:16",
 "kind": "rebuild of GY88VP",
 "odds": 488624.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
@@ -662,7 +668,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.36,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
@@ -1008,7 +1017,7 @@
 "when": "Thu 12 Nov 13:14",
 "kind": "your chosen markets",
 "odds": 2528309.93,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
@@ -1025,7 +1034,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.36,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",

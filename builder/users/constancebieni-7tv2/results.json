@@ -122,7 +122,7 @@
 "when": "Thu 12 Nov 13:12",
 "kind": "your chosen markets",
 "odds": 837.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
@@ -139,7 +139,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.36,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
@@ -424,14 +427,17 @@
 "when": "Thu 12 Nov 08:10",
 "kind": "daily rollover \u2013 day 1",
 "odds": 10.24,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.38,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:00",
@@ -503,14 +509,17 @@
 "when": "Thu 12 Nov 08:05",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 14:00",
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.38,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:00",

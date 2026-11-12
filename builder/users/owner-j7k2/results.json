@@ -21,7 +21,10 @@
 "game": "Scotland vs Ukraine",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Thu 14:00",
@@ -1725,7 +1728,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st half Over 0.5",
 "odds": 1.37,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
@@ -3322,7 +3328,10 @@
 "game": "Iceland vs Greece",
 "pick": "1st Half - Over/Under \u2013 Over 0.5",
 "odds": 1.37,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 14:00",
