@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LKUN8Q",
+"at": 1794500664,
+"when": "Thu 12 Nov 17:24",
+"kind": "live \u2013 best of all",
+"odds": 2.23,
+"status": "open",
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Ghana vs Somalia",
+"pick": "Handicap 0:4 \u2013 Somalia",
+"odds": 1.08,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Portugal vs Lithuania",
+"pick": "Handicap 0:3 \u2013 Lithuania",
+"odds": 1.08,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Club Lujan Reserve vs CA Claypole Reserves",
+"pick": "Under 3.5",
+"odds": 1.03,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"pick": "Al-Ahly Amman Under 1.5",
+"odds": 1.06,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Angola vs Congo",
+"pick": "Under 3.5",
+"odds": 1.04,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"pick": "Uzbekistan or Russia",
+"odds": 1.1,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Congo DR vs Sierra Leone",
+"pick": "Handicap 0:5 \u2013 Sierra Leone",
+"odds": 1.07,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Italy vs Portugal",
+"pick": "Handicap 0:2 \u2013 Portugal",
+"odds": 1.14,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Equatorial Guinea vs Zimbabwe",
+"pick": "Handicap 0:2 \u2013 Zimbabwe",
+"odds": 1.08,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Madagascar vs Guinea-Bissau",
+"pick": "Handicap 2:0 \u2013 Madagascar",
+"odds": 1.16,
+"ts": 1794499200.0
+}
+]
+},
+{
 "code": "MSUJKZ",
 "at": 1794500590,
 "when": "Thu 12 Nov 17:23",
