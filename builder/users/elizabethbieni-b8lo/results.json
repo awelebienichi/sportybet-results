@@ -687,7 +687,10 @@
 "game": "Houston Rockets vs Golden State Warriors",
 "pick": "Over 206.5 total points",
 "odds": 1.25,
-"ts": 1794450600.0
+"ts": 1794450600.0,
+"r": "W",
+"sc": "115-108",
+"ht": "35-20"
 },
 {
 "t": "Thu 04:00",
@@ -1151,7 +1154,10 @@
 "game": "Houston Rockets vs Golden State Warriors",
 "pick": "Over 206.5 total points",
 "odds": 1.25,
-"ts": 1794450600.0
+"ts": 1794450600.0,
+"r": "W",
+"sc": "115-108",
+"ht": "35-20"
 },
 {
 "t": "Thu 18:00",
