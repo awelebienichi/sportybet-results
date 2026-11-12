@@ -1,5 +1,75 @@
 [
 {
+"when": "Thu 12 Nov 16:30",
+"at": 1794497431,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwdpfkq2257y"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 10).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "UE0RFR",
+"odds": 1.99,
+"legs": [
+{
+"t": "Thu 15:00",
+"game": "Boca Juniors vs Social Atletico Television",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Under 4.5",
+"odds": 1.19,
+"why": "LIVE 3-0 68': Boca Juniors expected 0.3 and Social Atletico Television 0.2 more goals (last 10 + season); 3-0 at 68' \u2013 89% chance; Flashscore home/away form 95%, season: 1.9 goals a game",
+"ts": 1794492000.0,
+"eid": "sr:match:76585762",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76585762|18|total=4.5|13"
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"lg": "Jordan - First Division",
+"pick": "Handicap 0:2 \u2013 Amman FC",
+"odds": 1.18,
+"why": "LIVE 0-0 23': Al-Ahly Amman expected 0.7 and Amman FC 1.0 more goals (last 10 + season); 0-0 at 23' \u2013 91% chance; margin record 80% / 100% in both sides' last games",
+"ts": 1794495600.0,
+"eid": "sr:match:74205868",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "74205868|14|hcp=0:2|1713"
+},
+{
+"t": "Thu 16:00",
+"game": "Ghana vs Somalia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:3 \u2013 Somalia",
+"odds": 1.42,
+"why": "LIVE 0-0 25': Ghana expected 1.0 and Somalia 1.0 more goals (last 10); 0-0 at 25' \u2013 94% chance",
+"ts": 1794495600.0,
+"eid": "sr:match:75802240",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75802240|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 16:17",
 "at": 1794496639,
 "req": {
@@ -10158,322 +10228,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "76455622|68|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 22:53",
-"at": 1794433990,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"wu25"
-],
-"rid": "mwcnnknhmmuo"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "MDZFN9",
-"odds": 5.47,
-"legs": [
-{
-"t": "Thu 00:00",
-"game": "Real Cundinamarca vs Real Cartagena FC",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "Real Cartagena FC Under 2.5 goals",
-"odds": 1.09,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings",
-"ts": 1794438000.0,
-"eid": "sr:match:76204162",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76204162|20|total=2.5|13"
-},
-{
-"t": "Fri 00:00",
-"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Athletic Club Sjdr MG Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794524400.0,
-"eid": "sr:match:68823468",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68823468|20|total=2.5|13"
-},
-{
-"t": "Fri 15:45",
-"game": "Qatar vs Australia",
-"lg": "International - Int. Friendly Games",
-"pick": "Qatar Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 93% from both teams' last 10 and 5 meetings",
-"ts": 1794581100.0,
-"eid": "sr:match:75467648",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75467648|19|total=2.5|13"
-},
-{
-"t": "Fri 20:45",
-"game": "Netherlands vs Greece",
-"lg": "International - UEFA Nations League",
-"pick": "Greece Under 2.5 goals",
-"odds": 1.06,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings",
-"ts": 1794599100.0,
-"eid": "sr:match:68931584",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68931584|20|total=2.5|13"
-},
-{
-"t": "Sat 06:00",
-"game": "Oita Trinita vs Tochigi City FC",
-"lg": "Japan - J2 League",
-"pick": "Tochigi City FC Under 2.5 goals",
-"odds": 1.12,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794632400.0,
-"eid": "sr:match:72151364",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72151364|20|total=2.5|13"
-},
-{
-"t": "Sat 06:00",
-"game": "Shonan Bellmare vs Yokohama FC",
-"lg": "Japan - J2 League",
-"pick": "Shonan Bellmare Under 2.5 goals",
-"odds": 1.1,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings",
-"ts": 1794632400.0,
-"eid": "sr:match:72151354",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72151354|19|total=2.5|13"
-},
-{
-"t": "Sat 14:00",
-"game": "Central Espanol FC vs CA Boston River",
-"lg": "Uruguay - Primera Division",
-"pick": "Central Espanol FC Under 2.5 goals",
-"odds": 1.1,
-"why": "stats rate 96% from both teams' last 10 and 5 meetings",
-"ts": 1794661200.0,
-"eid": "sr:match:76455620",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76455620|19|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Carlisle United vs Boston United FC",
-"lg": "England - National League",
-"pick": "Boston United FC Under 2.5 goals",
-"odds": 1.08,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings",
-"ts": 1794668400.0,
-"eid": "sr:match:72740790",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72740790|20|total=2.5|13"
-},
-{
-"t": "Sat 18:00",
-"game": "Georgia vs Hungary",
-"lg": "International - UEFA Nations League",
-"pick": "Georgia Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794675600.0,
-"eid": "sr:match:68932766",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68932766|19|total=2.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "Fortaleza EC CE vs Vila Nova FC GO",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Vila Nova FC GO Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1794684600.0,
-"eid": "sr:match:68823474",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68823474|20|total=2.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "Criciuma EC SC vs Gremio Novorizontino SP",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Criciuma EC SC Under 2.5 goals",
-"odds": 1.09,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings",
-"ts": 1794684600.0,
-"eid": "sr:match:68823478",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68823478|19|total=2.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "SC Recife PE vs Goias EC GO",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "SC Recife PE Under 2.5 goals",
-"odds": 1.09,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings",
-"ts": 1794684600.0,
-"eid": "sr:match:68823480",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68823480|19|total=2.5|13"
-},
-{
-"t": "Sat 20:45",
-"game": "Northern Ireland vs Ukraine",
-"lg": "International - UEFA Nations League",
-"pick": "Ukraine Under 2.5 goals",
-"odds": 1.06,
-"why": "stats rate 96% from both teams' last 10 and 5 meetings",
-"ts": 1794685500.0,
-"eid": "sr:match:68932768",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68932768|20|total=2.5|13"
-},
-{
-"t": "Sat 21:30",
-"game": "Atletico Nacional vs CD Once Caldas",
-"lg": "Colombia - Liga DIMAYOR",
-"pick": "CD Once Caldas Under 2.5 goals",
-"odds": 1.14,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings",
-"ts": 1794688200.0,
-"eid": "sr:match:76676664",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76676664|20|total=2.5|13"
-},
-{
-"t": "Sat 21:30",
-"game": "Aguilas Doradas Rionegro vs Independiente Medellin",
-"lg": "Colombia - Liga DIMAYOR",
-"pick": "Independiente Medellin Under 2.5 goals",
-"odds": 1.11,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings",
-"ts": 1794688200.0,
-"eid": "sr:match:76037682",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76037682|20|total=2.5|13"
-},
-{
-"t": "Sun 05:00",
-"game": "Vanraure Hachinohe FC vs Iwaki FC",
-"lg": "Japan - J2 League",
-"pick": "Vanraure Hachinohe FC Under 2.5 goals",
-"odds": 1.09,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794715200.0,
-"eid": "sr:match:72151348",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72151348|19|total=2.5|13"
-},
-{
-"t": "Sun 06:00",
-"game": "FC Imabari vs Jubilo Iwata",
-"lg": "Japan - J2 League",
-"pick": "FC Imabari Under 2.5 goals",
-"odds": 1.09,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794718800.0,
-"eid": "sr:match:72151362",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72151362|19|total=2.5|13"
-},
-{
-"t": "Sun 12:30",
-"game": "FK Ufa vs Spartak Kostroma",
-"lg": "Russia - 1. Liga",
-"pick": "Spartak Kostroma Under 2.5 goals",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10 and 5 meetings",
-"ts": 1794742200.0,
-"eid": "sr:match:72578454",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72578454|20|total=2.5|13"
-},
-{
-"t": "Sun 14:30",
-"game": "MVV Maastricht vs Vitesse Arnhem",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "MVV Maastricht Under 2.5 goals",
-"odds": 1.15,
-"why": "stats rate 92% from both teams' last 10 and 8 meetings",
-"ts": 1794749400.0,
-"eid": "sr:match:72044824",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72044824|19|total=2.5|13"
-},
-{
-"t": "Sun 16:30",
-"game": "FC Penafiel vs Lusitania FC Lourosa",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "Lusitania FC Lourosa Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 96% from both teams' last 10 and 3 meetings",
-"ts": 1794756600.0,
-"eid": "sr:match:72531672",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72531672|20|total=2.5|13"
 }
 ]
 }
