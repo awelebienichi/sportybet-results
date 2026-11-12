@@ -598,7 +598,10 @@
 "game": "Mount Pleasant FC vs Portmore United",
 "pick": "Mount Pleasant FC or GG",
 "odds": 1.31,
-"ts": 1794513600.0
+"ts": 1794513600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Thu 21:00",
@@ -1242,7 +1245,10 @@
 "game": "Mount Pleasant FC vs Portmore United",
 "pick": "Mount Pleasant FC or GG",
 "odds": 1.31,
-"ts": 1794513600.0
+"ts": 1794513600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Thu 21:00",
@@ -1719,7 +1725,10 @@
 "game": "Mount Pleasant FC vs Portmore United",
 "pick": "Mount Pleasant FC or GG",
 "odds": 1.31,
-"ts": 1794513600.0
+"ts": 1794513600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Thu 21:00",
@@ -2070,7 +2079,10 @@
 "game": "Mount Pleasant FC vs Portmore United",
 "pick": "Under 3.5",
 "odds": 1.23,
-"ts": 1794513600.0
+"ts": 1794513600.0,
+"r": "W",
+"sc": "0-0",
+"ht": ""
 }
 ]
 }
