@@ -1,5 +1,206 @@
 [
 {
+"when": "Thu 12 Nov 06:32",
+"at": 1794461530,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 20,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "relaxed",
+"rid": "mwd4247c3zln"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 12 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 87 judged), so the ticket has 12 legs.",
+"Relaxed: in testing about 80 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "MH1HX5",
+"odds": 18.76,
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"lg": "International - FIBA Europe Cup",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794502800.0,
+"eid": "sr:match:75200582",
+"mid": "225",
+"spec": "total=143.5",
+"oid": "12",
+"k": "75200582|225|total=143.5|12"
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"lg": "International - Eurocup",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
+"ts": 1794510000.0,
+"eid": "sr:match:72902308",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72902308|225|total=186.5|13"
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"lg": "International - Euroleague",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794510300.0,
+"eid": "sr:match:73263142",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73263142|225|total=194.5|13"
+},
+{
+"t": "Thu 20:15",
+"game": "BC Olympiakos Piraeus vs Dubai Basketball",
+"lg": "International - Euroleague",
+"pick": "Over 155.5 total points",
+"odds": 1.23,
+"why": "expected BC Olympiakos Piraeus 86 \u2013 Dubai Basketball 83 (last 10/10 games, home edge included); 78% by the stats, 77% with the price",
+"ts": 1794510900.0,
+"eid": "sr:match:73263144",
+"mid": "225",
+"spec": "total=155.5",
+"oid": "12",
+"k": "73263144|225|total=155.5|12"
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"lg": "International - Euroleague",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 80%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263148",
+"mid": "225",
+"spec": "total=196.5",
+"oid": "13",
+"k": "73263148|225|total=196.5|13"
+},
+{
+"t": "Thu 20:30",
+"game": "Olimpia Milano vs BC Zalgiris Kaunas",
+"lg": "International - Euroleague",
+"pick": "Over 157.5 total points",
+"odds": 1.24,
+"why": "expected Olimpia Milano 85 \u2013 BC Zalgiris Kaunas 87 (last 10/10 games, home edge included); 79% by the stats, 78% with the price; Flashscore home/away form 80%",
+"ts": 1794511800.0,
+"eid": "sr:match:73263146",
+"mid": "225",
+"spec": "total=157.5",
+"oid": "12",
+"k": "73263146|225|total=157.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Real Madrid vs KK Crvena zvezda Belgrade",
+"lg": "International - Euroleague",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"why": "expected Real Madrid 93 \u2013 KK Crvena zvezda Belgrade 87 (last 10/10 games, home edge included); 85% by the stats, 81% with the price",
+"ts": 1794513600.0,
+"eid": "sr:match:73263150",
+"mid": "225",
+"spec": "total=161.5",
+"oid": "12",
+"k": "73263150|225|total=161.5|12"
+},
+{
+"t": "Fri 00:00",
+"game": "UMBC Retrievers vs Morgan State Bears",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Under 168.5 total points",
+"odds": 1.43,
+"why": "expected UMBC Retrievers 78 \u2013 Morgan State Bears 73 (last 10/10 games, home edge included); 84% by the stats, 75% with the price; Flashscore home/away form 90%",
+"ts": 1794524400.0,
+"eid": "sr:match:74103876",
+"mid": "225",
+"spec": "total=168.5",
+"oid": "13",
+"k": "74103876|225|total=168.5|13"
+},
+{
+"t": "Fri 00:30",
+"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Under 175.5 total points",
+"odds": 1.48,
+"why": "expected Indiana Hoosiers 75 \u2013 Tennessee Tech Golden Eagles 73 (last 10/10 games, home edge included); 94% by the stats, 79% with the price; Flashscore home/away form 95%",
+"ts": 1794526200.0,
+"eid": "sr:match:74064592",
+"mid": "225",
+"spec": "total=175.5",
+"oid": "13",
+"k": "74064592|225|total=175.5|13"
+},
+{
+"t": "Fri 01:00",
+"game": "Philadelphia 76ers vs Toronto Raptors",
+"lg": "USA - NBA",
+"pick": "Over 208.5 total points",
+"odds": 1.25,
+"why": "expected Philadelphia 76ers 114 \u2013 Toronto Raptors 112 (last 10/10 games, home edge included); 83% by the stats, 79% with the price; Flashscore home/away form 70%, NBA ratings say 225 points",
+"ts": 1794528000.0,
+"eid": "sr:match:73719626",
+"mid": "225",
+"spec": "total=208.5",
+"oid": "12",
+"k": "73719626|225|total=208.5|12"
+},
+{
+"t": "Fri 01:00",
+"game": "Washington Wizards vs Detroit Pistons",
+"lg": "USA - NBA",
+"pick": "Under 233.5 total points",
+"odds": 1.27,
+"why": "expected Washington Wizards 107 \u2013 Detroit Pistons 111 (last 10/10 games, home edge included); 80% by the stats, 77% with the price; Flashscore home/away form 75%, NBA ratings say 219 points",
+"ts": 1794528000.0,
+"eid": "sr:match:73719628",
+"mid": "225",
+"spec": "total=233.5",
+"oid": "13",
+"k": "73719628|225|total=233.5|13"
+},
+{
+"t": "Fri 02:00",
+"game": "Minnesota Timberwolves vs Dallas Mavericks",
+"lg": "USA - NBA",
+"pick": "Under 240.5 total points",
+"odds": 1.26,
+"why": "expected Minnesota Timberwolves 114 \u2013 Dallas Mavericks 109 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 85%, NBA ratings say 224 points",
+"ts": 1794531600.0,
+"eid": "sr:match:73719630",
+"mid": "225",
+"spec": "total=240.5",
+"oid": "13",
+"k": "73719630|225|total=240.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 06:31",
 "at": 1794461491,
 "req": {
@@ -11827,181 +12028,6 @@
 "spec": "",
 "oid": "1",
 "k": "68931760|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 22:43",
-"at": 1794433396,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "htdraw",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwcnb3f8fiw9"
-},
-"ok": true,
-"kind": "half-time draw",
-"note": [
-"Only 10 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 577 games on SportyBet), so this ticket has 10 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "NLZCKQ",
-"odds": 1314.64,
-"legs": [
-{
-"t": "Thu 00:00",
-"game": "Real Cundinamarca vs Real Cartagena FC",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "Half-time draw",
-"odds": 2.05,
-"why": "level at half-time in 70% of Real Cundinamarca's last 10 and 60% of Real Cartagena FC's last 10 (55% were 0-0); league 55% half-time draws; 50% of 10 meetings level at half-time",
-"ts": 1794438000.0,
-"eid": "sr:match:76204162",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76204162|60||2"
-},
-{
-"t": "Fri 00:00",
-"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Half-time draw",
-"odds": 2.2,
-"why": "level at half-time in 80% of Sao Bernardo FC's last 10 and 70% of Athletic Club Sjdr MG's last 10 (40% were 0-0); league 46% half-time draws",
-"ts": 1794524400.0,
-"eid": "sr:match:68823468",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "68823468|60||2"
-},
-{
-"t": "Fri 18:00",
-"game": "JS Saoura vs USM Khenchela",
-"lg": "Algeria - Ligue 1",
-"pick": "Half-time draw",
-"odds": 1.92,
-"why": "level at half-time in 75% of JS Saoura's last 8 and 70% of USM Khenchela's last 10 (72% were 0-0); league 72% half-time draws; 62% of 8 meetings level at half-time",
-"ts": 1794589200.0,
-"eid": "sr:match:75722348",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "75722348|60||2"
-},
-{
-"t": "Sat 13:00",
-"game": "Hellas Syrou vs Panthrakikos FC Komotini",
-"lg": "Greece - Super League 2",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "level at half-time in 90% of Hellas Syrou's last 10 and 60% of Panthrakikos FC Komotini's last 10 (55% were 0-0); league 53% half-time draws",
-"ts": 1794657600.0,
-"eid": "sr:match:74172536",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "74172536|60||2"
-},
-{
-"t": "Sat 14:00",
-"game": "Bronshoj BK vs Vanloese IF",
-"lg": "Denmark - 3rd Division",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "level at half-time in 60% of Bronshoj BK's last 10 and 70% of Vanloese IF's last 10 (35% were 0-0); league 42% half-time draws; 70% of 10 meetings level at half-time",
-"ts": 1794661200.0,
-"eid": "sr:match:72500826",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72500826|60||2"
-},
-{
-"t": "Sat 18:00",
-"game": "CA Temperley vs Club Ciudad de Bolivar",
-"lg": "Argentina - Primera Nacional",
-"pick": "Half-time draw",
-"odds": 1.91,
-"why": "level at half-time in 70% of CA Temperley's last 10 and 70% of Club Ciudad de Bolivar's last 10 (55% were 0-0); league 53% half-time draws",
-"ts": 1794675600.0,
-"eid": "sr:match:76413238",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76413238|60||2"
-},
-{
-"t": "Sat 18:00",
-"game": "CA Atlanta vs CA Estudiantes",
-"lg": "Argentina - Primera Nacional",
-"pick": "Half-time draw",
-"odds": 1.86,
-"why": "level at half-time in 70% of CA Atlanta's last 10 and 60% of CA Estudiantes's last 10 (55% were 0-0); league 53% half-time draws; 80% of 10 meetings level at half-time",
-"ts": 1794675600.0,
-"eid": "sr:match:76413236",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76413236|60||2"
-},
-{
-"t": "Sat 18:00",
-"game": "Deportivo Madryn vs CD Maipu",
-"lg": "Argentina - Primera Nacional",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "level at half-time in 70% of Deportivo Madryn's last 10 and 70% of CD Maipu's last 10 (55% were 0-0); league 53% half-time draws; 40% of 5 meetings level at half-time",
-"ts": 1794675600.0,
-"eid": "sr:match:76413240",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76413240|60||2"
-},
-{
-"t": "Sun 12:00",
-"game": "UD Ibiza vs FC Cartagena",
-"lg": "Spain - Primera Federacion",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "level at half-time in 60% of UD Ibiza's last 10 and 60% of FC Cartagena's last 10 (45% were 0-0); league 43% half-time draws; 44% of 9 meetings level at half-time",
-"ts": 1794740400.0,
-"eid": "sr:match:73068202",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "73068202|60||2"
-},
-{
-"t": "Sun 13:30",
-"game": "PFK Sportist Svoge vs PFC Spartak Pleven",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "Half-time draw",
-"odds": 2.0,
-"why": "level at half-time in 70% of PFK Sportist Svoge's last 10 and 60% of PFC Spartak Pleven's last 10 (45% were 0-0); league 41% half-time draws; 88% of 8 meetings level at half-time",
-"ts": 1794745800.0,
-"eid": "sr:match:72466628",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72466628|60||2"
 }
 ]
 }
