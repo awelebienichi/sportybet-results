@@ -1,5 +1,25 @@
 [
 {
+"when": "Thu 12 Nov 06:38",
+"at": 1794461931,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "u25",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwd4aoxpjb9i"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Thu 12) out of 93 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Thu 12 Nov 06:31",
 "at": 1794461505,
 "req": {
