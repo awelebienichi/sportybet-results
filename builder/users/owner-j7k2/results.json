@@ -65,7 +65,7 @@
 "when": "Thu 12 Nov 19:54",
 "kind": "live \u2013 best of all",
 "odds": 1.31,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 18:30",
@@ -122,7 +122,10 @@
 "game": "Rosario Central Reserve vs CA River Plate (Arg) Reserve",
 "pick": "CA River Plate (Arg) Reserve Under 2.5",
 "odds": 1.04,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
