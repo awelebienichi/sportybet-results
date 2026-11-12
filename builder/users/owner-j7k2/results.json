@@ -4051,14 +4051,17 @@
 "when": "Wed 11 Nov 22:49",
 "kind": "Under 2.5 (low-scoring leagues)",
 "odds": 63.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 00:00",
 "game": "Real Cundinamarca vs Real Cartagena FC",
 "pick": "Under 2.5",
 "odds": 1.69,
-"ts": 1794438000.0
+"ts": 1794438000.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Thu 02:10",
@@ -5322,7 +5325,7 @@
 "odds": 2.05,
 "ts": 1794438000.0,
 "r": "L",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "2-0"
 },
 {
@@ -5534,7 +5537,7 @@
 "odds": 1.27,
 "ts": 1794438000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "2-0"
 },
 {
