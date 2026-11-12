@@ -1,5 +1,47 @@
 [
 {
+"when": "Thu 12 Nov 03:00",
+"at": 1794448807,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 30,
+"strict": "normal",
+"rid": "mwcwhbiko5vg"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 30).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "L8TZJN",
+"odds": 1.13,
+"legs": [
+{
+"t": "Thu 02:10",
+"game": "Deportes Quindio vs Tigres FC",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "GG \u2013 No",
+"odds": 1.13,
+"why": "LIVE 0-0 45': Deportes Quindio expected 0.5 and Tigres FC 0.6 more goals (last 10); 0-0 at 45' \u2013 86% chance",
+"ts": 1794445800.0,
+"eid": "sr:match:76204164",
+"mid": "29",
+"spec": "",
+"oid": "76",
+"k": "76204164|29||76"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 02:59",
 "at": 1794448763,
 "req": {
