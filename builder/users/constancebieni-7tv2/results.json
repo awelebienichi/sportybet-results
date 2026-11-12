@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "NR95TL",
+"at": 1794495683,
+"when": "Thu 12 Nov 16:01",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.01,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"pick": "1st half double chance Belgium or draw",
+"odds": 1.26,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"pick": "Under 4.5",
+"odds": 1.19,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 19:00",
+"game": "Elche CF U19 vs Patacona CF",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:30",
+"game": "AD Izalco vs AD Forfut",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794515400.0
+},
+{
+"t": "Thu 22:00",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794517200.0
+}
+]
+},
+{
 "code": "LB9B92",
 "at": 1794485924,
 "when": "Thu 12 Nov 13:18",
