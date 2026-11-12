@@ -2,6 +2,149 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "TUMTLC",
+"at": 1794467670,
+"when": "Thu 12 Nov 08:14",
+"kind": "your chosen markets",
+"odds": 23.84,
+"status": "open",
+"legs": [
+{
+"t": "Thu 09:30",
+"game": "APIA Leichhardt vs Adelaide City FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794472200.0
+},
+{
+"t": "Thu 12:00",
+"game": "Hannover 96 vs TSV Havelse",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1794481200.0
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Borussia M\u00b4gladbach vs Standard Liege",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Germany vs Sweden",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Italy vs Portugal",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 18:00",
+"game": "SCU Torreense vs Sparta Prague",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Goal bounds 2-5+",
+"odds": 1.38,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FC Barcelona W vs Arsenal WFC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1794505500.0
+},
+{
+"t": "Thu 19:00",
+"game": "Elche CF U19 vs Patacona CF",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 20:30",
+"game": "England vs Czechia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs FK Austria Wien",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794513600.0
+},
+{
+"t": "Thu 21:30",
+"game": "AD Izalco vs AD Forfut",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794515400.0
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "Goal bounds 2-5+",
+"odds": 1.29,
+"ts": 1794519000.0
+},
+{
+"t": "Thu 23:15",
+"game": "EC Bahia BA vs EC Vitoria BA",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1794521700.0
+}
+]
+},
+{
 "code": "PBFM34",
 "at": 1794467458,
 "when": "Thu 12 Nov 08:10",
