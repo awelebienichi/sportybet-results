@@ -86,7 +86,7 @@ def handle(msgs, state):
                 say(f"Ticket ready: {t['code']}  ({t['odds']:,} odds)", body)
             print(f"done {uid} {codes} in {time.time()-t0:.0f}s", flush=True)
             builds.insert(0, dict(when=when, at=int(time.time()), req=req, ok=True, kind=res["kind"], note=res.get("note", []), tickets=res["tickets"]))
-        if req.get("type") == "live" and re.fullmatch(r"[A-Za-z0-9_-]{6,40}", str(req.get("rid", ""))):   # live: straight back to the page (no wait for the site to update)
+        if req.get("type") in ("live", "bblive") and re.fullmatch(r"[A-Za-z0-9_-]{6,40}", str(req.get("rid", ""))):   # live: straight back to the page (no wait for the site to update)
             out = builds[0]
             subprocess.run(["curl", "-s", "-m", "20", "-d", json.dumps(dict(ok=out["ok"], msg=out.get("msg"), note=out.get("note", []), tickets=out.get("tickets", []))),
                             f"https://ntfy.sh/sportylive-{req['rid']}"], capture_output=True)
