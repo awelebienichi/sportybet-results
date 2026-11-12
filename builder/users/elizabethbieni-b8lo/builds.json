@@ -1,5 +1,23 @@
 [
 {
+"when": "Thu 12 Nov 09:39",
+"at": 1794472774,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bball",
+"kind": "win",
+"legs": 30,
+"days": [
+"2026-11-12"
+],
+"strict": "normal",
+"rid": "mwdar9dzuf3k"
+},
+"ok": false,
+"msg": "No basketball game passed the checks for Thu 12 (14 games judged). Try Normal/Relaxed or more days."
+},
+{
 "when": "Thu 12 Nov 09:38",
 "at": 1794472722,
 "req": {
