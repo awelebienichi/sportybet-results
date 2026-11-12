@@ -31,7 +31,10 @@
 "game": "CA Barracas Central Reserve vs Argentinos Juniors Reserve",
 "pick": "Under 2.5",
 "odds": 1.06,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:30",
@@ -109,7 +112,10 @@
 "game": "CA Osasuna vs Logrono United",
 "pick": "Logrono United Under 4.5",
 "odds": 1.06,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Thu 19:00",
