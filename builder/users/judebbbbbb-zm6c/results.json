@@ -2,6 +2,128 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "J72GEA",
+"at": 1794486648,
+"when": "Thu 12 Nov 13:30",
+"kind": "your chosen markets",
+"odds": 20.02,
+"status": "open",
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "Over 1.5",
+"odds": 1.26,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Borussia M\u00b4gladbach vs Standard Liege",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"pick": "Over 1.5",
+"odds": 1.37,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Italy vs Portugal",
+"pick": "Over 1.5",
+"odds": 1.26,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 18:00",
+"game": "SCU Torreense vs Sparta Prague",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Over 1.5",
+"odds": 1.4,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FC Barcelona W vs Arsenal WFC",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1794505500.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA San Lorenzo de Almagro vs Union de Santa Fe",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 20:00",
+"game": "CA Talleres de Cordoba vs San Luis FC",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:30",
+"game": "England vs Czechia",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs FK Austria Wien",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794513600.0
+},
+{
+"t": "Thu 21:30",
+"game": "AD Izalco vs AD Forfut",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794515400.0
+},
+{
+"t": "Thu 22:00",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794517200.0
+}
+]
+},
+{
 "code": "Q99J74",
 "at": 1794485764,
 "when": "Thu 12 Nov 13:16",
