@@ -38,7 +38,10 @@
 "game": "Al-Ahly Amman vs Amman FC",
 "pick": "Al-Ahly Amman Under 1.5",
 "odds": 1.06,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:00",
@@ -121,7 +124,10 @@
 "game": "Al-Ahly Amman vs Amman FC",
 "pick": "Al-Ahly Amman Under 1.5",
 "odds": 1.07,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:00",
@@ -231,14 +237,17 @@
 "when": "Thu 12 Nov 16:53",
 "kind": "live \u2013 quiet game",
 "odds": 1.2,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 16:00",
 "game": "Al-Ahly Amman vs Amman FC",
 "pick": "Al-Ahly Amman Under 1.5",
 "odds": 1.2,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
@@ -265,7 +274,10 @@
 "game": "Al-Ahly Amman vs Amman FC",
 "pick": "Handicap 0:2 \u2013 Amman FC",
 "odds": 1.18,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:00",
@@ -282,14 +294,17 @@
 "when": "Thu 12 Nov 16:17",
 "kind": "live \u2013 best of all",
 "odds": 1.25,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 16:00",
 "game": "Al-Ahly Amman vs Amman FC",
 "pick": "Handicap 0:2 \u2013 Amman FC",
 "odds": 1.25,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
