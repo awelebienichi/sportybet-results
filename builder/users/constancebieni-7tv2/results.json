@@ -514,7 +514,10 @@
 "game": "CD Aguila San Miguel vs Municipal Limeno",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794517200.0
+"ts": 1794517200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
@@ -671,7 +674,10 @@
 "game": "CD Aguila San Miguel vs Municipal Limeno",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794517200.0
+"ts": 1794517200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
@@ -1065,7 +1071,10 @@
 "game": "CD Aguila San Miguel vs Municipal Limeno",
 "pick": "Goal bounds 2-5+",
 "odds": 1.29,
-"ts": 1794519000.0
+"ts": 1794519000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 23:15",
@@ -1142,7 +1151,10 @@
 "game": "CD Aguila San Miguel vs Municipal Limeno",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794519000.0
+"ts": 1794519000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 23:00",
@@ -1246,7 +1258,10 @@
 "game": "CD Aguila San Miguel vs Municipal Limeno",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794519000.0
+"ts": 1794519000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
