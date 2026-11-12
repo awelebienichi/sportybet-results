@@ -252,11 +252,17 @@ def build(req):
     with ThreadPoolExecutor(8) as ex: HM = dict(zip([g["eid"] for g in HG], ex.map(lambda g: _live_odds(g["eid"]), HG)))
     for g in HG:
         g["mk"] = HM.get(g["eid"], {}); hs, as_ = g["score"]; lead = (hs > as_) - (hs < as_)
-        D = _final_dist(hs, as_, g["lh"], g["la"])
+        # blowouts: replaying 696 matches, a side 2 goals up scored 18% more than expected (the trailing side 14% more), a side
+        # 3+ up 40% more (trailing side 10% less) – the game keeps opening up, so the expected goals are raised accordingly
+        gap = abs(hs - as_); lh, la = g["lh"], g["la"]
+        if gap >= 2:
+            ml, mt = (1.18, 1.14) if gap == 2 else (1.40, 0.90)
+            lh, la = (lh * ml, la * mt) if hs > as_ else (lh * mt, la * ml)
+        D = _final_dist(hs, as_, lh, la)
         D1 = None
         if g["minute"] < 42 and g.get("left"):
             f1 = max(0.0, (47 - g["minute"]) / 90) / g["left"]                  # share of the remaining goals that fall before half-time
-            D1 = _final_dist(hs, as_, g["lh"] * f1, g["la"] * f1)
+            D1 = _final_dist(hs, as_, lh * f1, la * f1)
         for (mid, spec, oid), od in g["mk"].items():
             if not 1.08 <= od <= 1.75: continue
             p = _p(D, D1, mid, spec, oid, lead)
@@ -268,6 +274,7 @@ def build(req):
             o15 = mid == "18" and spec == "total=1.5" and oid == "12"
             if kind == "goals" and not o15: p -= .06                          # Over 1.5 tested the other way: the model under-rated it (85-90% said, 92% real)
             if kind == "dead" and g["minute"] < 45: continue
+            if kind == "dead" and gap >= 2: continue                            # no Unders / GG No while one side leads by 2+: even corrected, too shaky (82-89%)
             if p < (LV[0] - .05 if o15 else LV[0]): continue                    # Over 1.5 comes true ~5 points more often than the model says
             if strat != "mix" and kind != strat: continue
             C.append((g, mid, spec, oid, _label(g, mid, spec, oid), p,
