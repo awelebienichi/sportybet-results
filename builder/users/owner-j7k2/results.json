@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KRPQ51",
+"at": 1794508211,
+"when": "Thu 12 Nov 19:30",
+"kind": "live \u2013 best of all",
+"odds": 1.33,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"pick": "Lithuania Under 1.5",
+"odds": 1.03,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Armenia vs Cyprus",
+"pick": "Armenia Under 2.5",
+"odds": 1.06,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"pick": "Turkiye Under 2.5",
+"odds": 1.05,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Tunisia vs Gabon",
+"pick": "Under 3.5",
+"odds": 1.03,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Handicap 0:3 \u2013 Eswatini",
+"odds": 1.03,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 19:00",
+"game": "Chambery SF vs Grenoble Foot",
+"pick": "Handicap 4:0 \u2013 Chambery SF",
+"odds": 1.09,
+"ts": 1794506400.0
+}
+]
+},
+{
 "code": "WBGXWP",
 "at": 1794504991,
 "when": "Thu 12 Nov 18:36",
