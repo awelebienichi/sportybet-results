@@ -1,6 +1,16 @@
 [
 {
 "when": "Thu 12 Nov 16:01",
+"at": 1794495691,
+"req": {
+"type": "rollover",
+"rid": "mwdodq4ikzd7"
+},
+"ok": false,
+"msg": "Today's rollover code is already out: NR95TL"
+},
+{
+"when": "Thu 12 Nov 16:01",
 "at": 1794495683,
 "req": {
 "type": "rollover",
