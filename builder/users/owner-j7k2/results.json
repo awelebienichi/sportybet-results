@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WBGXWP",
+"at": 1794504991,
+"when": "Thu 12 Nov 18:36",
+"kind": "live \u2013 best of all",
+"odds": 1.84,
+"status": "open",
+"legs": [
+{
+"t": "Thu 17:00",
+"game": "Equatorial Guinea vs Zimbabwe",
+"pick": "GG \u2013 No",
+"odds": 1.04,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Tritones Vallarta MFC vs H2O Purepechas FC",
+"pick": "GG \u2013 No",
+"odds": 1.08,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Congo DR vs Sierra Leone",
+"pick": "Handicap 0:5 \u2013 Sierra Leone",
+"odds": 1.08,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 17:15",
+"game": "Qatar SC U20 vs Umm Salal U20",
+"pick": "Under 5.5",
+"odds": 1.03,
+"ts": 1794500100.0
+},
+{
+"t": "Thu 17:15",
+"game": "Al Duhail U20 vs Al Sadd U20",
+"pick": "Al Sadd U20 or draw",
+"odds": 1.05,
+"ts": 1794500100.0
+},
+{
+"t": "Thu 18:00",
+"game": "Guinea vs Eritrea",
+"pick": "Under 5.5",
+"odds": 1.03,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "CD Atletico Balboa U20 vs CD Inca Aruba U20",
+"pick": "CD Inca Aruba U20 or draw",
+"odds": 1.04,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"pick": "Belgium or draw",
+"odds": 1.08,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Armenia vs Cyprus",
+"pick": "Cyprus or draw",
+"odds": 1.12,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"pick": "Handicap 0:2 \u2013 Suriname",
+"odds": 1.08,
+"ts": 1794502800.0
+}
+]
+},
+{
 "code": "RHH5AG",
 "at": 1794503233,
 "when": "Thu 12 Nov 18:07",
