@@ -28,6 +28,8 @@ def games():
         T = (d.get("data") or {}).get("tournaments") or []
         for t in T:
             for e in t.get("events", []):
+                cat, trn = e["sport"]["category"]["name"], e["sport"]["category"]["tournament"]["name"]
+                if "Simulated" in cat or "SRL" in trn or "SRL" in e["homeTeamName"] + e["awayTeamName"]: continue     # simulated games: never (user's decision)
                 out[e["eventId"]] = dict(eid=e["eventId"], ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"],
                                          lg=e["sport"]["category"]["name"] + " - " + e["sport"]["category"]["tournament"]["name"],
                                          hid=e["homeTeamId"].split(":")[-1], aid=e["awayTeamId"].split(":")[-1], x={}, ou={})
