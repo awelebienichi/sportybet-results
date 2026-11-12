@@ -257,14 +257,17 @@
 "when": "Thu 12 Nov 00:40",
 "kind": "basketball \u2013 total points",
 "odds": 10.09,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 01:00",
 "game": "Toronto Raptors vs Boston Celtics",
 "pick": "Over 202.5 total points",
 "odds": 1.25,
-"ts": 1794441600.0
+"ts": 1794441600.0,
+"r": "L",
+"sc": "93-98",
+"ht": "38-29"
 },
 {
 "t": "Thu 01:00",
@@ -2288,14 +2291,17 @@
 "when": "Wed 11 Nov 23:24",
 "kind": "rebuild of WBGQ2A",
 "odds": 1.61,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 01:00",
 "game": "New York Knicks vs Cleveland Cavaliers",
 "pick": "New York Knicks to win",
 "odds": 1.61,
-"ts": 1794441600.0
+"ts": 1794441600.0,
+"r": "L",
+"sc": "107-115",
+"ht": "23-33"
 }
 ]
 },
