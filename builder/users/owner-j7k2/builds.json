@@ -1,5 +1,209 @@
 [
 {
+"when": "Thu 12 Nov 21:39",
+"at": 1794515944,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17",
+"2026-11-18"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 100,
+"rid": "mwe0fqd49jur"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [],
+"tickets": [
+{
+"code": "LFK3YW",
+"odds": 102.18,
+"legs": [
+{
+"t": "Thu 22:00",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"lg": "El Salvador - Primera Division",
+"pick": "Over 2.5",
+"odds": 1.69,
+"why": "season: 3.3 and 3.1 goals a game (19/20 games); last 10 rate 80%; Flashscore home/away form 75%",
+"ts": 1794517200.0,
+"eid": "sr:match:73075396",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73075396|18|total=2.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "FC Viktoria Plzen B vs FK Loko Prague",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.31,
+"why": "season: 3.8 and 3.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, Vitibet tip 3-1",
+"ts": 1794591000.0,
+"eid": "sr:match:72415122",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415122|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "K.v.v. Quick Boys vs Jong Almere City FC",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 3.6 and 4.1 goals a game (12/12 games); last 10 rate 85%; FotMob: 3.8 goals a game, Vitibet tip 3-1, season: 3.8 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:72594666",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72594666|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"lg": "Wales - Cymru Championship, North",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "season: 4.2 and 3.6 goals a game (13/13 games); last 10 rate 80%; season: 3.9 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:76487950",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76487950|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Rohda Raalte vs VV Katwijk",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 3.9 and 3.4 goals a game (12/12 games); last 10 rate 80%; FotMob: 3.7 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:72594668",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72594668|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Leamington FC vs Leiston FC",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "season: 3.4 and 3.9 goals a game (17/15 games); last 10 rate 85%; FotMob: 3.6 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73022126",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73022126|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Warrington Rylands 1906 FC vs Whitby Town",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "season: 3.2 and 3.9 goals a game (17/18 games); last 10 rate 80%; FotMob: 3.6 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73018714",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73018714|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "season: 3.4 and 3.8 goals a game (16/16 games); last 10 rate 80%; FotMob: 3.6 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72740812",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740812|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Leatherhead FC vs St Albans City",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.62,
+"why": "season: 3.5 and 3.4 goals a game (14/13 games); last 10 rate 75%; FotMob: 3.4 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73026106",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73026106|18|total=2.5|12"
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 2.5",
+"odds": 1.57,
+"why": "season: 3.2 and 3.3 goals a game (9/9 games); last 10 rate 80%",
+"ts": 1794676500.0,
+"eid": "sr:match:73346120",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346120|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "season: 4.2 and 3.5 goals a game (14/14 games); last 10 rate 80%; footybets 85%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044822|18|total=2.5|12"
+},
+{
+"t": "Sun 10:15",
+"game": "Bohemians Prague 1905 B vs FK Kraluv Dvur",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 4.3 and 4.3 goals a game (14/14 games); last 10 rate 90%; season: 4.3 goals a game",
+"ts": 1794734100.0,
+"eid": "sr:match:72415120",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415120|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 21:03",
 "at": 1794513801,
 "req": {
@@ -4849,177 +5053,5 @@
 },
 "ok": false,
 "msg": "100000 odds can't be reached: 13 basketball legs pass the checks (Thu 12, Fri 13, Sat 14); with up to 10 legs the most is 4.99 odds. Lower the target or allow more legs."
-},
-{
-"when": "Thu 12 Nov 00:40",
-"at": 1794440446,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 10,
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"rid": "mwcri6n6xxi0"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "YA6HQJ",
-"odds": 10.09,
-"legs": [
-{
-"t": "Thu 01:00",
-"game": "Toronto Raptors vs Boston Celtics",
-"lg": "USA - NBA",
-"pick": "Over 202.5 total points",
-"odds": 1.25,
-"why": "expected Toronto Raptors 111 \u2013 Boston Celtics 113 (last 10/10 games, home edge included); 89% by the stats, 82% with the price",
-"ts": 1794441600.0,
-"eid": "sr:match:73719610",
-"mid": "225",
-"spec": "total=202.5",
-"oid": "12",
-"k": "73719610|225|total=202.5|12"
-},
-{
-"t": "Thu 01:00",
-"game": "Norfolk State Spartans vs Old Dominion Monarchs",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Over 128.5 total points",
-"odds": 1.4,
-"why": "expected Norfolk State Spartans 76 \u2013 Old Dominion Monarchs 76 (last 10/10 games, home edge included); 91% by the stats, 79% with the price",
-"ts": 1794441600.0,
-"eid": "sr:match:74297878",
-"mid": "225",
-"spec": "total=128.5",
-"oid": "12",
-"k": "74297878|225|total=128.5|12"
-},
-{
-"t": "Thu 01:00",
-"game": "Indiana Pacers vs Washington Wizards",
-"lg": "USA - NBA",
-"pick": "Under 240.5 total points",
-"odds": 1.29,
-"why": "expected Indiana Pacers 113 \u2013 Washington Wizards 109 (last 10/10 games, home edge included); 85% by the stats, 79% with the price",
-"ts": 1794441600.0,
-"eid": "sr:match:73719606",
-"mid": "225",
-"spec": "total=240.5",
-"oid": "13",
-"k": "73719606|225|total=240.5|13"
-},
-{
-"t": "Thu 02:00",
-"game": "Milwaukee Bucks vs Los Angeles Lakers",
-"lg": "USA - NBA",
-"pick": "Over 215.5 total points",
-"odds": 1.24,
-"why": "expected Milwaukee Bucks 112 \u2013 Los Angeles Lakers 119 (last 10/10 games, home edge included); 81% by the stats, 78% with the price",
-"ts": 1794445200.0,
-"eid": "sr:match:73719616",
-"mid": "225",
-"spec": "total=215.5",
-"oid": "12",
-"k": "73719616|225|total=215.5|12"
-},
-{
-"t": "Thu 03:00",
-"game": "Utah Jazz vs Orlando Magic",
-"lg": "USA - NBA",
-"pick": "Over 201.5 total points",
-"odds": 1.25,
-"why": "expected Utah Jazz 113 \u2013 Orlando Magic 110 (last 10/10 games, home edge included); 88% by the stats, 82% with the price",
-"ts": 1794448800.0,
-"eid": "sr:match:73719620",
-"mid": "225",
-"spec": "total=201.5",
-"oid": "12",
-"k": "73719620|225|total=201.5|12"
-},
-{
-"t": "Thu 03:30",
-"game": "Houston Rockets vs Golden State Warriors",
-"lg": "USA - NBA",
-"pick": "Over 206.5 total points",
-"odds": 1.25,
-"why": "expected Houston Rockets 114 \u2013 Golden State Warriors 112 (last 10/10 games, home edge included); 86% by the stats, 81% with the price",
-"ts": 1794450600.0,
-"eid": "sr:match:73719622",
-"mid": "225",
-"spec": "total=206.5",
-"oid": "12",
-"k": "73719622|225|total=206.5|12"
-},
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"lg": "International - FIBA Europe Cup",
-"pick": "Over 143.5 total points",
-"odds": 1.2,
-"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price",
-"ts": 1794502800.0,
-"eid": "sr:match:75200582",
-"mid": "225",
-"spec": "total=143.5",
-"oid": "12",
-"k": "75200582|225|total=143.5|12"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"lg": "International - Euroleague",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price",
-"ts": 1794510300.0,
-"eid": "sr:match:73263142",
-"mid": "225",
-"spec": "total=194.5",
-"oid": "13",
-"k": "73263142|225|total=194.5|13"
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"lg": "International - Euroleague",
-"pick": "Under 196.5 total points",
-"odds": 1.25,
-"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 80% with the price",
-"ts": 1794511800.0,
-"eid": "sr:match:73263148",
-"mid": "225",
-"spec": "total=196.5",
-"oid": "13",
-"k": "73263148|225|total=196.5|13"
-},
-{
-"t": "Thu 21:00",
-"game": "Real Madrid vs KK Crvena zvezda Belgrade",
-"lg": "International - Euroleague",
-"pick": "Over 161.5 total points",
-"odds": 1.22,
-"why": "expected Real Madrid 93 \u2013 KK Crvena zvezda Belgrade 87 (last 10/10 games, home edge included); 85% by the stats, 81% with the price",
-"ts": 1794513600.0,
-"eid": "sr:match:73263150",
-"mid": "225",
-"spec": "total=161.5",
-"oid": "12",
-"k": "73263150|225|total=161.5|12"
-}
-]
-}
-]
 }
 ]
