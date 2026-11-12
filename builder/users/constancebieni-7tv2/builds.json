@@ -1,5 +1,139 @@
 [
 {
+"when": "Thu 12 Nov 16:01",
+"at": 1794495683,
+"req": {
+"type": "rollover",
+"legs": 8,
+"rid": "mwdodmcrlu2q"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6401 if it wins"
+],
+"tickets": [
+{
+"code": "NR95TL",
+"odds": 4.01,
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Belgium or draw",
+"odds": 1.26,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); head-to-head 100%",
+"ts": 1794502800.0,
+"eid": "sr:match:68931496",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "68931496|63||11"
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"lg": "Spain - Copa del Rey",
+"pick": "Under 4.5",
+"odds": 1.19,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 95%",
+"ts": 1794504600.0,
+"eid": "sr:match:76516976",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76516976|18|total=4.5|13"
+},
+{
+"t": "Thu 19:00",
+"game": "Elche CF U19 vs Patacona CF",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794506400.0,
+"eid": "sr:match:75935738",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75935738|450001||25"
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931756",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931756|90|total=0.5|12"
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 90%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931500",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931500|90|total=0.5|12"
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); head-to-head 83%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931754",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931754|90|total=0.5|12"
+},
+{
+"t": "Thu 21:30",
+"game": "AD Izalco vs AD Forfut",
+"lg": "El Salvador - Liga de Ascenso",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794515400.0,
+"eid": "sr:match:76644046",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76644046|450001||25"
+},
+{
+"t": "Thu 22:00",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"lg": "El Salvador - Primera Division",
+"pick": "Over 1.5",
+"odds": 1.23,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 100%; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
+"ts": 1794517200.0,
+"eid": "sr:match:73075396",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73075396|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 13:18",
 "at": 1794485924,
 "req": {

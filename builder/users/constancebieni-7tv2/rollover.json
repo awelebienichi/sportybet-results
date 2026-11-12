@@ -20,18 +20,18 @@
 "returned": 0
 }
 ],
-"start_stake": 200.0,
-"stake": 200.0,
+"start_stake": 100.0,
+"stake": 100.0,
 "odds": 4.0,
 "hour": 10,
 "day": 1,
 "current": {
 "date": "2026-11-12",
-"code": "YF3048",
-"odds": 4.14,
-"stake": 200.0,
-"n": 7,
-"result": "lost"
+"code": "NR95TL",
+"odds": 4.01,
+"stake": 100.0,
+"n": 8,
+"result": null
 },
 "started": "2026-11-12",
 "short": "lower",
