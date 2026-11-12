@@ -1,5 +1,46 @@
 [
 {
+"when": "Thu 12 Nov 13:19",
+"at": 1794485965,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 8,
+"strict": "strict",
+"rid": "mwdiluwqsp0y"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 8).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "YSQCB6",
+"odds": 1.22,
+"legs": [
+{
+"t": "Thu 12:00",
+"game": "Hannover 96 vs TSV Havelse",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Hannover 96 Under 6.5",
+"odds": 1.22,
+"why": "LIVE 4-0 53': Hannover 96 expected 0.8 and TSV Havelse 0.6 more goals (last 10); 4-0 at 53' \u2013 93% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1794481200.0,
+"eid": "sr:match:76233346",
+"mid": "19",
+"spec": "total=6.5",
+"oid": "13",
+"k": "76233346|19|total=6.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 13:18",
 "at": 1794485936,
 "req": {
@@ -11340,139 +11381,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "74056922|18|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 22:49",
-"at": 1794433756,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25yw",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwcnin232s6y"
-},
-"ok": true,
-"kind": "Over 2.5 (strong teams in youth & women's leagues)",
-"note": [
-"Only 7 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 577 games on SportyBet), so this ticket has 7 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "Q67D4N",
-"odds": 11.68,
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "Club America vs Deportivo Toluca FC",
-"lg": "Mexico - Liga MX, Women",
-"pick": "Over 2.5",
-"odds": 1.18,
-"why": "strong side Club America (win 1.14) scores 3.8 a game, 100% of its games over 2.5; Deportivo Toluca FC concedes 1.8 a game; 88% of 8 meetings over; Flashscore home/away form 90%, season: 4.5 goals a game",
-"ts": 1794445200.0,
-"eid": "sr:match:76595256",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76595256|18|total=2.5|12"
-},
-{
-"t": "Thu 14:00",
-"game": "Germany vs Sweden",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "strong side Germany (win 1.49) scores 1.9 a game, 80% of its games over 2.5; Sweden concedes 1.4 a game; Flashscore home/away form 75%",
-"ts": 1794488400.0,
-"eid": "sr:match:75894688",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75894688|18|total=2.5|12"
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"lg": "International Clubs - UEFA Europa Cup, Women",
-"pick": "Over 2.5",
-"odds": 1.68,
-"why": "strong side SCU Torreense (win 1.67) scores 3.0 a game, 90% of its games over 2.5; Sparta Prague concedes 1.0 a game; Flashscore home/away form 65%",
-"ts": 1794502800.0,
-"eid": "sr:match:75233062",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75233062|18|total=2.5|12"
-},
-{
-"t": "Thu 18:45",
-"game": "FC Barcelona W vs Arsenal WFC",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "strong side FC Barcelona W (win 1.16) scores 4.7 a game, 90% of its games over 2.5; Arsenal WFC concedes 1.2 a game; 80% of 5 meetings over; Flashscore home/away form 85%, Vitibet tip 3-1",
-"ts": 1794505500.0,
-"eid": "sr:match:74371846",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74371846|18|total=2.5|12"
-},
-{
-"t": "Sat 05:00",
-"game": "Melbourne City FC vs Newcastle Jets",
-"lg": "Australia - A-League, Women",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "strong side Melbourne City FC (win 1.21) scores 2.4 a game, 60% of its games over 2.5; Newcastle Jets concedes 1.7 a game; 75% of 8 meetings over",
-"ts": 1794628800.0,
-"eid": "sr:match:73928174",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73928174|18|total=2.5|12"
-},
-{
-"t": "Sat 13:45",
-"game": "Manchester United WFC vs Crystal Palace",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "strong side Manchester United WFC (win 1.3) scores 3.1 a game, 60% of its games over 2.5; Crystal Palace concedes 1.9 a game",
-"ts": 1794660300.0,
-"eid": "sr:match:73346114",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346114|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Tottenham Hotspur FC vs Everton FC Women",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "strong side Tottenham Hotspur FC (win 1.39) scores 3.1 a game, 90% of its games over 2.5; Everton FC Women concedes 1.0 a game; 50% of 8 meetings over",
-"ts": 1794668400.0,
-"eid": "sr:match:73346118",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346118|18|total=2.5|12"
 }
 ]
 }
