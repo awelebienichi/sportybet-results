@@ -1,5 +1,182 @@
 [
 {
+"when": "Thu 12 Nov 21:30",
+"at": 1794515451,
+"req": {
+"u": "saheedabiona-mjm6",
+"name": "Saheed Abiona",
+"type": "mix",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17",
+"2026-11-18"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwe05jcwp7u5"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "RF20DJ",
+"odds": 24.98,
+"legs": [
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "2nd half Over 0.5",
+"odds": 1.24,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794535200.0,
+"eid": "sr:match:76629018",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76629018|90|total=0.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.43,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75722348|63||11"
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance Panthrakikos FC Komotini or draw",
+"odds": 1.45,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794657600.0,
+"eid": "sr:match:74172536",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "74172536|63||11"
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs SV Dinamo Helfort 15",
+"lg": "Austria Amateur - Wiener Stadtliga",
+"pick": "1st half double chance SV Dinamo Helfort 15 or draw",
+"odds": 1.33,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794661200.0,
+"eid": "sr:match:72676164",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72676164|63||11"
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half double chance GVVV Veenendaal or draw",
+"odds": 1.42,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794663000.0,
+"eid": "sr:match:72594654",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72594654|63||9"
+},
+{
+"t": "Sat 16:00",
+"game": "Walsall FC vs Barnet FC",
+"lg": "England - League Two",
+"pick": "GG (both teams score)",
+"odds": 1.53,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings; FotMob: both score 1.3+ a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72342380",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72342380|29||74"
+},
+{
+"t": "Sun 10:15",
+"game": "FK Teplice B vs FC Hradec Kralove B",
+"lg": "Czechia - CFL",
+"pick": "1st half double chance FC Hradec Kralove B or draw",
+"odds": 1.43,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794734100.0,
+"eid": "sr:match:72415690",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72415690|63||11"
+},
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.31,
+"why": "stats rate 100% from both teams' last 10; season: 3.5 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73581350",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581350|18|total=1.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "1st half Over 0.5",
+"odds": 1.37,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794756600.0,
+"eid": "sr:match:72531672",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72531672|68|total=0.5|12"
+},
+{
+"t": "Tue 14:00",
+"game": "Tanzania vs Nigeria",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "2nd half Over 0.5",
+"odds": 1.31,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794920400.0,
+"eid": "sr:match:75802322",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75802322|90|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 21:19",
 "at": 1794514781,
 "req": {
