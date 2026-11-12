@@ -1204,7 +1204,10 @@
 "game": "Barbados vs Guadeloupe",
 "pick": "Excluded goals: 2",
 "odds": 1.24,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Thu 20:30",
@@ -1552,7 +1555,10 @@
 "game": "Barbados vs Guadeloupe",
 "pick": "Excluded goals: 2",
 "odds": 1.24,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Thu 20:30",
