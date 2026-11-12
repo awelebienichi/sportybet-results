@@ -1,5 +1,51 @@
 [
 {
+"when": "Thu 12 Nov 06:31",
+"at": 1794461491,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 20,
+"days": [
+"2026-11-12",
+"2026-11-13",
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "strict",
+"rid": "mwd417zpsl2e"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 1 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 87 judged), so the ticket has 1 legs."
+],
+"tickets": [
+{
+"code": "RP087Q",
+"odds": 1.43,
+"legs": [
+{
+"t": "Fri 00:30",
+"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Under 176.5 total points",
+"odds": 1.43,
+"why": "expected Indiana Hoosiers 75 \u2013 Tennessee Tech Golden Eagles 73 (last 10/10 games, home edge included); 94% by the stats, 80% with the price; Flashscore home/away form 95%",
+"ts": 1794526200.0,
+"eid": "sr:match:74064592",
+"mid": "225",
+"spec": "total=176.5",
+"oid": "13",
+"k": "74064592|225|total=176.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 06:29",
 "at": 1794461379,
 "req": {
@@ -11956,280 +12002,6 @@
 "spec": "",
 "oid": "2",
 "k": "72466628|60||2"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 22:42",
-"at": 1794433370,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "gg",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwcnaaip1iac"
-},
-"ok": true,
-"kind": "GG (both teams score)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 17 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 577 games on SportyBet), so this ticket has 17 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "Q4ZSBT",
-"odds": 1122.66,
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "CD FAS Santa Ana vs Inter Santa Tecla",
-"lg": "El Salvador - Primera Division",
-"pick": "GG (both teams score)",
-"odds": 1.75,
-"why": "stats rate 73% from both teams' last 10 and 5 meetings; Flashscore home/away form 55%, FotMob: both score 1.3+ a game",
-"ts": 1794445200.0,
-"eid": "sr:match:73075392",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73075392|29||74"
-},
-{
-"t": "Fri 19:30",
-"game": "SC Neusiedl am See 1919 vs SV Lackenbach",
-"lg": "Austria Amateur - Burgenlandliga",
-"pick": "GG (both teams score)",
-"odds": 1.49,
-"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 78%",
-"ts": 1794594600.0,
-"eid": "sr:match:72560450",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72560450|29||74"
-},
-{
-"t": "Sat 05:00",
-"game": "Sydney United 58 FC vs South Melbourne FC",
-"lg": "Australia - Australian Championship",
-"pick": "GG (both teams score)",
-"odds": 1.58,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794628800.0,
-"eid": "sr:match:74827296",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74827296|29||74"
-},
-{
-"t": "Sat 09:30",
-"game": "Bayswater City vs Sydney Olympic FC",
-"lg": "Australia - Australian Championship",
-"pick": "GG (both teams score)",
-"odds": 1.39,
-"why": "stats rate 75% from both teams' last 10; FotMob: both score 1.3+ a game",
-"ts": 1794645000.0,
-"eid": "sr:match:74827346",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74827346|29||74"
-},
-{
-"t": "Sat 13:00",
-"game": "Ringsted IF vs BK Frem",
-"lg": "Denmark - 3rd Division",
-"pick": "GG (both teams score)",
-"odds": 1.48,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794657600.0,
-"eid": "sr:match:72500820",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72500820|29||74"
-},
-{
-"t": "Sat 14:00",
-"game": "Hoersholm-Usseroed IK vs Naesby BK",
-"lg": "Denmark - 3rd Division",
-"pick": "GG (both teams score)",
-"odds": 1.35,
-"why": "stats rate 80% from both teams' last 10 and 5 meetings",
-"ts": 1794661200.0,
-"eid": "sr:match:72500828",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72500828|29||74"
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"lg": "Wales - Cymru Championship South",
-"pick": "GG (both teams score)",
-"odds": 1.44,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794664800.0,
-"eid": "sr:match:74352338",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74352338|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Walsall FC vs Barnet FC",
-"lg": "England - League Two",
-"pick": "GG (both teams score)",
-"odds": 1.53,
-"why": "stats rate 93% from both teams' last 10 and 4 meetings; footybets 82%, FotMob: both score 1.3+ a game",
-"ts": 1794668400.0,
-"eid": "sr:match:72342380",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72342380|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Crewe Alexandra vs Newport County",
-"lg": "England - League Two",
-"pick": "GG (both teams score)",
-"odds": 1.74,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings; footybets 87%",
-"ts": 1794668400.0,
-"eid": "sr:match:72342362",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72342362|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Gloucester City vs Sholing FC",
-"lg": "England Amateur - Southern League Premier South",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"why": "stats rate 82% from both teams' last 10 and 4 meetings; FotMob: both score 1.3+ a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73025170",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73025170|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Frome Town vs Hanworth Villa",
-"lg": "England Amateur - Southern League Premier South",
-"pick": "GG (both teams score)",
-"odds": 1.52,
-"why": "stats rate 80% from both teams' last 10; FotMob: both score 1.3+ a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73025168",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73025168|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Halesowen Town FC vs Redditch United",
-"lg": "England Amateur - FA Trophy",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"why": "stats rate 79% from both teams' last 10 and 8 meetings",
-"ts": 1794668400.0,
-"eid": "sr:match:76125260",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "76125260|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Braintree Town FC vs Kettering Town",
-"lg": "England Amateur - FA Trophy",
-"pick": "GG (both teams score)",
-"odds": 1.52,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125256",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "76125256|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Leighton Town vs Stratford Town",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:73022128",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73022128|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"lg": "England - National League",
-"pick": "GG (both teams score)",
-"odds": 1.41,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:72740804",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72740804|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Didcot Town vs Slough Town",
-"lg": "England Amateur - FA Trophy",
-"pick": "GG (both teams score)",
-"odds": 1.4,
-"why": "stats rate 75% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125290",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "76125290|29||74"
-},
-{
-"t": "Sun 14:30",
-"game": "Potenza Calcio vs Scafatese Calcio 1922",
-"lg": "Italy - Serie C, Group C",
-"pick": "GG (both teams score)",
-"odds": 1.63,
-"why": "stats rate 80% from both teams' last 10; FotMob: both score 1.3+ a game",
-"ts": 1794749400.0,
-"eid": "sr:match:73294836",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73294836|29||74"
 }
 ]
 }
