@@ -155,14 +155,17 @@
 "when": "Thu 12 Nov 13:12",
 "kind": "rebuild of SP9D73",
 "odds": 2992.21,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 15:00",
 "game": "Boca Juniors vs Social Atletico Television",
 "pick": "Under 3.5",
 "odds": 1.25,
-"ts": 1794492000.0
+"ts": 1794492000.0,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 16:00",
@@ -431,14 +434,17 @@
 "when": "Thu 12 Nov 12:54",
 "kind": "rebuild of SP9D73",
 "odds": 2996.17,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 15:00",
 "game": "Boca Juniors vs Social Atletico Television",
 "pick": "Under 3.5",
 "odds": 1.25,
-"ts": 1794492000.0
+"ts": 1794492000.0,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 16:00",
@@ -1827,7 +1833,10 @@
 "game": "Boca Juniors vs Social Atletico Television",
 "pick": "Under 3.5",
 "odds": 1.25,
-"ts": 1794492000.0
+"ts": 1794492000.0,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 16:00",
@@ -3436,7 +3445,10 @@
 "game": "Boca Juniors vs Social Atletico Television",
 "pick": "Over/Under \u2013 Under 3.5",
 "odds": 1.25,
-"ts": 1794492000.0
+"ts": 1794492000.0,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 16:00",
