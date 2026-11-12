@@ -2,6 +2,58 @@
 "from": 1794426649,
 "tickets": [
 {
+"code": "NAKQJV",
+"at": 1794448640,
+"when": "Thu 12 Nov 02:57",
+"kind": "strong favourites to win",
+"odds": 19.28,
+"status": "open",
+"legs": [
+{
+"t": "Thu 13:30",
+"game": "FC Masar vs El Terasanah",
+"pick": "FC Masar to win",
+"odds": 2.1,
+"ts": 1794486600.0
+},
+{
+"t": "Thu 14:00",
+"game": "Maan SC vs Al Yarmouk",
+"pick": "Al Yarmouk to win",
+"odds": 1.9,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 18:00",
+"game": "SCU Torreense vs Sparta Prague",
+"pick": "SCU Torreense to win",
+"odds": 1.53,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 19:00",
+"game": "Red Bull Bragantino SP vs SC Corinthians SP",
+"pick": "Red Bull Bragantino SP to win",
+"odds": 1.7,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA San Lorenzo de Almagro vs Union de Santa Fe",
+"pick": "CA San Lorenzo de Almagro to win",
+"odds": 1.14,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA Huracan vs Estudiantes de Rio Cuarto Reserve",
+"pick": "CA Huracan to win",
+"odds": 1.63,
+"ts": 1794506400.0
+}
+]
+},
+{
 "code": "NZ7GWY",
 "at": 1794448577,
 "when": "Thu 12 Nov 02:56",
