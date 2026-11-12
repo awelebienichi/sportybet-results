@@ -578,27 +578,45 @@ def rebuild(req):
     if not games: return dict(ok=False, msg=f"None of the games on {code} offer the markets you ticked (or they have all started).")
     import math
     prod = lambda: math.prod(x["opts"][x["i"]]["od"] for x in games)
-    if target > 1:   # cheapest upgrades first: most odds gained for the least chance given up
-        while prod() < target:
-            best = None
-            for x in games:
-                cur = x["opts"][x["i"]]
+    dropped = 0; usable = len(games)
+    if target > 1:
+        # land on the user's odds: one market per game chosen together so the total is as close to the target as the prices
+        # allow (search over every combination in 0.1% steps), and among the combinations that close, the safest legs.
+        # A game is only left out when even its safest market would push the total past the target.
+        S = 1000; T = round(math.log(target) * S); cap = T + 25
+        risk = lambda o: -math.log(min(max(o["r"], .3), .99))
+        layers = []; states = {0: 0.0}
+        for x in games:
+            nxt = {}
+            for b, rk in states.items():
                 for j, o in enumerate(x["opts"]):
-                    if o["od"] <= cur["od"]: continue
-                    cost = (cur["r"] - o["r"] + .01) / math.log(o["od"] / cur["od"])
-                    if best is None or cost < best[0]: best = (cost, x, j)
-            if not best: break
-            best[1]["i"] = best[2]
+                    nb = b + round(math.log(o["od"]) * S)
+                    if nb > cap: continue
+                    nr = rk + risk(o)
+                    if nb not in nxt or nr < nxt[nb][0]: nxt[nb] = (nr, b, j)
+                nr = rk + 50                                                      # leave this game out: only as a last resort
+                if b not in nxt or nr < nxt[b][0]: nxt[b] = (nr, b, -1)
+            layers.append(nxt); states = {b: v[0] for b, v in nxt.items()}
+        near = [b for b in states if abs(b - T) <= 5]                            # within 0.5% of the target
+        end = min(near, key=lambda b: states[b]) if near else min(states, key=lambda b: (abs(b - T), states[b]))
+        for x, L in zip(reversed(games), reversed(layers)):
+            _, prev, j = L[end]; x["i"] = j; end = prev
+        dropped = sum(1 for x in games if x["i"] < 0)
+        games = [x for x in games if x["i"] >= 0]
     legs = []
     for x in sorted(games, key=lambda x: x["g"]["ts"]):
         o = x["opts"][x["i"]]; g = x["g"]
         legs.append(dict(eid=g["eid"], mid=o["mid"], spec=o["spec"], oid=o["oid"], pick=o["lab"], odds=o["od"], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
-                         why=f"stats rate {o['r']:.0%} from both teams' last 10" + (f" (chosen to reach your odds)" if x["i"] > 0 else " (safest of your markets for this game)")))
+                         why=f"stats rate {o['r']:.0%} from both teams' last 10" + (f" (chosen to land on your odds)" if x["i"] > 0 else " (safest of your markets for this game)")))
     note = []
     if gone: note.append(f"{gone} game(s) on {code} had already started and were left out.")
-    if len(games) < len(live): note.append(f"{len(live) - len(games)} game(s) had none of your markets with strong enough stats (55%+) and were left out.")
+    if usable < len(live): note.append(f"{len(live) - usable} game(s) had none of your markets with strong enough stats (55%+) and were left out.")
     p = math.prod(l["odds"] for l in legs)
-    if target > 1 and p < target * .95: note.append(f"Highest odds possible with your markets on these games: about {p:,.2f} (you asked for {target:g}).")
+    if dropped: note.append(f"{dropped} game(s) were left out: even their safest market would have taken the total past {target:g}.")
+    if target > 1:
+        if abs(p / target - 1) <= .01: note.append(f"Total odds {p:,.2f} – on your target of {target:g}.")
+        elif p < target: note.append(f"Highest odds possible with your markets on these games: {p:,.2f} (you asked for {target:g}).")
+        else: note.append(f"Closest the prices allow: {p:,.2f} (you asked for {target:g}).")
     return finish([legs], "rebuild", {"rebuild": f"rebuild of {code}"}, note, req)
 
 # ---------- combine several booking codes into one ----------
