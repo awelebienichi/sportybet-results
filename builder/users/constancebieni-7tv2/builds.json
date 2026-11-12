@@ -1,5 +1,125 @@
 [
 {
+"when": "Thu 12 Nov 08:11",
+"at": 1794467500,
+"req": {
+"type": "rollover",
+"legs": 7,
+"rid": "mwd7m2q1m4y6"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6200 \u2192 returns \u20a6828 if it wins"
+],
+"tickets": [
+{
+"code": "YF3048",
+"odds": 4.14,
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"lg": "International Youth - U21 UEFA European Championship, Qualification",
+"pick": "1st half Over 0.5",
+"odds": 1.38,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794488400.0,
+"eid": "sr:match:75439646",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75439646|68|total=0.5|12"
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Belgium or draw",
+"odds": 1.25,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); head-to-head 100%",
+"ts": 1794502800.0,
+"eid": "sr:match:68931496",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "68931496|63||11"
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"lg": "Spain - Copa del Rey",
+"pick": "Under 4.5",
+"odds": 1.16,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 95%",
+"ts": 1794504600.0,
+"eid": "sr:match:76516976",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76516976|18|total=4.5|13"
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931756",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931756|90|total=0.5|12"
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 90%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931500",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931500|90|total=0.5|12"
+},
+{
+"t": "Thu 21:30",
+"game": "AD Izalco vs AD Forfut",
+"lg": "El Salvador - Liga de Ascenso",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against; season: 3.4 goals a game",
+"ts": 1794515400.0,
+"eid": "sr:match:76644046",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76644046|18|total=1.5|12"
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"lg": "El Salvador - Primera Division",
+"pick": "Over 1.5",
+"odds": 1.28,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 100%; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
+"ts": 1794519000.0,
+"eid": "sr:match:73075396",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73075396|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 08:10",
 "at": 1794467458,
 "req": {
