@@ -1,5 +1,20 @@
 [
 {
+"when": "Thu 12 Nov 03:03",
+"at": 1794448980,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "goals",
+"legs": 30,
+"strict": "normal",
+"rid": "mwcwl8ft4eks"
+},
+"ok": false,
+"msg": "7 games are in play, but none fits that strategy right now (2 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
+},
+{
 "when": "Thu 12 Nov 03:02",
 "at": 1794448928,
 "req": {
