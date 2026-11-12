@@ -1,6 +1,48 @@
 [
 {
 "when": "Thu 12 Nov 16:53",
+"at": 1794498829,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "goals",
+"legs": 6,
+"strict": "normal",
+"rid": "mwdq9h628z1a"
+},
+"ok": true,
+"kind": "live \u2013 another goal coming",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "S0MH11",
+"odds": 1.14,
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"lg": "International - Int. Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "LIVE 1-0 45': Uzbekistan expected 0.7 and Russia 1.2 more goals (last 10); 1-0 at 45' \u2013 81% chance; Flashscore home/away form 61%, footybets 82%",
+"ts": 1794495600.0,
+"eid": "sr:match:75879158",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75879158|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
+"when": "Thu 12 Nov 16:53",
 "at": 1794498798,
 "req": {
 "u": "owner-j7k2",
@@ -9414,71 +9456,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for your chosen markets (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15) out of 577 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Wed 11 Nov 22:56",
-"at": 1794434164,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"u55"
-],
-"rid": "mwcnrjdw9n9h"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 2 games passed the checks (Wed 11, Thu 12, Fri 13, Sat 14, Sun 15, 577 games on SportyBet), so this ticket has 2 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "U944JV",
-"odds": 1.13,
-"legs": [
-{
-"t": "Thu 18:30",
-"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
-"lg": "Spain - Copa del Rey",
-"pick": "Under 5.5",
-"odds": 1.06,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 100%",
-"ts": 1794504600.0,
-"eid": "sr:match:76516976",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76516976|18|total=5.5|13"
-},
-{
-"t": "Sun 00:30",
-"game": "Chapecoense SC vs CR Vasco da Gama RJ",
-"lg": "Brazil - Brasileiro Serie A",
-"pick": "Under 5.5",
-"odds": 1.07,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 2.9 goals a game, Vitibet tip 1-2, season: 2.9 goals a game",
-"ts": 1794699000.0,
-"eid": "sr:match:76229052",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76229052|18|total=5.5|13"
-}
-]
-}
-]
 }
 ]
