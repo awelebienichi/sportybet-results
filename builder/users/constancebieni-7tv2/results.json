@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "Y7RK7A",
+"at": 1794517045,
+"when": "Thu 12 Nov 21:57",
+"kind": "live \u2013 best of all",
+"odds": 1.33,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:30",
+"game": "CS Cerrito vs Colon FC",
+"pick": "Under 3.5",
+"odds": 1.04,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "Handicap 3:0 \u2013 Italy",
+"odds": 1.04,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Montenegro vs Latvia",
+"pick": "Handicap 0:3 \u2013 Latvia",
+"odds": 1.06,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Albania vs Finland",
+"pick": "Albania or Finland",
+"odds": 1.04,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "Handicap 4:0 \u2013 Czechia",
+"odds": 1.07,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs FK Austria Wien",
+"pick": "SL Benfica Lisbon W Under 3.5",
+"odds": 1.04,
+"ts": 1794513600.0
+}
+]
+},
+{
 "code": "N06A6H",
 "at": 1794516996,
 "when": "Thu 12 Nov 21:56",
@@ -627,7 +679,10 @@
 "game": "Ivory Coast vs Gambia",
 "pick": "Double chance Ivory Coast or Gambia",
 "odds": 1.11,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 20:30",

@@ -226,14 +226,20 @@
 "game": "Benin vs Central African Republic",
 "pick": "Handicap 0:5 \u2013 Central African Republic",
 "odds": 1.04,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Thu 20:00",
 "game": "Ivory Coast vs Gambia",
 "pick": "Handicap 0:4 \u2013 Gambia",
 "odds": 1.09,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 20:00",
@@ -270,7 +276,7 @@
 "when": "Thu 12 Nov 20:38",
 "kind": "live \u2013 best of all",
 "odds": 1.43,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 19:00",
@@ -317,14 +323,20 @@
 "game": "Benin vs Central African Republic",
 "pick": "Handicap 0:5 \u2013 Central African Republic",
 "odds": 1.04,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Thu 20:00",
 "game": "Ivory Coast vs Gambia",
 "pick": "Handicap 0:4 \u2013 Gambia",
 "odds": 1.12,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 }
 ]
 },
@@ -1296,7 +1308,10 @@
 "game": "Benin vs Central African Republic",
 "pick": "Central African Republic excluded goals: 2",
 "odds": 1.1,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Thu 20:00",
@@ -1313,7 +1328,10 @@
 "game": "Ivory Coast vs Gambia",
 "pick": "Gambia excluded goals: 1",
 "odds": 1.39,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 20:00",
@@ -1653,7 +1671,10 @@
 "game": "Benin vs Central African Republic",
 "pick": "Central African Republic excluded goals: 2",
 "odds": 1.1,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Thu 20:00",
@@ -1670,7 +1691,10 @@
 "game": "Ivory Coast vs Gambia",
 "pick": "Double chance Ivory Coast or Gambia",
 "odds": 1.11,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 20:00",
@@ -1960,7 +1984,10 @@
 "game": "Benin vs Central African Republic",
 "pick": "Central African Republic excluded goals: 2",
 "odds": 1.1,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Thu 20:00",
@@ -1977,7 +2004,10 @@
 "game": "Ivory Coast vs Gambia",
 "pick": "Double chance Ivory Coast or Gambia",
 "odds": 1.11,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 20:00",
@@ -2249,7 +2279,10 @@
 "game": "Ivory Coast vs Gambia",
 "pick": "Double chance Ivory Coast or Gambia",
 "odds": 1.11,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 20:00",
