@@ -211,7 +211,10 @@
 "game": "Maan SC vs Al Yarmouk",
 "pick": "Under 3.5",
 "odds": 1.23,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-4",
+"ht": ""
 },
 {
 "t": "Thu 14:50",
@@ -1521,7 +1524,10 @@
 "game": "Maan SC vs Al Yarmouk",
 "pick": "Under 3.5",
 "odds": 1.21,
-"ts": 1794488400.0
+"ts": 1794488400.0,
+"r": "L",
+"sc": "0-4",
+"ht": ""
 },
 {
 "t": "Thu 14:00",
