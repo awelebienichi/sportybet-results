@@ -674,7 +674,7 @@
 "when": "Thu 12 Nov 03:02",
 "kind": "basketball \u2013 best market per game",
 "odds": 11.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 03:30",
@@ -695,7 +695,10 @@
 "game": "Oregon Ducks vs Mississippi Valley State Delta Devils",
 "pick": "Oregon Ducks Under 93.5 points",
 "odds": 1.61,
-"ts": 1794452400.0
+"ts": 1794452400.0,
+"r": "L",
+"sc": "100-66",
+"ht": "50-28"
 },
 {
 "t": "Thu 18:00",
