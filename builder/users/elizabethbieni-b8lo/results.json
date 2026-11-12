@@ -2,6 +2,23 @@
 "from": 1794426649,
 "tickets": [
 {
+"code": "L8TZJN",
+"at": 1794448807,
+"when": "Thu 12 Nov 03:00",
+"kind": "live \u2013 best of all",
+"odds": 1.13,
+"status": "open",
+"legs": [
+{
+"t": "Thu 02:10",
+"game": "Deportes Quindio vs Tigres FC",
+"pick": "GG \u2013 No",
+"odds": 1.13,
+"ts": 1794445800.0
+}
+]
+},
+{
 "code": "GL03ZN",
 "at": 1794448763,
 "when": "Thu 12 Nov 02:59",
