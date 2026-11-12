@@ -417,7 +417,10 @@
 "game": "CF Pachuca vs CF Monterrey",
 "pick": "Double chance CF Pachuca or CF Monterrey",
 "odds": 1.27,
-"ts": 1794452400.0
+"ts": 1794452400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 07:00",
@@ -3970,7 +3973,7 @@
 "when": "Wed 11 Nov 22:50",
 "kind": "goal-fest teams (season data)",
 "odds": 3329.28,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 02:00",
@@ -3987,7 +3990,10 @@
 "game": "CF Pachuca vs CF Monterrey",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1794452400.0
+"ts": 1794452400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 22:30",
