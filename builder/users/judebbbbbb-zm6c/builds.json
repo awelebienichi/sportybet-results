@@ -1,7 +1,7 @@
 [
 {
-"when": "Thu 12 Nov 06:38",
-"at": 1794461931,
+"when": "Thu 12 Nov 06:40",
+"at": 1794462000,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -17,11 +17,11 @@
 "rid": "mwd4aoxpjb9i"
 },
 "ok": false,
-"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Thu 12) out of 93 on SportyBet. Try 'Relaxed', more days, or another type."
+"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Thu 12) out of 92 on SportyBet. Try 'Relaxed', more days, or another type."
 },
 {
-"when": "Thu 12 Nov 06:31",
-"at": 1794461505,
+"when": "Thu 12 Nov 06:39",
+"at": 1794461993,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -138,8 +138,8 @@
 ]
 },
 {
-"when": "Thu 12 Nov 06:30",
-"at": 1794461422,
+"when": "Thu 12 Nov 06:39",
+"at": 1794461986,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -228,8 +228,8 @@
 ]
 },
 {
-"when": "Thu 12 Nov 06:29",
-"at": 1794461368,
+"when": "Thu 12 Nov 06:39",
+"at": 1794461982,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -241,11 +241,11 @@
 "target": 20
 },
 "ok": false,
-"msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
+"msg": "1 games are in play, but none fits that strategy right now (1 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 },
 {
-"when": "Thu 12 Nov 06:29",
-"at": 1794461353,
+"when": "Thu 12 Nov 06:39",
+"at": 1794461982,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -257,11 +257,11 @@
 "target": 20
 },
 "ok": false,
-"msg": "No games are in play right now. Try again when matches are on (usually from late morning)."
+"msg": "1 games are in play, but none fits that strategy right now (1 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 },
 {
-"when": "Thu 12 Nov 06:28",
-"at": 1794461307,
+"when": "Thu 12 Nov 06:39",
+"at": 1794461982,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -283,8 +283,8 @@
 "msg": "Only 0 game(s) pass the checks for your chosen markets (Thu 12) out of 93 on SportyBet. Try 'Relaxed', more days, or another type."
 },
 {
-"when": "Thu 12 Nov 06:25",
-"at": 1794461159,
+"when": "Thu 12 Nov 06:39",
+"at": 1794461979,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
