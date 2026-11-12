@@ -587,7 +587,10 @@
 "game": "Italy vs France",
 "pick": "1st half excluded goals: 2",
 "odds": 1.25,
-"ts": 1794512700.0
+"ts": 1794512700.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Thu 20:45",

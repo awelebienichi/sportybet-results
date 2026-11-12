@@ -7,7 +7,7 @@
 "when": "Thu 12 Nov 21:03",
 "kind": "live \u2013 best of all",
 "odds": 4.96,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 19:30",
@@ -59,7 +59,10 @@
 "game": "Flugoiania FC vs Anapolina Saf GO",
 "pick": "Anapolina Saf GO Under 4.5",
 "odds": 1.25,
-"ts": 1794510000.0
+"ts": 1794510000.0,
+"r": "L",
+"sc": "0-5",
+"ht": ""
 },
 {
 "t": "Thu 20:15",
