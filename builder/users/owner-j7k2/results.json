@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MSUJKZ",
+"at": 1794500590,
+"when": "Thu 12 Nov 17:23",
+"kind": "live \u2013 best of all",
+"odds": 1.46,
+"status": "open",
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Ghana vs Somalia",
+"pick": "Handicap 0:4 \u2013 Somalia",
+"odds": 1.09,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Portugal vs Lithuania",
+"pick": "Handicap 0:3 \u2013 Lithuania",
+"odds": 1.09,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Csd Tristan Suarez Reserve vs Almirante Brown Reserve",
+"pick": "Csd Tristan Suarez Reserve to win",
+"odds": 1.03,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"pick": "Al-Ahly Amman Under 1.5",
+"odds": 1.07,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 16:00",
+"game": "Club Lujan Reserve vs CA Claypole Reserves",
+"pick": "Under 3.5",
+"odds": 1.04,
+"ts": 1794495600.0
+},
+{
+"t": "Thu 17:00",
+"game": "Congo DR vs Sierra Leone",
+"pick": "Handicap 0:5 \u2013 Sierra Leone",
+"odds": 1.07,
+"ts": 1794499200.0
+}
+]
+},
+{
 "code": "K3VHW7",
 "at": 1794498883,
 "when": "Thu 12 Nov 16:54",
