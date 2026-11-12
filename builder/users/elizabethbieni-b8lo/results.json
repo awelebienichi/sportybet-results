@@ -2,6 +2,58 @@
 "from": 1794472340,
 "tickets": [
 {
+"code": "R0CJ8R",
+"at": 1794486098,
+"when": "Thu 12 Nov 13:21",
+"kind": "rebuild of GX0N8N",
+"odds": 3.83,
+"status": "open",
+"legs": [
+{
+"t": "Thu 17:00",
+"game": "Equatorial Guinea vs Zimbabwe",
+"pick": "Double chance Equatorial Guinea or Zimbabwe",
+"odds": 1.38,
+"ts": 1794499200.0
+},
+{
+"t": "Thu 19:00",
+"game": "Rosario Central Reserve vs CA River Plate (Arg) Reserve",
+"pick": "Double chance CA River Plate (Arg) Reserve or draw",
+"odds": 1.41,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 20:00",
+"game": "Benin vs Central African Republic",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 21:00",
+"game": "Mount Pleasant FC vs Portmore United",
+"pick": "Mount Pleasant FC or GG",
+"odds": 1.31,
+"ts": 1794513600.0
+},
+{
+"t": "Thu 23:00",
+"game": "Boca Juniors vs Newells Old Boys",
+"pick": "Excluded goals: 5+",
+"odds": 1.08,
+"ts": 1794520800.0
+},
+{
+"t": "Fri 01:30",
+"game": "Curacao vs Panama",
+"pick": "2nd half Over 0.5",
+"odds": 1.3,
+"ts": 1794529800.0
+}
+]
+},
+{
 "code": "JF0XDQ",
 "at": 1794485646,
 "when": "Thu 12 Nov 13:14",
