@@ -1,5 +1,116 @@
 [
 {
+"when": "Thu 12 Nov 21:03",
+"at": 1794513801,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwdz6gopni35"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "KH4GPZ",
+"odds": 1.46,
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Senegal vs Sudan",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:4 \u2013 Sudan",
+"odds": 1.05,
+"why": "LIVE 1-1 45': Senegal expected 1.0 and Sudan 0.6 more goals (last 10); 1-1 at 45' \u2013 98% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 7 meetings",
+"ts": 1794510000.0,
+"eid": "sr:match:75802296",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "75802296|14|hcp=0:4|1713"
+},
+{
+"t": "Thu 20:00",
+"game": "Benin vs Central African Republic",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:5 \u2013 Central African Republic",
+"odds": 1.04,
+"why": "LIVE 3-1 45': Benin expected 0.8 and Central African Republic 0.6 more goals (last 10); 3-1 at 45' \u2013 94% chance; margin record 100% / 90% in both sides' last games",
+"ts": 1794510000.0,
+"eid": "sr:match:75802272",
+"mid": "14",
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "75802272|14|hcp=0:5|1713"
+},
+{
+"t": "Thu 20:00",
+"game": "Ivory Coast vs Gambia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:4 \u2013 Gambia",
+"odds": 1.09,
+"why": "LIVE 2-1 45': Ivory Coast expected 0.9 and Gambia 0.8 more goals (last 10); 2-1 at 45' \u2013 95% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1794510000.0,
+"eid": "sr:match:75802242",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "75802242|14|hcp=0:4|1713"
+},
+{
+"t": "Thu 20:00",
+"game": "CE Europa vs RC Deportivo De La Coruna",
+"lg": "Spain - Copa de SM La Reina",
+"pick": "Handicap 3:0 \u2013 CE Europa",
+"odds": 1.12,
+"why": "LIVE 0-0 45': CE Europa expected 0.7 and RC Deportivo De La Coruna 0.7 more goals (last 10); 0-0 at 45' \u2013 97% chance; margin record 90% / 90% in both sides' last games",
+"ts": 1794510000.0,
+"eid": "sr:match:76484392",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "76484392|14|hcp=3:0|1711"
+},
+{
+"t": "Thu 20:45",
+"game": "Albania vs Finland",
+"lg": "International - UEFA Nations League",
+"pick": "Handicap 0:3 \u2013 Finland",
+"odds": 1.04,
+"why": "LIVE 0-0 16': Albania expected 1.0 and Finland 1.2 more goals (last 10); 0-0 at 16' \u2013 95% chance; margin record 90% / 90% in both sides' last games",
+"ts": 1794512700.0,
+"eid": "sr:match:68932518",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "68932518|14|hcp=0:3|1713"
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"lg": "International - UEFA Nations League",
+"pick": "Over 1.5",
+"odds": 1.05,
+"why": "LIVE 0-1 15': Italy expected 1.2 and France 1.5 more goals (last 10); 0-1 at 15' \u2013 91% chance; Flashscore home/away form 85%, footybets 82%, FotMob: 2.8 goals a game, Vitibet tip 1-2, h2h 88% of 8 meetings (1.5 line)",
+"ts": 1794512700.0,
+"eid": "sr:match:68931500",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "68931500|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 20:38",
 "at": 1794512316,
 "req": {
@@ -4910,25 +5021,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 00:37",
-"at": 1794440254,
-"req": {
-"type": "bball",
-"kind": "total",
-"legs": 10,
-"strict": "normal",
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14"
-],
-"target": 100000,
-"rid": "bbtestpdsj",
-"u": "owner-j7k2"
-},
-"ok": false,
-"msg": "100000 odds can't be reached: 12 basketball legs pass the checks (Thu 12, Fri 13, Sat 14); with up to 10 legs the most is 9.15 odds. Lower the target or allow more legs."
 }
 ]
