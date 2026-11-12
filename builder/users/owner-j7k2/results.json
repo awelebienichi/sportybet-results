@@ -24,7 +24,10 @@
 "game": "Milwaukee Bucks vs Los Angeles Lakers",
 "pick": "Over 215.5 total points",
 "odds": 1.24,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "112-123",
+"ht": "28-30"
 },
 {
 "t": "Thu 03:30",
@@ -107,7 +110,10 @@
 "game": "Milwaukee Bucks vs Los Angeles Lakers",
 "pick": "Over 215.5 total points",
 "odds": 1.24,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "112-123",
+"ht": "28-30"
 },
 {
 "t": "Thu 02:00",
@@ -306,7 +312,10 @@
 "game": "Milwaukee Bucks vs Los Angeles Lakers",
 "pick": "Over 215.5 total points",
 "odds": 1.24,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "112-123",
+"ht": "28-30"
 },
 {
 "t": "Thu 03:00",
