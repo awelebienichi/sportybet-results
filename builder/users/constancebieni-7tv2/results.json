@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "N06A6H",
+"at": 1794516996,
+"when": "Thu 12 Nov 21:56",
+"kind": "live \u2013 best of all",
+"odds": 1.42,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:30",
+"game": "CS Cerrito vs Colon FC",
+"pick": "Under 3.5",
+"odds": 1.05,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Atenas de San Carlos vs Club Oriental de Football",
+"pick": "GG \u2013 No",
+"odds": 1.1,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "Handicap 3:0 \u2013 Italy",
+"odds": 1.04,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Montenegro vs Latvia",
+"pick": "Handicap 0:3 \u2013 Latvia",
+"odds": 1.07,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "Handicap 4:0 \u2013 Czechia",
+"odds": 1.07,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs FK Austria Wien",
+"pick": "SL Benfica Lisbon W Under 3.5",
+"odds": 1.04,
+"ts": 1794513600.0
+}
+]
+},
+{
 "code": "GX0TJS",
 "at": 1794515110,
 "when": "Thu 12 Nov 21:25",
