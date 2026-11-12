@@ -2,6 +2,40 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "S0MH11",
+"at": 1794498829,
+"when": "Thu 12 Nov 16:53",
+"kind": "live \u2013 another goal coming",
+"odds": 1.14,
+"status": "open",
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794495600.0
+}
+]
+},
+{
+"code": "M1BL4G",
+"at": 1794498798,
+"when": "Thu 12 Nov 16:53",
+"kind": "live \u2013 quiet game",
+"odds": 1.2,
+"status": "open",
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"pick": "Al-Ahly Amman Under 1.5",
+"odds": 1.2,
+"ts": 1794495600.0
+}
+]
+},
+{
 "code": "UE0RFR",
 "at": 1794497431,
 "when": "Thu 12 Nov 16:30",
