@@ -1,5 +1,97 @@
 [
 {
+"when": "Thu 12 Nov 02:53",
+"at": 1794448401,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"markets": [
+"up",
+"m5x",
+"m10x"
+],
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwcw8nm4orll"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 4 games passed the checks (Thu 12, 94 games on SportyBet), so this ticket has 4 legs instead of 40. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "PTCHHQ",
+"odds": 1.97,
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Cameroon vs Namibia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Cameroon to win (1UP)",
+"odds": 1.2,
+"why": "stats rate 75% from both teams' last 10 and 4 meetings; Flashscore home/away form 65%, Vitibet 66%",
+"ts": 1794510000.0,
+"eid": "sr:match:75803686",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "75803686|60200||1"
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"lg": "International - UEFA Nations League",
+"pick": "Spain to win (1UP)",
+"odds": 1.11,
+"why": "stats rate 85% from both teams' last 10 and 6 meetings; Flashscore home/away form 55%, FotMob: 1st vs 4th of 4, Vitibet 73%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931754",
+"mid": "60200",
+"spec": "",
+"oid": "3",
+"k": "68931754|60200||3"
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"lg": "International - UEFA Nations League",
+"pick": "England to win (1UP)",
+"odds": 1.13,
+"why": "stats rate 70% from both teams' last 10 and 8 meetings; Flashscore home/away form 55%, Vitibet 65%",
+"ts": 1794512700.0,
+"eid": "sr:match:68931756",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "68931756|60200||1"
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"lg": "El Salvador - Primera Division",
+"pick": "CD Aguila San Miguel to win (1UP)",
+"odds": 1.31,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings; Flashscore home/away form 55%, FotMob: 4th vs 8th of 12",
+"ts": 1794519000.0,
+"eid": "sr:match:73075396",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "73075396|60200||1"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 02:52",
 "at": 1794448357,
 "req": {
