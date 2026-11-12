@@ -209,14 +209,17 @@
 "when": "Thu 12 Nov 08:07",
 "kind": "live \u2013 best of all",
 "odds": 1.16,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 07:10",
 "game": "New Zealand vs India",
 "pick": "Handicap 0:6 \u2013 India",
 "odds": 1.16,
-"ts": 1794463800.0
+"ts": 1794463800.0,
+"r": "W",
+"sc": "5-0",
+"ht": "3-0"
 }
 ]
 },
