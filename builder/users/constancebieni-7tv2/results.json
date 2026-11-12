@@ -336,7 +336,10 @@
 "game": "England vs Czechia",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794511800.0
+"ts": 1794511800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Thu 20:45",
@@ -688,7 +691,10 @@
 "game": "England vs Czechia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794511800.0
+"ts": 1794511800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Thu 20:45",
