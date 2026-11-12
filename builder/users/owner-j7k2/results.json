@@ -344,7 +344,10 @@
 "game": "CD FAS Santa Ana vs Inter Santa Tecla",
 "pick": "GG (both teams score)",
 "odds": 1.7,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Thu 02:00",
@@ -1920,7 +1923,10 @@
 "game": "CD FAS Santa Ana vs Inter Santa Tecla",
 "pick": "GG/NG \u2013 Yes",
 "odds": 1.73,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Thu 02:00",
@@ -5409,7 +5415,10 @@
 "game": "CD FAS Santa Ana vs Inter Santa Tecla",
 "pick": "GG (both teams score)",
 "odds": 1.75,
-"ts": 1794445200.0
+"ts": 1794445200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 19:30",

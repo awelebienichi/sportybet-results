@@ -2,6 +2,44 @@
 "from": 1794426649,
 "tickets": [
 {
+"code": "PTCHHQ",
+"at": 1794448401,
+"when": "Thu 12 Nov 02:53",
+"kind": "your chosen markets",
+"odds": 1.97,
+"status": "open",
+"legs": [
+{
+"t": "Thu 20:00",
+"game": "Cameroon vs Namibia",
+"pick": "Cameroon to win (1UP)",
+"odds": 1.2,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:45",
+"game": "Czechia vs Spain",
+"pick": "Spain to win (1UP)",
+"odds": 1.11,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "England to win (1UP)",
+"odds": 1.13,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "CD Aguila San Miguel to win (1UP)",
+"odds": 1.31,
+"ts": 1794519000.0
+}
+]
+},
+{
 "code": "X6VDZ3",
 "at": 1794448347,
 "when": "Thu 12 Nov 02:52",
