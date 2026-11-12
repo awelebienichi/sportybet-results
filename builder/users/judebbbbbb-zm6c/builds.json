@@ -1,5 +1,65 @@
 [
 {
+"when": "Thu 12 Nov 13:11",
+"at": 1794485514,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "u25",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwdic7qoczcg"
+},
+"ok": true,
+"kind": "Under 2.5 (low-scoring leagues)",
+"note": [
+"Only 2 games passed the checks (Thu 12, 81 games on SportyBet), so this ticket has 2 legs instead of 50. Tick more days or use 'Relaxed' for more.",
+"Under 2.5 has been the weakest market in your tracker."
+],
+"tickets": [
+{
+"code": "G11CH5",
+"odds": 2.23,
+"legs": [
+{
+"t": "Thu 14:50",
+"game": "Oman Club vs AL Nasr SC (OMA)",
+"lg": "Oman - Professional League Cup",
+"pick": "Under 2.5",
+"odds": 1.59,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, 62% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 55%",
+"ts": 1794491400.0,
+"eid": "sr:match:111111114672524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "111111114672524|18|total=2.5|13"
+},
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"lg": "Argentina - Torneo Federal A",
+"pick": "Under 2.5",
+"odds": 1.4,
+"why": "Under 2.5 in 70% / 80% of the teams' last 10, 75% of 8 meetings, league avg 1.7 goals; Flashscore home/away form 75%, season: 1.6 goals a game",
+"ts": 1794508200.0,
+"eid": "sr:match:76479782",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76479782|18|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 06:40",
 "at": 1794462000,
 "req": {
