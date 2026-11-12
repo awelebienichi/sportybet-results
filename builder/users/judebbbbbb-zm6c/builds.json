@@ -1,5 +1,95 @@
 [
 {
+"when": "Thu 12 Nov 06:30",
+"at": 1794461422,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"htx"
+],
+"rid": "mwd3zqwin53x"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 4 games passed the checks (Thu 12, 93 games on SportyBet), so this ticket has 4 legs instead of 50. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "SLU3JY",
+"odds": 21.28,
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Lithuania vs Suriname",
+"lg": "International - Int. Friendly Games",
+"pick": "Half-time draw",
+"odds": 1.96,
+"why": "stats rate 60% from both teams' last 10",
+"ts": 1794502800.0,
+"eid": "sr:match:76354526",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76354526|60||2"
+},
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"lg": "International - Int. Friendly Games",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "stats rate 71% from both teams' last 10",
+"ts": 1794504600.0,
+"eid": "sr:match:76140570",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76140570|60||2"
+},
+{
+"t": "Thu 19:30",
+"game": "Kimberley de Mar Del Plata vs Club Olimpo",
+"lg": "Argentina - Torneo Federal A",
+"pick": "Half-time draw",
+"odds": 1.98,
+"why": "stats rate 70% from both teams' last 10 and 8 meetings",
+"ts": 1794508200.0,
+"eid": "sr:match:76479782",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76479782|60||2"
+},
+{
+"t": "Thu 23:00",
+"game": "Aruba vs Martinique",
+"lg": "International - CONCACAF Nations League",
+"pick": "Half-time draw",
+"odds": 2.55,
+"why": "stats rate 55% from both teams' last 10",
+"ts": 1794520800.0,
+"eid": "sr:match:75512542",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "75512542|60||2"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 06:29",
 "at": 1794461368,
 "req": {
