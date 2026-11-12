@@ -78,7 +78,10 @@
 "game": "France vs Denmark",
 "pick": "Handicap 0:2 \u2013 Denmark",
 "odds": 1.55,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
@@ -303,7 +306,10 @@
 "game": "France vs Denmark",
 "pick": "Handicap 0:2 \u2013 Denmark",
 "odds": 1.55,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
@@ -836,7 +842,10 @@
 "game": "France vs Denmark",
 "pick": "Handicap 0:2 \u2013 Denmark",
 "odds": 1.57,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
@@ -1232,7 +1241,10 @@
 "game": "France vs Denmark",
 "pick": "Handicap 0:2 \u2013 Denmark",
 "odds": 1.57,
-"ts": 1794499200.0
+"ts": 1794499200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
