@@ -629,8 +629,35 @@ def combine(req):
     if clash: note.append(f"{clash} game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip).")
     if not legs: return dict(ok=False, msg=" ".join(note) or "No legs left to combine.")
     legs.sort(key=lambda p: p["ts"])
-    T = [legs[i:i + size] for i in range(0, len(legs), size)]
-    if len(T) > 1: note.append(f"{len(legs)} legs is more than {size} per code, so they were split into {len(T)} codes.")
+    try: L_ = max(0, min(int(req.get("legs") or 0), 100))
+    except Exception: L_ = 0
+    try: N_ = max(0, min(int(req.get("tickets") or 0), 20))
+    except Exception: N_ = 0
+    n = len(legs)
+    if not L_ and not N_:                                                       # one code (split only past SportyBet's limit)
+        T = [legs[i:i + size] for i in range(0, n, size)]
+        if len(T) > 1: note.append(f"{n} legs is more than {size} per code, so they were split into {len(T)} codes.")
+    else:
+        if L_ and L_ > n: note.append(f"Only {n} legs were available, so each ticket has {n} legs instead of {L_}."); L_ = n
+        both = bool(L_ and N_)
+        if not L_: L_ = max(1, -(-n // N_))                                      # tickets only: share the legs evenly
+        if not N_: N_ = -(-n // L_)                                              # legs only: as many tickets as needed
+        if not both or N_ * L_ <= n:
+            # enough legs for every ticket without repeats: deal them out in turn, so each ticket gets early and late games
+            pool = legs
+            T = [[] for _ in range(N_)]; k = 0
+            for p in pool:
+                while len(T[k % N_]) >= L_: k += 1
+                T[k % N_].append(p); k += 1
+                if all(len(t) >= L_ for t in T): break
+            left = n - sum(len(t) for t in T)
+            if left: note.append(f"{left} leg(s) were not needed for {N_} tickets of {L_} and were left out.")
+        else:
+            # more legs asked for than there are: tickets share games (each ticket still has every game only once)
+            T = [[legs[(round(i * n / N_) + j) % n] for j in range(L_)] for i in range(N_)]     # staggered starts: no two tickets the same
+            T = [list({p["eid"]: p for p in t}.values()) for t in T]
+            note.append(f"{N_} tickets × {L_} legs needs {N_ * L_} legs but the codes have {n}, so some games are on more than one ticket.")
+        T = [t for t in T if t]
     return finish(T, "combine", {"combine": "combined " + " + ".join(codes)}, note, req)
 
 def pick_markets(G, LX, groups, want):
