@@ -913,7 +913,10 @@
 "game": "CDA Navalcarnero vs Betis",
 "pick": "2nd half Over 0.5",
 "odds": 1.13,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:30",
@@ -1231,7 +1234,10 @@
 "game": "CDA Navalcarnero vs Betis",
 "pick": "GG (both teams score)",
 "odds": 2.35,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:30",
@@ -1509,7 +1515,10 @@
 "game": "CDA Navalcarnero vs Betis",
 "pick": "GG (both teams score)",
 "odds": 2.3,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 20:00",
@@ -1748,7 +1757,10 @@
 "game": "CDA Navalcarnero vs Betis",
 "pick": "GG (both teams score)",
 "odds": 2.3,
-"ts": 1794506400.0
+"ts": 1794506400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 20:00",
