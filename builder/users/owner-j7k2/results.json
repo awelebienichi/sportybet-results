@@ -767,7 +767,10 @@
 "game": "SCU Torreense vs Sparta Prague",
 "pick": "Excluded goals: 2",
 "odds": 1.24,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:00",
@@ -1082,7 +1085,10 @@
 "game": "SCU Torreense vs Sparta Prague",
 "pick": "Excluded goals: 2",
 "odds": 1.24,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:00",
@@ -2500,7 +2506,10 @@
 "game": "SCU Torreense vs Sparta Prague",
 "pick": "Over 2.5",
 "odds": 1.65,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 18:30",
@@ -4129,7 +4138,7 @@
 "odds": 1.2,
 "ts": 1794502800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
