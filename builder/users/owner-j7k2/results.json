@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PWMMUR",
+"at": 1794509641,
+"when": "Thu 12 Nov 19:54",
+"kind": "live \u2013 best of all",
+"odds": 1.31,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:30",
+"game": "Malta vs Eswatini",
+"pick": "Handicap 0:3 \u2013 Eswatini",
+"odds": 1.06,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA Huracan vs Estudiantes de Rio Cuarto Reserve",
+"pick": "CA Huracan Under 2.5",
+"odds": 1.03,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "Ceara SC CE vs FC Atletico CE",
+"pick": "Handicap 0:3 \u2013 FC Atletico CE",
+"odds": 1.05,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CD Godoy Cruz vs Gimnasia de la Plata Reserve",
+"pick": "CD Godoy Cruz Under 4.5",
+"odds": 1.04,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "CA Osasuna vs Logrono United",
+"pick": "Logrono United Under 4.5",
+"odds": 1.06,
+"ts": 1794506400.0
+},
+{
+"t": "Thu 19:00",
+"game": "Rosario Central Reserve vs CA River Plate (Arg) Reserve",
+"pick": "CA River Plate (Arg) Reserve Under 2.5",
+"odds": 1.04,
+"ts": 1794506400.0
+}
+]
+},
+{
 "code": "KRPQ51",
 "at": 1794508211,
 "when": "Thu 12 Nov 19:30",
@@ -14,7 +66,10 @@
 "game": "Lithuania vs Suriname",
 "pick": "Lithuania Under 1.5",
 "odds": 1.03,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:00",
@@ -31,7 +86,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Turkiye Under 2.5",
 "odds": 1.05,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:00",
@@ -133,7 +191,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Belgium or draw",
 "odds": 1.08,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:00",
@@ -150,7 +211,10 @@
 "game": "Lithuania vs Suriname",
 "pick": "Handicap 0:2 \u2013 Suriname",
 "odds": 1.08,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
@@ -766,7 +830,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:00",
@@ -1084,7 +1151,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:00",
@@ -1379,7 +1449,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Excluded goals: 4",
 "odds": 1.17,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:00",
@@ -1612,14 +1685,20 @@
 "game": "Turkiye vs Belgium",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:00",
 "game": "Lithuania vs Suriname",
 "pick": "Over 1.5",
 "odds": 1.47,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:30",

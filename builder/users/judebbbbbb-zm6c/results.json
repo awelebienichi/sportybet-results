@@ -364,7 +364,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:30",
@@ -927,7 +930,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:30",
@@ -1344,7 +1350,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:30",
