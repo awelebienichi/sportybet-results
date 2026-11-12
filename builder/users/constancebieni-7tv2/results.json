@@ -2,6 +2,65 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "YF3048",
+"at": 1794467133,
+"when": "Thu 12 Nov 08:05",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.14,
+"status": "open",
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"pick": "1st half Over 0.5",
+"odds": 1.38,
+"ts": 1794488400.0
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"pick": "1st half double chance Belgium or draw",
+"odds": 1.25,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 18:30",
+"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
+"pick": "Under 4.5",
+"odds": 1.16,
+"ts": 1794504600.0
+},
+{
+"t": "Thu 20:45",
+"game": "England vs Croatia",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 20:45",
+"game": "Italy vs France",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794512700.0
+},
+{
+"t": "Thu 21:30",
+"game": "AD Izalco vs AD Forfut",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794515400.0
+},
+{
+"t": "Thu 22:30",
+"game": "CD Aguila San Miguel vs Municipal Limeno",
+"pick": "Over 1.5",
+"odds": 1.28,
+"ts": 1794519000.0
+}
+]
+},
+{
 "code": "JD68SH",
 "at": 1794402893,
 "when": "Wed 11 Nov 14:14",
