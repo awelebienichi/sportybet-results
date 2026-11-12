@@ -1,5 +1,99 @@
 [
 {
+"when": "Thu 12 Nov 03:01",
+"at": 1794448869,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"markets": [
+"up",
+"h1u25",
+"m5x",
+"m10x"
+],
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-12"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "19:00",
+"rid": "mwcwiolx58m8"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"2 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 4 games passed the checks (Thu 12, 00:00\u201319:00, 62 games on SportyBet), so this ticket has 4 legs instead of 40. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "GL03ZN",
+"odds": 1.61,
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "Serbia vs North Macedonia",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings",
+"ts": 1794488400.0,
+"eid": "sr:match:76558024",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76558024|68|total=2.5|13"
+},
+{
+"t": "Thu 14:00",
+"game": "Iceland vs Greece",
+"lg": "International Youth - U21 UEFA European Championship, Qualification",
+"pick": "1st half Under 2.5",
+"odds": 1.1,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794488400.0,
+"eid": "sr:match:75439646",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75439646|68|total=2.5|13"
+},
+{
+"t": "Thu 16:00",
+"game": "Uzbekistan vs Russia",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794495600.0,
+"eid": "sr:match:75879158",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75879158|68|total=2.5|13"
+},
+{
+"t": "Thu 18:00",
+"game": "Turkiye vs Belgium",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.19,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings",
+"ts": 1794502800.0,
+"eid": "sr:match:68931496",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68931496|68|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 03:00",
 "at": 1794448807,
 "req": {
