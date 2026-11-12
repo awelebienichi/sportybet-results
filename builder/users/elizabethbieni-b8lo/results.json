@@ -2,6 +2,114 @@
 "from": 1794472340,
 "tickets": [
 {
+"code": "X68N81",
+"at": 1794473663,
+"when": "Thu 12 Nov 09:54",
+"kind": "basketball \u2013 best market per game",
+"odds": 19.39,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"ts": 1794510300.0
+},
+{
+"t": "Thu 20:15",
+"game": "BC Olympiakos Piraeus vs Dubai Basketball",
+"pick": "Dubai Basketball +17.5 (handicap)",
+"odds": 1.12,
+"ts": 1794510900.0
+},
+{
+"t": "Thu 20:30",
+"game": "Olimpia Milano vs BC Zalgiris Kaunas",
+"pick": "BC Zalgiris Kaunas +12.5 (handicap)",
+"odds": 1.1,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Real Madrid vs KK Crvena zvezda Belgrade",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"ts": 1794513600.0
+},
+{
+"t": "Fri 00:30",
+"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
+"pick": "Indiana Hoosiers Under 99.5 points",
+"odds": 1.58,
+"ts": 1794526200.0
+},
+{
+"t": "Fri 01:00",
+"game": "Philadelphia 76ers vs Toronto Raptors",
+"pick": "Toronto Raptors +23.5 (handicap)",
+"odds": 1.15,
+"ts": 1794528000.0
+},
+{
+"t": "Fri 01:00",
+"game": "Washington Wizards vs Detroit Pistons",
+"pick": "Under 233.5 total points",
+"odds": 1.27,
+"ts": 1794528000.0
+},
+{
+"t": "Fri 01:00",
+"game": "High Point Panthers vs Southern Utah Thunderbirds",
+"pick": "Southern Utah Thunderbirds Over 63.5 points",
+"odds": 1.51,
+"ts": 1794528000.0
+},
+{
+"t": "Fri 02:00",
+"game": "Minnesota Timberwolves vs Dallas Mavericks",
+"pick": "Under 240.5 total points",
+"odds": 1.26,
+"ts": 1794531600.0
+},
+{
+"t": "Fri 03:00",
+"game": "Phoenix Suns vs Charlotte Hornets",
+"pick": "Phoenix Suns +7.5 (handicap)",
+"odds": 1.15,
+"ts": 1794535200.0
+},
+{
+"t": "Fri 20:00",
+"game": "VFL Kirchheim Knights vs PS Karlsruhe Lions",
+"pick": "VFL Kirchheim Knights to win (incl. OT)",
+"odds": 1.08,
+"ts": 1794596400.0
+}
+]
+},
+{
 "code": "J4M7F0",
 "at": 1794473454,
 "when": "Thu 12 Nov 09:50",
