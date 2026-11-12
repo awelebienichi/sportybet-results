@@ -205,14 +205,17 @@
 "when": "Thu 12 Nov 21:39",
 "kind": "goal-fest teams (season data)",
 "odds": 102.18,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 22:00",
 "game": "CD Aguila San Miguel vs Municipal Limeno",
 "pick": "Over 2.5",
 "odds": 1.69,
-"ts": 1794517200.0
+"ts": 1794517200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:30",
@@ -1908,7 +1911,7 @@
 "odds": 1.04,
 "ts": 1794517200.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
