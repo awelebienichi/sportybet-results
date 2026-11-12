@@ -1,5 +1,46 @@
 [
 {
+"when": "Thu 12 Nov 08:07",
+"at": 1794467267,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 4,
+"strict": "strict",
+"rid": "mwd7h4qk6kef"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 4).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "LEB9PF",
+"odds": 1.16,
+"legs": [
+{
+"t": "Thu 07:10",
+"game": "New Zealand vs India",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:6 \u2013 India",
+"odds": 1.16,
+"why": "LIVE 3-0 45': New Zealand expected 1.1 and India 0.9 more goals (last 10); 3-0 at 45' \u2013 93% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794463800.0,
+"eid": "sr:match:73686224",
+"mid": "14",
+"spec": "hcp=0:6",
+"oid": "1713",
+"k": "73686224|14|hcp=0:6|1713"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 08:05",
 "at": 1794467133,
 "req": {
