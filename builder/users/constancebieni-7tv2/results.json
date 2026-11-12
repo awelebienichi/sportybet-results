@@ -14,7 +14,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "1st half double chance Belgium or draw",
 "odds": 1.26,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:30",
@@ -563,7 +566,10 @@
 "game": "Armenia vs Cyprus",
 "pick": "1st half double chance Cyprus or draw",
 "odds": 1.33,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:30",
@@ -631,7 +637,10 @@
 "game": "Turkiye vs Belgium",
 "pick": "1st half double chance Belgium or draw",
 "odds": 1.25,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Thu 18:30",

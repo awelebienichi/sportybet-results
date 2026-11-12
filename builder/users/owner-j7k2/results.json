@@ -662,7 +662,10 @@
 "game": "Lithuania vs Suriname",
 "pick": "1st half double chance Suriname or draw",
 "odds": 1.26,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:30",
@@ -953,7 +956,10 @@
 "game": "Lithuania vs Suriname",
 "pick": "1st half Under 2.5",
 "odds": 1.05,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:30",
@@ -1223,7 +1229,10 @@
 "game": "Lithuania vs Suriname",
 "pick": "1st half Under 2.5",
 "odds": 1.05,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:30",
@@ -1430,7 +1439,10 @@
 "game": "Armenia vs Cyprus",
 "pick": "1st half double chance Cyprus or draw",
 "odds": 1.32,
-"ts": 1794502800.0
+"ts": 1794502800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:00",
