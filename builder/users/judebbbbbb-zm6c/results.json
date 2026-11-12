@@ -101,7 +101,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Half-time draw",
 "odds": 2.2,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:00",
@@ -337,7 +340,7 @@
 "odds": 1.29,
 "ts": 1794502800.0,
 "r": "W",
-"sc": "2-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -362,7 +365,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Half-time draw",
 "odds": 2.2,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:30",
@@ -885,7 +891,7 @@
 "odds": 1.44,
 "ts": 1794502800.0,
 "r": "W",
-"sc": "2-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -1296,7 +1302,7 @@
 "odds": 1.29,
 "ts": 1794502800.0,
 "r": "W",
-"sc": "2-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -1321,7 +1327,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Half-time draw",
 "odds": 2.2,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:30",
@@ -1578,7 +1587,7 @@
 "when": "Thu 12 Nov 06:31",
 "kind": "your chosen markets",
 "odds": 126.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:00",
@@ -1595,7 +1604,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Half-time draw",
 "odds": 2.15,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:30",
@@ -1633,7 +1645,7 @@
 "when": "Thu 12 Nov 06:30",
 "kind": "your chosen markets",
 "odds": 21.28,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:00",
@@ -1650,7 +1662,10 @@
 "game": "Malta vs Eswatini",
 "pick": "Half-time draw",
 "odds": 2.15,
-"ts": 1794504600.0
+"ts": 1794504600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 19:30",
