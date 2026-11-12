@@ -579,7 +579,10 @@
 "game": "SL Benfica Lisbon W vs FK Austria Wien",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794513600.0
+"ts": 1794513600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 21:30",
@@ -958,7 +961,10 @@
 "game": "SL Benfica Lisbon W vs FK Austria Wien",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794513600.0
+"ts": 1794513600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Thu 21:30",
