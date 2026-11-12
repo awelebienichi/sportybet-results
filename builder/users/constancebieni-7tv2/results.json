@@ -437,7 +437,7 @@
 "when": "Thu 12 Nov 16:01",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.01,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:00",
@@ -504,7 +504,10 @@
 "game": "AD Izalco vs AD Forfut",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794515400.0
+"ts": 1794515400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 22:00",
@@ -658,7 +661,10 @@
 "game": "AD Izalco vs AD Forfut",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794515400.0
+"ts": 1794515400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 22:00",
@@ -1046,7 +1052,10 @@
 "game": "AD Izalco vs AD Forfut",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794515400.0
+"ts": 1794515400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 22:30",
@@ -1221,7 +1230,10 @@
 "game": "AD Izalco vs AD Forfut",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794515400.0
+"ts": 1794515400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 22:30",
