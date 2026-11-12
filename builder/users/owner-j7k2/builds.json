@@ -1,5 +1,47 @@
 [
 {
+"when": "Thu 12 Nov 16:17",
+"at": 1794496639,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwdoy6400vrd"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 10).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "LQR2BZ",
+"odds": 1.25,
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "Al-Ahly Amman vs Amman FC",
+"lg": "Jordan - First Division",
+"pick": "Handicap 0:2 \u2013 Amman FC",
+"odds": 1.25,
+"why": "LIVE 0-0 10': Al-Ahly Amman expected 0.9 and Amman FC 1.2 more goals (last 10 + season); 0-0 at 10' \u2013 89% chance; margin record 80% / 100% in both sides' last games",
+"ts": 1794495600.0,
+"eid": "sr:match:74205868",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "74205868|14|hcp=0:2|1713"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 14:33",
 "at": 1794490434,
 "req": {
@@ -10432,321 +10474,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "72531672|20|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 22:51",
-"at": 1794433916,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "drawlow",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwcnm8bnjleo"
-},
-"ok": true,
-"kind": "draw & low-scoring teams (season data)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
-],
-"tickets": [
-{
-"code": "X3TC1C",
-"odds": 744.8,
-"legs": [
-{
-"t": "Thu 15:00",
-"game": "Boca Juniors vs Social Atletico Television",
-"lg": "Argentina - Primera Division, Women",
-"pick": "Under 3.5",
-"odds": 1.25,
-"why": "season: 2.3 and 1.5 goals a game; last 10 rate 95%; Flashscore home/away form 95%, season: 1.9 goals a game",
-"ts": 1794492000.0,
-"eid": "sr:match:76585762",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76585762|18|total=3.5|13"
-},
-{
-"t": "Thu 19:30",
-"game": "Kimberley de Mar Del Plata vs Club Olimpo",
-"lg": "Argentina - Torneo Federal A",
-"pick": "Under 3.5",
-"odds": 1.12,
-"why": "season: 1.8 and 1.4 goals a game; last 10 rate 95%; Flashscore home/away form 90%, season: 1.6 goals a game",
-"ts": 1794508200.0,
-"eid": "sr:match:76479782",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76479782|18|total=3.5|13"
-},
-{
-"t": "Fri 00:00",
-"game": "Cerro Largo FC vs CA Progreso",
-"lg": "Uruguay - Primera Division",
-"pick": "Under 3.5",
-"odds": 1.29,
-"why": "season: 2.1 and 2.3 goals a game; last 10 rate 85%; Flashscore home/away form 95%, FotMob: 2.1 goals a game, Vitibet tip 1-0, season: 2.2 goals a game",
-"ts": 1794524400.0,
-"eid": "sr:match:76455612",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76455612|18|total=3.5|13"
-},
-{
-"t": "Fri 17:00",
-"game": "Turkiye vs Czechia",
-"lg": "International Youth - U21 UEFA European Championship, Qualification",
-"pick": "Under 3.5",
-"odds": 1.25,
-"why": "season: 2.1 and 2.3 goals a game; last 10 rate 85%; season: 2.2 goals a game",
-"ts": 1794585600.0,
-"eid": "sr:match:75439650",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "75439650|18|total=3.5|13"
-},
-{
-"t": "Fri 18:00",
-"game": "JS Saoura vs USM Khenchela",
-"lg": "Algeria - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.45,
-"why": "season: 1.0 and 1.6 goals a game; last 10 rate 80%; FotMob: 1.3 goals a game, Vitibet tip 1-0, season: 1.3 goals a game",
-"ts": 1794589200.0,
-"eid": "sr:match:75722348",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75722348|18|total=2.5|13"
-},
-{
-"t": "Sat 12:00",
-"game": "Nairobi United FC vs Mara Sugar FC",
-"lg": "Kenya - Premier League",
-"pick": "Draw",
-"odds": 2.95,
-"why": "season: draws 83% and 50%; last 10 rate 55%",
-"ts": 1794654000.0,
-"eid": "sr:match:74056914",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "74056914|1||2"
-},
-{
-"t": "Sat 13:00",
-"game": "Hellas Syrou vs Panthrakikos FC Komotini",
-"lg": "Greece - Super League 2",
-"pick": "Draw",
-"odds": 3.4,
-"why": "season: draws 40% and 40%; last 10 rate 40%",
-"ts": 1794657600.0,
-"eid": "sr:match:74172536",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "74172536|1||2"
-},
-{
-"t": "Sat 13:00",
-"game": "Ulinzi Stars FC vs Migori Youth FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 3.5",
-"odds": 1.14,
-"why": "season: 2.0 and 1.8 goals a game; last 10 rate 95%; Vitibet tip 0-0, season: 1.9 goals a game",
-"ts": 1794657600.0,
-"eid": "sr:match:74056924",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74056924|18|total=3.5|13"
-},
-{
-"t": "Sat 14:00",
-"game": "AE Larissa FC vs Nestos Chrysoupoli FC",
-"lg": "Greece - Super League 2",
-"pick": "Under 3.5",
-"odds": 1.33,
-"why": "season: 2.1 and 2.4 goals a game; last 10 rate 85%; FotMob: 2.2 goals a game, season: 2.2 goals a game",
-"ts": 1794661200.0,
-"eid": "sr:match:74172532",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74172532|18|total=3.5|13"
-},
-{
-"t": "Sat 14:00",
-"game": "Asteras Tripolis B vs PAOK Thessaloniki B",
-"lg": "Greece - Super League 2",
-"pick": "Under 3.5",
-"odds": 1.21,
-"why": "season: 2.1 and 2.3 goals a game; last 10 rate 90%; FotMob: 2.2 goals a game, season: 2.2 goals a game",
-"ts": 1794661200.0,
-"eid": "sr:match:74172530",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74172530|18|total=3.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "America FC MG vs Avai FC SC",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 3.5",
-"odds": 1.32,
-"why": "season: 2.2 and 2.2 goals a game; last 10 rate 95%; FotMob: 2.2 goals a game, Vitibet tip 1-1, season: 2.2 goals a game",
-"ts": 1794684600.0,
-"eid": "sr:match:68823470",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "68823470|18|total=3.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "AC Goianiense GO vs Cuiaba EC MT",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 3.5",
-"odds": 1.3,
-"why": "season: 2.2 and 1.8 goals a game; last 10 rate 85%; FotMob: 2.0 goals a game, Vitibet tip 1-0, season: 2.0 goals a game",
-"ts": 1794684600.0,
-"eid": "sr:match:68823476",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "68823476|18|total=3.5|13"
-},
-{
-"t": "Sat 22:30",
-"game": "Mirassol FC SP vs Atletico Mineiro MG",
-"lg": "Brazil - Brasileiro Serie A",
-"pick": "Under 3.5",
-"odds": 1.37,
-"why": "season: 2.6 and 2.5 goals a game; last 10 rate 85%; FotMob: 2.5 goals a game, Vitibet tip 1-0, season: 2.5 goals a game",
-"ts": 1794691800.0,
-"eid": "sr:match:66887166",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "66887166|18|total=3.5|13"
-},
-{
-"t": "Sun 05:00",
-"game": "Hokkaido Consadole Sapporo vs Sagan Tosu",
-"lg": "Japan - J2 League",
-"pick": "Under 3.5",
-"odds": 1.3,
-"why": "season: 2.6 and 2.2 goals a game; last 10 rate 90%; FotMob: 2.4 goals a game, season: 2.4 goals a game",
-"ts": 1794715200.0,
-"eid": "sr:match:72151346",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72151346|18|total=3.5|13"
-},
-{
-"t": "Sun 11:30",
-"game": "Apollon Kalamarias vs Kallithea FC",
-"lg": "Greece - Super League 2",
-"pick": "Under 3.5",
-"odds": 1.19,
-"why": "season: 2.0 and 1.8 goals a game; last 10 rate 95%; FotMob: 1.9 goals a game, season: 1.9 goals a game",
-"ts": 1794738600.0,
-"eid": "sr:match:74172544",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74172544|18|total=3.5|13"
-},
-{
-"t": "Sun 13:30",
-"game": "Leopards SC vs Mombasa United FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 3.5",
-"odds": 1.24,
-"why": "season: 0.8 and 2.5 goals a game; last 10 rate 90%; season: 1.7 goals a game",
-"ts": 1794745800.0,
-"eid": "sr:match:74056908",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74056908|18|total=3.5|13"
-},
-{
-"t": "Sun 14:30",
-"game": "Guidonia Montecelio 1937 FC vs AS Ostiamare",
-"lg": "Italy - Serie C, Group B",
-"pick": "Under 3.5",
-"odds": 1.31,
-"why": "season: 2.4 and 2.2 goals a game; last 10 rate 85%; FotMob: 2.3 goals a game, Vitibet tip 1-0, season: 2.3 goals a game",
-"ts": 1794749400.0,
-"eid": "sr:match:73294082",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73294082|18|total=3.5|13"
-},
-{
-"t": "Sun 15:00",
-"game": "GKS Tychy vs Rekord Bielsko Biala",
-"lg": "Poland - II Liga",
-"pick": "Under 3.5",
-"odds": 1.46,
-"why": "season: 2.1 and 2.6 goals a game; last 10 rate 90%; FotMob: 2.3 goals a game, season: 2.3 goals a game",
-"ts": 1794751200.0,
-"eid": "sr:match:72398814",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72398814|18|total=3.5|13"
-},
-{
-"t": "Sun 17:30",
-"game": "AS Cittadella vs US Folgore Caratese",
-"lg": "Italy - Serie C, Group A",
-"pick": "Under 3.5",
-"odds": 1.28,
-"why": "season: 1.9 and 2.5 goals a game; last 10 rate 85%; FotMob: 2.2 goals a game, season: 2.2 goals a game",
-"ts": 1794760200.0,
-"eid": "sr:match:73293340",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73293340|18|total=3.5|13"
-},
-{
-"t": "Sun 19:00",
-"game": "Deportivo Moron vs CA Colegiales",
-"lg": "Argentina - Primera Nacional",
-"pick": "Under 3.5",
-"odds": 1.12,
-"why": "season: 2.5 and 1.9 goals a game; last 10 rate 95%; Vitibet tip 1-0, season: 2.2 goals a game",
-"ts": 1794765600.0,
-"eid": "sr:match:76413246",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76413246|18|total=3.5|13"
 }
 ]
 }
