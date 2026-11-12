@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HX9HQA",
+"at": 1794441845,
+"when": "Thu 12 Nov 01:04",
+"kind": "basketball \u2013 total points",
+"odds": 8.58,
+"status": "open",
+"legs": [
+{
+"t": "Thu 02:00",
+"game": "Memphis Grizzlies vs Denver Nuggets",
+"pick": "Under 243.5 total points",
+"odds": 1.27,
+"ts": 1794445200.0
+},
+{
+"t": "Thu 02:00",
+"game": "Milwaukee Bucks vs Los Angeles Lakers",
+"pick": "Over 215.5 total points",
+"odds": 1.24,
+"ts": 1794445200.0
+},
+{
+"t": "Thu 03:30",
+"game": "Houston Rockets vs Golden State Warriors",
+"pick": "Over 206.5 total points",
+"odds": 1.25,
+"ts": 1794450600.0
+},
+{
+"t": "Thu 18:00",
+"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
+"pick": "Over 143.5 total points",
+"odds": 1.2,
+"ts": 1794502800.0
+},
+{
+"t": "Thu 20:00",
+"game": "Skyliners Frankfurt vs Maxima Roma",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"ts": 1794510000.0
+},
+{
+"t": "Thu 20:05",
+"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
+"pick": "Under 194.5 total points",
+"odds": 1.26,
+"ts": 1794510300.0
+},
+{
+"t": "Thu 20:15",
+"game": "BC Olympiakos Piraeus vs Dubai Basketball",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"ts": 1794510900.0
+},
+{
+"t": "Thu 20:30",
+"game": "Valencia Basket vs Bayern Munich",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 20:30",
+"game": "Olimpia Milano vs BC Zalgiris Kaunas",
+"pick": "Over 157.5 total points",
+"odds": 1.24,
+"ts": 1794511800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Real Madrid vs KK Crvena zvezda Belgrade",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"ts": 1794513600.0
+}
+]
+},
+{
 "code": "SHS1WZ",
 "at": 1794441738,
 "when": "Thu 12 Nov 01:02",
