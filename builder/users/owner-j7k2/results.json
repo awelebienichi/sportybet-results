@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PBFPDF",
+"at": 1794486539,
+"when": "Thu 12 Nov 13:28",
+"kind": "live \u2013 best of all",
+"odds": 1.14,
+"status": "open",
+"legs": [
+{
+"t": "Thu 12:00",
+"game": "Hannover 96 vs TSV Havelse",
+"pick": "Hannover 96 Under 7.5",
+"odds": 1.14,
+"ts": 1794481200.0
+}
+]
+},
+{
 "code": "YSQCB6",
 "at": 1794485827,
 "when": "Thu 12 Nov 13:17",
