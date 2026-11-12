@@ -62,6 +62,12 @@ def _hcp_p(D, mid, spec, oid):
         f = (lambda h, a: h - a + v > 0) if oid == "1714" else (lambda h, a: a - h - v > 0)
     return sum(p for (h, a), p in D.items() if f(h, a))
 
+def _cushion(g, mid, spec, oid):
+    """3-way handicap: how many goals the backed side is ahead right now once its head start is counted (None for other markets)"""
+    if mid != "14" or oid not in ("1711", "1713") or "|" in spec: return None
+    x, y = [int(t) for t in spec.split("=")[1].split(":")]; hs, as_ = g["score"]
+    return (hs + x) - (as_ + y) if oid == "1711" else (as_ + y) - (hs + x)
+
 KIND = {"14": "handicap", "16": "handicap", "1": "hold", "10": "hold", "18": "goals", "19": "goals", "20": "goals", "68": "goals", "29": "goals"}
 
 def _p(D, D1, mid, spec, oid, lead):
@@ -264,7 +270,9 @@ def build(req):
             f1 = max(0.0, (47 - g["minute"]) / 90) / g["left"]                  # share of the remaining goals that fall before half-time
             D1 = _final_dist(hs, as_, lh * f1, la * f1)
         for (mid, spec, oid), od in g["mk"].items():
-            if not 1.08 <= od <= 1.75: continue
+            cu = _cushion(g, mid, spec, oid)
+            big = cu is not None and cu >= 3 and g["minute"] >= 30                 # a side with a 3+ goal head start from 30': safe padding, priced 1.03+
+            if not (1.03 if big else 1.08) <= od <= 1.75: continue
             p = _p(D, D1, mid, spec, oid, lead)
             if p is None: continue
             kind = KIND.get(mid, "")
@@ -279,8 +287,21 @@ def build(req):
             if strat != "mix" and kind != strat: continue
             C.append((g, mid, spec, oid, _label(g, mid, spec, oid), p,
                       f"{g['h']} expected {g['lh']:.1f} and {g['a']} {g['la']:.1f} more goals ({g['src']}); {hs}-{as_} at {g['minute']}' – {p:.0%} chance"))
+    NOD = []
+    if not LV[2]:                                                               # Normal / Relaxed: games the stats can't judge
+        ND = [g for g in G if "gpg" not in g and g["minute"] is not None and 30 <= g["minute"] <= 85]
+        with ThreadPoolExecutor(8) as ex: NM = dict(zip([g["eid"] for g in ND], ex.map(lambda g: _live_odds(g["eid"]), ND)))
+        for g in ND:
+            for (mid, spec, oid), od in NM.get(g["eid"], {}).items():
+                cu = _cushion(g, mid, spec, oid)
+                if cu is None or cu < 3 or not 1.03 <= od <= 1.07: continue
+                p = 1 / (od * 1.06)
+                if strat not in ("mix", "handicap"): continue
+                NOD.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=_label(g, mid, spec, oid), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
+                                lg=g["lg"], rate=p, s=P.edge(p, od), nodata=True, cush=True,
+                                why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': no team stats for this game – {cu}-goal head start, SportyBet's own price says {p:.0%}"))
     nodata = sum(1 for g in G if "gpg" not in g)
-    if not C: return dict(ok=False, msg=f"{len(G)} games are in play, but none fits that strategy right now ({nodata} have no stats to judge them on). Try 'Best of all' or check back in a few minutes – the picture changes every few minutes.")
+    if not C and not NOD: return dict(ok=False, msg=f"{len(G)} games are in play, but none fits that strategy right now ({nodata} have no stats to judge them on). Try 'Best of all' or check back in a few minutes – the picture changes every few minutes.")
     # live prices for the candidates (the full in-play market list per game)
     MK = {g["eid"]: g["mk"] for g in G if "mk" in g}
     per = {}
@@ -290,13 +311,16 @@ def build(req):
         p = (p + 1 / (od * 1.06)) / 2                                           # the stats model and the bookmaker's own price must agree
         if p < LV[1]: continue                                                  # high chance, no coin-flip prices
         per.setdefault(g["eid"], []).append(dict(g=g, eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}",
-                                                 lg=g["lg"], rate=p, s=P.edge(p, od), why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
-    HC = lambda x: x["mid"] in ("14", "16")
+                                                 lg=g["lg"], rate=p, s=P.edge(p, od), cush=(_cushion(g, mid, spec, oid) or 0) >= 3, why=f"LIVE {g['score'][0]}-{g['score'][1]} {g['minute']}': {why}"))
+    for leg in NOD:                                                             # one pick per game: keep the best price-only head start
+        if leg["eid"] not in per or all(x.get("nodata") for x in per[leg["eid"]]): per.setdefault(leg["eid"], []).append(leg)
+    HC = lambda x: x["mid"] in ("14", "16") and not x.get("cush")              # big head starts don't count towards the handicap cap
     O15 = lambda x: x["mid"] == "18" and x["spec"] == "total=1.5" and x["oid"] == "12"
     def choose(L):
         """the legs of one game that pass every check, best first: Over 1.5 first when it is strong, handicaps behind other markets"""
         out = []
         for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5 + (.05 if O15(x) else 0) - (.02 if HC(x) else 0)))[:4]:
+            if leg.get("nodata"): out.append(leg); continue                     # no stats for this game: the price-only head start stands alone
             sup, bad = _prematch(leg["g"], leg["mid"], leg["oid"], leg["spec"])    # every pre-match source the builder uses
             if bad or (LV[2] and not sup): continue                             # none against it (strict: at least one source for it too)
             if sup: leg["why"] += "; " + ", ".join(sup)
