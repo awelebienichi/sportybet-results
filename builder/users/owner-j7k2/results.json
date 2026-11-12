@@ -73,14 +73,17 @@
 "when": "Thu 12 Nov 16:53",
 "kind": "live \u2013 another goal coming",
 "odds": 1.14,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 16:00",
 "game": "Uzbekistan vs Russia",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
@@ -275,7 +278,10 @@
 "game": "Uzbekistan vs Russia",
 "pick": "Over 1.5",
 "odds": 1.37,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 16:00",
@@ -557,7 +563,10 @@
 "game": "Uzbekistan vs Russia",
 "pick": "Excluded goals: 1",
 "odds": 1.2,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 16:00",
@@ -1955,7 +1964,10 @@
 "game": "Uzbekistan vs Russia",
 "pick": "Over 1.5",
 "odds": 1.39,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -3567,7 +3579,10 @@
 "game": "Uzbekistan vs Russia",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.37,
-"ts": 1794495600.0
+"ts": 1794495600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
