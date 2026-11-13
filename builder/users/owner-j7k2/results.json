@@ -2,6 +2,236 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YBEQ39",
+"at": 1794599339,
+"when": "Fri 13 Nov 20:48",
+"kind": "goal-fest teams (season data)",
+"odds": 173.29,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:15",
+"game": "Bridlicna vs Opava B",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794647700.0
+},
+{
+"t": "Sat 10:15",
+"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794647700.0
+},
+{
+"t": "Sat 11:00",
+"game": "MFK Chrudim vs FK Jablonec B",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794650400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Hamburger SV II vs Kickers Emden",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "NK Ormoz vs NK Smartno 1928",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:30",
+"game": "ACV Assen vs ADO 20 Heemskerk",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Bassecourt vs Zug 94",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Leamington FC vs Leiston FC",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Brentwood Town FC vs Ramsgate FC",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:00",
+"game": "Star Starachowice vs KS Naprzod Jedrzejow",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:55",
+"game": "VfL Wolfsburg W vs Bayern Munich W",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794675300.0
+},
+{
+"t": "Sat 19:00",
+"game": "Sheffield United LFC vs Bristol City WFC",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 19:30",
+"game": "Union Titus Petange vs FC Koeppchen Wormeldange",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794682800.0
+}
+]
+},
+{
+"code": "HRZN3W",
+"at": 1794599339,
+"when": "Fri 13 Nov 20:48",
+"kind": "goal-fest teams (season data)",
+"odds": 268.29,
+"status": "open",
+"legs": [
+{
+"t": "Sat 12:00",
+"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 12:00",
+"game": "Real Betis Balompie vs Cadiz CF",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 15:00",
+"game": "K.v.v. Quick Boys vs Jong Almere City FC",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Rohda Raalte vs VV Katwijk",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Montpellier HSC vs GFC Ajaccio",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:15",
+"game": "Amsterdamsche FC vs De Treffers Groesbeek",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1794665700.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"pick": "Over 2.5",
+"odds": 1.67,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Warrington Rylands 1906 FC vs Whitby Town",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Villa FC vs Killarney Celtic",
+"pick": "Over 3.5",
+"odds": 1.64,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC St. Gallen-Staad vs FC Zurich",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 19:00",
+"game": "RBC Roosendaal vs VV Goes",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Real Refineros Cds vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1794693600.0
+}
+]
+},
+{
 "code": "UFVKT9",
 "at": 1794598542,
 "when": "Fri 13 Nov 20:35",
@@ -156,7 +386,10 @@
 "game": "Eagles Graz vs BBC Nord Dragonz",
 "pick": "BBC Nord Dragonz to win (incl. OT)",
 "odds": 1.12,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "75-103",
+"ht": "16-24"
 },
 {
 "t": "Fri 19:04",
@@ -1023,7 +1256,10 @@
 "game": "Spain vs Japan",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -1558,7 +1794,10 @@
 "game": "Spain vs Japan",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:45",
@@ -1944,7 +2183,10 @@
 "game": "Spain vs Japan",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -1963,7 +2205,7 @@
 "odds": 1.12,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -2039,7 +2281,10 @@
 "game": "Puerto Rico vs Dominica",
 "pick": "1st half double chance Puerto Rico or draw",
 "odds": 1.08,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:30",
@@ -2124,7 +2369,10 @@
 "game": "Spain vs Japan",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -2143,7 +2391,7 @@
 "odds": 1.21,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -2240,7 +2488,10 @@
 "game": "Serbia vs Germany",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -2694,7 +2945,10 @@
 "game": "Spain vs Japan",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -2713,7 +2967,7 @@
 "odds": 1.12,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -3292,7 +3546,10 @@
 "game": "Spain vs Japan",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -3311,7 +3568,7 @@
 "odds": 1.12,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -3571,7 +3828,7 @@
 "odds": 1.12,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -3735,7 +3992,10 @@
 "game": "Spain vs Japan",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
