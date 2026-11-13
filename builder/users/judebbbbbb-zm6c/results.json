@@ -421,7 +421,10 @@
 "game": "Slovenia vs Switzerland",
 "pick": "Slovenia excluded goals: 1",
 "odds": 1.47,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
@@ -538,7 +541,10 @@
 "game": "Slovenia vs Switzerland",
 "pick": "Over 1.5",
 "odds": 1.41,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
