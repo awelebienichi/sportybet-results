@@ -540,14 +540,20 @@
 "game": "Comoros vs Congo",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.13,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
 "game": "Zambia vs Burundi",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.12,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 15:15",
@@ -866,7 +872,10 @@
 "game": "Comoros vs Congo",
 "pick": "1st half Under 2.5",
 "odds": 1.05,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -883,7 +892,10 @@
 "game": "Zambia vs Burundi",
 "pick": "1st half Under 2.5",
 "odds": 1.06,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 15:15",
@@ -1514,7 +1526,10 @@
 "game": "Comoros vs Congo",
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -1538,7 +1553,10 @@
 "game": "Zambia vs Burundi",
 "pick": "1st half GG \u2013 No",
 "odds": 1.12,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 15:15",

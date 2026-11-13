@@ -34,7 +34,10 @@
 "game": "Singapore vs Paraguay",
 "pick": "Handicap 5:0 \u2013 Singapore",
 "odds": 1.04,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "1-4",
+"ht": "1-2"
 },
 {
 "t": "Fri 13:00",
@@ -78,7 +81,10 @@
 "game": "ACS Kids Tampa Brasov vs Cso Baicoi",
 "pick": "ACS Kids Tampa Brasov Under 1.5",
 "odds": 1.12,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
@@ -175,7 +181,10 @@
 "game": "Singapore vs Paraguay",
 "pick": "Handicap 5:0 \u2013 Singapore",
 "odds": 1.22,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "1-4",
+"ht": "1-2"
 },
 {
 "t": "Fri 13:00",
@@ -292,7 +301,10 @@
 "game": "Singapore vs Paraguay",
 "pick": "Handicap 5:0 \u2013 Singapore",
 "odds": 1.27,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "1-4",
+"ht": "1-2"
 },
 {
 "t": "Fri 13:00",
