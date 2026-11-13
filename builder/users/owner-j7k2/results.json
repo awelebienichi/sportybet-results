@@ -592,7 +592,7 @@
 "when": "Fri 13 Nov 20:06",
 "kind": "live basketball",
 "odds": 1.82,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
@@ -629,7 +629,10 @@
 "game": "Homenetmen vs Atlas Ferzol",
 "pick": "Homenetmen to win (incl. OT)",
 "odds": 1.18,
-"ts": 1794594600.0
+"ts": 1794594600.0,
+"r": "L",
+"sc": "89-92",
+"ht": ""
 },
 {
 "t": "Fri 19:30",
@@ -1023,7 +1026,10 @@
 "game": "SKN St. Polten Basketball vs Flyers Wels",
 "pick": "Over 149.5 total points",
 "odds": 1.21,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "95-93",
+"ht": "28-23"
 },
 {
 "t": "Fri 20:00",
@@ -1541,7 +1547,10 @@
 "game": "Grenada vs Saint Kitts and Nevis",
 "pick": "Grenada excluded goals: 1",
 "odds": 1.47,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -3860,8 +3869,8 @@
 "odds": 1.14,
 "ts": 1794596400.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -4730,8 +4739,8 @@
 "odds": 1.14,
 "ts": 1794596400.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:30",
