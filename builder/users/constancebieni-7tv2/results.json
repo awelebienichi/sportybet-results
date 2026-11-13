@@ -7,7 +7,7 @@
 "when": "Fri 13 Nov 17:49",
 "kind": "live \u2013 best of all",
 "odds": 1.55,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -64,7 +64,10 @@
 "game": "Kuwait vs Syria",
 "pick": "Handicap 0:2 \u2013 Syria",
 "odds": 1.06,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "L",
+"sc": "3-0",
+"ht": "2-0"
 }
 ]
 },
@@ -697,7 +700,10 @@
 "game": "VV Kloetinge vs Hoek",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
