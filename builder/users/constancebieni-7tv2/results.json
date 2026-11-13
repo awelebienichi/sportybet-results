@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "HCB5YL",
+"at": 1794594672,
+"when": "Fri 13 Nov 19:31",
+"kind": "live \u2013 best of all",
+"odds": 1.26,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:59",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"pick": "Handicap 0:2 \u2013 Bendel Insurance FC",
+"odds": 1.08,
+"ts": 1794589140.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.03,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Moldova Under 2.5",
+"odds": 1.03,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"pick": "Under 5.5",
+"odds": 1.04,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:08",
+"game": "Tuzos de Pachuca FC vs Santiago Tulantepec",
+"pick": "Tuzos de Pachuca FC or Santiago Tulantepec",
+"odds": 1.04,
+"ts": 1794589680.0
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "Handicap 0:3 \u2013 Luxembourg",
+"odds": 1.04,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "XK40AB",
 "at": 1794588587,
 "when": "Fri 13 Nov 17:49",
@@ -702,7 +754,7 @@
 "odds": 1.21,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": ""
 },
 {
