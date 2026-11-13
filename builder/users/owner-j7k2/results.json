@@ -1671,7 +1671,10 @@
 "game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
 "pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
 "odds": 1.03,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Fri 11:00",
@@ -1698,14 +1701,17 @@
 "when": "Fri 13 Nov 12:15",
 "kind": "live \u2013 best of all",
 "odds": 1.39,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 11:00",
 "game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
 "pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
 "odds": 1.03,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Fri 11:00",
@@ -1735,14 +1741,17 @@
 "when": "Fri 13 Nov 12:14",
 "kind": "live \u2013 best of all",
 "odds": 1.09,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 11:00",
 "game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
 "pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
 "odds": 1.03,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Fri 11:00",
