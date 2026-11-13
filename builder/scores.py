@@ -92,7 +92,18 @@ def radar_score(eid):
     st = "ft" if (m.get("status") or {}).get("name") in ("Ended", "AET", "AP", "AOT", "After overtime", "After OT") else "live"
     return dict(st=st, h=r["home"], a=r["away"], ht=(p["home"], p["away"]) if p else None, min="" if st == "ft" else "live", src="sportradar")
 
-BB = ("219", "223", "225", "227", "228")      # basketball markets: settled from Sportradar / SportyBet, never matched against the football list
+BB = ("219", "223", "225", "227", "228", "236", "756", "757")
+_Q = {}
+def quarters(eid):
+    """basketball quarter scores [(home, away), ...] from Sportradar (cached once a game has all four)"""
+    if eid in _Q: return _Q[eid]
+    d = subprocess.run(["curl", "-s", "--compressed", "-m", "30", "-A", UA, "-H", "Referer: https://www.sportybet.com/",
+                        f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/match_info/{eid.split(':')[-1]}"], capture_output=True, text=True).stdout
+    try: pr = json.loads(d)["doc"][0]["data"]["match"].get("periods") or {}
+    except Exception: return []
+    Q = [(pr[k]["home"], pr[k]["away"]) for k in ("p1", "p2", "p3", "p4") if k in pr]
+    if len(Q) == 4: _Q[eid] = Q
+    return Q      # basketball markets: settled from Sportradar / SportyBet, never matched against the football list
 _SB = {}
 def sporty_score(eid):
     """last resort (games Flashscore and Sportradar do not cover, e.g. non-Sportradar ids): SportyBet's own score; no half-time score"""
@@ -130,7 +141,7 @@ def window_goals(eid, n):
 def verdict(leg, s):
     """W / L when decided, '' while still open (or when the half-time score is needed but missing)"""
     mid, oid, spec = leg["mid"], leg["oid"], leg["spec"]; h, a, ht = s["h"], s["a"], s["ht"]; fin = s["st"] == "ft"
-    line = float(spec.split("=")[1]) if spec.startswith("total=") else None
+    line = float(spec.split("=")[1].split("|")[0]) if spec.startswith("total=") else None
     if mid == "1":
         if not fin: return ""
         return "W" if (oid == "1" and h > a) or (oid == "2" and h == a) or (oid == "3" and a > h) else "L"
@@ -196,6 +207,14 @@ def verdict(leg, s):
         if g is not None and g > line: return "W" if oid == "12" else "L"
         if ht is not None: return ("L" if oid == "12" else "W")
         return ""
+    if mid in ("236", "756", "757"):        # basketball quarter totals: that quarter's points only
+        try: S = dict(x.split("=", 1) for x in spec.split("|")); v, n = float(S["total"]), int(S["quarternr"])
+        except Exception: return ""
+        Q = quarters(leg["eid"])
+        if len(Q) < n: return ""
+        if len(Q) == n and not fin: return ""                                    # that quarter may still be running
+        t = {"236": Q[n - 1][0] + Q[n - 1][1], "756": Q[n - 1][0], "757": Q[n - 1][1]}[mid]
+        return ("W" if t > v else "L") if oid == "12" else ("W" if t < v else "L")
     if mid in BB:                           # basketball (results include overtime)
         if not fin: return ""
         v = float(spec.split("=")[1]) if "=" in spec else None

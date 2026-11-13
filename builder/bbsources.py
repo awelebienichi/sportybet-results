@@ -135,7 +135,7 @@ def ratings_expect(g):
 # ---------------- the check for one leg ----------------
 def check(g, leg, nba):
     mid, spec, oid = leg["mid"], leg["spec"], leg["oid"]
-    v = float(spec.split("=")[1]) if "=" in spec else None
+    v = float(spec.split("=")[1].split("|")[0]) if "=" in spec else None
     sup, bad = [], []
     home_side = (mid == "219" and oid == "4") or (mid == "223" and oid == "1714") or mid == "227"
     away_side = (mid == "219" and oid == "5") or (mid == "223" and oid == "1715") or mid == "228"
@@ -150,9 +150,11 @@ def check(g, leg, nba):
         if mid == "225":
             if over and mh + ma >= 15: bad.append(f"injuries: {mh + ma:.0f} pts a game missing")
             if not over and mh + ma >= 15: sup.append(f"{mh + ma:.0f} pts a game missing through injury")
+        if mid == "236" and over and mh + ma >= 15: bad.append(f"injuries: {mh + ma:.0f} pts a game missing")
         if mid in ("227", "228"):
             me = mh if mid == "227" else ma
             if over and me >= 10: bad.append(f"injuries: team missing {me:.0f} pts a game")
+    if mid in ("236", "756", "757"): return sup, bad                           # quarter lines: full-game form and ratings don't apply
     # 2) Flashscore home/away form
     vf = venue_form(g)
     if vf:

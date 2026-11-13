@@ -11,7 +11,7 @@ import bball
 
 LEVELS = {"strict": (.90, .84), "normal": (.86, .80), "relaxed": (.82, .76)}       # stats chance, chance after the bookmaker's price
 Phi = lambda z: 0.5 * (1 + math.erf(z / math.sqrt(2)))
-MARKETS = ("219", "223", "225", "227", "228")
+MARKETS = ("219", "223", "225", "227", "228", "236", "756", "757")
 
 def _feed():
     out = {}
@@ -45,6 +45,26 @@ def _odds(eid):
             if o.get("isActive"): mk[(m["id"], m.get("specifier") or "", o["id"])] = float(o["odds"])
     return mk
 
+def _quarter(mid, spec, oid, e, played, length, mh, ma):
+    """a quarter's total (236) or one team's quarter points (756/757) in play: points already scored in that quarter plus each side's
+    expected points for the part of it still to come; quarters already finished are skipped"""
+    S = bball._parts(spec)
+    try: v, n = float(S["total"]), int(S["quarternr"])
+    except Exception: return None
+    ql = length / 4; gs = e.get("gameScore") or []
+    into = played - (n - 1) * ql
+    if into >= ql or n < 1 or n > 4: return None                                # that quarter is over
+    rq = 1.0 if into <= 0 else 1 - into / ql
+    if into > 0:
+        try: qh, qa = [int(x) for x in gs[n - 1].split(":")]
+        except Exception: return None
+    else: qh = qa = 0
+    sh = bball.QSH[n - 1]
+    if mid == "236": m, sd = qh + qa + (mh + ma) * sh * rq, bball.QSD[n - 1] * math.sqrt(rq)
+    else: m, sd = ((qh + mh * sh * rq) if mid == "756" else (qa + ma * sh * rq)), bball.QSDT * math.sqrt(rq)
+    if rq < .15: return None                                                    # the last moments of a quarter: prices are frozen/suspended anyway
+    p = 1 - Phi((v - m) / sd); return p if oid == "12" else 1 - p
+
 def _chance(mid, spec, oid, fh, fa, r):
     d, t = fh - fa, fh + fa; sm, st, stm = bball.SDM * math.sqrt(r), bball.SDT * math.sqrt(r), bball.SDTEAM * math.sqrt(r)
     if mid == "219": p = Phi(d / sm); return p if oid == "4" else 1 - p
@@ -59,7 +79,7 @@ def build(req):
     E = [(e, s) for e in _feed() for s in [_state(e)] if s]
     if not E: return dict(ok=False, msg="No basketball games are in play right now (or only in overtime). Most live basketball is in the evening and at night (Nigeria time).")
     G = [dict(eid=e["eventId"], ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"], hid=e["homeTeamId"].split(":")[-1],
-              aid=e["awayTeamId"].split(":")[-1], lg=e["sport"]["category"]["name"] + " - " + e["sport"]["category"]["tournament"]["name"], st=s) for e, s in E]
+              aid=e["awayTeamId"].split(":")[-1], lg=e["sport"]["category"]["name"] + " - " + e["sport"]["category"]["tournament"]["name"], st=s, e=e) for e, s in E]
     G = [g for g in G if .1 <= g["st"][2] / g["st"][3] <= .92]                    # from 10% of the game played to the last few minutes
     LX = bball.teams(G, 45)
     G = [g for g in G if len(LX.get(g["hid"], [])) >= 8 and len(LX.get(g["aid"], [])) >= 8]
@@ -72,7 +92,7 @@ def build(req):
         opts = []
         for (mid, spec, oid), od in (MK.get(g["eid"]) or {}).items():
             if not 1.03 <= od <= 1.75: continue
-            p = _chance(mid, spec, oid, fh, fa, r)
+            p = _quarter(mid, spec, oid, g["e"], played, length, mh, ma) if mid in ("236", "756", "757") else _chance(mid, spec, oid, fh, fa, r)
             if p is None or p < LV[0]: continue
             pb = (p + 1 / (od * 1.06)) / 2                                        # the stats and the bookmaker's own price must agree
             if pb < LV[1]: continue
@@ -81,7 +101,7 @@ def build(req):
                              lg=g["lg"], rate=pb, s=P.edge(pb, od),
                              why=f"LIVE {h}-{a}, {played:.0f} of {length} min: expected final {fh:.0f}-{fa:.0f}; {p:.0%} by the stats, {pb:.0%} with the price"))
         if opts:   # one leg per game; total points lead (strongest market in testing), handicaps last
-            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "227": .03, "228": .03, "223": -.02}.get(o["mid"], 0)))
+            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "236": .04, "227": .03, "228": .03, "756": .02, "757": .02, "223": -.02}.get(o["mid"], 0)))
             per.append(opts)
     if not per: return dict(ok=False, msg=f"{len(G)} basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes.")
     per.sort(key=lambda L: (-L[0]["rate"], -L[0]["s"]))

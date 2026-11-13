@@ -11,13 +11,15 @@ import phonebuild as P
 import bbsources
 
 HCA, SDM, SDT, SDTEAM = 3.65, 15.1, 17.9, 11.7
+QSH, QSD, QSDT = (.252, .25, .246, .247), (7.4, 7.4, 7.5, 8.0), 5.4     # quarter share of the game's points, spread of a quarter total / one team's quarter
+# (measured on 2,819 finished games; quarter-total chances matched reality: said 70-80% -> 75%, 80-90% -> 82%)
 LEVELS = {"strict": (.75, .82), "normal": (.65, .76), "relaxed": (.60, .70)}  # (stats at least, stats + bookmaker's price combined at least)
 # measured on 13 Nov (103 games with data): the combined bar decides how many games get a leg – 82%: ~5% of games (~85% each come true),
 # 76%: ~a third (~80% each), 70%: ~half (~77% each). The stats alone rarely reach 80% on a single game: the bookmaker's lines are sharper.
 Phi = lambda z: 0.5 * (1 + math.erf(z / math.sqrt(2)))
-KINDS = {"mix": None, "win": ("219",), "hcp": ("223",), "total": ("225",), "team": ("227", "228")}
+KINDS = {"mix": None, "win": ("219",), "hcp": ("223",), "total": ("225",), "team": ("227", "228"), "quarter": ("236", "756", "757")}
 NAMES = {"mix": "basketball – best market per game", "win": "basketball – winners", "hcp": "basketball – handicap",
-         "total": "basketball – total points", "team": "basketball – team points"}
+         "total": "basketball – total points", "team": "basketball – team points", "quarter": "basketball – quarter total points"}
 _G = {"at": 0, "list": []}
 
 def games():
@@ -64,8 +66,17 @@ def expect(H, A):
     mh = (pf(H) + pa(A)) / 2 + HCA / 2; ma = (pf(A) + pa(H)) / 2 - HCA / 2
     return mh, ma
 
+def _parts(spec): return dict(x.split("=", 1) for x in spec.split("|") if "=" in x)
+
 def chance(mid, spec, oid, mh, ma):
     d, t = mh - ma, mh + ma
+    if mid in ("236", "756", "757"):                                          # a quarter's total (236) or one team's quarter points (756 home / 757 away)
+        S = _parts(spec)
+        try: v, n = float(S["total"]), int(S["quarternr"])
+        except Exception: return None
+        if not 1 <= n <= 4: return None
+        m, sd = ((t, QSD[n - 1]) if mid == "236" else ((mh if mid == "756" else ma), QSDT))
+        p = 1 - Phi((v - m * QSH[n - 1]) / sd); return p if oid == "12" else 1 - p
     if mid == "219": p = Phi(d / SDM); return p if oid == "4" else 1 - p
     v = float(spec.split("=")[1]) if "=" in spec and "|" not in spec else None
     if v is None: return None
@@ -77,12 +88,15 @@ def chance(mid, spec, oid, mh, ma):
     return None
 
 def label(g, mid, spec, oid):
-    v = spec.split("=")[1] if "=" in spec else ""
+    v = spec.split("=")[1].split("|")[0] if "=" in spec else ""
     if mid == "219": return f"{g['h'] if oid == '4' else g['a']} to win (incl. OT)"
     if mid == "223":
         x = float(v) if oid == "1714" else -float(v); return f"{g['h'] if oid == '1714' else g['a']} {'+' if x > 0 else ''}{x:g} (handicap)"
     if mid == "225": return f"{'Over' if oid == '12' else 'Under'} {v} total points"
     if mid in ("227", "228"): return f"{g['h'] if mid == '227' else g['a']} {'Over' if oid == '12' else 'Under'} {v} points"
+    if mid in ("236", "756", "757"):
+        S = _parts(spec); who = "" if mid == "236" else (g["h"] if mid == "756" else g["a"]) + " "
+        return f"{who}Q{S.get('quarternr', '?')} {'Over' if oid == '12' else 'Under'} {S.get('total', '?')} points"
     return f"{mid} {spec} {oid}"
 
 def build(req):
@@ -114,7 +128,7 @@ def build(req):
         if bbsources.tired(g["aid"], g["ts"]): ma -= 1.0; rest.append(f"{g['a']} on 2nd game in 2 days")
         opts = []
         for (mid, spec, oid), od in MK.get(g["eid"], {}).items():
-            if mid not in ("219", "223", "225", "227", "228") or (want and mid not in want): continue
+            if mid not in ("219", "223", "225", "227", "228", "236", "756", "757") or (want and mid not in want): continue
             if not 1.05 <= od <= 1.75: continue
             p = chance(mid, spec, oid, mh, ma)
             if p is None or p < LV[0]: continue
@@ -128,7 +142,7 @@ def build(req):
                              why=f"expected {g['h']} {mh:.0f} – {g['a']} {ma:.0f} (last {len(H)}/{len(A)} games, home edge included" + (", " + ", ".join(rest) if rest else "") + f"); {p:.0%} by the stats, {pb:.0%} with the price"))
         if opts:
             # one leg per game: best value with a high chance; total points (incl. overtime) lead, then team points, handicaps last
-            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "227": .03, "228": .03, "223": -.02}.get(o["mid"], 0)))
+            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "236": .04, "227": .03, "228": .03, "756": .02, "757": .02, "223": -.02}.get(o["mid"], 0)))
             cand.append((g, opts))
     # every candidate goes through the extra checks (ESPN injuries, Flashscore home/away form, NBA ratings), best first per game
     strict = req.get("strict", "normal") == "strict"
