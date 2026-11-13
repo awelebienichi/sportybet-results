@@ -1,5 +1,174 @@
 [
 {
+"when": "Fri 13 Nov 08:14",
+"at": 1794554066,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bball",
+"kind": "mix",
+"legs": 10,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwen5b3t4l8o"
+},
+"ok": true,
+"kind": "basketball \u2013 best market per game",
+"note": [
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "H7EJMR",
+"odds": 4.21,
+"legs": [
+{
+"t": "Fri 11:05",
+"game": "Levanga Hokkaido vs Kobe Storks",
+"lg": "Japan - B League Premier",
+"pick": "Under 198.5 total points",
+"odds": 1.22,
+"why": "expected Levanga Hokkaido 94 \u2013 Kobe Storks 87 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 70%",
+"ts": 1794564300.0,
+"eid": "sr:match:72696298",
+"mid": "225",
+"spec": "total=198.5",
+"oid": "13",
+"k": "72696298|225|total=198.5|13"
+},
+{
+"t": "Fri 11:15",
+"game": "Kyoto Hannaryz vs Ibaraki Robots",
+"lg": "Japan - B League Premier",
+"pick": "Over 144.5 total points",
+"odds": 1.2,
+"why": "expected Kyoto Hannaryz 80 \u2013 Ibaraki Robots 82 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 85%",
+"ts": 1794564900.0,
+"eid": "sr:match:72696304",
+"mid": "225",
+"spec": "total=144.5",
+"oid": "12",
+"k": "72696304|225|total=144.5|12"
+},
+{
+"t": "Fri 11:30",
+"game": "Akita Northern Happinets vs Nagoya Diamond Dolphins",
+"lg": "Japan - B League Premier",
+"pick": "Over 158.5 total points",
+"odds": 1.21,
+"why": "expected Akita Northern Happinets 84 \u2013 Nagoya Diamond Dolphins 92 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 80%",
+"ts": 1794565800.0,
+"eid": "sr:match:72696306",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "72696306|225|total=158.5|12"
+},
+{
+"t": "Fri 12:00",
+"game": "Elitzur Netanya vs Hapoel Hevel Modiin",
+"lg": "Israel - National League",
+"pick": "Elitzur Netanya to win (incl. OT)",
+"odds": 1.07,
+"why": "expected Elitzur Netanya 88 \u2013 Hapoel Hevel Modiin 80 (last 10/10 games, home edge included); 71% by the stats, 80% with the price",
+"ts": 1794567600.0,
+"eid": "sr:match:75019224",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "75019224|219||4"
+},
+{
+"t": "Fri 18:00",
+"game": "BC Slovan Bratislava vs Nitra Blue Wings",
+"lg": "Slovakia - Extraliga",
+"pick": "BC Slovan Bratislava to win (incl. OT)",
+"odds": 1.05,
+"why": "expected BC Slovan Bratislava 83 \u2013 Nitra Blue Wings 74 (last 10/10 games, home edge included); 74% by the stats, 82% with the price; Flashscore home/away form 75%",
+"ts": 1794589200.0,
+"eid": "sr:match:72679792",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "72679792|219||4"
+},
+{
+"t": "Fri 19:00",
+"game": "SKN St. Polten Basketball vs Flyers Wels",
+"lg": "Austria - Superliga",
+"pick": "Over 149.5 total points",
+"odds": 1.21,
+"why": "expected SKN St. Polten Basketball 84 \u2013 Flyers Wels 82 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794592800.0,
+"eid": "sr:match:72653730",
+"mid": "225",
+"spec": "total=149.5",
+"oid": "12",
+"k": "72653730|225|total=149.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "VFL Kirchheim Knights vs PS Karlsruhe Lions",
+"lg": "Germany - Pro A",
+"pick": "VFL Kirchheim Knights to win (incl. OT)",
+"odds": 1.07,
+"why": "expected VFL Kirchheim Knights 90 \u2013 PS Karlsruhe Lions 76 (last 10/10 games, home edge included); 82% by the stats, 85% with the price; Flashscore home/away form 70%",
+"ts": 1794596400.0,
+"eid": "sr:match:72658496",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "72658496|219||4"
+},
+{
+"t": "Fri 20:00",
+"game": "Crailsheim Merlins vs Rheinstars Cologne",
+"lg": "Germany - Pro A",
+"pick": "Crailsheim Merlins to win (incl. OT)",
+"odds": 1.09,
+"why": "expected Crailsheim Merlins 86 \u2013 Rheinstars Cologne 76 (last 10/10 games, home edge included); 74% by the stats, 80% with the price",
+"ts": 1794596400.0,
+"eid": "sr:match:72658494",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "72658494|219||4"
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"lg": "International - Euroleague",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"why": "expected Panathinaikos BC 90 \u2013 FC Barcelona 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794597300.0,
+"eid": "sr:match:73263154",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "73263154|225|total=158.5|12"
+},
+{
+"t": "Fri 23:30",
+"game": "Cruzeiro Basquete vs Unifacisa",
+"lg": "Brazil - NBB",
+"pick": "Under 172.5 total points",
+"odds": 1.23,
+"why": "expected Cruzeiro Basquete 77 \u2013 Unifacisa 76 (last 10/10 games, home edge included); 86% by the stats, 81% with the price",
+"ts": 1794609000.0,
+"eid": "sr:match:74320754",
+"mid": "225",
+"spec": "total=172.5",
+"oid": "13",
+"k": "74320754|225|total=172.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 08:13",
 "at": 1794554031,
 "req": {
