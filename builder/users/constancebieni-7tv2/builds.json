@@ -1,5 +1,177 @@
 [
 {
+"when": "Sat 14 Nov 00:36",
+"at": 1794613006,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"gb25"
+],
+"rid": "mwfm7o12ujas"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "P8E6YT",
+"odds": 14.45,
+"legs": [
+{
+"t": "Sat 02:00",
+"game": "Peru vs Bolivia",
+"lg": "International - Int. Friendly Games",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%",
+"ts": 1794618000.0,
+"eid": "sr:match:76147766",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76147766|450001||25"
+},
+{
+"t": "Sat 13:30",
+"game": "Marek Dupnica vs PFC Chernomorets Burgas",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.6 goals a game",
+"ts": 1794659400.0,
+"eid": "sr:match:72466634",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72466634|450001||25"
+},
+{
+"t": "Sat 14:30",
+"game": "AS Megrine vs AS Agareb",
+"lg": "Tunisia - Ligue 2",
+"pick": "Goal bounds 2-5+",
+"odds": 1.49,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1794663000.0,
+"eid": "sr:match:76515400",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76515400|450001||25"
+},
+{
+"t": "Sat 14:30",
+"game": "US Albinoleffe vs Union Brescia",
+"lg": "Italy - Serie C, Group A",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 75%, FotMob: 2.9 goals a game",
+"ts": 1794663000.0,
+"eid": "sr:match:73293334",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73293334|450001||25"
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"lg": "Wales - Cymru Championship South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794664800.0,
+"eid": "sr:match:74352338",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74352338|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"lg": "Mexico - U21 Liga MX",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:74627426",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74627426|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Port Vale vs Accrington Stanley",
+"lg": "England - League Two",
+"pick": "Goal bounds 2-5+",
+"odds": 1.33,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, footybets 98%, FotMob: 2.4 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72342368",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72342368|450001||25"
+},
+{
+"t": "Sat 17:00",
+"game": "CD Marchamalo vs Villarrubia CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Goal bounds 2-5+",
+"odds": 1.4,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
+"ts": 1794672000.0,
+"eid": "sr:match:73560448",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73560448|450001||25"
+},
+{
+"t": "Sat 19:00",
+"game": "CD Noblejas vs CD Quintanar del Rey",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Goal bounds 2-5+",
+"odds": 1.31,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794679200.0,
+"eid": "sr:match:73560446",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73560446|450001||25"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74838480|450001||25"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 00:17",
 "at": 1794611858,
 "req": {
@@ -4010,126 +4182,6 @@
 "spec": "",
 "oid": "25",
 "k": "76467744|450001||25"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 08:11",
-"at": 1794467500,
-"req": {
-"type": "rollover",
-"legs": 7,
-"rid": "mwd7m2q1m4y6"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a6200 \u2192 returns \u20a6828 if it wins"
-],
-"tickets": [
-{
-"code": "YF3048",
-"odds": 4.14,
-"legs": [
-{
-"t": "Thu 14:00",
-"game": "Iceland vs Greece",
-"lg": "International Youth - U21 UEFA European Championship, Qualification",
-"pick": "1st half Over 0.5",
-"odds": 1.38,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794488400.0,
-"eid": "sr:match:75439646",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75439646|68|total=0.5|12"
-},
-{
-"t": "Thu 18:00",
-"game": "Turkiye vs Belgium",
-"lg": "International - UEFA Nations League",
-"pick": "1st half double chance Belgium or draw",
-"odds": 1.25,
-"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); head-to-head 100%",
-"ts": 1794502800.0,
-"eid": "sr:match:68931496",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "68931496|63||11"
-},
-{
-"t": "Thu 18:30",
-"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
-"lg": "Spain - Copa del Rey",
-"pick": "Under 4.5",
-"odds": 1.16,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 95%",
-"ts": 1794504600.0,
-"eid": "sr:match:76516976",
-"mid": "18",
-"spec": "total=4.5",
-"oid": "13",
-"k": "76516976|18|total=4.5|13"
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"lg": "International - UEFA Nations League",
-"pick": "2nd half Over 0.5",
-"odds": 1.16,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
-"ts": 1794512700.0,
-"eid": "sr:match:68931756",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931756|90|total=0.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"lg": "International - UEFA Nations League",
-"pick": "2nd half Over 0.5",
-"odds": 1.2,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 90%",
-"ts": 1794512700.0,
-"eid": "sr:match:68931500",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931500|90|total=0.5|12"
-},
-{
-"t": "Thu 21:30",
-"game": "AD Izalco vs AD Forfut",
-"lg": "El Salvador - Liga de Ascenso",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against; season: 3.4 goals a game",
-"ts": 1794515400.0,
-"eid": "sr:match:76644046",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76644046|18|total=1.5|12"
-},
-{
-"t": "Thu 22:30",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"lg": "El Salvador - Primera Division",
-"pick": "Over 1.5",
-"odds": 1.28,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 100%; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
-"ts": 1794519000.0,
-"eid": "sr:match:73075396",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73075396|18|total=1.5|12"
 }
 ]
 }
