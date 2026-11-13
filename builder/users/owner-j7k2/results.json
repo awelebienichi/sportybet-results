@@ -737,7 +737,10 @@
 "game": "Germany vs Belgium",
 "pick": "Belgium excluded goals: 2",
 "odds": 1.23,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:30",
@@ -1747,7 +1750,10 @@
 "game": "SV Drochtersen/Assel vs VfB Oldenburg",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1794594600.0
+"ts": 1794594600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -3057,7 +3063,10 @@
 "game": "SV Drochtersen/Assel vs VfB Oldenburg",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.16,
-"ts": 1794594600.0
+"ts": 1794594600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -3909,7 +3918,10 @@
 "game": "SV Drochtersen/Assel vs VfB Oldenburg",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794594600.0
+"ts": 1794594600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
