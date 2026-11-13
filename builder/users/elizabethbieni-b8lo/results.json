@@ -672,7 +672,10 @@
 "game": "Nd Dravinja vs Krka Novo Mesto",
 "pick": "1st Half - Double Chance \u2013 Draw or Away",
 "odds": 1.3,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 18:00",
@@ -1011,7 +1014,10 @@
 "game": "Norway vs Poland",
 "pick": "1st half GG \u2013 No",
 "odds": 1.22,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 17:30",
@@ -1028,7 +1034,10 @@
 "game": "Nd Dravinja vs Krka Novo Mesto",
 "pick": "1st half double chance Krka Novo Mesto or draw",
 "odds": 1.3,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 18:00",
@@ -1711,7 +1720,10 @@
 "game": "Norway vs Poland",
 "pick": "1st half GG \u2013 No",
 "odds": 1.22,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 17:30",
@@ -1728,7 +1740,10 @@
 "game": "Nd Dravinja vs Krka Novo Mesto",
 "pick": "1st half double chance Krka Novo Mesto or draw",
 "odds": 1.3,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 18:00",
