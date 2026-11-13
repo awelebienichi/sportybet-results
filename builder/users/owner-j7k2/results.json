@@ -2,6 +2,114 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XZTE0R",
+"at": 1794600165,
+"when": "Fri 13 Nov 21:02",
+"kind": "1st half Over 0.5",
+"odds": 19.15,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Valladolid vs CD Castellon",
+"pick": "1st half Over 0.5",
+"odds": 1.33,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "K.v.v. Quick Boys vs Jong Almere City FC",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Eastleigh FC vs AFC Fylde",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Harrogate Town vs Altrincham FC",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"pick": "1st half Over 0.5",
+"odds": 1.31,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 22:30",
+"game": "Haiti vs USA",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"ts": 1794691800.0
+}
+]
+},
+{
 "code": "YBEQ39",
 "at": 1794599339,
 "when": "Fri 13 Nov 20:48",
@@ -1395,7 +1503,10 @@
 "game": "Slovakia vs Faroe Islands",
 "pick": "Excluded goals: 0",
 "odds": 1.04,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -2266,8 +2377,8 @@
 "odds": 1.16,
 "ts": 1794594600.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -3609,8 +3720,8 @@
 "odds": 1.16,
 "ts": 1794594600.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -4479,8 +4590,8 @@
 "odds": 1.16,
 "ts": 1794594600.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
