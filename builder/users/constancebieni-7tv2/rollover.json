@@ -35,12 +35,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-12",
-"code": "NR95TL",
-"odds": 4.01,
+"date": "2026-11-13",
+"code": "X36XUN",
+"odds": 4.02,
 "stake": 100.0,
 "n": 8,
-"result": "lost"
+"result": null
 },
 "started": "2026-11-12",
 "short": "lower",

@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "X36XUN",
+"at": 1794560446,
+"when": "Fri 13 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.02,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Leganes vs Burgos CF",
+"pick": "Handicap 0:2 \u2013 Burgos CF",
+"odds": 1.15,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "Handicap 0:2 \u2013 Gibraltar",
+"odds": 1.33,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Glentoran FC vs Bangor FC",
+"pick": "Under 4.5",
+"odds": 1.21,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "JYSGP1",
 "at": 1794559399,
 "when": "Fri 13 Nov 09:43",
