@@ -154,7 +154,10 @@
 "game": "Shooting Stars vs Bendel Insurance FC",
 "pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
 "odds": 1.03,
-"ts": 1794589140.0
+"ts": 1794589140.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -204,7 +207,7 @@
 "when": "Fri 13 Nov 18:30",
 "kind": "live \u2013 best of all",
 "odds": 1.32,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -241,7 +244,10 @@
 "game": "Shooting Stars vs Bendel Insurance FC",
 "pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
 "odds": 1.04,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
