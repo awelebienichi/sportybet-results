@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SFB5SR",
+"at": 1794549919,
+"when": "Fri 13 Nov 07:05",
+"kind": "basketball \u2013 quarter total points",
+"odds": 1.39,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"pick": "Bakken Bears Q1 Under 29.5 points",
+"odds": 1.39,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "R1LCS9",
 "at": 1794549488,
 "when": "Fri 13 Nov 06:58",
