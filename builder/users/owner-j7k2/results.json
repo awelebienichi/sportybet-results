@@ -1637,7 +1637,10 @@
 "game": "FC Helsingoer vs Holstebro BK",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -2931,7 +2934,10 @@
 "game": "FC Helsingoer vs Holstebro BK",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.17,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:30",
@@ -3179,7 +3185,10 @@
 "game": "FC Helsingoer vs Holstebro BK",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 06:00",
