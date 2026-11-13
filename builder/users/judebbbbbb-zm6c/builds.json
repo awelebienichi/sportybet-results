@@ -1,5 +1,156 @@
 [
 {
+"when": "Fri 13 Nov 04:38",
+"at": 1794541127,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "rebuild",
+"code": "ZBPJLJ",
+"markets": [
+"o15",
+"o25",
+"gg",
+"win",
+"up",
+"dc",
+"hgg",
+"gb25",
+"h1",
+"h2",
+"h1dc",
+"htx",
+"wu25",
+"h1u25",
+"u35",
+"u45",
+"u55",
+"h1ggy",
+"h1ggn",
+"eh",
+"m5x",
+"m10x",
+"xg",
+"xgt",
+"xg1"
+],
+"strict": "strict",
+"target": 10,
+"rid": "mwefg2wb9a9m"
+},
+"ok": true,
+"kind": "rebuild of ZBPJLJ",
+"note": [
+"Total odds 9.99 \u2013 on your target of 10."
+],
+"tickets": [
+{
+"code": "MC5D7H",
+"odds": 9.99,
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "ACS Axi Arena vs FC Dinamo Bucuresti 1948 2",
+"lg": "Romania - Liga 3",
+"pick": "Double chance ACS Axi Arena or FC Dinamo Bucuresti 1948 2",
+"odds": 1.19,
+"why": "stats rate 100% from both teams' last 10, 90% with the bookmaker's price (safest of your markets for this game)",
+"ts": 1794571200.0,
+"eid": "sr:match:74087806",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74087806|10||10"
+},
+{
+"t": "Fri 16:00",
+"game": "Al-Shabab vs AL Bahrain",
+"lg": "Bahrain - First Division",
+"pick": "AL Bahrain excluded goals: 1",
+"odds": 1.47,
+"why": "stats rate 78% from both teams' last 10, 71% with the bookmaker's price (chosen to land on your odds)",
+"ts": 1794582000.0,
+"eid": "sr:match:75947224",
+"mid": "450006",
+"spec": "",
+"oid": "1",
+"k": "75947224|450006||1"
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10, 89% with the bookmaker's price (safest of your markets for this game)",
+"ts": 1794585600.0,
+"eid": "sr:match:75802320",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75802320|90|total=0.5|12"
+},
+{
+"t": "Fri 17:30",
+"game": "Norway vs Poland",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Norway excluded goals: 1",
+"odds": 1.45,
+"why": "stats rate 75% from both teams' last 10, 70% with the bookmaker's price (chosen to land on your odds)",
+"ts": 1794587400.0,
+"eid": "sr:match:76624926",
+"mid": "450005",
+"spec": "",
+"oid": "1",
+"k": "76624926|450005||1"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "JS Saoura excluded goals: 1",
+"odds": 1.42,
+"why": "stats rate 68% from both teams' last 10, 67% with the bookmaker's price (chosen to land on your odds)",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "450005",
+"spec": "",
+"oid": "1",
+"k": "75722348|450005||1"
+},
+{
+"t": "Fri 20:00",
+"game": "Grenada vs Saint Kitts and Nevis",
+"lg": "International - CONCACAF Nations League",
+"pick": "Grenada excluded goals: 1",
+"odds": 1.46,
+"why": "stats rate 93% from both teams' last 10, 79% with the bookmaker's price (safest of your markets for this game)",
+"ts": 1794596400.0,
+"eid": "sr:match:75468428",
+"mid": "450005",
+"spec": "",
+"oid": "1",
+"k": "75468428|450005||1"
+},
+{
+"t": "Fri 20:45",
+"game": "Luxembourg vs Estonia",
+"lg": "International - UEFA Nations League",
+"pick": "Double chance Estonia or draw",
+"odds": 1.57,
+"why": "stats rate 79% from both teams' last 10, 70% with the bookmaker's price (chosen to land on your odds)",
+"ts": 1794599100.0,
+"eid": "sr:match:68932280",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "68932280|10||11"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:37",
 "at": 1794541064,
 "req": {
