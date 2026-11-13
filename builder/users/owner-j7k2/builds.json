@@ -1,5 +1,60 @@
 [
 {
+"when": "Fri 13 Nov 16:58",
+"at": 1794585484,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 20,
+"strict": "strict",
+"rid": "mwf5ut6gv7hu"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 20).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "QQL1F4",
+"odds": 1.12,
+"legs": [
+{
+"t": "Fri 16:00",
+"game": "Iraq vs Lebanon",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:3 \u2013 Lebanon",
+"odds": 1.05,
+"why": "LIVE 0-0 45': Iraq expected 0.4 and Lebanon 1.0 more goals (last 10); 0-0 at 45' \u2013 99% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1794582000.0,
+"eid": "sr:match:76687822",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76687822|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 16:00",
+"game": "Jerash Club vs Ittihad AL Ramtha",
+"lg": "Jordan - First Division",
+"pick": "Ittihad AL Ramtha Under 1.5",
+"odds": 1.07,
+"why": "LIVE 0-0 45': Jerash Club expected 0.8 and Ittihad AL Ramtha 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 88% chance; goals record 80% / 80% in both sides' last games",
+"ts": 1794582000.0,
+"eid": "sr:match:74205878",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "74205878|20|total=1.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 16:57",
 "at": 1794585458,
 "req": {
@@ -7731,47 +7786,6 @@
 "spec": "",
 "oid": "1",
 "k": "76153762|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 04:38",
-"at": 1794541115,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 1,
-"strict": "normal",
-"rid": "mweffv8qgtti"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "H02MAR",
-"odds": 1.12,
-"legs": [
-{
-"t": "Fri 03:00",
-"game": "Atletico Morelia vs Leones Negros UDEG",
-"lg": "Mexico - Liga de Expansion MX",
-"pick": "Atletico Morelia or Leones Negros UDEG",
-"odds": 1.12,
-"why": "LIVE 1-0 77': Atletico Morelia expected 0.3 and Leones Negros UDEG 0.3 more goals (last 10 + season); 1-0 at 77' \u2013 85% chance",
-"ts": 1794535200.0,
-"eid": "sr:match:76629018",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76629018|10||10"
 }
 ]
 }
