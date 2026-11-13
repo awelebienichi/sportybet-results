@@ -1,5 +1,49 @@
 [
 {
+"when": "Fri 13 Nov 07:05",
+"at": 1794549919,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "quarter",
+"legs": 10,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwekom9uprzk"
+},
+"ok": true,
+"kind": "basketball \u2013 quarter total points",
+"note": [
+"Only 1 basketball games passed the checks (Fri 13, 103 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "SFB5SR",
+"odds": 1.39,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Bakken Bears Q1 Under 29.5 points",
+"odds": 1.39,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "757",
+"spec": "total=29.5|quarternr=1",
+"oid": "13",
+"k": "72663212|757|total=29.5|quarternr=1|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 06:58",
 "at": 1794549488,
 "req": {
@@ -4868,48 +4912,6 @@
 "spec": "hcp=0:3",
 "oid": "1713",
 "k": "75802240|14|hcp=0:3|1713"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 16:17",
-"at": 1794496639,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwdoy6400vrd"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "LQR2BZ",
-"odds": 1.25,
-"legs": [
-{
-"t": "Thu 16:00",
-"game": "Al-Ahly Amman vs Amman FC",
-"lg": "Jordan - First Division",
-"pick": "Handicap 0:2 \u2013 Amman FC",
-"odds": 1.25,
-"why": "LIVE 0-0 10': Al-Ahly Amman expected 0.9 and Amman FC 1.2 more goals (last 10 + season); 0-0 at 10' \u2013 89% chance; margin record 80% / 100% in both sides' last games",
-"ts": 1794495600.0,
-"eid": "sr:match:74205868",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "74205868|14|hcp=0:2|1713"
 }
 ]
 }
