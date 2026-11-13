@@ -7,7 +7,7 @@
 "when": "Thu 12 Nov 21:42",
 "kind": "safest market per game",
 "odds": 6311.73,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 03:00",
@@ -34,7 +34,10 @@
 "game": "Transit Camp FC vs Mbeya Kwanza FC",
 "pick": "GG (both teams score)",
 "odds": 1.73,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 17:00",

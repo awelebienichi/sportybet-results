@@ -74,7 +74,10 @@
 "game": "Transit Camp FC vs Mbeya Kwanza FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.3,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 15:15",
@@ -246,7 +249,7 @@
 "when": "Fri 13 Nov 08:27",
 "kind": "your chosen markets",
 "odds": 7.51,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:00",
@@ -293,7 +296,10 @@
 "game": "Transit Camp FC vs Mbeya Kwanza FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.3,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 17:15",
@@ -505,7 +511,10 @@
 "game": "Transit Camp FC vs Mbeya Kwanza FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.3,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 14:00",
@@ -1252,7 +1261,10 @@
 "game": "Transit Camp FC vs Mbeya Kwanza FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.3,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 14:00",
@@ -1570,7 +1582,10 @@
 "game": "Transit Camp FC vs Mbeya Kwanza FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.3,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 14:00",
