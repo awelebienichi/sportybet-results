@@ -757,14 +757,17 @@
 "when": "Fri 13 Nov 12:20",
 "kind": "live basketball \u2013 game totals",
 "odds": 1.14,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 11:00",
 "game": "Himeji Egrets vs Aranmare Akita",
 "pick": "Over 111.5 total points",
 "odds": 1.14,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "51-62",
+"ht": "21-11"
 }
 ]
 },
