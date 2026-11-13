@@ -1,5 +1,177 @@
 [
 {
+"when": "Fri 13 Nov 08:27",
+"at": 1794554854,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "19:00",
+"markets": [
+"gb25"
+],
+"rid": "mwenmccnv001"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "XXBYMT",
+"odds": 7.51,
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "ASC Otelul Galati II vs ACS Progresul Fundulea",
+"lg": "Romania - Liga 3",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794571200.0,
+"eid": "sr:match:74087424",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74087424|450001||25"
+},
+{
+"t": "Fri 13:00",
+"game": "Csm Ramnicu Sarat vs ACS Viitorul Corbeanca",
+"lg": "Romania - Liga 3",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794571200.0,
+"eid": "sr:match:74086946",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74086946|450001||25"
+},
+{
+"t": "Fri 13:00",
+"game": "Budaorsi SC vs Erdi VSE",
+"lg": "Hungary - NB III",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings; Flashscore home/away form 85%",
+"ts": 1794571200.0,
+"eid": "sr:match:72880634",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72880634|450001||25"
+},
+{
+"t": "Fri 13:25",
+"game": "Afief vs AL Rayan",
+"lg": "Saudi Arabia - Second Division",
+"pick": "Goal bounds 2-5+",
+"odds": 1.31,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794572700.0,
+"eid": "sr:match:73774576",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73774576|450001||25"
+},
+{
+"t": "Fri 14:00",
+"game": "Transit Camp FC vs Mbeya Kwanza FC",
+"lg": "Tanzania - Championship League",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:74167648",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74167648|450001||25"
+},
+{
+"t": "Fri 17:15",
+"game": "Finland vs Ireland",
+"lg": "International Youth - U21 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794586500.0,
+"eid": "sr:match:75439648",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75439648|450001||25"
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"lg": "International - UEFA Nations League",
+"pick": "Goal bounds 2-5+",
+"odds": 1.46,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 100%, footybets 86%, FotMob: 2.9 goals a game",
+"ts": 1794589200.0,
+"eid": "sr:match:68932372",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "68932372|450001||25"
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.7 goals a game, Vitibet tip 2-1",
+"ts": 1794591000.0,
+"eid": "sr:match:72961080",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72961080|450001||25"
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 100%",
+"ts": 1794592800.0,
+"eid": "sr:match:76454720",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76454720|450001||25"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"lg": "Denmark - 2nd Division",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.3 goals a game, Vitibet tip 2-1",
+"ts": 1794592800.0,
+"eid": "sr:match:72499156",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72499156|450001||25"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 08:26",
 "at": 1794554763,
 "req": {
