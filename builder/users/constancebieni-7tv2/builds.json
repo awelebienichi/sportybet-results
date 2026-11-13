@@ -1,5 +1,116 @@
 [
 {
+"when": "Fri 13 Nov 19:31",
+"at": 1794594672,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwfbbq06s2r2"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "HCB5YL",
+"odds": 1.26,
+"legs": [
+{
+"t": "Fri 17:59",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"lg": "Nigeria - Premier League",
+"pick": "Handicap 0:2 \u2013 Bendel Insurance FC",
+"odds": 1.08,
+"why": "LIVE 0-0 70': Shooting Stars expected 0.4 and Bendel Insurance FC 0.4 more goals (last 10 + season); 0-0 at 70' \u2013 95% chance; h2h 100% of 8 meetings",
+"ts": 1794589140.0,
+"eid": "sr:match:74886150",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "74886150|14|hcp=0:2|1713"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.03,
+"why": "LIVE 1-1 68': JS Saoura expected 0.2 and USM Khenchela 0.2 more goals (last 10 + season); 1-1 at 68' \u2013 97% chance; goals record 100% / 90% in both sides' last games, h2h 75% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75722348|19|total=2.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"lg": "International - UEFA Nations League",
+"pick": "Moldova Under 2.5",
+"odds": 1.03,
+"why": "LIVE 1-1 73': Moldova expected 0.2 and Kazakhstan 0.4 more goals (last 10); 1-1 at 73' \u2013 96% chance; goals record 100% / 90% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:68932372",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932372|19|total=2.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"lg": "Poland - III Liga, Group 4",
+"pick": "Under 5.5",
+"odds": 1.04,
+"why": "LIVE 1-2 73': KS Wisloka Debica expected 0.3 and MKS Czarni Polaniec 0.3 more goals (last 10 + season); 1-2 at 73' \u2013 95% chance; Flashscore home/away form 75%, h2h 62% of 8 meetings (3.5 line)",
+"ts": 1794589200.0,
+"eid": "sr:match:72517390",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "72517390|18|total=5.5|13"
+},
+{
+"t": "Fri 18:08",
+"game": "Tuzos de Pachuca FC vs Santiago Tulantepec",
+"lg": "Mexico - Mexico Liga TDP",
+"pick": "Tuzos de Pachuca FC or Santiago Tulantepec",
+"odds": 1.04,
+"why": "LIVE 2-1 62': no team stats for this game \u2013 SportyBet's own price says 91%",
+"ts": 1794589680.0,
+"eid": "sr:match:111111114410532",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "111111114410532|10||10"
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Handicap 0:3 \u2013 Luxembourg",
+"odds": 1.04,
+"why": "LIVE 1-1 30': Albania expected 1.0 and Luxembourg 0.8 more goals (last 10); 1-1 at 30' \u2013 94% chance; margin record 100% / 80% in both sides' last games",
+"ts": 1794592800.0,
+"eid": "sr:match:76170232",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76170232|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 17:49",
 "at": 1794588587,
 "req": {
