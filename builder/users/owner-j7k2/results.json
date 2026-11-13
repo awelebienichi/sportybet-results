@@ -447,7 +447,10 @@
 "game": "VV Kloetinge vs Hoek",
 "pick": "Handicap 4:0 \u2013 VV Kloetinge",
 "odds": 1.07,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Fri 19:00",
@@ -933,7 +936,10 @@
 "game": "FC Nantes vs RC Lens",
 "pick": "Double chance FC Nantes or draw",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",

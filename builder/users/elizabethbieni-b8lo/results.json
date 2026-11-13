@@ -961,7 +961,10 @@
 "game": "FC 08 Homburg-Saar vs FSV Frankfurt 1899",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.11,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
@@ -1742,7 +1745,10 @@
 "game": "FC 08 Homburg-Saar vs FSV Frankfurt 1899",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 }
 ]
 },
