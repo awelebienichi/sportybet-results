@@ -666,7 +666,10 @@
 "game": "Bermuda vs Saint Lucia",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -773,7 +776,10 @@
 "game": "Bermuda vs Saint Lucia",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -797,7 +803,7 @@
 "when": "Wed 11 Nov 11:23",
 "kind": "your chosen markets",
 "odds": 2.4,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 21:00",
@@ -824,7 +830,10 @@
 "game": "Bermuda vs Saint Lucia",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 }
 ]
 }
