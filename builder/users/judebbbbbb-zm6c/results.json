@@ -691,7 +691,10 @@
 "game": "Aurora FC vs Deportivo Mixco",
 "pick": "Handicap 0:2 \u2013 Deportivo Mixco",
 "odds": 1.24,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 23:00",
@@ -1365,7 +1368,10 @@
 "game": "Aurora FC vs Deportivo Mixco",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 23:00",
@@ -1866,7 +1872,10 @@
 "game": "Aurora FC vs Deportivo Mixco",
 "pick": "Handicap 0:2 \u2013 Deportivo Mixco",
 "odds": 1.24,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 23:00",
