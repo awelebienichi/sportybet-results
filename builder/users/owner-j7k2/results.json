@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QQL1F4",
+"at": 1794585458,
+"when": "Fri 13 Nov 16:57",
+"kind": "live \u2013 best of all",
+"odds": 1.12,
+"status": "open",
+"legs": [
+{
+"t": "Fri 16:00",
+"game": "Iraq vs Lebanon",
+"pick": "Handicap 0:3 \u2013 Lebanon",
+"odds": 1.05,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 16:00",
+"game": "Jerash Club vs Ittihad AL Ramtha",
+"pick": "Ittihad AL Ramtha Under 1.5",
+"odds": 1.07,
+"ts": 1794582000.0
+}
+]
+},
+{
 "code": "KT4E72",
 "at": 1794585180,
 "when": "Fri 13 Nov 16:53",
