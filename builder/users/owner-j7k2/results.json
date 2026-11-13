@@ -1789,7 +1789,10 @@
 "game": "Glentoran FC vs Bangor FC",
 "pick": "Double chance Glentoran FC or draw",
 "odds": 1.11,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 }
 ]
 },
@@ -2304,7 +2307,10 @@
 "game": "Larne FC vs Dungannon Swifts",
 "pick": "Excluded goals: 4",
 "odds": 1.16,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
