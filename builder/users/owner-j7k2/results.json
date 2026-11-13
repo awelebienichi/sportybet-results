@@ -101,14 +101,20 @@
 "game": "Zambia vs Burundi",
 "pick": "Handicap 0:2 \u2013 Burundi",
 "odds": 1.07,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
 "game": "Comoros vs Congo",
 "pick": "Under 2.5",
 "odds": 1.04,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -125,7 +131,10 @@
 "game": "Black Sailor FC vs Uhamiaji",
 "pick": "Uhamiaji or draw",
 "odds": 1.06,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 14:00",
