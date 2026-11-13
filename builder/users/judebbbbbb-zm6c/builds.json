@@ -1,5 +1,107 @@
 [
 {
+"when": "Fri 13 Nov 04:23",
+"at": 1794540212,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "mix",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"target": 10,
+"rid": "mweewe7zvji1"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"3 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "TYQSMZ",
+"odds": 14.98,
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Double chance KF Vjosa or draw",
+"odds": 2.0,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794571200.0,
+"eid": "sr:match:76679008",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76679008|10||11"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75722348|63||11"
+},
+{
+"t": "Fri 20:00",
+"game": "Mali vs Rwanda",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half double chance Rwanda or draw",
+"odds": 1.89,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794596400.0,
+"eid": "sr:match:75802306",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75802306|63||11"
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "1st half double chance Newcastle United U21 or draw",
+"odds": 1.75,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794596400.0,
+"eid": "sr:match:73684976",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73684976|63||11"
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794599100.0,
+"eid": "sr:match:68932814",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "68932814|63||11"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:18",
 "at": 1794539895,
 "req": {
