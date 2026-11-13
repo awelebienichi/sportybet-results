@@ -121,7 +121,10 @@
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "1st Half - 1X2 \u2013 Draw",
 "odds": 2.25,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -226,7 +229,10 @@
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "Half-time draw",
 "odds": 2.25,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -750,7 +756,10 @@
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "1st Half - 1X2 \u2013 Draw",
 "odds": 2.25,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -1103,14 +1112,20 @@
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "1st half double chance KS Wisloka Debica or draw",
 "odds": 1.35,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
 "game": "Germany vs Belgium",
 "pick": "1st half Under 2.5",
 "odds": 1.15,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:30",
@@ -1830,7 +1845,10 @@
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "Half-time draw",
 "odds": 2.25,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
