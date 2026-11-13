@@ -1,6 +1,47 @@
 [
 {
 "when": "Fri 13 Nov 12:20",
+"at": 1794568855,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bblive",
+"kind": "total",
+"legs": 6,
+"strict": "relaxed",
+"rid": "mwevyeffa72v"
+},
+"ok": true,
+"kind": "live basketball \u2013 game totals",
+"note": [
+"Only 1 live basketball leg(s) were strong enough right now (you asked for 6).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "LK82X4",
+"odds": 1.14,
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Himeji Egrets vs Aranmare Akita",
+"lg": "Japan - W League Future",
+"pick": "Over 111.5 total points",
+"odds": 1.14,
+"why": "LIVE 44-47, 32 of 40 min: expected final 57-61; 82% by the stats, 82% with the price",
+"ts": 1794564000.0,
+"eid": "sr:match:76593228",
+"mid": "225",
+"spec": "total=111.5",
+"oid": "12",
+"k": "76593228|225|total=111.5|12"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 12:20",
 "at": 1794568830,
 "req": {
 "u": "owner-j7k2",
@@ -4574,19 +4615,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 22:14",
-"at": 1794518049,
-"req": {
-"type": "bblive",
-"legs": 10,
-"strict": "normal",
-"target": 100000,
-"rid": "bltestdprp",
-"u": "owner-j7k2"
-},
-"ok": false,
-"msg": "5 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
 }
 ]
