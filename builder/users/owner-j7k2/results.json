@@ -2589,7 +2589,10 @@
 "game": "Jeugd Sporting Hasselt vs RFC Liege",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 }
 ]
 },
@@ -2740,7 +2743,10 @@
 "game": "Jeugd Sporting Hasselt vs RFC Liege",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -3893,7 +3899,10 @@
 "game": "Jeugd Sporting Hasselt vs RFC Liege",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.09,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -4756,7 +4765,10 @@
 "game": "Jeugd Sporting Hasselt vs RFC Liege",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
