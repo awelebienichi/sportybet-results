@@ -1,6 +1,21 @@
 [
 {
 "when": "Fri 13 Nov 08:14",
+"at": 1794554095,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bblive",
+"kind": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwen63sawyac"
+},
+"ok": false,
+"msg": "1 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
+},
+{
+"when": "Fri 13 Nov 08:14",
 "at": 1794554075,
 "req": {
 "u": "elizabethbieni-b8lo",
