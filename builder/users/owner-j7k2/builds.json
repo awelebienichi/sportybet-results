@@ -1,5 +1,47 @@
 [
 {
+"when": "Fri 13 Nov 06:07",
+"at": 1794546422,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 3,
+"strict": "normal",
+"rid": "mweillh5c0vp"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 3).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "P1NSWW",
+"odds": 1.06,
+"legs": [
+{
+"t": "Fri 04:30",
+"game": "FC Real Bengaluru vs Bangalore Dream United FC",
+"lg": "India - Bangalore Super Division",
+"pick": "FC Real Bengaluru to win",
+"odds": 1.06,
+"why": "LIVE 1-0 75': no team stats for this game \u2013 SportyBet's own price says 89%",
+"ts": 1794540600.0,
+"eid": "sr:match:76153762",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "76153762|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:38",
 "at": 1794541115,
 "req": {
@@ -4637,47 +4679,6 @@
 "pick": "Hannover 96 Under 6.5",
 "odds": 1.22,
 "why": "LIVE 4-1 54': Hannover 96 expected 0.8 and TSV Havelse 0.6 more goals (last 10); 4-1 at 54' \u2013 93% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794481200.0,
-"eid": "sr:match:76233346",
-"mid": "19",
-"spec": "total=6.5",
-"oid": "13",
-"k": "76233346|19|total=6.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 13:19",
-"at": 1794485965,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 8,
-"strict": "strict",
-"rid": "mwdiluwqsp0y"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 8).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "YSQCB6",
-"odds": 1.22,
-"legs": [
-{
-"t": "Thu 12:00",
-"game": "Hannover 96 vs TSV Havelse",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Hannover 96 Under 6.5",
-"odds": 1.22,
-"why": "LIVE 4-0 53': Hannover 96 expected 0.8 and TSV Havelse 0.6 more goals (last 10); 4-0 at 53' \u2013 93% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
 "ts": 1794481200.0,
 "eid": "sr:match:76233346",
 "mid": "19",
