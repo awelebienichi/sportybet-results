@@ -1,5 +1,24 @@
 [
 {
+"when": "Fri 13 Nov 21:26",
+"at": 1794601601,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 15,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "strict",
+"rid": "mwffgbsfp566"
+},
+"ok": false,
+"msg": "No basketball game passed the checks for Fri 13, Sat 14 (247 games judged). Try Normal/Relaxed or more days."
+},
+{
 "when": "Fri 13 Nov 21:25",
 "at": 1794601518,
 "req": {
@@ -9353,46 +9372,5 @@
 },
 "ok": false,
 "msg": "5 leg(s) had already started and were left out."
-},
-{
-"when": "Fri 13 Nov 12:20",
-"at": 1794568855,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "total",
-"legs": 6,
-"strict": "relaxed",
-"rid": "mwevyeffa72v"
-},
-"ok": true,
-"kind": "live basketball \u2013 game totals",
-"note": [
-"Only 1 live basketball leg(s) were strong enough right now (you asked for 6).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "LK82X4",
-"odds": 1.14,
-"legs": [
-{
-"t": "Fri 11:00",
-"game": "Himeji Egrets vs Aranmare Akita",
-"lg": "Japan - W League Future",
-"pick": "Over 111.5 total points",
-"odds": 1.14,
-"why": "LIVE 44-47, 32 of 40 min: expected final 57-61; 82% by the stats, 82% with the price",
-"ts": 1794564000.0,
-"eid": "sr:match:76593228",
-"mid": "225",
-"spec": "total=111.5",
-"oid": "12",
-"k": "76593228|225|total=111.5|12"
-}
-]
-}
-]
 }
 ]
