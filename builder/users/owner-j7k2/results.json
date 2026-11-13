@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KT4E72",
+"at": 1794585180,
+"when": "Fri 13 Nov 16:53",
+"kind": "live \u2013 best of all",
+"odds": 1.36,
+"status": "open",
+"legs": [
+{
+"t": "Fri 16:00",
+"game": "Iraq vs Lebanon",
+"pick": "Handicap 0:3 \u2013 Lebanon",
+"odds": 1.05,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 16:00",
+"game": "Sahl Horan SC vs AL Sareeh",
+"pick": "Sahl Horan SC or AL Sareeh",
+"odds": 1.04,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 16:00",
+"game": "Jerash Club vs Ittihad AL Ramtha",
+"pick": "Ittihad AL Ramtha Under 1.5",
+"odds": 1.07,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 16:00",
+"game": "Al-Shabab vs AL Bahrain",
+"pick": "Al-Shabab or draw",
+"odds": 1.1,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 16:15",
+"game": "AS Police Niger vs Liberte FC",
+"pick": "AS Police Niger or draw",
+"odds": 1.03,
+"ts": 1794582900.0
+},
+{
+"t": "Fri 16:15",
+"game": "US Gendarmerie Nationale vs Tagour Pc",
+"pick": "US Gendarmerie Nationale or Tagour Pc",
+"odds": 1.03,
+"ts": 1794582900.0
+}
+]
+},
+{
 "code": "PXNL5F",
 "at": 1794579371,
 "when": "Fri 13 Nov 15:16",
