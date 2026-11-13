@@ -7,14 +7,17 @@
 "when": "Fri 13 Nov 09:08",
 "kind": "live \u2013 best of all",
 "odds": 1.08,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 08:00",
 "game": "Lemi Kura SC vs Ethiopian Sports Academy",
 "pick": "Lemi Kura SC or Ethiopian Sports Academy",
 "odds": 1.08,
-"ts": 1794553200.0
+"ts": 1794553200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
