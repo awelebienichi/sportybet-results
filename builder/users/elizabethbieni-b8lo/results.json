@@ -389,7 +389,10 @@
 "game": "Nairea vs AL Sahel SC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.22,
-"ts": 1794570900.0
+"ts": 1794570900.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
@@ -1087,7 +1090,7 @@
 "when": "Fri 13 Nov 08:22",
 "kind": "your chosen markets",
 "odds": 756.63,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -1124,7 +1127,10 @@
 "game": "Nairea vs AL Sahel SC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.22,
-"ts": 1794570900.0
+"ts": 1794570900.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
