@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "XK40AB",
+"at": 1794588587,
+"when": "Fri 13 Nov 17:49",
+"kind": "live \u2013 best of all",
+"odds": 1.55,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"pick": "Handicap 0:3 \u2013 Mauritania",
+"odds": 1.03,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"pick": "Handicap 0:5 \u2013 Liberia",
+"odds": 1.06,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Gabon vs Lesotho",
+"pick": "Handicap 0:3 \u2013 Lesotho",
+"odds": 1.09,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "South Africa vs Kenya",
+"pick": "Handicap 0:3 \u2013 Kenya",
+"odds": 1.1,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "Handicap 0:3 \u2013 Tanzania",
+"odds": 1.12,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:30",
+"game": "Kuwait vs Syria",
+"pick": "Handicap 0:2 \u2013 Syria",
+"odds": 1.06,
+"ts": 1794587400.0
+}
+]
+},
+{
 "code": "LV11PS",
 "at": 1794587880,
 "when": "Fri 13 Nov 17:38",
