@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VD2MFC",
+"at": 1794596769,
+"when": "Fri 13 Nov 20:06",
+"kind": "live basketball",
+"odds": 1.82,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Iserlohn Kangaroos vs Uni Baskets Munster",
+"pick": "Uni Baskets Munster to win (incl. OT)",
+"odds": 1.05,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Eagles Graz vs BBC Nord Dragonz",
+"pick": "BBC Nord Dragonz to win (incl. OT)",
+"odds": 1.12,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:04",
+"game": "Uppsala Basket vs KFUM Umea",
+"pick": "KFUM Umea to win (incl. OT)",
+"odds": 1.09,
+"ts": 1794593040.0
+},
+{
+"t": "Fri 19:30",
+"game": "Homenetmen vs Atlas Ferzol",
+"pick": "Homenetmen to win (incl. OT)",
+"odds": 1.18,
+"ts": 1794594600.0
+},
+{
+"t": "Fri 19:30",
+"game": "Fraport Skyliners II vs Ahorn Camp Baskets",
+"pick": "Fraport Skyliners II to win (incl. OT)",
+"odds": 1.12,
+"ts": 1794594600.0
+}
+]
+},
+{
 "code": "KB0S0L",
 "at": 1794596690,
 "when": "Fri 13 Nov 20:04",
@@ -1970,7 +2015,10 @@
 "game": "Bermuda vs Saint Lucia",
 "pick": "1st half Over 0.5",
 "odds": 1.14,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
