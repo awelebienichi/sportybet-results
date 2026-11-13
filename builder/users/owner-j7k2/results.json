@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LFK6J7",
+"at": 1794549985,
+"when": "Fri 13 Nov 07:06",
+"kind": "basketball \u2013 team points",
+"odds": 1.57,
+"status": "open",
+"legs": [
+{
+"t": "Fri 23:00",
+"game": "Miami Hurricanes vs North Alabama Lions",
+"pick": "Miami Hurricanes Under 95.5 points",
+"odds": 1.57,
+"ts": 1794607200.0
+}
+]
+},
+{
 "code": "SFB5SR",
 "at": 1794549919,
 "when": "Fri 13 Nov 07:05",
