@@ -1,5 +1,163 @@
 [
 {
+"when": "Fri 13 Nov 04:18",
+"at": 1794539895,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "mix",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"target": 100,
+"rid": "mweeorp2apfh"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"3 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "WL2BH9",
+"odds": 111.78,
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Double chance KF Vjosa or draw",
+"odds": 2.0,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794571200.0,
+"eid": "sr:match:76679008",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76679008|10||11"
+},
+{
+"t": "Fri 14:00",
+"game": "Comoros vs Congo",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half double chance Congo or draw",
+"odds": 1.5,
+"why": "stats rate 88% from both teams' last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:75803688",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75803688|63||11"
+},
+{
+"t": "Fri 14:00",
+"game": "Gunners FC vs Iaa SC",
+"lg": "Tanzania - Championship League",
+"pick": "Double chance Iaa SC or draw",
+"odds": 1.65,
+"why": "stats rate 80% from both teams' last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:74167646",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "74167646|10||11"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75722348|63||11"
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.57,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794589200.0,
+"eid": "sr:match:68932372",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68932372|68|total=0.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Mali vs Rwanda",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half double chance Rwanda or draw",
+"odds": 1.89,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794596400.0,
+"eid": "sr:match:75802306",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75802306|63||11"
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "1st half double chance Newcastle United U21 or draw",
+"odds": 1.75,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794596400.0,
+"eid": "sr:match:73684976",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73684976|63||11"
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794599100.0,
+"eid": "sr:match:68932814",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "68932814|63||11"
+},
+{
+"t": "Fri 20:45",
+"game": "Caernarfon Town FC vs Holywell Town",
+"lg": "Wales - FAW Welsh Cup",
+"pick": "GG (both teams score)",
+"odds": 1.92,
+"why": "stats rate 71% from both teams' last 10 and 8 meetings; Flashscore home/away form 50%",
+"ts": 1794599100.0,
+"eid": "sr:match:75827912",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "75827912|29||74"
+}
+]
+}
+]
+},
+{
 "when": "Thu 12 Nov 13:33",
 "at": 1794486801,
 "req": {
