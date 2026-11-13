@@ -1,5 +1,150 @@
 [
 {
+"when": "Fri 13 Nov 04:15",
+"at": 1794539710,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 20,
+"days": [
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16"
+],
+"strict": "normal",
+"rid": "mweelm6hhldf"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 8 basketball games passed the checks (Fri 13, Sat 14, Sun 15, Mon 16, 86 judged), so the ticket has 8 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "NXDDBM",
+"odds": 7.02,
+"legs": [
+{
+"t": "Fri 18:30",
+"game": "Anadolu Efes SK vs Virtus Bologna",
+"lg": "International - Euroleague",
+"pick": "Over 160.5 total points",
+"odds": 1.23,
+"why": "expected Anadolu Efes SK 90 \u2013 Virtus Bologna 86 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794591000.0,
+"eid": "sr:match:73263152",
+"mid": "225",
+"spec": "total=160.5",
+"oid": "12",
+"k": "73263152|225|total=160.5|12"
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"lg": "International - Euroleague",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"why": "expected Panathinaikos BC 90 \u2013 FC Barcelona 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794597300.0,
+"eid": "sr:match:73263154",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "73263154|225|total=158.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
+"lg": "International - Euroleague",
+"pick": "Over 162.5 total points",
+"odds": 1.22,
+"why": "expected ASVEL Lyon-Villeurbanne 91 \u2013 Besiktas JK 87 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; Flashscore home/away form 70%",
+"ts": 1794598200.0,
+"eid": "sr:match:73263156",
+"mid": "225",
+"spec": "total=162.5",
+"oid": "12",
+"k": "73263156|225|total=162.5|12"
+},
+{
+"t": "Sat 01:00",
+"game": "Illinois Fighting Illini vs Sam Houston Bearkats",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Under 178.5 total points",
+"odds": 1.4,
+"why": "expected Illinois Fighting Illini 84 \u2013 Sam Houston Bearkats 73 (last 10/10 games, home edge included); 89% by the stats, 78% with the price; Flashscore home/away form 80%",
+"ts": 1794614400.0,
+"eid": "sr:match:73935508",
+"mid": "225",
+"spec": "total=178.5",
+"oid": "13",
+"k": "73935508|225|total=178.5|13"
+},
+{
+"t": "Sat 01:00",
+"game": "Charlotte 49ers vs Appalachian State Mountaineers",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Over 124.5 total points",
+"odds": 1.38,
+"why": "expected Charlotte 49ers 72 \u2013 Appalachian State Mountaineers 73 (last 10/10 games, home edge included); 87% by the stats, 78% with the price; Flashscore home/away form 75%",
+"ts": 1794614400.0,
+"eid": "sr:match:75020836",
+"mid": "225",
+"spec": "total=124.5",
+"oid": "12",
+"k": "75020836|225|total=124.5|12"
+},
+{
+"t": "Sat 02:00",
+"game": "Chicago Bulls vs Atlanta Hawks",
+"lg": "USA - NBA",
+"pick": "Under 258.5 total points",
+"odds": 1.26,
+"why": "expected Chicago Bulls 118 \u2013 Atlanta Hawks 121 (last 10/10 games, home edge included); 87% by the stats, 81% with the price; 17 pts a game missing through injury, Flashscore home/away form 95%, NBA ratings say 238 points",
+"ts": 1794618000.0,
+"eid": "sr:match:73696990",
+"mid": "225",
+"spec": "total=258.5",
+"oid": "13",
+"k": "73696990|225|total=258.5|13"
+},
+{
+"t": "Sat 02:00",
+"game": "Miami Heat vs Cleveland Cavaliers",
+"lg": "USA - NBA",
+"pick": "Under 248.5 total points",
+"odds": 1.27,
+"why": "expected Miami Heat 117 \u2013 Cleveland Cavaliers 116 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; 22 pts a game missing through injury, Flashscore home/away form 85%, NBA ratings say 231 points",
+"ts": 1794618000.0,
+"eid": "sr:match:73696988",
+"mid": "225",
+"spec": "total=248.5",
+"oid": "13",
+"k": "73696988|225|total=248.5|13"
+},
+{
+"t": "Sat 04:00",
+"game": "Sacramento Kings vs Portland Trail Blazers",
+"lg": "USA - NBA",
+"pick": "Over 216.5 total points",
+"odds": 1.24,
+"why": "expected Sacramento Kings 114 \u2013 Portland Trail Blazers 118 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; NBA ratings say 231 points",
+"ts": 1794625200.0,
+"eid": "sr:match:73696998",
+"mid": "225",
+"spec": "total=216.5",
+"oid": "12",
+"k": "73696998|225|total=216.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:05",
 "at": 1794539159,
 "req": {
@@ -5121,20 +5266,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 12:42",
-"at": 1794483755,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwdhagzk5e5f"
-},
-"ok": false,
-"msg": "7 games are in play, but none fits that strategy right now (6 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 }
 ]
