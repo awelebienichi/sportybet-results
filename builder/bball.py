@@ -11,7 +11,9 @@ import phonebuild as P
 import bbsources
 
 HCA, SDM, SDT, SDTEAM = 3.65, 15.1, 17.9, 11.7
-LEVELS = {"strict": (.85, .80), "normal": (.80, .76), "relaxed": (.75, .72)}      # stats chance, chance after the bookmaker's price
+LEVELS = {"strict": (.75, .82), "normal": (.65, .76), "relaxed": (.60, .70)}  # (stats at least, stats + bookmaker's price combined at least)
+# measured on 13 Nov (103 games with data): the combined bar decides how many games get a leg – 82%: ~5% of games (~85% each come true),
+# 76%: ~a third (~80% each), 70%: ~half (~77% each). The stats alone rarely reach 80% on a single game: the bookmaker's lines are sharper.
 Phi = lambda z: 0.5 * (1 + math.erf(z / math.sqrt(2)))
 KINDS = {"mix": None, "win": ("219",), "hcp": ("223",), "total": ("225",), "team": ("227", "228")}
 NAMES = {"mix": "basketball – best market per game", "win": "basketball – winners", "hcp": "basketball – handicap",
@@ -22,7 +24,7 @@ def games():
     """every upcoming basketball game (cached 15 minutes)"""
     if time.time() - _G["at"] < 900 and _G["list"]: return _G["list"]
     out = {}
-    for p in range(1, 6):
+    for p in range(1, 12):
         d = P.curl(["-H", "Accept: application/json", "-H", "Referer: https://www.sportybet.com/ng/",
                     f"https://www.sportybet.com/api/ng/factsCenter/pcUpcomingEvents?sportId=sr%3Asport%3A2&marketId=219&pageSize=100&pageNum={p}&option=1"], 120) or {}
         T = (d.get("data") or {}).get("tournaments") or []
@@ -33,7 +35,7 @@ def games():
                 out[e["eventId"]] = dict(eid=e["eventId"], ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"],
                                          lg=e["sport"]["category"]["name"] + " - " + e["sport"]["category"]["tournament"]["name"],
                                          hid=e["homeTeamId"].split(":")[-1], aid=e["awayTeamId"].split(":")[-1], x={}, ou={})
-        if not T or sum(len(t.get("events", [])) for t in T) < 100: break
+        if not T or len(out) >= ((d.get("data") or {}).get("totalNum") or 0): break      # pages hold under 100 games: go by SportyBet's total
     _G.update(at=time.time(), list=sorted(out.values(), key=lambda g: g["ts"]))
     return _G["list"]
 
@@ -113,7 +115,7 @@ def build(req):
         opts = []
         for (mid, spec, oid), od in MK.get(g["eid"], {}).items():
             if mid not in ("219", "223", "225", "227", "228") or (want and mid not in want): continue
-            if not 1.08 <= od <= 1.75: continue
+            if not 1.05 <= od <= 1.75: continue
             p = chance(mid, spec, oid, mh, ma)
             if p is None or p < LV[0]: continue
             pb = (p + 1 / (od * 1.06)) / 2                                    # the stats and the bookmaker's own price must agree
