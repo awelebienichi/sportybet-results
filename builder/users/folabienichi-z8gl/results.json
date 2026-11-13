@@ -127,7 +127,7 @@
 "when": "Wed 11 Nov 12:05",
 "kind": "your chosen markets",
 "odds": 20.35,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:45",
@@ -234,7 +234,10 @@
 "game": "Atletico Morelia vs Leones Negros UDEG",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794535200.0
+"ts": 1794535200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -407,7 +410,10 @@
 "game": "Atletico Morelia vs Leones Negros UDEG",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794535200.0
+"ts": 1794535200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",

@@ -287,14 +287,17 @@
 "when": "Thu 12 Nov 19:10",
 "kind": "your chosen markets",
 "odds": 60.87,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 03:00",
 "game": "Atletico Morelia vs Leones Negros UDEG",
 "pick": "Goal bounds 2-5+",
 "odds": 1.28,
-"ts": 1794535200.0
+"ts": 1794535200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",

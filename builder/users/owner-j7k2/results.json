@@ -7,14 +7,17 @@
 "when": "Fri 13 Nov 04:38",
 "kind": "live \u2013 best of all",
 "odds": 1.12,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 03:00",
 "game": "Atletico Morelia vs Leones Negros UDEG",
 "pick": "Atletico Morelia or Leones Negros UDEG",
 "odds": 1.12,
-"ts": 1794535200.0
+"ts": 1794535200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
