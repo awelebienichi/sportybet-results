@@ -2,6 +2,145 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LPHV21",
+"at": 1794593875,
+"when": "Fri 13 Nov 19:17",
+"kind": "live \u2013 best of all",
+"odds": 2.04,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:35",
+"game": "Colegio Once Mexico vs Guardianes de Oriente",
+"pick": "Guardianes de Oriente to win",
+"odds": 1.05,
+"ts": 1794587700.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"pick": "SK Sturm Graz Under 4.5",
+"odds": 1.06,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.09,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "MKS Znicz Pruszkow vs Sokol Kleczew",
+"pick": "MKS Znicz Pruszkow Under 3.5",
+"odds": 1.07,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Moldova Under 2.5",
+"odds": 1.09,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:07",
+"game": "Club Necaxa II vs Trinca De Mi Vida",
+"pick": "Club Necaxa II or Trinca De Mi Vida",
+"odds": 1.08,
+"ts": 1794589620.0
+},
+{
+"t": "Fri 18:08",
+"game": "Tuzos de Pachuca FC vs Santiago Tulantepec",
+"pick": "Tuzos de Pachuca FC to win",
+"odds": 1.07,
+"ts": 1794589680.0
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "Handicap 0:2 \u2013 Luxembourg",
+"odds": 1.1,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Skive IK vs Thisted FC",
+"pick": "Handicap 0:3 \u2013 Thisted FC",
+"odds": 1.06,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
+"pick": "FC Rapperswil-Jona or Grasshopper Zurich",
+"odds": 1.07,
+"ts": 1794592800.0
+}
+]
+},
+{
+"code": "ZSL3P2",
+"at": 1794593866,
+"when": "Fri 13 Nov 19:17",
+"kind": "live \u2013 best of all",
+"odds": 1.86,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:59",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"pick": "Handicap 0:2 \u2013 Bendel Insurance FC",
+"odds": 1.16,
+"ts": 1794589140.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"pick": "SK Sturm Graz Under 4.5",
+"odds": 1.06,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "MKS Znicz Pruszkow vs Sokol Kleczew",
+"pick": "MKS Znicz Pruszkow Under 3.5",
+"odds": 1.07,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.09,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Moldova Under 2.5",
+"odds": 1.09,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"pick": "MKS Czarni Polaniec Under 2.5",
+"odds": 1.12,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "GA7UQP",
 "at": 1794593600,
 "when": "Fri 13 Nov 19:13",
