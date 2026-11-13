@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UF8HA3",
+"at": 1794527991,
+"when": "Fri 13 Nov 00:59",
+"kind": "live \u2013 best of all",
+"odds": 1.38,
+"status": "open",
+"legs": [
+{
+"t": "Fri 00:00",
+"game": "Real Potosi vs CA Nacional Potosi",
+"pick": "Real Potosi or CA Nacional Potosi",
+"odds": 1.05,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 00:00",
+"game": "AD Pasto vs CD Junior FC",
+"pick": "Handicap 3:0 \u2013 AD Pasto",
+"odds": 1.09,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 00:00",
+"game": "Sao Bernardo FC vs Athletic Club Sjdr MG",
+"pick": "Handicap 2:0 \u2013 Sao Bernardo FC",
+"odds": 1.05,
+"ts": 1794524400.0
+},
+{
+"t": "Fri 00:00",
+"game": "Cerro Largo FC vs CA Progreso",
+"pick": "Cerro Largo FC Under 2.5",
+"odds": 1.15,
+"ts": 1794524400.0
+}
+]
+},
+{
 "code": "VMUKRT",
 "at": 1794527965,
 "when": "Fri 13 Nov 00:59",
@@ -1612,7 +1650,10 @@
 "game": "EC Bahia BA vs EC Vitoria BA",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794521700.0
+"ts": 1794521700.0,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 }
 ]
 },
@@ -1993,7 +2034,10 @@
 "game": "EC Bahia BA vs EC Vitoria BA",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794521700.0
+"ts": 1794521700.0,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 }
 ]
 },
