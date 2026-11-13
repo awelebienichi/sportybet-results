@@ -1,6 +1,219 @@
 [
 {
 "when": "Fri 13 Nov 04:02",
+"at": 1794538978,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwee63k84zeb"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 13 games passed the checks (Fri 13, 149 games on SportyBet), so this ticket has 13 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "MH1TY7",
+"odds": 24.37,
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Mozambique vs Ethiopia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half Over 0.5",
+"odds": 1.47,
+"why": "goal in the 1st half in 90% of Mozambique's last 10 and 80% of Ethiopia's last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:75802298",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75802298|68|total=0.5|12"
+},
+{
+"t": "Fri 14:00",
+"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
+"lg": "India - IFL",
+"pick": "1st half Over 0.5",
+"odds": 1.32,
+"why": "goal in the 1st half in 80% of Shillong Lajong FC's last 10 and 80% of Sreenidi Deccan FC's last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:75834468",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75834468|68|total=0.5|12"
+},
+{
+"t": "Fri 15:15",
+"game": "United Arab Emirates vs Honduras",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half Over 0.5",
+"odds": 1.47,
+"why": "goal in the 1st half in 78% of United Arab Emirates's last 9 and 80% of Honduras's last 10",
+"ts": 1794579300.0,
+"eid": "sr:match:76438758",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76438758|68|total=0.5|12"
+},
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half Over 0.5",
+"odds": 1.36,
+"why": "goal in the 1st half in 80% of Cape Verde's last 10 and 80% of Liberia's last 10",
+"ts": 1794585600.0,
+"eid": "sr:match:75802304",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75802304|68|total=0.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.57,
+"why": "goal in the 1st half in 80% of Moldova's last 10 and 90% of Kazakhstan's last 10",
+"ts": 1794589200.0,
+"eid": "sr:match:68932372",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68932372|68|total=0.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "goal in the 1st half in 90% of VV Kloetinge's last 10 and 90% of Hoek's last 10",
+"ts": 1794592800.0,
+"eid": "sr:match:72594662",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594662|68|total=0.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "goal in the 1st half in 80% of Spain's last 10 and 86% of Japan's last 7",
+"ts": 1794592800.0,
+"eid": "sr:match:76454720",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76454720|68|total=0.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"lg": "International - CONCACAF Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"why": "goal in the 1st half in 90% of Bermuda's last 10 and 100% of Saint Lucia's last 10",
+"ts": 1794596400.0,
+"eid": "sr:match:75468314",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75468314|68|total=0.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"why": "goal in the 1st half in 90% of Peterborough United U21's last 10 and 86% of Newcastle United U21's last 7",
+"ts": 1794596400.0,
+"eid": "sr:match:73684976",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73684976|68|total=0.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Denbigh Town vs Gresford Athletic",
+"lg": "Wales - Cymru Championship, North",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"why": "goal in the 1st half in 80% of Denbigh Town's last 10 and 90% of Gresford Athletic's last 10",
+"ts": 1794598200.0,
+"eid": "sr:match:76488288",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76488288|68|total=0.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Treowen Stars",
+"lg": "Wales - Cymru Championship South",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "goal in the 1st half in 80% of Swansea University's last 10 and 80% of Treowen Stars's last 10",
+"ts": 1794598200.0,
+"eid": "sr:match:76488396",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76488396|68|total=0.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Serbia vs Germany",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"why": "goal in the 1st half in 100% of Serbia's last 10 and 80% of Germany's last 10",
+"ts": 1794599100.0,
+"eid": "sr:match:68931586",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931586|68|total=0.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "Grenada vs Saint Kitts and Nevis",
+"lg": "International - CONCACAF Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"why": "goal in the 1st half in 80% of Grenada's last 10 and 90% of Saint Kitts and Nevis's last 10",
+"ts": 1794600000.0,
+"eid": "sr:match:75468428",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75468428|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 04:02",
 "at": 1794538946,
 "req": {
 "u": "owner-j7k2",
@@ -5188,48 +5401,6 @@
 "spec": "hcp=2:0",
 "oid": "1711",
 "k": "76676658|14|hcp=2:0|1711"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 11:10",
-"at": 1794478200,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwddz7s9bu9a"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "MWH917",
-"odds": 1.18,
-"legs": [
-{
-"t": "Thu 09:30",
-"game": "APIA Leichhardt vs Adelaide City FC",
-"lg": "Australia - Australian Championship",
-"pick": "Handicap 0:5 \u2013 Adelaide City FC",
-"odds": 1.18,
-"why": "LIVE 3-0 73': APIA Leichhardt expected 0.6 and Adelaide City FC 0.5 more goals (last 10); 3-0 at 73' \u2013 90% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794472200.0,
-"eid": "sr:match:74827320",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "74827320|14|hcp=0:5|1713"
 }
 ]
 }
