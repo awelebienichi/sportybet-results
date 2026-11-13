@@ -864,7 +864,7 @@
 "odds": 1.14,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -896,7 +896,10 @@
 "game": "SV Schwechat vs WAF Vorwarts Brigittenau",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.14,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -1588,7 +1591,7 @@
 "odds": 1.14,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -1620,7 +1623,10 @@
 "game": "SV Schwechat vs WAF Vorwarts Brigittenau",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
