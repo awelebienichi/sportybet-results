@@ -850,7 +850,7 @@
 "when": "Fri 13 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.02,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:30",
@@ -907,7 +907,10 @@
 "game": "Leganes vs Burgos CF",
 "pick": "Handicap 0:2 \u2013 Burgos CF",
 "odds": 1.15,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "L",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Fri 20:45",
