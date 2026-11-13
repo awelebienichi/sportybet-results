@@ -1,5 +1,75 @@
 [
 {
+"when": "Fri 13 Nov 09:43",
+"at": 1794559399,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mweqbp2k9a10"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "JYSGP1",
+"odds": 1.52,
+"legs": [
+{
+"t": "Fri 08:43",
+"game": "Mumbai Marines SC vs YAWN FC",
+"lg": "India - Mumbai Super League",
+"pick": "Mumbai Marines SC or draw",
+"odds": 1.04,
+"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
+"ts": 1794555780.0,
+"eid": "sr:match:111111114647875",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "111111114647875|10||9"
+},
+{
+"t": "Fri 09:30",
+"game": "Oakleigh Cannons vs Marconi Stallions",
+"lg": "Australia - Australian Championship",
+"pick": "Over 2.5",
+"odds": 1.2,
+"why": "LIVE 0-1 8': Oakleigh Cannons expected 2.7 and Marconi Stallions 1.8 more goals (last 10); 0-1 at 8' \u2013 85% chance; Flashscore home/away form 70%",
+"ts": 1794558600.0,
+"eid": "sr:match:74827344",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74827344|18|total=2.5|12"
+},
+{
+"t": "Fri 09:30",
+"game": "Preston Lions FC vs Lions FC",
+"lg": "Australia - Australian Championship",
+"pick": "Handicap 0:2 \u2013 Lions FC",
+"odds": 1.22,
+"why": "LIVE 0-0 6': Preston Lions FC expected 1.4 and Lions FC 1.9 more goals (last 10); 0-0 at 6' \u2013 85% chance; margin record 80% / 90% in both sides' last games",
+"ts": 1794558600.0,
+"eid": "sr:match:74827368",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "74827368|14|hcp=0:2|1713"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 08:30",
 "at": 1794555056,
 "req": {
