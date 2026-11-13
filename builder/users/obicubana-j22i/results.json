@@ -7,7 +7,7 @@
 "when": "Fri 13 Nov 19:17",
 "kind": "live \u2013 best of all",
 "odds": 2.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:35",
@@ -84,7 +84,10 @@
 "game": "Albania vs Luxembourg",
 "pick": "Handicap 0:2 \u2013 Luxembourg",
 "odds": 1.1,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 19:00",
@@ -98,7 +101,10 @@
 "game": "FC Rapperswil-Jona vs Grasshopper Zurich",
 "pick": "FC Rapperswil-Jona or Grasshopper Zurich",
 "odds": 1.07,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "2-2",
+"ht": "1-1"
 }
 ]
 },

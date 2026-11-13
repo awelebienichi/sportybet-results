@@ -7,7 +7,7 @@
 "when": "Fri 13 Nov 19:31",
 "kind": "live \u2013 best of all",
 "odds": 1.26,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 17:59",
@@ -64,7 +64,10 @@
 "game": "Albania vs Luxembourg",
 "pick": "Handicap 0:3 \u2013 Luxembourg",
 "odds": 1.04,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "3-1",
+"ht": "2-1"
 }
 ]
 },
