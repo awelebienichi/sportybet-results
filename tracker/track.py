@@ -80,9 +80,10 @@ def sportradar(eid):
         m = d["doc"][0]["data"]["match"]
     except Exception:
         return None
-    res = m.get("result") or {}; p1 = (m.get("periods") or {}).get("p1")
+    res = m.get("result") or {}; pr = m.get("periods") or {}; p1 = pr.get("p1")
     return dict(status=(m.get("status") or {}).get("name", ""), ft=[res["home"], res["away"]] if res.get("home") is not None else None,
-                ht=[p1["home"], p1["away"]] if p1 else None)
+                ht=[p1["home"], p1["away"]] if p1 else None,
+                q=[[pr[k]["home"], pr[k]["away"]] for k in ("p1", "p2", "p3", "p4") if k in pr])        # basketball quarters
 
 
 TL_MIDS = {"900313", "900069", "60010", "60011", "60012", "60020", "60021", "60022", "60210", "60100", "60200", "60110", "60180",
@@ -131,7 +132,7 @@ def fetch(eid, ko, rec):
     if ko > now - 2 * 3600:
         return rec
     a = sportradar(eid)
-    new = dict(final=False, status=(a or {}).get("status", ""), ft=(a or {}).get("ft"), ht=(a or {}).get("ht"), src="sportradar")
+    new = dict(final=False, status=(a or {}).get("status", ""), ft=(a or {}).get("ft"), ht=(a or {}).get("ht"), q=(a or {}).get("q"), src="sportradar")
     if a and a["status"] in VOID:
         new.update(final=True, void=True)
     elif a and a["status"] in ENDED and a["ft"]:
@@ -183,6 +184,10 @@ def settle(l, r):
             v = num(spec, "hcp"); d = (H - A + v) if p.startswith("Home") else (A - H - v)
             return "won" if d > 0 else "lost" if d < 0 else "void"
         if mid in ("225", "227", "228"): return ou({"225": T, "227": H, "228": A}[mid], num(spec, "total"), p)   # basketball points
+        if mid in ("236", "756", "757"):                                                    # basketball quarter totals
+            Q = r.get("q") or []; n = int(num(spec, "quarternr") or 0)
+            if len(Q) < n or n < 1: return "pending"
+            return ou({"236": Q[n - 1][0] + Q[n - 1][1], "756": Q[n - 1][0], "757": Q[n - 1][1]}[mid], num(spec, "total"), p)
         if mid == "1": return "won" if res1x2(H, A) == p else "lost"
         if mid in ("10", "63"):
             sc = ft if mid == "10" else h1
