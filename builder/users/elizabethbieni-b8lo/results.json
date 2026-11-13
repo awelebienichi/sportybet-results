@@ -1,4 +1,22 @@
 {
 "from": 1794516163,
-"tickets": []
+"tickets": [
+{
+"code": "L7LR9E",
+"at": 1794554031,
+"when": "Fri 13 Nov 08:13",
+"kind": "live \u2013 best of all",
+"odds": 1.06,
+"status": "open",
+"legs": [
+{
+"t": "Fri 07:00",
+"game": "Kodagu FC vs Technico FF",
+"pick": "Kodagu FC or Technico FF",
+"odds": 1.06,
+"ts": 1794549600.0
+}
+]
+}
+]
 }
