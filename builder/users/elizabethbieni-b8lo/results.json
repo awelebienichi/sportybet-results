@@ -154,7 +154,10 @@
 "game": "FC Roskilde vs Nykoebing FC",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.26,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -255,7 +258,10 @@
 "game": "FC Roskilde vs Nykoebing FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -946,7 +952,10 @@
 "game": "SpVgg Bayreuth vs DJK Vilzing",
 "pick": "1st Half - 1X2 \u2013 Draw",
 "odds": 2.35,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
@@ -1223,7 +1232,10 @@
 "game": "FC Roskilde vs Nykoebing FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -1257,7 +1269,10 @@
 "game": "HIK Hellerup vs B93 Copenhagen",
 "pick": "1st half double chance B93 Copenhagen or draw",
 "odds": 1.19,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "3-2",
+"ht": "3-2"
 },
 {
 "t": "Fri 19:00",
@@ -1281,7 +1296,10 @@
 "game": "SpVgg Bayreuth vs DJK Vilzing",
 "pick": "1st half double chance SpVgg Bayreuth or draw",
 "odds": 1.23,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
@@ -2004,7 +2022,10 @@
 "game": "FC Roskilde vs Nykoebing FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -2062,7 +2083,10 @@
 "game": "SpVgg Bayreuth vs DJK Vilzing",
 "pick": "Half-time draw",
 "odds": 2.35,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 }
