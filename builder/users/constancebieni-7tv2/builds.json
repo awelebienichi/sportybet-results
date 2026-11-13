@@ -1,5 +1,61 @@
 [
 {
+"when": "Fri 13 Nov 12:58",
+"at": 1794571121,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwexb1017igd"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "HTTWFB",
+"odds": 1.08,
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Nafta 1903 Lendava Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-1 45': Nafta 1903 Lendava expected 0.8 and NK Slaven Belupo 1.0 more goals (last 10); 1-1 at 45' \u2013 93% chance; goals record 100% / 90% in both sides' last games",
+"ts": 1794567600.0,
+"eid": "sr:match:76741202",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76741202|19|total=3.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "Al Hedod SC vs AL Hashd AL Shade",
+"lg": "Iraq - Premier Division League",
+"pick": "Handicap 2:0 \u2013 Al Hedod SC",
+"odds": 1.04,
+"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
+"ts": 1794567600.0,
+"eid": "sr:match:76712262",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "76712262|14|hcp=2:0|1711"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 12:10",
 "at": 1794568259,
 "req": {
