@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "NCESB1",
+"at": 1794613045,
+"when": "Sat 14 Nov 00:37",
+"kind": "live \u2013 best of all",
+"odds": 1.25,
+"status": "open",
+"legs": [
+{
+"t": "Fri 23:07",
+"game": "Furia Azul FC vs Deportivo Zamora FC",
+"pick": "Furia Azul FC or Deportivo Zamora FC",
+"odds": 1.09,
+"ts": 1794607620.0
+},
+{
+"t": "Fri 23:09",
+"game": "Artesanos Metepec FC II vs Deportivo Metepec",
+"pick": "Artesanos Metepec FC II or Deportivo Metepec",
+"odds": 1.09,
+"ts": 1794607740.0
+},
+{
+"t": "Sat 00:00",
+"game": "Argentina vs Uruguay",
+"pick": "Handicap 0:3 \u2013 Uruguay",
+"odds": 1.05,
+"ts": 1794610800.0
+}
+]
+},
+{
 "code": "P8E6YT",
 "at": 1794613006,
 "when": "Sat 14 Nov 00:36",
@@ -101,7 +132,10 @@
 "game": "Alamos F.C. vs Heroes de Zaci FC III",
 "pick": "Over 3.5",
 "odds": 1.09,
-"ts": 1794607560.0
+"ts": 1794607560.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 23:09",
