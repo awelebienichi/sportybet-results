@@ -916,14 +916,17 @@
 "when": "Fri 13 Nov 17:44",
 "kind": "always-beaten teams (season data)",
 "odds": 2.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "Skive IK vs Thisted FC",
 "pick": "Double chance Skive IK or draw",
 "odds": 1.21,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 19:00",
@@ -937,7 +940,10 @@
 "game": "FC Helsingoer vs Holstebro BK",
 "pick": "Double chance FC Helsingoer or draw",
 "odds": 1.11,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "3-3",
+"ht": "2-2"
 },
 {
 "t": "Fri 20:30",
