@@ -1,5 +1,20 @@
 [
 {
+"when": "Fri 13 Nov 08:25",
+"at": 1794554734,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwenjw5lhe6x"
+},
+"ok": false,
+"msg": "2 games are in play, but none fits that strategy right now (2 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
+},
+{
 "when": "Fri 13 Nov 07:24",
 "at": 1794551058,
 "req": {
@@ -4872,48 +4887,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "75879158|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 16:53",
-"at": 1794498798,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "dead",
-"legs": 6,
-"strict": "normal",
-"rid": "mwdq8x0mddrr"
-},
-"ok": true,
-"kind": "live \u2013 quiet game",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "M1BL4G",
-"odds": 1.2,
-"legs": [
-{
-"t": "Thu 16:00",
-"game": "Al-Ahly Amman vs Amman FC",
-"lg": "Jordan - First Division",
-"pick": "Al-Ahly Amman Under 1.5",
-"odds": 1.2,
-"why": "LIVE 0-0 45': Al-Ahly Amman expected 0.5 and Amman FC 0.7 more goals (last 10 + season); 0-0 at 45' \u2013 89% chance",
-"ts": 1794495600.0,
-"eid": "sr:match:74205868",
-"mid": "19",
-"spec": "total=1.5",
-"oid": "13",
-"k": "74205868|19|total=1.5|13"
 }
 ]
 }
