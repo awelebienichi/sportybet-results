@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-13",
+"day": 1,
+"code": "X36XUN",
+"stake": 100.0,
+"odds": 4.02,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-12",
 "day": 1,
 "code": "NR95TL",
@@ -40,7 +49,7 @@
 "odds": 4.02,
 "stake": 100.0,
 "n": 8,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-12",
 "short": "lower",
