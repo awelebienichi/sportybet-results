@@ -1,5 +1,135 @@
 [
 {
+"when": "Fri 13 Nov 22:53",
+"at": 1794606801,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "13:00",
+"rid": "mwfijqq3r4fk"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 7 games passed the checks (Fri 13, Sat 14, 00:00\u201313:00, 188 games on SportyBet), so this ticket has 7 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "T2RML2",
+"odds": 8.23,
+"legs": [
+{
+"t": "Sat 10:15",
+"game": "Bridlicna vs Opava B",
+"lg": "Czechia - Divize F",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "season: 3.9 and 4.1 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 80%, season: 4.0 goals a game",
+"ts": 1794647700.0,
+"eid": "sr:match:76579524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76579524|18|total=2.5|12"
+},
+{
+"t": "Sat 10:15",
+"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "season: 3.2 and 5.4 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 70%, season: 4.3 goals a game",
+"ts": 1794647700.0,
+"eid": "sr:match:72415112",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415112|18|total=2.5|12"
+},
+{
+"t": "Sat 11:00",
+"game": "MFK Chrudim vs FK Jablonec B",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "season: 3.6 and 3.5 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%",
+"ts": 1794650400.0,
+"eid": "sr:match:72415684",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415684|18|total=2.5|12"
+},
+{
+"t": "Sat 11:45",
+"game": "SFC Opava vs FC Pardubice",
+"lg": "Czechia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 4.8 and 3.9 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 70%, Vitibet tip 3-1, season: 4.4 goals a game",
+"ts": 1794653100.0,
+"eid": "sr:match:72575912",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72575912|18|total=2.5|12"
+},
+{
+"t": "Sat 12:00",
+"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
+"lg": "Poland - III Liga, Group 3",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "season: 3.9 and 3.5 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 65%, season: 3.7 goals a game",
+"ts": 1794654000.0,
+"eid": "sr:match:72516786",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72516786|18|total=2.5|12"
+},
+{
+"t": "Sat 12:00",
+"game": "Real Betis Balompie vs Cadiz CF",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 4.8 and 3.4 goals a game (10/10 games); last 10 rate 75%; season: 4.1 goals a game",
+"ts": 1794654000.0,
+"eid": "sr:match:76481444",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76481444|18|total=2.5|12"
+},
+{
+"t": "Sat 13:00",
+"game": "Koldingq vs FC Nordsjaelland",
+"lg": "Denmark - A Liga, Women",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "season: 4.2 and 3.9 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 60%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1794657600.0,
+"eid": "sr:match:72652502",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652502|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 22:49",
 "at": 1794606595,
 "req": {
@@ -7339,76 +7469,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "72880056|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 12:59",
-"at": 1794571158,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "relaxed",
-"rid": "mwexbu149pe1"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 10).",
-"Relaxed safety: in testing only about 82 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "TG74U5",
-"odds": 1.19,
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Nafta 1903 Lendava Under 3.5",
-"odds": 1.03,
-"why": "LIVE 1-1 46': Nafta 1903 Lendava expected 0.8 and NK Slaven Belupo 1.0 more goals (last 10); 1-1 at 46' \u2013 93% chance; goals record 100% / 90% in both sides' last games",
-"ts": 1794567600.0,
-"eid": "sr:match:76741202",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76741202|19|total=3.5|13"
-},
-{
-"t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
-"lg": "Iraq - Premier Division League",
-"pick": "Handicap 2:0 \u2013 Al Hedod SC",
-"odds": 1.04,
-"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
-"ts": 1794567600.0,
-"eid": "sr:match:76712262",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76712262|14|hcp=2:0|1711"
-},
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"lg": "Romania - Liga 3",
-"pick": "Stinta Poli Timisoara 2 or draw",
-"odds": 1.11,
-"why": "LIVE 1-0 45': Stinta Poli Timisoara 2 expected 0.9 and ACS Progresul Pecica 1.0 more goals (last 10 + season); 1-0 at 45' \u2013 84% chance; Flashscore home/away form 80%",
-"ts": 1794567600.0,
-"eid": "sr:match:74089494",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "74089494|10||9"
 }
 ]
 }
