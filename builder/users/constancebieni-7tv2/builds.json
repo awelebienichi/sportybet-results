@@ -1,5 +1,75 @@
 [
 {
+"when": "Sat 14 Nov 00:17",
+"at": 1794611858,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwflk5wkutb3"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "YMUFP9",
+"odds": 1.2,
+"legs": [
+{
+"t": "Fri 23:00",
+"game": "Lobos UPNFM Reserves vs Motagua Reserves",
+"lg": "Honduras - Honduras Reserve League",
+"pick": "Motagua Reserves or draw",
+"odds": 1.05,
+"why": "LIVE 1-2 56': no team stats for this game \u2013 SportyBet's own price says 90%",
+"ts": 1794607200.0,
+"eid": "sr:match:111111114688939",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "111111114688939|10||11"
+},
+{
+"t": "Fri 23:06",
+"game": "Alamos F.C. vs Heroes de Zaci FC III",
+"lg": "Mexico - Mexico Liga TDP",
+"pick": "Over 3.5",
+"odds": 1.09,
+"why": "LIVE 2-1 48': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1794607560.0,
+"eid": "sr:match:111111114415093",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "12",
+"k": "111111114415093|18|total=3.5|12"
+},
+{
+"t": "Fri 23:09",
+"game": "Artesanos Metepec FC II vs Deportivo Metepec",
+"lg": "Mexico - Mexico Liga TDP",
+"pick": "Deportivo Metepec or draw",
+"odds": 1.05,
+"why": "LIVE 0-1 45': no team stats for this game \u2013 SportyBet's own price says 90%",
+"ts": 1794607740.0,
+"eid": "sr:match:111111114410527",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "111111114410527|10||11"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 00:16",
 "at": 1794611819,
 "req": {
@@ -4060,126 +4130,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "73075396|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 08:10",
-"at": 1794467458,
-"req": {
-"type": "rollover",
-"legs": 7,
-"rid": "mwd7l29hf4l2"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a6200 \u2192 returns \u20a62,048 if it wins"
-],
-"tickets": [
-{
-"code": "PBFM34",
-"odds": 10.24,
-"legs": [
-{
-"t": "Thu 14:00",
-"game": "Iceland vs Greece",
-"lg": "International Youth - U21 UEFA European Championship, Qualification",
-"pick": "1st half Over 0.5",
-"odds": 1.38,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794488400.0,
-"eid": "sr:match:75439646",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75439646|68|total=0.5|12"
-},
-{
-"t": "Thu 16:00",
-"game": "Uzbekistan vs Russia",
-"lg": "International - Int. Friendly Games",
-"pick": "2nd half Over 0.5",
-"odds": 1.29,
-"why": "both teams 80%+ in their own last 10 (home 100%, away 80%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794495600.0,
-"eid": "sr:match:75879158",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75879158|90|total=0.5|12"
-},
-{
-"t": "Thu 17:00",
-"game": "France vs Denmark",
-"lg": "International Youth - U20 Friendly Games",
-"pick": "Handicap 0:2 \u2013 Denmark",
-"odds": 1.5,
-"why": "both teams 80%+ in their own last 10 (home 90%, away 80%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794499200.0,
-"eid": "sr:match:76709782",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76709782|14|hcp=0:2|1713"
-},
-{
-"t": "Thu 18:00",
-"game": "Armenia vs Cyprus",
-"lg": "International - UEFA Nations League",
-"pick": "1st half double chance Cyprus or draw",
-"odds": 1.33,
-"why": "both teams 80%+ in their own last 10 (home 90%, away 80%); head-to-head 75%",
-"ts": 1794502800.0,
-"eid": "sr:match:68932422",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "68932422|63||11"
-},
-{
-"t": "Thu 19:30",
-"game": "Kimberley de Mar Del Plata vs Club Olimpo",
-"lg": "Argentina - Torneo Federal A",
-"pick": "Handicap 0:2 \u2013 Club Olimpo",
-"odds": 1.39,
-"why": "both teams 80%+ in their own last 10 (home 80%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794508200.0,
-"eid": "sr:match:76479782",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76479782|14|hcp=0:2|1713"
-},
-{
-"t": "Thu 22:30",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"lg": "El Salvador - Primera Division",
-"pick": "Over 1.5",
-"odds": 1.28,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 100%; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
-"ts": 1794519000.0,
-"eid": "sr:match:73075396",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73075396|18|total=1.5|12"
-},
-{
-"t": "Thu 23:00",
-"game": "Aruba vs Martinique",
-"lg": "International - CONCACAF Nations League",
-"pick": "Handicap 2:0 \u2013 Aruba",
-"odds": 1.58,
-"why": "both teams 80%+ in their own last 10 (home 80%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794520800.0,
-"eid": "sr:match:75512542",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "75512542|14|hcp=2:0|1711"
 }
 ]
 }
