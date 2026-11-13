@@ -2,6 +2,429 @@
 "from": 1794554393,
 "tickets": [
 {
+"code": "KX72TT",
+"at": 1794554763,
+"when": "Fri 13 Nov 08:26",
+"kind": "combined X7GJTP + TPJR4Q + ZAFYUC",
+"odds": 401749.65,
+"status": "open",
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "Preston Lions FC vs Lions FC",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.2,
+"ts": 1794558600.0
+},
+{
+"t": "Fri 09:30",
+"game": "Oakleigh Cannons vs Marconi Stallions",
+"pick": "1st Half - Double Chance \u2013 Home or Draw",
+"odds": 1.15,
+"ts": 1794558600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.17,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:30",
+"game": "Turun Palloseura vs Tampereen Ilves",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.27,
+"ts": 1794569400.0
+},
+{
+"t": "Fri 12:50",
+"game": "Al Safa SC (SA) vs AL Qala",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.27,
+"ts": 1794570600.0
+},
+{
+"t": "Fri 12:55",
+"game": "Nairea vs AL Sahel SC",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.22,
+"ts": 1794570900.0
+},
+{
+"t": "Fri 13:00",
+"game": "ASC Otelul Galati II vs ACS Progresul Fundulea",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.09,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Csm Ramnicu Sarat vs ACS Viitorul Corbeanca",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.22,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Budaorsi SC vs Erdi VSE",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.11,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "ACS Aro Muscelul C-Lung Muscel vs Cso Teleajenul Valeni de Munte",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.14,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Fotbal Club FCSB 2 vs CSM Cetatea Turnu Magurele",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.14,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "CS Drobeta Turnu Severin vs Unirea Bascov",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.17,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "CS Lotus Baile Felix vs ACS Academica Transilvania Tg-Mures",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.17,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "ACS Kids Tampa Brasov vs Cso Baicoi",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.16,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "FC Fastav Zlin vs Dukla Prague",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.09,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:25",
+"game": "Afief vs AL Rayan",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.31,
+"ts": 1794572700.0
+},
+{
+"t": "Fri 14:00",
+"game": "Transit Camp FC vs Mbeya Kwanza FC",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.3,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.22,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "SK Sigma Olomouc B vs FC Zbrojovka Brno B",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.12,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Mozambique vs Ethiopia",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.46,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Montenegro vs Bosnia & Herzegovina",
+"pick": "1st Half - 1X2 \u2013 Draw",
+"odds": 2.1,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Comoros vs Congo",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.13,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Zambia vs Burundi",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.12,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 15:15",
+"game": "United Arab Emirates vs Honduras",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.47,
+"ts": 1794579300.0
+},
+{
+"t": "Fri 15:30",
+"game": "Saudi Arabia vs Korea Republic",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.14,
+"ts": 1794580200.0
+},
+{
+"t": "Fri 16:00",
+"game": "Jerash Club vs Ittihad AL Ramtha",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.33,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 16:00",
+"game": "FK Jezero Plav vs FK Buducnost",
+"pick": "1st Half - Double Chance \u2013 Draw or Away",
+"odds": 1.28,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.28,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.12,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"pick": "1st Half - Double Chance \u2013 Home or Draw",
+"odds": 1.27,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:15",
+"game": "Finland vs Ireland",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.3,
+"ts": 1794586500.0
+},
+{
+"t": "Fri 17:30",
+"game": "Kuwait vs Syria",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.29,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:30",
+"game": "Norway vs Poland",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.21,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:30",
+"game": "Nd Dravinja vs Krka Novo Mesto",
+"pick": "1st Half - Double Chance \u2013 Draw or Away",
+"odds": 1.3,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.46,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Hluboka vs FK Slavoj Cesky Krumlov",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.09,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "FC Sparta Brno vs FC PBS Velka Bites",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.09,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.1,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st Half - 1X2 \u2013 Draw",
+"odds": 1.94,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"pick": "1st Half - 1X2 \u2013 Draw",
+"odds": 2.25,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Germany vs Belgium",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.24,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.14,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 18:30",
+"game": "FC Viktoria Plzen B vs FK Loko Prague",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.1,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Denmark vs Netherlands",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.24,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 18:30",
+"game": "France vs Italy",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.29,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.17,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.12,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.08,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Helsingoer vs Holstebro BK",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.14,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "HIK Hellerup vs B93 Copenhagen",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "ASK Ebreichsdorf vs ASK Ybbs",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.11,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "KS Polonia Nysa vs KS Gornik Polkowice",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.16,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SV Schwechat vs WAF Vorwarts Brigittenau",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.14,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Nantes vs RC Lens",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.2,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC 08 Homburg-Saar vs FSV Frankfurt 1899",
+"pick": "Goal Bounds \u2013 2-5+",
+"odds": 1.11,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st Half - Double Chance \u2013 Home or Draw",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "1st Half - GG/NG \u2013 No",
+"odds": 1.22,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SpVgg Bayreuth vs DJK Vilzing",
+"pick": "1st Half - 1X2 \u2013 Draw",
+"odds": 2.35,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "ZAFYUC",
 "at": 1794554695,
 "when": "Fri 13 Nov 08:24",
