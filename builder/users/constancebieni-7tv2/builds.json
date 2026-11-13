@@ -1,5 +1,75 @@
 [
 {
+"when": "Fri 13 Nov 22:47",
+"at": 1794606442,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwfic09emkhz"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 5).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "ZHTWHY",
+"odds": 1.18,
+"legs": [
+{
+"t": "Fri 21:00",
+"game": "Morocco vs Niger",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:5 \u2013 Niger",
+"odds": 1.08,
+"why": "LIVE 4-1 78': Morocco expected 0.3 and Niger 0.2 more goals (last 10); 4-1 at 78' \u2013 93% chance; margin record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
+"ts": 1794600000.0,
+"eid": "sr:match:75802226",
+"mid": "14",
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "75802226|14|hcp=0:5|1713"
+},
+{
+"t": "Fri 21:15",
+"game": "Gimnastic de Tarragona vs Real Madrid Castilla",
+"lg": "Spain - Primera Federacion",
+"pick": "Gimnastic de Tarragona or Real Madrid Castilla",
+"odds": 1.06,
+"why": "LIVE 0-1 71': Gimnastic de Tarragona expected 0.3 and Real Madrid Castilla 0.4 more goals (last 10 + season); 0-1 at 71' \u2013 85% chance",
+"ts": 1794600900.0,
+"eid": "sr:match:73068212",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73068212|10||10"
+},
+{
+"t": "Fri 22:00",
+"game": "AD Tenancingo vs Neo Pipil San Juan Nonualco",
+"lg": "El Salvador - Liga de Ascenso",
+"pick": "AD Tenancingo or draw",
+"odds": 1.03,
+"why": "LIVE 1-0 43': AD Tenancingo expected 0.7 and Neo Pipil San Juan Nonualco 0.8 more goals (last 10 + season); 1-0 at 43' \u2013 88% chance",
+"ts": 1794603600.0,
+"eid": "sr:match:76746036",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76746036|10||9"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 22:46",
 "at": 1794606373,
 "req": {
@@ -4322,25 +4392,5 @@
 ]
 }
 ]
-},
-{
-"when": "Wed 11 Nov 14:00",
-"at": 1794402024,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "fav1h",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwc4modbh0nt"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for strong team to score in the 1st half (Wed 11) out of 72 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
