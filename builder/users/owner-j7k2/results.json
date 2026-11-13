@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PJ6XQ5",
+"at": 1794586878,
+"when": "Fri 13 Nov 17:21",
+"kind": "your chosen markets",
+"odds": 1.27,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "FC Paradiso vs FC Amical Saint-Prex",
+"pick": "Under 5.5",
+"odds": 1.09,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 18:00",
+"game": "USL Dunkerque vs Quevilly-Rouen Metropole",
+"pick": "Under 5.5",
+"odds": 1.09,
+"ts": 1794675600.0
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"pick": "Under 5.5",
+"odds": 1.07,
+"ts": 1794858300.0
+}
+]
+},
+{
 "code": "R4NK1T",
 "at": 1794586241,
 "when": "Fri 13 Nov 17:10",
