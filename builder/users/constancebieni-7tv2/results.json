@@ -74,7 +74,7 @@
 "when": "Fri 13 Nov 17:38",
 "kind": "live \u2013 best of all",
 "odds": 1.35,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 16:00",
@@ -131,7 +131,10 @@
 "game": "Tunisia vs Libya",
 "pick": "Handicap 0:3 \u2013 Libya",
 "odds": 1.06,
-"ts": 1794585600.0
+"ts": 1794585600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 }
 ]
 },
