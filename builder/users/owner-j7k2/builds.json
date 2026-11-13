@@ -1,5 +1,21 @@
 [
 {
+"when": "Fri 13 Nov 12:23",
+"at": 1794568986,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "combine",
+"codes": [
+"ZA27FR",
+"PBFZH6"
+],
+"rid": "mwew1a9eeeg3"
+},
+"ok": false,
+"msg": "5 leg(s) had already started and were left out."
+},
+{
 "when": "Fri 13 Nov 12:20",
 "at": 1794568855,
 "req": {
@@ -4571,46 +4587,6 @@
 "spec": "total=162.5",
 "oid": "12",
 "k": "73263156|225|total=162.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 22:31",
-"at": 1794519089,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"legs": 5,
-"strict": "normal",
-"rid": "mwe2bsnueyh8"
-},
-"ok": true,
-"kind": "live basketball",
-"note": [
-"Only 1 live basketball leg(s) were strong enough right now (you asked for 5).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "W5CMR2",
-"odds": 1.05,
-"legs": [
-{
-"t": "Thu 21:00",
-"game": "Cestistica Citta Di San Severo vs Pelle Livorno",
-"lg": "Italy - Serie B",
-"pick": "Pelle Livorno to win (incl. OT)",
-"odds": 1.05,
-"why": "LIVE 57-66, 32 of 40 min: expected final 72-82; 92% by the stats, 91% with the price",
-"ts": 1794513600.0,
-"eid": "sr:match:73440372",
-"mid": "219",
-"spec": "",
-"oid": "5",
-"k": "73440372|219||5"
 }
 ]
 }
