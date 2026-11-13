@@ -62,7 +62,7 @@
 "when": "Fri 13 Nov 12:10",
 "kind": "live \u2013 best of all",
 "odds": 1.39,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 10:00",
@@ -99,7 +99,10 @@
 "game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
 "pick": "Over 1.5",
 "odds": 1.25,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },
