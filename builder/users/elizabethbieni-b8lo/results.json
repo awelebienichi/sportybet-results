@@ -2,6 +2,86 @@
 "from": 1794554393,
 "tickets": [
 {
+"code": "QH889T",
+"at": 1794554896,
+"when": "Fri 13 Nov 08:28",
+"kind": "your chosen markets",
+"odds": 68.05,
+"status": "open",
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Mozambique vs Ethiopia",
+"pick": "1st half Over 0.5",
+"odds": 1.46,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Montenegro vs Bosnia & Herzegovina",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 15:15",
+"game": "United Arab Emirates vs Honduras",
+"pick": "1st half Over 0.5",
+"odds": 1.47,
+"ts": 1794579300.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "1st half Over 0.5",
+"odds": 1.59,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Half-time draw",
+"odds": 1.94,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"pick": "Half-time draw",
+"odds": 2.25,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Germany vs Belgium",
+"pick": "1st half GG \u2013 No",
+"odds": 1.24,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.18,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "XXBYMT",
 "at": 1794554854,
 "when": "Fri 13 Nov 08:27",
