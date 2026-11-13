@@ -90,7 +90,7 @@
 "when": "Fri 13 Nov 19:17",
 "kind": "live \u2013 best of all",
 "odds": 1.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:59",
@@ -132,7 +132,10 @@
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "MKS Czarni Polaniec Under 2.5",
 "odds": 1.12,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-3",
+"ht": "1-1"
 },
 {
 "t": "Fri 19:00",
