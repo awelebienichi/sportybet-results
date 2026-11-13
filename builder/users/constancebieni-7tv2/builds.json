@@ -1,5 +1,115 @@
 [
 {
+"when": "Fri 13 Nov 17:49",
+"at": 1794588587,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "strict",
+"rid": "mwf7pc3occ0q"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "XK40AB",
+"odds": 1.55,
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:3 \u2013 Mauritania",
+"odds": 1.03,
+"why": "LIVE 0-0 45': Burkina Faso expected 0.6 and Mauritania 0.7 more goals (last 10); 0-0 at 45' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 5 meetings",
+"ts": 1794585600.0,
+"eid": "sr:match:75802274",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75802274|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:5 \u2013 Liberia",
+"odds": 1.06,
+"why": "LIVE 3-1 45': Cape Verde expected 0.9 and Liberia 0.8 more goals (last 10); 3-1 at 45' \u2013 93% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794585600.0,
+"eid": "sr:match:75802304",
+"mid": "14",
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "75802304|14|hcp=0:5|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "Gabon vs Lesotho",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:3 \u2013 Lesotho",
+"odds": 1.09,
+"why": "LIVE 0-0 45': Gabon expected 0.9 and Lesotho 0.8 more goals (last 10); 0-0 at 45' \u2013 95% chance; margin record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
+"ts": 1794585600.0,
+"eid": "sr:match:75802224",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75802224|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "South Africa vs Kenya",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:3 \u2013 Kenya",
+"odds": 1.1,
+"why": "LIVE 1-1 45': South Africa expected 0.9 and Kenya 0.6 more goals (last 10); 1-1 at 45' \u2013 94% chance; margin record 90% / 80% in both sides' last games",
+"ts": 1794585600.0,
+"eid": "sr:match:75802254",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75802254|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:3 \u2013 Tanzania",
+"odds": 1.12,
+"why": "LIVE 1-1 45': Nigeria expected 0.9 and Tanzania 0.8 more goals (last 10); 1-1 at 45' \u2013 94% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 3 meetings",
+"ts": 1794585600.0,
+"eid": "sr:match:75802320",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75802320|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 17:30",
+"game": "Kuwait vs Syria",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:2 \u2013 Syria",
+"odds": 1.06,
+"why": "LIVE 0-0 19': Kuwait expected 1.1 and Syria 1.6 more goals (last 10); 0-0 at 19' \u2013 88% chance; margin record 90% / 80% in both sides' last games, h2h 75% of 8 meetings",
+"ts": 1794587400.0,
+"eid": "sr:match:76686776",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76686776|14|hcp=0:2|1713"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 17:38",
 "at": 1794587880,
 "req": {
