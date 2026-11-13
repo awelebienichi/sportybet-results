@@ -1,6 +1,21 @@
 [
 {
 "when": "Fri 13 Nov 18:27",
+"at": 1794590875,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bblive",
+"kind": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwf92h3luwnt"
+},
+"ok": false,
+"msg": "15 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
+},
+{
+"when": "Fri 13 Nov 18:27",
 "at": 1794590853,
 "req": {
 "u": "owner-j7k2",
@@ -8427,48 +8442,6 @@
 "spec": "",
 "oid": "11",
 "k": "73714826|10||11"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 09:08",
-"at": 1794557324,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwep38usomlz"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "PRJF1F",
-"odds": 1.08,
-"legs": [
-{
-"t": "Fri 08:00",
-"game": "Lemi Kura SC vs Ethiopian Sports Academy",
-"lg": "Ethiopia - Higher League, Women",
-"pick": "Lemi Kura SC or Ethiopian Sports Academy",
-"odds": 1.08,
-"why": "LIVE 1-0 50': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794553200.0,
-"eid": "sr:match:76679404",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76679404|10||10"
 }
 ]
 }
