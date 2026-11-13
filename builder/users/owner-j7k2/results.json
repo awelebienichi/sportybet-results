@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WH0E0H",
+"at": 1794572473,
+"when": "Fri 13 Nov 13:21",
+"kind": "live \u2013 best of all",
+"odds": 3.06,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Al Hedod SC vs AL Hashd AL Shade",
+"pick": "Under 2.5",
+"odds": 1.04,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"pick": "Nafta 1903 Lendava Under 2.5",
+"odds": 1.06,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
+"pick": "Stinta Poli Timisoara 2 or draw",
+"odds": 1.04,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:30",
+"game": "Turun Palloseura vs Tampereen Ilves",
+"pick": "Tampereen Ilves or draw",
+"odds": 1.06,
+"ts": 1794569400.0
+},
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"pick": "Handicap 0:3 \u2013 KF Vjosa",
+"odds": 1.14,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "CS Academica Recea vs FCM Baia Mare",
+"pick": "CS Academica Recea or FCM Baia Mare",
+"odds": 1.03,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Singapore vs Paraguay",
+"pick": "Handicap 5:0 \u2013 Singapore",
+"odds": 1.22,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
+"pick": "CSC Ghiroda SI Giarmata Vii or draw",
+"odds": 1.12,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "FK Drina Zvornik vs Velez Nevesinje",
+"pick": "Handicap 0:4 \u2013 Velez Nevesinje",
+"odds": 1.3,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Budaorsi SC vs Erdi VSE",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794571200.0
+}
+]
+},
+{
 "code": "P33LTM",
 "at": 1794572152,
 "when": "Fri 13 Nov 13:15",
