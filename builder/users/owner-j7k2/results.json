@@ -55,7 +55,10 @@
 "game": "ACS Aro Muscelul C-Lung Muscel vs Cso Teleajenul Valeni de Munte",
 "pick": "ACS Aro Muscelul C-Lung Muscel to win",
 "odds": 1.05,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "3-1",
+"ht": "2-0"
 },
 {
 "t": "Fri 13:00",
@@ -173,7 +176,10 @@
 "game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
 "pick": "CSC Ghiroda SI Giarmata Vii or draw",
 "odds": 1.12,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Fri 13:00",
@@ -267,7 +273,10 @@
 "game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
 "pick": "CSC Ghiroda SI Giarmata Vii or draw",
 "odds": 1.14,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Fri 13:00",

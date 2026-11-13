@@ -7,7 +7,7 @@
 "when": "Fri 13 Nov 08:30",
 "kind": "combined QH889T + XXBYMT",
 "odds": 253.51,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:00",
@@ -51,7 +51,10 @@
 "game": "Mozambique vs Ethiopia",
 "pick": "1st Half - Over/Under \u2013 Over 0.5",
 "odds": 1.46,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -148,14 +151,17 @@
 "when": "Fri 13 Nov 08:28",
 "kind": "your chosen markets",
 "odds": 68.05,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 14:00",
 "game": "Mozambique vs Ethiopia",
 "pick": "1st half Over 0.5",
 "odds": 1.46,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -426,7 +432,7 @@
 "odds": 1.14,
 "ts": 1794571200.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": ""
 },
 {
@@ -505,7 +511,10 @@
 "game": "Mozambique vs Ethiopia",
 "pick": "1st Half - Over/Under \u2013 Over 0.5",
 "odds": 1.46,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -828,7 +837,10 @@
 "game": "Mozambique vs Ethiopia",
 "pick": "1st half Over 0.5",
 "odds": 1.46,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -852,7 +864,10 @@
 "game": "Shillong Lajong FC vs Sreenidi Deccan FC",
 "pick": "1st half Over 0.5",
 "odds": 1.32,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -1137,7 +1152,7 @@
 "odds": 1.14,
 "ts": 1794571200.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": ""
 },
 {
@@ -1464,7 +1479,10 @@
 "game": "Mozambique vs Ethiopia",
 "pick": "1st half Over 0.5",
 "odds": 1.46,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -1488,7 +1506,10 @@
 "game": "Shillong Lajong FC vs Sreenidi Deccan FC",
 "pick": "1st half Over 0.5",
 "odds": 1.32,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
