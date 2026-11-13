@@ -2,6 +2,79 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WL2BH9",
+"at": 1794539895,
+"when": "Fri 13 Nov 04:18",
+"kind": "safest market per game",
+"odds": 111.78,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"pick": "Double chance KF Vjosa or draw",
+"odds": 2.0,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 14:00",
+"game": "Comoros vs Congo",
+"pick": "1st half double chance Congo or draw",
+"odds": 1.5,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Gunners FC vs Iaa SC",
+"pick": "Double chance Iaa SC or draw",
+"odds": 1.65,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "1st half Over 0.5",
+"odds": 1.57,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Mali vs Rwanda",
+"pick": "1st half double chance Rwanda or draw",
+"odds": 1.89,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"pick": "1st half double chance Newcastle United U21 or draw",
+"odds": 1.75,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caernarfon Town FC vs Holywell Town",
+"pick": "GG (both teams score)",
+"odds": 1.92,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "U15SZ6",
 "at": 1794486801,
 "when": "Thu 12 Nov 13:33",
