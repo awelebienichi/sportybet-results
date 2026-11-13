@@ -191,7 +191,7 @@
 "when": "Fri 13 Nov 06:35",
 "kind": "live \u2013 best of all",
 "odds": 1.12,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 05:30",
@@ -208,7 +208,10 @@
 "game": "FC Ulaanbaatar vs Hunters FC",
 "pick": "FC Ulaanbaatar or draw",
 "odds": 1.09,
-"ts": 1794546000.0
+"ts": 1794546000.0,
+"r": "W",
+"sc": "7-1",
+"ht": "1-0"
 }
 ]
 },
