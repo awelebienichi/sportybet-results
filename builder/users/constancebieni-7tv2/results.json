@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "ZHTWHY",
+"at": 1794606442,
+"when": "Fri 13 Nov 22:47",
+"kind": "live \u2013 best of all",
+"odds": 1.18,
+"status": "open",
+"legs": [
+{
+"t": "Fri 21:00",
+"game": "Morocco vs Niger",
+"pick": "Handicap 0:5 \u2013 Niger",
+"odds": 1.08,
+"ts": 1794600000.0
+},
+{
+"t": "Fri 21:15",
+"game": "Gimnastic de Tarragona vs Real Madrid Castilla",
+"pick": "Gimnastic de Tarragona or Real Madrid Castilla",
+"odds": 1.06,
+"ts": 1794600900.0
+},
+{
+"t": "Fri 22:00",
+"game": "AD Tenancingo vs Neo Pipil San Juan Nonualco",
+"pick": "AD Tenancingo or draw",
+"odds": 1.03,
+"ts": 1794603600.0
+}
+]
+},
+{
 "code": "S3Q5BT",
 "at": 1794606373,
 "when": "Fri 13 Nov 22:46",
