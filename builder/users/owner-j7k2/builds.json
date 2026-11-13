@@ -1,5 +1,101 @@
 [
 {
+"when": "Fri 13 Nov 18:30",
+"at": 1794591011,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "strict",
+"rid": "mwf959b878r0"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "ZERS8K",
+"odds": 1.32,
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Gabon vs Lesotho",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:4 \u2013 Lesotho",
+"odds": 1.03,
+"why": "LIVE 1-0 66': Gabon expected 0.5 and Lesotho 0.4 more goals (last 10); 1-0 at 66' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1794585600.0,
+"eid": "sr:match:75802224",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "75802224|14|hcp=0:4|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Burkina Faso Under 1.5",
+"odds": 1.05,
+"why": "LIVE 0-0 71': Burkina Faso expected 0.3 and Mauritania 0.3 more goals (last 10); 0-0 at 71' \u2013 95% chance; h2h 80% of 5 meetings",
+"ts": 1794585600.0,
+"eid": "sr:match:75802274",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "75802274|19|total=1.5|13"
+},
+{
+"t": "Fri 17:00",
+"game": "South Africa vs Kenya",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Under 4.5",
+"odds": 1.04,
+"why": "LIVE 1-1 67': South Africa expected 0.5 and Kenya 0.3 more goals (last 10); 1-1 at 67' \u2013 93% chance; Flashscore home/away form 80%, Vitibet tip 2-0",
+"ts": 1794585600.0,
+"eid": "sr:match:75802254",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "75802254|18|total=4.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"lg": "Nigeria - Premier League",
+"pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
+"odds": 1.04,
+"why": "LIVE 0-0 30': Shooting Stars expected 1.0 and Bendel Insurance FC 1.0 more goals (last 10 + season); 0-0 at 30' \u2013 95% chance; margin record 90% / 90% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:74886150",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "74886150|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "Handicap 0:3 \u2013 USM Khenchela",
+"odds": 1.14,
+"why": "LIVE 1-0 27': JS Saoura expected 0.5 and USM Khenchela 0.6 more goals (last 10 + season); 1-0 at 27' \u2013 93% chance; margin record 100% / 90% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75722348|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 18:28",
 "at": 1794590894,
 "req": {
@@ -8315,90 +8411,6 @@
 "spec": "total=170.5",
 "oid": "13",
 "k": "74320756|225|total=170.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 10:18",
-"at": 1794561520,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwerl7jobhax"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 4 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "PFRL1P",
-"odds": 1.26,
-"legs": [
-{
-"t": "Fri 09:30",
-"game": "MC Saida vs JSM Tiaret",
-"lg": "Algeria - U20 Coupe de Algerie",
-"pick": "MC Saida or draw",
-"odds": 1.03,
-"why": "LIVE 0-0 38': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794558600.0,
-"eid": "sr:match:76593256",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76593256|10||9"
-},
-{
-"t": "Fri 09:30",
-"game": "Parikrma FC vs HAL SC Bangalore",
-"lg": "India - Bangalore Super Division",
-"pick": "Parikrma FC or draw",
-"odds": 1.05,
-"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794558600.0,
-"eid": "sr:match:111111114633272",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "111111114633272|10||9"
-},
-{
-"t": "Fri 09:30",
-"game": "Preston Lions FC vs Lions FC",
-"lg": "Australia - Australian Championship",
-"pick": "Handicap 0:3 \u2013 Lions FC",
-"odds": 1.09,
-"why": "LIVE 2-1 42': Preston Lions FC expected 0.8 and Lions FC 1.1 more goals (last 10); 2-1 at 42' \u2013 89% chance; margin record 80% / 100% in both sides' last games",
-"ts": 1794558600.0,
-"eid": "sr:match:74827368",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "74827368|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 09:45",
-"game": "Armed Forces FC vs Wan Tendong Stable",
-"lg": "Malaysia - Liga A1",
-"pick": "Wan Tendong Stable or draw",
-"odds": 1.07,
-"why": "LIVE 0-1 30': Armed Forces FC expected 0.9 and Wan Tendong Stable 1.0 more goals (last 10 + season); 0-1 at 30' \u2013 88% chance",
-"ts": 1794559500.0,
-"eid": "sr:match:73714826",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "73714826|10||11"
 }
 ]
 }
