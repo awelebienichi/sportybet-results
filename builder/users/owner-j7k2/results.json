@@ -400,7 +400,10 @@
 "game": "Kuwait vs Syria",
 "pick": "1st half Under 2.5",
 "odds": 1.09,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 17:30",
@@ -692,7 +695,7 @@
 "when": "Fri 13 Nov 16:53",
 "kind": "live \u2013 best of all",
 "odds": 1.36,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 16:00",
@@ -739,7 +742,10 @@
 "game": "AS Police Niger vs Liberte FC",
 "pick": "AS Police Niger or draw",
 "odds": 1.03,
-"ts": 1794582900.0
+"ts": 1794582900.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 16:15",
