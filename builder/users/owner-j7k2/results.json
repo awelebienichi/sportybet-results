@@ -1556,7 +1556,10 @@
 "game": "Hamburger SV vs 1. FSV Mainz 05",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -2255,7 +2258,10 @@
 "game": "Hamburger SV vs 1. FSV Mainz 05",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.17,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -2838,7 +2844,10 @@
 "game": "Hamburger SV vs 1. FSV Mainz 05",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.17,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -3271,7 +3280,10 @@
 "game": "Hamburger SV vs 1. FSV Mainz 05",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
