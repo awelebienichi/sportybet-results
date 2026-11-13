@@ -1,5 +1,49 @@
 [
 {
+"when": "Fri 13 Nov 18:24",
+"at": 1794590660,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "quarter",
+"legs": 2,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwf8xo9jrk8a"
+},
+"ok": true,
+"kind": "basketball \u2013 quarter total points",
+"note": [
+"Only 1 basketball games passed the checks (Fri 13, 88 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "SFB5SR",
+"odds": 1.4,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Bakken Bears Q1 Under 29.5 points",
+"odds": 1.4,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "757",
+"spec": "total=29.5|quarternr=1",
+"oid": "13",
+"k": "72663212|757|total=29.5|quarternr=1|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 17:47",
 "at": 1794588442,
 "req": {
@@ -8652,20 +8696,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 08:25",
-"at": 1794554734,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwenjw5lhe6x"
-},
-"ok": false,
-"msg": "2 games are in play, but none fits that strategy right now (2 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 }
 ]
