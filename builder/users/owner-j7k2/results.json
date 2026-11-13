@@ -2,6 +2,121 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "W8F2DR",
+"at": 1794555341,
+"when": "Fri 13 Nov 08:35",
+"kind": "basketball \u2013 total points",
+"odds": 20.22,
+"status": "open",
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "Cairns Taipans vs Sydney Kings",
+"pick": "Under 206.5 total points",
+"odds": 1.23,
+"ts": 1794558600.0
+},
+{
+"t": "Fri 11:05",
+"game": "Levanga Hokkaido vs Kobe Storks",
+"pick": "Under 198.5 total points",
+"odds": 1.22,
+"ts": 1794564300.0
+},
+{
+"t": "Fri 11:15",
+"game": "Kyoto Hannaryz vs Ibaraki Robots",
+"pick": "Over 145.5 total points",
+"odds": 1.22,
+"ts": 1794564900.0
+},
+{
+"t": "Fri 11:30",
+"game": "Akita Northern Happinets vs Nagoya Diamond Dolphins",
+"pick": "Over 158.5 total points",
+"odds": 1.21,
+"ts": 1794565800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Kufstein Towers vs Swans Gmunden",
+"pick": "Under 183.5 total points",
+"odds": 1.24,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:30",
+"game": "Anadolu Efes SK vs Virtus Bologna",
+"pick": "Over 160.5 total points",
+"odds": 1.23,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"pick": "Under 191.5 total points",
+"odds": 1.22,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SKN St. Polten Basketball vs Flyers Wels",
+"pick": "Over 149.5 total points",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Eagles Graz vs BBC Nord Dragonz",
+"pick": "Over 160.5 total points",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:00",
+"game": "BC Vienna vs BK Dukes Klosterneuburg",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"ts": 1794597300.0
+},
+{
+"t": "Fri 20:30",
+"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
+"pick": "Over 162.5 total points",
+"odds": 1.22,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 21:30",
+"game": "Vitoria Sport Clube vs FC Porto",
+"pick": "Under 179.5 total points",
+"odds": 1.22,
+"ts": 1794601800.0
+},
+{
+"t": "Fri 23:30",
+"game": "Cruzeiro Basquete vs Unifacisa",
+"pick": "Under 172.5 total points",
+"odds": 1.23,
+"ts": 1794609000.0
+},
+{
+"t": "Fri 23:30",
+"game": "Sao Jose dos Campos vs CA Paulistano SP",
+"pick": "Under 170.5 total points",
+"odds": 1.24,
+"ts": 1794609000.0
+}
+]
+},
+{
 "code": "LFK6J7",
 "at": 1794549985,
 "when": "Fri 13 Nov 07:06",
