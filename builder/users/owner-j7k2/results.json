@@ -3025,7 +3025,7 @@
 "when": "Fri 13 Nov 15:06",
 "kind": "your tracker's best markets",
 "odds": 12.08,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -3212,7 +3212,10 @@
 "game": "ACD Ospitaletto vs Dolomiti Bellunesi",
 "pick": "ACD Ospitaletto or GG",
 "odds": 1.15,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -3389,7 +3392,10 @@
 "game": "ACD Ospitaletto vs Dolomiti Bellunesi",
 "pick": "ACD Ospitaletto or GG",
 "odds": 1.15,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
