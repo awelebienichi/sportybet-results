@@ -14,7 +14,10 @@
 "game": "Morocco vs Niger",
 "pick": "Handicap 0:5 \u2013 Niger",
 "odds": 1.05,
-"ts": 1794600000.0
+"ts": 1794600000.0,
+"r": "W",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Fri 21:00",
@@ -55,7 +58,10 @@
 "game": "Morocco vs Niger",
 "pick": "Handicap 0:5 \u2013 Niger",
 "odds": 1.08,
-"ts": 1794600000.0
+"ts": 1794600000.0,
+"r": "W",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Fri 21:15",
@@ -86,7 +92,10 @@
 "game": "Morocco vs Niger",
 "pick": "Handicap 0:5 \u2013 Niger",
 "odds": 1.08,
-"ts": 1794600000.0
+"ts": 1794600000.0,
+"r": "W",
+"sc": "5-1",
+"ht": "3-1"
 },
 {
 "t": "Fri 22:00",
