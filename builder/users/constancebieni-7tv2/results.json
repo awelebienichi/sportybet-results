@@ -7,14 +7,17 @@
 "when": "Fri 13 Nov 08:29",
 "kind": "live \u2013 best of all",
 "odds": 1.03,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 07:00",
 "game": "Kodagu FC vs Technico FF",
 "pick": "Kodagu FC to win",
 "odds": 1.03,
-"ts": 1794549600.0
+"ts": 1794549600.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 }
 ]
 },
