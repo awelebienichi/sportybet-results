@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X370JR",
+"at": 1794578812,
+"when": "Fri 13 Nov 15:06",
+"kind": "your tracker's best markets",
+"odds": 12.08,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"pick": "Cape Verde or GG",
+"odds": 1.1,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 18:30",
+"game": "FC Viktoria Plzen B vs FK Loko Prague",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Helsingoer vs Holstebro BK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Switzerland vs Romania",
+"pick": "Switzerland or GG",
+"odds": 1.12,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:30",
+"game": "SV Drochtersen/Assel vs VfB Oldenburg",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794594600.0
+},
+{
+"t": "Fri 20:00",
+"game": "Dijon vs US Orleans",
+"pick": "Dijon or GG",
+"odds": 1.13,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Deportivo Lara vs Zamora FC Barinas II",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Portalban/Gletterens vs FC Echallens Region",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Puerto Rico vs Dominica",
+"pick": "1st half double chance Puerto Rico or draw",
+"odds": 1.08,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:30",
+"game": "Latina Calcio vs Campobasso FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.33,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Royal Francs Borains  vs RAAL La Louviere",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:30",
+"game": "ACD Ospitaletto vs Dolomiti Bellunesi",
+"pick": "ACD Ospitaletto or GG",
+"odds": 1.15,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Sporting Hasselt vs RFC Liege",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1794598200.0
+}
+]
+},
+{
 "code": "MMYD8D",
 "at": 1794578727,
 "when": "Fri 13 Nov 15:05",
