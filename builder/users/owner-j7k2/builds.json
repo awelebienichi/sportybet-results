@@ -1,5 +1,103 @@
 [
 {
+"when": "Fri 13 Nov 10:13",
+"at": 1794561237,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwerf5h1uo4l"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 5 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "ZX9CPR",
+"odds": 1.34,
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "MC Saida vs JSM Tiaret",
+"lg": "Algeria - U20 Coupe de Algerie",
+"pick": "MC Saida or draw",
+"odds": 1.03,
+"why": "LIVE 0-0 33': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794558600.0,
+"eid": "sr:match:76593256",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76593256|10||9"
+},
+{
+"t": "Fri 09:30",
+"game": "Parikrma FC vs HAL SC Bangalore",
+"lg": "India - Bangalore Super Division",
+"pick": "Parikrma FC or draw",
+"odds": 1.05,
+"why": "LIVE 1-0 40': no team stats for this game \u2013 SportyBet's own price says 90%",
+"ts": 1794558600.0,
+"eid": "sr:match:111111114633272",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "111111114633272|10||9"
+},
+{
+"t": "Fri 09:30",
+"game": "Persikota Tangerang vs Pesik Kuningan",
+"lg": "Indonesia - Liga Nusantara",
+"pick": "Persikota Tangerang or Pesik Kuningan",
+"odds": 1.07,
+"why": "LIVE 1-0 43': no team stats for this game \u2013 SportyBet's own price says 88%",
+"ts": 1794558600.0,
+"eid": "sr:match:76593268",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76593268|10||10"
+},
+{
+"t": "Fri 09:30",
+"game": "Oakleigh Cannons vs Marconi Stallions",
+"lg": "Australia - Australian Championship",
+"pick": "Oakleigh Cannons or Marconi Stallions",
+"odds": 1.08,
+"why": "LIVE 0-2 39': Oakleigh Cannons expected 1.7 and Marconi Stallions 1.1 more goals (last 10); 0-2 at 39' \u2013 85% chance",
+"ts": 1794558600.0,
+"eid": "sr:match:74827344",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74827344|10||10"
+},
+{
+"t": "Fri 09:45",
+"game": "Armed Forces FC vs Wan Tendong Stable",
+"lg": "Malaysia - Liga A1",
+"pick": "Wan Tendong Stable or draw",
+"odds": 1.07,
+"why": "LIVE 0-1 25': Armed Forces FC expected 0.9 and Wan Tendong Stable 1.1 more goals (last 10 + season); 0-1 at 25' \u2013 88% chance",
+"ts": 1794559500.0,
+"eid": "sr:match:73714826",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "73714826|10||11"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 09:08",
 "at": 1794557324,
 "req": {
@@ -4870,117 +4968,6 @@
 "spec": "hcp=2:0",
 "oid": "1711",
 "k": "75802318|14|hcp=2:0|1711"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 17:23",
-"at": 1794500590,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwdrb721xv34"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "MSUJKZ",
-"odds": 1.46,
-"legs": [
-{
-"t": "Thu 16:00",
-"game": "Ghana vs Somalia",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:4 \u2013 Somalia",
-"odds": 1.09,
-"why": "LIVE 1-0 58': Ghana expected 0.5 and Somalia 0.5 more goals (last 10); 1-0 at 58' \u2013 98% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794495600.0,
-"eid": "sr:match:75802240",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "75802240|14|hcp=0:4|1713"
-},
-{
-"t": "Thu 16:00",
-"game": "Portugal vs Lithuania",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Handicap 0:3 \u2013 Lithuania",
-"odds": 1.09,
-"why": "LIVE 0-0 62': Portugal expected 0.6 and Lithuania 0.4 more goals (last 10); 0-0 at 62' \u2013 97% chance; margin record 80% / 90% in both sides' last games",
-"ts": 1794495600.0,
-"eid": "sr:match:75894686",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75894686|14|hcp=0:3|1713"
-},
-{
-"t": "Thu 16:00",
-"game": "Csd Tristan Suarez Reserve vs Almirante Brown Reserve",
-"lg": "Argentina - Primera Nacional, Reserve",
-"pick": "Csd Tristan Suarez Reserve to win",
-"odds": 1.03,
-"why": "LIVE 2-0 53': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794495600.0,
-"eid": "sr:match:76485358",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "76485358|1||1"
-},
-{
-"t": "Thu 16:00",
-"game": "Al-Ahly Amman vs Amman FC",
-"lg": "Jordan - First Division",
-"pick": "Al-Ahly Amman Under 1.5",
-"odds": 1.07,
-"why": "LIVE 0-0 59': Al-Ahly Amman expected 0.4 and Amman FC 0.5 more goals (last 10 + season); 0-0 at 59' \u2013 93% chance",
-"ts": 1794495600.0,
-"eid": "sr:match:74205868",
-"mid": "19",
-"spec": "total=1.5",
-"oid": "13",
-"k": "74205868|19|total=1.5|13"
-},
-{
-"t": "Thu 16:00",
-"game": "Club Lujan Reserve vs CA Claypole Reserves",
-"lg": "Argentina - Campeonato De Reserva De Primera Division C",
-"pick": "Under 3.5",
-"odds": 1.04,
-"why": "LIVE 0-1 58': no team stats for this game \u2013 SportyBet's own price says 91%",
-"ts": 1794495600.0,
-"eid": "sr:match:111111114671473",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "111111114671473|18|total=3.5|13"
-},
-{
-"t": "Thu 17:00",
-"game": "Congo DR vs Sierra Leone",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:5 \u2013 Sierra Leone",
-"odds": 1.07,
-"why": "LIVE 1-0 21': Congo DR expected 1.3 and Sierra Leone 1.2 more goals (last 10); 1-0 at 21' \u2013 97% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1794499200.0,
-"eid": "sr:match:75802264",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75802264|14|hcp=0:5|1713"
 }
 ]
 }
