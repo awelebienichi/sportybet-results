@@ -7,7 +7,7 @@
 "when": "Fri 13 Nov 13:52",
 "kind": "live \u2013 best of all",
 "odds": 2.16,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:30",
@@ -83,7 +83,10 @@
 "game": "CS Drobeta Turnu Severin vs Unirea Bascov",
 "pick": "CS Drobeta Turnu Severin Under 3.5",
 "odds": 1.2,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "L",
+"sc": "4-0",
+"ht": ""
 }
 ]
 },
