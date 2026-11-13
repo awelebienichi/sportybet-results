@@ -1,6 +1,117 @@
 [
 {
 "when": "Fri 13 Nov 10:58",
+"at": 1794563938,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwet0z2m7pwx"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "UH302Y",
+"odds": 1.34,
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "MC Saida vs JSM Tiaret",
+"lg": "Algeria - U20 Coupe de Algerie",
+"pick": "MC Saida or draw",
+"odds": 1.03,
+"why": "LIVE 0-0 58': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794558600.0,
+"eid": "sr:match:76593256",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76593256|10||9"
+},
+{
+"t": "Fri 09:30",
+"game": "Oakleigh Cannons vs Marconi Stallions",
+"lg": "Australia - Australian Championship",
+"pick": "Marconi Stallions Under 3.5",
+"odds": 1.03,
+"why": "LIVE 2-2 68': Oakleigh Cannons expected 0.8 and Marconi Stallions 0.5 more goals (last 10); 2-2 at 68' \u2013 89% chance; goals record 90% / 80% in both sides' last games",
+"ts": 1794558600.0,
+"eid": "sr:match:74827344",
+"mid": "20",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74827344|20|total=3.5|13"
+},
+{
+"t": "Fri 09:30",
+"game": "Preston Lions FC vs Lions FC",
+"lg": "Australia - Australian Championship",
+"pick": "Preston Lions FC Under 3.5",
+"odds": 1.08,
+"why": "LIVE 2-1 63': Preston Lions FC expected 0.5 and Lions FC 0.6 more goals (last 10); 2-1 at 63' \u2013 90% chance; goals record 80% / 100% in both sides' last games",
+"ts": 1794558600.0,
+"eid": "sr:match:74827368",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74827368|19|total=3.5|13"
+},
+{
+"t": "Fri 09:45",
+"game": "Armed Forces FC vs Wan Tendong Stable",
+"lg": "Malaysia - Liga A1",
+"pick": "Wan Tendong Stable or draw",
+"odds": 1.03,
+"why": "LIVE 0-1 51': Armed Forces FC expected 0.6 and Wan Tendong Stable 0.7 more goals (last 10 + season); 0-1 at 51' \u2013 92% chance",
+"ts": 1794559500.0,
+"eid": "sr:match:73714826",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "73714826|10||11"
+},
+{
+"t": "Fri 10:00",
+"game": "Adamas United Sa vs Aikya Sammilani",
+"lg": "India - Calcutta 1st Division",
+"pick": "Adamas United Sa or draw",
+"odds": 1.06,
+"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 89%",
+"ts": 1794560400.0,
+"eid": "sr:match:76480878",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76480878|10||9"
+},
+{
+"t": "Fri 10:14",
+"game": "ES Setif vs US Chaouia",
+"lg": "Algeria - U20 Jeunes Elites",
+"pick": "ES Setif or US Chaouia",
+"odds": 1.07,
+"why": "LIVE 1-0 44': no team stats for this game \u2013 SportyBet's own price says 88%",
+"ts": 1794561240.0,
+"eid": "sr:match:111111114667411",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "111111114667411|10||10"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 10:58",
 "at": 1794563883,
 "req": {
 "u": "constancebieni-7tv2",
