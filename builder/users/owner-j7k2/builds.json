@@ -1,5 +1,26 @@
 [
 {
+"when": "Fri 13 Nov 21:23",
+"at": 1794601411,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "normal",
+"from": "05:00",
+"to": "09:59",
+"rid": "mwffbjtr3qs0"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Fri 13, Sat 14, 05:00\u201309:59) out of 29 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Fri 13 Nov 21:04",
 "at": 1794600283,
 "req": {
@@ -9145,21 +9166,6 @@
 "legs": 6,
 "strict": "relaxed",
 "rid": "mwevxzhjnf1r"
-},
-"ok": false,
-"msg": "12 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
-},
-{
-"when": "Fri 13 Nov 12:19",
-"at": 1794568779,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "quarter",
-"legs": 6,
-"strict": "normal",
-"rid": "mwevws5o89ne"
 },
 "ok": false,
 "msg": "12 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
