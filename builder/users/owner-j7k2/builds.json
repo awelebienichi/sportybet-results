@@ -1,5 +1,174 @@
 [
 {
+"when": "Fri 13 Nov 11:35",
+"at": 1794566157,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mweubz9mm62h"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [],
+"tickets": [
+{
+"code": "PQXP4P",
+"odds": 55.07,
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
+"lg": "Romania - Liga 3",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 3.5 and 4.0 goals a game (12/12 games); last 10 rate 80%; Flashscore home/away form 75%, season: 3.8 goals a game",
+"ts": 1794567600.0,
+"eid": "sr:match:74089494",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74089494|18|total=2.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "FC Viktoria Plzen B vs FK Loko Prague",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 3.8 and 3.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, Vitibet tip 3-1",
+"ts": 1794591000.0,
+"eid": "sr:match:72415122",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415122|18|total=2.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "season: 3.4 and 3.9 goals a game (9/9 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
+"ts": 1794591000.0,
+"eid": "sr:match:72961080",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961080|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Helsingoer vs Holstebro BK",
+"lg": "Denmark - 3rd Division",
+"pick": "Over 2.5",
+"odds": 1.57,
+"why": "season: 2.7 and 3.9 goals a game (15/15 games); last 10 rate 70%; Flashscore home/away form 65%",
+"ts": 1794592800.0,
+"eid": "sr:match:72500824",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72500824|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 4.2 and 2.8 goals a game (12/12 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 3.5 goals a game",
+"ts": 1794592800.0,
+"eid": "sr:match:72594662",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72594662|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "KS Polonia Nysa vs KS Gornik Polkowice",
+"lg": "Poland - III Liga, Group 3",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 2.9 and 3.6 goals a game (15/16 games); last 10 rate 70%; Flashscore home/away form 70%",
+"ts": 1794592800.0,
+"eid": "sr:match:73074638",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73074638|18|total=2.5|12"
+},
+{
+"t": "Fri 19:30",
+"game": "SV Drochtersen/Assel vs VfB Oldenburg",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 4.5 and 3.9 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 75%, footybets 76%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
+"ts": 1794594600.0,
+"eid": "sr:match:72674440",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72674440|18|total=2.5|12"
+},
+{
+"t": "Fri 19:30",
+"game": "ASK Royal Sped Klingenbach vs SV Leithaprodersdorf",
+"lg": "Austria Amateur - Burgenlandliga",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 3.1 and 3.8 goals a game (14/14 games); last 10 rate 70%; Flashscore home/away form 85%",
+"ts": 1794594600.0,
+"eid": "sr:match:72560452",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72560452|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "FC Portalban/Gletterens vs FC Echallens Region",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 2.9 and 3.7 goals a game (13/13 games); last 10 rate 75%; Flashscore home/away form 65%",
+"ts": 1794596400.0,
+"eid": "sr:match:72525484",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72525484|18|total=2.5|12"
+},
+{
+"t": "Fri 22:30",
+"game": "Club Calor vs Real Apodaca FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "season: 4.3 and 3.0 goals a game (11/11 games); last 10 rate 75%; Flashscore home/away form 55%",
+"ts": 1794605400.0,
+"eid": "sr:match:74063612",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063612|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 10:58",
 "at": 1794563895,
 "req": {
@@ -5027,117 +5196,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "75133630|20|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 19:30",
-"at": 1794508211,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwdvui00t860"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "KRPQ51",
-"odds": 1.33,
-"legs": [
-{
-"t": "Thu 18:00",
-"game": "Lithuania vs Suriname",
-"lg": "International - Int. Friendly Games",
-"pick": "Lithuania Under 1.5",
-"odds": 1.03,
-"why": "LIVE 0-0 70': Lithuania expected 0.3 and Suriname 0.4 more goals (last 10); 0-0 at 70' \u2013 94% chance",
-"ts": 1794502800.0,
-"eid": "sr:match:76354526",
-"mid": "19",
-"spec": "total=1.5",
-"oid": "13",
-"k": "76354526|19|total=1.5|13"
-},
-{
-"t": "Thu 18:00",
-"game": "Armenia vs Cyprus",
-"lg": "International - UEFA Nations League",
-"pick": "Armenia Under 2.5",
-"odds": 1.06,
-"why": "LIVE 1-1 72': Armenia expected 0.2 and Cyprus 0.4 more goals (last 10); 1-1 at 72' \u2013 96% chance; goals record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
-"ts": 1794502800.0,
-"eid": "sr:match:68932422",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68932422|19|total=2.5|13"
-},
-{
-"t": "Thu 18:00",
-"game": "Turkiye vs Belgium",
-"lg": "International - UEFA Nations League",
-"pick": "Turkiye Under 2.5",
-"odds": 1.05,
-"why": "LIVE 1-2 71': Turkiye expected 0.3 and Belgium 0.5 more goals (last 10); 1-2 at 71' \u2013 95% chance; goals record 80% / 90% in both sides' last games",
-"ts": 1794502800.0,
-"eid": "sr:match:68931496",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68931496|19|total=2.5|13"
-},
-{
-"t": "Thu 18:00",
-"game": "Tunisia vs Gabon",
-"lg": "International Youth - U23 Africa Cup of Nations",
-"pick": "Under 3.5",
-"odds": 1.03,
-"why": "LIVE 1-0 69': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794502800.0,
-"eid": "sr:match:76521142",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76521142|18|total=3.5|13"
-},
-{
-"t": "Thu 18:30",
-"game": "Malta vs Eswatini",
-"lg": "International - Int. Friendly Games",
-"pick": "Handicap 0:3 \u2013 Eswatini",
-"odds": 1.03,
-"why": "LIVE 0-1 45': Malta expected 0.9 and Eswatini 0.5 more goals (last 10); 0-1 at 45' \u2013 98% chance; margin record 100% / 80% in both sides' last games",
-"ts": 1794504600.0,
-"eid": "sr:match:76140570",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76140570|14|hcp=0:3|1713"
-},
-{
-"t": "Thu 19:00",
-"game": "Chambery SF vs Grenoble Foot",
-"lg": "France - Coupe de France",
-"pick": "Handicap 4:0 \u2013 Chambery SF",
-"odds": 1.09,
-"why": "LIVE 0-0 29': Chambery SF expected 1.4 and Grenoble Foot 1.3 more goals (last 10); 0-0 at 29' \u2013 97% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794506400.0,
-"eid": "sr:match:76171256",
-"mid": "14",
-"spec": "hcp=4:0",
-"oid": "1711",
-"k": "76171256|14|hcp=4:0|1711"
 }
 ]
 }
