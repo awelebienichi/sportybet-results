@@ -1,5 +1,49 @@
 [
 {
+"when": "Fri 13 Nov 07:06",
+"at": 1794549985,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "team",
+"legs": 15,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwekq1zj2eg8"
+},
+"ok": true,
+"kind": "basketball \u2013 team points",
+"note": [
+"Only 1 basketball games passed the checks (Fri 13, 103 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "LFK6J7",
+"odds": 1.57,
+"legs": [
+{
+"t": "Fri 23:00",
+"game": "Miami Hurricanes vs North Alabama Lions",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Miami Hurricanes Under 95.5 points",
+"odds": 1.57,
+"why": "expected Miami Hurricanes 78 \u2013 North Alabama Lions 69 (last 10/10 games, home edge included); 93% by the stats, 77% with the price",
+"ts": 1794607200.0,
+"eid": "sr:match:73115972",
+"mid": "227",
+"spec": "total=95.5",
+"oid": "13",
+"k": "73115972|227|total=95.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 07:05",
 "at": 1794549919,
 "req": {
@@ -4846,75 +4890,5 @@
 },
 "ok": false,
 "msg": "12 games are in play, but none fits that strategy right now (7 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
-},
-{
-"when": "Thu 12 Nov 16:30",
-"at": 1794497431,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwdpfkq2257y"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "UE0RFR",
-"odds": 1.99,
-"legs": [
-{
-"t": "Thu 15:00",
-"game": "Boca Juniors vs Social Atletico Television",
-"lg": "Argentina - Primera Division, Women",
-"pick": "Under 4.5",
-"odds": 1.19,
-"why": "LIVE 3-0 68': Boca Juniors expected 0.3 and Social Atletico Television 0.2 more goals (last 10 + season); 3-0 at 68' \u2013 89% chance; Flashscore home/away form 95%, season: 1.9 goals a game",
-"ts": 1794492000.0,
-"eid": "sr:match:76585762",
-"mid": "18",
-"spec": "total=4.5",
-"oid": "13",
-"k": "76585762|18|total=4.5|13"
-},
-{
-"t": "Thu 16:00",
-"game": "Al-Ahly Amman vs Amman FC",
-"lg": "Jordan - First Division",
-"pick": "Handicap 0:2 \u2013 Amman FC",
-"odds": 1.18,
-"why": "LIVE 0-0 23': Al-Ahly Amman expected 0.7 and Amman FC 1.0 more goals (last 10 + season); 0-0 at 23' \u2013 91% chance; margin record 80% / 100% in both sides' last games",
-"ts": 1794495600.0,
-"eid": "sr:match:74205868",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "74205868|14|hcp=0:2|1713"
-},
-{
-"t": "Thu 16:00",
-"game": "Ghana vs Somalia",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Somalia",
-"odds": 1.42,
-"why": "LIVE 0-0 25': Ghana expected 1.0 and Somalia 1.0 more goals (last 10); 0-0 at 25' \u2013 94% chance",
-"ts": 1794495600.0,
-"eid": "sr:match:75802240",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802240|14|hcp=0:3|1713"
-}
-]
-}
-]
 }
 ]
