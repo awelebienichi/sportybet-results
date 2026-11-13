@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KB0S0L",
+"at": 1794596690,
+"when": "Fri 13 Nov 20:04",
+"kind": "live \u2013 best of all",
+"odds": 1.32,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "Under 6.5",
+"odds": 1.03,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "HIK Hellerup vs B93 Copenhagen",
+"pick": "Handicap 0:3 \u2013 B93 Copenhagen",
+"odds": 1.05,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "Handicap 4:0 \u2013 VV Kloetinge",
+"odds": 1.07,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "CP Cacereno SAD Under 1.5",
+"odds": 1.14,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "WA9HA9",
 "at": 1794593890,
 "when": "Fri 13 Nov 19:18",
