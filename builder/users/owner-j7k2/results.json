@@ -2,6 +2,121 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Z4C562",
+"at": 1794601518,
+"when": "Fri 13 Nov 21:25",
+"kind": "basketball \u2013 total points",
+"odds": 21.37,
+"status": "open",
+"legs": [
+{
+"t": "Sat 00:00",
+"game": "Ferro Carril Oeste vs Penarol Mar Del Plata",
+"pick": "Under 177.5 total points",
+"odds": 1.25,
+"ts": 1794610800.0
+},
+{
+"t": "Sat 02:00",
+"game": "Chicago Bulls vs Atlanta Hawks",
+"pick": "Under 258.5 total points",
+"odds": 1.28,
+"ts": 1794618000.0
+},
+{
+"t": "Sat 05:00",
+"game": "Soles de Mexicali vs Astros de Jalisco",
+"pick": "Over 144.5 total points",
+"odds": 1.2,
+"ts": 1794628800.0
+},
+{
+"t": "Sat 07:05",
+"game": "Yokohama B-Corsairs vs Shiga Lakestars",
+"pick": "Over 151.5 total points",
+"odds": 1.21,
+"ts": 1794636300.0
+},
+{
+"t": "Sat 12:00",
+"game": "FC Universitatea Cluj vs KD Ilirija",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Twarde Pierniki Torun vs Trefl Sopot",
+"pick": "Over 160.5 total points",
+"odds": 1.2,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"pick": "Under 185.5 total points",
+"odds": 1.23,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaerlose vs Bears Academy",
+"pick": "Over 154.5 total points",
+"odds": 1.21,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:10",
+"game": "BC Nevezis Kedainiai vs BC Juventus Utena",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794676200.0
+},
+{
+"t": "Sat 18:30",
+"game": "JL Bourg Basket vs Roanne Chorale",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bamberg Baskets vs Baskets Bonn",
+"pick": "Under 182.5 total points",
+"odds": 1.27,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 19:30",
+"game": "Sporting Cp vs CD Povoa",
+"pick": "Over 139.5 total points",
+"odds": 1.2,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 20:00",
+"game": "SC Corinthians Paulista vs Basquete Osasco",
+"pick": "Under 178.5 total points",
+"odds": 1.22,
+"ts": 1794682800.0
+}
+]
+},
+{
 "code": "N5PV9E",
 "at": 1794600283,
 "when": "Fri 13 Nov 21:04",
@@ -2728,7 +2843,10 @@
 "game": "Millwall U21 vs Sheffield United U21",
 "pick": "2nd half Over 0.5",
 "odds": 1.14,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:00",
