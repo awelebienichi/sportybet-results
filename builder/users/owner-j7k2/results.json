@@ -21,7 +21,10 @@
 "game": "Nafta 1903 Lendava vs NK Slaven Belupo",
 "pick": "Nafta 1903 Lendava Under 2.5",
 "odds": 1.06,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 12:00",
@@ -108,7 +111,10 @@
 "game": "Nafta 1903 Lendava vs NK Slaven Belupo",
 "pick": "Nafta 1903 Lendava Under 2.5",
 "odds": 1.09,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 12:30",
@@ -174,7 +180,10 @@
 "game": "Nafta 1903 Lendava vs NK Slaven Belupo",
 "pick": "Nafta 1903 Lendava Under 3.5",
 "odds": 1.03,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 12:00",
@@ -1855,7 +1864,7 @@
 "when": "Fri 13 Nov 12:16",
 "kind": "live \u2013 best of all",
 "odds": 1.28,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 11:00",
@@ -1882,7 +1891,10 @@
 "game": "Nafta 1903 Lendava vs NK Slaven Belupo",
 "pick": "Handicap 0:2 \u2013 NK Slaven Belupo",
 "odds": 1.18,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
