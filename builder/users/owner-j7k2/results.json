@@ -2511,7 +2511,7 @@
 "odds": 1.23,
 "ts": 1794599100.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": ""
 },
 {
@@ -3641,7 +3641,10 @@
 "game": "Swansea University vs Treowen Stars",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.09,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -4342,7 +4345,10 @@
 "game": "Swansea University vs Treowen Stars",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 11:15",
