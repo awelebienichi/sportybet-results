@@ -1,5 +1,177 @@
 [
 {
+"when": "Fri 13 Nov 22:55",
+"at": 1794606902,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "13:00",
+"rid": "mwfilxmytq00"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "WYARAV",
+"odds": 39.22,
+"legs": [
+{
+"t": "Sat 10:15",
+"game": "Bridlicna vs Opava B",
+"lg": "Czechia - Divize F",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "season: 3.9 and 4.1 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 80%, season: 4.0 goals a game",
+"ts": 1794647700.0,
+"eid": "sr:match:76579524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76579524|18|total=2.5|12"
+},
+{
+"t": "Sat 10:15",
+"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "season: 3.2 and 5.4 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 70%, season: 4.3 goals a game",
+"ts": 1794647700.0,
+"eid": "sr:match:72415112",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415112|18|total=2.5|12"
+},
+{
+"t": "Sat 10:15",
+"game": "FK Horni Redice vs SK Zapy",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "season: 3.2 and 3.4 goals a game (13/14 games); last 10 rate 75%; Flashscore home/away form 60%",
+"ts": 1794647700.0,
+"eid": "sr:match:72415682",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415682|18|total=2.5|12"
+},
+{
+"t": "Sat 11:00",
+"game": "Ankaraspor vs Aliaga Futbol",
+"lg": "Turkiye Amateur - 2. Lig",
+"pick": "Over 2.5",
+"odds": 1.59,
+"why": "season: 3.2 and 3.3 goals a game (10/10 games); last 10 rate 70%; Flashscore home/away form 75%",
+"ts": 1794650400.0,
+"eid": "sr:match:72837318",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72837318|18|total=2.5|12"
+},
+{
+"t": "Sat 11:00",
+"game": "MFK Chrudim vs FK Jablonec B",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "season: 3.6 and 3.5 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%",
+"ts": 1794650400.0,
+"eid": "sr:match:72415684",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415684|18|total=2.5|12"
+},
+{
+"t": "Sat 12:00",
+"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
+"lg": "Poland - III Liga, Group 3",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "season: 3.9 and 3.5 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 65%, season: 3.7 goals a game",
+"ts": 1794654000.0,
+"eid": "sr:match:72516786",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72516786|18|total=2.5|12"
+},
+{
+"t": "Sat 12:00",
+"game": "Real Betis Balompie vs Cadiz CF",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 4.8 and 3.4 goals a game (10/10 games); last 10 rate 75%; season: 4.1 goals a game",
+"ts": 1794654000.0,
+"eid": "sr:match:76481444",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76481444|18|total=2.5|12"
+},
+{
+"t": "Sat 12:00",
+"game": "LKS Lodz II vs SK Mazovia Minsk Mazowiecki",
+"lg": "Poland - III Liga, Group 1",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "season: 3.6 and 4.2 goals a game (16/16 games); last 10 rate 70%; Flashscore home/away form 68%, season: 3.9 goals a game",
+"ts": 1794654000.0,
+"eid": "sr:match:72514878",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72514878|18|total=2.5|12"
+},
+{
+"t": "Sat 13:00",
+"game": "Csm Sacele vs AFC Inter Stars Sibiu",
+"lg": "Romania - Liga 3",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "season: 3.5 and 3.8 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 75%",
+"ts": 1794657600.0,
+"eid": "sr:match:74086580",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74086580|18|total=2.5|12"
+},
+{
+"t": "Sat 13:00",
+"game": "Ringsted IF vs BK Frem",
+"lg": "Denmark - 3rd Division",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 3.8 and 3.3 goals a game (15/15 games); last 10 rate 70%; Flashscore home/away form 60%, FotMob: 3.6 goals a game",
+"ts": 1794657600.0,
+"eid": "sr:match:72500820",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72500820|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 22:53",
 "at": 1794606801,
 "req": {
@@ -7302,173 +7474,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "72880634|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 13:15",
-"at": 1794572152,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwexx0noenng"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "P33LTM",
-"odds": 3.1,
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
-"lg": "Iraq - Premier Division League",
-"pick": "Under 2.5",
-"odds": 1.06,
-"why": "LIVE 0-0 51': no team stats for this game \u2013 SportyBet's own price says 89%",
-"ts": 1794567600.0,
-"eid": "sr:match:76712262",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76712262|18|total=2.5|13"
-},
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"lg": "Romania - Liga 3",
-"pick": "Stinta Poli Timisoara 2 or draw",
-"odds": 1.06,
-"why": "LIVE 1-0 56': Stinta Poli Timisoara 2 expected 0.7 and ACS Progresul Pecica 0.8 more goals (last 10 + season); 1-0 at 56' \u2013 88% chance; Flashscore home/away form 80%",
-"ts": 1794567600.0,
-"eid": "sr:match:74089494",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "74089494|10||9"
-},
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Nafta 1903 Lendava Under 2.5",
-"odds": 1.09,
-"why": "LIVE 1-1 63': Nafta 1903 Lendava expected 0.5 and NK Slaven Belupo 0.6 more goals (last 10); 1-1 at 63' \u2013 89% chance; goals record 80% / 80% in both sides' last games",
-"ts": 1794567600.0,
-"eid": "sr:match:76741202",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76741202|19|total=2.5|13"
-},
-{
-"t": "Fri 12:30",
-"game": "Turun Palloseura vs Tampereen Ilves",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Tampereen Ilves or draw",
-"odds": 1.06,
-"why": "LIVE 0-1 45': Turun Palloseura expected 0.5 and Tampereen Ilves 0.8 more goals (last 10); 0-1 at 45' \u2013 94% chance",
-"ts": 1794569400.0,
-"eid": "sr:match:76558028",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76558028|10||11"
-},
-{
-"t": "Fri 13:00",
-"game": "SC FC Voluntari II vs ACS Progresul Mogosoaia",
-"lg": "Romania - Liga 3",
-"pick": "SC FC Voluntari II or ACS Progresul Mogosoaia",
-"odds": 1.04,
-"why": "LIVE 0-2 14': SC FC Voluntari II expected 1.5 and ACS Progresul Mogosoaia 1.4 more goals (last 10 + season); 0-2 at 14' \u2013 89% chance",
-"ts": 1794571200.0,
-"eid": "sr:match:74087810",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "74087810|10||10"
-},
-{
-"t": "Fri 13:00",
-"game": "KF Tefik Canga vs KF Vjosa",
-"lg": "Kosovo - Liga e Pare",
-"pick": "Handicap 0:3 \u2013 KF Vjosa",
-"odds": 1.15,
-"why": "LIVE 0-0 15': KF Tefik Canga expected 0.7 and KF Vjosa 1.0 more goals (last 10 + season); 0-0 at 15' \u2013 97% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794571200.0,
-"eid": "sr:match:76679008",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76679008|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 13:00",
-"game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
-"lg": "Romania - Liga 3",
-"pick": "CSC Ghiroda SI Giarmata Vii or draw",
-"odds": 1.14,
-"why": "LIVE 0-1 14': CSO Cugir expected 1.0 and CSC Ghiroda SI Giarmata Vii 1.4 more goals (last 10 + season); 0-1 at 14' \u2013 88% chance",
-"ts": 1794571200.0,
-"eid": "sr:match:74089496",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "74089496|10||11"
-},
-{
-"t": "Fri 13:00",
-"game": "Singapore vs Paraguay",
-"lg": "International - Int. Friendly Games",
-"pick": "Handicap 5:0 \u2013 Singapore",
-"odds": 1.27,
-"why": "LIVE 0-1 14': Singapore expected 0.9 and Paraguay 1.4 more goals (last 10); 0-1 at 14' \u2013 95% chance; margin record 90% / 100% in both sides' last games",
-"ts": 1794571200.0,
-"eid": "sr:match:76123772",
-"mid": "14",
-"spec": "hcp=5:0",
-"oid": "1711",
-"k": "76123772|14|hcp=5:0|1711"
-},
-{
-"t": "Fri 13:00",
-"game": "Budaorsi SC vs Erdi VSE",
-"lg": "Hungary - NB III",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "LIVE 0-0 15': Budaorsi SC expected 1.6 and Erdi VSE 2.3 more goals (last 10 + season); 0-0 at 15' \u2013 86% chance; Flashscore home/away form 85%, season: 4.4 goals a game, h2h 100% of 5 meetings (1.5 line)",
-"ts": 1794571200.0,
-"eid": "sr:match:72880634",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72880634|18|total=1.5|12"
-},
-{
-"t": "Fri 13:00",
-"game": "Vasas SC II vs Szegedi Vasutas SE",
-"lg": "Hungary - NB III",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "LIVE 0-0 13': Vasas SC II expected 2.1 and Szegedi Vasutas SE 1.1 more goals (last 10 + season); 0-0 at 13' \u2013 80% chance; Flashscore home/away form 95%, season: 3.7 goals a game, h2h 100% of 3 meetings (1.5 line)",
-"ts": 1794571200.0,
-"eid": "sr:match:72880056",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72880056|18|total=1.5|12"
 }
 ]
 }
