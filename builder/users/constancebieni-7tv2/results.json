@@ -54,7 +54,10 @@
 "game": "JSM Skikda U20 vs AS Khroub U20",
 "pick": "JSM Skikda U20 or AS Khroub U20",
 "odds": 1.06,
-"ts": 1794561000.0
+"ts": 1794561000.0,
+"r": "W",
+"sc": "3-1",
+"ht": ""
 },
 {
 "t": "Fri 10:14",
@@ -205,7 +208,7 @@
 "when": "Fri 13 Nov 10:58",
 "kind": "live \u2013 best of all",
 "odds": 1.36,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -262,7 +265,10 @@
 "game": "JSM Skikda U20 vs AS Khroub U20",
 "pick": "JSM Skikda U20 or AS Khroub U20",
 "odds": 1.06,
-"ts": 1794561000.0
+"ts": 1794561000.0,
+"r": "W",
+"sc": "3-1",
+"ht": ""
 }
 ]
 },
