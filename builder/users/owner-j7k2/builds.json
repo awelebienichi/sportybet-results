@@ -1,6 +1,232 @@
 [
 {
 "when": "Fri 13 Nov 04:00",
+"at": 1794538816,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"target": 100,
+"rid": "mwee24qneotx"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "XLBEQF",
+"odds": 115.14,
+"legs": [
+{
+"t": "Fri 18:30",
+"game": "FC Viktoria Plzen B vs FK Loko Prague",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, 50% of 8 meetings, league avg 3.6 goals; Flashscore home/away form 70%, Vitibet tip 3-1",
+"ts": 1794591000.0,
+"eid": "sr:match:72415122",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415122|18|total=2.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 4.0 goals; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
+"ts": 1794591000.0,
+"eid": "sr:match:72961080",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961080|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "Santos FC SP vs SE Palmeiras SP",
+"lg": "Brazil - U20 Paulista",
+"pick": "Over 2.5",
+"odds": 1.71,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, 88% of 8 meetings, league avg 4.2 goals; Flashscore home/away form 55%",
+"ts": 1794592800.0,
+"eid": "sr:match:76411424",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76411424|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, 75% of 8 meetings, league avg 4.1 goals; Flashscore home/away form 65%, season: 4.3 goals a game",
+"ts": 1794592800.0,
+"eid": "sr:match:72652090",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652090|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 70%, FotMob: 3.5 goals a game",
+"ts": 1794592800.0,
+"eid": "sr:match:72594662",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72594662|18|total=2.5|12"
+},
+{
+"t": "Fri 19:30",
+"game": "SV Drochtersen/Assel vs VfB Oldenburg",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, 75% of 8 meetings, league avg 4.0 goals; Flashscore home/away form 75%, footybets 76%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
+"ts": 1794594600.0,
+"eid": "sr:match:72674440",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72674440|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"lg": "International - CONCACAF Nations League",
+"pick": "Over 2.5",
+"odds": 1.26,
+"why": "Over 2.5 in 100% / 80% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 90%, FotMob: 3.9 goals a game",
+"ts": 1794596400.0,
+"eid": "sr:match:75468314",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75468314|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "FC Portalban/Gletterens vs FC Echallens Region",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 65%",
+"ts": 1794596400.0,
+"eid": "sr:match:72525484",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72525484|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Sporting Hasselt vs RFC Liege",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "Over 2.5 in 75% / 80% of the teams' last 10, league avg 4.4 goals; Flashscore home/away form 100%, season: 4.1 goals a game",
+"ts": 1794598200.0,
+"eid": "sr:match:75643276",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75643276|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Treowen Stars",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, league avg 4.5 goals; Flashscore home/away form 80%, season: 4.1 goals a game",
+"ts": 1794598200.0,
+"eid": "sr:match:76488396",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76488396|18|total=2.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Baglan Dragons vs Barry Town United FC",
+"lg": "Wales - FAW Welsh Cup",
+"pick": "Over 2.5",
+"odds": 1.23,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 60%",
+"ts": 1794599100.0,
+"eid": "sr:match:75827926",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75827926|18|total=2.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Caernarfon Town FC vs Holywell Town",
+"lg": "Wales - FAW Welsh Cup",
+"pick": "Over 2.5",
+"odds": 1.31,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, 75% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 75%",
+"ts": 1794599100.0,
+"eid": "sr:match:75827912",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75827912|18|total=2.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "Grenada vs Saint Kitts and Nevis",
+"lg": "International - CONCACAF Nations League",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, 75% of 4 meetings, league avg 3.8 goals; Flashscore home/away form 90%, FotMob: 4.0 goals a game",
+"ts": 1794600000.0,
+"eid": "sr:match:75468428",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75468428|18|total=2.5|12"
+},
+{
+"t": "Fri 22:30",
+"game": "Club Calor vs Real Apodaca FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.79,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, 75% of 4 meetings, league avg 3.9 goals; Flashscore home/away form 55%",
+"ts": 1794605400.0,
+"eid": "sr:match:74063612",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063612|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 04:00",
 "at": 1794538803,
 "req": {
 "u": "owner-j7k2",
@@ -4863,164 +5089,5 @@
 },
 "ok": false,
 "msg": "1 games are in play, but none fits that strategy right now (1 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
-},
-{
-"when": "Thu 12 Nov 06:39",
-"at": 1794461999,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 20,
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"rid": "mwd4401fhnvk"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Only 9 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 87 judged), so the ticket has 9 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "NYLQ0D",
-"odds": 8.6,
-"legs": [
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"lg": "International - FIBA Europe Cup",
-"pick": "Over 143.5 total points",
-"odds": 1.2,
-"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 85%",
-"ts": 1794502800.0,
-"eid": "sr:match:75200582",
-"mid": "225",
-"spec": "total=143.5",
-"oid": "12",
-"k": "75200582|225|total=143.5|12"
-},
-{
-"t": "Thu 20:00",
-"game": "Skyliners Frankfurt vs Maxima Roma",
-"lg": "International - Eurocup",
-"pick": "Under 186.5 total points",
-"odds": 1.26,
-"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
-"ts": 1794510000.0,
-"eid": "sr:match:72902308",
-"mid": "225",
-"spec": "total=186.5",
-"oid": "13",
-"k": "72902308|225|total=186.5|13"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"lg": "International - Euroleague",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
-"ts": 1794510300.0,
-"eid": "sr:match:73263142",
-"mid": "225",
-"spec": "total=194.5",
-"oid": "13",
-"k": "73263142|225|total=194.5|13"
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"lg": "International - Euroleague",
-"pick": "Under 196.5 total points",
-"odds": 1.25,
-"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 80%",
-"ts": 1794511800.0,
-"eid": "sr:match:73263148",
-"mid": "225",
-"spec": "total=196.5",
-"oid": "13",
-"k": "73263148|225|total=196.5|13"
-},
-{
-"t": "Thu 21:00",
-"game": "Real Madrid vs KK Crvena zvezda Belgrade",
-"lg": "International - Euroleague",
-"pick": "Over 161.5 total points",
-"odds": 1.22,
-"why": "expected Real Madrid 93 \u2013 KK Crvena zvezda Belgrade 87 (last 10/10 games, home edge included); 85% by the stats, 81% with the price",
-"ts": 1794513600.0,
-"eid": "sr:match:73263150",
-"mid": "225",
-"spec": "total=161.5",
-"oid": "12",
-"k": "73263150|225|total=161.5|12"
-},
-{
-"t": "Fri 00:30",
-"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Under 175.5 total points",
-"odds": 1.48,
-"why": "expected Indiana Hoosiers 75 \u2013 Tennessee Tech Golden Eagles 73 (last 10/10 games, home edge included); 94% by the stats, 79% with the price; Flashscore home/away form 95%",
-"ts": 1794526200.0,
-"eid": "sr:match:74064592",
-"mid": "225",
-"spec": "total=175.5",
-"oid": "13",
-"k": "74064592|225|total=175.5|13"
-},
-{
-"t": "Fri 01:00",
-"game": "Philadelphia 76ers vs Toronto Raptors",
-"lg": "USA - NBA",
-"pick": "Over 208.5 total points",
-"odds": 1.25,
-"why": "expected Philadelphia 76ers 114 \u2013 Toronto Raptors 112 (last 10/10 games, home edge included); 83% by the stats, 79% with the price; Flashscore home/away form 70%, NBA ratings say 225 points",
-"ts": 1794528000.0,
-"eid": "sr:match:73719626",
-"mid": "225",
-"spec": "total=208.5",
-"oid": "12",
-"k": "73719626|225|total=208.5|12"
-},
-{
-"t": "Fri 01:00",
-"game": "Washington Wizards vs Detroit Pistons",
-"lg": "USA - NBA",
-"pick": "Under 233.5 total points",
-"odds": 1.27,
-"why": "expected Washington Wizards 107 \u2013 Detroit Pistons 111 (last 10/10 games, home edge included); 80% by the stats, 77% with the price; Flashscore home/away form 75%, NBA ratings say 219 points",
-"ts": 1794528000.0,
-"eid": "sr:match:73719628",
-"mid": "225",
-"spec": "total=233.5",
-"oid": "13",
-"k": "73719628|225|total=233.5|13"
-},
-{
-"t": "Fri 02:00",
-"game": "Minnesota Timberwolves vs Dallas Mavericks",
-"lg": "USA - NBA",
-"pick": "Under 240.5 total points",
-"odds": 1.26,
-"why": "expected Minnesota Timberwolves 114 \u2013 Dallas Mavericks 109 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 85%, NBA ratings say 224 points",
-"ts": 1794531600.0,
-"eid": "sr:match:73719630",
-"mid": "225",
-"spec": "total=240.5",
-"oid": "13",
-"k": "73719630|225|total=240.5|13"
-}
-]
-}
-]
 }
 ]
