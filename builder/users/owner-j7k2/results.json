@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PBFZH6",
+"at": 1794568587,
+"when": "Fri 13 Nov 12:16",
+"kind": "live \u2013 best of all",
+"odds": 1.28,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
+"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
+"odds": 1.03,
+"ts": 1794564000.0
+},
+{
+"t": "Fri 11:00",
+"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
+"pick": "Under 3.5",
+"odds": 1.05,
+"ts": 1794564000.0
+},
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"pick": "Handicap 0:2 \u2013 NK Slaven Belupo",
+"odds": 1.18,
+"ts": 1794567600.0
+}
+]
+},
+{
 "code": "T0A6MZ",
 "at": 1794568518,
 "when": "Fri 13 Nov 12:15",
