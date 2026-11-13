@@ -1,5 +1,315 @@
 [
 {
+"when": "Fri 13 Nov 22:49",
+"at": 1794606595,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "best",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfiew3mn7ko"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [],
+"tickets": [
+{
+"code": "U4V4LJ",
+"odds": 95.03,
+"legs": [
+{
+"t": "Sat 02:00",
+"game": "Peru vs Bolivia",
+"lg": "International - Int. Friendly Games",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%",
+"ts": 1794618000.0,
+"eid": "sr:match:76147766",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76147766|450001||25"
+},
+{
+"t": "Sat 12:00",
+"game": "Czechia vs Croatia",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "1st half double chance Czechia or draw",
+"odds": 1.35,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794654000.0,
+"eid": "sr:match:74723532",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74723532|63||9"
+},
+{
+"t": "Sat 13:30",
+"game": "Marek Dupnica vs PFC Chernomorets Burgas",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.6 goals a game",
+"ts": 1794659400.0,
+"eid": "sr:match:72466634",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72466634|450001||25"
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half double chance GVVV Veenendaal or draw",
+"odds": 1.41,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794663000.0,
+"eid": "sr:match:72594654",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72594654|63||9"
+},
+{
+"t": "Sat 14:30",
+"game": "US Albinoleffe vs Union Brescia",
+"lg": "Italy - Serie C, Group A",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 75%, FotMob: 2.9 goals a game",
+"ts": 1794663000.0,
+"eid": "sr:match:73293334",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73293334|450001||25"
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"lg": "Wales - Cymru Championship South",
+"pick": "Llantwit Major or GG",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794664800.0,
+"eid": "sr:match:74352338",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "74352338|860||74"
+},
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"lg": "England - League Two",
+"pick": "1st half double chance Swindon Town or draw",
+"odds": 1.45,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:72342378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72342378|63||9"
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"lg": "Mexico - U21 Liga MX",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:74627426",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74627426|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"lg": "England - National League",
+"pick": "Barrow AFC to win (1UP)",
+"odds": 1.29,
+"why": "stats rate 89% from both teams' last 10; Flashscore home/away form 60%, FotMob: 9th vs 24th of 24, Vitibet 72%",
+"ts": 1794668400.0,
+"eid": "sr:match:72740794",
+"mid": "60200",
+"spec": "",
+"oid": "3",
+"k": "72740794|60200||3"
+},
+{
+"t": "Sat 16:00",
+"game": "Finland vs Iceland",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "1st half double chance Finland or draw",
+"odds": 1.28,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:74723376",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74723376|63||9"
+},
+{
+"t": "Sat 16:00",
+"game": "SD Eibar C vs CD Derio",
+"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"why": "stats rate 92% from both teams' last 10 and 4 meetings; Flashscore home/away form 85%",
+"ts": 1794668400.0,
+"eid": "sr:match:73557194",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73557194|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Halesowen Town FC vs Redditch United",
+"lg": "England Amateur - FA Trophy",
+"pick": "Halesowen Town FC or GG",
+"odds": 1.13,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125260",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "76125260|860||74"
+},
+{
+"t": "Sat 17:00",
+"game": "Uganda vs Botswana",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Uganda or GG",
+"odds": 1.2,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings; Flashscore home/away form 80%",
+"ts": 1794672000.0,
+"eid": "sr:match:74372596",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "74372596|860||74"
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"lg": "Scotland - League 1",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.4 goals a game, Vitibet tip 1-2",
+"ts": 1794677400.0,
+"eid": "sr:match:72203984",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72203984|450001||25"
+},
+{
+"t": "Sat 19:00",
+"game": "CD Noblejas vs CD Quintanar del Rey",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Goal bounds 2-5+",
+"odds": 1.31,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794679200.0,
+"eid": "sr:match:73560446",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73560446|450001||25"
+},
+{
+"t": "Sat 19:30",
+"game": "CD Armenio vs CS Italiano",
+"lg": "Argentina - Primera B",
+"pick": "1st half double chance CD Armenio or draw",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794681000.0,
+"eid": "sr:match:76427128",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76427128|63||9"
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half double chance Almere City FC or draw",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794682800.0,
+"eid": "sr:match:72044812",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72044812|63||9"
+},
+{
+"t": "Sat 20:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"lg": "Argentina - Primera Nacional",
+"pick": "1st half double chance CA Temperley or draw",
+"odds": 1.15,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794682800.0,
+"eid": "sr:match:76413238",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76413238|63||9"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74838480|450001||25"
+},
+{
+"t": "Sat 20:45",
+"game": "Portugal vs Denmark",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Portugal or draw",
+"odds": 1.17,
+"why": "stats rate 94% from both teams' last 10",
+"ts": 1794685500.0,
+"eid": "sr:match:68932052",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "68932052|63||9"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 21:36",
 "at": 1794602199,
 "req": {
@@ -7099,48 +7409,6 @@
 "spec": "",
 "oid": "9",
 "k": "74089494|10||9"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 12:53",
-"at": 1794570815,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwex4hlqt2mj"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "LSKR9U",
-"odds": 1.04,
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
-"lg": "Iraq - Premier Division League",
-"pick": "Handicap 2:0 \u2013 Al Hedod SC",
-"odds": 1.04,
-"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
-"ts": 1794567600.0,
-"eid": "sr:match:76712262",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76712262|14|hcp=2:0|1711"
 }
 ]
 }
