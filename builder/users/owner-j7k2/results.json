@@ -4784,14 +4784,17 @@
 "when": "Fri 13 Nov 07:05",
 "kind": "basketball \u2013 quarter total points",
 "odds": 1.39,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "BK Vejen81 vs Bakken Bears",
 "pick": "Bakken Bears Q1 Under 29.5 points",
 "odds": 1.39,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "41-54",
+"ht": "24-30"
 }
 ]
 },
