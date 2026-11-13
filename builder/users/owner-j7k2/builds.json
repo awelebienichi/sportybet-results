@@ -1,5 +1,172 @@
 [
 {
+"when": "Fri 13 Nov 13:52",
+"at": 1794574349,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwez823c1g68"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "JVQJ7X",
+"odds": 2.16,
+"legs": [
+{
+"t": "Fri 12:30",
+"game": "Turun Palloseura vs Tampereen Ilves",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Under 4.5",
+"odds": 1.04,
+"why": "LIVE 1-1 65': Turun Palloseura expected 0.3 and Tampereen Ilves 0.5 more goals (last 10); 1-1 at 65' \u2013 94% chance; h2h 62% of 8 meetings (3.5 line)",
+"ts": 1794569400.0,
+"eid": "sr:match:76558028",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76558028|18|total=4.5|13"
+},
+{
+"t": "Fri 12:50",
+"game": "Al Safa SC (SA) vs AL Qala",
+"lg": "Saudi Arabia - Second Division",
+"pick": "Handicap 2:0 \u2013 Al Safa SC (SA)",
+"odds": 1.1,
+"why": "LIVE 0-0 45': Al Safa SC (SA) expected 0.6 and AL Qala 0.8 more goals (last 10); 0-0 at 45' \u2013 85% chance",
+"ts": 1794570600.0,
+"eid": "sr:match:73774568",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "73774568|14|hcp=2:0|1711"
+},
+{
+"t": "Fri 13:00",
+"game": "Singapore vs Paraguay",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 5:0 \u2013 Singapore",
+"odds": 1.04,
+"why": "LIVE 1-2 45': Singapore expected 0.6 and Paraguay 0.9 more goals (last 10); 1-2 at 45' \u2013 98% chance; margin record 90% / 100% in both sides' last games",
+"ts": 1794571200.0,
+"eid": "sr:match:76123772",
+"mid": "14",
+"spec": "hcp=5:0",
+"oid": "1711",
+"k": "76123772|14|hcp=5:0|1711"
+},
+{
+"t": "Fri 13:00",
+"game": "LKS Goczalkowice-Zdroj vs KS Stilon Gorzow Wlkp",
+"lg": "Poland - III Liga, Group 3",
+"pick": "LKS Goczalkowice-Zdroj or KS Stilon Gorzow Wlkp",
+"odds": 1.03,
+"why": "LIVE 2-0 45': LKS Goczalkowice-Zdroj expected 0.8 and KS Stilon Gorzow Wlkp 0.7 more goals (last 10 + season); 2-0 at 45' \u2013 92% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:72516774",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72516774|10||10"
+},
+{
+"t": "Fri 13:00",
+"game": "ASC Otelul Galati II vs ACS Progresul Fundulea",
+"lg": "Romania - Liga 3",
+"pick": "ASC Otelul Galati II or ACS Progresul Fundulea",
+"odds": 1.04,
+"why": "LIVE 0-1 45': ASC Otelul Galati II expected 0.6 and ACS Progresul Fundulea 1.4 more goals (last 10 + season); 0-1 at 45' \u2013 88% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74087424",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74087424|10||10"
+},
+{
+"t": "Fri 13:00",
+"game": "ACS Aro Muscelul C-Lung Muscel vs Cso Teleajenul Valeni de Munte",
+"lg": "Romania - Liga 3",
+"pick": "ACS Aro Muscelul C-Lung Muscel to win",
+"odds": 1.05,
+"why": "LIVE 2-0 44': ACS Aro Muscelul C-Lung Muscel expected 1.0 and Cso Teleajenul Valeni de Munte 0.9 more goals (last 10 + season); 2-0 at 44' \u2013 86% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74086574",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "74086574|1||1"
+},
+{
+"t": "Fri 13:00",
+"game": "Vasas SC II vs Szegedi Vasutas SE",
+"lg": "Hungary - NB III",
+"pick": "Vasas SC II or Szegedi Vasutas SE",
+"odds": 1.07,
+"why": "LIVE 1-0 45': Vasas SC II expected 1.3 and Szegedi Vasutas SE 0.7 more goals (last 10 + season); 1-0 at 45' \u2013 86% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:72880056",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72880056|10||10"
+},
+{
+"t": "Fri 13:00",
+"game": "ACS Kids Tampa Brasov vs Cso Baicoi",
+"lg": "Romania - Liga 3",
+"pick": "ACS Kids Tampa Brasov Under 1.5",
+"odds": 1.12,
+"why": "LIVE 0-1 45': ACS Kids Tampa Brasov expected 0.5 and Cso Baicoi 1.1 more goals (last 10 + season); 0-1 at 45' \u2013 88% chance; h2h 83% of 6 meetings",
+"ts": 1794571200.0,
+"eid": "sr:match:74086576",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "74086576|19|total=1.5|13"
+},
+{
+"t": "Fri 13:00",
+"game": "Budaorsi SC vs Erdi VSE",
+"lg": "Hungary - NB III",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "LIVE 1-0 45': Budaorsi SC expected 1.0 and Erdi VSE 1.4 more goals (last 10 + season); 1-0 at 45' \u2013 87% chance; Flashscore home/away form 85%, season: 4.4 goals a game, h2h 100% of 5 meetings (1.5 line)",
+"ts": 1794571200.0,
+"eid": "sr:match:72880634",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72880634|18|total=1.5|12"
+},
+{
+"t": "Fri 13:00",
+"game": "CS Drobeta Turnu Severin vs Unirea Bascov",
+"lg": "Romania - Liga 3",
+"pick": "CS Drobeta Turnu Severin Under 3.5",
+"odds": 1.2,
+"why": "LIVE 1-0 45': CS Drobeta Turnu Severin expected 1.0 and Unirea Bascov 0.6 more goals (last 10 + season); 1-0 at 45' \u2013 89% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74088412",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74088412|19|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 13:21",
 "at": 1794572473,
 "req": {
@@ -7184,219 +7351,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "72044822|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 04:02",
-"at": 1794538978,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h1o05",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwee63k84zeb"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 13 games passed the checks (Fri 13, 149 games on SportyBet), so this ticket has 13 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "MH1TY7",
-"odds": 24.37,
-"legs": [
-{
-"t": "Fri 14:00",
-"game": "Mozambique vs Ethiopia",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "1st half Over 0.5",
-"odds": 1.47,
-"why": "goal in the 1st half in 90% of Mozambique's last 10 and 80% of Ethiopia's last 10",
-"ts": 1794574800.0,
-"eid": "sr:match:75802298",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75802298|68|total=0.5|12"
-},
-{
-"t": "Fri 14:00",
-"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
-"lg": "India - IFL",
-"pick": "1st half Over 0.5",
-"odds": 1.32,
-"why": "goal in the 1st half in 80% of Shillong Lajong FC's last 10 and 80% of Sreenidi Deccan FC's last 10",
-"ts": 1794574800.0,
-"eid": "sr:match:75834468",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75834468|68|total=0.5|12"
-},
-{
-"t": "Fri 15:15",
-"game": "United Arab Emirates vs Honduras",
-"lg": "International - Int. Friendly Games",
-"pick": "1st half Over 0.5",
-"odds": 1.47,
-"why": "goal in the 1st half in 78% of United Arab Emirates's last 9 and 80% of Honduras's last 10",
-"ts": 1794579300.0,
-"eid": "sr:match:76438758",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76438758|68|total=0.5|12"
-},
-{
-"t": "Fri 17:00",
-"game": "Cape Verde vs Liberia",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "1st half Over 0.5",
-"odds": 1.36,
-"why": "goal in the 1st half in 80% of Cape Verde's last 10 and 80% of Liberia's last 10",
-"ts": 1794585600.0,
-"eid": "sr:match:75802304",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75802304|68|total=0.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "Moldova vs Kazakhstan",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.57,
-"why": "goal in the 1st half in 80% of Moldova's last 10 and 90% of Kazakhstan's last 10",
-"ts": 1794589200.0,
-"eid": "sr:match:68932372",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68932372|68|total=0.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"why": "goal in the 1st half in 90% of VV Kloetinge's last 10 and 90% of Hoek's last 10",
-"ts": 1794592800.0,
-"eid": "sr:match:72594662",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72594662|68|total=0.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "Spain vs Japan",
-"lg": "International Youth - U21 Friendly Games",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "goal in the 1st half in 80% of Spain's last 10 and 86% of Japan's last 7",
-"ts": 1794592800.0,
-"eid": "sr:match:76454720",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76454720|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"lg": "International - CONCACAF Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 1st half in 90% of Bermuda's last 10 and 100% of Saint Lucia's last 10",
-"ts": 1794596400.0,
-"eid": "sr:match:75468314",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75468314|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Peterborough United U21 vs Newcastle United U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "1st half Over 0.5",
-"odds": 1.16,
-"why": "goal in the 1st half in 90% of Peterborough United U21's last 10 and 86% of Newcastle United U21's last 7",
-"ts": 1794596400.0,
-"eid": "sr:match:73684976",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73684976|68|total=0.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Denbigh Town vs Gresford Athletic",
-"lg": "Wales - Cymru Championship, North",
-"pick": "1st half Over 0.5",
-"odds": 1.13,
-"why": "goal in the 1st half in 80% of Denbigh Town's last 10 and 90% of Gresford Athletic's last 10",
-"ts": 1794598200.0,
-"eid": "sr:match:76488288",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76488288|68|total=0.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Treowen Stars",
-"lg": "Wales - Cymru Championship South",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "goal in the 1st half in 80% of Swansea University's last 10 and 80% of Treowen Stars's last 10",
-"ts": 1794598200.0,
-"eid": "sr:match:76488396",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76488396|68|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Serbia vs Germany",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"why": "goal in the 1st half in 100% of Serbia's last 10 and 80% of Germany's last 10",
-"ts": 1794599100.0,
-"eid": "sr:match:68931586",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931586|68|total=0.5|12"
-},
-{
-"t": "Fri 21:00",
-"game": "Grenada vs Saint Kitts and Nevis",
-"lg": "International - CONCACAF Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"why": "goal in the 1st half in 80% of Grenada's last 10 and 90% of Saint Kitts and Nevis's last 10",
-"ts": 1794600000.0,
-"eid": "sr:match:75468428",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75468428|68|total=0.5|12"
 }
 ]
 }
