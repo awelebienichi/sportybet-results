@@ -1,5 +1,178 @@
 [
 {
+"when": "Fri 13 Nov 20:34",
+"at": 1794598448,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "u25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfdjx95mrku"
+},
+"ok": true,
+"kind": "Under 2.5 (low-scoring leagues)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Under 2.5 has been the weakest market in your tracker."
+],
+"tickets": [
+{
+"code": "VTC47F",
+"odds": 41.46,
+"legs": [
+{
+"t": "Sat 07:00",
+"game": "Guangdong Meizhou Hakka FC vs Sichuan WFC",
+"lg": "China - Chinese Super League, Women",
+"pick": "Under 2.5",
+"odds": 1.52,
+"why": "Under 2.5 in 70% / 50% of the teams' last 10, 83% of 6 meetings, league avg 2.0 goals; Flashscore home/away form 60%",
+"ts": 1794636000.0,
+"eid": "sr:match:75107596",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75107596|18|total=2.5|13"
+},
+{
+"t": "Sat 11:30",
+"game": "Ulinzi Stars FC vs Migori Youth FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 2.5",
+"odds": 1.44,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, league avg 1.9 goals",
+"ts": 1794652200.0,
+"eid": "sr:match:74056924",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74056924|18|total=2.5|13"
+},
+{
+"t": "Sat 12:00",
+"game": "Nairobi United FC vs Mara Sugar FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 2.5",
+"odds": 1.44,
+"why": "Under 2.5 in 70% / 50% of the teams' last 10, league avg 1.9 goals; Flashscore home/away form 60%",
+"ts": 1794654000.0,
+"eid": "sr:match:74056914",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74056914|18|total=2.5|13"
+},
+{
+"t": "Sat 13:00",
+"game": "Aps Bomet FC vs Bandari FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 2.5",
+"odds": 1.42,
+"why": "Under 2.5 in 80% / 90% of the teams' last 10, league avg 1.9 goals; Flashscore home/away form 80%, Vitibet tip 0-0, season: 1.1 goals a game",
+"ts": 1794657600.0,
+"eid": "sr:match:74056910",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74056910|18|total=2.5|13"
+},
+{
+"t": "Sat 15:00",
+"game": "Sportive Boujaad vs Chabab Ben Guerir",
+"lg": "Morocco - Botola Pro D2",
+"pick": "Under 2.5",
+"odds": 1.44,
+"why": "Under 2.5 in 50% / 80% of the teams' last 10, league avg 2.1 goals",
+"ts": 1794664800.0,
+"eid": "sr:match:76675282",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76675282|18|total=2.5|13"
+},
+{
+"t": "Sat 19:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 2.5",
+"odds": 1.4,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, 50% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 75%",
+"ts": 1794679200.0,
+"eid": "sr:match:76413236",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76413236|18|total=2.5|13"
+},
+{
+"t": "Sat 19:30",
+"game": "CD Armenio vs CS Italiano",
+"lg": "Argentina - Primera B",
+"pick": "Under 2.5",
+"odds": 1.4,
+"why": "Under 2.5 in 80% / 60% of the teams' last 10, 75% of 8 meetings, league avg 1.9 goals; Flashscore home/away form 70%, Vitibet tip 0-0",
+"ts": 1794681000.0,
+"eid": "sr:match:76427128",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76427128|18|total=2.5|13"
+},
+{
+"t": "Sat 22:00",
+"game": "Club Comunicaciones vs Arsenal de Sarandi",
+"lg": "Argentina - Primera B",
+"pick": "Under 2.5",
+"odds": 1.47,
+"why": "Under 2.5 in 90% / 60% of the teams' last 10, league avg 1.9 goals; Flashscore home/away form 80%, Vitibet tip 0-0",
+"ts": 1794690000.0,
+"eid": "sr:match:76427132",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76427132|18|total=2.5|13"
+},
+{
+"t": "Sat 22:00",
+"game": "Colon de Santa Fe vs CA Ferrocarril Midland",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 2.5",
+"odds": 1.45,
+"why": "Under 2.5 in 70% / 50% of the teams' last 10, league avg 2.1 goals; Flashscore home/away form 50%, Vitibet tip 0-0",
+"ts": 1794690000.0,
+"eid": "sr:match:76413244",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76413244|18|total=2.5|13"
+},
+{
+"t": "Sat 23:00",
+"game": "Real Pilar FC vs CA Talleres de Remedios",
+"lg": "Argentina - Primera B",
+"pick": "Under 2.5",
+"odds": 1.54,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, league avg 1.9 goals; Vitibet tip 0-0",
+"ts": 1794693600.0,
+"eid": "sr:match:76592234",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76592234|18|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 20:06",
 "at": 1794596769,
 "req": {
@@ -8180,175 +8353,6 @@
 "spec": "total=3.5",
 "oid": "13",
 "k": "72550328|18|total=3.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 11:35",
-"at": 1794566157,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mweubz9mm62h"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [],
-"tickets": [
-{
-"code": "PQXP4P",
-"odds": 55.07,
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"lg": "Romania - Liga 3",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "season: 3.5 and 4.0 goals a game (12/12 games); last 10 rate 80%; Flashscore home/away form 75%, season: 3.8 goals a game",
-"ts": 1794567600.0,
-"eid": "sr:match:74089494",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74089494|18|total=2.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "FC Viktoria Plzen B vs FK Loko Prague",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "season: 3.8 and 3.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, Vitibet tip 3-1",
-"ts": 1794591000.0,
-"eid": "sr:match:72415122",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415122|18|total=2.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "Hamburger SV vs 1. FSV Mainz 05",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "season: 3.4 and 3.9 goals a game (9/9 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
-"ts": 1794591000.0,
-"eid": "sr:match:72961080",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961080|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Helsingoer vs Holstebro BK",
-"lg": "Denmark - 3rd Division",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "season: 2.7 and 3.9 goals a game (15/15 games); last 10 rate 70%; Flashscore home/away form 65%",
-"ts": 1794592800.0,
-"eid": "sr:match:72500824",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72500824|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "season: 4.2 and 2.8 goals a game (12/12 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 3.5 goals a game",
-"ts": 1794592800.0,
-"eid": "sr:match:72594662",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72594662|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "KS Polonia Nysa vs KS Gornik Polkowice",
-"lg": "Poland - III Liga, Group 3",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "season: 2.9 and 3.6 goals a game (15/16 games); last 10 rate 70%; Flashscore home/away form 70%",
-"ts": 1794592800.0,
-"eid": "sr:match:73074638",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73074638|18|total=2.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "SV Drochtersen/Assel vs VfB Oldenburg",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "season: 4.5 and 3.9 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 75%, footybets 76%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
-"ts": 1794594600.0,
-"eid": "sr:match:72674440",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72674440|18|total=2.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "ASK Royal Sped Klingenbach vs SV Leithaprodersdorf",
-"lg": "Austria Amateur - Burgenlandliga",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "season: 3.1 and 3.8 goals a game (14/14 games); last 10 rate 70%; Flashscore home/away form 85%",
-"ts": 1794594600.0,
-"eid": "sr:match:72560452",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72560452|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "FC Portalban/Gletterens vs FC Echallens Region",
-"lg": "Switzerland - 1. Liga Classic",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "season: 2.9 and 3.7 goals a game (13/13 games); last 10 rate 75%; Flashscore home/away form 65%",
-"ts": 1794596400.0,
-"eid": "sr:match:72525484",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72525484|18|total=2.5|12"
-},
-{
-"t": "Fri 22:30",
-"game": "Club Calor vs Real Apodaca FC",
-"lg": "Mexico - Liga Premier Serie A",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "season: 4.3 and 3.0 goals a game (11/11 games); last 10 rate 75%; Flashscore home/away form 55%",
-"ts": 1794605400.0,
-"eid": "sr:match:74063612",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74063612|18|total=2.5|12"
 }
 ]
 }
