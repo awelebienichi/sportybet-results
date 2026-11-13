@@ -1,5 +1,172 @@
 [
 {
+"when": "Fri 13 Nov 13:21",
+"at": 1794572473,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwey40oyyscz"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "WH0E0H",
+"odds": 3.06,
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Al Hedod SC vs AL Hashd AL Shade",
+"lg": "Iraq - Premier Division League",
+"pick": "Under 2.5",
+"odds": 1.04,
+"why": "LIVE 0-0 56': no team stats for this game \u2013 SportyBet's own price says 91%",
+"ts": 1794567600.0,
+"eid": "sr:match:76712262",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76712262|18|total=2.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Nafta 1903 Lendava Under 2.5",
+"odds": 1.06,
+"why": "LIVE 1-1 68': Nafta 1903 Lendava expected 0.4 and NK Slaven Belupo 0.5 more goals (last 10); 1-1 at 68' \u2013 91% chance; goals record 80% / 80% in both sides' last games",
+"ts": 1794567600.0,
+"eid": "sr:match:76741202",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76741202|19|total=2.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
+"lg": "Romania - Liga 3",
+"pick": "Stinta Poli Timisoara 2 or draw",
+"odds": 1.04,
+"why": "LIVE 1-0 62': Stinta Poli Timisoara 2 expected 0.6 and ACS Progresul Pecica 0.7 more goals (last 10 + season); 1-0 at 62' \u2013 90% chance; Flashscore home/away form 80%",
+"ts": 1794567600.0,
+"eid": "sr:match:74089494",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "74089494|10||9"
+},
+{
+"t": "Fri 12:30",
+"game": "Turun Palloseura vs Tampereen Ilves",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Tampereen Ilves or draw",
+"odds": 1.06,
+"why": "LIVE 0-1 45': Turun Palloseura expected 0.5 and Tampereen Ilves 0.8 more goals (last 10); 0-1 at 45' \u2013 94% chance",
+"ts": 1794569400.0,
+"eid": "sr:match:76558028",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76558028|10||11"
+},
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Handicap 0:3 \u2013 KF Vjosa",
+"odds": 1.14,
+"why": "LIVE 0-0 20': KF Tefik Canga expected 0.7 and KF Vjosa 1.0 more goals (last 10 + season); 0-0 at 20' \u2013 97% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794571200.0,
+"eid": "sr:match:76679008",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76679008|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "CS Academica Recea vs FCM Baia Mare",
+"lg": "Romania - Liga 3",
+"pick": "CS Academica Recea or FCM Baia Mare",
+"odds": 1.03,
+"why": "LIVE 0-1 20': CS Academica Recea expected 1.3 and FCM Baia Mare 1.9 more goals (last 10 + season); 0-1 at 20' \u2013 85% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74089754",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74089754|10||10"
+},
+{
+"t": "Fri 13:00",
+"game": "Singapore vs Paraguay",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 5:0 \u2013 Singapore",
+"odds": 1.22,
+"why": "LIVE 0-1 20': Singapore expected 0.9 and Paraguay 1.3 more goals (last 10); 0-1 at 20' \u2013 96% chance; margin record 90% / 100% in both sides' last games",
+"ts": 1794571200.0,
+"eid": "sr:match:76123772",
+"mid": "14",
+"spec": "hcp=5:0",
+"oid": "1711",
+"k": "76123772|14|hcp=5:0|1711"
+},
+{
+"t": "Fri 13:00",
+"game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
+"lg": "Romania - Liga 3",
+"pick": "CSC Ghiroda SI Giarmata Vii or draw",
+"odds": 1.12,
+"why": "LIVE 0-1 20': CSO Cugir expected 0.9 and CSC Ghiroda SI Giarmata Vii 1.3 more goals (last 10 + season); 0-1 at 20' \u2013 89% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74089496",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "74089496|10||11"
+},
+{
+"t": "Fri 13:00",
+"game": "FK Drina Zvornik vs Velez Nevesinje",
+"lg": "Bosnia and Herzegovina - Prva Liga, Rep of Srpska",
+"pick": "Handicap 0:4 \u2013 Velez Nevesinje",
+"odds": 1.3,
+"why": "LIVE 0-0 23': FK Drina Zvornik expected 1.6 and Velez Nevesinje 0.8 more goals (last 10 + season); 0-0 at 23' \u2013 93% chance; margin record 90% / 90% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794571200.0,
+"eid": "sr:match:74173846",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "74173846|14|hcp=0:4|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "Budaorsi SC vs Erdi VSE",
+"lg": "Hungary - NB III",
+"pick": "Over 1.5",
+"odds": 1.22,
+"why": "LIVE 0-0 20': Budaorsi SC expected 1.5 and Erdi VSE 2.1 more goals (last 10 + season); 0-0 at 20' \u2013 84% chance; Flashscore home/away form 85%, season: 4.4 goals a game, h2h 100% of 5 meetings (1.5 line)",
+"ts": 1794571200.0,
+"eid": "sr:match:72880634",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72880634|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 13:15",
 "at": 1794572152,
 "req": {
@@ -7230,79 +7397,6 @@
 "spec": "total=0.5",
 "oid": "12",
 "k": "75468428|68|total=0.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 04:02",
-"at": 1794538946,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h1o05",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwee5ejkxhma"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 3 games passed the checks (Fri 13, 149 games on SportyBet), so this ticket has 3 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "WFSPTP",
-"odds": 1.63,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"why": "goal in the 1st half in 90% of VV Kloetinge's last 10 and 90% of Hoek's last 10",
-"ts": 1794592800.0,
-"eid": "sr:match:72594662",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72594662|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"lg": "International - CONCACAF Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 1st half in 90% of Bermuda's last 10 and 100% of Saint Lucia's last 10",
-"ts": 1794596400.0,
-"eid": "sr:match:75468314",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75468314|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Peterborough United U21 vs Newcastle United U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "1st half Over 0.5",
-"odds": 1.16,
-"why": "goal in the 1st half in 90% of Peterborough United U21's last 10 and 86% of Newcastle United U21's last 7",
-"ts": 1794596400.0,
-"eid": "sr:match:73684976",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73684976|68|total=0.5|12"
 }
 ]
 }
