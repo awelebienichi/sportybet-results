@@ -74,7 +74,10 @@
 "game": "Luxembourg vs Estonia",
 "pick": "Double chance Estonia or draw",
 "odds": 1.57,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -84,7 +87,7 @@
 "when": "Fri 13 Nov 04:35",
 "kind": "your chosen markets",
 "odds": 10.11,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 13:00",
@@ -151,7 +154,10 @@
 "game": "Luxembourg vs Estonia",
 "pick": "Luxembourg excluded goals: 1",
 "odds": 1.48,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -278,7 +284,10 @@
 "game": "Luxembourg vs Estonia",
 "pick": "Luxembourg excluded goals: 1",
 "odds": 1.48,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:45",
@@ -399,7 +408,10 @@
 "game": "Ballymena United vs Linfield FC",
 "pick": "Handicap 2:0 \u2013 Ballymena United",
 "odds": 1.41,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Fri 20:45",
@@ -510,7 +522,10 @@
 "game": "Ballymena United vs Linfield FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.21,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Fri 20:45",
@@ -624,7 +639,10 @@
 "game": "Ballymena United vs Linfield FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.21,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Fri 20:45",
