@@ -2,6 +2,138 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GA7UQP",
+"at": 1794593600,
+"when": "Fri 13 Nov 19:13",
+"kind": "live \u2013 best of all",
+"odds": 2.15,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:30",
+"game": "Kuwait vs Syria",
+"pick": "Handicap 0:4 \u2013 Syria",
+"odds": 1.06,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:30",
+"game": "Perez Zeledon vs Deportivo Saprissa",
+"pick": "Perez Zeledon or Deportivo Saprissa",
+"odds": 1.08,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:35",
+"game": "Colegio Once Mexico vs Guardianes de Oriente",
+"pick": "Guardianes de Oriente to win",
+"odds": 1.08,
+"ts": 1794587700.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"pick": "SK Sturm Graz Under 4.5",
+"odds": 1.06,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "MKS Znicz Pruszkow vs Sokol Kleczew",
+"pick": "MKS Znicz Pruszkow Under 3.5",
+"odds": 1.08,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.12,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Moldova Under 2.5",
+"odds": 1.12,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:07",
+"game": "Club Necaxa II vs Trinca De Mi Vida",
+"pick": "Club Necaxa II or Trinca De Mi Vida",
+"odds": 1.08,
+"ts": 1794589620.0
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "Over 1.5",
+"odds": 1.05,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Skive IK vs Thisted FC",
+"pick": "Handicap 0:3 \u2013 Thisted FC",
+"odds": 1.07,
+"ts": 1794592800.0
+}
+]
+},
+{
+"code": "X8QC1V",
+"at": 1794593554,
+"when": "Fri 13 Nov 19:12",
+"kind": "live \u2013 best of all",
+"odds": 1.75,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:59",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"pick": "Handicap 0:2 \u2013 Bendel Insurance FC",
+"odds": 1.17,
+"ts": 1794589140.0
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"pick": "MKS Czarni Polaniec Under 3.5",
+"odds": 1.03,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"pick": "Handicap 0:3 \u2013 First Vienna FC 1894",
+"odds": 1.06,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.12,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Moldova Under 2.5",
+"odds": 1.12,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"pick": "Handicap 0:3 \u2013 Luxembourg",
+"odds": 1.09,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "S3PBM9",
 "at": 1794390826,
 "when": "Wed 11 Nov 10:53",
