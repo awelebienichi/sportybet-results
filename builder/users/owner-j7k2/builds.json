@@ -1,5 +1,88 @@
 [
 {
+"when": "Fri 13 Nov 20:04",
+"at": 1794596690,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "strict",
+"rid": "mwfcivhpl6yf"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 4 live leg(s) were strong enough right now (you asked for 5).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "KB0S0L",
+"odds": 1.32,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Under 6.5",
+"odds": 1.03,
+"why": "LIVE 2-1 46': Albania expected 0.7 and Luxembourg 0.6 more goals (last 10); 2-1 at 46' \u2013 93% chance; Flashscore home/away form 55%",
+"ts": 1794592800.0,
+"eid": "sr:match:76170232",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "76170232|18|total=6.5|13"
+},
+{
+"t": "Fri 19:00",
+"game": "HIK Hellerup vs B93 Copenhagen",
+"lg": "Denmark - 2nd Division",
+"pick": "Handicap 0:3 \u2013 B93 Copenhagen",
+"odds": 1.05,
+"why": "LIVE 3-2 47': HIK Hellerup expected 0.5 and B93 Copenhagen 0.9 more goals (last 10 + season); 3-2 at 47' \u2013 93% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794592800.0,
+"eid": "sr:match:72499160",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "72499160|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Handicap 4:0 \u2013 VV Kloetinge",
+"odds": 1.07,
+"why": "LIVE 1-2 45': VV Kloetinge expected 0.9 and Hoek 1.0 more goals (last 10 + season); 1-2 at 45' \u2013 94% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794592800.0,
+"eid": "sr:match:72594662",
+"mid": "14",
+"spec": "hcp=4:0",
+"oid": "1711",
+"k": "72594662|14|hcp=4:0|1711"
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"lg": "Spain - Primera Federacion",
+"pick": "CP Cacereno SAD Under 1.5",
+"odds": 1.14,
+"why": "LIVE 0-0 45': SD Ponferradina expected 0.5 and CP Cacereno SAD 0.4 more goals (last 10 + season); 0-0 at 45' \u2013 91% chance; h2h 100% of 3 meetings",
+"ts": 1794592800.0,
+"eid": "sr:match:72559240",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "72559240|20|total=1.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 19:18",
 "at": 1794593890,
 "req": {
@@ -8454,20 +8537,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 10:50",
-"at": 1794563453,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "mix",
-"legs": 3,
-"strict": "normal",
-"rid": "mwesqt1019tj"
-},
-"ok": false,
-"msg": "1 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
 }
 ]
