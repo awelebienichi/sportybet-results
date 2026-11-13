@@ -1,5 +1,134 @@
 [
 {
+"when": "Fri 13 Nov 04:01",
+"at": 1794538867,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwee3mh4qjfk"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 7 games passed the checks (Fri 13, 149 games on SportyBet), so this ticket has 7 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "HZ48H7",
+"odds": 8.25,
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "FC Fastav Zlin vs Dukla Prague",
+"lg": "Czechia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "season: 4.7 and 3.7 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%, season: 4.2 goals a game",
+"ts": 1794571200.0,
+"eid": "sr:match:72575904",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72575904|18|total=2.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "FC Viktoria Plzen B vs FK Loko Prague",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 3.8 and 3.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, Vitibet tip 3-1",
+"ts": 1794591000.0,
+"eid": "sr:match:72415122",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415122|18|total=2.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "season: 3.4 and 3.9 goals a game (9/9 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
+"ts": 1794591000.0,
+"eid": "sr:match:72961080",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961080|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "season: 4.4 and 4.3 goals a game (11/11 games); last 10 rate 80%; Flashscore home/away form 65%, season: 4.3 goals a game",
+"ts": 1794592800.0,
+"eid": "sr:match:72652090",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652090|18|total=2.5|12"
+},
+{
+"t": "Fri 19:30",
+"game": "SV Drochtersen/Assel vs VfB Oldenburg",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "season: 4.5 and 3.9 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 75%, footybets 76%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
+"ts": 1794594600.0,
+"eid": "sr:match:72674440",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72674440|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Sporting Hasselt vs RFC Liege",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "season: 4.9 and 3.3 goals a game (8/6 games); last 10 rate 78%; Flashscore home/away form 100%, season: 4.1 goals a game",
+"ts": 1794598200.0,
+"eid": "sr:match:75643276",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75643276|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Treowen Stars",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "season: 4.5 and 3.8 goals a game (11/12 games); last 10 rate 75%; Flashscore home/away form 80%, season: 4.1 goals a game",
+"ts": 1794598200.0,
+"eid": "sr:match:76488396",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76488396|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:00",
 "at": 1794538816,
 "req": {
@@ -5074,20 +5203,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 06:39",
-"at": 1794462000,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwd458vpc2tt"
-},
-"ok": false,
-"msg": "1 games are in play, but none fits that strategy right now (1 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 }
 ]
