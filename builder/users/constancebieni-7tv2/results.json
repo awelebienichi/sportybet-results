@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "HQK3GB",
+"at": 1794571526,
+"when": "Fri 13 Nov 13:05",
+"kind": "live \u2013 best of all",
+"odds": 1.52,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Al Hedod SC vs AL Hashd AL Shade",
+"pick": "Handicap 2:0 \u2013 Al Hedod SC",
+"odds": 1.04,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"pick": "Handicap 0:2 \u2013 NK Slaven Belupo",
+"odds": 1.07,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 13:00",
+"game": "FK Drina Zvornik vs Velez Nevesinje",
+"pick": "Handicap 0:4 \u2013 Velez Nevesinje",
+"odds": 1.37,
+"ts": 1794571200.0
+}
+]
+},
+{
 "code": "HTTWFB",
 "at": 1794571121,
 "when": "Fri 13 Nov 12:58",
