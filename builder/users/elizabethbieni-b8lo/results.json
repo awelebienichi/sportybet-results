@@ -2,6 +2,86 @@
 "from": 1794554393,
 "tickets": [
 {
+"code": "XXBYMT",
+"at": 1794554854,
+"when": "Fri 13 Nov 08:27",
+"kind": "your chosen markets",
+"odds": 7.51,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "ASC Otelul Galati II vs ACS Progresul Fundulea",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Csm Ramnicu Sarat vs ACS Viitorul Corbeanca",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Budaorsi SC vs Erdi VSE",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:25",
+"game": "Afief vs AL Rayan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.31,
+"ts": 1794572700.0
+},
+{
+"t": "Fri 14:00",
+"game": "Transit Camp FC vs Mbeya Kwanza FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 17:15",
+"game": "Finland vs Ireland",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794586500.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.46,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:30",
+"game": "Hamburger SV vs 1. FSV Mainz 05",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794592800.0
+}
+]
+},
+{
 "code": "KX72TT",
 "at": 1794554763,
 "when": "Fri 13 Nov 08:26",
