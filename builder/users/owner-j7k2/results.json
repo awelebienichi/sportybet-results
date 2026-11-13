@@ -619,7 +619,10 @@
 "game": "Uppsala Basket vs KFUM Umea",
 "pick": "KFUM Umea to win (incl. OT)",
 "odds": 1.09,
-"ts": 1794593040.0
+"ts": 1794593040.0,
+"r": "W",
+"sc": "78-89",
+"ht": "14-26"
 },
 {
 "t": "Fri 19:30",
@@ -1635,7 +1638,10 @@
 "game": "Netherlands vs Greece",
 "pick": "1st half Under 2.5",
 "odds": 1.2,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
