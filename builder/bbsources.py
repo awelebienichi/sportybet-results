@@ -4,6 +4,7 @@
 - rest: a team on its 2nd game in 2 days (from Sportradar match times); measured on 5,343 games: about -1 point for that team
 - Flashscore home/away form in points (the home team's home games, the away team's away games)
 - Basketball-Reference NBA team ratings (attack / defence per 100 possessions, pace) -> a second prediction for totals and margins
+- OddsShark (on Covers.com): NBA / college season Over/Under and against-the-spread records, head-to-head Over/Under
 Each check returns (support, against) notes for a leg; nothing here may block the builder for long (time limits)."""
 import json, os, re, subprocess, time
 from concurrent.futures import ThreadPoolExecutor
@@ -154,6 +155,11 @@ def check(g, leg, nba):
         if mid in ("227", "228"):
             me = mh if mid == "227" else ma
             if over and me >= 10: bad.append(f"injuries: team missing {me:.0f} pts a game")
+    # 0) OddsShark (now on Covers.com): season Over/Under and against-the-spread records, head-to-head Over/Under – NBA and college
+    try:
+        import covers
+        s2, b2 = covers.check(g, leg); sup += s2; bad += b2
+    except Exception: pass
     if mid in ("236", "756", "757"): return sup, bad                           # quarter lines: full-game form and ratings don't apply
     # 2) Flashscore home/away form
     vf = venue_form(g)
@@ -185,5 +191,7 @@ def check(g, leg, nba):
 
 def warm():
     """listener warm-up (runs in the background): injuries, ratings, Flashscore basketball list"""
-    try: return dict(injured_teams=len(injuries() or {}), rated=len(ratings()), flashscore=len(fs_list()))
+    try:
+        import covers
+        return dict(injured_teams=len(injuries() or {}), rated=len(ratings()), flashscore=len(fs_list()), oddsshark_games=covers.warm())
     except Exception as e: return str(e)
