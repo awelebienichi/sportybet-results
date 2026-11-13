@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UFVKT9",
+"at": 1794598542,
+"when": "Fri 13 Nov 20:35",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 9.07,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:30",
+"game": "Ulinzi Stars FC vs Migori Youth FC",
+"pick": "Under 2.5",
+"odds": 1.44,
+"ts": 1794652200.0
+},
+{
+"t": "Sat 13:00",
+"game": "Aps Bomet FC vs Bandari FC",
+"pick": "Under 2.5",
+"odds": 1.42,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 19:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"pick": "Under 2.5",
+"odds": 1.4,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 19:30",
+"game": "CD Armenio vs CS Italiano",
+"pick": "Under 2.5",
+"odds": 1.4,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 22:00",
+"game": "Club Comunicaciones vs Arsenal de Sarandi",
+"pick": "Under 2.5",
+"odds": 1.47,
+"ts": 1794690000.0
+},
+{
+"t": "Sat 23:00",
+"game": "Real Pilar FC vs CA Talleres de Remedios",
+"pick": "Under 2.5",
+"odds": 1.54,
+"ts": 1794693600.0
+}
+]
+},
+{
 "code": "VTC47F",
 "at": 1794598448,
 "when": "Fri 13 Nov 20:34",
@@ -680,7 +732,7 @@
 "odds": 1.28,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -954,7 +1006,7 @@
 "odds": 1.28,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -1872,7 +1924,7 @@
 "odds": 1.18,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -1889,7 +1941,7 @@
 "odds": 1.14,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -2069,7 +2121,7 @@
 "odds": 1.18,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -2619,7 +2671,7 @@
 "odds": 1.15,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -3217,7 +3269,7 @@
 "odds": 1.15,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -3979,7 +4031,7 @@
 "odds": 1.15,
 "ts": 1794592800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
