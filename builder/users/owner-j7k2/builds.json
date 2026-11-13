@@ -1,5 +1,19 @@
 [
 {
+"when": "Fri 13 Nov 07:24",
+"at": 1794551058,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bblive",
+"legs": 6,
+"strict": "normal",
+"rid": "mweld07vbkvc"
+},
+"ok": false,
+"msg": "2 basketball games are in play, but none has enough recent results for both teams to judge."
+},
+{
 "when": "Fri 13 Nov 07:18",
 "at": 1794550712,
 "req": {
@@ -4904,20 +4918,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 16:52",
-"at": 1794498779,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "dead",
-"legs": 6,
-"strict": "strict",
-"rid": "mwdq8hgkkb66"
-},
-"ok": false,
-"msg": "12 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
 }
 ]
