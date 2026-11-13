@@ -1,5 +1,20 @@
 [
 {
+"when": "Fri 13 Nov 10:50",
+"at": 1794563408,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bblive",
+"kind": "mix",
+"legs": 3,
+"strict": "normal",
+"rid": "mwesprdqyj3f"
+},
+"ok": false,
+"msg": "1 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
+},
+{
 "when": "Fri 13 Nov 10:49",
 "at": 1794563399,
 "req": {
@@ -5015,21 +5030,5 @@
 },
 "ok": false,
 "msg": "2 odds can't be reached right now: 14 live leg(s) are strong enough, and the most they make with up to 10 legs is 1.85 odds. Lower the target, allow more legs, or try again in a few minutes."
-},
-{
-"when": "Thu 12 Nov 18:34",
-"at": 1794504892,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwdtvjzsktal",
-"target": 3
-},
-"ok": false,
-"msg": "3 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 10 legs is 1.78 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
