@@ -31,14 +31,20 @@
 "game": "South Africa vs Kenya",
 "pick": "South Africa Under 2.5",
 "odds": 1.14,
-"ts": 1794585600.0
+"ts": 1794585600.0,
+"r": "W",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 17:00",
 "game": "Nigeria vs Tanzania",
 "pick": "Handicap 0:4 \u2013 Tanzania",
 "odds": 1.14,
-"ts": 1794585600.0
+"ts": 1794585600.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 17:00",
@@ -166,7 +172,10 @@
 "game": "South Africa vs Kenya",
 "pick": "Under 4.5",
 "odds": 1.04,
-"ts": 1794585600.0
+"ts": 1794585600.0,
+"r": "W",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
