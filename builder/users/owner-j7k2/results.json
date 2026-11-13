@@ -2524,7 +2524,10 @@
 "game": "Dijon vs US Orleans",
 "pick": "Dijon or GG",
 "odds": 1.13,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:00",
@@ -2709,7 +2712,10 @@
 "game": "Dijon vs US Orleans",
 "pick": "Dijon or GG",
 "odds": 1.13,
-"ts": 1794596400.0
+"ts": 1794596400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:00",
