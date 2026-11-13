@@ -233,7 +233,7 @@
 "when": "Fri 13 Nov 11:11",
 "kind": "live \u2013 best of all",
 "odds": 1.35,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -290,7 +290,10 @@
 "game": "ES Setif vs US Chaouia",
 "pick": "ES Setif to win",
 "odds": 1.03,
-"ts": 1794561240.0
+"ts": 1794561240.0,
+"r": "W",
+"sc": "5-1",
+"ht": ""
 }
 ]
 },
@@ -300,7 +303,7 @@
 "when": "Fri 13 Nov 10:59",
 "kind": "live \u2013 best of all",
 "odds": 1.43,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -357,7 +360,10 @@
 "game": "ES Setif vs US Chaouia",
 "pick": "ES Setif or US Chaouia",
 "odds": 1.07,
-"ts": 1794561240.0
+"ts": 1794561240.0,
+"r": "W",
+"sc": "5-1",
+"ht": ""
 }
 ]
 },
@@ -424,7 +430,10 @@
 "game": "ES Setif vs US Chaouia",
 "pick": "ES Setif or US Chaouia",
 "odds": 1.07,
-"ts": 1794561240.0
+"ts": 1794561240.0,
+"r": "W",
+"sc": "5-1",
+"ht": ""
 }
 ]
 },

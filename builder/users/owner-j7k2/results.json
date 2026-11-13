@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MMYD8D",
+"at": 1794578727,
+"when": "Fri 13 Nov 15:05",
+"kind": "safest market per game",
+"odds": 29.0,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"pick": "Cape Verde or GG",
+"odds": 1.1,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Switzerland vs Romania",
+"pick": "Switzerland or GG",
+"odds": 1.12,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Dijon vs US Orleans",
+"pick": "Dijon or GG",
+"odds": 1.13,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Millwall U21 vs Sheffield United U21",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"pick": "1st half Over 0.5",
+"odds": 1.15,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Royal Francs Borains  vs RAAL La Louviere",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Sporting Hasselt vs RFC Liege",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:30",
+"game": "ACD Ospitaletto vs Dolomiti Bellunesi",
+"pick": "ACD Ospitaletto or GG",
+"odds": 1.15,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Ballymena United vs Linfield FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Serbia vs Germany",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Slovenia vs Switzerland",
+"pick": "1st half double chance Switzerland or draw",
+"odds": 1.13,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "JVQJ7X",
 "at": 1794574349,
 "when": "Fri 13 Nov 13:52",
