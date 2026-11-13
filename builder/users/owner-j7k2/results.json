@@ -2,6 +2,135 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YTBKZB",
+"at": 1794591209,
+"when": "Fri 13 Nov 18:33",
+"kind": "live \u2013 best of all",
+"odds": 4.52,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"pick": "Burkina Faso Under 1.5",
+"odds": 1.03,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Cape Verde vs Liberia",
+"pick": "Handicap 0:4 \u2013 Liberia",
+"odds": 1.09,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "South Africa vs Kenya",
+"pick": "South Africa Under 2.5",
+"odds": 1.14,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "Handicap 0:4 \u2013 Tanzania",
+"odds": 1.14,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Gabon vs Lesotho",
+"pick": "Gabon Under 2.5",
+"odds": 1.16,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:05",
+"game": "Halcones Zuniga Soccer Club vs Aztecas A.M.F.",
+"pick": "Under 5.5",
+"odds": 1.05,
+"ts": 1794585900.0
+},
+{
+"t": "Fri 17:20",
+"game": "Star Sport Academy vs Old Edwardians FC",
+"pick": "Star Sport Academy or draw",
+"odds": 1.05,
+"ts": 1794586800.0
+},
+{
+"t": "Fri 17:30",
+"game": "Norway vs Poland",
+"pick": "Handicap 0:2 \u2013 Poland",
+"odds": 1.03,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:30",
+"game": "Nd Dravinja vs Krka Novo Mesto",
+"pick": "Nd Dravinja or Krka Novo Mesto",
+"odds": 1.07,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:30",
+"game": "AL Hala vs AL Budaiya",
+"pick": "AL Hala or AL Budaiya",
+"odds": 1.04,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:30",
+"game": "Kuwait vs Syria",
+"pick": "Kuwait or Syria",
+"odds": 1.09,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 17:35",
+"game": "Colegio Once Mexico vs Guardianes de Oriente",
+"pick": "Guardianes de Oriente to win",
+"odds": 1.05,
+"ts": 1794587700.0
+},
+{
+"t": "Fri 17:59",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
+"odds": 1.03,
+"ts": 1794589140.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Handicap 0:3 \u2013 USM Khenchela",
+"odds": 1.14,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"pick": "Handicap 0:2 \u2013 Kazakhstan",
+"odds": 1.12,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
+"pick": "Handicap 2:0 \u2013 KS Wisloka Debica",
+"odds": 1.15,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"pick": "Handicap 0:3 \u2013 First Vienna FC 1894",
+"odds": 1.22,
+"ts": 1794589200.0
+}
+]
+},
+{
 "code": "ZERS8K",
 "at": 1794591011,
 "when": "Fri 13 Nov 18:30",
