@@ -1,5 +1,29 @@
 [
 {
+"when": "Fri 13 Nov 22:49",
+"at": 1794606564,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"markets": [
+"o15",
+"u55"
+],
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfie1nuhz3y"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for your chosen markets (Fri 13) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Fri 13 Nov 22:47",
 "at": 1794606442,
 "req": {
@@ -4315,79 +4339,6 @@
 "spec": "",
 "oid": "1",
 "k": "75679632|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 14:01",
-"at": 1794402109,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "h2o05",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwc4oisiyiep"
-},
-"ok": true,
-"kind": "2nd half Over 0.5",
-"note": [
-"Only 3 games passed the checks (Wed 11, 72 games on SportyBet), so this ticket has 3 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "ZJDXTN",
-"odds": 1.47,
-"legs": [
-{
-"t": "Wed 20:00",
-"game": "West Ham U21 vs Juventus Next Gen",
-"lg": "International Youth - U21 Premier League International Cup",
-"pick": "2nd half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 2nd half in 100% of West Ham U21's last 6 and 80% of Juventus Next Gen's last 10",
-"ts": 1794423600.0,
-"eid": "sr:match:73734902",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73734902|90|total=0.5|12"
-},
-{
-"t": "Wed 20:00",
-"game": "Sheffield Wednesday vs Accrington Stanley",
-"lg": "England - EFL Trophy",
-"pick": "2nd half Over 0.5",
-"odds": 1.13,
-"why": "goal in the 2nd half in 80% of Sheffield Wednesday's last 10 and 80% of Accrington Stanley's last 10",
-"ts": 1794423600.0,
-"eid": "sr:match:73661140",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73661140|90|total=0.5|12"
-},
-{
-"t": "Wed 23:00",
-"game": "Independiente Petrolero vs Always Ready",
-"lg": "Bolivia - Copa Bolivia",
-"pick": "2nd half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 2nd half in 80% of Independiente Petrolero's last 10 and 100% of Always Ready's last 10",
-"ts": 1794434400.0,
-"eid": "sr:match:76454790",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76454790|90|total=0.5|12"
 }
 ]
 }
