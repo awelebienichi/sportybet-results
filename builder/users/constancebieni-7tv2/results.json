@@ -72,7 +72,10 @@
 "game": "Preston Lions FC vs Lions FC",
 "pick": "Preston Lions FC Under 3.5",
 "odds": 1.07,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "W",
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 09:30",
@@ -141,7 +144,10 @@
 "game": "Preston Lions FC vs Lions FC",
 "pick": "Preston Lions FC Under 3.5",
 "odds": 1.08,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "W",
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 09:45",
@@ -196,7 +202,10 @@
 "game": "Preston Lions FC vs Lions FC",
 "pick": "Preston Lions FC Under 3.5",
 "odds": 1.08,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "W",
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 09:45",
@@ -293,7 +302,7 @@
 "when": "Fri 13 Nov 09:43",
 "kind": "live \u2013 best of all",
 "odds": 1.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 08:43",
@@ -320,7 +329,10 @@
 "game": "Preston Lions FC vs Lions FC",
 "pick": "Handicap 0:2 \u2013 Lions FC",
 "odds": 1.22,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "L",
+"sc": "3-1",
+"ht": "2-1"
 }
 ]
 },
