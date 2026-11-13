@@ -1661,7 +1661,10 @@
 "game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
 "pick": "Under 3.5",
 "odds": 1.05,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 12:00",
@@ -1692,7 +1695,10 @@
 "game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
 "pick": "FC Kolos Kovalivka 2 Under 1.5",
 "odds": 1.04,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 12:00",
@@ -1726,7 +1732,10 @@
 "game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
 "pick": "Under 3.5",
 "odds": 1.06,
-"ts": 1794564000.0
+"ts": 1794564000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
