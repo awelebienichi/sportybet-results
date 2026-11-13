@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PRJF1F",
+"at": 1794557324,
+"when": "Fri 13 Nov 09:08",
+"kind": "live \u2013 best of all",
+"odds": 1.08,
+"status": "open",
+"legs": [
+{
+"t": "Fri 08:00",
+"game": "Lemi Kura SC vs Ethiopian Sports Academy",
+"pick": "Lemi Kura SC or Ethiopian Sports Academy",
+"odds": 1.08,
+"ts": 1794553200.0
+}
+]
+},
+{
 "code": "W8F2DR",
 "at": 1794555341,
 "when": "Fri 13 Nov 08:35",
