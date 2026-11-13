@@ -1,5 +1,61 @@
 [
 {
+"when": "Fri 13 Nov 12:14",
+"at": 1794568492,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwevqlzrm8zi"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "WHM6UB",
+"odds": 1.09,
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
+"lg": "Russia - MFL, Division B",
+"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
+"odds": 1.03,
+"why": "LIVE 3-1 52': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794564000.0,
+"eid": "sr:match:76734980",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76734980|10||10"
+},
+{
+"t": "Fri 11:00",
+"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
+"lg": "Ukraine - Persha Liga",
+"pick": "Under 3.5",
+"odds": 1.06,
+"why": "LIVE 1-0 58': FC Prykarpattya Ivano-Frankivsk expected 0.5 and FC Kolos Kovalivka 2 0.4 more goals (last 10 + season); 1-0 at 58' \u2013 91% chance; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.5 goals a game",
+"ts": 1794564000.0,
+"eid": "sr:match:72550328",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72550328|18|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 11:35",
 "at": 1794566157,
 "req": {
@@ -5085,117 +5141,6 @@
 "spec": "hcp=0:4",
 "oid": "1713",
 "k": "75802242|14|hcp=0:4|1713"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 19:54",
-"at": 1794509641,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwdwp8dse8fc"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "PWMMUR",
-"odds": 1.31,
-"legs": [
-{
-"t": "Thu 18:30",
-"game": "Malta vs Eswatini",
-"lg": "International - Int. Friendly Games",
-"pick": "Handicap 0:3 \u2013 Eswatini",
-"odds": 1.06,
-"why": "LIVE 1-1 62': Malta expected 0.6 and Eswatini 0.3 more goals (last 10); 1-1 at 62' \u2013 97% chance; margin record 100% / 80% in both sides' last games",
-"ts": 1794504600.0,
-"eid": "sr:match:76140570",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76140570|14|hcp=0:3|1713"
-},
-{
-"t": "Thu 19:00",
-"game": "CA Huracan vs Estudiantes de Rio Cuarto Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "CA Huracan Under 2.5",
-"odds": 1.03,
-"why": "LIVE 0-0 45': CA Huracan expected 0.5 and Estudiantes de Rio Cuarto Reserve 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 97% chance; goals record 90% / 100% in both sides' last games",
-"ts": 1794506400.0,
-"eid": "sr:match:75133636",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75133636|19|total=2.5|13"
-},
-{
-"t": "Thu 19:00",
-"game": "Ceara SC CE vs FC Atletico CE",
-"lg": "Brazil - Taca Fares Lopes",
-"pick": "Handicap 0:3 \u2013 FC Atletico CE",
-"odds": 1.05,
-"why": "LIVE 0-0 45': Ceara SC CE expected 0.7 and FC Atletico CE 0.6 more goals (last 10); 0-0 at 45' \u2013 96% chance; margin record 100% / 90% in both sides' last games",
-"ts": 1794506400.0,
-"eid": "sr:match:74835678",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "74835678|14|hcp=0:3|1713"
-},
-{
-"t": "Thu 19:00",
-"game": "CD Godoy Cruz vs Gimnasia de la Plata Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "CD Godoy Cruz Under 4.5",
-"odds": 1.04,
-"why": "LIVE 2-1 45': CD Godoy Cruz expected 0.7 and Gimnasia de la Plata Reserve 0.5 more goals (last 10 + season); 2-1 at 45' \u2013 95% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 5 meetings",
-"ts": 1794506400.0,
-"eid": "sr:match:75133634",
-"mid": "19",
-"spec": "total=4.5",
-"oid": "13",
-"k": "75133634|19|total=4.5|13"
-},
-{
-"t": "Thu 19:00",
-"game": "CA Osasuna vs Logrono United",
-"lg": "Spain - Copa de SM La Reina",
-"pick": "Logrono United Under 4.5",
-"odds": 1.06,
-"why": "LIVE 1-2 45': CA Osasuna expected 0.9 and Logrono United 0.6 more goals (last 10); 1-2 at 45' \u2013 96% chance; goals record 100% / 100% in both sides' last games",
-"ts": 1794506400.0,
-"eid": "sr:match:76484390",
-"mid": "20",
-"spec": "total=4.5",
-"oid": "13",
-"k": "76484390|20|total=4.5|13"
-},
-{
-"t": "Thu 19:00",
-"game": "Rosario Central Reserve vs CA River Plate (Arg) Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "CA River Plate (Arg) Reserve Under 2.5",
-"odds": 1.04,
-"why": "LIVE 1-0 45': Rosario Central Reserve expected 0.6 and CA River Plate (Arg) Reserve 0.8 more goals (last 10 + season); 1-0 at 45' \u2013 93% chance; goals record 90% / 80% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794506400.0,
-"eid": "sr:match:75133630",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75133630|20|total=2.5|13"
 }
 ]
 }
