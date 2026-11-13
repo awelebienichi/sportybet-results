@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WYARAV",
+"at": 1794606902,
+"when": "Fri 13 Nov 22:55",
+"kind": "goal-fest teams (season data)",
+"odds": 39.22,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:15",
+"game": "Bridlicna vs Opava B",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794647700.0
+},
+{
+"t": "Sat 10:15",
+"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794647700.0
+},
+{
+"t": "Sat 10:15",
+"game": "FK Horni Redice vs SK Zapy",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794647700.0
+},
+{
+"t": "Sat 11:00",
+"game": "Ankaraspor vs Aliaga Futbol",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1794650400.0
+},
+{
+"t": "Sat 11:00",
+"game": "MFK Chrudim vs FK Jablonec B",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794650400.0
+},
+{
+"t": "Sat 12:00",
+"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 12:00",
+"game": "Real Betis Balompie vs Cadiz CF",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 12:00",
+"game": "LKS Lodz II vs SK Mazovia Minsk Mazowiecki",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Csm Sacele vs AFC Inter Stars Sibiu",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ringsted IF vs BK Frem",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1794657600.0
+}
+]
+},
+{
 "code": "T2RML2",
 "at": 1794606801,
 "when": "Fri 13 Nov 22:53",
