@@ -111,7 +111,10 @@
 "game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
 "pick": "Stinta Poli Timisoara 2 or draw",
 "odds": 1.04,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 12:30",
@@ -184,7 +187,10 @@
 "game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
 "pick": "Stinta Poli Timisoara 2 or draw",
 "odds": 1.06,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 12:00",
@@ -277,7 +283,10 @@
 "game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
 "pick": "Stinta Poli Timisoara 2 or draw",
 "odds": 1.11,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },
@@ -2054,14 +2063,17 @@
 "when": "Fri 13 Nov 11:35",
 "kind": "goal-fest teams (season data)",
 "odds": 55.07,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
 "game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -2986,14 +2998,17 @@
 "when": "Fri 13 Nov 04:20",
 "kind": "goal-fest teams (season data)",
 "odds": 12.7,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
 "game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
