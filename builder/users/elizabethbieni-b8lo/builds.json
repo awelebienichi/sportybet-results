@@ -1,1 +1,44 @@
-[]
+[
+{
+"when": "Fri 13 Nov 08:13",
+"at": 1794554031,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwen4ozd3tlj"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "L7LR9E",
+"odds": 1.06,
+"legs": [
+{
+"t": "Fri 07:00",
+"game": "Kodagu FC vs Technico FF",
+"lg": "India - Bangalore Super Division",
+"pick": "Kodagu FC or Technico FF",
+"odds": 1.06,
+"why": "LIVE 0-0 50': no team stats for this game \u2013 SportyBet's own price says 89%",
+"ts": 1794549600.0,
+"eid": "sr:match:76638804",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76638804|10||10"
+}
+]
+}
+]
+}
+]
