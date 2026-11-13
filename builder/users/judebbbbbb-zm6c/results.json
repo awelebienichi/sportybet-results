@@ -494,14 +494,17 @@
 "when": "Fri 13 Nov 04:23",
 "kind": "safest market per game",
 "odds": 14.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:00",
 "game": "KF Tefik Canga vs KF Vjosa",
 "pick": "Double chance KF Vjosa or draw",
 "odds": 2.0,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "L",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -539,14 +542,17 @@
 "when": "Fri 13 Nov 04:18",
 "kind": "safest market per game",
 "odds": 111.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:00",
 "game": "KF Tefik Canga vs KF Vjosa",
 "pick": "Double chance KF Vjosa or draw",
 "odds": 2.0,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "L",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Fri 14:00",

@@ -24,7 +24,10 @@
 "game": "Al Safa SC (SA) vs AL Qala",
 "pick": "Handicap 2:0 \u2013 Al Safa SC (SA)",
 "odds": 1.1,
-"ts": 1794570600.0
+"ts": 1794570600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
@@ -143,14 +146,20 @@
 "game": "KF Tefik Canga vs KF Vjosa",
 "pick": "Handicap 0:3 \u2013 KF Vjosa",
 "odds": 1.14,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
 "game": "CS Academica Recea vs FCM Baia Mare",
 "pick": "CS Academica Recea or FCM Baia Mare",
 "odds": 1.03,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "0-5",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
@@ -248,7 +257,10 @@
 "game": "KF Tefik Canga vs KF Vjosa",
 "pick": "Handicap 0:3 \u2013 KF Vjosa",
 "odds": 1.15,
-"ts": 1794571200.0
+"ts": 1794571200.0,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
