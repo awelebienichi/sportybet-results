@@ -401,7 +401,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "2nd half Over 0.5",
 "odds": 1.49,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
@@ -515,7 +518,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "Handicap 0:2 \u2013 Gibraltar",
 "odds": 1.33,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",

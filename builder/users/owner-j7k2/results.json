@@ -2232,7 +2232,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "Handicap 0:2 \u2013 Gibraltar",
 "odds": 1.33,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
@@ -2299,7 +2302,10 @@
 "game": "Serbia vs Germany",
 "pick": "Excluded goals: 4",
 "odds": 1.18,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "1-3",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:45",

@@ -7,7 +7,7 @@
 "when": "Fri 13 Nov 21:03",
 "kind": "live \u2013 best of all",
 "odds": 1.35,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -54,7 +54,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "Handicap 0:3 \u2013 Gibraltar",
 "odds": 1.07,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 }
 ]
 },
@@ -111,7 +114,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "Handicap 0:3 \u2013 Gibraltar",
 "odds": 1.07,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
@@ -923,7 +929,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "Handicap 0:2 \u2013 Gibraltar",
 "odds": 1.33,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
