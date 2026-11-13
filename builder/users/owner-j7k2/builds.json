@@ -1,5 +1,49 @@
 [
 {
+"when": "Fri 13 Nov 07:18",
+"at": 1794550712,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "quarter",
+"legs": 15,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwel5hsbrjse"
+},
+"ok": true,
+"kind": "basketball \u2013 quarter total points",
+"note": [
+"Only 1 basketball games passed the checks (Fri 13, 104 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "SFB5SR",
+"odds": 1.39,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Bakken Bears Q1 Under 29.5 points",
+"odds": 1.39,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "757",
+"spec": "total=29.5|quarternr=1",
+"oid": "13",
+"k": "72663212|757|total=29.5|quarternr=1|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 07:06",
 "at": 1794549985,
 "req": {
@@ -4875,20 +4919,5 @@
 },
 "ok": false,
 "msg": "12 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
-},
-{
-"when": "Thu 12 Nov 16:52",
-"at": 1794498756,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "hold",
-"legs": 6,
-"strict": "strict",
-"rid": "mwdq80u6wbk8"
-},
-"ok": false,
-"msg": "12 games are in play, but none fits that strategy right now (7 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 }
 ]
