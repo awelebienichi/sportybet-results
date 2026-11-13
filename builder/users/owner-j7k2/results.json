@@ -732,7 +732,10 @@
 "game": "FC Viktoria Plzen B vs FK Loko Prague",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 19:00",
@@ -1661,14 +1664,20 @@
 "game": "FC Viktoria Plzen B vs FK Loko Prague",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 19:00",
 "game": "SD Ponferradina vs CP Cacereno SAD",
 "pick": "1st half double chance SD Ponferradina or draw",
 "odds": 1.18,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
@@ -1853,7 +1862,10 @@
 "game": "SD Ponferradina vs CP Cacereno SAD",
 "pick": "1st half double chance SD Ponferradina or draw",
 "odds": 1.18,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
