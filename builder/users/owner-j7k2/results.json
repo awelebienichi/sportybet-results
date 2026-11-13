@@ -161,7 +161,10 @@
 "game": "JS Saoura vs USM Khenchela",
 "pick": "Handicap 0:3 \u2013 USM Khenchela",
 "odds": 1.14,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -245,7 +248,10 @@
 "game": "JS Saoura vs USM Khenchela",
 "pick": "Handicap 0:3 \u2013 USM Khenchela",
 "odds": 1.14,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
@@ -302,7 +308,10 @@
 "game": "Kufstein Towers vs Swans Gmunden",
 "pick": "Under 183.5 total points",
 "odds": 1.22,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "73-84",
+"ht": "22-20"
 },
 {
 "t": "Fri 19:00",
@@ -4323,7 +4332,10 @@
 "game": "Kufstein Towers vs Swans Gmunden",
 "pick": "Over/Under (incl. overtime) 183.5 \u2013 Under 183.5",
 "odds": 1.22,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "73-84",
+"ht": "22-20"
 },
 {
 "t": "Fri 18:00",
