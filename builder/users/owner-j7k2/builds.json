@@ -1,5 +1,183 @@
 [
 {
+"when": "Fri 13 Nov 17:39",
+"at": 1794587996,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17",
+"2026-11-18",
+"2026-11-19"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1ggn"
+],
+"rid": "mwf7bjczarid"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "SX895H",
+"odds": 11.2,
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "Germany vs Belgium",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"why": "stats rate 95% from both teams' last 10 and 3 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:76170212",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76170212|75||76"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"lg": "Denmark - 2nd Division",
+"pick": "1st half GG \u2013 No",
+"odds": 1.28,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794592800.0,
+"eid": "sr:match:72499156",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72499156|75||76"
+},
+{
+"t": "Fri 20:45",
+"game": "Netherlands vs Greece",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.28,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794599100.0,
+"eid": "sr:match:68931584",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68931584|75||76"
+},
+{
+"t": "Sat 00:00",
+"game": "Saint-Martin vs El Salvador",
+"lg": "International - CONCACAF Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794610800.0,
+"eid": "sr:match:75512546",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75512546|75||76"
+},
+{
+"t": "Sat 06:00",
+"game": "RB Omiya Ardija vs Montedio Yamagata",
+"lg": "Japan - J2 League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794632400.0,
+"eid": "sr:match:72151352",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72151352|75||76"
+},
+{
+"t": "Sat 13:00",
+"game": "Slask II Wroclaw vs KS Lechia Zielona Gora",
+"lg": "Poland - II Liga",
+"pick": "1st half GG \u2013 No",
+"odds": 1.34,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings",
+"ts": 1794657600.0,
+"eid": "sr:match:72398818",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72398818|75||76"
+},
+{
+"t": "Sat 16:00",
+"game": "Stockport County FC vs Reading FC",
+"lg": "England - League One",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"why": "stats rate 100% from both teams' last 10 and 6 meetings",
+"ts": 1794668400.0,
+"eid": "sr:match:72341376",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72341376|75||76"
+},
+{
+"t": "Sat 16:00",
+"game": "Wycombe Wanderers vs Huddersfield",
+"lg": "England - League One",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794668400.0,
+"eid": "sr:match:72341380",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72341380|75||76"
+},
+{
+"t": "Sat 20:00",
+"game": "RKC Waalwijk vs FC Den Bosch",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half GG \u2013 No",
+"odds": 1.35,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794682800.0,
+"eid": "sr:match:72044818",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72044818|75||76"
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1794944700.0,
+"eid": "sr:match:68932772",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932772|75||76"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 17:23",
 "at": 1794586984,
 "req": {
@@ -8154,50 +8332,6 @@
 "spec": "total=95.5",
 "oid": "13",
 "k": "73115972|227|total=95.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 07:05",
-"at": 1794549919,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "quarter",
-"legs": 10,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"rid": "mwekom9uprzk"
-},
-"ok": true,
-"kind": "basketball \u2013 quarter total points",
-"note": [
-"Only 1 basketball games passed the checks (Fri 13, 103 judged), so the ticket has 1 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "SFB5SR",
-"odds": 1.39,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "BK Vejen81 vs Bakken Bears",
-"lg": "Denmark - Basketligaen",
-"pick": "Bakken Bears Q1 Under 29.5 points",
-"odds": 1.39,
-"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
-"ts": 1794592800.0,
-"eid": "sr:match:72663212",
-"mid": "757",
-"spec": "total=29.5|quarternr=1",
-"oid": "13",
-"k": "72663212|757|total=29.5|quarternr=1|13"
 }
 ]
 }
