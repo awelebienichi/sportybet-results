@@ -2,6 +2,44 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "SX85RE",
+"at": 1794568259,
+"when": "Fri 13 Nov 12:10",
+"kind": "live \u2013 best of all",
+"odds": 1.39,
+"status": "open",
+"legs": [
+{
+"t": "Fri 10:00",
+"game": "FC Bejaia vs Aseac",
+"pick": "Aseac or draw",
+"odds": 1.03,
+"ts": 1794560400.0
+},
+{
+"t": "Fri 11:00",
+"game": "Orlando Pirates B FC vs Mabopane Jm",
+"pick": "Orlando Pirates B FC to win",
+"odds": 1.03,
+"ts": 1794564000.0
+},
+{
+"t": "Fri 11:00",
+"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
+"pick": "FC Kolos Kovalivka 2 Under 1.5",
+"odds": 1.05,
+"ts": 1794564000.0
+},
+{
+"t": "Fri 12:00",
+"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1794567600.0
+}
+]
+},
+{
 "code": "ZB2TGL",
 "at": 1794564686,
 "when": "Fri 13 Nov 11:11",
