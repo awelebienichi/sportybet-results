@@ -2,6 +2,30 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "S3Q5BT",
+"at": 1794606373,
+"when": "Fri 13 Nov 22:46",
+"kind": "live \u2013 best of all",
+"odds": 1.11,
+"status": "open",
+"legs": [
+{
+"t": "Fri 21:00",
+"game": "Morocco vs Niger",
+"pick": "Handicap 0:5 \u2013 Niger",
+"odds": 1.08,
+"ts": 1794600000.0
+},
+{
+"t": "Fri 22:00",
+"game": "AD Tenancingo vs Neo Pipil San Juan Nonualco",
+"pick": "AD Tenancingo or draw",
+"odds": 1.03,
+"ts": 1794603600.0
+}
+]
+},
+{
 "code": "XCD7SQ",
 "at": 1794600196,
 "when": "Fri 13 Nov 21:03",
