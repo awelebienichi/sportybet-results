@@ -1,5 +1,75 @@
 [
 {
+"when": "Fri 13 Nov 12:15",
+"at": 1794568518,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "relaxed",
+"rid": "mwevr75d5gq9"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 10).",
+"Relaxed safety: in testing only about 82 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "T0A6MZ",
+"odds": 1.39,
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
+"lg": "Russia - MFL, Division B",
+"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
+"odds": 1.03,
+"why": "LIVE 3-1 53': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794564000.0,
+"eid": "sr:match:76734980",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76734980|10||10"
+},
+{
+"t": "Fri 11:00",
+"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
+"lg": "Ukraine - Persha Liga",
+"pick": "FC Kolos Kovalivka 2 Under 1.5",
+"odds": 1.04,
+"why": "LIVE 1-0 59': FC Prykarpattya Ivano-Frankivsk expected 0.5 and FC Kolos Kovalivka 2 0.4 more goals (last 10 + season); 1-0 at 59' \u2013 91% chance",
+"ts": 1794564000.0,
+"eid": "sr:match:72550328",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "72550328|20|total=1.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.3,
+"why": "LIVE 0-0 14': Nafta 1903 Lendava expected 1.4 and NK Slaven Belupo 1.6 more goals (last 10); 0-0 at 14' \u2013 76% chance",
+"ts": 1794567600.0,
+"eid": "sr:match:76741202",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76741202|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 12:14",
 "at": 1794568492,
 "req": {
@@ -5030,117 +5100,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "68931500|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 20:38",
-"at": 1794512316,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwdyah7t1k9j"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "RY6J4Y",
-"odds": 1.43,
-"legs": [
-{
-"t": "Thu 19:00",
-"game": "CD Tarancon vs Levante",
-"lg": "Spain - Copa del Rey",
-"pick": "Handicap 2:0 \u2013 CD Tarancon",
-"odds": 1.03,
-"why": "LIVE 1-1 81': CD Tarancon expected 0.2 and Levante 0.2 more goals (last 10); 1-1 at 81' \u2013 97% chance; margin record 90% / 80% in both sides' last games",
-"ts": 1794506400.0,
-"eid": "sr:match:76489490",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76489490|14|hcp=2:0|1711"
-},
-{
-"t": "Thu 19:00",
-"game": "Chambery SF vs Grenoble Foot",
-"lg": "France - Coupe de France",
-"pick": "Handicap 3:0 \u2013 Chambery SF",
-"odds": 1.07,
-"why": "LIVE 0-1 80': Chambery SF expected 0.3 and Grenoble Foot 0.3 more goals (last 10); 0-1 at 80' \u2013 96% chance; margin record 80% / 90% in both sides' last games",
-"ts": 1794506400.0,
-"eid": "sr:match:76171256",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "76171256|14|hcp=3:0|1711"
-},
-{
-"t": "Thu 19:00",
-"game": "CA Barracas Central Reserve vs Argentinos Juniors Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "Under 2.5",
-"odds": 1.06,
-"why": "LIVE 0-1 76': CA Barracas Central Reserve expected 0.2 and Argentinos Juniors Reserve 0.2 more goals (last 10 + season); 0-1 at 76' \u2013 92% chance; Flashscore home/away form 75%, h2h 62% of 8 meetings (2.5 line)",
-"ts": 1794506400.0,
-"eid": "sr:match:75133628",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75133628|18|total=2.5|13"
-},
-{
-"t": "Thu 19:30",
-"game": "Kimberley de Mar Del Plata vs Club Olimpo",
-"lg": "Argentina - Torneo Federal A",
-"pick": "Under 3.5",
-"odds": 1.05,
-"why": "LIVE 1-0 45': Kimberley de Mar Del Plata expected 0.4 and Club Olimpo 0.4 more goals (last 10 + season); 1-0 at 45' \u2013 92% chance; Flashscore home/away form 90%, season: 1.6 goals a game, h2h 88% of 8 meetings (3.5 line)",
-"ts": 1794508200.0,
-"eid": "sr:match:76479782",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76479782|18|total=3.5|13"
-},
-{
-"t": "Thu 20:00",
-"game": "Benin vs Central African Republic",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:5 \u2013 Central African Republic",
-"odds": 1.04,
-"why": "LIVE 3-1 37': Benin expected 0.9 and Central African Republic 0.7 more goals (last 10); 3-1 at 37' \u2013 93% chance; margin record 100% / 90% in both sides' last games",
-"ts": 1794510000.0,
-"eid": "sr:match:75802272",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75802272|14|hcp=0:5|1713"
-},
-{
-"t": "Thu 20:00",
-"game": "Ivory Coast vs Gambia",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:4 \u2013 Gambia",
-"odds": 1.12,
-"why": "LIVE 2-1 37': Ivory Coast expected 1.0 and Gambia 1.0 more goals (last 10); 2-1 at 37' \u2013 94% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 4 meetings",
-"ts": 1794510000.0,
-"eid": "sr:match:75802242",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "75802242|14|hcp=0:4|1713"
 }
 ]
 }
