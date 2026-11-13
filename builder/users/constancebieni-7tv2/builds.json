@@ -1,5 +1,116 @@
 [
 {
+"when": "Fri 13 Nov 11:11",
+"at": 1794564686,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mweth013sgxd"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "ZB2TGL",
+"odds": 1.35,
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "Persikota Tangerang vs Pesik Kuningan",
+"lg": "Indonesia - Liga Nusantara",
+"pick": "Persikota Tangerang or Pesik Kuningan",
+"odds": 1.03,
+"why": "LIVE 2-1 82': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794558600.0,
+"eid": "sr:match:76593268",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76593268|10||10"
+},
+{
+"t": "Fri 09:30",
+"game": "Persibo Bojonegoro vs Persipa Pati FC",
+"lg": "Indonesia - Liga Nusantara",
+"pick": "Handicap 0:1 \u2013 Persipa Pati FC",
+"odds": 1.1,
+"why": "LIVE 0-0 84': Persibo Bojonegoro expected 0.1 and Persipa Pati FC 0.1 more goals (last 10); 0-0 at 84' \u2013 91% chance",
+"ts": 1794558600.0,
+"eid": "sr:match:76309122",
+"mid": "14",
+"spec": "hcp=0:1",
+"oid": "1713",
+"k": "76309122|14|hcp=0:1|1713"
+},
+{
+"t": "Fri 09:45",
+"game": "Armed Forces FC vs Wan Tendong Stable",
+"lg": "Malaysia - Liga A1",
+"pick": "Under 3.5",
+"odds": 1.04,
+"why": "LIVE 0-1 63': Armed Forces FC expected 0.4 and Wan Tendong Stable 0.5 more goals (last 10 + season); 0-1 at 63' \u2013 92% chance; season: 2.7 goals a game",
+"ts": 1794559500.0,
+"eid": "sr:match:73714826",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73714826|18|total=3.5|13"
+},
+{
+"t": "Fri 10:00",
+"game": "Adamas United Sa vs Aikya Sammilani",
+"lg": "India - Calcutta 1st Division",
+"pick": "Adamas United Sa or draw",
+"odds": 1.06,
+"why": "LIVE 0-0 47': no team stats for this game \u2013 SportyBet's own price says 89%",
+"ts": 1794560400.0,
+"eid": "sr:match:76480878",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76480878|10||9"
+},
+{
+"t": "Fri 10:10",
+"game": "JSM Skikda U20 vs AS Khroub U20",
+"lg": "Algeria - U20 Jeunes Elites",
+"pick": "JSM Skikda U20 or AS Khroub U20",
+"odds": 1.06,
+"why": "LIVE 2-0 45': no team stats for this game \u2013 SportyBet's own price says 89%",
+"ts": 1794561000.0,
+"eid": "sr:match:111111114667413",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "111111114667413|10||10"
+},
+{
+"t": "Fri 10:14",
+"game": "ES Setif vs US Chaouia",
+"lg": "Algeria - U20 Jeunes Elites",
+"pick": "ES Setif to win",
+"odds": 1.03,
+"why": "LIVE 2-0 45': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794561240.0,
+"eid": "sr:match:111111114667411",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "111111114667411|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 10:59",
 "at": 1794563986,
 "req": {
