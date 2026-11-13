@@ -246,7 +246,7 @@
 "when": "Fri 13 Nov 18:28",
 "kind": "live basketball",
 "odds": 1.44,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -263,7 +263,10 @@
 "game": "Apoel Nicosia vs Enosis Neon Paralimni",
 "pick": "Enosis Neon Paralimni to win (incl. OT)",
 "odds": 1.12,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "71-89",
+"ht": "16-34"
 }
 ]
 },
@@ -280,7 +283,10 @@
 "game": "MKS Start Lublin vs GTK Gliwice",
 "pick": "Over 147.5 total points",
 "odds": 1.21,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "87-83",
+"ht": "21-13"
 },
 {
 "t": "Fri 18:00",
@@ -706,7 +712,10 @@
 "game": "FC Sparta Brno vs FC PBS Velka Bites",
 "pick": "Excluded goals: 3",
 "odds": 1.2,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "2-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 18:00",
@@ -4279,7 +4288,10 @@
 "game": "MKS Start Lublin vs GTK Gliwice",
 "pick": "Over/Under (incl. overtime) 150.5 \u2013 Over 150.5",
 "odds": 1.22,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "87-83",
+"ht": "21-13"
 },
 {
 "t": "Fri 18:30",
