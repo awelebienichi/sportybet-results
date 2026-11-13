@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TYQSMZ",
+"at": 1794540212,
+"when": "Fri 13 Nov 04:23",
+"kind": "safest market per game",
+"odds": 14.98,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"pick": "Double chance KF Vjosa or draw",
+"odds": 2.0,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Mali vs Rwanda",
+"pick": "1st half double chance Rwanda or draw",
+"odds": 1.89,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"pick": "1st half double chance Newcastle United U21 or draw",
+"odds": 1.75,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "WL2BH9",
 "at": 1794539895,
 "when": "Fri 13 Nov 04:18",
