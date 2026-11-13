@@ -1,6 +1,96 @@
 [
 {
 "when": "Sat 14 Nov 00:16",
+"at": 1794611819,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "04:00",
+"markets": [
+"gb25"
+],
+"rid": "mwfljanlmq7i"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 4 games passed the checks (Sat 14, 00:00\u201304:00, 15 games on SportyBet), so this ticket has 4 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "HGLW9Z",
+"odds": 1.95,
+"legs": [
+{
+"t": "Sat 01:00",
+"game": "Ecuador vs Costa Rica",
+"lg": "International - Int. Friendly Games",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings; Flashscore home/away form 60%",
+"ts": 1794614400.0,
+"eid": "sr:match:76170242",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76170242|450001||25"
+},
+{
+"t": "Sat 02:00",
+"game": "Peru vs Bolivia",
+"lg": "International - Int. Friendly Games",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%",
+"ts": 1794618000.0,
+"eid": "sr:match:76147766",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76147766|450001||25"
+},
+{
+"t": "Sat 02:00",
+"game": "Guerreros Del Pac\u00edfico FC vs Santiago FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1794618000.0,
+"eid": "sr:match:74063598",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74063598|450001||25"
+},
+{
+"t": "Sat 02:00",
+"game": "Wellington Phoenix FC vs Auckland City FC",
+"lg": "New Zealand - National League",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 3.7 goals a game",
+"ts": 1794618000.0,
+"eid": "sr:match:74873412",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74873412|450001||25"
+}
+]
+}
+]
+},
+{
+"when": "Sat 14 Nov 00:16",
 "at": 1794611761,
 "req": {
 "u": "constancebieni-7tv2",
@@ -4094,21 +4184,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 08:09",
-"at": 1794467349,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "strict",
-"rid": "mwd7iw7d8pnv",
-"target": 5
-},
-"ok": false,
-"msg": "5 odds can't be reached right now: 1 live leg(s) are strong enough, and the most they make with up to 10 legs is 1.19 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
