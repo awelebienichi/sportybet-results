@@ -21,7 +21,10 @@
 "game": "AD Pasto vs CD Junior FC",
 "pick": "Handicap 3:0 \u2013 AD Pasto",
 "odds": 1.09,
-"ts": 1794524400.0
+"ts": 1794524400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 00:00",
@@ -2330,7 +2333,10 @@
 "game": "AD Pasto vs CD Junior FC",
 "pick": "Handicap 2:0 \u2013 AD Pasto",
 "odds": 2.65,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 }
 ]
 },
@@ -2617,7 +2623,10 @@
 "game": "AD Pasto vs CD Junior FC",
 "pick": "Handicap 2:0 \u2013 AD Pasto",
 "odds": 2.7,
-"ts": 1794520800.0
+"ts": 1794520800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 }
 ]
 },
