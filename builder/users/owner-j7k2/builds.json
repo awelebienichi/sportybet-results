@@ -1,5 +1,46 @@
 [
 {
+"when": "Fri 13 Nov 04:38",
+"at": 1794541115,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 1,
+"strict": "normal",
+"rid": "mweffv8qgtti"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "H02MAR",
+"odds": 1.12,
+"legs": [
+{
+"t": "Fri 03:00",
+"game": "Atletico Morelia vs Leones Negros UDEG",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "Atletico Morelia or Leones Negros UDEG",
+"odds": 1.12,
+"why": "LIVE 1-0 77': Atletico Morelia expected 0.3 and Leones Negros UDEG 0.3 more goals (last 10 + season); 1-0 at 77' \u2013 85% chance",
+"ts": 1794535200.0,
+"eid": "sr:match:76629018",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76629018|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:22",
 "at": 1794540161,
 "req": {
@@ -4636,48 +4677,6 @@
 "lg": "International Clubs - Club Friendly Games",
 "pick": "Hannover 96 Under 6.5",
 "odds": 1.22,
-"why": "LIVE 4-0 53': Hannover 96 expected 0.8 and TSV Havelse 0.6 more goals (last 10); 4-0 at 53' \u2013 93% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794481200.0,
-"eid": "sr:match:76233346",
-"mid": "19",
-"spec": "total=6.5",
-"oid": "13",
-"k": "76233346|19|total=6.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 13:18",
-"at": 1794485936,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 8,
-"strict": "relaxed",
-"rid": "mwdil8paih89"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 8).",
-"Relaxed safety: in testing only about 82 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "YSQCB6",
-"odds": 1.22,
-"legs": [
-{
-"t": "Thu 12:00",
-"game": "Hannover 96 vs TSV Havelse",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Hannover 96 Under 6.5",
-"odds": 1.25,
 "why": "LIVE 4-0 53': Hannover 96 expected 0.8 and TSV Havelse 0.6 more goals (last 10); 4-0 at 53' \u2013 93% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
 "ts": 1794481200.0,
 "eid": "sr:match:76233346",
