@@ -52,7 +52,7 @@
 "when": "Fri 13 Nov 13:32",
 "kind": "live \u2013 best of all",
 "odds": 1.42,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
@@ -69,7 +69,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "Tampereen Ilves or draw",
 "odds": 1.05,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 13:00",

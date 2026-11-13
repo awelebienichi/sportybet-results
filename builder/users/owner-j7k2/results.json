@@ -14,7 +14,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "Under 4.5",
 "odds": 1.04,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 12:50",
@@ -90,7 +93,7 @@
 "when": "Fri 13 Nov 13:21",
 "kind": "live \u2013 best of all",
 "odds": 3.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
@@ -127,7 +130,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "Tampereen Ilves or draw",
 "odds": 1.06,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
@@ -182,7 +188,7 @@
 "when": "Fri 13 Nov 13:15",
 "kind": "live \u2013 best of all",
 "odds": 3.1,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
@@ -219,7 +225,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "Tampereen Ilves or draw",
 "odds": 1.06,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
