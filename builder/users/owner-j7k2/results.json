@@ -2,6 +2,72 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NXDDBM",
+"at": 1794539710,
+"when": "Fri 13 Nov 04:15",
+"kind": "basketball \u2013 total points",
+"odds": 7.02,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:30",
+"game": "Anadolu Efes SK vs Virtus Bologna",
+"pick": "Over 160.5 total points",
+"odds": 1.23,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"ts": 1794597300.0
+},
+{
+"t": "Fri 20:30",
+"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
+"pick": "Over 162.5 total points",
+"odds": 1.22,
+"ts": 1794598200.0
+},
+{
+"t": "Sat 01:00",
+"game": "Illinois Fighting Illini vs Sam Houston Bearkats",
+"pick": "Under 178.5 total points",
+"odds": 1.4,
+"ts": 1794614400.0
+},
+{
+"t": "Sat 01:00",
+"game": "Charlotte 49ers vs Appalachian State Mountaineers",
+"pick": "Over 124.5 total points",
+"odds": 1.38,
+"ts": 1794614400.0
+},
+{
+"t": "Sat 02:00",
+"game": "Chicago Bulls vs Atlanta Hawks",
+"pick": "Under 258.5 total points",
+"odds": 1.26,
+"ts": 1794618000.0
+},
+{
+"t": "Sat 02:00",
+"game": "Miami Heat vs Cleveland Cavaliers",
+"pick": "Under 248.5 total points",
+"odds": 1.27,
+"ts": 1794618000.0
+},
+{
+"t": "Sat 04:00",
+"game": "Sacramento Kings vs Portland Trail Blazers",
+"pick": "Over 216.5 total points",
+"odds": 1.24,
+"ts": 1794625200.0
+}
+]
+},
+{
 "code": "RRFRQW",
 "at": 1794539159,
 "when": "Fri 13 Nov 04:05",
@@ -1814,7 +1880,10 @@
 "game": "Washington Wizards vs Detroit Pistons",
 "pick": "Under 233.5 total points",
 "odds": 1.27,
-"ts": 1794528000.0
+"ts": 1794528000.0,
+"r": "L",
+"sc": "140-144",
+"ht": "32-33"
 }
 ]
 },
