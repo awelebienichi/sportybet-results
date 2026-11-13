@@ -1,5 +1,244 @@
 [
 {
+"when": "Fri 13 Nov 10:49",
+"at": 1794563399,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 15,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwesphvu09dn"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "X83DAC",
+"odds": 19.25,
+"legs": [
+{
+"t": "Fri 11:30",
+"game": "Akita Northern Happinets vs Nagoya Diamond Dolphins",
+"lg": "Japan - B League Premier",
+"pick": "Over 159.5 total points",
+"odds": 1.19,
+"why": "expected Akita Northern Happinets 84 \u2013 Nagoya Diamond Dolphins 92 (last 10/10 games, home edge included); 82% by the stats, 81% with the price; Flashscore home/away form 80%",
+"ts": 1794565800.0,
+"eid": "sr:match:72696306",
+"mid": "225",
+"spec": "total=159.5",
+"oid": "12",
+"k": "72696306|225|total=159.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "Kufstein Towers vs Swans Gmunden",
+"lg": "Austria - Superliga",
+"pick": "Under 183.5 total points",
+"odds": 1.22,
+"why": "expected Kufstein Towers 81 \u2013 Swans Gmunden 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794589200.0,
+"eid": "sr:match:72653726",
+"mid": "225",
+"spec": "total=183.5",
+"oid": "13",
+"k": "72653726|225|total=183.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "MKS Start Lublin vs GTK Gliwice",
+"lg": "Poland - PLK",
+"pick": "Over 150.5 total points",
+"odds": 1.22,
+"why": "expected MKS Start Lublin 83 \u2013 GTK Gliwice 83 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794589200.0,
+"eid": "sr:match:72676964",
+"mid": "225",
+"spec": "total=150.5",
+"oid": "12",
+"k": "72676964|225|total=150.5|12"
+},
+{
+"t": "Fri 18:30",
+"game": "Holbaek-Stenhus vs Copenhagen Basketball",
+"lg": "Denmark - Basketligaen",
+"pick": "Under 179.5 total points",
+"odds": 1.23,
+"why": "expected Holbaek-Stenhus 82 \u2013 Copenhagen Basketball 83 (last 10/10 games, home edge included); 80% by the stats, 78% with the price",
+"ts": 1794591000.0,
+"eid": "sr:match:72663210",
+"mid": "225",
+"spec": "total=179.5",
+"oid": "13",
+"k": "72663210|225|total=179.5|13"
+},
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Under 191.5 total points",
+"odds": 1.22,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 90%",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "225",
+"spec": "total=191.5",
+"oid": "13",
+"k": "72663212|225|total=191.5|13"
+},
+{
+"t": "Fri 19:00",
+"game": "SKN St. Polten Basketball vs Flyers Wels",
+"lg": "Austria - Superliga",
+"pick": "Over 149.5 total points",
+"odds": 1.21,
+"why": "expected SKN St. Polten Basketball 84 \u2013 Flyers Wels 82 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794592800.0,
+"eid": "sr:match:72653730",
+"mid": "225",
+"spec": "total=149.5",
+"oid": "12",
+"k": "72653730|225|total=149.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "Eagles Graz vs BBC Nord Dragonz",
+"lg": "Austria - Superliga",
+"pick": "Over 160.5 total points",
+"odds": 1.21,
+"why": "expected Eagles Graz 88 \u2013 BBC Nord Dragonz 87 (last 10/10 games, home edge included); 80% by the stats, 79% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72653728",
+"mid": "225",
+"spec": "total=160.5",
+"oid": "12",
+"k": "72653728|225|total=160.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "Traiskirchen Lions vs Kapfenberg Bulls",
+"lg": "Austria - Superliga",
+"pick": "Over 152.5 total points",
+"odds": 1.22,
+"why": "expected Traiskirchen Lions 88 \u2013 Kapfenberg Bulls 80 (last 10/10 games, home edge included); 79% by the stats, 78% with the price; Flashscore home/away form 90%",
+"ts": 1794592800.0,
+"eid": "sr:match:72653732",
+"mid": "225",
+"spec": "total=152.5",
+"oid": "12",
+"k": "72653732|225|total=152.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "BC Vienna vs BK Dukes Klosterneuburg",
+"lg": "Austria - Superliga",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"why": "expected BC Vienna 85 \u2013 BK Dukes Klosterneuburg 80 (last 10/10 games, home edge included); 82% by the stats, 80% with the price",
+"ts": 1794596400.0,
+"eid": "sr:match:72653734",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "72653734|225|total=148.5|12"
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"lg": "International - Euroleague",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"why": "expected Panathinaikos BC 90 \u2013 FC Barcelona 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794597300.0,
+"eid": "sr:match:73263154",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "73263154|225|total=158.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
+"lg": "International - Euroleague",
+"pick": "Over 162.5 total points",
+"odds": 1.22,
+"why": "expected ASVEL Lyon-Villeurbanne 91 \u2013 Besiktas JK 87 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; Flashscore home/away form 70%",
+"ts": 1794598200.0,
+"eid": "sr:match:73263156",
+"mid": "225",
+"spec": "total=162.5",
+"oid": "12",
+"k": "73263156|225|total=162.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "KK Krka Novo Mesto vs HKK Siroki",
+"lg": "International - Liga ABA",
+"pick": "Over 147.5 total points",
+"odds": 1.21,
+"why": "expected KK Krka Novo Mesto 84 \u2013 HKK Siroki 78 (last 10/10 games, home edge included); 79% by the stats, 79% with the price",
+"ts": 1794598200.0,
+"eid": "sr:match:74131768",
+"mid": "225",
+"spec": "total=147.5",
+"oid": "12",
+"k": "74131768|225|total=147.5|12"
+},
+{
+"t": "Fri 21:30",
+"game": "Vitoria Sport Clube vs FC Porto",
+"lg": "Portugal - LPB",
+"pick": "Under 178.5 total points",
+"odds": 1.22,
+"why": "expected Vitoria Sport Clube 81 \u2013 FC Porto 83 (last 10/10 games, home edge included); 79% by the stats, 78% with the price",
+"ts": 1794601800.0,
+"eid": "sr:match:72971434",
+"mid": "225",
+"spec": "total=178.5",
+"oid": "13",
+"k": "72971434|225|total=178.5|13"
+},
+{
+"t": "Fri 23:30",
+"game": "Cruzeiro Basquete vs Unifacisa",
+"lg": "Brazil - NBB",
+"pick": "Under 172.5 total points",
+"odds": 1.23,
+"why": "expected Cruzeiro Basquete 77 \u2013 Unifacisa 76 (last 10/10 games, home edge included); 86% by the stats, 81% with the price",
+"ts": 1794609000.0,
+"eid": "sr:match:74320754",
+"mid": "225",
+"spec": "total=172.5",
+"oid": "13",
+"k": "74320754|225|total=172.5|13"
+},
+{
+"t": "Fri 23:30",
+"game": "Sao Jose dos Campos vs CA Paulistano SP",
+"lg": "Brazil - NBB",
+"pick": "Under 170.5 total points",
+"odds": 1.24,
+"why": "expected Sao Jose dos Campos 79 \u2013 CA Paulistano SP 75 (last 10/10 games, home edge included); 82% by the stats, 79% with the price",
+"ts": 1794609000.0,
+"eid": "sr:match:74320756",
+"mid": "225",
+"spec": "total=170.5",
+"oid": "13",
+"k": "74320756|225|total=170.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 10:18",
 "at": 1794561520,
 "req": {
@@ -4792,102 +5031,5 @@
 },
 "ok": false,
 "msg": "3 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 10 legs is 1.78 odds. Lower the target, allow more legs, or try again in a few minutes."
-},
-{
-"when": "Thu 12 Nov 18:07",
-"at": 1794503233,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwdsvuh20ebw"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "RHH5AG",
-"odds": 2.08,
-"legs": [
-{
-"t": "Thu 17:00",
-"game": "Italy vs Portugal",
-"lg": "International Youth - U20 Friendly Games",
-"pick": "Handicap 0:3 \u2013 Portugal",
-"odds": 1.07,
-"why": "LIVE 1-0 45': Italy expected 0.6 and Portugal 1.1 more goals (last 10); 1-0 at 45' \u2013 94% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 8 meetings",
-"ts": 1794499200.0,
-"eid": "sr:match:76558294",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76558294|14|hcp=0:3|1713"
-},
-{
-"t": "Thu 17:00",
-"game": "Congo DR vs Sierra Leone",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:5 \u2013 Sierra Leone",
-"odds": 1.1,
-"why": "LIVE 2-0 47': Congo DR expected 0.8 and Sierra Leone 0.7 more goals (last 10); 2-0 at 47' \u2013 94% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1794499200.0,
-"eid": "sr:match:75802264",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75802264|14|hcp=0:5|1713"
-},
-{
-"t": "Thu 17:00",
-"game": "Equatorial Guinea vs Zimbabwe",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Zimbabwe Under 1.5",
-"odds": 1.07,
-"why": "LIVE 0-0 45': Equatorial Guinea expected 0.6 and Zimbabwe 0.6 more goals (last 10); 0-0 at 45' \u2013 85% chance",
-"ts": 1794499200.0,
-"eid": "sr:match:75802266",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "75802266|20|total=1.5|13"
-},
-{
-"t": "Thu 17:00",
-"game": "Tritones Vallarta MFC vs H2O Purepechas FC",
-"lg": "Mexico - Liga Primera Premier",
-"pick": "GG \u2013 No",
-"odds": 1.28,
-"why": "LIVE 0-0 45': Tritones Vallarta MFC expected 0.5 and H2O Purepechas FC 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 86% chance",
-"ts": 1794499200.0,
-"eid": "sr:match:76708846",
-"mid": "29",
-"spec": "",
-"oid": "76",
-"k": "76708846|29||76"
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"lg": "International Clubs - UEFA Europa Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.3,
-"why": "LIVE 0-0 6': SCU Torreense expected 1.9 and Sparta Prague 2.1 more goals (last 10); 0-0 at 6' \u2013 88% chance; Flashscore home/away form 80%",
-"ts": 1794502800.0,
-"eid": "sr:match:75233062",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75233062|18|total=1.5|12"
-}
-]
-}
-]
 }
 ]
