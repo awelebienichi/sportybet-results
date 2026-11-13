@@ -35,7 +35,10 @@
 "game": "Tanta FC vs La Viena FC",
 "pick": "Tanta FC Under 2.5",
 "odds": 1.16,
-"ts": 1794573000.0
+"ts": 1794573000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 13:35",
@@ -1214,7 +1217,10 @@
 "game": "Shillong Lajong FC vs Sreenidi Deccan FC",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.23,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:30",
@@ -1794,7 +1800,10 @@
 "game": "Shillong Lajong FC vs Sreenidi Deccan FC",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.23,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:30",
@@ -2384,7 +2393,10 @@
 "game": "Shillong Lajong FC vs Sreenidi Deccan FC",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794574800.0
+"ts": 1794574800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
