@@ -64,7 +64,7 @@
 "when": "Fri 13 Nov 20:55",
 "kind": "live \u2013 best of all",
 "odds": 1.34,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:30",
@@ -101,7 +101,10 @@
 "game": "Montevideo City Torque vs Racing Club Montevideo",
 "pick": "Montevideo City Torque or Racing Club Montevideo",
 "odds": 1.03,
-"ts": 1794598200.0
+"ts": 1794598200.0,
+"r": "L",
+"sc": "2-2",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
