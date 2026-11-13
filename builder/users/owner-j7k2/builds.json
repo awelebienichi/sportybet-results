@@ -1,5 +1,47 @@
 [
 {
+"when": "Fri 13 Nov 09:08",
+"at": 1794557324,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwep38usomlz"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "PRJF1F",
+"odds": 1.08,
+"legs": [
+{
+"t": "Fri 08:00",
+"game": "Lemi Kura SC vs Ethiopian Sports Academy",
+"lg": "Ethiopia - Higher League, Women",
+"pick": "Lemi Kura SC or Ethiopian Sports Academy",
+"odds": 1.08,
+"why": "LIVE 1-0 50': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1794553200.0,
+"eid": "sr:match:76679404",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76679404|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 08:35",
 "at": 1794555341,
 "req": {
@@ -4939,151 +4981,6 @@
 "spec": "hcp=0:5",
 "oid": "1713",
 "k": "75802264|14|hcp=0:5|1713"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 16:54",
-"at": 1794498883,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 20,
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "normal",
-"rid": "mwdqan7531kc"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Only 8 basketball games passed the checks (Thu 12, Fri 13, Sat 14, Sun 15, 89 judged), so the ticket has 8 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "K3VHW7",
-"odds": 7.55,
-"legs": [
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"lg": "International - FIBA Europe Cup",
-"pick": "Over 143.5 total points",
-"odds": 1.21,
-"why": "expected Kk Parnu 79 \u2013 Keravnos Strovolou Nicosia 81 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; Flashscore home/away form 85%",
-"ts": 1794502800.0,
-"eid": "sr:match:75200582",
-"mid": "225",
-"spec": "total=143.5",
-"oid": "12",
-"k": "75200582|225|total=143.5|12"
-},
-{
-"t": "Thu 20:00",
-"game": "Skyliners Frankfurt vs Maxima Roma",
-"lg": "International - Eurocup",
-"pick": "Under 186.5 total points",
-"odds": 1.26,
-"why": "expected Skyliners Frankfurt 88 \u2013 Maxima Roma 83 (last 10/10 games, home edge included); 81% by the stats, 78% with the price; Flashscore home/away form 73%",
-"ts": 1794510000.0,
-"eid": "sr:match:72902308",
-"mid": "225",
-"spec": "total=186.5",
-"oid": "13",
-"k": "72902308|225|total=186.5|13"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"lg": "International - Euroleague",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"why": "expected Maccabi Tel-Aviv 88 \u2013 Hapoel Tel-Aviv 90 (last 10/10 games, home edge included); 82% by the stats, 79% with the price; Flashscore home/away form 80%",
-"ts": 1794510300.0,
-"eid": "sr:match:73263142",
-"mid": "225",
-"spec": "total=194.5",
-"oid": "13",
-"k": "73263142|225|total=194.5|13"
-},
-{
-"t": "Thu 20:15",
-"game": "BC Olympiakos Piraeus vs Dubai Basketball",
-"lg": "International - Euroleague",
-"pick": "Over 153.5 total points",
-"odds": 1.22,
-"why": "expected BC Olympiakos Piraeus 86 \u2013 Dubai Basketball 83 (last 10/10 games, home edge included); 81% by the stats, 79% with the price",
-"ts": 1794510900.0,
-"eid": "sr:match:73263144",
-"mid": "225",
-"spec": "total=153.5",
-"oid": "12",
-"k": "73263144|225|total=153.5|12"
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"lg": "International - Euroleague",
-"pick": "Under 196.5 total points",
-"odds": 1.24,
-"why": "expected Valencia Basket 92 \u2013 Bayern Munich 86 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 80%",
-"ts": 1794511800.0,
-"eid": "sr:match:73263148",
-"mid": "225",
-"spec": "total=196.5",
-"oid": "13",
-"k": "73263148|225|total=196.5|13"
-},
-{
-"t": "Fri 00:00",
-"game": "UMBC Retrievers vs Morgan State Bears",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Under 171.5 total points",
-"odds": 1.44,
-"why": "expected UMBC Retrievers 78 \u2013 Morgan State Bears 73 (last 10/10 games, home edge included); 88% by the stats, 77% with the price; Flashscore home/away form 95%",
-"ts": 1794524400.0,
-"eid": "sr:match:74103876",
-"mid": "225",
-"spec": "total=171.5",
-"oid": "13",
-"k": "74103876|225|total=171.5|13"
-},
-{
-"t": "Fri 00:30",
-"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Under 176.5 total points",
-"odds": 1.42,
-"why": "expected Indiana Hoosiers 75 \u2013 Tennessee Tech Golden Eagles 73 (last 10/10 games, home edge included); 94% by the stats, 80% with the price; Flashscore home/away form 95%",
-"ts": 1794526200.0,
-"eid": "sr:match:74064592",
-"mid": "225",
-"spec": "total=176.5",
-"oid": "13",
-"k": "74064592|225|total=176.5|13"
-},
-{
-"t": "Fri 01:00",
-"game": "Washington Wizards vs Detroit Pistons",
-"lg": "USA - NBA",
-"pick": "Under 233.5 total points",
-"odds": 1.27,
-"why": "expected Washington Wizards 106 \u2013 Detroit Pistons 111 (last 10/10 games, home edge included, Washington Wizards on 2nd game in 2 days); 82% by the stats, 78% with the price; Flashscore home/away form 75%, NBA ratings say 219 points",
-"ts": 1794528000.0,
-"eid": "sr:match:73719628",
-"mid": "225",
-"spec": "total=233.5",
-"oid": "13",
-"k": "73719628|225|total=233.5|13"
 }
 ]
 }
