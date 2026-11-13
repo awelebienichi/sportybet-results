@@ -7,14 +7,17 @@
 "when": "Fri 13 Nov 19:18",
 "kind": "live \u2013 another goal coming",
 "odds": 1.06,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "Albania vs Luxembourg",
 "pick": "Over 1.5",
 "odds": 1.06,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },

@@ -889,7 +889,10 @@
 "game": "KS Polonia Nysa vs KS Gornik Polkowice",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -927,7 +930,10 @@
 "game": "Albania vs Luxembourg",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.22,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -1218,7 +1224,10 @@
 "game": "Spain vs Japan",
 "pick": "1st half Over 0.5",
 "odds": 1.26,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -1616,7 +1625,10 @@
 "game": "KS Polonia Nysa vs KS Gornik Polkowice",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -2012,7 +2024,10 @@
 "game": "Albania vs Luxembourg",
 "pick": "1st half GG \u2013 No",
 "odds": 1.22,
-"ts": 1794592800.0
+"ts": 1794592800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
