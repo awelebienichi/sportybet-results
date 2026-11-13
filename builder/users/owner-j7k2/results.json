@@ -101,7 +101,10 @@
 "game": "Norway vs Poland",
 "pick": "Handicap 0:2 \u2013 Poland",
 "odds": 1.03,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 17:30",
@@ -664,7 +667,10 @@
 "game": "Norway vs Poland",
 "pick": "Norway excluded goals: 2",
 "odds": 1.27,
-"ts": 1794587400.0
+"ts": 1794587400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 18:00",
