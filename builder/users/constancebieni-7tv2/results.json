@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "PJ6VJJ",
+"at": 1794575493,
+"when": "Fri 13 Nov 14:11",
+"kind": "live \u2013 best of all",
+"odds": 1.25,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"pick": "KF Tefik Canga Under 3.5",
+"odds": 1.03,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:00",
+"game": "ACS Kids Tampa Brasov vs Cso Baicoi",
+"pick": "Cso Baicoi to win",
+"odds": 1.03,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 13:25",
+"game": "Afief vs AL Rayan",
+"pick": "AL Rayan or draw",
+"odds": 1.03,
+"ts": 1794572700.0
+},
+{
+"t": "Fri 14:00",
+"game": "Zambia vs Burundi",
+"pick": "Handicap 0:3 \u2013 Burundi",
+"odds": 1.09,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Comoros vs Congo",
+"pick": "Handicap 0:3 \u2013 Congo",
+"odds": 1.06,
+"ts": 1794574800.0
+}
+]
+},
+{
 "code": "YATREM",
 "at": 1794573135,
 "when": "Fri 13 Nov 13:32",
