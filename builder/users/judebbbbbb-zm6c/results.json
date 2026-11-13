@@ -521,7 +521,7 @@
 "when": "Fri 13 Nov 04:25",
 "kind": "safest market per game",
 "odds": 11.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 14:00",
@@ -608,7 +608,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "1st half double chance Gibraltar or draw",
 "odds": 1.51,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
@@ -679,7 +682,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "1st half double chance Gibraltar or draw",
 "odds": 1.51,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 }
 ]
 },
@@ -766,7 +772,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "1st half double chance Gibraltar or draw",
 "odds": 1.51,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",

@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VD2NFR",
+"at": 1794602114,
+"when": "Fri 13 Nov 21:35",
+"kind": "half-time draw",
+"odds": 82.07,
+"status": "open",
+"legs": [
+{
+"t": "Sat 12:00",
+"game": "RCD Espanyol Barcelona vs CD Tenerife",
+"pick": "Half-time draw",
+"odds": 2.0,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Sks Unia Swarzedz vs Gedania Gdansk",
+"pick": "Half-time draw",
+"odds": 2.5,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bronshoj BK vs Vanloese IF",
+"pick": "Half-time draw",
+"odds": 2.2,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 19:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"pick": "Half-time draw",
+"odds": 1.86,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 20:00",
+"game": "CA Temperley vs Club Ciudad de Bolivar",
+"pick": "Half-time draw",
+"odds": 1.91,
+"ts": 1794682800.0
+}
+]
+},
+{
 "code": "RCM493",
 "at": 1794601905,
 "when": "Fri 13 Nov 21:31",
@@ -1543,9 +1595,9 @@
 "pick": "1st half GG \u2013 No",
 "odds": 1.28,
 "ts": 1794599100.0,
-"r": "L",
-"sc": "3-1",
-"ht": ""
+"r": "W",
+"sc": "5-0",
+"ht": "5-0"
 },
 {
 "t": "Sat 00:00",
@@ -2921,7 +2973,7 @@
 "when": "Fri 13 Nov 15:05",
 "kind": "safest market per game",
 "odds": 29.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -3085,7 +3137,10 @@
 "game": "Andorra vs Gibraltar",
 "pick": "1st half double chance Gibraltar or draw",
 "odds": 1.51,
-"ts": 1794599100.0
+"ts": 1794599100.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
