@@ -94,7 +94,10 @@
 "game": "Al Hedod SC vs AL Hashd AL Shade",
 "pick": "Under 2.5",
 "odds": 1.04,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 12:00",
@@ -180,7 +183,10 @@
 "game": "Al Hedod SC vs AL Hashd AL Shade",
 "pick": "Under 2.5",
 "odds": 1.06,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 12:00",
@@ -259,7 +265,7 @@
 "when": "Fri 13 Nov 12:59",
 "kind": "live \u2013 best of all",
 "odds": 1.19,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 12:00",
@@ -276,7 +282,10 @@
 "game": "Al Hedod SC vs AL Hashd AL Shade",
 "pick": "Handicap 2:0 \u2013 Al Hedod SC",
 "odds": 1.04,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 12:00",
@@ -296,14 +305,17 @@
 "when": "Fri 13 Nov 12:53",
 "kind": "live \u2013 best of all",
 "odds": 1.04,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 12:00",
 "game": "Al Hedod SC vs AL Hashd AL Shade",
 "pick": "Handicap 2:0 \u2013 Al Hedod SC",
 "odds": 1.04,
-"ts": 1794567600.0
+"ts": 1794567600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
