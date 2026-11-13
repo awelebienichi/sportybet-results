@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PXNL5F",
+"at": 1794579371,
+"when": "Fri 13 Nov 15:16",
+"kind": "live \u2013 best of all",
+"odds": 4.41,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:30",
+"game": "CRT-23 U20 vs Boca Junior PA U20",
+"pick": "Boca Junior PA U20 to win",
+"odds": 1.03,
+"ts": 1794573000.0
+},
+{
+"t": "Fri 13:30",
+"game": "Haras El Hodood vs El Dakhleya Sc",
+"pick": "Haras El Hodood or El Dakhleya Sc",
+"odds": 1.06,
+"ts": 1794573000.0
+},
+{
+"t": "Fri 13:30",
+"game": "Maleyat Kafr El Zayat vs Team FC Cairo",
+"pick": "Maleyat Kafr El Zayat or Team FC Cairo",
+"odds": 1.14,
+"ts": 1794573000.0
+},
+{
+"t": "Fri 13:30",
+"game": "Tanta FC vs La Viena FC",
+"pick": "Tanta FC Under 2.5",
+"odds": 1.16,
+"ts": 1794573000.0
+},
+{
+"t": "Fri 13:35",
+"game": "Levels FC vs Gezira SC",
+"pick": "Levels FC or Gezira SC",
+"odds": 1.03,
+"ts": 1794573300.0
+},
+{
+"t": "Fri 13:40",
+"game": "Ajman U19 vs AL Ittihad Kalba U19",
+"pick": "Ajman U19 or AL Ittihad Kalba U19",
+"odds": 1.05,
+"ts": 1794573600.0
+},
+{
+"t": "Fri 13:40",
+"game": "Shabab AL Ahli Dubai Club vs AL Jazira (Uae)",
+"pick": "Shabab AL Ahli Dubai Club or draw",
+"odds": 1.08,
+"ts": 1794573600.0
+},
+{
+"t": "Fri 13:45",
+"game": "Bani Yas FC U19 vs Al Fath U19",
+"pick": "Bani Yas FC U19 or Al Fath U19",
+"odds": 1.08,
+"ts": 1794573900.0
+},
+{
+"t": "Fri 14:00",
+"game": "Venda Nova FC MG vs Betim Futebol MG",
+"pick": "Betim Futebol MG Under 3.5",
+"odds": 1.05,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Zambia vs Burundi",
+"pick": "Handicap 0:2 \u2013 Burundi",
+"odds": 1.07,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Comoros vs Congo",
+"pick": "Under 2.5",
+"odds": 1.04,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
+"pick": "Sreenidi Deccan FC Under 1.5",
+"odds": 1.05,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Black Sailor FC vs Uhamiaji",
+"pick": "Uhamiaji or draw",
+"odds": 1.06,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Ponte Nova U20 vs Trabalhistas U20",
+"pick": "Ponte Nova U20 or Trabalhistas U20",
+"odds": 1.06,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "NK Varazdin vs NK Maribor",
+"pick": "NK Maribor Under 2.5",
+"odds": 1.07,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Mozambique vs Ethiopia",
+"pick": "Mozambique Under 1.5",
+"odds": 1.16,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Montenegro vs Bosnia & Herzegovina",
+"pick": "Bosnia & Herzegovina Under 2.5",
+"odds": 1.2,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 14:30",
+"game": "Irb Sougeur vs GC Mascara",
+"pick": "Irb Sougeur or GC Mascara",
+"odds": 1.03,
+"ts": 1794576600.0
+},
+{
+"t": "Fri 14:30",
+"game": "Bishan Barx FC vs Tengah FC",
+"pick": "Tengah FC or draw",
+"odds": 1.06,
+"ts": 1794576600.0
+},
+{
+"t": "Fri 14:30",
+"game": "MC Saida vs WAB Tissemessilt",
+"pick": "Handicap 0:3 \u2013 WAB Tissemessilt",
+"odds": 1.08,
+"ts": 1794576600.0
+}
+]
+},
+{
 "code": "SPWJX9",
 "at": 1794578986,
 "when": "Fri 13 Nov 15:09",
