@@ -1,7 +1,7 @@
 [
 {
-"when": "Fri 13 Nov 13:05",
-"at": 1794571526,
+"when": "Fri 13 Nov 13:32",
+"at": 1794573140,
 "req": {
 "u": "constancebieni-7tv2",
 "name": "Constance Bienichi",
@@ -14,64 +14,105 @@
 "ok": true,
 "kind": "live \u2013 best of all",
 "note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 6).",
 "Normal safety: in testing about 88 in 100 such legs came true.",
 "Live odds move fast \u2013 load the code on SportyBet straight away."
 ],
 "tickets": [
 {
-"code": "HQK3GB",
-"odds": 1.52,
+"code": "YATREM",
+"odds": 1.4,
 "legs": [
 {
 "t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
+"game": "AL Peshmerga vs Al-Qasim SC",
 "lg": "Iraq - Premier Division League",
-"pick": "Handicap 2:0 \u2013 Al Hedod SC",
-"odds": 1.04,
-"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
+"pick": "Handicap 0:5 \u2013 Al-Qasim SC",
+"odds": 1.05,
+"why": "LIVE 3-0 67': no team stats for this game \u2013 SportyBet's own price says 90%",
 "ts": 1794567600.0,
-"eid": "sr:match:76712262",
+"eid": "sr:match:76712264",
 "mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76712262|14|hcp=2:0|1711"
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "76712264|14|hcp=0:5|1713"
 },
 {
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"t": "Fri 12:30",
+"game": "Turun Palloseura vs Tampereen Ilves",
 "lg": "International Clubs - Club Friendly Games",
-"pick": "Handicap 0:2 \u2013 NK Slaven Belupo",
-"odds": 1.07,
-"why": "LIVE 1-1 52': Nafta 1903 Lendava expected 0.7 and NK Slaven Belupo 0.8 more goals (last 10); 1-1 at 52' \u2013 90% chance",
-"ts": 1794567600.0,
-"eid": "sr:match:76741202",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76741202|14|hcp=0:2|1713"
+"pick": "Tampereen Ilves or draw",
+"odds": 1.05,
+"why": "LIVE 0-1 45': Turun Palloseura expected 0.5 and Tampereen Ilves 0.8 more goals (last 10); 0-1 at 45' \u2013 94% chance",
+"ts": 1794569400.0,
+"eid": "sr:match:76558028",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76558028|10||11"
 },
 {
 "t": "Fri 13:00",
-"game": "FK Drina Zvornik vs Velez Nevesinje",
-"lg": "Bosnia and Herzegovina - Prva Liga, Rep of Srpska",
-"pick": "Handicap 0:4 \u2013 Velez Nevesinje",
-"odds": 1.37,
-"why": "LIVE 0-0 7': FK Drina Zvornik expected 2.0 and Velez Nevesinje 0.9 more goals (last 10 + season); 0-0 at 7' \u2013 90% chance; margin record 90% / 90% in both sides' last games, h2h 88% of 8 meetings",
+"game": "KF Tefik Canga vs KF Vjosa",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Handicap 0:3 \u2013 KF Vjosa",
+"odds": 1.12,
+"why": "LIVE 0-0 31': KF Tefik Canga expected 0.6 and KF Vjosa 0.8 more goals (last 10 + season); 0-0 at 31' \u2013 98% chance; margin record 100% / 100% in both sides' last games",
 "ts": 1794571200.0,
-"eid": "sr:match:74173846",
+"eid": "sr:match:76679008",
 "mid": "14",
-"spec": "hcp=0:4",
+"spec": "hcp=0:3",
 "oid": "1713",
-"k": "74173846|14|hcp=0:4|1713"
+"k": "76679008|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "ASC Otelul Galati II vs ACS Progresul Fundulea",
+"lg": "Romania - Liga 3",
+"pick": "ASC Otelul Galati II or ACS Progresul Fundulea",
+"odds": 1.04,
+"why": "LIVE 0-1 30': ASC Otelul Galati II expected 0.8 and ACS Progresul Fundulea 1.8 more goals (last 10 + season); 0-1 at 30' \u2013 89% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74087424",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74087424|10||10"
+},
+{
+"t": "Fri 13:00",
+"game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
+"lg": "Romania - Liga 3",
+"pick": "CSC Ghiroda SI Giarmata Vii or draw",
+"odds": 1.07,
+"why": "LIVE 0-1 31': CSO Cugir expected 0.8 and CSC Ghiroda SI Giarmata Vii 1.1 more goals (last 10 + season); 0-1 at 31' \u2013 90% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74089496",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "74089496|10||11"
+},
+{
+"t": "Fri 13:00",
+"game": "LKS Goczalkowice-Zdroj vs KS Stilon Gorzow Wlkp",
+"lg": "Poland - III Liga, Group 3",
+"pick": "LKS Goczalkowice-Zdroj or draw",
+"odds": 1.03,
+"why": "LIVE 1-0 27': LKS Goczalkowice-Zdroj expected 1.2 and KS Stilon Gorzow Wlkp 1.0 more goals (last 10 + season); 1-0 at 27' \u2013 86% chance; Flashscore home/away form 75%",
+"ts": 1794571200.0,
+"eid": "sr:match:72516774",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72516774|10||9"
 }
 ]
 }
 ]
 },
 {
-"when": "Fri 13 Nov 12:58",
-"at": 1794571121,
+"when": "Fri 13 Nov 13:32",
+"at": 1794573135,
 "req": {
 "u": "constancebieni-7tv2",
 "name": "Constance Bienichi",
@@ -84,42 +125,97 @@
 "ok": true,
 "kind": "live \u2013 best of all",
 "note": [
-"Only 2 live leg(s) were strong enough right now (you asked for 6).",
 "Normal safety: in testing about 88 in 100 such legs came true.",
 "Live odds move fast \u2013 load the code on SportyBet straight away."
 ],
 "tickets": [
 {
-"code": "HTTWFB",
-"odds": 1.08,
+"code": "YATREM",
+"odds": 1.42,
 "legs": [
 {
 "t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Nafta 1903 Lendava Under 3.5",
-"odds": 1.04,
-"why": "LIVE 1-1 45': Nafta 1903 Lendava expected 0.8 and NK Slaven Belupo 1.0 more goals (last 10); 1-1 at 45' \u2013 93% chance; goals record 100% / 90% in both sides' last games",
+"game": "AL Peshmerga vs Al-Qasim SC",
+"lg": "Iraq - Premier Division League",
+"pick": "Handicap 0:5 \u2013 Al-Qasim SC",
+"odds": 1.06,
+"why": "LIVE 3-0 67': no team stats for this game \u2013 SportyBet's own price says 89%",
 "ts": 1794567600.0,
-"eid": "sr:match:76741202",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76741202|19|total=3.5|13"
+"eid": "sr:match:76712264",
+"mid": "14",
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "76712264|14|hcp=0:5|1713"
 },
 {
-"t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
-"lg": "Iraq - Premier Division League",
-"pick": "Handicap 2:0 \u2013 Al Hedod SC",
-"odds": 1.04,
-"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
-"ts": 1794567600.0,
-"eid": "sr:match:76712262",
+"t": "Fri 12:30",
+"game": "Turun Palloseura vs Tampereen Ilves",
+"lg": "International Clubs - Club Friendly Games",
+"pick": "Tampereen Ilves or draw",
+"odds": 1.05,
+"why": "LIVE 0-1 45': Turun Palloseura expected 0.5 and Tampereen Ilves 0.8 more goals (last 10); 0-1 at 45' \u2013 94% chance",
+"ts": 1794569400.0,
+"eid": "sr:match:76558028",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76558028|10||11"
+},
+{
+"t": "Fri 13:00",
+"game": "KF Tefik Canga vs KF Vjosa",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Handicap 0:3 \u2013 KF Vjosa",
+"odds": 1.12,
+"why": "LIVE 0-0 31': KF Tefik Canga expected 0.6 and KF Vjosa 0.8 more goals (last 10 + season); 0-0 at 31' \u2013 98% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1794571200.0,
+"eid": "sr:match:76679008",
 "mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76712262|14|hcp=2:0|1711"
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76679008|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "ASC Otelul Galati II vs ACS Progresul Fundulea",
+"lg": "Romania - Liga 3",
+"pick": "ASC Otelul Galati II or ACS Progresul Fundulea",
+"odds": 1.04,
+"why": "LIVE 0-1 30': ASC Otelul Galati II expected 0.8 and ACS Progresul Fundulea 1.8 more goals (last 10 + season); 0-1 at 30' \u2013 89% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74087424",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74087424|10||10"
+},
+{
+"t": "Fri 13:00",
+"game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
+"lg": "Romania - Liga 3",
+"pick": "CSC Ghiroda SI Giarmata Vii or draw",
+"odds": 1.07,
+"why": "LIVE 0-1 31': CSO Cugir expected 0.8 and CSC Ghiroda SI Giarmata Vii 1.1 more goals (last 10 + season); 0-1 at 31' \u2013 90% chance",
+"ts": 1794571200.0,
+"eid": "sr:match:74089496",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "74089496|10||11"
+},
+{
+"t": "Fri 13:00",
+"game": "LKS Goczalkowice-Zdroj vs KS Stilon Gorzow Wlkp",
+"lg": "Poland - III Liga, Group 3",
+"pick": "LKS Goczalkowice-Zdroj or draw",
+"odds": 1.03,
+"why": "LIVE 1-0 27': LKS Goczalkowice-Zdroj expected 1.2 and KS Stilon Gorzow Wlkp 1.0 more goals (last 10 + season); 1-0 at 27' \u2013 86% chance; Flashscore home/away form 75%",
+"ts": 1794571200.0,
+"eid": "sr:match:72516774",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72516774|10||9"
 }
 ]
 }
