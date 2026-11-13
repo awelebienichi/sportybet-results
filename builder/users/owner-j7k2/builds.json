@@ -1,5 +1,25 @@
 [
 {
+"when": "Fri 13 Nov 17:45",
+"at": 1794588314,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "u25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwf7jnkenp44"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Fri 13) out of 81 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Fri 13 Nov 17:44",
 "at": 1794588273,
 "req": {
@@ -8349,49 +8369,5 @@
 },
 "ok": false,
 "msg": "2 basketball games are in play, but none has enough recent results for both teams to judge."
-},
-{
-"when": "Fri 13 Nov 07:18",
-"at": 1794550712,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "quarter",
-"legs": 15,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"rid": "mwel5hsbrjse"
-},
-"ok": true,
-"kind": "basketball \u2013 quarter total points",
-"note": [
-"Only 1 basketball games passed the checks (Fri 13, 104 judged), so the ticket has 1 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "SFB5SR",
-"odds": 1.39,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "BK Vejen81 vs Bakken Bears",
-"lg": "Denmark - Basketligaen",
-"pick": "Bakken Bears Q1 Under 29.5 points",
-"odds": 1.39,
-"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
-"ts": 1794592800.0,
-"eid": "sr:match:72663212",
-"mid": "757",
-"spec": "total=29.5|quarternr=1",
-"oid": "13",
-"k": "72663212|757|total=29.5|quarternr=1|13"
-}
-]
-}
-]
 }
 ]
