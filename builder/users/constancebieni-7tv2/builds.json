@@ -1,5 +1,28 @@
 [
 {
+"when": "Fri 13 Nov 23:17",
+"at": 1794608238,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"gb25"
+],
+"rid": "mwfje1921sq3"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for your chosen markets (Fri 13) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Fri 13 Nov 22:50",
 "at": 1794606651,
 "req": {
@@ -4151,98 +4174,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "73075396|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Wed 11 Nov 14:14",
-"at": 1794402893,
-"req": {
-"type": "rollover",
-"legs": 5,
-"rid": "mwc54ybpblqp"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a6100 \u2192 returns \u20a6632 if it wins"
-],
-"tickets": [
-{
-"code": "JD68SH",
-"odds": 6.32,
-"legs": [
-{
-"t": "Wed 18:00",
-"game": "SC Wiedenbruck vs SC Preussen Munster II",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Asian handicap SC Preussen Munster II +1.5",
-"odds": 1.48,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794416400.0,
-"eid": "sr:match:76604662",
-"mid": "16",
-"spec": "hcp=-1.5",
-"oid": "1715",
-"k": "76604662|16|hcp=-1.5|1715"
-},
-{
-"t": "Wed 20:00",
-"game": "Wales vs Finland",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "1st half double chance Finland or draw",
-"odds": 1.3,
-"why": "both teams 80%+ in their own last 10 (home 100%, away 80%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794423600.0,
-"eid": "sr:match:74723372",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "74723372|63||11"
-},
-{
-"t": "Wed 20:00",
-"game": "Barnsley FC vs Oldham Athletic",
-"lg": "England - EFL Trophy",
-"pick": "Asian handicap Oldham Athletic +1.5",
-"odds": 1.48,
-"why": "both teams 80%+ in their own last 10 (home 90%, away 80%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794423600.0,
-"eid": "sr:match:73787338",
-"mid": "16",
-"spec": "hcp=-1.5",
-"oid": "1715",
-"k": "73787338|16|hcp=-1.5|1715"
-},
-{
-"t": "Wed 20:00",
-"game": "Sheffield Wednesday vs Accrington Stanley",
-"lg": "England - EFL Trophy",
-"pick": "Asian handicap Accrington Stanley +1.5",
-"odds": 1.48,
-"why": "both teams 80%+ in their own last 10 (home 80%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794423600.0,
-"eid": "sr:match:73661140",
-"mid": "16",
-"spec": "hcp=-1.5",
-"oid": "1715",
-"k": "73661140|16|hcp=-1.5|1715"
-},
-{
-"t": "Wed 20:00",
-"game": "Ontinyent CF vs CD Utiel",
-"lg": "Spain Amateur - Tercera Federacion, Group 6",
-"pick": "Asian handicap CD Utiel +1.5",
-"odds": 1.5,
-"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794423600.0,
-"eid": "sr:match:76527128",
-"mid": "16",
-"spec": "hcp=-1.5",
-"oid": "1715",
-"k": "76527128|16|hcp=-1.5|1715"
 }
 ]
 }
