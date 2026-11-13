@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X2L2KY",
+"at": 1794538171,
+"when": "Fri 13 Nov 03:49",
+"kind": "live \u2013 best of all",
+"odds": 1.04,
+"status": "open",
+"legs": [
+{
+"t": "Fri 02:45",
+"game": "Sonio Takamatsu vs Blancdieu Hirosaki",
+"pick": "Blancdieu Hirosaki to win",
+"odds": 1.04,
+"ts": 1794534300.0
+}
+]
+},
+{
 "code": "UF8HA3",
 "at": 1794527991,
 "when": "Fri 13 Nov 00:59",
