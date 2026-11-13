@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XSFGK3",
+"at": 1794540326,
+"when": "Fri 13 Nov 04:25",
+"kind": "safest market per game",
+"odds": 11.37,
+"status": "open",
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.17,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Ballymena United vs Linfield FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Slovenia vs Switzerland",
+"pick": "1st half double chance Switzerland or draw",
+"odds": 1.16,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "TYQSMZ",
 "at": 1794540212,
 "when": "Fri 13 Nov 04:23",
