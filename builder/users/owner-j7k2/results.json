@@ -422,7 +422,10 @@
 "game": "Oakleigh Cannons vs Marconi Stallions",
 "pick": "Oakleigh Cannons or Marconi Stallions",
 "odds": 1.08,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Fri 09:45",
@@ -466,7 +469,10 @@
 "game": "Cairns Taipans vs Sydney Kings",
 "pick": "Under 206.5 total points",
 "odds": 1.23,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "W",
+"sc": "84-82",
+"ht": "12-29"
 },
 {
 "t": "Fri 11:05",
@@ -615,7 +621,10 @@
 "game": "Cairns Taipans vs Sydney Kings",
 "pick": "Under 206.5 total points",
 "odds": 1.22,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "W",
+"sc": "84-82",
+"ht": "12-29"
 },
 {
 "t": "Fri 11:05",
