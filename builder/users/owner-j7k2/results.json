@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LK82X4",
+"at": 1794568855,
+"when": "Fri 13 Nov 12:20",
+"kind": "live basketball \u2013 game totals",
+"odds": 1.14,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Himeji Egrets vs Aranmare Akita",
+"pick": "Over 111.5 total points",
+"odds": 1.14,
+"ts": 1794564000.0
+}
+]
+},
+{
 "code": "PBFZH6",
 "at": 1794568587,
 "when": "Fri 13 Nov 12:16",
