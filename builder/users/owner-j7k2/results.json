@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YGXW0U",
+"at": 1794588442,
+"when": "Fri 13 Nov 17:47",
+"kind": "basketball \u2013 total points",
+"odds": 54.16,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "MKS Start Lublin vs GTK Gliwice",
+"pick": "Over 147.5 total points",
+"odds": 1.21,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Kufstein Towers vs Swans Gmunden",
+"pick": "Under 183.5 total points",
+"odds": 1.22,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"pick": "Under 191.5 total points",
+"odds": 1.22,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SKN St. Polten Basketball vs Flyers Wels",
+"pick": "Over 149.5 total points",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:00",
+"game": "BC Vienna vs BK Dukes Klosterneuburg",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"pick": "Over 158.5 total points",
+"odds": 1.23,
+"ts": 1794597300.0
+},
+{
+"t": "Fri 20:30",
+"game": "KK Krka Novo Mesto vs HKK Siroki",
+"pick": "Over 145.5 total points",
+"odds": 1.2,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 23:30",
+"game": "Cruzeiro Basquete vs Unifacisa",
+"pick": "Under 172.5 total points",
+"odds": 1.23,
+"ts": 1794609000.0
+},
+{
+"t": "Sat 00:00",
+"game": "Ferro Carril Oeste vs Penarol Mar Del Plata",
+"pick": "Under 177.5 total points",
+"odds": 1.25,
+"ts": 1794610800.0
+},
+{
+"t": "Sat 02:00",
+"game": "Chicago Bulls vs Atlanta Hawks",
+"pick": "Under 259.5 total points",
+"odds": 1.26,
+"ts": 1794618000.0
+},
+{
+"t": "Sat 04:00",
+"game": "Sacramento Kings vs Portland Trail Blazers",
+"pick": "Over 215.5 total points",
+"odds": 1.24,
+"ts": 1794625200.0
+},
+{
+"t": "Sat 07:05",
+"game": "Yokohama B-Corsairs vs Shiga Lakestars",
+"pick": "Over 151.5 total points",
+"odds": 1.21,
+"ts": 1794636300.0
+},
+{
+"t": "Sat 08:30",
+"game": "Samsung Thunders vs Anyang Jungkwanjang Red Boosters",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794641400.0
+},
+{
+"t": "Sat 09:30",
+"game": "Melbourne United vs SE Melbourne Phoenix",
+"pick": "Under 213.5 total points",
+"odds": 1.22,
+"ts": 1794645000.0
+},
+{
+"t": "Sat 12:00",
+"game": "FC Universitatea Cluj vs KD Ilirija",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Twarde Pierniki Torun vs Trefl Sopot",
+"pick": "Over 160.5 total points",
+"odds": 1.2,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"pick": "Under 185.5 total points",
+"odds": 1.23,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:30",
+"game": "Promitheas Patras BC vs Iraklis 2022",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1794673800.0
+}
+]
+},
+{
 "code": "PEJ3RC",
 "at": 1794588273,
 "when": "Fri 13 Nov 17:44",
