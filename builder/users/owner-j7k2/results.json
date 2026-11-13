@@ -27,7 +27,7 @@
 "when": "Fri 13 Nov 18:33",
 "kind": "live \u2013 best of all",
 "odds": 4.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -168,21 +168,30 @@
 "game": "Moldova vs Kazakhstan",
 "pick": "Handicap 0:2 \u2013 Kazakhstan",
 "odds": 1.12,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:00",
 "game": "KS Wisloka Debica vs MKS Czarni Polaniec",
 "pick": "Handicap 2:0 \u2013 KS Wisloka Debica",
 "odds": 1.15,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-4",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
 "game": "SK Sturm Graz vs First Vienna FC 1894",
 "pick": "Handicap 0:3 \u2013 First Vienna FC 1894",
 "odds": 1.22,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-1"
 }
 ]
 },
@@ -698,7 +707,10 @@
 "game": "Moldova vs Kazakhstan",
 "pick": "Handicap 0:2 \u2013 Kazakhstan",
 "odds": 1.19,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:00",
