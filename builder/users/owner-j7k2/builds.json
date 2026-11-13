@@ -1,5 +1,61 @@
 [
 {
+"when": "Fri 13 Nov 06:35",
+"at": 1794548108,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 7,
+"strict": "normal",
+"rid": "mwejlr1utw60"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 7).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "M4TRCQ",
+"odds": 1.12,
+"legs": [
+{
+"t": "Fri 05:30",
+"game": "Veroskronos Tsuno vs Cobaltore Onagawa",
+"lg": "Japan - Regional Football Champions League",
+"pick": "Veroskronos Tsuno or draw",
+"odds": 1.03,
+"why": "LIVE 0-0 46': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794544200.0,
+"eid": "sr:match:76593726",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76593726|10||9"
+},
+{
+"t": "Fri 06:00",
+"game": "FC Ulaanbaatar vs Hunters FC",
+"lg": "Mongolia - Premier League",
+"pick": "FC Ulaanbaatar or draw",
+"odds": 1.09,
+"why": "LIVE 0-0 34': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1794546000.0,
+"eid": "sr:match:76716784",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76716784|10||9"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 06:07",
 "at": 1794546453,
 "req": {
@@ -4643,48 +4699,6 @@
 "spec": "hcp=0:2",
 "oid": "1713",
 "k": "75894688|14|hcp=0:2|1713"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 13:28",
-"at": 1794486539,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 8,
-"strict": "normal",
-"rid": "mwdiy1lvu33e"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 8).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "PBFPDF",
-"odds": 1.14,
-"legs": [
-{
-"t": "Thu 12:00",
-"game": "Hannover 96 vs TSV Havelse",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Hannover 96 Under 7.5",
-"odds": 1.14,
-"why": "LIVE 5-1 63': Hannover 96 expected 0.6 and TSV Havelse 0.5 more goals (last 10); 5-1 at 63' \u2013 96% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794481200.0,
-"eid": "sr:match:76233346",
-"mid": "19",
-"spec": "total=7.5",
-"oid": "13",
-"k": "76233346|19|total=7.5|13"
 }
 ]
 }
