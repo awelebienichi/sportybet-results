@@ -1,5 +1,101 @@
 [
 {
+"when": "Fri 13 Nov 20:06",
+"at": 1794596769,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bblive",
+"kind": "mix",
+"legs": 5,
+"strict": "relaxed",
+"rid": "mwfckoo1c86y"
+},
+"ok": true,
+"kind": "live basketball",
+"note": [
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "VD2MFC",
+"odds": 1.82,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Iserlohn Kangaroos vs Uni Baskets Munster",
+"lg": "Germany - Pro B",
+"pick": "Uni Baskets Munster to win (incl. OT)",
+"odds": 1.05,
+"why": "LIVE 37-49, 23 of 40 min: expected final 71-83; 89% by the stats, 89% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72659986",
+"mid": "219",
+"spec": "",
+"oid": "5",
+"k": "72659986|219||5"
+},
+{
+"t": "Fri 19:00",
+"game": "Eagles Graz vs BBC Nord Dragonz",
+"lg": "Austria - Superliga",
+"pick": "BBC Nord Dragonz to win (incl. OT)",
+"odds": 1.12,
+"why": "LIVE 40-55, 24 of 40 min: expected final 76-90; 93% by the stats, 89% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72653728",
+"mid": "219",
+"spec": "",
+"oid": "5",
+"k": "72653728|219||5"
+},
+{
+"t": "Fri 19:04",
+"game": "Uppsala Basket vs KFUM Umea",
+"lg": "Sweden - SBL",
+"pick": "KFUM Umea to win (incl. OT)",
+"odds": 1.09,
+"why": "LIVE 30-45, 20 of 40 min: expected final 72-86; 90% by the stats, 88% with the price",
+"ts": 1794593040.0,
+"eid": "sr:match:72016386",
+"mid": "219",
+"spec": "",
+"oid": "5",
+"k": "72016386|219||5"
+},
+{
+"t": "Fri 19:30",
+"game": "Homenetmen vs Atlas Ferzol",
+"lg": "Lebanon - First Division",
+"pick": "Homenetmen to win (incl. OT)",
+"odds": 1.18,
+"why": "LIVE 52-39, 19 of 40 min: expected final 102-86; 93% by the stats, 86% with the price",
+"ts": 1794594600.0,
+"eid": "sr:match:76112418",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "76112418|219||4"
+},
+{
+"t": "Fri 19:30",
+"game": "Fraport Skyliners II vs Ahorn Camp Baskets",
+"lg": "Germany - Pro B",
+"pick": "Fraport Skyliners II to win (incl. OT)",
+"odds": 1.12,
+"why": "LIVE 27-17, 15 of 40 min: expected final 76-62; 88% by the stats, 86% with the price",
+"ts": 1794594600.0,
+"eid": "sr:match:72660446",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "72660446|219||4"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 20:04",
 "at": 1794596690,
 "req": {
@@ -8253,286 +8349,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "74063612|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 10:58",
-"at": 1794563895,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "combine",
-"codes": [
-"X83DAC",
-"W8F2DR"
-],
-"rid": "mweszxpn59we"
-},
-"ok": true,
-"kind": "combined X83DAC + W8F2DR",
-"note": [
-"1 leg(s) had already started and were left out.",
-"2 game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip)."
-],
-"tickets": [
-{
-"code": "VLE3VD",
-"odds": 34.67,
-"legs": [
-{
-"t": "Fri 11:05",
-"game": "Levanga Hokkaido vs Kobe Storks",
-"lg": "Japan - B League Premier",
-"pick": "Over/Under (incl. overtime) 198.5 \u2013 Under 198.5",
-"odds": 1.23,
-"why": "from W8F2DR",
-"ts": 1794564300.0,
-"eid": "sr:match:72696298",
-"mid": "225",
-"spec": "total=198.5",
-"oid": "13",
-"k": "72696298|225|total=198.5|13"
-},
-{
-"t": "Fri 11:15",
-"game": "Kyoto Hannaryz vs Ibaraki Robots",
-"lg": "Japan - B League Premier",
-"pick": "Over/Under (incl. overtime) 145.5 \u2013 Over 145.5",
-"odds": 1.21,
-"why": "from W8F2DR",
-"ts": 1794564900.0,
-"eid": "sr:match:72696304",
-"mid": "225",
-"spec": "total=145.5",
-"oid": "12",
-"k": "72696304|225|total=145.5|12"
-},
-{
-"t": "Fri 11:30",
-"game": "Akita Northern Happinets vs Nagoya Diamond Dolphins",
-"lg": "Japan - B League Premier",
-"pick": "Over/Under (incl. overtime) 159.5 \u2013 Over 159.5",
-"odds": 1.19,
-"why": "from X83DAC",
-"ts": 1794565800.0,
-"eid": "sr:match:72696306",
-"mid": "225",
-"spec": "total=159.5",
-"oid": "12",
-"k": "72696306|225|total=159.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "Kufstein Towers vs Swans Gmunden",
-"lg": "Austria - Superliga",
-"pick": "Over/Under (incl. overtime) 183.5 \u2013 Under 183.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794589200.0,
-"eid": "sr:match:72653726",
-"mid": "225",
-"spec": "total=183.5",
-"oid": "13",
-"k": "72653726|225|total=183.5|13"
-},
-{
-"t": "Fri 18:00",
-"game": "MKS Start Lublin vs GTK Gliwice",
-"lg": "Poland - PLK",
-"pick": "Over/Under (incl. overtime) 150.5 \u2013 Over 150.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794589200.0,
-"eid": "sr:match:72676964",
-"mid": "225",
-"spec": "total=150.5",
-"oid": "12",
-"k": "72676964|225|total=150.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "Holbaek-Stenhus vs Copenhagen Basketball",
-"lg": "Denmark - Basketligaen",
-"pick": "Over/Under (incl. overtime) 179.5 \u2013 Under 179.5",
-"odds": 1.23,
-"why": "from X83DAC",
-"ts": 1794591000.0,
-"eid": "sr:match:72663210",
-"mid": "225",
-"spec": "total=179.5",
-"oid": "13",
-"k": "72663210|225|total=179.5|13"
-},
-{
-"t": "Fri 18:30",
-"game": "Anadolu Efes SK vs Virtus Bologna",
-"lg": "International - Euroleague",
-"pick": "Over/Under (incl. overtime) 160.5 \u2013 Over 160.5",
-"odds": 1.21,
-"why": "from W8F2DR",
-"ts": 1794591000.0,
-"eid": "sr:match:73263152",
-"mid": "225",
-"spec": "total=160.5",
-"oid": "12",
-"k": "73263152|225|total=160.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "BK Vejen81 vs Bakken Bears",
-"lg": "Denmark - Basketligaen",
-"pick": "Over/Under (incl. overtime) 191.5 \u2013 Under 191.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794592800.0,
-"eid": "sr:match:72663212",
-"mid": "225",
-"spec": "total=191.5",
-"oid": "13",
-"k": "72663212|225|total=191.5|13"
-},
-{
-"t": "Fri 19:00",
-"game": "SKN St. Polten Basketball vs Flyers Wels",
-"lg": "Austria - Superliga",
-"pick": "Over/Under (incl. overtime) 149.5 \u2013 Over 149.5",
-"odds": 1.21,
-"why": "from X83DAC",
-"ts": 1794592800.0,
-"eid": "sr:match:72653730",
-"mid": "225",
-"spec": "total=149.5",
-"oid": "12",
-"k": "72653730|225|total=149.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "Eagles Graz vs BBC Nord Dragonz",
-"lg": "Austria - Superliga",
-"pick": "Over/Under (incl. overtime) 160.5 \u2013 Over 160.5",
-"odds": 1.21,
-"why": "from X83DAC",
-"ts": 1794592800.0,
-"eid": "sr:match:72653728",
-"mid": "225",
-"spec": "total=160.5",
-"oid": "12",
-"k": "72653728|225|total=160.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "Traiskirchen Lions vs Kapfenberg Bulls",
-"lg": "Austria - Superliga",
-"pick": "Over/Under (incl. overtime) 152.5 \u2013 Over 152.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794592800.0,
-"eid": "sr:match:72653732",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "72653732|225|total=152.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "BC Vienna vs BK Dukes Klosterneuburg",
-"lg": "Austria - Superliga",
-"pick": "Over/Under (incl. overtime) 148.5 \u2013 Over 148.5",
-"odds": 1.21,
-"why": "from X83DAC",
-"ts": 1794596400.0,
-"eid": "sr:match:72653734",
-"mid": "225",
-"spec": "total=148.5",
-"oid": "12",
-"k": "72653734|225|total=148.5|12"
-},
-{
-"t": "Fri 20:15",
-"game": "Panathinaikos BC vs FC Barcelona",
-"lg": "International - Euroleague",
-"pick": "Over/Under (incl. overtime) 158.5 \u2013 Over 158.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794597300.0,
-"eid": "sr:match:73263154",
-"mid": "225",
-"spec": "total=158.5",
-"oid": "12",
-"k": "73263154|225|total=158.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
-"lg": "International - Euroleague",
-"pick": "Over/Under (incl. overtime) 162.5 \u2013 Over 162.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794598200.0,
-"eid": "sr:match:73263156",
-"mid": "225",
-"spec": "total=162.5",
-"oid": "12",
-"k": "73263156|225|total=162.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "KK Krka Novo Mesto vs HKK Siroki",
-"lg": "International - Liga ABA",
-"pick": "Over/Under (incl. overtime) 147.5 \u2013 Over 147.5",
-"odds": 1.21,
-"why": "from X83DAC",
-"ts": 1794598200.0,
-"eid": "sr:match:74131768",
-"mid": "225",
-"spec": "total=147.5",
-"oid": "12",
-"k": "74131768|225|total=147.5|12"
-},
-{
-"t": "Fri 21:30",
-"game": "Vitoria Sport Clube vs FC Porto",
-"lg": "Portugal - LPB",
-"pick": "Over/Under (incl. overtime) 178.5 \u2013 Under 178.5",
-"odds": 1.22,
-"why": "from X83DAC",
-"ts": 1794601800.0,
-"eid": "sr:match:72971434",
-"mid": "225",
-"spec": "total=178.5",
-"oid": "13",
-"k": "72971434|225|total=178.5|13"
-},
-{
-"t": "Fri 23:30",
-"game": "Cruzeiro Basquete vs Unifacisa",
-"lg": "Brazil - NBB",
-"pick": "Over/Under (incl. overtime) 172.5 \u2013 Under 172.5",
-"odds": 1.23,
-"why": "from X83DAC",
-"ts": 1794609000.0,
-"eid": "sr:match:74320754",
-"mid": "225",
-"spec": "total=172.5",
-"oid": "13",
-"k": "74320754|225|total=172.5|13"
-},
-{
-"t": "Fri 23:30",
-"game": "Sao Jose dos Campos vs CA Paulistano SP",
-"lg": "Brazil - NBB",
-"pick": "Over/Under (incl. overtime) 170.5 \u2013 Under 170.5",
-"odds": 1.24,
-"why": "from X83DAC",
-"ts": 1794609000.0,
-"eid": "sr:match:74320756",
-"mid": "225",
-"spec": "total=170.5",
-"oid": "13",
-"k": "74320756|225|total=170.5|13"
 }
 ]
 }
