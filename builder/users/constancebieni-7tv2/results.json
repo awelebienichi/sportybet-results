@@ -2,6 +2,30 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "HTTWFB",
+"at": 1794571121,
+"when": "Fri 13 Nov 12:58",
+"kind": "live \u2013 best of all",
+"odds": 1.08,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"pick": "Nafta 1903 Lendava Under 3.5",
+"odds": 1.04,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Al Hedod SC vs AL Hashd AL Shade",
+"pick": "Handicap 2:0 \u2013 Al Hedod SC",
+"odds": 1.04,
+"ts": 1794567600.0
+}
+]
+},
+{
 "code": "SX85RE",
 "at": 1794568259,
 "when": "Fri 13 Nov 12:10",

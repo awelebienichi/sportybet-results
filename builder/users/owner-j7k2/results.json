@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TG74U5",
+"at": 1794571158,
+"when": "Fri 13 Nov 12:59",
+"kind": "live \u2013 best of all",
+"odds": 1.19,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
+"pick": "Nafta 1903 Lendava Under 3.5",
+"odds": 1.03,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Al Hedod SC vs AL Hashd AL Shade",
+"pick": "Handicap 2:0 \u2013 Al Hedod SC",
+"odds": 1.04,
+"ts": 1794567600.0
+},
+{
+"t": "Fri 12:00",
+"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
+"pick": "Stinta Poli Timisoara 2 or draw",
+"odds": 1.11,
+"ts": 1794567600.0
+}
+]
+},
+{
 "code": "LSKR9U",
 "at": 1794570815,
 "when": "Fri 13 Nov 12:53",
