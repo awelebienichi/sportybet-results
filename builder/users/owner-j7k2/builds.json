@@ -1,5 +1,122 @@
 [
 {
+"when": "Fri 13 Nov 20:35",
+"at": 1794598542,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "u25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfdmq5fwy6t"
+},
+"ok": true,
+"kind": "Under 2.5 (low-scoring leagues)",
+"note": [
+"Only 6 games passed the checks (Fri 13, Sat 14, 657 games on SportyBet), so this ticket has 6 legs instead of 10. Tick more days or use 'Relaxed' for more.",
+"Under 2.5 has been the weakest market in your tracker."
+],
+"tickets": [
+{
+"code": "UFVKT9",
+"odds": 9.07,
+"legs": [
+{
+"t": "Sat 11:30",
+"game": "Ulinzi Stars FC vs Migori Youth FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 2.5",
+"odds": 1.44,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, league avg 1.9 goals",
+"ts": 1794652200.0,
+"eid": "sr:match:74056924",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74056924|18|total=2.5|13"
+},
+{
+"t": "Sat 13:00",
+"game": "Aps Bomet FC vs Bandari FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 2.5",
+"odds": 1.42,
+"why": "Under 2.5 in 80% / 90% of the teams' last 10, league avg 1.9 goals; Flashscore home/away form 80%, Vitibet tip 0-0, season: 1.1 goals a game",
+"ts": 1794657600.0,
+"eid": "sr:match:74056910",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74056910|18|total=2.5|13"
+},
+{
+"t": "Sat 19:00",
+"game": "CA Atlanta vs CA Estudiantes",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 2.5",
+"odds": 1.4,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, 50% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 75%",
+"ts": 1794679200.0,
+"eid": "sr:match:76413236",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76413236|18|total=2.5|13"
+},
+{
+"t": "Sat 19:30",
+"game": "CD Armenio vs CS Italiano",
+"lg": "Argentina - Primera B",
+"pick": "Under 2.5",
+"odds": 1.4,
+"why": "Under 2.5 in 80% / 60% of the teams' last 10, 75% of 8 meetings, league avg 1.9 goals; Flashscore home/away form 70%, Vitibet tip 0-0",
+"ts": 1794681000.0,
+"eid": "sr:match:76427128",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76427128|18|total=2.5|13"
+},
+{
+"t": "Sat 22:00",
+"game": "Club Comunicaciones vs Arsenal de Sarandi",
+"lg": "Argentina - Primera B",
+"pick": "Under 2.5",
+"odds": 1.47,
+"why": "Under 2.5 in 90% / 60% of the teams' last 10, league avg 1.9 goals; Flashscore home/away form 80%, Vitibet tip 0-0",
+"ts": 1794690000.0,
+"eid": "sr:match:76427132",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76427132|18|total=2.5|13"
+},
+{
+"t": "Sat 23:00",
+"game": "Real Pilar FC vs CA Talleres de Remedios",
+"lg": "Argentina - Primera B",
+"pick": "Under 2.5",
+"odds": 1.54,
+"why": "Under 2.5 in 70% / 70% of the teams' last 10, league avg 1.9 goals; Vitibet tip 0-0",
+"ts": 1794693600.0,
+"eid": "sr:match:76592234",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76592234|18|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 20:34",
 "at": 1794598448,
 "req": {
@@ -8297,62 +8414,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "76741202|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 12:14",
-"at": 1794568492,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwevqlzrm8zi"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 2 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "WHM6UB",
-"odds": 1.09,
-"legs": [
-{
-"t": "Fri 11:00",
-"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
-"lg": "Russia - MFL, Division B",
-"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
-"odds": 1.03,
-"why": "LIVE 3-1 52': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794564000.0,
-"eid": "sr:match:76734980",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76734980|10||10"
-},
-{
-"t": "Fri 11:00",
-"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
-"lg": "Ukraine - Persha Liga",
-"pick": "Under 3.5",
-"odds": 1.06,
-"why": "LIVE 1-0 58': FC Prykarpattya Ivano-Frankivsk expected 0.5 and FC Kolos Kovalivka 2 0.4 more goals (last 10 + season); 1-0 at 58' \u2013 91% chance; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.5 goals a game",
-"ts": 1794564000.0,
-"eid": "sr:match:72550328",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72550328|18|total=3.5|13"
 }
 ]
 }
