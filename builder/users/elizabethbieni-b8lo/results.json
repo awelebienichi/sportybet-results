@@ -709,7 +709,10 @@
 "game": "SK Sturm Graz vs First Vienna FC 1894",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.1,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -1410,7 +1413,10 @@
 "game": "SK Sturm Graz vs First Vienna FC 1894",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:30",

@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "M1RX1T",
+"at": 1794590894,
+"when": "Fri 13 Nov 18:28",
+"kind": "live basketball",
+"odds": 1.44,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "KB Prishtina vs KB Vellaznimi",
+"pick": "KB Vellaznimi to win (incl. OT)",
+"odds": 1.29,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:00",
+"game": "Apoel Nicosia vs Enosis Neon Paralimni",
+"pick": "Enosis Neon Paralimni to win (incl. OT)",
+"odds": 1.12,
+"ts": 1794589200.0
+}
+]
+},
+{
 "code": "YGXW0U",
 "at": 1794588442,
 "when": "Fri 13 Nov 17:47",
