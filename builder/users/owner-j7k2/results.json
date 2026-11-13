@@ -1571,7 +1571,7 @@
 "when": "Fri 13 Nov 17:47",
 "kind": "basketball \u2013 total points",
 "odds": 54.16,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -1628,7 +1628,10 @@
 "game": "Panathinaikos BC vs FC Barcelona",
 "pick": "Over 158.5 total points",
 "odds": 1.23,
-"ts": 1794597300.0
+"ts": 1794597300.0,
+"r": "L",
+"sc": "74-76",
+"ht": "17-17"
 },
 {
 "t": "Fri 20:30",
