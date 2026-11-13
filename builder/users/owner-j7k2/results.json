@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PEJ3RC",
+"at": 1794588273,
+"when": "Fri 13 Nov 17:44",
+"kind": "always-beaten teams (season data)",
+"odds": 2.3,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Skive IK vs Thisted FC",
+"pick": "Double chance Skive IK or draw",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Nantes vs RC Lens",
+"pick": "Double chance FC Nantes or draw",
+"odds": 1.16,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Helsingoer vs Holstebro BK",
+"pick": "Double chance FC Helsingoer or draw",
+"odds": 1.11,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Sporting Hasselt vs RFC Liege",
+"pick": "Double chance RFC Liege or draw",
+"odds": 1.33,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Glentoran FC vs Bangor FC",
+"pick": "Double chance Glentoran FC or draw",
+"odds": 1.11,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "SX895H",
 "at": 1794587996,
 "when": "Fri 13 Nov 17:39",
