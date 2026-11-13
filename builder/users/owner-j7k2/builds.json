@@ -1,5 +1,234 @@
 [
 {
+"when": "Fri 13 Nov 21:02",
+"at": 1794600165,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 15,
+"tickets": 5,
+"days": [
+"2026-11-13",
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfelie7gscu"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 14 games passed the checks (Fri 13, Sat 14, 662 games on SportyBet), so this ticket has 14 legs instead of 15. Tick more days or use 'Relaxed' for more.",
+"Only 14 games qualified, enough for 1 ticket(s) of 14 with no game repeated (you asked for 5)."
+],
+"tickets": [
+{
+"code": "XZTE0R",
+"odds": 19.15,
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"why": "goal in the 1st half in 90% of Kozakken Boys Werkendam's last 10 and 100% of Jong Sparta Rotterdam's last 10",
+"ts": 1794661200.0,
+"eid": "sr:match:72594664",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594664|68|total=0.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "Valladolid vs CD Castellon",
+"lg": "Spain - LaLiga 2",
+"pick": "1st half Over 0.5",
+"odds": 1.33,
+"why": "goal in the 1st half in 90% of Valladolid's last 10 and 90% of CD Castellon's last 10",
+"ts": 1794661200.0,
+"eid": "sr:match:72477602",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72477602|68|total=0.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"why": "goal in the 1st half in 90% of GVVV Veenendaal's last 10 and 100% of SV Spakenburg's last 10",
+"ts": 1794663000.0,
+"eid": "sr:match:72594654",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594654|68|total=0.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
+"lg": "Wales - Cymru Championship, North",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "goal in the 1st half in 90% of Llanuwchllyn's last 10 and 100% of CPD Y Rhyl 1879's last 10",
+"ts": 1794664800.0,
+"eid": "sr:match:76487950",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76487950|68|total=0.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "K.v.v. Quick Boys vs Jong Almere City FC",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"why": "goal in the 1st half in 90% of K.v.v. Quick Boys's last 10 and 90% of Jong Almere City FC's last 10",
+"ts": 1794664800.0,
+"eid": "sr:match:72594666",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594666|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "goal in the 1st half in 89% of Scunthorpe United's last 9 and 100% of Worthing FC's last 9",
+"ts": 1794668400.0,
+"eid": "sr:match:72740804",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740804|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"lg": "Scotland - League 1",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "goal in the 1st half in 89% of East Kilbride FC's last 9 and 90% of Alloa Athletic FC's last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:72203982",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72203982|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"lg": "England - National League",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"why": "goal in the 1st half in 89% of Carlisle United's last 9 and 89% of Boston United FC's last 9",
+"ts": 1794668400.0,
+"eid": "sr:match:72740790",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740790|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Eastleigh FC vs AFC Fylde",
+"lg": "England - National League",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "goal in the 1st half in 89% of Eastleigh FC's last 9 and 89% of AFC Fylde's last 9",
+"ts": 1794668400.0,
+"eid": "sr:match:72740792",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740792|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Harrogate Town vs Altrincham FC",
+"lg": "England - National League",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"why": "goal in the 1st half in 88% of Harrogate Town's last 8 and 88% of Altrincham FC's last 8",
+"ts": 1794668400.0,
+"eid": "sr:match:72740796",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740796|68|total=0.5|12"
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"lg": "Scotland - League 1",
+"pick": "1st half Over 0.5",
+"odds": 1.31,
+"why": "goal in the 1st half in 90% of Hamilton Academical FC's last 10 and 100% of Ross County FC's last 10",
+"ts": 1794677400.0,
+"eid": "sr:match:72203984",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72203984|68|total=0.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"why": "goal in the 1st half in 90% of De Graafschap's last 10 and 100% of TOP Oss's last 10",
+"ts": 1794682800.0,
+"eid": "sr:match:72044814",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72044814|68|total=0.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "goal in the 1st half in 90% of VVV Venlo's last 10 and 100% of FC Eindhoven's last 10",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72044822|68|total=0.5|12"
+},
+{
+"t": "Sat 22:30",
+"game": "Haiti vs USA",
+"lg": "International - CONCACAF Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.27,
+"why": "goal in the 1st half in 90% of Haiti's last 10 and 100% of USA's last 10",
+"ts": 1794691800.0,
+"eid": "sr:match:75466980",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75466980|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 20:48",
 "at": 1794599339,
 "req": {
@@ -8732,76 +8961,6 @@
 "spec": "total=29.5|quarternr=1",
 "oid": "13",
 "k": "72663212|757|total=29.5|quarternr=1|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 12:16",
-"at": 1794568587,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "relaxed",
-"rid": "mwevsomf618x"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 10).",
-"Relaxed safety: in testing only about 82 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "PBFZH6",
-"odds": 1.28,
-"legs": [
-{
-"t": "Fri 11:00",
-"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
-"lg": "Russia - MFL, Division B",
-"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
-"odds": 1.03,
-"why": "LIVE 3-1 54': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794564000.0,
-"eid": "sr:match:76734980",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76734980|10||10"
-},
-{
-"t": "Fri 11:00",
-"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
-"lg": "Ukraine - Persha Liga",
-"pick": "Under 3.5",
-"odds": 1.05,
-"why": "LIVE 1-0 60': FC Prykarpattya Ivano-Frankivsk expected 0.5 and FC Kolos Kovalivka 2 0.4 more goals (last 10 + season); 1-0 at 60' \u2013 92% chance; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.5 goals a game",
-"ts": 1794564000.0,
-"eid": "sr:match:72550328",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72550328|18|total=3.5|13"
-},
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Handicap 0:2 \u2013 NK Slaven Belupo",
-"odds": 1.18,
-"why": "LIVE 0-0 15': Nafta 1903 Lendava expected 1.3 and NK Slaven Belupo 1.6 more goals (last 10); 0-0 at 15' \u2013 84% chance",
-"ts": 1794567600.0,
-"eid": "sr:match:76741202",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76741202|14|hcp=0:2|1713"
 }
 ]
 }
