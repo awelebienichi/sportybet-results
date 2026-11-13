@@ -1,5 +1,49 @@
 [
 {
+"when": "Fri 13 Nov 12:19",
+"at": 1794568744,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "quarter",
+"legs": 7,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwevvyip21zk"
+},
+"ok": true,
+"kind": "basketball \u2013 quarter total points",
+"note": [
+"Only 1 basketball games passed the checks (Fri 13, 92 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "SFB5SR",
+"odds": 1.4,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Bakken Bears Q1 Under 29.5 points",
+"odds": 1.4,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "757",
+"spec": "total=29.5|quarternr=1",
+"oid": "13",
+"k": "72663212|757|total=29.5|quarternr=1|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 12:16",
 "at": 1794568587,
 "req": {
@@ -4849,210 +4893,6 @@
 "pick": "Over 2.5",
 "odds": 1.28,
 "why": "Over 2.5 in 90% / 90% of the teams' last 10, 67% of 6 meetings, league avg 3.6 goals; season: 4.3 goals a game",
-"ts": 1794734100.0,
-"eid": "sr:match:72415120",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415120|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 21:39",
-"at": 1794515944,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-12",
-"2026-11-13",
-"2026-11-14",
-"2026-11-15",
-"2026-11-16",
-"2026-11-17",
-"2026-11-18"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"target": 100,
-"rid": "mwe0fqd49jur"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [],
-"tickets": [
-{
-"code": "LFK3YW",
-"odds": 102.18,
-"legs": [
-{
-"t": "Thu 22:00",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"lg": "El Salvador - Primera Division",
-"pick": "Over 2.5",
-"odds": 1.69,
-"why": "season: 3.3 and 3.1 goals a game (19/20 games); last 10 rate 80%; Flashscore home/away form 75%",
-"ts": 1794517200.0,
-"eid": "sr:match:73075396",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73075396|18|total=2.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "FC Viktoria Plzen B vs FK Loko Prague",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.31,
-"why": "season: 3.8 and 3.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, Vitibet tip 3-1",
-"ts": 1794591000.0,
-"eid": "sr:match:72415122",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415122|18|total=2.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "K.v.v. Quick Boys vs Jong Almere City FC",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "Over 2.5",
-"odds": 1.38,
-"why": "season: 3.6 and 4.1 goals a game (12/12 games); last 10 rate 85%; FotMob: 3.8 goals a game, Vitibet tip 3-1, season: 3.8 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:72594666",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72594666|18|total=2.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
-"lg": "Wales - Cymru Championship, North",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "season: 4.2 and 3.6 goals a game (13/13 games); last 10 rate 80%; season: 3.9 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:76487950",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76487950|18|total=2.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "Rohda Raalte vs VV Katwijk",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "season: 3.9 and 3.4 goals a game (12/12 games); last 10 rate 80%; FotMob: 3.7 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:72594668",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72594668|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Leamington FC vs Leiston FC",
-"lg": "England Amateur - Southern League Premier Central",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "season: 3.4 and 3.9 goals a game (17/15 games); last 10 rate 85%; FotMob: 3.6 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73022126",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73022126|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Warrington Rylands 1906 FC vs Whitby Town",
-"lg": "England Amateur - Northern Premier League Premier",
-"pick": "Over 2.5",
-"odds": 1.51,
-"why": "season: 3.2 and 3.9 goals a game (17/18 games); last 10 rate 80%; FotMob: 3.6 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73018714",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73018714|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"lg": "England - National League",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "season: 3.4 and 3.8 goals a game (16/16 games); last 10 rate 80%; FotMob: 3.6 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:72740812",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72740812|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Leatherhead FC vs St Albans City",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Over 2.5",
-"odds": 1.62,
-"why": "season: 3.5 and 3.4 goals a game (14/13 games); last 10 rate 75%; FotMob: 3.4 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:73026106",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73026106|18|total=2.5|12"
-},
-{
-"t": "Sat 18:15",
-"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "season: 3.2 and 3.3 goals a game (9/9 games); last 10 rate 80%",
-"ts": 1794676500.0,
-"eid": "sr:match:73346120",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346120|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "season: 4.2 and 3.5 goals a game (14/14 games); last 10 rate 80%; footybets 85%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
-"ts": 1794682800.0,
-"eid": "sr:match:72044822",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044822|18|total=2.5|12"
-},
-{
-"t": "Sun 10:15",
-"game": "Bohemians Prague 1905 B vs FK Kraluv Dvur",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "season: 4.3 and 4.3 goals a game (14/14 games); last 10 rate 90%; season: 4.3 goals a game",
 "ts": 1794734100.0,
 "eid": "sr:match:72415120",
 "mid": "18",
