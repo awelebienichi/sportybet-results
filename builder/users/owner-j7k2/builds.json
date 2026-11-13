@@ -1,5 +1,87 @@
 [
 {
+"when": "Fri 13 Nov 17:21",
+"at": 1794586878,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16",
+"2026-11-17",
+"2026-11-18",
+"2026-11-19"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u55"
+],
+"rid": "mwf6og9phzkm"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 3 games passed the checks (Fri 13, Sat 14, Sun 15, Mon 16, Tue 17, Wed 18, Thu 19, 1145 games on SportyBet), so this ticket has 3 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "PJ6XQ5",
+"odds": 1.27,
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "FC Paradiso vs FC Amical Saint-Prex",
+"lg": "Switzerland - Promotion League",
+"pick": "Under 5.5",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, season: 3.2 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:72521064",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "72521064|18|total=5.5|13"
+},
+{
+"t": "Sat 18:00",
+"game": "USL Dunkerque vs Quevilly-Rouen Metropole",
+"lg": "France - Coupe de France",
+"pick": "Under 5.5",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
+"ts": 1794675600.0,
+"eid": "sr:match:76171166",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76171166|18|total=5.5|13"
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"lg": "International - UEFA Nations League",
+"pick": "Under 5.5",
+"odds": 1.07,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; FotMob: 2.4 goals a game, Vitibet tip 2-1",
+"ts": 1794858300.0,
+"eid": "sr:match:68931590",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "68931590|18|total=5.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 17:19",
 "at": 1794586761,
 "req": {
@@ -8247,62 +8329,6 @@
 "spec": "total=170.5",
 "oid": "13",
 "k": "74320756|225|total=170.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 06:35",
-"at": 1794548108,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 7,
-"strict": "normal",
-"rid": "mwejlr1utw60"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 2 live leg(s) were strong enough right now (you asked for 7).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "M4TRCQ",
-"odds": 1.12,
-"legs": [
-{
-"t": "Fri 05:30",
-"game": "Veroskronos Tsuno vs Cobaltore Onagawa",
-"lg": "Japan - Regional Football Champions League",
-"pick": "Veroskronos Tsuno or draw",
-"odds": 1.03,
-"why": "LIVE 0-0 46': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794544200.0,
-"eid": "sr:match:76593726",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76593726|10||9"
-},
-{
-"t": "Fri 06:00",
-"game": "FC Ulaanbaatar vs Hunters FC",
-"lg": "Mongolia - Premier League",
-"pick": "FC Ulaanbaatar or draw",
-"odds": 1.09,
-"why": "LIVE 0-0 34': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794546000.0,
-"eid": "sr:match:76716784",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76716784|10||9"
 }
 ]
 }
