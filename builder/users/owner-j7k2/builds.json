@@ -1,5 +1,78 @@
 [
 {
+"when": "Fri 13 Nov 04:02",
+"at": 1794538946,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwee5ejkxhma"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 3 games passed the checks (Fri 13, 149 games on SportyBet), so this ticket has 3 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "WFSPTP",
+"odds": 1.63,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "goal in the 1st half in 90% of VV Kloetinge's last 10 and 90% of Hoek's last 10",
+"ts": 1794592800.0,
+"eid": "sr:match:72594662",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594662|68|total=0.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"lg": "International - CONCACAF Nations League",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"why": "goal in the 1st half in 90% of Bermuda's last 10 and 100% of Saint Lucia's last 10",
+"ts": 1794596400.0,
+"eid": "sr:match:75468314",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75468314|68|total=0.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"why": "goal in the 1st half in 90% of Peterborough United U21's last 10 and 86% of Newcastle United U21's last 7",
+"ts": 1794596400.0,
+"eid": "sr:match:73684976",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73684976|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:01",
 "at": 1794538867,
 "req": {
@@ -5151,48 +5224,6 @@
 "pick": "Handicap 0:5 \u2013 Adelaide City FC",
 "odds": 1.18,
 "why": "LIVE 3-0 73': APIA Leichhardt expected 0.6 and Adelaide City FC 0.5 more goals (last 10); 3-0 at 73' \u2013 90% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794472200.0,
-"eid": "sr:match:74827320",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "74827320|14|hcp=0:5|1713"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 11:07",
-"at": 1794478053,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwddw5bs2r8v"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "MWH917",
-"odds": 1.2,
-"legs": [
-{
-"t": "Thu 09:30",
-"game": "APIA Leichhardt vs Adelaide City FC",
-"lg": "Australia - Australian Championship",
-"pick": "Handicap 0:5 \u2013 Adelaide City FC",
-"odds": 1.2,
-"why": "LIVE 3-0 70': APIA Leichhardt expected 0.7 and Adelaide City FC 0.6 more goals (last 10); 3-0 at 70' \u2013 89% chance; margin record 100% / 100% in both sides' last games",
 "ts": 1794472200.0,
 "eid": "sr:match:74827320",
 "mid": "14",
