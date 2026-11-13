@@ -1,5 +1,189 @@
 [
 {
+"when": "Fri 13 Nov 04:25",
+"at": 1794540326,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "mix",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"target": 10,
+"rid": "mweeyuqgndih"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [],
+"tickets": [
+{
+"code": "XSFGK3",
+"odds": 11.37,
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
+"lg": "India - IFL",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794574800.0,
+"eid": "sr:match:75834468",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75834468|90|total=0.5|12"
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794585600.0,
+"eid": "sr:match:75802320",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75802320|90|total=0.5|12"
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"lg": "International Youth - U21 UEFA European Championship, Qualification",
+"pick": "Under 3.5",
+"odds": 1.25,
+"why": "stats rate 90% from both teams' last 10 and 4 meetings; season: 2.2 goals a game",
+"ts": 1794585600.0,
+"eid": "sr:match:75439650",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75439650|18|total=3.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "1st half double chance USM Khenchela or draw",
+"odds": 1.5,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75722348|63||11"
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 100%",
+"ts": 1794592800.0,
+"eid": "sr:match:76454720",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76454720|18|total=1.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"lg": "Denmark - 2nd Division",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.3 goals a game, Vitibet tip 2-1, season: 3.3 goals a game",
+"ts": 1794592800.0,
+"eid": "sr:match:72499156",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72499156|18|total=1.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"lg": "Spain - Primera Federacion",
+"pick": "1st half double chance SD Ponferradina or draw",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794592800.0,
+"eid": "sr:match:72559240",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72559240|63||9"
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794592800.0,
+"eid": "sr:match:72594662",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594662|68|total=0.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Gibraltar or draw",
+"odds": 1.51,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794599100.0,
+"eid": "sr:match:68932814",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "68932814|63||11"
+},
+{
+"t": "Fri 20:45",
+"game": "Ballymena United vs Linfield FC",
+"lg": "Northern Ireland - Premiership",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794599100.0,
+"eid": "sr:match:72346410",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72346410|90|total=0.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Slovenia vs Switzerland",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Switzerland or draw",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794599100.0,
+"eid": "sr:match:68932798",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "68932798|63||11"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:23",
 "at": 1794540212,
 "req": {
