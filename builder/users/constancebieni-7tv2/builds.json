@@ -1,5 +1,61 @@
 [
 {
+"when": "Fri 13 Nov 22:46",
+"at": 1794606373,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwfiajv4m1i5"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 5).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "S3Q5BT",
+"odds": 1.11,
+"legs": [
+{
+"t": "Fri 21:00",
+"game": "Morocco vs Niger",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 0:5 \u2013 Niger",
+"odds": 1.08,
+"why": "LIVE 4-1 77': Morocco expected 0.3 and Niger 0.2 more goals (last 10); 4-1 at 77' \u2013 92% chance; margin record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
+"ts": 1794600000.0,
+"eid": "sr:match:75802226",
+"mid": "14",
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "75802226|14|hcp=0:5|1713"
+},
+{
+"t": "Fri 22:00",
+"game": "AD Tenancingo vs Neo Pipil San Juan Nonualco",
+"lg": "El Salvador - Liga de Ascenso",
+"pick": "AD Tenancingo or draw",
+"odds": 1.03,
+"why": "LIVE 1-0 42': AD Tenancingo expected 0.7 and Neo Pipil San Juan Nonualco 0.8 more goals (last 10 + season); 1-0 at 42' \u2013 87% chance",
+"ts": 1794603600.0,
+"eid": "sr:match:76746036",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76746036|10||9"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 21:03",
 "at": 1794600196,
 "req": {
@@ -4286,29 +4342,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for strong team to score in the 1st half (Wed 11) out of 72 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Wed 11 Nov 13:58",
-"at": 1794401935,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-11",
-"2026-11-12"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"m5x"
-],
-"rid": "mwc4kqqr02mv"
-},
-"ok": false,
-"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Wed 11, Thu 12). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
 }
 ]
