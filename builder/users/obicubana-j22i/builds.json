@@ -1,5 +1,172 @@
 [
 {
+"when": "Fri 13 Nov 19:13",
+"at": 1794593600,
+"req": {
+"u": "obicubana-j22i",
+"name": "Obi Cubana",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwfaos81o1lx"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "GA7UQP",
+"odds": 2.15,
+"legs": [
+{
+"t": "Fri 17:30",
+"game": "Kuwait vs Syria",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:4 \u2013 Syria",
+"odds": 1.06,
+"why": "LIVE 3-0 83': Kuwait expected 0.1 and Syria 0.2 more goals (last 10); 3-0 at 83' \u2013 86% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1794587400.0,
+"eid": "sr:match:76686776",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "76686776|14|hcp=0:4|1713"
+},
+{
+"t": "Fri 17:30",
+"game": "Perez Zeledon vs Deportivo Saprissa",
+"lg": "Costa Rica - U20 Liga Menor",
+"pick": "Perez Zeledon or Deportivo Saprissa",
+"odds": 1.08,
+"why": "LIVE 1-2 82': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1794587400.0,
+"eid": "sr:match:76742348",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76742348|10||10"
+},
+{
+"t": "Fri 17:35",
+"game": "Colegio Once Mexico vs Guardianes de Oriente",
+"lg": "Mexico - Mexico Liga TDP",
+"pick": "Guardianes de Oriente to win",
+"odds": 1.08,
+"why": "LIVE 2-3 77': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1794587700.0,
+"eid": "sr:match:111111114410536",
+"mid": "1",
+"spec": "",
+"oid": "3",
+"k": "111111114410536|1||3"
+},
+{
+"t": "Fri 18:00",
+"game": "SK Sturm Graz vs First Vienna FC 1894",
+"lg": "Austria Amateur - Bundesliga, Women",
+"pick": "SK Sturm Graz Under 4.5",
+"odds": 1.06,
+"why": "LIVE 2-1 55': SK Sturm Graz expected 0.9 and First Vienna FC 1894 0.5 more goals (last 10 + season); 2-1 at 55' \u2013 91% chance; goals record 80% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:72517956",
+"mid": "19",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72517956|19|total=4.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "MKS Znicz Pruszkow vs Sokol Kleczew",
+"lg": "Poland - II Liga",
+"pick": "MKS Znicz Pruszkow Under 3.5",
+"odds": 1.08,
+"why": "LIVE 1-2 52': MKS Znicz Pruszkow expected 0.8 and Sokol Kleczew 0.6 more goals (last 10 + season); 1-2 at 52' \u2013 92% chance; goals record 80% / 90% in both sides' last games",
+"ts": 1794589200.0,
+"eid": "sr:match:72398808",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72398808|19|total=3.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"lg": "Algeria - Ligue 1",
+"pick": "JS Saoura Under 2.5",
+"odds": 1.12,
+"why": "LIVE 1-1 50': JS Saoura expected 0.3 and USM Khenchela 0.4 more goals (last 10 + season); 1-1 at 50' \u2013 95% chance; goals record 100% / 90% in both sides' last games, h2h 75% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:75722348",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75722348|19|total=2.5|13"
+},
+{
+"t": "Fri 18:00",
+"game": "Moldova vs Kazakhstan",
+"lg": "International - UEFA Nations League",
+"pick": "Moldova Under 2.5",
+"odds": 1.12,
+"why": "LIVE 1-1 55': Moldova expected 0.5 and Kazakhstan 0.7 more goals (last 10); 1-1 at 55' \u2013 90% chance; goals record 100% / 90% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794589200.0,
+"eid": "sr:match:68932372",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932372|19|total=2.5|13"
+},
+{
+"t": "Fri 18:07",
+"game": "Club Necaxa II vs Trinca De Mi Vida",
+"lg": "Mexico - Mexico Liga TDP",
+"pick": "Club Necaxa II or Trinca De Mi Vida",
+"odds": 1.08,
+"why": "LIVE 1-2 45': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1794589620.0,
+"eid": "sr:match:111111114410534",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "111111114410534|10||10"
+},
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.05,
+"why": "LIVE 0-1 12': Albania expected 1.3 and Luxembourg 1.0 more goals (last 10); 0-1 at 12' \u2013 86% chance; Flashscore home/away form 75%",
+"ts": 1794592800.0,
+"eid": "sr:match:76170232",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76170232|18|total=1.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "Skive IK vs Thisted FC",
+"lg": "Denmark - 2nd Division",
+"pick": "Handicap 0:3 \u2013 Thisted FC",
+"odds": 1.07,
+"why": "LIVE 0-0 12': Skive IK expected 1.5 and Thisted FC 0.9 more goals (last 10 + season); 0-0 at 12' \u2013 87% chance; margin record 90% / 80% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1794592800.0,
+"eid": "sr:match:72499164",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "72499164|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 19:12",
 "at": 1794593554,
 "req": {
