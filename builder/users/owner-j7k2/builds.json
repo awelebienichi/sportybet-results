@@ -1,5 +1,117 @@
 [
 {
+"when": "Fri 13 Nov 16:53",
+"at": 1794585180,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 7,
+"strict": "normal",
+"rid": "mwf5obi12fo0"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 6 live leg(s) were strong enough right now (you asked for 7).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "KT4E72",
+"odds": 1.36,
+"legs": [
+{
+"t": "Fri 16:00",
+"game": "Iraq vs Lebanon",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:3 \u2013 Lebanon",
+"odds": 1.05,
+"why": "LIVE 0-0 45': Iraq expected 0.4 and Lebanon 1.0 more goals (last 10); 0-0 at 45' \u2013 99% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1794582000.0,
+"eid": "sr:match:76687822",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76687822|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 16:00",
+"game": "Sahl Horan SC vs AL Sareeh",
+"lg": "Jordan - First Division",
+"pick": "Sahl Horan SC or AL Sareeh",
+"odds": 1.04,
+"why": "LIVE 2-0 45': Sahl Horan SC expected 0.5 and AL Sareeh 0.6 more goals (last 10 + season); 2-0 at 45' \u2013 93% chance",
+"ts": 1794582000.0,
+"eid": "sr:match:74205874",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "74205874|10||10"
+},
+{
+"t": "Fri 16:00",
+"game": "Jerash Club vs Ittihad AL Ramtha",
+"lg": "Jordan - First Division",
+"pick": "Ittihad AL Ramtha Under 1.5",
+"odds": 1.07,
+"why": "LIVE 0-0 45': Jerash Club expected 0.8 and Ittihad AL Ramtha 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 88% chance; goals record 80% / 80% in both sides' last games",
+"ts": 1794582000.0,
+"eid": "sr:match:74205878",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "74205878|20|total=1.5|13"
+},
+{
+"t": "Fri 16:00",
+"game": "Al-Shabab vs AL Bahrain",
+"lg": "Bahrain - First Division",
+"pick": "Al-Shabab or draw",
+"odds": 1.1,
+"why": "LIVE 1-0 34': Al-Shabab expected 0.9 and AL Bahrain 0.7 more goals (last 10 + season); 1-0 at 34' \u2013 90% chance",
+"ts": 1794582000.0,
+"eid": "sr:match:75947224",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "75947224|10||9"
+},
+{
+"t": "Fri 16:15",
+"game": "AS Police Niger vs Liberte FC",
+"lg": "Niger - Super Ligue",
+"pick": "AS Police Niger or draw",
+"odds": 1.03,
+"why": "LIVE 0-0 35': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794582900.0,
+"eid": "sr:match:76737742",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "76737742|10||9"
+},
+{
+"t": "Fri 16:15",
+"game": "US Gendarmerie Nationale vs Tagour Pc",
+"lg": "Niger - Super Ligue",
+"pick": "US Gendarmerie Nationale or Tagour Pc",
+"odds": 1.03,
+"why": "LIVE 1-0 36': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794582900.0,
+"eid": "sr:match:76737744",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76737744|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 15:16",
 "at": 1794579371,
 "req": {
@@ -7741,150 +7853,6 @@
 "pick": "Over 2.5",
 "odds": 1.32,
 "why": "Over 2.5 in 80% / 70% of the teams' last 10, league avg 4.5 goals; Flashscore home/away form 80%, season: 4.1 goals a game",
-"ts": 1794598200.0,
-"eid": "sr:match:76488396",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76488396|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 04:20",
-"at": 1794540008,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 40,
-"tickets": 5,
-"days": [
-"2026-11-13"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"target": 10,
-"rid": "mwees7fqnvj8"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only enough strong games for 1 ticket(s) at about 10 odds with no game repeated (you asked for 5)."
-],
-"tickets": [
-{
-"code": "PA89WV",
-"odds": 12.7,
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"lg": "Romania - Liga 3",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "season: 3.5 and 4.0 goals a game (12/12 games); last 10 rate 80%; Flashscore home/away form 75%, season: 3.8 goals a game",
-"ts": 1794567600.0,
-"eid": "sr:match:74089494",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74089494|18|total=2.5|12"
-},
-{
-"t": "Fri 13:00",
-"game": "FC Fastav Zlin vs Dukla Prague",
-"lg": "Czechia - U19 1. Liga",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "season: 4.7 and 3.7 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%, season: 4.2 goals a game",
-"ts": 1794571200.0,
-"eid": "sr:match:72575904",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72575904|18|total=2.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "FC Viktoria Plzen B vs FK Loko Prague",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "season: 3.8 and 3.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, Vitibet tip 3-1",
-"ts": 1794591000.0,
-"eid": "sr:match:72415122",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415122|18|total=2.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "Hamburger SV vs 1. FSV Mainz 05",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "season: 3.4 and 3.9 goals a game (9/9 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
-"ts": 1794591000.0,
-"eid": "sr:match:72961080",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961080|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 2.5",
-"odds": 1.3,
-"why": "season: 4.4 and 4.3 goals a game (11/11 games); last 10 rate 80%; Flashscore home/away form 65%, season: 4.3 goals a game",
-"ts": 1794592800.0,
-"eid": "sr:match:72652090",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652090|18|total=2.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "SV Drochtersen/Assel vs VfB Oldenburg",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "season: 4.5 and 3.9 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 75%, footybets 76%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
-"ts": 1794594600.0,
-"eid": "sr:match:72674440",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72674440|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "season: 4.9 and 3.3 goals a game (8/6 games); last 10 rate 78%; Flashscore home/away form 100%, season: 4.1 goals a game",
-"ts": 1794598200.0,
-"eid": "sr:match:75643276",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75643276|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Treowen Stars",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "season: 4.5 and 3.8 goals a game (11/12 games); last 10 rate 75%; Flashscore home/away form 80%, season: 4.1 goals a game",
 "ts": 1794598200.0,
 "eid": "sr:match:76488396",
 "mid": "18",
