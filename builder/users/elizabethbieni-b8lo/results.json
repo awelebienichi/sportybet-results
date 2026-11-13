@@ -345,7 +345,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.27,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 12:50",
@@ -418,7 +421,7 @@
 "odds": 1.17,
 "ts": 1794571200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": ""
 },
 {
@@ -794,7 +797,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "1st half double chance Tampereen Ilves or draw",
 "odds": 1.25,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 14:00",
@@ -1114,7 +1120,7 @@
 "odds": 1.17,
 "ts": 1794571200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": ""
 },
 {
@@ -1381,7 +1387,10 @@
 "game": "Turun Palloseura vs Tampereen Ilves",
 "pick": "1st half GG \u2013 No",
 "odds": 1.27,
-"ts": 1794569400.0
+"ts": 1794569400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 13:00",
