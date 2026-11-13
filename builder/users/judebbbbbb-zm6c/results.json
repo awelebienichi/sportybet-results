@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UZLNYW",
+"at": 1794540605,
+"when": "Fri 13 Nov 04:30",
+"kind": "rebuild of XSFGK3",
+"odds": 77.24,
+"status": "open",
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
+"pick": "GG (both teams score)",
+"odds": 1.58,
+"ts": 1794574800.0
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "Tanzania excluded goals: 1",
+"odds": 1.35,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Turkiye vs Czechia",
+"pick": "Double chance Czechia or draw",
+"odds": 1.5,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "USM Khenchela excluded goals: 1",
+"odds": 1.45,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 19:00",
+"game": "Spain vs Japan",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FC Roskilde vs Nykoebing FC",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SD Ponferradina vs CP Cacereno SAD",
+"pick": "CP Cacereno SAD excluded goals: 1",
+"odds": 1.48,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Andorra vs Gibraltar",
+"pick": "2nd half Over 0.5",
+"odds": 1.49,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Ballymena United vs Linfield FC",
+"pick": "Handicap 2:0 \u2013 Ballymena United",
+"odds": 1.41,
+"ts": 1794599100.0
+},
+{
+"t": "Fri 20:45",
+"game": "Slovenia vs Switzerland",
+"pick": "Slovenia excluded goals: 1",
+"odds": 1.47,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "ZRS2ER",
 "at": 1794540466,
 "when": "Fri 13 Nov 04:27",
