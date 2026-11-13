@@ -122,7 +122,10 @@
 "game": "Germany vs Belgium",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.24,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -218,7 +221,10 @@
 "game": "Germany vs Belgium",
 "pick": "1st half GG \u2013 No",
 "odds": 1.24,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -724,7 +730,10 @@
 "game": "Germany vs Belgium",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.24,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -1771,7 +1780,10 @@
 "game": "Germany vs Belgium",
 "pick": "1st half GG \u2013 No",
 "odds": 1.24,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:30",

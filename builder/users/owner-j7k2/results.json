@@ -202,14 +202,17 @@
 "when": "Fri 13 Nov 17:39",
 "kind": "your chosen markets",
 "odds": 11.2,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
 "game": "Germany vs Belgium",
 "pick": "1st half GG \u2013 No",
 "odds": 1.27,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
