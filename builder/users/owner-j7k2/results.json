@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WFSPTP",
+"at": 1794538946,
+"when": "Fri 13 Nov 04:02",
+"kind": "1st half Over 0.5",
+"odds": 1.63,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "VV Kloetinge vs Hoek",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bermuda vs Saint Lucia",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Peterborough United U21 vs Newcastle United U21",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1794596400.0
+}
+]
+},
+{
 "code": "HZ48H7",
 "at": 1794538867,
 "when": "Fri 13 Nov 04:01",
