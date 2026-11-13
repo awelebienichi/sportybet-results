@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZERS8K",
+"at": 1794591011,
+"when": "Fri 13 Nov 18:30",
+"kind": "live \u2013 best of all",
+"odds": 1.32,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "Gabon vs Lesotho",
+"pick": "Handicap 0:4 \u2013 Lesotho",
+"odds": 1.03,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Burkina Faso vs Mauritania",
+"pick": "Burkina Faso Under 1.5",
+"odds": 1.05,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:00",
+"game": "South Africa vs Kenya",
+"pick": "Under 4.5",
+"odds": 1.04,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 18:00",
+"game": "Shooting Stars vs Bendel Insurance FC",
+"pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
+"odds": 1.04,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Handicap 0:3 \u2013 USM Khenchela",
+"odds": 1.14,
+"ts": 1794589200.0
+}
+]
+},
+{
 "code": "M1RX1T",
 "at": 1794590894,
 "when": "Fri 13 Nov 18:28",
