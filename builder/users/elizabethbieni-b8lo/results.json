@@ -296,7 +296,7 @@
 "when": "Fri 13 Nov 08:26",
 "kind": "combined X7GJTP + TPJR4Q + ZAFYUC",
 "odds": 401749.65,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -313,7 +313,10 @@
 "game": "Oakleigh Cannons vs Marconi Stallions",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.15,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Fri 12:00",
@@ -722,7 +725,7 @@
 "when": "Fri 13 Nov 08:24",
 "kind": "rebuild of TPJR4Q",
 "odds": 1329.41,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -736,7 +739,10 @@
 "game": "Oakleigh Cannons vs Marconi Stallions",
 "pick": "1st half double chance Oakleigh Cannons or draw",
 "odds": 1.15,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Fri 12:30",
@@ -1263,7 +1269,7 @@
 "when": "Fri 13 Nov 08:22",
 "kind": "your chosen markets",
 "odds": 86645.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -1277,7 +1283,10 @@
 "game": "Oakleigh Cannons vs Marconi Stallions",
 "pick": "1st half double chance Oakleigh Cannons or draw",
 "odds": 1.15,
-"ts": 1794558600.0
+"ts": 1794558600.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Fri 12:00",
