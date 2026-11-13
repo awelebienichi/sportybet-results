@@ -1,5 +1,47 @@
 [
 {
+"when": "Fri 13 Nov 19:18",
+"at": 1794593890,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "goals",
+"legs": 20,
+"strict": "normal",
+"rid": "mwfauytgl82u"
+},
+"ok": true,
+"kind": "live \u2013 another goal coming",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 20).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "WA9HA9",
+"odds": 1.06,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Albania vs Luxembourg",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Over 1.5",
+"odds": 1.06,
+"why": "LIVE 0-1 17': Albania expected 1.2 and Luxembourg 0.9 more goals (last 10); 0-1 at 17' \u2013 84% chance; Flashscore home/away form 75%",
+"ts": 1794592800.0,
+"eid": "sr:match:76170232",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76170232|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 18:33",
 "at": 1794591209,
 "req": {
@@ -8424,21 +8466,6 @@
 "legs": 3,
 "strict": "normal",
 "rid": "mwesqt1019tj"
-},
-"ok": false,
-"msg": "1 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
-},
-{
-"when": "Fri 13 Nov 10:50",
-"at": 1794563408,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "mix",
-"legs": 3,
-"strict": "normal",
-"rid": "mwesprdqyj3f"
 },
 "ok": false,
 "msg": "1 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
