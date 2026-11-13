@@ -76,6 +76,7 @@ def _chance(mid, spec, oid, fh, fa, r):
 
 def build(req):
     LV = LEVELS.get(req.get("strict", "normal"), LEVELS["normal"]); legs = max(1, min(int(req.get("legs", 4)), 40))
+    want = {"quarter": ("236", "756", "757"), "total": ("225",), "mix": None}.get(req.get("kind", "mix"))
     E = [(e, s) for e in _feed() for s in [_state(e)] if s]
     if not E: return dict(ok=False, msg="No basketball games are in play right now (or only in overtime). Most live basketball is in the evening and at night (Nigeria time).")
     G = [dict(eid=e["eventId"], ts=e["estimateStartTime"] / 1000, h=e["homeTeamName"], a=e["awayTeamName"], hid=e["homeTeamId"].split(":")[-1],
@@ -92,6 +93,7 @@ def build(req):
         opts = []
         for (mid, spec, oid), od in (MK.get(g["eid"]) or {}).items():
             if not 1.03 <= od <= 1.75: continue
+            if want and mid not in want: continue                               # the type picked on the page
             p = _quarter(mid, spec, oid, g["e"], played, length, mh, ma) if mid in ("236", "756", "757") else _chance(mid, spec, oid, fh, fa, r)
             if p is None or p < LV[0]: continue
             pb = (p + 1 / (od * 1.06)) / 2                                        # the stats and the bookmaker's own price must agree
@@ -123,4 +125,4 @@ def build(req):
         B = B[:legs]
         if len(B) < legs: note.append(f"Only {len(B)} live basketball leg(s) were strong enough right now (you asked for {legs}).")
     note.append("Live odds move fast – load the code on SportyBet straight away.")
-    return P.finish([B], "bblive", {"bblive": "live basketball"}, note, req)
+    return P.finish([B], "bblive", {"bblive": {"quarter": "live basketball – quarter totals", "total": "live basketball – game totals"}.get(req.get("kind"), "live basketball")}, note, req)
