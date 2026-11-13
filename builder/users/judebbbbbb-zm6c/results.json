@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZBPJLJ",
+"at": 1794540924,
+"when": "Fri 13 Nov 04:35",
+"kind": "your chosen markets",
+"odds": 10.11,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "ACS Axi Arena vs FC Dinamo Bucuresti 1948 2",
+"pick": "Double chance ACS Axi Arena or FC Dinamo Bucuresti 1948 2",
+"odds": 1.19,
+"ts": 1794571200.0
+},
+{
+"t": "Fri 16:00",
+"game": "Al-Shabab vs AL Bahrain",
+"pick": "Double chance Al-Shabab or AL Bahrain",
+"odds": 1.3,
+"ts": 1794582000.0
+},
+{
+"t": "Fri 17:00",
+"game": "Nigeria vs Tanzania",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794585600.0
+},
+{
+"t": "Fri 17:30",
+"game": "Norway vs Poland",
+"pick": "Norway excluded goals: 2",
+"odds": 1.25,
+"ts": 1794587400.0
+},
+{
+"t": "Fri 18:00",
+"game": "JS Saoura vs USM Khenchela",
+"pick": "Half-time draw",
+"odds": 2.0,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Grenada vs Saint Kitts and Nevis",
+"pick": "Grenada excluded goals: 1",
+"odds": 1.46,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:45",
+"game": "Luxembourg vs Estonia",
+"pick": "Luxembourg excluded goals: 1",
+"odds": 1.48,
+"ts": 1794599100.0
+}
+]
+},
+{
 "code": "ZL8TYQ",
 "at": 1794540783,
 "when": "Fri 13 Nov 04:33",
