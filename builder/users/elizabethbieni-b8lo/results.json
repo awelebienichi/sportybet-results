@@ -784,7 +784,10 @@
 "game": "Denmark vs Netherlands",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.24,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -1476,7 +1479,10 @@
 "game": "Denmark vs Netherlands",
 "pick": "Goal bounds 2-5+",
 "odds": 1.24,
-"ts": 1794591000.0
+"ts": 1794591000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Fri 19:00",

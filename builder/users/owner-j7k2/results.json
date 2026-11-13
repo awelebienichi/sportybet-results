@@ -594,7 +594,7 @@
 "when": "Fri 13 Nov 17:10",
 "kind": "rebuild of JV3RMJ",
 "odds": 998.92,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:30",
@@ -625,7 +625,10 @@
 "game": "SK Sturm Graz vs First Vienna FC 1894",
 "pick": "1st half excluded goals: 2",
 "odds": 1.29,
-"ts": 1794589200.0
+"ts": 1794589200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
