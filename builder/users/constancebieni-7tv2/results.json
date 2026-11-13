@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "ZWNKNH",
+"at": 1794563883,
+"when": "Fri 13 Nov 10:58",
+"kind": "live \u2013 best of all",
+"odds": 1.36,
+"status": "open",
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "MC Saida vs JSM Tiaret",
+"pick": "MC Saida or draw",
+"odds": 1.03,
+"ts": 1794558600.0
+},
+{
+"t": "Fri 09:30",
+"game": "Persikota Tangerang vs Pesik Kuningan",
+"pick": "Persikota Tangerang or Pesik Kuningan",
+"odds": 1.06,
+"ts": 1794558600.0
+},
+{
+"t": "Fri 09:30",
+"game": "Preston Lions FC vs Lions FC",
+"pick": "Preston Lions FC Under 3.5",
+"odds": 1.08,
+"ts": 1794558600.0
+},
+{
+"t": "Fri 09:45",
+"game": "Armed Forces FC vs Wan Tendong Stable",
+"pick": "Wan Tendong Stable or draw",
+"odds": 1.03,
+"ts": 1794559500.0
+},
+{
+"t": "Fri 10:00",
+"game": "Adamas United Sa vs Aikya Sammilani",
+"pick": "Adamas United Sa or draw",
+"odds": 1.06,
+"ts": 1794560400.0
+},
+{
+"t": "Fri 10:10",
+"game": "JSM Skikda U20 vs AS Khroub U20",
+"pick": "JSM Skikda U20 or AS Khroub U20",
+"odds": 1.06,
+"ts": 1794561000.0
+}
+]
+},
+{
 "code": "X36XUN",
 "at": 1794560446,
 "when": "Fri 13 Nov 10:00",

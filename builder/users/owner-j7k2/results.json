@@ -2,6 +2,142 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VLE3VD",
+"at": 1794563895,
+"when": "Fri 13 Nov 10:58",
+"kind": "combined X83DAC + W8F2DR",
+"odds": 34.67,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:05",
+"game": "Levanga Hokkaido vs Kobe Storks",
+"pick": "Over/Under (incl. overtime) 198.5 \u2013 Under 198.5",
+"odds": 1.23,
+"ts": 1794564300.0
+},
+{
+"t": "Fri 11:15",
+"game": "Kyoto Hannaryz vs Ibaraki Robots",
+"pick": "Over/Under (incl. overtime) 145.5 \u2013 Over 145.5",
+"odds": 1.21,
+"ts": 1794564900.0
+},
+{
+"t": "Fri 11:30",
+"game": "Akita Northern Happinets vs Nagoya Diamond Dolphins",
+"pick": "Over/Under (incl. overtime) 159.5 \u2013 Over 159.5",
+"odds": 1.19,
+"ts": 1794565800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Kufstein Towers vs Swans Gmunden",
+"pick": "Over/Under (incl. overtime) 183.5 \u2013 Under 183.5",
+"odds": 1.22,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:00",
+"game": "MKS Start Lublin vs GTK Gliwice",
+"pick": "Over/Under (incl. overtime) 150.5 \u2013 Over 150.5",
+"odds": 1.22,
+"ts": 1794589200.0
+},
+{
+"t": "Fri 18:30",
+"game": "Holbaek-Stenhus vs Copenhagen Basketball",
+"pick": "Over/Under (incl. overtime) 179.5 \u2013 Under 179.5",
+"odds": 1.23,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Anadolu Efes SK vs Virtus Bologna",
+"pick": "Over/Under (incl. overtime) 160.5 \u2013 Over 160.5",
+"odds": 1.21,
+"ts": 1794591000.0
+},
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"pick": "Over/Under (incl. overtime) 191.5 \u2013 Under 191.5",
+"odds": 1.22,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SKN St. Polten Basketball vs Flyers Wels",
+"pick": "Over/Under (incl. overtime) 149.5 \u2013 Over 149.5",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Eagles Graz vs BBC Nord Dragonz",
+"pick": "Over/Under (incl. overtime) 160.5 \u2013 Over 160.5",
+"odds": 1.21,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Traiskirchen Lions vs Kapfenberg Bulls",
+"pick": "Over/Under (incl. overtime) 152.5 \u2013 Over 152.5",
+"odds": 1.22,
+"ts": 1794592800.0
+},
+{
+"t": "Fri 20:00",
+"game": "BC Vienna vs BK Dukes Klosterneuburg",
+"pick": "Over/Under (incl. overtime) 148.5 \u2013 Over 148.5",
+"odds": 1.21,
+"ts": 1794596400.0
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"pick": "Over/Under (incl. overtime) 158.5 \u2013 Over 158.5",
+"odds": 1.22,
+"ts": 1794597300.0
+},
+{
+"t": "Fri 20:30",
+"game": "ASVEL Lyon-Villeurbanne vs Besiktas JK",
+"pick": "Over/Under (incl. overtime) 162.5 \u2013 Over 162.5",
+"odds": 1.22,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 20:30",
+"game": "KK Krka Novo Mesto vs HKK Siroki",
+"pick": "Over/Under (incl. overtime) 147.5 \u2013 Over 147.5",
+"odds": 1.21,
+"ts": 1794598200.0
+},
+{
+"t": "Fri 21:30",
+"game": "Vitoria Sport Clube vs FC Porto",
+"pick": "Over/Under (incl. overtime) 178.5 \u2013 Under 178.5",
+"odds": 1.22,
+"ts": 1794601800.0
+},
+{
+"t": "Fri 23:30",
+"game": "Cruzeiro Basquete vs Unifacisa",
+"pick": "Over/Under (incl. overtime) 172.5 \u2013 Under 172.5",
+"odds": 1.23,
+"ts": 1794609000.0
+},
+{
+"t": "Fri 23:30",
+"game": "Sao Jose dos Campos vs CA Paulistano SP",
+"pick": "Over/Under (incl. overtime) 170.5 \u2013 Under 170.5",
+"odds": 1.24,
+"ts": 1794609000.0
+}
+]
+},
+{
 "code": "X83DAC",
 "at": 1794563399,
 "when": "Fri 13 Nov 10:49",
