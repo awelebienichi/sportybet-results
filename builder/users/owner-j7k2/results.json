@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "M4TRCQ",
+"at": 1794548108,
+"when": "Fri 13 Nov 06:35",
+"kind": "live \u2013 best of all",
+"odds": 1.12,
+"status": "open",
+"legs": [
+{
+"t": "Fri 05:30",
+"game": "Veroskronos Tsuno vs Cobaltore Onagawa",
+"pick": "Veroskronos Tsuno or draw",
+"odds": 1.03,
+"ts": 1794544200.0
+},
+{
+"t": "Fri 06:00",
+"game": "FC Ulaanbaatar vs Hunters FC",
+"pick": "FC Ulaanbaatar or draw",
+"odds": 1.09,
+"ts": 1794546000.0
+}
+]
+},
+{
 "code": "P1NSWW",
 "at": 1794546422,
 "when": "Fri 13 Nov 06:07",
