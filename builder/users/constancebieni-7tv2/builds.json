@@ -1,7 +1,7 @@
 [
 {
-"when": "Sat 14 Nov 00:37",
-"at": 1794613045,
+"when": "Sat 14 Nov 01:03",
+"at": 1794614586,
 "req": {
 "u": "constancebieni-7tv2",
 "name": "Constance Bienichi",
@@ -14,64 +14,36 @@
 "ok": true,
 "kind": "live \u2013 best of all",
 "note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 10).",
+"Only 1 live leg(s) were strong enough right now (you asked for 10).",
 "Normal safety: in testing about 88 in 100 such legs came true.",
 "Live odds move fast \u2013 load the code on SportyBet straight away."
 ],
 "tickets": [
 {
-"code": "NCESB1",
-"odds": 1.25,
+"code": "G29CJ9",
+"odds": 1.03,
 "legs": [
-{
-"t": "Fri 23:07",
-"game": "Furia Azul FC vs Deportivo Zamora FC",
-"lg": "Mexico - Mexico Liga TDP",
-"pick": "Furia Azul FC or Deportivo Zamora FC",
-"odds": 1.09,
-"why": "LIVE 2-0 69': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794607620.0,
-"eid": "sr:match:111111114415090",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "111111114415090|10||10"
-},
-{
-"t": "Fri 23:09",
-"game": "Artesanos Metepec FC II vs Deportivo Metepec",
-"lg": "Mexico - Mexico Liga TDP",
-"pick": "Artesanos Metepec FC II or Deportivo Metepec",
-"odds": 1.09,
-"why": "LIVE 0-1 65': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794607740.0,
-"eid": "sr:match:111111114410527",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "111111114410527|10||10"
-},
 {
 "t": "Sat 00:00",
 "game": "Argentina vs Uruguay",
 "lg": "International - Int. Friendly Games",
-"pick": "Handicap 0:3 \u2013 Uruguay",
-"odds": 1.05,
-"why": "LIVE 0-0 30': Argentina expected 1.6 and Uruguay 0.8 more goals (last 10); 0-0 at 30' \u2013 86% chance; h2h 88% of 8 meetings",
+"pick": "Uruguay Under 1.5",
+"odds": 1.03,
+"why": "LIVE 0-0 45': Argentina expected 1.2 and Uruguay 0.6 more goals (last 10); 0-0 at 45' \u2013 85% chance; h2h 75% of 8 meetings",
 "ts": 1794610800.0,
 "eid": "sr:match:76147422",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76147422|14|hcp=0:3|1713"
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "76147422|20|total=1.5|13"
 }
 ]
 }
 ]
 },
 {
-"when": "Sat 14 Nov 00:36",
-"at": 1794613006,
+"when": "Sat 14 Nov 01:03",
+"at": 1794614583,
 "req": {
 "u": "constancebieni-7tv2",
 "name": "Constance Bienichi",
