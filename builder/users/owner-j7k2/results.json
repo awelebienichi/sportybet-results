@@ -280,7 +280,10 @@
 "game": "CE Europa vs UE Sant Andreu",
 "pick": "Goal bounds 2-5+",
 "odds": 1.34,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 19:00",
@@ -446,7 +449,10 @@
 "game": "CE Europa vs UE Sant Andreu",
 "pick": "Over 1.5",
 "odds": 1.33,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 19:00",
@@ -463,7 +469,10 @@
 "game": "AD Carmopolis SE vs AD Frei Paulistano SE",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:30",
