@@ -3234,7 +3234,10 @@
 "game": "AD Municipal Santa Ana vs AD Sarchi",
 "pick": "Goal bounds 2-5+",
 "odds": 1.23,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:30",
@@ -3622,7 +3625,10 @@
 "game": "AD Municipal Santa Ana vs AD Sarchi",
 "pick": "Double chance AD Municipal Santa Ana or AD Sarchi",
 "odds": 1.27,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:30",
