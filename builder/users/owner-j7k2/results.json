@@ -1979,7 +1979,10 @@
 "game": "Real Refineros Cds vs Saltillo Soccer FC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1794693600.0
+"ts": 1794693600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 23:00",
@@ -1996,7 +1999,7 @@
 "when": "Sat 14 Nov 18:53",
 "kind": "goal-fest teams (season data)",
 "odds": 5.36,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 19:30",
@@ -2043,7 +2046,10 @@
 "game": "Real Refineros Cds vs Saltillo Soccer FC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1794693600.0
+"ts": 1794693600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 }
 ]
 },
@@ -2657,7 +2663,10 @@
 "game": "Real Refineros Cds vs Saltillo Soccer FC",
 "pick": "Over 2.5",
 "odds": 1.45,
-"ts": 1794693600.0
+"ts": 1794693600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 }
 ]
 },
@@ -3972,7 +3981,10 @@
 "game": "Real Refineros Cds vs Saltillo Soccer FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794693600.0
+"ts": 1794693600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 }
 ]
 },
