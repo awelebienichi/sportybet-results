@@ -1363,8 +1363,8 @@
 "odds": 1.57,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 18:00",
@@ -2372,7 +2372,10 @@
 "game": "Yeovil Town vs Boreham Wood FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 16:00",
@@ -2682,7 +2685,10 @@
 "game": "Yeovil Town vs Boreham Wood FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 16:00",
@@ -3623,7 +3629,7 @@
 "when": "Sat 14 Nov 06:45",
 "kind": "2nd half Over 0.5",
 "odds": 1.35,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 13:50",
@@ -3640,7 +3646,10 @@
 "game": "Yeovil Town vs Boreham Wood FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "2-1"
 }
 ]
 },
