@@ -349,7 +349,10 @@
 "game": "CA Temperley vs Club Ciudad de Bolivar",
 "pick": "1st half double chance CA Temperley or draw",
 "odds": 1.15,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 20:00",
@@ -616,7 +619,10 @@
 "game": "RBC Roosendaal vs VV Goes",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "3-4",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -2008,7 +2014,10 @@
 "game": "RBC Roosendaal vs VV Goes",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "3-4",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -3166,7 +3175,10 @@
 "game": "Sweden vs Bosnia & Herzegovina",
 "pick": "Goal bounds 2-5+",
 "odds": 1.22,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 22:30",
@@ -3542,7 +3554,10 @@
 "game": "Sweden vs Bosnia & Herzegovina",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 22:30",
@@ -4375,7 +4390,10 @@
 "game": "RBC Roosendaal vs VV Goes",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "3-4",
+"ht": ""
 }
 ]
 },
