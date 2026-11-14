@@ -1,5 +1,315 @@
 [
 {
+"when": "Sat 14 Nov 15:09",
+"at": 1794665372,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 20,
+"days": [
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"rid": "mwghf4mdoki4"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "RBDREE",
+"odds": 56.86,
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"lg": "Portugal - LPB",
+"pick": "Under 186.5 total points",
+"odds": 1.24,
+"why": "expected SC Braga 86 \u2013 UD Oliveirense 80 (last 10/10 games, home edge included); 88% by the stats, 82% with the price; Flashscore home/away form 95%",
+"ts": 1794668400.0,
+"eid": "sr:match:72971436",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72971436|225|total=186.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"lg": "Greece - Basketball League",
+"pick": "Under 173.5 total points",
+"odds": 1.23,
+"why": "expected BC AEK Athens 78 \u2013 AE Doxa Lefkadas 77 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; Flashscore home/away form 75%",
+"ts": 1794668400.0,
+"eid": "sr:match:74750480",
+"mid": "225",
+"spec": "total=173.5",
+"oid": "13",
+"k": "74750480|225|total=173.5|13"
+},
+{
+"t": "Sat 16:30",
+"game": "AS Karditsas vs PAOK BC",
+"lg": "Greece - Basketball League",
+"pick": "Over 142.5 total points",
+"odds": 1.19,
+"why": "expected AS Karditsas 79 \u2013 PAOK BC 79 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 80%",
+"ts": 1794670200.0,
+"eid": "sr:match:74750482",
+"mid": "225",
+"spec": "total=142.5",
+"oid": "12",
+"k": "74750482|225|total=142.5|12"
+},
+{
+"t": "Sat 17:00",
+"game": "Benfica Lisboa vs CAB Madeira",
+"lg": "Portugal - LPB",
+"pick": "Under 187.5 total points",
+"odds": 1.21,
+"why": "expected Benfica Lisboa 91 \u2013 CAB Madeira 79 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 85%",
+"ts": 1794672000.0,
+"eid": "sr:match:72971574",
+"mid": "225",
+"spec": "total=187.5",
+"oid": "13",
+"k": "72971574|225|total=187.5|13"
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"lg": "Israel - Super League",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"why": "expected Hapoel Tel-Aviv 90 \u2013 Bnei Herzliya Basket 82 (last 10/10 games, home edge included); 83% by the stats, 80% with the price",
+"ts": 1794673800.0,
+"eid": "sr:match:74527788",
+"mid": "225",
+"spec": "total=188.5",
+"oid": "13",
+"k": "74527788|225|total=188.5|13"
+},
+{
+"t": "Sat 18:00",
+"game": "CB Breogan vs CB San Pablo Burgos",
+"lg": "Spain - Liga ACB",
+"pick": "Under 203.5 total points",
+"odds": 1.24,
+"why": "expected CB Breogan 98 \u2013 CB San Pablo Burgos 87 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794675600.0,
+"eid": "sr:match:73713584",
+"mid": "225",
+"spec": "total=203.5",
+"oid": "13",
+"k": "73713584|225|total=203.5|13"
+},
+{
+"t": "Sat 18:00",
+"game": "Vaerlose vs Bears Academy",
+"lg": "Denmark - Basketligaen",
+"pick": "Over 154.5 total points",
+"odds": 1.21,
+"why": "expected Vaerlose 87 \u2013 Bears Academy 83 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794675600.0,
+"eid": "sr:match:72663214",
+"mid": "225",
+"spec": "total=154.5",
+"oid": "12",
+"k": "72663214|225|total=154.5|12"
+},
+{
+"t": "Sat 18:10",
+"game": "BC Nevezis Kedainiai vs BC Juventus Utena",
+"lg": "Lithuania - LKL",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"why": "expected BC Nevezis Kedainiai 86 \u2013 BC Juventus Utena 81 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 70%",
+"ts": 1794676200.0,
+"eid": "sr:match:73659014",
+"mid": "225",
+"spec": "total=183.5",
+"oid": "13",
+"k": "73659014|225|total=183.5|13"
+},
+{
+"t": "Sat 18:30",
+"game": "JL Bourg Basket vs Roanne Chorale",
+"lg": "France - LNB Elite",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"why": "expected JL Bourg Basket 83 \u2013 Roanne Chorale 81 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; Flashscore home/away form 90%",
+"ts": 1794677400.0,
+"eid": "sr:match:74295736",
+"mid": "225",
+"spec": "total=182.5",
+"oid": "13",
+"k": "74295736|225|total=182.5|13"
+},
+{
+"t": "Sat 18:30",
+"game": "Bamberg Baskets vs Baskets Bonn",
+"lg": "Germany - BBL",
+"pick": "Under 181.5 total points",
+"odds": 1.25,
+"why": "expected Bamberg Baskets 79 \u2013 Baskets Bonn 84 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; Flashscore home/away form 80%",
+"ts": 1794677400.0,
+"eid": "sr:match:73451862",
+"mid": "225",
+"spec": "total=181.5",
+"oid": "13",
+"k": "73451862|225|total=181.5|13"
+},
+{
+"t": "Sat 19:30",
+"game": "Sporting Cp vs CD Povoa",
+"lg": "Portugal - LPB",
+"pick": "Over 138.5 total points",
+"odds": 1.21,
+"why": "expected Sporting Cp 79 \u2013 CD Povoa 77 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 100%",
+"ts": 1794681000.0,
+"eid": "sr:match:72971566",
+"mid": "225",
+"spec": "total=138.5",
+"oid": "12",
+"k": "72971566|225|total=138.5|12"
+},
+{
+"t": "Sun 05:00",
+"game": "Sydney Kings vs New Zealand Breakers",
+"lg": "Australia - NBL",
+"pick": "Under 197.5 total points",
+"odds": 1.23,
+"why": "expected Sydney Kings 94 \u2013 New Zealand Breakers 87 (last 10/10 games, home edge included); 83% by the stats, 80% with the price",
+"ts": 1794715200.0,
+"eid": "sr:match:72016892",
+"mid": "225",
+"spec": "total=197.5",
+"oid": "13",
+"k": "72016892|225|total=197.5|13"
+},
+{
+"t": "Sun 06:05",
+"game": "Akita Northern Happinets vs Osaka Evessa",
+"lg": "Japan - B League Premier",
+"pick": "Over 157.5 total points",
+"odds": 1.21,
+"why": "expected Akita Northern Happinets 94 \u2013 Osaka Evessa 82 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 80%",
+"ts": 1794719100.0,
+"eid": "sr:match:72696322",
+"mid": "225",
+"spec": "total=157.5",
+"oid": "12",
+"k": "72696322|225|total=157.5|12"
+},
+{
+"t": "Sun 06:05",
+"game": "Levanga Hokkaido vs Saga Ballooners",
+"lg": "Japan - B League Premier",
+"pick": "Under 200.5 total points",
+"odds": 1.23,
+"why": "expected Levanga Hokkaido 98 \u2013 Saga Ballooners 85 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; Flashscore home/away form 75%",
+"ts": 1794719100.0,
+"eid": "sr:match:72696320",
+"mid": "225",
+"spec": "total=200.5",
+"oid": "13",
+"k": "72696320|225|total=200.5|13"
+},
+{
+"t": "Sun 07:00",
+"game": "Brisbane Bullets vs Tasmania Jackjumpers",
+"lg": "Australia - NBL",
+"pick": "Over 172.5 total points",
+"odds": 1.21,
+"why": "expected Brisbane Bullets 95 \u2013 Tasmania Jackjumpers 96 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 85%",
+"ts": 1794722400.0,
+"eid": "sr:match:72016894",
+"mid": "225",
+"spec": "total=172.5",
+"oid": "12",
+"k": "72016894|225|total=172.5|12"
+},
+{
+"t": "Sun 08:30",
+"game": "LG Sakers vs KT Sonicboom",
+"lg": "Republic of Korea - KBL",
+"pick": "Over 157.5 total points",
+"odds": 1.21,
+"why": "expected LG Sakers 90 \u2013 KT Sonicboom 84 (last 10/10 games, home edge included, LG Sakers on 2nd game in 2 days); 82% by the stats, 80% with the price",
+"ts": 1794727800.0,
+"eid": "sr:match:73657560",
+"mid": "225",
+"spec": "total=157.5",
+"oid": "12",
+"k": "73657560|225|total=157.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "Peristeri Athens vs AO Mykonoy",
+"lg": "Greece - Basketball League",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"why": "expected Peristeri Athens 85 \u2013 AO Mykonoy 80 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 90%",
+"ts": 1794740400.0,
+"eid": "sr:match:74750488",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "74750488|225|total=148.5|12"
+},
+{
+"t": "Sun 13:30",
+"game": "Merkezefendi Belediyesi Denizli Basket vs Cayirova Belediyesi",
+"lg": "Turkiye - Super Lig",
+"pick": "Under 182.5 total points",
+"odds": 1.25,
+"why": "expected Merkezefendi Belediyesi Denizli Basket 82 \u2013 Cayirova Belediyesi 83 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; Flashscore home/away form 90%",
+"ts": 1794745800.0,
+"eid": "sr:match:73495536",
+"mid": "225",
+"spec": "total=182.5",
+"oid": "13",
+"k": "73495536|225|total=182.5|13"
+},
+{
+"t": "Sun 15:00",
+"game": "Vikos Falcon BC vs BC Maroussi Athens",
+"lg": "Greece - Basketball League",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"why": "expected Vikos Falcon BC 84 \u2013 BC Maroussi Athens 82 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 80%",
+"ts": 1794751200.0,
+"eid": "sr:match:74750490",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "74750490|225|total=148.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Rostock Seawolves vs Rasta Vechta",
+"lg": "Germany - BBL",
+"pick": "Under 187.5 total points",
+"odds": 1.25,
+"why": "expected Rostock Seawolves 87 \u2013 Rasta Vechta 82 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; Flashscore home/away form 90%",
+"ts": 1794751200.0,
+"eid": "sr:match:73451872",
+"mid": "225",
+"spec": "total=187.5",
+"oid": "13",
+"k": "73451872|225|total=187.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 15:08",
 "at": 1794665293,
 "req": {
@@ -10830,122 +11140,6 @@
 "spec": "",
 "oid": "25",
 "k": "76708742|450001||25"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 21:35",
-"at": 1794602114,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "htdraw",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwffr9du7gn9"
-},
-"ok": true,
-"kind": "half-time draw",
-"note": [
-"Only 6 games passed the checks (Fri 13, Sat 14, 665 games on SportyBet), so this ticket has 6 legs instead of 30. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "VD2NFR",
-"odds": 82.07,
-"legs": [
-{
-"t": "Sat 12:00",
-"game": "RCD Espanyol Barcelona vs CD Tenerife",
-"lg": "Spain - Primera Division Women",
-"pick": "Half-time draw",
-"odds": 2.0,
-"why": "level at half-time in 60% of RCD Espanyol Barcelona's last 10 and 60% of CD Tenerife's last 10 (45% were 0-0); league 58% half-time draws; 60% of 5 meetings level at half-time",
-"ts": 1794654000.0,
-"eid": "sr:match:72491444",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72491444|60||2"
-},
-{
-"t": "Sat 13:00",
-"game": "Hellas Syrou vs Panthrakikos FC Komotini",
-"lg": "Greece - Super League 2",
-"pick": "Half-time draw",
-"odds": 2.1,
-"why": "level at half-time in 90% of Hellas Syrou's last 10 and 60% of Panthrakikos FC Komotini's last 10 (55% were 0-0); league 54% half-time draws",
-"ts": 1794657600.0,
-"eid": "sr:match:74172536",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "74172536|60||2"
-},
-{
-"t": "Sat 13:00",
-"game": "Sks Unia Swarzedz vs Gedania Gdansk",
-"lg": "Poland - III Liga, Group 2",
-"pick": "Half-time draw",
-"odds": 2.5,
-"why": "level at half-time in 70% of Sks Unia Swarzedz's last 10 and 60% of Gedania Gdansk's last 10 (35% were 0-0); league 43% half-time draws; 50% of 6 meetings level at half-time",
-"ts": 1794657600.0,
-"eid": "sr:match:72516162",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72516162|60||2"
-},
-{
-"t": "Sat 14:00",
-"game": "Bronshoj BK vs Vanloese IF",
-"lg": "Denmark - 3rd Division",
-"pick": "Half-time draw",
-"odds": 2.2,
-"why": "level at half-time in 60% of Bronshoj BK's last 10 and 70% of Vanloese IF's last 10 (35% were 0-0); league 43% half-time draws; 70% of 10 meetings level at half-time",
-"ts": 1794661200.0,
-"eid": "sr:match:72500826",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72500826|60||2"
-},
-{
-"t": "Sat 19:00",
-"game": "CA Atlanta vs CA Estudiantes",
-"lg": "Argentina - Primera Nacional",
-"pick": "Half-time draw",
-"odds": 1.86,
-"why": "level at half-time in 70% of CA Atlanta's last 10 and 60% of CA Estudiantes's last 10 (55% were 0-0); league 59% half-time draws; 80% of 10 meetings level at half-time",
-"ts": 1794679200.0,
-"eid": "sr:match:76413236",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76413236|60||2"
-},
-{
-"t": "Sat 20:00",
-"game": "CA Temperley vs Club Ciudad de Bolivar",
-"lg": "Argentina - Primera Nacional",
-"pick": "Half-time draw",
-"odds": 1.91,
-"why": "level at half-time in 70% of CA Temperley's last 10 and 70% of Club Ciudad de Bolivar's last 10 (55% were 0-0); league 59% half-time draws",
-"ts": 1794682800.0,
-"eid": "sr:match:76413238",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76413238|60||2"
 }
 ]
 }
