@@ -218,7 +218,7 @@
 "when": "Sat 14 Nov 00:16",
 "kind": "your chosen markets",
 "odds": 1.95,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 01:00",
@@ -255,7 +255,10 @@
 "game": "Wellington Phoenix FC vs Auckland City FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1794618000.0
+"ts": 1794618000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
