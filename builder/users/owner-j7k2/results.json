@@ -4370,7 +4370,7 @@
 "when": "Fri 13 Nov 22:55",
 "kind": "goal-fest teams (season data)",
 "odds": 39.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:15",
@@ -4387,7 +4387,10 @@
 "game": "SK Aritma Prague vs Tj Jiskra Domazlice",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1794647700.0
+"ts": 1794647700.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 10:15",
@@ -4456,7 +4459,7 @@
 "when": "Fri 13 Nov 22:53",
 "kind": "goal-fest teams (season data)",
 "odds": 8.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:15",
@@ -4473,7 +4476,10 @@
 "game": "SK Aritma Prague vs Tj Jiskra Domazlice",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1794647700.0
+"ts": 1794647700.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 11:00",
