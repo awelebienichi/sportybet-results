@@ -759,14 +759,20 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
 "game": "Gateshead FC vs Barrow AFC",
 "pick": "Barrow AFC to win (1UP)",
 "odds": 1.29,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",

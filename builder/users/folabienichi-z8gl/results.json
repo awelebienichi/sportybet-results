@@ -601,7 +601,7 @@
 "when": "Wed 11 Nov 12:01",
 "kind": "your chosen markets",
 "odds": 2037.9,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:00",
@@ -768,7 +768,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -812,7 +815,7 @@
 "when": "Wed 11 Nov 11:24",
 "kind": "your chosen markets",
 "odds": 5.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 21:00",
@@ -859,7 +862,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 }
 ]
 },

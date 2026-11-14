@@ -453,7 +453,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -520,7 +523,10 @@
 "game": "Worksop Town vs South Shields",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -930,7 +936,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1118,7 +1127,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1278,7 +1290,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 20:00",
@@ -1558,7 +1573,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1790,7 +1808,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",

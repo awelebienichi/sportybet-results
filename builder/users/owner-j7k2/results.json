@@ -386,7 +386,10 @@
 "game": "Leamington FC vs Leiston FC",
 "pick": "Leiston FC Under 3.5",
 "odds": 1.03,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 16:00",
@@ -1374,7 +1377,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1937,7 +1943,7 @@
 "when": "Sat 14 Nov 11:23",
 "kind": "your chosen markets",
 "odds": 5.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -2011,7 +2017,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -2355,7 +2364,10 @@
 "game": "Hebburn Town vs Guiseley FC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -2382,7 +2394,10 @@
 "game": "Worksop Town vs South Shields",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2419,7 +2434,10 @@
 "game": "Hartlepool United vs Wealdstone FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.19,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2632,7 +2650,10 @@
 "game": "Swindon Town vs Grimsby Town",
 "pick": "Double chance Swindon Town or Grimsby Town",
 "odds": 1.27,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-4",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -2707,7 +2728,10 @@
 "game": "Worksop Town vs South Shields",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2741,7 +2765,10 @@
 "game": "Hartlepool United vs Wealdstone FC",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3414,7 +3441,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3530,7 +3560,7 @@
 "when": "Sat 14 Nov 06:57",
 "kind": "always-beaten teams (season data)",
 "odds": 1.97,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -3547,7 +3577,10 @@
 "game": "Gateshead FC vs Barrow AFC",
 "pick": "Barrow AFC to win",
 "odds": 1.59,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 }
 ]
 },
@@ -4208,7 +4241,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -4614,14 +4650,20 @@
 "game": "Gateshead FC vs Barrow AFC",
 "pick": "1X2 - 1UP \u2013 Away",
 "odds": 1.31,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
 "game": "Worksop Town vs South Shields",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4669,7 +4711,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4927,7 +4972,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5207,7 +5255,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -5404,7 +5455,10 @@
 "game": "Gateshead FC vs Barrow AFC",
 "pick": "1X2 - 1UP \u2013 Away",
 "odds": 1.31,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -5418,7 +5472,10 @@
 "game": "Worksop Town vs South Shields",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5813,7 +5870,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -6169,7 +6229,10 @@
 "game": "Gateshead FC vs Barrow AFC",
 "pick": "Barrow AFC to win (1UP)",
 "odds": 1.31,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -6237,7 +6300,10 @@
 "game": "Worksop Town vs South Shields",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:30",
@@ -6627,7 +6693,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",

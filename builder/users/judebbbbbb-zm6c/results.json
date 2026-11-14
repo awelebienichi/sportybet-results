@@ -121,7 +121,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -246,7 +249,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -273,7 +279,10 @@
 "game": "Worksop Town vs South Shields",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:00",
@@ -440,7 +449,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -565,7 +577,10 @@
 "game": "Leek Town FC vs Morecambe FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -692,7 +707,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -902,7 +920,7 @@
 "when": "Sat 14 Nov 04:20",
 "kind": "rebuild of M9QHLC",
 "odds": 10.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -936,7 +954,10 @@
 "game": "Swindon Town vs Grimsby Town",
 "pick": "Swindon Town excluded goals: 1",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-4",
+"ht": "0-2"
 },
 {
 "t": "Sat 18:00",
@@ -1035,7 +1056,7 @@
 "when": "Sat 14 Nov 04:15",
 "kind": "rebuild of ZK1JVM",
 "odds": 9.97,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -1059,14 +1080,20 @@
 "game": "AFC Hornchurch vs Tamworth FC",
 "pick": "Tamworth FC excluded goals: 1",
 "odds": 1.44,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Double chance Worthing FC or draw",
 "odds": 1.59,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:00",
@@ -1114,14 +1141,20 @@
 "game": "AFC Hornchurch vs Tamworth FC",
 "pick": "Double chance AFC Hornchurch or Tamworth FC",
 "odds": 1.28,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:00",
