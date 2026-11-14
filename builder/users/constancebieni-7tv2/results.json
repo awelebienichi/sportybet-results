@@ -267,7 +267,10 @@
 "game": "AS Megrine vs AS Agareb",
 "pick": "Over 1.5",
 "odds": 1.47,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -1363,7 +1366,10 @@
 "game": "AS Megrine vs AS Agareb",
 "pick": "Goal bounds 2-5+",
 "odds": 1.49,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -1580,7 +1586,10 @@
 "game": "AS Megrine vs AS Agareb",
 "pick": "Goal bounds 2-5+",
 "odds": 1.49,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
