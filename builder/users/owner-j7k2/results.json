@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "S2GT7W",
+"at": 1794672785,
+"when": "Sat 14 Nov 17:13",
+"kind": "live \u2013 best of all",
+"odds": 2.43,
+"status": "open",
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "Palestine vs IR Iran",
+"pick": "Handicap 3:0 \u2013 Palestine",
+"odds": 1.04,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "Handicap 0:4 \u2013 Boston United FC",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gloucester City vs Sholing FC",
+"pick": "Gloucester City Under 2.5",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Belgium vs Kazakhstan",
+"pick": "Handicap 0:3 \u2013 Kazakhstan",
+"odds": 1.05,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Heart of Lions vs Dreams FC",
+"pick": "Heart of Lions Under 3.5",
+"odds": 1.05,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Leamington FC vs Leiston FC",
+"pick": "Leiston FC Under 3.5",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cove Rangers FC vs Montrose FC",
+"pick": "Cove Rangers FC or draw",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "CL Oriental vs CD Mafra U19",
+"pick": "CL Oriental or draw",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Harrogate Town vs Altrincham FC",
+"pick": "Handicap 0:4 \u2013 Altrincham FC",
+"odds": 1.08,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Eastleigh FC vs AFC Fylde",
+"pick": "Handicap 0:2 \u2013 AFC Fylde",
+"odds": 1.04,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Edinburgh City FC vs Clyde FC",
+"pick": "Handicap 0:2 \u2013 Clyde FC",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dartford FC vs AFC Totton",
+"pick": "Dartford FC or draw",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Southend United vs Aldershot Town FC",
+"pick": "Handicap 0:3 \u2013 Aldershot Town FC",
+"odds": 1.11,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Kidderminster Harriers FC vs FC Halifax Town",
+"pick": "Handicap 0:3 \u2013 FC Halifax Town",
+"odds": 1.05,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Salford City vs Northampton Town",
+"pick": "Northampton Town Under 2.5",
+"odds": 1.04,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Aveley FC",
+"pick": "Aveley FC or draw",
+"odds": 1.05,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rochdale AFC vs York City FC",
+"pick": "Under 3.5",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "KAC Kenitra vs Ittihad Khemisset",
+"pick": "KAC Kenitra Under 1.5",
+"odds": 1.08,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ayr United FC vs Raith Rovers FC",
+"pick": "Under 5.5",
+"odds": 1.03,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "AFC Wimbledon vs Blackpool FC",
+"pick": "Handicap 0:3 \u2013 Blackpool FC",
+"odds": 1.05,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "ZGLGST",
 "at": 1794665660,
 "when": "Sat 14 Nov 15:14",
@@ -2591,7 +2741,7 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -7450,7 +7600,7 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
