@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "Q9A3CL",
+"at": 1794626731,
+"when": "Sat 14 Nov 04:25",
+"kind": "live \u2013 best of all",
+"odds": 1.17,
+"status": "open",
+"legs": [
+{
+"t": "Sat 02:45",
+"game": "Sonio Takamatsu vs Tokyo United FC",
+"pick": "Tokyo United FC or draw",
+"odds": 1.03,
+"ts": 1794620700.0
+},
+{
+"t": "Sat 03:00",
+"game": "Reboceros de La Piedad vs Racing de Veracruz",
+"pick": "Handicap 3:0 \u2013 Reboceros de La Piedad",
+"odds": 1.05,
+"ts": 1794621600.0
+},
+{
+"t": "Sat 03:30",
+"game": "Tigres de Alica FC vs Jaguares FC",
+"pick": "Handicap 0:2 \u2013 Jaguares FC",
+"odds": 1.09,
+"ts": 1794623400.0
+}
+]
+},
+{
 "code": "J9J8FM",
 "at": 1794618347,
 "when": "Sat 14 Nov 02:05",
