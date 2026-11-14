@@ -186,7 +186,10 @@
 "game": "Soles de Mexicali vs Astros de Jalisco",
 "pick": "Over 144.5 total points",
 "odds": 1.2,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "L",
+"sc": "73-70",
+"ht": "16-24"
 },
 {
 "t": "Sat 07:05",
@@ -308,14 +311,17 @@
 "when": "Sat 14 Nov 02:13",
 "kind": "basketball \u2013 total points",
 "odds": 54.61,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 05:00",
 "game": "Soles de Mexicali vs Astros de Jalisco",
 "pick": "Over 144.5 total points",
 "odds": 1.2,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "L",
+"sc": "73-70",
+"ht": "16-24"
 },
 {
 "t": "Sat 06:05",
