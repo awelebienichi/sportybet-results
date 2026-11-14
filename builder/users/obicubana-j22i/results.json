@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WYXKV2",
+"at": 1794618815,
+"when": "Sat 14 Nov 02:13",
+"kind": "basketball \u2013 total points",
+"odds": 54.61,
+"status": "open",
+"legs": [
+{
+"t": "Sat 05:00",
+"game": "Soles de Mexicali vs Astros de Jalisco",
+"pick": "Over 144.5 total points",
+"odds": 1.2,
+"ts": 1794628800.0
+},
+{
+"t": "Sat 06:05",
+"game": "Altiri Chiba vs San-En Neophoenix",
+"pick": "Under 184.5 total points",
+"odds": 1.22,
+"ts": 1794632700.0
+},
+{
+"t": "Sat 07:05",
+"game": "Yokohama B-Corsairs vs Shiga Lakestars",
+"pick": "Over 151.5 total points",
+"odds": 1.21,
+"ts": 1794636300.0
+},
+{
+"t": "Sat 08:30",
+"game": "Samsung Thunders vs Anyang Jungkwanjang Red Boosters",
+"pick": "Over 150.5 total points",
+"odds": 1.22,
+"ts": 1794641400.0
+},
+{
+"t": "Sat 09:30",
+"game": "Melbourne United vs SE Melbourne Phoenix",
+"pick": "Under 214.5 total points",
+"odds": 1.22,
+"ts": 1794645000.0
+},
+{
+"t": "Sat 12:00",
+"game": "FC Universitatea Cluj vs KD Ilirija",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"pick": "Under 189.5 total points",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:00",
+"game": "Benfica Lisboa vs CAB Madeira",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:00",
+"game": "CB Breogan vs CB San Pablo Burgos",
+"pick": "Under 204.5 total points",
+"odds": 1.25,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaerlose vs Bears Academy",
+"pick": "Over 154.5 total points",
+"odds": 1.21,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:10",
+"game": "BC Nevezis Kedainiai vs BC Juventus Utena",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794676200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bamberg Baskets vs Baskets Bonn",
+"pick": "Under 183.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bordo BK vs Karsiyaka Basket",
+"pick": "Under 180.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "JL Bourg Basket vs Roanne Chorale",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 19:30",
+"game": "Sporting Cp vs CD Povoa",
+"pick": "Over 137.5 total points",
+"odds": 1.2,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 19:30",
+"game": "Menorca Basquet vs Oviedo BC",
+"pick": "Over 141.5 total points",
+"odds": 1.2,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 20:00",
+"game": "SC Corinthians Paulista vs Basquete Osasco",
+"pick": "Under 178.5 total points",
+"odds": 1.22,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 22:00",
+"game": "EC Uniao Corinthians vs Pato Basquete",
+"pick": "Over 141.5 total points",
+"odds": 1.21,
+"ts": 1794690000.0
+}
+]
+},
+{
 "code": "JJQA9A",
 "at": 1794618735,
 "when": "Sat 14 Nov 02:12",
