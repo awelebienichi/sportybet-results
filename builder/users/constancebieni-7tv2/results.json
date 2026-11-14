@@ -7,7 +7,7 @@
 "when": "Sat 14 Nov 04:25",
 "kind": "live \u2013 best of all",
 "odds": 1.17,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 02:45",
@@ -34,7 +34,10 @@
 "game": "Tigres de Alica FC vs Jaguares FC",
 "pick": "Handicap 0:2 \u2013 Jaguares FC",
 "odds": 1.09,
-"ts": 1794623400.0
+"ts": 1794623400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
