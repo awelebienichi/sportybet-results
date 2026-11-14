@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "N27ZSZ",
+"at": 1794635133,
+"when": "Sat 14 Nov 06:45",
+"kind": "2nd half Over 0.5",
+"odds": 1.35,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:50",
+"game": "Al Dhafra SSC vs Ajman Club",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794660600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "H6U2TS",
 "at": 1794635045,
 "when": "Sat 14 Nov 06:44",
