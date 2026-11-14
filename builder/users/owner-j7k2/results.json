@@ -338,7 +338,7 @@
 "when": "Sat 14 Nov 17:13",
 "kind": "live \u2013 best of all",
 "odds": 2.43,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -352,7 +352,10 @@
 "game": "Carlisle United vs Boston United FC",
 "pick": "Handicap 0:4 \u2013 Boston United FC",
 "odds": 1.03,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -407,14 +410,20 @@
 "game": "Harrogate Town vs Altrincham FC",
 "pick": "Handicap 0:4 \u2013 Altrincham FC",
 "odds": 1.08,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "4-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
 "game": "Eastleigh FC vs AFC Fylde",
 "pick": "Handicap 0:2 \u2013 AFC Fylde",
 "odds": 1.04,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -469,7 +478,10 @@
 "game": "Rochdale AFC vs York City FC",
 "pick": "Under 3.5",
 "odds": 1.03,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -1886,7 +1898,7 @@
 "odds": 1.17,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -1974,7 +1986,7 @@
 "odds": 1.17,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -2187,7 +2199,7 @@
 "odds": 1.17,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -2709,7 +2721,10 @@
 "game": "Carlisle United vs Boston United FC",
 "pick": "Double chance Carlisle United or Boston United FC",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -3152,8 +3167,8 @@
 "odds": 1.24,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "0-1",
-"ht": ""
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -3222,7 +3237,7 @@
 "odds": 1.18,
 "ts": 1794670200.0,
 "r": "L",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -3374,7 +3389,7 @@
 "odds": 1.17,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -4108,7 +4123,7 @@
 "odds": 1.18,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -4126,7 +4141,10 @@
 "game": "Dover Athletic FC vs Burgess Hill Town",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.12,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "3-0"
 },
 {
 "t": "Sat 16:00",
@@ -4658,7 +4676,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -4923,7 +4944,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -5619,7 +5643,7 @@
 "odds": 1.18,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -5657,7 +5681,10 @@
 "game": "Dover Athletic FC vs Burgess Hill Town",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.12,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "3-0"
 },
 {
 "t": "Sat 17:00",
@@ -5837,7 +5864,10 @@
 "game": "Dover Athletic FC vs Burgess Hill Town",
 "pick": "Dover Athletic FC or GG",
 "odds": 1.12,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "3-0"
 },
 {
 "t": "Sat 18:00",
@@ -6153,7 +6183,10 @@
 "game": "Scunthorpe United vs Worthing FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -6162,7 +6195,7 @@
 "odds": 1.18,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-2"
 },
 {
@@ -8167,8 +8200,8 @@
 "odds": 1.24,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "0-1",
-"ht": ""
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
