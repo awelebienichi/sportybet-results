@@ -1,5 +1,60 @@
 [
 {
+"when": "Sat 14 Nov 02:12",
+"at": 1794618735,
+"req": {
+"u": "obicubana-j22i",
+"name": "Obi Cubana",
+"type": "bblive",
+"kind": "mix",
+"legs": 20,
+"strict": "normal",
+"rid": "mwfpngopn1ye"
+},
+"ok": true,
+"kind": "live basketball",
+"note": [
+"Only 2 live basketball leg(s) were strong enough right now (you asked for 20).",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "JJQA9A",
+"odds": 1.27,
+"legs": [
+{
+"t": "Sat 01:00",
+"game": "Bucknell Bison vs Columbia Lions",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Columbia Lions to win (incl. OT)",
+"odds": 1.06,
+"why": "LIVE 35-46, 26 of 40 min: expected final 60-73; 92% by the stats, 91% with the price",
+"ts": 1794614400.0,
+"eid": "sr:match:73665314",
+"mid": "219",
+"spec": "",
+"oid": "5",
+"k": "73665314|219||5"
+},
+{
+"t": "Sat 01:00",
+"game": "Indiana Pacers vs New York Knicks",
+"lg": "USA - NBA",
+"pick": "Indiana Pacers +9.5 (handicap)",
+"odds": 1.2,
+"why": "LIVE 52-43, 22 of 48 min: expected final 111-103; 95% by the stats, 87% with the price",
+"ts": 1794614400.0,
+"eid": "sr:match:73696984",
+"mid": "223",
+"spec": "hcp=9.5",
+"oid": "1714",
+"k": "73696984|223|hcp=9.5|1714"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 02:09",
 "at": 1794618555,
 "req": {
