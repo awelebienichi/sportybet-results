@@ -953,7 +953,7 @@
 "when": "Sat 14 Nov 09:57",
 "kind": "live \u2013 best of all",
 "odds": 1.32,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 09:00",
@@ -1000,7 +1000,10 @@
 "game": "Bayswater City vs Sydney Olympic FC",
 "pick": "Bayswater City to win",
 "odds": 1.09,
-"ts": 1794645000.0
+"ts": 1794645000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 }
 ]
 },
