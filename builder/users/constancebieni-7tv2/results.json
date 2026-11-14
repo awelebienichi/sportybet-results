@@ -7,14 +7,17 @@
 "when": "Sat 14 Nov 14:18",
 "kind": "safest market per game",
 "odds": 11.1,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
 "game": "Swindon Town vs Grimsby Town",
 "pick": "1st half double chance Swindon Town or draw",
 "odds": 1.48,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",

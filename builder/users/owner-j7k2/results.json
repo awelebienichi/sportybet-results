@@ -1684,7 +1684,10 @@
 "game": "Milton Keynes Dons vs Burton Albion",
 "pick": "1st half Under 2.5",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
@@ -1985,7 +1988,10 @@
 "game": "Milton Keynes Dons vs Burton Albion",
 "pick": "1st half Under 2.5",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
@@ -3487,7 +3493,10 @@
 "game": "Swindon Town vs Grimsby Town",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.45,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -3889,7 +3898,10 @@
 "game": "Milton Keynes Dons vs Burton Albion",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.19,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
@@ -4399,7 +4411,10 @@
 "game": "Swindon Town vs Grimsby Town",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.45,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -4621,7 +4636,10 @@
 "game": "Milton Keynes Dons vs Burton Albion",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.19,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
@@ -5736,7 +5754,10 @@
 "game": "Swindon Town vs Grimsby Town",
 "pick": "1st half double chance Swindon Town or draw",
 "odds": 1.45,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -5757,7 +5778,10 @@
 "game": "Milton Keynes Dons vs Burton Albion",
 "pick": "1st half double chance Milton Keynes Dons or draw",
 "odds": 1.19,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
