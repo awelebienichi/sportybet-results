@@ -2,6 +2,289 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LW8WJB",
+"at": 1794650425,
+"when": "Sat 14 Nov 11:00",
+"kind": "rebuild of R4NTDN",
+"odds": 5019.33,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Montpellier HSC vs GFC Ajaccio",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Milton Keynes Dons vs Burton Albion",
+"pick": "1st half Under 2.5",
+"odds": 1.18,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bristol Rovers vs Chesterfield FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Port Vale vs Accrington Stanley",
+"pick": "Over 1.5",
+"odds": 1.35,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rochdale AFC vs York City FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"pick": "Double chance Swindon Town or Grimsby Town",
+"odds": 1.27,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "AFC Telford United vs Chelmsford City",
+"pick": "Double chance Chelmsford City or draw",
+"odds": 1.57,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Chorley FC vs Buxton FC",
+"pick": "Double chance Chorley FC or Buxton FC",
+"odds": 1.26,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Didcot Town vs Slough Town",
+"pick": "Double chance Didcot Town or Slough Town",
+"odds": 1.25,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Folkestone Invicta vs Cray Wanderers",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Halesowen Town FC vs Redditch United",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.46,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Maidenhead United FC",
+"pick": "Over 1.5",
+"odds": 1.27,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Radcliffe FC vs Marine FC",
+"pick": "Double chance Radcliffe FC or Marine FC",
+"odds": 1.27,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Worksop Town vs South Shields",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Olympique Dcheira vs JS Massira",
+"pick": "Double chance Olympique Dcheira or JS Massira",
+"odds": 1.3,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "Double chance Carlisle United or Boston United FC",
+"odds": 1.18,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Eastleigh FC vs AFC Fylde",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hartlepool United vs Wealdstone FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Yeovil Town vs Boreham Wood FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "ASKO Kohfidisch vs SK Pama",
+"pick": "Double chance SK Pama or draw",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hanwell Town FC vs Plymouth Parkway",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "France vs Ireland",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Portugal vs Germany",
+"pick": "Double chance Portugal or Germany",
+"odds": 1.25,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"pick": "Double chance Young Boys Bern or draw",
+"odds": 1.13,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"pick": "Double chance Brighton and Hove Albion WFC or Liverpool LFC",
+"odds": 1.25,
+"ts": 1794676500.0
+},
+{
+"t": "Sat 18:30",
+"game": "Almeria vs FC Andorra",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 19:00",
+"game": "RSC Anderlecht vs Club Brugge KV",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 20:00",
+"game": "Algeria vs Togo",
+"pick": "1st half Over 0.5",
+"odds": 1.3,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "FC Dordrecht vs Heracles Almelo",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "RKC Waalwijk vs FC Den Bosch",
+"pick": "1st half GG \u2013 No",
+"odds": 1.35,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "Roda JC Kerkrade vs FC Volendam",
+"pick": "1st half GG \u2013 No",
+"odds": 1.32,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "AD Municipal Santa Ana vs AD Sarchi",
+"pick": "Double chance AD Municipal Santa Ana or AD Sarchi",
+"odds": 1.27,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:30",
+"game": "America FC MG vs Avai FC SC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.24,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:45",
+"game": "Austria vs Ireland",
+"pick": "2nd half Over 0.5",
+"odds": 1.27,
+"ts": 1794685500.0
+},
+{
+"t": "Sat 20:45",
+"game": "Portugal vs Denmark",
+"pick": "Double chance Portugal or Denmark",
+"odds": 1.21,
+"ts": 1794685500.0
+},
+{
+"t": "Sat 20:45",
+"game": "Sweden vs Bosnia & Herzegovina",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794685500.0
+},
+{
+"t": "Sat 22:30",
+"game": "Mirassol FC SP vs Atletico Mineiro MG",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794691800.0
+}
+]
+},
+{
 "code": "HYHV8S",
 "at": 1794647826,
 "when": "Sat 14 Nov 10:17",
