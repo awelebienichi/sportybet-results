@@ -1,7 +1,7 @@
 [
 {
-"when": "Sat 14 Nov 06:47",
-"at": 1794635258,
+"when": "Sat 14 Nov 06:48",
+"at": 1794635337,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -57,8 +57,8 @@
 ]
 },
 {
-"when": "Sat 14 Nov 06:45",
-"at": 1794635133,
+"when": "Sat 14 Nov 06:48",
+"at": 1794635330,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -114,8 +114,8 @@
 ]
 },
 {
-"when": "Sat 14 Nov 06:44",
-"at": 1794635045,
+"when": "Sat 14 Nov 06:48",
+"at": 1794635324,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -171,8 +171,8 @@
 ]
 },
 {
-"when": "Sat 14 Nov 06:42",
-"at": 1794634931,
+"when": "Sat 14 Nov 06:48",
+"at": 1794635319,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -228,8 +228,8 @@
 ]
 },
 {
-"when": "Sat 14 Nov 06:40",
-"at": 1794634825,
+"when": "Sat 14 Nov 06:48",
+"at": 1794635315,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -285,8 +285,8 @@
 ]
 },
 {
-"when": "Sat 14 Nov 06:38",
-"at": 1794634727,
+"when": "Sat 14 Nov 06:48",
+"at": 1794635311,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -338,238 +338,6 @@
 "spec": "",
 "oid": "1",
 "k": "72654956|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:37",
-"at": 1794634634,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "fav",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfz47pzlw72"
-},
-"ok": true,
-"kind": "strong favourites to win",
-"note": [
-"10 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
-],
-"tickets": [
-{
-"code": "YL02T3",
-"odds": 1.58,
-"legs": [
-{
-"t": "Sat 13:30",
-"game": "Spain vs Wales",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Spain to win",
-"odds": 1.07,
-"why": "won 90% lost 0% of last 10, rival lost 70%, won 100% of 3 meetings; Flashscore home/away form 60%",
-"ts": 1794659400.0,
-"eid": "sr:match:74723374",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "74723374|1||1"
-},
-{
-"t": "Sat 19:00",
-"game": "Cruzeiro EC MG vs America FC MG",
-"lg": "Brazil - Mineiro, Women",
-"pick": "Cruzeiro EC MG to win",
-"odds": 1.48,
-"why": "won 100% lost 0% of last 10, rival lost 60%, won 75% of 8 meetings; Flashscore home/away form 80%, season: won 83%, rival lost 50%",
-"ts": 1794679200.0,
-"eid": "sr:match:75931444",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75931444|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:34",
-"at": 1794634494,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "best",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfz16st0uud"
-},
-"ok": true,
-"kind": "your tracker's best markets",
-"note": [],
-"tickets": [
-{
-"code": "X8QGRV",
-"odds": 2.03,
-"legs": [
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st half double chance GVVV Veenendaal or draw",
-"odds": 1.4,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794663000.0,
-"eid": "sr:match:72594654",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72594654|63||9"
-},
-{
-"t": "Sat 16:00",
-"game": "Swindon Town vs Grimsby Town",
-"lg": "England - League Two",
-"pick": "1st half double chance Swindon Town or draw",
-"odds": 1.45,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:72342378",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72342378|63||9"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:32",
-"at": 1794634376,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "mix",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfyymhcn3rj"
-},
-"ok": true,
-"kind": "safest market per game",
-"note": [],
-"tickets": [
-{
-"code": "GQX73J",
-"odds": 2.32,
-"legs": [
-{
-"t": "Sat 13:30",
-"game": "Jerash FC vs AL Lewaa Club",
-"lg": "Saudi Arabia - Second Division",
-"pick": "GG (both teams score)",
-"odds": 1.59,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
-"ts": 1794659400.0,
-"eid": "sr:match:73775058",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73775058|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Hebburn Town vs Guiseley FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Double chance Guiseley FC or draw",
-"odds": 1.46,
-"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
-"ts": 1794668400.0,
-"eid": "sr:match:76125228",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76125228|10||11"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:31",
-"at": 1794634294,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "mix",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfyvzqoon60"
-},
-"ok": true,
-"kind": "safest market per game",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
-],
-"tickets": [
-{
-"code": "GQX73J",
-"odds": 2.35,
-"legs": [
-{
-"t": "Sat 13:30",
-"game": "Jerash FC vs AL Lewaa Club",
-"lg": "Saudi Arabia - Second Division",
-"pick": "GG (both teams score)",
-"odds": 1.61,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
-"ts": 1794659400.0,
-"eid": "sr:match:73775058",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73775058|29||74"
-},
-{
-"t": "Sat 16:00",
-"game": "Hebburn Town vs Guiseley FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Double chance Guiseley FC or draw",
-"odds": 1.46,
-"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
-"ts": 1794668400.0,
-"eid": "sr:match:76125228",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76125228|10||11"
 }
 ]
 }
@@ -9266,5 +9034,482 @@
 },
 "ok": false,
 "msg": "15 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
+},
+{
+"when": "Fri 13 Nov 18:24",
+"at": 1794590660,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "quarter",
+"legs": 2,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"rid": "mwf8xo9jrk8a"
+},
+"ok": true,
+"kind": "basketball \u2013 quarter total points",
+"note": [
+"Only 1 basketball games passed the checks (Fri 13, 88 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "SFB5SR",
+"odds": 1.4,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Bakken Bears Q1 Under 29.5 points",
+"odds": 1.4,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "757",
+"spec": "total=29.5|quarternr=1",
+"oid": "13",
+"k": "72663212|757|total=29.5|quarternr=1|13"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 17:47",
+"at": 1794588442,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 20,
+"days": [
+"2026-11-13",
+"2026-11-14",
+"2026-11-15",
+"2026-11-16"
+],
+"strict": "normal",
+"rid": "mwf7lu39irv6"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "YGXW0U",
+"odds": 54.16,
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "MKS Start Lublin vs GTK Gliwice",
+"lg": "Poland - PLK",
+"pick": "Over 147.5 total points",
+"odds": 1.21,
+"why": "expected MKS Start Lublin 83 \u2013 GTK Gliwice 83 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 90%",
+"ts": 1794589200.0,
+"eid": "sr:match:72676964",
+"mid": "225",
+"spec": "total=147.5",
+"oid": "12",
+"k": "72676964|225|total=147.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "Kufstein Towers vs Swans Gmunden",
+"lg": "Austria - Superliga",
+"pick": "Under 183.5 total points",
+"odds": 1.22,
+"why": "expected Kufstein Towers 81 \u2013 Swans Gmunden 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794589200.0,
+"eid": "sr:match:72653726",
+"mid": "225",
+"spec": "total=183.5",
+"oid": "13",
+"k": "72653726|225|total=183.5|13"
+},
+{
+"t": "Fri 19:00",
+"game": "BK Vejen81 vs Bakken Bears",
+"lg": "Denmark - Basketligaen",
+"pick": "Under 191.5 total points",
+"odds": 1.22,
+"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 90%",
+"ts": 1794592800.0,
+"eid": "sr:match:72663212",
+"mid": "225",
+"spec": "total=191.5",
+"oid": "13",
+"k": "72663212|225|total=191.5|13"
+},
+{
+"t": "Fri 19:00",
+"game": "SKN St. Polten Basketball vs Flyers Wels",
+"lg": "Austria - Superliga",
+"pick": "Over 149.5 total points",
+"odds": 1.21,
+"why": "expected SKN St. Polten Basketball 84 \u2013 Flyers Wels 82 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794592800.0,
+"eid": "sr:match:72653730",
+"mid": "225",
+"spec": "total=149.5",
+"oid": "12",
+"k": "72653730|225|total=149.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "BC Vienna vs BK Dukes Klosterneuburg",
+"lg": "Austria - Superliga",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"why": "expected BC Vienna 85 \u2013 BK Dukes Klosterneuburg 80 (last 10/10 games, home edge included); 82% by the stats, 80% with the price",
+"ts": 1794596400.0,
+"eid": "sr:match:72653734",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "72653734|225|total=148.5|12"
+},
+{
+"t": "Fri 20:15",
+"game": "Panathinaikos BC vs FC Barcelona",
+"lg": "International - Euroleague",
+"pick": "Over 158.5 total points",
+"odds": 1.23,
+"why": "expected Panathinaikos BC 90 \u2013 FC Barcelona 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794597300.0,
+"eid": "sr:match:73263154",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "73263154|225|total=158.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "KK Krka Novo Mesto vs HKK Siroki",
+"lg": "International - Liga ABA",
+"pick": "Over 145.5 total points",
+"odds": 1.2,
+"why": "expected KK Krka Novo Mesto 84 \u2013 HKK Siroki 78 (last 10/10 games, home edge included); 82% by the stats, 80% with the price",
+"ts": 1794598200.0,
+"eid": "sr:match:74131768",
+"mid": "225",
+"spec": "total=145.5",
+"oid": "12",
+"k": "74131768|225|total=145.5|12"
+},
+{
+"t": "Fri 23:30",
+"game": "Cruzeiro Basquete vs Unifacisa",
+"lg": "Brazil - NBB",
+"pick": "Under 172.5 total points",
+"odds": 1.23,
+"why": "expected Cruzeiro Basquete 77 \u2013 Unifacisa 76 (last 10/10 games, home edge included); 86% by the stats, 81% with the price",
+"ts": 1794609000.0,
+"eid": "sr:match:74320754",
+"mid": "225",
+"spec": "total=172.5",
+"oid": "13",
+"k": "74320754|225|total=172.5|13"
+},
+{
+"t": "Sat 00:00",
+"game": "Ferro Carril Oeste vs Penarol Mar Del Plata",
+"lg": "Argentina - LNB",
+"pick": "Under 177.5 total points",
+"odds": 1.25,
+"why": "expected Ferro Carril Oeste 79 \u2013 Penarol Mar Del Plata 80 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794610800.0,
+"eid": "sr:match:75364730",
+"mid": "225",
+"spec": "total=177.5",
+"oid": "13",
+"k": "75364730|225|total=177.5|13"
+},
+{
+"t": "Sat 02:00",
+"game": "Chicago Bulls vs Atlanta Hawks",
+"lg": "USA - NBA",
+"pick": "Under 259.5 total points",
+"odds": 1.26,
+"why": "expected Chicago Bulls 118 \u2013 Atlanta Hawks 121 (last 10/10 games, home edge included); 88% by the stats, 81% with the price; 17 pts a game missing through injury, Flashscore home/away form 95%, NBA ratings say 238 points",
+"ts": 1794618000.0,
+"eid": "sr:match:73696990",
+"mid": "225",
+"spec": "total=259.5",
+"oid": "13",
+"k": "73696990|225|total=259.5|13"
+},
+{
+"t": "Sat 04:00",
+"game": "Sacramento Kings vs Portland Trail Blazers",
+"lg": "USA - NBA",
+"pick": "Over 215.5 total points",
+"odds": 1.24,
+"why": "expected Sacramento Kings 114 \u2013 Portland Trail Blazers 118 (last 10/10 games, home edge included); 83% by the stats, 79% with the price; NBA ratings say 231 points",
+"ts": 1794625200.0,
+"eid": "sr:match:73696998",
+"mid": "225",
+"spec": "total=215.5",
+"oid": "12",
+"k": "73696998|225|total=215.5|12"
+},
+{
+"t": "Sat 07:05",
+"game": "Yokohama B-Corsairs vs Shiga Lakestars",
+"lg": "Japan - B League Premier",
+"pick": "Over 151.5 total points",
+"odds": 1.21,
+"why": "expected Yokohama B-Corsairs 86 \u2013 Shiga Lakestars 84 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 85%",
+"ts": 1794636300.0,
+"eid": "sr:match:72696312",
+"mid": "225",
+"spec": "total=151.5",
+"oid": "12",
+"k": "72696312|225|total=151.5|12"
+},
+{
+"t": "Sat 08:30",
+"game": "Samsung Thunders vs Anyang Jungkwanjang Red Boosters",
+"lg": "Republic of Korea - KBL",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"why": "expected Samsung Thunders 85 \u2013 Anyang Jungkwanjang Red Boosters 82 (last 10/10 games, home edge included); 84% by the stats, 81% with the price",
+"ts": 1794641400.0,
+"eid": "sr:match:73657556",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "73657556|225|total=148.5|12"
+},
+{
+"t": "Sat 09:30",
+"game": "Melbourne United vs SE Melbourne Phoenix",
+"lg": "Australia - NBL",
+"pick": "Under 213.5 total points",
+"odds": 1.22,
+"why": "expected Melbourne United 102 \u2013 SE Melbourne Phoenix 95 (last 10/10 games, home edge included); 82% by the stats, 80% with the price",
+"ts": 1794645000.0,
+"eid": "sr:match:72016888",
+"mid": "225",
+"spec": "total=213.5",
+"oid": "13",
+"k": "72016888|225|total=213.5|13"
+},
+{
+"t": "Sat 12:00",
+"game": "FC Universitatea Cluj vs KD Ilirija",
+"lg": "International - Liga ABA",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"why": "expected FC Universitatea Cluj 82 \u2013 KD Ilirija 85 (last 10/10 games, home edge included); 86% by the stats, 82% with the price",
+"ts": 1794654000.0,
+"eid": "sr:match:74131964",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "74131964|225|total=186.5|13"
+},
+{
+"t": "Sat 15:00",
+"game": "Twarde Pierniki Torun vs Trefl Sopot",
+"lg": "Poland - PLK",
+"pick": "Over 160.5 total points",
+"odds": 1.2,
+"why": "expected Twarde Pierniki Torun 93 \u2013 Trefl Sopot 84 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; Flashscore home/away form 85%",
+"ts": 1794664800.0,
+"eid": "sr:match:72676970",
+"mid": "225",
+"spec": "total=160.5",
+"oid": "12",
+"k": "72676970|225|total=160.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"lg": "Portugal - LPB",
+"pick": "Under 185.5 total points",
+"odds": 1.23,
+"why": "expected SC Braga 86 \u2013 UD Oliveirense 80 (last 10/10 games, home edge included); 87% by the stats, 82% with the price; Flashscore home/away form 95%",
+"ts": 1794668400.0,
+"eid": "sr:match:72971436",
+"mid": "225",
+"spec": "total=185.5",
+"oid": "13",
+"k": "72971436|225|total=185.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"lg": "Greece - Basketball League",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"why": "expected BC AEK Athens 78 \u2013 AE Doxa Lefkadas 77 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 75%",
+"ts": 1794668400.0,
+"eid": "sr:match:74750480",
+"mid": "225",
+"spec": "total=173.5",
+"oid": "13",
+"k": "74750480|225|total=173.5|13"
+},
+{
+"t": "Sat 16:30",
+"game": "Promitheas Patras BC vs Iraklis 2022",
+"lg": "Greece - Basketball League",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"why": "expected Promitheas Patras BC 79 \u2013 Iraklis 2022 83 (last 10/10 games, home edge included); 80% by the stats, 79% with the price; Flashscore home/away form 85%",
+"ts": 1794670200.0,
+"eid": "sr:match:74750484",
+"mid": "225",
+"spec": "total=146.5",
+"oid": "12",
+"k": "74750484|225|total=146.5|12"
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"lg": "Israel - Super League",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"why": "expected Hapoel Tel-Aviv 90 \u2013 Bnei Herzliya Basket 82 (last 10/10 games, home edge included); 83% by the stats, 80% with the price",
+"ts": 1794673800.0,
+"eid": "sr:match:74527788",
+"mid": "225",
+"spec": "total=188.5",
+"oid": "13",
+"k": "74527788|225|total=188.5|13"
+}
+]
+}
+]
+},
+{
+"when": "Fri 13 Nov 17:45",
+"at": 1794588314,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "u25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwf7jnkenp44"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Fri 13) out of 81 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
+"when": "Fri 13 Nov 17:44",
+"at": 1794588273,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "beaten",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-13"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwf7ikz27fav"
+},
+"ok": true,
+"kind": "always-beaten teams (season data)",
+"note": [
+"Only 5 games passed the checks (Fri 13, 81 games on SportyBet), so this ticket has 5 legs instead of 10. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "PEJ3RC",
+"odds": 2.3,
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Skive IK vs Thisted FC",
+"lg": "Denmark - 2nd Division",
+"pick": "Double chance Skive IK or draw",
+"odds": 1.21,
+"why": "season: Thisted FC lost 67% of 15; Skive IK lost only 40%; last 10 rate 80%; Flashscore home/away form 70%",
+"ts": 1794592800.0,
+"eid": "sr:match:72499164",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72499164|10||9"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Nantes vs RC Lens",
+"lg": "France - Premiere Ligue, Women",
+"pick": "Double chance FC Nantes or draw",
+"odds": 1.16,
+"why": "season: RC Lens lost 62% of 8; FC Nantes lost only 38%; last 10 rate 80%; Flashscore home/away form 75%",
+"ts": 1794592800.0,
+"eid": "sr:match:72700292",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72700292|10||9"
+},
+{
+"t": "Fri 19:00",
+"game": "FC Helsingoer vs Holstebro BK",
+"lg": "Denmark - 3rd Division",
+"pick": "Double chance FC Helsingoer or draw",
+"odds": 1.11,
+"why": "season: Holstebro BK lost 60% of 15; FC Helsingoer lost only 27%; last 10 rate 75%; Flashscore home/away form 75%",
+"ts": 1794592800.0,
+"eid": "sr:match:72500824",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72500824|10||9"
+},
+{
+"t": "Fri 20:30",
+"game": "Jeugd Sporting Hasselt vs RFC Liege",
+"lg": "Belgium - U21 Pro League",
+"pick": "Double chance RFC Liege or draw",
+"odds": 1.33,
+"why": "season: Jeugd Sporting Hasselt lost 88% of 8; RFC Liege lost only 33%; last 10 rate 70%; Flashscore home/away form 50%",
+"ts": 1794598200.0,
+"eid": "sr:match:75643276",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "75643276|10||11"
+},
+{
+"t": "Fri 20:45",
+"game": "Glentoran FC vs Bangor FC",
+"lg": "Northern Ireland - Premiership",
+"pick": "Double chance Glentoran FC or draw",
+"odds": 1.11,
+"why": "season: Bangor FC lost 60% of 15; Glentoran FC lost only 29%; last 10 rate 75%; Flashscore home/away form 75%",
+"ts": 1794599100.0,
+"eid": "sr:match:72346416",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72346416|10||9"
+}
+]
+}
+]
 }
 ]
