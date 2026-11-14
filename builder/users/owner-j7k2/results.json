@@ -2318,7 +2318,10 @@
 "game": "Ringsted IF vs BK Frem",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.15,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
@@ -3020,7 +3023,7 @@
 "when": "Sat 14 Nov 06:23",
 "kind": "combined RTXBDR + PEJ9MS + H679CV + S97FNN + PLNB9F",
 "odds": 77.01,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:15",
@@ -3057,7 +3060,10 @@
 "game": "Ringsted IF vs BK Frem",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.15,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
@@ -4150,7 +4156,7 @@
 "when": "Sat 14 Nov 06:17",
 "kind": "your tracker's best markets",
 "odds": 36.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:00",
@@ -4187,7 +4193,10 @@
 "game": "Ringsted IF vs BK Frem",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -5086,7 +5095,10 @@
 "game": "Ringsted IF vs BK Frem",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
@@ -5335,7 +5347,7 @@
 "when": "Fri 13 Nov 21:36",
 "kind": "your chosen markets",
 "odds": 186.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 02:00",
@@ -5362,7 +5374,10 @@
 "game": "Ringsted IF vs BK Frem",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
