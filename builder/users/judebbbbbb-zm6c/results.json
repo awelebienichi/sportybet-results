@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SUT76B",
+"at": 1794626111,
+"when": "Sat 14 Nov 04:15",
+"kind": "rebuild of ZK1JVM",
+"odds": 9.97,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "Panthrakikos FC Komotini excluded goals: 1",
+"odds": 1.49,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.47,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "AFC Hornchurch vs Tamworth FC",
+"pick": "Tamworth FC excluded goals: 1",
+"odds": 1.44,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"pick": "Double chance Worthing FC or draw",
+"odds": 1.59,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:00",
+"game": "Star Starachowice vs KS Naprzod Jedrzejow",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 20:00",
+"game": "AD Municipal Santa Ana vs AD Sarchi",
+"pick": "Excluded goals: 2",
+"odds": 1.25,
+"ts": 1794682800.0
+}
+]
+},
+{
 "code": "ZK1JVM",
 "at": 1794626020,
 "when": "Sat 14 Nov 04:13",
