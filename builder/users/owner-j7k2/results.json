@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "N0THUX",
+"at": 1794635972,
+"when": "Sat 14 Nov 06:59",
+"kind": "draw & low-scoring teams (season data)",
+"odds": 2.64,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "AS Saint-Etienne vs OGC Nice",
+"pick": "Under 3.5",
+"odds": 1.59,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 19:00",
+"game": "Goytacaz FC RJ vs Niteroiense",
+"pick": "Under 2.5",
+"odds": 1.66,
+"ts": 1794679200.0
+}
+]
+},
+{
 "code": "X378FY",
 "at": 1794635833,
 "when": "Sat 14 Nov 06:57",
