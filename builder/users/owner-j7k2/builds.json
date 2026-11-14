@@ -1,5 +1,63 @@
 [
 {
+"when": "Sun 15 Nov 00:14",
+"at": 1794698077,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 40,
+"days": [
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "strict",
+"rid": "mwh0w5dblhir"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 2 basketball games passed the checks (Sat 14, Sun 15, 181 judged), so the ticket has 2 legs."
+],
+"tickets": [
+{
+"code": "YPP84J",
+"odds": 1.51,
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"lg": "Germany - BBL",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"why": "expected Skyliners Frankfurt 82 \u2013 TBB Trier 89 (last 10/10 games, home edge included); 91% by the stats, 83% with the price; Flashscore home/away form 80%",
+"ts": 1794751200.0,
+"eid": "sr:match:73451870",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73451870|225|total=194.5|13"
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"lg": "Lithuania - LKL",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"why": "expected BC Rytas Vilnius 85 \u2013 BC Jonava 78 (last 10/10 games, home edge included); 89% by the stats, 84% with the price; Flashscore home/away form 85%",
+"ts": 1794762600.0,
+"eid": "sr:match:75636736",
+"mid": "225",
+"spec": "total=185.5",
+"oid": "13",
+"k": "75636736|225|total=185.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Sun 15 Nov 00:12",
 "at": 1794697979,
 "req": {
@@ -9857,65 +9915,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "74627426|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:53",
-"at": 1794635586,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "u25",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfzonkpcaus"
-},
-"ok": true,
-"kind": "Under 2.5 (low-scoring leagues)",
-"note": [
-"Under 2.5 has been the weakest market in your tracker."
-],
-"tickets": [
-{
-"code": "X9BA8H",
-"odds": 2.36,
-"legs": [
-{
-"t": "Sat 13:00",
-"game": "Aps Bomet FC vs Bandari FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 2.5",
-"odds": 1.42,
-"why": "Under 2.5 in 80% / 90% of the teams' last 10, league avg 1.7 goals; Flashscore home/away form 80%, Vitibet tip 0-0, season: 1.1 goals a game",
-"ts": 1794657600.0,
-"eid": "sr:match:74056910",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "74056910|18|total=2.5|13"
-},
-{
-"t": "Sat 19:00",
-"game": "Goytacaz FC RJ vs Niteroiense",
-"lg": "Brazil - Carioca, Serie B1",
-"pick": "Under 2.5",
-"odds": 1.66,
-"why": "Under 2.5 in 80% / 80% of the teams' last 10, league avg 2.1 goals; Flashscore home/away form 65%",
-"ts": 1794679200.0,
-"eid": "sr:match:76582872",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76582872|18|total=2.5|13"
 }
 ]
 }
