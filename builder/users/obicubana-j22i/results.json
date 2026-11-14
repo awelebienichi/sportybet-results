@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T5TPP5",
+"at": 1794619034,
+"when": "Sat 14 Nov 02:17",
+"kind": "basketball \u2013 best market per game",
+"odds": 22.12,
+"status": "open",
+"legs": [
+{
+"t": "Sat 02:30",
+"game": "Houston Rockets vs Utah Jazz",
+"pick": "Houston Rockets to win (incl. OT)",
+"odds": 1.09,
+"ts": 1794619800.0
+},
+{
+"t": "Sat 02:30",
+"game": "Oklahoma Baptist Bison vs Texas A&M International Dustdevils",
+"pick": "Oklahoma Baptist Bison to win (incl. OT)",
+"odds": 1.13,
+"ts": 1794619800.0
+},
+{
+"t": "Sat 02:30",
+"game": "Mckendree Bearcats vs Tiffin Dragons",
+"pick": "Mckendree Bearcats to win (incl. OT)",
+"odds": 1.18,
+"ts": 1794619800.0
+},
+{
+"t": "Sat 05:00",
+"game": "Soles de Mexicali vs Astros de Jalisco",
+"pick": "Over 144.5 total points",
+"odds": 1.2,
+"ts": 1794628800.0
+},
+{
+"t": "Sat 07:05",
+"game": "Yokohama B-Corsairs vs Shiga Lakestars",
+"pick": "Over 151.5 total points",
+"odds": 1.21,
+"ts": 1794636300.0
+},
+{
+"t": "Sat 09:30",
+"game": "Melbourne United vs SE Melbourne Phoenix",
+"pick": "Under 214.5 total points",
+"odds": 1.22,
+"ts": 1794645000.0
+},
+{
+"t": "Sat 12:00",
+"game": "FC Universitatea Cluj vs KD Ilirija",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Goztepe SK vs Cedi Osman Basketbol",
+"pick": "Goztepe SK to win (incl. OT)",
+"odds": 1.06,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Plunges Olimpas vs Vilniaus Stekas",
+"pick": "Plunges Olimpas to win (incl. OT)",
+"odds": 1.17,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "SASP JDA Dijon Basket vs JSF Nanterre",
+"pick": "SASP JDA Dijon Basket to win (incl. OT)",
+"odds": 1.05,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"pick": "Under 189.5 total points",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:00",
+"game": "CB Breogan vs CB San Pablo Burgos",
+"pick": "Under 204.5 total points",
+"odds": 1.25,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bamberg Baskets vs Baskets Bonn",
+"pick": "Under 183.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bordo BK vs Karsiyaka Basket",
+"pick": "Under 180.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 19:30",
+"game": "Sporting Cp vs CD Povoa",
+"pick": "Over 137.5 total points",
+"odds": 1.2,
+"ts": 1794681000.0
+},
+{
+"t": "Sun 12:00",
+"game": "Valencia Basket vs CB Coruna",
+"pick": "Valencia Basket to win (incl. OT)",
+"odds": 1.05,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 15:50",
+"game": "BC Zalgiris Kaunas vs BC Neptunas Klaipeda",
+"pick": "BC Zalgiris Kaunas to win (incl. OT)",
+"odds": 1.11,
+"ts": 1794754200.0
+},
+{
+"t": "Sun 18:00",
+"game": "New Basket Brindisi vs Benedetto Xiv Cento",
+"pick": "New Basket Brindisi to win (incl. OT)",
+"odds": 1.09,
+"ts": 1794762000.0
+}
+]
+},
+{
 "code": "WYXKV2",
 "at": 1794618815,
 "when": "Sat 14 Nov 02:13",
