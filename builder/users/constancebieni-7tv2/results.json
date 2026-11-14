@@ -95,7 +95,7 @@
 "when": "Sat 14 Nov 11:37",
 "kind": "your chosen markets",
 "odds": 2.32,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:00",
@@ -162,7 +162,10 @@
 "game": "NAC Breda vs FC Emmen",
 "pick": "Under 5.5",
 "odds": 1.11,
-"ts": 1794670200.0
+"ts": 1794670200.0,
+"r": "L",
+"sc": "4-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:00",
