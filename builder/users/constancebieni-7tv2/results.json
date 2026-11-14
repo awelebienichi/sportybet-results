@@ -682,7 +682,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 21:00",
@@ -883,7 +886,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 21:00",
@@ -1094,7 +1100,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 23:00",
@@ -1347,7 +1356,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 23:00",
@@ -1364,7 +1376,7 @@
 "when": "Sat 14 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 3.88,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:50",
@@ -1428,7 +1440,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 22:00",
@@ -1736,7 +1751,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -1974,7 +1992,10 @@
 "game": "Scotland vs Kosovo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
