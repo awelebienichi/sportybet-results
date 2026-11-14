@@ -1165,7 +1165,7 @@
 "when": "Sat 14 Nov 08:27",
 "kind": "safest market per game",
 "odds": 45.25,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:45",
@@ -1179,7 +1179,10 @@
 "game": "Hellas Syrou vs Panthrakikos FC Komotini",
 "pick": "1st half double chance Panthrakikos FC Komotini or draw",
 "odds": 1.43,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:30",
