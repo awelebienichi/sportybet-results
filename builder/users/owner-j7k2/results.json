@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UKRSWP",
+"at": 1794697098,
+"when": "Sat 14 Nov 23:58",
+"kind": "Over 2.5 (high-scoring leagues)",
+"odds": 990.39,
+"status": "open",
+"legs": [
+{
+"t": "Sun 00:30",
+"game": "Cashmere Technical vs Wellington Olympic",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794699000.0
+},
+{
+"t": "Sun 01:00",
+"game": "Halcones Negros FC vs ACF Zapotlanejo",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1794700800.0
+},
+{
+"t": "Sun 06:30",
+"game": "Citizen AA vs Kui Tan SC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794720600.0
+},
+{
+"t": "Sun 09:00",
+"game": "INAC Kobe Leonessa vs Cerezo Osaka Sakai Ladies",
+"pick": "Over 2.5",
+"odds": 1.88,
+"ts": 1794729600.0
+},
+{
+"t": "Sun 11:30",
+"game": "Lucky Mile vs Leaper",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794738600.0
+},
+{
+"t": "Sun 13:00",
+"game": "Oevrevoll Hosle IL vs Kolbotn",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 14:00",
+"game": "Servette FC  vs FC La Chaux De Fonds",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "MK Dons Ladies vs Chatham Town Women",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Moneyfields Ladies vs Bristol Rovers Women",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Stoke City Lfc vs Liverpool Feds Lfc",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "HVV Hollandia Hoorn vs Hzvv Hoogeveen",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Boldmere St Michaels Women vs Stockport County Lfc",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794757500.0
+}
+]
+},
+{
 "code": "RKCD96",
 "at": 1794696965,
 "when": "Sat 14 Nov 23:56",
