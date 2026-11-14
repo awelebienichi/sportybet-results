@@ -1,5 +1,205 @@
 [
 {
+"when": "Sat 14 Nov 23:59",
+"at": 1794697178,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25yw",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwh0cvdsdwcx"
+},
+"ok": true,
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 12 games passed the checks (Sun 15, 578 games on SportyBet), so this ticket has 12 legs instead of 20. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "K6RKST",
+"odds": 65.97,
+"legs": [
+{
+"t": "Sun 11:30",
+"game": "Asa Aarhus vs Broendby IF",
+"lg": "Denmark - A Liga, Women",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "strong side Broendby IF (win 1.23) scores 2.0 a game, 60% of its games over 2.5; Asa Aarhus concedes 1.1 a game; Flashscore home/away form 75%",
+"ts": 1794738600.0,
+"eid": "sr:match:72652508",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652508|18|total=2.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "WKS Slask Wroclaw vs Gornik Leczna",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "strong side Gornik Leczna (win 1.24) scores 2.4 a game, 80% of its games over 2.5; WKS Slask Wroclaw concedes 2.5 a game; 88% of 8 meetings over; Flashscore home/away form 65%",
+"ts": 1794740400.0,
+"eid": "sr:match:72577810",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72577810|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "MK Dons Ladies vs Chatham Town Women",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "strong side Chatham Town Women (win 1.58) scores 3.2 a game, 90% of its games over 2.5; MK Dons Ladies concedes 2.6 a game; Flashscore home/away form 80%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088644",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088644|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Moneyfields Ladies vs Bristol Rovers Women",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "strong side Moneyfields Ladies (win 1.35) scores 2.2 a game, 75% of its games over 2.5; Bristol Rovers Women concedes 2.2 a game; Flashscore home/away form 88%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088628",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088628|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Stoke City Lfc vs Liverpool Feds Lfc",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "strong side Stoke City Lfc (win 1.36) scores 3.0 a game, 80% of its games over 2.5; Liverpool Feds Lfc concedes 1.3 a game; Flashscore home/away form 75%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088624",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088624|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Milford FC Reserve vs Kaizer Chiefs",
+"lg": "South Africa - Diski Challenge, Reserves",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "strong side Kaizer Chiefs (win 1.48) scores 3.3 a game, 60% of its games over 2.5; Milford FC Reserve concedes 1.4 a game",
+"ts": 1794747600.0,
+"eid": "sr:match:75448378",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75448378|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.26,
+"why": "strong side Leeds United LFC (win 1.09) scores 3.2 a game, 90% of its games over 2.5; Norton & Stockton Ancients LFC concedes 2.0 a game",
+"ts": 1794751200.0,
+"eid": "sr:match:76320390",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76320390|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs Eintracht Frankfurt",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "strong side Eintracht Frankfurt (win 1.47) scores 2.4 a game, 60% of its games over 2.5; RB Leipzig concedes 1.6 a game; 88% of 8 meetings over; Flashscore home/away form 55%",
+"ts": 1794754800.0,
+"eid": "sr:match:72961088",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961088|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Sevilla FC vs Atletico Madrid W",
+"lg": "Spain - Primera Division Women",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "strong side Atletico Madrid W (win 1.47) scores 2.2 a game, 70% of its games over 2.5; Sevilla FC concedes 1.6 a game; 62% of 8 meetings over; Flashscore home/away form 65%",
+"ts": 1794754800.0,
+"eid": "sr:match:72491452",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72491452|18|total=2.5|12"
+},
+{
+"t": "Sun 16:45",
+"game": "AZ Alkmaar vs Ajax Amsterdam",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "strong side Ajax Amsterdam (win 1.2) scores 3.1 a game, 70% of its games over 2.5; AZ Alkmaar concedes 1.9 a game; 88% of 8 meetings over; Flashscore home/away form 50%",
+"ts": 1794757500.0,
+"eid": "sr:match:72467520",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72467520|18|total=2.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "strong side CD Tenerife (win 1.44) scores 2.7 a game, 80% of its games over 2.5; AD Huracan concedes 1.0 a game; season: 3.8 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:76675986",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76675986|18|total=2.5|12"
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.37,
+"why": "strong side Malaga CF (win 1.37) scores 2.7 a game, 90% of its games over 2.5; CD Mosquito concedes 1.7 a game; season: 3.9 goals a game",
+"ts": 1794762900.0,
+"eid": "sr:match:76488586",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76488586|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 23:58",
 "at": 1794697098,
 "req": {
@@ -8537,63 +8737,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "74352338|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:48",
-"at": 1794635330,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h2o05",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfzewghlo43"
-},
-"ok": true,
-"kind": "2nd half Over 0.5",
-"note": [],
-"tickets": [
-{
-"code": "N27ZSZ",
-"odds": 1.35,
-"legs": [
-{
-"t": "Sat 13:50",
-"game": "Al Dhafra SSC vs Ajman Club",
-"lg": "United Arab Emirates - Pro League Cup",
-"pick": "2nd half Over 0.5",
-"odds": 1.17,
-"why": "goal in the 2nd half in 100% of Al Dhafra SSC's last 10 and 100% of Ajman Club's last 10",
-"ts": 1794660600.0,
-"eid": "sr:match:75907944",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75907944|90|total=0.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"lg": "England - National League",
-"pick": "2nd half Over 0.5",
-"odds": 1.15,
-"why": "goal in the 2nd half in 100% of Yeovil Town's last 8 and 100% of Boreham Wood FC's last 9",
-"ts": 1794668400.0,
-"eid": "sr:match:72740812",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72740812|90|total=0.5|12"
 }
 ]
 }
