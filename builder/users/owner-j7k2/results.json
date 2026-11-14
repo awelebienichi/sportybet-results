@@ -385,7 +385,10 @@
 "game": "Heart of Lions vs Dreams FC",
 "pick": "Heart of Lions Under 3.5",
 "odds": 1.05,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Sat 16:00",
@@ -4365,7 +4368,10 @@
 "game": "Wislanie Skawina vs Pogon Sokol Lubaczow",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.16,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 17:30",
@@ -4750,7 +4756,10 @@
 "game": "Halesowen Town FC vs Redditch United",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
@@ -5291,7 +5300,10 @@
 "game": "Halesowen Town FC vs Redditch United",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
@@ -5342,7 +5354,10 @@
 "game": "Wislanie Skawina vs Pogon Sokol Lubaczow",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.16,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:00",
@@ -6192,7 +6207,10 @@
 "game": "Wislanie Skawina vs Pogon Sokol Lubaczow",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 19:00",
@@ -6311,7 +6329,10 @@
 "game": "Halesowen Town FC vs Redditch United",
 "pick": "Halesowen Town FC or GG",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 16:00",
