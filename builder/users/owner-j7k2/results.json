@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LJMK21",
+"at": 1794635355,
+"when": "Sat 14 Nov 06:49",
+"kind": "Over 2.5 (high-scoring leagues)",
+"odds": 2.07,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Jerash FC vs AL Lewaa Club",
+"pick": "Over 2.5",
+"odds": 1.64,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 19:00",
+"game": "RBC Roosendaal vs VV Goes",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1794679200.0
+}
+]
+},
+{
 "code": "PYWEPS",
 "at": 1794635337,
 "when": "Sat 14 Nov 06:48",
