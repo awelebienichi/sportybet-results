@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VQ3FX1",
+"at": 1794678817,
+"when": "Sat 14 Nov 18:53",
+"kind": "goal-fest teams (season data)",
+"odds": 5.36,
+"status": "open",
+"legs": [
+{
+"t": "Sat 19:30",
+"game": "Union Titus Petange vs FC Koeppchen Wormeldange",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Real Refineros Cds vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794693600.0
+}
+]
+},
+{
 "code": "V4QNDQ",
 "at": 1794678664,
 "when": "Sat 14 Nov 18:51",
