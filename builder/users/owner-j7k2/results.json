@@ -1231,7 +1231,10 @@
 "game": "Limoges CSP vs Paris Basketball",
 "pick": "Over 167.5 total points",
 "odds": 1.22,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "W",
+"sc": "82-97",
+"ht": "17-24"
 },
 {
 "t": "Sat 22:00",
@@ -3281,7 +3284,10 @@
 "game": "Austria vs Ireland",
 "pick": "2nd half Over 0.5",
 "odds": 1.27,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
@@ -3672,7 +3678,10 @@
 "game": "Austria vs Ireland",
 "pick": "2nd half Over 0.5",
 "odds": 1.27,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
