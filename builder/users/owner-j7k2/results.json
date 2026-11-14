@@ -2836,14 +2836,17 @@
 "when": "Sat 14 Nov 06:49",
 "kind": "Over 2.5 (high-scoring leagues)",
 "odds": 2.07,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Over 2.5",
 "odds": 1.64,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 19:00",

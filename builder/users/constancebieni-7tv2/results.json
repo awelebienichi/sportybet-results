@@ -800,14 +800,17 @@
 "when": "Sat 14 Nov 11:01",
 "kind": "your chosen markets",
 "odds": 2795.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Over 2.5",
 "odds": 1.51,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -970,7 +973,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Over 2.5",
 "odds": 1.51,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1305,7 +1311,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "GG (both teams score)",
 "odds": 1.53,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
