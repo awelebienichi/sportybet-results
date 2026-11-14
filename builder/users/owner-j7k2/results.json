@@ -4523,7 +4523,7 @@
 "when": "Sat 14 Nov 06:44",
 "kind": "strong team to score in the 2nd half",
 "odds": 1.69,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -4540,7 +4540,10 @@
 "game": "Stade Bethunois vs Nancy-Lorraine",
 "pick": "Nancy-Lorraine to score in 2nd half",
 "odds": 1.2,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "W",
+"sc": "3-4",
+"ht": "1-2"
 }
 ]
 },
