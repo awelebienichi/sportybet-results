@@ -1,5 +1,50 @@
 [
 {
+"when": "Sat 14 Nov 15:13",
+"at": 1794665630,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "team",
+"legs": 40,
+"days": [
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"rid": "mwghkr5wf91c"
+},
+"ok": true,
+"kind": "basketball \u2013 team points",
+"note": [
+"Only 1 basketball games passed the checks (Sat 14, Sun 15, 310 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "Z0PJVU",
+"odds": 1.55,
+"legs": [
+{
+"t": "Sat 19:00",
+"game": "Texas Tech Red Raiders vs Stonehill Skyhawks",
+"lg": "USA - NCAA, Regular Season",
+"pick": "Texas Tech Red Raiders Under 94.5 points",
+"odds": 1.55,
+"why": "expected Texas Tech Red Raiders 74 \u2013 Stonehill Skyhawks 68 (last 10/10 games, home edge included); 96% by the stats, 78% with the price; Flashscore home/away form 90%",
+"ts": 1794679200.0,
+"eid": "sr:match:73716268",
+"mid": "227",
+"spec": "total=94.5",
+"oid": "13",
+"k": "73716268|227|total=94.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 15:12",
 "at": 1794665575,
 "req": {
@@ -11134,178 +11179,6 @@
 "spec": "hcp=9.5",
 "oid": "1714",
 "k": "73696984|223|hcp=9.5|1714"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 22:55",
-"at": 1794606902,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "13:00",
-"rid": "mwfilxmytq00"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
-],
-"tickets": [
-{
-"code": "WYARAV",
-"odds": 39.22,
-"legs": [
-{
-"t": "Sat 10:15",
-"game": "Bridlicna vs Opava B",
-"lg": "Czechia - Divize F",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "season: 3.9 and 4.1 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 80%, season: 4.0 goals a game",
-"ts": 1794647700.0,
-"eid": "sr:match:76579524",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76579524|18|total=2.5|12"
-},
-{
-"t": "Sat 10:15",
-"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "season: 3.2 and 5.4 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 70%, season: 4.3 goals a game",
-"ts": 1794647700.0,
-"eid": "sr:match:72415112",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415112|18|total=2.5|12"
-},
-{
-"t": "Sat 10:15",
-"game": "FK Horni Redice vs SK Zapy",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 3.2 and 3.4 goals a game (13/14 games); last 10 rate 75%; Flashscore home/away form 60%",
-"ts": 1794647700.0,
-"eid": "sr:match:72415682",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415682|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "Ankaraspor vs Aliaga Futbol",
-"lg": "Turkiye Amateur - 2. Lig",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "season: 3.2 and 3.3 goals a game (10/10 games); last 10 rate 70%; Flashscore home/away form 75%",
-"ts": 1794650400.0,
-"eid": "sr:match:72837318",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72837318|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "MFK Chrudim vs FK Jablonec B",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 3.6 and 3.5 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%",
-"ts": 1794650400.0,
-"eid": "sr:match:72415684",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415684|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
-"lg": "Poland - III Liga, Group 3",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "season: 3.9 and 3.5 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 65%, season: 3.7 goals a game",
-"ts": 1794654000.0,
-"eid": "sr:match:72516786",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72516786|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Real Betis Balompie vs Cadiz CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.38,
-"why": "season: 4.8 and 3.4 goals a game (10/10 games); last 10 rate 75%; season: 4.1 goals a game",
-"ts": 1794654000.0,
-"eid": "sr:match:76481444",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76481444|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "LKS Lodz II vs SK Mazovia Minsk Mazowiecki",
-"lg": "Poland - III Liga, Group 1",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "season: 3.6 and 4.2 goals a game (16/16 games); last 10 rate 70%; Flashscore home/away form 68%, season: 3.9 goals a game",
-"ts": 1794654000.0,
-"eid": "sr:match:72514878",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72514878|18|total=2.5|12"
-},
-{
-"t": "Sat 13:00",
-"game": "Csm Sacele vs AFC Inter Stars Sibiu",
-"lg": "Romania - Liga 3",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "season: 3.5 and 3.8 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 75%",
-"ts": 1794657600.0,
-"eid": "sr:match:74086580",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74086580|18|total=2.5|12"
-},
-{
-"t": "Sat 13:00",
-"game": "Ringsted IF vs BK Frem",
-"lg": "Denmark - 3rd Division",
-"pick": "Over 2.5",
-"odds": 1.49,
-"why": "season: 3.8 and 3.3 goals a game (15/15 games); last 10 rate 70%; Flashscore home/away form 60%, FotMob: 3.6 goals a game",
-"ts": 1794657600.0,
-"eid": "sr:match:72500820",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72500820|18|total=2.5|12"
 }
 ]
 }
