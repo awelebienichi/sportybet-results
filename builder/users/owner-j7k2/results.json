@@ -2,6 +2,40 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZGLGST",
+"at": 1794665660,
+"when": "Sat 14 Nov 15:14",
+"kind": "basketball \u2013 quarter total points",
+"odds": 1.39,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Mitteldeutscher BC Q1 Over 16.5 points",
+"odds": 1.39,
+"ts": 1794756600.0
+}
+]
+},
+{
+"code": "Z0PJVU",
+"at": 1794665630,
+"when": "Sat 14 Nov 15:13",
+"kind": "basketball \u2013 team points",
+"odds": 1.55,
+"status": "open",
+"legs": [
+{
+"t": "Sat 19:00",
+"game": "Texas Tech Red Raiders vs Stonehill Skyhawks",
+"pick": "Texas Tech Red Raiders Under 94.5 points",
+"odds": 1.55,
+"ts": 1794679200.0
+}
+]
+},
+{
 "code": "KSHYAF",
 "at": 1794665512,
 "when": "Sat 14 Nov 15:11",
@@ -2118,7 +2152,7 @@
 "odds": 1.48,
 "ts": 1794663000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": ""
 },
 {
@@ -3545,7 +3579,7 @@
 "odds": 1.21,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
@@ -3596,7 +3630,7 @@
 "odds": 1.49,
 "ts": 1794663000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": ""
 },
 {
@@ -3907,7 +3941,7 @@
 "odds": 1.49,
 "ts": 1794663000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": ""
 },
 {
@@ -4515,7 +4549,7 @@
 "odds": 1.21,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
@@ -4873,7 +4907,7 @@
 "odds": 1.49,
 "ts": 1794663000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": ""
 },
 {
@@ -5213,7 +5247,7 @@
 "odds": 1.21,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
