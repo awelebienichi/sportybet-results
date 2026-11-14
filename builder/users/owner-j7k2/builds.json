@@ -1,5 +1,64 @@
 [
 {
+"when": "Sat 14 Nov 06:38",
+"at": 1794634727,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "smallfav",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfz69bixc4j"
+},
+"ok": true,
+"kind": "smallest-odds favourites to win",
+"note": [
+"8 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "G8DKUC",
+"odds": 1.08,
+"legs": [
+{
+"t": "Sat 11:00",
+"game": "Zhfk Yenisey Krasnoyarsk vs FC Zenit Saint Petersburg",
+"lg": "Russia - Superleague, Women",
+"pick": "FC Zenit Saint Petersburg to win",
+"odds": 1.03,
+"why": "won 70% lost 20% of last 10, rival lost 100%, won 88% of 8 meetings; Flashscore home/away form 85%, season: won 83%, rival lost 87%",
+"ts": 1794650400.0,
+"eid": "sr:match:69592704",
+"mid": "1",
+"spec": "",
+"oid": "3",
+"k": "69592704|1||3"
+},
+{
+"t": "Sat 14:00",
+"game": "Sokol Hostoun vs FC Hvezda Cheb",
+"lg": "Czechia - Divize B",
+"pick": "Sokol Hostoun to win",
+"odds": 1.05,
+"why": "won 70% lost 20% of last 10, rival lost 80%; Flashscore home/away form 55%, Vitibet 88%, season: won 71%, rival lost 71%",
+"ts": 1794661200.0,
+"eid": "sr:match:72654956",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72654956|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:37",
 "at": 1794634634,
 "req": {
@@ -9573,184 +9632,6 @@
 "spec": "",
 "oid": "76",
 "k": "68932772|75||76"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 17:23",
-"at": 1794586984,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14",
-"2026-11-15",
-"2026-11-16",
-"2026-11-17",
-"2026-11-18",
-"2026-11-19"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"wu25"
-],
-"rid": "mwf6qqpvk3vq"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "LJ0KDG",
-"odds": 2.73,
-"legs": [
-{
-"t": "Fri 20:30",
-"game": "Latina Calcio vs Campobasso FC",
-"lg": "Italy - Serie C, Group B",
-"pick": "Campobasso FC Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 6 meetings",
-"ts": 1794598200.0,
-"eid": "sr:match:73294084",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73294084|20|total=2.5|13"
-},
-{
-"t": "Sat 06:00",
-"game": "Oita Trinita vs Tochigi City FC",
-"lg": "Japan - J2 League",
-"pick": "Tochigi City FC Under 2.5 goals",
-"odds": 1.12,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794632400.0,
-"eid": "sr:match:72151364",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72151364|20|total=2.5|13"
-},
-{
-"t": "Sat 06:00",
-"game": "Giravanz Kitakyushu vs Thespa Gunma",
-"lg": "Japan - J3 League",
-"pick": "Thespa Gunma Under 2.5 goals",
-"odds": 1.12,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings",
-"ts": 1794632400.0,
-"eid": "sr:match:72152198",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72152198|20|total=2.5|13"
-},
-{
-"t": "Sat 06:00",
-"game": "Albirex Niigata vs Tegevajaro Miyazaki",
-"lg": "Japan - J2 League",
-"pick": "Albirex Niigata Under 2.5 goals",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794632400.0,
-"eid": "sr:match:72151356",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72151356|19|total=2.5|13"
-},
-{
-"t": "Sat 14:00",
-"game": "Central Espanol FC vs CA Boston River",
-"lg": "Uruguay - Primera Division",
-"pick": "Central Espanol FC Under 2.5 goals",
-"odds": 1.11,
-"why": "stats rate 96% from both teams' last 10 and 5 meetings",
-"ts": 1794661200.0,
-"eid": "sr:match:76455620",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76455620|19|total=2.5|13"
-},
-{
-"t": "Sat 14:30",
-"game": "Vis Pesaro 1898 vs US Pianese",
-"lg": "Italy - Serie C, Group B",
-"pick": "Vis Pesaro 1898 Under 2.5 goals",
-"odds": 1.11,
-"why": "stats rate 96% from both teams' last 10 and 4 meetings",
-"ts": 1794663000.0,
-"eid": "sr:match:73294096",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73294096|19|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "AFC Telford United vs Chelmsford City",
-"lg": "England Amateur - FA Trophy",
-"pick": "AFC Telford United Under 2.5 goals",
-"odds": 1.13,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125262",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76125262|19|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Hednesford Town vs Hemel Hempstead Town",
-"lg": "England Amateur - FA Trophy",
-"pick": "Hemel Hempstead Town Under 2.5 goals",
-"odds": 1.13,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:76125264",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76125264|20|total=2.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "Fortaleza EC CE vs Vila Nova FC GO",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Vila Nova FC GO Under 2.5 goals",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1794684600.0,
-"eid": "sr:match:68823474",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68823474|20|total=2.5|13"
-},
-{
-"t": "Sat 21:30",
-"game": "Atletico Nacional vs CD Once Caldas",
-"lg": "Colombia - Liga DIMAYOR",
-"pick": "CD Once Caldas Under 2.5 goals",
-"odds": 1.14,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings",
-"ts": 1794688200.0,
-"eid": "sr:match:76676664",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76676664|20|total=2.5|13"
 }
 ]
 }
