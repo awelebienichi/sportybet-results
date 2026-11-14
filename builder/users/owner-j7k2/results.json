@@ -35,7 +35,10 @@
 "game": "NK Rudes Zagreb vs NK Segesta",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1337,7 +1340,10 @@
 "game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
 "pick": "1st half Over 0.5",
 "odds": 1.15,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1892,7 +1898,10 @@
 "game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
 "pick": "1st half Over 0.5",
 "odds": 1.15,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -4443,7 +4452,10 @@
 "game": "Koldingq vs FC Nordsjaelland",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:30",
@@ -4898,7 +4910,10 @@
 "game": "Koldingq vs FC Nordsjaelland",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 }
 ]
 },
@@ -5810,7 +5825,10 @@
 "game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
 "pick": "1st half Over 0.5",
 "odds": 1.16,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
