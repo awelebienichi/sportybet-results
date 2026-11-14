@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UJXPGG",
+"at": 1794619137,
+"when": "Sat 14 Nov 02:18",
+"kind": "basketball \u2013 team points",
+"odds": 2.57,
+"status": "open",
+"legs": [
+{
+"t": "Sat 03:00",
+"game": "Arizona State Sun Devils vs Louisiana Monroe Warhawks",
+"pick": "Louisiana Monroe Warhawks Over 57.5 points",
+"odds": 1.56,
+"ts": 1794621600.0
+},
+{
+"t": "Sat 14:30",
+"game": "Mersin MSK vs Kecioren Belediyesi Baglum",
+"pick": "Kecioren Belediyesi Baglum Under 100.5 points",
+"odds": 1.65,
+"ts": 1794663000.0
+}
+]
+},
+{
 "code": "T5TPP5",
 "at": 1794619034,
 "when": "Sat 14 Nov 02:17",
