@@ -366,7 +366,10 @@
 "game": "Belgium vs Kazakhstan",
 "pick": "Handicap 0:3 \u2013 Kazakhstan",
 "odds": 1.05,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -387,7 +390,10 @@
 "game": "Cove Rangers FC vs Montrose FC",
 "pick": "Cove Rangers FC or draw",
 "odds": 1.03,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -415,7 +421,10 @@
 "game": "Edinburgh City FC vs Clyde FC",
 "pick": "Handicap 0:2 \u2013 Clyde FC",
 "odds": 1.03,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-6",
+"ht": "2-2"
 },
 {
 "t": "Sat 16:00",
@@ -2337,7 +2346,7 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -2626,7 +2635,10 @@
 "game": "Didcot Town vs Slough Town",
 "pick": "Double chance Didcot Town or Slough Town",
 "odds": 1.25,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2662,7 +2674,7 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -4164,7 +4176,7 @@
 "odds": 1.26,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -4179,7 +4191,10 @@
 "game": "Cove Rangers FC vs Montrose FC",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.24,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4545,14 +4560,20 @@
 "game": "Tottenham Hotspur FC vs Everton FC Women",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
 "game": "Didcot Town vs Slough Town",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4869,7 +4890,10 @@
 "game": "Cove Rangers FC vs Montrose FC",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.24,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5135,7 +5159,7 @@
 "odds": 1.26,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -5597,7 +5621,10 @@
 "game": "Tottenham Hotspur FC vs Everton FC Women",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5614,7 +5641,10 @@
 "game": "Didcot Town vs Slough Town",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5683,7 +5713,7 @@
 "when": "Sat 14 Nov 06:17",
 "kind": "your tracker's best markets",
 "odds": 32.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -5767,7 +5797,10 @@
 "game": "Didcot Town vs Slough Town",
 "pick": "Didcot Town or GG",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6140,7 +6173,7 @@
 "odds": 1.26,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -6155,7 +6188,10 @@
 "game": "Tottenham Hotspur FC vs Everton FC Women",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6512,7 +6548,10 @@
 "game": "Cove Rangers FC vs Montrose FC",
 "pick": "Cove Rangers FC or GG",
 "odds": 1.24,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
