@@ -188,7 +188,10 @@
 "game": "Central Espanol FC vs CA Boston River",
 "pick": "1st half double chance CA Boston River or draw",
 "odds": 1.29,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
@@ -205,7 +208,10 @@
 "game": "VfB Lubeck vs Eintracht Norderstedt",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -5532,7 +5538,7 @@
 "odds": 2.1,
 "ts": 1794657600.0,
 "r": "L",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
