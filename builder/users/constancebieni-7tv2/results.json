@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "J9J8FM",
+"at": 1794618347,
+"when": "Sat 14 Nov 02:05",
+"kind": "live \u2013 best of all",
+"odds": 1.15,
+"status": "open",
+"legs": [
+{
+"t": "Sat 01:00",
+"game": "Colombia vs Chile",
+"pick": "Handicap 0:4 \u2013 Chile",
+"odds": 1.03,
+"ts": 1794614400.0
+},
+{
+"t": "Sat 01:00",
+"game": "Ecuador vs Costa Rica",
+"pick": "Handicap 0:4 \u2013 Costa Rica",
+"odds": 1.08,
+"ts": 1794614400.0
+},
+{
+"t": "Sat 02:00",
+"game": "Wellington Phoenix FC vs Auckland City FC",
+"pick": "Auckland City FC or draw",
+"odds": 1.03,
+"ts": 1794618000.0
+}
+]
+},
+{
 "code": "G29CJ9",
 "at": 1794614586,
 "when": "Sat 14 Nov 01:03",
