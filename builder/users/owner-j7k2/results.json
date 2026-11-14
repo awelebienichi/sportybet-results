@@ -1486,7 +1486,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Over 2.5",
 "odds": 1.66,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1929,7 +1932,10 @@
 "game": "Spennymoor Town FC vs Scarborough Athletic",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2165,7 +2171,10 @@
 "game": "Spennymoor Town FC vs Scarborough Athletic",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
@@ -2373,8 +2382,8 @@
 "odds": 1.21,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -2717,7 +2726,10 @@
 "game": "AFC Telford United vs Chelmsford City",
 "pick": "Double chance Chelmsford City or draw",
 "odds": 1.57,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -3496,7 +3508,10 @@
 "game": "Spennymoor Town FC vs Scarborough Athletic",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3679,7 +3694,10 @@
 "game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
 "pick": "Over 2.5",
 "odds": 1.67,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "0-1"
 }
 ]
 },
@@ -4318,7 +4336,7 @@
 "odds": 1.21,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -4346,7 +4364,10 @@
 "game": "Spennymoor Town FC vs Scarborough Athletic",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4827,7 +4848,7 @@
 "odds": 1.2,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "4-1",
+"sc": "4-2",
 "ht": "3-1"
 },
 {
@@ -4844,8 +4865,8 @@
 "odds": 1.27,
 "ts": 1794672000.0,
 "r": "W",
-"sc": "3-0",
-"ht": ""
+"sc": "4-0",
+"ht": "3-0"
 },
 {
 "t": "Sat 17:00",
@@ -5086,7 +5107,10 @@
 "game": "Spennymoor Town FC vs Scarborough Athletic",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5115,7 +5139,7 @@
 "odds": 1.2,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "4-1",
+"sc": "4-2",
 "ht": "3-1"
 },
 {
@@ -5344,7 +5368,7 @@
 "odds": 1.21,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -5604,8 +5628,8 @@
 "odds": 1.27,
 "ts": 1794672000.0,
 "r": "W",
-"sc": "3-0",
-"ht": ""
+"sc": "4-0",
+"ht": "3-0"
 },
 {
 "t": "Sat 18:00",
@@ -5968,7 +5992,7 @@
 "odds": 1.21,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -6015,7 +6039,7 @@
 "odds": 1.2,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "4-1",
+"sc": "4-2",
 "ht": "3-1"
 },
 {
@@ -6391,7 +6415,10 @@
 "game": "Spennymoor Town FC vs Scarborough Athletic",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6447,8 +6474,8 @@
 "odds": 1.27,
 "ts": 1794672000.0,
 "r": "W",
-"sc": "3-0",
-"ht": ""
+"sc": "4-0",
+"ht": "3-0"
 },
 {
 "t": "Sat 19:00",
