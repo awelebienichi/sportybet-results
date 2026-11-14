@@ -1,5 +1,130 @@
 [
 {
+"when": "Sat 14 Nov 07:26",
+"at": 1794637591,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 7,
+"strict": "normal",
+"rid": "mwg0vkklxyii"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "KVZTS4",
+"odds": 1.46,
+"legs": [
+{
+"t": "Sat 06:00",
+"game": "FC Gifu vs Matsumoto Yamaga FC",
+"lg": "Japan - J3 League",
+"pick": "Under 2.5",
+"odds": 1.03,
+"why": "LIVE 0-0 64': FC Gifu expected 0.4 and Matsumoto Yamaga FC 0.3 more goals (last 10 + season); 0-0 at 64' \u2013 94% chance; Flashscore home/away form 50%, h2h 62% of 8 meetings (2.5 line)",
+"ts": 1794632400.0,
+"eid": "sr:match:72152192",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72152192|18|total=2.5|13"
+},
+{
+"t": "Sat 06:00",
+"game": "Shonan Bellmare vs Yokohama FC",
+"lg": "Japan - J2 League",
+"pick": "Shonan Bellmare Under 2.5",
+"odds": 1.04,
+"why": "LIVE 1-0 66': Shonan Bellmare expected 0.3 and Yokohama FC 0.4 more goals (last 10 + season); 1-0 at 66' \u2013 95% chance; goals record 100% / 90% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794632400.0,
+"eid": "sr:match:72151354",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72151354|19|total=2.5|13"
+},
+{
+"t": "Sat 06:00",
+"game": "Giravanz Kitakyushu vs Thespa Gunma",
+"lg": "Japan - J3 League",
+"pick": "Under 6.5",
+"odds": 1.04,
+"why": "LIVE 2-2 66': Giravanz Kitakyushu expected 0.5 and Thespa Gunma 0.3 more goals (last 10 + season); 2-2 at 66' \u2013 93% chance; Flashscore home/away form 60%, FotMob: 2.8 goals a game, h2h 88% of 8 meetings (3.5 line)",
+"ts": 1794632400.0,
+"eid": "sr:match:72152198",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "72152198|18|total=6.5|13"
+},
+{
+"t": "Sat 06:00",
+"game": "Albirex Niigata vs Tegevajaro Miyazaki",
+"lg": "Japan - J2 League",
+"pick": "Under 4.5",
+"odds": 1.05,
+"why": "LIVE 1-1 65': Albirex Niigata expected 0.4 and Tegevajaro Miyazaki 0.5 more goals (last 10 + season); 1-1 at 65' \u2013 92% chance; Flashscore home/away form 85%, FotMob: 2.8 goals a game",
+"ts": 1794632400.0,
+"eid": "sr:match:72151356",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72151356|18|total=4.5|13"
+},
+{
+"t": "Sat 06:00",
+"game": "RB Omiya Ardija vs Montedio Yamagata",
+"lg": "Japan - J2 League",
+"pick": "Handicap 0:4 \u2013 Montedio Yamagata",
+"odds": 1.06,
+"why": "LIVE 2-0 66': RB Omiya Ardija expected 0.5 and Montedio Yamagata 0.3 more goals (last 10 + season); 2-0 at 66' \u2013 91% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1794632400.0,
+"eid": "sr:match:72151352",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "72151352|14|hcp=0:4|1713"
+},
+{
+"t": "Sat 06:00",
+"game": "Fukushima United FC vs SC Sagamihara",
+"lg": "Japan - J3 League",
+"pick": "Fukushima United FC Under 2.5",
+"odds": 1.08,
+"why": "LIVE 1-0 64': Fukushima United FC expected 0.5 and SC Sagamihara 0.6 more goals (last 10 + season); 1-0 at 64' \u2013 91% chance; h2h 75% of 8 meetings",
+"ts": 1794632400.0,
+"eid": "sr:match:72152184",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72152184|19|total=2.5|13"
+},
+{
+"t": "Sat 06:00",
+"game": "Fujieda MYFC vs Ventforet Kofu",
+"lg": "Japan - J2 League",
+"pick": "GG \u2013 No",
+"odds": 1.09,
+"why": "LIVE 0-0 65': Fujieda MYFC expected 0.5 and Ventforet Kofu 0.3 more goals (last 10 + season); 0-0 at 65' \u2013 91% chance",
+"ts": 1794632400.0,
+"eid": "sr:match:72151360",
+"mid": "29",
+"spec": "",
+"oid": "76",
+"k": "72151360|29||76"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 07:09",
 "at": 1794636540,
 "req": {
@@ -9713,89 +9838,6 @@
 "spec": "",
 "oid": "4",
 "k": "72660446|219||4"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 20:04",
-"at": 1794596690,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "strict",
-"rid": "mwfcivhpl6yf"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 4 live leg(s) were strong enough right now (you asked for 5).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "KB0S0L",
-"odds": 1.32,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Albania vs Luxembourg",
-"lg": "International Youth - U21 Friendly Games",
-"pick": "Under 6.5",
-"odds": 1.03,
-"why": "LIVE 2-1 46': Albania expected 0.7 and Luxembourg 0.6 more goals (last 10); 2-1 at 46' \u2013 93% chance; Flashscore home/away form 55%",
-"ts": 1794592800.0,
-"eid": "sr:match:76170232",
-"mid": "18",
-"spec": "total=6.5",
-"oid": "13",
-"k": "76170232|18|total=6.5|13"
-},
-{
-"t": "Fri 19:00",
-"game": "HIK Hellerup vs B93 Copenhagen",
-"lg": "Denmark - 2nd Division",
-"pick": "Handicap 0:3 \u2013 B93 Copenhagen",
-"odds": 1.05,
-"why": "LIVE 3-2 47': HIK Hellerup expected 0.5 and B93 Copenhagen 0.9 more goals (last 10 + season); 3-2 at 47' \u2013 93% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794592800.0,
-"eid": "sr:match:72499160",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "72499160|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "Handicap 4:0 \u2013 VV Kloetinge",
-"odds": 1.07,
-"why": "LIVE 1-2 45': VV Kloetinge expected 0.9 and Hoek 1.0 more goals (last 10 + season); 1-2 at 45' \u2013 94% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794592800.0,
-"eid": "sr:match:72594662",
-"mid": "14",
-"spec": "hcp=4:0",
-"oid": "1711",
-"k": "72594662|14|hcp=4:0|1711"
-},
-{
-"t": "Fri 19:00",
-"game": "SD Ponferradina vs CP Cacereno SAD",
-"lg": "Spain - Primera Federacion",
-"pick": "CP Cacereno SAD Under 1.5",
-"odds": 1.14,
-"why": "LIVE 0-0 45': SD Ponferradina expected 0.5 and CP Cacereno SAD 0.4 more goals (last 10 + season); 0-0 at 45' \u2013 91% chance; h2h 100% of 3 meetings",
-"ts": 1794592800.0,
-"eid": "sr:match:72559240",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "72559240|20|total=1.5|13"
 }
 ]
 }
