@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "V8T69A",
+"at": 1794652626,
+"when": "Sat 14 Nov 11:37",
+"kind": "your chosen markets",
+"odds": 2.32,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Valladolid vs CD Castellon",
+"pick": "Under 5.5",
+"odds": 1.06,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Paradiso vs FC Amical Saint-Prex",
+"pick": "Under 5.5",
+"odds": 1.09,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Salisbury FC vs Chichester City FC",
+"pick": "Under 5.5",
+"odds": 1.11,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Under 5.5",
+"odds": 1.08,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wingate & Finchley vs Hashtag United",
+"pick": "Under 5.5",
+"odds": 1.12,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dartford FC vs AFC Totton",
+"pick": "Under 5.5",
+"odds": 1.09,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:30",
+"game": "NAC Breda vs FC Emmen",
+"pick": "Under 5.5",
+"odds": 1.11,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 18:00",
+"game": "USL Dunkerque vs Quevilly-Rouen Metropole",
+"pick": "Under 5.5",
+"odds": 1.08,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:30",
+"game": "Mallorca vs Cordoba CF",
+"pick": "Under 5.5",
+"odds": 1.08,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"pick": "Under 5.5",
+"odds": 1.06,
+"ts": 1794684600.0
+}
+]
+},
+{
 "code": "U1T7ZS",
 "at": 1794651352,
 "when": "Sat 14 Nov 11:15",
