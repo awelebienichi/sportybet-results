@@ -1,5 +1,62 @@
 [
 {
+"when": "Sat 14 Nov 06:34",
+"at": 1794634494,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "best",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfz16st0uud"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [],
+"tickets": [
+{
+"code": "X8QGRV",
+"odds": 2.03,
+"legs": [
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half double chance GVVV Veenendaal or draw",
+"odds": 1.4,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794663000.0,
+"eid": "sr:match:72594654",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72594654|63||9"
+},
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"lg": "England - League Two",
+"pick": "1st half double chance Swindon Town or draw",
+"odds": 1.45,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:72342378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72342378|63||9"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:32",
 "at": 1794634376,
 "req": {
@@ -9721,34 +9778,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 17:19",
-"at": 1794586761,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14",
-"2026-11-15",
-"2026-11-16",
-"2026-11-17",
-"2026-11-18",
-"2026-11-19"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"m5x"
-],
-"rid": "mwf6ldi21ltx"
-},
-"ok": false,
-"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Fri 13, Sat 14, Sun 15, Mon 16, Tue 17, Wed 18, Thu 19). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
 }
 ]
