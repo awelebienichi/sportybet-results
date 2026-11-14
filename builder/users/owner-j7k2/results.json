@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Q3ZS0J",
+"at": 1794635734,
+"when": "Sat 14 Nov 06:55",
+"kind": "goal-fest teams (season data)",
+"odds": 2.37,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:15",
+"game": "Bridlicna vs Opava B",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794647700.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"pick": "Over 2.5",
+"odds": 1.67,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "X9BA8H",
 "at": 1794635586,
 "when": "Sat 14 Nov 06:53",
