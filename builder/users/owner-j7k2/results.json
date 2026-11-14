@@ -2655,7 +2655,10 @@
 "game": "Okinawa SV vs Yokogawa Musashino FC",
 "pick": "Okinawa SV Under 2.5",
 "odds": 1.06,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 05:00",
@@ -2669,14 +2672,20 @@
 "game": "Melbourne City FC vs Newcastle Jets",
 "pick": "Melbourne City FC Under 3.5",
 "odds": 1.1,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 05:00",
 "game": "Criacao Shinjuku vs Briobecca Urayasu",
 "pick": "Under 6.5",
 "odds": 1.09,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Sat 05:00",
@@ -2717,7 +2726,10 @@
 "game": "Okinawa SV vs Yokogawa Musashino FC",
 "pick": "Okinawa SV Under 2.5",
 "odds": 1.07,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 05:00",
@@ -2731,14 +2743,20 @@
 "game": "Melbourne City FC vs Newcastle Jets",
 "pick": "Melbourne City FC Under 3.5",
 "odds": 1.1,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 05:00",
 "game": "Criacao Shinjuku vs Briobecca Urayasu",
 "pick": "Under 6.5",
 "odds": 1.09,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Sat 05:30",
