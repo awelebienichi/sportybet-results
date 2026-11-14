@@ -295,7 +295,10 @@
 "game": "Real SC Tramandai RS vs Gremio Atletico Farroupilha RS",
 "pick": "1st half double chance Real SC Tramandai RS or draw",
 "odds": 1.17,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 19:00",
@@ -498,7 +501,7 @@
 "when": "Sat 14 Nov 17:15",
 "kind": "goal-fest teams (season data)",
 "odds": 122.74,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 17:55",
@@ -515,7 +518,10 @@
 "game": "Villa FC vs Killarney Celtic",
 "pick": "Over 3.5",
 "odds": 1.54,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -1854,7 +1860,10 @@
 "game": "Villa FC vs Killarney Celtic",
 "pick": "Over 3.5",
 "odds": 1.57,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
