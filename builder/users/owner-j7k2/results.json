@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GQX73J",
+"at": 1794634294,
+"when": "Sat 14 Nov 06:31",
+"kind": "safest market per game",
+"odds": 2.35,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Jerash FC vs AL Lewaa Club",
+"pick": "GG (both teams score)",
+"odds": 1.61,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.46,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "TPK2AY",
 "at": 1794634080,
 "when": "Sat 14 Nov 06:27",
