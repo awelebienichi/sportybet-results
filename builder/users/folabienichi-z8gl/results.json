@@ -254,7 +254,10 @@
 "game": "Marek Dupnica vs PFC Chernomorets Burgas",
 "pick": "Over 1.5",
 "odds": 1.34,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -473,7 +476,10 @@
 "game": "Marek Dupnica vs PFC Chernomorets Burgas",
 "pick": "Over 1.5",
 "odds": 1.34,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
