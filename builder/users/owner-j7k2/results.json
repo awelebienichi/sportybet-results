@@ -14,7 +14,10 @@
 "game": "FC Gifu vs Matsumoto Yamaga FC",
 "pick": "Under 2.5",
 "odds": 1.03,
-"ts": 1794632400.0
+"ts": 1794632400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 06:00",
@@ -62,7 +65,10 @@
 "game": "Fujieda MYFC vs Ventforet Kofu",
 "pick": "GG \u2013 No",
 "odds": 1.09,
-"ts": 1794632400.0
+"ts": 1794632400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
