@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LLGA13",
+"at": 1794696781,
+"when": "Sat 14 Nov 23:53",
+"kind": "goal-fest teams (season data)",
+"odds": 1438.2,
+"status": "open",
+"legs": [
+{
+"t": "Sun 01:00",
+"game": "Dragones de Oaxaca vs Guerreros de Autlan",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794700800.0
+},
+{
+"t": "Sun 01:00",
+"game": "Halcones Negros FC vs ACF Zapotlanejo",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1794700800.0
+},
+{
+"t": "Sun 01:30",
+"game": "Academia Costa Del Este vs Tauro FC II",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1794702600.0
+},
+{
+"t": "Sun 02:00",
+"game": "West Coast Rangers FC vs Wellington United Diamonds",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794704400.0
+},
+{
+"t": "Sun 06:30",
+"game": "Citizen AA vs Kui Tan SC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794720600.0
+},
+{
+"t": "Sun 10:15",
+"game": "FK Admira Prague vs SK Slavia Prague C",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794734100.0
+},
+{
+"t": "Sun 12:00",
+"game": "FCS Feminin Politehnica Timisoara vs Afk Csikszereda Miercurea Ciuc",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "WKS Slask Wroclaw vs Gornik Leczna",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Servette FC  vs FC La Chaux De Fonds",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Aston Villa WFC vs Birmingham City WFC",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 19:00",
+"game": "Itabirito FC MG vs Atletico Mineiro MG",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794765600.0
+}
+]
+},
+{
 "code": "VWUB4L",
 "at": 1794679046,
 "when": "Sat 14 Nov 18:57",
