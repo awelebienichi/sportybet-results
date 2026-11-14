@@ -1,5 +1,62 @@
 [
 {
+"when": "Sat 14 Nov 06:51",
+"at": 1794635469,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25yw",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfzmau8s5n9"
+},
+"ok": true,
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"note": [],
+"tickets": [
+{
+"code": "T7N4MP",
+"odds": 1.5,
+"legs": [
+{
+"t": "Sat 11:45",
+"game": "SFC Opava vs FC Pardubice",
+"lg": "Czechia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "strong side SFC Opava (win 1.56) scores 3.1 a game, 90% of its games over 2.5; FC Pardubice concedes 2.3 a game; 62% of 8 meetings over; Flashscore home/away form 70%, Vitibet tip 3-1, season: 4.4 goals a game",
+"ts": 1794653100.0,
+"eid": "sr:match:72575912",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72575912|18|total=2.5|12"
+},
+{
+"t": "Sat 13:30",
+"game": "Spain vs Wales",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "strong side Spain (win 1.07) scores 3.3 a game, 80% of its games over 2.5; Wales concedes 2.9 a game; 67% of 3 meetings over; Flashscore home/away form 70%",
+"ts": 1794659400.0,
+"eid": "sr:match:74723374",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74723374|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:49",
 "at": 1794635355,
 "req": {
@@ -9449,25 +9506,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 17:45",
-"at": 1794588314,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "u25",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwf7jnkenp44"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Fri 13) out of 81 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
