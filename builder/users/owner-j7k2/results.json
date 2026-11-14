@@ -63,7 +63,7 @@
 "odds": 1.33,
 "ts": 1794684600.0,
 "r": "W",
-"sc": "2-2",
+"sc": "3-2",
 "ht": "0-1"
 },
 {
@@ -1192,7 +1192,10 @@
 "game": "Hamburg Towers vs Wurzburg Baskets",
 "pick": "Over 154.5 total points",
 "odds": 1.22,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "91-84",
+"ht": "24-17"
 },
 {
 "t": "Sat 20:00",
