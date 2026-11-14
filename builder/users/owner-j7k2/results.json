@@ -502,7 +502,7 @@
 "odds": 1.2,
 "ts": 1794681000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "2-0"
 },
 {
@@ -1121,7 +1121,10 @@
 "game": "Menorca Basquet vs Oviedo BC",
 "pick": "Over 141.5 total points",
 "odds": 1.21,
-"ts": 1794681000.0
+"ts": 1794681000.0,
+"r": "L",
+"sc": "75-65",
+"ht": "16-18"
 },
 {
 "t": "Sat 19:30",
@@ -1422,7 +1425,10 @@
 "game": "Menorca Basquet vs Oviedo BC",
 "pick": "Over 141.5 total points",
 "odds": 1.21,
-"ts": 1794681000.0
+"ts": 1794681000.0,
+"r": "L",
+"sc": "75-65",
+"ht": "16-18"
 },
 {
 "t": "Sat 22:00",
@@ -3160,7 +3166,10 @@
 "game": "America FC MG vs Avai FC SC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.24,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
@@ -3539,7 +3548,10 @@
 "game": "America FC MG vs Avai FC SC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.24,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
