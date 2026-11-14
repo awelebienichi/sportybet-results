@@ -480,7 +480,10 @@
 "game": "Aguilas FC B vs CF Santomera",
 "pick": "Over 1.5",
 "odds": 1.29,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 20:00",
@@ -998,7 +1001,10 @@
 "game": "Igokea Aleksandrovac vs Buducnost Podgorica",
 "pick": "Under 183.5 total points",
 "odds": 1.23,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "104-100",
+"ht": "19-17"
 },
 {
 "t": "Sat 18:10",
