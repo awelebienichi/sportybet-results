@@ -1,5 +1,314 @@
 [
 {
+"when": "Sat 14 Nov 23:53",
+"at": 1794696781,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwh03iydjqwf"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [],
+"tickets": [
+{
+"code": "LLGA13",
+"odds": 1438.2,
+"legs": [
+{
+"t": "Sun 01:00",
+"game": "Dragones de Oaxaca vs Guerreros de Autlan",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "season: 3.5 and 3.4 goals a game (11/10 games); last 10 rate 75%; Flashscore home/away form 70%",
+"ts": 1794700800.0,
+"eid": "sr:match:74063610",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063610|18|total=2.5|12"
+},
+{
+"t": "Sun 01:00",
+"game": "Halcones Negros FC vs ACF Zapotlanejo",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "season: 3.6 and 4.1 goals a game (11/11 games); last 10 rate 80%; Flashscore home/away form 65%, season: 3.9 goals a game",
+"ts": 1794700800.0,
+"eid": "sr:match:74063608",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063608|18|total=2.5|12"
+},
+{
+"t": "Sun 01:30",
+"game": "Academia Costa Del Este vs Tauro FC II",
+"lg": "Panama - Liga Prom",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "season: 3.2 and 3.3 goals a game (16/16 games); last 10 rate 75%",
+"ts": 1794702600.0,
+"eid": "sr:match:76708744",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76708744|18|total=2.5|12"
+},
+{
+"t": "Sun 02:00",
+"game": "West Coast Rangers FC vs Wellington United Diamonds",
+"lg": "New Zealand - National League, Women",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 3.7 and 2.8 goals a game (6/6 games); last 10 rate 75%; Flashscore home/away form 80%",
+"ts": 1794704400.0,
+"eid": "sr:match:74931190",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74931190|18|total=2.5|12"
+},
+{
+"t": "Sun 06:30",
+"game": "Citizen AA vs Kui Tan SC",
+"lg": "Hong Kong, China - 1. Division",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 3.0 and 4.2 goals a game (9/9 games); last 10 rate 79%",
+"ts": 1794720600.0,
+"eid": "sr:match:74058672",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74058672|18|total=2.5|12"
+},
+{
+"t": "Sun 10:15",
+"game": "FK Admira Prague vs SK Slavia Prague C",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 3.9 and 3.3 goals a game (14/13 games); last 10 rate 75%; Flashscore home/away form 75%",
+"ts": 1794734100.0,
+"eid": "sr:match:72415114",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415114|18|total=2.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "FCS Feminin Politehnica Timisoara vs Afk Csikszereda Miercurea Ciuc",
+"lg": "Romania - Superliga, Women",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 4.8 and 4.9 goals a game (11/11 games); last 10 rate 75%; Flashscore home/away form 75%, season: 4.9 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73842740",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73842740|18|total=2.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "WKS Slask Wroclaw vs Gornik Leczna",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 3.4 and 3.5 goals a game (10/10 games); last 10 rate 75%; Flashscore home/away form 65%",
+"ts": 1794740400.0,
+"eid": "sr:match:72577810",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72577810|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Servette FC  vs FC La Chaux De Fonds",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "Over 2.5",
+"odds": 1.25,
+"why": "season: 3.8 and 3.8 goals a game (13/13 games); last 10 rate 90%; Flashscore home/away form 95%, season: 3.8 goals a game",
+"ts": 1794747600.0,
+"eid": "sr:match:72525488",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72525488|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "season: 4.1 and 5.0 goals a game (9/10 games); last 10 rate 90%; season: 4.6 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111610",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111610|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "season: 4.1 and 4.1 goals a game (10/10 games); last 10 rate 90%; season: 4.1 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111640",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111640|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "season: 4.4 and 3.6 goals a game (10/10 games); last 10 rate 85%; season: 4.0 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111374",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111374|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"lg": "England Amateur - Super League 2, Women",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 4.0 and 4.6 goals a game (7/7 games); last 10 rate 95%; Flashscore home/away form 90%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1794751200.0,
+"eid": "sr:match:73346552",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346552|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Aston Villa WFC vs Birmingham City WFC",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 2.9 and 3.6 goals a game (9/9 games); last 10 rate 70%; Flashscore home/away form 55%",
+"ts": 1794751200.0,
+"eid": "sr:match:73346122",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346122|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "season: 3.7 and 4.2 goals a game (10/9 games); last 10 rate 90%; Flashscore home/away form 90%, season: 4.0 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72577814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72577814|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 4.0 and 4.2 goals a game (10/10 games); last 10 rate 80%; season: 4.1 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:76506618",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76506618|18|total=2.5|12"
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "season: 4.0 and 4.1 goals a game (9/9 games); last 10 rate 70%; Flashscore home/away form 75%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1794757500.0,
+"eid": "sr:match:72467522",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72467522|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "season: 4.0 and 3.1 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 60%",
+"ts": 1794758400.0,
+"eid": "sr:match:72415116",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415116|18|total=2.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 3.6 and 3.9 goals a game (8/8 games); last 10 rate 75%; season: 3.8 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:76675986",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76675986|18|total=2.5|12"
+},
+{
+"t": "Sun 19:00",
+"game": "Itabirito FC MG vs Atletico Mineiro MG",
+"lg": "Brazil - Mineiro, Women",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "season: 6.2 and 6.0 goals a game (6/6 games); last 10 rate 75%; Flashscore home/away form 70%, season: 6.1 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:75931446",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75931446|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 18:57",
 "at": 1794679046,
 "req": {
@@ -7778,63 +8087,6 @@
 "spec": "total=0.5",
 "oid": "12",
 "k": "72594654|68|total=0.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:48",
-"at": 1794635315,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "fav1h",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfz8dd7e9sc"
-},
-"ok": true,
-"kind": "strong team to score in the 1st half",
-"note": [],
-"tickets": [
-{
-"code": "ZQJTUT",
-"odds": 2.33,
-"legs": [
-{
-"t": "Sat 13:00",
-"game": "MKS Mlawianka Mlawa vs Wigry Suwalki",
-"lg": "Poland - III Liga, Group 1",
-"pick": "Wigry Suwalki to score in 1st half",
-"odds": 1.51,
-"why": "Wigry Suwalki scored in the 1st half in 80% of last 10; MKS Mlawianka Mlawa conceded in it in 60% of last 10; win odds 1.75",
-"ts": 1794657600.0,
-"eid": "sr:match:72514876",
-"mid": "70",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72514876|70|total=0.5|12"
-},
-{
-"t": "Sat 18:00",
-"game": "Austria vs Slovenia",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Austria to score in 1st half",
-"odds": 1.54,
-"why": "Austria scored in the 1st half in 80% of last 10; Slovenia conceded in it in 80% of last 10; win odds 1.54",
-"ts": 1794675600.0,
-"eid": "sr:match:74723256",
-"mid": "69",
-"spec": "total=0.5",
-"oid": "12",
-"k": "74723256|69|total=0.5|12"
 }
 ]
 }
