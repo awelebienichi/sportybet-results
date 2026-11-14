@@ -138,14 +138,17 @@
 "when": "Sat 14 Nov 18:51",
 "kind": "safest market per game",
 "odds": 41.95,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 20:00",
 "game": "RKC Waalwijk vs FC Den Bosch",
 "pick": "1st half double chance FC Den Bosch or draw",
 "odds": 1.43,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 20:00",
@@ -3109,7 +3112,10 @@
 "game": "RKC Waalwijk vs FC Den Bosch",
 "pick": "1st half GG \u2013 No",
 "odds": 1.35,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 20:00",
@@ -3479,7 +3485,10 @@
 "game": "RKC Waalwijk vs FC Den Bosch",
 "pick": "1st half GG \u2013 No",
 "odds": 1.35,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 20:00",
