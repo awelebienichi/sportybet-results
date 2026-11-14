@@ -1,5 +1,64 @@
 [
 {
+"when": "Sat 14 Nov 06:37",
+"at": 1794634634,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "fav",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfz47pzlw72"
+},
+"ok": true,
+"kind": "strong favourites to win",
+"note": [
+"10 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "YL02T3",
+"odds": 1.58,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Spain vs Wales",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Spain to win",
+"odds": 1.07,
+"why": "won 90% lost 0% of last 10, rival lost 70%, won 100% of 3 meetings; Flashscore home/away form 60%",
+"ts": 1794659400.0,
+"eid": "sr:match:74723374",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "74723374|1||1"
+},
+{
+"t": "Sat 19:00",
+"game": "Cruzeiro EC MG vs America FC MG",
+"lg": "Brazil - Mineiro, Women",
+"pick": "Cruzeiro EC MG to win",
+"odds": 1.48,
+"why": "won 100% lost 0% of last 10, rival lost 60%, won 75% of 8 meetings; Flashscore home/away form 80%, season: won 83%, rival lost 50%",
+"ts": 1794679200.0,
+"eid": "sr:match:75931444",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75931444|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:34",
 "at": 1794634494,
 "req": {
@@ -9692,88 +9751,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "76676664|20|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 17:21",
-"at": 1794586878,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14",
-"2026-11-15",
-"2026-11-16",
-"2026-11-17",
-"2026-11-18",
-"2026-11-19"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"u55"
-],
-"rid": "mwf6og9phzkm"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 3 games passed the checks (Fri 13, Sat 14, Sun 15, Mon 16, Tue 17, Wed 18, Thu 19, 1145 games on SportyBet), so this ticket has 3 legs instead of 10. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "PJ6XQ5",
-"odds": 1.27,
-"legs": [
-{
-"t": "Sat 15:00",
-"game": "FC Paradiso vs FC Amical Saint-Prex",
-"lg": "Switzerland - Promotion League",
-"pick": "Under 5.5",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, season: 3.2 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:72521064",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "72521064|18|total=5.5|13"
-},
-{
-"t": "Sat 18:00",
-"game": "USL Dunkerque vs Quevilly-Rouen Metropole",
-"lg": "France - Coupe de France",
-"pick": "Under 5.5",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
-"ts": 1794675600.0,
-"eid": "sr:match:76171166",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76171166|18|total=5.5|13"
-},
-{
-"t": "Mon 20:45",
-"game": "Greece vs Serbia",
-"lg": "International - UEFA Nations League",
-"pick": "Under 5.5",
-"odds": 1.07,
-"why": "stats rate 96% from both teams' last 10 and 3 meetings; FotMob: 2.4 goals a game, Vitibet tip 2-1",
-"ts": 1794858300.0,
-"eid": "sr:match:68931590",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "68931590|18|total=5.5|13"
 }
 ]
 }
