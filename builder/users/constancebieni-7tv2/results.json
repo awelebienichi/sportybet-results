@@ -117,7 +117,7 @@
 "when": "Sat 14 Nov 11:15",
 "kind": "your chosen markets",
 "odds": 12980.54,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:00",
@@ -125,8 +125,8 @@
 "pick": "Over 1.5",
 "odds": 1.2,
 "ts": 1794654000.0,
-"r": "W",
-"sc": "2-0",
+"r": "L",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -862,14 +862,17 @@
 "when": "Sat 14 Nov 10:58",
 "kind": "your chosen markets",
 "odds": 2310.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:00",
 "game": "TSG Hoffenheim W vs SC Freiburg",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
