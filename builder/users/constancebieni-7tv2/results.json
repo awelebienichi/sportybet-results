@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "Q82MCY",
+"at": 1794662312,
+"when": "Sat 14 Nov 14:18",
+"kind": "safest market per game",
+"odds": 11.1,
+"status": "open",
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"pick": "1st half double chance Swindon Town or draw",
+"odds": 1.48,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.46,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Villa FC vs Killarney Celtic",
+"pick": "GG (both teams score)",
+"odds": 1.64,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Washington Spirit vs Utah Royals FC",
+"pick": "Under 3.5",
+"odds": 1.44,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 20:30",
+"game": "America FC MG vs Avai FC SC",
+"pick": "Under 3.5",
+"odds": 1.46,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 23:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"pick": "1st half double chance CD Maipu or draw",
+"odds": 1.49,
+"ts": 1794693600.0
+}
+]
+},
+{
 "code": "MYZ68U",
 "at": 1794653702,
 "when": "Sat 14 Nov 11:55",
