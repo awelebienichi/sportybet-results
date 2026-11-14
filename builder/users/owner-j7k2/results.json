@@ -496,8 +496,8 @@
 "odds": 1.2,
 "ts": 1794681000.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 20:00",
@@ -4229,7 +4229,7 @@
 "when": "Sat 14 Nov 06:59",
 "kind": "draw & low-scoring teams (season data)",
 "odds": 2.64,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 15:00",
@@ -4246,7 +4246,10 @@
 "game": "Goytacaz FC RJ vs Niteroiense",
 "pick": "Under 2.5",
 "odds": 1.66,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
@@ -4333,7 +4336,10 @@
 "game": "Goytacaz FC RJ vs Niteroiense",
 "pick": "Under 2.5",
 "odds": 1.66,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
