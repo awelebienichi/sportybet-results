@@ -1,5 +1,64 @@
 [
 {
+"when": "Sat 14 Nov 06:49",
+"at": 1794635355,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfzjfwvhilx"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "LJMK21",
+"odds": 2.07,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Jerash FC vs AL Lewaa Club",
+"lg": "Saudi Arabia - Second Division",
+"pick": "Over 2.5",
+"odds": 1.64,
+"why": "Over 2.5 in 100% / 90% of the teams' last 10, league avg 3.4 goals; Flashscore home/away form 85%",
+"ts": 1794659400.0,
+"eid": "sr:match:73775058",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73775058|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "RBC Roosendaal vs VV Goes",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.26,
+"why": "Over 2.5 in 100% / 90% of the teams' last 10, league avg 4.0 goals; Flashscore home/away form 75%, season: 4.4 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:72596234",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72596234|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:48",
 "at": 1794635337,
 "req": {
@@ -9410,106 +9469,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Fri 13) out of 81 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Fri 13 Nov 17:44",
-"at": 1794588273,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "beaten",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwf7ikz27fav"
-},
-"ok": true,
-"kind": "always-beaten teams (season data)",
-"note": [
-"Only 5 games passed the checks (Fri 13, 81 games on SportyBet), so this ticket has 5 legs instead of 10. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "PEJ3RC",
-"odds": 2.3,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Skive IK vs Thisted FC",
-"lg": "Denmark - 2nd Division",
-"pick": "Double chance Skive IK or draw",
-"odds": 1.21,
-"why": "season: Thisted FC lost 67% of 15; Skive IK lost only 40%; last 10 rate 80%; Flashscore home/away form 70%",
-"ts": 1794592800.0,
-"eid": "sr:match:72499164",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "72499164|10||9"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Nantes vs RC Lens",
-"lg": "France - Premiere Ligue, Women",
-"pick": "Double chance FC Nantes or draw",
-"odds": 1.16,
-"why": "season: RC Lens lost 62% of 8; FC Nantes lost only 38%; last 10 rate 80%; Flashscore home/away form 75%",
-"ts": 1794592800.0,
-"eid": "sr:match:72700292",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "72700292|10||9"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Helsingoer vs Holstebro BK",
-"lg": "Denmark - 3rd Division",
-"pick": "Double chance FC Helsingoer or draw",
-"odds": 1.11,
-"why": "season: Holstebro BK lost 60% of 15; FC Helsingoer lost only 27%; last 10 rate 75%; Flashscore home/away form 75%",
-"ts": 1794592800.0,
-"eid": "sr:match:72500824",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "72500824|10||9"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"lg": "Belgium - U21 Pro League",
-"pick": "Double chance RFC Liege or draw",
-"odds": 1.33,
-"why": "season: Jeugd Sporting Hasselt lost 88% of 8; RFC Liege lost only 33%; last 10 rate 70%; Flashscore home/away form 50%",
-"ts": 1794598200.0,
-"eid": "sr:match:75643276",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "75643276|10||11"
-},
-{
-"t": "Fri 20:45",
-"game": "Glentoran FC vs Bangor FC",
-"lg": "Northern Ireland - Premiership",
-"pick": "Double chance Glentoran FC or draw",
-"odds": 1.11,
-"why": "season: Bangor FC lost 60% of 15; Glentoran FC lost only 29%; last 10 rate 75%; Flashscore home/away form 75%",
-"ts": 1794599100.0,
-"eid": "sr:match:72346416",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "72346416|10||9"
-}
-]
-}
-]
 }
 ]
