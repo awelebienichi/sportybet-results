@@ -2204,7 +2204,10 @@
 "game": "RCD Espanyol Barcelona vs CD Tenerife",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.27,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:00",
@@ -2938,7 +2941,10 @@
 "game": "RCD Espanyol Barcelona vs CD Tenerife",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.27,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:30",
@@ -3777,7 +3783,10 @@
 "game": "RCD Espanyol Barcelona vs CD Tenerife",
 "pick": "1st half double chance RCD Espanyol Barcelona or draw",
 "odds": 1.27,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:00",
@@ -4951,14 +4960,17 @@
 "when": "Fri 13 Nov 21:35",
 "kind": "half-time draw",
 "odds": 82.07,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:00",
 "game": "RCD Espanyol Barcelona vs CD Tenerife",
 "pick": "Half-time draw",
 "odds": 2.0,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
