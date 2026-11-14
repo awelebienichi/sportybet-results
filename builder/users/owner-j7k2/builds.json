@@ -1,5 +1,314 @@
 [
 {
+"when": "Sat 14 Nov 23:58",
+"at": 1794697098,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwh0b1eggwaf"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [],
+"tickets": [
+{
+"code": "UKRSWP",
+"odds": 990.39,
+"legs": [
+{
+"t": "Sun 00:30",
+"game": "Cashmere Technical vs Wellington Olympic",
+"lg": "New Zealand - National League",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, 100% of 3 meetings, league avg 3.9 goals; Flashscore home/away form 85%, FotMob: 3.9 goals a game, season: 4.7 goals a game",
+"ts": 1794699000.0,
+"eid": "sr:match:74873414",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74873414|18|total=2.5|12"
+},
+{
+"t": "Sun 01:00",
+"game": "Halcones Negros FC vs ACF Zapotlanejo",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, league avg 4.3 goals; Flashscore home/away form 65%, season: 3.9 goals a game",
+"ts": 1794700800.0,
+"eid": "sr:match:74063608",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063608|18|total=2.5|12"
+},
+{
+"t": "Sun 06:30",
+"game": "Citizen AA vs Kui Tan SC",
+"lg": "Hong Kong, China - 1. Division",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "Over 2.5 in 70% / 89% of the teams' last 10, league avg 3.8 goals",
+"ts": 1794720600.0,
+"eid": "sr:match:74058672",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74058672|18|total=2.5|12"
+},
+{
+"t": "Sun 09:00",
+"game": "INAC Kobe Leonessa vs Cerezo Osaka Sakai Ladies",
+"lg": "Japan - WE League, Women",
+"pick": "Over 2.5",
+"odds": 1.88,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 80%, FotMob: 3.5 goals a game",
+"ts": 1794729600.0,
+"eid": "sr:match:72339090",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72339090|18|total=2.5|12"
+},
+{
+"t": "Sun 11:30",
+"game": "Lucky Mile vs Leaper",
+"lg": "Hong Kong, China - 1. Division",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, league avg 3.8 goals",
+"ts": 1794738600.0,
+"eid": "sr:match:74058682",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74058682|18|total=2.5|12"
+},
+{
+"t": "Sun 13:00",
+"game": "Oevrevoll Hosle IL vs Kolbotn",
+"lg": "Norway - 1st Division, Women",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, 83% of 6 meetings, league avg 3.4 goals; Flashscore home/away form 70%",
+"ts": 1794744000.0,
+"eid": "sr:match:76654320",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76654320|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Servette FC  vs FC La Chaux De Fonds",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "Over 2.5",
+"odds": 1.25,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.6 goals; Flashscore home/away form 95%, season: 3.8 goals a game",
+"ts": 1794747600.0,
+"eid": "sr:match:72525488",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72525488|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "MK Dons Ladies vs Chatham Town Women",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 80%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088644",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088644|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Moneyfields Ladies vs Bristol Rovers Women",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "Over 2.5 in 75% / 100% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 88%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088628",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088628|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Stoke City Lfc vs Liverpool Feds Lfc",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 75%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088624",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088624|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "HVV Hollandia Hoorn vs Hzvv Hoogeveen",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 4.1 goals; Flashscore home/away form 75%, season: 4.4 goals a game",
+"ts": 1794747600.0,
+"eid": "sr:match:72595560",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72595560|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, league avg 3.7 goals; season: 4.1 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111640",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111640|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.7 goals; season: 4.6 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111610",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111610|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "Over 2.5 in 100% / 70% of the teams' last 10, league avg 3.7 goals; season: 4.0 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111374",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111374|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Boldmere St Michaels Women vs Stockport County Lfc",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "Over 2.5 in 100% / 89% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 75%",
+"ts": 1794751200.0,
+"eid": "sr:match:76088626",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76088626|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"lg": "England Amateur - Super League 2, Women",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 in 90% / 100% of the teams' last 10, league avg 3.9 goals; Flashscore home/away form 90%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1794751200.0,
+"eid": "sr:match:73346552",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346552|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "Over 2.5 in 90% / 90% of the teams' last 10, 62% of 8 meetings, league avg 3.6 goals; Flashscore home/away form 90%, season: 4.0 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72577814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72577814|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "Over 2.5 in 80% / 80% of the teams' last 10, league avg 3.8 goals; season: 4.1 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:76506618",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76506618|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "Over 2.5 in 80% / 70% of the teams' last 10, 100% of 4 meetings, league avg 3.6 goals; season: 3.8 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72961086",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961086|18|total=2.5|12"
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, 100% of 8 meetings, league avg 3.3 goals; Flashscore home/away form 75%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1794757500.0,
+"eid": "sr:match:72467522",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72467522|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 23:56",
 "at": 1794696965,
 "req": {
@@ -8285,63 +8594,6 @@
 "spec": "total=0.5",
 "oid": "12",
 "k": "72740812|90|total=0.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:48",
-"at": 1794635324,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "fav2h",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfzd0mc0w3j"
-},
-"ok": true,
-"kind": "strong team to score in the 2nd half",
-"note": [],
-"tickets": [
-{
-"code": "H6U2TS",
-"odds": 1.69,
-"legs": [
-{
-"t": "Sat 16:00",
-"game": "Gateshead FC vs Barrow AFC",
-"lg": "England - National League",
-"pick": "Barrow AFC to score in 2nd half",
-"odds": 1.41,
-"why": "Barrow AFC scored in the 2nd half in 100% of last 7; Gateshead FC conceded in it in 75% of last 8; win odds 1.59",
-"ts": 1794668400.0,
-"eid": "sr:match:72740794",
-"mid": "92",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72740794|92|total=0.5|12"
-},
-{
-"t": "Sat 18:00",
-"game": "Stade Bethunois vs Nancy-Lorraine",
-"lg": "France - Coupe de France",
-"pick": "Nancy-Lorraine to score in 2nd half",
-"odds": 1.2,
-"why": "Nancy-Lorraine scored in the 2nd half in 90% of last 10; Stade Bethunois conceded in it in 86% of last 7; win odds 1.17",
-"ts": 1794675600.0,
-"eid": "sr:match:76168590",
-"mid": "92",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76168590|92|total=0.5|12"
 }
 ]
 }
