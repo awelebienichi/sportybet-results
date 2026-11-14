@@ -261,7 +261,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -397,7 +400,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -2251,7 +2257,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.2,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -2463,7 +2472,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -2564,7 +2576,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -3369,7 +3384,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -3659,7 +3677,7 @@
 "odds": 1.29,
 "ts": 1794677400.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": ""
 },
 {
@@ -3862,7 +3880,10 @@
 "game": "Hamilton Academical FC vs Ross County FC",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -8802,7 +8823,7 @@
 "odds": 1.31,
 "ts": 1794677400.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": ""
 },
 {
