@@ -1,5 +1,177 @@
 [
 {
+"when": "Sat 14 Nov 08:24",
+"at": 1794641047,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"gb25"
+],
+"rid": "mwg2xgzzsvkr"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "SYG2PJ",
+"odds": 12.12,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Marek Dupnica vs PFC Chernomorets Burgas",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Goal bounds 2-5+",
+"odds": 1.35,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.6 goals a game",
+"ts": 1794659400.0,
+"eid": "sr:match:72466634",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72466634|450001||25"
+},
+{
+"t": "Sat 14:00",
+"game": "Hamburger SV II vs Kickers Emden",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, footybets 97%, FotMob: 4.3 goals a game, Vitibet tip 1-2",
+"ts": 1794661200.0,
+"eid": "sr:match:72674434",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72674434|450001||25"
+},
+{
+"t": "Sat 14:30",
+"game": "AS Megrine vs AS Agareb",
+"lg": "Tunisia - Ligue 2",
+"pick": "Goal bounds 2-5+",
+"odds": 1.49,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1794663000.0,
+"eid": "sr:match:76515400",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76515400|450001||25"
+},
+{
+"t": "Sat 14:30",
+"game": "US Albinoleffe vs Union Brescia",
+"lg": "Italy - Serie C, Group A",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 75%, FotMob: 2.9 goals a game",
+"ts": 1794663000.0,
+"eid": "sr:match:73293334",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73293334|450001||25"
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"lg": "Wales - Cymru Championship South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794664800.0,
+"eid": "sr:match:74352338",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74352338|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"lg": "Mexico - U21 Liga MX",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:74627426",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74627426|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Port Vale vs Accrington Stanley",
+"lg": "England - League Two",
+"pick": "Goal bounds 2-5+",
+"odds": 1.33,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, footybets 98%, FotMob: 2.4 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72342368",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72342368|450001||25"
+},
+{
+"t": "Sat 17:00",
+"game": "CD Marchamalo vs Villarrubia CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Goal bounds 2-5+",
+"odds": 1.4,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
+"ts": 1794672000.0,
+"eid": "sr:match:73560448",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73560448|450001||25"
+},
+{
+"t": "Sat 19:00",
+"game": "CD Noblejas vs CD Quintanar del Rey",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Goal bounds 2-5+",
+"odds": 1.31,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794679200.0,
+"eid": "sr:match:73560446",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73560446|450001||25"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74838480|450001||25"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 04:25",
 "at": 1794626731,
 "req": {
@@ -4023,20 +4195,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 12:09",
-"at": 1794481762,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 3,
-"strict": "strict",
-"rid": "mwdg3rgzaqrk"
-},
-"ok": false,
-"msg": "8 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
 }
 ]
