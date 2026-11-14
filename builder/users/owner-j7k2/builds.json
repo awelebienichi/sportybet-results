@@ -1,5 +1,317 @@
 [
 {
+"when": "Sat 14 Nov 07:05",
+"at": 1794636307,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwg03evqw8ju"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "U1T5Y3",
+"odds": 26.98,
+"legs": [
+{
+"t": "Sat 12:30",
+"game": "FC Alhendin Balompie vs Sevilla FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; season: 3.0 goals a game",
+"ts": 1794655800.0,
+"eid": "sr:match:76526884",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76526884|18|total=1.5|12"
+},
+{
+"t": "Sat 13:30",
+"game": "Marek Dupnica vs PFC Chernomorets Burgas",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Over 1.5",
+"odds": 1.34,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.6 goals a game",
+"ts": 1794659400.0,
+"eid": "sr:match:72466634",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72466634|18|total=1.5|12"
+},
+{
+"t": "Sat 13:30",
+"game": "Jerash FC vs AL Lewaa Club",
+"lg": "Saudi Arabia - Second Division",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794659400.0,
+"eid": "sr:match:73775058",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73775058|18|total=1.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1794663000.0,
+"eid": "sr:match:72594654",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72594654|18|total=1.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 75%, season: 3.2 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:74352338",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74352338|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "SD Eibar C vs CD Derio",
+"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"pick": "Over 1.5",
+"odds": 1.25,
+"why": "stats rate 92% from both teams' last 10 and 4 meetings; Flashscore home/away form 85%, season: 2.8 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73557194",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73557194|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Basingstoke Town FC vs Chippenham Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; Flashscore home/away form 90%, FotMob: 3.3 goals a game, season: 3.3 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73025158",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025158|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Enfield Town vs Spalding United",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125274",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76125274|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Evesham United vs Gosport Borough",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.2 goals a game, season: 3.2 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73025166",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025166|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Frome Town vs Hanworth Villa",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.1 goals a game, season: 3.1 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73025168",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73025168|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Spennymoor Town FC vs Scarborough Athletic",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125234",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76125234|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Waltham Abbey FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 100%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125272",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76125272|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Leek Town FC vs Morecambe FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125248",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76125248|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Weston-super-Mare vs Farnborough FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 92% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125306",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76125306|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Salisbury FC vs Chichester City FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 1.5",
+"odds": 1.13,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.7 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:76125304",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76125304|18|total=1.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "RC Strasbourg vs Toulouse FC",
+"lg": "France - Premiere Ligue, Women",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.9 goals a game, Vitibet tip 2-1, season: 3.9 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:72700296",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72700296|18|total=1.5|12"
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"lg": "Scotland - League 1",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.4 goals a game, Vitibet tip 1-2, season: 3.4 goals a game",
+"ts": 1794677400.0,
+"eid": "sr:match:72203984",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72203984|18|total=1.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "CD Noblejas vs CD Quintanar del Rey",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Over 1.5",
+"odds": 1.3,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, season: 3.2 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:73560446",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73560446|18|total=1.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "RSC Anderlecht vs Club Brugge KV",
+"lg": "Belgium - Super League, Women",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; season: 3.1 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:72303002",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72303002|18|total=1.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74838480|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 07:01",
 "at": 1794636071,
 "req": {
@@ -9256,102 +9568,6 @@
 "spec": "hcp=0:3",
 "oid": "1713",
 "k": "72517956|14|hcp=0:3|1713"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 18:30",
-"at": 1794591011,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "strict",
-"rid": "mwf959b878r0"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "ZERS8K",
-"odds": 1.32,
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "Gabon vs Lesotho",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:4 \u2013 Lesotho",
-"odds": 1.03,
-"why": "LIVE 1-0 66': Gabon expected 0.5 and Lesotho 0.4 more goals (last 10); 1-0 at 66' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794585600.0,
-"eid": "sr:match:75802224",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "75802224|14|hcp=0:4|1713"
-},
-{
-"t": "Fri 17:00",
-"game": "Burkina Faso vs Mauritania",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Burkina Faso Under 1.5",
-"odds": 1.05,
-"why": "LIVE 0-0 71': Burkina Faso expected 0.3 and Mauritania 0.3 more goals (last 10); 0-0 at 71' \u2013 95% chance; h2h 80% of 5 meetings",
-"ts": 1794585600.0,
-"eid": "sr:match:75802274",
-"mid": "19",
-"spec": "total=1.5",
-"oid": "13",
-"k": "75802274|19|total=1.5|13"
-},
-{
-"t": "Fri 17:00",
-"game": "South Africa vs Kenya",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Under 4.5",
-"odds": 1.04,
-"why": "LIVE 1-1 67': South Africa expected 0.5 and Kenya 0.3 more goals (last 10); 1-1 at 67' \u2013 93% chance; Flashscore home/away form 80%, Vitibet tip 2-0",
-"ts": 1794585600.0,
-"eid": "sr:match:75802254",
-"mid": "18",
-"spec": "total=4.5",
-"oid": "13",
-"k": "75802254|18|total=4.5|13"
-},
-{
-"t": "Fri 18:00",
-"game": "Shooting Stars vs Bendel Insurance FC",
-"lg": "Nigeria - Premier League",
-"pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
-"odds": 1.04,
-"why": "LIVE 0-0 30': Shooting Stars expected 1.0 and Bendel Insurance FC 1.0 more goals (last 10 + season); 0-0 at 30' \u2013 95% chance; margin record 90% / 90% in both sides' last games, h2h 100% of 8 meetings",
-"ts": 1794589200.0,
-"eid": "sr:match:74886150",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "74886150|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 18:00",
-"game": "JS Saoura vs USM Khenchela",
-"lg": "Algeria - Ligue 1",
-"pick": "Handicap 0:3 \u2013 USM Khenchela",
-"odds": 1.14,
-"why": "LIVE 1-0 27': JS Saoura expected 0.5 and USM Khenchela 0.6 more goals (last 10 + season); 1-0 at 27' \u2013 93% chance; margin record 100% / 90% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794589200.0,
-"eid": "sr:match:75722348",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75722348|14|hcp=0:3|1713"
 }
 ]
 }
