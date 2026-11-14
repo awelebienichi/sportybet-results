@@ -823,7 +823,10 @@
 "game": "Chicago Bulls vs Atlanta Hawks",
 "pick": "Under 258.5 total points",
 "odds": 1.28,
-"ts": 1794618000.0
+"ts": 1794618000.0,
+"r": "W",
+"sc": "125-117",
+"ht": "33-24"
 },
 {
 "t": "Sat 05:00",
@@ -2003,7 +2006,10 @@
 "game": "Chicago Bulls vs Atlanta Hawks",
 "pick": "Under 259.5 total points",
 "odds": 1.26,
-"ts": 1794618000.0
+"ts": 1794618000.0,
+"r": "W",
+"sc": "125-117",
+"ht": "33-24"
 },
 {
 "t": "Sat 04:00",
