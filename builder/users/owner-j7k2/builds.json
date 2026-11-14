@@ -1,5 +1,247 @@
 [
 {
+"when": "Sat 14 Nov 17:17",
+"at": 1794673052,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwglzndz0grq"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "H7F2QB",
+"odds": 19.8,
+"legs": [
+{
+"t": "Sat 18:00",
+"game": "RC Strasbourg vs Toulouse FC",
+"lg": "France - Premiere Ligue, Women",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.9 goals a game, Vitibet tip 2-1, season: 3.9 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:72700296",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72700296|18|total=1.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "CD Laguna Sad vs UD Villa Santa Brigida",
+"lg": "Spain Amateur - Tercera Federacion, Group 12",
+"pick": "Over 1.5",
+"odds": 1.3,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 100%, season: 2.8 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:73585778",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73585778|18|total=1.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 1.5",
+"odds": 1.13,
+"why": "stats rate 91% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, season: 3.5 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:72652092",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72652092|18|total=1.5|12"
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, FotMob: 3.3 goals a game, Vitibet tip 2-1, season: 3.3 goals a game",
+"ts": 1794676500.0,
+"eid": "sr:match:73346120",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73346120|18|total=1.5|12"
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"lg": "Scotland - League 1",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.4 goals a game, Vitibet tip 1-2, season: 3.4 goals a game",
+"ts": 1794677400.0,
+"eid": "sr:match:72203984",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72203984|18|total=1.5|12"
+},
+{
+"t": "Sat 18:30",
+"game": "CE Europa vs UE Sant Andreu",
+"lg": "Spain - Primera Federacion",
+"pick": "Over 1.5",
+"odds": 1.33,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, FotMob: 2.6 goals a game",
+"ts": 1794677400.0,
+"eid": "sr:match:73068198",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73068198|18|total=1.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "CD Noblejas vs CD Quintanar del Rey",
+"lg": "Spain Amateur - Tercera Federacion, Group 18",
+"pick": "Over 1.5",
+"odds": 1.3,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, season: 3.2 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:73560446",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73560446|18|total=1.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "AD Carmopolis SE vs AD Frei Paulistano SE",
+"lg": "Brazil - Sergipano, Serie A2",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%, season: 3.7 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:76741064",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76741064|18|total=1.5|12"
+},
+{
+"t": "Sat 19:30",
+"game": "Visao Celeste vs Alecrim RN",
+"lg": "Brazil - Potiguar, 2. Divisao",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 55%, season: 3.3 goals a game",
+"ts": 1794681000.0,
+"eid": "sr:match:74975118",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74975118|18|total=1.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "Aguilas FC B vs CF Santomera",
+"lg": "Spain Amateur - Tercera Federacion, Group 13",
+"pick": "Over 1.5",
+"odds": 1.29,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings; Flashscore home/away form 85%, season: 2.7 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:73586664",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73586664|18|total=1.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.9 goals a game, Vitibet tip 2-1, season: 3.9 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72044822|18|total=1.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74838480|18|total=1.5|12"
+},
+{
+"t": "Sat 21:00",
+"game": "Chorrillo FC vs Panama City FC",
+"lg": "Panama - Liga Prom",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 93% from both teams' last 10 and 5 meetings",
+"ts": 1794686400.0,
+"eid": "sr:match:76708742",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76708742|18|total=1.5|12"
+},
+{
+"t": "Sat 21:30",
+"game": "CA Bucaramanga vs Fortaleza FC",
+"lg": "Colombia - Liga DIMAYOR",
+"pick": "Over 1.5",
+"odds": 1.32,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.5 goals a game, Vitibet tip 2-1",
+"ts": 1794688200.0,
+"eid": "sr:match:76676668",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76676668|18|total=1.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Artesanos Metepec FC vs CF Correcaminos Uat II",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 1.5",
+"odds": 1.23,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%, season: 2.7 goals a game",
+"ts": 1794693600.0,
+"eid": "sr:match:74063604",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74063604|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 17:15",
 "at": 1794672955,
 "req": {
@@ -11422,132 +11664,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "76742542|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:08",
-"at": 1794632886,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwfy2sg4n6ya"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 7 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "RV4Y3P",
-"odds": 1.77,
-"legs": [
-{
-"t": "Sat 05:00",
-"game": "Melbourne Victory vs Adelaide United FC",
-"lg": "Australia - A-League, Women",
-"pick": "Melbourne Victory Under 3.5",
-"odds": 1.04,
-"why": "LIVE 1-1 46': Melbourne Victory expected 0.7 and Adelaide United FC 0.4 more goals (last 10); 1-1 at 46' \u2013 95% chance; goals record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794628800.0,
-"eid": "sr:match:73928176",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73928176|19|total=3.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Okinawa SV vs Yokogawa Musashino FC",
-"lg": "Japan - Japan Football League",
-"pick": "Okinawa SV Under 2.5",
-"odds": 1.06,
-"why": "LIVE 0-1 50': Okinawa SV expected 0.7 and Yokogawa Musashino FC 0.6 more goals (last 10 + season); 0-1 at 50' \u2013 95% chance",
-"ts": 1794628800.0,
-"eid": "sr:match:72665068",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72665068|19|total=2.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Vonds Ichihara FC vs J-Lease FC",
-"lg": "Japan - Japan Football League",
-"pick": "Handicap 2:0 \u2013 Vonds Ichihara FC",
-"odds": 1.04,
-"why": "LIVE 0-0 49': Vonds Ichihara FC expected 0.6 and J-Lease FC 0.6 more goals (last 10 + season); 0-0 at 49' \u2013 91% chance",
-"ts": 1794628800.0,
-"eid": "sr:match:72665076",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "72665076|14|hcp=2:0|1711"
-},
-{
-"t": "Sat 05:00",
-"game": "Melbourne City FC vs Newcastle Jets",
-"lg": "Australia - A-League, Women",
-"pick": "Melbourne City FC Under 3.5",
-"odds": 1.1,
-"why": "LIVE 1-0 49': Melbourne City FC expected 1.0 and Newcastle Jets 0.5 more goals (last 10); 1-0 at 49' \u2013 90% chance; goals record 80% / 90% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794628800.0,
-"eid": "sr:match:73928174",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73928174|19|total=3.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Criacao Shinjuku vs Briobecca Urayasu",
-"lg": "Japan - Japan Football League",
-"pick": "Under 6.5",
-"odds": 1.09,
-"why": "LIVE 2-2 49': Criacao Shinjuku expected 0.6 and Briobecca Urayasu 0.5 more goals (last 10 + season); 2-2 at 49' \u2013 87% chance; season: 2.4 goals a game",
-"ts": 1794628800.0,
-"eid": "sr:match:72665074",
-"mid": "18",
-"spec": "total=6.5",
-"oid": "13",
-"k": "72665074|18|total=6.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Sydney United 58 FC vs South Melbourne FC",
-"lg": "Australia - Australian Championship",
-"pick": "Over 0.5",
-"odds": 1.25,
-"why": "LIVE 0-0 45': Sydney United 58 FC expected 1.4 and South Melbourne FC 1.4 more goals (last 10); 0-0 at 45' \u2013 86% chance; Flashscore home/away form 70%",
-"ts": 1794628800.0,
-"eid": "sr:match:74827296",
-"mid": "18",
-"spec": "total=0.5",
-"oid": "12",
-"k": "74827296|18|total=0.5|12"
-},
-{
-"t": "Sat 05:30",
-"game": "Blancdieu Hirosaki vs Gakunan F Mosperio",
-"lg": "Japan - Regional Football Champions League",
-"pick": "Blancdieu Hirosaki or Gakunan F Mosperio",
-"odds": 1.03,
-"why": "LIVE 0-2 37': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794630600.0,
-"eid": "sr:match:76640638",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76640638|10||10"
 }
 ]
 }
