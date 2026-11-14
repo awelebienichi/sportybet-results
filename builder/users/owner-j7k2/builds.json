@@ -1,5 +1,62 @@
 [
 {
+"when": "Sat 14 Nov 06:55",
+"at": 1794635734,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfzrw6l8wf3"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [],
+"tickets": [
+{
+"code": "Q3ZS0J",
+"odds": 2.37,
+"legs": [
+{
+"t": "Sat 10:15",
+"game": "Bridlicna vs Opava B",
+"lg": "Czechia - Divize F",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "season: 3.9 and 4.1 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 80%, season: 4.0 goals a game",
+"ts": 1794647700.0,
+"eid": "sr:match:76579524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76579524|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"lg": "Mexico - U21 Liga MX",
+"pick": "Over 2.5",
+"odds": 1.67,
+"why": "season: 3.5 and 3.9 goals a game (15/15 games); last 10 rate 85%; season: 3.7 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:74627426",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74627426|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:53",
 "at": 1794635586,
 "req": {
@@ -9209,49 +9266,5 @@
 },
 "ok": false,
 "msg": "15 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
-},
-{
-"when": "Fri 13 Nov 18:24",
-"at": 1794590660,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "quarter",
-"legs": 2,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"rid": "mwf8xo9jrk8a"
-},
-"ok": true,
-"kind": "basketball \u2013 quarter total points",
-"note": [
-"Only 1 basketball games passed the checks (Fri 13, 88 judged), so the ticket has 1 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "SFB5SR",
-"odds": 1.4,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "BK Vejen81 vs Bakken Bears",
-"lg": "Denmark - Basketligaen",
-"pick": "Bakken Bears Q1 Under 29.5 points",
-"odds": 1.4,
-"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
-"ts": 1794592800.0,
-"eid": "sr:match:72663212",
-"mid": "757",
-"spec": "total=29.5|quarternr=1",
-"oid": "13",
-"k": "72663212|757|total=29.5|quarternr=1|13"
-}
-]
-}
-]
 }
 ]
