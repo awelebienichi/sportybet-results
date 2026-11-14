@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PYWEPS",
+"at": 1794635337,
+"when": "Sat 14 Nov 06:48",
+"kind": "Over 1.5",
+"odds": 1.25,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794664800.0
+}
+]
+},
+{
 "code": "N27ZSZ",
 "at": 1794635133,
 "when": "Sat 14 Nov 06:45",
@@ -4918,7 +4942,7 @@
 "odds": 1.12,
 "ts": 1794632400.0,
 "r": "L",
-"sc": "0-3",
+"sc": "0-4",
 "ht": ""
 },
 {
