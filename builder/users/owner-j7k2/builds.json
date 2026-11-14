@@ -1,5 +1,61 @@
 [
 {
+"when": "Sat 14 Nov 09:17",
+"at": 1794644268,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 7,
+"strict": "normal",
+"rid": "mwg4uux9zzn4"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 7).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "RSPRX6",
+"odds": 1.1,
+"legs": [
+{
+"t": "Sat 08:00",
+"game": "Persita Tangerang vs Dewa United FC",
+"lg": "Indonesia - U20 Super League",
+"pick": "Persita Tangerang or draw",
+"odds": 1.03,
+"why": "LIVE 1-0 58': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794639600.0,
+"eid": "sr:match:111111114488807",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "111111114488807|10||9"
+},
+{
+"t": "Sat 09:00",
+"game": "Thailand vs Singapore",
+"lg": "International Youth - U23 Friendly Games",
+"pick": "Handicap 0:3 \u2013 Singapore",
+"odds": 1.07,
+"why": "LIVE 0-0 17': Thailand expected 1.3 and Singapore 1.4 more goals (last 10); 0-0 at 17' \u2013 92% chance; margin record 90% / 80% in both sides' last games",
+"ts": 1794643200.0,
+"eid": "sr:match:76367124",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76367124|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 07:26",
 "at": 1794637591,
 "req": {
@@ -9742,102 +9798,6 @@
 "spec": "total=2.5",
 "oid": "13",
 "k": "76592234|18|total=2.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 20:06",
-"at": 1794596769,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "mix",
-"legs": 5,
-"strict": "relaxed",
-"rid": "mwfckoo1c86y"
-},
-"ok": true,
-"kind": "live basketball",
-"note": [
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "VD2MFC",
-"odds": 1.82,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Iserlohn Kangaroos vs Uni Baskets Munster",
-"lg": "Germany - Pro B",
-"pick": "Uni Baskets Munster to win (incl. OT)",
-"odds": 1.05,
-"why": "LIVE 37-49, 23 of 40 min: expected final 71-83; 89% by the stats, 89% with the price",
-"ts": 1794592800.0,
-"eid": "sr:match:72659986",
-"mid": "219",
-"spec": "",
-"oid": "5",
-"k": "72659986|219||5"
-},
-{
-"t": "Fri 19:00",
-"game": "Eagles Graz vs BBC Nord Dragonz",
-"lg": "Austria - Superliga",
-"pick": "BBC Nord Dragonz to win (incl. OT)",
-"odds": 1.12,
-"why": "LIVE 40-55, 24 of 40 min: expected final 76-90; 93% by the stats, 89% with the price",
-"ts": 1794592800.0,
-"eid": "sr:match:72653728",
-"mid": "219",
-"spec": "",
-"oid": "5",
-"k": "72653728|219||5"
-},
-{
-"t": "Fri 19:04",
-"game": "Uppsala Basket vs KFUM Umea",
-"lg": "Sweden - SBL",
-"pick": "KFUM Umea to win (incl. OT)",
-"odds": 1.09,
-"why": "LIVE 30-45, 20 of 40 min: expected final 72-86; 90% by the stats, 88% with the price",
-"ts": 1794593040.0,
-"eid": "sr:match:72016386",
-"mid": "219",
-"spec": "",
-"oid": "5",
-"k": "72016386|219||5"
-},
-{
-"t": "Fri 19:30",
-"game": "Homenetmen vs Atlas Ferzol",
-"lg": "Lebanon - First Division",
-"pick": "Homenetmen to win (incl. OT)",
-"odds": 1.18,
-"why": "LIVE 52-39, 19 of 40 min: expected final 102-86; 93% by the stats, 86% with the price",
-"ts": 1794594600.0,
-"eid": "sr:match:76112418",
-"mid": "219",
-"spec": "",
-"oid": "4",
-"k": "76112418|219||4"
-},
-{
-"t": "Fri 19:30",
-"game": "Fraport Skyliners II vs Ahorn Camp Baskets",
-"lg": "Germany - Pro B",
-"pick": "Fraport Skyliners II to win (incl. OT)",
-"odds": 1.12,
-"why": "LIVE 27-17, 15 of 40 min: expected final 76-62; 88% by the stats, 86% with the price",
-"ts": 1794594600.0,
-"eid": "sr:match:72660446",
-"mid": "219",
-"spec": "",
-"oid": "4",
-"k": "72660446|219||4"
 }
 ]
 }
