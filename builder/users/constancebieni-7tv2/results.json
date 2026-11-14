@@ -1087,7 +1087,10 @@
 "game": "Hamburger SV II vs Kickers Emden",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1332,7 +1335,10 @@
 "game": "Hamburger SV II vs Kickers Emden",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
