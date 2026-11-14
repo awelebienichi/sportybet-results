@@ -459,7 +459,10 @@
 "game": "Southend United vs Aldershot Town FC",
 "pick": "Handicap 0:3 \u2013 Aldershot Town FC",
 "odds": 1.11,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -2682,7 +2685,10 @@
 "game": "Chorley FC vs Buxton FC",
 "pick": "Double chance Chorley FC or Buxton FC",
 "odds": 1.26,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
