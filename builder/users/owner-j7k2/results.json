@@ -1183,7 +1183,10 @@
 "game": "Vendee Fontenay Foot vs Clermont Foot",
 "pick": "1st half Under 2.5",
 "odds": 1.24,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1698,7 +1701,10 @@
 "game": "AFC Telford United vs Chelmsford City",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2458,7 +2464,7 @@
 "odds": 1.24,
 "ts": 1794664800.0,
 "r": "L",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -3452,7 +3458,10 @@
 "game": "Brentwood Town FC vs Ramsgate FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4362,7 +4371,10 @@
 "game": "Brentwood Town FC vs Ramsgate FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -5523,7 +5535,10 @@
 "game": "Brentwood Town FC vs Ramsgate FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -7261,7 +7276,7 @@
 "odds": 1.24,
 "ts": 1794664800.0,
 "r": "L",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
