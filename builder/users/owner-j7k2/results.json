@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "H6U2TS",
+"at": 1794635045,
+"when": "Sat 14 Nov 06:44",
+"kind": "strong team to score in the 2nd half",
+"odds": 1.69,
+"status": "open",
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"pick": "Barrow AFC to score in 2nd half",
+"odds": 1.41,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Stade Bethunois vs Nancy-Lorraine",
+"pick": "Nancy-Lorraine to score in 2nd half",
+"odds": 1.2,
+"ts": 1794675600.0
+}
+]
+},
+{
 "code": "H2JFSA",
 "at": 1794634931,
 "when": "Sat 14 Nov 06:42",
