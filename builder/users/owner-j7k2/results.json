@@ -2705,7 +2705,10 @@
 "game": "Bronshoj BK vs Vanloese IF",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.21,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Sat 14:00",
@@ -3639,7 +3642,10 @@
 "game": "Bronshoj BK vs Vanloese IF",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.21,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Sat 14:00",
@@ -4313,7 +4319,10 @@
 "game": "Bronshoj BK vs Vanloese IF",
 "pick": "1st half double chance Bronshoj BK or draw",
 "odds": 1.21,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Sat 14:00",
@@ -5541,7 +5550,10 @@
 "game": "Bronshoj BK vs Vanloese IF",
 "pick": "Half-time draw",
 "odds": 2.2,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Sat 19:00",
