@@ -2,6 +2,516 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KSHYAF",
+"at": 1794665512,
+"when": "Sat 14 Nov 15:11",
+"kind": "basketball \u2013 total points",
+"odds": 3313.24,
+"status": "open",
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"pick": "Under 186.5 total points",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"pick": "Under 173.5 total points",
+"odds": 1.23,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:30",
+"game": "AS Karditsas vs PAOK BC",
+"pick": "Over 142.5 total points",
+"odds": 1.19,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Promitheas Patras BC vs Iraklis 2022",
+"pick": "Over 146.5 total points",
+"odds": 1.2,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 17:00",
+"game": "Benfica Lisboa vs CAB Madeira",
+"pick": "Under 187.5 total points",
+"odds": 1.21,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:00",
+"game": "Portimonense SC vs CP Esgueira",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:00",
+"game": "CB Breogan vs CB San Pablo Burgos",
+"pick": "Under 203.5 total points",
+"odds": 1.24,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaerlose vs Bears Academy",
+"pick": "Over 154.5 total points",
+"odds": 1.21,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Granada vs CB Estudiantes",
+"pick": "Over 147.5 total points",
+"odds": 1.22,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Igokea Aleksandrovac vs Buducnost Podgorica",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:10",
+"game": "BC Nevezis Kedainiai vs BC Juventus Utena",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794676200.0
+},
+{
+"t": "Sat 18:30",
+"game": "JL Bourg Basket vs Roanne Chorale",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bamberg Baskets vs Baskets Bonn",
+"pick": "Under 181.5 total points",
+"odds": 1.25,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Cordoba CB vs Baloncesto Fuenlabrada",
+"pick": "Over 141.5 total points",
+"odds": 1.2,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bordo BK vs Karsiyaka Basket",
+"pick": "Under 178.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Basket Brno vs BK Pardubice",
+"pick": "Under 180.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 19:00",
+"game": "San Sebastian Gipuzkoa BC vs CD Estela",
+"pick": "Over 150.5 total points",
+"odds": 1.22,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 19:30",
+"game": "Sporting Cp vs CD Povoa",
+"pick": "Over 138.5 total points",
+"odds": 1.21,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 19:30",
+"game": "Menorca Basquet vs Oviedo BC",
+"pick": "Over 141.5 total points",
+"odds": 1.21,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 19:30",
+"game": "CB Zamora vs Palencia Baloncesto",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 20:00",
+"game": "Hamburg Towers vs Wurzburg Baskets",
+"pick": "Over 154.5 total points",
+"odds": 1.22,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "SC Corinthians Paulista vs Basquete Osasco",
+"pick": "Under 177.5 total points",
+"odds": 1.23,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:30",
+"game": "BC Roma Spqr vs Scaligera Basket Verona",
+"pick": "Under 198.5 total points",
+"odds": 1.25,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "Limoges CSP vs Paris Basketball",
+"pick": "Over 167.5 total points",
+"odds": 1.22,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 22:00",
+"game": "EC Uniao Corinthians vs Pato Basquete",
+"pick": "Over 141.5 total points",
+"odds": 1.21,
+"ts": 1794690000.0
+},
+{
+"t": "Sun 01:30",
+"game": "Cleveland Cavaliers vs Dallas Mavericks",
+"pick": "Under 244.5 total points",
+"odds": 1.27,
+"ts": 1794702600.0
+},
+{
+"t": "Sun 05:00",
+"game": "Sydney Kings vs New Zealand Breakers",
+"pick": "Under 197.5 total points",
+"odds": 1.23,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 05:35",
+"game": "Shimane Susanoo Magic vs Utsunomiya Brex",
+"pick": "Over 151.5 total points",
+"odds": 1.22,
+"ts": 1794717300.0
+},
+{
+"t": "Sun 06:00",
+"game": "Goyang Skygunners vs Wonju DB New Generation",
+"pick": "Over 166.5 total points",
+"odds": 1.22,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:05",
+"game": "Akita Northern Happinets vs Osaka Evessa",
+"pick": "Over 157.5 total points",
+"odds": 1.21,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 06:05",
+"game": "Levanga Hokkaido vs Saga Ballooners",
+"pick": "Under 200.5 total points",
+"odds": 1.23,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 07:00",
+"game": "Brisbane Bullets vs Tasmania Jackjumpers",
+"pick": "Over 172.5 total points",
+"odds": 1.21,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 08:30",
+"game": "LG Sakers vs KT Sonicboom",
+"pick": "Over 157.5 total points",
+"odds": 1.21,
+"ts": 1794727800.0
+},
+{
+"t": "Sun 10:00",
+"game": "Dubai Basketball vs Spartak Subotica",
+"pick": "Over 156.5 total points",
+"odds": 1.21,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Peristeri Athens vs AO Mykonoy",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:30",
+"game": "CB Malaga vs Basquet Girona",
+"pick": "Under 192.5 total points",
+"odds": 1.24,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 13:30",
+"game": "Merkezefendi Belediyesi Denizli Basket vs Cayirova Belediyesi",
+"pick": "Under 182.5 total points",
+"odds": 1.25,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Vikos Falcon BC vs BC Maroussi Athens",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Rostock Seawolves vs Rasta Vechta",
+"pick": "Under 187.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+}
+]
+},
+{
+"code": "W2BGP7",
+"at": 1794665445,
+"when": "Sat 14 Nov 15:10",
+"kind": "basketball \u2013 total points",
+"odds": 421.59,
+"status": "open",
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "SC Braga vs UD Oliveirense",
+"pick": "Under 186.5 total points",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "BC AEK Athens vs AE Doxa Lefkadas",
+"pick": "Under 173.5 total points",
+"odds": 1.23,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:30",
+"game": "AS Karditsas vs PAOK BC",
+"pick": "Over 142.5 total points",
+"odds": 1.19,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Promitheas Patras BC vs Iraklis 2022",
+"pick": "Over 146.5 total points",
+"odds": 1.2,
+"ts": 1794670200.0
+},
+{
+"t": "Sat 17:00",
+"game": "Benfica Lisboa vs CAB Madeira",
+"pick": "Under 187.5 total points",
+"odds": 1.21,
+"ts": 1794672000.0
+},
+{
+"t": "Sat 17:30",
+"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1794673800.0
+},
+{
+"t": "Sat 18:00",
+"game": "CB Breogan vs CB San Pablo Burgos",
+"pick": "Under 203.5 total points",
+"odds": 1.24,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaerlose vs Bears Academy",
+"pick": "Over 154.5 total points",
+"odds": 1.21,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:10",
+"game": "BC Nevezis Kedainiai vs BC Juventus Utena",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794676200.0
+},
+{
+"t": "Sat 18:30",
+"game": "JL Bourg Basket vs Roanne Chorale",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bamberg Baskets vs Baskets Bonn",
+"pick": "Under 181.5 total points",
+"odds": 1.25,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Cordoba CB vs Baloncesto Fuenlabrada",
+"pick": "Over 141.5 total points",
+"odds": 1.2,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Bordo BK vs Karsiyaka Basket",
+"pick": "Under 178.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Basket Brno vs BK Pardubice",
+"pick": "Under 180.5 total points",
+"odds": 1.24,
+"ts": 1794677400.0
+},
+{
+"t": "Sat 19:30",
+"game": "Sporting Cp vs CD Povoa",
+"pick": "Over 138.5 total points",
+"odds": 1.21,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 19:30",
+"game": "Menorca Basquet vs Oviedo BC",
+"pick": "Over 141.5 total points",
+"odds": 1.21,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 22:00",
+"game": "EC Uniao Corinthians vs Pato Basquete",
+"pick": "Over 141.5 total points",
+"odds": 1.21,
+"ts": 1794690000.0
+},
+{
+"t": "Sun 01:30",
+"game": "Cleveland Cavaliers vs Dallas Mavericks",
+"pick": "Under 244.5 total points",
+"odds": 1.27,
+"ts": 1794702600.0
+},
+{
+"t": "Sun 05:00",
+"game": "Sydney Kings vs New Zealand Breakers",
+"pick": "Under 197.5 total points",
+"odds": 1.23,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 05:35",
+"game": "Shimane Susanoo Magic vs Utsunomiya Brex",
+"pick": "Over 151.5 total points",
+"odds": 1.22,
+"ts": 1794717300.0
+},
+{
+"t": "Sun 06:00",
+"game": "Goyang Skygunners vs Wonju DB New Generation",
+"pick": "Over 166.5 total points",
+"odds": 1.22,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:05",
+"game": "Akita Northern Happinets vs Osaka Evessa",
+"pick": "Over 157.5 total points",
+"odds": 1.21,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 06:05",
+"game": "Levanga Hokkaido vs Saga Ballooners",
+"pick": "Under 200.5 total points",
+"odds": 1.23,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 07:00",
+"game": "Brisbane Bullets vs Tasmania Jackjumpers",
+"pick": "Over 172.5 total points",
+"odds": 1.21,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 08:30",
+"game": "LG Sakers vs KT Sonicboom",
+"pick": "Over 157.5 total points",
+"odds": 1.21,
+"ts": 1794727800.0
+},
+{
+"t": "Sun 10:00",
+"game": "Dubai Basketball vs Spartak Subotica",
+"pick": "Over 156.5 total points",
+"odds": 1.21,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Peristeri Athens vs AO Mykonoy",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 13:30",
+"game": "Merkezefendi Belediyesi Denizli Basket vs Cayirova Belediyesi",
+"pick": "Under 182.5 total points",
+"odds": 1.25,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Vikos Falcon BC vs BC Maroussi Athens",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Rostock Seawolves vs Rasta Vechta",
+"pick": "Under 187.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+}
+]
+},
+{
 "code": "RBDREE",
 "at": 1794665372,
 "when": "Sat 14 Nov 15:09",
@@ -5410,7 +5920,10 @@
 "game": "Csm Sacele vs AFC Inter Stars Sibiu",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sat 13:00",
