@@ -7,7 +7,7 @@
 "when": "Sat 14 Nov 07:26",
 "kind": "live \u2013 best of all",
 "odds": 1.46,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 06:00",
@@ -28,7 +28,10 @@
 "game": "Giravanz Kitakyushu vs Thespa Gunma",
 "pick": "Under 6.5",
 "odds": 1.04,
-"ts": 1794632400.0
+"ts": 1794632400.0,
+"r": "L",
+"sc": "4-3",
+"ht": "1-1"
 },
 {
 "t": "Sat 06:00",
