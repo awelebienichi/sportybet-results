@@ -325,7 +325,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -484,7 +487,10 @@
 "game": "Eastbourne Borough vs Chertsey Town",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -622,7 +628,7 @@
 "when": "Sat 14 Nov 11:04",
 "kind": "your chosen markets",
 "odds": 419.56,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -679,7 +685,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1471,7 +1480,7 @@
 "when": "Sat 14 Nov 08:24",
 "kind": "your chosen markets",
 "odds": 12.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -1518,7 +1527,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1700,7 +1712,7 @@
 "when": "Sat 14 Nov 00:36",
 "kind": "your chosen markets",
 "odds": 14.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 02:00",
@@ -1747,7 +1759,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",

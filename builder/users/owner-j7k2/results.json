@@ -1421,8 +1421,8 @@
 "odds": 1.49,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 17:00",
@@ -1658,7 +1658,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -1735,8 +1738,8 @@
 "odds": 1.11,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -1763,7 +1766,7 @@
 "when": "Sat 14 Nov 11:24",
 "kind": "combined SVE3BS + Y2VLHD",
 "odds": 9.88,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -1790,7 +1793,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1984,7 +1990,7 @@
 "when": "Sat 14 Nov 11:23",
 "kind": "your chosen markets",
 "odds": 4.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -2011,7 +2017,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2076,7 +2085,7 @@
 "when": "Sat 14 Nov 11:21",
 "kind": "your chosen markets",
 "odds": 6.2,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -2093,7 +2102,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2171,14 +2183,17 @@
 "when": "Sat 14 Nov 11:04",
 "kind": "rebuild of R4NTDN",
 "odds": 4972.55,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:00",
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -2493,14 +2508,17 @@
 "when": "Sat 14 Nov 11:00",
 "kind": "rebuild of R4NTDN",
 "odds": 5019.33,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:00",
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -2800,7 +2818,7 @@
 "when": "Sat 14 Nov 10:17",
 "kind": "your chosen markets",
 "odds": 12.97,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -2837,7 +2855,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3197,7 +3218,7 @@
 "when": "Sat 14 Nov 07:05",
 "kind": "your chosen markets",
 "odds": 26.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -3244,7 +3265,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3566,7 +3590,7 @@
 "when": "Sat 14 Nov 06:48",
 "kind": "Over 1.5",
 "odds": 1.25,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:30",
@@ -3583,7 +3607,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 }
 ]
 },
@@ -3993,7 +4020,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4772,7 +4802,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -6215,7 +6248,10 @@
 "game": "Llantwit Major vs Cardiff Draconians",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
