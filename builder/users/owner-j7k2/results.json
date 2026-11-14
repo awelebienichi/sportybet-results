@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZQJTUT",
+"at": 1794634825,
+"when": "Sat 14 Nov 06:40",
+"kind": "strong team to score in the 1st half",
+"odds": 2.33,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "MKS Mlawianka Mlawa vs Wigry Suwalki",
+"pick": "Wigry Suwalki to score in 1st half",
+"odds": 1.51,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Austria vs Slovenia",
+"pick": "Austria to score in 1st half",
+"odds": 1.54,
+"ts": 1794675600.0
+}
+]
+},
+{
 "code": "G8DKUC",
 "at": 1794634727,
 "when": "Sat 14 Nov 06:38",
