@@ -271,7 +271,7 @@
 "odds": 1.16,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "0-0"
 },
 {
@@ -599,7 +599,7 @@
 "odds": 1.16,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "0-0"
 },
 {
@@ -947,7 +947,10 @@
 "game": "Hebburn Town vs Guiseley FC",
 "pick": "Double chance Guiseley FC or draw",
 "odds": 1.47,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -1015,7 +1018,10 @@
 "game": "Hebburn Town vs Guiseley FC",
 "pick": "Double chance Guiseley FC or draw",
 "odds": 1.47,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -1073,7 +1079,10 @@
 "game": "Hebburn Town vs Guiseley FC",
 "pick": "Double chance Guiseley FC or draw",
 "odds": 1.47,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -1134,7 +1143,10 @@
 "game": "Hebburn Town vs Guiseley FC",
 "pick": "Double chance Guiseley FC or draw",
 "odds": 1.47,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",

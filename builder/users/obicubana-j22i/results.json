@@ -94,7 +94,10 @@
 "game": "Hebburn Town vs Guiseley FC",
 "pick": "Double chance Guiseley FC or draw",
 "odds": 1.46,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -111,7 +114,10 @@
 "game": "Leighton Town vs Stratford Town",
 "pick": "Double chance Stratford Town or draw",
 "odds": 1.27,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:00",
@@ -661,7 +667,10 @@
 "game": "Leighton Town vs Stratford Town",
 "pick": "Double chance Stratford Town or draw",
 "odds": 1.27,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
