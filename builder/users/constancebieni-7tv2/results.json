@@ -135,7 +135,7 @@
 "when": "Sat 14 Nov 00:17",
 "kind": "live \u2013 best of all",
 "odds": 1.2,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 23:00",
@@ -162,7 +162,10 @@
 "game": "Artesanos Metepec FC II vs Deportivo Metepec",
 "pick": "Deportivo Metepec or draw",
 "odds": 1.05,
-"ts": 1794607740.0
+"ts": 1794607740.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 }
 ]
 },
@@ -210,7 +213,7 @@
 "when": "Sat 14 Nov 00:12",
 "kind": "live \u2013 best of all",
 "odds": 1.25,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 22:30",
@@ -237,7 +240,10 @@
 "game": "Artesanos Metepec FC II vs Deportivo Metepec",
 "pick": "Deportivo Metepec or draw",
 "odds": 1.05,
-"ts": 1794607740.0
+"ts": 1794607740.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 }
 ]
 },
