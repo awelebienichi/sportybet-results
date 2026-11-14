@@ -1,5 +1,24 @@
 [
 {
+"when": "Sat 14 Nov 15:12",
+"at": 1794665575,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 40,
+"days": [
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "strict",
+"rid": "mwghjisrt6su"
+},
+"ok": false,
+"msg": "No basketball game passed the checks for Sat 14, Sun 15 (310 games judged). Try Normal/Relaxed or more days."
+},
+{
 "when": "Sat 14 Nov 15:11",
 "at": 1794665512,
 "req": {
@@ -11287,136 +11306,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "72500820|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 22:53",
-"at": 1794606801,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "13:00",
-"rid": "mwfijqq3r4fk"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 7 games passed the checks (Fri 13, Sat 14, 00:00\u201313:00, 188 games on SportyBet), so this ticket has 7 legs instead of 10. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "T2RML2",
-"odds": 8.23,
-"legs": [
-{
-"t": "Sat 10:15",
-"game": "Bridlicna vs Opava B",
-"lg": "Czechia - Divize F",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "season: 3.9 and 4.1 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 80%, season: 4.0 goals a game",
-"ts": 1794647700.0,
-"eid": "sr:match:76579524",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76579524|18|total=2.5|12"
-},
-{
-"t": "Sat 10:15",
-"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "season: 3.2 and 5.4 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 70%, season: 4.3 goals a game",
-"ts": 1794647700.0,
-"eid": "sr:match:72415112",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415112|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "MFK Chrudim vs FK Jablonec B",
-"lg": "Czechia - CFL",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 3.6 and 3.5 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%",
-"ts": 1794650400.0,
-"eid": "sr:match:72415684",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72415684|18|total=2.5|12"
-},
-{
-"t": "Sat 11:45",
-"game": "SFC Opava vs FC Pardubice",
-"lg": "Czechia - U19 1. Liga",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "season: 4.8 and 3.9 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 70%, Vitibet tip 3-1, season: 4.4 goals a game",
-"ts": 1794653100.0,
-"eid": "sr:match:72575912",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72575912|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
-"lg": "Poland - III Liga, Group 3",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "season: 3.9 and 3.5 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 65%, season: 3.7 goals a game",
-"ts": 1794654000.0,
-"eid": "sr:match:72516786",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72516786|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Real Betis Balompie vs Cadiz CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.38,
-"why": "season: 4.8 and 3.4 goals a game (10/10 games); last 10 rate 75%; season: 4.1 goals a game",
-"ts": 1794654000.0,
-"eid": "sr:match:76481444",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76481444|18|total=2.5|12"
-},
-{
-"t": "Sat 13:00",
-"game": "Koldingq vs FC Nordsjaelland",
-"lg": "Denmark - A Liga, Women",
-"pick": "Over 2.5",
-"odds": 1.24,
-"why": "season: 4.2 and 3.9 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 60%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
-"ts": 1794657600.0,
-"eid": "sr:match:72652502",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652502|18|total=2.5|12"
 }
 ]
 }
