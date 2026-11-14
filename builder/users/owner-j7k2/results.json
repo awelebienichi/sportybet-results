@@ -1687,7 +1687,7 @@
 "odds": 1.24,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-4",
+"sc": "0-5",
 "ht": "0-3"
 },
 {
@@ -2843,7 +2843,10 @@
 "game": "CD Marchamalo vs Villarrubia CF",
 "pick": "Over 1.5",
 "odds": 1.4,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -4112,7 +4115,10 @@
 "game": "CD Marchamalo vs Villarrubia CF",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.4,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 17:00",
@@ -5484,7 +5490,10 @@
 "game": "CD Marchamalo vs Villarrubia CF",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.4,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -6030,7 +6039,10 @@
 "game": "CD Marchamalo vs Villarrubia CF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.4,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 17:00",
