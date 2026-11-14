@@ -1752,7 +1752,7 @@
 "when": "Sat 14 Nov 14:40",
 "kind": "goal-fest teams (season data)",
 "odds": 44.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -1789,7 +1789,10 @@
 "game": "Star Starachowice vs KS Naprzod Jedrzejow",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1794672000.0
+"ts": 1794672000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:55",
