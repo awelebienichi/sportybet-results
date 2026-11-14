@@ -816,7 +816,7 @@
 "when": "Sat 14 Nov 14:40",
 "kind": "goal-fest teams (season data)",
 "odds": 49.17,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:00",
@@ -833,7 +833,10 @@
 "game": "Rohda Raalte vs VV Katwijk",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
