@@ -947,7 +947,10 @@
 "game": "CB Breogan vs CB San Pablo Burgos",
 "pick": "Under 203.5 total points",
 "odds": 1.24,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "119-110",
+"ht": "19-27"
 },
 {
 "t": "Sat 18:00",
@@ -1184,7 +1187,7 @@
 "when": "Sat 14 Nov 15:10",
 "kind": "basketball \u2013 total points",
 "odds": 421.59,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -1251,7 +1254,10 @@
 "game": "CB Breogan vs CB San Pablo Burgos",
 "pick": "Under 203.5 total points",
 "odds": 1.24,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "119-110",
+"ht": "19-27"
 },
 {
 "t": "Sat 18:00",
@@ -1425,7 +1431,7 @@
 "when": "Sat 14 Nov 15:09",
 "kind": "basketball \u2013 total points",
 "odds": 56.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -1482,7 +1488,10 @@
 "game": "CB Breogan vs CB San Pablo Burgos",
 "pick": "Under 203.5 total points",
 "odds": 1.24,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "119-110",
+"ht": "19-27"
 },
 {
 "t": "Sat 18:00",
@@ -1593,7 +1602,7 @@
 "when": "Sat 14 Nov 15:08",
 "kind": "basketball \u2013 total points",
 "odds": 19.88,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -1650,7 +1659,10 @@
 "game": "CB Breogan vs CB San Pablo Burgos",
 "pick": "Under 203.5 total points",
 "odds": 1.24,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "L",
+"sc": "119-110",
+"ht": "19-27"
 },
 {
 "t": "Sat 18:30",
@@ -3318,7 +3330,10 @@
 "game": "Brighton and Hove Albion WFC vs Liverpool LFC",
 "pick": "Double chance Brighton and Hove Albion WFC or Liverpool LFC",
 "odds": 1.25,
-"ts": 1794676500.0
+"ts": 1794676500.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:30",
