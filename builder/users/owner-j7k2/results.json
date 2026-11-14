@@ -156,7 +156,10 @@
 "game": "VVV Venlo vs FC Eindhoven",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 20:30",
@@ -1033,7 +1036,10 @@
 "game": "Bordo BK vs Karsiyaka Basket",
 "pick": "Under 178.5 total points",
 "odds": 1.24,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "83-75",
+"ht": "26-27"
 },
 {
 "t": "Sat 18:30",
@@ -1329,7 +1335,10 @@
 "game": "Bordo BK vs Karsiyaka Basket",
 "pick": "Under 178.5 total points",
 "odds": 1.24,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "W",
+"sc": "83-75",
+"ht": "26-27"
 },
 {
 "t": "Sat 18:30",
@@ -3863,7 +3872,10 @@
 "game": "VVV Venlo vs FC Eindhoven",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 20:00",
@@ -9021,7 +9033,10 @@
 "game": "VVV Venlo vs FC Eindhoven",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1794682800.0
+"ts": 1794682800.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 22:30",
