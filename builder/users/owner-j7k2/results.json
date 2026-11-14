@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HL9Y1E",
+"at": 1794672955,
+"when": "Sat 14 Nov 17:15",
+"kind": "goal-fest teams (season data)",
+"odds": 122.74,
+"status": "open",
+"legs": [
+{
+"t": "Sat 17:55",
+"game": "VfL Wolfsburg W vs Bayern Munich W",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1794675300.0
+},
+{
+"t": "Sat 18:00",
+"game": "Villa FC vs Killarney Celtic",
+"pick": "Over 3.5",
+"odds": 1.54,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC St. Gallen-Staad vs FC Zurich",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Atl\u00e9tico Zabal U19 vs UD Almeria",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"pick": "Over 2.5",
+"odds": 1.62,
+"ts": 1794676500.0
+},
+{
+"t": "Sat 19:00",
+"game": "RBC Roosendaal vs VV Goes",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 19:00",
+"game": "Sheffield United LFC vs Bristol City WFC",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 19:30",
+"game": "Union Titus Petange vs FC Koeppchen Wormeldange",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794681000.0
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Real Refineros Cds vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1794693600.0
+}
+]
+},
+{
 "code": "S2GT7W",
 "at": 1794672785,
 "when": "Sat 14 Nov 17:13",
@@ -1879,7 +1980,10 @@
 "game": "Rochdale AFC vs York City FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -1888,8 +1992,8 @@
 "odds": 1.18,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -2186,7 +2290,10 @@
 "game": "Rochdale AFC vs York City FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2761,7 +2868,7 @@
 "odds": 1.29,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -3681,7 +3788,7 @@
 "odds": 1.45,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-2"
 },
 {
@@ -4599,7 +4706,7 @@
 "odds": 1.45,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-2"
 },
 {
@@ -5948,7 +6055,7 @@
 "odds": 1.45,
 "ts": 1794668400.0,
 "r": "L",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-2"
 },
 {
