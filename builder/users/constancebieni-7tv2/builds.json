@@ -1,5 +1,102 @@
 [
 {
+"when": "Sat 14 Nov 09:57",
+"at": 1794646633,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwg69ebaljmx"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "YC1NCJ",
+"odds": 1.32,
+"legs": [
+{
+"t": "Sat 09:00",
+"game": "Thailand vs Singapore",
+"lg": "International Youth - U23 Friendly Games",
+"pick": "Handicap 0:3 \u2013 Singapore",
+"odds": 1.05,
+"why": "LIVE 1-1 45': Thailand expected 0.8 and Singapore 0.9 more goals (last 10); 1-1 at 45' \u2013 96% chance; margin record 90% / 80% in both sides' last games",
+"ts": 1794643200.0,
+"eid": "sr:match:76367124",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76367124|14|hcp=0:3|1713"
+},
+{
+"t": "Sat 09:00",
+"game": "RC Relizane U20 vs IRB Sidi Mohamed Benali U20",
+"lg": "Algeria - U20 Jeunes Elites",
+"pick": "RC Relizane U20 or draw",
+"odds": 1.04,
+"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
+"ts": 1794643200.0,
+"eid": "sr:match:111111114667472",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "111111114667472|10||9"
+},
+{
+"t": "Sat 09:00",
+"game": "Garudayaksa FC Women vs Persija Jakarta Women",
+"lg": "Indonesia - Liga 1, Women",
+"pick": "Persija Jakarta Women or draw",
+"odds": 1.07,
+"why": "LIVE 0-0 45': no team stats for this game \u2013 SportyBet's own price says 88%",
+"ts": 1794643200.0,
+"eid": "sr:match:111111114556177",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "111111114556177|10||11"
+},
+{
+"t": "Sat 09:14",
+"game": "Wa Mostaganem vs MC Oran",
+"lg": "Algeria - U20 Jeunes Elites",
+"pick": "MC Oran or draw",
+"odds": 1.04,
+"why": "LIVE 1-2 42': no team stats for this game \u2013 SportyBet's own price says 91%",
+"ts": 1794644040.0,
+"eid": "sr:match:76640602",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76640602|10||11"
+},
+{
+"t": "Sat 09:30",
+"game": "Bayswater City vs Sydney Olympic FC",
+"lg": "Australia - Australian Championship",
+"pick": "Bayswater City to win",
+"odds": 1.09,
+"why": "LIVE 2-0 21': Bayswater City expected 2.2 and Sydney Olympic FC 1.0 more goals (last 10); 2-0 at 21' \u2013 92% chance; Flashscore home/away form 65%, FotMob: 1st vs 4th of 4",
+"ts": 1794645000.0,
+"eid": "sr:match:74827346",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "74827346|1||1"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 08:59",
 "at": 1794643183,
 "req": {
@@ -3708,139 +3805,5 @@
 },
 "ok": false,
 "msg": "Today's rollover code is already out: NR95TL"
-},
-{
-"when": "Thu 12 Nov 16:01",
-"at": 1794495683,
-"req": {
-"type": "rollover",
-"legs": 8,
-"rid": "mwdodmcrlu2q"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a6100 \u2192 returns \u20a6401 if it wins"
-],
-"tickets": [
-{
-"code": "NR95TL",
-"odds": 4.01,
-"legs": [
-{
-"t": "Thu 18:00",
-"game": "Turkiye vs Belgium",
-"lg": "International - UEFA Nations League",
-"pick": "1st half double chance Belgium or draw",
-"odds": 1.26,
-"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); head-to-head 100%",
-"ts": 1794502800.0,
-"eid": "sr:match:68931496",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "68931496|63||11"
-},
-{
-"t": "Thu 18:30",
-"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
-"lg": "Spain - Copa del Rey",
-"pick": "Under 4.5",
-"odds": 1.19,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 95%",
-"ts": 1794504600.0,
-"eid": "sr:match:76516976",
-"mid": "18",
-"spec": "total=4.5",
-"oid": "13",
-"k": "76516976|18|total=4.5|13"
-},
-{
-"t": "Thu 19:00",
-"game": "Elche CF U19 vs Patacona CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794506400.0,
-"eid": "sr:match:75935738",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75935738|450001||25"
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"lg": "International - UEFA Nations League",
-"pick": "2nd half Over 0.5",
-"odds": 1.17,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
-"ts": 1794512700.0,
-"eid": "sr:match:68931756",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931756|90|total=0.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"lg": "International - UEFA Nations League",
-"pick": "2nd half Over 0.5",
-"odds": 1.2,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 90%",
-"ts": 1794512700.0,
-"eid": "sr:match:68931500",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931500|90|total=0.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "Czechia vs Spain",
-"lg": "International - UEFA Nations League",
-"pick": "2nd half Over 0.5",
-"odds": 1.17,
-"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); head-to-head 83%",
-"ts": 1794512700.0,
-"eid": "sr:match:68931754",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931754|90|total=0.5|12"
-},
-{
-"t": "Thu 21:30",
-"game": "AD Izalco vs AD Forfut",
-"lg": "El Salvador - Liga de Ascenso",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794515400.0,
-"eid": "sr:match:76644046",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76644046|450001||25"
-},
-{
-"t": "Thu 22:00",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"lg": "El Salvador - Primera Division",
-"pick": "Over 1.5",
-"odds": 1.23,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 100%; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
-"ts": 1794517200.0,
-"eid": "sr:match:73075396",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73075396|18|total=1.5|12"
-}
-]
-}
-]
 }
 ]
