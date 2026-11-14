@@ -7,7 +7,7 @@
 "when": "Sat 14 Nov 11:55",
 "kind": "live \u2013 handicap & Asian handicap",
 "odds": 1.11,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 10:30",
@@ -24,7 +24,10 @@
 "game": "FC Dinamo Moscow vs Ryazan VDV",
 "pick": "Handicap 0:3 \u2013 Ryazan VDV",
 "odds": 1.07,
-"ts": 1794650400.0
+"ts": 1794650400.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-0"
 }
 ]
 },
