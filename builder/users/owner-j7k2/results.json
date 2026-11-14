@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "H2JFSA",
+"at": 1794634931,
+"when": "Sat 14 Nov 06:42",
+"kind": "1st half Over 0.5",
+"odds": 1.37,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
+"pick": "1st half Over 0.5",
+"odds": 1.15,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1794663000.0
+}
+]
+},
+{
 "code": "ZQJTUT",
 "at": 1794634825,
 "when": "Sat 14 Nov 06:40",
