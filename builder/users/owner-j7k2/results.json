@@ -1047,7 +1047,10 @@
 "game": "US Albinoleffe vs Union Brescia",
 "pick": "Over 1.5",
 "odds": 1.32,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -2160,7 +2163,10 @@
 "game": "US Albinoleffe vs Union Brescia",
 "pick": "Over 1.5",
 "odds": 1.33,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -3204,7 +3210,7 @@
 "odds": 1.2,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -3222,7 +3228,10 @@
 "game": "US Albinoleffe vs Union Brescia",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.32,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -3931,7 +3940,7 @@
 "odds": 1.2,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -4155,7 +4164,10 @@
 "game": "US Albinoleffe vs Union Brescia",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.32,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4718,7 +4730,7 @@
 "odds": 1.2,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -4743,7 +4755,10 @@
 "game": "US Albinoleffe vs Union Brescia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.32,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
