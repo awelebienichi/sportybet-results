@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "RSPRX6",
+"at": 1794644268,
+"when": "Sat 14 Nov 09:17",
+"kind": "live \u2013 best of all",
+"odds": 1.1,
+"status": "open",
+"legs": [
+{
+"t": "Sat 08:00",
+"game": "Persita Tangerang vs Dewa United FC",
+"pick": "Persita Tangerang or draw",
+"odds": 1.03,
+"ts": 1794639600.0
+},
+{
+"t": "Sat 09:00",
+"game": "Thailand vs Singapore",
+"pick": "Handicap 0:3 \u2013 Singapore",
+"odds": 1.07,
+"ts": 1794643200.0
+}
+]
+},
+{
 "code": "KVZTS4",
 "at": 1794637591,
 "when": "Sat 14 Nov 07:26",
