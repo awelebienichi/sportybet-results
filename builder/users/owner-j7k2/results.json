@@ -3364,7 +3364,10 @@
 "game": "MFK Ruzomberok vs FC Vion Zlate Moravce - Vrable",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.09,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -4760,7 +4763,10 @@
 "game": "MFK Ruzomberok vs FC Vion Zlate Moravce - Vrable",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.09,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -5276,7 +5282,10 @@
 "game": "MFK Ruzomberok vs FC Vion Zlate Moravce - Vrable",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1794664800.0
+"ts": 1794664800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -5847,8 +5856,8 @@
 "odds": 1.51,
 "ts": 1794664800.0,
 "r": "W",
-"sc": "2-3",
-"ht": ""
+"sc": "3-3",
+"ht": "2-3"
 },
 {
 "t": "Sat 16:00",
