@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "K6RKST",
+"at": 1794697178,
+"when": "Sat 14 Nov 23:59",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 65.97,
+"status": "open",
+"legs": [
+{
+"t": "Sun 11:30",
+"game": "Asa Aarhus vs Broendby IF",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1794738600.0
+},
+{
+"t": "Sun 12:00",
+"game": "WKS Slask Wroclaw vs Gornik Leczna",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 14:00",
+"game": "MK Dons Ladies vs Chatham Town Women",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Moneyfields Ladies vs Bristol Rovers Women",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Stoke City Lfc vs Liverpool Feds Lfc",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Milford FC Reserve vs Kaizer Chiefs",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 15:00",
+"game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs Eintracht Frankfurt",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Sevilla FC vs Atletico Madrid W",
+"pick": "Over 2.5",
+"odds": 1.6,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:45",
+"game": "AZ Alkmaar vs Ajax Amsterdam",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1794762900.0
+}
+]
+},
+{
 "code": "UKRSWP",
 "at": 1794697098,
 "when": "Sat 14 Nov 23:58",
