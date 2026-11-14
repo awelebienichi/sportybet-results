@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X378FY",
+"at": 1794635833,
+"when": "Sat 14 Nov 06:57",
+"kind": "always-beaten teams (season data)",
+"odds": 1.97,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "LKS 1926 Lomza vs KS Warta Sieradz",
+"pick": "Double chance KS Warta Sieradz or draw",
+"odds": 1.24,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"pick": "Barrow AFC to win",
+"odds": 1.59,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "Q3ZS0J",
 "at": 1794635734,
 "when": "Sat 14 Nov 06:55",
@@ -2672,7 +2696,10 @@
 "game": "Melbourne Victory vs Adelaide United FC",
 "pick": "Melbourne Victory Under 3.5",
 "odds": 1.04,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 05:00",
@@ -2743,7 +2770,10 @@
 "game": "Melbourne Victory vs Adelaide United FC",
 "pick": "Melbourne Victory Under 3.5",
 "odds": 1.05,
-"ts": 1794628800.0
+"ts": 1794628800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 05:00",
