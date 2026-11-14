@@ -74,7 +74,10 @@
 "game": "Romania vs Poland",
 "pick": "Over 2.5",
 "odds": 1.65,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 22:30",
@@ -216,7 +219,10 @@
 "game": "CR Brasil AL vs Ceara SC CE",
 "pick": "2nd half Over 0.5",
 "odds": 1.2,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 20:30",
@@ -1224,7 +1230,10 @@
 "game": "BC Roma Spqr vs Scaligera Basket Verona",
 "pick": "Under 198.5 total points",
 "odds": 1.25,
-"ts": 1794684600.0
+"ts": 1794684600.0,
+"r": "W",
+"sc": "88-89",
+"ht": "31-29"
 },
 {
 "t": "Sat 20:30",
