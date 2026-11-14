@@ -509,7 +509,10 @@
 "game": "KAC Kenitra vs Ittihad Khemisset",
 "pick": "KAC Kenitra Under 1.5",
 "odds": 1.08,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -1901,7 +1904,10 @@
 "game": "Enfield Town vs Spalding United",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2134,7 +2140,10 @@
 "game": "Enfield Town vs Spalding United",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3442,7 +3451,10 @@
 "game": "Enfield Town vs Spalding United",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4239,7 +4251,10 @@
 "game": "Enfield Town vs Spalding United",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5513,7 +5528,10 @@
 "game": "Enfield Town vs Spalding United",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6320,7 +6338,10 @@
 "game": "Enfield Town vs Spalding United",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
