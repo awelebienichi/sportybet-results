@@ -1099,7 +1099,10 @@
 "game": "Reggiana 1919 vs US Livorno 1915",
 "pick": "Over 1.5",
 "odds": 1.27,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
@@ -1668,7 +1671,10 @@
 "game": "Port Vale vs Accrington Stanley",
 "pick": "Over 1.5",
 "odds": 1.35,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1954,7 +1960,10 @@
 "game": "Port Vale vs Accrington Stanley",
 "pick": "Over 1.5",
 "odds": 1.35,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2246,7 +2255,10 @@
 "game": "Port Vale vs Accrington Stanley",
 "pick": "Over 1.5",
 "odds": 1.35,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3470,7 +3482,10 @@
 "game": "Port Vale vs Accrington Stanley",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.33,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
@@ -4148,7 +4163,10 @@
 "game": "Port Vale vs Accrington Stanley",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.33,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4937,7 +4955,10 @@
 "game": "Port Vale vs Accrington Stanley",
 "pick": "Goal bounds 2-5+",
 "odds": 1.33,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
