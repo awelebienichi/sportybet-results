@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X9BA8H",
+"at": 1794635586,
+"when": "Sat 14 Nov 06:53",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 2.36,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "Aps Bomet FC vs Bandari FC",
+"pick": "Under 2.5",
+"odds": 1.42,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 19:00",
+"game": "Goytacaz FC RJ vs Niteroiense",
+"pick": "Under 2.5",
+"odds": 1.66,
+"ts": 1794679200.0
+}
+]
+},
+{
 "code": "T7N4MP",
 "at": 1794635469,
 "when": "Sat 14 Nov 06:51",
