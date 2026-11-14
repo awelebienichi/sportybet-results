@@ -7,7 +7,7 @@
 "when": "Sat 14 Nov 02:05",
 "kind": "live \u2013 best of all",
 "odds": 1.15,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 01:00",
@@ -34,7 +34,10 @@
 "game": "Wellington Phoenix FC vs Auckland City FC",
 "pick": "Auckland City FC or draw",
 "odds": 1.03,
-"ts": 1794618000.0
+"ts": 1794618000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 }
 ]
 },
