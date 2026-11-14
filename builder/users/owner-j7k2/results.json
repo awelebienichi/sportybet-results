@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "G8DKUC",
+"at": 1794634727,
+"when": "Sat 14 Nov 06:38",
+"kind": "smallest-odds favourites to win",
+"odds": 1.08,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:00",
+"game": "Zhfk Yenisey Krasnoyarsk vs FC Zenit Saint Petersburg",
+"pick": "FC Zenit Saint Petersburg to win",
+"odds": 1.03,
+"ts": 1794650400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Sokol Hostoun vs FC Hvezda Cheb",
+"pick": "Sokol Hostoun to win",
+"odds": 1.05,
+"ts": 1794661200.0
+}
+]
+},
+{
 "code": "YL02T3",
 "at": 1794634634,
 "when": "Sat 14 Nov 06:37",
