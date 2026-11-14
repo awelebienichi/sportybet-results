@@ -1,5 +1,317 @@
 [
 {
+"when": "Sun 15 Nov 00:01",
+"at": 1794697312,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwh0f9prjffs"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "TEDAR0",
+"odds": 75.72,
+"legs": [
+{
+"t": "Sun 01:30",
+"game": "Academia Costa Del Este vs Tauro FC II",
+"lg": "Panama - Liga Prom",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 93% from both teams' last 10 and 7 meetings; season: 3.3 goals a game",
+"ts": 1794702600.0,
+"eid": "sr:match:76708744",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76708744|18|total=1.5|12"
+},
+{
+"t": "Sun 02:00",
+"game": "Lobos Ulmx vs Deportiva Venados",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 75%, season: 3.2 goals a game",
+"ts": 1794704400.0,
+"eid": "sr:match:74100780",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74100780|18|total=1.5|12"
+},
+{
+"t": "Sun 04:00",
+"game": "Club Atletico La Paz vs Piratas Veracruz",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 89%, footybets 95%, season: 3.2 goals a game",
+"ts": 1794711600.0,
+"eid": "sr:match:76629024",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76629024|18|total=1.5|12"
+},
+{
+"t": "Sun 06:00",
+"game": "FC Ska-Khabarovsk vs Leningradets",
+"lg": "Russia - 1. Liga",
+"pick": "Over 1.5",
+"odds": 1.32,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings; Flashscore home/away form 95%, FotMob: 2.8 goals a game, season: 2.8 goals a game",
+"ts": 1794718800.0,
+"eid": "sr:match:74293092",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74293092|18|total=1.5|12"
+},
+{
+"t": "Sun 11:00",
+"game": "Stade Reims vs Clermont Foot Youth",
+"lg": "France - U19 National",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings; season: 3.1 goals a game",
+"ts": 1794736800.0,
+"eid": "sr:match:73111514",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73111514|18|total=1.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.29,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%, season: 3.5 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73581350",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581350|18|total=1.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "CD Aurrera de Vitoria vs SD Beasain",
+"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"pick": "Over 1.5",
+"odds": 1.31,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 70%, season: 3.2 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73557190",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73557190|18|total=1.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "Real Zaragoza Deportivo Aragon vs CD Cuarte",
+"lg": "Spain Amateur - Tercera Federacion, Group 17",
+"pick": "Over 1.5",
+"odds": 1.25,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings; Flashscore home/away form 90%, season: 3.1 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73562210",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73562210|18|total=1.5|12"
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Over 1.5",
+"odds": 1.25,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, FotMob: 2.9 goals a game, season: 2.9 goals a game",
+"ts": 1794745800.0,
+"eid": "sr:match:72466630",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72466630|18|total=1.5|12"
+},
+{
+"t": "Sun 13:30",
+"game": "FC Pirin Blagoevgrad vs PFC Montana 1921",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Over 1.5",
+"odds": 1.28,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.3 goals a game, season: 3.3 goals a game",
+"ts": 1794745800.0,
+"eid": "sr:match:72466624",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72466624|18|total=1.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Tenerife CD vs AD Ceuta",
+"lg": "Spain - LaLiga 2",
+"pick": "Over 1.5",
+"odds": 1.31,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, footybets 92%, FotMob: 2.9 goals a game, Vitibet tip 2-1, season: 2.9 goals a game",
+"ts": 1794747600.0,
+"eid": "sr:match:72477600",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72477600|18|total=1.5|12"
+},
+{
+"t": "Sun 15:30",
+"game": "Robres CD vs Illueca CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 17",
+"pick": "Over 1.5",
+"odds": 1.31,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, season: 2.8 goals a game",
+"ts": 1794753000.0,
+"eid": "sr:match:73562218",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73562218|18|total=1.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Avenir Beggen vs The Belval Belvaux",
+"lg": "Luxembourg - Promotion d'Honneur",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 90% from both teams' last 10; season: 2.7 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72964536",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72964536|18|total=1.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "CD Guadiana vs CD Gevora",
+"lg": "Spain Amateur - Tercera Federacion, Group 14",
+"pick": "Over 1.5",
+"odds": 1.26,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, season: 3.2 goals a game",
+"ts": 1794756600.0,
+"eid": "sr:match:73564392",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73564392|18|total=1.5|12"
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1794757500.0,
+"eid": "sr:match:72467522",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72467522|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 100% from both teams' last 10; season: 4.0 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73581360",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581360|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Real Balompedica Linense vs RC Portuense",
+"lg": "Spain Amateur - Tercera Federacion, Group 10",
+"pick": "Over 1.5",
+"odds": 1.37,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%, season: 2.8 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73583600",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73583600|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"pick": "Over 1.5",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 80%, season: 3.6 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73557182",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73557182|18|total=1.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"lg": "International - UEFA Nations League",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 91% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, footybets 86%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1794771900.0,
+"eid": "sr:match:68931758",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "68931758|18|total=1.5|12"
+},
+{
+"t": "Sun 21:00",
+"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
+"lg": "Panama - Liga Prom",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings; season: 4.2 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76708748",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76708748|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 23:59",
 "at": 1794697178,
 "req": {
@@ -8680,63 +8992,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "72596234|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:48",
-"at": 1794635337,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o15",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfzgz9eoqnl"
-},
-"ok": true,
-"kind": "Over 1.5",
-"note": [],
-"tickets": [
-{
-"code": "PYWEPS",
-"odds": 1.25,
-"legs": [
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, 100% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 95%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
-"ts": 1794663000.0,
-"eid": "sr:match:72594654",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72594654|18|total=1.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.6 goals; Flashscore home/away form 75%, season: 3.2 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:74352338",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74352338|18|total=1.5|12"
 }
 ]
 }
