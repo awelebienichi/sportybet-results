@@ -587,7 +587,10 @@
 "game": "Sheffield United LFC vs Bristol City WFC",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 19:30",
@@ -1925,7 +1928,10 @@
 "game": "Sheffield United LFC vs Bristol City WFC",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 19:30",

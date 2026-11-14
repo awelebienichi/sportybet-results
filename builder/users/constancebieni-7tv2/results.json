@@ -188,7 +188,10 @@
 "game": "Mallorca vs Cordoba CF",
 "pick": "Under 5.5",
 "odds": 1.08,
-"ts": 1794677400.0
+"ts": 1794677400.0,
+"r": "L",
+"sc": "3-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 20:30",
@@ -1066,7 +1069,10 @@
 "game": "Sheffield United LFC vs Bristol City WFC",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 20:30",
@@ -1313,7 +1319,10 @@
 "game": "Sheffield United LFC vs Bristol City WFC",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794679200.0
+"ts": 1794679200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 20:30",
