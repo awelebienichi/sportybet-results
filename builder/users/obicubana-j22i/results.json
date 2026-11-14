@@ -331,7 +331,7 @@
 "when": "Sat 14 Nov 02:12",
 "kind": "live basketball",
 "odds": 1.27,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 01:00",
@@ -348,7 +348,10 @@
 "game": "Indiana Pacers vs New York Knicks",
 "pick": "Indiana Pacers +9.5 (handicap)",
 "odds": 1.2,
-"ts": 1794614400.0
+"ts": 1794614400.0,
+"r": "W",
+"sc": "106-104",
+"ht": "26-27"
 }
 ]
 },
