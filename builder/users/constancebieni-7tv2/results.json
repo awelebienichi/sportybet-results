@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "YC1NCJ",
+"at": 1794646633,
+"when": "Sat 14 Nov 09:57",
+"kind": "live \u2013 best of all",
+"odds": 1.32,
+"status": "open",
+"legs": [
+{
+"t": "Sat 09:00",
+"game": "Thailand vs Singapore",
+"pick": "Handicap 0:3 \u2013 Singapore",
+"odds": 1.05,
+"ts": 1794643200.0
+},
+{
+"t": "Sat 09:00",
+"game": "RC Relizane U20 vs IRB Sidi Mohamed Benali U20",
+"pick": "RC Relizane U20 or draw",
+"odds": 1.04,
+"ts": 1794643200.0
+},
+{
+"t": "Sat 09:00",
+"game": "Garudayaksa FC Women vs Persija Jakarta Women",
+"pick": "Persija Jakarta Women or draw",
+"odds": 1.07,
+"ts": 1794643200.0
+},
+{
+"t": "Sat 09:14",
+"game": "Wa Mostaganem vs MC Oran",
+"pick": "MC Oran or draw",
+"odds": 1.04,
+"ts": 1794644040.0
+},
+{
+"t": "Sat 09:30",
+"game": "Bayswater City vs Sydney Olympic FC",
+"pick": "Bayswater City to win",
+"odds": 1.09,
+"ts": 1794645000.0
+}
+]
+},
+{
 "code": "Y435ZH",
 "at": 1794643183,
 "when": "Sat 14 Nov 08:59",
