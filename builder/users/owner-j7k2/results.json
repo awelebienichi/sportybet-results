@@ -2,6 +2,296 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XE827V",
+"at": 1794697979,
+"when": "Sun 15 Nov 00:12",
+"kind": "basketball \u2013 total points",
+"odds": 4794.0,
+"status": "open",
+"legs": [
+{
+"t": "Sun 01:00",
+"game": "Siena Saints vs Brown Bears",
+"pick": "Under 165.5 total points",
+"odds": 1.42,
+"ts": 1794700800.0
+},
+{
+"t": "Sun 01:00",
+"game": "New Orleans Pelicans vs Denver Nuggets",
+"pick": "Under 249.5 total points",
+"odds": 1.26,
+"ts": 1794700800.0
+},
+{
+"t": "Sun 01:00",
+"game": "Gimnasia de Comodoro vs CA Platense",
+"pick": "Under 173.5 total points",
+"odds": 1.22,
+"ts": 1794700800.0
+},
+{
+"t": "Sun 05:00",
+"game": "Sydney Kings vs New Zealand Breakers",
+"pick": "Under 196.5 total points",
+"odds": 1.23,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 05:35",
+"game": "Shimane Susanoo Magic vs Utsunomiya Brex",
+"pick": "Over 151.5 total points",
+"odds": 1.22,
+"ts": 1794717300.0
+},
+{
+"t": "Sun 06:00",
+"game": "Goyang Skygunners vs Wonju DB New Generation",
+"pick": "Over 168.5 total points",
+"odds": 1.22,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:05",
+"game": "Levanga Hokkaido vs Saga Ballooners",
+"pick": "Under 201.5 total points",
+"odds": 1.22,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 06:05",
+"game": "Akita Northern Happinets vs Osaka Evessa",
+"pick": "Over 159.5 total points",
+"odds": 1.2,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 07:00",
+"game": "Brisbane Bullets vs Tasmania Jackjumpers",
+"pick": "Over 171.5 total points",
+"odds": 1.21,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 08:30",
+"game": "LG Sakers vs KT Sonicboom",
+"pick": "Over 156.5 total points",
+"odds": 1.21,
+"ts": 1794727800.0
+},
+{
+"t": "Sun 10:00",
+"game": "Dubai Basketball vs Spartak Subotica",
+"pick": "Over 156.5 total points",
+"odds": 1.21,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Peristeri Athens vs AO Mykonoy",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Caprabo Lleida vs Basquet Manresa",
+"pick": "Under 203.5 total points",
+"odds": 1.26,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Valencia Basket vs CB Coruna",
+"pick": "Under 202.5 total points",
+"odds": 1.23,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:30",
+"game": "CB Malaga vs Basquet Girona",
+"pick": "Under 193.5 total points",
+"odds": 1.23,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 13:30",
+"game": "Merkezefendi Belediyesi Denizli Basket vs Cayirova Belediyesi",
+"pick": "Under 181.5 total points",
+"odds": 1.26,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Vikos Falcon BC vs BC Maroussi Athens",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Rostock Seawolves vs Rasta Vechta",
+"pick": "Under 187.5 total points",
+"odds": 1.24,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "SK Slavia Prague vs USK Prague",
+"pick": "Under 189.5 total points",
+"odds": 1.22,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Universo Treviso Basket vs Basket Scafati 1969",
+"pick": "Under 189.5 total points",
+"odds": 1.25,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "BCM Gravelines Dunkerque vs Sluc Nancy Basket",
+"pick": "Over 152.5 total points",
+"odds": 1.23,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Over 155.5 total points",
+"odds": 1.23,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "BC Aris Thessaloniki vs BC Olympiakos Piraeus",
+"pick": "Under 174.5 total points",
+"odds": 1.22,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "JDA Dijon Basket vs Nanterre 92",
+"pick": "Under 186.5 total points",
+"odds": 1.26,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Napoli Basket vs Pallacanestro Trieste 2004",
+"pick": "Under 196.5 total points",
+"odds": 1.25,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Barcelona vs Obradoiro CAB",
+"pick": "Over 168.5 total points",
+"odds": 1.21,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"pick": "Under 182.5 total points",
+"odds": 1.22,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Flyers Wels vs Oberwart Gunners",
+"pick": "Over 151.5 total points",
+"odds": 1.21,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Pallacanestro Cantu vs Derthona Basket",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Swans Gmunden vs Traiskirchen Lions",
+"pick": "Under 176.5 total points",
+"odds": 1.23,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "BC Vienna vs Eagles Graz",
+"pick": "Over 155.5 total points",
+"odds": 1.2,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Palmer Basquet Mallorca Palma vs Albacete Basket",
+"pick": "Over 153.5 total points",
+"odds": 1.22,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Bilbao Basket vs UCAM Murcia",
+"pick": "Under 192.5 total points",
+"odds": 1.24,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 18:30",
+"game": "KK Crvena zvezda Belgrade vs KK Cedevita Olimpija Ljubljana",
+"pick": "Under 181.5 total points",
+"odds": 1.24,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Baskonia Vitoria-Gasteiz vs Real Madrid",
+"pick": "Under 198.5 total points",
+"odds": 1.26,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:15",
+"game": "Maccabi Ironi Ramat Gan vs Ironi Ness Ziona",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"ts": 1794766500.0
+},
+{
+"t": "Sun 22:00",
+"game": "Pacific Tigers vs Air Force Falcons",
+"pick": "Under 170.5 total points",
+"odds": 1.41,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "N8SAEC",
 "at": 1794697777,
 "when": "Sun 15 Nov 00:09",
