@@ -1,5 +1,50 @@
 [
 {
+"when": "Sat 14 Nov 15:14",
+"at": 1794665660,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "quarter",
+"legs": 40,
+"days": [
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"rid": "mwghlcmsuagc"
+},
+"ok": true,
+"kind": "basketball \u2013 quarter total points",
+"note": [
+"Only 1 basketball games passed the checks (Sat 14, Sun 15, 310 judged), so the ticket has 1 legs.",
+"Normal: in testing about 85 in 100 such legs came true."
+],
+"tickets": [
+{
+"code": "ZGLGST",
+"odds": 1.39,
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"lg": "Germany - BBL",
+"pick": "Mitteldeutscher BC Q1 Over 16.5 points",
+"odds": 1.39,
+"why": "expected Bayern Munich 87 \u2013 Mitteldeutscher BC 88 (last 10/10 games, home edge included); 85% by the stats, 76% with the price",
+"ts": 1794756600.0,
+"eid": "sr:match:73451874",
+"mid": "757",
+"spec": "total=16.5|quarternr=1",
+"oid": "12",
+"k": "73451874|757|total=16.5|quarternr=1|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 15:13",
 "at": 1794665630,
 "req": {
@@ -11114,74 +11159,5 @@
 },
 "ok": false,
 "msg": "37 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
-},
-{
-"when": "Sat 14 Nov 02:02",
-"at": 1794618127,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwfpado970gx"
-},
-"ok": true,
-"kind": "live basketball",
-"note": [
-"Only 3 live basketball leg(s) were strong enough right now (you asked for 10).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "PHL9QS",
-"odds": 1.34,
-"legs": [
-{
-"t": "Sat 00:30",
-"game": "Loyola Marymount Lions vs Alabama A&m Bulldogs",
-"lg": "USA - NCAA Women, Regular Season",
-"pick": "Loyola Marymount Lions to win (incl. OT)",
-"odds": 1.06,
-"why": "LIVE 20-14, 13 of 40 min: expected final 68-52; 90% by the stats, 89% with the price",
-"ts": 1794612600.0,
-"eid": "sr:match:74776710",
-"mid": "219",
-"spec": "",
-"oid": "4",
-"k": "74776710|219||4"
-},
-{
-"t": "Sat 01:00",
-"game": "Orlando Magic vs Milwaukee Bucks",
-"lg": "USA - NBA",
-"pick": "Orlando Magic to win (incl. OT)",
-"odds": 1.04,
-"why": "LIVE 49-34, 23 of 48 min: expected final 109-89; 96% by the stats, 94% with the price",
-"ts": 1794614400.0,
-"eid": "sr:match:73696986",
-"mid": "219",
-"spec": "",
-"oid": "4",
-"k": "73696986|219||4"
-},
-{
-"t": "Sat 01:00",
-"game": "Indiana Pacers vs New York Knicks",
-"lg": "USA - NBA",
-"pick": "Indiana Pacers +9.5 (handicap)",
-"odds": 1.22,
-"why": "LIVE 44-35, 19 of 48 min: expected final 109-101; 94% by the stats, 85% with the price",
-"ts": 1794614400.0,
-"eid": "sr:match:73696984",
-"mid": "223",
-"spec": "hcp=9.5",
-"oid": "1714",
-"k": "73696984|223|hcp=9.5|1714"
-}
-]
-}
-]
 }
 ]
