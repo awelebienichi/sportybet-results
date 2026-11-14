@@ -1529,7 +1529,10 @@
 "game": "GVVV Veenendaal vs SV Spakenburg",
 "pick": "1st half Over 0.5",
 "odds": 1.19,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -2069,7 +2072,7 @@
 "when": "Sat 14 Nov 06:42",
 "kind": "1st half Over 0.5",
 "odds": 1.37,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 14:00",
@@ -2086,7 +2089,10 @@
 "game": "GVVV Veenendaal vs SV Spakenburg",
 "pick": "1st half Over 0.5",
 "odds": 1.19,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 }
 ]
 },
@@ -2689,7 +2695,10 @@
 "game": "IFK Goteborg vs Umea IK",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -3405,7 +3414,7 @@
 "when": "Sat 14 Nov 06:23",
 "kind": "combined RTXBDR + PEJ9MS + H679CV + S97FNN + PLNB9F",
 "odds": 106.65,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 09:30",
@@ -3442,7 +3451,10 @@
 "game": "IFK Goteborg vs Umea IK",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -4503,7 +4515,10 @@
 "game": "IFK Goteborg vs Umea IK",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
@@ -6077,7 +6092,10 @@
 "game": "GVVV Veenendaal vs SV Spakenburg",
 "pick": "1st half Over 0.5",
 "odds": 1.19,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
