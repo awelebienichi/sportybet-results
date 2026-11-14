@@ -1,5 +1,180 @@
 [
 {
+"when": "Sat 14 Nov 11:37",
+"at": 1794652626,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u55"
+],
+"rid": "mwg9sywtaqxq"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 10 games passed the checks (Sat 14, 616 games on SportyBet), so this ticket has 10 legs instead of 50. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "V8T69A",
+"odds": 2.32,
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Valladolid vs CD Castellon",
+"lg": "Spain - LaLiga 2",
+"pick": "Under 5.5",
+"odds": 1.06,
+"why": "stats rate 96% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, FotMob: 2.8 goals a game, Vitibet tip 1-2, season: 2.8 goals a game",
+"ts": 1794661200.0,
+"eid": "sr:match:72477602",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "72477602|18|total=5.5|13"
+},
+{
+"t": "Sat 15:00",
+"game": "FC Paradiso vs FC Amical Saint-Prex",
+"lg": "Switzerland - Promotion League",
+"pick": "Under 5.5",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, season: 3.2 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:72521064",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "72521064|18|total=5.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Salisbury FC vs Chichester City FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 5.5",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.7 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:76125304",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76125304|18|total=5.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 5.5",
+"odds": 1.08,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings; Flashscore home/away form 95%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125228",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76125228|18|total=5.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Wingate & Finchley vs Hashtag United",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 5.5",
+"odds": 1.12,
+"why": "stats rate 93% from both teams' last 10 and 6 meetings; Flashscore home/away form 85%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125254",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76125254|18|total=5.5|13"
+},
+{
+"t": "Sat 16:00",
+"game": "Dartford FC vs AFC Totton",
+"lg": "England Amateur - FA Trophy",
+"pick": "Under 5.5",
+"odds": 1.09,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125286",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76125286|18|total=5.5|13"
+},
+{
+"t": "Sat 16:30",
+"game": "NAC Breda vs FC Emmen",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Under 5.5",
+"odds": 1.11,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1794670200.0,
+"eid": "sr:match:72044810",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "72044810|18|total=5.5|13"
+},
+{
+"t": "Sat 18:00",
+"game": "USL Dunkerque vs Quevilly-Rouen Metropole",
+"lg": "France - Coupe de France",
+"pick": "Under 5.5",
+"odds": 1.08,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
+"ts": 1794675600.0,
+"eid": "sr:match:76171166",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76171166|18|total=5.5|13"
+},
+{
+"t": "Sat 18:30",
+"game": "Mallorca vs Cordoba CF",
+"lg": "Spain - LaLiga 2",
+"pick": "Under 5.5",
+"odds": 1.08,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 100%, FotMob: 2.6 goals a game, Vitibet tip 2-1, season: 2.6 goals a game",
+"ts": 1794677400.0,
+"eid": "sr:match:72477594",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "72477594|18|total=5.5|13"
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Under 5.5",
+"odds": 1.06,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, FotMob: 2.6 goals a game, Vitibet tip 1-0, season: 2.6 goals a game",
+"ts": 1794684600.0,
+"eid": "sr:match:68823482",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "68823482|18|total=5.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 11:15",
 "at": 1794651352,
 "req": {
@@ -4973,117 +5148,6 @@
 "spec": "",
 "oid": "1",
 "k": "76638804|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 21:59",
-"at": 1794517181,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwe16udelbs8"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "TD4YXA",
-"odds": 1.34,
-"legs": [
-{
-"t": "Thu 20:30",
-"game": "CS Cerrito vs Colon FC",
-"lg": "Uruguay - Segunda Division",
-"pick": "Under 3.5",
-"odds": 1.04,
-"why": "LIVE 0-1 65': CS Cerrito expected 0.4 and Colon FC 0.4 more goals (last 10 + season); 0-1 at 65' \u2013 93% chance; Flashscore home/away form 75%, FotMob: 2.3 goals a game, Vitibet tip 1-1, season: 2.4 goals a game, h2h 100% of 6 meetings (3.5 line)",
-"ts": 1794511800.0,
-"eid": "sr:match:76455732",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76455732|18|total=3.5|13"
-},
-{
-"t": "Thu 20:30",
-"game": "CA Atenas de San Carlos vs Club Oriental de Football",
-"lg": "Uruguay - Segunda Division",
-"pick": "GG \u2013 No",
-"odds": 1.09,
-"why": "LIVE 0-0 72': CA Atenas de San Carlos expected 0.3 and Club Oriental de Football 0.3 more goals (last 10 + season); 0-0 at 72' \u2013 95% chance",
-"ts": 1794511800.0,
-"eid": "sr:match:76455734",
-"mid": "29",
-"spec": "",
-"oid": "76",
-"k": "76455734|29||76"
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 3:0 \u2013 Italy",
-"odds": 1.03,
-"why": "LIVE 1-1 53': Italy expected 0.6 and France 0.8 more goals (last 10); 1-1 at 53' \u2013 96% chance; h2h 100% of 8 meetings",
-"ts": 1794512700.0,
-"eid": "sr:match:68931500",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "68931500|14|hcp=3:0|1711"
-},
-{
-"t": "Thu 20:45",
-"game": "Albania vs Finland",
-"lg": "International - UEFA Nations League",
-"pick": "Albania or Finland",
-"odds": 1.03,
-"why": "LIVE 2-0 57': Albania expected 0.5 and Finland 0.6 more goals (last 10); 2-0 at 57' \u2013 93% chance",
-"ts": 1794512700.0,
-"eid": "sr:match:68932518",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "68932518|10||10"
-},
-{
-"t": "Thu 20:45",
-"game": "Czechia vs Spain",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 4:0 \u2013 Czechia",
-"odds": 1.07,
-"why": "LIVE 0-1 55': Czechia expected 0.4 and Spain 0.9 more goals (last 10); 0-1 at 55' \u2013 93% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794512700.0,
-"eid": "sr:match:68931754",
-"mid": "14",
-"spec": "hcp=4:0",
-"oid": "1711",
-"k": "68931754|14|hcp=4:0|1711"
-},
-{
-"t": "Thu 21:00",
-"game": "SL Benfica Lisbon W vs FK Austria Wien",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "SL Benfica Lisbon W Under 3.5",
-"odds": 1.04,
-"why": "LIVE 1-0 45': SL Benfica Lisbon W expected 0.8 and FK Austria Wien 0.9 more goals (last 10); 1-0 at 45' \u2013 94% chance",
-"ts": 1794513600.0,
-"eid": "sr:match:74403630",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74403630|19|total=3.5|13"
 }
 ]
 }
