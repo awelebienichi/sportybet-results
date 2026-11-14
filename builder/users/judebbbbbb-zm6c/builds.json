@@ -1,5 +1,30 @@
 [
 {
+"when": "Sat 14 Nov 11:16",
+"at": 1794651406,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"markets": [
+"o15",
+"o25"
+],
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"target": 20000,
+"rid": "mwg93raz17uf"
+},
+"ok": false,
+"msg": "Could not reach 20000 odds with 50 legs or fewer from the 38 games that pass the checks for your chosen markets (Sat 14). Allow more legs or a lower target."
+},
+{
 "when": "Sat 14 Nov 11:11",
 "at": 1794651115,
 "req": {
