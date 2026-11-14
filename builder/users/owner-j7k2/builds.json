@@ -1,5 +1,64 @@
 [
 {
+"when": "Sat 14 Nov 06:31",
+"at": 1794634294,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "mix",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfyvzqoon60"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "GQX73J",
+"odds": 2.35,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Jerash FC vs AL Lewaa Club",
+"lg": "Saudi Arabia - Second Division",
+"pick": "GG (both teams score)",
+"odds": 1.61,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794659400.0,
+"eid": "sr:match:73775058",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73775058|29||74"
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.46,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125228",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76125228|10||11"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:27",
 "at": 1794634080,
 "req": {
@@ -10202,61 +10261,6 @@
 "spec": "",
 "oid": "0",
 "k": "76455614|450004||0"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 16:58",
-"at": 1794585484,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 20,
-"strict": "strict",
-"rid": "mwf5ut6gv7hu"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 2 live leg(s) were strong enough right now (you asked for 20).",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "QQL1F4",
-"odds": 1.12,
-"legs": [
-{
-"t": "Fri 16:00",
-"game": "Iraq vs Lebanon",
-"lg": "International - Int. Friendly Games",
-"pick": "Handicap 0:3 \u2013 Lebanon",
-"odds": 1.05,
-"why": "LIVE 0-0 45': Iraq expected 0.4 and Lebanon 1.0 more goals (last 10); 0-0 at 45' \u2013 99% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 4 meetings",
-"ts": 1794582000.0,
-"eid": "sr:match:76687822",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76687822|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 16:00",
-"game": "Jerash Club vs Ittihad AL Ramtha",
-"lg": "Jordan - First Division",
-"pick": "Ittihad AL Ramtha Under 1.5",
-"odds": 1.07,
-"why": "LIVE 0-0 45': Jerash Club expected 0.8 and Ittihad AL Ramtha 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 88% chance; goals record 80% / 80% in both sides' last games",
-"ts": 1794582000.0,
-"eid": "sr:match:74205878",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "74205878|20|total=1.5|13"
 }
 ]
 }
