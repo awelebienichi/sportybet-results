@@ -1,5 +1,119 @@
 [
 {
+"when": "Sat 14 Nov 14:18",
+"at": 1794662312,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "mix",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 10,
+"rid": "mwgfle2evd6y"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [],
+"tickets": [
+{
+"code": "Q82MCY",
+"odds": 11.1,
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"lg": "England - League Two",
+"pick": "1st half double chance Swindon Town or draw",
+"odds": 1.48,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:72342378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72342378|63||9"
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.46,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125228",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76125228|10||11"
+},
+{
+"t": "Sat 18:00",
+"game": "Villa FC vs Killarney Celtic",
+"lg": "Ireland - National League",
+"pick": "GG (both teams score)",
+"odds": 1.64,
+"why": "stats rate 83% from both teams' last 10",
+"ts": 1794675600.0,
+"eid": "sr:match:74141704",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "74141704|29||74"
+},
+{
+"t": "Sat 18:00",
+"game": "Washington Spirit vs Utah Royals FC",
+"lg": "USA - National Womens Soccer League",
+"pick": "Under 3.5",
+"odds": 1.44,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, season: 2.6 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:76636576",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76636576|18|total=3.5|13"
+},
+{
+"t": "Sat 20:30",
+"game": "America FC MG vs Avai FC SC",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Under 3.5",
+"odds": 1.46,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 2.2 goals a game, Vitibet tip 1-1, season: 2.2 goals a game",
+"ts": 1794684600.0,
+"eid": "sr:match:68823470",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "68823470|18|total=3.5|13"
+},
+{
+"t": "Sat 23:00",
+"game": "Deportivo Madryn vs CD Maipu",
+"lg": "Argentina - Primera Nacional",
+"pick": "1st half double chance CD Maipu or draw",
+"odds": 1.49,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794693600.0,
+"eid": "sr:match:76413240",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "76413240|63||11"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 14:17",
 "at": 1794662238,
 "req": {
@@ -5071,76 +5185,6 @@
 "spec": "total=4.5",
 "oid": "13",
 "k": "72346416|18|total=4.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 09:43",
-"at": 1794559399,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mweqbp2k9a10"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "JYSGP1",
-"odds": 1.52,
-"legs": [
-{
-"t": "Fri 08:43",
-"game": "Mumbai Marines SC vs YAWN FC",
-"lg": "India - Mumbai Super League",
-"pick": "Mumbai Marines SC or draw",
-"odds": 1.04,
-"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 91%",
-"ts": 1794555780.0,
-"eid": "sr:match:111111114647875",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "111111114647875|10||9"
-},
-{
-"t": "Fri 09:30",
-"game": "Oakleigh Cannons vs Marconi Stallions",
-"lg": "Australia - Australian Championship",
-"pick": "Over 2.5",
-"odds": 1.2,
-"why": "LIVE 0-1 8': Oakleigh Cannons expected 2.7 and Marconi Stallions 1.8 more goals (last 10); 0-1 at 8' \u2013 85% chance; Flashscore home/away form 70%",
-"ts": 1794558600.0,
-"eid": "sr:match:74827344",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74827344|18|total=2.5|12"
-},
-{
-"t": "Fri 09:30",
-"game": "Preston Lions FC vs Lions FC",
-"lg": "Australia - Australian Championship",
-"pick": "Handicap 0:2 \u2013 Lions FC",
-"odds": 1.22,
-"why": "LIVE 0-0 6': Preston Lions FC expected 1.4 and Lions FC 1.9 more goals (last 10); 0-0 at 6' \u2013 85% chance; margin record 80% / 90% in both sides' last games",
-"ts": 1794558600.0,
-"eid": "sr:match:74827368",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "74827368|14|hcp=0:2|1713"
 }
 ]
 }
