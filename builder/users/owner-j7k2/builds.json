@@ -1,5 +1,62 @@
 [
 {
+"when": "Sat 14 Nov 06:44",
+"at": 1794635045,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "fav2h",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfzd0mc0w3j"
+},
+"ok": true,
+"kind": "strong team to score in the 2nd half",
+"note": [],
+"tickets": [
+{
+"code": "H6U2TS",
+"odds": 1.69,
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Barrow AFC",
+"lg": "England - National League",
+"pick": "Barrow AFC to score in 2nd half",
+"odds": 1.41,
+"why": "Barrow AFC scored in the 2nd half in 100% of last 7; Gateshead FC conceded in it in 75% of last 8; win odds 1.59",
+"ts": 1794668400.0,
+"eid": "sr:match:72740794",
+"mid": "92",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740794|92|total=0.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Stade Bethunois vs Nancy-Lorraine",
+"lg": "France - Coupe de France",
+"pick": "Nancy-Lorraine to score in 2nd half",
+"odds": 1.2,
+"why": "Nancy-Lorraine scored in the 2nd half in 90% of last 10; Stade Bethunois conceded in it in 86% of last 7; win odds 1.17",
+"ts": 1794675600.0,
+"eid": "sr:match:76168590",
+"mid": "92",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76168590|92|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:42",
 "at": 1794634931,
 "req": {
@@ -9451,25 +9508,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 17:45",
-"at": 1794588314,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "u25",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwf7jnkenp44"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Fri 13) out of 81 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
