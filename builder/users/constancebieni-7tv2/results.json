@@ -7,14 +7,17 @@
 "when": "Sat 14 Nov 01:03",
 "kind": "live \u2013 best of all",
 "odds": 1.03,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 00:00",
 "game": "Argentina vs Uruguay",
 "pick": "Uruguay Under 1.5",
 "odds": 1.03,
-"ts": 1794610800.0
+"ts": 1794610800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 }
 ]
 },
