@@ -1,5 +1,218 @@
 [
 {
+"when": "Sat 14 Nov 17:15",
+"at": 1794672955,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwglxnafk52g"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 13 games passed the checks (Sat 14, 150 games on SportyBet), so this ticket has 13 legs instead of 15. Tick more days or use 'Relaxed' for more."
+],
+"tickets": [
+{
+"code": "HL9Y1E",
+"odds": 122.74,
+"legs": [
+{
+"t": "Sat 17:55",
+"game": "VfL Wolfsburg W vs Bayern Munich W",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "season: 4.2 and 4.4 goals a game (9/9 games); last 10 rate 85%; Flashscore home/away form 85%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1794675300.0,
+"eid": "sr:match:72961090",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961090|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Villa FC vs Killarney Celtic",
+"lg": "Ireland - National League",
+"pick": "Over 3.5",
+"odds": 1.54,
+"why": "season: 5.4 and 4.1 goals a game (7/7 games); last 10 rate 80%; season: 4.8 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:74141704",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "12",
+"k": "74141704|18|total=3.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "FC St. Gallen-Staad vs FC Zurich",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "season: 3.7 and 3.8 goals a game (11/11 games); last 10 rate 75%; Flashscore home/away form 65%, season: 3.8 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:72652094",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652094|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Atl\u00e9tico Zabal U19 vs UD Almeria",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "season: 3.9 and 3.3 goals a game (10/10 games); last 10 rate 70%",
+"ts": 1794675600.0,
+"eid": "sr:match:76643010",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76643010|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 3.7 and 3.3 goals a game (11/11 games); last 10 rate 75%; Flashscore home/away form 65%",
+"ts": 1794675600.0,
+"eid": "sr:match:72652092",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652092|18|total=2.5|12"
+},
+{
+"t": "Sat 18:15",
+"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
+"lg": "England Amateur - Super League Women",
+"pick": "Over 2.5",
+"odds": 1.62,
+"why": "season: 3.2 and 3.3 goals a game (9/9 games); last 10 rate 80%; Flashscore home/away form 65%",
+"ts": 1794676500.0,
+"eid": "sr:match:73346120",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346120|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "RBC Roosendaal vs VV Goes",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 4.3 and 4.5 goals a game (11/12 games); last 10 rate 95%; Flashscore home/away form 75%, season: 4.4 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:72596234",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72596234|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "Sheffield United LFC vs Bristol City WFC",
+"lg": "England Amateur - Super League 2, Women",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "season: 4.3 and 3.4 goals a game (7/7 games); last 10 rate 80%; Flashscore home/away form 65%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:73346550",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346550|18|total=2.5|12"
+},
+{
+"t": "Sat 19:30",
+"game": "Union Titus Petange vs FC Koeppchen Wormeldange",
+"lg": "Luxembourg - Promotion d'Honneur",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 5.0 and 3.6 goals a game (11/11 games); last 10 rate 85%; season: 4.3 goals a game",
+"ts": 1794681000.0,
+"eid": "sr:match:72964548",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72964548|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "season: 4.2 and 3.5 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 75%, footybets 85%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044822|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "season: 3.1 and 4.0 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%, footybets 82%, FotMob: 3.6 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044812",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044812|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "season: 3.4 and 3.1 goals a game (13/14 games); last 10 rate 70%; Flashscore home/away form 70%, footybets 75%",
+"ts": 1794682800.0,
+"eid": "sr:match:72044814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044814|18|total=2.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Real Refineros Cds vs Saltillo Soccer FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "season: 4.1 and 4.5 goals a game (11/10 games); last 10 rate 85%; Flashscore home/away form 92%, season: 4.3 goals a game",
+"ts": 1794693600.0,
+"eid": "sr:match:74063606",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063606|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 17:13",
 "at": 1794672785,
 "req": {
@@ -11329,117 +11542,6 @@
 "pick": "Blancdieu Hirosaki or Gakunan F Mosperio",
 "odds": 1.03,
 "why": "LIVE 0-2 37': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794630600.0,
-"eid": "sr:match:76640638",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76640638|10||10"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:07",
-"at": 1794632829,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwfy1m5xk3fj"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "RZEKNA",
-"odds": 1.44,
-"legs": [
-{
-"t": "Sat 05:00",
-"game": "Melbourne Victory vs Adelaide United FC",
-"lg": "Australia - A-League, Women",
-"pick": "Melbourne Victory Under 3.5",
-"odds": 1.05,
-"why": "LIVE 1-1 45': Melbourne Victory expected 0.7 and Adelaide United FC 0.4 more goals (last 10); 1-1 at 45' \u2013 94% chance; goals record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794628800.0,
-"eid": "sr:match:73928176",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73928176|19|total=3.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Okinawa SV vs Yokogawa Musashino FC",
-"lg": "Japan - Japan Football League",
-"pick": "Okinawa SV Under 2.5",
-"odds": 1.07,
-"why": "LIVE 0-1 49': Okinawa SV expected 0.7 and Yokogawa Musashino FC 0.6 more goals (last 10 + season); 0-1 at 49' \u2013 95% chance",
-"ts": 1794628800.0,
-"eid": "sr:match:72665068",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72665068|19|total=2.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Vonds Ichihara FC vs J-Lease FC",
-"lg": "Japan - Japan Football League",
-"pick": "Handicap 2:0 \u2013 Vonds Ichihara FC",
-"odds": 1.04,
-"why": "LIVE 0-0 48': Vonds Ichihara FC expected 0.6 and J-Lease FC 0.6 more goals (last 10 + season); 0-0 at 48' \u2013 91% chance",
-"ts": 1794628800.0,
-"eid": "sr:match:72665076",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "72665076|14|hcp=2:0|1711"
-},
-{
-"t": "Sat 05:00",
-"game": "Melbourne City FC vs Newcastle Jets",
-"lg": "Australia - A-League, Women",
-"pick": "Melbourne City FC Under 3.5",
-"odds": 1.1,
-"why": "LIVE 1-0 48': Melbourne City FC expected 1.0 and Newcastle Jets 0.6 more goals (last 10); 1-0 at 48' \u2013 89% chance; goals record 80% / 90% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794628800.0,
-"eid": "sr:match:73928174",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73928174|19|total=3.5|13"
-},
-{
-"t": "Sat 05:00",
-"game": "Criacao Shinjuku vs Briobecca Urayasu",
-"lg": "Japan - Japan Football League",
-"pick": "Under 6.5",
-"odds": 1.09,
-"why": "LIVE 2-2 48': Criacao Shinjuku expected 0.6 and Briobecca Urayasu 0.6 more goals (last 10 + season); 2-2 at 48' \u2013 86% chance; season: 2.4 goals a game",
-"ts": 1794628800.0,
-"eid": "sr:match:72665074",
-"mid": "18",
-"spec": "total=6.5",
-"oid": "13",
-"k": "72665074|18|total=6.5|13"
-},
-{
-"t": "Sat 05:30",
-"game": "Blancdieu Hirosaki vs Gakunan F Mosperio",
-"lg": "Japan - Regional Football Champions League",
-"pick": "Blancdieu Hirosaki or Gakunan F Mosperio",
-"odds": 1.03,
-"why": "LIVE 0-2 36': no team stats for this game \u2013 SportyBet's own price says 92%",
 "ts": 1794630600.0,
 "eid": "sr:match:76640638",
 "mid": "10",
