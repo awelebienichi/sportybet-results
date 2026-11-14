@@ -2,6 +2,30 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "MYZ68U",
+"at": 1794653702,
+"when": "Sat 14 Nov 11:55",
+"kind": "live \u2013 handicap & Asian handicap",
+"odds": 1.11,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:30",
+"game": "Customs United FC vs Pluak Daeng Rayong United FC",
+"pick": "Handicap 0:1 \u2013 Pluak Daeng Rayong United FC",
+"odds": 1.05,
+"ts": 1794648600.0
+},
+{
+"t": "Sat 11:00",
+"game": "FC Dinamo Moscow vs Ryazan VDV",
+"pick": "Handicap 0:3 \u2013 Ryazan VDV",
+"odds": 1.07,
+"ts": 1794650400.0
+}
+]
+},
+{
 "code": "V8T69A",
 "at": 1794652626,
 "when": "Sat 14 Nov 11:37",
