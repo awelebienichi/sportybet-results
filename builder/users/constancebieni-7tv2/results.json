@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "ZW2D82",
+"at": 1794697290,
+"when": "Sun 15 Nov 00:01",
+"kind": "live \u2013 best of all",
+"odds": 1.2,
+"status": "open",
+"legs": [
+{
+"t": "Sat 22:30",
+"game": "Coquimbo Unido vs CD O'Higgins",
+"pick": "Handicap 0:5 \u2013 CD O'Higgins",
+"odds": 1.03,
+"ts": 1794691800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Arturo Fernandez Vial vs Municipal Puente Alto",
+"pick": "Arturo Fernandez Vial or draw",
+"odds": 1.04,
+"ts": 1794693600.0
+},
+{
+"t": "Sat 23:06",
+"game": "H20 Purepechas FC  II vs Atl\u00e9tico Morelia Universidad Michoacana",
+"pick": "Atl\u00e9tico Morelia Universidad Michoacana to win",
+"odds": 1.03,
+"ts": 1794693960.0
+},
+{
+"t": "Sat 23:08",
+"game": "Deportivo Madryn vs CD Maipu",
+"pick": "Deportivo Madryn or draw",
+"odds": 1.03,
+"ts": 1794694080.0
+},
+{
+"t": "Sat 23:30",
+"game": "Paysandu FC vs Uruguay Montevideo FC",
+"pick": "Handicap 0:4 \u2013 Uruguay Montevideo FC",
+"odds": 1.06,
+"ts": 1794695400.0
+}
+]
+},
+{
 "code": "Q82MCY",
 "at": 1794662312,
 "when": "Sat 14 Nov 14:18",
