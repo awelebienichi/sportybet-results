@@ -1,5 +1,62 @@
 [
 {
+"when": "Sat 14 Nov 06:40",
+"at": 1794634825,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "fav1h",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfz8dd7e9sc"
+},
+"ok": true,
+"kind": "strong team to score in the 1st half",
+"note": [],
+"tickets": [
+{
+"code": "ZQJTUT",
+"odds": 2.33,
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "MKS Mlawianka Mlawa vs Wigry Suwalki",
+"lg": "Poland - III Liga, Group 1",
+"pick": "Wigry Suwalki to score in 1st half",
+"odds": 1.51,
+"why": "Wigry Suwalki scored in the 1st half in 80% of last 10; MKS Mlawianka Mlawa conceded in it in 60% of last 10; win odds 1.75",
+"ts": 1794657600.0,
+"eid": "sr:match:72514876",
+"mid": "70",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72514876|70|total=0.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Austria vs Slovenia",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Austria to score in 1st half",
+"odds": 1.54,
+"why": "Austria scored in the 1st half in 80% of last 10; Slovenia conceded in it in 80% of last 10; win odds 1.54",
+"ts": 1794675600.0,
+"eid": "sr:match:74723256",
+"mid": "69",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74723256|69|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:38",
 "at": 1794634727,
 "req": {
@@ -9454,184 +9511,6 @@
 "spec": "",
 "oid": "9",
 "k": "72346416|10||9"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 17:39",
-"at": 1794587996,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13",
-"2026-11-14",
-"2026-11-15",
-"2026-11-16",
-"2026-11-17",
-"2026-11-18",
-"2026-11-19"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"h1ggn"
-],
-"rid": "mwf7bjczarid"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "SX895H",
-"odds": 11.2,
-"legs": [
-{
-"t": "Fri 18:00",
-"game": "Germany vs Belgium",
-"lg": "International Youth - U21 Friendly Games",
-"pick": "1st half GG \u2013 No",
-"odds": 1.27,
-"why": "stats rate 95% from both teams' last 10 and 3 meetings",
-"ts": 1794589200.0,
-"eid": "sr:match:76170212",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "76170212|75||76"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Roskilde vs Nykoebing FC",
-"lg": "Denmark - 2nd Division",
-"pick": "1st half GG \u2013 No",
-"odds": 1.28,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794592800.0,
-"eid": "sr:match:72499156",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "72499156|75||76"
-},
-{
-"t": "Fri 20:45",
-"game": "Netherlands vs Greece",
-"lg": "International - UEFA Nations League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.28,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794599100.0,
-"eid": "sr:match:68931584",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "68931584|75||76"
-},
-{
-"t": "Sat 00:00",
-"game": "Saint-Martin vs El Salvador",
-"lg": "International - CONCACAF Nations League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.23,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794610800.0,
-"eid": "sr:match:75512546",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "75512546|75||76"
-},
-{
-"t": "Sat 06:00",
-"game": "RB Omiya Ardija vs Montedio Yamagata",
-"lg": "Japan - J2 League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.27,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794632400.0,
-"eid": "sr:match:72151352",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "72151352|75||76"
-},
-{
-"t": "Sat 13:00",
-"game": "Slask II Wroclaw vs KS Lechia Zielona Gora",
-"lg": "Poland - II Liga",
-"pick": "1st half GG \u2013 No",
-"odds": 1.34,
-"why": "stats rate 95% from both teams' last 10 and 5 meetings",
-"ts": 1794657600.0,
-"eid": "sr:match:72398818",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "72398818|75||76"
-},
-{
-"t": "Sat 16:00",
-"game": "Stockport County FC vs Reading FC",
-"lg": "England - League One",
-"pick": "1st half GG \u2013 No",
-"odds": 1.26,
-"why": "stats rate 100% from both teams' last 10 and 6 meetings",
-"ts": 1794668400.0,
-"eid": "sr:match:72341376",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "72341376|75||76"
-},
-{
-"t": "Sat 16:00",
-"game": "Wycombe Wanderers vs Huddersfield",
-"lg": "England - League One",
-"pick": "1st half GG \u2013 No",
-"odds": 1.26,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794668400.0,
-"eid": "sr:match:72341380",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "72341380|75||76"
-},
-{
-"t": "Sat 20:00",
-"game": "RKC Waalwijk vs FC Den Bosch",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half GG \u2013 No",
-"odds": 1.35,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794682800.0,
-"eid": "sr:match:72044818",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "72044818|75||76"
-},
-{
-"t": "Tue 20:45",
-"game": "Ukraine vs Georgia",
-"lg": "International - UEFA Nations League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.2,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1794944700.0,
-"eid": "sr:match:68932772",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "68932772|75||76"
 }
 ]
 }
