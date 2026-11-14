@@ -2,6 +2,142 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "N2MXMA",
+"at": 1794632969,
+"when": "Sat 14 Nov 06:09",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 503.7,
+"status": "open",
+"legs": [
+{
+"t": "Sat 07:00",
+"game": "Tokyo Verdy Beleza vs Albirex Niigata",
+"pick": "Over 2.5",
+"odds": 1.66,
+"ts": 1794636000.0
+},
+{
+"t": "Sat 11:45",
+"game": "SFC Opava vs FC Pardubice",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1794653100.0
+},
+{
+"t": "Sat 12:00",
+"game": "Real Betis Balompie vs Cadiz CF",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 12:00",
+"game": "CF Damm vs Racing Club Zaragoza",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 12:00",
+"game": "AmaZulu vs Mamelodi Sundowns",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1794654000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Koldingq vs FC Nordsjaelland",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Spain vs Wales",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 13:45",
+"game": "Manchester United WFC vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794660300.0
+},
+{
+"t": "Sat 14:00",
+"game": "SKN St. Polten W vs LASK",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 15:00",
+"game": "AS Roma W vs Parma Calcio",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 16:00",
+"game": "FC Cartagena vs Villarreal CF",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Sweden vs Lithuania",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Tottenham Hotspur FC vs Everton FC Women",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "France vs Ireland",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 19:00",
+"game": "Sheffield United LFC vs Bristol City WFC",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794679200.0
+},
+{
+"t": "Sat 20:30",
+"game": "Real Madrid W vs FC Badalona Women",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 21:00",
+"game": "Inter Santa Tecla vs CD Cacahuatique",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794686400.0
+}
+]
+},
+{
 "code": "RV4Y3P",
 "at": 1794632886,
 "when": "Sat 14 Nov 06:08",
