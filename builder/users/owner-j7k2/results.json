@@ -254,7 +254,10 @@
 "game": "RC Strasbourg vs Toulouse FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:30",
@@ -372,7 +375,10 @@
 "game": "RC Strasbourg vs Toulouse FC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:00",
@@ -901,7 +907,10 @@
 "game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
 "pick": "Under 188.5 total points",
 "odds": 1.22,
-"ts": 1794673800.0
+"ts": 1794673800.0,
+"r": "W",
+"sc": "78-71",
+"ht": "23-18"
 },
 {
 "t": "Sat 18:00",
@@ -1199,7 +1208,10 @@
 "game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
 "pick": "Under 188.5 total points",
 "odds": 1.22,
-"ts": 1794673800.0
+"ts": 1794673800.0,
+"r": "W",
+"sc": "78-71",
+"ht": "23-18"
 },
 {
 "t": "Sat 18:00",
@@ -1424,7 +1436,10 @@
 "game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
 "pick": "Under 188.5 total points",
 "odds": 1.22,
-"ts": 1794673800.0
+"ts": 1794673800.0,
+"r": "W",
+"sc": "78-71",
+"ht": "23-18"
 },
 {
 "t": "Sat 18:00",
@@ -1586,7 +1601,10 @@
 "game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
 "pick": "Under 188.5 total points",
 "odds": 1.22,
-"ts": 1794673800.0
+"ts": 1794673800.0,
+"r": "W",
+"sc": "78-71",
+"ht": "23-18"
 },
 {
 "t": "Sat 18:00",
@@ -2390,7 +2408,10 @@
 "game": "RC Strasbourg vs Toulouse FC",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 20:30",
@@ -3900,7 +3921,10 @@
 "game": "RC Strasbourg vs Toulouse FC",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794675600.0
+"ts": 1794675600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:30",
