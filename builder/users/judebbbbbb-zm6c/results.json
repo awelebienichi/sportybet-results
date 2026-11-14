@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TZBXS0",
+"at": 1794626422,
+"when": "Sat 14 Nov 04:20",
+"kind": "rebuild of M9QHLC",
+"odds": 10.0,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794657600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Rekord Bielsko-Biala vs Sleza Wroclaw",
+"pick": "GG (both teams score)",
+"odds": 1.43,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.47,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"pick": "Swindon Town excluded goals: 1",
+"odds": 1.46,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"pick": "GG (both teams score)",
+"odds": 1.6,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Washington Spirit vs Utah Royals FC",
+"pick": "Under 3.5",
+"odds": 1.44,
+"ts": 1794675600.0
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"pick": "1st half Over 0.5",
+"odds": 1.31,
+"ts": 1794677400.0
+}
+]
+},
+{
 "code": "M9QHLC",
 "at": 1794626276,
 "when": "Sat 14 Nov 04:17",
