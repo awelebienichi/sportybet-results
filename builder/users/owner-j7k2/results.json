@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T7N4MP",
+"at": 1794635469,
+"when": "Sat 14 Nov 06:51",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 1.5,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:45",
+"game": "SFC Opava vs FC Pardubice",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1794653100.0
+},
+{
+"t": "Sat 13:30",
+"game": "Spain vs Wales",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1794659400.0
+}
+]
+},
+{
 "code": "LJMK21",
 "at": 1794635355,
 "when": "Sat 14 Nov 06:49",
