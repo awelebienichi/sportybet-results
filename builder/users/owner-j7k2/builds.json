@@ -1,5 +1,62 @@
 [
 {
+"when": "Sat 14 Nov 06:47",
+"at": 1794635258,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o15",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfzgz9eoqnl"
+},
+"ok": true,
+"kind": "Over 1.5",
+"note": [],
+"tickets": [
+{
+"code": "PYWEPS",
+"odds": 1.25,
+"legs": [
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "Over 1.5 in 100% / 100% of the teams' last 10, 100% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 95%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1794663000.0,
+"eid": "sr:match:72594654",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72594654|18|total=1.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.6 goals; Flashscore home/away form 75%, season: 3.2 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:74352338",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74352338|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:45",
 "at": 1794635133,
 "req": {
@@ -9209,49 +9266,5 @@
 },
 "ok": false,
 "msg": "15 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
-},
-{
-"when": "Fri 13 Nov 18:24",
-"at": 1794590660,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "quarter",
-"legs": 2,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"rid": "mwf8xo9jrk8a"
-},
-"ok": true,
-"kind": "basketball \u2013 quarter total points",
-"note": [
-"Only 1 basketball games passed the checks (Fri 13, 88 judged), so the ticket has 1 legs.",
-"Normal: in testing about 85 in 100 such legs came true."
-],
-"tickets": [
-{
-"code": "SFB5SR",
-"odds": 1.4,
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "BK Vejen81 vs Bakken Bears",
-"lg": "Denmark - Basketligaen",
-"pick": "Bakken Bears Q1 Under 29.5 points",
-"odds": 1.4,
-"why": "expected BK Vejen81 82 \u2013 Bakken Bears 91 (last 10/10 games, home edge included); 89% by the stats, 78% with the price",
-"ts": 1794592800.0,
-"eid": "sr:match:72663212",
-"mid": "757",
-"spec": "total=29.5|quarternr=1",
-"oid": "13",
-"k": "72663212|757|total=29.5|quarternr=1|13"
-}
-]
-}
-]
 }
 ]
