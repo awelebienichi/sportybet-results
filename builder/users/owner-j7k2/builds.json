@@ -1,5 +1,176 @@
 [
 {
+"when": "Sat 14 Nov 18:57",
+"at": 1794679046,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "19:00",
+"to": "06:00",
+"rid": "mwgpk79yf2cn"
+},
+"ok": true,
+"kind": "Over 2.5 (high-scoring leagues)",
+"note": [
+"2 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "VWUB4L",
+"odds": 51.14,
+"legs": [
+{
+"t": "Sat 19:30",
+"game": "Union Titus Petange vs FC Koeppchen Wormeldange",
+"lg": "Luxembourg - Promotion d'Honneur",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 in 100% / 70% of the teams' last 10, 67% of 3 meetings, league avg 5.0 goals; season: 4.3 goals a game",
+"ts": 1794681000.0,
+"eid": "sr:match:72964548",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72964548|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "Almere City FC vs Helmond Sport",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 in 70% / 80% of the teams' last 10, 62% of 8 meetings, league avg 3.5 goals; Flashscore home/away form 55%, footybets 82%, FotMob: 3.6 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044812",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044812|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "VVV Venlo vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "Over 2.5 in 70% / 90% of the teams' last 10, 50% of 8 meetings, league avg 3.5 goals; Flashscore home/away form 75%, footybets 85%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794682800.0,
+"eid": "sr:match:72044822",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044822|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "Over 2.5 in 70% / 70% of the teams' last 10, 62% of 8 meetings, league avg 3.5 goals; Flashscore home/away form 70%, footybets 75%",
+"ts": 1794682800.0,
+"eid": "sr:match:72044814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044814|18|total=2.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "Over 2.5 in 90% / 70% of the teams' last 10, league avg 3.9 goals; Flashscore home/away form 75%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74838480|18|total=2.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "Real Madrid W vs FC Badalona Women",
+"lg": "Spain - Primera Division Women",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 in 70% / 60% of the teams' last 10, 88% of 8 meetings, league avg 3.5 goals; Flashscore home/away form 60%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
+"ts": 1794684600.0,
+"eid": "sr:match:72491448",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72491448|18|total=2.5|12"
+},
+{
+"t": "Sat 20:45",
+"game": "Romania vs Poland",
+"lg": "International - UEFA Nations League",
+"pick": "Over 2.5",
+"odds": 1.65,
+"why": "Over 2.5 in 60% / 60% of the teams' last 10, 71% of 7 meetings, league avg 2.9 goals; Flashscore home/away form 60%",
+"ts": 1794685500.0,
+"eid": "sr:match:68932626",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "68932626|18|total=2.5|12"
+},
+{
+"t": "Sat 22:30",
+"game": "Zacatepec FC vs Montaneses FC",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "Over 2.5",
+"odds": 1.67,
+"why": "Over 2.5 in 50% / 100% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 60%",
+"ts": 1794691800.0,
+"eid": "sr:match:74100776",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74100776|18|total=2.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Real Refineros Cds vs Saltillo Soccer FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "Over 2.5 in 80% / 90% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 92%, season: 4.3 goals a game",
+"ts": 1794693600.0,
+"eid": "sr:match:74063606",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063606|18|total=2.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Artesanos Metepec FC vs CF Correcaminos Uat II",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.68,
+"why": "Over 2.5 in 60% / 60% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 60%",
+"ts": 1794693600.0,
+"eid": "sr:match:74063604",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063604|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 18:53",
 "at": 1794678834,
 "req": {
@@ -7664,65 +7835,6 @@
 "spec": "total=0.5",
 "oid": "12",
 "k": "74723256|69|total=0.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 06:48",
-"at": 1794635311,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "smallfav",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwfz69bixc4j"
-},
-"ok": true,
-"kind": "smallest-odds favourites to win",
-"note": [
-"8 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
-],
-"tickets": [
-{
-"code": "G8DKUC",
-"odds": 1.08,
-"legs": [
-{
-"t": "Sat 11:00",
-"game": "Zhfk Yenisey Krasnoyarsk vs FC Zenit Saint Petersburg",
-"lg": "Russia - Superleague, Women",
-"pick": "FC Zenit Saint Petersburg to win",
-"odds": 1.03,
-"why": "won 70% lost 20% of last 10, rival lost 100%, won 88% of 8 meetings; Flashscore home/away form 85%, season: won 83%, rival lost 87%",
-"ts": 1794650400.0,
-"eid": "sr:match:69592704",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "69592704|1||3"
-},
-{
-"t": "Sat 14:00",
-"game": "Sokol Hostoun vs FC Hvezda Cheb",
-"lg": "Czechia - Divize B",
-"pick": "Sokol Hostoun to win",
-"odds": 1.05,
-"why": "won 70% lost 20% of last 10, rival lost 80%; Flashscore home/away form 55%, Vitibet 88%, season: won 71%, rival lost 71%",
-"ts": 1794661200.0,
-"eid": "sr:match:72654956",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "72654956|1||1"
 }
 ]
 }
