@@ -2297,7 +2297,10 @@
 "game": "Radcliffe FC vs Marine FC",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -2359,7 +2362,10 @@
 "game": "Hanwell Town FC vs Plymouth Parkway",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -2660,7 +2666,10 @@
 "game": "Hanwell Town FC vs Plymouth Parkway",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -4427,7 +4436,10 @@
 "game": "Hanwell Town FC vs Plymouth Parkway",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5445,7 +5457,10 @@
 "game": "Hanwell Town FC vs Plymouth Parkway",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6207,7 +6222,10 @@
 "game": "Hanwell Town FC vs Plymouth Parkway",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
