@@ -34,7 +34,7 @@
 "when": "Sat 14 Nov 02:17",
 "kind": "basketball \u2013 best market per game",
 "odds": 22.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 02:30",
@@ -58,7 +58,10 @@
 "game": "Mckendree Bearcats vs Tiffin Dragons",
 "pick": "Mckendree Bearcats to win (incl. OT)",
 "odds": 1.18,
-"ts": 1794619800.0
+"ts": 1794619800.0,
+"r": "L",
+"sc": "67-69",
+"ht": ""
 },
 {
 "t": "Sat 05:00",
