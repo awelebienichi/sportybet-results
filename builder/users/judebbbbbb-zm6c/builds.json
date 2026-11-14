@@ -1,5 +1,146 @@
 [
 {
+"when": "Sat 14 Nov 04:13",
+"at": 1794626020,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"markets": [
+"o15",
+"o25",
+"gg",
+"win",
+"up",
+"dc",
+"hgg",
+"gb25",
+"h1",
+"h2",
+"h1dc",
+"htx",
+"wu25",
+"h1u25",
+"u35",
+"u45",
+"u55",
+"h1ggy",
+"h1ggn",
+"eh",
+"m5x",
+"m10x",
+"xg",
+"xgt",
+"xg1"
+],
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"target": 10,
+"rid": "mwftz0sysi5b"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "ZK1JVM",
+"odds": 11.65,
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"lg": "Greece - Super League 2",
+"pick": "Half-time draw",
+"odds": 2.1,
+"why": "stats rate 75% from both teams' last 10",
+"ts": 1794657600.0,
+"eid": "sr:match:74172536",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "74172536|60||2"
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.47,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125228",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76125228|10||11"
+},
+{
+"t": "Sat 16:00",
+"game": "AFC Hornchurch vs Tamworth FC",
+"lg": "England - National League",
+"pick": "Double chance AFC Hornchurch or Tamworth FC",
+"odds": 1.28,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:72740800",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "72740800|10||10"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.4 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72740804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740804|18|total=2.5|12"
+},
+{
+"t": "Sat 17:00",
+"game": "Star Starachowice vs KS Naprzod Jedrzejow",
+"lg": "Poland - III Liga, Group 4",
+"pick": "Over 2.5",
+"odds": 1.59,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1794672000.0,
+"eid": "sr:match:72517398",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72517398|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "AD Municipal Santa Ana vs AD Sarchi",
+"lg": "Costa Rica - Liga de Ascenso",
+"pick": "Double chance AD Municipal Santa Ana or AD Sarchi",
+"odds": 1.27,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794682800.0,
+"eid": "sr:match:76409644",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "76409644|10||10"
+}
+]
+}
+]
+},
+{
 "when": "Fri 13 Nov 04:38",
 "at": 1794541127,
 "req": {
