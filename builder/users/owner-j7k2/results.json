@@ -272,7 +272,10 @@
 "game": "CA Bucaramanga vs Fortaleza FC",
 "pick": "Over 1.5",
 "odds": 1.32,
-"ts": 1794688200.0
+"ts": 1794688200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 22:00",
@@ -460,7 +463,10 @@
 "game": "CA Bucaramanga vs Fortaleza FC",
 "pick": "CA Bucaramanga or GG",
 "odds": 1.14,
-"ts": 1794688200.0
+"ts": 1794688200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
@@ -607,7 +613,10 @@
 "game": "CA Bucaramanga vs Fortaleza FC",
 "pick": "Over 1.5",
 "odds": 1.32,
-"ts": 1794688200.0
+"ts": 1794688200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 23:00",
