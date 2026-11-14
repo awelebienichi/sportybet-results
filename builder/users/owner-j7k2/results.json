@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YL02T3",
+"at": 1794634634,
+"when": "Sat 14 Nov 06:37",
+"kind": "strong favourites to win",
+"odds": 1.58,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Spain vs Wales",
+"pick": "Spain to win",
+"odds": 1.07,
+"ts": 1794659400.0
+},
+{
+"t": "Sat 19:00",
+"game": "Cruzeiro EC MG vs America FC MG",
+"pick": "Cruzeiro EC MG to win",
+"odds": 1.48,
+"ts": 1794679200.0
+}
+]
+},
+{
 "code": "X8QGRV",
 "at": 1794634494,
 "when": "Sat 14 Nov 06:34",
@@ -4755,7 +4779,7 @@
 "when": "Fri 13 Nov 17:23",
 "kind": "your chosen markets",
 "odds": 2.73,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:30",
@@ -4772,7 +4796,10 @@
 "game": "Oita Trinita vs Tochigi City FC",
 "pick": "Tochigi City FC Under 2.5 goals",
 "odds": 1.12,
-"ts": 1794632400.0
+"ts": 1794632400.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 06:00",
