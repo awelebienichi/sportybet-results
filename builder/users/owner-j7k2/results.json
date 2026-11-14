@@ -910,7 +910,10 @@
 "game": "Warrington Rylands 1906 FC vs Whitby Town",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1307,7 +1310,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -1386,7 +1392,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1575,7 +1584,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -2410,7 +2422,7 @@
 "odds": 1.24,
 "ts": 1794664800.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -2630,7 +2642,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3334,7 +3349,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4725,7 +4743,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -5232,7 +5253,10 @@
 "game": "Frome Town vs Hanworth Villa",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -7165,7 +7189,7 @@
 "odds": 1.24,
 "ts": 1794664800.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
