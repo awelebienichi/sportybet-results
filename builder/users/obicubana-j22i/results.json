@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JJQA9A",
+"at": 1794618735,
+"when": "Sat 14 Nov 02:12",
+"kind": "live basketball",
+"odds": 1.27,
+"status": "open",
+"legs": [
+{
+"t": "Sat 01:00",
+"game": "Bucknell Bison vs Columbia Lions",
+"pick": "Columbia Lions to win (incl. OT)",
+"odds": 1.06,
+"ts": 1794614400.0
+},
+{
+"t": "Sat 01:00",
+"game": "Indiana Pacers vs New York Knicks",
+"pick": "Indiana Pacers +9.5 (handicap)",
+"odds": 1.2,
+"ts": 1794614400.0
+}
+]
+},
+{
 "code": "HAGVR9",
 "at": 1794618555,
 "when": "Sat 14 Nov 02:09",
