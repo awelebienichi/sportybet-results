@@ -1,5 +1,133 @@
 [
 {
+"when": "Sat 14 Nov 04:17",
+"at": 1794626276,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "mix",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"target": 10,
+"rid": "mwfu4lz91on9"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [],
+"tickets": [
+{
+"code": "M9QHLC",
+"odds": 13.06,
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "Hellas Syrou vs Panthrakikos FC Komotini",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance Panthrakikos FC Komotini or draw",
+"odds": 1.42,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794657600.0,
+"eid": "sr:match:74172536",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "74172536|63||11"
+},
+{
+"t": "Sat 13:30",
+"game": "Rekord Bielsko-Biala vs Sleza Wroclaw",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "GG (both teams score)",
+"odds": 1.43,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1794659400.0,
+"eid": "sr:match:72577816",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72577816|29||74"
+},
+{
+"t": "Sat 16:00",
+"game": "Hebburn Town vs Guiseley FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Double chance Guiseley FC or draw",
+"odds": 1.47,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125228",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76125228|10||11"
+},
+{
+"t": "Sat 16:00",
+"game": "Swindon Town vs Grimsby Town",
+"lg": "England - League Two",
+"pick": "1st half double chance Swindon Town or draw",
+"odds": 1.45,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794668400.0,
+"eid": "sr:match:72342378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72342378|63||9"
+},
+{
+"t": "Sat 18:00",
+"game": "FC Yverdon vs Young Boys Bern",
+"lg": "Switzerland - Super League, Women",
+"pick": "GG (both teams score)",
+"odds": 1.6,
+"why": "stats rate 83% from both teams' last 10 and 6 meetings; Flashscore home/away form 65%",
+"ts": 1794675600.0,
+"eid": "sr:match:72652092",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72652092|29||74"
+},
+{
+"t": "Sat 18:00",
+"game": "Washington Spirit vs Utah Royals FC",
+"lg": "USA - National Womens Soccer League",
+"pick": "Under 3.5",
+"odds": 1.44,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, season: 2.6 goals a game",
+"ts": 1794675600.0,
+"eid": "sr:match:76636576",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76636576|18|total=3.5|13"
+},
+{
+"t": "Sat 18:30",
+"game": "Hamilton Academical FC vs Ross County FC",
+"lg": "Scotland - League 1",
+"pick": "1st half Over 0.5",
+"odds": 1.31,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794677400.0,
+"eid": "sr:match:72203984",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72203984|68|total=0.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 04:15",
 "at": 1794626111,
 "req": {
