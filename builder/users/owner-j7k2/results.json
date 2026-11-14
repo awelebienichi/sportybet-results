@@ -493,7 +493,10 @@
 "game": "VfL Wolfsburg W vs Bayern Munich W",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794675300.0
+"ts": 1794675300.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 18:00",
@@ -1808,7 +1811,10 @@
 "game": "VfL Wolfsburg W vs Bayern Munich W",
 "pick": "Over 2.5",
 "odds": 1.45,
-"ts": 1794675300.0
+"ts": 1794675300.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 18:00",
