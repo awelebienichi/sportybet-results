@@ -1,5 +1,318 @@
 [
 {
+"when": "Sat 14 Nov 11:01",
+"at": 1794650513,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-14",
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwg8kfbtzy3r"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [],
+"tickets": [
+{
+"code": "PM96TR",
+"odds": 2795.98,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Jerash FC vs AL Lewaa Club",
+"lg": "Saudi Arabia - Second Division",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794659400.0,
+"eid": "sr:match:73775058",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73775058|18|total=2.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "Hamburger SV II vs Kickers Emden",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, footybets 98%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1794661200.0,
+"eid": "sr:match:72674434",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72674434|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"lg": "Mexico - U21 Liga MX",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "stats rate 85% from both teams' last 10; season: 3.7 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:74627426",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74627426|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Scunthorpe United vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.4 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:72740804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740804|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Leamington FC vs Leiston FC",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 70%, FotMob: 3.6 goals a game",
+"ts": 1794668400.0,
+"eid": "sr:match:73022126",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73022126|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "East Kilbride FC vs Alloa Athletic FC",
+"lg": "Scotland - League 1",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "stats rate 79% from both teams' last 10; Flashscore home/away form 55%",
+"ts": 1794668400.0,
+"eid": "sr:match:72203982",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72203982|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Farnham Town vs Ebbsfleet United FC",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125280",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76125280|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Braintree Town FC vs Kettering Town",
+"lg": "England Amateur - FA Trophy",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1794668400.0,
+"eid": "sr:match:76125256",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76125256|18|total=2.5|12"
+},
+{
+"t": "Sat 17:00",
+"game": "Star Starachowice vs KS Naprzod Jedrzejow",
+"lg": "Poland - III Liga, Group 4",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1794672000.0,
+"eid": "sr:match:72517398",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72517398|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "RBC Roosendaal vs VV Goes",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 75%, season: 4.4 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:72596234",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72596234|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "Sheffield United LFC vs Bristol City WFC",
+"lg": "England Amateur - Super League 2, Women",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings; Flashscore home/away form 65%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794679200.0,
+"eid": "sr:match:73346550",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346550|18|total=2.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74838480|18|total=2.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Real Refineros Cds vs Saltillo Soccer FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 92%, season: 4.3 goals a game",
+"ts": 1794693600.0,
+"eid": "sr:match:74063606",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063606|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; season: 4.6 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111610",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111610|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "stats rate 90% from both teams' last 10; season: 4.1 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111640",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111640|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "stats rate 85% from both teams' last 10; season: 4.0 goals a game",
+"ts": 1794749400.0,
+"eid": "sr:match:73111374",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111374|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"lg": "England Amateur - Super League 2, Women",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1794751200.0,
+"eid": "sr:match:73346552",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73346552|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "stats rate 82% from both teams' last 10 and 4 meetings; season: 3.8 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72961086",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961086|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, season: 4.0 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72577814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72577814|18|total=2.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"lg": "International - UEFA Nations League",
+"pick": "Over 2.5",
+"odds": 1.68,
+"why": "stats rate 76% from both teams' last 10 and 6 meetings; Flashscore home/away form 75%, footybets 83%, FotMob: 3.5 goals a game",
+"ts": 1794771900.0,
+"eid": "sr:match:68931758",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "68931758|18|total=2.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 10:58",
 "at": 1794650338,
 "req": {
@@ -3808,117 +4121,6 @@
 "spec": "total=3.5",
 "oid": "13",
 "k": "74403630|19|total=3.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 21:25",
-"at": 1794515110,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwdzygwx4psy"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "GX0TJS",
-"odds": 1.43,
-"legs": [
-{
-"t": "Thu 20:00",
-"game": "Senegal vs Sudan",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:4 \u2013 Sudan",
-"odds": 1.04,
-"why": "LIVE 2-1 63': Senegal expected 0.6 and Sudan 0.3 more goals (last 10); 2-1 at 63' \u2013 97% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 7 meetings",
-"ts": 1794510000.0,
-"eid": "sr:match:75802296",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "75802296|14|hcp=0:4|1713"
-},
-{
-"t": "Thu 20:30",
-"game": "Plaza Colonia vs CA Rentistas",
-"lg": "Uruguay - Segunda Division",
-"pick": "CA Rentistas Under 3.5",
-"odds": 1.08,
-"why": "LIVE 0-1 45': Plaza Colonia expected 0.6 and CA Rentistas 0.5 more goals (last 10 + season); 0-1 at 45' \u2013 97% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
-"ts": 1794511800.0,
-"eid": "sr:match:76455736",
-"mid": "20",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76455736|20|total=3.5|13"
-},
-{
-"t": "Thu 20:30",
-"game": "CA Atenas de San Carlos vs Club Oriental de Football",
-"lg": "Uruguay - Segunda Division",
-"pick": "Handicap 0:2 \u2013 Club Oriental de Football",
-"odds": 1.07,
-"why": "LIVE 0-0 45': CA Atenas de San Carlos expected 0.6 and Club Oriental de Football 0.7 more goals (last 10 + season); 0-0 at 45' \u2013 92% chance; margin record 90% / 80% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1794511800.0,
-"eid": "sr:match:76455734",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76455734|14|hcp=0:2|1713"
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 3:0 \u2013 Italy",
-"odds": 1.07,
-"why": "LIVE 1-1 37': Italy expected 0.9 and France 1.1 more goals (last 10); 1-1 at 37' \u2013 93% chance; h2h 100% of 8 meetings",
-"ts": 1794512700.0,
-"eid": "sr:match:68931500",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "68931500|14|hcp=3:0|1711"
-},
-{
-"t": "Thu 20:45",
-"game": "San Marino vs Belarus",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 6:0 \u2013 San Marino",
-"odds": 1.06,
-"why": "LIVE 0-2 40': San Marino expected 0.4 and Belarus 1.4 more goals (last 10); 0-2 at 40' \u2013 92% chance; margin record 80% / 100% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1794512700.0,
-"eid": "sr:match:68932520",
-"mid": "14",
-"spec": "hcp=6:0",
-"oid": "1711",
-"k": "68932520|14|hcp=6:0|1711"
-},
-{
-"t": "Thu 21:00",
-"game": "SL Benfica Lisbon W vs FK Austria Wien",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Handicap 0:4 \u2013 FK Austria Wien",
-"odds": 1.05,
-"why": "LIVE 1-0 22': SL Benfica Lisbon W expected 1.1 and FK Austria Wien 1.3 more goals (last 10); 1-0 at 22' \u2013 94% chance; margin record 80% / 100% in both sides' last games",
-"ts": 1794513600.0,
-"eid": "sr:match:74403630",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "74403630|14|hcp=0:4|1713"
 }
 ]
 }
