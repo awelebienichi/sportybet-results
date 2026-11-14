@@ -1,5 +1,139 @@
 [
 {
+"when": "Sat 14 Nov 10:00",
+"at": 1794646855,
+"req": {
+"type": "rollover",
+"legs": 8,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6388 if it wins"
+],
+"tickets": [
+{
+"code": "UJAYE5",
+"odds": 3.88,
+"legs": [
+{
+"t": "Sat 13:50",
+"game": "Al Dhafra SSC vs Ajman Club",
+"lg": "United Arab Emirates - Pro League Cup",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
+"ts": 1794660600.0,
+"eid": "sr:match:75907944",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75907944|90|total=0.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "Hamburger SV II vs Kickers Emden",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%, Flashscore home/away 95%, footybets 97%; FotMob: 4.3 goals a game, Vitibet tip 1-2",
+"ts": 1794661200.0,
+"eid": "sr:match:72674434",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72674434|450001||25"
+},
+{
+"t": "Sat 16:00",
+"game": "Cove Rangers FC vs Montrose FC",
+"lg": "Scotland - League 1",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%",
+"ts": 1794668400.0,
+"eid": "sr:match:72203978",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72203978|90|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"lg": "Mexico - U21 Liga MX",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794668400.0,
+"eid": "sr:match:74627426",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74627426|450001||25"
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 100%",
+"ts": 1794682800.0,
+"eid": "sr:match:72044814",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72044814|68|total=0.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"lg": "Brazil - Brasileiro Serie B",
+"pick": "Under 4.5",
+"odds": 1.18,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%, Flashscore home/away 95%; FotMob: 2.6 goals a game, Vitibet tip 1-0, season: 2.6 goals a game",
+"ts": 1794684600.0,
+"eid": "sr:match:68823482",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "68823482|18|total=4.5|13"
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 95%",
+"ts": 1794684600.0,
+"eid": "sr:match:74838480",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74838480|18|total=1.5|12"
+},
+{
+"t": "Sat 22:00",
+"game": "Club Comunicaciones vs Arsenal de Sarandi",
+"lg": "Argentina - Primera B",
+"pick": "Under 3.5",
+"odds": 1.19,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 100%; Vitibet tip 0-0, season: 1.9 goals a game",
+"ts": 1794690000.0,
+"eid": "sr:match:76427132",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76427132|18|total=3.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 09:57",
 "at": 1794646633,
 "req": {
@@ -3795,15 +3929,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 16:01",
-"at": 1794495691,
-"req": {
-"type": "rollover",
-"rid": "mwdodq4ikzd7"
-},
-"ok": false,
-"msg": "Today's rollover code is already out: NR95TL"
 }
 ]

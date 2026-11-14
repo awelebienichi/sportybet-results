@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "UJAYE5",
+"at": 1794646855,
+"when": "Sat 14 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 3.88,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:50",
+"game": "Al Dhafra SSC vs Ajman Club",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1794660600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Hamburger SV II vs Kickers Emden",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cove Rangers FC vs Montrose FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 20:00",
+"game": "De Graafschap vs TOP Oss",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1794682800.0
+},
+{
+"t": "Sat 20:30",
+"game": "CR Brasil AL vs Ceara SC CE",
+"pick": "Under 4.5",
+"odds": 1.18,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 20:30",
+"game": "Scotland vs Kosovo",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794684600.0
+},
+{
+"t": "Sat 22:00",
+"game": "Club Comunicaciones vs Arsenal de Sarandi",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1794690000.0
+}
+]
+},
+{
 "code": "YC1NCJ",
 "at": 1794646633,
 "when": "Sat 14 Nov 09:57",
