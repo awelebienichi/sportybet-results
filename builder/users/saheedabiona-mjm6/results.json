@@ -131,7 +131,10 @@
 "game": "Walsall FC vs Barnet FC",
 "pick": "GG (both teams score)",
 "odds": 1.53,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -314,7 +317,10 @@
 "game": "Walsall FC vs Barnet FC",
 "pick": "GG (both teams score)",
 "odds": 1.53,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 10:15",
