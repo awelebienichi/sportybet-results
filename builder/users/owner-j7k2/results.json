@@ -1236,7 +1236,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.15,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -1433,7 +1436,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -2533,7 +2539,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -2797,7 +2806,7 @@
 "when": "Sat 14 Nov 06:51",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 1.5,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:45",
@@ -2814,7 +2823,10 @@
 "game": "Spain vs Wales",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
@@ -3584,7 +3596,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.2,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
@@ -4576,7 +4591,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.24,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -4930,7 +4948,10 @@
 "game": "Jerash FC vs AL Lewaa Club",
 "pick": "Goal bounds 2-5+",
 "odds": 1.24,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -5638,7 +5659,10 @@
 "game": "Spain vs Wales",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1794659400.0
+"ts": 1794659400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:45",
