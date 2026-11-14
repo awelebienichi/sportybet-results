@@ -4338,7 +4338,7 @@
 "when": "Sat 14 Nov 06:09",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 503.7,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 07:00",
@@ -4365,7 +4365,10 @@
 "game": "Real Betis Balompie vs Cadiz CF",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 12:00",
@@ -4743,7 +4746,10 @@
 "game": "Real Betis Balompie vs Cadiz CF",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 12:00",
@@ -4834,7 +4840,10 @@
 "game": "Real Betis Balompie vs Cadiz CF",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1794654000.0
+"ts": 1794654000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
