@@ -1206,7 +1206,10 @@
 "game": "Belgium vs Kazakhstan",
 "pick": "1st half double chance Belgium or draw",
 "odds": 1.09,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -1298,7 +1301,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.11,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1507,7 +1513,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Over 1.5",
 "odds": 1.11,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1600,7 +1609,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Over 1.5",
 "odds": 1.11,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2728,7 +2740,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3481,7 +3496,7 @@
 "odds": 1.13,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -3510,7 +3525,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.09,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4174,7 +4192,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.09,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4394,7 +4415,7 @@
 "odds": 1.13,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -5558,7 +5579,7 @@
 "odds": 1.13,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -5566,7 +5587,10 @@
 "game": "Billericay Town vs Waltham Abbey FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
