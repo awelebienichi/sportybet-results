@@ -1,5 +1,75 @@
 [
 {
+"when": "Sat 14 Nov 04:25",
+"at": 1794626731,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwfuevqrhakm"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "Q9A3CL",
+"odds": 1.17,
+"legs": [
+{
+"t": "Sat 02:45",
+"game": "Sonio Takamatsu vs Tokyo United FC",
+"lg": "Japan - Regional Football Champions League",
+"pick": "Tokyo United FC or draw",
+"odds": 1.03,
+"why": "LIVE 1-1 83': no team stats for this game \u2013 SportyBet's own price says 92%",
+"ts": 1794620700.0,
+"eid": "sr:match:76640636",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76640636|10||11"
+},
+{
+"t": "Sat 03:00",
+"game": "Reboceros de La Piedad vs Racing de Veracruz",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "Handicap 3:0 \u2013 Reboceros de La Piedad",
+"odds": 1.05,
+"why": "LIVE 0-1 64': Reboceros de La Piedad expected 0.5 and Racing de Veracruz 0.8 more goals (last 10 + season); 0-1 at 64' \u2013 86% chance",
+"ts": 1794621600.0,
+"eid": "sr:match:74100774",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "74100774|14|hcp=3:0|1711"
+},
+{
+"t": "Sat 03:30",
+"game": "Tigres de Alica FC vs Jaguares FC",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "Handicap 0:2 \u2013 Jaguares FC",
+"odds": 1.09,
+"why": "LIVE 1-1 45': Tigres de Alica FC expected 0.9 and Jaguares FC 0.8 more goals (last 10 + season); 1-1 at 45' \u2013 85% chance; margin record 80% / 90% in both sides' last games",
+"ts": 1794623400.0,
+"eid": "sr:match:74100772",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "74100772|14|hcp=0:2|1713"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 02:05",
 "at": 1794618347,
 "req": {
@@ -3965,21 +4035,6 @@
 "legs": 3,
 "strict": "strict",
 "rid": "mwdg3rgzaqrk"
-},
-"ok": false,
-"msg": "8 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
-},
-{
-"when": "Thu 12 Nov 12:08",
-"at": 1794481716,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 2,
-"strict": "strict",
-"rid": "mwdg2sd1by7j"
 },
 "ok": false,
 "msg": "8 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
