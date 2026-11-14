@@ -1,5 +1,26 @@
 [
 {
+"when": "Sat 14 Nov 14:17",
+"at": 1794662238,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "mix",
+"legs": 5,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 10,
+"rid": "mwgfjonjfn81"
+},
+"ok": false,
+"msg": "Could not reach 10 odds with 5 legs or fewer from the 128 games that pass the checks for safest market per game (Sat 14). Allow more legs or a lower target."
+},
+{
 "when": "Sat 14 Nov 11:55",
 "at": 1794653702,
 "req": {
@@ -5120,48 +5141,6 @@
 "spec": "hcp=0:2",
 "oid": "1713",
 "k": "74827368|14|hcp=0:2|1713"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 08:30",
-"at": 1794555056,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwenqo42ht3j"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "LVMFL8",
-"odds": 1.03,
-"legs": [
-{
-"t": "Fri 07:00",
-"game": "Kodagu FC vs Technico FF",
-"lg": "India - Bangalore Super Division",
-"pick": "Kodagu FC to win",
-"odds": 1.04,
-"why": "LIVE 1-0 67': no team stats for this game \u2013 SportyBet's own price says 91%",
-"ts": 1794549600.0,
-"eid": "sr:match:76638804",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "76638804|1||1"
 }
 ]
 }
