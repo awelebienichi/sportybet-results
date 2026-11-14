@@ -1,5 +1,75 @@
 [
 {
+"when": "Sat 14 Nov 02:05",
+"at": 1794618347,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwfpf59p2aro"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "J9J8FM",
+"odds": 1.15,
+"legs": [
+{
+"t": "Sat 01:00",
+"game": "Colombia vs Chile",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:4 \u2013 Chile",
+"odds": 1.03,
+"why": "LIVE 1-0 45': Colombia expected 0.9 and Chile 0.7 more goals (last 10); 1-0 at 45' \u2013 95% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794614400.0,
+"eid": "sr:match:76123792",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "76123792|14|hcp=0:4|1713"
+},
+{
+"t": "Sat 01:00",
+"game": "Ecuador vs Costa Rica",
+"lg": "International - Int. Friendly Games",
+"pick": "Handicap 0:4 \u2013 Costa Rica",
+"odds": 1.08,
+"why": "LIVE 1-0 45': Ecuador expected 1.0 and Costa Rica 0.9 more goals (last 10); 1-0 at 45' \u2013 94% chance; margin record 100% / 90% in both sides' last games, h2h 75% of 4 meetings",
+"ts": 1794614400.0,
+"eid": "sr:match:76170242",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "76170242|14|hcp=0:4|1713"
+},
+{
+"t": "Sat 02:00",
+"game": "Wellington Phoenix FC vs Auckland City FC",
+"lg": "New Zealand - National League",
+"pick": "Auckland City FC or draw",
+"odds": 1.03,
+"why": "LIVE 0-0 6': Wellington Phoenix FC expected 0.9 and Auckland City FC 2.5 more goals (last 10 + season); 0-0 at 6' \u2013 86% chance; Flashscore home/away form 65%",
+"ts": 1794618000.0,
+"eid": "sr:match:74873412",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "74873412|10||11"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 01:03",
 "at": 1794614586,
 "req": {
@@ -3910,21 +3980,6 @@
 "legs": 2,
 "strict": "strict",
 "rid": "mwdg2sd1by7j"
-},
-"ok": false,
-"msg": "8 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
-},
-{
-"when": "Thu 12 Nov 12:08",
-"at": 1794481688,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 2,
-"strict": "strict",
-"rid": "mwdg25ecug2g"
 },
 "ok": false,
 "msg": "8 games are in play and 1 looked promising, but none reached the bar (88% from the stats, 82% after the bookmaker's price, a stats source backing it and none against it). Try again in a few minutes."
