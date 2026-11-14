@@ -2115,7 +2115,10 @@
 "game": "MKS Mlawianka Mlawa vs Wigry Suwalki",
 "pick": "Wigry Suwalki to score in 1st half",
 "odds": 1.51,
-"ts": 1794657600.0
+"ts": 1794657600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 18:00",
@@ -2362,7 +2365,10 @@
 "game": "Fluminense FC RJ vs Botafogo FR RJ",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.17,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 14:00",
@@ -3290,7 +3296,10 @@
 "game": "Fluminense FC RJ vs Botafogo FR RJ",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.17,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 14:30",
@@ -4041,7 +4050,10 @@
 "game": "Fluminense FC RJ vs Botafogo FR RJ",
 "pick": "1st half double chance Fluminense FC RJ or draw",
 "odds": 1.17,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 14:30",
