@@ -2,6 +2,23 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "G29CJ9",
+"at": 1794614586,
+"when": "Sat 14 Nov 01:03",
+"kind": "live \u2013 best of all",
+"odds": 1.03,
+"status": "open",
+"legs": [
+{
+"t": "Sat 00:00",
+"game": "Argentina vs Uruguay",
+"pick": "Uruguay Under 1.5",
+"odds": 1.03,
+"ts": 1794610800.0
+}
+]
+},
+{
 "code": "NCESB1",
 "at": 1794613045,
 "when": "Sat 14 Nov 00:37",
