@@ -3648,7 +3648,10 @@
 "game": "GVVV Veenendaal vs SV Spakenburg",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.4,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Sat 14:30",
@@ -4175,7 +4178,10 @@
 "game": "GVVV Veenendaal vs SV Spakenburg",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.4,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Sat 14:30",
@@ -5301,7 +5307,10 @@
 "game": "GVVV Veenendaal vs SV Spakenburg",
 "pick": "1st half double chance GVVV Veenendaal or draw",
 "odds": 1.4,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Sat 15:00",
