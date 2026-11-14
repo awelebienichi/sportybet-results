@@ -1116,7 +1116,10 @@
 "game": "ACV Assen vs ADO 20 Heemskerk",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "4-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -2698,7 +2701,10 @@
 "game": "Salisbury FC vs Chichester City FC",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -3360,7 +3366,10 @@
 "game": "Salisbury FC vs Chichester City FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4747,7 +4756,10 @@
 "game": "Salisbury FC vs Chichester City FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -5667,7 +5679,10 @@
 "game": "Salisbury FC vs Chichester City FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1794668400.0
+"ts": 1794668400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
