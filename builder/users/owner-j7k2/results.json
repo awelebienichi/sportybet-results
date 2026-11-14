@@ -2,6 +2,219 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KU5H2H",
+"at": 1794658962,
+"when": "Sat 14 Nov 13:22",
+"kind": "rebuild of QXB6HN",
+"odds": 993.45,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Valladolid vs CD Castellon",
+"pick": "1st half Over 0.5",
+"odds": 1.32,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Kozakken Boys Werkendam vs Jong Sparta Rotterdam",
+"pick": "1st half Under 2.5",
+"odds": 1.28,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Central Espanol FC vs CA Boston River",
+"pick": "1st half double chance CA Boston River or draw",
+"odds": 1.29,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "NK Rudes Zagreb vs NK Segesta",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "VfB Lubeck vs Eintracht Norderstedt",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:00",
+"game": "FK Neftchi Fargona vs FC Bunyodkor",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1794661200.0
+},
+{
+"t": "Sat 14:30",
+"game": "AC Renate vs Calcio Desenzano",
+"pick": "1st half double chance AC Renate or draw",
+"odds": 1.19,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "US Albinoleffe vs Union Brescia",
+"pick": "Over 1.5",
+"odds": 1.32,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs SV Spakenburg",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "Rijnsburgse Boys vs Koninklijke HFC",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "FC Volga Ulyanovsk vs Torpedo Moscow",
+"pick": "Over 1.5",
+"odds": 1.38,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "Reggiana 1919 vs US Livorno 1915",
+"pick": "Over 1.5",
+"odds": 1.27,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "S.S.D. Casarano Calcio vs AZ Picerno",
+"pick": "Under 4.5",
+"odds": 1.15,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 14:30",
+"game": "ACV Assen vs ADO 20 Heemskerk",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794663000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Kosovo vs Israel",
+"pick": "2nd half Over 0.5",
+"odds": 1.27,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "IJsselmeervogels vs BVV Barendrecht",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "K.v.v. Quick Boys vs Jong Almere City FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Cardiff Draconians",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Bassecourt vs Zug 94",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794664800.0
+},
+{
+"t": "Sat 15:15",
+"game": "Amsterdamsche FC vs De Treffers Groesbeek",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1794665700.0
+},
+{
+"t": "Sat 16:00",
+"game": "Vendee Fontenay Foot vs Clermont Foot",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Palestine vs IR Iran",
+"pick": "Over 1.5",
+"odds": 1.34,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Belgium vs Kazakhstan",
+"pick": "1st half double chance Belgium or draw",
+"odds": 1.09,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Waltham Abbey FC",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bridlington Town vs Macclesfield FC",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Farnham Town vs Ebbsfleet United FC",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Newmarket Town vs Oxford City",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Whitehawk FC vs Tonbridge Angels",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1794668400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Boston United FC",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1794668400.0
+}
+]
+},
+{
 "code": "K9TBNR",
 "at": 1794651871,
 "when": "Sat 14 Nov 11:24",
