@@ -153,7 +153,7 @@
 "odds": 1.43,
 "ts": 1794682800.0,
 "r": "L",
-"sc": "3-0",
+"sc": "4-0",
 "ht": "1-0"
 },
 {
@@ -222,7 +222,10 @@
 "game": "Portugal vs Denmark",
 "pick": "1st half double chance Portugal or draw",
 "odds": 1.19,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 21:00",
@@ -274,7 +277,7 @@
 "when": "Sat 14 Nov 17:18",
 "kind": "your tracker's best markets",
 "odds": 12.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 18:00",
@@ -395,7 +398,10 @@
 "game": "Portugal vs Denmark",
 "pick": "1st half double chance Portugal or draw",
 "odds": 1.18,
-"ts": 1794685500.0
+"ts": 1794685500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 21:00",
@@ -3168,7 +3174,7 @@
 "odds": 1.35,
 "ts": 1794682800.0,
 "r": "W",
-"sc": "3-0",
+"sc": "4-0",
 "ht": "1-0"
 },
 {
@@ -3553,7 +3559,7 @@
 "odds": 1.35,
 "ts": 1794682800.0,
 "r": "W",
-"sc": "3-0",
+"sc": "4-0",
 "ht": "1-0"
 },
 {
