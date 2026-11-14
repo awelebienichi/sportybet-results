@@ -1033,14 +1033,20 @@
 "game": "FK Neftchi Fargona vs FC Bunyodkor",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1794661200.0
+"ts": 1794661200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 14:30",
 "game": "AC Renate vs Calcio Desenzano",
 "pick": "1st half double chance AC Renate or draw",
 "odds": 1.19,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 14:30",
@@ -1134,7 +1140,10 @@
 "game": "Amsterdamsche FC vs De Treffers Groesbeek",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1794665700.0
+"ts": 1794665700.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2383,7 +2392,10 @@
 "game": "Amsterdamsche FC vs De Treffers Groesbeek",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1794665700.0
+"ts": 1794665700.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3615,15 +3627,18 @@
 "odds": 1.13,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "0-3",
-"ht": ""
+"sc": "0-4",
+"ht": "0-3"
 },
 {
 "t": "Sat 14:30",
 "game": "AC Renate vs Calcio Desenzano",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.18,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 14:30",
@@ -3930,8 +3945,8 @@
 "odds": 1.13,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "0-3",
-"ht": ""
+"sc": "0-4",
+"ht": "0-3"
 },
 {
 "t": "Sat 14:00",
@@ -4579,7 +4594,10 @@
 "game": "AC Renate vs Calcio Desenzano",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.18,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 15:00",
@@ -4930,7 +4948,10 @@
 "game": "AC Renate vs Calcio Desenzano",
 "pick": "1st half double chance AC Renate or draw",
 "odds": 1.18,
-"ts": 1794663000.0
+"ts": 1794663000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 14:30",
@@ -5443,8 +5464,8 @@
 "odds": 1.13,
 "ts": 1794661200.0,
 "r": "W",
-"sc": "0-3",
-"ht": ""
+"sc": "0-4",
+"ht": "0-3"
 },
 {
 "t": "Sat 16:00",
