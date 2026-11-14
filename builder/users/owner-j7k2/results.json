@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KVZTS4",
+"at": 1794637591,
+"when": "Sat 14 Nov 07:26",
+"kind": "live \u2013 best of all",
+"odds": 1.46,
+"status": "open",
+"legs": [
+{
+"t": "Sat 06:00",
+"game": "FC Gifu vs Matsumoto Yamaga FC",
+"pick": "Under 2.5",
+"odds": 1.03,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Shonan Bellmare vs Yokohama FC",
+"pick": "Shonan Bellmare Under 2.5",
+"odds": 1.04,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Giravanz Kitakyushu vs Thespa Gunma",
+"pick": "Under 6.5",
+"odds": 1.04,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Albirex Niigata vs Tegevajaro Miyazaki",
+"pick": "Under 4.5",
+"odds": 1.05,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "RB Omiya Ardija vs Montedio Yamagata",
+"pick": "Handicap 0:4 \u2013 Montedio Yamagata",
+"odds": 1.06,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Fukushima United FC vs SC Sagamihara",
+"pick": "Fukushima United FC Under 2.5",
+"odds": 1.08,
+"ts": 1794632400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Fujieda MYFC vs Ventforet Kofu",
+"pick": "GG \u2013 No",
+"odds": 1.09,
+"ts": 1794632400.0
+}
+]
+},
+{
 "code": "P12L10",
 "at": 1794636540,
 "when": "Sat 14 Nov 07:09",
