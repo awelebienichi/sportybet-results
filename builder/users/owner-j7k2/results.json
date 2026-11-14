@@ -432,7 +432,10 @@
 "game": "Atletico Colina vs CD Provincial Ovalle FC",
 "pick": "Under 3.5",
 "odds": 1.25,
-"ts": 1794690000.0
+"ts": 1794690000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 22:30",
@@ -459,7 +462,10 @@
 "game": "Deportivo Madryn vs CD Maipu",
 "pick": "1st half double chance CD Maipu or draw",
 "odds": 1.48,
-"ts": 1794693600.0
+"ts": 1794693600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
