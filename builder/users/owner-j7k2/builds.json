@@ -1,5 +1,64 @@
 [
 {
+"when": "Sat 14 Nov 06:59",
+"at": 1794635972,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "drawlow",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-14"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwfzwxnk6vde"
+},
+"ok": true,
+"kind": "draw & low-scoring teams (season data)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."
+],
+"tickets": [
+{
+"code": "N0THUX",
+"odds": 2.64,
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "AS Saint-Etienne vs OGC Nice",
+"lg": "France - Seconde Ligue, Women",
+"pick": "Under 3.5",
+"odds": 1.59,
+"why": "season: 2.1 and 1.9 goals a game; last 10 rate 85%; Flashscore home/away form 75%, season: 2.0 goals a game",
+"ts": 1794664800.0,
+"eid": "sr:match:72700616",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72700616|18|total=3.5|13"
+},
+{
+"t": "Sat 19:00",
+"game": "Goytacaz FC RJ vs Niteroiense",
+"lg": "Brazil - Carioca, Serie B1",
+"pick": "Under 2.5",
+"odds": 1.66,
+"why": "season: 1.7 and 2.0 goals a game; last 10 rate 80%; Flashscore home/away form 65%",
+"ts": 1794679200.0,
+"eid": "sr:match:76582872",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76582872|18|total=2.5|13"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 06:57",
 "at": 1794635833,
 "req": {
@@ -9292,20 +9351,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 18:27",
-"at": 1794590875,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bblive",
-"kind": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwf92h3luwnt"
-},
-"ok": false,
-"msg": "15 basketball games were judged in play, but none reached the bar right now. Try Normal/Relaxed or again in a few minutes."
 }
 ]
