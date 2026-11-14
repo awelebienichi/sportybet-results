@@ -1,5 +1,61 @@
 [
 {
+"when": "Sat 14 Nov 08:59",
+"at": 1794643183,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwg47juv5uzl"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 5).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away."
+],
+"tickets": [
+{
+"code": "Y435ZH",
+"odds": 1.22,
+"legs": [
+{
+"t": "Sat 08:00",
+"game": "Persita Tangerang vs Dewa United FC",
+"lg": "Indonesia - U20 Super League",
+"pick": "Persita Tangerang or draw",
+"odds": 1.05,
+"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 90%",
+"ts": 1794639600.0,
+"eid": "sr:match:111111114488807",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "111111114488807|10||9"
+},
+{
+"t": "Sat 08:00",
+"game": "North District FC vs Hong Kong FC",
+"lg": "Hong Kong, China - Hongkong League Cup",
+"pick": "Handicap 0:3 \u2013 Hong Kong FC",
+"odds": 1.16,
+"why": "LIVE 0-0 45': North District FC expected 1.4 and Hong Kong FC 0.9 more goals (last 10); 0-0 at 45' \u2013 88% chance; h2h 88% of 8 meetings",
+"ts": 1794639600.0,
+"eid": "sr:match:76170238",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76170238|14|hcp=0:3|1713"
+}
+]
+}
+]
+},
+{
 "when": "Sat 14 Nov 08:27",
 "at": 1794641225,
 "req": {
@@ -3776,250 +3832,6 @@
 "pick": "Over 1.5",
 "odds": 1.23,
 "why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 100%; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
-"ts": 1794517200.0,
-"eid": "sr:match:73075396",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73075396|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Thu 12 Nov 13:18",
-"at": 1794485924,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"markets": [
-"o15"
-],
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-12"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwdikyzblug7"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 15 games passed the checks (Thu 12, 81 games on SportyBet), so this ticket has 15 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "LB9B92",
-"odds": 16.02,
-"legs": [
-{
-"t": "Thu 14:00",
-"game": "Iceland vs Greece",
-"lg": "International Youth - U21 UEFA European Championship, Qualification",
-"pick": "Over 1.5",
-"odds": 1.26,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%, season: 3.4 goals a game",
-"ts": 1794488400.0,
-"eid": "sr:match:75439646",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75439646|18|total=1.5|12"
-},
-{
-"t": "Thu 14:00",
-"game": "Borussia M\u00b4gladbach vs Standard Liege",
-"lg": "International Clubs - Club Friendly Games",
-"pick": "Over 1.5",
-"odds": 1.17,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings",
-"ts": 1794488400.0,
-"eid": "sr:match:76693526",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76693526|18|total=1.5|12"
-},
-{
-"t": "Thu 14:00",
-"game": "Serbia vs North Macedonia",
-"lg": "International Youth - U21 Friendly Games",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%",
-"ts": 1794488400.0,
-"eid": "sr:match:76558024",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76558024|18|total=1.5|12"
-},
-{
-"t": "Thu 16:00",
-"game": "Uzbekistan vs Russia",
-"lg": "International - Int. Friendly Games",
-"pick": "Over 1.5",
-"odds": 1.37,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 61%, footybets 82%",
-"ts": 1794495600.0,
-"eid": "sr:match:75879158",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75879158|18|total=1.5|12"
-},
-{
-"t": "Thu 17:00",
-"game": "Italy vs Portugal",
-"lg": "International Youth - U20 Friendly Games",
-"pick": "Over 1.5",
-"odds": 1.26,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
-"ts": 1794499200.0,
-"eid": "sr:match:76558294",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76558294|18|total=1.5|12"
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"lg": "International Clubs - UEFA Europa Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 80%",
-"ts": 1794502800.0,
-"eid": "sr:match:75233062",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75233062|18|total=1.5|12"
-},
-{
-"t": "Thu 18:30",
-"game": "Malta vs Eswatini",
-"lg": "International - Int. Friendly Games",
-"pick": "Over 1.5",
-"odds": 1.4,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 65%",
-"ts": 1794504600.0,
-"eid": "sr:match:76140570",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76140570|18|total=1.5|12"
-},
-{
-"t": "Thu 18:45",
-"game": "FC Barcelona W vs Arsenal WFC",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 1.5",
-"odds": 1.07,
-"why": "stats rate 87% from both teams' last 10 and 5 meetings; Flashscore home/away form 90%, Vitibet tip 3-1",
-"ts": 1794505500.0,
-"eid": "sr:match:74371846",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74371846|18|total=1.5|12"
-},
-{
-"t": "Thu 19:00",
-"game": "Chambery SF vs Grenoble Foot",
-"lg": "France - Coupe de France",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%",
-"ts": 1794506400.0,
-"eid": "sr:match:76171256",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76171256|18|total=1.5|12"
-},
-{
-"t": "Thu 19:00",
-"game": "CA San Lorenzo de Almagro vs Union de Santa Fe",
-"lg": "Argentina - Primera Division, Women",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%, season: 2.8 goals a game",
-"ts": 1794506400.0,
-"eid": "sr:match:76585758",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76585758|18|total=1.5|12"
-},
-{
-"t": "Thu 20:30",
-"game": "England vs Czechia",
-"lg": "International Youth - U20 Friendly Games",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "stats rate 92% from both teams' last 10 and 7 meetings; Flashscore home/away form 95%, Vitibet tip 2-1",
-"ts": 1794511800.0,
-"eid": "sr:match:76558318",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76558318|18|total=1.5|12"
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"lg": "International - UEFA Nations League",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, footybets 88%, FotMob: 4.4 goals a game, Vitibet tip 2-1",
-"ts": 1794512700.0,
-"eid": "sr:match:68931756",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "68931756|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "SL Benfica Lisbon W vs FK Austria Wien",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%, Vitibet tip 2-1",
-"ts": 1794513600.0,
-"eid": "sr:match:74403630",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74403630|18|total=1.5|12"
-},
-{
-"t": "Thu 21:30",
-"game": "AD Izalco vs AD Forfut",
-"lg": "El Salvador - Liga de Ascenso",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "stats rate 90% from both teams' last 10; season: 3.4 goals a game",
-"ts": 1794515400.0,
-"eid": "sr:match:76644046",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76644046|18|total=1.5|12"
-},
-{
-"t": "Thu 22:00",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"lg": "El Salvador - Primera Division",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 100%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
 "ts": 1794517200.0,
 "eid": "sr:match:73075396",
 "mid": "18",
