@@ -2,6 +2,100 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "XHA7E0",
+"at": 1794743341,
+"when": "Sun 15 Nov 12:49",
+"kind": "live football + basketball (10 \u26bd + 2 \ud83c\udfc0)",
+"odds": 1.67,
+"status": "open",
+"legs": [
+{
+"t": "Sun 11:00",
+"game": "BC Novosibirsk vs Barnaul Altayskiy Kray",
+"pick": "BC Novosibirsk to win (incl. OT)",
+"odds": 1.04,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:30",
+"game": "CD Cieza vs SCR Pena Deportiva",
+"pick": "SCR Pena Deportiva Under 1.5",
+"odds": 1.03,
+"ts": 1794738600.0
+},
+{
+"t": "Sun 11:30",
+"game": "Apollon Kalamarias vs Kallithea FC",
+"pick": "Under 3.5",
+"odds": 1.05,
+"ts": 1794738600.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Utrera vs Bollullos CF",
+"pick": "CD Utrera Under 3.5",
+"odds": 1.03,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "CF Pobla de Mafumet vs UE San Juan Atletico de Montcada",
+"pick": "CF Pobla de Mafumet Under 2.5",
+"odds": 1.03,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Madrid CFF vs Logrono United",
+"pick": "Madrid CFF Under 3.5",
+"odds": 1.03,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "UD Almeria B vs UD Melilla",
+"pick": "UD Almeria B or UD Melilla",
+"odds": 1.04,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "BKS Sparta Katowice vs Odra Bytom Odrzanski",
+"pick": "Handicap 0:3 \u2013 Odra Bytom Odrzanski",
+"odds": 1.07,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Chiangmai FC vs Kamphaeng Phet FC",
+"pick": "Chiangmai FC to win",
+"odds": 1.03,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Extremadura vs Pontevedra CF",
+"pick": "CD Extremadura Under 3.5",
+"odds": 1.04,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Real Valladolid Promesas vs CD Numancia",
+"pick": "CD Numancia Under 2.5",
+"odds": 1.03,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Konya BBSK vs Fenerbahce Gelisim",
+"pick": "Fenerbahce Gelisim to win (incl. OT)",
+"odds": 1.12,
+"ts": 1794740400.0
+}
+]
+},
+{
 "code": "S0NKBS",
 "at": 1794726225,
 "when": "Sun 15 Nov 08:03",
@@ -811,7 +905,10 @@
 "game": "BKS Sparta Katowice vs Odra Bytom Odrzanski",
 "pick": "1st half GG \u2013 No",
 "odds": 1.22,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:30",
