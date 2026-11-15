@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 08:26",
 "kind": "live \u2013 best of all",
 "odds": 1.63,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 07:00",
@@ -28,14 +28,20 @@
 "game": "Liaoning Shenbei Hefeng vs Beijing WFC",
 "pick": "Liaoning Shenbei Hefeng or Beijing WFC",
 "odds": 1.13,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 07:00",
 "game": "Zhejiang Hangzhou vs Jiangsu LFC",
 "pick": "Under 2.5",
 "odds": 1.19,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 08:00",
