@@ -693,7 +693,10 @@
 "game": "Boston College Eagles vs New Hampshire Wildcats",
 "pick": "Over 125.5 total points",
 "odds": 1.4,
-"ts": 1794767400.0
+"ts": 1794767400.0,
+"r": "L",
+"sc": "67-55",
+"ht": "31-28"
 },
 {
 "t": "Sun 20:00",
@@ -1288,7 +1291,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 22:00",
@@ -1590,7 +1596,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 22:00",
@@ -2180,7 +2189,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 21:50",
@@ -2447,7 +2459,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -5085,7 +5100,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Mon 00:00",
@@ -7420,7 +7438,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -8533,7 +8554,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 22:00",
@@ -9281,7 +9305,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -9478,7 +9505,10 @@
 "game": "Humble Lions FC vs Arnett Gardens FC",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Mon 00:00",
