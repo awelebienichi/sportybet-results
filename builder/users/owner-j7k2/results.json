@@ -1270,7 +1270,7 @@
 "odds": 1.18,
 "ts": 1794760200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -5614,7 +5614,10 @@
 "game": "Real Balompedica Linense vs RC Portuense",
 "pick": "Goal bounds 2-5+",
 "odds": 1.39,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -8562,7 +8565,10 @@
 "game": "Real Balompedica Linense vs RC Portuense",
 "pick": "Over 1.5",
 "odds": 1.38,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 19:00",
