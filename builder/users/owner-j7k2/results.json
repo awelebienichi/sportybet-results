@@ -71,7 +71,10 @@
 "game": "Union San Felipe vs Union Espanola",
 "pick": "Half-time draw",
 "odds": 2.15,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Sun 22:00",
@@ -446,14 +449,17 @@
 "when": "Sun 15 Nov 19:47",
 "kind": "half-time draw \u2013 weak teams",
 "odds": 8.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 22:00",
 "game": "Union San Felipe vs Union Espanola",
 "pick": "Half-time draw",
 "odds": 2.15,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Mon 00:05",
