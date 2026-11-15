@@ -8904,7 +8904,10 @@
 "game": "Scotland vs USA",
 "pick": "Scotland or GG",
 "odds": 1.21,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -8928,7 +8931,10 @@
 "game": "RB Leipzig vs Eintracht Frankfurt",
 "pick": "1st half GG \u2013 No",
 "odds": 1.27,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
