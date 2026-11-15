@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SQJ3FB",
+"at": 1794753590,
+"when": "Sun 15 Nov 15:39",
+"kind": "your chosen markets",
+"odds": 8.35,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:00",
+"game": "Atletico Bembibre vs Cultural Deportiva Leonesa B",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 17:15",
+"game": "CD BARCO vs CD Boiro",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1794759300.0
+},
+{
+"t": "Sun 18:00",
+"game": "US Yacoub Mansour vs US Musulmane Oujda",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"pick": "Under 3.5",
+"odds": 1.11,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1794771000.0
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"pick": "Under 3.5",
+"odds": 1.1,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Gimnasia de Chivilcoy vs Douglas Haig",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:50",
+"game": "Envigado FC vs Union Magdalena",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1794775800.0
+},
+{
+"t": "Sun 22:00",
+"game": "San Marcos de Arica vs San Luis de Quillota",
+"pick": "Under 3.5",
+"odds": 1.3,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportivo San Pedro vs CD Marquense",
+"pick": "Under 3.5",
+"odds": 1.28,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "W4T2G2",
 "at": 1794752969,
 "when": "Sun 15 Nov 15:29",
@@ -7287,7 +7381,7 @@
 "odds": 1.16,
 "ts": 1794747600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
@@ -8672,7 +8766,7 @@
 "odds": 1.37,
 "ts": 1794747600.0,
 "r": "W",
-"sc": "6-0",
+"sc": "6-1",
 "ht": "3-0"
 },
 {
