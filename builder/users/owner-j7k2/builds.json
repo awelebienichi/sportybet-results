@@ -1,7 +1,7 @@
 [
 {
-"when": "Sun 15 Nov 14:32",
-"at": 1794749572,
+"when": "Sun 15 Nov 14:37",
+"at": 1794749857,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -20,12 +20,14 @@
 "ok": true,
 "kind": "your tracker's best markets",
 "note": [
-"Chance all 35 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 33 games passed the checks (Sun 15, Mon 16, 307 games on SportyBet), so this ticket has 33 legs instead of 35. Tick more days or use 'Relaxed' for more.",
+"Chance all 33 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
 ],
 "tickets": [
 {
-"code": "L24BJ0",
-"odds": 45.27,
+"code": "Z1XH9X",
+"odds": 94.25,
 "legs": [
 {
 "t": "Sun 15:00",
@@ -71,20 +73,6 @@
 },
 {
 "t": "Sun 15:00",
-"game": "Polonia Sroda Wielkopolska vs Luks Sportowa Czworka Radom",
-"lg": "Poland - 1. Liga, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.06,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:72576698",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72576698|450001||25"
-},
-{
-"t": "Sun 15:00",
 "game": "Cercle Brugge vs KVC Houtvenne",
 "lg": "Belgium - Nationale 1 VV",
 "pick": "Goal bounds 2-5+",
@@ -110,48 +98,6 @@
 "spec": "",
 "oid": "9",
 "k": "72700612|63||9"
-},
-{
-"t": "Sun 15:00",
-"game": "FK Frydek-Mistek B vs MFK Kravare",
-"lg": "Czechia - Divize F",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794751200.0,
-"eid": "sr:match:72656360",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72656360|450001||25"
-},
-{
-"t": "Sun 15:00",
-"game": "KKS Lech Poznan II vs Kkp Bydgoszcz",
-"lg": "Poland - 1. Liga, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.11,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:72576696",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72576696|450001||25"
-},
-{
-"t": "Sun 15:30",
-"game": "AS Monaco vs Bastia SC",
-"lg": "France - U19 National",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings",
-"ts": 1794753000.0,
-"eid": "sr:match:73111654",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73111654|450001||25"
 },
 {
 "t": "Sun 16:00",
@@ -182,46 +128,18 @@
 "k": "72577814|450001||25"
 },
 {
-"t": "Sun 16:00",
-"game": "Backa Topola vs FK Jedinstvo UB",
-"lg": "Serbia - Prva Liga",
+"t": "Sun 16:30",
+"game": "Ittihad Kalba FC vs Shabab Al Ahli Dubai",
+"lg": "United Arab Emirates - Pro League Cup",
 "pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings; Flashscore home/away form 80%, Vitibet tip 2-1",
-"ts": 1794754800.0,
-"eid": "sr:match:72121010",
+"odds": 1.18,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
+"ts": 1794756600.0,
+"eid": "sr:match:75907956",
 "mid": "450001",
 "spec": "",
 "oid": "25",
-"k": "72121010|450001||25"
-},
-{
-"t": "Sun 16:00",
-"game": "RB Leipzig vs Eintracht Frankfurt",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 3.2 goals a game, Vitibet tip 1-2",
-"ts": 1794754800.0,
-"eid": "sr:match:72961088",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72961088|450001||25"
-},
-{
-"t": "Sun 16:45",
-"game": "FC Twente Enschede W vs PSV Eindhoven",
-"lg": "Netherlands - Eredivisie, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 4.1 goals a game",
-"ts": 1794757500.0,
-"eid": "sr:match:72467522",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72467522|450001||25"
+"k": "75907956|450001||25"
 },
 {
 "t": "Sun 17:00",
@@ -239,17 +157,45 @@
 },
 {
 "t": "Sun 17:00",
-"game": "SD Leioa vs Real Sociedad C",
-"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"game": "Club Haro Deportivo vs CD Berceo",
+"lg": "Spain Amateur - Tercera Federacion, Group 16",
 "pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 80%",
+"odds": 1.17,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
 "ts": 1794758400.0,
-"eid": "sr:match:73557182",
+"eid": "sr:match:73563020",
 "mid": "450001",
 "spec": "",
 "oid": "25",
-"k": "73557182|450001||25"
+"k": "73563020|450001||25"
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"lg": "Czechia - CFL",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, Vitibet tip 2-1",
+"ts": 1794758400.0,
+"eid": "sr:match:72415116",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72415116|450001||25"
+},
+{
+"t": "Sun 17:00",
+"game": "Coruxo FC vs UD Llanera",
+"lg": "Spain - Segunda Federacion",
+"pick": "Goal bounds 2-5+",
+"odds": 1.28,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings; Flashscore home/away form 85%, FotMob: 3.1 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:72505290",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72505290|450001||25"
 },
 {
 "t": "Sun 17:30",
@@ -266,74 +212,60 @@
 "k": "73294090|63||9"
 },
 {
-"t": "Sun 17:30",
-"game": "CD Tenerife vs AD Huracan",
-"lg": "Spain - U19 Division de Honor Juvenil",
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"lg": "Spain - LaLiga 2",
+"pick": "Eibar to win (1UP)",
+"odds": 1.27,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 55%, FotMob: 6th vs 20th of 22, Vitibet 56%",
+"ts": 1794763800.0,
+"eid": "sr:match:72477586",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "72477586|60200||1"
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"lg": "International - UEFA Nations League",
 "pick": "Goal bounds 2-5+",
-"odds": 1.11,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794760200.0,
-"eid": "sr:match:76675986",
+"odds": 1.17,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 87%, FotMob: 3.9 goals a game, Vitibet tip 2-1",
+"ts": 1794771900.0,
+"eid": "sr:match:68931760",
 "mid": "450001",
 "spec": "",
 "oid": "25",
-"k": "76675986|450001||25"
+"k": "68931760|450001||25"
 },
 {
-"t": "Sun 18:00",
-"game": "Suriname vs Eswatini",
-"lg": "International - Int. Friendly Games",
-"pick": "1st half double chance Suriname or draw",
-"odds": 1.1,
-"why": "stats rate 88% from both teams' last 10",
-"ts": 1794762000.0,
-"eid": "sr:match:76833142",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76833142|63||9"
-},
-{
-"t": "Sun 18:15",
-"game": "Malaga CF vs CD Mosquito",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794762900.0,
-"eid": "sr:match:76488586",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76488586|450001||25"
-},
-{
-"t": "Sun 18:35",
-"game": "Cambrian United vs Bangor 1876 FC",
-"lg": "Wales - FAW Welsh Cup",
-"pick": "Goal bounds 2-5+",
-"odds": 1.07,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
-"ts": 1794764100.0,
-"eid": "sr:match:75827936",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75827936|450001||25"
-},
-{
-"t": "Sun 19:00",
-"game": "Friburguense AC RJ vs SE Belford Roxo RJ",
-"lg": "Brazil - Carioca, Serie B2",
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"lg": "International - UEFA Nations League",
 "pick": "Goal bounds 2-5+",
 "odds": 1.22,
-"why": "stats rate 93% from both teams' last 10 and 3 meetings; Flashscore home/away form 60%",
-"ts": 1794765600.0,
-"eid": "sr:match:76367060",
+"why": "stats rate 91% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, footybets 86%, FotMob: 3.5 goals a game, Vitibet tip 2-1",
+"ts": 1794771900.0,
+"eid": "sr:match:68931758",
 "mid": "450001",
 "spec": "",
 "oid": "25",
-"k": "76367060|450001||25"
+"k": "68931758|450001||25"
+},
+{
+"t": "Sun 20:45",
+"game": "France vs Turkiye",
+"lg": "International - UEFA Nations League",
+"pick": "France to win (1UP)",
+"odds": 1.08,
+"why": "stats rate 70% from both teams' last 10; Flashscore home/away form 55%, Vitibet 69%, Zulubet 70%, season: won 60%, rival lost 100%",
+"ts": 1794771900.0,
+"eid": "sr:match:68931506",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "68931506|60200||1"
 },
 {
 "t": "Sun 21:00",
@@ -364,20 +296,6 @@
 "k": "74695530|450001||25"
 },
 {
-"t": "Sun 21:00",
-"game": "Central SC PE vs Ypiranga PE",
-"lg": "Brazil - Pernambucano",
-"pick": "1st half double chance Central SC PE or draw",
-"odds": 1.1,
-"why": "stats rate 85% from both teams' last 10",
-"ts": 1794772800.0,
-"eid": "sr:match:76732862",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76732862|63||9"
-},
-{
 "t": "Sun 22:00",
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "lg": "Chile - Primera B",
@@ -390,6 +308,34 @@
 "spec": "",
 "oid": "9",
 "k": "76422378|63||9"
+},
+{
+"t": "Mon 00:00",
+"game": "CD Inca vs CD Aguila San Miguel",
+"lg": "El Salvador - Primera Division",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%, FotMob: 2.9 goals a game, Vitibet tip 1-2",
+"ts": 1794783600.0,
+"eid": "sr:match:73075406",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73075406|450001||25"
+},
+{
+"t": "Mon 02:00",
+"game": "CF Monterrey vs CF Pachuca",
+"lg": "Mexico - Liga MX, Women",
+"pick": "CF Monterrey to win (1UP)",
+"odds": 1.33,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 80%, season: won 86%, rival lost 50%",
+"ts": 1794790800.0,
+"eid": "sr:match:76595264",
+"mid": "60200",
+"spec": "",
+"oid": "1",
+"k": "76595264|60200||1"
 },
 {
 "t": "Mon 04:10",
@@ -462,6 +408,34 @@
 "k": "76744190|63||9"
 },
 {
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"lg": "International - UEFA Nations League",
+"pick": "Faroe Islands or GG",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 85%, footybets 74%",
+"ts": 1794841200.0,
+"eid": "sr:match:68932376",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "68932376|860||74"
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"lg": "International - UEFA Nations League",
+"pick": "Goal bounds 2-5+",
+"odds": 1.28,
+"why": "stats rate 83% from both teams' last 10 and 3 meetings; Flashscore home/away form 65%, footybets 87%, FotMob: 3.0 goals a game, Vitibet tip 1-2",
+"ts": 1794841200.0,
+"eid": "sr:match:68932378",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "68932378|450001||25"
+},
+{
 "t": "Mon 18:00",
 "game": "VfB Stuttgart vs Bayer Leverkusen",
 "lg": "Germany Amateur - Women Bundesliga",
@@ -518,13 +492,13 @@
 "k": "68931588|860||74"
 }
 ],
-"chance": 0.004
+"chance": 0.0021
 }
 ]
 },
 {
-"when": "Sun 15 Nov 14:28",
-"at": 1794749335,
+"when": "Sun 15 Nov 14:35",
+"at": 1794749719,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
