@@ -99,7 +99,10 @@
 "game": "CD Santa Cruz vs CSD Rangers",
 "pick": "1st half double chance CSD Rangers or draw",
 "odds": 1.22,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 22:00",
@@ -204,7 +207,10 @@
 "game": "CD Santa Cruz vs CSD Rangers",
 "pick": "1st half double chance CSD Rangers or draw",
 "odds": 1.22,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 22:00",
@@ -288,14 +294,20 @@
 "game": "CD Santa Cruz vs CSD Rangers",
 "pick": "1st half double chance CSD Rangers or draw",
 "odds": 1.22,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 22:00",
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "1st half GG \u2013 No",
 "odds": 1.16,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -542,14 +554,20 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.08,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -1403,7 +1421,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:30",
@@ -1567,7 +1588,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -1711,7 +1735,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:30",
@@ -1990,7 +2017,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -2344,14 +2374,20 @@
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.14,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -2495,7 +2531,10 @@
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -2629,7 +2668,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -6087,7 +6129,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -6544,7 +6589,10 @@
 "game": "Gotham FC vs Kansas City Current",
 "pick": "Goal bounds 2-5+",
 "odds": 1.32,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 23:00",
@@ -8011,7 +8059,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 04:10",
@@ -8433,7 +8484,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 04:10",
@@ -8792,7 +8846,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 00:00",
@@ -9302,7 +9359,10 @@
 "game": "CD Cobreloa Calama vs Puerto Montt",
 "pick": "1st half double chance CD Cobreloa Calama or draw",
 "odds": 1.09,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 04:10",
@@ -9549,7 +9609,10 @@
 "game": "Gotham FC vs Kansas City Current",
 "pick": "Over 1.5",
 "odds": 1.31,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 00:00",
