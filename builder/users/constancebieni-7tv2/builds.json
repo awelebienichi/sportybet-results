@@ -1,5 +1,255 @@
 [
 {
+"when": "Sun 15 Nov 17:17",
+"at": 1794759448,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"markets": [
+"h1dc",
+"h1u25",
+"u35",
+"h1ggn"
+],
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-15",
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwi1fgnou30r"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 15 legs win: about 11% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "YMV1E5",
+"odds": 4.38,
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794762000.0,
+"eid": "sr:match:68932522",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932522|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794765600.0,
+"eid": "sr:match:76322272",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322272|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.2 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:76413246",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76413246|18|total=3.5|13"
+},
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794769200.0,
+"eid": "sr:match:76322276",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322276|75||76"
+},
+{
+"t": "Mon 13:00",
+"game": "GS Marko vs APS Zakynthos",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance GS Marko or draw",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794830400.0,
+"eid": "sr:match:74172538",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74172538|63||9"
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance Niki Volou 1924 PAE or draw",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794834000.0,
+"eid": "sr:match:74172534",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74172534|63||9"
+},
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings",
+"ts": 1794834000.0,
+"eid": "sr:match:75803690",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75803690|75||76"
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings",
+"ts": 1794841200.0,
+"eid": "sr:match:68932376",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932376|68|total=2.5|13"
+},
+{
+"t": "Tue 14:00",
+"game": "Burundi vs Zambia",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794920400.0,
+"eid": "sr:match:75802292",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75802292|75||76"
+},
+{
+"t": "Tue 14:00",
+"game": "South Sudan vs Angola",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half double chance Angola or draw",
+"odds": 1.06,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794920400.0,
+"eid": "sr:match:75802238",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75802238|63||11"
+},
+{
+"t": "Tue 17:00",
+"game": "Togo vs Algeria",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10 and 7 meetings",
+"ts": 1794931200.0,
+"eid": "sr:match:75802294",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75802294|68|total=2.5|13"
+},
+{
+"t": "Tue 17:00",
+"game": "Guinea-Bissau vs Madagascar",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794931200.0,
+"eid": "sr:match:75802324",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75802324|75||76"
+},
+{
+"t": "Tue 20:00",
+"game": "Mauritania vs Burkina Faso",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 100% from both teams' last 10 and 6 meetings",
+"ts": 1794942000.0,
+"eid": "sr:match:75802278",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75802278|75||76"
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794942000.0,
+"eid": "sr:match:75803692",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75803692|75||76"
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1794944700.0,
+"eid": "sr:match:68932772",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932772|75||76"
+}
+],
+"chance": 0.1098
+}
+]
+},
+{
 "when": "Sun 15 Nov 17:16",
 "at": 1794759362,
 "req": {
@@ -5773,75 +6023,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for your chosen markets (Fri 13) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Fri 13 Nov 22:47",
-"at": 1794606442,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwfic09emkhz"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 5).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "ZHTWHY",
-"odds": 1.18,
-"legs": [
-{
-"t": "Fri 21:00",
-"game": "Morocco vs Niger",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:5 \u2013 Niger",
-"odds": 1.08,
-"why": "LIVE 4-1 78': Morocco expected 0.3 and Niger 0.2 more goals (last 10); 4-1 at 78' \u2013 93% chance; margin record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
-"ts": 1794600000.0,
-"eid": "sr:match:75802226",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75802226|14|hcp=0:5|1713"
-},
-{
-"t": "Fri 21:15",
-"game": "Gimnastic de Tarragona vs Real Madrid Castilla",
-"lg": "Spain - Primera Federacion",
-"pick": "Gimnastic de Tarragona or Real Madrid Castilla",
-"odds": 1.06,
-"why": "LIVE 0-1 71': Gimnastic de Tarragona expected 0.3 and Real Madrid Castilla 0.4 more goals (last 10 + season); 0-1 at 71' \u2013 85% chance",
-"ts": 1794600900.0,
-"eid": "sr:match:73068212",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "73068212|10||10"
-},
-{
-"t": "Fri 22:00",
-"game": "AD Tenancingo vs Neo Pipil San Juan Nonualco",
-"lg": "El Salvador - Liga de Ascenso",
-"pick": "AD Tenancingo or draw",
-"odds": 1.03,
-"why": "LIVE 1-0 43': AD Tenancingo expected 0.7 and Neo Pipil San Juan Nonualco 0.8 more goals (last 10 + season); 1-0 at 43' \u2013 88% chance",
-"ts": 1794603600.0,
-"eid": "sr:match:76746036",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76746036|10||9"
-}
-]
-}
-]
 }
 ]
