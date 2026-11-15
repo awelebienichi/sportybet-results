@@ -8834,14 +8834,17 @@
 "when": "Sun 15 Nov 11:59",
 "kind": "rebuild of XHA6UY",
 "odds": 2986.91,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:30",
 "game": "Stade Payerne vs FC Coffrane",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1794749400.0
+"ts": 1794749400.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -8850,7 +8853,7 @@
 "odds": 1.24,
 "ts": 1794751200.0,
 "r": "W",
-"sc": "1-2",
+"sc": "1-3",
 "ht": "0-1"
 },
 {
@@ -8875,7 +8878,10 @@
 "game": "Mamelodi Sundowns vs AS Far Rabat W",
 "pick": "Over 1.5",
 "odds": 1.25,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 16:00",

@@ -104,7 +104,10 @@
 "game": "Salernitana vs Catania FC",
 "pick": "Salernitana Under 2.5",
 "odds": 1.03,
-"ts": 1794749400.0
+"ts": 1794749400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:30",
@@ -229,7 +232,10 @@
 "game": "Brindisi FC vs SSD Ischia Calcio",
 "pick": "Handicap 0:2 \u2013 SSD Ischia Calcio",
 "odds": 1.03,
-"ts": 1794749400.0
+"ts": 1794749400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 14:30",
