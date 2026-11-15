@@ -1,5 +1,67 @@
 [
 {
+"when": "Sun 15 Nov 14:17",
+"at": 1794748643,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-15",
+"2026-11-16"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "04:59",
+"rid": "mwhuzufr4x3g"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 2 games passed the checks (Sun 15, Mon 16, 00:00\u201304:59, 12 games on SportyBet), so this ticket has 2 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 2 legs win: about 45%."
+],
+"tickets": [
+{
+"code": "WSU19L",
+"odds": 2.0,
+"legs": [
+{
+"t": "Mon 02:00",
+"game": "CF Monterrey vs CF Pachuca",
+"lg": "Mexico - Liga MX, Women",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "season: 4.7 and 3.5 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 70%, season: 4.1 goals a game",
+"ts": 1794790800.0,
+"eid": "sr:match:76595264",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76595264|18|total=2.5|12"
+},
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"lg": "Mexico - Liga MX, Women",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 3.6 and 5.4 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, season: 4.5 goals a game",
+"ts": 1794798600.0,
+"eid": "sr:match:76595266",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76595266|18|total=2.5|12"
+}
+],
+"chance": 0.4542
+}
+]
+},
+{
 "when": "Sun 15 Nov 14:13",
 "at": 1794748382,
 "req": {
@@ -10529,24 +10591,5 @@
 ]
 }
 ]
-},
-{
-"when": "Sat 14 Nov 15:12",
-"at": 1794665575,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 40,
-"days": [
-"2026-11-14",
-"2026-11-15"
-],
-"strict": "strict",
-"rid": "mwghjisrt6su"
-},
-"ok": false,
-"msg": "No basketball game passed the checks for Sat 14, Sun 15 (310 games judged). Try Normal/Relaxed or more days."
 }
 ]
