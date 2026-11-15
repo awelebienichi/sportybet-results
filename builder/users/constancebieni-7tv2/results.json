@@ -87,7 +87,7 @@
 "when": "Sun 15 Nov 15:59",
 "kind": "live \u2013 best of all",
 "odds": 1.25,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 14:30",
@@ -124,7 +124,10 @@
 "game": "Scotland vs USA",
 "pick": "Handicap 4:0 \u2013 Scotland",
 "odds": 1.03,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 15:00",
