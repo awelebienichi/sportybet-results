@@ -2,6 +2,229 @@
 "from": 1794748006,
 "tickets": [
 {
+"code": "TXJ5RN",
+"at": 1794778663,
+"when": "Sun 15 Nov 22:37",
+"kind": "pattern combo (1 HT draw + 0 bankers + 10 1st-half + 0 basketball)",
+"odds": 7.24,
+"status": "open",
+"legs": [
+{
+"t": "Mon 00:05",
+"game": "Tigres FC vs Real Cundinamarca",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794783900.0
+},
+{
+"t": "Mon 00:30",
+"game": "Ferro Carril Oeste vs Gimnasia Y Tiro de Salta",
+"pick": "Half-time draw",
+"odds": 1.97,
+"ts": 1794785400.0
+},
+{
+"t": "Mon 02:10",
+"game": "Deportes Quindio vs Real Cartagena FC",
+"pick": "1st half double chance Deportes Quindio or draw",
+"odds": 1.23,
+"ts": 1794791400.0
+},
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kosovo vs Luxembourg",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.17,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 19:00",
+"game": "Andorra vs Azerbaijan",
+"pick": "1st half double chance Azerbaijan or draw",
+"odds": 1.15,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1794860100.0
+}
+]
+},
+{
+"code": "KDGR59",
+"at": 1794778609,
+"when": "Sun 15 Nov 22:36",
+"kind": "your chosen markets",
+"odds": 15.8,
+"status": "open",
+"legs": [
+{
+"t": "Mon 00:00",
+"game": "Defensor Sporting vs CA Penarol Montevideo",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 00:00",
+"game": "CD Inca vs CD Aguila San Miguel",
+"pick": "1st half excluded goals: 0",
+"odds": 1.28,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 00:05",
+"game": "CD Suchitepequez vs Antigua GFC",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794783900.0
+},
+{
+"t": "Mon 00:05",
+"game": "Tigres FC vs Real Cundinamarca",
+"pick": "1st half excluded goals: 2",
+"odds": 1.16,
+"ts": 1794783900.0
+},
+{
+"t": "Mon 00:30",
+"game": "Deportes Recoleta vs Deportes Iquique",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.13,
+"ts": 1794785400.0
+},
+{
+"t": "Mon 02:00",
+"game": "CF Monterrey vs CF Pachuca",
+"pick": "1st half excluded goals: 2",
+"odds": 1.27,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 02:10",
+"game": "Deportes Quindio vs Real Cartagena FC",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1794791400.0
+},
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"pick": "1st half excluded goals: 0",
+"odds": 1.16,
+"ts": 1794798600.0
+},
+{
+"t": "Mon 12:00",
+"game": "Montenegro vs Bosnia & Herzegovina",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.09,
+"ts": 1794826800.0
+},
+{
+"t": "Mon 13:00",
+"game": "GS Marko vs APS Zakynthos",
+"pick": "1st half excluded goals: 2",
+"odds": 1.29,
+"ts": 1794830400.0
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"pick": "1st half excluded goals: 2",
+"odds": 1.23,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Sudan vs Senegal",
+"pick": "1st half excluded goals: 2",
+"odds": 1.21,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half excluded goals: 0",
+"odds": 1.39,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 18:00",
+"game": "VfB Stuttgart vs Bayer Leverkusen",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.17,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:00",
+"game": "Greece vs Iceland",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.09,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:00",
+"game": "Lithuania vs Liechtenstein",
+"pick": "1st half excluded goals: 2",
+"odds": 1.24,
+"ts": 1794848400.0
+}
+]
+},
+{
 "code": "NW6SMD",
 "at": 1794778579,
 "when": "Sun 15 Nov 22:36",
