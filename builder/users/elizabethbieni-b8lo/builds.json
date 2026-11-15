@@ -1,6 +1,21 @@
 [
 {
 "when": "Sun 15 Nov 01:44",
+"at": 1794703490,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "goals",
+"legs": 20,
+"strict": "strict",
+"rid": "mwh446r432rf"
+},
+"ok": false,
+"msg": "21 games are in play, but none fits that strategy right now (8 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
+},
+{
+"when": "Sun 15 Nov 01:44",
 "at": 1794703455,
 "req": {
 "u": "elizabethbieni-b8lo",
