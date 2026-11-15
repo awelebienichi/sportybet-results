@@ -320,7 +320,7 @@
 "odds": 1.16,
 "ts": 1794762000.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
@@ -380,14 +380,17 @@
 "when": "Sun 15 Nov 16:03",
 "kind": "your chosen markets",
 "odds": 4.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 17:30",
 "game": "Barletta Calcio vs Altamura Societa' Sportiva SRL",
 "pick": "Handicap 0:2 \u2013 Altamura Societa' Sportiva SRL",
 "odds": 1.26,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 18:30",
