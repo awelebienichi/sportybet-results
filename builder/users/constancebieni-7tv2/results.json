@@ -132,7 +132,10 @@
 "game": "CD Aurrera de Vitoria vs SD Beasain",
 "pick": "Goal bounds 2-5+",
 "odds": 1.32,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
@@ -292,7 +295,10 @@
 "game": "CD Aurrera de Vitoria vs SD Beasain",
 "pick": "Goal bounds 2-5+",
 "odds": 1.32,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
@@ -518,7 +524,10 @@
 "game": "CD Aurrera de Vitoria vs SD Beasain",
 "pick": "Goal bounds 2-5+",
 "odds": 1.32,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
@@ -1587,7 +1596,10 @@
 "game": "Stade Reims vs Clermont Foot Youth",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -1601,7 +1613,10 @@
 "game": "CD Aurrera de Vitoria vs SD Beasain",
 "pick": "Over 1.5",
 "odds": 1.31,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 13:30",
