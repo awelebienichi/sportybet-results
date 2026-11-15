@@ -1,5 +1,153 @@
 [
 {
+"when": "Sun 15 Nov 20:27",
+"at": 1794770858,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"xg1"
+],
+"rid": "mwi88224mp4g"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 8 games passed the checks (Sun 15, 29 games on SportyBet), so this ticket has 8 legs instead of 10. Tick more days or use 'Relaxed' for more.",
+"Chance all 8 legs win: about 26%."
+],
+"tickets": [
+{
+"code": "RGAN05",
+"odds": 2.57,
+"legs": [
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76732862|810002||3"
+},
+{
+"t": "Sun 21:00",
+"game": "Gotham FC vs Kansas City Current",
+"lg": "USA - National Womens Soccer League",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794772800.0,
+"eid": "sr:match:76636578",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76636578|810002||3"
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"lg": "Argentina - Primera Nacional",
+"pick": "1st half excluded goals: 2",
+"odds": 1.13,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794772800.0,
+"eid": "sr:match:76411704",
+"mid": "810002",
+"spec": "",
+"oid": "2",
+"k": "76411704|810002||2"
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"lg": "Chile - Primera B",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422300",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76422300|810002||3"
+},
+{
+"t": "Sun 22:00",
+"game": "Deportes Magallanes vs CD Antofagasta",
+"lg": "Chile - Primera B",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.14,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422376",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76422376|810002||3"
+},
+{
+"t": "Sun 22:00",
+"game": "Cerro Porteno vs Sol de America Villa Elisa",
+"lg": "Paraguay - Copa Paraguay",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76642966",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76642966|810002||3"
+},
+{
+"t": "Sun 22:00",
+"game": "Deportivo San Pedro vs CD Marquense",
+"lg": "Guatemala - Liga Nacional",
+"pick": "1st half excluded goals: 2",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794776400.0,
+"eid": "sr:match:72475090",
+"mid": "810002",
+"spec": "",
+"oid": "2",
+"k": "72475090|810002||2"
+},
+{
+"t": "Sun 22:00",
+"game": "CD Santa Cruz vs CSD Rangers",
+"lg": "Chile - Primera B",
+"pick": "1st half excluded goals: 2",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422232",
+"mid": "810002",
+"spec": "",
+"oid": "2",
+"k": "76422232|810002||2"
+}
+],
+"chance": 0.2631
+}
+]
+},
+{
 "when": "Sun 15 Nov 17:44",
 "at": 1794761095,
 "req": {
@@ -6090,89 +6238,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for your chosen markets (Fri 13) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Fri 13 Nov 22:50",
-"at": 1794606651,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwfigi3qj36c"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 4 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "XFF9XA",
-"odds": 1.23,
-"legs": [
-{
-"t": "Fri 21:00",
-"game": "Morocco vs Niger",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:5 \u2013 Niger",
-"odds": 1.05,
-"why": "LIVE 4-1 81': Morocco expected 0.2 and Niger 0.1 more goals (last 10); 4-1 at 81' \u2013 95% chance; margin record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
-"ts": 1794600000.0,
-"eid": "sr:match:75802226",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75802226|14|hcp=0:5|1713"
-},
-{
-"t": "Fri 21:00",
-"game": "CD Platense vs CD Atletico Balboa",
-"lg": "El Salvador - Primera Division, Women",
-"pick": "Handicap 0:8 \u2013 CD Atletico Balboa",
-"odds": 1.08,
-"why": "LIVE 7-1 85': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794600000.0,
-"eid": "sr:match:76745452",
-"mid": "14",
-"spec": "hcp=0:8",
-"oid": "1713",
-"k": "76745452|14|hcp=0:8|1713"
-},
-{
-"t": "Fri 21:15",
-"game": "Gimnastic de Tarragona vs Real Madrid Castilla",
-"lg": "Spain - Primera Federacion",
-"pick": "Gimnastic de Tarragona or Real Madrid Castilla",
-"odds": 1.05,
-"why": "LIVE 0-1 74': Gimnastic de Tarragona expected 0.3 and Real Madrid Castilla 0.3 more goals (last 10 + season); 0-1 at 74' \u2013 86% chance",
-"ts": 1794600900.0,
-"eid": "sr:match:73068212",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "73068212|10||10"
-},
-{
-"t": "Fri 22:00",
-"game": "AD Tenancingo vs Neo Pipil San Juan Nonualco",
-"lg": "El Salvador - Liga de Ascenso",
-"pick": "AD Tenancingo or draw",
-"odds": 1.03,
-"why": "LIVE 1-0 45': AD Tenancingo expected 0.7 and Neo Pipil San Juan Nonualco 0.7 more goals (last 10 + season); 1-0 at 45' \u2013 88% chance",
-"ts": 1794603600.0,
-"eid": "sr:match:76746036",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76746036|10||9"
-}
-]
-}
-]
 }
 ]
