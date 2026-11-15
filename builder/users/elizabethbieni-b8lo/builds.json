@@ -1,5 +1,193 @@
 [
 {
+"when": "Sun 15 Nov 22:37",
+"at": 1794778663,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "pattern",
+"fh": 10,
+"htd": 5,
+"bank": 0,
+"bb": 0,
+"days": [
+"2026-11-16"
+],
+"strict": "normal",
+"rid": "mwicv9ug1a0f"
+},
+"ok": true,
+"kind": "pattern combo (1 HT draw + 0 bankers + 10 1st-half + 0 basketball)",
+"note": [
+"Half-time draws: 1 of 3 found at 1.80-2.50.",
+"Pattern estimate from your own results: about 12% chance this ticket wins (about 1 in 9).",
+"Chance all 11 legs win: about 8% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "TXJ5RN",
+"odds": 7.24,
+"legs": [
+{
+"t": "Mon 00:05",
+"game": "Tigres FC vs Real Cundinamarca",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1794783900.0,
+"eid": "sr:match:76737660",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76737660|75||76"
+},
+{
+"t": "Mon 00:30",
+"game": "Ferro Carril Oeste vs Gimnasia Y Tiro de Salta",
+"lg": "Argentina - Primera Nacional",
+"pick": "Half-time draw",
+"odds": 1.97,
+"why": "level at half-time in 60% of Ferro Carril Oeste's last 10 and 60% of Gimnasia Y Tiro de Salta's last 10 (50% were 0-0); league 60% half-time draws (pattern: half-time draw 1.80-2.50)",
+"ts": 1794785400.0,
+"eid": "sr:match:76413248",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76413248|60||2"
+},
+{
+"t": "Mon 02:10",
+"game": "Deportes Quindio vs Real Cartagena FC",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "1st half double chance Deportes Quindio or draw",
+"odds": 1.23,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1794791400.0,
+"eid": "sr:match:76737670",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76737670|63||9"
+},
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings (your 1st-half pattern)",
+"ts": 1794834000.0,
+"eid": "sr:match:75803690",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75803690|75||76"
+},
+{
+"t": "Mon 16:00",
+"game": "Kosovo vs Luxembourg",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10 (your 1st-half pattern)",
+"ts": 1794841200.0,
+"eid": "sr:match:76744190",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76744190|63||9"
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings (your 1st-half pattern)",
+"ts": 1794841200.0,
+"eid": "sr:match:68932376",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932376|68|total=2.5|13"
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings (your 1st-half pattern)",
+"ts": 1794841200.0,
+"eid": "sr:match:68932378",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932378|68|total=2.5|13"
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10 (your 1st-half pattern)",
+"ts": 1794844800.0,
+"eid": "sr:match:75802276",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75802276|68|total=2.5|13"
+},
+{
+"t": "Mon 19:00",
+"game": "Andorra vs Azerbaijan",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half double chance Azerbaijan or draw",
+"odds": 1.15,
+"why": "stats rate 85% from both teams' last 10 (your 1st-half pattern)",
+"ts": 1794852000.0,
+"eid": "sr:match:76168712",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "76168712|63||11"
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1794858300.0,
+"eid": "sr:match:68932802",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932802|75||76"
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"lg": "Peru - Liga 1",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"why": "stats rate 90% from both teams' last 10 and 7 meetings (your 1st-half pattern)",
+"ts": 1794860100.0,
+"eid": "sr:match:71936246",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "71936246|75||76"
+}
+],
+"chance": 0.0807
+}
+]
+},
+{
 "when": "Sun 15 Nov 22:36",
 "at": 1794778609,
 "req": {
