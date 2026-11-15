@@ -4864,7 +4864,10 @@
 "game": "CF Algeciras vs Antequera CF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.34,
-"ts": 1794756600.0
+"ts": 1794756600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -8433,7 +8436,10 @@
 "game": "Besiktas JK vs Bursaspor",
 "pick": "Under 181.5 total points",
 "odds": 1.24,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "76-71",
+"ht": "24-15"
 },
 {
 "t": "Sun 16:30",
