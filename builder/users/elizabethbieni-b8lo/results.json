@@ -771,7 +771,7 @@
 "when": "Sun 15 Nov 07:42",
 "kind": "your chosen markets",
 "odds": 39.19,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 10:15",
@@ -780,7 +780,7 @@
 "odds": 1.29,
 "ts": 1794734100.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -788,7 +788,10 @@
 "game": "SCR Altach vs SK Rapid Wien",
 "pick": "1st half GG \u2013 No",
 "odds": 1.29,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
