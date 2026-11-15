@@ -1,4 +1,155 @@
 {
 "from": 1794703295,
-"tickets": []
+"tickets": [
+{
+"code": "KPW3LA",
+"at": 1794703455,
+"when": "Sun 15 Nov 01:44",
+"kind": "your chosen markets",
+"odds": 54.68,
+"status": "open",
+"legs": [
+{
+"t": "Sun 04:00",
+"game": "New Zealand vs India",
+"pick": "1st half excluded goals: 0",
+"odds": 1.21,
+"ts": 1794711600.0
+},
+{
+"t": "Sun 05:00",
+"game": "Veertien Mie vs Iwate Grulla Morioka",
+"pick": "1st half excluded goals: 2",
+"odds": 1.2,
+"ts": 1794715200.0
+},
+{
+"t": "Sun 06:00",
+"game": "Kataller Toyama vs Tokushima Vortis",
+"pick": "1st half excluded goals: 2",
+"odds": 1.23,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Zweigen Kanazawa vs Roasso Kumamoto",
+"pick": "1st half excluded goals: 2",
+"odds": 1.22,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 07:00",
+"game": "Cerezo Osaka vs Urawa Red Diamonds",
+"pick": "1st half excluded goals: 2",
+"odds": 1.25,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 10:15",
+"game": "FK Admira Prague vs SK Slavia Prague C",
+"pick": "1st half excluded goals: 0",
+"odds": 1.22,
+"ts": 1794734100.0
+},
+{
+"t": "Sun 10:30",
+"game": "MSK Zilina B vs FK Inter Bratislava",
+"pick": "1st half excluded goals: 0",
+"odds": 1.28,
+"ts": 1794735000.0
+},
+{
+"t": "Sun 11:00",
+"game": "SCR Altach vs SK Rapid Wien",
+"pick": "1st half excluded goals: 2",
+"odds": 1.27,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Volgar Astrakhan vs Dinamo Kirov",
+"pick": "1st half excluded goals: 2",
+"odds": 1.2,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 12:00",
+"game": "Atletico Madrid B vs CD Teruel",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.14,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Delfino Pescara vs US Sambenedettese",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.15,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Salernitana vs Catania FC",
+"pick": "1st half excluded goals: 2",
+"odds": 1.22,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "West Ham United FC Women vs Charlton Athletic",
+"pick": "1st half excluded goals: 2",
+"odds": 1.23,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.13,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Latvia vs Armenia",
+"pick": "1st half excluded goals: 2",
+"odds": 1.19,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Spaeri vs FC Iberia 1999",
+"pick": "1st half excluded goals: 2",
+"odds": 1.22,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs Eintracht Frankfurt",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.2,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half excluded goals: 0",
+"odds": 1.42,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "AZ Alkmaar vs Ajax Amsterdam",
+"pick": "1st half excluded goals: 2",
+"odds": 1.3,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"pick": "1st half excluded goals: 2",
+"odds": 1.19,
+"ts": 1794762000.0
+}
+]
+}
+]
 }
