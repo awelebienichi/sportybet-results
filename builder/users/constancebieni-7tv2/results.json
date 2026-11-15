@@ -390,7 +390,7 @@
 "when": "Sun 15 Nov 17:12",
 "kind": "your chosen markets",
 "odds": 3.4,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 18:00",
@@ -464,7 +464,10 @@
 "game": "Tivoli Gardens vs Montego Bay United",
 "pick": "1st half Under 2.5",
 "odds": 1.12,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
