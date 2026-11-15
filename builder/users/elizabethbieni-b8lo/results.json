@@ -2,6 +2,236 @@
 "from": 1794748006,
 "tickets": [
 {
+"code": "UVYPBN",
+"at": 1794748538,
+"when": "Sun 15 Nov 14:15",
+"kind": "football + basketball (10 \u26bd + 5 \ud83c\udfc0)",
+"odds": 5.54,
+"status": "open",
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "KSV Roeselare vs KRC Harelbeke",
+"pick": "Double chance KSV Roeselare or draw",
+"odds": 1.06,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Burnley FC Women vs Southampton FC",
+"pick": "Double chance Southampton FC or draw",
+"odds": 1.16,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Mamer 32 vs FC Marisca Mersch",
+"pick": "Double chance FC Mamer 32 or draw",
+"odds": 1.08,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CS Fola Esch vs Union Remich/Bous",
+"pick": "Double chance CS Fola Esch or draw",
+"odds": 1.1,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Wydad Fes vs Chabab Atlas Khenifra",
+"pick": "Double chance Wydad Fes or draw",
+"odds": 1.17,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CD Manacor vs UD Alcudia",
+"pick": "Double chance CD Manacor or draw",
+"odds": 1.08,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "AD Llerenense vs Atletico Club Pueblonuevo",
+"pick": "Double chance AD Llerenense or draw",
+"odds": 1.12,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "PEC Zwolle vs FC Utrecht",
+"pick": "Double chance PEC Zwolle or draw",
+"odds": 1.08,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "TSG Reutlingen vs TSV Oberhaching Tropics",
+"pick": "TSG Reutlingen to win (incl. OT)",
+"odds": 1.11,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 18:00",
+"game": "CD Xerez vs CA Antoniano",
+"pick": "Double chance CD Xerez or draw",
+"odds": 1.12,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Pelle Livorno vs Basketball Club Lucca",
+"pick": "Pelle Livorno to win (incl. OT)",
+"odds": 1.07,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Uni Baskets Munster vs Hertener Loewen",
+"pick": "Uni Baskets Munster to win (incl. OT)",
+"odds": 1.11,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 18:30",
+"game": "KK Crvena zvezda Belgrade vs KK Cedevita Olimpija Ljubljana",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "Double chance Club Cipolletti or draw",
+"odds": 1.12,
+"ts": 1794765600.0
+}
+]
+},
+{
+"code": "SWN47H",
+"at": 1794748524,
+"when": "Sun 15 Nov 14:15",
+"kind": "always-beaten teams (season data)",
+"odds": 9.8,
+"status": "open",
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "KSV Roeselare vs KRC Harelbeke",
+"pick": "Double chance KSV Roeselare or draw",
+"odds": 1.06,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Burnley FC Women vs Southampton FC",
+"pick": "Double chance Southampton FC or draw",
+"odds": 1.16,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Mamer 32 vs FC Marisca Mersch",
+"pick": "Double chance FC Mamer 32 or draw",
+"odds": 1.08,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CS Fola Esch vs Union Remich/Bous",
+"pick": "Double chance CS Fola Esch or draw",
+"odds": 1.1,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Wydad Fes vs Chabab Atlas Khenifra",
+"pick": "Double chance Wydad Fes or draw",
+"odds": 1.17,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CD Manacor vs UD Alcudia",
+"pick": "Double chance CD Manacor or draw",
+"odds": 1.08,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Chabab Mohammedia vs Olympique Club de Safi",
+"pick": "Double chance Olympique Club de Safi or draw",
+"odds": 1.28,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CF Calamocha vs Reus FC Reddis",
+"pick": "Double chance Reus FC Reddis or draw",
+"odds": 1.22,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "AD Llerenense vs Atletico Club Pueblonuevo",
+"pick": "Double chance AD Llerenense or draw",
+"odds": 1.12,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "CD Guadiana vs CD Gevora",
+"pick": "Double chance CD Gevora or draw",
+"odds": 1.28,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Cp Calasancio vs CD Cenicero",
+"pick": "Double chance Cp Calasancio or draw",
+"odds": 1.26,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "PEC Zwolle vs FC Utrecht",
+"pick": "Double chance PEC Zwolle or draw",
+"odds": 1.08,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bucaspor 1928 vs Karsiyaka",
+"pick": "Karsiyaka to win",
+"odds": 1.39,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 18:00",
+"game": "CD Xerez vs CA Antoniano",
+"pick": "Double chance CD Xerez or draw",
+"odds": 1.12,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "Double chance Club Cipolletti or draw",
+"odds": 1.12,
+"ts": 1794765600.0
+}
+]
+},
+{
 "code": "KAEK34",
 "at": 1794748084,
 "when": "Sun 15 Nov 14:08",
