@@ -1059,7 +1059,10 @@
 "game": "FK Admira Prague vs SK Slavia Prague C",
 "pick": "1st half excluded goals: 0",
 "odds": 1.22,
-"ts": 1794734100.0
+"ts": 1794734100.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -1228,7 +1231,10 @@
 "game": "FK Admira Prague vs SK Slavia Prague C",
 "pick": "1st half excluded goals: 0",
 "odds": 1.22,
-"ts": 1794734100.0
+"ts": 1794734100.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 10:30",
