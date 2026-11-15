@@ -412,7 +412,10 @@
 "game": "Akademik Bulteks 99 vs CSKA Sofia",
 "pick": "Akademik Bulteks 99 to win (incl. OT)",
 "odds": 1.03,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "87-73",
+"ht": "21-17"
 },
 {
 "t": "Sun 17:00",
@@ -9175,7 +9178,7 @@
 "odds": 1.24,
 "ts": 1794760200.0,
 "r": "L",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
