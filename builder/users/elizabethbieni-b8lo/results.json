@@ -2,6 +2,23 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "TSMEZ2",
+"at": 1794747448,
+"when": "Sun 15 Nov 13:57",
+"kind": "live \u2013 another goal coming",
+"odds": 1.14,
+"status": "open",
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Skara FC vs Eskilsminne IF",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794744000.0
+}
+]
+},
+{
 "code": "G4XZ83",
 "at": 1794746543,
 "when": "Sun 15 Nov 13:42",
