@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "R6HJ12",
+"at": 1794723441,
+"when": "Sun 15 Nov 07:17",
+"kind": "goal-fest teams (season data)",
+"odds": 1062.68,
+"status": "open",
+"legs": [
+{
+"t": "Sun 10:15",
+"game": "FK Admira Prague vs SK Slavia Prague C",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794734100.0
+},
+{
+"t": "Sun 12:00",
+"game": "FCS Feminin Politehnica Timisoara vs Afk Csikszereda Miercurea Ciuc",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "WKS Slask Wroclaw vs Gornik Leczna",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Servette FC  vs FC La Chaux De Fonds",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "NK Vipava vs NK Skofja Loka",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "HVV Hollandia Hoorn vs Hzvv Hoogeveen",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Aston Villa WFC vs Birmingham City WFC",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Mondercange vs SC Bettembourg",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 16:45",
+"game": "Feyenoord Rotterdam vs SC Heerenveen",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "Club Haro Deportivo vs CD Berceo",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 19:00",
+"game": "Itabirito FC MG vs Atletico Mineiro MG",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794765600.0
+}
+]
+},
+{
 "code": "RQ8VN1",
 "at": 1794722095,
 "when": "Sun 15 Nov 06:54",
@@ -4942,9 +5092,9 @@
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.16,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "2-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4952,9 +5102,9 @@
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.18,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "3-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5199,9 +5349,9 @@
 "pick": "Over 1.5",
 "odds": 1.16,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "2-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -5209,9 +5359,9 @@
 "pick": "Over 1.5",
 "odds": 1.18,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "3-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
@@ -5497,8 +5647,8 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "5-7",
-"ht": ""
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -5894,8 +6044,8 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "5-7",
-"ht": ""
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
