@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HZRWQA",
+"at": 1794748382,
+"when": "Sun 15 Nov 14:13",
+"kind": "basketball \u2013 total points, Overs",
+"odds": 44.05,
+"status": "open",
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "Vikos Falcon BC vs BC Maroussi Athens",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:50",
+"game": "BC Zalgiris Kaunas vs BC Neptunas Klaipeda",
+"pick": "Over 158.5 total points",
+"odds": 1.22,
+"ts": 1794754200.0
+},
+{
+"t": "Sun 16:00",
+"game": "BCM Gravelines Dunkerque vs Sluc Nancy Basket",
+"pick": "Over 152.5 total points",
+"odds": 1.23,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Over 156.5 total points",
+"odds": 1.23,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "KK Bosna Royal Sarajevo vs KK Mega Basket Belgrade",
+"pick": "Over 159.5 total points",
+"odds": 1.21,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Barcelona vs Obradoiro CAB",
+"pick": "Over 168.5 total points",
+"odds": 1.23,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Flyers Wels vs Oberwart Gunners",
+"pick": "Over 152.5 total points",
+"odds": 1.22,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "BK Dukes Klosterneuburg vs Kufstein Towers",
+"pick": "Over 153.5 total points",
+"odds": 1.2,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Palmer Basquet Mallorca Palma vs Albacete Basket",
+"pick": "Over 153.5 total points",
+"odds": 1.22,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "BC Vienna vs Eagles Graz",
+"pick": "Over 155.5 total points",
+"odds": 1.2,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Niners Chemnitz vs Basketball Lowen Braunschweig",
+"pick": "Over 165.5 total points",
+"odds": 1.24,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:30",
+"game": "Fenerbahce Istanbul vs Anadolu Efes SK",
+"pick": "Over 154.5 total points",
+"odds": 1.24,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Aquila Basket Trento vs Virtus Bologna",
+"pick": "Over 163.5 total points",
+"odds": 1.23,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:15",
+"game": "Maccabi Ironi Ramat Gan vs Ironi Ness Ziona",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"ts": 1794766500.0
+},
+{
+"t": "Sun 22:30",
+"game": "LA Clippers vs Charlotte Hornets",
+"pick": "Over 201.5 total points",
+"odds": 1.23,
+"ts": 1794778200.0
+},
+{
+"t": "Mon 01:00",
+"game": "San Martin Corrientes vs Quimsa Santiogo Del Estero",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 01:00",
+"game": "La Union Formosa vs AD Atenas Cordoba",
+"pick": "Over 148.5 total points",
+"odds": 1.22,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 03:00",
+"game": "Sacramento Kings vs Oklahoma City Thunder",
+"pick": "Over 208.5 total points",
+"odds": 1.24,
+"ts": 1794794400.0
+}
+]
+},
+{
 "code": "JKBLR1",
 "at": 1794747644,
 "when": "Sun 15 Nov 14:00",
@@ -593,7 +736,10 @@
 "game": "OFC Nesebar vs FC Fratria Varna",
 "pick": "Over 1.5",
 "odds": 1.27,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 13:30",
@@ -2188,7 +2334,10 @@
 "game": "OFC Nesebar vs FC Fratria Varna",
 "pick": "Goal bounds 2-5+",
 "odds": 1.27,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -3669,7 +3818,10 @@
 "game": "OFC Nesebar vs FC Fratria Varna",
 "pick": "Goal bounds 2-5+",
 "odds": 1.25,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 13:30",
@@ -4367,7 +4519,10 @@
 "game": "ADO Den Haag vs de Graafschap",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794741300.0
+"ts": 1794741300.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 13:00",
