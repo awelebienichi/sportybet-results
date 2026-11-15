@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "K00UAT",
+"at": 1794735935,
+"when": "Sun 15 Nov 10:45",
+"kind": "live football + basketball (5 \u26bd + 1 \ud83c\udfc0)",
+"odds": 1.79,
+"status": "open",
+"legs": [
+{
+"t": "Sun 09:00",
+"game": "Savannakhet FC vs Champasak FC",
+"pick": "Champasak FC to win",
+"odds": 1.03,
+"ts": 1794729600.0
+},
+{
+"t": "Sun 09:30",
+"game": "Assumption United vs Suphanburi FC",
+"pick": "Assumption United to win",
+"odds": 1.03,
+"ts": 1794731400.0
+},
+{
+"t": "Sun 09:30",
+"game": "North Bangkok University FC vs Futera United FC",
+"pick": "Handicap 0:3 \u2013 Futera United FC",
+"odds": 1.06,
+"ts": 1794731400.0
+},
+{
+"t": "Sun 10:00",
+"game": "Mio Biwako Shiga vs FC Osaka",
+"pick": "Handicap 3:0 \u2013 Mio Biwako Shiga",
+"odds": 1.03,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 10:00",
+"game": "New Taipei CTBC DEA vs Taipei Taishin Mars",
+"pick": "Q2 Under 46.5 points",
+"odds": 1.5,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 10:30",
+"game": "Dac Dunajska Streda B vs AS Trencin B",
+"pick": "Dac Dunajska Streda B or AS Trencin B",
+"odds": 1.03,
+"ts": 1794735000.0
+}
+]
+},
+{
 "code": "KE3ATQ",
 "at": 1794735202,
 "when": "Sun 15 Nov 10:33",
