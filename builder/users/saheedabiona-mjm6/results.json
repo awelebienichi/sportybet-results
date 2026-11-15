@@ -261,7 +261,10 @@
 "game": "FC Penafiel vs Lusitania FC Lourosa",
 "pick": "1st half Over 0.5",
 "odds": 1.37,
-"ts": 1794756600.0
+"ts": 1794756600.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 20:45",
@@ -386,7 +389,10 @@
 "game": "FC Penafiel vs Lusitania FC Lourosa",
 "pick": "1st half Over 0.5",
 "odds": 1.37,
-"ts": 1794756600.0
+"ts": 1794756600.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Tue 14:00",
