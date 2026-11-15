@@ -1099,7 +1099,10 @@
 "game": "SCR Altach vs SK Rapid Wien",
 "pick": "1st half excluded goals: 2",
 "odds": 1.27,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -1281,7 +1284,10 @@
 "game": "SCR Altach vs SK Rapid Wien",
 "pick": "1st half excluded goals: 2",
 "odds": 1.27,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 11:00",
