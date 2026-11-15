@@ -1,5 +1,174 @@
 [
 {
+"when": "Sun 15 Nov 15:25",
+"at": 1794752757,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwhxflbmuxu3"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 10 legs win: about 42%."
+],
+"tickets": [
+{
+"code": "M0RTUG",
+"odds": 1.44,
+"legs": [
+{
+"t": "Sun 14:00",
+"game": "A.P.O. Thyella Rafina FC vs Ilisiakos FC",
+"lg": "Greece - Gamma Ethniki",
+"pick": "GG \u2013 No",
+"odds": 1.03,
+"why": "LIVE 0-0 71': A.P.O. Thyella Rafina FC expected 0.2 and Ilisiakos FC 0.2 more goals (last 10 + season); 0-0 at 71' \u2013 97% chance",
+"ts": 1794747600.0,
+"eid": "sr:match:74041076",
+"mid": "29",
+"spec": "",
+"oid": "76",
+"k": "74041076|29||76"
+},
+{
+"t": "Sun 14:00",
+"game": "Giouchtas vs AO Platanias",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.03,
+"why": "LIVE 0-1 70': Giouchtas expected 0.4 and AO Platanias 0.1 more goals (last 10 + season); 0-1 at 70' \u2013 97% chance; Flashscore home/away form 75%, season: 1.9 goals a game",
+"ts": 1794747600.0,
+"eid": "sr:match:74041324",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74041324|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Ergotelis vs AE Neapolis",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Ergotelis Under 3.5",
+"odds": 1.03,
+"why": "LIVE 1-0 66': Ergotelis expected 0.5 and AE Neapolis 0.2 more goals (last 10 + season); 1-0 at 66' \u2013 97% chance; goals record 90% / 86% in both sides' last games",
+"ts": 1794747600.0,
+"eid": "sr:match:74041316",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74041316|19|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Malmo FF vs Vittsjo GIK",
+"lg": "Sweden - Damallsvenskan",
+"pick": "Handicap 0:3 \u2013 Vittsjo GIK",
+"odds": 1.05,
+"why": "LIVE 1-1 67': Malmo FF expected 0.5 and Vittsjo GIK 0.4 more goals (last 10 + season); 1-1 at 67' \u2013 98% chance; margin record 90% / 90% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1794747600.0,
+"eid": "sr:match:66918414",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "66918414|14|hcp=0:3|1713"
+},
+{
+"t": "Sun 14:00",
+"game": "Proodeftiki FC vs Ialissos FC",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-0 61': Proodeftiki FC expected 0.3 and Ialissos FC 0.3 more goals (last 10 + season); 1-0 at 61' \u2013 96% chance; Flashscore home/away form 85%, season: 1.4 goals a game, h2h 75% of 4 meetings (3.5 line)",
+"ts": 1794747600.0,
+"eid": "sr:match:74040794",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74040794|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Hacken Gothenburg W vs Piteaa IF DFF",
+"lg": "Sweden - Damallsvenskan",
+"pick": "Hacken Gothenburg W Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-0 66': Hacken Gothenburg W expected 0.6 and Piteaa IF DFF 0.3 more goals (last 10 + season); 1-0 at 66' \u2013 96% chance",
+"ts": 1794747600.0,
+"eid": "sr:match:66918402",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "66918402|19|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Apollon Kalithion vs Pao Rouf",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Apollon Kalithion Under 2.5",
+"odds": 1.04,
+"why": "LIVE 1-0 63': Apollon Kalithion expected 0.3 and Pao Rouf 0.4 more goals (last 10 + season); 1-0 at 63' \u2013 96% chance; goals record 100% / 90% in both sides' last games",
+"ts": 1794747600.0,
+"eid": "sr:match:74040790",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74040790|19|total=2.5|13"
+},
+{
+"t": "Sun 14:15",
+"game": "Zamora CF vs Real Aviles CF",
+"lg": "Spain - Primera Federacion",
+"pick": "Handicap 0:3 \u2013 Real Aviles CF",
+"odds": 1.06,
+"why": "LIVE 0-0 47': Zamora CF expected 0.6 and Real Aviles CF 0.8 more goals (last 10 + season); 0-0 at 47' \u2013 97% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1794748500.0,
+"eid": "sr:match:72559242",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "72559242|14|hcp=0:3|1713"
+},
+{
+"t": "Sun 14:30",
+"game": "Brindisi FC vs SSD Ischia Calcio",
+"lg": "Italy - Serie D, Group H",
+"pick": "Handicap 0:2 \u2013 SSD Ischia Calcio",
+"odds": 1.03,
+"why": "LIVE 0-1 45': Brindisi FC expected 0.8 and SSD Ischia Calcio 0.5 more goals (last 10 + season); 0-1 at 45' \u2013 95% chance",
+"ts": 1794749400.0,
+"eid": "sr:match:73632792",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "73632792|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 14:30",
+"game": "Guidonia Montecelio 1937 FC vs AS Ostiamare",
+"lg": "Italy - Serie C, Group B",
+"pick": "Under 3.5",
+"odds": 1.03,
+"why": "LIVE 0-0 45': Guidonia Montecelio 1937 FC expected 0.7 and AS Ostiamare 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 94% chance; Flashscore home/away form 75%, FotMob: 2.1 goals a game, season: 2.3 goals a game, h2h 67% of 6 meetings (3.5 line)",
+"ts": 1794749400.0,
+"eid": "sr:match:73294082",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73294082|18|total=3.5|13"
+}
+],
+"chance": 0.423
+}
+]
+},
+{
 "when": "Sun 15 Nov 14:03",
 "at": 1794747780,
 "req": {
@@ -5400,116 +5569,6 @@
 "spec": "hcp=0:3",
 "oid": "1713",
 "k": "76170232|14|hcp=0:3|1713"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 17:49",
-"at": 1794588587,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "strict",
-"rid": "mwf7pc3occ0q"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "XK40AB",
-"odds": 1.55,
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "Burkina Faso vs Mauritania",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Mauritania",
-"odds": 1.03,
-"why": "LIVE 0-0 45': Burkina Faso expected 0.6 and Mauritania 0.7 more goals (last 10); 0-0 at 45' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 5 meetings",
-"ts": 1794585600.0,
-"eid": "sr:match:75802274",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802274|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 17:00",
-"game": "Cape Verde vs Liberia",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:5 \u2013 Liberia",
-"odds": 1.06,
-"why": "LIVE 3-1 45': Cape Verde expected 0.9 and Liberia 0.8 more goals (last 10); 3-1 at 45' \u2013 93% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794585600.0,
-"eid": "sr:match:75802304",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75802304|14|hcp=0:5|1713"
-},
-{
-"t": "Fri 17:00",
-"game": "Gabon vs Lesotho",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Lesotho",
-"odds": 1.09,
-"why": "LIVE 0-0 45': Gabon expected 0.9 and Lesotho 0.8 more goals (last 10); 0-0 at 45' \u2013 95% chance; margin record 100% / 90% in both sides' last games, h2h 83% of 6 meetings",
-"ts": 1794585600.0,
-"eid": "sr:match:75802224",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802224|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 17:00",
-"game": "South Africa vs Kenya",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Kenya",
-"odds": 1.1,
-"why": "LIVE 1-1 45': South Africa expected 0.9 and Kenya 0.6 more goals (last 10); 1-1 at 45' \u2013 94% chance; margin record 90% / 80% in both sides' last games",
-"ts": 1794585600.0,
-"eid": "sr:match:75802254",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802254|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 17:00",
-"game": "Nigeria vs Tanzania",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Tanzania",
-"odds": 1.12,
-"why": "LIVE 1-1 45': Nigeria expected 0.9 and Tanzania 0.8 more goals (last 10); 1-1 at 45' \u2013 94% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1794585600.0,
-"eid": "sr:match:75802320",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802320|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 17:30",
-"game": "Kuwait vs Syria",
-"lg": "International - Int. Friendly Games",
-"pick": "Handicap 0:2 \u2013 Syria",
-"odds": 1.06,
-"why": "LIVE 0-0 19': Kuwait expected 1.1 and Syria 1.6 more goals (last 10); 0-0 at 19' \u2013 88% chance; margin record 90% / 80% in both sides' last games, h2h 75% of 8 meetings",
-"ts": 1794587400.0,
-"eid": "sr:match:76686776",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76686776|14|hcp=0:2|1713"
 }
 ]
 }
