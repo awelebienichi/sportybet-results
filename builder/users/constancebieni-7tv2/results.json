@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 20:27",
 "kind": "your chosen markets",
 "odds": 2.57,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 21:00",
@@ -44,7 +44,10 @@
 "game": "Union San Felipe vs Union Espanola",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.1,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 22:00",
@@ -82,7 +85,7 @@
 "when": "Sun 15 Nov 17:44",
 "kind": "your chosen markets",
 "odds": 2.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 18:15",
@@ -159,7 +162,10 @@
 "game": "Union San Felipe vs Union Espanola",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.1,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 22:00",
