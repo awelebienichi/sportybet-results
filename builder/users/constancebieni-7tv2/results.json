@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "NATTN8",
+"at": 1794761095,
+"when": "Sun 15 Nov 17:44",
+"kind": "your chosen markets",
+"odds": 2.22,
+"status": "open",
+"legs": [
+{
+"t": "Sun 18:15",
+"game": "Valencia CF vs Granada CF",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Leones Negros UDEG vs Atletico Morelia",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.11,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:00",
+"game": "Petrolina SFC PE vs Belo Jardim",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 20:00",
+"game": "Boca Juniors de Cali vs Independiente Valle Del Cauca",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Gotham FC vs Kansas City Current",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportes Magallanes vs CD Antofagasta",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.12,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Cerro Porteno vs Sol de America Villa Elisa",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "YMV1E5",
 "at": 1794759448,
 "when": "Sun 15 Nov 17:17",

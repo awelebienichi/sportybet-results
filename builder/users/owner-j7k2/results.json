@@ -142,7 +142,10 @@
 "game": "CD Tenerife vs AD Huracan",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 17:30",
@@ -295,7 +298,10 @@
 "game": "CD Tenerife vs AD Huracan",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 17:30",
@@ -512,7 +518,7 @@
 "odds": 1.09,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
@@ -581,7 +587,7 @@
 "odds": 1.09,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
@@ -601,7 +607,7 @@
 "odds": 1.17,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -740,7 +746,7 @@
 "odds": 1.09,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
@@ -837,7 +843,10 @@
 "game": "CD Tenerife vs AD Huracan",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 17:30",
@@ -1153,7 +1162,10 @@
 "game": "CD Tenerife vs AD Huracan",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 18:00",
@@ -3156,7 +3168,10 @@
 "game": "CD Tenerife vs AD Huracan",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 19:00",
@@ -3334,7 +3349,10 @@
 "game": "Avenir Beggen vs The Belval Belvaux",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.21,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:30",
@@ -5516,7 +5534,10 @@
 "game": "Avenir Beggen vs The Belval Belvaux",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:00",
@@ -5537,7 +5558,10 @@
 "game": "CD Tenerife vs AD Huracan",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 17:30",
@@ -7618,7 +7642,10 @@
 "game": "Avenir Beggen vs The Belval Belvaux",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -7802,7 +7829,10 @@
 "game": "Avenir Beggen vs The Belval Belvaux",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -8744,7 +8774,10 @@
 "game": "Avenir Beggen vs The Belval Belvaux",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -8993,7 +9026,10 @@
 "game": "Avenir Beggen vs The Belval Belvaux",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -9122,8 +9158,8 @@
 "odds": 1.42,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-0",
-"ht": ""
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 16:30",
