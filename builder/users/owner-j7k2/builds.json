@@ -1,6 +1,179 @@
 [
 {
 "when": "Sun 15 Nov 14:37",
+"at": 1794749878,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "best",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-15",
+"2026-11-16"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwhvnkenxrp7"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [
+"Chance all 10 legs win: about 26%."
+],
+"tickets": [
+{
+"code": "SC9ZAQ",
+"odds": 2.36,
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"lg": "England Amateur - Super League 2, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, FotMob: 4.3 goals a game",
+"ts": 1794751200.0,
+"eid": "sr:match:73346552",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73346552|450001||25"
+},
+{
+"t": "Sun 15:00",
+"game": "Boldmere St Michaels Women vs Stockport County Lfc",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"why": "stats rate 94% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794751200.0,
+"eid": "sr:match:76088626",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76088626|450001||25"
+},
+{
+"t": "Sun 15:00",
+"game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"why": "stats rate 92% from both teams' last 10",
+"ts": 1794751200.0,
+"eid": "sr:match:76320390",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76320390|450001||25"
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794754800.0,
+"eid": "sr:match:76506618",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76506618|450001||25"
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"lg": "Italy - Serie C, Group B",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794760200.0,
+"eid": "sr:match:73294090",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73294090|63||9"
+},
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"lg": "Mexico - Liga MX, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
+"ts": 1794798600.0,
+"eid": "sr:match:76595266",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76595266|450001||25"
+},
+{
+"t": "Mon 13:00",
+"game": "GS Marko vs APS Zakynthos",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance GS Marko or draw",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794830400.0,
+"eid": "sr:match:74172538",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74172538|63||9"
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance Niki Volou 1924 PAE or draw",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794834000.0,
+"eid": "sr:match:74172534",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "74172534|63||9"
+},
+{
+"t": "Mon 16:00",
+"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
+"lg": "Portugal - U23 Liga Next Gen",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1794841200.0,
+"eid": "sr:match:72962342",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72962342|450001||25"
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"lg": "International - CONCACAF Nations League",
+"pick": "Cuba or GG",
+"odds": 1.06,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1794855600.0,
+"eid": "sr:match:75468430",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "75468430|860||74"
+}
+],
+"chance": 0.2603
+}
+]
+},
+{
+"when": "Sun 15 Nov 14:37",
 "at": 1794749857,
 "req": {
 "u": "owner-j7k2",
@@ -11379,245 +11552,6 @@
 "spec": "",
 "oid": "11",
 "k": "76413240|63||11"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 17:18",
-"at": 1794673096,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "best",
-"legs": 15,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwgm0kl0uuu1"
-},
-"ok": true,
-"kind": "your tracker's best markets",
-"note": [],
-"tickets": [
-{
-"code": "NYMK0G",
-"odds": 12.45,
-"legs": [
-{
-"t": "Sat 18:00",
-"game": "RC Strasbourg vs Toulouse FC",
-"lg": "France - Premiere Ligue, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.9 goals a game, Vitibet tip 2-1",
-"ts": 1794675600.0,
-"eid": "sr:match:72700296",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72700296|450001||25"
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"lg": "Scotland - League 1",
-"pick": "Goal bounds 2-5+",
-"odds": 1.18,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.4 goals a game, Vitibet tip 1-2",
-"ts": 1794677400.0,
-"eid": "sr:match:72203984",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72203984|450001||25"
-},
-{
-"t": "Sat 18:30",
-"game": "CE Europa vs UE Sant Andreu",
-"lg": "Spain - Primera Federacion",
-"pick": "Goal bounds 2-5+",
-"odds": 1.34,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, FotMob: 2.6 goals a game",
-"ts": 1794677400.0,
-"eid": "sr:match:73068198",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73068198|450001||25"
-},
-{
-"t": "Sat 19:00",
-"game": "CD Noblejas vs CD Quintanar del Rey",
-"lg": "Spain Amateur - Tercera Federacion, Group 18",
-"pick": "Goal bounds 2-5+",
-"odds": 1.31,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794679200.0,
-"eid": "sr:match:73560446",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73560446|450001||25"
-},
-{
-"t": "Sat 19:00",
-"game": "Ibis PE vs Ipojuca Atletico Clube",
-"lg": "Brazil - Pernambucano",
-"pick": "1st half double chance Ibis PE or draw",
-"odds": 1.17,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794679200.0,
-"eid": "sr:match:76708214",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76708214|63||9"
-},
-{
-"t": "Sat 19:00",
-"game": "Real SC Tramandai RS vs Gremio Atletico Farroupilha RS",
-"lg": "Brazil - Gaucho, Serie B",
-"pick": "1st half double chance Real SC Tramandai RS or draw",
-"odds": 1.17,
-"why": "stats rate 94% from both teams' last 10",
-"ts": 1794679200.0,
-"eid": "sr:match:76433626",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76433626|63||9"
-},
-{
-"t": "Sat 19:00",
-"game": "CA Atlanta vs CA Estudiantes",
-"lg": "Argentina - Primera Nacional",
-"pick": "1st half double chance CA Atlanta or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794679200.0,
-"eid": "sr:match:76413236",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76413236|63||9"
-},
-{
-"t": "Sat 19:30",
-"game": "CD Armenio vs CS Italiano",
-"lg": "Argentina - Primera B",
-"pick": "1st half double chance CD Armenio or draw",
-"odds": 1.21,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794681000.0,
-"eid": "sr:match:76427128",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76427128|63||9"
-},
-{
-"t": "Sat 20:00",
-"game": "CA Temperley vs Club Ciudad de Bolivar",
-"lg": "Argentina - Primera Nacional",
-"pick": "1st half double chance CA Temperley or draw",
-"odds": 1.15,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794682800.0,
-"eid": "sr:match:76413238",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76413238|63||9"
-},
-{
-"t": "Sat 20:00",
-"game": "Almere City FC vs Helmond Sport",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half double chance Almere City FC or draw",
-"odds": 1.14,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794682800.0,
-"eid": "sr:match:72044812",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72044812|63||9"
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "VVV Venlo or GG",
-"odds": 1.08,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
-"ts": 1794682800.0,
-"eid": "sr:match:72044822",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "72044822|860||74"
-},
-{
-"t": "Sat 20:30",
-"game": "Scotland vs Kosovo",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794684600.0,
-"eid": "sr:match:74838480",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74838480|450001||25"
-},
-{
-"t": "Sat 20:45",
-"game": "Portugal vs Denmark",
-"lg": "International - UEFA Nations League",
-"pick": "1st half double chance Portugal or draw",
-"odds": 1.18,
-"why": "stats rate 94% from both teams' last 10",
-"ts": 1794685500.0,
-"eid": "sr:match:68932052",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "68932052|63||9"
-},
-{
-"t": "Sat 21:00",
-"game": "Chorrillo FC vs Panama City FC",
-"lg": "Panama - Liga Prom",
-"pick": "Goal bounds 2-5+",
-"odds": 1.19,
-"why": "stats rate 93% from both teams' last 10 and 5 meetings",
-"ts": 1794686400.0,
-"eid": "sr:match:76708742",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76708742|450001||25"
-},
-{
-"t": "Sat 21:30",
-"game": "CA Bucaramanga vs Fortaleza FC",
-"lg": "Colombia - Liga DIMAYOR",
-"pick": "CA Bucaramanga or GG",
-"odds": 1.14,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
-"ts": 1794688200.0,
-"eid": "sr:match:76676668",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "76676668|860||74"
 }
 ]
 }
