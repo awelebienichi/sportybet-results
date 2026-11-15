@@ -248,14 +248,20 @@
 "game": "Kamatamare Sanuki vs Renofa Yamaguchi",
 "pick": "Kamatamare Sanuki Under 1.5",
 "odds": 1.03,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 06:00",
 "game": "Tochigi SC vs Nara Club",
 "pick": "Tochigi SC Under 1.5",
 "odds": 1.04,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 06:00",
@@ -286,7 +292,10 @@
 "game": "FC Imabari vs Jubilo Iwata",
 "pick": "Handicap 4:0 \u2013 FC Imabari",
 "odds": 1.04,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 06:00",
@@ -317,21 +326,30 @@
 "game": "FC Imabari vs Jubilo Iwata",
 "pick": "Jubilo Iwata to win",
 "odds": 1.03,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 06:00",
 "game": "Tochigi SC vs Nara Club",
 "pick": "Tochigi SC Under 1.5",
 "odds": 1.05,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 06:00",
 "game": "Kamatamare Sanuki vs Renofa Yamaguchi",
 "pick": "Kamatamare Sanuki Under 1.5",
 "odds": 1.04,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 06:00",
