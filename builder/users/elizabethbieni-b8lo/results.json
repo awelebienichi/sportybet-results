@@ -254,7 +254,10 @@
 "game": "AD San Clemente vs CD Illescas",
 "pick": "CD Illescas Under 2.5",
 "odds": 1.03,
-"ts": 1794742200.0
+"ts": 1794742200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 12:30",
@@ -268,7 +271,10 @@
 "game": "Bangkok FC vs Samut Songkhram City FC",
 "pick": "Handicap 0:2 \u2013 Samut Songkhram City FC",
 "odds": 1.03,
-"ts": 1794742200.0
+"ts": 1794742200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:30",
@@ -289,7 +295,10 @@
 "game": "CB Malaga vs Basquet Girona",
 "pick": "Basquet Girona +17.5 (handicap)",
 "odds": 1.19,
-"ts": 1794742200.0
+"ts": 1794742200.0,
+"r": "W",
+"sc": "82-70",
+"ht": "14-22"
 },
 {
 "t": "Sun 13:00",
