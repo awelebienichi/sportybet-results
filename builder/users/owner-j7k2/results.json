@@ -752,7 +752,10 @@
 "game": "Swans Gmunden vs Traiskirchen Lions",
 "pick": "Over/Under (incl. overtime) 176.5 \u2013 Under 176.5",
 "odds": 1.24,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "82-71",
+"ht": "16-15"
 },
 {
 "t": "Sun 18:00",
@@ -923,7 +926,10 @@
 "game": "Swans Gmunden vs Traiskirchen Lions",
 "pick": "Under 176.5 total points",
 "odds": 1.24,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "82-71",
+"ht": "16-15"
 },
 {
 "t": "Sun 18:00",
@@ -9351,7 +9357,10 @@
 "game": "Swans Gmunden vs Traiskirchen Lions",
 "pick": "Under 176.5 total points",
 "odds": 1.24,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "82-71",
+"ht": "16-15"
 },
 {
 "t": "Sun 17:30",
