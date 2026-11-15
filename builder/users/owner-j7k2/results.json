@@ -2,6 +2,334 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MAYQ7M",
+"at": 1794764067,
+"when": "Sun 15 Nov 18:34",
+"kind": "basketball \u2013 total points",
+"odds": 343.99,
+"status": "open",
+"legs": [
+{
+"t": "Sun 19:00",
+"game": "Baskonia Vitoria-Gasteiz vs Real Madrid",
+"pick": "Under 198.5 total points",
+"odds": 1.26,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Le Mans Sarthe Basket vs ASVEL Lyon-Villeurbanne",
+"pick": "Under 193.5 total points",
+"odds": 1.25,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Philadelphia 76ers vs Indiana Pacers",
+"pick": "Under 238.5 total points",
+"odds": 1.28,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Aquila Basket Trento vs Virtus Bologna",
+"pick": "Under 191.5 total points",
+"odds": 1.27,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Georgia State Panthers vs Norfolk State Spartans",
+"pick": "Over 137.5 total points",
+"odds": 1.41,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Boston University Terriers vs Dartmouth Big Green",
+"pick": "Over 135.5 total points",
+"odds": 1.4,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:15",
+"game": "Maccabi Ironi Ramat Gan vs Ironi Ness Ziona",
+"pick": "Over 155.5 total points",
+"odds": 1.22,
+"ts": 1794766500.0
+},
+{
+"t": "Sun 19:30",
+"game": "Boston College Eagles vs New Hampshire Wildcats",
+"pick": "Over 125.5 total points",
+"odds": 1.4,
+"ts": 1794767400.0
+},
+{
+"t": "Sun 20:00",
+"game": "College of Charleston Cougars vs South Carolina State Bulldogs",
+"pick": "Under 168.5 total points",
+"odds": 1.4,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 22:30",
+"game": "LA Clippers vs Charlotte Hornets",
+"pick": "Over 200.5 total points",
+"odds": 1.25,
+"ts": 1794778200.0
+},
+{
+"t": "Sun 23:00",
+"game": "Utah Jazz vs San Antonio Spurs",
+"pick": "Under 239.5 total points",
+"odds": 1.25,
+"ts": 1794780000.0
+},
+{
+"t": "Mon 00:00",
+"game": "Boston Celtics vs Dallas Mavericks",
+"pick": "Under 232.5 total points",
+"odds": 1.25,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 00:00",
+"game": "Toronto Raptors vs New York Knicks",
+"pick": "Under 231.5 total points",
+"odds": 1.25,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 01:00",
+"game": "San Martin Corrientes vs Quimsa Santiogo Del Estero",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 01:00",
+"game": "La Union Formosa vs AD Atenas Cordoba",
+"pick": "Under 174.5 total points",
+"odds": 1.23,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 01:00",
+"game": "Washington Wizards vs Houston Rockets",
+"pick": "Under 236.5 total points",
+"odds": 1.26,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 02:00",
+"game": "Milwaukee Bucks vs Atlanta Hawks",
+"pick": "Under 246.5 total points",
+"odds": 1.26,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 03:00",
+"game": "Sacramento Kings vs Oklahoma City Thunder",
+"pick": "Over 209.5 total points",
+"odds": 1.24,
+"ts": 1794794400.0
+},
+{
+"t": "Mon 11:00",
+"game": "Seoul SK Knights vs Mobis Phoebus",
+"pick": "Under 178.5 total points",
+"odds": 1.24,
+"ts": 1794823200.0
+},
+{
+"t": "Mon 11:05",
+"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
+"pick": "Over 143.5 total points",
+"odds": 1.21,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Gunma Crane Thunders vs Shiga Lakestars",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Hiroshima Dragonflies vs Altiri Chiba",
+"pick": "Over 152.5 total points",
+"odds": 1.22,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Alvark Tokyo vs Kobe Storks",
+"pick": "Under 185.5 total points",
+"odds": 1.22,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:35",
+"game": "Ryukyu Golden Kings Okinawa vs Toyama Grouses",
+"pick": "Over 156.5 total points",
+"odds": 1.2,
+"ts": 1794825300.0
+},
+{
+"t": "Mon 18:00",
+"game": "KK Borac Cacak vs BC Slovan Bratislava",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1794848400.0
+}
+]
+},
+{
+"code": "ZPBSBH",
+"at": 1794764041,
+"when": "Sun 15 Nov 18:34",
+"kind": "basketball \u2013 total points",
+"odds": 55.66,
+"status": "open",
+"legs": [
+{
+"t": "Sun 19:00",
+"game": "Baskonia Vitoria-Gasteiz vs Real Madrid",
+"pick": "Under 198.5 total points",
+"odds": 1.26,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Le Mans Sarthe Basket vs ASVEL Lyon-Villeurbanne",
+"pick": "Under 193.5 total points",
+"odds": 1.25,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Philadelphia 76ers vs Indiana Pacers",
+"pick": "Under 238.5 total points",
+"odds": 1.28,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Aquila Basket Trento vs Virtus Bologna",
+"pick": "Under 191.5 total points",
+"odds": 1.27,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:15",
+"game": "Maccabi Ironi Ramat Gan vs Ironi Ness Ziona",
+"pick": "Over 155.5 total points",
+"odds": 1.22,
+"ts": 1794766500.0
+},
+{
+"t": "Sun 22:30",
+"game": "LA Clippers vs Charlotte Hornets",
+"pick": "Over 200.5 total points",
+"odds": 1.25,
+"ts": 1794778200.0
+},
+{
+"t": "Sun 23:00",
+"game": "Utah Jazz vs San Antonio Spurs",
+"pick": "Under 239.5 total points",
+"odds": 1.25,
+"ts": 1794780000.0
+},
+{
+"t": "Mon 00:00",
+"game": "Boston Celtics vs Dallas Mavericks",
+"pick": "Under 232.5 total points",
+"odds": 1.25,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 01:00",
+"game": "San Martin Corrientes vs Quimsa Santiogo Del Estero",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 01:00",
+"game": "La Union Formosa vs AD Atenas Cordoba",
+"pick": "Under 174.5 total points",
+"odds": 1.23,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 02:00",
+"game": "Milwaukee Bucks vs Atlanta Hawks",
+"pick": "Under 246.5 total points",
+"odds": 1.26,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 03:00",
+"game": "Sacramento Kings vs Oklahoma City Thunder",
+"pick": "Over 209.5 total points",
+"odds": 1.24,
+"ts": 1794794400.0
+},
+{
+"t": "Mon 11:00",
+"game": "Seoul SK Knights vs Mobis Phoebus",
+"pick": "Under 178.5 total points",
+"odds": 1.24,
+"ts": 1794823200.0
+},
+{
+"t": "Mon 11:05",
+"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
+"pick": "Over 143.5 total points",
+"odds": 1.21,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Gunma Crane Thunders vs Shiga Lakestars",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Hiroshima Dragonflies vs Altiri Chiba",
+"pick": "Over 152.5 total points",
+"odds": 1.22,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Alvark Tokyo vs Kobe Storks",
+"pick": "Under 185.5 total points",
+"odds": 1.22,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:35",
+"game": "Ryukyu Golden Kings Okinawa vs Toyama Grouses",
+"pick": "Over 156.5 total points",
+"odds": 1.2,
+"ts": 1794825300.0
+},
+{
+"t": "Mon 18:00",
+"game": "KK Borac Cacak vs BC Slovan Bratislava",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1794848400.0
+}
+]
+},
+{
 "code": "PHLV9R",
 "at": 1794760095,
 "when": "Sun 15 Nov 17:28",
@@ -4980,8 +5308,8 @@
 "odds": 1.28,
 "ts": 1794758400.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Sun 17:00",
@@ -7168,8 +7496,8 @@
 "odds": 1.28,
 "ts": 1794758400.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Sun 17:30",
