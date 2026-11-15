@@ -3,19 +3,19 @@
 "history": [],
 "start_stake": 200.0,
 "stake": 200.0,
-"odds": 10.0,
+"odds": 5.0,
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-12",
-"code": "X6VDZ3",
-"odds": 10.39,
+"date": "2026-11-15",
+"code": "S0NKBS",
+"odds": 4.97,
 "stake": 200.0,
-"n": 7,
+"n": 8,
 "result": null
 },
-"started": "2026-11-12",
+"started": "2026-11-15",
 "short": "lower",
-"min_odds": 4.0,
+"min_odds": 1.8,
 "level": "strong"
 }

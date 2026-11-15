@@ -1,5 +1,140 @@
 [
 {
+"when": "Sun 15 Nov 08:03",
+"at": 1794726225,
+"req": {
+"type": "rollover",
+"legs": 8,
+"rid": "mwhhmfy0xd5h"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6200 \u2192 returns \u20a6994 if it wins"
+],
+"tickets": [
+{
+"code": "S0NKBS",
+"odds": 4.97,
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.29,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 95%; season: 3.5 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73581350",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581350|18|total=1.5|12"
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Over 1.5",
+"odds": 1.26,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); Flashscore home/away 95%; FotMob: 2.9 goals a game, season: 2.9 goals a game",
+"ts": 1794745800.0,
+"eid": "sr:match:72466630",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72466630|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against; season: 4.0 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73581360",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581360|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Asante Kotoko vs Bibiani Gold Stars FC",
+"lg": "Ghana - Premier League",
+"pick": "Under 3.5",
+"odds": 1.18,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%, Flashscore home/away 85%; FotMob: 2.0 goals a game, Vitibet tip 1-0, season: 2.0 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:74441518",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74441518|18|total=3.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Leones Negros UDEG vs Atletico Morelia",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 80%",
+"ts": 1794765600.0,
+"eid": "sr:match:76629022",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76629022|90|total=0.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 80%",
+"ts": 1794771900.0,
+"eid": "sr:match:68931760",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931760|90|total=0.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 83%",
+"ts": 1794771900.0,
+"eid": "sr:match:68931758",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931758|90|total=0.5|12"
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 88%, Flashscore home/away 95%; season: 2.3 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76732862|18|total=3.5|13"
+}
+],
+"chance": 0.1361
+}
+]
+},
+{
 "when": "Sun 15 Nov 08:02",
 "at": 1794726126,
 "req": {
