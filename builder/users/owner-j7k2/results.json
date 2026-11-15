@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "P3R95K",
+"at": 1794768470,
+"when": "Sun 15 Nov 19:47",
+"kind": "half-time draw \u2013 weak teams",
+"odds": 8.0,
+"status": "open",
+"legs": [
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1794776400.0
+},
+{
+"t": "Mon 00:05",
+"game": "Tigres FC vs Real Cundinamarca",
+"pick": "Half-time draw",
+"odds": 1.87,
+"ts": 1794783900.0
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"pick": "Half-time draw",
+"odds": 1.99,
+"ts": 1794942000.0
+}
+]
+},
+{
 "code": "UVBZ4L",
 "at": 1794765207,
 "when": "Sun 15 Nov 18:53",
