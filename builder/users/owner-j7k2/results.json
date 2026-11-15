@@ -742,7 +742,10 @@
 "game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
 "pick": "Over/Under (incl. overtime) 180.5 \u2013 Under 180.5",
 "odds": 1.23,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "59-73",
+"ht": "15-21"
 },
 {
 "t": "Sun 17:30",
@@ -910,7 +913,10 @@
 "game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
 "pick": "Under 180.5 total points",
 "odds": 1.23,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "59-73",
+"ht": "15-21"
 },
 {
 "t": "Sun 17:30",
@@ -1266,7 +1272,7 @@
 "odds": 1.1,
 "ts": 1794760200.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -5266,7 +5272,7 @@
 "odds": 1.12,
 "ts": 1794760200.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -6397,7 +6403,7 @@
 "odds": 1.12,
 "ts": 1794760200.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -9335,7 +9341,10 @@
 "game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
 "pick": "Under 181.5 total points",
 "odds": 1.23,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "59-73",
+"ht": "15-21"
 },
 {
 "t": "Sun 17:30",
@@ -9525,7 +9534,7 @@
 "odds": 1.11,
 "ts": 1794760200.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
