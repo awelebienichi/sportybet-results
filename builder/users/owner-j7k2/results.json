@@ -290,7 +290,7 @@
 "when": "Sun 15 Nov 11:43",
 "kind": "live football + basketball (10 \u26bd + 3 \ud83c\udfc0)",
 "odds": 4.4,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 10:00",
@@ -334,7 +334,10 @@
 "game": "SK Slovan HAC vs Simmeringer SC",
 "pick": "Handicap 0:4 \u2013 Simmeringer SC",
 "odds": 1.05,
-"ts": 1794735000.0
+"ts": 1794735000.0,
+"r": "L",
+"sc": "4-0",
+"ht": ""
 },
 {
 "t": "Sun 10:30",
