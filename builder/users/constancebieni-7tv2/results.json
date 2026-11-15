@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "M0RTUG",
+"at": 1794752757,
+"when": "Sun 15 Nov 15:25",
+"kind": "live \u2013 best of all",
+"odds": 1.44,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:00",
+"game": "A.P.O. Thyella Rafina FC vs Ilisiakos FC",
+"pick": "GG \u2013 No",
+"odds": 1.03,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Giouchtas vs AO Platanias",
+"pick": "Under 3.5",
+"odds": 1.03,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Ergotelis vs AE Neapolis",
+"pick": "Ergotelis Under 3.5",
+"odds": 1.03,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Malmo FF vs Vittsjo GIK",
+"pick": "Handicap 0:3 \u2013 Vittsjo GIK",
+"odds": 1.05,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Proodeftiki FC vs Ialissos FC",
+"pick": "Under 3.5",
+"odds": 1.04,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Hacken Gothenburg W vs Piteaa IF DFF",
+"pick": "Hacken Gothenburg W Under 3.5",
+"odds": 1.04,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Apollon Kalithion vs Pao Rouf",
+"pick": "Apollon Kalithion Under 2.5",
+"odds": 1.04,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:15",
+"game": "Zamora CF vs Real Aviles CF",
+"pick": "Handicap 0:3 \u2013 Real Aviles CF",
+"odds": 1.06,
+"ts": 1794748500.0
+},
+{
+"t": "Sun 14:30",
+"game": "Brindisi FC vs SSD Ischia Calcio",
+"pick": "Handicap 0:2 \u2013 SSD Ischia Calcio",
+"odds": 1.03,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Guidonia Montecelio 1937 FC vs AS Ostiamare",
+"pick": "Under 3.5",
+"odds": 1.03,
+"ts": 1794749400.0
+}
+]
+},
+{
 "code": "TBBF2Z",
 "at": 1794747780,
 "when": "Sun 15 Nov 14:03",
