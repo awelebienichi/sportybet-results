@@ -995,7 +995,10 @@
 "game": "LA Clippers vs Charlotte Hornets",
 "pick": "Over 200.5 total points",
 "odds": 1.25,
-"ts": 1794778200.0
+"ts": 1794778200.0,
+"r": "W",
+"sc": "113-105",
+"ht": "22-21"
 },
 {
 "t": "Sun 23:00",
@@ -1167,7 +1170,10 @@
 "game": "LA Clippers vs Charlotte Hornets",
 "pick": "Over 200.5 total points",
 "odds": 1.25,
-"ts": 1794778200.0
+"ts": 1794778200.0,
+"r": "W",
+"sc": "113-105",
+"ht": "22-21"
 },
 {
 "t": "Sun 23:00",
@@ -1605,7 +1611,10 @@
 "game": "LA Clippers vs Charlotte Hornets",
 "pick": "Over/Under (incl. overtime) 201.5 \u2013 Over 201.5",
 "odds": 1.25,
-"ts": 1794778200.0
+"ts": 1794778200.0,
+"r": "W",
+"sc": "113-105",
+"ht": "22-21"
 }
 ]
 },
@@ -1922,7 +1931,10 @@
 "game": "LA Clippers vs Charlotte Hornets",
 "pick": "Over 201.5 total points",
 "odds": 1.25,
-"ts": 1794778200.0
+"ts": 1794778200.0,
+"r": "W",
+"sc": "113-105",
+"ht": "22-21"
 }
 ]
 },
