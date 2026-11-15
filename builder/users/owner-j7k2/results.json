@@ -897,7 +897,10 @@
 "game": "Palmer Basquet Mallorca Palma vs Albacete Basket",
 "pick": "Over/Under (incl. overtime) 153.5 \u2013 Over 153.5",
 "odds": 1.22,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "L",
+"sc": "80-71",
+"ht": "13-19"
 },
 {
 "t": "Sun 18:00",
@@ -1210,7 +1213,10 @@
 "game": "Palmer Basquet Mallorca Palma vs Albacete Basket",
 "pick": "Over 153.5 total points",
 "odds": 1.22,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "L",
+"sc": "80-71",
+"ht": "13-19"
 },
 {
 "t": "Sun 18:00",
@@ -9359,7 +9365,10 @@
 "game": "Palmer Basquet Mallorca Palma vs Albacete Basket",
 "pick": "Over 153.5 total points",
 "odds": 1.22,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "L",
+"sc": "80-71",
+"ht": "13-19"
 },
 {
 "t": "Sun 18:00",
