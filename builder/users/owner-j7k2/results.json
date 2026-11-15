@@ -2,6 +2,240 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NHYHSF",
+"at": 1794746482,
+"when": "Sun 15 Nov 13:41",
+"kind": "your tracker's best markets",
+"odds": 83.16,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:30",
+"game": "RC Lens vs FC Rouen U19",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "OGC Nice vs Ol. Marseille",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Balma SC U19 vs Cavigal Nice SF U19",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "US Orleans vs C Chartres Football",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Estac Troyes vs Paris FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Cercle Brugge vs KVC Houtvenne",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Le Mans FC vs Grenoble Foot 38",
+"pick": "1st half double chance Le Mans FC or draw",
+"odds": 1.11,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Boldmere St Michaels Women vs Stockport County Lfc",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Polonia Sroda Wielkopolska vs Luks Sportowa Czworka Radom",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:30",
+"game": "AS Monaco vs Bastia SC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1794753000.0
+},
+{
+"t": "Sun 16:00",
+"game": "Avenir Beggen vs The Belval Belvaux",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CD Manacor vs UD Alcudia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Backa Topola vs FK Jedinstvo UB",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs Eintracht Frankfurt",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "CD Guadiana vs CD Gevora",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Club Haro Deportivo vs CD Berceo",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"pick": "Eibar to win (1UP)",
+"odds": 1.29,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Friburguense AC RJ vs SE Belford Roxo RJ",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.23,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 21:00",
+"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Humble Lions FC vs Arnett Gardens FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Platense Municipal Zacatecoluca vs Atletico Balboa",
+"pick": "1st half double chance CD Platense Municipal Zacatecoluca or draw",
+"odds": 1.26,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "LK8TYH",
 "at": 1794744092,
 "when": "Sun 15 Nov 13:01",

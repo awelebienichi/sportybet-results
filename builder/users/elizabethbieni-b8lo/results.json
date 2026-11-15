@@ -2,6 +2,86 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "G4XZ83",
+"at": 1794746543,
+"when": "Sun 15 Nov 13:42",
+"kind": "basketball \u2013 total points",
+"odds": 8.11,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Over 156.5 total points",
+"odds": 1.23,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "BC Aris Thessaloniki vs BC Olympiakos Piraeus",
+"pick": "Under 175.5 total points",
+"odds": 1.23,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Sokol Pisek vs Sluneta Usti nad Labem",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"pick": "Under 181.5 total points",
+"odds": 1.23,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Swans Gmunden vs Traiskirchen Lions",
+"pick": "Under 176.5 total points",
+"odds": 1.24,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 18:30",
+"game": "KK Crvena zvezda Belgrade vs KK Cedevita Olimpija Ljubljana",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Baskonia Vitoria-Gasteiz vs Real Madrid",
+"pick": "Under 198.5 total points",
+"odds": 1.26,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 22:30",
+"game": "LA Clippers vs Charlotte Hornets",
+"pick": "Over 202.5 total points",
+"odds": 1.25,
+"ts": 1794778200.0
+}
+]
+},
+{
 "code": "ML4NZ8",
 "at": 1794745859,
 "when": "Sun 15 Nov 13:30",
