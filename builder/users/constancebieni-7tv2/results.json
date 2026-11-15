@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "JUHPY1",
+"at": 1794754764,
+"when": "Sun 15 Nov 15:59",
+"kind": "live \u2013 best of all",
+"odds": 1.25,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:30",
+"game": "Rovato Vertovese vs Piacenza Calcio 1919",
+"pick": "Handicap 5:0 \u2013 Rovato Vertovese",
+"odds": 1.04,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Salernitana vs Catania FC",
+"pick": "Salernitana Under 2.5",
+"odds": 1.03,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "AC Chievo Verona vs Pro Palazzolo",
+"pick": "Pro Palazzolo Under 2.5",
+"odds": 1.03,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Scotland vs USA",
+"pick": "Handicap 4:0 \u2013 Scotland",
+"odds": 1.03,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Hamburger SV vs HNK Hajduk Split",
+"pick": "Handicap 0:2 \u2013 HNK Hajduk Split",
+"odds": 1.06,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "GFA Rumilly-Vallieres vs Saint-Etienne",
+"pick": "Handicap 3:0 \u2013 GFA Rumilly-Vallieres",
+"odds": 1.04,
+"ts": 1794751200.0
+}
+]
+},
+{
 "code": "M0RTUG",
 "at": 1794752757,
 "when": "Sun 15 Nov 15:25",
