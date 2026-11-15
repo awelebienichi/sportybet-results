@@ -928,8 +928,16 @@ def pattern(req):
     hi = dt.datetime.combine(dt.date.fromisoformat(days[-1]), dt.time(23, 59), LAG).timestamp()
     G = [g for g in games_cached(now + 20 * 60, hi) if dt.datetime.fromtimestamp(g["ts"], LAG).date().isoformat() in days]
     LX = fetch_teams(G); used, legs, note = set(), [], []
+    dropped = [0]
+    def chk(L):                                                                 # the normal builder's extra source checks, on the candidates before picking
+        L = L[:40]
+        try:
+            import extra
+            ok, d = extra.confirm(L, len(L)); dropped[0] += d; return ok[:len(L)]
+        except Exception as e: print("pattern checks skipped:", e); return L
     if n_h:
         H = [p for p in pick_htdraw(G, LX) + pick_draw_weak(G, LX, True) if 1.80 <= p["odds"] <= 2.50]      # level-at-the-break teams, then weak sides
+        H = chk(H)
         for p in H:
             if len([l for l in legs if l["mid"] == "60"]) >= n_h: break
             if p["eid"] in used: continue
@@ -948,15 +956,32 @@ def pattern(req):
         opts = []
         for g, gpg, hgf in cand:
             mk = MK.get(g["eid"]) or {}
+            Hh, Aa = LX[g["hid"]], LX[g["aid"]]
+            fr = lambda L, c: sum(1 for m in L if c(m)) / len(L)
             for mid, spec, oid, lab, base in BANKERS:
                 od = mk.get((mid, spec, oid))
                 if not od or not 1.06 <= od <= 1.15: continue                       # 1.06+: a banker should still add something to the odds
-                if mid == "860" and g["x"].get("1", 9) > 1.7: continue               # home or GG: the home side must be the favourite
-                if mid == "60021" and hgf > 2.0: continue                             # home team that doesn't run up big scores
-                if mid == "58" and gpg > 3.2: continue                                # both halves 2+ goals is rare in lower-scoring games
+                # each banker needs the teams' own stats behind it, not just a short price
+                if mid == "860":                                                    # home or GG: home team rarely loses unless both teams score
+                    if g["x"].get("1", 9) > 1.7: continue
+                    r = (fr(Hh, lambda m: m["gf"] > m["ga"] or (m["gf"] > 0 and m["ga"] > 0)) + fr(Aa, lambda m: m["gf"] < m["ga"] or (m["gf"] > 0 and m["ga"] > 0))) / 2
+                    if r < .85: continue
+                    why = f"home won or both scored in {r:.0%} of the teams' last games"
+                elif mid == "60021":                                                # home team 3+ in a row No: it rarely scores 3+ at all
+                    r = 1 - fr(Hh, lambda m: m["gf"] >= 3)
+                    if r < .8 or hgf > 2.0: continue
+                    why = f"{g['h']} scored 3+ in only {1 - r:.0%} of its last {len(Hh)} games"
+                else:                                                               # both halves Over 1.5 No: 2+ goals in each half is rare for these teams
+                    H1, A1 = [m for m in Hh if m["h1f"] is not None], [m for m in Aa if m["h1f"] is not None]
+                    if len(H1) < 6 or len(A1) < 6: continue
+                    bh = lambda m: m["h1f"] + m["h1a"] >= 2 and m["h2f"] + m["h2a"] >= 2
+                    r = 1 - (fr(H1, bh) + fr(A1, bh)) / 2
+                    if r < .85 or gpg > 3.2: continue
+                    why = f"2+ goals in BOTH halves in only {1 - r:.0%} of the teams' last games"
                 opts.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
-                                 rate=base, why=f"pattern banker: won 90%+ in your results at 1.15 or less; {gpg:.1f} goals a game"))
-        opts.sort(key=lambda o: -o["odds"])                                           # within the 90%+ range, the ones that add most to the odds first
+                                 rate=r, s=r, why=f"pattern banker: {why}; {gpg:.1f} goals a game"))
+        opts.sort(key=lambda o: (-round(o["rate"], 2), -o["odds"]))                  # strongest stats first, then the ones that add most to the odds
+        opts = chk(opts)
         nb = 0
         for o in opts:
             if nb >= n_b: break
@@ -972,6 +997,7 @@ def pattern(req):
         F = [p for p in F if any(RB[k][:3] == (p["mid"], p["spec"], p["oid"]) and cap[k][0] <= p["odds"] <= cap[k][1] for k in cap)]
         for p in F: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
         F.sort(key=lambda p: (-(p["mid"] == "63"), -p["chance"]))                      # 1st half double chance first: the strongest pocket
+        F = chk(F)
         nf = 0
         for p in F:
             if nf >= n_fh: break
@@ -984,6 +1010,7 @@ def pattern(req):
         for l in bb: used.add(l["eid"]); l["why"] += " (pattern: basketball total 1.15-1.25)"
         legs += bb
         if len(bb) < n_bb: note.append(f"Basketball totals: {len(bb)} of {n_bb} found at 1.15-1.25.")
+    if dropped[0]: note.append(f"{dropped[0]} candidate(s) were left out because Flashscore, footybets, FotMob, DFP, Vitibet or the season table went against them.")
     if not legs: return dict(ok=False, msg=" ".join(note) or "No legs fit the pattern for the days chosen.")
     ch = math.prod({"60": .476, "225": .88, "63": .926, "75": .85, "68": .84}.get(l["mid"], .95) for l in legs)
     note.append(f"Pattern estimate from your own results: about {ch:.0%} chance this ticket wins" + (f" (about {round(ch * 10)} in 10)." if ch >= .3 else f" (about 1 in {round(1 / ch)})."))
