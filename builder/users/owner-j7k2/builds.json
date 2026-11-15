@@ -1,5 +1,323 @@
 [
 {
+"when": "Sun 15 Nov 16:04",
+"at": 1794755042,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"markets": [
+"h1dc",
+"h1u25",
+"u35",
+"h1ggn"
+],
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwhysth3sq6g"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 20 legs win: about 3% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "XKYGP9",
+"odds": 14.04,
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings",
+"ts": 1794756600.0,
+"eid": "sr:match:72531672",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72531672|68|total=2.5|13"
+},
+{
+"t": "Sun 16:30",
+"game": "CD Lugo vs CD Mirandes",
+"lg": "Spain - Primera Federacion",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794756600.0,
+"eid": "sr:match:72559234",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72559234|75||76"
+},
+{
+"t": "Sun 16:30",
+"game": "Athletic Bilbao B vs CD Alba Fundacion",
+"lg": "Spain - Primera Federacion, Women",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"why": "stats rate 89% from both teams' last 10",
+"ts": 1794756600.0,
+"eid": "sr:match:73295816",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73295816|75||76"
+},
+{
+"t": "Sun 17:00",
+"game": "Bucaspor 1928 vs Karsiyaka",
+"lg": "Turkiye Amateur - 3. Lig",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794758400.0,
+"eid": "sr:match:72890752",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72890752|75||76"
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"lg": "Italy - Serie C, Group B",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794760200.0,
+"eid": "sr:match:73294090",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73294090|63||9"
+},
+{
+"t": "Sun 17:30",
+"game": "AS Cittadella vs US Folgore Caratese",
+"lg": "Italy - Serie C, Group A",
+"pick": "1st half double chance AS Cittadella or draw",
+"odds": 1.1,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794760200.0,
+"eid": "sr:match:73293340",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73293340|63||9"
+},
+{
+"t": "Sun 17:30",
+"game": "US Pergolettese Crema vs Pro Vercelli 1892",
+"lg": "Italy - Serie C, Group A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794760200.0,
+"eid": "sr:match:73293350",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73293350|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794762000.0,
+"eid": "sr:match:68932522",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932522|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:76833142",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76833142|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:74100784",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74100784|75||76"
+},
+{
+"t": "Sun 18:15",
+"game": "Valencia CF vs Granada CF",
+"lg": "Spain - Primera Division Women",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"why": "stats rate 90% from both teams' last 10 and 6 meetings",
+"ts": 1794762900.0,
+"eid": "sr:match:72491454",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72491454|75||76"
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"lg": "Spain - LaLiga 2",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794763800.0,
+"eid": "sr:match:72477586",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72477586|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794765600.0,
+"eid": "sr:match:76322272",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322272|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.11,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.2 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:76413246",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76413246|18|total=3.5|13"
+},
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794769200.0,
+"eid": "sr:match:76322276",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322276|75||76"
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.1,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, Vitibet tip 1-0, season: 1.9 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76411704",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76411704|18|total=3.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"lg": "Jamaica - Premier League",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794772800.0,
+"eid": "sr:match:74695526",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74695526|68|total=2.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, season: 2.3 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76732862|18|total=3.5|13"
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"lg": "Chile - Primera B",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76422378|63||9"
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"lg": "Chile - Primera B",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422300",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76422300|75||76"
+}
+],
+"chance": 0.0271
+}
+]
+},
+{
 "when": "Sun 15 Nov 16:00",
 "at": 1794754828,
 "req": {
@@ -19615,149 +19933,6 @@
 }
 ],
 "chance": 0.0003
-}
-]
-},
-{
-"when": "Sun 15 Nov 07:28",
-"at": 1794724118,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "livemix",
-"fb_legs": 6,
-"bb_legs": 6,
-"strict": "normal",
-"strategy": "mix",
-"bb_kind": "mix",
-"rid": "mwhge7jdokmd"
-},
-"ok": true,
-"kind": "live football + basketball (6 \u26bd + 2 \ud83c\udfc0)",
-"note": [
-"Live basketball: 2 of 6 legs passed.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 8 legs win: about 39%."
-],
-"tickets": [
-{
-"code": "KSBC1R",
-"odds": 1.74,
-"legs": [
-{
-"t": "Sun 06:00",
-"game": "Kamatamare Sanuki vs Renofa Yamaguchi",
-"lg": "Japan - J3 League",
-"pick": "Kamatamare Sanuki Under 1.5",
-"odds": 1.03,
-"why": "LIVE 0-1 67': Kamatamare Sanuki expected 0.3 and Renofa Yamaguchi 0.4 more goals (last 10 + season); 0-1 at 67' \u2013 95% chance; h2h 100% of 6 meetings",
-"ts": 1794718800.0,
-"eid": "sr:match:72152196",
-"mid": "19",
-"spec": "total=1.5",
-"oid": "13",
-"k": "72152196|19|total=1.5|13"
-},
-{
-"t": "Sun 06:00",
-"game": "Tochigi SC vs Nara Club",
-"lg": "Japan - J3 League",
-"pick": "Tochigi SC Under 1.5",
-"odds": 1.04,
-"why": "LIVE 0-0 69': Tochigi SC expected 0.2 and Nara Club 0.4 more goals (last 10 + season); 0-0 at 69' \u2013 96% chance",
-"ts": 1794718800.0,
-"eid": "sr:match:72152186",
-"mid": "19",
-"spec": "total=1.5",
-"oid": "13",
-"k": "72152186|19|total=1.5|13"
-},
-{
-"t": "Sun 06:00",
-"game": "Zweigen Kanazawa vs Roasso Kumamoto",
-"lg": "Japan - J3 League",
-"pick": "Under 5.5",
-"odds": 1.03,
-"why": "LIVE 2-1 66': Zweigen Kanazawa expected 0.4 and Roasso Kumamoto 0.4 more goals (last 10 + season); 2-1 at 66' \u2013 94% chance; Flashscore home/away form 75%, FotMob: 2.5 goals a game, season: 2.5 goals a game, h2h 62% of 8 meetings (3.5 line)",
-"ts": 1794718800.0,
-"eid": "sr:match:72152190",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "72152190|18|total=5.5|13"
-},
-{
-"t": "Sun 06:00",
-"game": "AC Nagano Parceiro vs Ehime FC",
-"lg": "Japan - J3 League",
-"pick": "Under 3.5",
-"odds": 1.03,
-"why": "LIVE 1-0 69': AC Nagano Parceiro expected 0.4 and Ehime FC 0.4 more goals (last 10 + season); 1-0 at 69' \u2013 93% chance; Flashscore home/away form 75%, h2h 75% of 4 meetings (3.5 line)",
-"ts": 1794718800.0,
-"eid": "sr:match:72152188",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72152188|18|total=3.5|13"
-},
-{
-"t": "Sun 06:00",
-"game": "Kataller Toyama vs Tokushima Vortis",
-"lg": "Japan - J2 League",
-"pick": "Kataller Toyama or Tokushima Vortis",
-"odds": 1.04,
-"why": "LIVE 0-2 67': Kataller Toyama expected 0.4 and Tokushima Vortis 0.3 more goals (last 10 + season); 0-2 at 67' \u2013 94% chance",
-"ts": 1794718800.0,
-"eid": "sr:match:72151358",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "72151358|10||10"
-},
-{
-"t": "Sun 06:00",
-"game": "FC Imabari vs Jubilo Iwata",
-"lg": "Japan - J2 League",
-"pick": "Handicap 4:0 \u2013 FC Imabari",
-"odds": 1.04,
-"why": "LIVE 0-2 68': FC Imabari expected 0.3 and Jubilo Iwata 0.5 more goals (last 10 + season); 0-2 at 68' \u2013 91% chance; margin record 80% / 100% in both sides' last games",
-"ts": 1794718800.0,
-"eid": "sr:match:72151362",
-"mid": "14",
-"spec": "hcp=4:0",
-"oid": "1711",
-"k": "72151362|14|hcp=4:0|1711"
-},
-{
-"t": "Sun 06:00",
-"game": "Goyang Skygunners vs Wonju DB New Generation",
-"lg": "Republic of Korea - KBL",
-"pick": "Over 162.5 total points",
-"odds": 1.2,
-"why": "LIVE 69-57, 30 of 40 min: expected final 93-80; 87% by the stats, 83% with the price",
-"ts": 1794718800.0,
-"eid": "sr:match:73657558",
-"mid": "225",
-"spec": "total=162.5",
-"oid": "12",
-"k": "73657558|225|total=162.5|12"
-},
-{
-"t": "Sun 07:05",
-"game": "Niigata Albirex BB vs Gifu Swoops",
-"lg": "Japan - B League One",
-"pick": "Niigata Albirex BB to win (incl. OT)",
-"odds": 1.18,
-"why": "LIVE 16-10, 8 of 40 min: expected final 85-69; 88% by the stats, 84% with the price",
-"ts": 1794722700.0,
-"eid": "sr:match:72703214",
-"mid": "219",
-"spec": "",
-"oid": "4",
-"k": "72703214|219||4"
-}
-],
-"chance": 0.3889
 }
 ]
 }
