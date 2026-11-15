@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X7HC0N",
+"at": 1794746767,
+"when": "Sun 15 Nov 13:46",
+"kind": "your chosen markets",
+"odds": 3.12,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:30",
+"game": "PFK Beroe Stara Zagora vs PFC Vihren Sandanski",
+"pick": "1st half double chance PFC Vihren Sandanski or draw",
+"odds": 1.25,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Burnley FC Women vs Southampton FC",
+"pick": "1st half double chance Southampton FC or draw",
+"odds": 1.16,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Le Mans FC vs Grenoble Foot 38",
+"pick": "1st half double chance Le Mans FC or draw",
+"odds": 1.11,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 21:00",
+"game": "Gimnasia de Chivilcoy vs Douglas Haig",
+"pick": "1st half double chance Douglas Haig or draw",
+"odds": 1.27,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Platense Municipal Zacatecoluca vs Atletico Balboa",
+"pick": "1st half double chance CD Platense Municipal Zacatecoluca or draw",
+"odds": 1.26,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "NHYHSF",
 "at": 1794746482,
 "when": "Sun 15 Nov 13:41",
