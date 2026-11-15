@@ -307,7 +307,10 @@
 "game": "New Taipei CTBC DEA vs Taipei Taishin Mars",
 "pick": "Under 195.5 total points",
 "odds": 1.5,
-"ts": 1794733200.0
+"ts": 1794733200.0,
+"r": "W",
+"sc": "94-87",
+"ht": "17-25"
 },
 {
 "t": "Sun 10:00",
@@ -443,7 +446,7 @@
 "odds": 1.5,
 "ts": 1794733200.0,
 "r": "W",
-"sc": "94-85",
+"sc": "94-87",
 "ht": "17-25"
 },
 {
