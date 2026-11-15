@@ -90,7 +90,10 @@
 "game": "FK Admira Prague vs SK Slavia Prague C",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1794734100.0
+"ts": 1794734100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -798,7 +801,10 @@
 "game": "FC Volgar Astrakhan vs Dinamo Kirov",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:00",
@@ -1085,8 +1091,8 @@
 "odds": 1.22,
 "ts": 1794734100.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 11:00",
@@ -1257,8 +1263,8 @@
 "odds": 1.22,
 "ts": 1794734100.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 10:30",
@@ -1282,7 +1288,10 @@
 "game": "FC Volgar Astrakhan vs Dinamo Kirov",
 "pick": "1st half excluded goals: 2",
 "odds": 1.2,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:00",
