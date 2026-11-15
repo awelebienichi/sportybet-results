@@ -321,7 +321,10 @@
 "game": "Csepel SC vs III Keruleti Tve",
 "pick": "Csepel SC or III Keruleti Tve",
 "odds": 1.03,
-"ts": 1794744000.0
+"ts": 1794744000.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-0"
 },
 {
 "t": "Sun 13:00",
@@ -342,7 +345,10 @@
 "game": "Debreceni Eac vs Tiszafured Vse",
 "pick": "Debreceni Eac Under 4.5",
 "odds": 1.06,
-"ts": 1794744000.0
+"ts": 1794744000.0,
+"r": "W",
+"sc": "4-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 13:00",
