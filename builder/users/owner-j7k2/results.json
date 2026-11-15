@@ -9206,7 +9206,10 @@
 "game": "BK Dukes Klosterneuburg vs Kufstein Towers",
 "pick": "Over 153.5 total points",
 "odds": 1.2,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "87-81",
+"ht": "20-12"
 },
 {
 "t": "Sun 18:00",
@@ -9380,7 +9383,10 @@
 "game": "BK Dukes Klosterneuburg vs Kufstein Towers",
 "pick": "Under 179.5 total points",
 "odds": 1.24,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "W",
+"sc": "87-81",
+"ht": "20-12"
 },
 {
 "t": "Sun 18:00",
