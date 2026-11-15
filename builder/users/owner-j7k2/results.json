@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "G5YR4X",
+"at": 1794721951,
+"when": "Sun 15 Nov 06:52",
+"kind": "football + basketball (5 \u26bd + 5 \ud83c\udfc0)",
+"odds": 5.97,
+"status": "open",
+"legs": [
+{
+"t": "Sun 08:30",
+"game": "LG Sakers vs KT Sonicboom",
+"pick": "Over 156.5 total points",
+"odds": 1.21,
+"ts": 1794727800.0
+},
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 14:00",
+"game": "MK Dons Ladies vs Chatham Town Women",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 15:00",
+"game": "Boldmere St Michaels Women vs Stockport County Lfc",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"pick": "Under 182.5 total points",
+"odds": 1.22,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 21:00",
+"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794772800.0
+}
+]
+},
+{
 "code": "ZW2EDF",
 "at": 1794719945,
 "when": "Sun 15 Nov 06:19",
@@ -4712,9 +4792,9 @@
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.16,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "2-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4722,9 +4802,9 @@
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.18,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "3-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4969,9 +5049,9 @@
 "pick": "Over 1.5",
 "odds": 1.16,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "2-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4979,9 +5059,9 @@
 "pick": "Over 1.5",
 "odds": 1.18,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "3-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
@@ -5267,8 +5347,8 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "5-7",
-"ht": ""
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -5664,8 +5744,8 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "5-7",
-"ht": ""
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -6427,9 +6507,9 @@
 "pick": "Over 1.5",
 "odds": 1.17,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "2-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6457,9 +6537,9 @@
 "pick": "Over 1.5",
 "odds": 1.19,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "3-4",
-"ht": ""
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6487,9 +6567,9 @@
 "pick": "Over 1.5",
 "odds": 1.17,
 "ts": 1794668400.0,
-"r": "W",
-"sc": "3-2",
-"ht": ""
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
