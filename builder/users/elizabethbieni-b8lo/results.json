@@ -2,6 +2,156 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "K2G05F",
+"at": 1794725136,
+"when": "Sun 15 Nov 07:45",
+"kind": "rebuild of ZB3FTP",
+"odds": 8.42,
+"status": "open",
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "Cyprus vs Montenegro",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Latvia vs Armenia",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 20:45",
+"game": "Belgium vs Italy",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"pick": "1st half Under 2.5",
+"odds": 1.16,
+"ts": 1794771900.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 18:00",
+"game": "Estonia vs Bulgaria",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Gibraltar vs Malta",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "North Macedonia vs Slovenia",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1794858300.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bosnia & Herzegovina vs Romania",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Denmark vs Norway",
+"pick": "1st half Under 2.5",
+"odds": 1.18,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hungary vs Northern Ireland",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ireland vs Kosovo",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Israel vs Austria",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Wales vs Portugal",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"ts": 1794944700.0
+}
+]
+},
+{
 "code": "HPYY1E",
 "at": 1794724951,
 "when": "Sun 15 Nov 07:42",
