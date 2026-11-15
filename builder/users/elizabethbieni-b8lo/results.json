@@ -319,7 +319,10 @@
 "game": "CD Utrera vs Bollullos CF",
 "pick": "CD Utrera Under 3.5",
 "odds": 1.03,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -336,7 +339,10 @@
 "game": "Madrid CFF vs Logrono United",
 "pick": "Madrid CFF Under 3.5",
 "odds": 1.03,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Sun 12:00",
@@ -469,7 +475,7 @@
 "when": "Sun 15 Nov 08:02",
 "kind": "goal-fest teams (season data)",
 "odds": 317.46,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 09:00",
@@ -496,7 +502,10 @@
 "game": "FCS Feminin Politehnica Timisoara vs Afk Csikszereda Miercurea Ciuc",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",

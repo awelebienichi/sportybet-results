@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 12:48",
 "kind": "live \u2013 best of all",
 "odds": 1.25,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 11:30",
@@ -24,7 +24,10 @@
 "game": "CD Utrera vs Bollullos CF",
 "pick": "CD Utrera Under 3.5",
 "odds": 1.03,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -41,7 +44,10 @@
 "game": "Madrid CFF vs Logrono United",
 "pick": "Madrid CFF Under 3.5",
 "odds": 1.03,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Sun 12:00",
