@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MDDYSX",
+"at": 1794770754,
+"when": "Sun 15 Nov 20:25",
+"kind": "pattern combo (0 HT draw + 0 bankers + 10 1st-half + 0 basketball)",
+"odds": 6.31,
+"status": "open",
+"legs": [
+{
+"t": "Sun 21:00",
+"game": "Gimnasia de Chivilcoy vs Douglas Haig",
+"pick": "1st half double chance Douglas Haig or draw",
+"odds": 1.28,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"pick": "1st half GG \u2013 No",
+"odds": 1.09,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Dunbeholden FC vs Chapelton Maroons FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Humble Lions FC vs Arnett Gardens FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Platense Municipal Zacatecoluca vs Atletico Balboa",
+"pick": "1st half double chance CD Platense Municipal Zacatecoluca or draw",
+"odds": 1.26,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Santa Cruz vs CSD Rangers",
+"pick": "1st half double chance CSD Rangers or draw",
+"odds": 1.22,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportivo San Pedro vs CD Marquense",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportes Magallanes vs CD Antofagasta",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "P2HNGH",
 "at": 1794768622,
 "when": "Sun 15 Nov 19:50",
