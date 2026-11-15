@@ -802,7 +802,7 @@ def finish(T, kind, names, note, req):
         code = post([dict(eventId=p["eid"], marketId=p["mid"], specifier=p["spec"], outcomeId=p["oid"]) for p in t])
         if not code: note.append("SportyBet refused one booking."); continue
         time.sleep(2); o = load(code)
-        okc = len(o) == len(t) and len({e["eventId"] for e in o}) == len(o) and (kind in ("live", "bblive") or all(e["estimateStartTime"]/1000 > time.time() for e in o))
+        okc = len(o) == len(t) and len({e["eventId"] for e in o}) == len(o) and (kind in ("live", "bblive", "livemix") or all(e["estimateStartTime"]/1000 > time.time() for e in o))
         odds = 1.0
         for e in o: odds *= float(e["markets"][0]["outcomes"][0]["odds"])
         if not okc: note.append(f"{code} failed the reload check and was not used."); continue
@@ -841,6 +841,21 @@ def fbmix(req):
     for l in legs: l.setdefault("ts", time.time() + 3600)
     return finish([legs], "fbmix", {"fbmix": f"football + basketball ({len(fl)} ⚽ + {len(bl)} 🏀)"}, note, req)
 
+def livemix(req):
+    """live football + live basketball on one code: each live picker runs with its own rules unchanged, then all legs are booked together"""
+    import live, bblive
+    fl_n = max(0, min(int(req.get("fb_legs") or 0), 40)); bl_n = max(0, min(int(req.get("bb_legs") or 0), 40))
+    if not fl_n and not bl_n: return dict(ok=False, msg="Choose how many live football and/or basketball legs you want.")
+    F = live.build(dict(strategy=req.get("strategy") or "mix", legs=fl_n, strict=req.get("strict", "normal"), _legs_only=True)) if fl_n else dict(legs=[])
+    B = bblive.build(dict(kind=req.get("bb_kind") or "mix", legs=bl_n, strict=req.get("strict", "normal"), _legs_only=True)) if bl_n else dict(legs=[])
+    fl, bl = (F.get("legs") or [])[:fl_n], (B.get("legs") or [])[:bl_n]
+    note = []
+    if fl_n and len(fl) < fl_n: note.append(f"Live football: {len(fl)} of {fl_n} legs passed" + (f" ({F.get('msg')})" if F.get("msg") else "") + ".")
+    if bl_n and len(bl) < bl_n: note.append(f"Live basketball: {len(bl)} of {bl_n} legs passed" + (f" ({B.get('msg')})" if B.get("msg") else "") + ".")
+    if not fl + bl: return dict(ok=False, msg=" ".join(note) or "No live legs passed the checks right now.")
+    note.append("Live odds move fast – load the code on SportyBet straight away.")
+    return finish([fl + bl], "livemix", {"livemix": f"live football + basketball ({len(fl)} ⚽ + {len(bl)} 🏀)"}, note, req)
+
 # ---------- main ----------
 def main(req):
     ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
@@ -853,6 +868,7 @@ def main(req):
     if req.get("type") == "bblive":
         import bblive; return bblive.build(req)
     if req.get("type") == "fbmix": return fbmix(req)
+    if req.get("type") == "livemix": return livemix(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")
