@@ -508,6 +508,18 @@ def rebuild_rates(g, LX, hh):
     R.setdefault("dc_x2", both(lambda m: m["gf"] <= m["ga"], lambda m: m["gf"] >= m["ga"], lambda a, b: b >= a))
     R.setdefault("win_h", both(lambda m: m["gf"] > m["ga"], lambda m: m["gf"] < m["ga"], lambda a, b: a > b))
     R.setdefault("win_a", both(lambda m: m["gf"] < m["ga"], lambda m: m["gf"] > m["ga"], lambda a, b: b > a))
+    # home team's home games / away team's away games, blended in (15 Nov: home-strong leagues such as Nigeria's NPFL were skipped –
+    # Katsina 4/10 overall but unbeaten 6/6 at home). Tested on 3,370 finished home games: venue form alone was worse (too few games),
+    # the blend was the best of the three and let ~20% more games reach 80% at nearly the same hit rate (84% vs 85%)
+    Hh, Aa = [m for m in H if m.get("home")], [m for m in A if not m.get("home")]
+    if len(Hh) >= 3 and len(Aa) >= 3:
+        k = min(1, (min(len(Hh), len(Aa)) - 2) / 4) / 2
+        v = {"dc_1x": (f(Hh, lambda m: m["gf"] >= m["ga"]) + f(Aa, lambda m: m["gf"] <= m["ga"])) / 2,
+             "win_h": (f(Hh, lambda m: m["gf"] > m["ga"]) + f(Aa, lambda m: m["gf"] < m["ga"])) / 2,
+             "dc_x2": (f(Aa, lambda m: m["gf"] >= m["ga"]) + f(Hh, lambda m: m["gf"] <= m["ga"])) / 2,
+             "win_a": (f(Aa, lambda m: m["gf"] > m["ga"]) + f(Hh, lambda m: m["gf"] < m["ga"])) / 2}
+        for key, val in v.items():
+            if key in R: R[key] = (1 - k) * R[key] + k * val
     for k, a, b in (("up_h", "win_h", "dc_1x"), ("up_a", "win_a", "dc_x2")): R.setdefault(k, (R[a] * 2 + R[b]) / 3)
     xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
     if xh > xa: R["wu25_h"] = both(lambda m: m["gf"] <= 2, lambda m: m["ga"] <= 2, lambda a, b: a <= 2)     # home is the weaker team
