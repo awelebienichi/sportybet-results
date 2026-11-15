@@ -221,7 +221,10 @@
 "game": "AD Union Adarve vs Las Rozas CF",
 "pick": "Over 1.5",
 "odds": 1.31,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:00",
@@ -367,7 +370,10 @@
 "game": "AD Union Adarve vs Las Rozas CF",
 "pick": "Over 1.5",
 "odds": 1.31,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:30",
