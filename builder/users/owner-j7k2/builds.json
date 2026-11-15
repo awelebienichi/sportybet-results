@@ -1,5 +1,247 @@
 [
 {
+"when": "Sun 15 Nov 14:52",
+"at": 1794750777,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwhw951nwncc"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Chance all 15 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "QHVVR3",
+"odds": 339.27,
+"legs": [
+{
+"t": "Sun 15:30",
+"game": "AS Monaco vs Bastia SC",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "season: 3.5 and 3.9 goals a game (10/9 games); last 10 rate 70%",
+"ts": 1794753000.0,
+"eid": "sr:match:73111654",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111654|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "season: 3.7 and 4.2 goals a game (10/9 games); last 10 rate 90%; Flashscore home/away form 90%, season: 4.0 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72577814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72577814|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 4.0 and 4.2 goals a game (10/10 games); last 10 rate 80%; season: 4.1 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:76506618",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76506618|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "season: 4.3 and 3.2 goals a game (9/9 games); last 10 rate 75%; season: 3.8 goals a game",
+"ts": 1794754800.0,
+"eid": "sr:match:72961086",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961086|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "FC Mondercange vs SC Bettembourg",
+"lg": "Luxembourg - Promotion d'Honneur",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "season: 3.5 and 3.6 goals a game (11/11 games); last 10 rate 70%",
+"ts": 1794754800.0,
+"eid": "sr:match:72964550",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72964550|18|total=2.5|12"
+},
+{
+"t": "Sun 16:45",
+"game": "Feyenoord Rotterdam vs SC Heerenveen",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 3.4 and 3.6 goals a game (9/9 games); last 10 rate 75%; Flashscore home/away form 90%, FotMob: 3.5 goals a game",
+"ts": 1794757500.0,
+"eid": "sr:match:72467526",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72467526|18|total=2.5|12"
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "season: 4.0 and 4.1 goals a game (9/9 games); last 10 rate 70%; Flashscore home/away form 75%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1794757500.0,
+"eid": "sr:match:72467522",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72467522|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Club Haro Deportivo vs CD Berceo",
+"lg": "Spain Amateur - Tercera Federacion, Group 16",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 4.0 and 3.6 goals a game (10/10 games); last 10 rate 85%; Flashscore home/away form 60%, season: 3.8 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73563020",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73563020|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"lg": "Czechia - CFL",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "season: 4.0 and 3.1 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 60%",
+"ts": 1794758400.0,
+"eid": "sr:match:72415116",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72415116|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "season: 4.0 and 3.3 goals a game (10/10 games); last 10 rate 75%; Flashscore home/away form 65%",
+"ts": 1794758400.0,
+"eid": "sr:match:73557182",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73557182|18|total=2.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "season: 3.6 and 3.9 goals a game (8/8 games); last 10 rate 75%; season: 3.8 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:76675986",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76675986|18|total=2.5|12"
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 4.2 and 3.6 goals a game (10/10 games); last 10 rate 75%; season: 3.9 goals a game",
+"ts": 1794762900.0,
+"eid": "sr:match:76488586",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76488586|18|total=2.5|12"
+},
+{
+"t": "Sun 19:00",
+"game": "SC Recife PE vs Retro FC PE",
+"lg": "Brazil - U20 Pernambucano",
+"pick": "Over 2.5",
+"odds": 1.65,
+"why": "season: 3.4 and 3.0 goals a game (7/8 games); last 10 rate 80%; Flashscore home/away form 65%",
+"ts": 1794765600.0,
+"eid": "sr:match:75855814",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75855814|18|total=2.5|12"
+},
+{
+"t": "Sun 19:00",
+"game": "Itabirito FC MG vs Atletico Mineiro MG",
+"lg": "Brazil - Mineiro, Women",
+"pick": "Over 2.5",
+"odds": 1.58,
+"why": "season: 6.2 and 6.0 goals a game (6/6 games); last 10 rate 75%; Flashscore home/away form 70%, season: 6.1 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:75931446",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75931446|18|total=2.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"lg": "International - UEFA Nations League",
+"pick": "Over 2.5",
+"odds": 1.58,
+"why": "season: 3.8 and 4.0 goals a game (5/5 games); last 10 rate 75%; Flashscore home/away form 65%, footybets 83%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1794771900.0,
+"eid": "sr:match:68931760",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "68931760|18|total=2.5|12"
+}
+],
+"chance": 0.0014
+}
+]
+},
+{
 "when": "Sun 15 Nov 14:46",
 "at": 1794750415,
 "req": {
@@ -14989,107 +15231,6 @@
 "spec": "total=2.5",
 "oid": "12",
 "k": "74063604|18|total=2.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 18:53",
-"at": 1794678834,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "19:00",
-"to": "06:00",
-"rid": "mwgpfrai2ndf"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 5 games passed the checks (Sat 14, 19:00\u201306:00, 81 games on SportyBet), so this ticket has 5 legs instead of 10. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "VQ3FX1",
-"odds": 5.36,
-"legs": [
-{
-"t": "Sat 19:30",
-"game": "Union Titus Petange vs FC Koeppchen Wormeldange",
-"lg": "Luxembourg - Promotion d'Honneur",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "season: 5.0 and 3.6 goals a game (11/11 games); last 10 rate 85%; season: 4.3 goals a game",
-"ts": 1794681000.0,
-"eid": "sr:match:72964548",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72964548|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "season: 4.2 and 3.5 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 75%, footybets 85%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
-"ts": 1794682800.0,
-"eid": "sr:match:72044822",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044822|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "De Graafschap vs TOP Oss",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "season: 3.4 and 3.1 goals a game (13/14 games); last 10 rate 70%; Flashscore home/away form 70%, footybets 75%",
-"ts": 1794682800.0,
-"eid": "sr:match:72044814",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044814|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "Almere City FC vs Helmond Sport",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "season: 3.1 and 4.0 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 55%, footybets 82%, FotMob: 3.6 goals a game",
-"ts": 1794682800.0,
-"eid": "sr:match:72044812",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044812|18|total=2.5|12"
-},
-{
-"t": "Sat 23:00",
-"game": "Real Refineros Cds vs Saltillo Soccer FC",
-"lg": "Mexico - Liga Premier Serie A",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "season: 4.1 and 4.5 goals a game (11/10 games); last 10 rate 85%; Flashscore home/away form 92%, season: 4.3 goals a game",
-"ts": 1794693600.0,
-"eid": "sr:match:74063606",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74063606|18|total=2.5|12"
 }
 ]
 }
