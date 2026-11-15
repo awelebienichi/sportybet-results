@@ -1,5 +1,82 @@
 [
 {
+"when": "Sun 15 Nov 19:47",
+"at": 1794768470,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "htdrawweak",
+"legs": 12,
+"tickets": 1,
+"days": [
+"2026-11-15",
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwi6sxq0ob50"
+},
+"ok": true,
+"kind": "half-time draw \u2013 weak teams",
+"note": [
+"Only 3 games passed the checks (Sun 15, Mon 16, Tue 17, 174 games on SportyBet), so this ticket has 3 legs instead of 12. Tick more days or use 'Relaxed' for more.",
+"Chance all 3 legs win: about 11%."
+],
+"tickets": [
+{
+"code": "P3R95K",
+"odds": 8.0,
+"legs": [
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"lg": "Chile - Primera B",
+"pick": "Half-time draw",
+"odds": 2.15,
+"why": "two weak sides (won 0% / 20% of last 10), level at half-time 50% / 50%",
+"ts": 1794776400.0,
+"eid": "sr:match:76422300",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76422300|60||2"
+},
+{
+"t": "Mon 00:05",
+"game": "Tigres FC vs Real Cundinamarca",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Half-time draw",
+"odds": 1.87,
+"why": "two weak sides (won 20% / 30% of last 10), level at half-time 60% / 70%",
+"ts": 1794783900.0,
+"eid": "sr:match:76737660",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "76737660|60||2"
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Half-time draw",
+"odds": 1.99,
+"why": "two weak sides (won 0% / 20% of last 10), level at half-time 56% / 70%",
+"ts": 1794942000.0,
+"eid": "sr:match:75803692",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "75803692|60||2"
+}
+],
+"chance": 0.108
+}
+]
+},
+{
 "when": "Sun 15 Nov 18:53",
 "at": 1794765207,
 "req": {
@@ -18980,140 +19057,6 @@
 }
 ],
 "chance": 0.019
-}
-]
-},
-{
-"when": "Sun 15 Nov 13:46",
-"at": 1794746767,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"markets": [
-"h1dc"
-],
-"legs": 40,
-"tickets": 1,
-"days": [
-"2026-11-15"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwhtv18ku4hu"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 7 games passed the checks (Sun 15, 326 games on SportyBet), so this ticket has 7 legs instead of 40. Tick more days or use 'Relaxed' for more.",
-"Chance all 7 legs win: about 23%."
-],
-"tickets": [
-{
-"code": "X7HC0N",
-"odds": 3.12,
-"legs": [
-{
-"t": "Sun 14:30",
-"game": "PFK Beroe Stara Zagora vs PFC Vihren Sandanski",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "1st half double chance PFC Vihren Sandanski or draw",
-"odds": 1.25,
-"why": "stats rate 95% from both teams' last 10 and 6 meetings",
-"ts": 1794749400.0,
-"eid": "sr:match:72466640",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72466640|63||11"
-},
-{
-"t": "Sun 15:00",
-"game": "Burnley FC Women vs Southampton FC",
-"lg": "England Amateur - Super League 2, Women",
-"pick": "1st half double chance Southampton FC or draw",
-"odds": 1.16,
-"why": "stats rate 92% from both teams' last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:73346560",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "73346560|63||11"
-},
-{
-"t": "Sun 15:00",
-"game": "Le Mans FC vs Grenoble Foot 38",
-"lg": "France - Seconde Ligue, Women",
-"pick": "1st half double chance Le Mans FC or draw",
-"odds": 1.11,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:72700612",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72700612|63||9"
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"lg": "Italy - Serie C, Group B",
-"pick": "1st half double chance Ravenna FC 1913 or draw",
-"odds": 1.11,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794760200.0,
-"eid": "sr:match:73294090",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73294090|63||9"
-},
-{
-"t": "Sun 21:00",
-"game": "Gimnasia de Chivilcoy vs Douglas Haig",
-"lg": "Argentina - Torneo Federal A",
-"pick": "1st half double chance Douglas Haig or draw",
-"odds": 1.27,
-"why": "stats rate 94% from both teams' last 10 and 7 meetings",
-"ts": 1794772800.0,
-"eid": "sr:match:76322284",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "76322284|63||11"
-},
-{
-"t": "Sun 22:00",
-"game": "CD Platense Municipal Zacatecoluca vs Atletico Balboa",
-"lg": "El Salvador - Primera Division",
-"pick": "1st half double chance CD Platense Municipal Zacatecoluca or draw",
-"odds": 1.26,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794776400.0,
-"eid": "sr:match:73075404",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73075404|63||9"
-},
-{
-"t": "Sun 22:00",
-"game": "CD Cobreloa Calama vs Puerto Montt",
-"lg": "Chile - Primera B",
-"pick": "1st half double chance CD Cobreloa Calama or draw",
-"odds": 1.09,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794776400.0,
-"eid": "sr:match:76422378",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76422378|63||9"
-}
-],
-"chance": 0.2281
 }
 ]
 }
