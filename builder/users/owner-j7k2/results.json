@@ -1497,14 +1497,17 @@
 "when": "Sun 15 Nov 06:19",
 "kind": "1st half Over 0.5",
 "odds": 70.88,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 12:00",
 "game": "Amarante FC vs FC Felgueiras 1932",
 "pick": "1st half Over 0.5",
 "odds": 1.52,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:30",
