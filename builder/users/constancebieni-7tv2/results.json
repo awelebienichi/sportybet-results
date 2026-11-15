@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "RGAN05",
+"at": 1794770858,
+"when": "Sun 15 Nov 20:27",
+"kind": "your chosen markets",
+"odds": 2.57,
+"status": "open",
+"legs": [
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Gotham FC vs Kansas City Current",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"pick": "1st half excluded goals: 2",
+"odds": 1.13,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportes Magallanes vs CD Antofagasta",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.14,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Cerro Porteno vs Sol de America Villa Elisa",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportivo San Pedro vs CD Marquense",
+"pick": "1st half excluded goals: 2",
+"odds": 1.2,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Santa Cruz vs CSD Rangers",
+"pick": "1st half excluded goals: 2",
+"odds": 1.19,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "NATTN8",
 "at": 1794761095,
 "when": "Sun 15 Nov 17:44",
@@ -26,7 +92,7 @@
 "odds": 1.06,
 "ts": 1794765600.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
@@ -115,7 +181,7 @@
 "odds": 1.11,
 "ts": 1794765600.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
@@ -236,7 +302,7 @@
 "odds": 1.11,
 "ts": 1794765600.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
@@ -342,7 +408,7 @@
 "odds": 1.11,
 "ts": 1794765600.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
@@ -412,7 +478,10 @@
 "game": "Club Deportivo Eldense vs CE Sabadell FC",
 "pick": "Handicap 0:2 \u2013 CE Sabadell FC",
 "odds": 1.15,
-"ts": 1794763800.0
+"ts": 1794763800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 19:00",
