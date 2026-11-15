@@ -1,5 +1,176 @@
 [
 {
+"when": "Sun 15 Nov 06:52",
+"at": 1794721951,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "fbmix",
+"fb_type": "o15",
+"fb_legs": 5,
+"bb_kind": "total",
+"bb_legs": 5,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwhf3jo35gwi"
+},
+"ok": true,
+"kind": "football + basketball (5 \u26bd + 5 \ud83c\udfc0)",
+"note": [],
+"tickets": [
+{
+"code": "G5YR4X",
+"odds": 5.97,
+"legs": [
+{
+"t": "Sun 08:30",
+"game": "LG Sakers vs KT Sonicboom",
+"lg": "Republic of Korea - KBL",
+"pick": "Over 156.5 total points",
+"odds": 1.21,
+"why": "expected LG Sakers 90 \u2013 KT Sonicboom 84 (last 10/10 games, home edge included, LG Sakers on 2nd game in 2 days); 84% by the stats, 81% with the price",
+"ts": 1794727800.0,
+"eid": "sr:match:73657560",
+"mid": "225",
+"spec": "total=156.5",
+"oid": "12",
+"k": "73657560|225|total=156.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.29,
+"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 95%, season: 3.5 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73581350",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581350|18|total=1.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "MK Dons Ladies vs Chatham Town Women",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "Over 1.5 in 100% / 90% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 90%",
+"ts": 1794747600.0,
+"eid": "sr:match:76088644",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76088644|18|total=1.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Boldmere St Michaels Women vs Stockport County Lfc",
+"lg": "England Amateur - FA Cup, Women",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "Over 1.5 in 100% / 89% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 85%",
+"ts": 1794751200.0,
+"eid": "sr:match:76088626",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76088626|18|total=1.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"lg": "Germany - BBL",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"why": "expected Skyliners Frankfurt 82 \u2013 TBB Trier 89 (last 10/10 games, home edge included); 91% by the stats, 83% with the price; Flashscore home/away form 80%",
+"ts": 1794751200.0,
+"eid": "sr:match:73451870",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73451870|225|total=194.5|13"
+},
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"lg": "Germany - BBL",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"why": "expected Bayern Munich 87 \u2013 Mitteldeutscher BC 88 (last 10/10 games, home edge included); 86% by the stats, 82% with the price",
+"ts": 1794756600.0,
+"eid": "sr:match:73451874",
+"mid": "225",
+"spec": "total=155.5",
+"oid": "12",
+"k": "73451874|225|total=155.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.3 goals; season: 4.0 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73581360",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581360|18|total=1.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"lg": "Poland - PLK",
+"pick": "Under 182.5 total points",
+"odds": 1.22,
+"why": "expected Stal Ostrow Wielkopolski 81 \u2013 Dziki Warszawa 83 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 90%",
+"ts": 1794760200.0,
+"eid": "sr:match:72677284",
+"mid": "225",
+"spec": "total=182.5",
+"oid": "13",
+"k": "72677284|225|total=182.5|13"
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"lg": "Lithuania - LKL",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"why": "expected BC Rytas Vilnius 85 \u2013 BC Jonava 78 (last 10/10 games, home edge included); 89% by the stats, 84% with the price; Flashscore home/away form 85%",
+"ts": 1794762600.0,
+"eid": "sr:match:75636736",
+"mid": "225",
+"spec": "total=185.5",
+"oid": "13",
+"k": "75636736|225|total=185.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
+"lg": "Panama - Liga Prom",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "Over 1.5 in 100% / 90% of the teams' last 10, 100% of 5 meetings, league avg 4.2 goals; season: 4.2 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76708748",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76708748|18|total=1.5|12"
+}
+]
+}
+]
+},
+{
 "when": "Sun 15 Nov 06:19",
 "at": 1794719945,
 "req": {
@@ -10750,66 +10921,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "74838480|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 07:01",
-"at": 1794636071,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"o15"
-],
-"rid": "mwfzywtmg4zb"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "JGVX99",
-"odds": 1.74,
-"legs": [
-{
-"t": "Sat 13:30",
-"game": "Marek Dupnica vs PFC Chernomorets Burgas",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "Over 1.5",
-"odds": 1.34,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.6 goals a game",
-"ts": 1794659400.0,
-"eid": "sr:match:72466634",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72466634|18|total=1.5|12"
-},
-{
-"t": "Sat 19:00",
-"game": "CD Noblejas vs CD Quintanar del Rey",
-"lg": "Spain Amateur - Tercera Federacion, Group 18",
-"pick": "Over 1.5",
-"odds": 1.3,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, season: 3.2 goals a game",
-"ts": 1794679200.0,
-"eid": "sr:match:73560446",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73560446|18|total=1.5|12"
 }
 ]
 }
