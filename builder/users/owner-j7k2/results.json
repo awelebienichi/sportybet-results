@@ -8781,7 +8781,7 @@
 "when": "Sun 15 Nov 13:00",
 "kind": "1st half Over 0.5",
 "odds": 11.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:30",
@@ -8808,7 +8808,10 @@
 "game": "GFA Rumilly-Vallieres vs Saint-Etienne",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:30",

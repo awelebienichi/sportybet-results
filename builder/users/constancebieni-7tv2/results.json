@@ -131,14 +131,20 @@
 "game": "Hamburger SV vs HNK Hajduk Split",
 "pick": "Handicap 0:2 \u2013 HNK Hajduk Split",
 "odds": 1.06,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 15:00",
 "game": "GFA Rumilly-Vallieres vs Saint-Etienne",
 "pick": "Handicap 3:0 \u2013 GFA Rumilly-Vallieres",
 "odds": 1.04,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 }
 ]
 },
