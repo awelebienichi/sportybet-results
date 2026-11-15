@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "N1MPYL",
+"at": 1794755029,
+"when": "Sun 15 Nov 16:03",
+"kind": "your chosen markets",
+"odds": 4.14,
+"status": "open",
+"legs": [
+{
+"t": "Sun 17:30",
+"game": "Barletta Calcio vs Altamura Societa' Sportiva SRL",
+"pick": "Handicap 0:2 \u2013 Altamura Societa' Sportiva SRL",
+"odds": 1.26,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:30",
+"game": "Club Deportivo Eldense vs CE Sabadell FC",
+"pick": "Handicap 0:2 \u2013 CE Sabadell FC",
+"odds": 1.15,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Leixoes SC vs GD Chaves",
+"pick": "Handicap 2:0 \u2013 Leixoes SC",
+"odds": 1.06,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:30",
+"game": "ZKS Stal Stalowa Wola vs Olimpia Grudziadz",
+"pick": "Handicap 2:0 \u2013 ZKS Stal Stalowa Wola",
+"odds": 1.16,
+"ts": 1794767400.0
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"pick": "Handicap 0:2 \u2013 Liverpool Montevideo",
+"odds": 1.07,
+"ts": 1794771000.0
+},
+{
+"t": "Sun 21:00",
+"game": "Racing United FC vs Tru-Juice FC",
+"pick": "Handicap 0:2 \u2013 Tru-Juice FC",
+"odds": 1.19,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportes Magallanes vs CD Antofagasta",
+"pick": "Handicap 0:2 \u2013 CD Antofagasta",
+"odds": 1.14,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "Handicap 0:2 \u2013 Union Espanola",
+"odds": 1.14,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Santa Cruz vs CSD Rangers",
+"pick": "Handicap 2:0 \u2013 CD Santa Cruz",
+"odds": 1.19,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:30",
+"game": "CA Nacional Potosi vs Real Potosi",
+"pick": "Handicap 2:0 \u2013 CA Nacional Potosi",
+"odds": 1.18,
+"ts": 1794778200.0
+}
+]
+},
+{
 "code": "JUHPY1",
 "at": 1794754764,
 "when": "Sun 15 Nov 15:59",

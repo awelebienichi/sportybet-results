@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XKYGP9",
+"at": 1794755042,
+"when": "Sun 15 Nov 16:04",
+"kind": "your chosen markets",
+"odds": 14.04,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "CD Lugo vs CD Mirandes",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Athletic Bilbao B vs CD Alba Fundacion",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bucaspor 1928 vs Karsiyaka",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "AS Cittadella vs US Folgore Caratese",
+"pick": "1st half double chance AS Cittadella or draw",
+"odds": 1.1,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "US Pergolettese Crema vs Pro Vercelli 1892",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:15",
+"game": "Valencia CF vs Granada CF",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"pick": "Under 3.5",
+"odds": 1.11,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"pick": "Under 3.5",
+"odds": 1.1,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "XK4PRK",
 "at": 1794754828,
 "when": "Sun 15 Nov 16:00",
@@ -8719,7 +8869,7 @@
 "odds": 1.48,
 "ts": 1794749400.0,
 "r": "W",
-"sc": "2-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -8729,7 +8879,7 @@
 "odds": 1.2,
 "ts": 1794749400.0,
 "r": "W",
-"sc": "3-0",
+"sc": "3-1",
 "ht": "3-0"
 },
 {
