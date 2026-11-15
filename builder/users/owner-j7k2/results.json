@@ -2,6 +2,180 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NLDRMW",
+"at": 1794748708,
+"when": "Sun 15 Nov 14:18",
+"kind": "goal-fest teams (season data)",
+"odds": 1504.2,
+"status": "open",
+"legs": [
+{
+"t": "Sun 15:00",
+"game": "Wolverhampton Wanderers WFC vs Durham LFC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Polonia Sroda Wielkopolska vs Luks Sportowa Czworka Radom",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:30",
+"game": "AS Monaco vs Bastia SC",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1794753000.0
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Calavera CF vs Marbella FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Mondercange vs SC Bettembourg",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:45",
+"game": "Feyenoord Rotterdam vs SC Heerenveen",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "Club Haro Deportivo vs CD Berceo",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 19:00",
+"game": "SC Recife PE vs Retro FC PE",
+"pick": "Over 2.5",
+"odds": 1.65,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Itabirito FC MG vs Atletico Mineiro MG",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1794771900.0
+},
+{
+"t": "Mon 02:00",
+"game": "CF Monterrey vs CF Pachuca",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1794798600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guadeloupe vs Bermuda",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794855600.0
+}
+]
+},
+{
+"code": "WSU19L",
+"at": 1794748643,
+"when": "Sun 15 Nov 14:17",
+"kind": "goal-fest teams (season data)",
+"odds": 2.0,
+"status": "open",
+"legs": [
+{
+"t": "Mon 02:00",
+"game": "CF Monterrey vs CF Pachuca",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1794798600.0
+}
+]
+},
+{
 "code": "HZRWQA",
 "at": 1794748382,
 "when": "Sun 15 Nov 14:13",
@@ -738,7 +912,7 @@
 "odds": 1.27,
 "ts": 1794745800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -2339,7 +2513,7 @@
 "odds": 1.27,
 "ts": 1794745800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -3823,7 +3997,7 @@
 "odds": 1.25,
 "ts": 1794745800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
