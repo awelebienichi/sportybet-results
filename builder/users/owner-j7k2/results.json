@@ -3247,7 +3247,10 @@
 "game": "Cleveland Cavaliers vs Dallas Mavericks",
 "pick": "Under 244.5 total points",
 "odds": 1.27,
-"ts": 1794702600.0
+"ts": 1794702600.0,
+"r": "W",
+"sc": "127-117",
+"ht": "33-33"
 },
 {
 "t": "Sun 05:00",
@@ -3525,7 +3528,10 @@
 "game": "Cleveland Cavaliers vs Dallas Mavericks",
 "pick": "Under 244.5 total points",
 "odds": 1.27,
-"ts": 1794702600.0
+"ts": 1794702600.0,
+"r": "W",
+"sc": "127-117",
+"ht": "33-33"
 },
 {
 "t": "Sun 05:00",
