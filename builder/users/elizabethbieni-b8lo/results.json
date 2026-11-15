@@ -120,7 +120,10 @@
 "game": "New Zealand vs India",
 "pick": "1st half excluded goals: 0",
 "odds": 1.21,
-"ts": 1794711600.0
+"ts": 1794711600.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 06:00",
@@ -270,7 +273,10 @@
 "game": "New Zealand vs India",
 "pick": "1st half excluded goals: 0",
 "odds": 1.21,
-"ts": 1794711600.0
+"ts": 1794711600.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 05:00",
