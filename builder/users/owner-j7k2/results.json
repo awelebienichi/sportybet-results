@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 20:28",
 "kind": "pattern combo (1 HT draw + 4 bankers + 7 1st-half + 0 basketball)",
 "odds": 12.73,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 21:00",
@@ -35,7 +35,10 @@
 "game": "Dunbeholden FC vs Chapelton Maroons FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.17,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -101,7 +104,7 @@
 "when": "Sun 15 Nov 20:27",
 "kind": "pattern combo (0 HT draw + 4 bankers + 7 1st-half + 0 basketball)",
 "odds": 5.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 21:00",
@@ -129,7 +132,10 @@
 "game": "Dunbeholden FC vs Chapelton Maroons FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.17,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -188,7 +194,7 @@
 "when": "Sun 15 Nov 20:25",
 "kind": "pattern combo (0 HT draw + 0 bankers + 10 1st-half + 0 basketball)",
 "odds": 6.31,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 21:00",
@@ -216,7 +222,10 @@
 "game": "Dunbeholden FC vs Chapelton Maroons FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.17,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -393,7 +402,7 @@
 "when": "Sun 15 Nov 18:53",
 "kind": "your chosen markets",
 "odds": 36.07,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 20:00",
@@ -441,7 +450,10 @@
 "game": "Dunbeholden FC vs Chapelton Maroons FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.17,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -2181,7 +2193,10 @@
 "game": "Dunbeholden FC vs Chapelton Maroons FC",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.16,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -2344,7 +2359,10 @@
 "game": "Dunbeholden FC vs Chapelton Maroons FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.16,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 22:00",
