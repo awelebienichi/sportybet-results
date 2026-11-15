@@ -237,7 +237,7 @@
 "when": "Sun 15 Nov 14:08",
 "kind": "live football + basketball (10 \u26bd + 5 \ud83c\udfc0)",
 "odds": 2.62,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 12:30",
@@ -374,7 +374,10 @@
 "game": "Merkezefendi Belediyesi Denizli Basket vs Cayirova Belediyesi",
 "pick": "Under 192.5 total points",
 "odds": 1.25,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "L",
+"sc": "101-98",
+"ht": "26-28"
 },
 {
 "t": "Sun 14:00",
