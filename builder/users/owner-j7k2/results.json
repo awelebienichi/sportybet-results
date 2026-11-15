@@ -769,7 +769,10 @@
 "game": "College of Charleston Cougars vs South Carolina State Bulldogs",
 "pick": "Under 168.5 total points",
 "odds": 1.4,
-"ts": 1794769200.0
+"ts": 1794769200.0,
+"r": "W",
+"sc": "90-66",
+"ht": "34-27"
 },
 {
 "t": "Sun 22:30",
@@ -5799,7 +5802,10 @@
 "game": "Spain vs England",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794771900.0
+"ts": 1794771900.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:00",
@@ -7171,7 +7177,10 @@
 "game": "Spain vs England",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794771900.0
+"ts": 1794771900.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 20:45",
@@ -8646,7 +8655,10 @@
 "game": "Spain vs England",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794771900.0
+"ts": 1794771900.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 20:45",
@@ -9404,7 +9416,10 @@
 "game": "Spain vs England",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794771900.0
+"ts": 1794771900.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 20:45",
@@ -9604,7 +9619,10 @@
 "game": "Spain vs England",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794771900.0
+"ts": 1794771900.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 20:45",
