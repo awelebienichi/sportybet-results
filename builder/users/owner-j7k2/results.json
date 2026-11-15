@@ -367,7 +367,10 @@
 "game": "FC Kaluga vs FC Sokol Saratov",
 "pick": "Handicap 3:0 \u2013 FC Kaluga",
 "odds": 1.05,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 11:00",
@@ -384,7 +387,10 @@
 "game": "FC Dynamo Bryansk vs FC Mashuk-KMV Pyatigorsk",
 "pick": "Handicap 0:2 \u2013 FC Mashuk-KMV Pyatigorsk",
 "odds": 1.08,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 11:00",
@@ -401,7 +407,10 @@
 "game": "Esenler Erokspor vs Bahcesehir Koleji",
 "pick": "Esenler Erokspor +16.5 (handicap)",
 "odds": 1.16,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "L",
+"sc": "57-93",
+"ht": "19-22"
 },
 {
 "t": "Sun 11:30",
