@@ -160,6 +160,17 @@ def check(g, leg, nba):
         import covers
         s2, b2 = covers.check(g, leg); sup += s2; bad += b2
     except Exception: pass
+    # 0b) head-to-head totals, every league (Sportradar meetings): how the two teams' past meetings went against this line
+    if mid in ("225", "227", "228") and v is not None:
+        try:
+            import phonebuild as _P
+            hh = _P.h2h(g["hid"], g["aid"])                                     # (home team's points, away team's points) per meeting
+            if len(hh) >= 4:
+                tot = {"225": lambda x, y: x + y, "227": lambda x, y: x, "228": lambda x, y: y}[mid]
+                r = sum(1 for x, y in hh if (tot(x, y) > v) == over) / len(hh)
+                if r <= .3: bad.append(f"h2h: only {r:.0%} of {len(hh)} meetings went this way")
+                elif r >= .75: sup.append(f"h2h {r:.0%} of {len(hh)} meetings")
+        except Exception: pass
     if mid in ("236", "756", "757"): return sup, bad                           # quarter lines: full-game form and ratings don't apply
     # 2) Flashscore home/away form
     vf = venue_form(g)

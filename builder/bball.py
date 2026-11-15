@@ -62,7 +62,10 @@ def warm():
 
 def expect(H, A):
     """expected points for home and away from both teams' last games (own scoring + the rival's conceding) and the home edge"""
-    pf = lambda L: sum(m["gf"] for m in L) / len(L); pa = lambda L: sum(m["ga"] for m in L) / len(L)
+    # most recent games count a little more (each older game x0.9): tested on 4,071 games, slightly sharper than a plain average
+    def wm(L, k):
+        ws = [.9 ** i for i in range(len(L))]; return sum(m[k] * w for m, w in zip(L, ws)) / sum(ws)
+    pf = lambda L: wm(L, "gf"); pa = lambda L: wm(L, "ga")
     mh = (pf(H) + pa(A)) / 2 + HCA / 2; ma = (pf(A) + pa(H)) / 2 - HCA / 2
     return mh, ma
 
@@ -133,6 +136,7 @@ def build(req):
             p = chance(mid, spec, oid, mh, ma)
             if p is None or p < LV[0]: continue
             pb = (p + 1 / (od * 1.06)) / 2                                    # the stats and the bookmaker's own price must agree
+            if mid in ("227", "228") and (od > 1.35 or pb < LV[1] + .05): continue  # team points: stricter (15 Nov results: 5 of 14 won)
             if pb < LV[1]: continue
             if mid == "219":                                                  # a winner: the team must also win most of its own games
                 me = H if oid == "4" else A
@@ -142,7 +146,10 @@ def build(req):
                              why=f"expected {g['h']} {mh:.0f} – {g['a']} {ma:.0f} (last {len(H)}/{len(A)} games, home edge included" + (", " + ", ".join(rest) if rest else "") + f"); {p:.0%} by the stats, {pb:.0%} with the price"))
         if opts:
             # one leg per game: best value with a high chance; total points (incl. overtime) lead, then team points, handicaps last
-            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + {"225": .06, "236": .04, "227": .03, "228": .03, "756": .02, "757": .02, "223": -.02}.get(o["mid"], 0)))
+            # your results (15 Nov, 224 settled total legs): lines priced 1.15-1.25 won 88%, 1.25-1.35 78%, 1.50+ 50% – so each game's total
+            # line is aimed at that range
+            band = lambda o: (.05 if 1.15 <= o["odds"] <= 1.30 else -.05 if o["odds"] > 1.40 else 0) if o["mid"] in ("225", "236", "227", "228") else 0
+            opts.sort(key=lambda o: -(o["s"] + o["rate"] * .5 + band(o) + {"225": .06, "236": .04, "227": .03, "228": .03, "756": .02, "757": .02, "223": -.02}.get(o["mid"], 0)))
             cand.append((g, opts))
     # every candidate goes through the extra checks (ESPN injuries, Flashscore home/away form, NBA ratings), best first per game
     strict = req.get("strict", "normal") == "strict"
