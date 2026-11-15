@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KGJJT9",
+"at": 1794739422,
+"when": "Sun 15 Nov 11:43",
+"kind": "live football + basketball (10 \u26bd + 3 \ud83c\udfc0)",
+"odds": 4.4,
+"status": "open",
+"legs": [
+{
+"t": "Sun 10:00",
+"game": "Csu Suceava vs CS Concordia Chiajna",
+"pick": "Handicap 0:2 \u2013 CS Concordia Chiajna",
+"odds": 1.04,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 10:00",
+"game": "New Taipei CTBC DEA vs Taipei Taishin Mars",
+"pick": "Under 195.5 total points",
+"odds": 1.5,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 10:00",
+"game": "Taipei  Fubon Braves vs Taoyuan Pauian Pilots",
+"pick": "Under 175.5 total points",
+"odds": 1.57,
+"ts": 1794733200.0
+},
+{
+"t": "Sun 10:30",
+"game": "MSK Zilina B vs FK Inter Bratislava",
+"pick": "Handicap 0:2 \u2013 FK Inter Bratislava",
+"odds": 1.03,
+"ts": 1794735000.0
+},
+{
+"t": "Sun 10:30",
+"game": "SK Slovan HAC vs Simmeringer SC",
+"pick": "Handicap 0:4 \u2013 Simmeringer SC",
+"odds": 1.05,
+"ts": 1794735000.0
+},
+{
+"t": "Sun 10:30",
+"game": "Slovan Bratislava B vs OFK Dynamo Malzenice",
+"pick": "Under 4.5",
+"odds": 1.04,
+"ts": 1794735000.0
+},
+{
+"t": "Sun 10:30",
+"game": "Raca Bratislava vs Druzstevnik Velke Ludince",
+"pick": "Handicap 0:2 \u2013 Druzstevnik Velke Ludince",
+"odds": 1.07,
+"ts": 1794735000.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Kaluga vs FC Sokol Saratov",
+"pick": "Handicap 3:0 \u2013 FC Kaluga",
+"odds": 1.05,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Chelyabinsk vs FK Veles Moscow",
+"pick": "FC Chelyabinsk or FK Veles Moscow",
+"odds": 1.03,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Dynamo Bryansk vs FC Mashuk-KMV Pyatigorsk",
+"pick": "Handicap 0:2 \u2013 FC Mashuk-KMV Pyatigorsk",
+"odds": 1.08,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:00",
+"game": "Alanya Kestelspor vs Denizli Idman Yurdu",
+"pick": "Alanya Kestelspor or draw",
+"odds": 1.04,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:00",
+"game": "Esenler Erokspor vs Bahcesehir Koleji",
+"pick": "Esenler Erokspor +16.5 (handicap)",
+"odds": 1.16,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 11:30",
+"game": "CF Lorca Deportiva vs RCD Mallorca B",
+"pick": "Handicap 0:4 \u2013 RCD Mallorca B",
+"odds": 1.06,
+"ts": 1794738600.0
+}
+]
+},
+{
 "code": "K00UAT",
 "at": 1794735935,
 "when": "Sun 15 Nov 10:45",
