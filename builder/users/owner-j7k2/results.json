@@ -2,6 +2,72 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VWULZ0",
+"at": 1794755155,
+"when": "Sun 15 Nov 16:05",
+"kind": "your chosen markets",
+"odds": 2.33,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794771000.0
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794772800.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"ts": 1794858300.0
+}
+]
+},
+{
 "code": "XKYGP9",
 "at": 1794755042,
 "when": "Sun 15 Nov 16:04",
