@@ -453,7 +453,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -625,14 +628,17 @@
 "when": "Sun 15 Nov 16:17",
 "kind": "football + basketball (10 \u26bd + 5 \ud83c\udfc0)",
 "odds": 9.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:45",
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -769,7 +775,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -1169,7 +1178,7 @@
 "when": "Sun 15 Nov 15:47",
 "kind": "combined V6CDPN + U8JJ9U + NM7FFT",
 "odds": 83.76,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:30",
@@ -1186,7 +1195,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -1524,14 +1536,17 @@
 "when": "Sun 15 Nov 15:44",
 "kind": "your tracker's best markets",
 "odds": 4.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:45",
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -2211,7 +2226,7 @@
 "when": "Sun 15 Nov 15:29",
 "kind": "combined K00XCR + U5GH5V + VQQJMV",
 "odds": 10734.81,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -2248,7 +2263,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.55,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -2411,7 +2429,7 @@
 "when": "Sun 15 Nov 15:24",
 "kind": "combined K00XCR + U5GH5V + VQQJMV",
 "odds": 321747493515.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:30",
@@ -2458,7 +2476,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.55,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -3016,7 +3037,7 @@
 "when": "Sun 15 Nov 15:20",
 "kind": "rebuild of HAHDEV",
 "odds": 30804.73,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:30",
@@ -3043,7 +3064,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -4724,7 +4748,7 @@
 "when": "Sun 15 Nov 15:14",
 "kind": "combined J4V4CU + HAHDEV + J6GRLZ + W2YMV1",
 "odds": 47.03,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -4741,7 +4765,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:30",
@@ -5173,7 +5200,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -5325,7 +5355,7 @@
 "odds": 1.37,
 "ts": 1794758400.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "1-0"
 },
 {
@@ -6364,7 +6394,7 @@
 "when": "Sun 15 Nov 14:46",
 "kind": "your tracker's best markets",
 "odds": 662.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:30",
@@ -6401,7 +6431,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -7111,7 +7144,7 @@
 "when": "Sun 15 Nov 14:40",
 "kind": "your tracker's best markets",
 "odds": 9.54,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:30",
@@ -7168,7 +7201,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -8216,7 +8252,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -8421,7 +8460,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -9463,7 +9505,10 @@
 "game": "FC Twente Enschede W vs PSV Eindhoven",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794757500.0
+"ts": 1794757500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
