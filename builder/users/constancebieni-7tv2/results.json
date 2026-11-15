@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 15:25",
 "kind": "live \u2013 best of all",
 "odds": 1.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:00",
@@ -21,7 +21,10 @@
 "game": "Giouchtas vs AO Platanias",
 "pick": "Under 3.5",
 "odds": 1.03,
-"ts": 1794747600.0
+"ts": 1794747600.0,
+"r": "L",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
