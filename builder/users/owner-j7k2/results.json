@@ -630,7 +630,10 @@
 "game": "Le Mans Sarthe Basket vs ASVEL Lyon-Villeurbanne",
 "pick": "Under 193.5 total points",
 "odds": 1.25,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "109-93",
+"ht": "30-29"
 },
 {
 "t": "Sun 19:00",
@@ -664,7 +667,10 @@
 "game": "Boston University Terriers vs Dartmouth Big Green",
 "pick": "Over 135.5 total points",
 "odds": 1.4,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "90-75",
+"ht": "48-25"
 },
 {
 "t": "Sun 19:15",
@@ -807,7 +813,7 @@
 "when": "Sun 15 Nov 18:34",
 "kind": "basketball \u2013 total points",
 "odds": 55.66,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 19:00",
@@ -824,7 +830,10 @@
 "game": "Le Mans Sarthe Basket vs ASVEL Lyon-Villeurbanne",
 "pick": "Under 193.5 total points",
 "odds": 1.25,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "109-93",
+"ht": "30-29"
 },
 {
 "t": "Sun 19:00",
@@ -6227,7 +6236,10 @@
 "game": "Belgium vs Italy",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794771900.0
+"ts": 1794771900.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 20:45",
