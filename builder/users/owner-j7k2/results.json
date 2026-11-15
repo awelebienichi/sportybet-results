@@ -642,7 +642,10 @@
 "game": "SSV Lok Bernau vs Bsw Sixers",
 "pick": "SSV Lok Bernau to win (incl. OT)",
 "odds": 1.03,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "94-54",
+"ht": "27-13"
 },
 {
 "t": "Sun 17:00",
@@ -1270,7 +1273,7 @@
 "odds": 1.18,
 "ts": 1794760200.0,
 "r": "W",
-"sc": "1-0",
+"sc": "0-0",
 "ht": "0-0"
 },
 {
@@ -5596,7 +5599,10 @@
 "game": "Cotillas CD vs CD Algar",
 "pick": "Goal bounds 2-5+",
 "odds": 1.28,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
