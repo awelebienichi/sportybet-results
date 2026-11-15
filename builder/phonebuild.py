@@ -404,6 +404,49 @@ def h2h_ht(h, a):
     except Exception: pass
     return out
 
+def pick_draw_weak(G, LX, half=False):
+    """full-time (half=False) or half-time (half=True) draw between two WEAK teams. Measured on 4,088 finished games (15 Nov):
+    weak teams alone draw no more than anyone (25%); both weak (won 35% or less of last 10) + both drawing 30%+ + low scoring
+    drew 37% (n=49, a small sample); at half-time, weak teams that are often level at the break were level 41%. A draw leg is a
+    1-in-3 (full-time) or 2-in-5 (half-time) bet – best for short tickets at bigger odds."""
+    C = []
+    for g in G:
+        H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
+        if len(H) < 6 or len(A) < 6: continue
+        w = lambda L: sum(m["gf"] > m["ga"] for m in L) / len(L)
+        if max(w(H), w(A)) > .35 + ST["L"] / 2: continue                       # both weak
+        xh, xa = g["x"].get("1", 99), g["x"].get("3", 99)
+        if max(xh, xa) / max(1.01, min(xh, xa)) > 1.8: continue                  # evenly matched: no clear favourite
+        if not half:
+            d = lambda L: sum(m["gf"] == m["ga"] for m in L) / len(L)
+            gpg = (sum(m["gf"] + m["ga"] for m in H) / len(H) + sum(m["gf"] + m["ga"] for m in A) / len(A)) / 2
+            if min(d(H), d(A)) < .3 - ST["L"] / 2 or gpg > 2.5 + ST["L"] * 2: continue
+            od = g["x"].get("2")
+            if not od or not 2.6 <= od <= 4.2: continue
+            rate = .37 if min(d(H), d(A)) >= .3 and gpg <= 2.4 else .32
+            C.append(dict(eid=g["eid"], mid="1", spec="", oid="2", pick="Draw", odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], rate=rate,
+                          s=(d(H) + d(A)) / 2 - gpg / 10, why=f"two weak sides (won {w(H):.0%} / {w(A):.0%} of last 10), draw {d(H):.0%} / {d(A):.0%}, {gpg:.1f} goals a game"))
+        else:
+            H1 = [m for m in H if m["h1f"] is not None]; A1 = [m for m in A if m["h1f"] is not None]
+            if len(H1) < 6 or len(A1) < 6: continue
+            lv = lambda L: sum(m["h1f"] == m["h1a"] for m in L) / len(L)
+            if min(lv(H1), lv(A1)) < .5 - ST["L"] / 2: continue
+            C.append(dict(g=g, why=f"two weak sides (won {w(H):.0%} / {w(A):.0%} of last 10), level at half-time {lv(H1):.0%} / {lv(A1):.0%}", s=(lv(H1) + lv(A1)) / 2))
+    if not half: return sorted(C, key=lambda r: -r["s"])
+    C.sort(key=lambda c: -c["s"]); C = C[:60]
+    def price(c):
+        for m in event_markets(c["g"]["eid"]):
+            if m["id"] == "60":
+                for o in m["outcomes"]:
+                    if o["id"] == "2" and o.get("isActive"): return float(o["odds"])
+    with ThreadPoolExecutor(8) as ex: PR = list(ex.map(price, C))
+    out = []
+    for c, od in zip(C, PR):
+        if not od or od < 1.8: continue
+        g = c["g"]
+        out.append(dict(eid=g["eid"], mid="60", spec="", oid="2", pick="Half-time draw", odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], rate=.41, s=c["s"], why=c["why"]))
+    return sorted(out, key=lambda r: -r["s"])
+
 def pick_htdraw(G, LX):
     """1st half 1X2 Draw (market 60, outcome 2): both teams level at half-time in 60%+ of recent games (the usual rate is about 40%), in a league where
     half-time draws are common, no big favourite (they tend to score early), and meetings agree where known"""
@@ -907,7 +950,7 @@ def main(req):
             return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "beaten", "drawlow") else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "beaten", "drawlow") else pick_goals(G, LX, kind)
     # strongest first (user, 15 Nov: "make the top priority the best of the best"): every leg ranked by its chance of coming true –
     # its stats rate and the bookmaker's own price together – so weaker legs are only used once all stronger ones are on the ticket
     if P and all(p.get("rate") is not None for p in P):
@@ -920,7 +963,7 @@ def main(req):
             import extra
             P, dropped = extra.confirm(P, legs * nt)
         except Exception as e: print("extra checks skipped:", e)
-    names = {"goalfest": "goal-fest teams (season data)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
+    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)

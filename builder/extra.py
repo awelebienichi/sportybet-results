@@ -133,7 +133,8 @@ def confirm(P, need):
     with ThreadPoolExecutor(8) as ex: R = list(ex.map(one, top))
     out = []; dropped = 0
     for p, fr, (sup, bad), (msup, mbad) in R:
-        if bad or mbad or (fr is not None and fr < .5): dropped += 1; continue      # any source clearly against it: out
+        draw = p["mid"] == "1" and p["oid"] == "2"                                 # a draw is rarely above 30% anywhere: judge it on its own scale
+        if bad or mbad or (fr is not None and fr < (.2 if draw else .5)): dropped += 1; continue      # any source clearly against it: out
         extra = []
         if fr is not None: extra.append(f"Flashscore home/away form {fr:.0%}")
         if sup: extra.append(f"footybets {sup}%")
