@@ -2,6 +2,135 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZDJYXX",
+"at": 1794782093,
+"when": "Sun 15 Nov 23:34",
+"kind": "basketball \u2013 total points",
+"odds": 31.83,
+"status": "open",
+"legs": [
+{
+"t": "Mon 01:00",
+"game": "San Martin Corrientes vs Quimsa Santiogo Del Estero",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 01:00",
+"game": "La Union Formosa vs AD Atenas Cordoba",
+"pick": "Under 174.5 total points",
+"odds": 1.23,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 02:00",
+"game": "Milwaukee Bucks vs Atlanta Hawks",
+"pick": "Under 246.5 total points",
+"odds": 1.27,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 03:00",
+"game": "Sacramento Kings vs Oklahoma City Thunder",
+"pick": "Over 210.5 total points",
+"odds": 1.26,
+"ts": 1794794400.0
+},
+{
+"t": "Mon 11:00",
+"game": "Seoul SK Knights vs Mobis Phoebus",
+"pick": "Under 178.5 total points",
+"odds": 1.24,
+"ts": 1794823200.0
+},
+{
+"t": "Mon 11:05",
+"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
+"pick": "Over 143.5 total points",
+"odds": 1.21,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Gunma Crane Thunders vs Shiga Lakestars",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Alvark Tokyo vs Kobe Storks",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Chiba Jets Funabashi vs San-En Neophoenix",
+"pick": "Under 189.5 total points",
+"odds": 1.24,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:35",
+"game": "Ryukyu Golden Kings Okinawa vs Toyama Grouses",
+"pick": "Over 156.5 total points",
+"odds": 1.2,
+"ts": 1794825300.0
+},
+{
+"t": "Mon 18:00",
+"game": "KK Borac Cacak vs BC Slovan Bratislava",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:55",
+"game": "Hapoel Galil Elyon vs Hapoel Eilat",
+"pick": "Over 158.5 total points",
+"odds": 1.21,
+"ts": 1794851700.0
+},
+{
+"t": "Mon 19:00",
+"game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
+"pick": "Over 161.5 total points",
+"odds": 1.21,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:05",
+"game": "Hapoel Holon BC vs Hapoel Haemek",
+"pick": "Over 146.5 total points",
+"odds": 1.22,
+"ts": 1794852300.0
+},
+{
+"t": "Mon 19:15",
+"game": "Maccabi Rishon LeZion vs Hapoel Beer Sheva",
+"pick": "Under 179.5 total points",
+"odds": 1.23,
+"ts": 1794852900.0
+},
+{
+"t": "Mon 20:00",
+"game": "KK Studentski centar Podgorica vs BC Vienna",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"pick": "Under 167.5 total points",
+"odds": 1.23,
+"ts": 1794868200.0
+}
+]
+},
+{
 "code": "PJ7QJE",
 "at": 1794770908,
 "when": "Sun 15 Nov 20:28",
@@ -117,8 +246,8 @@
 "odds": 1.27,
 "ts": 1794776400.0,
 "r": "L",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 }
 ]
 },
@@ -228,8 +357,8 @@
 "odds": 1.27,
 "ts": 1794776400.0,
 "r": "L",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 }
 ]
 },
