@@ -167,7 +167,8 @@ def pick_goals(G, LX, kind):
         if hr is not None and hr < hneed: continue
         s = min(hu, au)*.4 + (hu+au)/2*.3 + (hr if hr is not None else (hu+au)/2)*.2 + (min(LS[g["lg"]][0], 4.5)/4.5 if over else (3 - min(LS[g["lg"]][0], 3))/3)*.1
         word = {"o25": "Over 2.5", "o25yw": "Over 2.5", "u25": "Under 2.5", "o15": "Over 1.5"}[kind]
-        out.append(dict(eid=g["eid"], mid="18", spec=spec, oid=oid, pick=word, odds=g["ou"][(spec, oid)], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=s,
+        rate = (hu + au) / 2 * .7 + (hr if hr is not None else (hu + au) / 2) * .3
+        out.append(dict(eid=g["eid"], mid="18", spec=spec, oid=oid, pick=word, odds=g["ou"][(spec, oid)], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=s, rate=rate,
                         why=f"{word} in {hu:.0%} / {au:.0%} of the teams' last 10" + (f", {hr:.0%} of {len(hh)} meetings" if hr is not None else "") + f", league avg {LS[g['lg']][0]:.1f} goals"))
     return sorted(out, key=lambda r: -r["s"])
 
@@ -233,7 +234,7 @@ def pick_h1o05(G, LX, half=1):
         pb = (min(hr, ar) + 1 / (odds * 1.06)) / 2
         if pb < .80 - ST["L"] / 2: continue
         out.append(dict(eid=g["eid"], mid={1: "68", 2: "90"}[half], spec="total=0.5", oid="12", pick=f"{'1st' if half == 1 else '2nd'} half Over 0.5", odds=odds, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
-                        s=min(hr, ar) * .6 + (hr + ar) / 2 * .4 - odds * .02,
+                        s=min(hr, ar) * .6 + (hr + ar) / 2 * .4 - odds * .02, rate=min(hr, ar) * .6 + (hr + ar) / 2 * .4,
                         why=f"goal in the {'1st' if half == 1 else '2nd'} half in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
     return sorted(out, key=lambda r: -r["s"])
 
@@ -895,6 +896,11 @@ def main(req):
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
     P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "beaten", "drawlow") else pick_goals(G, LX, kind)
+    # strongest first (user, 15 Nov: "make the top priority the best of the best"): every leg ranked by its chance of coming true –
+    # its stats rate and the bookmaker's own price together – so weaker legs are only used once all stronger ones are on the ticket
+    if P and all(p.get("rate") is not None for p in P):
+        for p in P: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
+        P.sort(key=lambda p: -p["chance"])
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
     dropped = 0
     if req.get("check", True):   # Flashscore home/away form + footybets must not go against a leg
@@ -926,9 +932,7 @@ def main(req):
     can = len(P) // legs
     if can < nt: note.append(f"Only {len(P)} games qualified, enough for {can} ticket(s) of {legs} with no game repeated (you asked for {nt}).")
     nt = min(nt, can); use = P[:nt*legs]
-    T = [[] for _ in range(nt)]
-    for i, p in enumerate(use):                 # snake split so every ticket gets a fair share of the strongest legs
-        r, k = divmod(i, nt); T[k if r % 2 == 0 else nt-1-k].append(p)
+    T = [use[i * legs:(i + 1) * legs] for i in range(nt)]   # ticket 1 = the strongest legs, ticket 2 = the next strongest, ...
     return finish(T, kind, names, note, req)
 
 if __name__ == "__main__":
