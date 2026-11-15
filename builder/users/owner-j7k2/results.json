@@ -4412,7 +4412,7 @@
 "when": "Sun 15 Nov 15:14",
 "kind": "combined J4V4CU + HAHDEV + J6GRLZ + W2YMV1",
 "odds": 40.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:30",
@@ -4439,7 +4439,10 @@
 "game": "Leones Negros UDEG vs Atletico Morelia",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.22,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 21:00",
@@ -6508,7 +6511,7 @@
 "when": "Sun 15 Nov 14:46",
 "kind": "your tracker's best markets",
 "odds": 10407.4,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:30",
@@ -6555,7 +6558,10 @@
 "game": "Leones Negros UDEG vs Atletico Morelia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.22,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 21:00",
@@ -9165,7 +9171,10 @@
 "game": "Leones Negros UDEG vs Atletico Morelia",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 20:30",
@@ -9366,7 +9375,10 @@
 "game": "Leones Negros UDEG vs Atletico Morelia",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 20:45",
