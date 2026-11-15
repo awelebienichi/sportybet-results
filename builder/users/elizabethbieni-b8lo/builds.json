@@ -1,5 +1,28 @@
 [
 {
+"when": "Sun 15 Nov 17:13",
+"at": 1794759201,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"markets": [
+"h1u25"
+],
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "19:00",
+"rid": "mwi1abdet95e"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for your chosen markets (Sun 15, 00:00\u201319:00) out of 32 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Sun 15 Nov 14:15",
 "at": 1794748538,
 "req": {
