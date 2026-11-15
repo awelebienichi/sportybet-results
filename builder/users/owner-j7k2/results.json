@@ -2,6 +2,72 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KSBC1R",
+"at": 1794724118,
+"when": "Sun 15 Nov 07:28",
+"kind": "live football + basketball (6 \u26bd + 2 \ud83c\udfc0)",
+"odds": 1.74,
+"status": "open",
+"legs": [
+{
+"t": "Sun 06:00",
+"game": "Kamatamare Sanuki vs Renofa Yamaguchi",
+"pick": "Kamatamare Sanuki Under 1.5",
+"odds": 1.03,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Tochigi SC vs Nara Club",
+"pick": "Tochigi SC Under 1.5",
+"odds": 1.04,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Zweigen Kanazawa vs Roasso Kumamoto",
+"pick": "Under 5.5",
+"odds": 1.03,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "AC Nagano Parceiro vs Ehime FC",
+"pick": "Under 3.5",
+"odds": 1.03,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Kataller Toyama vs Tokushima Vortis",
+"pick": "Kataller Toyama or Tokushima Vortis",
+"odds": 1.04,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "FC Imabari vs Jubilo Iwata",
+"pick": "Handicap 4:0 \u2013 FC Imabari",
+"odds": 1.04,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Goyang Skygunners vs Wonju DB New Generation",
+"pick": "Over 162.5 total points",
+"odds": 1.2,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 07:05",
+"game": "Niigata Albirex BB vs Gifu Swoops",
+"pick": "Niigata Albirex BB to win (incl. OT)",
+"odds": 1.18,
+"ts": 1794722700.0
+}
+]
+},
+{
 "code": "Y4QAUV",
 "at": 1794723995,
 "when": "Sun 15 Nov 07:26",
