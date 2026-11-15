@@ -94,7 +94,7 @@
 "when": "Sun 15 Nov 14:15",
 "kind": "football + basketball (10 \u26bd + 5 \ud83c\udfc0)",
 "odds": 5.54,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -145,7 +145,10 @@
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Double chance CD Manacor or draw",
 "odds": 1.08,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -218,7 +221,7 @@
 "when": "Sun 15 Nov 14:15",
 "kind": "always-beaten teams (season data)",
 "odds": 9.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -269,7 +272,10 @@
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Double chance CD Manacor or draw",
 "odds": 1.08,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",

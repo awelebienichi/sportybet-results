@@ -7,14 +7,17 @@
 "when": "Sun 15 Nov 17:28",
 "kind": "live football + basketball (5 \u26bd + 5 \ud83c\udfc0)",
 "odds": 1.58,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Handicap 0:2 \u2013 UD Alcudia",
 "odds": 1.04,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -31,7 +34,10 @@
 "game": "Real Murcia Imperial FC vs UCAM Murcia",
 "pick": "UCAM Murcia Under 3.5",
 "odds": 1.03,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -45,14 +51,20 @@
 "game": "Manchester Basketball vs Bristol Flyers",
 "pick": "Manchester Basketball to win (incl. OT)",
 "odds": 1.06,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "84-86",
+"ht": "20-25"
 },
 {
 "t": "Sun 16:00",
 "game": "Universo Treviso Basket vs Basket Scafati 1969",
 "pick": "Universo Treviso Basket to win (incl. OT)",
 "odds": 1.08,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "91-81",
+"ht": "26-19"
 },
 {
 "t": "Sun 16:30",
@@ -3551,14 +3563,17 @@
 "when": "Sun 15 Nov 15:14",
 "kind": "combined J4V4CU + HAHDEV + J6GRLZ + W2YMV1",
 "odds": 34.77,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.18,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:00",
@@ -5553,14 +5568,17 @@
 "when": "Sun 15 Nov 14:46",
 "kind": "your tracker's best markets",
 "odds": 2635.03,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -7667,7 +7685,7 @@
 "when": "Sun 15 Nov 14:22",
 "kind": "your chosen markets",
 "odds": 61.32,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -7701,7 +7719,10 @@
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -7860,7 +7881,7 @@
 "when": "Sun 15 Nov 14:20",
 "kind": "your chosen markets",
 "odds": 20.87,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -7894,7 +7915,10 @@
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -8399,7 +8423,10 @@
 "game": "Universo Treviso Basket vs Basket Scafati 1969",
 "pick": "Under 189.5 total points",
 "odds": 1.25,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "W",
+"sc": "91-81",
+"ht": "26-19"
 },
 {
 "t": "Sun 16:00",
@@ -8897,7 +8924,10 @@
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
@@ -9135,7 +9165,10 @@
 "game": "CD Manacor vs UD Alcudia",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
