@@ -14,7 +14,10 @@
 "game": "Tigres FC vs Real Cundinamarca",
 "pick": "1st half GG \u2013 No",
 "odds": 1.12,
-"ts": 1794783900.0
+"ts": 1794783900.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 00:30",
@@ -128,7 +131,10 @@
 "game": "Tigres FC vs Real Cundinamarca",
 "pick": "1st half excluded goals: 2",
 "odds": 1.16,
-"ts": 1794783900.0
+"ts": 1794783900.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 00:30",
@@ -260,7 +266,10 @@
 "game": "Tigres FC vs Real Cundinamarca",
 "pick": "1st half excluded goals: 2",
 "odds": 1.16,
-"ts": 1794783900.0
+"ts": 1794783900.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 00:30",
