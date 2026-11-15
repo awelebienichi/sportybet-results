@@ -2696,7 +2696,10 @@
 "game": "1. FC Nuremberg vs 1 FC Cologne",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1794754800.0
+"ts": 1794754800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:00",
