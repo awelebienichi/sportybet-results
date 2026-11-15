@@ -113,7 +113,7 @@
 "when": "Sun 15 Nov 01:46",
 "kind": "your chosen markets",
 "odds": 87.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 04:00",
@@ -130,7 +130,10 @@
 "game": "Kataller Toyama vs Tokushima Vortis",
 "pick": "1st half excluded goals: 2",
 "odds": 1.23,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 06:00",
@@ -266,7 +269,7 @@
 "when": "Sun 15 Nov 01:44",
 "kind": "your chosen markets",
 "odds": 54.68,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 04:00",
@@ -290,7 +293,10 @@
 "game": "Kataller Toyama vs Tokushima Vortis",
 "pick": "1st half excluded goals: 2",
 "odds": 1.23,
-"ts": 1794718800.0
+"ts": 1794718800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 06:00",
