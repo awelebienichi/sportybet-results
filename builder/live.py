@@ -298,7 +298,7 @@ def build(req):
                 # main markets only, never against the side in front; SportyBet's own chance must be 86%+
                 if mid == "14": cu = _cushion(g, mid, spec, oid); ok = cu is not None and cu >= 2
                 elif mid == "1": ok = (oid == "1" and lead > 0) or (oid == "3" and lead < 0)
-                elif mid == "10": ok = not ((oid == "9" and lead < 0) or (oid == "11" and lead > 0))
+                elif mid == "10": ok = False                                    # no double chances from games without stats (user, 14 Nov: too many)
                 elif mid == "18": ok = oid == "12" or abs(hs - as_) < 2                 # no Unders while a side leads by 2+
                 else: ok = False
                 if not ok: continue
@@ -330,7 +330,7 @@ def build(req):
     def choose(L):
         """the legs of one game that pass every check, best first: Over 1.5 first when it is strong, handicaps behind other markets"""
         out = []
-        for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5 + (.05 if O15(x) else 0) - (.02 if HC(x) else 0)))[:4]:
+        for leg in sorted(L, key=lambda x: -(x["s"] + x["rate"] * .5 + (.05 if O15(x) else 0) - (.02 if HC(x) else 0) - (.04 if x["mid"] == "10" else 0)))[:4]:
             if leg.get("nodata"): out.append(leg); continue                     # no stats for this game: the price-only head start stands alone
             sup, bad = _prematch(leg["g"], leg["mid"], leg["oid"], leg["spec"])    # every pre-match source the builder uses
             if bad or (LV[2] and not sup): continue                             # none against it (strict: at least one source for it too)
