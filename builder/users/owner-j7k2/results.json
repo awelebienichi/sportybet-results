@@ -241,7 +241,7 @@
 "when": "Sun 15 Nov 07:28",
 "kind": "live football + basketball (6 \u26bd + 2 \ud83c\udfc0)",
 "odds": 1.74,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -318,7 +318,10 @@
 "game": "Niigata Albirex BB vs Gifu Swoops",
 "pick": "Niigata Albirex BB to win (incl. OT)",
 "odds": 1.18,
-"ts": 1794722700.0
+"ts": 1794722700.0,
+"r": "W",
+"sc": "73-70",
+"ht": ""
 }
 ]
 },
@@ -328,7 +331,7 @@
 "when": "Sun 15 Nov 07:26",
 "kind": "live football + basketball (4 \u26bd + 2 \ud83c\udfc0)",
 "odds": 1.64,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -385,7 +388,10 @@
 "game": "Niigata Albirex BB vs Gifu Swoops",
 "pick": "Niigata Albirex BB to win (incl. OT)",
 "odds": 1.2,
-"ts": 1794722700.0
+"ts": 1794722700.0,
+"r": "W",
+"sc": "73-70",
+"ht": ""
 }
 ]
 },
@@ -1057,7 +1063,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 171.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
@@ -1451,7 +1460,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 171.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
@@ -1755,7 +1767,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 171.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
@@ -4313,7 +4328,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 172.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
@@ -4609,7 +4627,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 172.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
@@ -4808,7 +4829,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 172.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
@@ -4960,7 +4984,10 @@
 "game": "Brisbane Bullets vs Tasmania Jackjumpers",
 "pick": "Over 172.5 total points",
 "odds": 1.21,
-"ts": 1794722400.0
+"ts": 1794722400.0,
+"r": "W",
+"sc": "92-104",
+"ht": "26-21"
 },
 {
 "t": "Sun 08:30",
