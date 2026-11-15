@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-15",
+"day": 1,
+"code": "GHKZRH",
+"stake": 100.0,
+"odds": 4.21,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-14",
 "day": 1,
 "code": "UJAYE5",
@@ -58,7 +67,7 @@
 "odds": 4.21,
 "stake": 100.0,
 "n": 7,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-12",
 "short": "lower",

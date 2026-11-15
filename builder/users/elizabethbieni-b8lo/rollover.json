@@ -1,6 +1,16 @@
 {
 "active": true,
-"history": [],
+"history": [
+{
+"date": "2026-11-15",
+"day": 1,
+"code": "S0NKBS",
+"stake": 200.0,
+"odds": 4.97,
+"result": "lost",
+"returned": 0
+}
+],
 "start_stake": 200.0,
 "stake": 200.0,
 "odds": 5.0,
@@ -12,7 +22,7 @@
 "odds": 4.97,
 "stake": 200.0,
 "n": 8,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-15",
 "short": "lower",
