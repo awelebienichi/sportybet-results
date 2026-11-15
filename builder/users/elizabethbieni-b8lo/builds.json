@@ -1,5 +1,176 @@
 [
 {
+"when": "Sun 15 Nov 13:42",
+"at": 1794746543,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bball",
+"kind": "total",
+"legs": 10,
+"days": [
+"2026-11-15"
+],
+"strict": "relaxed",
+"rid": "mwhtqo2m68un"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Relaxed: in testing about 80 in 100 such legs came true.",
+"Chance all 10 legs win: about 8%."
+],
+"tickets": [
+{
+"code": "G4XZ83",
+"odds": 8.11,
+"legs": [
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"lg": "Germany - BBL",
+"pick": "Over 156.5 total points",
+"odds": 1.23,
+"why": "expected Bayern Munich 87 \u2013 Mitteldeutscher BC 88 (last 10/10 games, home edge included); 86% by the stats, 81% with the price",
+"ts": 1794756600.0,
+"eid": "sr:match:73451874",
+"mid": "225",
+"spec": "total=156.5",
+"oid": "12",
+"k": "73451874|225|total=156.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "BC Aris Thessaloniki vs BC Olympiakos Piraeus",
+"lg": "Greece - Basketball League",
+"pick": "Under 175.5 total points",
+"odds": 1.23,
+"why": "expected BC Aris Thessaloniki 82 \u2013 BC Olympiakos Piraeus 78 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; h2h 88% of 8 meetings",
+"ts": 1794756600.0,
+"eid": "sr:match:74750492",
+"mid": "225",
+"spec": "total=175.5",
+"oid": "13",
+"k": "74750492|225|total=175.5|13"
+},
+{
+"t": "Sun 17:00",
+"game": "Sokol Pisek vs Sluneta Usti nad Labem",
+"lg": "Czechia - NBL",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"why": "expected Sokol Pisek 89 \u2013 Sluneta Usti nad Labem 81 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; h2h 88% of 8 meetings",
+"ts": 1794758400.0,
+"eid": "sr:match:72627100",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72627100|225|total=186.5|13"
+},
+{
+"t": "Sun 17:00",
+"game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
+"lg": "Austria - Superliga",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"why": "expected BBC Nord Dragonz 89 \u2013 SKN St. Polten Basketball 81 (last 10/10 games, home edge included); 80% by the stats, 79% with the price; h2h 75% of 8 meetings, Flashscore home/away form 95%",
+"ts": 1794758400.0,
+"eid": "sr:match:72653736",
+"mid": "225",
+"spec": "total=154.5",
+"oid": "12",
+"k": "72653736|225|total=154.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"lg": "Poland - PLK",
+"pick": "Under 181.5 total points",
+"odds": 1.23,
+"why": "expected Stal Ostrow Wielkopolski 80 \u2013 Dziki Warszawa 83 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; h2h 100% of 6 meetings, Flashscore home/away form 90%",
+"ts": 1794760200.0,
+"eid": "sr:match:72677284",
+"mid": "225",
+"spec": "total=181.5",
+"oid": "13",
+"k": "72677284|225|total=181.5|13"
+},
+{
+"t": "Sun 17:30",
+"game": "Swans Gmunden vs Traiskirchen Lions",
+"lg": "Austria - Superliga",
+"pick": "Under 176.5 total points",
+"odds": 1.24,
+"why": "expected Swans Gmunden 78 \u2013 Traiskirchen Lions 81 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; h2h 75% of 8 meetings, Flashscore home/away form 70%",
+"ts": 1794760200.0,
+"eid": "sr:match:72653740",
+"mid": "225",
+"spec": "total=176.5",
+"oid": "13",
+"k": "72653740|225|total=176.5|13"
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"lg": "Lithuania - LKL",
+"pick": "Under 186.5 total points",
+"odds": 1.22,
+"why": "expected BC Rytas Vilnius 87 \u2013 BC Jonava 79 (last 10/10 games, home edge included); 88% by the stats, 83% with the price; h2h 75% of 8 meetings, Flashscore home/away form 85%",
+"ts": 1794762600.0,
+"eid": "sr:match:75636736",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "75636736|225|total=186.5|13"
+},
+{
+"t": "Sun 18:30",
+"game": "KK Crvena zvezda Belgrade vs KK Cedevita Olimpija Ljubljana",
+"lg": "International - Liga ABA",
+"pick": "Under 182.5 total points",
+"odds": 1.24,
+"why": "expected KK Crvena zvezda Belgrade 85 \u2013 KK Cedevita Olimpija Ljubljana 79 (last 10/10 games, home edge included); 84% by the stats, 80% with the price; h2h 88% of 8 meetings",
+"ts": 1794763800.0,
+"eid": "sr:match:74131772",
+"mid": "225",
+"spec": "total=182.5",
+"oid": "13",
+"k": "74131772|225|total=182.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Baskonia Vitoria-Gasteiz vs Real Madrid",
+"lg": "Spain - Liga ACB",
+"pick": "Under 198.5 total points",
+"odds": 1.26,
+"why": "expected Baskonia Vitoria-Gasteiz 86 \u2013 Real Madrid 94 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; Flashscore home/away form 80%",
+"ts": 1794765600.0,
+"eid": "sr:match:73713602",
+"mid": "225",
+"spec": "total=198.5",
+"oid": "13",
+"k": "73713602|225|total=198.5|13"
+},
+{
+"t": "Sun 22:30",
+"game": "LA Clippers vs Charlotte Hornets",
+"lg": "USA - NBA",
+"pick": "Over 202.5 total points",
+"odds": 1.25,
+"why": "expected LA Clippers 113 \u2013 Charlotte Hornets 108 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; OddsShark h2h O/U 70% of last 10, h2h 100% of 8 meetings",
+"ts": 1794778200.0,
+"eid": "sr:match:73719648",
+"mid": "225",
+"spec": "total=202.5",
+"oid": "12",
+"k": "73719648|225|total=202.5|12"
+}
+],
+"chance": 0.0757
+}
+]
+},
+{
 "when": "Sun 15 Nov 13:30",
 "at": 1794745859,
 "req": {
