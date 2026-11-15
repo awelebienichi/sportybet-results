@@ -866,7 +866,10 @@
 "game": "FC Chelyabinsk vs FK Veles Moscow",
 "pick": "FC Chelyabinsk or GG",
 "odds": 1.33,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -2290,7 +2293,10 @@
 "game": "FC Chelyabinsk vs FK Veles Moscow",
 "pick": "FC Chelyabinsk or GG",
 "odds": 1.27,
-"ts": 1794736800.0
+"ts": 1794736800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
