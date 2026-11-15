@@ -2,6 +2,156 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "VKTZ9K",
+"at": 1794725982,
+"when": "Sun 15 Nov 07:59",
+"kind": "football + basketball (15 \u26bd + 5 \ud83c\udfc0)",
+"odds": 102.23,
+"status": "open",
+"legs": [
+{
+"t": "Sun 09:00",
+"game": "INAC Kobe Leonessa vs Cerezo Osaka Sakai Ladies",
+"pick": "Goal bounds 2-5+",
+"odds": 1.28,
+"ts": 1794729600.0
+},
+{
+"t": "Sun 11:00",
+"game": "FC Chelyabinsk vs FK Veles Moscow",
+"pick": "FC Chelyabinsk or GG",
+"odds": 1.38,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Aurrera de Vitoria vs SD Beasain",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Real Sociedad San Sebastian vs Athletic Bilbao",
+"pick": "1st half double chance Real Sociedad San Sebastian or draw",
+"odds": 1.23,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 13:00",
+"game": "Arna-Bjornar vs Roea",
+"pick": "1st half double chance Arna-Bjornar or draw",
+"odds": 1.26,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Veszprem FC vs Zalaegerszeg TE II",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Skara FC vs Eskilsminne IF",
+"pick": "Skara FC or GG",
+"odds": 1.2,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"pick": "Goal bounds 2-5+",
+"odds": 1.27,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Tenerife CD vs AD Ceuta",
+"pick": "Goal bounds 2-5+",
+"odds": 1.29,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Rostock Seawolves vs Rasta Vechta",
+"pick": "Under 187.5 total points",
+"odds": 1.24,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:30",
+"game": "CD Guadiana vs CD Gevora",
+"pick": "Goal bounds 2-5+",
+"odds": 1.26,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Real Balompedica Linense vs RC Portuense",
+"pick": "Goal bounds 2-5+",
+"odds": 1.38,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SD Gernika Club vs Real Oviedo Vetusta",
+"pick": "Goal bounds 2-5+",
+"odds": 1.39,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Cotillas CD vs CD Algar",
+"pick": "Goal bounds 2-5+",
+"odds": 1.28,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"pick": "Goal bounds 2-5+",
+"odds": 1.25,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"pick": "Under 182.5 total points",
+"odds": 1.22,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Friburguense AC RJ vs SE Belford Roxo RJ",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1794765600.0
+}
+]
+},
+{
 "code": "WDC79S",
 "at": 1794725916,
 "when": "Sun 15 Nov 07:58",
