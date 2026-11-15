@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PHLV9R",
+"at": 1794760095,
+"when": "Sun 15 Nov 17:28",
+"kind": "live football + basketball (5 \u26bd + 5 \ud83c\udfc0)",
+"odds": 1.58,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:00",
+"game": "CD Manacor vs UD Alcudia",
+"pick": "Handicap 0:2 \u2013 UD Alcudia",
+"odds": 1.04,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Gil Vicente FC vs SC Braga",
+"pick": "SC Braga Under 3.5",
+"odds": 1.05,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Real Murcia Imperial FC vs UCAM Murcia",
+"pick": "UCAM Murcia Under 3.5",
+"odds": 1.03,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Swedru All Blacks vs Berekum Chelsea",
+"pick": "Swedru All Blacks Under 1.5",
+"odds": 1.03,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Manchester Basketball vs Bristol Flyers",
+"pick": "Manchester Basketball to win (incl. OT)",
+"odds": 1.06,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Universo Treviso Basket vs Basket Scafati 1969",
+"pick": "Universo Treviso Basket to win (incl. OT)",
+"odds": 1.08,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "CD Toledo Sad vs CP Villarrobledo",
+"pick": "Handicap 0:3 \u2013 CP Villarrobledo",
+"odds": 1.05,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Akademik Bulteks 99 vs CSKA Sofia",
+"pick": "Akademik Bulteks 99 to win (incl. OT)",
+"odds": 1.03,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SSV Lok Bernau vs Bsw Sixers",
+"pick": "SSV Lok Bernau to win (incl. OT)",
+"odds": 1.03,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Pallacanestro Ruvo di Puglia vs Basket Torino",
+"pick": "Basket Torino to win (incl. OT)",
+"odds": 1.04,
+"ts": 1794758400.0
+}
+]
+},
+{
 "code": "ZPYJ6M",
 "at": 1794755922,
 "when": "Sun 15 Nov 16:18",
