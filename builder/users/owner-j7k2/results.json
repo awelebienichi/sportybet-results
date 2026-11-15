@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Y4QAUV",
+"at": 1794723995,
+"when": "Sun 15 Nov 07:26",
+"kind": "live football + basketball (4 \u26bd + 2 \ud83c\udfc0)",
+"odds": 1.64,
+"status": "open",
+"legs": [
+{
+"t": "Sun 06:00",
+"game": "FC Imabari vs Jubilo Iwata",
+"pick": "Jubilo Iwata to win",
+"odds": 1.03,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Tochigi SC vs Nara Club",
+"pick": "Tochigi SC Under 1.5",
+"odds": 1.05,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Kamatamare Sanuki vs Renofa Yamaguchi",
+"pick": "Kamatamare Sanuki Under 1.5",
+"odds": 1.04,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Zweigen Kanazawa vs Roasso Kumamoto",
+"pick": "Under 5.5",
+"odds": 1.03,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Goyang Skygunners vs Wonju DB New Generation",
+"pick": "Over 162.5 total points",
+"odds": 1.18,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 07:05",
+"game": "Niigata Albirex BB vs Gifu Swoops",
+"pick": "Niigata Albirex BB to win (incl. OT)",
+"odds": 1.2,
+"ts": 1794722700.0
+}
+]
+},
+{
 "code": "R6HJ12",
 "at": 1794723441,
 "when": "Sun 15 Nov 07:17",
@@ -562,7 +614,7 @@
 "when": "Sun 15 Nov 00:15",
 "kind": "basketball \u2013 total points",
 "odds": 34995.1,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 01:00",
@@ -609,7 +661,10 @@
 "game": "Sydney Kings vs New Zealand Breakers",
 "pick": "Under 196.5 total points",
 "odds": 1.23,
-"ts": 1794715200.0
+"ts": 1794715200.0,
+"r": "L",
+"sc": "111-102",
+"ht": "21-20"
 },
 {
 "t": "Sun 05:35",
@@ -958,7 +1013,7 @@
 "when": "Sun 15 Nov 00:12",
 "kind": "basketball \u2013 total points",
 "odds": 4794.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 01:00",
@@ -995,7 +1050,10 @@
 "game": "Sydney Kings vs New Zealand Breakers",
 "pick": "Under 196.5 total points",
 "odds": 1.23,
-"ts": 1794715200.0
+"ts": 1794715200.0,
+"r": "L",
+"sc": "111-102",
+"ht": "21-20"
 },
 {
 "t": "Sun 05:35",
@@ -1257,7 +1315,7 @@
 "when": "Sun 15 Nov 00:09",
 "kind": "basketball \u2013 total points",
 "odds": 605.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 01:00",
@@ -1294,7 +1352,10 @@
 "game": "Sydney Kings vs New Zealand Breakers",
 "pick": "Under 196.5 total points",
 "odds": 1.23,
-"ts": 1794715200.0
+"ts": 1794715200.0,
+"r": "L",
+"sc": "111-102",
+"ht": "21-20"
 },
 {
 "t": "Sun 05:35",
@@ -3824,7 +3885,10 @@
 "game": "Sydney Kings vs New Zealand Breakers",
 "pick": "Under 197.5 total points",
 "odds": 1.23,
-"ts": 1794715200.0
+"ts": 1794715200.0,
+"r": "L",
+"sc": "111-102",
+"ht": "21-20"
 },
 {
 "t": "Sun 05:35",
@@ -4105,7 +4169,10 @@
 "game": "Sydney Kings vs New Zealand Breakers",
 "pick": "Under 197.5 total points",
 "odds": 1.23,
-"ts": 1794715200.0
+"ts": 1794715200.0,
+"r": "L",
+"sc": "111-102",
+"ht": "21-20"
 },
 {
 "t": "Sun 05:35",
@@ -4309,7 +4376,10 @@
 "game": "Sydney Kings vs New Zealand Breakers",
 "pick": "Under 197.5 total points",
 "odds": 1.23,
-"ts": 1794715200.0
+"ts": 1794715200.0,
+"r": "L",
+"sc": "111-102",
+"ht": "21-20"
 },
 {
 "t": "Sun 06:05",
@@ -5647,8 +5717,8 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "5-7",
-"ht": ""
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -6044,8 +6114,8 @@
 "odds": 1.27,
 "ts": 1794668400.0,
 "r": "W",
-"sc": "5-7",
-"ht": ""
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
