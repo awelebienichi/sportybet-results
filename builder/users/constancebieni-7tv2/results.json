@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "ND8V7S",
+"at": 1794727595,
+"when": "Sun 15 Nov 08:26",
+"kind": "live \u2013 best of all",
+"odds": 1.63,
+"status": "open",
+"legs": [
+{
+"t": "Sun 07:00",
+"game": "Cerezo Osaka vs Urawa Red Diamonds",
+"pick": "Handicap 0:1 \u2013 Urawa Red Diamonds",
+"odds": 1.03,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 07:00",
+"game": "Kashima Antlers vs Yokohama F Marinos",
+"pick": "Yokohama F Marinos Under 2.5",
+"odds": 1.1,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 07:00",
+"game": "Liaoning Shenbei Hefeng vs Beijing WFC",
+"pick": "Liaoning Shenbei Hefeng or Beijing WFC",
+"odds": 1.13,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 07:00",
+"game": "Zhejiang Hangzhou vs Jiangsu LFC",
+"pick": "Under 2.5",
+"odds": 1.19,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 08:00",
+"game": "FC Ryukyu vs Kochi United SC",
+"pick": "Handicap 2:0 \u2013 FC Ryukyu",
+"odds": 1.07,
+"ts": 1794726000.0
+}
+]
+},
+{
 "code": "R8BYF1",
 "at": 1794726097,
 "when": "Sun 15 Nov 08:01",
