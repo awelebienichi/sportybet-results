@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KE3ATQ",
+"at": 1794735202,
+"when": "Sun 15 Nov 10:33",
+"kind": "rebuild of SEQYWK",
+"odds": 994.97,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:00",
+"game": "Moneyfields Ladies vs Bristol Rovers Women",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Servette FC  vs FC La Chaux De Fonds",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:30",
+"game": "MVV Maastricht vs Vitesse Arnhem",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "CO Medenine vs AS Ariana",
+"pick": "Goal bounds 2-5+",
+"odds": 1.48,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Delfino Pescara vs US Sambenedettese",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Spezia Calcio vs Vado FC",
+"pick": "Spezia Calcio or GG",
+"odds": 1.06,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Potenza Calcio vs Scafatese Calcio 1922",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "PFK Beroe Stara Zagora vs PFC Vihren Sandanski",
+"pick": "1st half double chance PFC Vihren Sandanski or draw",
+"odds": 1.25,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Cyprus vs Montenegro",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Latvia vs Armenia",
+"pick": "1st half double chance Latvia or draw",
+"odds": 1.35,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "GFA Rumilly-Vallieres vs Saint-Etienne",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "FK Sochi vs FC Shinnik Yaroslavl",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Nottingham Forest Lfc vs Leicester City WFC",
+"pick": "1st half double chance Nottingham Forest Lfc or draw",
+"odds": 1.17,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Santiago Wanderers vs Deportes Copiapo",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Backa Topola vs FK Jedinstvo UB",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Spaeri vs FC Iberia 1999",
+"pick": "1st half double chance FC Iberia 1999 or draw",
+"odds": 1.19,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs Eintracht Frankfurt",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:15",
+"game": "Granada vs Las Palmas",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794755700.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half double chance Lusitania FC Lourosa or draw",
+"odds": 1.36,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "AZ Alkmaar vs Ajax Amsterdam",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 16:45",
+"game": "PEC Zwolle vs FC Utrecht",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "Oud-Heverlee Leuven W vs KRC Genk",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "US Pergolettese Crema vs Pro Vercelli 1892",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Finland vs San Marino",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:30",
+"game": "Club Deportivo Eldense vs CE Sabadell FC",
+"pick": "Over 1.5",
+"odds": 1.53,
+"ts": 1794763800.0
+}
+]
+},
+{
 "code": "ZPBKQ5",
 "at": 1794725337,
 "when": "Sun 15 Nov 07:48",
@@ -2145,7 +2365,7 @@
 "odds": 1.15,
 "ts": 1794729600.0,
 "r": "W",
-"sc": "4-3",
+"sc": "5-3",
 "ht": "1-3"
 },
 {
