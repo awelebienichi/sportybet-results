@@ -4303,7 +4303,10 @@
 "game": "Defensor SC Montevideo vs Liverpool FC Montevideo",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.17,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 21:00",
@@ -6203,7 +6206,10 @@
 "game": "Defensor SC Montevideo vs Liverpool FC Montevideo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 19:00",
