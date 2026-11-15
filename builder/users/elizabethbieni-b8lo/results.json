@@ -2,6 +2,68 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "W92P2S",
+"at": 1794747627,
+"when": "Sun 15 Nov 14:00",
+"kind": "live football + basketball (2 \u26bd + 2 \ud83c\udfc0)",
+"odds": 1.57,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:30",
+"game": "Astoria Bydgoszcz vs Gornik Walbrzych",
+"pick": "Astoria Bydgoszcz to win (incl. OT)",
+"odds": 1.08,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Shanghai Pudong Development Bank vs Henan Phoenix",
+"pick": "Over 140.5 total points",
+"odds": 1.14,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 13:00",
+"game": "SC Sopron vs Szombathelyi Mav Haladas VSE",
+"pick": "Szombathelyi Mav Haladas VSE Under 3.5",
+"odds": 1.03,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "FC Tatabanya vs ETO Akademia",
+"pick": "Handicap 0:3 \u2013 ETO Akademia",
+"odds": 1.22,
+"ts": 1794744000.0
+}
+]
+},
+{
+"code": "QGN8D3",
+"at": 1794747503,
+"when": "Sun 15 Nov 13:58",
+"kind": "live \u2013 another goal coming",
+"odds": 1.19,
+"status": "open",
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Skara FC vs Eskilsminne IF",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:50",
+"game": "Dubai United FC vs Sharjah FC",
+"pick": "Over 0.5",
+"odds": 1.04,
+"ts": 1794747000.0
+}
+]
+},
+{
 "code": "TSMEZ2",
 "at": 1794747448,
 "when": "Sun 15 Nov 13:57",

@@ -1379,7 +1379,7 @@
 "when": "Sun 15 Nov 07:48",
 "kind": "basketball \u2013 total points",
 "odds": 831.16,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 08:30",
@@ -1413,7 +1413,10 @@
 "game": "Valencia Basket vs CB Coruna",
 "pick": "Under 202.5 total points",
 "odds": 1.23,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "111-97",
+"ht": "27-24"
 },
 {
 "t": "Sun 12:30",
@@ -2547,7 +2550,10 @@
 "game": "Valencia Basket vs CB Coruna",
 "pick": "Under 202.5 total points",
 "odds": 1.23,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "111-97",
+"ht": "27-24"
 },
 {
 "t": "Sun 12:30",
@@ -2939,7 +2945,10 @@
 "game": "Valencia Basket vs CB Coruna",
 "pick": "Under 202.5 total points",
 "odds": 1.23,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "111-97",
+"ht": "27-24"
 },
 {
 "t": "Sun 12:30",
