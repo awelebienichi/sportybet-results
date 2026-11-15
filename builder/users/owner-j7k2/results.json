@@ -5901,7 +5901,7 @@
 "when": "Sun 15 Nov 15:14",
 "kind": "combined J4V4CU + HAHDEV + J6GRLZ + W2YMV1",
 "odds": 34.62,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -5948,7 +5948,10 @@
 "game": "CA Nacional Potosi vs Real Potosi",
 "pick": "Home Team or GG \u2013 Yes",
 "odds": 1.17,
-"ts": 1794778200.0
+"ts": 1794778200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 16:00",
@@ -7143,7 +7146,10 @@
 "game": "CA Nacional Potosi vs Real Potosi",
 "pick": "CA Nacional Potosi or GG",
 "odds": 1.17,
-"ts": 1794778200.0
+"ts": 1794778200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
