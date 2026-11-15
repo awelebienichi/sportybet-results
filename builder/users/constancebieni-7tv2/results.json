@@ -932,7 +932,10 @@
 "game": "SD Leioa vs Real Sociedad C",
 "pick": "Goal bounds 2-5+",
 "odds": 1.26,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 19:00",
@@ -1125,7 +1128,10 @@
 "game": "SD Leioa vs Real Sociedad C",
 "pick": "Goal bounds 2-5+",
 "odds": 1.26,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 19:00",
@@ -2413,7 +2419,10 @@
 "game": "SD Leioa vs Real Sociedad C",
 "pick": "Over 1.5",
 "odds": 1.25,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 20:45",
