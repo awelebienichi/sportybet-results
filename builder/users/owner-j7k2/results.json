@@ -613,7 +613,7 @@
 "when": "Sun 15 Nov 18:34",
 "kind": "basketball \u2013 total points",
 "odds": 343.99,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 19:00",
@@ -644,14 +644,20 @@
 "game": "Aquila Basket Trento vs Virtus Bologna",
 "pick": "Under 191.5 total points",
 "odds": 1.27,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "75-88",
+"ht": "13-24"
 },
 {
 "t": "Sun 19:00",
 "game": "Georgia State Panthers vs Norfolk State Spartans",
 "pick": "Over 137.5 total points",
 "odds": 1.41,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "L",
+"sc": "78-53",
+"ht": "39-26"
 },
 {
 "t": "Sun 19:00",
@@ -832,7 +838,10 @@
 "game": "Aquila Basket Trento vs Virtus Bologna",
 "pick": "Under 191.5 total points",
 "odds": 1.27,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "75-88",
+"ht": "13-24"
 },
 {
 "t": "Sun 19:15",
@@ -2452,7 +2461,10 @@
 "game": "Club Cipolletti vs Juventud Antoniana",
 "pick": "Under 3.5",
 "odds": 1.2,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 19:00",
@@ -2562,7 +2574,10 @@
 "game": "Club Cipolletti vs Juventud Antoniana",
 "pick": "Under 3.5",
 "odds": 1.2,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 20:30",
