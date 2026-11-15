@@ -410,7 +410,10 @@
 "game": "Danubio FC vs Liverpool Montevideo",
 "pick": "1st half Under 2.5",
 "odds": 1.07,
-"ts": 1794771000.0
+"ts": 1794771000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 21:00",
@@ -680,7 +683,10 @@
 "game": "Maccabi Ironi Ramat Gan vs Ironi Ness Ziona",
 "pick": "Over 155.5 total points",
 "odds": 1.22,
-"ts": 1794766500.0
+"ts": 1794766500.0,
+"r": "W",
+"sc": "74-90",
+"ht": "16-19"
 },
 {
 "t": "Sun 19:30",
@@ -860,7 +866,10 @@
 "game": "Maccabi Ironi Ramat Gan vs Ironi Ness Ziona",
 "pick": "Over 155.5 total points",
 "odds": 1.22,
-"ts": 1794766500.0
+"ts": 1794766500.0,
+"r": "W",
+"sc": "74-90",
+"ht": "16-19"
 },
 {
 "t": "Sun 22:30",
@@ -1632,7 +1641,10 @@
 "game": "Danubio FC vs Liverpool Montevideo",
 "pick": "1st half Under 2.5",
 "odds": 1.07,
-"ts": 1794771000.0
+"ts": 1794771000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 21:00",
@@ -1899,7 +1911,10 @@
 "game": "Danubio FC vs Liverpool Montevideo",
 "pick": "1st half Under 2.5",
 "odds": 1.07,
-"ts": 1794771000.0
+"ts": 1794771000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 21:00",
