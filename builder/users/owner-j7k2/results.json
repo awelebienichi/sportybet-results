@@ -647,7 +647,10 @@
 "game": "CF Lorca Deportiva vs RCD Mallorca B",
 "pick": "Handicap 0:4 \u2013 RCD Mallorca B",
 "odds": 1.06,
-"ts": 1794738600.0
+"ts": 1794738600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 }
 ]
 },
@@ -3564,7 +3567,10 @@
 "game": "Lucky Mile vs Leaper",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794738600.0
+"ts": 1794738600.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 13:00",
@@ -3679,7 +3685,7 @@
 "when": "Sat 14 Nov 23:56",
 "kind": "your chosen markets",
 "odds": 1692.31,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 01:00",
@@ -3696,7 +3702,10 @@
 "game": "Lucky Mile vs Leaper",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794738600.0
+"ts": 1794738600.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
