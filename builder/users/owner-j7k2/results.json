@@ -907,7 +907,10 @@
 "game": "BC Vienna vs Eagles Graz",
 "pick": "Over/Under (incl. overtime) 155.5 \u2013 Over 155.5",
 "odds": 1.2,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "W",
+"sc": "92-96",
+"ht": "22-21"
 },
 {
 "t": "Sun 18:10",
@@ -1223,7 +1226,10 @@
 "game": "BC Vienna vs Eagles Graz",
 "pick": "Over 155.5 total points",
 "odds": 1.2,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "W",
+"sc": "92-96",
+"ht": "22-21"
 },
 {
 "t": "Sun 18:15",
@@ -9384,7 +9390,10 @@
 "game": "BC Vienna vs Eagles Graz",
 "pick": "Over 155.5 total points",
 "odds": 1.2,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "W",
+"sc": "92-96",
+"ht": "22-21"
 },
 {
 "t": "Sun 18:00",
@@ -9577,7 +9586,10 @@
 "game": "Ironi Kiryat ATA vs Maccabi Ashdod",
 "pick": "Under 185.5 total points",
 "odds": 1.25,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "W",
+"sc": "74-89",
+"ht": "15-22"
 },
 {
 "t": "Sun 18:10",
