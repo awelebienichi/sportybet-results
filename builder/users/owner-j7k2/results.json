@@ -2,6 +2,79 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "K00XCR",
+"at": 1794752534,
+"when": "Sun 15 Nov 15:22",
+"kind": "rebuild of W2YMV1",
+"odds": 30.93,
+"status": "open",
+"legs": [
+{
+"t": "Tue 20:45",
+"game": "Oxford City vs Macclesfield FC",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794944700.0
+},
+{
+"t": "Thu 13:45",
+"game": "Al Wasl FC vs Hatta SC",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795092300.0
+},
+{
+"t": "Sat 06:00",
+"game": "Jubilo Iwata vs RB Omiya Ardija",
+"pick": "Over 2.5",
+"odds": 1.6,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Amed Sportif Faaliyetler vs Caykur Rizespor",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "SV 07 Elversberg vs Freiburg",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Annan Athletic FC vs Forfar Athletic FC",
+"pick": "Over 2.5",
+"odds": 1.65,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Grimsby Town vs Rotherham United",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"pick": "Over 2.5",
+"odds": 1.19,
+"ts": 1795280400.0
+}
+]
+},
+{
 "code": "U5GH5V",
 "at": 1794752456,
 "when": "Sun 15 Nov 15:20",
@@ -6096,7 +6169,7 @@
 "when": "Sun 15 Nov 13:01",
 "kind": "your chosen markets",
 "odds": 47.53,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 13:30",
@@ -6123,7 +6196,10 @@
 "game": "FC Pirin Blagoevgrad vs PFC Montana 1921",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 14:00",

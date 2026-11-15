@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 14:03",
 "kind": "live \u2013 best of all",
 "odds": 1.47,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 12:30",
@@ -104,7 +104,10 @@
 "game": "FC Pirin Blagoevgrad vs PFC Montana 1921",
 "pick": "Handicap 4:0 \u2013 FC Pirin Blagoevgrad",
 "odds": 1.05,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -1818,7 +1821,10 @@
 "game": "FC Pirin Blagoevgrad vs PFC Montana 1921",
 "pick": "Over 1.5",
 "odds": 1.28,
-"ts": 1794745800.0
+"ts": 1794745800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 14:00",
