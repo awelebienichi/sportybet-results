@@ -2085,7 +2085,10 @@
 "game": "Ceara SC CE vs Vila Real FC CE",
 "pick": "Over/Under \u2013 Under 3.5",
 "odds": 1.3,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 20:00",
@@ -2480,7 +2483,10 @@
 "game": "Ceara SC CE vs Vila Real FC CE",
 "pick": "Under 3.5",
 "odds": 1.3,
-"ts": 1794765600.0
+"ts": 1794765600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 20:30",
