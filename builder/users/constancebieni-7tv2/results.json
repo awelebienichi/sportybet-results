@@ -2,6 +2,65 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "GHKZRH",
+"at": 1794733259,
+"when": "Sun 15 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.21,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"pick": "Over 1.5",
+"odds": 1.27,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 19:00",
+"game": "Leones Negros UDEG vs Atletico Morelia",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794772800.0
+}
+]
+},
+{
 "code": "VYNWPZ",
 "at": 1794729757,
 "when": "Sun 15 Nov 09:02",
