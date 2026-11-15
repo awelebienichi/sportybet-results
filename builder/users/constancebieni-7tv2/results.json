@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "JQUWWU",
+"at": 1794759130,
+"when": "Sun 15 Nov 17:12",
+"kind": "your chosen markets",
+"odds": 3.4,
+"status": "open",
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"pick": "Under 3.5",
+"odds": 1.1,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"pick": "Under 3.5",
+"odds": 1.1,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "N1MPYL",
 "at": 1794755029,
 "when": "Sun 15 Nov 16:03",
