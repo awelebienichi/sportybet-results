@@ -2,6 +2,229 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "NG3Z3F",
+"at": 1794703575,
+"when": "Sun 15 Nov 01:46",
+"kind": "basketball \u2013 best market per game",
+"odds": 3.2,
+"status": "open",
+"legs": [
+{
+"t": "Sun 02:00",
+"game": "Minnesota Timberwolves vs Chicago Bulls",
+"pick": "Minnesota Timberwolves to win (incl. OT)",
+"odds": 1.1,
+"ts": 1794704400.0
+},
+{
+"t": "Sun 06:05",
+"game": "Iwate Big Bulls vs Yamagata Wyverns",
+"pick": "Iwate Big Bulls to win (incl. OT)",
+"odds": 1.11,
+"ts": 1794719100.0
+},
+{
+"t": "Sun 11:00",
+"game": "Esenler Erokspor vs Bahcesehir Koleji",
+"pick": "Esenler Erokspor +15.5 (handicap)",
+"odds": 1.12,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "BCM Gravelines Dunkerque vs Sluc Nancy Basket",
+"pick": "Sluc Nancy Basket +10.5 (handicap)",
+"odds": 1.12,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 18:15",
+"game": "APU Udine vs Olimpia Milano",
+"pick": "APU Udine +19.5 (handicap)",
+"odds": 1.11,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 19:00",
+"game": "Aquila Basket Trento vs Virtus Bologna",
+"pick": "Aquila Basket Trento +18.5 (handicap)",
+"odds": 1.1,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Le Mans Sarthe Basket vs ASVEL Lyon-Villeurbanne",
+"pick": "Le Mans Sarthe Basket +10.5 (handicap)",
+"odds": 1.13,
+"ts": 1794765600.0
+}
+]
+},
+{
+"code": "X3UD54",
+"at": 1794703564,
+"when": "Sun 15 Nov 01:46",
+"kind": "your chosen markets",
+"odds": 87.04,
+"status": "open",
+"legs": [
+{
+"t": "Sun 04:00",
+"game": "New Zealand vs India",
+"pick": "1st half excluded goals: 0",
+"odds": 1.21,
+"ts": 1794711600.0
+},
+{
+"t": "Sun 06:00",
+"game": "Kataller Toyama vs Tokushima Vortis",
+"pick": "1st half excluded goals: 2",
+"odds": 1.23,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Zweigen Kanazawa vs Roasso Kumamoto",
+"pick": "1st half excluded goals: 2",
+"odds": 1.22,
+"ts": 1794718800.0
+},
+{
+"t": "Sun 07:00",
+"game": "Cerezo Osaka vs Urawa Red Diamonds",
+"pick": "1st half excluded goals: 2",
+"odds": 1.25,
+"ts": 1794722400.0
+},
+{
+"t": "Sun 10:15",
+"game": "FK Admira Prague vs SK Slavia Prague C",
+"pick": "1st half excluded goals: 0",
+"odds": 1.22,
+"ts": 1794734100.0
+},
+{
+"t": "Sun 11:00",
+"game": "SCR Altach vs SK Rapid Wien",
+"pick": "1st half excluded goals: 2",
+"odds": 1.27,
+"ts": 1794736800.0
+},
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Aurrera de Vitoria vs SD Beasain",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Atletico Madrid B vs CD Teruel",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.14,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"pick": "Goal bounds 2-5+",
+"odds": 1.25,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Tenerife CD vs AD Ceuta",
+"pick": "Goal bounds 2-5+",
+"odds": 1.29,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:30",
+"game": "Delfino Pescara vs US Sambenedettese",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.15,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Salernitana vs Catania FC",
+"pick": "1st half excluded goals: 2",
+"odds": 1.22,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "West Ham United FC Women vs Charlton Athletic",
+"pick": "1st half excluded goals: 2",
+"odds": 1.23,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Spaeri vs FC Iberia 1999",
+"pick": "1st half excluded goals: 2",
+"odds": 1.22,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "1st half excluded goals: 0",
+"odds": 1.42,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "AZ Alkmaar vs Ajax Amsterdam",
+"pick": "1st half excluded goals: 2",
+"odds": 1.3,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Real Balompedica Linense vs RC Portuense",
+"pick": "Goal bounds 2-5+",
+"odds": 1.38,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"pick": "1st half excluded goals: 2",
+"odds": 1.19,
+"ts": 1794762000.0
+}
+]
+},
+{
 "code": "KPW3LA",
 "at": 1794703455,
 "when": "Sun 15 Nov 01:44",
