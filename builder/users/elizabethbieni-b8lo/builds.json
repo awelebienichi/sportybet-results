@@ -1,5 +1,48 @@
 [
 {
+"when": "Sun 15 Nov 13:57",
+"at": 1794747448,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "goals",
+"legs": 10,
+"strict": "strict",
+"rid": "mwhua2q6uiek"
+},
+"ok": true,
+"kind": "live \u2013 another goal coming",
+"note": [
+"Only 1 live leg(s) were strong enough right now (you asked for 10).",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 1 legs win: about 84%."
+],
+"tickets": [
+{
+"code": "TSMEZ2",
+"odds": 1.14,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Skara FC vs Eskilsminne IF",
+"lg": "Sweden - Ettan",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "LIVE 1-0 45': Skara FC expected 1.3 and Eskilsminne IF 0.7 more goals (last 10); 1-0 at 45' \u2013 83% chance; Flashscore home/away form 80%",
+"ts": 1794744000.0,
+"eid": "sr:match:76657336",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76657336|18|total=1.5|12"
+}
+],
+"chance": 0.8354
+}
+]
+},
+{
 "when": "Sun 15 Nov 13:42",
 "at": 1794746543,
 "req": {
