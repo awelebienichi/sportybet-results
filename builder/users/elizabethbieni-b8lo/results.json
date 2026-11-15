@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 17:15",
 "kind": "your chosen markets",
 "odds": 7.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 18:00",
@@ -71,7 +71,10 @@
 "game": "Club Deportivo Eldense vs CE Sabadell FC",
 "pick": "1st half double chance CE Sabadell FC or draw",
 "odds": 1.32,
-"ts": 1794763800.0
+"ts": 1794763800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 19:00",
