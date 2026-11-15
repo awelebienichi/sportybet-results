@@ -1,6 +1,161 @@
 [
 {
 "when": "Sun 15 Nov 01:46",
+"at": 1794703575,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "bball",
+"kind": "mix",
+"legs": 10,
+"days": [
+"2026-11-15"
+],
+"strict": "strict",
+"rid": "mwh45zxmbvqo"
+},
+"ok": true,
+"kind": "basketball \u2013 best market per game",
+"note": [
+"Only 9 basketball games passed the checks (Sun 15, 177 judged), so the ticket has 9 legs."
+],
+"tickets": [
+{
+"code": "NG3Z3F",
+"odds": 3.2,
+"legs": [
+{
+"t": "Sun 02:00",
+"game": "Minnesota Timberwolves vs Chicago Bulls",
+"lg": "USA - NBA",
+"pick": "Minnesota Timberwolves to win (incl. OT)",
+"odds": 1.1,
+"why": "expected Minnesota Timberwolves 125 \u2013 Chicago Bulls 109 (last 10/10 games, home edge included, Chicago Bulls on 2nd game in 2 days); 85% by the stats, 85% with the price; rival missing 39 pts a game, Flashscore home/away form 70%, NBA ratings margin +17",
+"ts": 1794704400.0,
+"eid": "sr:match:73719642",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "73719642|219||4"
+},
+{
+"t": "Sun 06:05",
+"game": "Iwate Big Bulls vs Yamagata Wyverns",
+"lg": "Japan - B League One",
+"pick": "Iwate Big Bulls to win (incl. OT)",
+"odds": 1.11,
+"why": "expected Iwate Big Bulls 83 \u2013 Yamagata Wyverns 70 (last 10/10 games, home edge included, Iwate Big Bulls on 2nd game in 2 days, Yamagata Wyverns on 2nd game in 2 days); 80% by the stats, 82% with the price; Flashscore home/away form 85%",
+"ts": 1794719100.0,
+"eid": "sr:match:72703204",
+"mid": "219",
+"spec": "",
+"oid": "4",
+"k": "72703204|219||4"
+},
+{
+"t": "Sun 11:00",
+"game": "Esenler Erokspor vs Bahcesehir Koleji",
+"lg": "Turkiye - Super Lig",
+"pick": "Esenler Erokspor +15.5 (handicap)",
+"odds": 1.12,
+"why": "expected Esenler Erokspor 89 \u2013 Bahcesehir Koleji 83 (last 10/10 games, home edge included); 92% by the stats, 88% with the price; Flashscore home/away form 75%",
+"ts": 1794736800.0,
+"eid": "sr:match:73495526",
+"mid": "223",
+"spec": "hcp=15.5",
+"oid": "1714",
+"k": "73495526|223|hcp=15.5|1714"
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"lg": "Germany - BBL",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"why": "expected Skyliners Frankfurt 82 \u2013 TBB Trier 89 (last 10/10 games, home edge included); 91% by the stats, 83% with the price; Flashscore home/away form 80%",
+"ts": 1794751200.0,
+"eid": "sr:match:73451870",
+"mid": "225",
+"spec": "total=194.5",
+"oid": "13",
+"k": "73451870|225|total=194.5|13"
+},
+{
+"t": "Sun 16:00",
+"game": "BCM Gravelines Dunkerque vs Sluc Nancy Basket",
+"lg": "France - LNB Elite",
+"pick": "Sluc Nancy Basket +10.5 (handicap)",
+"odds": 1.12,
+"why": "expected BCM Gravelines Dunkerque 79 \u2013 Sluc Nancy Basket 88 (last 10/10 games, home edge included); 90% by the stats, 87% with the price; Flashscore home/away form 75%",
+"ts": 1794754800.0,
+"eid": "sr:match:74295742",
+"mid": "223",
+"spec": "hcp=-10.5",
+"oid": "1715",
+"k": "74295742|223|hcp=-10.5|1715"
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"lg": "Lithuania - LKL",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"why": "expected BC Rytas Vilnius 85 \u2013 BC Jonava 78 (last 10/10 games, home edge included); 89% by the stats, 84% with the price; Flashscore home/away form 85%",
+"ts": 1794762600.0,
+"eid": "sr:match:75636736",
+"mid": "225",
+"spec": "total=185.5",
+"oid": "13",
+"k": "75636736|225|total=185.5|13"
+},
+{
+"t": "Sun 18:15",
+"game": "APU Udine vs Olimpia Milano",
+"lg": "Italy - Serie A",
+"pick": "APU Udine +19.5 (handicap)",
+"odds": 1.11,
+"why": "expected APU Udine 84 \u2013 Olimpia Milano 82 (last 10/10 games, home edge included); 92% by the stats, 89% with the price; Flashscore home/away form 100%",
+"ts": 1794762900.0,
+"eid": "sr:match:73432168",
+"mid": "223",
+"spec": "hcp=19.5",
+"oid": "1714",
+"k": "73432168|223|hcp=19.5|1714"
+},
+{
+"t": "Sun 19:00",
+"game": "Aquila Basket Trento vs Virtus Bologna",
+"lg": "Italy - Serie A",
+"pick": "Aquila Basket Trento +18.5 (handicap)",
+"odds": 1.1,
+"why": "expected Aquila Basket Trento 88 \u2013 Virtus Bologna 87 (last 10/10 games, home edge included); 90% by the stats, 88% with the price; Flashscore home/away form 90%",
+"ts": 1794765600.0,
+"eid": "sr:match:73432156",
+"mid": "223",
+"spec": "hcp=18.5",
+"oid": "1714",
+"k": "73432156|223|hcp=18.5|1714"
+},
+{
+"t": "Sun 19:00",
+"game": "Le Mans Sarthe Basket vs ASVEL Lyon-Villeurbanne",
+"lg": "France - LNB Elite",
+"pick": "Le Mans Sarthe Basket +10.5 (handicap)",
+"odds": 1.13,
+"why": "expected Le Mans Sarthe Basket 93 \u2013 ASVEL Lyon-Villeurbanne 83 (last 10/10 games, home edge included); 91% by the stats, 87% with the price; Flashscore home/away form 90%",
+"ts": 1794765600.0,
+"eid": "sr:match:74295744",
+"mid": "223",
+"spec": "hcp=10.5",
+"oid": "1714",
+"k": "74295744|223|hcp=10.5|1714"
+}
+]
+}
+]
+},
+{
+"when": "Sun 15 Nov 01:46",
 "at": 1794703564,
 "req": {
 "u": "elizabethbieni-b8lo",
