@@ -1,5 +1,126 @@
 [
 {
+"when": "Sun 15 Nov 10:00",
+"at": 1794733259,
+"req": {
+"type": "rollover",
+"legs": 7,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6421 if it wins"
+],
+"tickets": [
+{
+"code": "GHKZRH",
+"odds": 4.21,
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "AD Union Adarve vs Las Rozas CF",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.29,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 95%; season: 3.5 goals a game",
+"ts": 1794740400.0,
+"eid": "sr:match:73581350",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581350|18|total=1.5|12"
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Over 1.5",
+"odds": 1.27,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); Flashscore home/away 95%; FotMob: 2.9 goals a game, season: 2.9 goals a game",
+"ts": 1794745800.0,
+"eid": "sr:match:72466630",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72466630|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against; season: 4.0 goals a game",
+"ts": 1794758400.0,
+"eid": "sr:match:73581360",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73581360|18|total=1.5|12"
+},
+{
+"t": "Sun 19:00",
+"game": "Leones Negros UDEG vs Atletico Morelia",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 80%",
+"ts": 1794765600.0,
+"eid": "sr:match:76629022",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76629022|90|total=0.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Croatia vs Czechia",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 83%",
+"ts": 1794771900.0,
+"eid": "sr:match:68931758",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931758|90|total=0.5|12"
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"lg": "International - UEFA Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 80%",
+"ts": 1794771900.0,
+"eid": "sr:match:68931760",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "68931760|90|total=0.5|12"
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 88%, Flashscore home/away 95%; season: 2.3 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76732862|18|total=3.5|13"
+}
+],
+"chance": 0.1687
+}
+]
+},
+{
 "when": "Sun 15 Nov 09:02",
 "at": 1794729757,
 "req": {
@@ -5507,90 +5628,6 @@
 "spec": "",
 "oid": "9",
 "k": "72516774|10||9"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 12:10",
-"at": 1794568259,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwevllclhhtd"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 4 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "SX85RE",
-"odds": 1.39,
-"legs": [
-{
-"t": "Fri 10:00",
-"game": "FC Bejaia vs Aseac",
-"lg": "Algeria - Championnat National Division 1, Women",
-"pick": "Aseac or draw",
-"odds": 1.03,
-"why": "LIVE 1-1 84': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794560400.0,
-"eid": "sr:match:76679354",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76679354|10||11"
-},
-{
-"t": "Fri 11:00",
-"game": "Orlando Pirates B FC vs Mabopane Jm",
-"lg": "South Africa - SAFA Second Division",
-"pick": "Orlando Pirates B FC to win",
-"odds": 1.03,
-"why": "LIVE 3-1 53': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794564000.0,
-"eid": "sr:match:75534500",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75534500|1||1"
-},
-{
-"t": "Fri 11:00",
-"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
-"lg": "Ukraine - Persha Liga",
-"pick": "FC Kolos Kovalivka 2 Under 1.5",
-"odds": 1.05,
-"why": "LIVE 1-0 54': FC Prykarpattya Ivano-Frankivsk expected 0.6 and FC Kolos Kovalivka 2 0.5 more goals (last 10 + season); 1-0 at 54' \u2013 90% chance",
-"ts": 1794564000.0,
-"eid": "sr:match:72550328",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "72550328|20|total=1.5|13"
-},
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"lg": "Romania - Liga 3",
-"pick": "Over 1.5",
-"odds": 1.25,
-"why": "LIVE 0-0 10': Stinta Poli Timisoara 2 expected 1.6 and ACS Progresul Pecica 1.7 more goals (last 10 + season); 0-0 at 10' \u2013 81% chance; Flashscore home/away form 85%, season: 3.8 goals a game",
-"ts": 1794567600.0,
-"eid": "sr:match:74089494",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74089494|18|total=1.5|12"
 }
 ]
 }
