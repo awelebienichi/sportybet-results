@@ -4656,7 +4656,10 @@
 "game": "Universidad Catolica vs Universidad de Chile",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.16,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 14:00",
@@ -6802,7 +6805,10 @@
 "game": "Universidad Catolica vs Universidad de Chile",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1794772800.0
+"ts": 1794772800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
