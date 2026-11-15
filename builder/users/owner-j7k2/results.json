@@ -341,7 +341,10 @@
 "game": "Slovan Bratislava B vs OFK Dynamo Malzenice",
 "pick": "Under 4.5",
 "odds": 1.04,
-"ts": 1794735000.0
+"ts": 1794735000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 10:30",
@@ -403,7 +406,7 @@
 "when": "Sun 15 Nov 10:45",
 "kind": "live football + basketball (5 \u26bd + 1 \ud83c\udfc0)",
 "odds": 1.79,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 09:00",
@@ -460,7 +463,10 @@
 "game": "Dac Dunajska Streda B vs AS Trencin B",
 "pick": "Dac Dunajska Streda B or AS Trencin B",
 "odds": 1.03,
-"ts": 1794735000.0
+"ts": 1794735000.0,
+"r": "W",
+"sc": "4-2",
+"ht": ""
 }
 ]
 },
