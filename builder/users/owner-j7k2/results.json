@@ -8549,7 +8549,7 @@
 "when": "Sun 15 Nov 14:00",
 "kind": "basketball \u2013 total points, Unders",
 "odds": 80.61,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -8596,7 +8596,10 @@
 "game": "BC Aris Thessaloniki vs BC Olympiakos Piraeus",
 "pick": "Under 175.5 total points",
 "odds": 1.23,
-"ts": 1794756600.0
+"ts": 1794756600.0,
+"r": "L",
+"sc": "100-78",
+"ht": "23-23"
 },
 {
 "t": "Sun 17:00",
