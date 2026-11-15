@@ -1,5 +1,180 @@
 [
 {
+"when": "Sun 15 Nov 16:03",
+"at": 1794755029,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"eh"
+],
+"rid": "mwhysrgvbroe"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 10 legs win: about 15%."
+],
+"tickets": [
+{
+"code": "N1MPYL",
+"odds": 4.14,
+"legs": [
+{
+"t": "Sun 17:30",
+"game": "Barletta Calcio vs Altamura Societa' Sportiva SRL",
+"lg": "Italy - Serie C, Group C",
+"pick": "Handicap 0:2 \u2013 Altamura Societa' Sportiva SRL",
+"odds": 1.26,
+"why": "stats rate 93% from both teams' last 10 and 4 meetings",
+"ts": 1794760200.0,
+"eid": "sr:match:73294826",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "73294826|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 18:30",
+"game": "Club Deportivo Eldense vs CE Sabadell FC",
+"lg": "Spain - LaLiga 2",
+"pick": "Handicap 0:2 \u2013 CE Sabadell FC",
+"odds": 1.15,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings",
+"ts": 1794763800.0,
+"eid": "sr:match:72477588",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "72477588|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 19:00",
+"game": "Leixoes SC vs GD Chaves",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "Handicap 2:0 \u2013 Leixoes SC",
+"odds": 1.06,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings",
+"ts": 1794765600.0,
+"eid": "sr:match:72531670",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "72531670|14|hcp=2:0|1711"
+},
+{
+"t": "Sun 19:30",
+"game": "ZKS Stal Stalowa Wola vs Olimpia Grudziadz",
+"lg": "Poland - II Liga",
+"pick": "Handicap 2:0 \u2013 ZKS Stal Stalowa Wola",
+"odds": 1.16,
+"why": "stats rate 89% from both teams' last 10 and 7 meetings",
+"ts": 1794767400.0,
+"eid": "sr:match:72398816",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "72398816|14|hcp=2:0|1711"
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"lg": "Uruguay - Primera Division",
+"pick": "Handicap 0:2 \u2013 Liverpool Montevideo",
+"odds": 1.07,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings",
+"ts": 1794771000.0,
+"eid": "sr:match:76455622",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76455622|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 21:00",
+"game": "Racing United FC vs Tru-Juice FC",
+"lg": "Jamaica - Premier League",
+"pick": "Handicap 0:2 \u2013 Tru-Juice FC",
+"odds": 1.19,
+"why": "stats rate 89% from both teams' last 10",
+"ts": 1794772800.0,
+"eid": "sr:match:74695532",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "74695532|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 22:00",
+"game": "Deportes Magallanes vs CD Antofagasta",
+"lg": "Chile - Primera B",
+"pick": "Handicap 0:2 \u2013 CD Antofagasta",
+"odds": 1.14,
+"why": "stats rate 93% from both teams' last 10 and 5 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422376",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76422376|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"lg": "Chile - Primera B",
+"pick": "Handicap 0:2 \u2013 Union Espanola",
+"odds": 1.14,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422300",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "76422300|14|hcp=0:2|1713"
+},
+{
+"t": "Sun 22:00",
+"game": "CD Santa Cruz vs CSD Rangers",
+"lg": "Chile - Primera B",
+"pick": "Handicap 2:0 \u2013 CD Santa Cruz",
+"odds": 1.19,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422232",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "76422232|14|hcp=2:0|1711"
+},
+{
+"t": "Sun 22:30",
+"game": "CA Nacional Potosi vs Real Potosi",
+"lg": "Bolivia - Copa Bolivia",
+"pick": "Handicap 2:0 \u2013 CA Nacional Potosi",
+"odds": 1.18,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings",
+"ts": 1794778200.0,
+"eid": "sr:match:76485250",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "76485250|14|hcp=2:0|1711"
+}
+],
+"chance": 0.1483
+}
+]
+},
+{
 "when": "Sun 15 Nov 15:59",
 "at": 1794754764,
 "req": {
@@ -5460,117 +5635,6 @@
 "spec": "hcp=0:3",
 "oid": "1713",
 "k": "68932814|14|hcp=0:3|1713"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 20:55",
-"at": 1794599707,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwfebilp2fp8"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "TJ1QLU",
-"odds": 1.34,
-"legs": [
-{
-"t": "Fri 19:30",
-"game": "FC Tempo Prague B vs FC Predni Kopanina",
-"lg": "Czechia - Krajsky prebor",
-"pick": "FC Tempo Prague B or FC Predni Kopanina",
-"odds": 1.03,
-"why": "LIVE 2-0 62': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794594600.0,
-"eid": "sr:match:76642054",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76642054|10||10"
-},
-{
-"t": "Fri 20:00",
-"game": "Mali vs Rwanda",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Rwanda",
-"odds": 1.09,
-"why": "LIVE 1-1 45': Mali expected 0.5 and Rwanda 0.6 more goals (last 10); 1-1 at 45' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 75% of 4 meetings",
-"ts": 1794596400.0,
-"eid": "sr:match:75802306",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802306|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 20:00",
-"game": "Deportivo Lara vs Zamora FC Barinas II",
-"lg": "Venezuela - Segunda Division",
-"pick": "Deportivo Lara or draw",
-"odds": 1.03,
-"why": "LIVE 1-0 45': Deportivo Lara expected 1.0 and Zamora FC Barinas II 0.7 more goals (last 10 + season); 1-0 at 45' \u2013 91% chance; Flashscore home/away form 70%",
-"ts": 1794596400.0,
-"eid": "sr:match:76676542",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76676542|10||9"
-},
-{
-"t": "Fri 20:30",
-"game": "Montevideo City Torque vs Racing Club Montevideo",
-"lg": "Uruguay - Primera Division",
-"pick": "Montevideo City Torque or Racing Club Montevideo",
-"odds": 1.03,
-"why": "LIVE 2-0 24': Montevideo City Torque expected 1.2 and Racing Club Montevideo 1.0 more goals (last 10 + season); 2-0 at 24' \u2013 92% chance",
-"ts": 1794598200.0,
-"eid": "sr:match:76455614",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "76455614|10||10"
-},
-{
-"t": "Fri 20:45",
-"game": "Andorra vs Gibraltar",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 0:3 \u2013 Gibraltar",
-"odds": 1.07,
-"why": "LIVE 0-0 8': Andorra expected 0.7 and Gibraltar 1.3 more goals (last 10); 0-0 at 8' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 4 meetings",
-"ts": 1794599100.0,
-"eid": "sr:match:68932814",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "68932814|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 20:45",
-"game": "Netherlands vs Greece",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 0:5 \u2013 Greece",
-"odds": 1.05,
-"why": "LIVE 1-0 7': Netherlands expected 1.5 and Greece 1.2 more goals (last 10); 1-0 at 7' \u2013 96% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
-"ts": 1794599100.0,
-"eid": "sr:match:68931584",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "68931584|14|hcp=0:5|1713"
 }
 ]
 }
