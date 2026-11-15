@@ -268,7 +268,7 @@
 "when": "Sun 15 Nov 08:59",
 "kind": "your tracker's best markets",
 "odds": 103.24,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 11:00",
@@ -299,7 +299,10 @@
 "game": "Real Sociedad San Sebastian vs Athletic Bilbao",
 "pick": "1st half double chance Real Sociedad San Sebastian or draw",
 "odds": 1.23,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Sun 13:00",
@@ -481,7 +484,7 @@
 "when": "Sun 15 Nov 08:01",
 "kind": "your tracker's best markets",
 "odds": 38.72,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 09:00",
@@ -522,7 +525,10 @@
 "game": "Real Sociedad San Sebastian vs Athletic Bilbao",
 "pick": "1st half double chance Real Sociedad San Sebastian or draw",
 "odds": 1.23,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Sun 13:00",
