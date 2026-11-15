@@ -2,6 +2,51 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "VKU2QR",
+"at": 1794747660,
+"when": "Sun 15 Nov 14:01",
+"kind": "live \u2013 favourite holding a lead",
+"odds": 1.32,
+"status": "open",
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Csepel SC vs III Keruleti Tve",
+"pick": "Csepel SC or draw",
+"odds": 1.03,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "SC Sopron vs Szombathelyi Mav Haladas VSE",
+"pick": "Szombathelyi Mav Haladas VSE or draw",
+"odds": 1.04,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Skara FC vs Eskilsminne IF",
+"pick": "Skara FC or draw",
+"odds": 1.15,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:30",
+"game": "FK Buducnost Banovici vs NK TOSK Tesanj",
+"pick": "NK TOSK Tesanj or draw",
+"odds": 1.03,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"pick": "FC Fratria Varna or draw",
+"odds": 1.04,
+"ts": 1794745800.0
+}
+]
+},
+{
 "code": "W92P2S",
 "at": 1794747627,
 "when": "Sun 15 Nov 14:00",
@@ -458,7 +503,10 @@
 "game": "CD Extremadura vs Pontevedra CF",
 "pick": "CD Extremadura Under 3.5",
 "odds": 1.04,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Sun 12:00",
@@ -1018,7 +1066,10 @@
 "game": "Atletico Onubense vs Chiclana CF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.33,
-"ts": 1794740400.0
+"ts": 1794740400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 13:00",
