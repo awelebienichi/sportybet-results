@@ -518,7 +518,7 @@
 "odds": 1.09,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-0",
 "ht": "1-0"
 },
 {
@@ -587,7 +587,7 @@
 "odds": 1.09,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-0",
 "ht": "1-0"
 },
 {
@@ -746,7 +746,7 @@
 "odds": 1.09,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-0",
 "ht": "1-0"
 },
 {
@@ -4832,7 +4832,7 @@
 "odds": 1.27,
 "ts": 1794758400.0,
 "r": "W",
-"sc": "3-2",
+"sc": "3-3",
 "ht": ""
 },
 {
@@ -6813,7 +6813,10 @@
 "game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -6899,7 +6902,10 @@
 "game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -7419,7 +7425,10 @@
 "game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -7621,7 +7630,10 @@
 "game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -7808,7 +7820,10 @@
 "game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1794751200.0
+"ts": 1794751200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -9158,7 +9173,7 @@
 "odds": 1.42,
 "ts": 1794756600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-0",
 "ht": "1-0"
 },
 {
