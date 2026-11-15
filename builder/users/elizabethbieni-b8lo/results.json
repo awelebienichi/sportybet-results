@@ -37,14 +37,17 @@
 "when": "Sun 15 Nov 01:46",
 "kind": "basketball \u2013 best market per game",
 "odds": 3.2,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 02:00",
 "game": "Minnesota Timberwolves vs Chicago Bulls",
 "pick": "Minnesota Timberwolves to win (incl. OT)",
 "odds": 1.1,
-"ts": 1794704400.0
+"ts": 1794704400.0,
+"r": "L",
+"sc": "106-117",
+"ht": "17-29"
 },
 {
 "t": "Sun 06:05",
