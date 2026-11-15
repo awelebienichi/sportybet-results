@@ -1,5 +1,198 @@
 [
 {
+"when": "Sun 15 Nov 17:15",
+"at": 1794759317,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "markets",
+"markets": [
+"h1dc",
+"h1u25",
+"u35",
+"h1ggn"
+],
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "19:00",
+"rid": "mwi1crblyz6g"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 11 games passed the checks (Sun 15, 00:00\u201319:00, 32 games on SportyBet), so this ticket has 11 legs instead of 15. Tick more days or use 'Relaxed' for more.",
+"Chance all 11 legs win: about 8% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "KW0C1M",
+"odds": 7.37,
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794762000.0,
+"eid": "sr:match:68932522",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932522|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:76833142",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76833142|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:74100784",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74100784|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "US Yacoub Mansour vs US Musulmane Oujda",
+"lg": "Morocco - Botola Pro D2",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "stats rate 85% from both teams' last 10; season: 2.1 goals a game",
+"ts": 1794762000.0,
+"eid": "sr:match:76675294",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76675294|18|total=3.5|13"
+},
+{
+"t": "Sun 18:15",
+"game": "Valencia CF vs Granada CF",
+"lg": "Spain - Primera Division Women",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"why": "stats rate 90% from both teams' last 10 and 6 meetings",
+"ts": 1794762900.0,
+"eid": "sr:match:72491454",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72491454|75||76"
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"lg": "Spain - LaLiga 2",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794763800.0,
+"eid": "sr:match:72477586",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72477586|75||76"
+},
+{
+"t": "Sun 18:30",
+"game": "Club Deportivo Eldense vs CE Sabadell FC",
+"lg": "Spain - LaLiga 2",
+"pick": "1st half double chance CE Sabadell FC or draw",
+"odds": 1.32,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings",
+"ts": 1794763800.0,
+"eid": "sr:match:72477588",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72477588|63||11"
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794765600.0,
+"eid": "sr:match:76322272",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322272|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.2 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:76413246",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76413246|18|total=3.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Ceara SC CE vs Vila Real FC CE",
+"lg": "Brazil - Taca Fares Lopes",
+"pick": "Under 3.5",
+"odds": 1.3,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 78%",
+"ts": 1794765600.0,
+"eid": "sr:match:74835680",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74835680|18|total=3.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Leones Negros UDEG vs Atletico Morelia",
+"lg": "Mexico - Liga de Expansion MX",
+"pick": "Under 3.5",
+"odds": 1.42,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%",
+"ts": 1794765600.0,
+"eid": "sr:match:76629022",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76629022|18|total=3.5|13"
+}
+],
+"chance": 0.0794
+}
+]
+},
+{
 "when": "Sun 15 Nov 17:13",
 "at": 1794759201,
 "req": {
