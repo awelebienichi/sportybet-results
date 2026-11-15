@@ -2275,14 +2275,20 @@
 "game": "Balma SC U19 vs Cavigal Nice SF U19",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1794749400.0
+"ts": 1794749400.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
 "game": "RC Lens vs FC Rouen U19",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1794749400.0
+"ts": 1794749400.0,
+"r": "W",
+"sc": "6-2",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
