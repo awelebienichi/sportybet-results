@@ -213,7 +213,10 @@
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "Deportivo San Pedro to score 3+ in a row \u2013 No",
 "odds": 1.14,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -331,7 +334,10 @@
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "Deportivo San Pedro to score 3+ in a row \u2013 No",
 "odds": 1.14,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -2964,7 +2970,10 @@
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "Under 3.5",
 "odds": 1.28,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
@@ -3088,7 +3097,10 @@
 "game": "Deportivo San Pedro vs CD Marquense",
 "pick": "Under 3.5",
 "odds": 1.28,
-"ts": 1794776400.0
+"ts": 1794776400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 }
 ]
 },
