@@ -2,6 +2,289 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GN2D91",
+"at": 1794740344,
+"when": "Sun 15 Nov 11:59",
+"kind": "rebuild of XHA6UY",
+"odds": 2986.91,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:30",
+"game": "Stade Payerne vs FC Coffrane",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Cyprus vs Montenegro",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Latvia vs Armenia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Scotland vs USA",
+"pick": "Scotland or GG",
+"odds": 1.21,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Mamelodi Sundowns vs AS Far Rabat W",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "1. FC Nuremberg vs 1 FC Cologne",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs Eintracht Frankfurt",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Mondercange vs SC Bettembourg",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Enyimba vs Ikorodu City",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Pogon Szczecin vs GKS Katowice",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Backa Topola vs FK Jedinstvo UB",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "CD La Almunia vs Andorra CF",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:15",
+"game": "Granada vs Las Palmas",
+"pick": "Over 1.5",
+"odds": 1.29,
+"ts": 1794755700.0
+},
+{
+"t": "Sun 16:30",
+"game": "CDA Navalcarnero vs Getafe CF B",
+"pick": "Goal bounds 2-5+",
+"odds": 1.27,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Pontevedra CF B vs CA Arteixo",
+"pick": "Over 1.5",
+"odds": 1.28,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Olimpico Totana vs FC Cartagena B",
+"pick": "Goal bounds 2-5+",
+"odds": 1.28,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:45",
+"game": "AZ Alkmaar vs Ajax Amsterdam",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "Terrassa FC vs CD Tudelano",
+"pick": "Goal bounds 2-5+",
+"odds": 1.28,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "UB Conquense vs CD Guadalajara",
+"pick": "Goal bounds 2-5+",
+"odds": 1.34,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Oud-Heverlee Leuven W vs KRC Genk",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Pisek vs SK Benesov",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "UD Somozas vs CD Estradense",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Conil CF vs Xerez Deportivo FC",
+"pick": "Over 1.5",
+"odds": 1.34,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Club Haro Deportivo vs CD Berceo",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Arsenal WFC vs London City Lionesses",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Finland vs San Marino",
+"pick": "Over 1.5",
+"odds": 1.04,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "CD Revilla vs CD Cayon",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 20:00",
+"game": "Always Ready vs Independiente Petrolero",
+"pick": "1st half double chance Always Ready or draw",
+"odds": 1.09,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 20:45",
+"game": "Belgium vs Italy",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "France vs Turkiye",
+"pick": "1st half double chance France or draw",
+"odds": 1.08,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 20:45",
+"game": "Spain vs England",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794771900.0
+},
+{
+"t": "Sun 21:00",
+"game": "Racing United FC vs Tru-Juice FC",
+"pick": "1st half double chance Tru-Juice FC or draw",
+"odds": 1.4,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Gotham FC vs Kansas City Current",
+"pick": "Goal bounds 2-5+",
+"odds": 1.32,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:15",
+"game": "Juan Pablo II College vs Deportivo Garcilaso",
+"pick": "1st half double chance Juan Pablo II College or draw",
+"odds": 1.28,
+"ts": 1794773700.0
+},
+{
+"t": "Sun 22:30",
+"game": "CA Nacional Potosi vs Real Potosi",
+"pick": "CA Nacional Potosi or GG",
+"odds": 1.15,
+"ts": 1794778200.0
+}
+]
+},
+{
 "code": "KGJJT9",
 "at": 1794739422,
 "when": "Sun 15 Nov 11:43",
@@ -160,7 +443,7 @@
 "odds": 1.5,
 "ts": 1794733200.0,
 "r": "W",
-"sc": "83-77",
+"sc": "84-79",
 "ht": "17-25"
 },
 {
