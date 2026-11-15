@@ -786,6 +786,8 @@ def pick_season(G, LX, kind, want):
 
 def finish(T, kind, names, note, req):
     """book every ticket, reload and check it, report"""
+    if req.get("_legs_only"):                                                    # combined football + basketball ticket: hand the legs back, book later
+        return dict(ok=bool(T and T[0]), legs=(T[0] if T else []), note=note, kind=names.get(kind, kind))
     res = []
     for t in T:
         t.sort(key=lambda p: p["ts"])
@@ -802,6 +804,28 @@ def finish(T, kind, names, note, req):
     if kind == "u25": note.append("Under 2.5 has been the weakest market in your tracker.")
     return dict(ok=bool(res), kind=names[kind], req=req, tickets=res, note=note, first=min((p["ts"] for t in T for p in t), default=None))
 
+# ---------- football + basketball on one ticket ----------
+def fbmix(req):
+    """runs the football builder and the basketball builder with the user's choices (each with all its own checks), then books
+    every leg on one code"""
+    import bball
+    base = {k: req[k] for k in ("days", "strict", "from", "to") if k in req}
+    fb = dict(base, type=req.get("fb_type") or "mix", legs=max(0, min(int(req.get("fb_legs") or 0), 40)), tickets=1, _legs_only=True)
+    bb = dict(base, type="bball", kind=req.get("bb_kind") or "total", legs=max(0, min(int(req.get("bb_legs") or 0), 40)), _legs_only=True)
+    if fb["type"].startswith("mk_"): fb["markets"] = [fb["type"][3:]]; fb["type"] = "markets"
+    if not fb["legs"] and not bb["legs"]: return dict(ok=False, msg="Choose how many football and/or basketball legs you want.")
+    F = main(fb) if fb["legs"] else dict(ok=True, legs=[], note=[])
+    ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
+    B = bball.build(bb) if bb["legs"] else dict(ok=True, legs=[], note=[])
+    note = []
+    fl, bl = (F.get("legs") or [])[:fb["legs"]], (B.get("legs") or [])[:bb["legs"]]
+    if fb["legs"] and len(fl) < fb["legs"]: note.append(f"Football: {len(fl)} of {fb['legs']} legs passed the checks" + (f" ({F.get('msg')})" if F.get("msg") else "") + ".")
+    if bb["legs"] and len(bl) < bb["legs"]: note.append(f"Basketball: {len(bl)} of {bb['legs']} legs passed the checks" + (f" ({B.get('msg')})" if B.get("msg") else "") + ".")
+    legs = fl + bl
+    if not legs: return dict(ok=False, msg=" ".join(note) or "No legs passed the checks.")
+    for l in legs: l.setdefault("ts", time.time() + 3600)
+    return finish([legs], "fbmix", {"fbmix": f"football + basketball ({len(fl)} ⚽ + {len(bl)} 🏀)"}, note, req)
+
 # ---------- main ----------
 def main(req):
     ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
@@ -813,6 +837,7 @@ def main(req):
         import bball; return bball.build(req)
     if req.get("type") == "bblive":
         import bblive; return bblive.build(req)
+    if req.get("type") == "fbmix": return fbmix(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")
