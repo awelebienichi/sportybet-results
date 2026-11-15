@@ -1,5 +1,219 @@
 [
 {
+"when": "Sun 15 Nov 15:44",
+"at": 1794753847,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "best",
+"legs": 13,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwhy3bobmfgi"
+},
+"ok": true,
+"kind": "your tracker's best markets",
+"note": [
+"Chance all 13 legs win: about 11% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "U8JJ9U",
+"odds": 4.86,
+"legs": [
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"lg": "Netherlands - Eredivisie, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 4.1 goals a game",
+"ts": 1794757500.0,
+"eid": "sr:match:72467522",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72467522|450001||25"
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"lg": "Spain Amateur - Tercera Federacion, Group 7",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794758400.0,
+"eid": "sr:match:73581360",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73581360|450001||25"
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"lg": "Spain Amateur - Tercera Federacion, Group 4",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794758400.0,
+"eid": "sr:match:73557182",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "73557182|450001||25"
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"lg": "Italy - Serie C, Group B",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794760200.0,
+"eid": "sr:match:73294090",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73294090|63||9"
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794760200.0,
+"eid": "sr:match:76675986",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76675986|450001||25"
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half double chance Suriname or draw",
+"odds": 1.1,
+"why": "stats rate 88% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:76833142",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76833142|63||9"
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794762900.0,
+"eid": "sr:match:76488586",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76488586|450001||25"
+},
+{
+"t": "Sun 18:35",
+"game": "Cambrian United vs Bangor 1876 FC",
+"lg": "Wales - FAW Welsh Cup",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1794764100.0,
+"eid": "sr:match:75827936",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75827936|450001||25"
+},
+{
+"t": "Sun 19:00",
+"game": "Friburguense AC RJ vs SE Belford Roxo RJ",
+"lg": "Brazil - Carioca, Serie B2",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"why": "stats rate 93% from both teams' last 10 and 3 meetings; Flashscore home/away form 60%",
+"ts": 1794765600.0,
+"eid": "sr:match:76367060",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76367060|450001||25"
+},
+{
+"t": "Sun 21:00",
+"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
+"lg": "Panama - Liga Prom",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings",
+"ts": 1794772800.0,
+"eid": "sr:match:76708748",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76708748|450001||25"
+},
+{
+"t": "Sun 21:00",
+"game": "Humble Lions FC vs Arnett Gardens FC",
+"lg": "Jamaica - Premier League",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
+"ts": 1794772800.0,
+"eid": "sr:match:74695530",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74695530|450001||25"
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "1st half double chance Central SC PE or draw",
+"odds": 1.1,
+"why": "stats rate 85% from both teams' last 10",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76732862|63||9"
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"lg": "Chile - Primera B",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794776400.0,
+"eid": "sr:match:76422378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76422378|63||9"
+}
+],
+"chance": 0.1091
+}
+]
+},
+{
 "when": "Sun 15 Nov 15:42",
 "at": 1794753721,
 "req": {
@@ -19507,177 +19721,6 @@
 "spec": "total=185.5",
 "oid": "13",
 "k": "75636736|225|total=185.5|13"
-}
-]
-}
-]
-},
-{
-"when": "Sun 15 Nov 06:52",
-"at": 1794721951,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "fbmix",
-"fb_type": "o15",
-"fb_legs": 5,
-"bb_kind": "total",
-"bb_legs": 5,
-"days": [
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwhf3jo35gwi"
-},
-"ok": true,
-"kind": "football + basketball (5 \u26bd + 5 \ud83c\udfc0)",
-"note": [],
-"tickets": [
-{
-"code": "G5YR4X",
-"odds": 5.97,
-"legs": [
-{
-"t": "Sun 08:30",
-"game": "LG Sakers vs KT Sonicboom",
-"lg": "Republic of Korea - KBL",
-"pick": "Over 156.5 total points",
-"odds": 1.21,
-"why": "expected LG Sakers 90 \u2013 KT Sonicboom 84 (last 10/10 games, home edge included, LG Sakers on 2nd game in 2 days); 84% by the stats, 81% with the price",
-"ts": 1794727800.0,
-"eid": "sr:match:73657560",
-"mid": "225",
-"spec": "total=156.5",
-"oid": "12",
-"k": "73657560|225|total=156.5|12"
-},
-{
-"t": "Sun 12:00",
-"game": "AD Union Adarve vs Las Rozas CF",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "Over 1.5",
-"odds": 1.29,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 95%, season: 3.5 goals a game",
-"ts": 1794740400.0,
-"eid": "sr:match:73581350",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73581350|18|total=1.5|12"
-},
-{
-"t": "Sun 14:00",
-"game": "MK Dons Ladies vs Chatham Town Women",
-"lg": "England Amateur - FA Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.11,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 90%",
-"ts": 1794747600.0,
-"eid": "sr:match:76088644",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76088644|18|total=1.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "Boldmere St Michaels Women vs Stockport County Lfc",
-"lg": "England Amateur - FA Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "Over 1.5 in 100% / 89% of the teams' last 10, league avg 5.1 goals; Flashscore home/away form 85%",
-"ts": 1794751200.0,
-"eid": "sr:match:76088626",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76088626|18|total=1.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "Skyliners Frankfurt vs TBB Trier",
-"lg": "Germany - BBL",
-"pick": "Under 194.5 total points",
-"odds": 1.25,
-"why": "expected Skyliners Frankfurt 82 \u2013 TBB Trier 89 (last 10/10 games, home edge included); 91% by the stats, 83% with the price; Flashscore home/away form 80%",
-"ts": 1794751200.0,
-"eid": "sr:match:73451870",
-"mid": "225",
-"spec": "total=194.5",
-"oid": "13",
-"k": "73451870|225|total=194.5|13"
-},
-{
-"t": "Sun 16:30",
-"game": "Bayern Munich vs Mitteldeutscher BC",
-"lg": "Germany - BBL",
-"pick": "Over 155.5 total points",
-"odds": 1.21,
-"why": "expected Bayern Munich 87 \u2013 Mitteldeutscher BC 88 (last 10/10 games, home edge included); 86% by the stats, 82% with the price",
-"ts": 1794756600.0,
-"eid": "sr:match:73451874",
-"mid": "225",
-"spec": "total=155.5",
-"oid": "12",
-"k": "73451874|225|total=155.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "UD Sanse vs Rayo Ciudad Alcobendas",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.3 goals; season: 4.0 goals a game",
-"ts": 1794758400.0,
-"eid": "sr:match:73581360",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73581360|18|total=1.5|12"
-},
-{
-"t": "Sun 17:30",
-"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
-"lg": "Poland - PLK",
-"pick": "Under 182.5 total points",
-"odds": 1.22,
-"why": "expected Stal Ostrow Wielkopolski 81 \u2013 Dziki Warszawa 83 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 90%",
-"ts": 1794760200.0,
-"eid": "sr:match:72677284",
-"mid": "225",
-"spec": "total=182.5",
-"oid": "13",
-"k": "72677284|225|total=182.5|13"
-},
-{
-"t": "Sun 18:10",
-"game": "BC Rytas Vilnius vs BC Jonava",
-"lg": "Lithuania - LKL",
-"pick": "Under 185.5 total points",
-"odds": 1.21,
-"why": "expected BC Rytas Vilnius 85 \u2013 BC Jonava 78 (last 10/10 games, home edge included); 89% by the stats, 84% with the price; Flashscore home/away form 85%",
-"ts": 1794762600.0,
-"eid": "sr:match:75636736",
-"mid": "225",
-"spec": "total=185.5",
-"oid": "13",
-"k": "75636736|225|total=185.5|13"
-},
-{
-"t": "Sun 21:00",
-"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
-"lg": "Panama - Liga Prom",
-"pick": "Over 1.5",
-"odds": 1.17,
-"why": "Over 1.5 in 100% / 90% of the teams' last 10, 100% of 5 meetings, league avg 4.2 goals; season: 4.2 goals a game",
-"ts": 1794772800.0,
-"eid": "sr:match:76708748",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76708748|18|total=1.5|12"
 }
 ]
 }
