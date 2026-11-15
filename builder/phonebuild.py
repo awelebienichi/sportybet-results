@@ -228,6 +228,10 @@ def pick_h1o05(G, LX, half=1):
     out = []
     for (g, hr, ar, nh, na), odds in zip(C, PR):
         if not odds: continue
+        # 15 Nov review of 334 settled legs: 1st-half Over 0.5 came true 65% when the odds said 76% – the stats alone were too
+        # optimistic, so the stats (the weaker side's rate) and the bookmaker's price must agree
+        pb = (min(hr, ar) + 1 / (odds * 1.06)) / 2
+        if pb < .80 - ST["L"] / 2: continue
         out.append(dict(eid=g["eid"], mid={1: "68", 2: "90"}[half], spec="total=0.5", oid="12", pick=f"{'1st' if half == 1 else '2nd'} half Over 0.5", odds=odds, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
                         s=min(hr, ar) * .6 + (hr + ar) / 2 * .4 - odds * .02,
                         why=f"goal in the {'1st' if half == 1 else '2nd'} half in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
@@ -378,6 +382,8 @@ def pick_multi(G, LX, kind, want):
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
             if not od or od < 1.06 or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R.get(k, 0), od): continue
+            pb = (R[k] + 1 / (od * 1.06)) / 2                                     # stats and the bookmaker's price must agree (15 Nov review)
+            if pb < bar(k) - .06: continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = RB[k]
@@ -708,6 +714,8 @@ def pick_markets(G, LX, groups, want):
         for k in keys:
             mid, spec, oid, lab = RB[k]; od = mk.get((mid, spec, oid))
             if k in against or not od or od < 1.06 or R.get(k, 0) < bar(k) or not fits(k, prof) or not side_ok(k, g) or not safe_enough(k, g, LX, R.get(k, 0), od): continue
+            pb = (R[k] + 1 / (od * 1.06)) / 2                                     # stats and the bookmaker's price must agree (15 Nov review)
+            if pb < bar(k) - .06: continue
             opts.append((value(k, R[k], od), R[k], k, od))
         if not opts: continue
         sc, r, k, od = max(opts); mid, spec, oid, lab = RB[k]
@@ -802,6 +810,13 @@ def finish(T, kind, names, note, req):
                                                                         ts=p["ts"], eid=p["eid"], mid=p["mid"], spec=p["spec"], oid=p["oid"],
                                                                         k=f"{p['eid'].split(':')[-1]}|{p['mid']}|{p['spec']}|{p['oid']}") for p in t]))
     if kind == "u25": note.append("Under 2.5 has been the weakest market in your tracker.")
+    for r_ in res:                                                              # the honest chance the whole ticket wins (15 Nov review: 11+ legs won 0 of 29)
+        ch = 1.0
+        for l in r_["legs"]: ch *= min(.97, 1 / (l["odds"] * 1.05))
+        r_["chance"] = round(ch, 4)
+    if res:
+        c = res[0]["chance"]
+        note.append(f"Chance all {len(res[0]['legs'])} legs win: about {c:.0%}" + (" – in your results, tickets of 11+ legs have won 0 of 29; 1–3 legs won 64%." if len(res[0]["legs"]) >= 11 else "."))
     return dict(ok=bool(res), kind=names[kind], req=req, tickets=res, note=note, first=min((p["ts"] for t in T for p in t), default=None))
 
 # ---------- football + basketball on one ticket ----------
