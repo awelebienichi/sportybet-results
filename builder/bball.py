@@ -17,9 +17,10 @@ LEVELS = {"strict": (.75, .82), "normal": (.65, .76), "relaxed": (.60, .70)}  # 
 # measured on 13 Nov (103 games with data): the combined bar decides how many games get a leg – 82%: ~5% of games (~85% each come true),
 # 76%: ~a third (~80% each), 70%: ~half (~77% each). The stats alone rarely reach 80% on a single game: the bookmaker's lines are sharper.
 Phi = lambda z: 0.5 * (1 + math.erf(z / math.sqrt(2)))
-KINDS = {"mix": None, "win": ("219",), "hcp": ("223",), "total": ("225",), "team": ("227", "228"), "quarter": ("236", "756", "757")}
+KINDS = {"mix": None, "win": ("219",), "hcp": ("223",), "total": ("225",), "total_over": ("225",), "total_under": ("225",), "team": ("227", "228"), "quarter": ("236", "756", "757")}
+SIDE = {"total_over": "12", "total_under": "13"}                              # Overs only / Unders only
 NAMES = {"mix": "basketball – best market per game", "win": "basketball – winners", "hcp": "basketball – handicap",
-         "total": "basketball – total points", "team": "basketball – team points", "quarter": "basketball – quarter total points"}
+         "total": "basketball – total points", "total_over": "basketball – total points, Overs", "total_under": "basketball – total points, Unders", "team": "basketball – team points", "quarter": "basketball – quarter total points"}
 _G = {"at": 0, "list": []}
 
 def games():
@@ -132,6 +133,7 @@ def build(req):
         opts = []
         for (mid, spec, oid), od in MK.get(g["eid"], {}).items():
             if mid not in ("219", "223", "225", "227", "228", "236", "756", "757") or (want and mid not in want): continue
+            if kind in SIDE and oid != SIDE[kind]: continue
             if not 1.05 <= od <= 1.75: continue
             p = chance(mid, spec, oid, mh, ma)
             if p is None or p < LV[0]: continue
