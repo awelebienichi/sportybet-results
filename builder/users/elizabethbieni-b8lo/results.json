@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 01:48",
 "kind": "live basketball",
 "odds": 1.34,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 01:00",
@@ -24,7 +24,10 @@
 "game": "New Orleans Pelicans vs Denver Nuggets",
 "pick": "New Orleans Pelicans +21.5 (handicap)",
 "odds": 1.2,
-"ts": 1794700800.0
+"ts": 1794700800.0,
+"r": "W",
+"sc": "108-116",
+"ht": "23-29"
 }
 ]
 },
