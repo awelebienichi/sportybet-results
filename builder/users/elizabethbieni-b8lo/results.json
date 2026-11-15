@@ -2,6 +2,121 @@
 "from": 1794703295,
 "tickets": [
 {
+"code": "Z0PVBP",
+"at": 1794743824,
+"when": "Sun 15 Nov 12:57",
+"kind": "your chosen markets",
+"odds": 16.84,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:00",
+"game": "Tenerife CD vs AD Ceuta",
+"pick": "2nd half Over 0.5",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:00",
+"game": "CS Sedan-Ardennes vs Bourges FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.25,
+"ts": 1794747600.0
+},
+{
+"t": "Sun 14:30",
+"game": "Delfino Pescara vs US Sambenedettese",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1794749400.0
+},
+{
+"t": "Sun 15:00",
+"game": "GKS Tychy vs Rekord Bielsko Biala",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Inter Milano vs Juventus Turin W",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "Santiago Wanderers vs Deportes Copiapo",
+"pick": "2nd half Over 0.5",
+"odds": 1.26,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:15",
+"game": "Granada vs Las Palmas",
+"pick": "2nd half Over 0.5",
+"odds": 1.24,
+"ts": 1794755700.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Penafiel vs Lusitania FC Lourosa",
+"pick": "2nd half Over 0.5",
+"odds": 1.26,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Ittihad Kalba FC vs Shabab Al Ahli Dubai",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bucaspor 1928 vs Karsiyaka",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:30",
+"game": "Eibar vs Cadiz",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Leones Negros UDEG vs Atletico Morelia",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Leixoes SC vs GD Chaves",
+"pick": "2nd half Over 0.5",
+"odds": 1.24,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794765600.0
+}
+]
+},
+{
 "code": "XHA7E0",
 "at": 1794743341,
 "when": "Sun 15 Nov 12:49",
