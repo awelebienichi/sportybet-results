@@ -1,5 +1,76 @@
 [
 {
+"when": "Sun 15 Nov 14:02",
+"at": 1794747741,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "Elizabeth Bienichi",
+"type": "live",
+"strategy": "hold",
+"legs": 10,
+"strict": "strict",
+"rid": "mwhugas3w1ez"
+},
+"ok": true,
+"kind": "live \u2013 favourite holding a lead",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 10).",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 3 legs win: about 78%."
+],
+"tickets": [
+{
+"code": "UYDWNL",
+"odds": 1.11,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Csepel SC vs III Keruleti Tve",
+"lg": "Hungary - NB III",
+"pick": "Csepel SC or draw",
+"odds": 1.03,
+"why": "LIVE 1-0 47': Csepel SC expected 0.6 and III Keruleti Tve 0.7 more goals (last 10 + season); 1-0 at 47' \u2013 89% chance; Flashscore home/away form 60%",
+"ts": 1794744000.0,
+"eid": "sr:match:72880046",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72880046|10||9"
+},
+{
+"t": "Sun 13:00",
+"game": "SC Sopron vs Szombathelyi Mav Haladas VSE",
+"lg": "Hungary - NB III",
+"pick": "Szombathelyi Mav Haladas VSE or draw",
+"odds": 1.04,
+"why": "LIVE 0-1 45': SC Sopron expected 0.8 and Szombathelyi Mav Haladas VSE 1.0 more goals (last 10 + season); 0-1 at 45' \u2013 89% chance; Flashscore home/away form 60%",
+"ts": 1794744000.0,
+"eid": "sr:match:72879364",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "72879364|10||11"
+},
+{
+"t": "Sun 13:30",
+"game": "OFC Nesebar vs FC Fratria Varna",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "FC Fratria Varna or draw",
+"odds": 1.04,
+"why": "LIVE 0-1 29': OFC Nesebar expected 0.9 and FC Fratria Varna 1.2 more goals (last 10 + season); 0-1 at 29' \u2013 89% chance; Flashscore home/away form 65%",
+"ts": 1794745800.0,
+"eid": "sr:match:72466630",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "72466630|10||11"
+}
+],
+"chance": 0.7754
+}
+]
+},
+{
 "when": "Sun 15 Nov 14:01",
 "at": 1794747660,
 "req": {
