@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "TBBF2Z",
+"at": 1794747780,
+"when": "Sun 15 Nov 14:03",
+"kind": "live \u2013 best of all",
+"odds": 1.47,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:30",
+"game": "Silva SD vs Alondras CF",
+"pick": "Alondras CF Under 2.5",
+"odds": 1.03,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 12:30",
+"game": "AD San Clemente vs CD Illescas",
+"pick": "CD Illescas Under 2.5",
+"odds": 1.04,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Bangkok FC vs Samut Songkhram City FC",
+"pick": "Under 4.5",
+"odds": 1.03,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 12:45",
+"game": "KFC Komarno B vs Spartak Myjava",
+"pick": "Spartak Myjava Under 3.5",
+"odds": 1.03,
+"ts": 1794743100.0
+},
+{
+"t": "Sun 13:00",
+"game": "Naestved BK vs FA 2000",
+"pick": "Handicap 0:3 \u2013 FA 2000",
+"odds": 1.03,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Muranga Seal vs Mathare United FC",
+"pick": "Muranga Seal Under 2.5",
+"odds": 1.05,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Altay Izmir vs Bursa Yildirim Spor",
+"pick": "Handicap 3:0 \u2013 Altay Izmir",
+"odds": 1.06,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "CD Marino vs CD Tenerife C",
+"pick": "CD Marino Under 2.5",
+"odds": 1.04,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:00",
+"game": "SC Sopron vs Szombathelyi Mav Haladas VSE",
+"pick": "Szombathelyi Mav Haladas VSE Under 3.5",
+"odds": 1.03,
+"ts": 1794744000.0
+},
+{
+"t": "Sun 13:30",
+"game": "FC Pirin Blagoevgrad vs PFC Montana 1921",
+"pick": "Handicap 4:0 \u2013 FC Pirin Blagoevgrad",
+"odds": 1.05,
+"ts": 1794745800.0
+}
+]
+},
+{
 "code": "YGYH9M",
 "at": 1794743320,
 "when": "Sun 15 Nov 12:48",
