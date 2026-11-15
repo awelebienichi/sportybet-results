@@ -623,7 +623,7 @@
 "when": "Sun 15 Nov 16:04",
 "kind": "your chosen markets",
 "odds": 14.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:30",
@@ -680,7 +680,10 @@
 "game": "AS Cittadella vs US Folgore Caratese",
 "pick": "1st half double chance AS Cittadella or draw",
 "odds": 1.1,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:30",
@@ -8774,7 +8777,10 @@
 "game": "AS Cittadella vs US Folgore Caratese",
 "pick": "1st half double chance AS Cittadella or draw",
 "odds": 1.11,
-"ts": 1794760200.0
+"ts": 1794760200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 18:00",
