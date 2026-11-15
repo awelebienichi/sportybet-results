@@ -1,5 +1,222 @@
 [
 {
+"when": "Sun 15 Nov 15:42",
+"at": 1794753721,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 13,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u35"
+],
+"rid": "mwhy0prbx8hy"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 13 legs win: about 5% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "NM7FFT",
+"odds": 11.76,
+"legs": [
+{
+"t": "Sun 17:15",
+"game": "CD BARCO vs CD Boiro",
+"lg": "Spain Amateur - Tercera Federacion, Group 1",
+"pick": "Under 3.5",
+"odds": 1.18,
+"why": "stats rate 84% from both teams' last 10 and 6 meetings; Flashscore home/away form 80%, season: 2.2 goals a game",
+"ts": 1794759300.0,
+"eid": "sr:match:73553830",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73553830|18|total=3.5|13"
+},
+{
+"t": "Sun 17:30",
+"game": "Juventus Next Gen vs Treviso FBC 1993",
+"lg": "Italy - Serie C, Group A",
+"pick": "Under 3.5",
+"odds": 1.3,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%, FotMob: 2.2 goals a game, Vitibet tip 0-1, season: 2.2 goals a game",
+"ts": 1794760200.0,
+"eid": "sr:match:73293342",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73293342|18|total=3.5|13"
+},
+{
+"t": "Sun 18:00",
+"game": "US Yacoub Mansour vs US Musulmane Oujda",
+"lg": "Morocco - Botola Pro D2",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "stats rate 85% from both teams' last 10; season: 2.1 goals a game",
+"ts": 1794762000.0,
+"eid": "sr:match:76675294",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76675294|18|total=3.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.11,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.2 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:76413246",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76413246|18|total=3.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"lg": "Argentina - Torneo Federal A",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%, season: 1.9 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:76322272",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76322272|18|total=3.5|13"
+},
+{
+"t": "Sun 19:00",
+"game": "Ceara SC CE vs Vila Real FC CE",
+"lg": "Brazil - Taca Fares Lopes",
+"pick": "Under 3.5",
+"odds": 1.3,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 78%",
+"ts": 1794765600.0,
+"eid": "sr:match:74835680",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74835680|18|total=3.5|13"
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"lg": "Uruguay - Primera Division",
+"pick": "Under 3.5",
+"odds": 1.25,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 2.0 goals a game, Vitibet tip 0-1, season: 2.2 goals a game",
+"ts": 1794771000.0,
+"eid": "sr:match:76455622",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76455622|18|total=3.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.1,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, Vitibet tip 1-0, season: 1.9 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76411704",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76411704|18|total=3.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, season: 2.3 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76732862|18|total=3.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Gimnasia de Chivilcoy vs Douglas Haig",
+"lg": "Argentina - Torneo Federal A",
+"pick": "Under 3.5",
+"odds": 1.13,
+"why": "stats rate 85% from both teams' last 10 and 7 meetings; Flashscore home/away form 85%, season: 1.7 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76322284",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76322284|18|total=3.5|13"
+},
+{
+"t": "Sun 21:50",
+"game": "Envigado FC vs Union Magdalena",
+"lg": "Colombia - Torneo DIMAYOR",
+"pick": "Under 3.5",
+"odds": 1.18,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, FotMob: 2.7 goals a game, Vitibet tip 1-1",
+"ts": 1794775800.0,
+"eid": "sr:match:76174028",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76174028|18|total=3.5|13"
+},
+{
+"t": "Sun 22:00",
+"game": "San Marcos de Arica vs San Luis de Quillota",
+"lg": "Chile - Primera B",
+"pick": "Under 3.5",
+"odds": 1.3,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.4 goals a game, Vitibet tip 1-1, season: 2.4 goals a game",
+"ts": 1794776400.0,
+"eid": "sr:match:76422380",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76422380|18|total=3.5|13"
+},
+{
+"t": "Sun 22:00",
+"game": "Deportivo San Pedro vs CD Marquense",
+"lg": "Guatemala - Liga Nacional",
+"pick": "Under 3.5",
+"odds": 1.28,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 79%, FotMob: 2.3 goals a game, season: 2.3 goals a game",
+"ts": 1794776400.0,
+"eid": "sr:match:72475090",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72475090|18|total=3.5|13"
+}
+],
+"chance": 0.0451
+}
+]
+},
+{
 "when": "Sun 15 Nov 15:39",
 "at": 1794753590,
 "req": {
@@ -19461,247 +19678,6 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "76708748|18|total=1.5|12"
-}
-]
-}
-]
-},
-{
-"when": "Sun 15 Nov 06:19",
-"at": 1794719945,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h1o05",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwhdw2aqrqok"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 15 games passed the checks (Sun 15, 545 games on SportyBet), so this ticket has 15 legs instead of 20. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "ZW2EDF",
-"odds": 70.88,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "Amarante FC vs FC Felgueiras 1932",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "1st half Over 0.5",
-"odds": 1.52,
-"why": "goal in the 1st half in 80% of Amarante FC's last 10 and 90% of FC Felgueiras 1932's last 10",
-"ts": 1794740400.0,
-"eid": "sr:match:72531664",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72531664|68|total=0.5|12"
-},
-{
-"t": "Sun 12:30",
-"game": "Novara FC vs Calcio Lecco 1912",
-"lg": "Italy - Serie C, Group A",
-"pick": "1st half Over 0.5",
-"odds": 1.43,
-"why": "goal in the 1st half in 90% of Novara FC's last 10 and 80% of Calcio Lecco 1912's last 10",
-"ts": 1794742200.0,
-"eid": "sr:match:73293346",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73293346|68|total=0.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "Potenza Calcio vs Scafatese Calcio 1922",
-"lg": "Italy - Serie C, Group C",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "goal in the 1st half in 90% of Potenza Calcio's last 10 and 90% of Scafatese Calcio 1922's last 10",
-"ts": 1794749400.0,
-"eid": "sr:match:73294836",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73294836|68|total=0.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "MVV Maastricht vs Vitesse Arnhem",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"why": "goal in the 1st half in 80% of MVV Maastricht's last 10 and 80% of Vitesse Arnhem's last 10",
-"ts": 1794749400.0,
-"eid": "sr:match:72044824",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72044824|68|total=0.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "GFA Rumilly-Vallieres vs Saint-Etienne",
-"lg": "France - Coupe de France",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"why": "goal in the 1st half in 80% of GFA Rumilly-Vallieres's last 10 and 80% of Saint-Etienne's last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:76171314",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76171314|68|total=0.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Santiago Wanderers vs Deportes Copiapo",
-"lg": "Chile - Primera B",
-"pick": "1st half Over 0.5",
-"odds": 1.38,
-"why": "goal in the 1st half in 80% of Santiago Wanderers's last 10 and 90% of Deportes Copiapo's last 10",
-"ts": 1794754800.0,
-"eid": "sr:match:76422382",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76422382|68|total=0.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "FC Penafiel vs Lusitania FC Lourosa",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "1st half Over 0.5",
-"odds": 1.42,
-"why": "goal in the 1st half in 90% of FC Penafiel's last 10 and 100% of Lusitania FC Lourosa's last 10",
-"ts": 1794756600.0,
-"eid": "sr:match:72531672",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72531672|68|total=0.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "CF Algeciras vs Antequera CF",
-"lg": "Spain - Primera Federacion",
-"pick": "1st half Over 0.5",
-"odds": 1.42,
-"why": "goal in the 1st half in 80% of CF Algeciras's last 10 and 90% of Antequera CF's last 10",
-"ts": 1794756600.0,
-"eid": "sr:match:73068194",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73068194|68|total=0.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "Ittihad Kalba FC vs Shabab Al Ahli Dubai",
-"lg": "United Arab Emirates - Pro League Cup",
-"pick": "1st half Over 0.5",
-"odds": 1.27,
-"why": "goal in the 1st half in 80% of Ittihad Kalba FC's last 10 and 80% of Shabab Al Ahli Dubai's last 10",
-"ts": 1794756600.0,
-"eid": "sr:match:75907956",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75907956|68|total=0.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "CD Lugo vs CD Mirandes",
-"lg": "Spain - Primera Federacion",
-"pick": "1st half Over 0.5",
-"odds": 1.43,
-"why": "goal in the 1st half in 80% of CD Lugo's last 10 and 80% of CD Mirandes's last 10",
-"ts": 1794756600.0,
-"eid": "sr:match:72559234",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72559234|68|total=0.5|12"
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"lg": "Italy - Serie C, Group B",
-"pick": "1st half Over 0.5",
-"odds": 1.28,
-"why": "goal in the 1st half in 80% of Ravenna FC 1913's last 10 and 80% of Forli FC's last 10",
-"ts": 1794760200.0,
-"eid": "sr:match:73294090",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73294090|68|total=0.5|12"
-},
-{
-"t": "Sun 18:00",
-"game": "Finland vs San Marino",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"why": "goal in the 1st half in 90% of Finland's last 10 and 80% of San Marino's last 10",
-"ts": 1794762000.0,
-"eid": "sr:match:68932524",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68932524|68|total=0.5|12"
-},
-{
-"t": "Sun 19:30",
-"game": "ZKS Stal Stalowa Wola vs Olimpia Grudziadz",
-"lg": "Poland - II Liga",
-"pick": "1st half Over 0.5",
-"odds": 1.3,
-"why": "goal in the 1st half in 80% of ZKS Stal Stalowa Wola's last 10 and 80% of Olimpia Grudziadz's last 10",
-"ts": 1794767400.0,
-"eid": "sr:match:72398816",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72398816|68|total=0.5|12"
-},
-{
-"t": "Sun 20:45",
-"game": "Spain vs England",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Over 0.5",
-"odds": 1.32,
-"why": "goal in the 1st half in 80% of Spain's last 10 and 80% of England's last 10",
-"ts": 1794771900.0,
-"eid": "sr:match:68931760",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "68931760|68|total=0.5|12"
-},
-{
-"t": "Sun 21:00",
-"game": "Tivoli Gardens vs Montego Bay United",
-"lg": "Jamaica - Premier League",
-"pick": "1st half Over 0.5",
-"odds": 1.31,
-"why": "goal in the 1st half in 90% of Tivoli Gardens's last 10 and 90% of Montego Bay United's last 10",
-"ts": 1794772800.0,
-"eid": "sr:match:74695526",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "74695526|68|total=0.5|12"
 }
 ]
 }
