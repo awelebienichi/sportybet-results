@@ -5487,7 +5487,10 @@
 "game": "Club Haro Deportivo vs CD Berceo",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
@@ -8951,7 +8954,10 @@
 "game": "Club Haro Deportivo vs CD Berceo",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
