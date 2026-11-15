@@ -1,7 +1,7 @@
 [
 {
-"when": "Sun 15 Nov 13:57",
-"at": 1794747448,
+"when": "Sun 15 Nov 13:58",
+"at": 1794747503,
 "req": {
 "u": "elizabethbieni-b8lo",
 "name": "Elizabeth Bienichi",
@@ -14,14 +14,14 @@
 "ok": true,
 "kind": "live \u2013 another goal coming",
 "note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 10).",
+"Only 2 live leg(s) were strong enough right now (you asked for 10).",
 "Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 1 legs win: about 84%."
+"Chance all 2 legs win: about 76%."
 ],
 "tickets": [
 {
-"code": "TSMEZ2",
-"odds": 1.14,
+"code": "QGN8D3",
+"odds": 1.19,
 "legs": [
 {
 "t": "Sun 13:00",
@@ -36,9 +36,23 @@
 "spec": "total=1.5",
 "oid": "12",
 "k": "76657336|18|total=1.5|12"
+},
+{
+"t": "Sun 13:50",
+"game": "Dubai United FC vs Sharjah FC",
+"lg": "United Arab Emirates - Pro League Cup",
+"pick": "Over 0.5",
+"odds": 1.04,
+"why": "LIVE 0-0 7': Dubai United FC expected 1.4 and Sharjah FC 2.0 more goals (last 10); 0-0 at 7' \u2013 89% chance; Flashscore home/away form 85%",
+"ts": 1794747000.0,
+"eid": "sr:match:75907950",
+"mid": "18",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75907950|18|total=0.5|12"
 }
 ],
-"chance": 0.8354
+"chance": 0.765
 }
 ]
 },
