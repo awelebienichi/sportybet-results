@@ -2,6 +2,240 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZPBKQ5",
+"at": 1794725337,
+"when": "Sun 15 Nov 07:48",
+"kind": "basketball \u2013 total points",
+"odds": 831.16,
+"status": "open",
+"legs": [
+{
+"t": "Sun 08:30",
+"game": "KCC Egis vs Daegu Pegasus",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"ts": 1794727800.0
+},
+{
+"t": "Sun 12:00",
+"game": "Peristeri Athens vs AO Mykonoy",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Caprabo Lleida vs Basquet Manresa",
+"pick": "Under 203.5 total points",
+"odds": 1.26,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Valencia Basket vs CB Coruna",
+"pick": "Under 202.5 total points",
+"odds": 1.23,
+"ts": 1794740400.0
+},
+{
+"t": "Sun 12:30",
+"game": "CB Malaga vs Basquet Girona",
+"pick": "Under 193.5 total points",
+"odds": 1.23,
+"ts": 1794742200.0
+},
+{
+"t": "Sun 13:30",
+"game": "Merkezefendi Belediyesi Denizli Basket vs Cayirova Belediyesi",
+"pick": "Under 181.5 total points",
+"odds": 1.24,
+"ts": 1794745800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Skyliners Frankfurt vs TBB Trier",
+"pick": "Under 194.5 total points",
+"odds": 1.25,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Rostock Seawolves vs Rasta Vechta",
+"pick": "Under 187.5 total points",
+"odds": 1.24,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Vikos Falcon BC vs BC Maroussi Athens",
+"pick": "Over 148.5 total points",
+"odds": 1.21,
+"ts": 1794751200.0
+},
+{
+"t": "Sun 16:00",
+"game": "BCM Gravelines Dunkerque vs Sluc Nancy Basket",
+"pick": "Over 152.5 total points",
+"odds": 1.22,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Besiktas JK vs Bursaspor",
+"pick": "Under 181.5 total points",
+"odds": 1.23,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Universo Treviso Basket vs Basket Scafati 1969",
+"pick": "Under 189.5 total points",
+"odds": 1.25,
+"ts": 1794754800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Bayern Munich vs Mitteldeutscher BC",
+"pick": "Over 155.5 total points",
+"odds": 1.21,
+"ts": 1794756600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Sokol Pisek vs Sluneta Usti nad Labem",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "KK Bosna Royal Sarajevo vs KK Mega Basket Belgrade",
+"pick": "Over 159.5 total points",
+"odds": 1.21,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Stal Ostrow Wielkopolski vs Dziki Warszawa",
+"pick": "Under 182.5 total points",
+"odds": 1.22,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Swans Gmunden vs Traiskirchen Lions",
+"pick": "Under 176.5 total points",
+"odds": 1.23,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Pallacanestro Cantu vs Derthona Basket",
+"pick": "Under 181.5 total points",
+"odds": 1.25,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Bilbao Basket vs UCAM Murcia",
+"pick": "Under 192.5 total points",
+"odds": 1.24,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Palmer Basquet Mallorca Palma vs Albacete Basket",
+"pick": "Over 153.5 total points",
+"odds": 1.22,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:00",
+"game": "BC Vienna vs Eagles Graz",
+"pick": "Over 155.5 total points",
+"odds": 1.2,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:10",
+"game": "BC Rytas Vilnius vs BC Jonava",
+"pick": "Under 185.5 total points",
+"odds": 1.21,
+"ts": 1794762600.0
+},
+{
+"t": "Sun 18:30",
+"game": "KK Crvena zvezda Belgrade vs KK Cedevita Olimpija Ljubljana",
+"pick": "Under 181.5 total points",
+"odds": 1.23,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 18:30",
+"game": "Fenerbahce Istanbul vs Anadolu Efes SK",
+"pick": "Over 154.5 total points",
+"odds": 1.21,
+"ts": 1794763800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Baskonia Vitoria-Gasteiz vs Real Madrid",
+"pick": "Under 198.5 total points",
+"odds": 1.26,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Aquila Basket Trento vs Virtus Bologna",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 22:00",
+"game": "Pacific Tigers vs Air Force Falcons",
+"pick": "Under 170.5 total points",
+"odds": 1.43,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:30",
+"game": "LA Clippers vs Charlotte Hornets",
+"pick": "Over 202.5 total points",
+"odds": 1.25,
+"ts": 1794778200.0
+},
+{
+"t": "Mon 01:00",
+"game": "San Martin Corrientes vs Quimsa Santiogo Del Estero",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794787200.0
+},
+{
+"t": "Mon 02:00",
+"game": "Milwaukee Bucks vs Atlanta Hawks",
+"pick": "Under 247.5 total points",
+"odds": 1.26,
+"ts": 1794790800.0
+},
+{
+"t": "Mon 03:00",
+"game": "Sacramento Kings vs Oklahoma City Thunder",
+"pick": "Over 208.5 total points",
+"odds": 1.24,
+"ts": 1794794400.0
+}
+]
+},
+{
 "code": "KSBC1R",
 "at": 1794724118,
 "when": "Sun 15 Nov 07:28",
