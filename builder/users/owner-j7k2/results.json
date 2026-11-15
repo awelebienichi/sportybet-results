@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UVBZ4L",
+"at": 1794765207,
+"when": "Sun 15 Nov 18:53",
+"kind": "your chosen markets",
+"odds": 36.07,
+"status": "open",
+"legs": [
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794769200.0
+},
+{
+"t": "Sun 20:30",
+"game": "Danubio FC vs Liverpool Montevideo",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1794771000.0
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"pick": "1st half GG \u2013 No",
+"odds": 1.09,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Dunbeholden FC vs Chapelton Maroons FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Gimnasia de Chivilcoy vs Douglas Haig",
+"pick": "1st half double chance Douglas Haig or draw",
+"odds": 1.27,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.08,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Deportivo San Pedro vs CD Marquense",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"ts": 1794776400.0
+},
+{
+"t": "Sun 22:00",
+"game": "Union San Felipe vs Union Espanola",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794776400.0
+},
+{
+"t": "Mon 00:00",
+"game": "Panama vs Curacao",
+"pick": "1st half double chance Panama or draw",
+"odds": 1.13,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 00:00",
+"game": "CD Inca vs CD Aguila San Miguel",
+"pick": "1st half double chance CD Aguila San Miguel or draw",
+"odds": 1.13,
+"ts": 1794783600.0
+},
+{
+"t": "Mon 00:05",
+"game": "Tigres FC vs Real Cundinamarca",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794783900.0
+},
+{
+"t": "Mon 00:30",
+"game": "Ferro Carril Oeste vs Gimnasia Y Tiro de Salta",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"ts": 1794785400.0
+},
+{
+"t": "Mon 13:00",
+"game": "GS Marko vs APS Zakynthos",
+"pick": "1st half double chance GS Marko or draw",
+"odds": 1.06,
+"ts": 1794830400.0
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"pick": "1st half double chance Niki Volou 1924 PAE or draw",
+"odds": 1.07,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Sudan vs Senegal",
+"pick": "1st half double chance Senegal or draw",
+"odds": 1.07,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kosovo vs Luxembourg",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.17,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 18:00",
+"game": "Estonia vs Bulgaria",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 19:00",
+"game": "Andorra vs Azerbaijan",
+"pick": "1st half double chance Azerbaijan or draw",
+"odds": 1.15,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "1st half double chance Cuba or draw",
+"odds": 1.11,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guyana vs Puerto Rico",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "North Macedonia vs Slovenia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1794860100.0
+}
+]
+},
+{
 "code": "MAYQ7M",
 "at": 1794764067,
 "when": "Sun 15 Nov 18:34",
@@ -486,7 +706,10 @@
 "game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
 "pick": "Over/Under (incl. overtime) 155.5 \u2013 Over 155.5",
 "odds": 1.2,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "92-80",
+"ht": "16-15"
 },
 {
 "t": "Sun 17:30",
@@ -814,7 +1037,10 @@
 "game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
 "pick": "Over 155.5 total points",
 "odds": 1.2,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "92-80",
+"ht": "16-15"
 },
 {
 "t": "Sun 17:30",
@@ -8868,7 +9094,10 @@
 "game": "BBC Nord Dragonz vs SKN St. Polten Basketball",
 "pick": "Over 154.5 total points",
 "odds": 1.2,
-"ts": 1794758400.0
+"ts": 1794758400.0,
+"r": "W",
+"sc": "92-80",
+"ht": "16-15"
 },
 {
 "t": "Sun 17:00",
