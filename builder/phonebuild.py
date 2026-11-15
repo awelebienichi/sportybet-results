@@ -912,6 +912,83 @@ def livemix(req):
     note.append("Live odds move fast – load the code on SportyBet straight away.")
     return finish([fl + bl], "livemix", {"livemix": f"live football + basketball ({len(fl)} ⚽ + {len(bl)} 🏀)"}, note, req)
 
+# ---------- "Pattern: big-odds combo" (15 Nov, from the user's own results: patterns that beat the odds in BOTH periods) ----------
+BANKERS = (("860", "", "74", "{h} or GG", .97), ("60021", "", "76", "{h} to score 3+ in a row – No", .95), ("58", "total=1.5", "76", "Both halves Over 1.5 – No", .95))
+def pattern(req):
+    """half-time draws at 1.80-2.50 (47.6% won vs 44.4% the odds said, 1,357 legs) + football bankers priced 1.15 or less (home or GG
+    94-97%, home 3+ in a row No 92-95%, both halves Over 1.5 No 90-100%, vs ~86% the odds said) + basketball total points at
+    1.15-1.25 (88% won vs 78%). One leg per game, strongest first, booked on one code."""
+    import bball
+    n_h = max(0, min(int(req.get("htd") or 0), 3)); n_b = max(0, min(int(req.get("bank") or 0), 4)); n_bb = max(0, min(int(req.get("bb") or 0), 6))
+    n_fh = max(0, min(int(req.get("fh") or 0), 10))
+    if not n_h + n_b + n_bb + n_fh: return dict(ok=False, msg="Choose how many legs you want in each part.")
+    ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
+    LAG = LAGOS; now = time.time()
+    days = sorted({d for d in (req.get("days") or []) if re.fullmatch(r"\d{4}-\d\d-\d\d", str(d))}) or [dt.datetime.now(LAG).date().isoformat()]
+    hi = dt.datetime.combine(dt.date.fromisoformat(days[-1]), dt.time(23, 59), LAG).timestamp()
+    G = [g for g in games_cached(now + 20 * 60, hi) if dt.datetime.fromtimestamp(g["ts"], LAG).date().isoformat() in days]
+    LX = fetch_teams(G); used, legs, note = set(), [], []
+    if n_h:
+        H = [p for p in pick_htdraw(G, LX) + pick_draw_weak(G, LX, True) if 1.80 <= p["odds"] <= 2.50]      # level-at-the-break teams, then weak sides
+        for p in H:
+            if len([l for l in legs if l["mid"] == "60"]) >= n_h: break
+            if p["eid"] in used: continue
+            used.add(p["eid"]); p["why"] += " (pattern: half-time draw 1.80-2.50)"; legs.append(p)
+        if len([l for l in legs if l["mid"] == "60"]) < n_h: note.append(f"Half-time draws: {len([l for l in legs if l['mid'] == '60'])} of {n_h} found at 1.80-2.50.")
+    if n_b:
+        cand = []
+        for g in G:
+            Hh, Aa = LX.get(g["hid"], []), LX.get(g["aid"], [])
+            if len(Hh) < 6 or len(Aa) < 6 or g["eid"] in used: continue
+            gpg = (sum(m["gf"] + m["ga"] for m in Hh) / len(Hh) + sum(m["gf"] + m["ga"] for m in Aa) / len(Aa)) / 2
+            hgf = sum(m["gf"] for m in Hh) / len(Hh)
+            cand.append((g, gpg, hgf))
+        cand.sort(key=lambda c: c[1]); cand = cand[:90]                              # lower-scoring games first: all three bankers are about "not many goals"
+        with ThreadPoolExecutor(8) as ex: MK = dict(zip([c[0]["eid"] for c in cand], ex.map(lambda c: event_game(c[0]["eid"])[1], cand)))
+        opts = []
+        for g, gpg, hgf in cand:
+            mk = MK.get(g["eid"]) or {}
+            for mid, spec, oid, lab, base in BANKERS:
+                od = mk.get((mid, spec, oid))
+                if not od or not 1.06 <= od <= 1.15: continue                       # 1.06+: a banker should still add something to the odds
+                if mid == "860" and g["x"].get("1", 9) > 1.7: continue               # home or GG: the home side must be the favourite
+                if mid == "60021" and hgf > 2.0: continue                             # home team that doesn't run up big scores
+                if mid == "58" and gpg > 3.2: continue                                # both halves 2+ goals is rare in lower-scoring games
+                opts.append(dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=lab.format(h=g["h"]), odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
+                                 rate=base, why=f"pattern banker: won 90%+ in your results at 1.15 or less; {gpg:.1f} goals a game"))
+        opts.sort(key=lambda o: -o["odds"])                                           # within the 90%+ range, the ones that add most to the odds first
+        nb = 0
+        for o in opts:
+            if nb >= n_b: break
+            if o["eid"] in used: continue
+            used.add(o["eid"]); legs.append(o); nb += 1
+        if nb < n_b: note.append(f"Bankers: {nb} of {n_b} found at 1.15 or less.")
+    if n_fh:
+        # the user's own 1st-half pattern (verified 15 Nov on their results): 1st half double chance at 1.15-1.30 won 92.6% (217 legs,
+        # 13 pts above the odds; at 1.30-1.60 only 48%), 1st half GG No at 1.30 or less ~85-92%, 1st half Under 2.5 ~84% (about what
+        # its price says) – so prices are capped where the results stayed strong
+        cap = {"h1dc_1x": (1.15, 1.30), "h1dc_x2": (1.15, 1.30), "h1gg_n": (1.04, 1.30), "h1u25": (1.04, 1.30)}
+        F = [p for p in pick_markets(G, LX, ["h1dc", "h1ggn", "h1u25"], 200) if p["eid"] not in used]
+        F = [p for p in F if any(RB[k][:3] == (p["mid"], p["spec"], p["oid"]) and cap[k][0] <= p["odds"] <= cap[k][1] for k in cap)]
+        for p in F: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
+        F.sort(key=lambda p: (-(p["mid"] == "63"), -p["chance"]))                      # 1st half double chance first: the strongest pocket
+        nf = 0
+        for p in F:
+            if nf >= n_fh: break
+            if p["eid"] in used: continue
+            used.add(p["eid"]); p["why"] += " (your 1st-half pattern)"; legs.append(p); nf += 1
+        if nf < n_fh: note.append(f"1st-half pattern: {nf} of {n_fh} found in the price ranges that won.")
+    if n_bb:
+        B = bball.build(dict(kind="total", legs=40, strict=req.get("strict", "normal"), days=days, _legs_only=True))
+        bb = [l for l in (B.get("legs") or []) if 1.15 <= l["odds"] <= 1.25 and l["eid"] not in used][:n_bb]
+        for l in bb: used.add(l["eid"]); l["why"] += " (pattern: basketball total 1.15-1.25)"
+        legs += bb
+        if len(bb) < n_bb: note.append(f"Basketball totals: {len(bb)} of {n_bb} found at 1.15-1.25.")
+    if not legs: return dict(ok=False, msg=" ".join(note) or "No legs fit the pattern for the days chosen.")
+    ch = math.prod({"60": .476, "225": .88, "63": .926, "75": .85, "68": .84}.get(l["mid"], .95) for l in legs)
+    note.append(f"Pattern estimate from your own results: about {ch:.0%} chance this ticket wins" + (f" (about {round(ch * 10)} in 10)." if ch >= .3 else f" (about 1 in {round(1 / ch)})."))
+    return finish([legs], "pattern", {"pattern": f"pattern combo ({sum(l['mid'] == '60' for l in legs)} HT draw + {sum(l['mid'] in ('860', '60021', '58') for l in legs)} bankers + {sum(l['mid'] in ('63', '75', '68') for l in legs)} 1st-half + {sum(l['mid'] == '225' for l in legs)} basketball)"}, note, req)
+
 # ---------- main ----------
 def main(req):
     ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
@@ -925,6 +1002,7 @@ def main(req):
         import bblive; return bblive.build(req)
     if req.get("type") == "fbmix": return fbmix(req)
     if req.get("type") == "livemix": return livemix(req)
+    if req.get("type") == "pattern": return pattern(req)
     kind = req.get("type", "fav"); legs = max(1, min(int(req.get("legs", 10)), 50)); nt = max(1, min(int(req.get("tickets", 1)), 10))
     now = time.time(); today = dt.datetime.now(LAGOS).date()
     until = req.get("until", "today")

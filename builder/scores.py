@@ -124,6 +124,19 @@ def kickoff(eid):
     if eid not in _SB: sporty_score(eid)
     return _SB.get(eid)
 
+_GO = {}
+def goal_order(eid):
+    """["home", "away", ...] in the order the goals were scored (Sportradar timeline); cached once the game is over"""
+    if eid in _GO: return _GO[eid]
+    try:
+        d = json.loads(subprocess.run(["curl", "-s", "--compressed", "-m", "30", "-A", UA, "-H", "Referer: https://www.sportybet.com/",
+                                       f"https://stats.fn.sportradar.com/sportybet/en/Europe:Berlin/gismo/match_timeline/{eid.split(':')[-1]}"], capture_output=True, text=True).stdout)
+        ev = d["doc"][0]["data"]["events"]; m = d["doc"][0]["data"].get("match") or {}
+    except Exception: return None
+    seq = [e.get("team") for e in sorted((e for e in ev if e.get("type") == "goal"), key=lambda e: (e.get("time") or 0, e.get("seconds") or 0))]
+    if (m.get("status") or {}).get("name") in ("Ended", "AET", "AP"): _GO[eid] = seq
+    return seq
+
 _WIN = {}
 def window_goals(eid, n):
     """(home, away) goals scored up to minute n, from the Sportradar timeline; cached once known"""
@@ -207,6 +220,19 @@ def verdict(leg, s):
         if g is not None and g > line: return "W" if oid == "12" else "L"
         if ht is not None: return ("L" if oid == "12" else "W")
         return ""
+    if mid == "58":                          # both halves Over 1.5: Yes only if each half had 2+ goals
+        if ht is None or not fin: return ""
+        both = (ht[0] + ht[1] > 1.5) and ((h + a) - (ht[0] + ht[1]) > 1.5)
+        return ("W" if both else "L") if oid == "74" else ("L" if both else "W")
+    if mid in ("60021", "60022", "60020"):    # a team (or any team) scoring 3+ goals in a row: from the order of the goals
+        seq = goal_order(leg["eid"])
+        if seq is None: return ""
+        side = {"60021": "home", "60022": "away", "60020": None}[mid]; run, best = None, 0; cnt = 0
+        for t in seq:
+            cnt = cnt + 1 if t == run else 1; run = t
+            if side is None or t == side: best = max(best, cnt)
+        if best >= 3: return "W" if oid == "74" else "L"
+        return ("L" if oid == "74" else "W") if fin else ""
     if mid in ("236", "756", "757"):        # basketball quarter totals: that quarter's points only
         try: S = dict(x.split("=", 1) for x in spec.split("|")); v, n = float(S["total"]), int(S["quarternr"])
         except Exception: return ""
