@@ -114,6 +114,26 @@ def _match_rows(leg, rows, tkey="t"):
         if s >= .72 and (best is None or s > best[0]): best = (s, r)
     return best[1] if best else None
 
+# ---------------- Zulubet ----------------
+def zb_day(day):
+    """Zulubet's 1X2 percentages for a day's games. Tested on 1,093 finished games (1-14 Nov 2026): its percentages were honest
+    (said 60-70% -> 67%, 80%+ -> 88%), and when it was 10+ points more confident than the odds it was right 65% vs 53% implied;
+    when both it and the odds said 60%+, 82% came true vs 73% implied. When it was LESS confident than the odds, the odds were
+    still right – so it only ever backs a leg, never blocks one."""
+    def get():
+        d = dt.date.fromisoformat(day)
+        x = _curl(f"http://www.zulubet.com/tips-{d:%d-%m-%Y}.html")
+        x = re.sub(r"<script.*?</script>|<style.*?</style>", "", x, flags=re.S)
+        x = re.sub(r"\s+", " ", html.unescape(re.sub("<[^>]+>", "|", x))); x = re.sub(r"(\|\s*)+", "|", x)
+        out = []
+        for m in re.finditer(r"\|(\d\d)-(\d\d), (\d\d):(\d\d)\|([^|]{2,60}?) - ([^|]{2,60}?)\|1: (\d+)%\|X: (\d+)%\|2: (\d+)%", x):
+            dd, mo, hh, mm, h, a, p1, px, p2 = m.groups()
+            try: t = dt.datetime(d.year, int(mo), int(dd), int(hh), int(mm), tzinfo=LAGOS).timestamp()   # Central European time = Lagos time in winter
+            except ValueError: continue
+            out.append(dict(h=h.strip(), a=a.strip(), t=t, p1=int(p1), px=int(px), p2=int(p2)))
+        return out
+    return _cached(f"zb_{day}.json", 3, get) or []
+
 # ---------------- Vitibet ----------------
 def vb_day(day):
     def get():
@@ -132,8 +152,8 @@ def vb_day(day):
 def warm(ts_list):
     days = _days(ts_list)[:4]
     with ThreadPoolExecutor(6) as ex:
-        list(ex.map(fm_day, days)); list(ex.map(dfp_day, days)); list(ex.map(vb_day, days))
-    return {d: (len(fm_day(d)), len(dfp_day(d)), len(vb_day(d))) for d in days}
+        list(ex.map(fm_day, days)); list(ex.map(dfp_day, days)); list(ex.map(vb_day, days)); list(ex.map(zb_day, days))
+    return {d: (len(fm_day(d)), len(dfp_day(d)), len(vb_day(d)), len(zb_day(d))) for d in days}
 
 # ---------------- verdict for one leg ----------------
 def check(leg):
@@ -198,6 +218,15 @@ def check(leg):
             if over and ln >= 2.5 and tot <= 1: bad.append(f"Vitibet tip {V['sh']}-{V['sa']}")
             if not over and tot < ln - 0.5: sup.append(f"Vitibet tip {V['sh']}-{V['sa']}")
             if not over and tot >= ln + 1.5: bad.append(f"Vitibet tip {V['sh']}-{V['sa']}")
+    try: Z = _match_rows(leg, zb_day(day))
+    except Exception: Z = None
+    if Z:                                                                   # Zulubet: backing only (see zb_day)
+        if side and mid in ("1", "60200"):
+            mine = Z["p1"] if side == "h" else Z["p2"]
+            if mine >= 60: sup.append(f"Zulubet {mine}%")
+        if mid == "10":
+            dc = {"9": Z["p1"] + Z["px"], "11": Z["px"] + Z["p2"], "10": Z["p1"] + Z["p2"]}.get(oid)
+            if dc is not None and dc >= 80: sup.append(f"Zulubet {dc}%")
     return sup, bad
 
 def _th(n): return "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
