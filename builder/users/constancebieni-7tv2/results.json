@@ -2,6 +2,121 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "YMV1E5",
+"at": 1794759448,
+"when": "Sun 15 Nov 17:17",
+"kind": "your chosen markets",
+"odds": 4.38,
+"status": "open",
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"pick": "Under 3.5",
+"odds": 1.1,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794769200.0
+},
+{
+"t": "Mon 13:00",
+"game": "GS Marko vs APS Zakynthos",
+"pick": "1st half double chance GS Marko or draw",
+"odds": 1.06,
+"ts": 1794830400.0
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"pick": "1st half double chance Niki Volou 1924 PAE or draw",
+"odds": 1.07,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794841200.0
+},
+{
+"t": "Tue 14:00",
+"game": "Burundi vs Zambia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 14:00",
+"game": "South Sudan vs Angola",
+"pick": "1st half double chance Angola or draw",
+"odds": 1.06,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 17:00",
+"game": "Togo vs Algeria",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Guinea-Bissau vs Madagascar",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 20:00",
+"game": "Mauritania vs Burkina Faso",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1794944700.0
+}
+]
+},
+{
 "code": "WTMVZ3",
 "at": 1794759362,
 "when": "Sun 15 Nov 17:16",
@@ -761,7 +876,7 @@
 "odds": 1.32,
 "ts": 1794753000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "2-1"
 },
 {
@@ -958,7 +1073,7 @@
 "odds": 1.32,
 "ts": 1794753000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "2-1"
 },
 {
