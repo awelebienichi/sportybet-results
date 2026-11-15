@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "U8JJ9U",
+"at": 1794753847,
+"when": "Sun 15 Nov 15:44",
+"kind": "your tracker's best markets",
+"odds": 4.86,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:45",
+"game": "FC Twente Enschede W vs PSV Eindhoven",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794757500.0
+},
+{
+"t": "Sun 17:00",
+"game": "UD Sanse vs Rayo Ciudad Alcobendas",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:00",
+"game": "SD Leioa vs Real Sociedad C",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794758400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Ravenna FC 1913 vs Forli FC",
+"pick": "1st half double chance Ravenna FC 1913 or draw",
+"odds": 1.11,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 17:30",
+"game": "CD Tenerife vs AD Huracan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1794760200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"pick": "1st half double chance Suriname or draw",
+"odds": 1.1,
+"ts": 1794762000.0
+},
+{
+"t": "Sun 18:15",
+"game": "Malaga CF vs CD Mosquito",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794762900.0
+},
+{
+"t": "Sun 18:35",
+"game": "Cambrian United vs Bangor 1876 FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1794764100.0
+},
+{
+"t": "Sun 19:00",
+"game": "Friburguense AC RJ vs SE Belford Roxo RJ",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"ts": 1794765600.0
+},
+{
+"t": "Sun 21:00",
+"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Humble Lions FC vs Arnett Gardens FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"pick": "1st half double chance Central SC PE or draw",
+"odds": 1.1,
+"ts": 1794772800.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"ts": 1794776400.0
+}
+]
+},
+{
 "code": "NM7FFT",
 "at": 1794753721,
 "when": "Sun 15 Nov 15:42",
@@ -7610,7 +7711,7 @@
 "odds": 1.24,
 "ts": 1794749400.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
@@ -8235,7 +8336,10 @@
 "game": "Potenza Calcio vs Scafatese Calcio 1922",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1794749400.0
+"ts": 1794749400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 14:30",
