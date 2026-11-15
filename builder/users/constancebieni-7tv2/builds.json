@@ -1,5 +1,183 @@
 [
 {
+"when": "Sun 15 Nov 17:12",
+"at": 1794759130,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"markets": [
+"h1dc",
+"h1u25",
+"u35",
+"h1ggn"
+],
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwi186pi0nrf"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 10 legs win: about 18%."
+],
+"tickets": [
+{
+"code": "JQUWWU",
+"odds": 3.4,
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Belarus vs Albania",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1794762000.0,
+"eid": "sr:match:68932522",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932522|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "Suriname vs Eswatini",
+"lg": "International - Int. Friendly Games",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:76833142",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76833142|75||76"
+},
+{
+"t": "Sun 18:00",
+"game": "H2O Purepechas FC vs Inter Playa Del Carmen",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "1st half GG \u2013 No",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794762000.0,
+"eid": "sr:match:74100784",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74100784|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Club Cipolletti vs Juventud Antoniana",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1794765600.0,
+"eid": "sr:match:76322272",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322272|75||76"
+},
+{
+"t": "Sun 19:00",
+"game": "Deportivo Moron vs CA Colegiales",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.2 goals a game",
+"ts": 1794765600.0,
+"eid": "sr:match:76413246",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76413246|18|total=3.5|13"
+},
+{
+"t": "Sun 20:00",
+"game": "CA Alvarado vs CA Sarmiento de la Banda",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1794769200.0,
+"eid": "sr:match:76322276",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76322276|75||76"
+},
+{
+"t": "Sun 21:00",
+"game": "CD Godoy Cruz vs CSD Tristan Suarez",
+"lg": "Argentina - Primera Nacional",
+"pick": "Under 3.5",
+"odds": 1.1,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, Vitibet tip 1-0, season: 1.9 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76411704",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76411704|18|total=3.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Tivoli Gardens vs Montego Bay United",
+"lg": "Jamaica - Premier League",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794772800.0,
+"eid": "sr:match:74695526",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74695526|68|total=2.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Central SC PE vs Ypiranga PE",
+"lg": "Brazil - Pernambucano",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, season: 2.3 goals a game",
+"ts": 1794772800.0,
+"eid": "sr:match:76732862",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76732862|18|total=3.5|13"
+},
+{
+"t": "Sun 22:00",
+"game": "CD Cobreloa Calama vs Puerto Montt",
+"lg": "Chile - Primera B",
+"pick": "1st half double chance CD Cobreloa Calama or draw",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794776400.0,
+"eid": "sr:match:76422378",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76422378|63||9"
+}
+],
+"chance": 0.1805
+}
+]
+},
+{
 "when": "Sun 15 Nov 16:03",
 "at": 1794755029,
 "req": {
@@ -5538,103 +5716,6 @@
 "spec": "",
 "oid": "9",
 "k": "76746036|10||9"
-}
-]
-}
-]
-},
-{
-"when": "Fri 13 Nov 21:03",
-"at": 1794600196,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwfem1wdt1r6"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "XCD7SQ",
-"odds": 1.35,
-"legs": [
-{
-"t": "Fri 20:00",
-"game": "Mali vs Rwanda",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:3 \u2013 Rwanda",
-"odds": 1.08,
-"why": "LIVE 1-1 45': Mali expected 0.5 and Rwanda 0.6 more goals (last 10); 1-1 at 45' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 75% of 4 meetings",
-"ts": 1794596400.0,
-"eid": "sr:match:75802306",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75802306|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 20:00",
-"game": "Millwall U21 vs Sheffield United U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Sheffield United U21 or draw",
-"odds": 1.09,
-"why": "LIVE 0-2 45': Millwall U21 expected 0.7 and Sheffield United U21 0.9 more goals (last 10); 0-2 at 45' \u2013 97% chance; Flashscore home/away form 70%",
-"ts": 1794596400.0,
-"eid": "sr:match:76126720",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76126720|10||11"
-},
-{
-"t": "Fri 20:00",
-"game": "Deportivo Lara vs Zamora FC Barinas II",
-"lg": "Venezuela - Segunda Division",
-"pick": "Deportivo Lara or draw",
-"odds": 1.03,
-"why": "LIVE 1-0 45': Deportivo Lara expected 1.0 and Zamora FC Barinas II 0.7 more goals (last 10 + season); 1-0 at 45' \u2013 91% chance; Flashscore home/away form 70%",
-"ts": 1794596400.0,
-"eid": "sr:match:76676542",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "76676542|10||9"
-},
-{
-"t": "Fri 20:15",
-"game": "Beti Kozkor KE vs Doneztebe Ft",
-"lg": "Spain Amateur - Tercera Federacion, Group 15",
-"pick": "Beti Kozkor KE or Doneztebe Ft",
-"odds": 1.05,
-"why": "LIVE 0-2 45': Beti Kozkor KE expected 0.7 and Doneztebe Ft 0.8 more goals (last 10 + season); 0-2 at 45' \u2013 93% chance",
-"ts": 1794597300.0,
-"eid": "sr:match:75024558",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "75024558|10||10"
-},
-{
-"t": "Fri 20:45",
-"game": "Andorra vs Gibraltar",
-"lg": "International - UEFA Nations League",
-"pick": "Handicap 0:3 \u2013 Gibraltar",
-"odds": 1.07,
-"why": "LIVE 0-0 16': Andorra expected 0.6 and Gibraltar 1.2 more goals (last 10); 0-0 at 16' \u2013 98% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 4 meetings",
-"ts": 1794599100.0,
-"eid": "sr:match:68932814",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "68932814|14|hcp=0:3|1713"
 }
 ]
 }
