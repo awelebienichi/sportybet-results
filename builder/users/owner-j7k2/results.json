@@ -9427,7 +9427,10 @@
 "game": "Niners Chemnitz vs Basketball Lowen Braunschweig",
 "pick": "Over 165.5 total points",
 "odds": 1.24,
-"ts": 1794762000.0
+"ts": 1794762000.0,
+"r": "W",
+"sc": "111-79",
+"ht": "33-22"
 },
 {
 "t": "Sun 18:30",
@@ -9633,7 +9636,10 @@
 "game": "APU Udine vs Olimpia Milano",
 "pick": "Under 180.5 total points",
 "odds": 1.25,
-"ts": 1794762900.0
+"ts": 1794762900.0,
+"r": "W",
+"sc": "70-83",
+"ht": "15-22"
 },
 {
 "t": "Sun 18:30",
