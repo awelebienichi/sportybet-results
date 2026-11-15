@@ -7,7 +7,7 @@
 "when": "Sun 15 Nov 04:18",
 "kind": "live \u2013 best of all",
 "odds": 1.72,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 02:45",
@@ -54,7 +54,10 @@
 "game": "New Zealand vs India",
 "pick": "Handicap 0:4 \u2013 India",
 "odds": 1.3,
-"ts": 1794711600.0
+"ts": 1794711600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "3-0"
 }
 ]
 },
