@@ -234,6 +234,7 @@ def pick_fav1h(G, LX, half=1):
                         why=f"{team} scored in the {'1st' if half == 1 else '2nd'} half in {c['fs']:.0%} of last {c['nf']}; {opp} conceded in it in {c['oc']:.0%} of last {c['no']}; win odds {c['od']}"))
     return sorted(out, key=lambda r: -r["s"])
 
+H1O05_MAX = 1.25      # 1st half Over 0.5: tracked legs at 1.20-1.30 won 75% vs 80% implied, 1.30+ only 58-65% vs 68-75%
 def pick_h1o05(G, LX, half=1):
     """1st half Over 0.5 (market 68): a goal before half-time in 85%+ of both teams' recent games"""
     C = []
@@ -253,14 +254,20 @@ def pick_h1o05(G, LX, half=1):
     with ThreadPoolExecutor(8) as ex: PR = list(ex.map(price, C))
     out = []
     for (g, hr, ar, nh, na), odds in zip(C, PR):
-        if not odds: continue
+        if not odds or (half == 1 and odds > H1O05_MAX): continue
+        # top tier (16 Nov, 2,421 replayed games): a 1st-half goal in 90%+ of both teams' last 10, or 80%+ and in all of their last 5:
+        # 86% came true (all games 73%); used up before any other 1st-half Over 0.5
+        kf, ka = f"h{half}f", f"h{half}a"
+        H = [m for m in LX[g["hid"]] if m[kf] is not None]; A = [m for m in LX[g["aid"]] if m[kf] is not None]
+        l5 = min(sum(m[kf] + m[ka] > 0 for m in H[-5:]) / len(H[-5:]), sum(m[kf] + m[ka] > 0 for m in A[-5:]) / len(A[-5:]))
+        top = half == 1 and (min(hr, ar) >= .9 or (min(hr, ar) >= .8 and l5 >= 1))
         # 15 Nov review of 334 settled legs: 1st-half Over 0.5 came true 65% when the odds said 76% – the stats alone were too
         # optimistic, so the stats (the weaker side's rate) and the bookmaker's price must agree
         pb = (min(hr, ar) + 1 / (odds * 1.06)) / 2
         if pb < .80 - ST["L"] / 2: continue
         out.append(dict(eid=g["eid"], mid={1: "68", 2: "90"}[half], spec="total=0.5", oid="12", pick=f"{'1st' if half == 1 else '2nd'} half Over 0.5", odds=odds, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"],
-                        s=min(hr, ar) * .6 + (hr + ar) / 2 * .4 - odds * .02, rate=min(hr, ar) * .6 + (hr + ar) / 2 * .4,
-                        why=f"goal in the {'1st' if half == 1 else '2nd'} half in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
+                        s=min(hr, ar) * .6 + (hr + ar) / 2 * .4 - odds * .02 + top, rate=min(hr, ar) * .6 + (hr + ar) / 2 * .4, top=top,
+                        why=("TOP TIER: " if top else "") + f"goal in the {'1st' if half == 1 else '2nd'} half in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
     return sorted(out, key=lambda r: -r["s"])
 
 def pick_yw_strong(G, LX):
@@ -377,6 +384,7 @@ def safe_enough(k, g, LX, rate, odds):
     Value only decides between legs that already pass this."""
     mx = SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0)
     if k == "o15": mx = min(mx, O15_MAX)
+    if k == "h1o05": mx = min(mx, H1O05_MAX)
     if k == "o25": mx = min(mx, O25_MAX.get(round(ST["L"], 1), 1.60))
     if odds > mx or rate < bar(k): return False
     try:
@@ -944,11 +952,11 @@ BANKERS = (("860", "", "74", "{h} or GG", .97), ("60021", "", "76", "{h} to scor
 def pattern(req):
     """half-time draws at 1.80-2.50 (47.6% won vs 44.4% the odds said, 1,357 legs) + football bankers priced 1.15 or less (home or GG
     94-97%, home 3+ in a row No 92-95%, both halves Over 1.5 No 90-100%, vs ~86% the odds said) + basketball total points at
-    1.15-1.25 (88% won vs 78%). One leg per game, strongest first, booked on one code."""
+    1.15-1.25 (88% won vs 78%) + Over 1.5 top tier (o15_top, ~88%). One leg per game, strongest first, booked on one code."""
     import bball
     n_h = max(0, min(int(req.get("htd") or 0), 3)); n_b = max(0, min(int(req.get("bank") or 0), 4)); n_bb = max(0, min(int(req.get("bb") or 0), 6))
-    n_fh = max(0, min(int(req.get("fh") or 0), 10))
-    if not n_h + n_b + n_bb + n_fh: return dict(ok=False, msg="Choose how many legs you want in each part.")
+    n_fh = max(0, min(int(req.get("fh") or 0), 10)); n_o = max(0, min(int(req.get("o15") or 0), 20))
+    if not n_h + n_b + n_bb + n_fh + n_o: return dict(ok=False, msg="Choose how many legs you want in each part.")
     ST["L"] = {"strict": 0.0, "normal": 0.1, "relaxed": 0.2}.get(req.get("strict", "normal"), 0.1)
     LAG = LAGOS; now = time.time()
     days = sorted({d for d in (req.get("days") or []) if re.fullmatch(r"\d{4}-\d\d-\d\d", str(d))}) or [dt.datetime.now(LAG).date().isoformat()]
@@ -1031,6 +1039,18 @@ def pattern(req):
             if p["eid"] in used: continue
             used.add(p["eid"]); p["why"] += " (your 1st-half pattern)"; legs.append(p); nf += 1
         if nf < n_fh: note.append(f"1st-half pattern: {nf} of {n_fh} found in the price ranges that won.")
+    if n_o:
+        # Over 1.5 TOP TIER only (o15_top: both teams 2+ goals in 90%+ of their last 10, or 80%+ and all of their last 5; 87-89% on
+        # 4,149 replayed games, 90% of tracked legs vs 84% implied), 1.25 or less, strongest first
+        O = [p for p in pick_goals(G, LX, "o15") if p.get("top") and p["eid"] not in used]
+        for p in O: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
+        O.sort(key=lambda p: -p["chance"]); O = chk(O)
+        no = 0
+        for p in O:
+            if no >= n_o: break
+            if p["eid"] in used: continue
+            used.add(p["eid"]); p["why"] += " (pattern: Over 1.5 top tier)"; legs.append(p); no += 1
+        if no < n_o: note.append(f"Over 1.5 top tier: {no} of {n_o} found for the days chosen (tick more days for more).")
     if n_bb:
         B = bball.build(dict(kind="total", legs=40, strict=req.get("strict", "normal"), days=days, _legs_only=True))
         bb = [l for l in (B.get("legs") or []) if 1.15 <= l["odds"] <= 1.25 and l["eid"] not in used][:n_bb]
@@ -1039,9 +1059,9 @@ def pattern(req):
         if len(bb) < n_bb: note.append(f"Basketball totals: {len(bb)} of {n_bb} found at 1.15-1.25.")
     if dropped[0]: note.append(f"{dropped[0]} candidate(s) were left out because Flashscore, footybets, FotMob, DFP, Vitibet or the season table went against them.")
     if not legs: return dict(ok=False, msg=" ".join(note) or "No legs fit the pattern for the days chosen.")
-    ch = math.prod({"60": .476, "225": .88, "63": .926, "75": .85, "68": .84}.get(l["mid"], .95) for l in legs)
+    ch = math.prod({"60": .476, "225": .88, "63": .926, "75": .85, "68": .84, "18": .88}.get(l["mid"], .95) for l in legs)
     note.append(f"Pattern estimate from your own results: about {ch:.0%} chance this ticket wins" + (f" (about {round(ch * 10)} in 10)." if ch >= .3 else f" (about 1 in {round(1 / ch)})."))
-    return finish([legs], "pattern", {"pattern": f"pattern combo ({sum(l['mid'] == '60' for l in legs)} HT draw + {sum(l['mid'] in ('860', '60021', '58') for l in legs)} bankers + {sum(l['mid'] in ('63', '75', '68') for l in legs)} 1st-half + {sum(l['mid'] == '225' for l in legs)} basketball)"}, note, req)
+    return finish([legs], "pattern", {"pattern": f"pattern combo ({sum(l['mid'] == '60' for l in legs)} HT draw + {sum(l['mid'] in ('860', '60021', '58') for l in legs)} bankers + {sum(l['mid'] in ('63', '75', '68') for l in legs)} 1st-half + {sum(l['mid'] == '18' for l in legs)} Over 1.5 + {sum(l['mid'] == '225' for l in legs)} basketball)"}, note, req)
 
 # ---------- main ----------
 def main(req):
