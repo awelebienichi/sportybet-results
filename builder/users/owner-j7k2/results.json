@@ -2366,7 +2366,10 @@
 "game": "KK Studentski centar Podgorica vs BC Vienna",
 "pick": "Over 153.5 total points",
 "odds": 1.21,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "79-87",
+"ht": "19-21"
 },
 {
 "t": "Mon 20:30",
@@ -2396,7 +2399,7 @@
 "odds": 1.12,
 "ts": 1794858300.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -5423,7 +5426,7 @@
 "odds": 1.4,
 "ts": 1794857400.0,
 "r": "L",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "2-0"
 },
 {
@@ -5478,7 +5481,10 @@
 "game": "North Macedonia vs Slovenia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.38,
-"ts": 1794858300.0
+"ts": 1794858300.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:45",
@@ -5757,7 +5763,7 @@
 "odds": 1.4,
 "ts": 1794857400.0,
 "r": "L",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "2-0"
 },
 {
@@ -5809,7 +5815,10 @@
 "game": "North Macedonia vs Slovenia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.38,
-"ts": 1794858300.0
+"ts": 1794858300.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:45",
@@ -5980,7 +5989,10 @@
 "game": "KK Studentski centar Podgorica vs BC Vienna",
 "pick": "Under 183.5 total points",
 "odds": 1.23,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "79-87",
+"ht": "19-21"
 },
 {
 "t": "Mon 20:45",
@@ -5996,7 +6008,7 @@
 "odds": 1.13,
 "ts": 1794858300.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -6148,7 +6160,10 @@
 "game": "KK Studentski centar Podgorica vs BC Vienna",
 "pick": "Under 183.5 total points",
 "odds": 1.23,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "79-87",
+"ht": "19-21"
 },
 {
 "t": "Mon 23:30",
@@ -6324,7 +6339,10 @@
 "game": "KK Studentski centar Podgorica vs BC Vienna",
 "pick": "Under 183.5 total points",
 "odds": 1.23,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "79-87",
+"ht": "19-21"
 },
 {
 "t": "Mon 23:30",
@@ -6457,7 +6475,7 @@
 "odds": 1.13,
 "ts": 1794858300.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -6678,7 +6696,7 @@
 "odds": 1.13,
 "ts": 1794858300.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -6961,7 +6979,10 @@
 "game": "North Macedonia vs Slovenia",
 "pick": "Over 1.5",
 "odds": 1.4,
-"ts": 1794858300.0
+"ts": 1794858300.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:45",
@@ -7152,7 +7173,10 @@
 "game": "England vs France",
 "pick": "Over 2.5",
 "odds": 1.71,
-"ts": 1794857400.0
+"ts": 1794857400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Mon 20:45",
@@ -7306,7 +7330,10 @@
 "game": "England vs France",
 "pick": "England or GG",
 "odds": 1.18,
-"ts": 1794857400.0
+"ts": 1794857400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Mon 20:45",
@@ -7580,7 +7607,10 @@
 "game": "KK Studentski centar Podgorica vs BC Vienna",
 "pick": "Under 183.5 total points",
 "odds": 1.23,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "79-87",
+"ht": "19-21"
 },
 {
 "t": "Mon 23:30",
