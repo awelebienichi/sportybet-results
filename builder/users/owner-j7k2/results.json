@@ -238,7 +238,10 @@
 "game": "Sacramento Kings vs Oklahoma City Thunder",
 "pick": "Over 210.5 total points",
 "odds": 1.26,
-"ts": 1794794400.0
+"ts": 1794794400.0,
+"r": "W",
+"sc": "103-125",
+"ht": "24-32"
 },
 {
 "t": "Mon 11:00",
@@ -1284,7 +1287,10 @@
 "game": "Sacramento Kings vs Oklahoma City Thunder",
 "pick": "Over 209.5 total points",
 "odds": 1.24,
-"ts": 1794794400.0
+"ts": 1794794400.0,
+"r": "W",
+"sc": "103-125",
+"ht": "24-32"
 },
 {
 "t": "Mon 11:00",
@@ -1460,7 +1466,10 @@
 "game": "Sacramento Kings vs Oklahoma City Thunder",
 "pick": "Over 209.5 total points",
 "odds": 1.24,
-"ts": 1794794400.0
+"ts": 1794794400.0,
+"r": "W",
+"sc": "103-125",
+"ht": "24-32"
 },
 {
 "t": "Mon 11:00",
