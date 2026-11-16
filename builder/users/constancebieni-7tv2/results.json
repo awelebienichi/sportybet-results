@@ -2,6 +2,79 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "GL1PUM",
+"at": 1794857134,
+"when": "Mon 16 Nov 20:25",
+"kind": "live \u2013 best of all",
+"odds": 2.19,
+"status": "open",
+"legs": [
+{
+"t": "Mon 19:00",
+"game": "UTC de Cajamarca vs Los Chankas CYC",
+"pick": "Under 6.5",
+"odds": 1.06,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Hungary vs Cyprus",
+"pick": "Under 7.5",
+"odds": 1.06,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Atletico Lanus vs CA Talleres de Cordoba",
+"pick": "Under 3.5",
+"odds": 1.07,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Leones de Rosario FC vs CS Barracas",
+"pick": "Under 2.5",
+"odds": 1.09,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Union de Santa Fe vs Racing Club",
+"pick": "Under 4.5",
+"odds": 1.06,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Independente Atalaia AL vs Guarani de Paripueira Al",
+"pick": "Handicap 4:0 \u2013 Independente Atalaia AL",
+"odds": 1.14,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Social Atletico Television vs CA River Plate (ARG)",
+"pick": "Under 5.5",
+"odds": 1.12,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:30",
+"game": "Municipal Limeno vs CD Fuerte San Francisco",
+"pick": "Municipal Limeno Under 2.5",
+"odds": 1.03,
+"ts": 1794853800.0
+},
+{
+"t": "Mon 20:00",
+"game": "Norwich City U21 vs Exeter City Reserve",
+"pick": "Handicap 0:4 \u2013 Exeter City Reserve",
+"odds": 1.22,
+"ts": 1794855600.0
+}
+]
+},
+{
 "code": "KNNVW3",
 "at": 1794819636,
 "when": "Mon 16 Nov 10:00",
