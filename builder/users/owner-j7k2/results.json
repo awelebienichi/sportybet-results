@@ -1031,7 +1031,10 @@
 "game": "Toronto Raptors vs New York Knicks",
 "pick": "Under 231.5 total points",
 "odds": 1.25,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "W",
+"sc": "108-112",
+"ht": "17-23"
 },
 {
 "t": "Mon 01:00",
@@ -6883,7 +6886,10 @@
 "game": "Deportes Quindio vs Real Cartagena FC",
 "pick": "1st half double chance Deportes Quindio or draw",
 "odds": 1.23,
-"ts": 1794791400.0
+"ts": 1794791400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 16:00",
