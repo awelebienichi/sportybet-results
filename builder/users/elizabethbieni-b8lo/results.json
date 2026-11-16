@@ -2,6 +2,30 @@
 "from": 1794833382,
 "tickets": [
 {
+"code": "RHJKCX",
+"at": 1794862294,
+"when": "Mon 16 Nov 21:51",
+"kind": "football + basketball (0 \u26bd + 2 \ud83c\udfc0)",
+"odds": 1.45,
+"status": "open",
+"legs": [
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"pick": "Under 169.5 total points",
+"odds": 1.21,
+"ts": 1794868200.0
+},
+{
+"t": "Mon 23:30",
+"game": "Sao Jose dos Campos vs Mogi das Cruzes",
+"pick": "Over 148.5 total points",
+"odds": 1.2,
+"ts": 1794868200.0
+}
+]
+},
+{
 "code": "GCPYTJ",
 "at": 1794837751,
 "when": "Mon 16 Nov 15:02",
