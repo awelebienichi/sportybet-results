@@ -1,5 +1,30 @@
 [
 {
+"when": "Mon 16 Nov 05:22",
+"at": 1794802945,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"markets": [
+"o15",
+"o25"
+],
+"legs": 500,
+"tickets": 1,
+"days": [
+"2026-11-16"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 1000,
+"rid": "mwirbvulnkzj"
+},
+"ok": false,
+"msg": "Could not reach 1000 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
+},
+{
 "when": "Mon 16 Nov 05:21",
 "at": 1794802887,
 "req": {
@@ -9176,21 +9201,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 06:39",
-"at": 1794461982,
-"req": {
-"u": "judebbbbbb-zm6c",
-"name": "Jude Bbbbbb",
-"type": "live",
-"strategy": "mix",
-"legs": 30,
-"strict": "normal",
-"rid": "mwd3ynkzin78",
-"target": 20
-},
-"ok": false,
-"msg": "1 games are in play, but none fits that strategy right now (1 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 }
 ]
