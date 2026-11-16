@@ -5740,7 +5740,7 @@
 "when": "Sun 15 Nov 15:14",
 "kind": "combined J4V4CU + HAHDEV + J6GRLZ + W2YMV1",
 "odds": 43.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -5787,7 +5787,10 @@
 "game": "CD Inca vs CD Aguila San Miguel",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.2,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 18:00",
@@ -7609,7 +7612,10 @@
 "game": "CD Inca vs CD Aguila San Miguel",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 00:00",
@@ -8934,7 +8940,7 @@
 "when": "Sun 15 Nov 14:37",
 "kind": "your tracker's best markets",
 "odds": 94.25,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -9138,7 +9144,10 @@
 "game": "CD Inca vs CD Aguila San Miguel",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 02:00",
@@ -9907,7 +9916,10 @@
 "game": "CD Inca vs CD Aguila San Miguel",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 00:05",
