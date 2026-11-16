@@ -1169,7 +1169,10 @@
 "game": "Italy vs Belgium",
 "pick": "1st half GG \u2013 No",
 "odds": 1.2,
-"ts": 1794849300.0
+"ts": 1794849300.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 19:00",
@@ -1596,7 +1599,10 @@
 "game": "Italy vs Belgium",
 "pick": "1st half GG \u2013 No",
 "odds": 1.2,
-"ts": 1794849300.0
+"ts": 1794849300.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 19:00",
