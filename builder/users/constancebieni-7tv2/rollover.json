@@ -62,12 +62,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-15",
-"code": "GHKZRH",
-"odds": 4.21,
+"date": "2026-11-16",
+"code": "KNNVW3",
+"odds": 4.37,
 "stake": 100.0,
-"n": 7,
-"result": "lost"
+"n": 8,
+"result": null
 },
 "started": "2026-11-12",
 "short": "lower",

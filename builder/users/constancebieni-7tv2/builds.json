@@ -1,5 +1,140 @@
 [
 {
+"when": "Mon 16 Nov 10:00",
+"at": 1794819636,
+"req": {
+"type": "rollover",
+"legs": 8,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6437 if it wins"
+],
+"tickets": [
+{
+"code": "KNNVW3",
+"odds": 4.37,
+"legs": [
+{
+"t": "Mon 16:00",
+"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
+"lg": "Portugal - U23 Liga Next Gen",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 95%",
+"ts": 1794841200.0,
+"eid": "sr:match:72962342",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72962342|450001||25"
+},
+{
+"t": "Mon 16:00",
+"game": "Kosovo vs Luxembourg",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.17,
+"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794841200.0,
+"eid": "sr:match:76744190",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76744190|63||9"
+},
+{
+"t": "Mon 17:00",
+"game": "Portugal vs England",
+"lg": "International Youth - U20 Friendly Games",
+"pick": "Portugal or GG",
+"odds": 1.24,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 75%, Flashscore home/away 95%",
+"ts": 1794844800.0,
+"eid": "sr:match:75913810",
+"mid": "860",
+"spec": "",
+"oid": "74",
+"k": "75913810|860||74"
+},
+{
+"t": "Mon 18:00",
+"game": "VfB Stuttgart vs Bayer Leverkusen",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); Flashscore home/away 95%; FotMob: 3.3 goals a game, Vitibet tip 1-2",
+"ts": 1794848400.0,
+"eid": "sr:match:72961084",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "72961084|450001||25"
+},
+{
+"t": "Mon 19:00",
+"game": "UTC de Cajamarca vs Los Chankas CYC",
+"lg": "Peru - Liga 1",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); head-to-head 100%",
+"ts": 1794852000.0,
+"eid": "sr:match:76593094",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76593094|90|total=0.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"lg": "Spain - LaLiga 2",
+"pick": "1st half Over 0.5",
+"odds": 1.28,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794857400.0,
+"eid": "sr:match:72477582",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72477582|68|total=0.5|12"
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.27,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 80%); head-to-head 90%",
+"ts": 1794858300.0,
+"eid": "sr:match:68931588",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68931588|68|total=2.5|13"
+},
+{
+"t": "Mon 20:45",
+"game": "Perugia Calcio Spa vs SEF Torres Sassari",
+"lg": "Italy - Serie C, Group B",
+"pick": "Under 4.5",
+"odds": 1.14,
+"why": "both teams 80%+ in their own last 10 (home 80%, away 90%); head-to-head 100%, Flashscore home/away 95%; FotMob: 2.5 goals a game, Vitibet tip 1-1, season: 2.5 goals a game",
+"ts": 1794858300.0,
+"eid": "sr:match:73294086",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "73294086|18|total=4.5|13"
+}
+],
+"chance": 0.1548
+}
+]
+},
+{
 "when": "Sun 15 Nov 20:27",
 "at": 1794770858,
 "req": {
@@ -6215,28 +6350,5 @@
 ]
 }
 ]
-},
-{
-"when": "Fri 13 Nov 23:17",
-"at": 1794608238,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-13"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"gb25"
-],
-"rid": "mwfje1921sq3"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for your chosen markets (Fri 13) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
