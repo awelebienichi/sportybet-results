@@ -323,7 +323,10 @@
 "game": "Zimbabwe vs Equatorial Guinea",
 "pick": "Zimbabwe or GG",
 "odds": 1.37,
-"ts": 1794834000.0
+"ts": 1794834000.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 15:00",
@@ -1146,7 +1149,10 @@
 "game": "Zimbabwe vs Equatorial Guinea",
 "pick": "Zimbabwe or GG",
 "odds": 1.34,
-"ts": 1794834000.0
+"ts": 1794834000.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -1319,7 +1325,10 @@
 "game": "Zimbabwe vs Equatorial Guinea",
 "pick": "Double chance Zimbabwe or Equatorial Guinea",
 "odds": 1.36,
-"ts": 1794834000.0
+"ts": 1794834000.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 15:00",
