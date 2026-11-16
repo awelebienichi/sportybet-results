@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VQQXDG",
+"at": 1794854894,
+"when": "Mon 16 Nov 19:48",
+"kind": "pattern combo (0 HT draw + 4 bankers + 5 1st-half + 1 Over 1.5 + 3 basketball)",
+"odds": 7.96,
+"status": "open",
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "KK Studentski centar Podgorica vs BC Vienna",
+"pick": "Over 153.5 total points",
+"odds": 1.21,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:30",
+"game": "ASD Sorrento 1945 vs SS Monopoli",
+"pick": "ASD Sorrento 1945 to score 3+ in a row \u2013 No",
+"odds": 1.06,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Gibraltar vs Malta",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.06,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "North Macedonia vs Slovenia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.22,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"pick": "1st half GG \u2013 No",
+"odds": 1.24,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Perugia Calcio Spa vs SEF Torres Sassari",
+"pick": "1st half GG \u2013 No",
+"odds": 1.22,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 21:15",
+"game": "CD Moquegua vs Atletico Grau",
+"pick": "CD Moquegua to score 3+ in a row \u2013 No",
+"odds": 1.15,
+"ts": 1794860100.0
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.15,
+"ts": 1794860100.0
+},
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"pick": "Under 169.5 total points",
+"odds": 1.21,
+"ts": 1794868200.0
+},
+{
+"t": "Mon 23:30",
+"game": "Sao Jose dos Campos vs Mogi das Cruzes",
+"pick": "Over 148.5 total points",
+"odds": 1.2,
+"ts": 1794868200.0
+}
+]
+},
+{
 "code": "KJL7RV",
 "at": 1794853656,
 "when": "Mon 16 Nov 19:27",
@@ -2173,7 +2274,10 @@
 "game": "Andorra vs Azerbaijan",
 "pick": "1st half double chance Azerbaijan or draw",
 "odds": 1.15,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:05",
@@ -2852,7 +2956,10 @@
 "game": "Andorra vs Azerbaijan",
 "pick": "1st half double chance Azerbaijan or draw",
 "odds": 1.15,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
@@ -3137,7 +3244,10 @@
 "game": "Andorra vs Azerbaijan",
 "pick": "1st half double chance Azerbaijan or draw",
 "odds": 1.15,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
@@ -3362,7 +3472,10 @@
 "game": "Andorra vs Azerbaijan",
 "pick": "1st half double chance Azerbaijan or draw",
 "odds": 1.16,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:05",
@@ -3795,7 +3908,10 @@
 "game": "Andorra vs Azerbaijan",
 "pick": "1st half double chance Azerbaijan or draw",
 "odds": 1.16,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
@@ -3937,7 +4053,10 @@
 "game": "UTC de Cajamarca vs Los Chankas CYC",
 "pick": "1st half double chance UTC de Cajamarca or draw",
 "odds": 1.36,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:00",
@@ -5584,7 +5703,10 @@
 "game": "Andorra vs Azerbaijan",
 "pick": "1st half double chance Azerbaijan or draw",
 "odds": 1.15,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
