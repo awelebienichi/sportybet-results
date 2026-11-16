@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HGMN8X",
+"at": 1794820637,
+"when": "Mon 16 Nov 10:17",
+"kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 6 basketball)",
+"odds": 22.56,
+"status": "open",
+"legs": [
+{
+"t": "Mon 11:05",
+"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
+"pick": "Over 143.5 total points",
+"odds": 1.22,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Gunma Crane Thunders vs Shiga Lakestars",
+"pick": "Over 152.5 total points",
+"odds": 1.2,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Alvark Tokyo vs Kobe Storks",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.13,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "Faroe Islands to score 3+ in a row \u2013 No",
+"odds": 1.14,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kosovo vs Luxembourg",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.17,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 18:00",
+"game": "Estonia vs Bulgaria",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:15",
+"game": "Italy vs Belgium",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1794849300.0
+},
+{
+"t": "Mon 19:00",
+"game": "Andorra vs Azerbaijan",
+"pick": "1st half double chance Azerbaijan or draw",
+"odds": 1.16,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:05",
+"game": "Hapoel Holon BC vs Hapoel Haemek",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794852300.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guyana vs Puerto Rico",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "KK Studentski centar Podgorica vs BC Vienna",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.14,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "North Macedonia vs Slovenia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.15,
+"ts": 1794860100.0
+},
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"pick": "Under 168.5 total points",
+"odds": 1.22,
+"ts": 1794868200.0
+}
+]
+},
+{
 "code": "UN0FGN",
 "at": 1794820519,
 "when": "Mon 16 Nov 10:15",
