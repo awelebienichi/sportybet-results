@@ -3611,7 +3611,10 @@
 "game": "KK Borac Cacak vs BC Slovan Bratislava",
 "pick": "Under 180.5 total points",
 "odds": 1.24,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "66-98",
+"ht": "15-26"
 },
 {
 "t": "Mon 18:55",
@@ -3772,7 +3775,10 @@
 "game": "KK Borac Cacak vs BC Slovan Bratislava",
 "pick": "Under 180.5 total points",
 "odds": 1.24,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "66-98",
+"ht": "15-26"
 },
 {
 "t": "Mon 18:55",
@@ -4908,7 +4914,10 @@
 "game": "KK Borac Cacak vs BC Slovan Bratislava",
 "pick": "Over 152.5 total points",
 "odds": 1.21,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "66-98",
+"ht": "15-26"
 },
 {
 "t": "Mon 18:55",
@@ -6014,7 +6023,10 @@
 "game": "KK Borac Cacak vs BC Slovan Bratislava",
 "pick": "Over 152.5 total points",
 "odds": 1.21,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "66-98",
+"ht": "15-26"
 }
 ]
 },
@@ -6211,7 +6223,10 @@
 "game": "KK Borac Cacak vs BC Slovan Bratislava",
 "pick": "Over 152.5 total points",
 "odds": 1.21,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "66-98",
+"ht": "15-26"
 }
 ]
 },
