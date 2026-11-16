@@ -4651,7 +4651,10 @@
 "game": "Hapoel Holon BC vs Hapoel Haemek",
 "pick": "Over 146.5 total points",
 "odds": 1.2,
-"ts": 1794852300.0
+"ts": 1794852300.0,
+"r": "W",
+"sc": "87-69",
+"ht": "20-14"
 },
 {
 "t": "Mon 21:15",
@@ -5879,7 +5882,10 @@
 "game": "Hapoel Holon BC vs Hapoel Haemek",
 "pick": "Over 146.5 total points",
 "odds": 1.21,
-"ts": 1794852300.0
+"ts": 1794852300.0,
+"r": "W",
+"sc": "87-69",
+"ht": "20-14"
 },
 {
 "t": "Mon 20:00",
@@ -6025,14 +6031,20 @@
 "game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
 "pick": "Over 161.5 total points",
 "odds": 1.22,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "90-100",
+"ht": "20-34"
 },
 {
 "t": "Mon 19:05",
 "game": "Hapoel Holon BC vs Hapoel Haemek",
 "pick": "Over 146.5 total points",
 "odds": 1.21,
-"ts": 1794852300.0
+"ts": 1794852300.0,
+"r": "W",
+"sc": "87-69",
+"ht": "20-14"
 },
 {
 "t": "Mon 19:15",
@@ -6189,14 +6201,20 @@
 "game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
 "pick": "Over 161.5 total points",
 "odds": 1.22,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "90-100",
+"ht": "20-34"
 },
 {
 "t": "Mon 19:05",
 "game": "Hapoel Holon BC vs Hapoel Haemek",
 "pick": "Over 146.5 total points",
 "odds": 1.21,
-"ts": 1794852300.0
+"ts": 1794852300.0,
+"r": "W",
+"sc": "87-69",
+"ht": "20-14"
 },
 {
 "t": "Mon 19:15",
@@ -7358,14 +7376,20 @@
 "game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
 "pick": "Over 161.5 total points",
 "odds": 1.21,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "90-100",
+"ht": "20-34"
 },
 {
 "t": "Mon 19:05",
 "game": "Hapoel Holon BC vs Hapoel Haemek",
 "pick": "Over 146.5 total points",
 "odds": 1.22,
-"ts": 1794852300.0
+"ts": 1794852300.0,
+"r": "W",
+"sc": "87-69",
+"ht": "20-14"
 },
 {
 "t": "Mon 19:15",
