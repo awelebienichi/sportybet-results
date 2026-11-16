@@ -1,7 +1,7 @@
 [
 {
-"when": "Mon 16 Nov 05:23",
-"at": 1794803017,
+"when": "Mon 16 Nov 08:04",
+"at": 1794812646,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -23,11 +23,11 @@
 "rid": "mwirddsrqr02"
 },
 "ok": false,
-"msg": "Could not reach 1000 odds with 50 legs or fewer from the 6 games that pass the checks for your chosen markets (Mon 16, Tue 17, Wed 18). Allow more legs or a lower target."
+"msg": "Could not reach 1000 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16, Tue 17, Wed 18). Allow more legs or a lower target."
 },
 {
-"when": "Mon 16 Nov 05:22",
-"at": 1794802978,
+"when": "Mon 16 Nov 08:04",
+"at": 1794812642,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -50,8 +50,8 @@
 "msg": "Could not reach 1000 odds with 50 legs or fewer from the 3 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
 },
 {
-"when": "Mon 16 Nov 05:22",
-"at": 1794802945,
+"when": "Mon 16 Nov 08:04",
+"at": 1794812642,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -75,8 +75,8 @@
 "msg": "Could not reach 1000 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
 },
 {
-"when": "Mon 16 Nov 05:21",
-"at": 1794802887,
+"when": "Mon 16 Nov 08:04",
+"at": 1794812642,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -100,8 +100,8 @@
 "msg": "Could not reach 100 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
 },
 {
-"when": "Mon 16 Nov 05:20",
-"at": 1794802835,
+"when": "Mon 16 Nov 08:04",
+"at": 1794812641,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -125,8 +125,8 @@
 "msg": "Could not reach 100 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
 },
 {
-"when": "Mon 16 Nov 05:19",
-"at": 1794802769,
+"when": "Mon 16 Nov 08:04",
+"at": 1794812641,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -150,8 +150,8 @@
 "msg": "Could not reach 10 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
 },
 {
-"when": "Mon 16 Nov 05:18",
-"at": 1794802709,
+"when": "Mon 16 Nov 08:03",
+"at": 1794812639,
 "req": {
 "u": "judebbbbbb-zm6c",
 "name": "Jude Bbbbbb",
@@ -172,7 +172,7 @@
 "rid": "mwir6c8urrmb"
 },
 "ok": false,
-"msg": "Could not reach 10 odds with 50 legs or fewer from the 2 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
+"msg": "Could not reach 10 odds with 50 legs or fewer from the 1 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
 },
 {
 "when": "Sat 14 Nov 11:26",
