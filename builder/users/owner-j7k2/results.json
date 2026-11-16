@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PJ7SX8",
+"at": 1794796573,
+"when": "Mon 16 Nov 03:36",
+"kind": "your chosen markets",
+"odds": 1.59,
+"status": "open",
+"legs": [
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "1st half Under 2.5",
+"odds": 1.1,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"ts": 1794858300.0
+}
+]
+},
+{
 "code": "ZDJYXX",
 "at": 1794782093,
 "when": "Sun 15 Nov 23:34",
