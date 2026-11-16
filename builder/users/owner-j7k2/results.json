@@ -2286,7 +2286,10 @@
 "game": "Central African Republic vs Benin",
 "pick": "Goal bounds 2-5+",
 "odds": 1.36,
-"ts": 1794844800.0
+"ts": 1794844800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 17:00",
@@ -2565,7 +2568,10 @@
 "game": "Central African Republic vs Benin",
 "pick": "Goal bounds 2-5+",
 "odds": 1.36,
-"ts": 1794844800.0
+"ts": 1794844800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 17:00",
@@ -3597,7 +3603,10 @@
 "game": "Central African Republic vs Benin",
 "pick": "Over 1.5",
 "odds": 1.36,
-"ts": 1794844800.0
+"ts": 1794844800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 18:00",
