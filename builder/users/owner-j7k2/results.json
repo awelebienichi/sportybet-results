@@ -1061,7 +1061,10 @@
 "game": "Washington Wizards vs Houston Rockets",
 "pick": "Under 236.5 total points",
 "odds": 1.26,
-"ts": 1794787200.0
+"ts": 1794787200.0,
+"r": "L",
+"sc": "119-147",
+"ht": "31-36"
 },
 {
 "t": "Mon 02:00",
