@@ -90,7 +90,10 @@
 "game": "Hungary vs Cyprus",
 "pick": "Under 7.5",
 "odds": 1.06,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "L",
+"sc": "5-3",
+"ht": "2-0"
 },
 {
 "t": "Mon 19:00",
@@ -111,7 +114,10 @@
 "game": "Union de Santa Fe vs Racing Club",
 "pick": "Under 4.5",
 "odds": 1.06,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "L",
+"sc": "1-4",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
