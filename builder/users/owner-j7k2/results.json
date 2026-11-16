@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UBLX6J",
+"at": 1794852571,
+"when": "Mon 16 Nov 19:09",
+"kind": "goal-fest teams (season data)",
+"odds": 659.38,
+"status": "open",
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1794855600.0
+},
+{
+"t": "Tue 14:00",
+"game": "Barnsley U21 vs Wigan Athletic U21",
+"pick": "Over 3.5",
+"odds": 1.52,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Dartford FC vs Three Bridges",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Quorn FC vs Bury FC",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Denmark vs Norway",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1794944700.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al Ahli Saudi FC vs Al Nassr Club",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "TSV Havelse vs FC Viktoria Cologne",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795203900.0
+},
+{
+"t": "Sat 13:30",
+"game": "Norwich vs Cardiff City",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"pick": "Over 2.5",
+"odds": 1.19,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Lugano vs Grasshopper Club Zurich",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:45",
+"game": "FC Utrecht vs SC Cambuur",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795283100.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795363200.0
+}
+]
+},
+{
 "code": "JKYT8G",
 "at": 1794851268,
 "when": "Mon 16 Nov 18:47",
@@ -2318,8 +2468,8 @@
 "odds": 1.21,
 "ts": 1794848400.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Mon 18:00",
@@ -2600,8 +2750,8 @@
 "odds": 1.21,
 "ts": 1794848400.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Mon 18:00",
@@ -3417,7 +3567,7 @@
 "odds": 1.07,
 "ts": 1794848400.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -3622,8 +3772,8 @@
 "odds": 1.23,
 "ts": 1794848400.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Mon 18:00",
@@ -3632,7 +3782,7 @@
 "odds": 1.04,
 "ts": 1794848400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
