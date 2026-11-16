@@ -1,5 +1,304 @@
 [
 {
+"when": "Mon 16 Nov 10:15",
+"at": 1794820519,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 20,
+"days": [
+"2026-11-16",
+"2026-11-17"
+],
+"strict": "normal",
+"rid": "mwj1scahbsc3"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 19 basketball games passed the checks (Mon 16, Tue 17, 95 judged), so the ticket has 19 legs.",
+"Normal: in testing about 85 in 100 such legs came true.",
+"Chance all 19 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "UN0FGN",
+"odds": 45.87,
+"legs": [
+{
+"t": "Mon 11:00",
+"game": "Seoul SK Knights vs Mobis Phoebus",
+"lg": "Republic of Korea - KBL",
+"pick": "Under 179.5 total points",
+"odds": 1.23,
+"why": "expected Seoul SK Knights 85 \u2013 Mobis Phoebus 79 (last 10/10 games, home edge included); 80% by the stats, 78% with the price; h2h 100% of 8 meetings, Flashscore home/away form 85%",
+"ts": 1794823200.0,
+"eid": "sr:match:73657564",
+"mid": "225",
+"spec": "total=179.5",
+"oid": "13",
+"k": "73657564|225|total=179.5|13"
+},
+{
+"t": "Mon 11:05",
+"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
+"lg": "Japan - B League Premier",
+"pick": "Over 143.5 total points",
+"odds": 1.22,
+"why": "expected Yokohama B-Corsairs 81 \u2013 Kawasaki Brave Thunders 80 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 100%",
+"ts": 1794823500.0,
+"eid": "sr:match:72696334",
+"mid": "225",
+"spec": "total=143.5",
+"oid": "12",
+"k": "72696334|225|total=143.5|12"
+},
+{
+"t": "Mon 11:05",
+"game": "Gunma Crane Thunders vs Shiga Lakestars",
+"lg": "Japan - B League Premier",
+"pick": "Over 152.5 total points",
+"odds": 1.2,
+"why": "expected Gunma Crane Thunders 90 \u2013 Shiga Lakestars 78 (last 10/10 games, home edge included); 80% by the stats, 80% with the price; h2h 88% of 8 meetings, Flashscore home/away form 80%",
+"ts": 1794823500.0,
+"eid": "sr:match:72696328",
+"mid": "225",
+"spec": "total=152.5",
+"oid": "12",
+"k": "72696328|225|total=152.5|12"
+},
+{
+"t": "Mon 11:05",
+"game": "Alvark Tokyo vs Kobe Storks",
+"lg": "Japan - B League Premier",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"why": "expected Alvark Tokyo 91 \u2013 Kobe Storks 80 (last 10/10 games, home edge included); 80% by the stats, 78% with the price; h2h 100% of 8 meetings, Flashscore home/away form 90%",
+"ts": 1794823500.0,
+"eid": "sr:match:72696332",
+"mid": "225",
+"spec": "total=186.5",
+"oid": "13",
+"k": "72696332|225|total=186.5|13"
+},
+{
+"t": "Mon 11:05",
+"game": "Chiba Jets Funabashi vs San-En Neophoenix",
+"lg": "Japan - B League Premier",
+"pick": "Under 190.5 total points",
+"odds": 1.23,
+"why": "expected Chiba Jets Funabashi 88 \u2013 San-En Neophoenix 87 (last 10/10 games, home edge included); 80% by the stats, 78% with the price; h2h 88% of 8 meetings, Flashscore home/away form 80%",
+"ts": 1794823500.0,
+"eid": "sr:match:72696330",
+"mid": "225",
+"spec": "total=190.5",
+"oid": "13",
+"k": "72696330|225|total=190.5|13"
+},
+{
+"t": "Mon 11:35",
+"game": "Ryukyu Golden Kings Okinawa vs Toyama Grouses",
+"lg": "Japan - B League Premier",
+"pick": "Over 158.5 total points",
+"odds": 1.19,
+"why": "expected Ryukyu Golden Kings Okinawa 91 \u2013 Toyama Grouses 81 (last 10/10 games, home edge included); 77% by the stats, 78% with the price; Flashscore home/away form 95%",
+"ts": 1794825300.0,
+"eid": "sr:match:72696338",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "72696338|225|total=158.5|12"
+},
+{
+"t": "Mon 18:00",
+"game": "KK Borac Cacak vs BC Slovan Bratislava",
+"lg": "International - Liga ABA",
+"pick": "Under 180.5 total points",
+"odds": 1.24,
+"why": "expected KK Borac Cacak 82 \u2013 BC Slovan Bratislava 85 (last 10/10 games, home edge included); 77% by the stats, 77% with the price",
+"ts": 1794848400.0,
+"eid": "sr:match:74131774",
+"mid": "225",
+"spec": "total=180.5",
+"oid": "13",
+"k": "74131774|225|total=180.5|13"
+},
+{
+"t": "Mon 18:55",
+"game": "Hapoel Galil Elyon vs Hapoel Eilat",
+"lg": "Israel - Super League",
+"pick": "Over 158.5 total points",
+"odds": 1.21,
+"why": "expected Hapoel Galil Elyon 88 \u2013 Hapoel Eilat 84 (last 10/10 games, home edge included); 77% by the stats, 78% with the price",
+"ts": 1794851700.0,
+"eid": "sr:match:74527780",
+"mid": "225",
+"spec": "total=158.5",
+"oid": "12",
+"k": "74527780|225|total=158.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
+"lg": "Poland - PLK",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"why": "expected Energa Czarni Slupsk 86 \u2013 MKS Dabrowa Gornicza 89 (last 10/10 games, home edge included); 78% by the stats, 78% with the price; Flashscore home/away form 80%",
+"ts": 1794852000.0,
+"eid": "sr:match:72676976",
+"mid": "225",
+"spec": "total=161.5",
+"oid": "12",
+"k": "72676976|225|total=161.5|12"
+},
+{
+"t": "Mon 19:05",
+"game": "Hapoel Holon BC vs Hapoel Haemek",
+"lg": "Israel - Super League",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"why": "expected Hapoel Holon BC 82 \u2013 Hapoel Haemek 80 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; h2h 100% of 8 meetings, Flashscore home/away form 80%",
+"ts": 1794852300.0,
+"eid": "sr:match:74527784",
+"mid": "225",
+"spec": "total=146.5",
+"oid": "12",
+"k": "74527784|225|total=146.5|12"
+},
+{
+"t": "Mon 19:15",
+"game": "Maccabi Rishon LeZion vs Hapoel Beer Sheva",
+"lg": "Israel - Super League",
+"pick": "Under 179.5 total points",
+"odds": 1.23,
+"why": "expected Maccabi Rishon LeZion 87 \u2013 Hapoel Beer Sheva 79 (last 10/10 games, home edge included); 78% by the stats, 77% with the price; h2h 100% of 8 meetings, Flashscore home/away form 75%",
+"ts": 1794852900.0,
+"eid": "sr:match:74527778",
+"mid": "225",
+"spec": "total=179.5",
+"oid": "13",
+"k": "74527778|225|total=179.5|13"
+},
+{
+"t": "Mon 20:00",
+"game": "KK Studentski centar Podgorica vs BC Vienna",
+"lg": "International - Liga ABA",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"why": "expected KK Studentski centar Podgorica 87 \u2013 BC Vienna 81 (last 10/10 games, home edge included, BC Vienna on 2nd game in 2 days); 81% by the stats, 79% with the price",
+"ts": 1794855600.0,
+"eid": "sr:match:74131970",
+"mid": "225",
+"spec": "total=183.5",
+"oid": "13",
+"k": "74131970|225|total=183.5|13"
+},
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"lg": "Brazil - NBB",
+"pick": "Under 168.5 total points",
+"odds": 1.22,
+"why": "expected Cruzeiro Basquete 82 \u2013 Fortaleza Basquete Cearense 72 (last 9/10 games, home edge included); 80% by the stats, 79% with the price",
+"ts": 1794868200.0,
+"eid": "sr:match:74320764",
+"mid": "225",
+"spec": "total=168.5",
+"oid": "13",
+"k": "74320764|225|total=168.5|13"
+},
+{
+"t": "Tue 01:00",
+"game": "Cleveland Cavaliers vs Chicago Bulls",
+"lg": "USA - NBA",
+"pick": "Under 256.5 total points",
+"odds": 1.25,
+"why": "expected Cleveland Cavaliers 122 \u2013 Chicago Bulls 114 (last 10/10 games, home edge included); 87% by the stats, 81% with the price; 31 pts a game missing through injury, h2h 88% of 8 meetings, Flashscore home/away form 90%, NBA ratings say 235 points",
+"ts": 1794873600.0,
+"eid": "sr:match:73719664",
+"mid": "225",
+"spec": "total=256.5",
+"oid": "13",
+"k": "73719664|225|total=256.5|13"
+},
+{
+"t": "Tue 01:00",
+"game": "Boston Celtics vs Orlando Magic",
+"lg": "USA - NBA",
+"pick": "Over 198.5 total points",
+"odds": 1.23,
+"why": "expected Boston Celtics 113 \u2013 Orlando Magic 102 (last 10/10 games, home edge included, Boston Celtics on 2nd game in 2 days); 82% by the stats, 80% with the price; h2h 100% of 8 meetings, Flashscore home/away form 85%, NBA ratings say 217 points",
+"ts": 1794873600.0,
+"eid": "sr:match:73719662",
+"mid": "225",
+"spec": "total=198.5",
+"oid": "12",
+"k": "73719662|225|total=198.5|12"
+},
+{
+"t": "Tue 02:00",
+"game": "Minnesota Timberwolves vs Portland Trail Blazers",
+"lg": "USA - NBA",
+"pick": "Over 215.5 total points",
+"odds": 1.24,
+"why": "expected Minnesota Timberwolves 117 \u2013 Portland Trail Blazers 111 (last 10/10 games, home edge included); 76% by the stats, 76% with the price; OddsShark h2h O/U 70% of last 10, NBA ratings say 227 points",
+"ts": 1794877200.0,
+"eid": "sr:match:73719672",
+"mid": "225",
+"spec": "total=215.5",
+"oid": "12",
+"k": "73719672|225|total=215.5|12"
+},
+{
+"t": "Tue 02:05",
+"game": "IA Central Cordoba vs CA San Lorenzo de Almagro",
+"lg": "Argentina - LNB",
+"pick": "Over 139.5 total points",
+"odds": 1.21,
+"why": "expected IA Central Cordoba 83 \u2013 CA San Lorenzo de Almagro 71 (last 10/10 games, home edge included); 79% by the stats, 78% with the price; h2h 75% of 8 meetings",
+"ts": 1794877500.0,
+"eid": "sr:match:75364742",
+"mid": "225",
+"spec": "total=139.5",
+"oid": "12",
+"k": "75364742|225|total=139.5|12"
+},
+{
+"t": "Tue 03:00",
+"game": "Denver Nuggets vs Phoenix Suns",
+"lg": "USA - NBA",
+"pick": "Over 214.5 total points",
+"odds": 1.24,
+"why": "expected Denver Nuggets 118 \u2013 Phoenix Suns 111 (last 10/10 games, home edge included, Phoenix Suns on 2nd game in 2 days); 78% by the stats, 77% with the price; h2h 75% of 8 meetings, NBA ratings say 227 points",
+"ts": 1794880800.0,
+"eid": "sr:match:73719676",
+"mid": "225",
+"spec": "total=214.5",
+"oid": "12",
+"k": "73719676|225|total=214.5|12"
+},
+{
+"t": "Tue 03:15",
+"game": "Astros de Jalisco vs Soles de Mexicali",
+"lg": "Mexico - LNBP",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"why": "expected Astros de Jalisco 79 \u2013 Soles de Mexicali 82 (last 10/10 games, home edge included); 78% by the stats, 78% with the price; h2h 75% of 8 meetings, Flashscore home/away form 100%",
+"ts": 1794881700.0,
+"eid": "sr:match:76488118",
+"mid": "225",
+"spec": "total=146.5",
+"oid": "12",
+"k": "76488118|225|total=146.5|12"
+}
+],
+"chance": 0.0086
+}
+]
+},
+{
 "when": "Mon 16 Nov 10:14",
 "at": 1794820487,
 "req": {
@@ -11429,176 +11728,6 @@
 }
 ],
 "chance": 0.0
-}
-]
-},
-{
-"when": "Sun 15 Nov 15:17",
-"at": 1794752251,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "rebuild",
-"code": "K4XBYC",
-"markets": [
-"o25"
-],
-"strict": "normal",
-"rid": "mwhx57tbpqmp"
-},
-"ok": true,
-"kind": "rebuild of K4XBYC",
-"note": [
-"15 game(s) had none of your markets with strong enough stats (55%+) and were left out.",
-"Chance all 10 legs win: about 1%."
-],
-"tickets": [
-{
-"code": "NSHTX1",
-"odds": 43.08,
-"legs": [
-{
-"t": "Sun 15:30",
-"game": "AS Monaco vs Bastia SC",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "stats rate 71% from both teams' last 10, 71% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1794753000.0,
-"eid": "sr:match:73111654",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111654|18|total=2.5|12"
-},
-{
-"t": "Mon 16:00",
-"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
-"lg": "Portugal - U23 Liga Next Gen",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "stats rate 70% from both teams' last 10, 66% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1794841200.0,
-"eid": "sr:match:72962342",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72962342|18|total=2.5|12"
-},
-{
-"t": "Tue 20:00",
-"game": "Luton vs Peterborough United",
-"lg": "England - EFL Trophy",
-"pick": "Over 2.5",
-"odds": 1.36,
-"why": "stats rate 60% from both teams' last 10, 65% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1794942000.0,
-"eid": "sr:match:73661312",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73661312|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Quorn FC vs Bury FC",
-"lg": "England Amateur - Northern Premier League Premier",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "stats rate 80% from both teams' last 10, 73% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1794944700.0,
-"eid": "sr:match:76586856",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76586856|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "TSV Havelse vs FC Viktoria Cologne",
-"lg": "Germany - 3. Liga",
-"pick": "Over 2.5",
-"odds": 1.37,
-"why": "stats rate 71% from both teams' last 10, 70% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1795197600.0,
-"eid": "sr:match:72680302",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72680302|18|total=2.5|12"
-},
-{
-"t": "Sat 14:00",
-"game": "AL Wakrah SC vs Al-Sailiya SC",
-"lg": "Qatar - Stars League",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "stats rate 60% from both teams' last 10, 63% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1795266000.0,
-"eid": "sr:match:73374572",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73374572|18|total=2.5|12"
-},
-{
-"t": "Sat 15:30",
-"game": "FC Liefering vs Wacker Innsbruck",
-"lg": "Austria - 2. Liga",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "stats rate 78% from both teams' last 10, 73% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1795271400.0,
-"eid": "sr:match:72440770",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72440770|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Huddersfield vs Leicester",
-"lg": "England - League One",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "stats rate 82% from both teams' last 10, 72% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1795273200.0,
-"eid": "sr:match:72341392",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72341392|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Annan Athletic FC vs Forfar Athletic FC",
-"lg": "Scotland - League 2",
-"pick": "Over 2.5",
-"odds": 1.65,
-"why": "stats rate 68% from both teams' last 10, 62% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1795273200.0,
-"eid": "sr:match:72204344",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72204344|18|total=2.5|12"
-},
-{
-"t": "Sat 17:00",
-"game": "WSG Tirol vs Austria Lustenau",
-"lg": "Austria - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "stats rate 71% from both teams' last 10, 66% with the bookmaker's price (safest of your markets for this game)",
-"ts": 1795276800.0,
-"eid": "sr:match:72345590",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72345590|18|total=2.5|12"
-}
-],
-"chance": 0.0143
 }
 ]
 }
