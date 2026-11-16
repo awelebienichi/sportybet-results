@@ -1875,14 +1875,20 @@
 "game": "Kazakhstan vs Slovakia",
 "pick": "Handicap 2:0 \u2013 Kazakhstan",
 "odds": 1.32,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "W",
+"sc": "2-2",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
 "game": "Somalia vs Ghana",
 "pick": "Double chance Somalia or Ghana",
 "odds": 1.04,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 17:00",
