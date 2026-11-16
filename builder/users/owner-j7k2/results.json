@@ -2,6 +2,1446 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JKYT8G",
+"at": 1794851268,
+"when": "Mon 16 Nov 18:47",
+"kind": "Over 1.5",
+"odds": 6226.47,
+"status": "open",
+"legs": [
+{
+"t": "Tue 11:00",
+"game": "Denmark vs Bosnia and Herzegovina",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 13:00",
+"game": "Romania vs Ukraine",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794916800.0
+},
+{
+"t": "Tue 13:00",
+"game": "Iceland vs Wales",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1794916800.0
+},
+{
+"t": "Tue 16:00",
+"game": "Faroe Islands vs Azerbaijan",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794927600.0
+},
+{
+"t": "Tue 21:00",
+"game": "Niger vs Morocco",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794945600.0
+},
+{
+"t": "Thu 16:25",
+"game": "Al Ain FC vs Al Dhafra SSC",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795101900.0
+},
+{
+"t": "Fri 20:00",
+"game": "TOP Oss vs Roda JC Kerkrade",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:15",
+"game": "Yverdon-Sport vs FC Winterthur",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795202100.0
+},
+{
+"t": "Fri 20:30",
+"game": "FC Andorra vs Leganes",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 05:00",
+"game": "Club Tijuana de Caliente vs Atlante FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795233600.0
+},
+{
+"t": "Sat 06:00",
+"game": "Sanfrecce Hiroshima vs Yokohama F Marinos",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 11:30",
+"game": "Genclerbirligi SK vs Gaziantep FK",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Bhayangkara Presisi Indonesia FC vs Persijap Jepara",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Amed Sportif Faaliyetler vs Caykur Rizespor",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Kayserispor vs Sariyer SK",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "SK Sigma Olomouc vs Slavia Prague",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Polonia Warszawa vs FKS Stal Mielec",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cambridge United vs Stockport County FC",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "KAS Eupen vs Sporting Hasselt",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Chelmsford City",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Accrington Stanley vs Salford City",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidenhead United FC vs Folkestone Invicta",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Aston Villa vs Sunderland AFC",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Grimsby Town vs Rotherham United",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Burton Albion vs Luton",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Annan Athletic FC vs Forfar Athletic FC",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Linfield FC vs Limavady United FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Gateshead FC vs Hartlepool United",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Queens Park FC vs Livingston FC",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Chesterfield FC vs Shrewsbury Town",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Coquimbo Unido vs CD Everton Vina del Mar",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Sutton United vs Boston United FC",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "Fatih Karagumruk Istanbul vs Boluspor",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 19:00",
+"game": "Larne FC vs Ballymena United",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 20:30",
+"game": "FC St. Pauli vs Bochum",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795289400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Lens vs Toulouse",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:30",
+"game": "Alianza Lima vs FC Cajamarca",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795293000.0
+},
+{
+"t": "Sun 03:00",
+"game": "Wellington Phoenix FC vs Macarthur FC",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795312800.0
+},
+{
+"t": "Sun 04:00",
+"game": "Tigres UANL vs CF America",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795316400.0
+},
+{
+"t": "Sun 06:00",
+"game": "Jeonnam Dragons vs Ansan Greeners FC",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795323600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Esenler Erokspor vs Antalyaspor",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Everton FC Women vs Brighton and Hove Albion WFC",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 16:00",
+"game": "Karmiotissa FC vs AEL Limassol",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "K Beerschot VA vs Jong KRC Genk",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:30",
+"game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:30",
+"game": "Werder Bremen vs Hamburger SV",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Nordsjaelland vs Copenhagen",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "RSC Anderlecht vs Oud-Heverlee Leuven",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 20:00",
+"game": "Orense SC vs Mushuc Runa SC",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795374000.0
+},
+{
+"t": "Sun 21:00",
+"game": "Sporting Cristal vs Cienciano",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795377600.0
+}
+]
+},
+{
+"code": "MKJ929",
+"at": 1794851268,
+"when": "Mon 16 Nov 18:47",
+"kind": "Over 1.5",
+"odds": 1411.36,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "Sheffield Wednesday U21 vs Hull City U21",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 16:00",
+"game": "Scotland vs Belgium",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794927600.0
+},
+{
+"t": "Tue 18:30",
+"game": "Netherlands vs Denmark",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794936600.0
+},
+{
+"t": "Tue 18:30",
+"game": "Portugal vs Norway",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794936600.0
+},
+{
+"t": "Tue 20:45",
+"game": "Denmark vs Norway",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Leiston FC vs Stratford Town",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Oxford City vs Macclesfield FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 00:30",
+"game": "Ecuador vs Bolivia",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794958200.0
+},
+{
+"t": "Wed 18:45",
+"game": "Hacken Gothenburg W vs Manchester City WFC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795023900.0
+},
+{
+"t": "Thu 00:30",
+"game": "CR Flamengo RJ vs CA Paranaense PR",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795044600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FK Austria Wien vs Bayern Munich W",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 21:00",
+"game": "Arsenal WFC vs Olympique Lyon W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795118400.0
+},
+{
+"t": "Fri 04:00",
+"game": "Seattle Sounders vs Real Salt Lake",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795143600.0
+},
+{
+"t": "Fri 12:30",
+"game": "East Bengal FC vs Sporting Club Delhi",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 19:30",
+"game": "Neuchatel Xamax vs Etoile Carouge FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Koninklijke Lierse Sportkring vs KSC Lokeren Temse",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Helmond Sport vs FC Dordrecht",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795201200.0
+},
+{
+"t": "Sat 06:00",
+"game": "Jubilo Iwata vs RB Omiya Ardija",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hannover 96 vs Greuther Furth",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:30",
+"game": "Norwich vs Cardiff City",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 13:30",
+"game": "Millwall FC vs Queens Park Rangers",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Jahn Regensburg vs FC Wurzburger Kickers",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "SK Sturm Graz II vs SKU Amstetten",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 15:30",
+"game": "SV 07 Elversberg vs Freiburg",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wealdstone FC vs AFC Hornchurch",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Worthing FC vs Harrogate Town",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dungannon Swifts vs Crusaders FC",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Aldershot Town FC vs Scunthorpe United",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carrick Rangers vs Coleraine FC",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hibernian FC vs Dundee United",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:15",
+"game": "US Catanzaro vs Palermo FC",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795277700.0
+},
+{
+"t": "Sat 17:15",
+"game": "Nice vs PSG",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795277700.0
+},
+{
+"t": "Sat 18:00",
+"game": "Lugano vs Grasshopper Club Zurich",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Aris Limassol vs Nea Salamina Famagusta",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Yeovil Town vs Forest Green Rovers",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:30",
+"game": "CD Castellon vs Club Deportivo Eldense",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 19:30",
+"game": "Empoli vs SC Pisa",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795285800.0
+},
+{
+"t": "Sat 19:30",
+"game": "Grazer AK 1902 vs SK Rapid",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795285800.0
+},
+{
+"t": "Sat 20:45",
+"game": "Monaco vs AJ Auxerre",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:00",
+"game": "FC Groningen vs SC Heerenveen",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 13:30",
+"game": "VfB Stuttgart II vs FC Ingolstadt 04",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 13:30",
+"game": "Odds BK vs Bryne FK",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 13:30",
+"game": "Zalaegerszeg TE vs Vasas FC",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:45",
+"game": "Go Ahead Eagles vs Fortuna Sittard",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795362300.0
+},
+{
+"t": "Sun 17:00",
+"game": "Kristiansund BK vs Sandefjord Fotball",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Liverpool vs Man Utd",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 21:00",
+"game": "Sport Huancayo vs Universitario de Deportes",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 23:00",
+"game": "Inter San Carlos vs Sporting FC",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795384800.0
+}
+]
+},
+{
+"code": "SQJFA2",
+"at": 1794851268,
+"when": "Mon 16 Nov 18:47",
+"kind": "Over 1.5",
+"odds": 3839.29,
+"status": "open",
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "Guyana vs Puerto Rico",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794855600.0
+},
+{
+"t": "Tue 03:05",
+"game": "Irapuato vs Club Celaya FC",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794881100.0
+},
+{
+"t": "Tue 11:00",
+"game": "Singapore vs Brazil",
+"pick": "Over 1.5",
+"odds": 1.02,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 12:00",
+"game": "Hungary vs Czechia",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794913200.0
+},
+{
+"t": "Tue 16:00",
+"game": "Kosovo vs Kazakhstan",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794927600.0
+},
+{
+"t": "Tue 20:45",
+"game": "Poland vs Sweden",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Chippenham Town vs Sholing FC",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 00:00",
+"game": "Argentina vs Costa Rica",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794956400.0
+},
+{
+"t": "Wed 01:00",
+"game": "USA vs Haiti",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1794960000.0
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 23:30",
+"game": "EC Vitoria BA vs Red Bull Bragantino SP",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795127400.0
+},
+{
+"t": "Fri 09:30",
+"game": "Garuda Yaksa vs Madura United",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 12:30",
+"game": "OKS Swit Szczecin vs ZKS Stal Stalowa Wola",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Dewa United vs Persita Tangerang",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 18:00",
+"game": "GKS Piast Gliwice vs Korona Kielce",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Arminia Bielefeld vs 1. FC Magdeburg",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Stade Nyonnais vs FC Wil 1900",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pogon Szczecin vs WKS Slask Wroclaw",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Hellas Verona vs Cesena FC",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 03:00",
+"game": "FC Juarez vs Atlas FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795226400.0
+},
+{
+"t": "Sat 07:00",
+"game": "Central Coast Mariners vs Perth Glory FC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795240800.0
+},
+{
+"t": "Sat 08:00",
+"game": "Gamba Osaka vs Fagiano Okayama",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795244400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Vendsyssel FF vs Hvidovre IF",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC Tekstilshchik Ivanovo vs PFK Arsenal Tula",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Northeast United FC vs FC Goa",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Lazio vs Lecce",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Plymouth Argyle vs Peterborough United",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "AC Omonia Nicosia vs APOEL Nikosia",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Mansfield Town vs Milton Keynes Dons",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "NEC Nijmegen vs PSV Eindhoven",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 18:00",
+"game": "MFK Zemplin Michalovce vs Spartak Trnava",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:45",
+"game": "Dundee FC vs Heart of Midlothian FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 18:45",
+"game": "FC Utrecht vs SC Cambuur",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 20:00",
+"game": "New England Revolution vs Philadelphia Union",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795287600.0
+},
+{
+"t": "Sat 20:45",
+"game": "Strasbourg vs Brest",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 20:45",
+"game": "Napoli vs Torino",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795290300.0
+},
+{
+"t": "Sun 11:30",
+"game": "Batman Petrolspor vs Muglaspor",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795343400.0
+},
+{
+"t": "Sun 13:00",
+"game": "FK Pardubice vs FC Zbrojovka Brno",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:30",
+"game": "Energie Cottbus vs Hertha",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 13:30",
+"game": "Karlsruher SC vs VfL 1899 Osnabruck",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Viborg FF vs Randers FC",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "SCR Altach vs Sturm Graz",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "Wolfsberger AC vs SV Ried",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 16:00",
+"game": "SonderjyskE vs Odense Boldklub",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "Nyiregyhaza Spartacus FC vs Debreceni VSC",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Botev Plovdiv vs PFC CSKA Sofia",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Wisla Plock vs Legia Warszawa",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:30",
+"game": "RC Celta Fortuna vs Valladolid",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 19:15",
+"game": "Sarpsborg 08 vs Lillestroem SK",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795371300.0
+},
+{
+"t": "Sun 19:30",
+"game": "MSV Duisburg vs Hansa Rostock",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795372200.0
+}
+]
+},
+{
+"code": "QBS6KR",
+"at": 1794851268,
+"when": "Mon 16 Nov 18:47",
+"kind": "Over 1.5",
+"odds": 455.18,
+"status": "open",
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1794858300.0
+},
+{
+"t": "Tue 11:00",
+"game": "Slovakia vs Estonia",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 14:00",
+"game": "Barnsley U21 vs Wigan Athletic U21",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 15:00",
+"game": "Sheffield United U21 vs Huddersfield Town (R)",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1794924000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Spalding United vs Hebburn Town",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795032000.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795118400.0
+},
+{
+"t": "Fri 01:30",
+"game": "Orlando City SC vs FC Cincinnati",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795134600.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 09:40",
+"game": "Western Sydney Wanderers vs Adelaide United FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795164000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al Ahli Saudi FC vs Al Nassr Club",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Rapperswil-Jona vs FC Aarau",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "Over 1.5",
+"odds": 1.03,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795204800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 15:30",
+"game": "MFK Ruzomberok vs Slovan Bratislava",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Cove Rangers FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Huddersfield vs Leicester",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "York City FC vs Walsall FC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Spartans FC vs Dumbarton FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Ebbsfleet United FC",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Eindhoven vs RKC Waalwijk",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 17:00",
+"game": "WSG Tirol vs Austria Lustenau",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaalerenga IF vs IK Start",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Parma Calcio vs Roma",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:30",
+"game": "PAE PS Kalamata vs AEK Athens",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 23:50",
+"game": "CF Pachuca vs Deportivo Toluca FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795301400.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Zurich vs FC St. Gallen 1879",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Cordoba CF vs Real Oviedo",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "KFUM Oslo vs SK Brann",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "FK Austria Wien vs Salzburg",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bursaspor vs Sivasspor",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "PAOK vs AE Kifisia FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Atalanta vs Inter",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795376700.0
+}
+]
+},
+{
 "code": "ZE5Z9R",
 "at": 1794851136,
 "when": "Mon 16 Nov 18:45",
@@ -1166,7 +2606,10 @@
 "game": "Estonia vs Bulgaria",
 "pick": "1st half Under 2.5",
 "odds": 1.07,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 18:00",
