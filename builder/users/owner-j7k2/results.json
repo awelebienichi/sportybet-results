@@ -1021,7 +1021,10 @@
 "game": "Boston Celtics vs Dallas Mavericks",
 "pick": "Under 232.5 total points",
 "odds": 1.25,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "W",
+"sc": "131-94",
+"ht": "42-9"
 },
 {
 "t": "Mon 00:00",
@@ -1199,7 +1202,10 @@
 "game": "Boston Celtics vs Dallas Mavericks",
 "pick": "Under 232.5 total points",
 "odds": 1.25,
-"ts": 1794783600.0
+"ts": 1794783600.0,
+"r": "W",
+"sc": "131-94",
+"ht": "42-9"
 },
 {
 "t": "Mon 01:00",
