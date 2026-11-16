@@ -19,6 +19,8 @@ def warm():
             print("warm: footybets tips", extra.warm_footybets(), "| flashscore games", len(scores.day_list(True)), flush=True)
             import sources
             print("warm: fotmob / dfp / vitibet per day", sources.warm([g["ts"] for g in G]), flush=True)
+            import cstats
+            print("warm: compactstats games listed", cstats.warm(), flush=True)
             import bball
             print("warm: basketball games", bball.warm(), flush=True)
             import bbsources
