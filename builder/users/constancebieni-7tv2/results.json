@@ -7,7 +7,7 @@
 "when": "Mon 16 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 16:00",
@@ -21,7 +21,10 @@
 "game": "Kosovo vs Luxembourg",
 "pick": "1st half double chance Kosovo or draw",
 "odds": 1.17,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 17:00",
