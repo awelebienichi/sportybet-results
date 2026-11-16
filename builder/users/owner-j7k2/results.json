@@ -2,6 +2,121 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JWC9A4",
+"at": 1794796743,
+"when": "Mon 16 Nov 03:39",
+"kind": "your tracker's best markets",
+"odds": 9.83,
+"status": "open",
+"legs": [
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1794798600.0
+},
+{
+"t": "Mon 14:00",
+"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
+"pick": "1st half double chance Niki Volou 1924 PAE or draw",
+"odds": 1.07,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 15:00",
+"game": "Italy vs Switzerland",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794837600.0
+},
+{
+"t": "Mon 16:00",
+"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kosovo vs Luxembourg",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.16,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "Faroe Islands or GG",
+"odds": 1.23,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.3,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Portugal vs England",
+"pick": "Portugal or GG",
+"odds": 1.22,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 18:00",
+"game": "VfB Stuttgart vs Bayer Leverkusen",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:00",
+"game": "Greece vs Iceland",
+"pick": "Greece or GG",
+"odds": 1.19,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guyana vs Puerto Rico",
+"pick": "Goal bounds 2-5+",
+"odds": 1.21,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:30",
+"game": "England vs France",
+"pick": "England or GG",
+"odds": 1.18,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "Germany or GG",
+"odds": 1.1,
+"ts": 1794858300.0
+}
+]
+},
+{
 "code": "PLNY8N",
 "at": 1794796614,
 "when": "Mon 16 Nov 03:36",
