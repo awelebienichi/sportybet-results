@@ -1008,7 +1008,10 @@
 "game": "Utah Jazz vs San Antonio Spurs",
 "pick": "Under 239.5 total points",
 "odds": 1.25,
-"ts": 1794780000.0
+"ts": 1794780000.0,
+"r": "W",
+"sc": "102-110",
+"ht": "33-31"
 },
 {
 "t": "Mon 00:00",
@@ -1183,7 +1186,10 @@
 "game": "Utah Jazz vs San Antonio Spurs",
 "pick": "Under 239.5 total points",
 "odds": 1.25,
-"ts": 1794780000.0
+"ts": 1794780000.0,
+"r": "W",
+"sc": "102-110",
+"ht": "33-31"
 },
 {
 "t": "Mon 00:00",
