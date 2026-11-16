@@ -1,5 +1,69 @@
 [
 {
+"when": "Mon 16 Nov 21:51",
+"at": 1794862294,
+"req": {
+"u": "elizabethbieni-b8lo",
+"name": "",
+"type": "fbmix",
+"fb_type": "mix",
+"fb_legs": 5,
+"bb_kind": "total",
+"bb_legs": 3,
+"days": [
+"2026-11-16"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwjqncurf0bk"
+},
+"ok": true,
+"kind": "football + basketball (0 \u26bd + 2 \ud83c\udfc0)",
+"note": [
+"Football: 0 of 5 legs passed the checks (Only 0 game(s) pass the checks for safest market per game (Mon 16) out of 0 on SportyBet. Try 'Relaxed', more days, or another type.).",
+"Basketball: 2 of 3 legs passed the checks.",
+"Chance all 2 legs win: about 62%."
+],
+"tickets": [
+{
+"code": "RHJKCX",
+"odds": 1.45,
+"legs": [
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"lg": "Brazil - NBB",
+"pick": "Under 169.5 total points",
+"odds": 1.21,
+"why": "expected Cruzeiro Basquete 82 \u2013 Fortaleza Basquete Cearense 72 (last 9/10 games, home edge included); 81% by the stats, 80% with the price",
+"ts": 1794868200.0,
+"eid": "sr:match:74320764",
+"mid": "225",
+"spec": "total=169.5",
+"oid": "13",
+"k": "74320764|225|total=169.5|13"
+},
+{
+"t": "Mon 23:30",
+"game": "Sao Jose dos Campos vs Mogi das Cruzes",
+"lg": "Brazil - NBB",
+"pick": "Over 148.5 total points",
+"odds": 1.2,
+"why": "expected Sao Jose dos Campos 80 \u2013 Mogi das Cruzes 84 (last 10/10 games, home edge included); 80% by the stats, 79% with the price; Flashscore home/away form 80%",
+"ts": 1794868200.0,
+"eid": "sr:match:74320766",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "74320766|225|total=148.5|12"
+}
+],
+"chance": 0.6247
+}
+]
+},
+{
 "when": "Mon 16 Nov 15:02",
 "at": 1794837751,
 "req": {
