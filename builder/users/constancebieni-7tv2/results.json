@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "GP3QBP",
+"at": 1794858141,
+"when": "Mon 16 Nov 20:42",
+"kind": "live \u2013 best of all",
+"odds": 2.28,
+"status": "open",
+"legs": [
+{
+"t": "Mon 19:00",
+"game": "Social Atletico Television vs CA River Plate (ARG)",
+"pick": "Social Atletico Television Under 3.5",
+"odds": 1.11,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Atletico Lanus vs CA Talleres de Cordoba",
+"pick": "Under 2.5",
+"odds": 1.12,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Leones de Rosario FC vs CS Barracas",
+"pick": "Under 1.5",
+"odds": 1.14,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:30",
+"game": "Municipal Limeno vs CD Fuerte San Francisco",
+"pick": "Municipal Limeno Under 2.5",
+"odds": 1.03,
+"ts": 1794853800.0
+},
+{
+"t": "Mon 20:00",
+"game": "Plymouth Argyle vs Leicester City U21",
+"pick": "Leicester City U21 to win",
+"odds": 1.05,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Norwich City U21 vs Exeter City Reserve",
+"pick": "Handicap 0:3 \u2013 Exeter City Reserve",
+"odds": 1.35,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:30",
+"game": "ASD Sorrento 1945 vs SS Monopoli",
+"pick": "Handicap 0:4 \u2013 SS Monopoli",
+"odds": 1.07,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"pick": "Over 1.5",
+"odds": 1.04,
+"ts": 1794857400.0
+}
+]
+},
+{
 "code": "GL1PUM",
 "at": 1794857134,
 "when": "Mon 16 Nov 20:25",
