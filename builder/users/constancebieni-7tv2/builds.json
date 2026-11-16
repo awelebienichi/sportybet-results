@@ -1,5 +1,161 @@
 [
 {
+"when": "Mon 16 Nov 20:25",
+"at": 1794857134,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 40,
+"strict": "normal",
+"rid": "mwjnl4d9pfms"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 9 live leg(s) were strong enough right now (you asked for 40).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 9 legs win: about 29%."
+],
+"tickets": [
+{
+"code": "GL1PUM",
+"odds": 2.19,
+"legs": [
+{
+"t": "Mon 19:00",
+"game": "UTC de Cajamarca vs Los Chankas CYC",
+"lg": "Peru - Liga 1",
+"pick": "Under 6.5",
+"odds": 1.06,
+"why": "LIVE 2-2 66': UTC de Cajamarca expected 0.4 and Los Chankas CYC 0.4 more goals (last 10 + season); 2-2 at 66' \u2013 92% chance; Flashscore home/away form 55%, FotMob: 2.7 goals a game, h2h 80% of 5 meetings (3.5 line)",
+"ts": 1794852000.0,
+"eid": "sr:match:76593094",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "76593094|18|total=6.5|13"
+},
+{
+"t": "Mon 19:00",
+"game": "Hungary vs Cyprus",
+"lg": "International Youth - U21 Friendly Games",
+"pick": "Under 7.5",
+"odds": 1.06,
+"why": "LIVE 3-2 66': Hungary expected 0.6 and Cyprus 0.3 more goals (last 10); 3-2 at 66' \u2013 91% chance; Flashscore home/away form 70%",
+"ts": 1794852000.0,
+"eid": "sr:match:76744230",
+"mid": "18",
+"spec": "total=7.5",
+"oid": "13",
+"k": "76744230|18|total=7.5|13"
+},
+{
+"t": "Mon 19:00",
+"game": "Atletico Lanus vs CA Talleres de Cordoba",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Under 3.5",
+"odds": 1.07,
+"why": "LIVE 1-0 57': Atletico Lanus expected 0.3 and CA Talleres de Cordoba 0.6 more goals (last 10 + season); 1-0 at 57' \u2013 92% chance; Flashscore home/away form 80%, season: 2.3 goals a game",
+"ts": 1794852000.0,
+"eid": "sr:match:76730268",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76730268|18|total=3.5|13"
+},
+{
+"t": "Mon 19:00",
+"game": "Leones de Rosario FC vs CS Barracas",
+"lg": "Argentina - Primera C",
+"pick": "Under 2.5",
+"odds": 1.09,
+"why": "LIVE 0-0 57': Leones de Rosario FC expected 0.5 and CS Barracas 0.4 more goals (last 10 + season); 0-0 at 57' \u2013 92% chance; Flashscore home/away form 65%, h2h 67% of 3 meetings (2.5 line)",
+"ts": 1794852000.0,
+"eid": "sr:match:76485392",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76485392|18|total=2.5|13"
+},
+{
+"t": "Mon 19:00",
+"game": "Union de Santa Fe vs Racing Club",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Under 4.5",
+"odds": 1.06,
+"why": "LIVE 1-1 62': Union de Santa Fe expected 0.4 and Racing Club 0.7 more goals (last 10 + season); 1-1 at 62' \u2013 89% chance; Flashscore home/away form 60%",
+"ts": 1794852000.0,
+"eid": "sr:match:76730266",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76730266|18|total=4.5|13"
+},
+{
+"t": "Mon 19:00",
+"game": "Independente Atalaia AL vs Guarani de Paripueira Al",
+"lg": "Brazil - Alagoano, Women",
+"pick": "Handicap 4:0 \u2013 Independente Atalaia AL",
+"odds": 1.14,
+"why": "LIVE 1-3 67': Independente Atalaia AL expected 0.9 and Guarani de Paripueira Al 0.7 more goals (last 10); 1-3 at 67' \u2013 88% chance; margin record 89% / 80% in both sides' last games",
+"ts": 1794852000.0,
+"eid": "sr:match:75393396",
+"mid": "14",
+"spec": "hcp=4:0",
+"oid": "1711",
+"k": "75393396|14|hcp=4:0|1711"
+},
+{
+"t": "Mon 19:00",
+"game": "Social Atletico Television vs CA River Plate (ARG)",
+"lg": "Argentina - Primera Division, Women",
+"pick": "Under 5.5",
+"odds": 1.12,
+"why": "LIVE 2-2 66': Social Atletico Television expected 0.2 and CA River Plate (ARG) 0.4 more goals (last 10 + season); 2-2 at 66' \u2013 86% chance; Flashscore home/away form 75%, season: 2.0 goals a game, h2h 75% of 8 meetings (3.5 line)",
+"ts": 1794852000.0,
+"eid": "sr:match:76730262",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76730262|18|total=5.5|13"
+},
+{
+"t": "Mon 19:30",
+"game": "Municipal Limeno vs CD Fuerte San Francisco",
+"lg": "El Salvador - Primera Division, Reserves",
+"pick": "Municipal Limeno Under 2.5",
+"odds": 1.03,
+"why": "LIVE 0-0 45': Municipal Limeno expected 0.7 and CD Fuerte San Francisco 0.9 more goals (last 10 + season); 0-0 at 45' \u2013 95% chance; goals record 80% / 90% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1794853800.0,
+"eid": "sr:match:76779688",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76779688|19|total=2.5|13"
+},
+{
+"t": "Mon 20:00",
+"game": "Norwich City U21 vs Exeter City Reserve",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Handicap 0:4 \u2013 Exeter City Reserve",
+"odds": 1.22,
+"why": "LIVE 0-0 24': Norwich City U21 expected 1.6 and Exeter City Reserve 1.6 more goals (last 10); 0-0 at 24' \u2013 95% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 3 meetings",
+"ts": 1794855600.0,
+"eid": "sr:match:73685050",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "73685050|14|hcp=0:4|1713"
+}
+],
+"chance": 0.2892
+}
+]
+},
+{
 "when": "Mon 16 Nov 10:00",
 "at": 1794819636,
 "req": {
@@ -6280,75 +6436,5 @@
 },
 "ok": false,
 "msg": "Only 1 game(s) pass the checks for your chosen markets (Sat 14, 00:00\u201301:52) out of 4 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Sat 14 Nov 00:12",
-"at": 1794611579,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwfle35qwwg2"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 5).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "J4104T",
-"odds": 1.25,
-"legs": [
-{
-"t": "Fri 22:30",
-"game": "Sao Joao Del Rei EC MG vs Nacional AC Muriae MG",
-"lg": "Brazil - Mineiro, Segunda Divisao",
-"pick": "Handicap 0:5 \u2013 Nacional AC Muriae MG",
-"odds": 1.14,
-"why": "LIVE 4-0 84': Sao Joao Del Rei EC MG expected 0.1 and Nacional AC Muriae MG 0.1 more goals (last 10); 4-0 at 84' \u2013 85% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794605400.0,
-"eid": "sr:match:75837326",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "75837326|14|hcp=0:5|1713"
-},
-{
-"t": "Fri 23:00",
-"game": "Lobos UPNFM Reserves vs Motagua Reserves",
-"lg": "Honduras - Honduras Reserve League",
-"pick": "Motagua Reserves or draw",
-"odds": 1.06,
-"why": "LIVE 1-2 51': no team stats for this game \u2013 SportyBet's own price says 89%",
-"ts": 1794607200.0,
-"eid": "sr:match:111111114688939",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "111111114688939|10||11"
-},
-{
-"t": "Fri 23:09",
-"game": "Artesanos Metepec FC II vs Deportivo Metepec",
-"lg": "Mexico - Mexico Liga TDP",
-"pick": "Deportivo Metepec or draw",
-"odds": 1.05,
-"why": "LIVE 0-1 45': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794607740.0,
-"eid": "sr:match:111111114410527",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "111111114410527|10||11"
-}
-]
-}
-]
 }
 ]
