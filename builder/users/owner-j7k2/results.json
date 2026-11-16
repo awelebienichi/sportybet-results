@@ -6682,7 +6682,10 @@
 "game": "UTC de Cajamarca vs Los Chankas CYC",
 "pick": "Handicap 2:0 \u2013 UTC de Cajamarca",
 "odds": 1.18,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "5-3",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:00",
@@ -6720,7 +6723,10 @@
 "game": "Social Atletico Television vs CA River Plate (ARG)",
 "pick": "Double chance Social Atletico Television or CA River Plate (ARG)",
 "odds": 1.32,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:00",
