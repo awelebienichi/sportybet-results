@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PLNY8N",
+"at": 1794796614,
+"when": "Mon 16 Nov 03:36",
+"kind": "goal-fest teams (season data)",
+"odds": 3.93,
+"status": "open",
+"legs": [
+{
+"t": "Mon 04:10",
+"game": "Deportivo Toluca FC vs Club America",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1794798600.0
+},
+{
+"t": "Mon 16:00",
+"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guadeloupe vs Bermuda",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794855600.0
+}
+]
+},
+{
 "code": "PJ7SX8",
 "at": 1794796573,
 "when": "Mon 16 Nov 03:36",
@@ -6938,7 +6976,7 @@
 "odds": 1.23,
 "ts": 1794791400.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
