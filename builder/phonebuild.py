@@ -140,6 +140,7 @@ def league_stats(G, LX):
             for m in LX.get(t, []): L[g["lg"]][m["id"]] = m["gf"] + m["ga"]
     return {k: (sum(v.values())/len(v), sum(x >= 3 for x in v.values())/len(v), sum(x <= 1 for x in v.values())/len(v)) for k, v in L.items() if len(v) >= 15}
 
+O25_MAX = {0.0: 1.50, 0.1: 1.60, 0.2: 1.70}   # Over 2.5 price cap by strictness: tracked legs at 1.70+ won 35-39% vs 46-56% implied
 O15_MAX = 1.25        # Over 1.5 above this price won 70% of 87 tracked legs when the odds said 76%
 def o15_top(H, A):
     """the strongest Over 1.5 games: both teams had 2+ goals in 90%+ of their last 10, or 80%+ and in every one of their last 5.
@@ -159,10 +160,16 @@ def pick_goals(G, LX, kind):
     need, hneed = need - ST["L"], hneed - ST["L"]
     C = []
     for g in G:
-        if g["lg"] not in LS or not ok_lg(g["lg"]) or (spec, oid) not in g["ou"]: continue
+        if (kind != "o25" and (g["lg"] not in LS or not ok_lg(g["lg"]))) or (spec, oid) not in g["ou"]: continue
         H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
         if len(H) < 6 or len(A) < 6: continue
         if kind == "o15" and g["ou"][(spec, oid)] > O15_MAX: continue
+        if kind == "o25":
+            # Over 2.5 is PRICE-LED (16 Nov test, 1,002 priced candidates + 581 tracked legs): teams on hot Over 2.5 runs did WORSE
+            # than their odds (both 70%+ of last 10: won 60% vs 67% implied; 80%+: 51% vs 68%) – the bookmaker already prices the
+            # run in. The price itself was honest (1.50 or less: 70-73% won), so legs are taken lowest price first, under a cap.
+            if g["ou"][(spec, oid)] > O25_MAX.get(round(ST["L"], 1), 1.60): continue
+            C.append((g, sum(m["gf"] + m["ga"] >= 3 for m in H) / len(H), sum(m["gf"] + m["ga"] >= 3 for m in A) / len(A), lambda n: n >= 3)); continue
         hit = (lambda n: n >= line) if over else (lambda n: n < line)
         hu = sum(hit(m["gf"] + m["ga"]) for m in H) / len(H); au = sum(hit(m["gf"] + m["ga"]) for m in A) / len(A)
         if min(hu, au) < need: continue
@@ -173,6 +180,13 @@ def pick_goals(G, LX, kind):
     out = []
     for (g, hu, au, hit), hh in zip(C, HH):
         hr = sum(hit(a + b) for a, b in hh) / len(hh) if len(hh) >= 3 else None
+        if kind == "o25":
+            if hr is not None and len(hh) >= 5 and hr < .4: continue              # meetings mostly under 2.5: 47% won vs 53% implied
+            od = g["ou"][(spec, oid)]; imp = 1 / (od * 1.06)
+            out.append(dict(eid=g["eid"], mid="18", spec=spec, oid=oid, pick="Over 2.5", odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=imp, rate=imp,
+                            why=f"Over 2.5 at {od:.2f}: SportyBet's own price gives {imp:.0%}" + (f", {hr:.0%} of {len(hh)} meetings" if hr is not None else "") +
+                                f"; teams' last 10 {hu:.0%} / {au:.0%}"))
+            continue
         if hr is not None and hr < hneed: continue
         s = min(hu, au)*.4 + (hu+au)/2*.3 + (hr if hr is not None else (hu+au)/2)*.2 + (min(LS[g["lg"]][0], 4.5)/4.5 if over else (3 - min(LS[g["lg"]][0], 3))/3)*.1
         top = kind == "o15" and o15_top(LX[g["hid"]], LX[g["aid"]])
@@ -363,6 +377,7 @@ def safe_enough(k, g, LX, rate, odds):
     Value only decides between legs that already pass this."""
     mx = SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0)
     if k == "o15": mx = min(mx, O15_MAX)
+    if k == "o25": mx = min(mx, O25_MAX.get(round(ST["L"], 1), 1.60))
     if odds > mx or rate < bar(k): return False
     try:
         import rollover
@@ -1080,7 +1095,7 @@ def main(req):
             import extra
             P, dropped = extra.confirm(P, legs * nt)
         except Exception as e: print("extra checks skipped:", e)
-    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (high-scoring leagues)",
+    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)
