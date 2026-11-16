@@ -7278,7 +7278,7 @@
 "odds": 1.23,
 "ts": 1794791400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -9565,14 +9565,20 @@
 "game": "CF Monterrey vs CF Pachuca",
 "pick": "CF Monterrey to win (1UP)",
 "odds": 1.33,
-"ts": 1794790800.0
+"ts": 1794790800.0,
+"r": "W",
+"sc": "3-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 04:10",
 "game": "Deportivo Toluca FC vs Club America",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1794798600.0
+"ts": 1794798600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Mon 13:00",
@@ -10074,7 +10080,10 @@
 "game": "Deportivo Toluca FC vs Club America",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1794798600.0
+"ts": 1794798600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Mon 13:00",
@@ -10347,7 +10356,10 @@
 "game": "Deportivo Toluca FC vs Club America",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1794798600.0
+"ts": 1794798600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Mon 20:00",
