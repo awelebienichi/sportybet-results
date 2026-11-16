@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WH1H8H",
+"at": 1794847996,
+"when": "Mon 16 Nov 17:53",
+"kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 5 basketball)",
+"odds": 24.3,
+"status": "open",
+"legs": [
+{
+"t": "Mon 19:00",
+"game": "Andorra vs Azerbaijan",
+"pick": "1st half double chance Azerbaijan or draw",
+"odds": 1.15,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:05",
+"game": "Hapoel Holon BC vs Hapoel Haemek",
+"pick": "Over 146.5 total points",
+"odds": 1.2,
+"ts": 1794852300.0
+},
+{
+"t": "Mon 21:15",
+"game": "CD Moquegua vs Atletico Grau",
+"pick": "CD Moquegua to score 3+ in a row \u2013 No",
+"odds": 1.14,
+"ts": 1794860100.0
+},
+{
+"t": "Tue 02:05",
+"game": "IA Central Cordoba vs CA San Lorenzo de Almagro",
+"pick": "Over 139.5 total points",
+"odds": 1.19,
+"ts": 1794877500.0
+},
+{
+"t": "Tue 03:15",
+"game": "Astros de Jalisco vs Soles de Mexicali",
+"pick": "Over 145.5 total points",
+"odds": 1.21,
+"ts": 1794881700.0
+},
+{
+"t": "Tue 11:05",
+"game": "Nagasaki Velca vs Seahorses Mikawa",
+"pick": "Over 153.5 total points",
+"odds": 1.21,
+"ts": 1794909900.0
+},
+{
+"t": "Tue 12:00",
+"game": "Hungary vs Czechia",
+"pick": "1st half double chance Czechia or draw",
+"odds": 1.17,
+"ts": 1794913200.0
+},
+{
+"t": "Tue 16:00",
+"game": "Kosovo vs Kazakhstan",
+"pick": "1st half double chance Kosovo or draw",
+"odds": 1.29,
+"ts": 1794927600.0
+},
+{
+"t": "Tue 17:00",
+"game": "Togo vs Algeria",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:30",
+"game": "Turk Telekom vs CB 1939 Canarias",
+"pick": "Over 151.5 total points",
+"odds": 1.23,
+"ts": 1794933000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.1,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ireland vs Kosovo",
+"pick": "1st half double chance Ireland or draw",
+"odds": 1.22,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Spennymoor Town FC vs Chester FC",
+"pick": "1st half double chance Chester FC or draw",
+"odds": 1.19,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bosnia & Herzegovina vs Romania",
+"pick": "1st half double chance Bosnia & Herzegovina or draw",
+"odds": 1.22,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 00:00",
+"game": "Chile vs Colombia",
+"pick": "1st half double chance Colombia or draw",
+"odds": 1.21,
+"ts": 1794956400.0
+},
+{
+"t": "Wed 00:15",
+"game": "Club Olimpo vs Kimberley de Mar Del Plata",
+"pick": "Club Olimpo to score 3+ in a row \u2013 No",
+"odds": 1.13,
+"ts": 1794957300.0
+},
+{
+"t": "Thu 01:30",
+"game": "Gremio FB Porto Alegrense RS vs EC Bahia BA",
+"pick": "Gremio FB Porto Alegrense RS to score 3+ in a row \u2013 No",
+"odds": 1.13,
+"ts": 1795048200.0
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "1st half double chance FC Fratria Varna or draw",
+"odds": 1.16,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:30",
+"game": "Al Ahli Doha SC vs Al-Shamal",
+"pick": "1st half double chance Al-Shamal or draw",
+"odds": 1.29,
+"ts": 1795102200.0
+}
+]
+},
+{
 "code": "PZJ27Y",
 "at": 1794845714,
 "when": "Mon 16 Nov 17:15",
@@ -453,7 +596,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Goal bounds 2-5+",
 "odds": 1.4,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -462,7 +608,7 @@
 "odds": 1.28,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -720,7 +866,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Goal bounds 2-5+",
 "odds": 1.4,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -729,7 +878,7 @@
 "odds": 1.28,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -961,7 +1110,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Faroe Islands to score 3+ in a row \u2013 No",
 "odds": 1.14,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -980,7 +1132,7 @@
 "odds": 1.11,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -1385,7 +1537,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Faroe Islands to score 3+ in a row \u2013 No",
 "odds": 1.14,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -1404,7 +1559,7 @@
 "odds": 1.11,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -1518,7 +1673,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Faroe Islands or GG",
 "odds": 1.23,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -1527,7 +1685,7 @@
 "odds": 1.21,
 "ts": 1794841200.0,
 "r": "L",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -1660,7 +1818,7 @@
 "when": "Mon 16 Nov 10:00",
 "kind": "rebuild of QN5QAU",
 "odds": 992.1,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:00",
@@ -1707,7 +1865,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Over 1.5",
 "odds": 1.42,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -1969,7 +2130,10 @@
 "game": "Kosovo vs Luxembourg",
 "pick": "Over 2.5",
 "odds": 1.91,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 17:00",
@@ -2099,7 +2263,10 @@
 "game": "Faroe Islands vs Moldova",
 "pick": "Faroe Islands or GG",
 "odds": 1.23,
-"ts": 1794841200.0
+"ts": 1794841200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 16:00",
@@ -2108,7 +2275,7 @@
 "odds": 1.3,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -2238,7 +2405,7 @@
 "odds": 1.1,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -3149,7 +3316,7 @@
 "odds": 1.11,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -4409,7 +4576,7 @@
 "odds": 1.11,
 "ts": 1794841200.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
