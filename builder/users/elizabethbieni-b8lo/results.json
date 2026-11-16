@@ -157,7 +157,10 @@
 "game": "CF Monterrey vs CF Pachuca",
 "pick": "1st half excluded goals: 2",
 "odds": 1.27,
-"ts": 1794790800.0
+"ts": 1794790800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 02:10",
@@ -251,7 +254,7 @@
 "when": "Sun 15 Nov 22:36",
 "kind": "your chosen markets",
 "odds": 7.16,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 00:00",
@@ -298,7 +301,10 @@
 "game": "CF Monterrey vs CF Pachuca",
 "pick": "1st half excluded goals: 2",
 "odds": 1.27,
-"ts": 1794790800.0
+"ts": 1794790800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 02:10",
