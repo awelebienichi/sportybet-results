@@ -140,6 +140,14 @@ def league_stats(G, LX):
             for m in LX.get(t, []): L[g["lg"]][m["id"]] = m["gf"] + m["ga"]
     return {k: (sum(v.values())/len(v), sum(x >= 3 for x in v.values())/len(v), sum(x <= 1 for x in v.values())/len(v)) for k, v in L.items() if len(v) >= 15}
 
+O15_MAX = 1.25        # Over 1.5 above this price won 70% of 87 tracked legs when the odds said 76%
+def o15_top(H, A):
+    """the strongest Over 1.5 games: both teams had 2+ goals in 90%+ of their last 10, or 80%+ and in every one of their last 5.
+    Replayed on 4,149 finished games: 87-89% came true (the old rule alone: 82-85%); on 107 tracked legs 90% won vs 84% implied"""
+    o = lambda L: sum(m["gf"] + m["ga"] >= 2 for m in L) / len(L)
+    lo = min(o(H), o(A))
+    return lo >= .9 or (lo >= .8 and min(o(H[-5:]), o(A[-5:])) >= 1)
+
 def pick_goals(G, LX, kind):
     LS = league_stats(G, LX)
     if kind == "o25": ok_lg = lambda k: LS[k][0] >= 3.1 - 3 * ST["L"] and LS[k][1] >= .6 - ST["L"]
@@ -154,6 +162,7 @@ def pick_goals(G, LX, kind):
         if g["lg"] not in LS or not ok_lg(g["lg"]) or (spec, oid) not in g["ou"]: continue
         H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
         if len(H) < 6 or len(A) < 6: continue
+        if kind == "o15" and g["ou"][(spec, oid)] > O15_MAX: continue
         hit = (lambda n: n >= line) if over else (lambda n: n < line)
         hu = sum(hit(m["gf"] + m["ga"]) for m in H) / len(H); au = sum(hit(m["gf"] + m["ga"]) for m in A) / len(A)
         if min(hu, au) < need: continue
@@ -166,10 +175,12 @@ def pick_goals(G, LX, kind):
         hr = sum(hit(a + b) for a, b in hh) / len(hh) if len(hh) >= 3 else None
         if hr is not None and hr < hneed: continue
         s = min(hu, au)*.4 + (hu+au)/2*.3 + (hr if hr is not None else (hu+au)/2)*.2 + (min(LS[g["lg"]][0], 4.5)/4.5 if over else (3 - min(LS[g["lg"]][0], 3))/3)*.1
+        top = kind == "o15" and o15_top(LX[g["hid"]], LX[g["aid"]])
+        if top: s += 1                                                          # top tier first: used up before any other Over 1.5
         word = {"o25": "Over 2.5", "o25yw": "Over 2.5", "u25": "Under 2.5", "o15": "Over 1.5"}[kind]
         rate = (hu + au) / 2 * .7 + (hr if hr is not None else (hu + au) / 2) * .3
-        out.append(dict(eid=g["eid"], mid="18", spec=spec, oid=oid, pick=word, odds=g["ou"][(spec, oid)], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=s, rate=rate,
-                        why=f"{word} in {hu:.0%} / {au:.0%} of the teams' last 10" + (f", {hr:.0%} of {len(hh)} meetings" if hr is not None else "") + f", league avg {LS[g['lg']][0]:.1f} goals"))
+        out.append(dict(eid=g["eid"], mid="18", spec=spec, oid=oid, pick=word, odds=g["ou"][(spec, oid)], ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=s, rate=rate, top=top,
+                        why=("TOP TIER: " if top else "") + f"{word} in {hu:.0%} / {au:.0%} of the teams' last 10" + (f", {hr:.0%} of {len(hh)} meetings" if hr is not None else "") + f", league avg {LS[g['lg']][0]:.1f} goals"))
     return sorted(out, key=lambda r: -r["s"])
 
 def event_markets(eid):
@@ -351,6 +362,7 @@ def safe_enough(k, g, LX, rate, odds):
     is not a coin flip. Strict: 1.60 max and the market's bar +2 points; Normal: 1.75, -3; Relaxed: 2.00, -8.
     Value only decides between legs that already pass this."""
     mx = SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0)
+    if k == "o15": mx = min(mx, O15_MAX)
     if odds > mx or rate < bar(k): return False
     try:
         import rollover
@@ -1060,7 +1072,7 @@ def main(req):
     # its stats rate and the bookmaker's own price together – so weaker legs are only used once all stronger ones are on the ticket
     if P and all(p.get("rate") is not None for p in P):
         for p in P: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
-        P.sort(key=lambda p: -p["chance"])
+        P.sort(key=lambda p: (-bool(p.get("top")), -p["chance"]))              # Over 1.5 top tier (o15_top) before the rest
     seen = set(); P = [p for p in P if not (p["eid"] in seen or seen.add(p["eid"]))]   # one leg per game
     dropped = 0
     if req.get("check", True):   # Flashscore home/away form + footybets must not go against a leg
