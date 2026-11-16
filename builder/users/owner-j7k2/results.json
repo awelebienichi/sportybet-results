@@ -6471,7 +6471,10 @@
 "game": "Cuba vs Grenada",
 "pick": "1st half double chance Cuba or draw",
 "odds": 1.1,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "4-0",
+"ht": "4-0"
 },
 {
 "t": "Mon 20:30",
@@ -8131,7 +8134,10 @@
 "game": "Cuba vs Grenada",
 "pick": "1st half double chance Cuba or draw",
 "odds": 1.11,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "4-0",
+"ht": "4-0"
 },
 {
 "t": "Mon 20:00",
