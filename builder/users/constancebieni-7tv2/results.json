@@ -7,7 +7,7 @@
 "when": "Mon 16 Nov 20:42",
 "kind": "live \u2013 best of all",
 "odds": 2.28,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 19:00",
@@ -64,7 +64,10 @@
 "game": "Norwich City U21 vs Exeter City Reserve",
 "pick": "Handicap 0:3 \u2013 Exeter City Reserve",
 "odds": 1.35,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "L",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:30",
@@ -175,7 +178,10 @@
 "game": "Norwich City U21 vs Exeter City Reserve",
 "pick": "Handicap 0:4 \u2013 Exeter City Reserve",
 "odds": 1.22,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 }
 ]
 },

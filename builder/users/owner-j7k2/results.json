@@ -6593,7 +6593,10 @@
 "game": "Norwich City U21 vs Exeter City Reserve",
 "pick": "Norwich City U21 or GG",
 "odds": 1.04,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:00",
@@ -6881,7 +6884,10 @@
 "game": "Norwich City U21 vs Exeter City Reserve",
 "pick": "Double chance Norwich City U21 or Exeter City Reserve",
 "odds": 1.12,
-"ts": 1794855600.0
+"ts": 1794855600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:00",
