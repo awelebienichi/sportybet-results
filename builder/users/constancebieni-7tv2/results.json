@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "SGL1YX",
+"at": 1794865780,
+"when": "Mon 16 Nov 22:49",
+"kind": "live \u2013 best of all",
+"odds": 1.16,
+"status": "open",
+"legs": [
+{
+"t": "Mon 21:15",
+"game": "CD Moquegua vs Atletico Grau",
+"pick": "Under 4.5",
+"odds": 1.03,
+"ts": 1794860100.0
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"pick": "Asociacion Deportiva Tarma Under 2.5",
+"odds": 1.06,
+"ts": 1794860100.0
+},
+{
+"t": "Mon 22:00",
+"game": "Club Deportivo Platense Reserves vs Genesis FC Reserves",
+"pick": "Club Deportivo Platense Reserves to win",
+"odds": 1.06,
+"ts": 1794862800.0
+}
+]
+},
+{
 "code": "GP3QBP",
 "at": 1794858141,
 "when": "Mon 16 Nov 20:42",
