@@ -7,7 +7,7 @@
 "when": "Mon 16 Nov 22:49",
 "kind": "live \u2013 best of all",
 "odds": 1.16,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Mon 21:15",
@@ -34,7 +34,10 @@
 "game": "Club Deportivo Platense Reserves vs Genesis FC Reserves",
 "pick": "Club Deportivo Platense Reserves to win",
 "odds": 1.06,
-"ts": 1794862800.0
+"ts": 1794862800.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 }
 ]
 },
