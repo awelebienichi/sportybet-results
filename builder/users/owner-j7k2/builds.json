@@ -1,5 +1,97 @@
 [
 {
+"when": "Mon 16 Nov 03:36",
+"at": 1794796573,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-16"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1u25"
+],
+"rid": "mwiningv2ga5"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 4 games passed the checks (Mon 16, 70 games on SportyBet), so this ticket has 4 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 4 legs win: about 52%."
+],
+"tickets": [
+{
+"code": "PJ7SX8",
+"odds": 1.59,
+"legs": [
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 5 meetings",
+"ts": 1794841200.0,
+"eid": "sr:match:68932376",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932376|68|total=2.5|13"
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.1,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings",
+"ts": 1794841200.0,
+"eid": "sr:match:68932378",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68932378|68|total=2.5|13"
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10",
+"ts": 1794844800.0,
+"eid": "sr:match:75802276",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75802276|68|total=2.5|13"
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings",
+"ts": 1794858300.0,
+"eid": "sr:match:68931588",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68931588|68|total=2.5|13"
+}
+],
+"chance": 0.5171
+}
+]
+},
+{
 "when": "Sun 15 Nov 23:34",
 "at": 1794782093,
 "req": {
@@ -18152,379 +18244,6 @@
 }
 ],
 "chance": 0.021
-}
-]
-},
-{
-"when": "Sun 15 Nov 14:22",
-"at": 1794748957,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 25,
-"tickets": 1,
-"days": [
-"2026-11-15",
-"2026-11-16"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"o15"
-],
-"rid": "mwhv6k094cj1"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 24 games passed the checks (Sun 15, Mon 16, 308 games on SportyBet), so this ticket has 24 legs instead of 25. Tick more days or use 'Relaxed' for more.",
-"Chance all 24 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "GXNJ0W",
-"odds": 61.32,
-"legs": [
-{
-"t": "Sun 15:00",
-"game": "Boldmere St Michaels Women vs Stockport County Lfc",
-"lg": "England Amateur - FA Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "stats rate 94% from both teams' last 10; Flashscore home/away form 85%",
-"ts": 1794751200.0,
-"eid": "sr:match:76088626",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76088626|18|total=1.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
-"lg": "England Amateur - FA Cup, Women",
-"pick": "Over 1.5",
-"odds": 1.07,
-"why": "stats rate 92% from both teams' last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:76320390",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76320390|18|total=1.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "Metz FC vs AJ Auxerre",
-"lg": "France - Seconde Ligue, Women",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%, season: 2.8 goals a game",
-"ts": 1794751200.0,
-"eid": "sr:match:72700620",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72700620|18|total=1.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "CD Manacor vs UD Alcudia",
-"lg": "Spain Amateur - Tercera Federacion, Group 11",
-"pick": "Over 1.5",
-"odds": 1.17,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, season: 3.1 goals a game",
-"ts": 1794754800.0,
-"eid": "sr:match:73584714",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73584714|18|total=1.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Avenir Beggen vs The Belval Belvaux",
-"lg": "Luxembourg - Promotion d'Honneur",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "stats rate 90% from both teams' last 10; season: 2.7 goals a game",
-"ts": 1794754800.0,
-"eid": "sr:match:72964536",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72964536|18|total=1.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "CD Guadiana vs CD Gevora",
-"lg": "Spain Amateur - Tercera Federacion, Group 14",
-"pick": "Over 1.5",
-"odds": 1.25,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, season: 3.2 goals a game",
-"ts": 1794756600.0,
-"eid": "sr:match:73564392",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73564392|18|total=1.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "Ittihad Kalba FC vs Shabab Al Ahli Dubai",
-"lg": "United Arab Emirates - Pro League Cup",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
-"ts": 1794756600.0,
-"eid": "sr:match:75907956",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75907956|18|total=1.5|12"
-},
-{
-"t": "Sun 16:45",
-"game": "FC Twente Enschede W vs PSV Eindhoven",
-"lg": "Netherlands - Eredivisie, Women",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
-"ts": 1794757500.0,
-"eid": "sr:match:72467522",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72467522|18|total=1.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "UD Sanse vs Rayo Ciudad Alcobendas",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "stats rate 100% from both teams' last 10; season: 4.0 goals a game",
-"ts": 1794758400.0,
-"eid": "sr:match:73581360",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73581360|18|total=1.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "Club Haro Deportivo vs CD Berceo",
-"lg": "Spain Amateur - Tercera Federacion, Group 16",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, season: 3.8 goals a game",
-"ts": 1794758400.0,
-"eid": "sr:match:73563020",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73563020|18|total=1.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "Real Balompedica Linense vs RC Portuense",
-"lg": "Spain Amateur - Tercera Federacion, Group 10",
-"pick": "Over 1.5",
-"odds": 1.38,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%, season: 2.8 goals a game",
-"ts": 1794758400.0,
-"eid": "sr:match:73583600",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73583600|18|total=1.5|12"
-},
-{
-"t": "Sun 19:00",
-"game": "Leones Negros UDEG vs Atletico Morelia",
-"lg": "Mexico - Liga de Expansion MX",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 99%, season: 3.3 goals a game",
-"ts": 1794765600.0,
-"eid": "sr:match:76629022",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76629022|18|total=1.5|12"
-},
-{
-"t": "Sun 20:30",
-"game": "Urena SC vs Barquisimeto SC",
-"lg": "Venezuela - Segunda Division",
-"pick": "Over 1.5",
-"odds": 1.27,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, season: 2.9 goals a game",
-"ts": 1794771000.0,
-"eid": "sr:match:76807282",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76807282|18|total=1.5|12"
-},
-{
-"t": "Sun 20:45",
-"game": "Spain vs England",
-"lg": "International - UEFA Nations League",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 87%, FotMob: 3.9 goals a game, Vitibet tip 2-1, season: 3.9 goals a game",
-"ts": 1794771900.0,
-"eid": "sr:match:68931760",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "68931760|18|total=1.5|12"
-},
-{
-"t": "Sun 20:45",
-"game": "Croatia vs Czechia",
-"lg": "International - UEFA Nations League",
-"pick": "Over 1.5",
-"odds": 1.23,
-"why": "stats rate 91% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, footybets 86%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
-"ts": 1794771900.0,
-"eid": "sr:match:68931758",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "68931758|18|total=1.5|12"
-},
-{
-"t": "Sun 21:00",
-"game": "Aguilas de la Universidad de Panama vs Veraguas United FC B",
-"lg": "Panama - Liga Prom",
-"pick": "Over 1.5",
-"odds": 1.17,
-"why": "stats rate 96% from both teams' last 10 and 5 meetings; season: 4.2 goals a game",
-"ts": 1794772800.0,
-"eid": "sr:match:76708748",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76708748|18|total=1.5|12"
-},
-{
-"t": "Sun 21:00",
-"game": "Humble Lions FC vs Arnett Gardens FC",
-"lg": "Jamaica - Premier League",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, season: 3.2 goals a game",
-"ts": 1794772800.0,
-"eid": "sr:match:74695530",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74695530|18|total=1.5|12"
-},
-{
-"t": "Sun 21:00",
-"game": "Gotham FC vs Kansas City Current",
-"lg": "USA - National Womens Soccer League",
-"pick": "Over 1.5",
-"odds": 1.31,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%",
-"ts": 1794772800.0,
-"eid": "sr:match:76636578",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76636578|18|total=1.5|12"
-},
-{
-"t": "Mon 00:00",
-"game": "CD Inca vs CD Aguila San Miguel",
-"lg": "El Salvador - Primera Division",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%, FotMob: 2.9 goals a game, Vitibet tip 1-2, season: 2.9 goals a game",
-"ts": 1794783600.0,
-"eid": "sr:match:73075406",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73075406|18|total=1.5|12"
-},
-{
-"t": "Mon 00:05",
-"game": "CD Suchitepequez vs Antigua GFC",
-"lg": "Guatemala - Liga Nacional",
-"pick": "Over 1.5",
-"odds": 1.28,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.0 goals a game, Vitibet tip 1-2, season: 3.0 goals a game",
-"ts": 1794783900.0,
-"eid": "sr:match:72475092",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72475092|18|total=1.5|12"
-},
-{
-"t": "Mon 04:10",
-"game": "Deportivo Toluca FC vs Club America",
-"lg": "Mexico - Liga MX, Women",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, season: 4.5 goals a game",
-"ts": 1794798600.0,
-"eid": "sr:match:76595266",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76595266|18|total=1.5|12"
-},
-{
-"t": "Mon 20:00",
-"game": "Cuba vs Grenada",
-"lg": "International - CONCACAF Nations League",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 4.4 goals a game, season: 4.4 goals a game",
-"ts": 1794855600.0,
-"eid": "sr:match:75468430",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75468430|18|total=1.5|12"
-},
-{
-"t": "Mon 20:30",
-"game": "Albacete Balompie vs RC Celta Fortuna",
-"lg": "Spain - LaLiga 2",
-"pick": "Over 1.5",
-"odds": 1.18,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%, footybets 87%, FotMob: 3.1 goals a game, Vitibet tip 2-1, season: 3.1 goals a game",
-"ts": 1794857400.0,
-"eid": "sr:match:72477582",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72477582|18|total=1.5|12"
-},
-{
-"t": "Mon 20:45",
-"game": "Germany vs Netherlands",
-"lg": "International - UEFA Nations League",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 96%, FotMob: 2.8 goals a game, season: 2.8 goals a game",
-"ts": 1794858300.0,
-"eid": "sr:match:68931588",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "68931588|18|total=1.5|12"
-}
-],
-"chance": 0.0051
 }
 ]
 }
