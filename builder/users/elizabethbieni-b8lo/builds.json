@@ -1,7 +1,7 @@
 [
 {
-"when": "Mon 16 Nov 12:23",
-"at": 1794828180,
+"when": "Mon 16 Nov 13:49",
+"at": 1794833388,
 "req": {
 "u": "elizabethbieni-b8lo",
 "name": "Elizabeth Bienichi",
@@ -32,23 +32,9 @@
 ],
 "tickets": [
 {
-"code": "JNDWPC",
+"code": "JSPJQ6",
 "odds": 4.44,
 "legs": [
-{
-"t": "Mon 14:00",
-"game": "Namibia vs Cameroon",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10 and 5 meetings",
-"ts": 1794834000.0,
-"eid": "sr:match:75803690",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "75803690|810002||3"
-},
 {
 "t": "Mon 16:00",
 "game": "Faroe Islands vs Moldova",
@@ -106,20 +92,6 @@
 "k": "75802270|810002||3"
 },
 {
-"t": "Tue 17:00",
-"game": "Guinea-Bissau vs Madagascar",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.06,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794931200.0,
-"eid": "sr:match:75802324",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "75802324|810002||3"
-},
-{
 "t": "Wed 19:00",
 "game": "Utebo FC vs CE Sabadell FC",
 "lg": "Spain - Copa del Rey",
@@ -162,6 +134,20 @@
 "k": "73928184|810002||3"
 },
 {
+"t": "Fri 17:00",
+"game": "FK Septemvri Sofia vs PFC Lokomotiv Plovdiv",
+"lg": "Bulgaria - Parva Liga",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795190400.0,
+"eid": "sr:match:71998280",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "71998280|810002||3"
+},
+{
 "t": "Sat 06:00",
 "game": "Blaublitz Akita vs Montedio Yamagata",
 "lg": "Japan - J2 League",
@@ -174,6 +160,20 @@
 "spec": "",
 "oid": "3",
 "k": "72151366|810002||3"
+},
+{
+"t": "Sat 06:00",
+"game": "FC Ska-Khabarovsk vs SK Rotor Volgograd",
+"lg": "Russia - 1. Liga",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795237200.0,
+"eid": "sr:match:73937068",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "73937068|810002||3"
 },
 {
 "t": "Sat 14:00",
