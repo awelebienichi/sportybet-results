@@ -2456,7 +2456,10 @@
 "game": "CD Moquegua vs Atletico Grau",
 "pick": "CD Moquegua to score 3+ in a row \u2013 No",
 "odds": 1.15,
-"ts": 1794860100.0
+"ts": 1794860100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 21:15",
@@ -4709,7 +4712,10 @@
 "game": "CD Moquegua vs Atletico Grau",
 "pick": "CD Moquegua to score 3+ in a row \u2013 No",
 "odds": 1.14,
-"ts": 1794860100.0
+"ts": 1794860100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 02:05",
@@ -7065,7 +7071,10 @@
 "game": "CD Moquegua vs Atletico Grau",
 "pick": "Double chance CD Moquegua or Atletico Grau",
 "odds": 1.27,
-"ts": 1794860100.0
+"ts": 1794860100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 }
 ]
 },
