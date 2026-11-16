@@ -1,5 +1,224 @@
 [
 {
+"when": "Mon 16 Nov 19:48",
+"at": 1794854894,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "pattern",
+"fh": 10,
+"htd": 0,
+"bank": 5,
+"bb": 5,
+"o15": 10,
+"days": [
+"2026-11-16"
+],
+"strict": "normal",
+"rid": "mwjm8i7jd3yy"
+},
+"ok": true,
+"kind": "pattern combo (0 HT draw + 4 bankers + 5 1st-half + 1 Over 1.5 + 3 basketball)",
+"note": [
+"1st-half pattern: 5 of 10 found in the price ranges that won.",
+"Over 1.5 top tier: 1 of 10 found for the days chosen (tick more days for more).",
+"Basketball totals: 3 of 5 found at 1.15-1.25.",
+"Pattern estimate from your own results: about 21% chance this ticket wins (about 1 in 5).",
+"Chance all 13 legs win: about 7% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "VQQXDG",
+"odds": 7.96,
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "KK Studentski centar Podgorica vs BC Vienna",
+"lg": "International - Liga ABA",
+"pick": "Over 153.5 total points",
+"odds": 1.21,
+"why": "expected KK Studentski centar Podgorica 87 \u2013 BC Vienna 81 (last 10/10 games, home edge included, BC Vienna on 2nd game in 2 days); 79% by the stats, 78% with the price (pattern: basketball total 1.15-1.25)",
+"ts": 1794855600.0,
+"eid": "sr:match:74131970",
+"mid": "225",
+"spec": "total=153.5",
+"oid": "12",
+"k": "74131970|225|total=153.5|12"
+},
+{
+"t": "Mon 20:30",
+"game": "ASD Sorrento 1945 vs SS Monopoli",
+"lg": "Italy - Serie C, Group C",
+"pick": "ASD Sorrento 1945 to score 3+ in a row \u2013 No",
+"odds": 1.06,
+"why": "pattern banker: ASD Sorrento 1945 scored 3+ in only 10% of its last 10 games; 2.2 goals a game",
+"ts": 1794857400.0,
+"eid": "sr:match:73294840",
+"mid": "60021",
+"spec": "",
+"oid": "76",
+"k": "73294840|60021||76"
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"lg": "Spain - LaLiga 2",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 85%, footybets 87%, FotMob: 3.1 goals a game, Vitibet tip 2-1, season: 3.1 goals a game (pattern: Over 1.5 top tier)",
+"ts": 1794857400.0,
+"eid": "sr:match:72477582",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72477582|18|total=1.5|12"
+},
+{
+"t": "Mon 20:45",
+"game": "Gibraltar vs Malta",
+"lg": "International - UEFA Nations League",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.06,
+"why": "pattern banker: 2+ goals in BOTH halves in only 10% of the teams' last games; 2.4 goals a game",
+"ts": 1794858300.0,
+"eid": "sr:match:68932816",
+"mid": "58",
+"spec": "total=1.5",
+"oid": "76",
+"k": "68932816|58|total=1.5|76"
+},
+{
+"t": "Mon 20:45",
+"game": "North Macedonia vs Slovenia",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 85% from both teams' last 10 and 6 meetings (your 1st-half pattern)",
+"ts": 1794858300.0,
+"eid": "sr:match:68932800",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932800|75||76"
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.22,
+"why": "stats rate 90% from both teams' last 10 and 3 meetings (your 1st-half pattern)",
+"ts": 1794858300.0,
+"eid": "sr:match:68931590",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68931590|75||76"
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"lg": "International - UEFA Nations League",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1794858300.0,
+"eid": "sr:match:68931588",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68931588|68|total=2.5|13"
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"lg": "International - UEFA Nations League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1794858300.0,
+"eid": "sr:match:68932802",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "68932802|75||76"
+},
+{
+"t": "Mon 20:45",
+"game": "Perugia Calcio Spa vs SEF Torres Sassari",
+"lg": "Italy - Serie C, Group B",
+"pick": "1st half GG \u2013 No",
+"odds": 1.22,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1794858300.0,
+"eid": "sr:match:73294086",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73294086|75||76"
+},
+{
+"t": "Mon 21:15",
+"game": "CD Moquegua vs Atletico Grau",
+"lg": "Peru - Liga 1",
+"pick": "CD Moquegua to score 3+ in a row \u2013 No",
+"odds": 1.15,
+"why": "pattern banker: CD Moquegua scored 3+ in only 0% of its last 10 games; 2.8 goals a game",
+"ts": 1794860100.0,
+"eid": "sr:match:71936254",
+"mid": "60021",
+"spec": "",
+"oid": "76",
+"k": "71936254|60021||76"
+},
+{
+"t": "Mon 21:15",
+"game": "Cusco FC vs Asociacion Deportiva Tarma",
+"lg": "Peru - Liga 1",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.15,
+"why": "pattern banker: 2+ goals in BOTH halves in only 10% of the teams' last games; 2.4 goals a game",
+"ts": 1794860100.0,
+"eid": "sr:match:71936246",
+"mid": "58",
+"spec": "total=1.5",
+"oid": "76",
+"k": "71936246|58|total=1.5|76"
+},
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"lg": "Brazil - NBB",
+"pick": "Under 169.5 total points",
+"odds": 1.21,
+"why": "expected Cruzeiro Basquete 82 \u2013 Fortaleza Basquete Cearense 72 (last 9/10 games, home edge included); 81% by the stats, 80% with the price (pattern: basketball total 1.15-1.25)",
+"ts": 1794868200.0,
+"eid": "sr:match:74320764",
+"mid": "225",
+"spec": "total=169.5",
+"oid": "13",
+"k": "74320764|225|total=169.5|13"
+},
+{
+"t": "Mon 23:30",
+"game": "Sao Jose dos Campos vs Mogi das Cruzes",
+"lg": "Brazil - NBB",
+"pick": "Over 148.5 total points",
+"odds": 1.2,
+"why": "expected Sao Jose dos Campos 80 \u2013 Mogi das Cruzes 84 (last 10/10 games, home edge included); 80% by the stats, 79% with the price; Flashscore home/away form 80% (pattern: basketball total 1.15-1.25)",
+"ts": 1794868200.0,
+"eid": "sr:match:74320766",
+"mid": "225",
+"spec": "total=148.5",
+"oid": "12",
+"k": "74320766|225|total=148.5|12"
+}
+],
+"chance": 0.0666
+}
+]
+},
+{
 "when": "Mon 16 Nov 19:27",
 "at": 1794853656,
 "req": {
@@ -12638,155 +12857,6 @@
 }
 ],
 "chance": 0.055
-}
-]
-},
-{
-"when": "Sun 15 Nov 16:05",
-"at": 1794755155,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-15",
-"2026-11-16"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"h1u25"
-],
-"rid": "mwhyv4iu9ce2"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 8 games passed the checks (Sun 15, Mon 16, 223 games on SportyBet), so this ticket has 8 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 8 legs win: about 29%."
-],
-"tickets": [
-{
-"code": "VWULZ0",
-"odds": 2.33,
-"legs": [
-{
-"t": "Sun 16:30",
-"game": "FC Penafiel vs Lusitania FC Lourosa",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "1st half Under 2.5",
-"odds": 1.09,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings",
-"ts": 1794756600.0,
-"eid": "sr:match:72531672",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72531672|68|total=2.5|13"
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"lg": "Italy - Serie C, Group B",
-"pick": "1st half Under 2.5",
-"odds": 1.12,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794760200.0,
-"eid": "sr:match:73294090",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73294090|68|total=2.5|13"
-},
-{
-"t": "Sun 20:30",
-"game": "Danubio FC vs Liverpool Montevideo",
-"lg": "Uruguay - Primera Division",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
-"why": "stats rate 92% from both teams' last 10 and 8 meetings",
-"ts": 1794771000.0,
-"eid": "sr:match:76455622",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76455622|68|total=2.5|13"
-},
-{
-"t": "Sun 21:00",
-"game": "Tivoli Gardens vs Montego Bay United",
-"lg": "Jamaica - Premier League",
-"pick": "1st half Under 2.5",
-"odds": 1.11,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794772800.0,
-"eid": "sr:match:74695526",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "74695526|68|total=2.5|13"
-},
-{
-"t": "Mon 16:00",
-"game": "Faroe Islands vs Moldova",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Under 2.5",
-"odds": 1.08,
-"why": "stats rate 95% from both teams' last 10 and 5 meetings",
-"ts": 1794841200.0,
-"eid": "sr:match:68932376",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68932376|68|total=2.5|13"
-},
-{
-"t": "Mon 16:00",
-"game": "Kazakhstan vs Slovakia",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Under 2.5",
-"odds": 1.11,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings",
-"ts": 1794841200.0,
-"eid": "sr:match:68932378",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68932378|68|total=2.5|13"
-},
-{
-"t": "Mon 17:00",
-"game": "Central African Republic vs Benin",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "1st half Under 2.5",
-"odds": 1.08,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794844800.0,
-"eid": "sr:match:75802276",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75802276|68|total=2.5|13"
-},
-{
-"t": "Mon 20:45",
-"game": "Germany vs Netherlands",
-"lg": "International - UEFA Nations League",
-"pick": "1st half Under 2.5",
-"odds": 1.24,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794858300.0,
-"eid": "sr:match:68931588",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "68931588|68|total=2.5|13"
-}
-],
-"chance": 0.2908
 }
 ]
 }
