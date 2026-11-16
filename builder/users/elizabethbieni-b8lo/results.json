@@ -2,6 +2,156 @@
 "from": 1794833382,
 "tickets": [
 {
+"code": "GCPYTJ",
+"at": 1794837751,
+"when": "Mon 16 Nov 15:02",
+"kind": "your chosen markets",
+"odds": 4.52,
+"status": "open",
+"legs": [
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1794841200.0
+},
+{
+"t": "Tue 00:00",
+"game": "Montevideo Wanderers vs CA Juventud de Las Piedras",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1794870000.0
+},
+{
+"t": "Tue 17:00",
+"game": "Sierra Leone vs Congo DR",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Czechia vs Turkiye",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1794931200.0
+},
+{
+"t": "Wed 19:00",
+"game": "Utebo FC vs CE Sabadell FC",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795024800.0
+},
+{
+"t": "Thu 01:30",
+"game": "SC Corinthians SP vs Botafogo FR RJ",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795048200.0
+},
+{
+"t": "Fri 06:50",
+"game": "Western Sydney Wanderers vs Wellington Phoenix",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795153800.0
+},
+{
+"t": "Fri 17:00",
+"game": "FK Septemvri Sofia vs PFC Lokomotiv Plovdiv",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795190400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Blaublitz Akita vs Montedio Yamagata",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 06:00",
+"game": "FC Ska-Khabarovsk vs SK Rotor Volgograd",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 14:00",
+"game": "CE Sabadell FC vs Granada",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:45",
+"game": "Quevilly-Rouen Metropole vs Valenciennes FC",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1795268700.0
+},
+{
+"t": "Sat 14:45",
+"game": "AS Cannes vs SC Aubagne Air Bel",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795268700.0
+},
+{
+"t": "Sat 16:00",
+"game": "Nestos Chrysoupoli FC vs Hellas Syrou",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Panthrakikos FC Komotini vs Panionios Athens",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "APS Zakynthos vs Panserraikos FC",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:30",
+"game": "Zaglebie Lubin vs Gornik Zabrze",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"ts": 1795278600.0
+},
+{
+"t": "Sun 00:30",
+"game": "Puntarenas FC vs CS Herediano",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795303800.0
+},
+{
+"t": "Sun 08:30",
+"game": "Paju Frontier FC vs Cheonan City FC",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795332600.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Vizela vs CD Feirense",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795356000.0
+}
+]
+},
+{
 "code": "JSPJQ6",
 "at": 1794833388,
 "when": "Mon 16 Nov 13:49",
