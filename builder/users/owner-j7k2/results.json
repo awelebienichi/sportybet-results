@@ -2,6 +2,233 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KJL7RV",
+"at": 1794853656,
+"when": "Mon 16 Nov 19:27",
+"kind": "1st half Over 0.5",
+"odds": 264.5,
+"status": "open",
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "Guadeloupe vs Bermuda",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1794855600.0
+},
+{
+"t": "Tue 14:00",
+"game": "Barnsley U21 vs Wigan Athletic U21",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 15:00",
+"game": "Sheffield United U21 vs Huddersfield Town (R)",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1794924000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Luton vs Peterborough United",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "South Shields vs Harborough Town FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 01:00",
+"game": "USA vs Haiti",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"ts": 1794960000.0
+},
+{
+"t": "Thu 18:45",
+"game": "FK Austria Wien vs Bayern Munich W",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"ts": 1795110300.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al Ahli Saudi FC vs Al Nassr Club",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "TSV Havelse vs FC Viktoria Cologne",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 20:00",
+"game": "Vitesse Arnhem vs Jong AZ Alkmaar",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "De Graafschap vs MVV Maastricht",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cercle Brugge vs KVC Westerlo",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795203900.0
+},
+{
+"t": "Sat 13:30",
+"game": "Norwich vs Cardiff City",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al-Sailiya SC",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "RFC Liege vs RSC Anderlecht Futures",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Farnborough FC vs Salisbury FC",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "NEC Nijmegen vs PSV Eindhoven",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795275000.0
+},
+{
+"t": "Sun 13:30",
+"game": "Odds BK vs Bryne FK",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 19:15",
+"game": "Sarpsborg 08 vs Lillestroem SK",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795371300.0
+}
+]
+},
+{
 "code": "VJLVCT",
 "at": 1794853544,
 "when": "Mon 16 Nov 19:25",
