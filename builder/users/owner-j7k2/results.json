@@ -2,6 +2,219 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JNDVJ6",
+"at": 1794819652,
+"when": "Mon 16 Nov 10:00",
+"kind": "rebuild of QN5QAU",
+"odds": 992.1,
+"status": "open",
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Namibia vs Cameroon",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Sudan vs Senegal",
+"pick": "1st half double chance Senegal or draw",
+"odds": 1.06,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 14:00",
+"game": "Zimbabwe vs Equatorial Guinea",
+"pick": "Double chance Zimbabwe or Equatorial Guinea",
+"odds": 1.36,
+"ts": 1794834000.0
+},
+{
+"t": "Mon 15:00",
+"game": "Boca Juniors vs Ferro Carril Oeste",
+"pick": "Over 1.5",
+"odds": 1.27,
+"ts": 1794837600.0
+},
+{
+"t": "Mon 16:00",
+"game": "Faroe Islands vs Moldova",
+"pick": "Over 1.5",
+"odds": 1.42,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Kazakhstan vs Slovakia",
+"pick": "Handicap 2:0 \u2013 Kazakhstan",
+"odds": 1.32,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 16:00",
+"game": "Somalia vs Ghana",
+"pick": "Double chance Somalia or Ghana",
+"odds": 1.04,
+"ts": 1794841200.0
+},
+{
+"t": "Mon 17:00",
+"game": "Central African Republic vs Benin",
+"pick": "Over 1.5",
+"odds": 1.36,
+"ts": 1794844800.0
+},
+{
+"t": "Mon 18:00",
+"game": "Estonia vs Bulgaria",
+"pick": "Handicap 0:2 \u2013 Bulgaria",
+"odds": 1.25,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:00",
+"game": "Iceland vs Luxembourg",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:00",
+"game": "Lithuania vs Liechtenstein",
+"pick": "1st half double chance Lithuania or draw",
+"odds": 1.04,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 19:00",
+"game": "UTC de Cajamarca vs Los Chankas CYC",
+"pick": "Handicap 2:0 \u2013 UTC de Cajamarca",
+"odds": 1.18,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Leones de Rosario FC vs CS Barracas",
+"pick": "Double chance Leones de Rosario FC or CS Barracas",
+"odds": 1.18,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Atletico Lanus vs CA Talleres de Cordoba",
+"pick": "Double chance CA Talleres de Cordoba or draw",
+"odds": 1.04,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "CA Huracan vs Gimnasia Y Esgrima La Plata",
+"pick": "Double chance Gimnasia Y Esgrima La Plata or draw",
+"odds": 1.49,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "AS Bakaridjan vs Derby Academie",
+"pick": "Over 1.5",
+"odds": 1.42,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Social Atletico Television vs CA River Plate (ARG)",
+"pick": "Double chance Social Atletico Television or CA River Plate (ARG)",
+"odds": 1.32,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guadeloupe vs Bermuda",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Norwich City U21 vs Exeter City Reserve",
+"pick": "Double chance Norwich City U21 or Exeter City Reserve",
+"odds": 1.12,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Cuba or GG",
+"odds": 1.04,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:30",
+"game": "Aragua FC vs Deportivo Lara",
+"pick": "Over 1.5",
+"odds": 1.35,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:30",
+"game": "ASD Sorrento 1945 vs SS Monopoli",
+"pick": "Double chance SS Monopoli or draw",
+"odds": 1.46,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "Handicap 0:2 \u2013 Netherlands",
+"odds": 1.4,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Gibraltar vs Malta",
+"pick": "Handicap 2:0 \u2013 Gibraltar",
+"odds": 1.47,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Greece vs Serbia",
+"pick": "Handicap 0:2 \u2013 Serbia",
+"odds": 1.69,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "North Macedonia vs Slovenia",
+"pick": "Over 1.5",
+"odds": 1.4,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 20:45",
+"game": "Switzerland vs Scotland",
+"pick": "Over 1.5",
+"odds": 1.3,
+"ts": 1794858300.0
+},
+{
+"t": "Mon 21:15",
+"game": "CD Moquegua vs Atletico Grau",
+"pick": "Double chance CD Moquegua or Atletico Grau",
+"odds": 1.27,
+"ts": 1794860100.0
+}
+]
+},
+{
 "code": "H7FKND",
 "at": 1794808610,
 "when": "Mon 16 Nov 06:56",
