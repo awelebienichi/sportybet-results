@@ -6772,7 +6772,7 @@
 "when": "Mon 16 Nov 06:56",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 2.25,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Mon 15:00",
@@ -6789,7 +6789,10 @@
 "game": "Union de Santa Fe vs Racing Club",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1794852000.0
+"ts": 1794852000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 }
 ]
 },
