@@ -1490,7 +1490,7 @@
 "when": "Mon 16 Nov 06:52",
 "kind": "Over 2.5 (high-scoring leagues)",
 "odds": 751.68,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 11:00",
@@ -1504,7 +1504,10 @@
 "game": "FC Chernigiv vs FC Lokomotiv Kyiv",
 "pick": "Over 2.5",
 "odds": 1.82,
-"ts": 1794825000.0
+"ts": 1794825000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 15:00",
