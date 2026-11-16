@@ -1,5 +1,25 @@
 [
 {
+"when": "Mon 16 Nov 06:46",
+"at": 1794807993,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-15"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwiubot058kd"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for Over 2.5 (high-scoring leagues) (Sun 15) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Mon 16 Nov 03:39",
 "at": 1794796743,
 "req": {
@@ -17524,179 +17544,6 @@
 }
 ],
 "chance": 0.0395
-}
-]
-},
-{
-"when": "Sun 15 Nov 14:37",
-"at": 1794749878,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "best",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-15",
-"2026-11-16"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwhvnkenxrp7"
-},
-"ok": true,
-"kind": "your tracker's best markets",
-"note": [
-"Chance all 10 legs win: about 26%."
-],
-"tickets": [
-{
-"code": "SC9ZAQ",
-"odds": 2.36,
-"legs": [
-{
-"t": "Sun 15:00",
-"game": "Wolverhampton Wanderers WFC vs Durham LFC",
-"lg": "England Amateur - Super League 2, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, FotMob: 4.3 goals a game",
-"ts": 1794751200.0,
-"eid": "sr:match:73346552",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73346552|450001||25"
-},
-{
-"t": "Sun 15:00",
-"game": "Boldmere St Michaels Women vs Stockport County Lfc",
-"lg": "England Amateur - FA Cup, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"why": "stats rate 94% from both teams' last 10; Flashscore home/away form 85%",
-"ts": 1794751200.0,
-"eid": "sr:match:76088626",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76088626|450001||25"
-},
-{
-"t": "Sun 15:00",
-"game": "Leeds United LFC vs Norton & Stockton Ancients LFC",
-"lg": "England Amateur - FA Cup, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.07,
-"why": "stats rate 92% from both teams' last 10",
-"ts": 1794751200.0,
-"eid": "sr:match:76320390",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76320390|450001||25"
-},
-{
-"t": "Sun 16:00",
-"game": "Calavera CF vs Marbella FC",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Goal bounds 2-5+",
-"odds": 1.11,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794754800.0,
-"eid": "sr:match:76506618",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76506618|450001||25"
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"lg": "Italy - Serie C, Group B",
-"pick": "1st half double chance Ravenna FC 1913 or draw",
-"odds": 1.11,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794760200.0,
-"eid": "sr:match:73294090",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73294090|63||9"
-},
-{
-"t": "Mon 04:10",
-"game": "Deportivo Toluca FC vs Club America",
-"lg": "Mexico - Liga MX, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.07,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%",
-"ts": 1794798600.0,
-"eid": "sr:match:76595266",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76595266|450001||25"
-},
-{
-"t": "Mon 13:00",
-"game": "GS Marko vs APS Zakynthos",
-"lg": "Greece - Super League 2",
-"pick": "1st half double chance GS Marko or draw",
-"odds": 1.06,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794830400.0,
-"eid": "sr:match:74172538",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "74172538|63||9"
-},
-{
-"t": "Mon 14:00",
-"game": "Niki Volou 1924 PAE vs Pas Pyrgos",
-"lg": "Greece - Super League 2",
-"pick": "1st half double chance Niki Volou 1924 PAE or draw",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794834000.0,
-"eid": "sr:match:74172534",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "74172534|63||9"
-},
-{
-"t": "Mon 16:00",
-"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
-"lg": "Portugal - U23 Liga Next Gen",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794841200.0,
-"eid": "sr:match:72962342",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72962342|450001||25"
-},
-{
-"t": "Mon 20:00",
-"game": "Cuba vs Grenada",
-"lg": "International - CONCACAF Nations League",
-"pick": "Cuba or GG",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%",
-"ts": 1794855600.0,
-"eid": "sr:match:75468430",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "75468430|860||74"
-}
-],
-"chance": 0.2603
 }
 ]
 }
