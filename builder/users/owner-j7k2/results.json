@@ -2396,7 +2396,10 @@
 "game": "Gibraltar vs Malta",
 "pick": "Both halves Over 1.5 \u2013 No",
 "odds": 1.06,
-"ts": 1794858300.0
+"ts": 1794858300.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:45",
@@ -6995,7 +6998,10 @@
 "game": "Gibraltar vs Malta",
 "pick": "Handicap 2:0 \u2013 Gibraltar",
 "odds": 1.47,
-"ts": 1794858300.0
+"ts": 1794858300.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:45",
