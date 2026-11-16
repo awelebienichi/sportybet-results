@@ -1,5 +1,30 @@
 [
 {
+"when": "Mon 16 Nov 05:20",
+"at": 1794802835,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"markets": [
+"o15",
+"o25"
+],
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-16"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 100,
+"rid": "mwir9j3dqpaj"
+},
+"ok": false,
+"msg": "Could not reach 100 odds with 50 legs or fewer from the 7 games that pass the checks for your chosen markets (Mon 16). Allow more legs or a lower target."
+},
+{
 "when": "Mon 16 Nov 05:19",
 "at": 1794802769,
 "req": {
@@ -9158,28 +9183,5 @@
 },
 "ok": false,
 "msg": "1 games are in play, but none fits that strategy right now (1 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
-},
-{
-"when": "Thu 12 Nov 06:39",
-"at": 1794461982,
-"req": {
-"u": "judebbbbbb-zm6c",
-"name": "Jude Bbbbbb",
-"type": "markets",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-12"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"h1u25"
-],
-"rid": "mwd3x944dpsq"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for your chosen markets (Thu 12) out of 93 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
