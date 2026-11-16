@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UN0FGN",
+"at": 1794820519,
+"when": "Mon 16 Nov 10:15",
+"kind": "basketball \u2013 total points",
+"odds": 45.87,
+"status": "open",
+"legs": [
+{
+"t": "Mon 11:00",
+"game": "Seoul SK Knights vs Mobis Phoebus",
+"pick": "Under 179.5 total points",
+"odds": 1.23,
+"ts": 1794823200.0
+},
+{
+"t": "Mon 11:05",
+"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
+"pick": "Over 143.5 total points",
+"odds": 1.22,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Gunma Crane Thunders vs Shiga Lakestars",
+"pick": "Over 152.5 total points",
+"odds": 1.2,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Alvark Tokyo vs Kobe Storks",
+"pick": "Under 186.5 total points",
+"odds": 1.23,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:05",
+"game": "Chiba Jets Funabashi vs San-En Neophoenix",
+"pick": "Under 190.5 total points",
+"odds": 1.23,
+"ts": 1794823500.0
+},
+{
+"t": "Mon 11:35",
+"game": "Ryukyu Golden Kings Okinawa vs Toyama Grouses",
+"pick": "Over 158.5 total points",
+"odds": 1.19,
+"ts": 1794825300.0
+},
+{
+"t": "Mon 18:00",
+"game": "KK Borac Cacak vs BC Slovan Bratislava",
+"pick": "Under 180.5 total points",
+"odds": 1.24,
+"ts": 1794848400.0
+},
+{
+"t": "Mon 18:55",
+"game": "Hapoel Galil Elyon vs Hapoel Eilat",
+"pick": "Over 158.5 total points",
+"odds": 1.21,
+"ts": 1794851700.0
+},
+{
+"t": "Mon 19:00",
+"game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
+"pick": "Over 161.5 total points",
+"odds": 1.22,
+"ts": 1794852000.0
+},
+{
+"t": "Mon 19:05",
+"game": "Hapoel Holon BC vs Hapoel Haemek",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794852300.0
+},
+{
+"t": "Mon 19:15",
+"game": "Maccabi Rishon LeZion vs Hapoel Beer Sheva",
+"pick": "Under 179.5 total points",
+"odds": 1.23,
+"ts": 1794852900.0
+},
+{
+"t": "Mon 20:00",
+"game": "KK Studentski centar Podgorica vs BC Vienna",
+"pick": "Under 183.5 total points",
+"odds": 1.23,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 23:30",
+"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
+"pick": "Under 168.5 total points",
+"odds": 1.22,
+"ts": 1794868200.0
+},
+{
+"t": "Tue 01:00",
+"game": "Cleveland Cavaliers vs Chicago Bulls",
+"pick": "Under 256.5 total points",
+"odds": 1.25,
+"ts": 1794873600.0
+},
+{
+"t": "Tue 01:00",
+"game": "Boston Celtics vs Orlando Magic",
+"pick": "Over 198.5 total points",
+"odds": 1.23,
+"ts": 1794873600.0
+},
+{
+"t": "Tue 02:00",
+"game": "Minnesota Timberwolves vs Portland Trail Blazers",
+"pick": "Over 215.5 total points",
+"odds": 1.24,
+"ts": 1794877200.0
+},
+{
+"t": "Tue 02:05",
+"game": "IA Central Cordoba vs CA San Lorenzo de Almagro",
+"pick": "Over 139.5 total points",
+"odds": 1.21,
+"ts": 1794877500.0
+},
+{
+"t": "Tue 03:00",
+"game": "Denver Nuggets vs Phoenix Suns",
+"pick": "Over 214.5 total points",
+"odds": 1.24,
+"ts": 1794880800.0
+},
+{
+"t": "Tue 03:15",
+"game": "Astros de Jalisco vs Soles de Mexicali",
+"pick": "Over 146.5 total points",
+"odds": 1.21,
+"ts": 1794881700.0
+}
+]
+},
+{
 "code": "U63HS1",
 "at": 1794820487,
 "when": "Mon 16 Nov 10:14",
