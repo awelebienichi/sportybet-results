@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZE5Z9R",
+"at": 1794851136,
+"when": "Mon 16 Nov 18:45",
+"kind": "Over 1.5",
+"odds": 69.68,
+"status": "open",
+"legs": [
+{
+"t": "Mon 20:00",
+"game": "Cuba vs Grenada",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Guyana vs Puerto Rico",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794855600.0
+},
+{
+"t": "Mon 20:30",
+"game": "Albacete Balompie vs RC Celta Fortuna",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794857400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Germany vs Netherlands",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1794858300.0
+},
+{
+"t": "Tue 03:05",
+"game": "Irapuato vs Club Celaya FC",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794881100.0
+},
+{
+"t": "Tue 11:00",
+"game": "Slovakia vs Estonia",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 11:00",
+"game": "Singapore vs Brazil",
+"pick": "Over 1.5",
+"odds": 1.02,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 12:00",
+"game": "Hungary vs Czechia",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794913200.0
+},
+{
+"t": "Tue 14:00",
+"game": "Barnsley U21 vs Wigan Athletic U21",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 14:00",
+"game": "Sheffield Wednesday U21 vs Hull City U21",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 15:00",
+"game": "Sheffield United U21 vs Huddersfield Town (R)",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1794924000.0
+},
+{
+"t": "Tue 16:00",
+"game": "Kosovo vs Kazakhstan",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794927600.0
+},
+{
+"t": "Tue 18:30",
+"game": "Netherlands vs Denmark",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794936600.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Spalding United vs Hebburn Town",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Poland vs Sweden",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Chippenham Town vs Sholing FC",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Denmark vs Norway",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 00:00",
+"game": "Argentina vs Costa Rica",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794956400.0
+},
+{
+"t": "Wed 01:00",
+"game": "USA vs Haiti",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1794960000.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 18:45",
+"game": "Hacken Gothenburg W vs Manchester City WFC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795032000.0
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 18:45",
+"game": "FK Austria Wien vs Bayern Munich W",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795118400.0
+},
+{
+"t": "Thu 21:00",
+"game": "Arsenal WFC vs Olympique Lyon W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795118400.0
+},
+{
+"t": "Thu 23:30",
+"game": "EC Vitoria BA vs Red Bull Bragantino SP",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795127400.0
+}
+]
+},
+{
 "code": "WH1H8H",
 "at": 1794847996,
 "when": "Mon 16 Nov 17:53",
@@ -670,7 +890,10 @@
 "game": "Estonia vs Bulgaria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 18:00",
@@ -950,7 +1173,10 @@
 "game": "VfB Stuttgart vs Bayer Leverkusen",
 "pick": "1st half GG \u2013 No",
 "odds": 1.25,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
@@ -1162,7 +1388,10 @@
 "game": "Estonia vs Bulgaria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 18:15",
@@ -1592,7 +1821,10 @@
 "game": "Estonia vs Bulgaria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 18:15",
@@ -1721,7 +1953,10 @@
 "game": "Estonia vs Bulgaria",
 "pick": "Estonia or GG",
 "odds": 1.28,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 18:00",
@@ -3367,7 +3602,10 @@
 "game": "Estonia vs Bulgaria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1794848400.0
+"ts": 1794848400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Mon 19:00",
