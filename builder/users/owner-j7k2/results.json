@@ -328,7 +328,10 @@
 "game": "Saudi Arabia vs Uzbekistan",
 "pick": "Saudi Arabia or GG",
 "odds": 1.31,
-"ts": 1794929400.0
+"ts": 1794929400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Tue 17:00",
@@ -544,7 +547,10 @@
 "game": "Saudi Arabia vs Uzbekistan",
 "pick": "Over 1.5",
 "odds": 1.38,
-"ts": 1794929400.0
+"ts": 1794929400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Tue 17:00",
@@ -1190,7 +1196,10 @@
 "game": "Saudi Arabia vs Uzbekistan",
 "pick": "1st half GG \u2013 No",
 "odds": 1.16,
-"ts": 1794929400.0
+"ts": 1794929400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Tue 17:00",
