@@ -1,4 +1,85 @@
 {
 "from": 1794509185,
-"tickets": []
+"tickets": [
+{
+"code": "N9E0SC",
+"at": 1794941682,
+"when": "Tue 17 Nov 19:54",
+"kind": "Over 1.5",
+"odds": 3.03,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:00",
+"game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795003200.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795023900.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "Over 1.5",
+"odds": 1.04,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Wieczysta Krakow vs LKP Motor Lublin",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795458600.0
+}
+]
+}
+]
 }
