@@ -150,6 +150,14 @@ def league_stats(G, LX):
     return {k: (sum(v.values())/len(v), sum(x >= 3 for x in v.values())/len(v), sum(x <= 1 for x in v.values())/len(v)) for k, v in L.items() if len(v) >= 15}
 
 O25_MAX = {0.0: 1.50, 0.1: 1.60, 0.2: 1.70}   # Over 2.5 price cap by strictness: tracked legs at 1.70+ won 35-39% vs 46-56% implied
+U35_FAV = 1.60   # no Under 3.5 when either side is priced under this to win: Under 3.5 came true 42% (favourite <1.30) / 58-61% (1.30-1.60)
+                 # vs 67-70% (1.60+) on 612 priced favourites – blowouts (Boca 5-0, Canuelas 4-0, PAOK 4-0) were most of the losses
+U35_MAX, U35_EXP = 1.25, 2.8   # Under 3.5 (17 Nov, 4,149 replayed games): came true 76% when expected goals < 2.4, 64% at 2.8-3.2,
+                                # 53% at 3.6+; tracked legs priced 1.25-1.35 won 65% vs 77% implied
+def exp_goals(H, A):
+    """expected match goals: each team's scoring against the other's conceding, over their last 10"""
+    gf = lambda L: sum(m["gf"] for m in L) / len(L); ga = lambda L: sum(m["ga"] for m in L) / len(L)
+    return (gf(H) + ga(A)) / 2 + (gf(A) + ga(H)) / 2
 O15_MAX = 1.25        # Over 1.5 above this price won 70% of 87 tracked legs when the odds said 76%
 def o15_top(H, A):
     """the strongest Over 1.5 games: both teams had 2+ goals in 90%+ of their last 10, or 80%+ and in every one of their last 5.
@@ -394,6 +402,11 @@ def safe_enough(k, g, LX, rate, odds):
     mx = SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0)
     if k == "o15": mx = min(mx, O15_MAX)
     if k == "h1o05": mx = min(mx, H1O05_MAX)
+    if k == "u35":
+        mx = min(mx, U35_MAX)
+        H_, A_ = LX.get(g["hid"], []), LX.get(g["aid"], [])
+        if len(H_) < 6 or len(A_) < 6 or exp_goals(H_, A_) >= U35_EXP: return False   # no Under 3.5 between teams that score a lot
+        if min(g["x"].get("1", 99), g["x"].get("3", 99)) < U35_FAV: return False       # nor with a strong favourite (blowouts)
     if k == "o25": mx = min(mx, O25_MAX.get(round(ST["L"], 1), 1.60))
     if odds > mx or rate < bar(k): return False
     try:
@@ -692,6 +705,8 @@ def rebuild(req):
                 hit = lambda L: sum(m["h1f"] + m["h1a"] > 0 for m in L) / len(L)
                 top = len(H1_) >= 6 and len(A1_) >= 6 and (min(hit(H1_), hit(A1_)) >= .9 or (min(hit(H1_), hit(A1_)) >= .8 and min(hit(H1_[-5:]), hit(A1_[-5:])) >= 1))
                 pb = max(pb, .86) if top else min(pb, .78)
+            elif k == "u35":
+                if od > U35_MAX or exp_goals(LX[g["hid"]], LX[g["aid"]]) >= U35_EXP or min(xh, xa) < U35_FAV: continue
             elif k == "o25":
                 if od > O25_MAX.get(round(ST["L"], 1), 1.60): continue
                 pb = 1 / (od * 1.06)                                              # price-led: hot Over 2.5 runs did worse than the odds
@@ -884,7 +899,8 @@ def pick_season(G, LX, kind, want):
             if low:
                 u35 = (f(H, lambda m: m["gf"] + m["ga"] <= 3) + f(A, lambda m: m["gf"] + m["ga"] <= 3)) / 2
                 u25 = (f(H, lambda m: m["gf"] + m["ga"] <= 2) + f(A, lambda m: m["gf"] + m["ga"] <= 2)) / 2
-                C.append((g, "18", "total=3.5", "13", "Under 3.5", u35, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
+                if exp_goals(H, A) < U35_EXP and min(g["x"].get("1", 99), g["x"].get("3", 99)) >= U35_FAV:     # same Under 3.5 rules as the other builders
+                    C.append((g, "18", "total=3.5", "13", "Under 3.5", u35, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
                 if g2 <= 2.0 + L * 3: C.append((g, "18", "total=2.5", "13", "Under 2.5", u25, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
             if min(h["draw"], a["draw"]) >= .40:
                 dr = (f(H, lambda m: m["gf"] == m["ga"]) + f(A, lambda m: m["gf"] == m["ga"])) / 2
@@ -898,6 +914,7 @@ def pick_season(G, LX, kind, want):
         od = MK.get(g["eid"], {}).get((mid, spec, oid))
         if not od or od < 1.06: continue
         if not (mid == "1" and oid == "2") and (r_ < floor or od > 1.70): continue    # no coin-flip prices (draws are judged on their draw rate)
+        if spec == "total=3.5" and oid == "13" and od > U35_MAX: continue
         if mid == "18" and spec == "total=2.5" and oid == "13" and r_ < .80: continue     # Under 2.5: the tracker's weakest market
         if mid == "1" and oid == "2" and r_ < .45 - L: continue
         v = edge(r_, od)
