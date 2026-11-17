@@ -672,6 +672,20 @@ def rebuild(req):
             # lower-league side and a top club), the price can – and no coin-flip prices (same cap as the other builders)
             pb = (R[k] + 1 / (od * 1.06)) / 2
             if od > SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0) or pb < .62: continue
+            # the goal-market rules of the main builder (16 Nov tests) apply here too: price caps, and each leg counted at the rate
+            # its tier really came true at, so the safest-combination search prefers the top tier
+            if k == "o15":
+                if od > O15_MAX: continue
+                pb = max(pb, .88) if o15_top(LX[g["hid"]], LX[g["aid"]]) else min(pb, .82)
+            elif k == "h1o05":
+                if od > H1O05_MAX: continue
+                H1_, A1_ = [m for m in LX[g["hid"]] if m["h1f"] is not None], [m for m in LX[g["aid"]] if m["h1f"] is not None]
+                hit = lambda L: sum(m["h1f"] + m["h1a"] > 0 for m in L) / len(L)
+                top = len(H1_) >= 6 and len(A1_) >= 6 and (min(hit(H1_), hit(A1_)) >= .9 or (min(hit(H1_), hit(A1_)) >= .8 and min(hit(H1_[-5:]), hit(A1_[-5:])) >= 1))
+                pb = max(pb, .86) if top else min(pb, .78)
+            elif k == "o25":
+                if od > O25_MAX.get(round(ST["L"], 1), 1.60): continue
+                pb = 1 / (od * 1.06)                                              # price-led: hot Over 2.5 runs did worse than the odds
             opts.append(dict(k=k, od=od, r=pb, rs=R[k], mid=mid, spec=spec, oid=oid, lab=lab.format(h=g["h"], a=g["a"])))
         if not opts: continue
         opts.sort(key=lambda o: (-value(o["k"], o["r"], o["od"]) if o["r"] >= .7 else 1 - o["r"], o["od"]))   # strong options by value first
