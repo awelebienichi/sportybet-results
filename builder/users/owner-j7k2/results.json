@@ -4744,7 +4744,10 @@
 "game": "Astros de Jalisco vs Soles de Mexicali",
 "pick": "Over 145.5 total points",
 "odds": 1.21,
-"ts": 1794881700.0
+"ts": 1794881700.0,
+"r": "W",
+"sc": "75-74",
+"ht": "17-19"
 },
 {
 "t": "Tue 11:05",
@@ -6293,7 +6296,10 @@
 "game": "Astros de Jalisco vs Soles de Mexicali",
 "pick": "Over 146.5 total points",
 "odds": 1.21,
-"ts": 1794881700.0
+"ts": 1794881700.0,
+"r": "W",
+"sc": "75-74",
+"ht": "17-19"
 }
 ]
 },
