@@ -68,7 +68,7 @@ def handle(msgs, state):
         builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
         print("building", uid, req, flush=True); t0 = time.time()
         phonebuild.AVOID["eids"], phonebuild.AVOID["hit"] = set(), set()
-        if req.get("type") not in ("live", "bblive", "livemix", "rebuild", "combine") and not req.get("repeat"):   # fresh games on every new ticket
+        if req.get("fresh") and req.get("type") not in ("live", "bblive", "livemix", "rebuild", "combine"):   # OFF unless asked: user, 17 Nov – skipping games cut how many games the builder can use
             phonebuild.AVOID["eids"] = {l.get("eid") for b in builds if b.get("ok") for t in b.get("tickets") or [] for l in t.get("legs") or []
                                         if isinstance(l, dict) and float(l.get("ts") or 0) > time.time()}
         try: res = phonebuild.main(req)
