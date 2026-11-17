@@ -166,7 +166,10 @@
 "game": "Gambia vs Ivory Coast",
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
-"ts": 1794931200.0
+"ts": 1794931200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 17:00",
@@ -376,7 +379,10 @@
 "game": "Gambia vs Ivory Coast",
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
-"ts": 1794931200.0
+"ts": 1794931200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 17:00",
@@ -635,7 +641,10 @@
 "game": "Russia vs Venezuela",
 "pick": "1st half Under 2.5",
 "odds": 1.12,
-"ts": 1794931200.0
+"ts": 1794931200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 18:00",
