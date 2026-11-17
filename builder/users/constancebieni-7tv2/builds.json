@@ -1,7 +1,7 @@
 [
 {
-"when": "Mon 16 Nov 22:49",
-"at": 1794865780,
+"when": "Tue 17 Nov 01:07",
+"at": 1794874068,
 "req": {
 "u": "constancebieni-7tv2",
 "name": "Constance Bienichi",
@@ -17,57 +17,57 @@
 "Only 3 live leg(s) were strong enough right now (you asked for 40).",
 "Normal safety: in testing about 88 in 100 such legs came true.",
 "Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 3 legs win: about 75%."
+"Chance all 3 legs win: about 62%."
 ],
 "tickets": [
 {
-"code": "SGL1YX",
-"odds": 1.16,
+"code": "SRS5HK",
+"odds": 1.38,
 "legs": [
 {
-"t": "Mon 21:15",
-"game": "CD Moquegua vs Atletico Grau",
-"lg": "Peru - Liga 1",
+"t": "Tue 00:00",
+"game": "Montevideo Wanderers vs CA Juventud de Las Piedras",
+"lg": "Uruguay - Primera Division",
 "pick": "Under 4.5",
-"odds": 1.03,
-"why": "LIVE 1-1 68': CD Moquegua expected 0.3 and Atletico Grau 0.4 more goals (last 10 + season); 1-1 at 68' \u2013 95% chance; Flashscore home/away form 65%, FotMob: 2.1 goals a game, season: 2.2 goals a game",
-"ts": 1794860100.0,
-"eid": "sr:match:71936254",
+"odds": 1.05,
+"why": "LIVE 1-0 48': Montevideo Wanderers expected 0.6 and CA Juventud de Las Piedras 0.7 more goals (last 10 + season); 1-0 at 48' \u2013 94% chance; FotMob: 2.0 goals a game, Vitibet tip 1-1, season: 2.4 goals a game, h2h 62% of 8 meetings (3.5 line)",
+"ts": 1794870000.0,
+"eid": "sr:match:76455626",
 "mid": "18",
 "spec": "total=4.5",
 "oid": "13",
-"k": "71936254|18|total=4.5|13"
+"k": "76455626|18|total=4.5|13"
 },
 {
-"t": "Mon 21:15",
-"game": "Cusco FC vs Asociacion Deportiva Tarma",
-"lg": "Peru - Liga 1",
-"pick": "Asociacion Deportiva Tarma Under 2.5",
-"odds": 1.06,
-"why": "LIVE 2-1 73': Cusco FC expected 0.3 and Asociacion Deportiva Tarma 0.3 more goals (last 10 + season); 2-1 at 73' \u2013 96% chance; goals record 100% / 90% in both sides' last games, h2h 100% of 7 meetings",
-"ts": 1794860100.0,
-"eid": "sr:match:71936246",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "71936246|20|total=2.5|13"
+"t": "Tue 00:00",
+"game": "CA Paranaense PR vs Parana Clube PR",
+"lg": "Brazil - Copa Parana",
+"pick": "Handicap 2:0 \u2013 CA Paranaense PR",
+"odds": 1.08,
+"why": "LIVE 0-0 47': CA Paranaense PR expected 0.7 and Parana Clube PR 0.8 more goals (last 10); 0-0 at 47' \u2013 87% chance; h2h 100% of 8 meetings",
+"ts": 1794870000.0,
+"eid": "sr:match:76642744",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "76642744|14|hcp=2:0|1711"
 },
 {
-"t": "Mon 22:00",
-"game": "Club Deportivo Platense Reserves vs Genesis FC Reserves",
-"lg": "Honduras - Honduras Reserve League",
-"pick": "Club Deportivo Platense Reserves to win",
-"odds": 1.06,
-"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 89%",
-"ts": 1794862800.0,
-"eid": "sr:match:111111114688953",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "111111114688953|1||1"
+"t": "Tue 00:00",
+"game": "Brazil vs Peru",
+"lg": "International Youth - U20 Friendly Games",
+"pick": "Handicap 0:5 \u2013 Peru",
+"odds": 1.22,
+"why": "LIVE 2-0 45': Brazil expected 1.0 and Peru 0.4 more goals (last 10); 2-0 at 45' \u2013 89% chance; margin record 100% / 100% in both sides' last games, h2h 75% of 4 meetings",
+"ts": 1794870000.0,
+"eid": "sr:match:76558026",
+"mid": "14",
+"spec": "hcp=0:5",
+"oid": "1713",
+"k": "76558026|14|hcp=0:5|1713"
 }
 ],
-"chance": 0.7464
+"chance": 0.6244
 }
 ]
 },
