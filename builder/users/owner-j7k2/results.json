@@ -2,6 +2,114 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UVZGHH",
+"at": 1794951200,
+"when": "Tue 17 Nov 22:33",
+"kind": "goal-fest teams (season data)",
+"odds": 192.46,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Hekimoglu Trabzon vs Kahramanmaras Istiklalspor",
+"pick": "Over 2.5",
+"odds": 1.63,
+"ts": 1794996000.0
+},
+{
+"t": "Wed 11:00",
+"game": "Adana Demirspor vs Kastamonuspor",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1794996000.0
+},
+{
+"t": "Wed 12:30",
+"game": "Rakow Czestochowa U19 vs Legia Warszawa",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795001400.0
+},
+{
+"t": "Wed 16:00",
+"game": "CF Valencia vs UCAM Murcia",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 19:00",
+"game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "America FC RJ vs Americano RJ",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 20:30",
+"game": "Salamanca CF UDS vs Atletico Albacete",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795030200.0
+},
+{
+"t": "Wed 20:45",
+"game": "Newington FC vs Harland And Wolff Welders",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795031100.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795203900.0
+},
+{
+"t": "Sat 14:30",
+"game": "Inter Milano U23 vs Potenza Calcio",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795267800.0
+},
+{
+"t": "Mon 00:30",
+"game": "Chicago Fire vs Charlotte FC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795390200.0
+},
+{
+"t": "Mon 19:00",
+"game": "Broendby IF vs FC Midtjylland",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795458600.0
+}
+]
+},
+{
 "code": "PYAUQN",
 "at": 1794939383,
 "when": "Tue 17 Nov 19:16",
@@ -472,7 +580,7 @@
 "odds": 1.43,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -3247,7 +3355,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -3991,7 +4099,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -4136,7 +4244,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -4621,7 +4729,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -5127,7 +5235,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -5899,7 +6007,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -8035,7 +8143,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
@@ -8275,7 +8383,7 @@
 "odds": 1.41,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "5-3",
+"sc": "5-4",
 "ht": "2-3"
 },
 {
