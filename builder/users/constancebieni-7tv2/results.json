@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "P0GTHN",
+"at": 1794906015,
+"when": "Tue 17 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.23,
+"status": "open",
+"legs": [
+{
+"t": "Tue 11:00",
+"game": "Slovakia vs Estonia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 12:00",
+"game": "Hungary vs Czechia",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794913200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Kenya vs South Africa",
+"pick": "Handicap 2:0 \u2013 Kenya",
+"odds": 1.29,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 20:00",
+"game": "Luton vs Peterborough United",
+"pick": "1st half Under 2.5",
+"odds": 1.26,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Burgess Hill Town vs Brentwood Town FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ramsgate FC vs Cray Wanderers",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ireland vs Kosovo",
+"pick": "1st half double chance Ireland or draw",
+"odds": 1.21,
+"ts": 1794944700.0
+}
+]
+},
+{
 "code": "SRS5HK",
 "at": 1794874068,
 "when": "Tue 17 Nov 01:07",
