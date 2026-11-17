@@ -1,5 +1,131 @@
 [
 {
+"when": "Tue 17 Nov 18:13",
+"at": 1794935601,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 25,
+"tickets": 30,
+"days": [
+"2026-11-17",
+"2026-11-18",
+"2026-11-19",
+"2026-11-20",
+"2026-11-21",
+"2026-11-22"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwkyaeazpxxn"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 6 games passed the checks (Tue 17, Wed 18, Thu 19, Fri 20, Sat 21, Sun 22, 937 games on SportyBet), so this ticket has 6 legs instead of 25. Tick more days or use 'Relaxed' for more.",
+"Only 6 games qualified, enough for 1 ticket(s) of 6 with no game repeated (you asked for 10).",
+"Chance all 6 legs win: about 14%."
+],
+"tickets": [
+{
+"code": "KBNW7Q",
+"odds": 5.52,
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"lg": "International - CONCACAF Nations League",
+"pick": "Over 2.5",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%, FotMob: 4.4 goals a game, season: 4.4 goals a game",
+"ts": 1794942000.0,
+"eid": "sr:match:75468432",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75468432|18|total=2.5|12"
+},
+{
+"t": "Wed 17:00",
+"game": "Silkeborg IF vs Randers Freja",
+"lg": "Denmark - U19 Ligaen",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "stats rate 85% from both teams' last 10; season: 3.8 goals a game",
+"ts": 1795017600.0,
+"eid": "sr:match:76769034",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76769034|18|total=2.5|12"
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham United FC Women vs Wolverhampton Wanderers WFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 65%",
+"ts": 1795028400.0,
+"eid": "sr:match:73607444",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73607444|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "stats rate 85% from both teams' last 10; season: 4.1 goals a game",
+"ts": 1795203000.0,
+"eid": "sr:match:72546176",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546176|18|total=2.5|12"
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"lg": "Germany - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; FotMob: 3.8 goals a game, season: 3.8 goals a game, CompactStats 72% (bookmaker 72%)",
+"ts": 1795271400.0,
+"eid": "sr:match:72513314",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72513314|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"lg": "Scotland - League 2",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; FotMob: 3.9 goals a game, Vitibet tip 3-1, season: 3.9 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72204346",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72204346|18|total=2.5|12"
+}
+],
+"chance": 0.1352
+}
+]
+},
+{
 "when": "Tue 17 Nov 18:06",
 "at": 1794935169,
 "req": {
@@ -18070,277 +18196,6 @@
 }
 ],
 "chance": 0.5171
-}
-]
-},
-{
-"when": "Sun 15 Nov 23:34",
-"at": 1794782093,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 25,
-"days": [
-"2026-11-15",
-"2026-11-16"
-],
-"strict": "normal",
-"rid": "mwiewp7fnbds"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Only 17 basketball games passed the checks (Sun 15, Mon 16, 37 judged), so the ticket has 17 legs.",
-"Normal: in testing about 85 in 100 such legs came true.",
-"Chance all 17 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "ZDJYXX",
-"odds": 31.83,
-"legs": [
-{
-"t": "Mon 01:00",
-"game": "San Martin Corrientes vs Quimsa Santiogo Del Estero",
-"lg": "Argentina - LNB",
-"pick": "Over 146.5 total points",
-"odds": 1.21,
-"why": "expected San Martin Corrientes 80 \u2013 Quimsa Santiogo Del Estero 83 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; h2h 75% of 8 meetings",
-"ts": 1794787200.0,
-"eid": "sr:match:75364738",
-"mid": "225",
-"spec": "total=146.5",
-"oid": "12",
-"k": "75364738|225|total=146.5|12"
-},
-{
-"t": "Mon 01:00",
-"game": "La Union Formosa vs AD Atenas Cordoba",
-"lg": "Argentina - LNB",
-"pick": "Under 174.5 total points",
-"odds": 1.23,
-"why": "expected La Union Formosa 80 \u2013 AD Atenas Cordoba 81 (last 10/10 games, home edge included); 77% by the stats, 77% with the price; h2h 100% of 8 meetings",
-"ts": 1794787200.0,
-"eid": "sr:match:75364736",
-"mid": "225",
-"spec": "total=174.5",
-"oid": "13",
-"k": "75364736|225|total=174.5|13"
-},
-{
-"t": "Mon 02:00",
-"game": "Milwaukee Bucks vs Atlanta Hawks",
-"lg": "USA - NBA",
-"pick": "Under 246.5 total points",
-"odds": 1.27,
-"why": "expected Milwaukee Bucks 113 \u2013 Atlanta Hawks 115 (last 10/10 games, home edge included); 85% by the stats, 80% with the price; h2h 75% of 8 meetings, Flashscore home/away form 85%, NBA ratings say 230 points",
-"ts": 1794790800.0,
-"eid": "sr:match:73719658",
-"mid": "225",
-"spec": "total=246.5",
-"oid": "13",
-"k": "73719658|225|total=246.5|13"
-},
-{
-"t": "Mon 03:00",
-"game": "Sacramento Kings vs Oklahoma City Thunder",
-"lg": "USA - NBA",
-"pick": "Over 210.5 total points",
-"odds": 1.26,
-"why": "expected Sacramento Kings 111 \u2013 Oklahoma City Thunder 114 (last 10/10 games, home edge included); 78% by the stats, 77% with the price; h2h 88% of 8 meetings, Flashscore home/away form 80%, NBA ratings say 224 points",
-"ts": 1794794400.0,
-"eid": "sr:match:73719660",
-"mid": "225",
-"spec": "total=210.5",
-"oid": "12",
-"k": "73719660|225|total=210.5|12"
-},
-{
-"t": "Mon 11:00",
-"game": "Seoul SK Knights vs Mobis Phoebus",
-"lg": "Republic of Korea - KBL",
-"pick": "Under 178.5 total points",
-"odds": 1.24,
-"why": "expected Seoul SK Knights 85 \u2013 Mobis Phoebus 79 (last 10/10 games, home edge included); 78% by the stats, 77% with the price; h2h 100% of 8 meetings, Flashscore home/away form 85%",
-"ts": 1794823200.0,
-"eid": "sr:match:73657564",
-"mid": "225",
-"spec": "total=178.5",
-"oid": "13",
-"k": "73657564|225|total=178.5|13"
-},
-{
-"t": "Mon 11:05",
-"game": "Yokohama B-Corsairs vs Kawasaki Brave Thunders",
-"lg": "Japan - B League Premier",
-"pick": "Over 143.5 total points",
-"odds": 1.21,
-"why": "expected Yokohama B-Corsairs 81 \u2013 Kawasaki Brave Thunders 80 (last 10/10 games, home edge included); 83% by the stats, 81% with the price; Flashscore home/away form 100%",
-"ts": 1794823500.0,
-"eid": "sr:match:72696334",
-"mid": "225",
-"spec": "total=143.5",
-"oid": "12",
-"k": "72696334|225|total=143.5|12"
-},
-{
-"t": "Mon 11:05",
-"game": "Gunma Crane Thunders vs Shiga Lakestars",
-"lg": "Japan - B League Premier",
-"pick": "Over 152.5 total points",
-"odds": 1.21,
-"why": "expected Gunma Crane Thunders 90 \u2013 Shiga Lakestars 78 (last 10/10 games, home edge included); 80% by the stats, 79% with the price; h2h 88% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1794823500.0,
-"eid": "sr:match:72696328",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "72696328|225|total=152.5|12"
-},
-{
-"t": "Mon 11:05",
-"game": "Alvark Tokyo vs Kobe Storks",
-"lg": "Japan - B League Premier",
-"pick": "Under 186.5 total points",
-"odds": 1.23,
-"why": "expected Alvark Tokyo 91 \u2013 Kobe Storks 80 (last 10/10 games, home edge included); 80% by the stats, 78% with the price; h2h 100% of 8 meetings, Flashscore home/away form 90%",
-"ts": 1794823500.0,
-"eid": "sr:match:72696332",
-"mid": "225",
-"spec": "total=186.5",
-"oid": "13",
-"k": "72696332|225|total=186.5|13"
-},
-{
-"t": "Mon 11:05",
-"game": "Chiba Jets Funabashi vs San-En Neophoenix",
-"lg": "Japan - B League Premier",
-"pick": "Under 189.5 total points",
-"odds": 1.24,
-"why": "expected Chiba Jets Funabashi 88 \u2013 San-En Neophoenix 87 (last 10/10 games, home edge included); 78% by the stats, 77% with the price; h2h 75% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1794823500.0,
-"eid": "sr:match:72696330",
-"mid": "225",
-"spec": "total=189.5",
-"oid": "13",
-"k": "72696330|225|total=189.5|13"
-},
-{
-"t": "Mon 11:35",
-"game": "Ryukyu Golden Kings Okinawa vs Toyama Grouses",
-"lg": "Japan - B League Premier",
-"pick": "Over 156.5 total points",
-"odds": 1.2,
-"why": "expected Ryukyu Golden Kings Okinawa 91 \u2013 Toyama Grouses 81 (last 10/10 games, home edge included); 81% by the stats, 80% with the price; Flashscore home/away form 95%",
-"ts": 1794825300.0,
-"eid": "sr:match:72696338",
-"mid": "225",
-"spec": "total=156.5",
-"oid": "12",
-"k": "72696338|225|total=156.5|12"
-},
-{
-"t": "Mon 18:00",
-"game": "KK Borac Cacak vs BC Slovan Bratislava",
-"lg": "International - Liga ABA",
-"pick": "Over 152.5 total points",
-"odds": 1.21,
-"why": "expected KK Borac Cacak 82 \u2013 BC Slovan Bratislava 85 (last 10/10 games, home edge included); 80% by the stats, 79% with the price",
-"ts": 1794848400.0,
-"eid": "sr:match:74131774",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "74131774|225|total=152.5|12"
-},
-{
-"t": "Mon 18:55",
-"game": "Hapoel Galil Elyon vs Hapoel Eilat",
-"lg": "Israel - Super League",
-"pick": "Over 158.5 total points",
-"odds": 1.21,
-"why": "expected Hapoel Galil Elyon 88 \u2013 Hapoel Eilat 84 (last 10/10 games, home edge included); 77% by the stats, 78% with the price",
-"ts": 1794851700.0,
-"eid": "sr:match:74527780",
-"mid": "225",
-"spec": "total=158.5",
-"oid": "12",
-"k": "74527780|225|total=158.5|12"
-},
-{
-"t": "Mon 19:00",
-"game": "Energa Czarni Slupsk vs MKS Dabrowa Gornicza",
-"lg": "Poland - PLK",
-"pick": "Over 161.5 total points",
-"odds": 1.21,
-"why": "expected Energa Czarni Slupsk 86 \u2013 MKS Dabrowa Gornicza 89 (last 10/10 games, home edge included); 78% by the stats, 78% with the price; Flashscore home/away form 80%",
-"ts": 1794852000.0,
-"eid": "sr:match:72676976",
-"mid": "225",
-"spec": "total=161.5",
-"oid": "12",
-"k": "72676976|225|total=161.5|12"
-},
-{
-"t": "Mon 19:05",
-"game": "Hapoel Holon BC vs Hapoel Haemek",
-"lg": "Israel - Super League",
-"pick": "Over 146.5 total points",
-"odds": 1.22,
-"why": "expected Hapoel Holon BC 82 \u2013 Hapoel Haemek 80 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; h2h 100% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1794852300.0,
-"eid": "sr:match:74527784",
-"mid": "225",
-"spec": "total=146.5",
-"oid": "12",
-"k": "74527784|225|total=146.5|12"
-},
-{
-"t": "Mon 19:15",
-"game": "Maccabi Rishon LeZion vs Hapoel Beer Sheva",
-"lg": "Israel - Super League",
-"pick": "Under 179.5 total points",
-"odds": 1.23,
-"why": "expected Maccabi Rishon LeZion 87 \u2013 Hapoel Beer Sheva 79 (last 10/10 games, home edge included); 78% by the stats, 77% with the price; h2h 100% of 8 meetings, Flashscore home/away form 75%",
-"ts": 1794852900.0,
-"eid": "sr:match:74527778",
-"mid": "225",
-"spec": "total=179.5",
-"oid": "13",
-"k": "74527778|225|total=179.5|13"
-},
-{
-"t": "Mon 20:00",
-"game": "KK Studentski centar Podgorica vs BC Vienna",
-"lg": "International - Liga ABA",
-"pick": "Under 183.5 total points",
-"odds": 1.23,
-"why": "expected KK Studentski centar Podgorica 87 \u2013 BC Vienna 81 (last 10/10 games, home edge included, BC Vienna on 2nd game in 2 days); 81% by the stats, 79% with the price",
-"ts": 1794855600.0,
-"eid": "sr:match:74131970",
-"mid": "225",
-"spec": "total=183.5",
-"oid": "13",
-"k": "74131970|225|total=183.5|13"
-},
-{
-"t": "Mon 23:30",
-"game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
-"lg": "Brazil - NBB",
-"pick": "Under 167.5 total points",
-"odds": 1.23,
-"why": "expected Cruzeiro Basquete 82 \u2013 Fortaleza Basquete Cearense 71 (last 10/10 games, home edge included); 79% by the stats, 78% with the price",
-"ts": 1794868200.0,
-"eid": "sr:match:74320764",
-"mid": "225",
-"spec": "total=167.5",
-"oid": "13",
-"k": "74320764|225|total=167.5|13"
-}
-],
-"chance": 0.0137
 }
 ]
 }
