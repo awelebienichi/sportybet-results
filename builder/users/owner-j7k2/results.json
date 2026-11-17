@@ -669,7 +669,10 @@
 "game": "Wurzburg Baskets vs Iraklis 2022",
 "pick": "Over 148.5 total points",
 "odds": 1.22,
-"ts": 1794938400.0
+"ts": 1794938400.0,
+"r": "W",
+"sc": "73-83",
+"ht": "23-23"
 },
 {
 "t": "Tue 19:00",
@@ -1369,7 +1372,10 @@
 "game": "South Shields vs Harborough Town FC",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 21:00",
@@ -1621,7 +1627,10 @@
 "game": "South Shields vs Harborough Town FC",
 "pick": "South Shields or GG",
 "odds": 1.08,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 21:00",
