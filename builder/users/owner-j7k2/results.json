@@ -6234,7 +6234,10 @@
 "game": "Cleveland Cavaliers vs Chicago Bulls",
 "pick": "Under 256.5 total points",
 "odds": 1.25,
-"ts": 1794873600.0
+"ts": 1794873600.0,
+"r": "W",
+"sc": "126-115",
+"ht": "25-31"
 },
 {
 "t": "Tue 01:00",
