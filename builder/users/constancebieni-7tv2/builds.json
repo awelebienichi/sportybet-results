@@ -1,5 +1,21 @@
 [
 {
+"when": "Tue 17 Nov 20:23",
+"at": 1794943391,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 12,
+"strict": "normal",
+"rid": "mwl2y4b71pbv",
+"target": 20
+},
+"ok": false,
+"msg": "20 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 12 legs is 2.98 odds. Lower the target, allow more legs, or try again in a few minutes."
+},
+{
 "when": "Tue 17 Nov 20:22",
 "at": 1794943360,
 "req": {
@@ -6400,48 +6416,6 @@
 "spec": "",
 "oid": "11",
 "k": "74873412|10||11"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 01:03",
-"at": 1794614586,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwfm9lu4j01e"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "G29CJ9",
-"odds": 1.03,
-"legs": [
-{
-"t": "Sat 00:00",
-"game": "Argentina vs Uruguay",
-"lg": "International - Int. Friendly Games",
-"pick": "Uruguay Under 1.5",
-"odds": 1.03,
-"why": "LIVE 0-0 45': Argentina expected 1.2 and Uruguay 0.6 more goals (last 10); 0-0 at 45' \u2013 85% chance; h2h 75% of 8 meetings",
-"ts": 1794610800.0,
-"eid": "sr:match:76147422",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "76147422|20|total=1.5|13"
 }
 ]
 }
