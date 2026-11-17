@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PYAUQN",
+"at": 1794939383,
+"when": "Tue 17 Nov 19:16",
+"kind": "your chosen markets",
+"odds": 373.7,
+"status": "open",
+"legs": [
+{
+"t": "Tue 20:00",
+"game": "Mauritania vs Burkina Faso",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hungary vs Northern Ireland",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 00:15",
+"game": "Club Olimpo vs Kimberley de Mar Del Plata",
+"pick": "Under 3.5",
+"odds": 1.14,
+"ts": 1794957300.0
+},
+{
+"t": "Wed 14:00",
+"game": "Mbarara FC vs Lugazi Municipal FC",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795006800.0
+},
+{
+"t": "Wed 19:00",
+"game": "Utebo FC vs CE Sabadell FC",
+"pick": "Under 3.5",
+"odds": 1.31,
+"ts": 1795024800.0
+},
+{
+"t": "Thu 17:45",
+"game": "MC Alger vs Olympique Akbou",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Penarol Montevideo vs Cerro Largo FC",
+"pick": "Under 3.5",
+"odds": 1.26,
+"ts": 1795116600.0
+},
+{
+"t": "Fri 06:50",
+"game": "Western Sydney Wanderers vs Wellington Phoenix",
+"pick": "Under 3.5",
+"odds": 1.32,
+"ts": 1795153800.0
+},
+{
+"t": "Fri 17:00",
+"game": "ASO Chlef vs USM Khenchela",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "FK Septemvri Sofia vs PFC Lokomotiv Plovdiv",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 18:00",
+"game": "Igdir FK vs Umraniyespor",
+"pick": "Under 3.5",
+"odds": 1.31,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 20:00",
+"game": "MC Oran vs JS Saoura",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Casertana FC vs Salernitana",
+"pick": "Under 3.5",
+"odds": 1.26,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 06:00",
+"game": "Blaublitz Akita vs Montedio Yamagata",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 08:30",
+"game": "Gangwon FC vs Daejeon Citizen FC",
+"pick": "Under 3.5",
+"odds": 1.29,
+"ts": 1795246200.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Shinnik Yaroslavl vs FC Neftekhimik Nizhnekamsk",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "FK Sochi vs FK Veles Moscow",
+"pick": "Under 3.5",
+"odds": 1.32,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 19:00",
+"game": "CS Italiano vs CD Armenio",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "CA Talleres de Remedios vs Real Pilar FC",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "Defensa y Justicia vs CA Barracas Central",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 21:00",
+"game": "Argentinos Juniors vs CA Independiente Avellaneda",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 06:00",
+"game": "Tokushima Vortis vs Shonan Bellmare",
+"pick": "Under 3.5",
+"odds": 1.28,
+"ts": 1795323600.0
+},
+{
+"t": "Sun 09:30",
+"game": "FK Ufa vs FK Ural Yekaterinburg",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1795336200.0
+},
+{
+"t": "Sun 13:30",
+"game": "NK Jadran LP vs HNK Cibalia Vinkovci",
+"pick": "Under 3.5",
+"odds": 1.23,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:30",
+"game": "SEF Torres Sassari vs Spezia Calcio",
+"pick": "Under 3.5",
+"odds": 1.3,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "APO Levadiakos FC vs Atromitos Athinon",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Vizela vs CD Feirense",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 23:00",
+"game": "CA River Plate (ARG) vs CA Lanus",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1795384800.0
+}
+]
+},
+{
 "code": "N1NDTB",
 "at": 1794939309,
 "when": "Tue 17 Nov 19:15",
