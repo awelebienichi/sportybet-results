@@ -564,7 +564,10 @@
 "game": "Togo vs Algeria",
 "pick": "1st half Under 2.5",
 "odds": 1.06,
-"ts": 1794931200.0
+"ts": 1794931200.0,
+"r": "L",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Tue 17:00",
@@ -6512,7 +6515,7 @@
 "when": "Mon 16 Nov 17:53",
 "kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 5 basketball)",
 "odds": 24.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 19:00",
@@ -6599,7 +6602,10 @@
 "game": "Togo vs Algeria",
 "pick": "1st half Under 2.5",
 "odds": 1.06,
-"ts": 1794931200.0
+"ts": 1794931200.0,
+"r": "L",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Tue 17:30",

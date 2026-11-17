@@ -639,7 +639,7 @@
 "when": "Sun 15 Nov 17:17",
 "kind": "your chosen markets",
 "odds": 4.38,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 18:00",
@@ -746,7 +746,10 @@
 "game": "Togo vs Algeria",
 "pick": "1st half Under 2.5",
 "odds": 1.06,
-"ts": 1794931200.0
+"ts": 1794931200.0,
+"r": "L",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Tue 17:00",
