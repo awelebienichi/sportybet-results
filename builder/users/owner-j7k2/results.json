@@ -2,6 +2,184 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "RYEW4Q",
+"at": 1794897759,
+"when": "Tue 17 Nov 07:42",
+"kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 10 Over 1.5 + 0 basketball)",
+"odds": 26.0,
+"status": "open",
+"legs": [
+{
+"t": "Tue 11:00",
+"game": "Slovakia vs Estonia",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 14:00",
+"game": "Barnsley U21 vs Wigan Athletic U21",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1794920400.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"pick": "Ukraine to score 3+ in a row \u2013 No",
+"odds": 1.1,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 00:00",
+"game": "Chile vs Colombia",
+"pick": "1st half double chance Colombia or draw",
+"odds": 1.22,
+"ts": 1794956400.0
+},
+{
+"t": "Wed 00:15",
+"game": "Club Olimpo vs Kimberley de Mar Del Plata",
+"pick": "Club Olimpo to score 3+ in a row \u2013 No",
+"odds": 1.12,
+"ts": 1794957300.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795023900.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Fri 18:00",
+"game": "Igdir FK vs Umraniyespor",
+"pick": "Igdir FK to score 3+ in a row \u2013 No",
+"odds": 1.15,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 20:00",
+"game": "MC Oran vs JS Saoura",
+"pick": "MC Oran to score 3+ in a row \u2013 No",
+"odds": 1.13,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "Over 1.5",
+"odds": 1.04,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 11:30",
+"game": "Istanbulspor AS vs Ankara Keciorengucu",
+"pick": "1st half double chance Ankara Keciorengucu or draw",
+"odds": 1.27,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Chelmsford City",
+"pick": "1st half double chance Chelmsford City or draw",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Anagennisi Karditsas 1904 vs Kallithea FC",
+"pick": "1st half double chance Kallithea FC or draw",
+"odds": 1.2,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:25",
+"game": "Dubai United FC vs Al Wahda FC (UAE)",
+"pick": "1st half double chance Al Wahda FC (UAE) or draw",
+"odds": 1.19,
+"ts": 1795274700.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "1st half double chance Rangers or draw",
+"odds": 1.17,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Birmingham City WFC vs Manchester United WFC",
+"pick": "1st half double chance Manchester United WFC or draw",
+"odds": 1.16,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Charlton Athletic vs Aston Villa WFC",
+"pick": "1st half double chance Aston Villa WFC or draw",
+"odds": 1.18,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 21:00",
+"game": "Getafe vs Atletico Madrid",
+"pick": "1st half double chance Atletico Madrid or draw",
+"odds": 1.15,
+"ts": 1795377600.0
+},
+{
+"t": "Mon 16:00",
+"game": "Wadi Degla SC vs Al Ittihad Alexandria Club",
+"pick": "1st half double chance Wadi Degla SC or draw",
+"odds": 1.25,
+"ts": 1795446000.0
+},
+{
+"t": "Mon 19:00",
+"game": "Wieczysta Krakow vs LKP Motor Lublin",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795456800.0
+}
+]
+},
+{
 "code": "VFJYQQ",
 "at": 1794897479,
 "when": "Tue 17 Nov 07:37",
