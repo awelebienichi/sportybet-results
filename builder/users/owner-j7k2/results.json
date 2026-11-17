@@ -2,6 +2,240 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VFJYQQ",
+"at": 1794897479,
+"when": "Tue 17 Nov 07:37",
+"kind": "your chosen markets",
+"odds": 97.29,
+"status": "open",
+"legs": [
+{
+"t": "Tue 11:00",
+"game": "Slovakia vs Estonia",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794909600.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Spalding United vs Hebburn Town",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795032000.0
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795118400.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795204800.0
+},
+{
+"t": "Sat 08:00",
+"game": "Gamba Osaka vs Fagiano Okayama",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795244400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Cove Rangers FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Huddersfield vs Leicester",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "York City FC vs Walsall FC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Spartans FC vs Dumbarton FC",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "WSG Tirol vs Austria Lustenau",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 18:30",
+"game": "PAE PS Kalamata vs AEK Athens",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Yeovil Town vs Forest Green Rovers",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795282200.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 13:00",
+"game": "FK Pardubice vs FC Zbrojovka Brno",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Cordoba CF vs Real Oviedo",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "KFUM Oslo vs SK Brann",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "FK Austria Wien vs Salzburg",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "PAOK vs AE Kifisia FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795368600.0
+},
+{
+"t": "Mon 18:00",
+"game": "Istanbul BB vs Corum FK",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795453200.0
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795463100.0
+}
+]
+},
+{
 "code": "HTN9TA",
 "at": 1794856763,
 "when": "Mon 16 Nov 20:19",
