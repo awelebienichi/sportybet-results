@@ -2,6 +2,212 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "M0KL9F",
+"at": 1794924750,
+"when": "Tue 17 Nov 15:12",
+"kind": "rebuild of KVE4EF",
+"odds": 996.96,
+"status": "open",
+"legs": [
+{
+"t": "Tue 16:00",
+"game": "Sweden vs Portugal",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1794927600.0
+},
+{
+"t": "Tue 16:30",
+"game": "Saudi Arabia vs Uzbekistan",
+"pick": "Saudi Arabia or GG",
+"odds": 1.31,
+"ts": 1794929400.0
+},
+{
+"t": "Tue 17:00",
+"game": "Guinea-Bissau vs Madagascar",
+"pick": "Guinea-Bissau or GG",
+"odds": 1.16,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Togo vs Algeria",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Gambia vs Ivory Coast",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Kenya vs South Africa",
+"pick": "1st half double chance South Africa or draw",
+"odds": 1.15,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Sierra Leone vs Congo DR",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Libya vs Tunisia",
+"pick": "1st half double chance Tunisia or draw",
+"odds": 1.21,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Russia vs Venezuela",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 18:00",
+"game": "Serbia vs Poland",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1794934800.0
+},
+{
+"t": "Tue 18:30",
+"game": "Portugal vs Norway",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1794936600.0
+},
+{
+"t": "Tue 19:30",
+"game": "Ipojuca FC PE vs Santa Cruz FC PE",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1794940200.0
+},
+{
+"t": "Tue 20:00",
+"game": "Botswana vs Uganda",
+"pick": "Botswana or GG",
+"odds": 1.41,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"pick": "1st half double chance Congo or draw",
+"odds": 1.18,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "1st half double chance Saint Kitts and Nevis or draw",
+"odds": 1.3,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Rwanda vs Mali",
+"pick": "1st half double chance Mali or draw",
+"odds": 1.16,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Luton vs Peterborough United",
+"pick": "1st half GG \u2013 No",
+"odds": 1.34,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bosnia & Herzegovina vs Romania",
+"pick": "1st half double chance Romania or draw",
+"odds": 1.45,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hungary vs Northern Ireland",
+"pick": "Hungary or GG",
+"odds": 1.27,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ireland vs Kosovo",
+"pick": "Ireland or GG",
+"odds": 1.29,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Israel vs Austria",
+"pick": "1st half GG \u2013 No",
+"odds": 1.29,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Poland vs Sweden",
+"pick": "1st half double chance Sweden or draw",
+"odds": 1.47,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Oxford City vs Macclesfield FC",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Dartford FC vs Three Bridges",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ramsgate FC vs Cray Wanderers",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Denmark vs Norway",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "South Shields vs Harborough Town FC",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 21:00",
+"game": "Niger vs Morocco",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794945600.0
+}
+]
+},
+{
 "code": "ZBR0FK",
 "at": 1794924206,
 "when": "Tue 17 Nov 15:03",
