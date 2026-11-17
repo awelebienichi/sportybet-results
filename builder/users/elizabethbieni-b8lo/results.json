@@ -7,14 +7,17 @@
 "when": "Mon 16 Nov 21:51",
 "kind": "football + basketball (0 \u26bd + 2 \ud83c\udfc0)",
 "odds": 1.45,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Mon 23:30",
 "game": "Cruzeiro Basquete vs Fortaleza Basquete Cearense",
 "pick": "Under 169.5 total points",
 "odds": 1.21,
-"ts": 1794868200.0
+"ts": 1794868200.0,
+"r": "W",
+"sc": "73-77",
+"ht": "25-20"
 },
 {
 "t": "Mon 23:30",
