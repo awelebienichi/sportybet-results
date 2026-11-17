@@ -7,21 +7,27 @@
 "when": "Tue 17 Nov 19:16",
 "kind": "your chosen markets",
 "odds": 373.7,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:00",
 "game": "Mauritania vs Burkina Faso",
 "pick": "Under 3.5",
 "odds": 1.13,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "1-3",
+"ht": "0-2"
 },
 {
 "t": "Tue 20:00",
 "game": "Congo vs Comoros",
 "pick": "Under 3.5",
 "odds": 1.17,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -442,8 +448,8 @@
 "odds": 1.23,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -464,7 +470,10 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Wed 17:00",
@@ -602,8 +611,8 @@
 "odds": 1.23,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Wed 17:00",
@@ -648,7 +657,7 @@
 "when": "Tue 17 Nov 18:06",
 "kind": "basketball \u2013 total points",
 "odds": 54.13,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 19:00",
@@ -695,14 +704,20 @@
 "game": "Team Fog Naestved vs Gladsaxe",
 "pick": "Under 188.5 total points",
 "odds": 1.22,
-"ts": 1794940200.0
+"ts": 1794940200.0,
+"r": "L",
+"sc": "101-91",
+"ht": "17-20"
 },
 {
 "t": "Tue 20:00",
 "game": "Sluc Nancy Basket vs Kk Parnu",
 "pick": "Over 144.5 total points",
 "odds": 1.2,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "100-64",
+"ht": "29-16"
 },
 {
 "t": "Tue 20:00",
@@ -877,7 +892,10 @@
 "game": "Congo vs Comoros",
 "pick": "Congo to score 3+ in a row \u2013 No",
 "odds": 1.09,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -886,7 +904,7 @@
 "odds": 1.12,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-3",
 "ht": "0-2"
 },
 {
@@ -894,7 +912,10 @@
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:00",
@@ -903,8 +924,8 @@
 "odds": 1.14,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:30",
@@ -939,14 +960,20 @@
 "game": "Ireland vs Kosovo",
 "pick": "1st half double chance Ireland or draw",
 "odds": 1.19,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Israel vs Austria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.27,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -960,14 +987,20 @@
 "game": "Poland vs Sweden",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Chippenham Town vs Sholing FC",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
@@ -1054,7 +1087,10 @@
 "game": "Botswana vs Uganda",
 "pick": "Botswana or GG",
 "odds": 1.41,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
@@ -1073,7 +1109,7 @@
 "odds": 1.16,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
@@ -1083,7 +1119,7 @@
 "odds": 1.16,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -1093,7 +1129,7 @@
 "odds": 1.3,
 "ts": 1794942000.0,
 "r": "L",
-"sc": "1-2",
+"sc": "3-2",
 "ht": "1-2"
 },
 {
@@ -1101,21 +1137,30 @@
 "game": "Dominica vs Cayman Islands",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "5-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Wales vs Portugal",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "2-2",
+"ht": "2-2"
 },
 {
 "t": "Tue 20:45",
 "game": "Poland vs Sweden",
 "pick": "1st half double chance Sweden or draw",
 "odds": 1.47,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -1129,7 +1174,10 @@
 "game": "Israel vs Austria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.29,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -1150,14 +1198,20 @@
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Bosnia & Herzegovina vs Romania",
 "pick": "1st half double chance Romania or draw",
 "odds": 1.45,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 21:00",
@@ -1291,14 +1345,20 @@
 "game": "Ipojuca FC PE vs Santa Cruz FC PE",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1794940200.0
+"ts": 1794940200.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
 "game": "Botswana vs Uganda",
 "pick": "Botswana or GG",
 "odds": 1.41,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
@@ -1317,7 +1377,7 @@
 "odds": 1.3,
 "ts": 1794942000.0,
 "r": "L",
-"sc": "1-2",
+"sc": "3-2",
 "ht": "1-2"
 },
 {
@@ -1327,7 +1387,7 @@
 "odds": 1.16,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -1337,7 +1397,7 @@
 "odds": 1.34,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -1345,7 +1405,10 @@
 "game": "Bosnia & Herzegovina vs Romania",
 "pick": "1st half double chance Romania or draw",
 "odds": 1.45,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -1366,21 +1429,30 @@
 "game": "Israel vs Austria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.29,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Poland vs Sweden",
 "pick": "1st half double chance Sweden or draw",
 "odds": 1.47,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Oxford City vs Macclesfield FC",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -1401,7 +1473,10 @@
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -1555,14 +1630,20 @@
 "game": "Ipojuca FC PE vs Santa Cruz FC PE",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1794940200.0
+"ts": 1794940200.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
 "game": "Botswana vs Uganda",
 "pick": "Over 1.5",
 "odds": 1.57,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
@@ -1581,8 +1662,8 @@
 "odds": 1.21,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
@@ -1591,7 +1672,7 @@
 "odds": 1.05,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -1601,7 +1682,7 @@
 "odds": 1.34,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -1609,35 +1690,50 @@
 "game": "Bosnia & Herzegovina vs Romania",
 "pick": "1st half double chance Bosnia & Herzegovina or draw",
 "odds": 1.28,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Hungary vs Northern Ireland",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Ireland vs Kosovo",
 "pick": "1st half double chance Ireland or draw",
 "odds": 1.2,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Israel vs Austria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.29,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Poland vs Sweden",
 "pick": "1st half double chance Sweden or draw",
 "odds": 1.47,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -1665,7 +1761,10 @@
 "game": "Denmark vs Norway",
 "pick": "Denmark or GG",
 "odds": 1.18,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -1716,7 +1815,10 @@
 "game": "Ipojuca FC PE vs Santa Cruz FC PE",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1794940200.0
+"ts": 1794940200.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
@@ -1725,8 +1827,8 @@
 "odds": 1.06,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
@@ -1735,7 +1837,7 @@
 "odds": 1.08,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -1743,7 +1845,10 @@
 "game": "Saint Lucia vs Barbados",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -1771,7 +1876,10 @@
 "game": "Denmark vs Norway",
 "pick": "Denmark or GG",
 "odds": 1.18,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Wed 13:00",
@@ -2205,7 +2313,10 @@
 "game": "Congo vs Comoros",
 "pick": "Congo to score 3+ in a row \u2013 No",
 "odds": 1.08,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -2214,7 +2325,7 @@
 "odds": 1.12,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-3",
 "ht": "0-2"
 },
 {
@@ -2222,7 +2333,10 @@
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:00",
@@ -2231,8 +2345,8 @@
 "odds": 1.14,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:30",
@@ -2253,14 +2367,20 @@
 "game": "Ireland vs Kosovo",
 "pick": "1st half double chance Ireland or draw",
 "odds": 1.21,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Hungary vs Northern Ireland",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -2274,14 +2394,20 @@
 "game": "Poland vs Sweden",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Chippenham Town vs Sholing FC",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 }
 ]
 },
@@ -2492,7 +2618,10 @@
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -3060,28 +3189,37 @@
 "when": "Mon 16 Nov 20:19",
 "kind": "goal-fest teams (season data)",
 "odds": 117.96,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:00",
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -3194,8 +3332,8 @@
 "odds": 1.33,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -3613,7 +3751,10 @@
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -3749,7 +3890,7 @@
 "when": "Mon 16 Nov 20:18",
 "kind": "goal-fest teams (season data)",
 "odds": 549.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 10:15",
@@ -3768,15 +3909,18 @@
 "odds": 1.33,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -3797,7 +3941,10 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Fri 01:30",
@@ -3924,8 +4071,8 @@
 "odds": 1.33,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -3939,14 +4086,20 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -4361,7 +4514,7 @@
 "when": "Mon 16 Nov 20:09",
 "kind": "goal-fest teams (season data)",
 "odds": 14069.74,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 10:15",
@@ -4380,15 +4533,18 @@
 "odds": 1.33,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -4409,14 +4565,20 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -4842,7 +5004,7 @@
 "when": "Mon 16 Nov 20:06",
 "kind": "goal-fest teams (season data)",
 "odds": 75194.1,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 10:15",
@@ -4871,15 +5033,18 @@
 "odds": 1.33,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -4900,14 +5065,20 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -5292,8 +5463,8 @@
 "odds": 1.17,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
@@ -5302,7 +5473,7 @@
 "odds": 1.19,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -5514,8 +5685,8 @@
 "odds": 1.17,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
@@ -5524,7 +5695,7 @@
 "odds": 1.19,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -5648,8 +5819,8 @@
 "odds": 1.32,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -5663,14 +5834,20 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 09:30",
@@ -5807,8 +5984,8 @@
 "odds": 1.19,
 "ts": 1794916800.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Tue 16:00",
@@ -6197,7 +6374,10 @@
 "game": "Denmark vs Norway",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -6211,7 +6391,10 @@
 "game": "Oxford City vs Macclesfield FC",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 00:30",
@@ -6579,14 +6762,20 @@
 "game": "Poland vs Sweden",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Chippenham Town vs Sholing FC",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 00:00",
@@ -6964,7 +7153,10 @@
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:00",
@@ -6973,8 +7165,8 @@
 "odds": 1.14,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -7415,7 +7607,10 @@
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:00",
@@ -7424,8 +7619,8 @@
 "odds": 1.14,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -7439,21 +7634,30 @@
 "game": "Poland vs Sweden",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Chippenham Town vs Sholing FC",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Wed 00:00",
@@ -7654,21 +7858,30 @@
 "game": "Ireland vs Kosovo",
 "pick": "1st half double chance Ireland or draw",
 "odds": 1.22,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Spennymoor Town FC vs Chester FC",
 "pick": "1st half double chance Chester FC or draw",
 "odds": 1.19,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Tue 20:45",
 "game": "Bosnia & Herzegovina vs Romania",
 "pick": "1st half double chance Bosnia & Herzegovina or draw",
 "odds": 1.22,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 00:00",
@@ -7742,8 +7955,8 @@
 "odds": 1.27,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
@@ -7757,14 +7970,20 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -7907,7 +8126,7 @@
 "when": "Mon 16 Nov 17:00",
 "kind": "goal-fest teams (season data)",
 "odds": 940.35,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 20:00",
@@ -7956,15 +8175,18 @@
 "odds": 1.29,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
 "game": "Saint Lucia vs Barbados",
 "pick": "Over 2.5",
 "odds": 1.51,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -7985,14 +8207,20 @@
 "game": "Quorn FC vs Bury FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 20:45",
 "game": "Denmark vs Norway",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
