@@ -1322,7 +1322,10 @@
 "game": "Ireland vs Kosovo",
 "pick": "Ireland or GG",
 "odds": 1.29,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -1566,7 +1569,10 @@
 "game": "Ireland vs Kosovo",
 "pick": "Ireland or GG",
 "odds": 1.29,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -3124,14 +3130,17 @@
 "when": "Mon 16 Nov 20:19",
 "kind": "goal-fest teams (season data)",
 "odds": 398.33,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:45",
 "game": "Leatherhead FC vs Wingate & Finchley",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -3761,7 +3770,7 @@
 "when": "Mon 16 Nov 20:18",
 "kind": "goal-fest teams (season data)",
 "odds": 2529.27,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:45",
@@ -3775,7 +3784,10 @@
 "game": "Leatherhead FC vs Wingate & Finchley",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -4527,7 +4539,10 @@
 "game": "Leatherhead FC vs Wingate & Finchley",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -4984,7 +4999,10 @@
 "game": "Leatherhead FC vs Wingate & Finchley",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
