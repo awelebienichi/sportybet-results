@@ -142,7 +142,10 @@
 "game": "Hungary vs Northern Ireland",
 "pick": "Under 3.5",
 "odds": 1.19,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -550,7 +553,7 @@
 "when": "Tue 17 Nov 18:14",
 "kind": "your chosen markets",
 "odds": 1104.01,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:00",
@@ -567,14 +570,20 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Truro City vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1085,7 +1094,10 @@
 "game": "Hungary vs Northern Ireland",
 "pick": "Both halves Over 1.5 \u2013 No",
 "odds": 1.08,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -1601,7 +1613,7 @@
 "odds": 1.18,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "0-3",
+"sc": "1-3",
 "ht": "0-1"
 },
 {
@@ -1609,7 +1621,10 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1618,7 +1633,7 @@
 "odds": 1.49,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -1893,14 +1908,20 @@
 "game": "Oxford City vs Macclesfield FC",
 "pick": "Oxford City or GG",
 "odds": 1.17,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1909,7 +1930,7 @@
 "odds": 1.49,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -2011,7 +2032,10 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -2027,7 +2051,7 @@
 "odds": 1.15,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -3277,7 +3301,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -3499,7 +3523,7 @@
 "when": "Mon 16 Nov 20:19",
 "kind": "goal-fest teams (season data)",
 "odds": 106.55,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 10:15",
@@ -3526,14 +3550,20 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Truro City vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 01:30",
@@ -3972,7 +4002,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -4125,14 +4155,20 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Truro City vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4277,7 +4313,10 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4316,7 +4355,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -4524,7 +4563,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -4764,14 +4803,20 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Truro City vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4984,7 +5029,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -5276,14 +5321,20 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Truro City vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -6018,7 +6069,7 @@
 "when": "Mon 16 Nov 19:09",
 "kind": "goal-fest teams (season data)",
 "odds": 659.38,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 20:00",
@@ -6055,7 +6106,10 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -6624,7 +6678,7 @@
 "odds": 1.17,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "0-3",
+"sc": "1-3",
 "ht": "0-1"
 },
 {
@@ -8203,7 +8257,10 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -8242,7 +8299,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
@@ -8439,14 +8496,20 @@
 "game": "Dartford FC vs Three Bridges",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Truro City vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -8495,7 +8558,7 @@
 "odds": 1.45,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "1-3",
+"sc": "2-3",
 "ht": "1-1"
 },
 {
