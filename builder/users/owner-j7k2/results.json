@@ -2,6 +2,191 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZET726",
+"at": 1794951701,
+"when": "Tue 17 Nov 22:41",
+"kind": "goal-fest teams (season data)",
+"odds": 2948.33,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:30",
+"game": "Rakow Czestochowa U19 vs Legia Warszawa",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795001400.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silkeborg IF vs Randers Freja",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795017600.0
+},
+{
+"t": "Wed 19:00",
+"game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795024800.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al Ahli Saudi FC vs Al Nassr Club",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 18:30",
+"game": "Rapid Wien II vs Blau-Weiss Linz",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "TSV Havelse vs FC Viktoria Cologne",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795203900.0
+},
+{
+"t": "Sat 13:30",
+"game": "Norwich vs Cardiff City",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Ebbsfleet United FC",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 18:00",
+"game": "Lugano vs Grasshopper Club Zurich",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795280400.0
+},
+{
+"t": "Sun 12:15",
+"game": "FC Twente Enschede vs Willem II Tilburg",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795346100.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795366800.0
+},
+{
+"t": "Mon 00:30",
+"game": "Chicago Fire vs Charlotte FC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795390200.0
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795463100.0
+}
+]
+},
+{
 "code": "UVZGHH",
 "at": 1794951200,
 "when": "Tue 17 Nov 22:33",
@@ -1356,7 +1541,7 @@
 "odds": 1.43,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -1643,7 +1828,7 @@
 "odds": 1.43,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -1940,7 +2125,7 @@
 "odds": 1.18,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -2061,7 +2246,7 @@
 "odds": 1.18,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -3425,7 +3610,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -3972,7 +4157,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -4335,7 +4520,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -4835,7 +5020,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -5353,7 +5538,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -6128,7 +6313,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -6658,7 +6843,7 @@
 "odds": 1.15,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -7947,7 +8132,7 @@
 "odds": 1.15,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -8279,7 +8464,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -8528,7 +8713,7 @@
 "odds": 1.5,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
