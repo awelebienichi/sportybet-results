@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Z2JZ5X",
+"at": 1794930045,
+"when": "Tue 17 Nov 16:40",
+"kind": "pattern combo (0 HT draw + 4 bankers + 8 1st-half + 5 Over 1.5 + 2 basketball)",
+"odds": 20.08,
+"status": "open",
+"legs": [
+{
+"t": "Tue 17:00",
+"game": "Czechia vs Turkiye",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.1,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Guinea-Bissau vs Madagascar",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Kenya vs South Africa",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Jordan vs Australia",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"ts": 1794931200.0
+},
+{
+"t": "Tue 18:00",
+"game": "Serbia vs Poland",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1794934800.0
+},
+{
+"t": "Tue 18:30",
+"game": "Portugal vs Norway",
+"pick": "1st half GG \u2013 No",
+"odds": 1.25,
+"ts": 1794936600.0
+},
+{
+"t": "Tue 20:00",
+"game": "Congo vs Comoros",
+"pick": "Congo to score 3+ in a row \u2013 No",
+"odds": 1.09,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Mauritania vs Burkina Faso",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:30",
+"game": "Baskonia Vitoria-Gasteiz vs Hapoel Tel-Aviv",
+"pick": "Under 191.5 total points",
+"odds": 1.25,
+"ts": 1794943800.0
+},
+{
+"t": "Tue 20:30",
+"game": "London Lions vs BC Siauliai",
+"pick": "Over 147.5 total points",
+"odds": 1.22,
+"ts": 1794943800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ukraine vs Georgia",
+"pick": "Ukraine to score 3+ in a row \u2013 No",
+"odds": 1.1,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hungary vs Northern Ireland",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.08,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ireland vs Kosovo",
+"pick": "1st half double chance Ireland or draw",
+"odds": 1.19,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Israel vs Austria",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Spalding United vs Hebburn Town",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Poland vs Sweden",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Chippenham Town vs Sholing FC",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1794944700.0
+}
+]
+},
+{
 "code": "SVF55Z",
 "at": 1794925000,
 "when": "Tue 17 Nov 15:16",
