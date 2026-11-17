@@ -49,7 +49,10 @@
 "game": "Estudiantes de Rio Cuarto Reserve vs Colon de Santa Fe Reserve",
 "pick": "Under 3.5",
 "odds": 1.12,
-"ts": 1794938400.0
+"ts": 1794938400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 19:30",
@@ -863,7 +866,10 @@
 "game": "Mauritania vs Burkina Faso",
 "pick": "1st half GG \u2013 No",
 "odds": 1.12,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Tue 20:00",

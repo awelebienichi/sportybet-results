@@ -682,7 +682,10 @@
 "game": "BMS Herlev Wolfpack vs Holbaek-Stenhus",
 "pick": "Over 151.5 total points",
 "odds": 1.21,
-"ts": 1794938400.0
+"ts": 1794938400.0,
+"r": "W",
+"sc": "84-77",
+"ht": "12-24"
 },
 {
 "t": "Tue 19:30",
@@ -878,7 +881,10 @@
 "game": "Mauritania vs Burkina Faso",
 "pick": "1st half GG \u2013 No",
 "odds": 1.12,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Tue 20:00",
@@ -1076,7 +1082,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "1st half double chance Saint Kitts and Nevis or draw",
 "odds": 1.3,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
@@ -1294,7 +1303,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "1st half double chance Saint Kitts and Nevis or draw",
 "odds": 1.3,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:00",
@@ -2170,7 +2182,10 @@
 "game": "Mauritania vs Burkina Faso",
 "pick": "1st half GG \u2013 No",
 "odds": 1.12,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Tue 20:00",
