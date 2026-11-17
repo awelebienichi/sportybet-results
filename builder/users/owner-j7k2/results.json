@@ -3500,7 +3500,10 @@
 "game": "Barnsley U21 vs Wigan Athletic U21",
 "pick": "1st half Over 0.5",
 "odds": 1.13,
-"ts": 1794920400.0
+"ts": 1794920400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 15:00",
@@ -3713,7 +3716,10 @@
 "game": "Barnsley U21 vs Wigan Athletic U21",
 "pick": "1st half Over 0.5",
 "odds": 1.13,
-"ts": 1794920400.0
+"ts": 1794920400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 15:00",
