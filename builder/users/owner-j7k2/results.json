@@ -367,14 +367,17 @@
 "when": "Tue 17 Nov 08:07",
 "kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 9 Over 1.5 + 1 basketball)",
 "odds": 27.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 11:00",
 "game": "Slovakia vs Estonia",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794909600.0
+"ts": 1794909600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 12:00",
@@ -548,14 +551,17 @@
 "when": "Tue 17 Nov 07:42",
 "kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 10 Over 1.5 + 0 basketball)",
 "odds": 26.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 11:00",
 "game": "Slovakia vs Estonia",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794909600.0
+"ts": 1794909600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 14:00",
@@ -726,14 +732,17 @@
 "when": "Tue 17 Nov 07:37",
 "kind": "your chosen markets",
 "odds": 97.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 11:00",
 "game": "Slovakia vs Estonia",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794909600.0
+"ts": 1794909600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -5101,7 +5110,10 @@
 "game": "Slovakia vs Estonia",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794909600.0
+"ts": 1794909600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 14:00",
@@ -5490,7 +5502,10 @@
 "game": "Slovakia vs Estonia",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1794909600.0
+"ts": 1794909600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 11:00",
