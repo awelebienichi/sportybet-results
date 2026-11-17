@@ -108,6 +108,8 @@ def build(req):
     legs = max(1, min(int(req.get("legs", 10)), 50)); LV = LEVELS.get(req.get("strict", "normal"), LEVELS["normal"])
     LAG = dt.timezone(dt.timedelta(hours=1)); now = time.time()
     G = [g for g in games() if g["ts"] > now + 10 * 60]
+    if P.AVOID["eids"]:                                                         # games already on this person's unplayed tickets: skipped
+        P.AVOID["hit"] |= {g["eid"] for g in G if g["eid"] in P.AVOID["eids"]}; G = [g for g in G if g["eid"] not in P.AVOID["eids"]]
     days = sorted({d for d in (req.get("days") or []) if re.fullmatch(r"\d{4}-\d\d-\d\d", str(d))})
     if days: G = [g for g in G if dt.datetime.fromtimestamp(g["ts"], LAG).date().isoformat() in days]
     span = ", ".join(dt.date.fromisoformat(d).strftime("%a %d") for d in days) or "next days"

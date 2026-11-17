@@ -67,8 +67,13 @@ def handle(msgs, state):
         for _k in ("key", "sig", "ts"): req.pop(_k, None)                        # nothing secret goes into the public lists
         builds = json.load(open(P["builds"])) if os.path.exists(P["builds"]) else []
         print("building", uid, req, flush=True); t0 = time.time()
+        phonebuild.AVOID["eids"], phonebuild.AVOID["hit"] = set(), set()
+        if req.get("type") not in ("live", "bblive", "livemix", "rebuild", "combine") and not req.get("repeat"):   # fresh games on every new ticket
+            phonebuild.AVOID["eids"] = {l.get("eid") for b in builds if b.get("ok") for t in b.get("tickets") or [] for l in t.get("legs") or []
+                                        if isinstance(l, dict) and float(l.get("ts") or 0) > time.time()}
         try: res = phonebuild.main(req)
         except Exception as e: res = dict(ok=False, msg=f"Builder error: {e}")
+        phonebuild.AVOID["eids"], phonebuild.AVOID["hit"] = set(), set()
         when = dt.datetime.now(LAGOS).strftime("%a %d %b %H:%M")
         if not res.get("ok"):
             msg = res.get("msg") or "; ".join(res.get("note", [])) or "No ticket passed the checks."

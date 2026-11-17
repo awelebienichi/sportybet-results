@@ -63,12 +63,21 @@ def games(lo, hi):
     return list(G.values())
 
 _GAMES = {"at": 0, "hi": 0, "list": []}
+# games already on this person's earlier tickets that haven't kicked off (set by poll.py for each pre-match build; user, 17 Nov:
+# "some games appearing 3 to 4 times on different tickets") – every build ranks strongest first, so without this the same top games
+# came back on every new ticket
+AVOID = {"eids": set(), "hit": set()}
+
 def games_cached(lo, hi, fresh=15 * 60):
     """reuse the game list fetched in the last 15 minutes (the listener keeps a 7-day list warm); prices are re-checked when the code is reloaded"""
     if time.time() - _GAMES["at"] > fresh or _GAMES["hi"] < hi:
         far = max(hi, time.time() + 7 * 86400)
         _GAMES.update(at=time.time(), hi=far, list=games(time.time() + 5 * 60, far))
-    return [g for g in _GAMES["list"] if lo <= g["ts"] <= hi]
+    out = [g for g in _GAMES["list"] if lo <= g["ts"] <= hi]
+    if AVOID["eids"]:
+        AVOID["hit"] |= {g["eid"] for g in out if g["eid"] in AVOID["eids"]}
+        out = [g for g in out if g["eid"] not in AVOID["eids"]]
+    return out
 
 def lastx(t):
     f = os.path.join(CACHE, t + ".json")
@@ -901,6 +910,7 @@ def finish(T, kind, names, note, req):
     """book every ticket, reload and check it, report"""
     if req.get("_legs_only"):                                                    # combined football + basketball ticket: hand the legs back, book later
         return dict(ok=bool(T and T[0]), legs=(T[0] if T else []), note=note, kind=names.get(kind, kind))
+    if AVOID["hit"]: note.append(f"{len(AVOID['hit'])} game(s) already on your earlier tickets (not started yet) were skipped, so this ticket has fresh games.")
     res = []
     for t in T:
         t.sort(key=lambda p: p["ts"])
