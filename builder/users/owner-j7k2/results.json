@@ -2,6 +2,212 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "N1NDTB",
+"at": 1794939309,
+"when": "Tue 17 Nov 19:15",
+"kind": "your chosen markets",
+"odds": 33.95,
+"status": "open",
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "Garuda Yaksa vs Madura United",
+"pick": "1st half Under 2.5",
+"odds": 1.13,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 18:00",
+"game": "MFK Karvina vs FC Banik Ostrava B",
+"pick": "1st half Under 2.5",
+"odds": 1.2,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Stade Nyonnais vs FC Wil 1900",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"ts": 1795199400.0
+},
+{
+"t": "Sat 06:00",
+"game": "FC Ska-Khabarovsk vs SK Rotor Volgograd",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 06:00",
+"game": "Tegevajaro Miyazaki vs Iwaki FC",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 12:30",
+"game": "Avia Swidnik vs Legia Warszawa II",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1795260600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hannover 96 vs Greuther Furth",
+"pick": "1st half Under 2.5",
+"odds": 1.19,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:30",
+"game": "FK Fotbal Trinec vs Dukla Prague",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC Tekstilshchik Ivanovo vs PFK Arsenal Tula",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Vendsyssel FF vs Hvidovre IF",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:45",
+"game": "Quevilly-Rouen Metropole vs Valenciennes FC",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1795268700.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Ajka vs Kazincbarcikai SC",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Banik Ostrava vs FK Teplice",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dover Athletic FC vs Horsham FC",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Eindhoven vs RKC Waalwijk",
+"pick": "1st half Under 2.5",
+"odds": 1.18,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaalerenga IF vs IK Start",
+"pick": "1st half Under 2.5",
+"odds": 1.26,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:15",
+"game": "Genk vs RAAL La Louviere",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"ts": 1795281300.0
+},
+{
+"t": "Sat 20:30",
+"game": "FC St. Pauli vs Bochum",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1795289400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Strasbourg vs Brest",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 12:00",
+"game": "KS Hutnik Krakow SSA vs CWKS Resovia",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 14:00",
+"game": "IK Sirius vs Djurgardens IF",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Viborg FF vs Randers FC",
+"pick": "1st half Under 2.5",
+"odds": 1.18,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 17:30",
+"game": "US Sambenedettese vs Perugia Calcio Spa",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 17:30",
+"game": "Wisla Plock vs Legia Warszawa",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 22:00",
+"game": "LDU Quito vs SD Aucas",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795381200.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Universidad Catolica del Ecuador vs Barcelona SC",
+"pick": "1st half Under 2.5",
+"odds": 1.1,
+"ts": 1795381200.0
+},
+{
+"t": "Sun 22:00",
+"game": "Rubio Nu vs Libertad Asuncion",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1795381200.0
+}
+]
+},
+{
 "code": "N3WR7K",
 "at": 1794935660,
 "when": "Tue 17 Nov 18:14",
