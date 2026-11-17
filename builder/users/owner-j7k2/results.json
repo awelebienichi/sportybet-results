@@ -880,7 +880,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:30",
@@ -1657,7 +1660,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
@@ -2154,7 +2160,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:30",
@@ -5199,7 +5208,7 @@
 "odds": 1.17,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": ""
 },
 {
@@ -5421,7 +5430,7 @@
 "odds": 1.17,
 "ts": 1794942000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": ""
 },
 {
@@ -6875,7 +6884,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -7323,7 +7335,10 @@
 "game": "Saint Kitts and Nevis vs Bonaire",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
