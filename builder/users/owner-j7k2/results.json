@@ -2,6 +2,366 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MJXNC6",
+"at": 1794912010,
+"when": "Tue 17 Nov 11:40",
+"kind": "your tracker's best markets",
+"odds": 215.96,
+"status": "open",
+"legs": [
+{
+"t": "Tue 15:00",
+"game": "Sheffield United U21 vs Huddersfield Town (R)",
+"pick": "Sheffield United U21 or GG",
+"odds": 1.1,
+"ts": 1794924000.0
+},
+{
+"t": "Tue 19:30",
+"game": "Ipojuca FC PE vs Santa Cruz FC PE",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1794940200.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Kitts and Nevis vs Bonaire",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Luton vs Peterborough United",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794942000.0
+},
+{
+"t": "Tue 20:45",
+"game": "Dartford FC vs Three Bridges",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Burgess Hill Town vs Brentwood Town FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ramsgate FC vs Cray Wanderers",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1794944700.0
+},
+{
+"t": "Tue 20:45",
+"game": "Denmark vs Norway",
+"pick": "Denmark or GG",
+"odds": 1.18,
+"ts": 1794944700.0
+},
+{
+"t": "Wed 13:00",
+"game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1795003200.0
+},
+{
+"t": "Wed 14:00",
+"game": "Peterborough United U21 vs Bolton Wanderers",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795006800.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 20:45",
+"game": "Gosport Borough vs Chertsey Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795031100.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795032000.0
+},
+{
+"t": "Thu 09:30",
+"game": "Lions FC vs Wollongong Wolves FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795077000.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795118400.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 11:00",
+"game": "Vissel Kobe vs Mito Hollyhock",
+"pick": "1st half double chance Vissel Kobe or draw",
+"odds": 1.12,
+"ts": 1795168800.0
+},
+{
+"t": "Fri 13:00",
+"game": "Dewa United vs Persita Tangerang",
+"pick": "Dewa United or GG",
+"odds": 1.09,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 18:00",
+"game": "MFK Karvina vs FC Banik Ostrava B",
+"pick": "MFK Karvina or GG",
+"odds": 1.06,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Heracles Almelo vs Jong PSV Eindhoven",
+"pick": "1st half double chance Heracles Almelo or draw",
+"odds": 1.08,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"pick": "Briton Ferry or GG",
+"odds": 1.07,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795204800.0
+},
+{
+"t": "Sat 06:00",
+"game": "Suwon Bluewings vs Gyeongnam FC",
+"pick": "1st half double chance Suwon Bluewings or draw",
+"odds": 1.11,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 07:00",
+"game": "Kawasaki Frontale vs Avispa Fukuoka",
+"pick": "Kawasaki Frontale or GG",
+"odds": 1.18,
+"ts": 1795240800.0
+},
+{
+"t": "Sat 13:00",
+"game": "Bhayangkara Presisi Indonesia FC vs Persijap Jepara",
+"pick": "1st half double chance Bhayangkara Presisi Indonesia FC or draw",
+"odds": 1.1,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Kayserispor vs Sariyer SK",
+"pick": "Kayserispor or GG",
+"odds": 1.11,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al-Sailiya SC",
+"pick": "AL Wakrah SC or GG",
+"odds": 1.08,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Clyde FC or GG",
+"odds": 1.07,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "KAS Eupen vs Sporting Hasselt",
+"pick": "KAS Eupen or GG",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Cove Rangers FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Huddersfield vs Leicester",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "York City FC vs Walsall FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 18:30",
+"game": "PAE PS Kalamata vs AEK Athens",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Ferencvarosi Budapest vs WKW ETO FC Gyor",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Monaco vs AJ Auxerre",
+"pick": "Monaco or GG",
+"odds": 1.07,
+"ts": 1795290300.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Zurich vs FC St. Gallen 1879",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Paris FC vs Angers",
+"pick": "1st half double chance Paris FC or draw",
+"odds": 1.11,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "KFUM Oslo vs SK Brann",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795366800.0
+}
+]
+},
+{
 "code": "XRW19L",
 "at": 1794899260,
 "when": "Tue 17 Nov 08:07",
@@ -4358,7 +4718,7 @@
 "odds": 1.02,
 "ts": 1794909600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": ""
 },
 {
@@ -5133,7 +5493,7 @@
 "odds": 1.02,
 "ts": 1794909600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": ""
 },
 {
