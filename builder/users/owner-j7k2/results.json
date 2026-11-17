@@ -1106,7 +1106,10 @@
 "game": "Spalding United vs Hebburn Town",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -2531,7 +2534,10 @@
 "game": "Spalding United vs Hebburn Town",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -2772,7 +2778,10 @@
 "game": "Spalding United vs Hebburn Town",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:45",
@@ -3215,7 +3224,7 @@
 "when": "Mon 16 Nov 20:19",
 "kind": "goal-fest teams (season data)",
 "odds": 262.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -3232,7 +3241,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -3884,7 +3896,7 @@
 "when": "Mon 16 Nov 20:18",
 "kind": "goal-fest teams (season data)",
 "odds": 945.42,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -3921,7 +3933,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4208,7 +4223,7 @@
 "when": "Mon 16 Nov 20:13",
 "kind": "goal-fest teams (season data)",
 "odds": 54419.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -4262,7 +4277,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4450,7 +4468,7 @@
 "when": "Mon 16 Nov 20:09",
 "kind": "goal-fest teams (season data)",
 "odds": 114581.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -4467,7 +4485,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4914,14 +4935,17 @@
 "when": "Mon 16 Nov 20:06",
 "kind": "goal-fest teams (season data)",
 "odds": 1635969.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:45",
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -6555,7 +6579,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -7344,7 +7371,10 @@
 "game": "Spalding United vs Hebburn Town",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:45",
@@ -7798,7 +7828,10 @@
 "game": "Spalding United vs Hebburn Town",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -8041,7 +8074,7 @@
 "odds": 1.19,
 "ts": 1794944700.0,
 "r": "W",
-"sc": "0-4",
+"sc": "0-5",
 "ht": "0-2"
 },
 {
@@ -8097,7 +8130,7 @@
 "when": "Mon 16 Nov 17:15",
 "kind": "goal-fest teams (season data)",
 "odds": 6082.91,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 20:00",
@@ -8161,7 +8194,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -8411,7 +8447,10 @@
 "game": "Leiston FC vs Stratford Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1794944700.0
+"ts": 1794944700.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
