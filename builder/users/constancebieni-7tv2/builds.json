@@ -1,5 +1,140 @@
 [
 {
+"when": "Tue 17 Nov 10:00",
+"at": 1794906015,
+"req": {
+"type": "rollover",
+"legs": 8,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6423 if it wins"
+],
+"tickets": [
+{
+"code": "P0GTHN",
+"odds": 4.23,
+"legs": [
+{
+"t": "Tue 11:00",
+"game": "Slovakia vs Estonia",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 85%",
+"ts": 1794909600.0,
+"eid": "sr:match:74754174",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "74754174|450001||25"
+},
+{
+"t": "Tue 12:00",
+"game": "Hungary vs Czechia",
+"lg": "International Youth - U19 UEFA European Championship, Qualification",
+"pick": "Over 1.5",
+"odds": 1.23,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 89%",
+"ts": 1794913200.0,
+"eid": "sr:match:74723536",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74723536|18|total=1.5|12"
+},
+{
+"t": "Tue 17:00",
+"game": "Kenya vs South Africa",
+"lg": "International - Africa Cup of Nations Qualification",
+"pick": "Handicap 2:0 \u2013 Kenya",
+"odds": 1.29,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794931200.0,
+"eid": "sr:match:75802258",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75802258|14|hcp=2:0|1711"
+},
+{
+"t": "Tue 20:00",
+"game": "Luton vs Peterborough United",
+"lg": "England - EFL Trophy",
+"pick": "1st half Under 2.5",
+"odds": 1.26,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 90%",
+"ts": 1794942000.0,
+"eid": "sr:match:73661312",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73661312|68|total=2.5|13"
+},
+{
+"t": "Tue 20:00",
+"game": "Saint Lucia vs Barbados",
+"lg": "International - CONCACAF Nations League",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 100%",
+"ts": 1794942000.0,
+"eid": "sr:match:75468316",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "75468316|90|total=0.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Burgess Hill Town vs Brentwood Town FC",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%, Flashscore home/away 85%; FotMob: 3.4 goals a game",
+"ts": 1794944700.0,
+"eid": "sr:match:75997132",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75997132|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Ramsgate FC vs Cray Wanderers",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); head-to-head 100%, Flashscore home/away 85%; FotMob: 3.5 goals a game",
+"ts": 1794944700.0,
+"eid": "sr:match:75656114",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75656114|450001||25"
+},
+{
+"t": "Tue 20:45",
+"game": "Ireland vs Kosovo",
+"lg": "International - UEFA Nations League",
+"pick": "1st half double chance Ireland or draw",
+"odds": 1.21,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1794944700.0,
+"eid": "sr:match:68932742",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "68932742|63||9"
+}
+],
+"chance": 0.16
+}
+]
+},
+{
 "when": "Tue 17 Nov 01:07",
 "at": 1794874068,
 "req": {
@@ -6463,76 +6598,6 @@
 "spec": "",
 "oid": "25",
 "k": "74838480|450001||25"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 00:17",
-"at": 1794611858,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwflk5wkutb3"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "YMUFP9",
-"odds": 1.2,
-"legs": [
-{
-"t": "Fri 23:00",
-"game": "Lobos UPNFM Reserves vs Motagua Reserves",
-"lg": "Honduras - Honduras Reserve League",
-"pick": "Motagua Reserves or draw",
-"odds": 1.05,
-"why": "LIVE 1-2 56': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794607200.0,
-"eid": "sr:match:111111114688939",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "111111114688939|10||11"
-},
-{
-"t": "Fri 23:06",
-"game": "Alamos F.C. vs Heroes de Zaci FC III",
-"lg": "Mexico - Mexico Liga TDP",
-"pick": "Over 3.5",
-"odds": 1.09,
-"why": "LIVE 2-1 48': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794607560.0,
-"eid": "sr:match:111111114415093",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "12",
-"k": "111111114415093|18|total=3.5|12"
-},
-{
-"t": "Fri 23:09",
-"game": "Artesanos Metepec FC II vs Deportivo Metepec",
-"lg": "Mexico - Mexico Liga TDP",
-"pick": "Deportivo Metepec or draw",
-"odds": 1.05,
-"why": "LIVE 0-1 45': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794607740.0,
-"eid": "sr:match:111111114410527",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "111111114410527|10||11"
 }
 ]
 }

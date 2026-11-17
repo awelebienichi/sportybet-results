@@ -71,12 +71,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-16",
-"code": "KNNVW3",
-"odds": 4.37,
+"date": "2026-11-17",
+"code": "P0GTHN",
+"odds": 4.23,
 "stake": 100.0,
 "n": 8,
-"result": "lost"
+"result": null
 },
 "started": "2026-11-12",
 "short": "lower",
