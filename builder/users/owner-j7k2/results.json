@@ -3990,7 +3990,7 @@
 "when": "Mon 16 Nov 18:47",
 "kind": "Over 1.5",
 "odds": 6226.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 11:00",
@@ -4007,7 +4007,10 @@
 "game": "Romania vs Ukraine",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1794916800.0
+"ts": 1794916800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 13:00",
