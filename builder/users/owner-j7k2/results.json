@@ -381,7 +381,10 @@
 "game": "Hungary vs Czechia",
 "pick": "1st half double chance Czechia or draw",
 "odds": 1.17,
-"ts": 1794913200.0
+"ts": 1794913200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 14:00",
@@ -5732,7 +5735,10 @@
 "game": "Hungary vs Czechia",
 "pick": "1st half double chance Czechia or draw",
 "odds": 1.17,
-"ts": 1794913200.0
+"ts": 1794913200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 16:00",
