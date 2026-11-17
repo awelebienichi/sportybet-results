@@ -1058,7 +1058,10 @@
 "game": "Congo vs Comoros",
 "pick": "1st half double chance Congo or draw",
 "odds": 1.18,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -1075,7 +1078,10 @@
 "game": "Rwanda vs Mali",
 "pick": "1st half double chance Mali or draw",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -1296,7 +1302,10 @@
 "game": "Congo vs Comoros",
 "pick": "1st half double chance Congo or draw",
 "odds": 1.18,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -1313,7 +1322,10 @@
 "game": "Rwanda vs Mali",
 "pick": "1st half double chance Mali or draw",
 "odds": 1.16,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -1551,7 +1563,10 @@
 "game": "Congo vs Comoros",
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -1568,7 +1583,10 @@
 "game": "Rwanda vs Mali",
 "pick": "1st half Under 2.5",
 "odds": 1.05,
-"ts": 1794942000.0
+"ts": 1794942000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
