@@ -7,7 +7,7 @@
 "when": "Tue 17 Nov 01:07",
 "kind": "live \u2013 best of all",
 "odds": 1.38,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 00:00",
@@ -28,7 +28,10 @@
 "game": "Brazil vs Peru",
 "pick": "Handicap 0:5 \u2013 Peru",
 "odds": 1.22,
-"ts": 1794870000.0
+"ts": 1794870000.0,
+"r": "L",
+"sc": "9-0",
+"ht": "2-0"
 }
 ]
 },
