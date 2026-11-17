@@ -1,5 +1,185 @@
 [
 {
+"when": "Tue 17 Nov 20:01",
+"at": 1794942088,
+"req": {
+"u": "oladipupoodelo-u1g8",
+"name": "Oladipupo Odelola",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-18",
+"2026-11-19",
+"2026-11-20",
+"2026-11-21",
+"2026-11-22",
+"2026-11-23"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwl260mwg4t6"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 10 legs win: about 19%."
+],
+"tickets": [
+{
+"code": "SJES9B",
+"odds": 3.24,
+"legs": [
+{
+"t": "Wed 13:00",
+"game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%, season: 3.8 goals a game",
+"ts": 1795003200.0,
+"eid": "sr:match:76165734",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76165734|18|total=1.5|12"
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.1 goals a game, Vitibet tip 2-1",
+"ts": 1795023900.0,
+"eid": "sr:match:74371856",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371856|18|total=1.5|12"
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10; FotMob: 4.1 goals a game, Vitibet tip 2-1",
+"ts": 1795110300.0,
+"eid": "sr:match:74371866",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371866|18|total=1.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 95% from both teams' last 10; season: 4.1 goals a game",
+"ts": 1795203000.0,
+"eid": "sr:match:72546176",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72546176|18|total=1.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"lg": "England - League One",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 2.8 goals a game, Vitibet tip 1-2, season: 2.8 goals a game",
+"ts": 1795204800.0,
+"eid": "sr:match:72341382",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72341382|18|total=1.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings; FotMob: 3.4 goals a game, Vitibet tip 1-2, season: 3.4 goals a game",
+"ts": 1795266000.0,
+"eid": "sr:match:67015476",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "67015476|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"lg": "England Amateur - National League South",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 96% from both teams' last 10 and 7 meetings; FotMob: 3.7 goals a game, Vitibet tip 3-1, season: 3.7 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72758316",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72758316|18|total=1.5|12"
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"lg": "USA - MLS",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Vitibet tip 2-1, season: 3.7 goals a game",
+"ts": 1795302000.0,
+"eid": "sr:match:76609136",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76609136|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 92% from both teams' last 10 and 8 meetings; FotMob: 3.7 goals a game, Vitibet tip 1-2, season: 3.7 goals a game",
+"ts": 1795363200.0,
+"eid": "sr:match:67015480",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "67015480|18|total=1.5|12"
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"lg": "Hungary - NB II",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 100% from both teams' last 10; FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1795458600.0,
+"eid": "sr:match:76772874",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76772874|18|total=1.5|12"
+}
+],
+"chance": 0.1897
+}
+]
+},
+{
 "when": "Tue 17 Nov 19:59",
 "at": 1794941991,
 "req": {
