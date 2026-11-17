@@ -4704,7 +4704,7 @@
 "when": "Mon 16 Nov 18:47",
 "kind": "Over 1.5",
 "odds": 3839.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 20:00",
@@ -4741,7 +4741,10 @@
 "game": "Hungary vs Czechia",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794913200.0
+"ts": 1794913200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 16:00",
@@ -5522,7 +5525,10 @@
 "game": "Hungary vs Czechia",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1794913200.0
+"ts": 1794913200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 14:00",
