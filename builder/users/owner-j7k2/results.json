@@ -2993,7 +2993,10 @@
 "game": "Salamanca CF UDS vs Atletico Albacete",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.61,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -3472,7 +3475,7 @@
 "when": "Tue 17 Nov 22:48",
 "kind": "goal-fest teams (season data)",
 "odds": 42045.26,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -3489,7 +3492,10 @@
 "game": "Salamanca CF UDS vs Atletico Albacete",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -4075,7 +4081,10 @@
 "game": "Salamanca CF UDS vs Atletico Albacete",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -5276,7 +5285,10 @@
 "game": "Salamanca CF UDS vs Atletico Albacete",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
