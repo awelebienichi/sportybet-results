@@ -1341,7 +1341,10 @@
 "game": "Juventus Turin W vs Oud-Heverlee Leuven W",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
@@ -1650,7 +1653,10 @@
 "game": "Juventus Turin W vs Oud-Heverlee Leuven W",
 "pick": "Excluded goals: 1",
 "odds": 1.09,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
@@ -1905,7 +1911,10 @@
 "game": "Juventus Turin W vs Oud-Heverlee Leuven W",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
@@ -2109,7 +2118,10 @@
 "game": "Juventus Turin W vs Oud-Heverlee Leuven W",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 23:00",
@@ -7434,7 +7446,10 @@
 "game": "Juventus Turin W vs Oud-Heverlee Leuven W",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 09:30",
@@ -8189,7 +8204,10 @@
 "game": "Juventus Turin W vs Oud-Heverlee Leuven W",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:00",
