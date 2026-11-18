@@ -1,18 +1,28 @@
 {
 "active": true,
-"history": [],
-"start_stake": 1000.0,
+"history": [
+{
+"date": "2026-11-18",
+"day": 1,
+"code": "V098BS",
 "stake": 1000.0,
+"odds": 1.77,
+"result": "won",
+"returned": 1770
+}
+],
+"start_stake": 1000.0,
+"stake": 1770,
 "odds": 5.0,
 "hour": 10,
-"day": 1,
+"day": 2,
 "current": {
 "date": "2026-11-18",
 "code": "V098BS",
 "odds": 1.77,
 "stake": 1000.0,
 "n": 4,
-"result": null
+"result": "won"
 },
 "started": "2026-11-18",
 "short": "lower",

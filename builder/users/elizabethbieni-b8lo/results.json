@@ -24,7 +24,10 @@
 "game": "Silkeborg IF vs Randers Freja",
 "pick": "Randers Freja excluded goals: 0",
 "odds": 1.12,
-"ts": 1795017600.0
+"ts": 1795017600.0,
+"r": "W",
+"sc": "3-3",
+"ht": ""
 },
 {
 "t": "Wed 17:00",
@@ -71,7 +74,10 @@
 "game": "CS Constantine vs Ben Aknoun",
 "pick": "2nd half Over 0.5",
 "odds": 1.31,
-"ts": 1795020300.0
+"ts": 1795020300.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
@@ -80,7 +86,7 @@
 "odds": 1.2,
 "ts": 1795021200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-4",
 "ht": ""
 },
 {
@@ -88,21 +94,30 @@
 "game": "Vipers SC vs Bul FC",
 "pick": "Vipers SC excluded goals: 2",
 "odds": 1.26,
-"ts": 1795021200.0
+"ts": 1795021200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 18:00",
 "game": "CD Roda vs AC Torrellano",
 "pick": "AC Torrellano excluded goals: 2",
 "odds": 1.18,
-"ts": 1795021200.0
+"ts": 1795021200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:30",
 "game": "FK Zemun vs FK Radnicki 1923 Kragujevac",
 "pick": "FK Zemun excluded goals: 2",
 "odds": 1.13,
-"ts": 1795023000.0
+"ts": 1795023000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:45",
@@ -123,7 +138,10 @@
 "game": "Club Portugalete vs Real Union de Irun",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
@@ -158,14 +176,20 @@
 "game": "Utebo FC vs CE Sabadell FC",
 "pick": "CE Sabadell FC excluded goals: 2",
 "odds": 1.29,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Wed 19:00",
 "game": "CA Belgrano vs Independiente Reserve",
 "pick": "Goal bounds 2-5+",
 "odds": 1.24,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 }
 ]
 },
@@ -205,7 +229,7 @@
 "when": "Mon 16 Nov 15:02",
 "kind": "your chosen markets",
 "odds": 4.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 16:00",
@@ -252,7 +276,10 @@
 "game": "Utebo FC vs CE Sabadell FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.1,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Thu 01:30",
@@ -367,7 +394,7 @@
 "when": "Mon 16 Nov 13:49",
 "kind": "your chosen markets",
 "odds": 4.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 16:00",
@@ -414,7 +441,10 @@
 "game": "Utebo FC vs CE Sabadell FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.1,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Thu 01:30",
