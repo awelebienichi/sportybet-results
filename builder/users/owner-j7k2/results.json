@@ -2898,7 +2898,10 @@
 "game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
@@ -3770,7 +3773,7 @@
 "when": "Tue 17 Nov 22:48",
 "kind": "goal-fest teams (season data)",
 "odds": 2241.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 12:30",
@@ -3797,7 +3800,10 @@
 "game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Thu 13:45",
@@ -4343,7 +4349,7 @@
 "when": "Tue 17 Nov 22:47",
 "kind": "goal-fest teams (season data)",
 "odds": 2438.25,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 12:30",
@@ -4370,7 +4376,10 @@
 "game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 01:30",
@@ -4725,7 +4734,7 @@
 "when": "Tue 17 Nov 22:45",
 "kind": "goal-fest teams (season data)",
 "odds": 2316.67,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 12:30",
@@ -4752,7 +4761,10 @@
 "game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 01:30",
@@ -4916,7 +4928,7 @@
 "when": "Tue 17 Nov 22:41",
 "kind": "goal-fest teams (season data)",
 "odds": 2948.33,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 12:30",
@@ -4943,7 +4955,10 @@
 "game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 09:30",
@@ -5154,7 +5169,10 @@
 "game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
