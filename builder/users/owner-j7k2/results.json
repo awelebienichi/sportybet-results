@@ -1194,7 +1194,10 @@
 "game": "Hacken Gothenburg W vs Manchester City WFC",
 "pick": "Handicap 2:0 \u2013 Hacken Gothenburg W",
 "odds": 1.85,
-"ts": 1795023900.0
+"ts": 1795023900.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:45",
@@ -1253,7 +1256,10 @@
 "game": "Nottingham Forest Lfc vs Liverpool LFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Wed 20:00",
@@ -1470,7 +1476,10 @@
 "game": "Hacken Gothenburg W vs Manchester City WFC",
 "pick": "Handicap 2:0 \u2013 Hacken Gothenburg W",
 "odds": 1.85,
-"ts": 1795023900.0
+"ts": 1795023900.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:45",
@@ -1526,7 +1535,10 @@
 "game": "Nottingham Forest Lfc vs Liverpool LFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Wed 20:00",
