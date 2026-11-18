@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QB5VNG",
+"at": 1794982179,
+"when": "Wed 18 Nov 07:09",
+"kind": "your chosen markets",
+"odds": 19739.88,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:30",
+"game": "Rakow Czestochowa U19 vs Legia Warszawa",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795001400.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silkeborg IF vs Randers Freja",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795017600.0
+},
+{
+"t": "Wed 20:00",
+"game": "West Ham United FC Women vs Wolverhampton Wanderers WFC",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795028400.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1795118400.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 13:00",
+"game": "Lee Man FC vs North District FC",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 19:00",
+"game": "TSV Havelse vs FC Viktoria Cologne",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cardiff Metropolitan University FC vs Ammanford",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795203900.0
+},
+{
+"t": "Sat 05:00",
+"game": "Oakleigh Cannons vs Bayswater City",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795233600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Norwich vs Cardiff City",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 15:00",
+"game": "Pontardawe Town FC vs Baglan Dragons",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Huddersfield vs Leicester",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "St Albans City vs AFC Whyteleafe",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:15",
+"game": "London City Lionesses vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795281300.0
+},
+{
+"t": "Sat 21:00",
+"game": "Real Madrid vs Celta",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 13:30",
+"game": "Odds BK vs Bryne FK",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795366800.0
+}
+]
+},
+{
 "code": "XW606B",
 "at": 1794980124,
 "when": "Wed 18 Nov 06:35",
