@@ -165,7 +165,10 @@
 "game": "US Ancona 1905 vs Ternana Calcio",
 "pick": "Goal bounds 2-5+",
 "odds": 1.29,
-"ts": 1795008600.0
+"ts": 1795008600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 14:30",
@@ -411,7 +414,10 @@
 "game": "US Ancona 1905 vs Ternana Calcio",
 "pick": "Ternana Calcio excluded goals: 2",
 "odds": 1.26,
-"ts": 1795008600.0
+"ts": 1795008600.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 14:30",
