@@ -1560,14 +1560,17 @@
 "when": "Tue 17 Nov 22:51",
 "kind": "combined R1171V + RBEWC2 + NN8Z8B",
 "odds": 792077719448.02,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
 "game": "Hekimoglu Trabzon vs Kahramanmaras Istiklalspor",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.63,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:00",
@@ -2286,14 +2289,17 @@
 "when": "Tue 17 Nov 22:48",
 "kind": "goal-fest teams (season data)",
 "odds": 8406.24,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
 "game": "Hekimoglu Trabzon vs Kahramanmaras Istiklalspor",
 "pick": "Over 2.5",
 "odds": 1.63,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 16:00",
@@ -2844,14 +2850,17 @@
 "when": "Tue 17 Nov 22:47",
 "kind": "goal-fest teams (season data)",
 "odds": 9318.15,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
 "game": "Hekimoglu Trabzon vs Kahramanmaras Istiklalspor",
 "pick": "Over 2.5",
 "odds": 1.63,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 16:00",
@@ -3214,14 +3223,17 @@
 "when": "Tue 17 Nov 22:45",
 "kind": "goal-fest teams (season data)",
 "odds": 16094.39,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
 "game": "Hekimoglu Trabzon vs Kahramanmaras Istiklalspor",
 "pick": "Over 2.5",
 "odds": 1.63,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 16:00",
@@ -3769,14 +3781,17 @@
 "when": "Tue 17 Nov 22:33",
 "kind": "goal-fest teams (season data)",
 "odds": 192.46,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
 "game": "Hekimoglu Trabzon vs Kahramanmaras Istiklalspor",
 "pick": "Over 2.5",
 "odds": 1.63,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:00",
