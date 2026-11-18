@@ -1251,7 +1251,10 @@
 "game": "London City Lionesses vs Brighton and Hove Albion WFC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:00",
@@ -1548,7 +1551,10 @@
 "game": "London City Lionesses vs Brighton and Hove Albion WFC",
 "pick": "Double chance London City Lionesses or Brighton and Hove Albion WFC",
 "odds": 1.2,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:00",
@@ -1815,7 +1821,10 @@
 "game": "London City Lionesses vs Brighton and Hove Albion WFC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:00",
@@ -1876,7 +1885,10 @@
 "game": "Alianza Atletico vs FBC Melgar",
 "pick": "1st half double chance FBC Melgar or draw",
 "odds": 1.4,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 23:30",
@@ -2050,7 +2062,10 @@
 "game": "London City Lionesses vs Brighton and Hove Albion WFC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",
