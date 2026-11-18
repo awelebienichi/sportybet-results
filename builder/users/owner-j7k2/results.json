@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "V098BS",
+"at": 1795005699,
+"when": "Wed 18 Nov 13:41",
+"kind": "daily rollover \u2013 day 1",
+"odds": 1.77,
+"status": "open",
+"legs": [
+{
+"t": "Wed 15:00",
+"game": "Dinamo Minsk 2 vs FC Bate Borisov 2",
+"pick": "1st half double chance Dinamo Minsk 2 or draw",
+"odds": 1.22,
+"ts": 1795010400.0
+},
+{
+"t": "Wed 16:00",
+"game": "El Gouna FC vs Al Ittihad Alexandria Club",
+"pick": "1st half double chance Al Ittihad Alexandria Club or draw",
+"odds": 1.19,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 17:45",
+"game": "CR Temouchent vs Js El Biar",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1795020300.0
+},
+{
+"t": "Wed 18:30",
+"game": "FK Zemun vs FK Radnicki 1923 Kragujevac",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1795023000.0
+}
+]
+},
+{
 "code": "Q6WA5C",
 "at": 1795003650,
 "when": "Wed 18 Nov 13:07",
