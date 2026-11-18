@@ -2,6 +2,240 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GXPE4R",
+"at": 1794988476,
+"when": "Wed 18 Nov 08:54",
+"kind": "rebuild of VKUY9N",
+"odds": 1978.52,
+"status": "open",
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Peterborough United U21 vs Bolton Wanderers",
+"pick": "Double chance Bolton Wanderers or draw",
+"odds": 1.48,
+"ts": 1795006800.0
+},
+{
+"t": "Wed 14:30",
+"game": "US Ancona 1905 vs Ternana Calcio",
+"pick": "Goal bounds 2-5+",
+"odds": 1.29,
+"ts": 1795008600.0
+},
+{
+"t": "Wed 14:30",
+"game": "Piacenza Calcio 1919 vs Lucchese Calcio",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1795008600.0
+},
+{
+"t": "Wed 14:30",
+"game": "Virtus Francavilla Calcio vs Turris Calcio",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795008600.0
+},
+{
+"t": "Wed 15:00",
+"game": "Coton Sport de Garoua vs Stade Renard",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795010400.0
+},
+{
+"t": "Wed 15:30",
+"game": "AL Adalh FC vs Al-Orobah",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1795012200.0
+},
+{
+"t": "Wed 16:00",
+"game": "El Gouna FC vs Al Ittihad Alexandria Club",
+"pick": "2nd half Over 0.5",
+"odds": 1.39,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 16:00",
+"game": "Gfk Dubocica vs FK Radnicki Nis",
+"pick": "Double chance Gfk Dubocica or draw",
+"odds": 1.58,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 16:00",
+"game": "CF Valencia vs UCAM Murcia",
+"pick": "Double chance CF Valencia or UCAM Murcia",
+"odds": 1.09,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 17:45",
+"game": "CS Constantine vs Ben Aknoun",
+"pick": "2nd half Over 0.5",
+"odds": 1.31,
+"ts": 1795020300.0
+},
+{
+"t": "Wed 17:45",
+"game": "CR Temouchent vs Js El Biar",
+"pick": "2nd half Over 0.5",
+"odds": 1.37,
+"ts": 1795020300.0
+},
+{
+"t": "Wed 18:00",
+"game": "Vipers SC vs Bul FC",
+"pick": "Double chance Vipers SC or Bul FC",
+"odds": 1.27,
+"ts": 1795021200.0
+},
+{
+"t": "Wed 18:30",
+"game": "FK Zemun vs FK Radnicki 1923 Kragujevac",
+"pick": "2nd half Over 0.5",
+"odds": 1.32,
+"ts": 1795023000.0
+},
+{
+"t": "Wed 18:45",
+"game": "Hacken Gothenburg W vs Manchester City WFC",
+"pick": "Handicap 2:0 \u2013 Hacken Gothenburg W",
+"odds": 1.85,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 19:00",
+"game": "Utebo FC vs CE Sabadell FC",
+"pick": "Handicap 2:0 \u2013 Utebo FC",
+"odds": 1.51,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "Club Portugalete vs Real Union de Irun",
+"pick": "Double chance Club Portugalete or draw",
+"odds": 1.51,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 20:00",
+"game": "CD Alcoyano vs Mallorca",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"ts": 1795028400.0
+},
+{
+"t": "Wed 20:00",
+"game": "CD Badajoz vs Tenerife CD",
+"pick": "Handicap 2:0 \u2013 CD Badajoz",
+"odds": 1.34,
+"ts": 1795028400.0
+},
+{
+"t": "Wed 20:00",
+"game": "London City Lionesses vs Brighton and Hove Albion WFC",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795028400.0
+},
+{
+"t": "Wed 20:00",
+"game": "Manchester United WFC vs Everton FC Women",
+"pick": "Double chance Manchester United WFC or draw",
+"odds": 1.14,
+"ts": 1795028400.0
+},
+{
+"t": "Wed 20:00",
+"game": "Nottingham Forest Lfc vs Liverpool LFC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795028400.0
+},
+{
+"t": "Wed 20:00",
+"game": "Nottingham Forest U21 vs Newcastle United U21",
+"pick": "Double chance Nottingham Forest U21 or Newcastle United U21",
+"odds": 1.22,
+"ts": 1795028400.0
+},
+{
+"t": "Wed 20:30",
+"game": "Club Deportiva Minera vs FC Cartagena",
+"pick": "Double chance Club Deportiva Minera or draw",
+"odds": 1.45,
+"ts": 1795030200.0
+},
+{
+"t": "Wed 20:30",
+"game": "CA Atenas de San Carlos vs CA Fenix Montevideo",
+"pick": "Double chance CA Atenas de San Carlos or draw",
+"odds": 1.32,
+"ts": 1795030200.0
+},
+{
+"t": "Wed 20:30",
+"game": "Reus FC Reddis vs Barakaldo CF",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1795030200.0
+},
+{
+"t": "Wed 20:45",
+"game": "Gosport Borough vs Chertsey Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795031100.0
+},
+{
+"t": "Wed 21:00",
+"game": "Chelsea FC W vs Paris Saint-Germain W",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795032000.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795032000.0
+},
+{
+"t": "Wed 21:00",
+"game": "Alianza Atletico vs FBC Melgar",
+"pick": "2nd half Over 0.5",
+"odds": 1.22,
+"ts": 1795032000.0
+},
+{
+"t": "Wed 23:00",
+"game": "FC Atletico CE vs Ceara SC CE",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795039200.0
+},
+{
+"t": "Wed 23:30",
+"game": "Coritiba FC PR vs Santos FC SP",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1795041000.0
+}
+]
+},
+{
 "code": "XR9KRQ",
 "at": 1794988306,
 "when": "Wed 18 Nov 08:51",
