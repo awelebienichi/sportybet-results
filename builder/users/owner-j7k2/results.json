@@ -83,7 +83,10 @@
 "game": "Chachoengsao FC vs Pluak Daeng Rayong United FC",
 "pick": "Handicap 0:2 \u2013 Pluak Daeng Rayong United FC",
 "odds": 1.08,
-"ts": 1794999600.0
+"ts": 1794999600.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-1"
 },
 {
 "t": "Wed 12:00",
@@ -1070,7 +1073,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -1701,7 +1707,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 16:00",
@@ -2598,7 +2607,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -3159,7 +3171,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -3532,7 +3547,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -3717,7 +3735,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 17:00",
@@ -3922,7 +3943,10 @@
 "game": "Rakow Czestochowa U19 vs Legia Warszawa",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795001400.0
+"ts": 1795001400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Wed 16:00",
