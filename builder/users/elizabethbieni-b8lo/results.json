@@ -174,14 +174,20 @@
 "game": "America FC RJ vs Americano RJ",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
 "game": "Cacereno Femenino vs Deportivo Alaves",
 "pick": "Deportivo Alaves excluded goals: 2",
 "odds": 1.29,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-0"
 },
 {
 "t": "Wed 19:00",
