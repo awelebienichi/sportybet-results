@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XW606B",
+"at": 1794980124,
+"when": "Wed 18 Nov 06:35",
+"kind": "your chosen markets",
+"odds": 177.42,
+"status": "open",
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Mbarara FC vs Lugazi Municipal FC",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795006800.0
+},
+{
+"t": "Wed 16:00",
+"game": "El Gouna FC vs Al Ittihad Alexandria Club",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 18:30",
+"game": "FK Zemun vs FK Radnicki 1923 Kragujevac",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795023000.0
+},
+{
+"t": "Wed 20:30",
+"game": "Alcantarilla FC vs SFC Minerva",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795030200.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"pick": "Under 3.5",
+"odds": 1.16,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:30",
+"game": "Al-Gharraf SC vs Al Quwa Al Jawiya",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795102200.0
+},
+{
+"t": "Thu 17:45",
+"game": "MB Rouissat vs CR Belouizdad",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 19:00",
+"game": "Zed FC vs Smouha SC",
+"pick": "Under 3.5",
+"odds": 1.15,
+"ts": 1795111200.0
+},
+{
+"t": "Fri 14:00",
+"game": "Zakho FC vs Al Shorta SC",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795179600.0
+},
+{
+"t": "Fri 15:00",
+"game": "AL Minaa vs Karbalaa",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1795183200.0
+},
+{
+"t": "Fri 17:00",
+"game": "ASO Chlef vs USM Khenchela",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "FK Septemvri Sofia vs PFC Lokomotiv Plovdiv",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 20:00",
+"game": "MC Oran vs JS Saoura",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1795201200.0
+},
+{
+"t": "Sat 06:00",
+"game": "Blaublitz Akita vs Montedio Yamagata",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 14:45",
+"game": "Le Puy-En Velay FC vs Paris 13 Atletico",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795268700.0
+},
+{
+"t": "Sat 15:00",
+"game": "AL Julan vs AL Naft",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC Shinnik Yaroslavl vs FC Neftekhimik Nizhnekamsk",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 19:00",
+"game": "CS Italiano vs CD Armenio",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "CA Talleres de Remedios vs Real Pilar FC",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "Defensa y Justicia vs CA Barracas Central",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 21:00",
+"game": "Argentinos Juniors vs CA Independiente Avellaneda",
+"pick": "Under 3.5",
+"odds": 1.18,
+"ts": 1795291200.0
+},
+{
+"t": "Sat 23:30",
+"game": "Atletico Mineiro MG vs Boca Juniors",
+"pick": "Under 3.5",
+"odds": 1.16,
+"ts": 1795300200.0
+},
+{
+"t": "Sun 09:30",
+"game": "FK Ufa vs FK Ural Yekaterinburg",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1795336200.0
+},
+{
+"t": "Sun 13:30",
+"game": "NK Jadran LP vs HNK Cibalia Vinkovci",
+"pick": "Under 3.5",
+"odds": 1.23,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 15:00",
+"game": "APO Levadiakos FC vs Atromitos Athinon",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Vizela vs CD Feirense",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 20:00",
+"game": "Criciuma EC SC vs Fortaleza EC CE",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795374000.0
+},
+{
+"t": "Sun 23:00",
+"game": "CA River Plate (ARG) vs CA Lanus",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1795384800.0
+},
+{
+"t": "Mon 12:00",
+"game": "LNZ Cherkasy vs FC Polissya Zhytomyr",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795431600.0
+},
+{
+"t": "Mon 16:00",
+"game": "Wadi Degla SC vs Al Ittihad Alexandria Club",
+"pick": "Under 3.5",
+"odds": 1.14,
+"ts": 1795446000.0
+}
+]
+},
+{
 "code": "PYXS7A",
 "at": 1794979842,
 "when": "Wed 18 Nov 06:30",
