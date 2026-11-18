@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KX8SDB",
+"at": 1794986063,
+"when": "Wed 18 Nov 08:14",
+"kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 5 Over 1.5 + 0 basketball)",
+"odds": 12.76,
+"status": "open",
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Mbarara FC vs Lugazi Municipal FC",
+"pick": "Mbarara FC to score 3+ in a row \u2013 No",
+"odds": 1.1,
+"ts": 1795006800.0
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "1st half double chance FC Fratria Varna or draw",
+"odds": 1.16,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795110300.0
+},
+{
+"t": "Fri 18:00",
+"game": "Igdir FK vs Umraniyespor",
+"pick": "Igdir FK to score 3+ in a row \u2013 No",
+"odds": 1.15,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 20:00",
+"game": "MC Oran vs JS Saoura",
+"pick": "MC Oran to score 3+ in a row \u2013 No",
+"odds": 1.13,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Seraing vs RWD Molenbeek Youth",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Casertana FC vs Salernitana",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.1,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 11:30",
+"game": "Istanbulspor AS vs Ankara Keciorengucu",
+"pick": "1st half double chance Ankara Keciorengucu or draw",
+"odds": 1.26,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Caersws vs Denbigh Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Chelmsford City",
+"pick": "1st half double chance Chelmsford City or draw",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:25",
+"game": "Dubai United FC vs Al Wahda FC (UAE)",
+"pick": "1st half double chance Al Wahda FC (UAE) or draw",
+"odds": 1.19,
+"ts": 1795274700.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "1st half double chance Rangers or draw",
+"odds": 1.17,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 07:00",
+"game": "FC Osaka vs Kamatamare Sanuki",
+"pick": "1st half double chance FC Osaka or draw",
+"odds": 1.15,
+"ts": 1795327200.0
+},
+{
+"t": "Sun 11:30",
+"game": "Anagennisi Karditsas 1904 vs Kallithea FC",
+"pick": "1st half double chance Kallithea FC or draw",
+"odds": 1.19,
+"ts": 1795343400.0
+},
+{
+"t": "Sun 13:00",
+"game": "Birmingham City WFC vs Manchester United WFC",
+"pick": "1st half double chance Manchester United WFC or draw",
+"odds": 1.15,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Charlton Athletic vs Aston Villa WFC",
+"pick": "1st half double chance Aston Villa WFC or draw",
+"odds": 1.17,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 21:00",
+"game": "Getafe vs Atletico Madrid",
+"pick": "1st half double chance Atletico Madrid or draw",
+"odds": 1.15,
+"ts": 1795377600.0
+}
+]
+},
+{
 "code": "QB5VNG",
 "at": 1794982179,
 "when": "Wed 18 Nov 07:09",
