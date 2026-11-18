@@ -2,6 +2,79 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Q6WA5C",
+"at": 1795003650,
+"when": "Wed 18 Nov 13:07",
+"kind": "live \u2013 best of all",
+"odds": 2.94,
+"status": "open",
+"legs": [
+{
+"t": "Wed 12:00",
+"game": "Cong an TP Ho Chi Minh vs Buriram United",
+"pick": "Buriram United Under 2.5",
+"odds": 1.04,
+"ts": 1794999600.0
+},
+{
+"t": "Wed 12:00",
+"game": "Arnavutkoy Belediyesi Genclik Ve Spor vs 68 Aksaray Belediyespor",
+"pick": "68 Aksaray Belediyespor Under 3.5",
+"odds": 1.09,
+"ts": 1794999600.0
+},
+{
+"t": "Wed 12:00",
+"game": "AL Sinaa vs AL Sadiq SC",
+"pick": "Under 2.5",
+"odds": 1.08,
+"ts": 1794999600.0
+},
+{
+"t": "Wed 12:00",
+"game": "Baladiyat AL Mosul SC vs Samaraa FC",
+"pick": "Under 2.5",
+"odds": 1.08,
+"ts": 1794999600.0
+},
+{
+"t": "Wed 12:00",
+"game": "Chachoengsao FC vs Pluak Daeng Rayong United FC",
+"pick": "Handicap 0:2 \u2013 Pluak Daeng Rayong United FC",
+"odds": 1.08,
+"ts": 1794999600.0
+},
+{
+"t": "Wed 12:00",
+"game": "Manisa Futbol Kulubu vs Ayvalikgucu Belediyespor",
+"pick": "Handicap 0:3 \u2013 Ayvalikgucu Belediyespor",
+"odds": 1.09,
+"ts": 1794999600.0
+},
+{
+"t": "Wed 13:00",
+"game": "FK Tekstilac Odzaci vs FK Zeleznicar Pancevo",
+"pick": "Handicap 4:0 \u2013 FK Tekstilac Odzaci",
+"odds": 1.12,
+"ts": 1795003200.0
+},
+{
+"t": "Wed 13:00",
+"game": "KF Iliria Fushe-Kruje vs Af Luftetari",
+"pick": "Handicap 0:4 \u2013 Af Luftetari",
+"odds": 1.25,
+"ts": 1795003200.0
+},
+{
+"t": "Wed 13:00",
+"game": "KS Pogradeci vs FK Kukesi",
+"pick": "Handicap 0:4 \u2013 FK Kukesi",
+"odds": 1.35,
+"ts": 1795003200.0
+}
+]
+},
+{
 "code": "GXPE4R",
 "at": 1794988476,
 "when": "Wed 18 Nov 08:54",
