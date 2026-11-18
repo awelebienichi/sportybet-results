@@ -1364,7 +1364,10 @@
 "game": "FC Atletico CE vs Ceara SC CE",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1795039200.0
+"ts": 1795039200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 23:30",
@@ -1688,7 +1691,10 @@
 "game": "FC Atletico CE vs Ceara SC CE",
 "pick": "Excluded goals: 4",
 "odds": 1.17,
-"ts": 1795039200.0
+"ts": 1795039200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 23:30",
