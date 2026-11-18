@@ -1258,7 +1258,7 @@
 "odds": 1.16,
 "ts": 1795028400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -1540,7 +1540,7 @@
 "odds": 1.16,
 "ts": 1795028400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -1548,7 +1548,10 @@
 "game": "Nottingham Forest U21 vs Newcastle United U21",
 "pick": "1st half excluded goals: 2",
 "odds": 1.28,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Wed 20:30",
@@ -1786,14 +1789,20 @@
 "game": "Manchester United WFC vs Everton FC Women",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 20:00",
 "game": "Nottingham Forest U21 vs Newcastle United U21",
 "pick": "1st half GG \u2013 No",
 "odds": 1.32,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Wed 20:30",
