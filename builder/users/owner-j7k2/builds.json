@@ -1,5 +1,309 @@
 [
 {
+"when": "Wed 18 Nov 08:14",
+"at": 1794986063,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "pattern",
+"fh": 15,
+"htd": 0,
+"bank": 15,
+"bb": 0,
+"o15": 5,
+"days": [
+"2026-11-18",
+"2026-11-19",
+"2026-11-20",
+"2026-11-21",
+"2026-11-22"
+],
+"strict": "relaxed",
+"rid": "mwls435b7p27"
+},
+"ok": true,
+"kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 5 Over 1.5 + 0 basketball)",
+"note": [
+"Pattern estimate from your own results: about 20% chance this ticket wins (about 1 in 5).",
+"Chance all 19 legs win: about 3% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "KX8SDB",
+"odds": 12.76,
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Mbarara FC vs Lugazi Municipal FC",
+"lg": "Uganda - Premier League",
+"pick": "Mbarara FC to score 3+ in a row \u2013 No",
+"odds": 1.1,
+"why": "pattern banker: Mbarara FC scored 3+ in only 0% of its last 10 games; 2.0 goals a game",
+"ts": 1795006800.0,
+"eid": "sr:match:73961732",
+"mid": "60021",
+"spec": "",
+"oid": "76",
+"k": "73961732|60021||76"
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "1st half double chance FC Fratria Varna or draw",
+"odds": 1.16,
+"why": "stats rate 90% from both teams' last 10 and 4 meetings (your 1st-half pattern)",
+"ts": 1795100400.0,
+"eid": "sr:match:76805608",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "76805608|63||11"
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.7 goals; Flashscore home/away form 85%, FotMob: 4.1 goals a game, Vitibet tip 2-1 (pattern: Over 1.5 top tier)",
+"ts": 1795110300.0,
+"eid": "sr:match:74371866",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371866|18|total=1.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "Igdir FK vs Umraniyespor",
+"lg": "Turkiye - 1. Lig",
+"pick": "Igdir FK to score 3+ in a row \u2013 No",
+"odds": 1.15,
+"why": "pattern banker: Igdir FK scored 3+ in only 0% of its last 10 games; 2.2 goals a game",
+"ts": 1795194000.0,
+"eid": "sr:match:72735908",
+"mid": "60021",
+"spec": "",
+"oid": "76",
+"k": "72735908|60021||76"
+},
+{
+"t": "Fri 20:00",
+"game": "MC Oran vs JS Saoura",
+"lg": "Algeria - Ligue 1",
+"pick": "MC Oran to score 3+ in a row \u2013 No",
+"odds": 1.13,
+"why": "pattern banker: MC Oran scored 3+ in only 0% of its last 10 games; 1.4 goals a game",
+"ts": 1795201200.0,
+"eid": "sr:match:75049118",
+"mid": "60021",
+"spec": "",
+"oid": "76",
+"k": "75049118|60021||76"
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Seraing vs RWD Molenbeek Youth",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 100% of 4 meetings, league avg 4.4 goals; season: 3.2 goals a game (pattern: Over 1.5 top tier)",
+"ts": 1795201200.0,
+"eid": "sr:match:73831508",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73831508|18|total=1.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Casertana FC vs Salernitana",
+"lg": "Italy - Serie C, Group C",
+"pick": "Both halves Over 1.5 \u2013 No",
+"odds": 1.1,
+"why": "pattern banker: 2+ goals in BOTH halves in only 0% of the teams' last games; 1.9 goals a game",
+"ts": 1795203000.0,
+"eid": "sr:match:73294846",
+"mid": "58",
+"spec": "total=1.5",
+"oid": "76",
+"k": "73294846|58|total=1.5|76"
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, league avg 3.9 goals; season: 4.1 goals a game (pattern: Over 1.5 top tier)",
+"ts": 1795203000.0,
+"eid": "sr:match:72546176",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72546176|18|total=1.5|12"
+},
+{
+"t": "Sat 11:30",
+"game": "Istanbulspor AS vs Ankara Keciorengucu",
+"lg": "Turkiye - 1. Lig",
+"pick": "1st half double chance Ankara Keciorengucu or draw",
+"odds": 1.26,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795257000.0,
+"eid": "sr:match:72735916",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72735916|63||11"
+},
+{
+"t": "Sat 15:00",
+"game": "Caersws vs Denbigh Town",
+"lg": "Wales - Cymru Championship, North",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 100% of 8 meetings, league avg 4.0 goals; season: 4.0 goals a game (pattern: Over 1.5 top tier)",
+"ts": 1795269600.0,
+"eid": "sr:match:72546710",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72546710|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Chelmsford City",
+"lg": "England Amateur - National League South",
+"pick": "1st half double chance Chelmsford City or draw",
+"odds": 1.16,
+"why": "stats rate 93% from both teams' last 10 (your 1st-half pattern)",
+"ts": 1795273200.0,
+"eid": "sr:match:72758336",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72758336|63||11"
+},
+{
+"t": "Sat 16:25",
+"game": "Dubai United FC vs Al Wahda FC (UAE)",
+"lg": "United Arab Emirates - Arabian Gulf League",
+"pick": "1st half double chance Al Wahda FC (UAE) or draw",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10 (your 1st-half pattern)",
+"ts": 1795274700.0,
+"eid": "sr:match:75174750",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75174750|63||11"
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"lg": "Scotland - Premiership",
+"pick": "1st half double chance Rangers or draw",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795291200.0,
+"eid": "sr:match:72201728",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72201728|63||11"
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"lg": "USA - MLS",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.4 goals; Vitibet tip 2-1, season: 3.7 goals a game (pattern: Over 1.5 top tier)",
+"ts": 1795302000.0,
+"eid": "sr:match:76609136",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76609136|18|total=1.5|12"
+},
+{
+"t": "Sun 07:00",
+"game": "FC Osaka vs Kamatamare Sanuki",
+"lg": "Japan - J3 League",
+"pick": "1st half double chance FC Osaka or draw",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795327200.0,
+"eid": "sr:match:72152210",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72152210|63||9"
+},
+{
+"t": "Sun 11:30",
+"game": "Anagennisi Karditsas 1904 vs Kallithea FC",
+"lg": "Greece - Super League 2",
+"pick": "1st half double chance Kallithea FC or draw",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795343400.0,
+"eid": "sr:match:74172560",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "74172560|63||11"
+},
+{
+"t": "Sun 13:00",
+"game": "Birmingham City WFC vs Manchester United WFC",
+"lg": "England Amateur - Super League Women",
+"pick": "1st half double chance Manchester United WFC or draw",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10 and 4 meetings (your 1st-half pattern)",
+"ts": 1795348800.0,
+"eid": "sr:match:73346136",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73346136|63||11"
+},
+{
+"t": "Sun 15:00",
+"game": "Charlton Athletic vs Aston Villa WFC",
+"lg": "England Amateur - Super League Women",
+"pick": "1st half double chance Aston Villa WFC or draw",
+"odds": 1.17,
+"why": "stats rate 92% from both teams' last 10 (your 1st-half pattern)",
+"ts": 1795356000.0,
+"eid": "sr:match:73346134",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73346134|63||11"
+},
+{
+"t": "Sun 21:00",
+"game": "Getafe vs Atletico Madrid",
+"lg": "Spain - LaLiga",
+"pick": "1st half double chance Atletico Madrid or draw",
+"odds": 1.15,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795377600.0,
+"eid": "sr:match:72478712",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72478712|63||11"
+}
+],
+"chance": 0.031
+}
+]
+},
+{
 "when": "Wed 18 Nov 07:12",
 "at": 1794982348,
 "req": {
@@ -22566,81 +22870,6 @@
 }
 ],
 "chance": 0.0004
-}
-]
-},
-{
-"when": "Mon 16 Nov 13:31",
-"at": 1794832315,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 15,
-"tickets": 1,
-"days": [
-"2026-11-16"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwj8soz9bk2b"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 3 games passed the checks (Mon 16, 55 games on SportyBet), so this ticket has 3 legs instead of 15. Tick more days or use 'Relaxed' for more.",
-"Chance all 3 legs win: about 31%."
-],
-"tickets": [
-{
-"code": "JNDPKE",
-"odds": 2.75,
-"legs": [
-{
-"t": "Mon 16:00",
-"game": "FC Felgueiras 1932 U23 vs Leixoes SC",
-"lg": "Portugal - U23 Liga Next Gen",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "season: 3.4 and 3.7 goals a game (10/10 games); last 10 rate 70%; Flashscore home/away form 62%",
-"ts": 1794841200.0,
-"eid": "sr:match:72962342",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72962342|18|total=2.5|12"
-},
-{
-"t": "Mon 20:00",
-"game": "Guadeloupe vs Bermuda",
-"lg": "International - CONCACAF Nations League",
-"pick": "Over 2.5",
-"odds": 1.3,
-"why": "season: 2.8 and 4.2 goals a game (5/5 games); last 10 rate 85%; Flashscore home/away form 60%, FotMob: 3.5 goals a game",
-"ts": 1794855600.0,
-"eid": "sr:match:75468318",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75468318|18|total=2.5|12"
-},
-{
-"t": "Mon 20:00",
-"game": "Cuba vs Grenada",
-"lg": "International - CONCACAF Nations League",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 4.6 and 4.2 goals a game (5/5 games); last 10 rate 80%; Flashscore home/away form 75%, FotMob: 4.4 goals a game, season: 4.4 goals a game",
-"ts": 1794855600.0,
-"eid": "sr:match:75468430",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75468430|18|total=2.5|12"
-}
-],
-"chance": 0.3142
 }
 ]
 }
