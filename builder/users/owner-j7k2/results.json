@@ -1313,7 +1313,10 @@
 "game": "Chelsea FC W vs Paris Saint-Germain W",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
@@ -1839,7 +1842,10 @@
 "game": "Club Deportiva Minera vs FC Cartagena",
 "pick": "Club Deportiva Minera or GG",
 "odds": 1.4,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",
@@ -2053,7 +2059,7 @@
 "odds": 1.3,
 "ts": 1795030200.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
