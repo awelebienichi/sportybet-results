@@ -24,7 +24,10 @@
 "game": "El Gouna FC vs Al Ittihad Alexandria Club",
 "pick": "1st half double chance Al Ittihad Alexandria Club or draw",
 "odds": 1.19,
-"ts": 1795014000.0
+"ts": 1795014000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:45",
@@ -461,7 +464,10 @@
 "game": "El Gouna FC vs Al Ittihad Alexandria Club",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.04,
-"ts": 1795014000.0
+"ts": 1795014000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 16:00",
@@ -693,14 +699,20 @@
 "game": "El Gouna FC vs Al Ittihad Alexandria Club",
 "pick": "1st half double chance Al Ittihad Alexandria Club or draw",
 "odds": 1.18,
-"ts": 1795014000.0
+"ts": 1795014000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 16:00",
 "game": "Gfk Dubocica vs FK Radnicki Nis",
 "pick": "1st half double chance Gfk Dubocica or draw",
 "odds": 1.38,
-"ts": 1795014000.0
+"ts": 1795014000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:45",
@@ -910,14 +922,20 @@
 "game": "El Gouna FC vs Al Ittihad Alexandria Club",
 "pick": "1st half double chance Al Ittihad Alexandria Club or draw",
 "odds": 1.18,
-"ts": 1795014000.0
+"ts": 1795014000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 16:00",
 "game": "Gfk Dubocica vs FK Radnicki Nis",
 "pick": "1st half GG \u2013 No",
 "odds": 1.19,
-"ts": 1795014000.0
+"ts": 1795014000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:45",
