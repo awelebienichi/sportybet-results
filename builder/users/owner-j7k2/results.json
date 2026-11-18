@@ -1351,7 +1351,10 @@
 "game": "Alianza Atletico vs FBC Melgar",
 "pick": "2nd half Over 0.5",
 "odds": 1.22,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 23:00",
@@ -1666,7 +1669,10 @@
 "game": "Alianza Atletico vs FBC Melgar",
 "pick": "2nd half Over 0.5",
 "odds": 1.22,
-"ts": 1795032000.0
+"ts": 1795032000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 23:00",
@@ -1929,7 +1935,7 @@
 "odds": 1.4,
 "ts": 1795032000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
