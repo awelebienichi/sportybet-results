@@ -24,7 +24,7 @@ def handle(req, notify, uid=None):
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
         hour = int(req.get("hour") or 10) % 24
         s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today(), short="skip" if req.get("short") == "skip" else "lower",
-                 min_odds=min(odds, max(1.3, float(req.get("min_odds") or 1.8))), level="strictest" if req.get("level") == "strictest" else "strong")
+                 min_odds=min(odds, max(1.3, float(req.get("min_odds") or 1.8))), level=req.get("level") if req.get("level") in ("strictest", "h1") else "strong")
         save(s); notify("Daily rollover started", f"Stake {naira(stake)}, about {odds:g} odds a day, ticket every day at {hour:02d}:00.\nToday's ticket is being built now.")
         build_today(s, notify, force=True)
     elif t == "rollover_stop":
@@ -243,6 +243,32 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         return legs, math.prod(c["odds"] for c in legs) if legs else 0
     return plan[1], math.prod(c["odds"] for c in plan[1])
 
+# user, 18 Nov: a 5-odds daily rollover from 1st half double chance, 1st half GG No and 1st half Under 2.5 only – each in the price
+# range where it really won on the tracker (1st half double chance 1.15-1.30: 86.7% of 98 legs, beating the odds; 1st half GG No
+# 1.15 or less: 89.5% of 76; 1st half Under 2.5 1.15 or less: 86.6% of 97). Pricier legs of these markets lost far more.
+H1_RANGES = {"h1dc_1x": (1.15, 1.30), "h1dc_x2": (1.15, 1.30), "h1gg_n": (1.04, 1.15), "h1u25": (1.04, 1.15)}
+def pick_h1(target, max_legs=15):
+    """today's strongest 1st-half legs in those ranges, the normal builder's checks (Flashscore, footybets, FotMob, DFP, Vitibet,
+    season) on top, one per game, added strongest first until the ticket reaches the target odds"""
+    now = time.time(); end = dt.datetime.combine(dt.datetime.now(LAGOS).date(), dt.time(23, 59), LAGOS).timestamp()
+    phonebuild.ST["L"] = 0.1
+    G = phonebuild.games_cached(now + 45 * 60, end); LX = phonebuild.fetch_teams(G)
+    RB = phonebuild.RB
+    F = phonebuild.pick_markets(G, LX, ["h1dc", "h1ggn", "h1u25"], 300)
+    F = [p for p in F if any(RB[k][:3] == (p["mid"], p["spec"], p["oid"]) and lo <= p["odds"] <= hi for k, (lo, hi) in H1_RANGES.items())]
+    for p in F: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
+    F.sort(key=lambda p: (-(p["mid"] == "63"), -p["chance"]))                  # 1st half double chance first: the one beating the odds
+    try:
+        import extra
+        F, _ = extra.confirm(F, len(F))
+    except Exception as e: print("rollover h1 checks skipped:", e)
+    legs, seen = [], set()
+    for p in F:
+        if p["eid"] in seen: continue
+        seen.add(p["eid"]); p["why"] += " (1st-half rollover)"; legs.append(p)
+        if math.prod(l["odds"] for l in legs) >= target or len(legs) >= max_legs: break
+    return legs, math.prod(l["odds"] for l in legs) if legs else 0
+
 def page_note(msg):
     """put a message where the person's page can show it next to the rollover button (matched by the request id)"""
     if not CUR.get("rid"): return
@@ -257,7 +283,7 @@ def build_today(s, notify, force=False):
     if s.get("current") and s["current"].get("result") is None and s["current"].get("date") == today():
         notify("Rollover ticket already out", f"Today's code is {s['current']['code']}.", "default"); page_note(f"Today's rollover code is already out: {s['current']['code']}"); return
     level = s.get("level", "strong")
-    legs, prod = pick_safe(s["odds"], level=level)
+    legs, prod = pick_h1(s["odds"]) if level == "h1" else pick_safe(s["odds"], level=level)
     level_note = ""
     if level == "strictest" and (not legs or prod < max(s.get("min_odds", 1.8), s["odds"] * .85)):
         legs2, prod2 = pick_safe(s["odds"], level="strong")     # strictest can't reach it today: use Strong for today only
