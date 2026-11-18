@@ -1,5 +1,140 @@
 [
 {
+"when": "Wed 18 Nov 10:00",
+"at": 1794992445,
+"req": {
+"type": "rollover",
+"legs": 8,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6401 if it wins"
+],
+"tickets": [
+{
+"code": "TJ36B8",
+"odds": 4.01,
+"legs": [
+{
+"t": "Wed 13:00",
+"game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
+"lg": "Poland - Ekstraliga, Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 85%",
+"ts": 1795003200.0,
+"eid": "sr:match:76165734",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "76165734|450001||25"
+},
+{
+"t": "Wed 13:00",
+"game": "Bylis Ballsh vs KS Beselidhja",
+"lg": "Albania - Kupa e Shqiperise",
+"pick": "1st half double chance Bylis Ballsh or draw",
+"odds": 1.14,
+"why": "both teams 89%+ in their own last 10 (home 89%, away 90%); head-to-head 100%",
+"ts": 1795003200.0,
+"eid": "sr:match:76251048",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76251048|63||9"
+},
+{
+"t": "Wed 14:00",
+"game": "FC Bengaluru United vs Sreenidi Deccan FC",
+"lg": "India - IFL",
+"pick": "Handicap 2:0 \u2013 FC Bengaluru United",
+"odds": 1.22,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1795006800.0,
+"eid": "sr:match:75911698",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75911698|14|hcp=2:0|1711"
+},
+{
+"t": "Wed 15:00",
+"game": "Dinamo Minsk 2 vs FC Bate Borisov 2",
+"lg": "Belarus - Pervaya Liga",
+"pick": "Under 5.5",
+"odds": 1.15,
+"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); head-to-head 100%; season: 3.3 goals a game",
+"ts": 1795010400.0,
+"eid": "sr:match:76877462",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76877462|18|total=5.5|13"
+},
+{
+"t": "Wed 16:00",
+"game": "El Gouna FC vs Al Ittihad Alexandria Club",
+"lg": "Egypt - Egypt Cup",
+"pick": "Under 3.5",
+"odds": 1.13,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 88%, Flashscore home/away 85%",
+"ts": 1795014000.0,
+"eid": "sr:match:76738340",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76738340|18|total=3.5|13"
+},
+{
+"t": "Wed 19:00",
+"game": "Utebo FC vs CE Sabadell FC",
+"lg": "Spain - Copa del Rey",
+"pick": "Handicap 2:0 \u2013 Utebo FC",
+"odds": 1.51,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1795024800.0,
+"eid": "sr:match:76661768",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "76661768|14|hcp=2:0|1711"
+},
+{
+"t": "Wed 20:45",
+"game": "Gosport Borough vs Chertsey Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%, Flashscore home/away 95%; FotMob: 3.5 goals a game",
+"ts": 1795031100.0,
+"eid": "sr:match:75655848",
+"mid": "450001",
+"spec": "",
+"oid": "25",
+"k": "75655848|450001||25"
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); Flashscore home/away 85%; FotMob: 3.8 goals a game, Vitibet tip 2-1",
+"ts": 1795032000.0,
+"eid": "sr:match:74371862",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371862|18|total=1.5|12"
+}
+],
+"chance": 0.1689
+}
+]
+},
+{
 "when": "Tue 17 Nov 20:24",
 "at": 1794943448,
 "req": {
@@ -6473,76 +6608,6 @@
 "spec": "",
 "oid": "25",
 "k": "74838480|450001||25"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 04:25",
-"at": 1794626731,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwfuevqrhakm"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "Q9A3CL",
-"odds": 1.17,
-"legs": [
-{
-"t": "Sat 02:45",
-"game": "Sonio Takamatsu vs Tokyo United FC",
-"lg": "Japan - Regional Football Champions League",
-"pick": "Tokyo United FC or draw",
-"odds": 1.03,
-"why": "LIVE 1-1 83': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1794620700.0,
-"eid": "sr:match:76640636",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76640636|10||11"
-},
-{
-"t": "Sat 03:00",
-"game": "Reboceros de La Piedad vs Racing de Veracruz",
-"lg": "Mexico - Liga Primera Premier",
-"pick": "Handicap 3:0 \u2013 Reboceros de La Piedad",
-"odds": 1.05,
-"why": "LIVE 0-1 64': Reboceros de La Piedad expected 0.5 and Racing de Veracruz 0.8 more goals (last 10 + season); 0-1 at 64' \u2013 86% chance",
-"ts": 1794621600.0,
-"eid": "sr:match:74100774",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "74100774|14|hcp=3:0|1711"
-},
-{
-"t": "Sat 03:30",
-"game": "Tigres de Alica FC vs Jaguares FC",
-"lg": "Mexico - Liga Primera Premier",
-"pick": "Handicap 0:2 \u2013 Jaguares FC",
-"odds": 1.09,
-"why": "LIVE 1-1 45': Tigres de Alica FC expected 0.9 and Jaguares FC 0.8 more goals (last 10 + season); 1-1 at 45' \u2013 85% chance; margin record 80% / 90% in both sides' last games",
-"ts": 1794623400.0,
-"eid": "sr:match:74100772",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "74100772|14|hcp=0:2|1713"
 }
 ]
 }

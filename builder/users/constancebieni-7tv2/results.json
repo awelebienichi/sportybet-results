@@ -2,6 +2,72 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "TJ36B8",
+"at": 1794992445,
+"when": "Wed 18 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.01,
+"status": "open",
+"legs": [
+{
+"t": "Wed 13:00",
+"game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1795003200.0
+},
+{
+"t": "Wed 13:00",
+"game": "Bylis Ballsh vs KS Beselidhja",
+"pick": "1st half double chance Bylis Ballsh or draw",
+"odds": 1.14,
+"ts": 1795003200.0
+},
+{
+"t": "Wed 14:00",
+"game": "FC Bengaluru United vs Sreenidi Deccan FC",
+"pick": "Handicap 2:0 \u2013 FC Bengaluru United",
+"odds": 1.22,
+"ts": 1795006800.0
+},
+{
+"t": "Wed 15:00",
+"game": "Dinamo Minsk 2 vs FC Bate Borisov 2",
+"pick": "Under 5.5",
+"odds": 1.15,
+"ts": 1795010400.0
+},
+{
+"t": "Wed 16:00",
+"game": "El Gouna FC vs Al Ittihad Alexandria Club",
+"pick": "Under 3.5",
+"odds": 1.13,
+"ts": 1795014000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Utebo FC vs CE Sabadell FC",
+"pick": "Handicap 2:0 \u2013 Utebo FC",
+"odds": 1.51,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 20:45",
+"game": "Gosport Borough vs Chertsey Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795031100.0
+},
+{
+"t": "Wed 21:00",
+"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795032000.0
+}
+]
+},
+{
 "code": "QB5SA0",
 "at": 1794943448,
 "when": "Tue 17 Nov 20:24",
