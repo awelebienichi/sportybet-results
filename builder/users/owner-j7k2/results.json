@@ -1293,7 +1293,10 @@
 "game": "Reus FC Reddis vs Barakaldo CF",
 "pick": "1st half Under 2.5",
 "odds": 1.07,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -1834,7 +1837,10 @@
 "game": "Reus FC Reddis vs Barakaldo CF",
 "pick": "1st half double chance Barakaldo CF or draw",
 "odds": 1.21,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
@@ -2036,7 +2042,10 @@
 "game": "Club Deportiva Minera vs FC Cartagena",
 "pick": "1st half double chance Club Deportiva Minera or draw",
 "odds": 1.3,
-"ts": 1795030200.0
+"ts": 1795030200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
