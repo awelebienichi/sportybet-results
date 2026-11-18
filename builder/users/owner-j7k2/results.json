@@ -45,7 +45,7 @@
 "when": "Wed 18 Nov 13:07",
 "kind": "live \u2013 best of all",
 "odds": 2.94,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 12:00",
@@ -119,7 +119,10 @@
 "game": "KF Iliria Fushe-Kruje vs Af Luftetari",
 "pick": "Handicap 0:4 \u2013 Af Luftetari",
 "odds": 1.25,
-"ts": 1795003200.0
+"ts": 1795003200.0,
+"r": "L",
+"sc": "5-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 13:00",
