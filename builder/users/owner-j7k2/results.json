@@ -148,7 +148,7 @@
 "when": "Wed 18 Nov 08:54",
 "kind": "rebuild of VKUY9N",
 "odds": 1978.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 14:00",
@@ -199,7 +199,10 @@
 "game": "AL Adalh FC vs Al-Orobah",
 "pick": "1st half GG \u2013 No",
 "odds": 1.2,
-"ts": 1795012200.0
+"ts": 1795012200.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Wed 16:00",
@@ -670,7 +673,7 @@
 "odds": 1.24,
 "ts": 1795012200.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": ""
 },
 {
