@@ -8,11 +8,14 @@
 "day": 1,
 "current": {
 "date": "2026-11-18",
-"code": null,
-"result": "skip"
+"code": "V098BS",
+"odds": 1.77,
+"stake": 1000.0,
+"n": 4,
+"result": null
 },
 "started": "2026-11-18",
 "short": "lower",
-"min_odds": 5.0,
+"min_odds": 1.77,
 "level": "h1"
 }
