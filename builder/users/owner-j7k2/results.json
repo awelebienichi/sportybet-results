@@ -198,7 +198,10 @@
 "game": "Coton Sport de Garoua vs Stade Renard",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1795010400.0
+"ts": 1795010400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 15:30",
@@ -400,7 +403,7 @@
 "when": "Wed 18 Nov 08:51",
 "kind": "rebuild of VKUY9N",
 "odds": 1983.62,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 14:00",
@@ -447,7 +450,10 @@
 "game": "Coton Sport de Garoua vs Stade Renard",
 "pick": "Excluded goals: 1",
 "odds": 1.11,
-"ts": 1795010400.0
+"ts": 1795010400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 15:30",
