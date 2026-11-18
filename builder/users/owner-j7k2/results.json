@@ -1809,8 +1809,8 @@
 "odds": 1.16,
 "ts": 1795028400.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 20:00",
@@ -2908,7 +2908,10 @@
 "game": "America FC RJ vs Americano RJ",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.61,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",
@@ -3609,7 +3612,10 @@
 "game": "America FC RJ vs Americano RJ",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -4185,7 +4191,10 @@
 "game": "America FC RJ vs Americano RJ",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -4570,7 +4579,10 @@
 "game": "America FC RJ vs Americano RJ",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:45",
@@ -5179,7 +5191,10 @@
 "game": "America FC RJ vs Americano RJ",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:30",
