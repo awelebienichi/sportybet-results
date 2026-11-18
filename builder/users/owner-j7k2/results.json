@@ -669,7 +669,7 @@
 "odds": 1.24,
 "ts": 1794996000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -4710,7 +4710,10 @@
 "game": "Goyang Skygunners vs Khasiin Khuleguud",
 "pick": "Under 193.5 total points",
 "odds": 1.22,
-"ts": 1794996600.0
+"ts": 1794996600.0,
+"r": "W",
+"sc": "95-91",
+"ht": "36-23"
 },
 {
 "t": "Wed 17:50",
