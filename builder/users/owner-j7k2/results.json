@@ -1214,7 +1214,10 @@
 "game": "Utebo FC vs CE Sabadell FC",
 "pick": "Handicap 2:0 \u2013 Utebo FC",
 "odds": 1.51,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Wed 19:00",
@@ -1499,7 +1502,10 @@
 "game": "Utebo FC vs CE Sabadell FC",
 "pick": "Handicap 2:0 \u2013 Utebo FC",
 "odds": 1.51,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "L",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Wed 19:00",
@@ -5285,7 +5291,10 @@
 "game": "Utebo FC vs CE Sabadell FC",
 "pick": "Under 3.5",
 "odds": 1.31,
-"ts": 1795024800.0
+"ts": 1795024800.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-3"
 },
 {
 "t": "Thu 17:45",
