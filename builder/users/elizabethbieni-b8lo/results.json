@@ -2,6 +2,156 @@
 "from": 1794833382,
 "tickets": [
 {
+"code": "LT895Q",
+"at": 1795014240,
+"when": "Wed 18 Nov 16:04",
+"kind": "your chosen markets",
+"odds": 33.67,
+"status": "open",
+"legs": [
+{
+"t": "Wed 16:30",
+"game": "CD Binissalem vs SD Formentera",
+"pick": "CD Binissalem excluded goals: 2",
+"odds": 1.15,
+"ts": 1795015800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Silkeborg IF vs Randers Freja",
+"pick": "Randers Freja excluded goals: 0",
+"odds": 1.12,
+"ts": 1795017600.0
+},
+{
+"t": "Wed 17:00",
+"game": "Barycz Sulow vs KS Polonia Nysa",
+"pick": "Barycz Sulow excluded goals: 0",
+"odds": 1.11,
+"ts": 1795017600.0
+},
+{
+"t": "Wed 17:00",
+"game": "PE Sant Jordi vs CE Santanyi",
+"pick": "PE Sant Jordi excluded goals: 2",
+"odds": 1.22,
+"ts": 1795017600.0
+},
+{
+"t": "Wed 17:00",
+"game": "NK Race vs NK Radomlje",
+"pick": "NK Radomlje excluded goals: 2",
+"odds": 1.3,
+"ts": 1795017600.0
+},
+{
+"t": "Wed 17:45",
+"game": "CR Temouchent vs Js El Biar",
+"pick": "1st half excluded goals: 2",
+"odds": 1.15,
+"ts": 1795020300.0
+},
+{
+"t": "Wed 17:45",
+"game": "CS Constantine vs Ben Aknoun",
+"pick": "2nd half Over 0.5",
+"odds": 1.31,
+"ts": 1795020300.0
+},
+{
+"t": "Wed 18:00",
+"game": "Tomares UD vs Cordoba CF",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1795021200.0
+},
+{
+"t": "Wed 18:00",
+"game": "Vipers SC vs Bul FC",
+"pick": "Vipers SC excluded goals: 2",
+"odds": 1.26,
+"ts": 1795021200.0
+},
+{
+"t": "Wed 18:00",
+"game": "CD Roda vs AC Torrellano",
+"pick": "AC Torrellano excluded goals: 2",
+"odds": 1.18,
+"ts": 1795021200.0
+},
+{
+"t": "Wed 18:30",
+"game": "FK Zemun vs FK Radnicki 1923 Kragujevac",
+"pick": "FK Zemun excluded goals: 2",
+"odds": 1.13,
+"ts": 1795023000.0
+},
+{
+"t": "Wed 18:45",
+"game": "Real Madrid W vs Inter Milano",
+"pick": "Real Madrid W excluded goals: 2",
+"odds": 1.22,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 18:45",
+"game": "Hacken Gothenburg W vs Manchester City WFC",
+"pick": "Manchester City WFC excluded goals: 2",
+"odds": 1.25,
+"ts": 1795023900.0
+},
+{
+"t": "Wed 19:00",
+"game": "Club Portugalete vs Real Union de Irun",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "CD Bala Azul vs Atletico Santa Cruz",
+"pick": "CD Bala Azul excluded goals: 3+",
+"odds": 1.07,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "SSV Jeddeloh II vs 1. FC Phonix Lubeck",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "America FC RJ vs Americano RJ",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "Cacereno Femenino vs Deportivo Alaves",
+"pick": "Deportivo Alaves excluded goals: 2",
+"odds": 1.29,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "Utebo FC vs CE Sabadell FC",
+"pick": "CE Sabadell FC excluded goals: 2",
+"odds": 1.29,
+"ts": 1795024800.0
+},
+{
+"t": "Wed 19:00",
+"game": "CA Belgrano vs Independiente Reserve",
+"pick": "Goal bounds 2-5+",
+"odds": 1.24,
+"ts": 1795024800.0
+}
+]
+},
+{
 "code": "RHJKCX",
 "at": 1794862294,
 "when": "Mon 16 Nov 21:51",
