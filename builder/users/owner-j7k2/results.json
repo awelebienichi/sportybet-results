@@ -804,7 +804,7 @@
 "when": "Wed 18 Nov 08:14",
 "kind": "pattern combo (0 HT draw + 4 bankers + 10 1st-half + 5 Over 1.5 + 0 basketball)",
 "odds": 18.75,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -821,7 +821,10 @@
 "game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795003200.0
+"ts": 1795003200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 13:30",
@@ -2815,7 +2818,7 @@
 "when": "Tue 17 Nov 22:47",
 "kind": "goal-fest teams (season data)",
 "odds": 50925.15,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -2832,7 +2835,10 @@
 "game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795003200.0
+"ts": 1795003200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 20:30",
@@ -6056,7 +6062,10 @@
 "game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1795003200.0
+"ts": 1795003200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 14:00",
