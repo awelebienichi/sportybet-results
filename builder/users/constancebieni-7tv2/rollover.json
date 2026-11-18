@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-18",
+"day": 1,
+"code": "TJ36B8",
+"stake": 100.0,
+"odds": 4.01,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-17",
 "day": 1,
 "code": "P0GTHN",
@@ -85,7 +94,7 @@
 "odds": 4.01,
 "stake": 100.0,
 "n": 8,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-12",
 "short": "lower",
