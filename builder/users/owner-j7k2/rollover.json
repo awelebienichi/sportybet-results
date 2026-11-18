@@ -3,19 +3,16 @@
 "history": [],
 "start_stake": 1000.0,
 "stake": 1000.0,
-"odds": 4.0,
+"odds": 5.0,
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-11",
-"code": "U1S7YY",
-"odds": 3.63,
-"stake": 1000.0,
-"n": 7,
-"result": null
+"date": "2026-11-18",
+"code": null,
+"result": "skip"
 },
-"started": "2026-11-11",
+"started": "2026-11-18",
 "short": "lower",
-"min_odds": 1.8,
-"level": "strictest"
+"min_odds": 5.0,
+"level": "h1"
 }
