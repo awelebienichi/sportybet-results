@@ -1571,7 +1571,10 @@
 "game": "Adana Demirspor vs Kastamonuspor",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.49,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Wed 12:30",
@@ -2099,7 +2102,10 @@
 "game": "Adana Demirspor vs Kastamonuspor",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Wed 20:30",
@@ -2654,7 +2660,10 @@
 "game": "Adana Demirspor vs Kastamonuspor",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Wed 13:00",
@@ -3771,7 +3780,10 @@
 "game": "Adana Demirspor vs Kastamonuspor",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1794996000.0
+"ts": 1794996000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Wed 12:30",
