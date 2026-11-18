@@ -155,7 +155,10 @@
 "game": "Peterborough United U21 vs Bolton Wanderers",
 "pick": "Double chance Bolton Wanderers or draw",
 "odds": 1.48,
-"ts": 1795006800.0
+"ts": 1795006800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 14:30",
@@ -171,8 +174,8 @@
 "odds": 1.17,
 "ts": 1795008600.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 14:30",
@@ -395,7 +398,10 @@
 "game": "Peterborough United U21 vs Bolton Wanderers",
 "pick": "Peterborough United U21 excluded goals: 2",
 "odds": 1.3,
-"ts": 1795006800.0
+"ts": 1795006800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 14:30",
@@ -644,8 +650,8 @@
 "odds": 1.16,
 "ts": 1795008600.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Wed 14:30",
@@ -662,7 +668,10 @@
 "game": "AL Adalh FC vs Al-Orobah",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1795012200.0
+"ts": 1795012200.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Wed 16:00",
