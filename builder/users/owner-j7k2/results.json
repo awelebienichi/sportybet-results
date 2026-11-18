@@ -1278,7 +1278,10 @@
 "game": "Nottingham Forest U21 vs Newcastle United U21",
 "pick": "Double chance Nottingham Forest U21 or Newcastle United U21",
 "odds": 1.22,
-"ts": 1795028400.0
+"ts": 1795028400.0,
+"r": "W",
+"sc": "2-3",
+"ht": "1-2"
 },
 {
 "t": "Wed 20:30",
@@ -1309,7 +1312,10 @@
 "game": "Gosport Borough vs Chertsey Town",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795031100.0
+"ts": 1795031100.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 21:00",
@@ -1609,7 +1615,10 @@
 "game": "Gosport Borough vs Chertsey Town",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795031100.0
+"ts": 1795031100.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 21:00",
@@ -7352,7 +7361,10 @@
 "game": "Gosport Borough vs Chertsey Town",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1795031100.0
+"ts": 1795031100.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 21:00",
