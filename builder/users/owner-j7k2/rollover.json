@@ -17,12 +17,12 @@
 "hour": 10,
 "day": 2,
 "current": {
-"date": "2026-11-18",
-"code": "V098BS",
-"odds": 1.77,
-"stake": 1000.0,
-"n": 4,
-"result": "won"
+"date": "2026-11-19",
+"code": "H8Q4QU",
+"odds": 3.77,
+"stake": 1770,
+"n": 9,
+"result": null
 },
 "started": "2026-11-18",
 "short": "lower",
