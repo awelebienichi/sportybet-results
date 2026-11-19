@@ -7,7 +7,7 @@
 "when": "Thu 19 Nov 20:37",
 "kind": "live \u2013 best of all",
 "odds": 1.39,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 19:00",
@@ -28,7 +28,10 @@
 "game": "Ferro Carril Oeste vs CA River Plate (ARG)",
 "pick": "Under 4.5",
 "odds": 1.06,
-"ts": 1795111200.0
+"ts": 1795111200.0,
+"r": "L",
+"sc": "2-3",
+"ht": "1-0"
 },
 {
 "t": "Thu 19:00",
