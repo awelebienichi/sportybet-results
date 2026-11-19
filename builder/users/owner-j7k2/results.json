@@ -2,6 +2,296 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "W1S7QZ",
+"at": 1795100128,
+"when": "Thu 19 Nov 15:55",
+"kind": "safest market per game",
+"odds": 197.34,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Progreso vs Montevideo City Torque",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795116600.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795118400.0
+},
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 14:30",
+"game": "ES Hammam Sousse vs A Sakiet Edayer",
+"pick": "1st half double chance A Sakiet Edayer or draw",
+"odds": 1.21,
+"ts": 1795181400.0
+},
+{
+"t": "Fri 16:25",
+"game": "Shabab Al Ahli Dubai vs Ajman Club",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1795188300.0
+},
+{
+"t": "Fri 17:00",
+"game": "Shakhtar D vs FC Livyi Bereh Kyiv",
+"pick": "1st half double chance Shakhtar D or draw",
+"odds": 1.08,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 19:00",
+"game": "Azam FC vs Singida Black Stars FC",
+"pick": "1st half double chance Azam FC or draw",
+"odds": 1.15,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Rapperswil-Jona vs FC Aarau",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Nancy-Lorraine vs Dijon",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "2nd half Over 0.5",
+"odds": 1.07,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "2nd half Over 0.5",
+"odds": 1.1,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Rio Ave FC vs Vitoria SC",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795204800.0
+},
+{
+"t": "Sat 06:00",
+"game": "Suwon Bluewings vs Gyeongnam FC",
+"pick": "1st half double chance Suwon Bluewings or draw",
+"odds": 1.11,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 07:00",
+"game": "Kawasaki Frontale vs Avispa Fukuoka",
+"pick": "Kawasaki Frontale or GG",
+"odds": 1.18,
+"ts": 1795240800.0
+},
+{
+"t": "Sat 08:00",
+"game": "Southern District Football Club vs Hong Kong Rangers",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795244400.0
+},
+{
+"t": "Sat 12:30",
+"game": "Avia Swidnik vs Legia Warszawa II",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1795260600.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Ebbsfleet United FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Spennymoor Town FC vs Harborough Town FC",
+"pick": "1st half Under 2.5",
+"odds": 1.13,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Billericay Town vs Slough Town",
+"pick": "2nd half Over 0.5",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "KAS Eupen vs Sporting Hasselt",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Huddersfield vs Leicester",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Real Zaragoza vs CF Rayo Majadahonda",
+"pick": "1st half double chance Real Zaragoza or draw",
+"odds": 1.1,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Monaco vs AJ Auxerre",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:30",
+"game": "EC Bahia BA vs Coritiba FC PR",
+"pick": "1st half double chance EC Bahia BA or draw",
+"odds": 1.15,
+"ts": 1795293000.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 12:00",
+"game": "24Erzincanspor vs Karacabey Belediyespor",
+"pick": "1st half double chance 24Erzincanspor or draw",
+"odds": 1.13,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 13:00",
+"game": "Birmingham City WFC vs Manchester United WFC",
+"pick": "1st half double chance Manchester United WFC or draw",
+"odds": 1.15,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:00",
+"game": "Szentlorinc SE vs Kecskemeti TE",
+"pick": "2nd half Over 0.5",
+"odds": 1.18,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Cordoba CF vs Real Oviedo",
+"pick": "2nd half Over 0.5",
+"odds": 1.18,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Paris FC vs Angers",
+"pick": "1st half double chance Paris FC or draw",
+"odds": 1.11,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 16:00",
+"game": "Nyiregyhaza Spartacus FC vs Debreceni VSC",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:30",
+"game": "FK Sarajevo vs NK Siroki Brijeg",
+"pick": "1st half double chance FK Sarajevo or draw",
+"odds": 1.09,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:30",
+"game": "RSC Anderlecht vs Oud-Heverlee Leuven",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795368600.0
+}
+]
+},
+{
 "code": "VBA0NK",
 "at": 1795099868,
 "when": "Thu 19 Nov 15:51",
