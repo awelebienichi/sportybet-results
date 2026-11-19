@@ -74,7 +74,7 @@
 "when": "Thu 19 Nov 10:30",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.22,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 16:00",
@@ -141,7 +141,10 @@
 "game": "SL Benfica Lisbon W vs AS Roma W",
 "pick": "2nd half Over 0.5",
 "odds": 1.14,
-"ts": 1795118400.0
+"ts": 1795118400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 }
 ]
 },
