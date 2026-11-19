@@ -2,6 +2,163 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "MU4AUE",
+"at": 1795084589,
+"when": "Thu 19 Nov 11:36",
+"kind": "rebuild of JYUF53",
+"odds": 67.69,
+"status": "open",
+"legs": [
+{
+"t": "Thu 14:00",
+"game": "FK Termez Surkhon vs FC Andijon",
+"pick": "1st half double chance FK Termez Surkhon or draw",
+"odds": 1.35,
+"ts": 1795093200.0
+},
+{
+"t": "Thu 14:45",
+"game": "Diyala FC vs Al Kahrabaa SC",
+"pick": "1st half double chance Diyala FC or draw",
+"odds": 1.32,
+"ts": 1795095900.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"pick": "1st half double chance Al Mokawloon Al Arab or draw",
+"odds": 1.19,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"pick": "1st half double chance Al-Masry or draw",
+"odds": 1.13,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:25",
+"game": "Al Ain FC vs Al Dhafra SSC",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795101900.0
+},
+{
+"t": "Thu 16:30",
+"game": "Al Ahli Doha SC vs Al-Shamal",
+"pick": "1st half double chance Al Ahli Doha SC or draw",
+"odds": 1.4,
+"ts": 1795102200.0
+},
+{
+"t": "Thu 16:30",
+"game": "Al-Gharraf SC vs Al Quwa Al Jawiya",
+"pick": "1st half double chance Al Quwa Al Jawiya or draw",
+"odds": 1.21,
+"ts": 1795102200.0
+},
+{
+"t": "Thu 17:00",
+"game": "Ghaz Al-Shamal SC vs AL Karkh",
+"pick": "1st half double chance AL Karkh or draw",
+"odds": 1.31,
+"ts": 1795104000.0
+},
+{
+"t": "Thu 17:45",
+"game": "MC Alger vs Olympique Akbou",
+"pick": "1st half double chance MC Alger or draw",
+"odds": 1.09,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 18:00",
+"game": "FK Sveikata Kybartai vs Hegelmann Litauen B",
+"pick": "1st half double chance Hegelmann Litauen B or draw",
+"odds": 1.34,
+"ts": 1795107600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FK Austria Wien vs Bayern Munich W",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 19:00",
+"game": "FC Fredericia vs Hillerod Fodbold",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795111200.0
+},
+{
+"t": "Thu 20:00",
+"game": "JS Kabylie vs USM Alger",
+"pick": "1st half double chance JS Kabylie or draw",
+"odds": 1.2,
+"ts": 1795114800.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Boston River vs Deportivo Maldonado",
+"pick": "1st half double chance Deportivo Maldonado or draw",
+"odds": 1.23,
+"ts": 1795116600.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Penarol Montevideo vs Cerro Largo FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1795116600.0
+},
+{
+"t": "Thu 20:45",
+"game": "Amiens vs SM Caen",
+"pick": "1st half double chance SM Caen or draw",
+"odds": 1.39,
+"ts": 1795117500.0
+},
+{
+"t": "Thu 23:30",
+"game": "CR Vasco da Gama RJ vs SC Internacional RS",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795127400.0
+},
+{
+"t": "Thu 23:30",
+"game": "EC Vitoria BA vs Red Bull Bragantino SP",
+"pick": "1st half double chance EC Vitoria BA or draw",
+"odds": 1.35,
+"ts": 1795127400.0
+},
+{
+"t": "Thu 23:30",
+"game": "Independiente Valle Del Cauca vs Envigado FC",
+"pick": "1st half double chance Independiente Valle Del Cauca or draw",
+"odds": 1.29,
+"ts": 1795127400.0
+},
+{
+"t": "Thu 23:30",
+"game": "Union Magdalena vs Boca Juniors de Cali",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1795127400.0
+},
+{
+"t": "Thu 23:30",
+"game": "Deportivo La Guaira vs Anzoategui FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795127400.0
+}
+]
+},
+{
 "code": "H8Q4QU",
 "at": 1795080611,
 "when": "Thu 19 Nov 10:30",
