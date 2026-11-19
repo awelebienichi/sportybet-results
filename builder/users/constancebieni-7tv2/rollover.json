@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-19",
+"day": 1,
+"code": "GDBLZX",
+"stake": 100.0,
+"odds": 4.22,
+"result": "won",
+"returned": 422
+},
+{
 "date": "2026-11-18",
 "day": 1,
 "code": "TJ36B8",
@@ -84,17 +93,17 @@
 }
 ],
 "start_stake": 100.0,
-"stake": 100.0,
+"stake": 422,
 "odds": 4.0,
 "hour": 10,
-"day": 1,
+"day": 2,
 "current": {
 "date": "2026-11-19",
 "code": "GDBLZX",
 "odds": 4.22,
 "stake": 100.0,
 "n": 7,
-"result": null
+"result": "won"
 },
 "started": "2026-11-12",
 "short": "lower",
