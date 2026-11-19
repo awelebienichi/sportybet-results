@@ -1,5 +1,31 @@
 [
 {
+"when": "Thu 19 Nov 22:43",
+"at": 1795124633,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-19",
+"2026-11-20",
+"2026-11-21",
+"2026-11-22"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwo2tjuk4a3i"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Thu 19, Fri 20, Sat 21, Sun 22). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Thu 19 Nov 22:40",
 "at": 1795124423,
 "req": {
@@ -17551,319 +17577,6 @@
 }
 ],
 "chance": 0.1352
-}
-]
-},
-{
-"when": "Tue 17 Nov 18:06",
-"at": 1794935169,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 20,
-"days": [
-"2026-11-17",
-"2026-11-18",
-"2026-11-19"
-],
-"strict": "normal",
-"rid": "mwky1gvv3jt7"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Normal: in testing about 85 in 100 such legs came true.",
-"Chance all 20 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "GJ7L7R",
-"odds": 54.13,
-"legs": [
-{
-"t": "Tue 19:00",
-"game": "Fenerbahce Istanbul vs ASVEL Lyon-Villeurbanne",
-"lg": "International - Euroleague",
-"pick": "Over 155.5 total points",
-"odds": 1.21,
-"why": "expected Fenerbahce Istanbul 91 \u2013 ASVEL Lyon-Villeurbanne 84 (last 10/10 games, home edge included); 86% by the stats, 82% with the price",
-"ts": 1794938400.0,
-"eid": "sr:match:73263160",
-"mid": "225",
-"spec": "total=155.5",
-"oid": "12",
-"k": "73263160|225|total=155.5|12"
-},
-{
-"t": "Tue 19:00",
-"game": "BC Juventus Utena vs Pallacanestro Reggiana",
-"lg": "International - FIBA Champions League",
-"pick": "Over 152.5 total points",
-"odds": 1.21,
-"why": "expected BC Juventus Utena 87 \u2013 Pallacanestro Reggiana 85 (last 10/10 games, home edge included); 85% by the stats, 82% with the price; Flashscore home/away form 90%",
-"ts": 1794938400.0,
-"eid": "sr:match:73110628",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "73110628|225|total=152.5|12"
-},
-{
-"t": "Tue 19:00",
-"game": "Wurzburg Baskets vs Iraklis 2022",
-"lg": "International - FIBA Europe Cup",
-"pick": "Over 148.5 total points",
-"odds": 1.22,
-"why": "expected Wurzburg Baskets 84 \u2013 Iraklis 2022 83 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 85%",
-"ts": 1794938400.0,
-"eid": "sr:match:75108430",
-"mid": "225",
-"spec": "total=148.5",
-"oid": "12",
-"k": "75108430|225|total=148.5|12"
-},
-{
-"t": "Tue 19:00",
-"game": "BMS Herlev Wolfpack vs Holbaek-Stenhus",
-"lg": "Denmark - Basketligaen",
-"pick": "Over 151.5 total points",
-"odds": 1.21,
-"why": "expected BMS Herlev Wolfpack 80 \u2013 Holbaek-Stenhus 87 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; h2h 88% of 8 meetings, Flashscore home/away form 75%",
-"ts": 1794938400.0,
-"eid": "sr:match:72663216",
-"mid": "225",
-"spec": "total=151.5",
-"oid": "12",
-"k": "72663216|225|total=151.5|12"
-},
-{
-"t": "Tue 19:30",
-"game": "Team Fog Naestved vs Gladsaxe",
-"lg": "Denmark - Basketligaen",
-"pick": "Under 188.5 total points",
-"odds": 1.22,
-"why": "expected Team Fog Naestved 94 \u2013 Gladsaxe 76 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 72%",
-"ts": 1794940200.0,
-"eid": "sr:match:72663218",
-"mid": "225",
-"spec": "total=188.5",
-"oid": "13",
-"k": "72663218|225|total=188.5|13"
-},
-{
-"t": "Tue 20:00",
-"game": "Sluc Nancy Basket vs Kk Parnu",
-"lg": "International - FIBA Europe Cup",
-"pick": "Over 144.5 total points",
-"odds": 1.2,
-"why": "expected Sluc Nancy Basket 86 \u2013 Kk Parnu 77 (last 10/10 games, home edge included); 85% by the stats, 82% with the price; Flashscore home/away form 95%",
-"ts": 1794942000.0,
-"eid": "sr:match:75200584",
-"mid": "225",
-"spec": "total=144.5",
-"oid": "12",
-"k": "75200584|225|total=144.5|12"
-},
-{
-"t": "Tue 20:00",
-"game": "Rostock Seawolves vs Hapoel Jerusalem",
-"lg": "International - Eurocup",
-"pick": "Under 178.5 total points",
-"odds": 1.26,
-"why": "expected Rostock Seawolves 80 \u2013 Hapoel Jerusalem 81 (last 10/10 games, home edge included); 84% by the stats, 79% with the price; Flashscore home/away form 80%",
-"ts": 1794942000.0,
-"eid": "sr:match:72902108",
-"mid": "225",
-"spec": "total=178.5",
-"oid": "13",
-"k": "72902108|225|total=178.5|13"
-},
-{
-"t": "Tue 20:30",
-"game": "Baskonia Vitoria-Gasteiz vs Hapoel Tel-Aviv",
-"lg": "International - Euroleague",
-"pick": "Under 191.5 total points",
-"odds": 1.25,
-"why": "expected Baskonia Vitoria-Gasteiz 84 \u2013 Hapoel Tel-Aviv 85 (last 10/10 games, home edge included); 90% by the stats, 83% with the price; Flashscore home/away form 85%",
-"ts": 1794943800.0,
-"eid": "sr:match:73263166",
-"mid": "225",
-"spec": "total=191.5",
-"oid": "13",
-"k": "73263166|225|total=191.5|13"
-},
-{
-"t": "Tue 20:30",
-"game": "London Lions vs BC Siauliai",
-"lg": "International - Eurocup",
-"pick": "Over 147.5 total points",
-"odds": 1.23,
-"why": "expected London Lions 87 \u2013 BC Siauliai 80 (last 10/10 games, home edge included); 87% by the stats, 82% with the price; Flashscore home/away form 80%",
-"ts": 1794943800.0,
-"eid": "sr:match:72902314",
-"mid": "225",
-"spec": "total=147.5",
-"oid": "12",
-"k": "72902314|225|total=147.5|12"
-},
-{
-"t": "Tue 20:30",
-"game": "Club Joventut Badalona vs FC Porto",
-"lg": "International - FIBA Champions League",
-"pick": "Over 148.5 total points",
-"odds": 1.2,
-"why": "expected Club Joventut Badalona 84 \u2013 FC Porto 82 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 95%",
-"ts": 1794943800.0,
-"eid": "sr:match:73110690",
-"mid": "225",
-"spec": "total=148.5",
-"oid": "12",
-"k": "73110690|225|total=148.5|12"
-},
-{
-"t": "Tue 21:00",
-"game": "Virtus Bologna vs Panathinaikos BC",
-"lg": "International - Euroleague",
-"pick": "Over 157.5 total points",
-"odds": 1.22,
-"why": "expected Virtus Bologna 88 \u2013 Panathinaikos BC 86 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; h2h 75% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1794945600.0,
-"eid": "sr:match:73263174",
-"mid": "225",
-"spec": "total=157.5",
-"oid": "12",
-"k": "73263174|225|total=157.5|12"
-},
-{
-"t": "Tue 23:30",
-"game": "Unifacisa vs Botafogo",
-"lg": "Brazil - NBB",
-"pick": "Under 172.5 total points",
-"odds": 1.23,
-"why": "expected Unifacisa 82 \u2013 Botafogo 73 (last 9/10 games, home edge included); 83% by the stats, 80% with the price; h2h 88% of 8 meetings, Flashscore home/away form 90%",
-"ts": 1794954600.0,
-"eid": "sr:match:74320768",
-"mid": "225",
-"spec": "total=172.5",
-"oid": "13",
-"k": "74320768|225|total=172.5|13"
-},
-{
-"t": "Wed 02:00",
-"game": "Minnesota Timberwolves vs Portland Trail Blazers",
-"lg": "USA - NBA",
-"pick": "Under 240.5 total points",
-"odds": 1.26,
-"why": "expected Minnesota Timberwolves 114 \u2013 Portland Trail Blazers 107 (last 10/10 games, home edge included, Minnesota Timberwolves on 2nd game in 2 days, Portland Trail Blazers on 2nd game in 2 days); 86% by the stats, 81% with the price; h2h 75% of 8 meetings, Flashscore home/away form 75%, NBA ratings say 226 points",
-"ts": 1794963600.0,
-"eid": "sr:match:73719680",
-"mid": "225",
-"spec": "total=240.5",
-"oid": "13",
-"k": "73719680|225|total=240.5|13"
-},
-{
-"t": "Wed 11:00",
-"game": "Samsung Thunders vs LG Sakers",
-"lg": "Republic of Korea - KBL",
-"pick": "Over 152.5 total points",
-"odds": 1.21,
-"why": "expected Samsung Thunders 86 \u2013 LG Sakers 83 (last 10/10 games, home edge included); 82% by the stats, 80% with the price; h2h 75% of 8 meetings",
-"ts": 1794996000.0,
-"eid": "sr:match:73657568",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "73657568|225|total=152.5|12"
-},
-{
-"t": "Wed 11:05",
-"game": "Gunma Crane Thunders vs Shimane Susanoo Magic",
-"lg": "Japan - B League Premier",
-"pick": "Over 144.5 total points",
-"odds": 1.2,
-"why": "expected Gunma Crane Thunders 87 \u2013 Shimane Susanoo Magic 79 (last 10/10 games, home edge included); 89% by the stats, 84% with the price; h2h 75% of 8 meetings, Flashscore home/away form 90%",
-"ts": 1794996300.0,
-"eid": "sr:match:72696346",
-"mid": "225",
-"spec": "total=144.5",
-"oid": "12",
-"k": "72696346|225|total=144.5|12"
-},
-{
-"t": "Wed 11:05",
-"game": "Yokohama B-Corsairs vs Saga Ballooners",
-"lg": "Japan - B League Premier",
-"pick": "Over 151.5 total points",
-"odds": 1.22,
-"why": "expected Yokohama B-Corsairs 88 \u2013 Saga Ballooners 81 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 100%",
-"ts": 1794996300.0,
-"eid": "sr:match:72696352",
-"mid": "225",
-"spec": "total=151.5",
-"oid": "12",
-"k": "72696352|225|total=151.5|12"
-},
-{
-"t": "Wed 11:05",
-"game": "Kobe Storks vs Kawasaki Brave Thunders",
-"lg": "Japan - B League Premier",
-"pick": "Over 152.5 total points",
-"odds": 1.21,
-"why": "expected Kobe Storks 83 \u2013 Kawasaki Brave Thunders 85 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; h2h 75% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1794996300.0,
-"eid": "sr:match:72696358",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "72696358|225|total=152.5|12"
-},
-{
-"t": "Wed 11:10",
-"game": "Goyang Skygunners vs Khasiin Khuleguud",
-"lg": "International - East Asia Super League",
-"pick": "Under 193.5 total points",
-"odds": 1.22,
-"why": "expected Goyang Skygunners 92 \u2013 Khasiin Khuleguud 85 (last 10/10 games, home edge included); 83% by the stats, 80% with the price",
-"ts": 1794996600.0,
-"eid": "sr:match:75123526",
-"mid": "225",
-"spec": "total=193.5",
-"oid": "13",
-"k": "75123526|225|total=193.5|13"
-},
-{
-"t": "Wed 17:50",
-"game": "BC Nevezis Kedainiai vs BC Rytas Vilnius",
-"lg": "Lithuania - LKL",
-"pick": "Under 187.5 total points",
-"odds": 1.23,
-"why": "expected BC Nevezis Kedainiai 85 \u2013 BC Rytas Vilnius 84 (last 10/10 games, home edge included); 85% by the stats, 81% with the price; Flashscore home/away form 80%",
-"ts": 1795020600.0,
-"eid": "sr:match:73659020",
-"mid": "225",
-"spec": "total=187.5",
-"oid": "13",
-"k": "73659020|225|total=187.5|13"
-},
-{
-"t": "Wed 18:00",
-"game": "USK Prague vs BK Decin",
-"lg": "Czechia - NBL",
-"pick": "Over 152.5 total points",
-"odds": 1.21,
-"why": "expected USK Prague 86 \u2013 BK Decin 84 (last 10/10 games, home edge included); 83% by the stats, 80% with the price; Flashscore home/away form 80%",
-"ts": 1795021200.0,
-"eid": "sr:match:72627110",
-"mid": "225",
-"spec": "total=152.5",
-"oid": "12",
-"k": "72627110|225|total=152.5|12"
-}
-],
-"chance": 0.007
 }
 ]
 }
