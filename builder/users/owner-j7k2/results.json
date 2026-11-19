@@ -2,6 +2,212 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YULZJD",
+"at": 1795085425,
+"when": "Thu 19 Nov 11:50",
+"kind": "rebuild of ME1TRF",
+"odds": 192.96,
+"status": "open",
+"legs": [
+{
+"t": "Thu 13:00",
+"game": "PKR Svay Rieng vs Port FC",
+"pick": "Under 4.5",
+"odds": 1.28,
+"ts": 1795089600.0
+},
+{
+"t": "Thu 13:30",
+"game": "ND Beltinci vs NK Celje",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795091400.0
+},
+{
+"t": "Thu 13:30",
+"game": "NK Dob vs NK Bistrica Slovenska Bistrica",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795091400.0
+},
+{
+"t": "Thu 13:30",
+"game": "Cong An Ha Noi FC vs Johor Darul Tazim FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.25,
+"ts": 1795091400.0
+},
+{
+"t": "Thu 13:45",
+"game": "Al Wasl FC vs Hatta SC",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1795092300.0
+},
+{
+"t": "Thu 14:00",
+"game": "Entebbe UPPC FC vs Kataka FC",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795093200.0
+},
+{
+"t": "Thu 14:00",
+"game": "Kigezi Homeboyz FC vs Express FC",
+"pick": "1st half double chance Express FC or draw",
+"odds": 1.2,
+"ts": 1795093200.0
+},
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"pick": "1st half double chance Al Mokawloon Al Arab or draw",
+"odds": 1.19,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"pick": "1st half double chance Al-Masry or draw",
+"odds": 1.13,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:25",
+"game": "Al Ain FC vs Al Dhafra SSC",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795101900.0
+},
+{
+"t": "Thu 16:30",
+"game": "Al Ahli Doha SC vs Al-Shamal",
+"pick": "1st half double chance Al Ahli Doha SC or draw",
+"odds": 1.4,
+"ts": 1795102200.0
+},
+{
+"t": "Thu 17:45",
+"game": "MB Rouissat vs CR Belouizdad",
+"pick": "1st half double chance CR Belouizdad or draw",
+"odds": 1.16,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 17:45",
+"game": "MC Alger vs Olympique Akbou",
+"pick": "1st half double chance MC Alger or draw",
+"odds": 1.09,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 18:00",
+"game": "AL Okhdood U21 vs AL Jabalain FC U21",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795107600.0
+},
+{
+"t": "Thu 18:45",
+"game": "FK Austria Wien vs Bayern Munich W",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 19:00",
+"game": "Madureira EC RJ vs Bangu AC RJ",
+"pick": "1st half double chance Bangu AC RJ or draw",
+"odds": 1.34,
+"ts": 1795111200.0
+},
+{
+"t": "Thu 20:00",
+"game": "JS Kabylie vs USM Alger",
+"pick": "1st half double chance JS Kabylie or draw",
+"odds": 1.2,
+"ts": 1795114800.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Boston River vs Deportivo Maldonado",
+"pick": "1st half double chance Deportivo Maldonado or draw",
+"odds": 1.23,
+"ts": 1795116600.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Progreso vs Montevideo City Torque",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795116600.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Penarol Montevideo vs Cerro Largo FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1795116600.0
+},
+{
+"t": "Thu 20:45",
+"game": "Amiens vs SM Caen",
+"pick": "1st half double chance SM Caen or draw",
+"odds": 1.39,
+"ts": 1795117500.0
+},
+{
+"t": "Thu 21:00",
+"game": "Arsenal WFC vs Olympique Lyon W",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1795118400.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "1st half double chance SL Benfica Lisbon W or draw",
+"odds": 1.28,
+"ts": 1795118400.0
+},
+{
+"t": "Thu 23:30",
+"game": "CR Vasco da Gama RJ vs SC Internacional RS",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795127400.0
+},
+{
+"t": "Thu 23:30",
+"game": "EC Vitoria BA vs Red Bull Bragantino SP",
+"pick": "1st half double chance EC Vitoria BA or draw",
+"odds": 1.35,
+"ts": 1795127400.0
+},
+{
+"t": "Thu 23:30",
+"game": "Deportivo La Guaira vs Anzoategui FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795127400.0
+}
+]
+},
+{
 "code": "MU4AUE",
 "at": 1795084589,
 "when": "Thu 19 Nov 11:36",
