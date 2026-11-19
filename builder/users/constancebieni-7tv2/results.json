@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "XZ8FDS",
+"at": 1795117077,
+"when": "Thu 19 Nov 20:37",
+"kind": "live \u2013 best of all",
+"odds": 1.39,
+"status": "open",
+"legs": [
+{
+"t": "Thu 19:00",
+"game": "Zed FC vs Smouha SC",
+"pick": "GG \u2013 No",
+"odds": 1.03,
+"ts": 1795111200.0
+},
+{
+"t": "Thu 19:00",
+"game": "FC Fredericia vs Hillerod Fodbold",
+"pick": "Handicap 0:5 \u2013 Hillerod Fodbold",
+"odds": 1.06,
+"ts": 1795111200.0
+},
+{
+"t": "Thu 19:00",
+"game": "Ferro Carril Oeste vs CA River Plate (ARG)",
+"pick": "Under 4.5",
+"odds": 1.06,
+"ts": 1795111200.0
+},
+{
+"t": "Thu 19:00",
+"game": "Santa Cruz SE vs AD Marata SE",
+"pick": "Under 2.5",
+"odds": 1.06,
+"ts": 1795111200.0
+},
+{
+"t": "Thu 20:00",
+"game": "JS Kabylie vs USM Alger",
+"pick": "Handicap 0:3 \u2013 USM Alger",
+"odds": 1.07,
+"ts": 1795114800.0
+},
+{
+"t": "Thu 20:30",
+"game": "CA Boston River vs Deportivo Maldonado",
+"pick": "Handicap 3:0 \u2013 CA Boston River",
+"odds": 1.07,
+"ts": 1795116600.0
+}
+]
+},
+{
 "code": "GDBLZX",
 "at": 1795080606,
 "when": "Thu 19 Nov 10:30",
@@ -63,7 +115,7 @@
 "odds": 1.15,
 "ts": 1795110300.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "1-1"
 },
 {
