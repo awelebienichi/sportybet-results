@@ -24,7 +24,10 @@
 "game": "SL Benfica Lisbon W vs AS Roma W",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1795118400.0
+"ts": 1795118400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 09:30",
@@ -979,7 +982,10 @@
 "game": "SL Benfica Lisbon W vs AS Roma W",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1795118400.0
+"ts": 1795118400.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 11:00",
