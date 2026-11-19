@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZKQ53L",
+"at": 1795124159,
+"when": "Thu 19 Nov 22:35",
+"kind": "goal-fest teams (season data)",
+"odds": 7566.56,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "TWL Elektra vs FC 1980 Wien",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 19:00",
+"game": "TSV Havelse vs FC Viktoria Cologne",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 19:30",
+"game": "SC Wiedenbruck vs VfL Bochum II",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795203900.0
+},
+{
+"t": "Sat 12:00",
+"game": "Jagiellonia II Bialystok vs SK Mazovia Minsk Mazowiecki",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 12:00",
+"game": "Eintracht Frankfurt vs Hamburger SV",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 12:30",
+"game": "Young Lions FC vs Tanjong Pagar United FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795260600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "BVV Barendrecht vs VV Kloetinge",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Ebbsfleet United FC",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:45",
+"game": "Malaga CF vs Real Betis Balompie",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795279500.0
+},
+{
+"t": "Sat 18:00",
+"game": "Hzvv Hoogeveen vs SV Dvs 33 Ermelo",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Lugano vs Grasshopper Club Zurich",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795280400.0
+},
+{
+"t": "Sun 12:15",
+"game": "FC Twente Enschede vs Willem II Tilburg",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795346100.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "RFC Union Luxembourg vs FC Wiltz 71",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795368600.0
+}
+]
+},
+{
 "code": "YM9CV8",
 "at": 1795100772,
 "when": "Thu 19 Nov 16:06",
