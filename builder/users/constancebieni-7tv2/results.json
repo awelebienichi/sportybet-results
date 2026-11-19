@@ -2,6 +2,65 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "GDBLZX",
+"at": 1795080606,
+"when": "Thu 19 Nov 10:30",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.22,
+"status": "open",
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"pick": "Over 1.5",
+"odds": 1.26,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795100400.0
+},
+{
+"t": "Thu 17:45",
+"game": "MC Alger vs Olympique Akbou",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 17:45",
+"game": "MB Rouissat vs CR Belouizdad",
+"pick": "Handicap 2:0 \u2013 MB Rouissat",
+"odds": 1.22,
+"ts": 1795106700.0
+},
+{
+"t": "Thu 18:00",
+"game": "AL Okhdood U21 vs AL Jabalain FC U21",
+"pick": "Double chance AL Jabalain FC U21 or draw",
+"odds": 1.49,
+"ts": 1795107600.0
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795110300.0
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1795118400.0
+}
+]
+},
+{
 "code": "TJ36B8",
 "at": 1794992445,
 "when": "Wed 18 Nov 10:00",
