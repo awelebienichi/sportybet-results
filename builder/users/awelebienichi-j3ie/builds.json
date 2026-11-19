@@ -1,0 +1,66 @@
+[
+{
+"when": "Thu 19 Nov 10:29",
+"at": 1795080595,
+"req": {
+"u": "awelebienichi-j3ie",
+"name": "Awele Bienichi",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-19"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwn92abpvorm"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 2 games passed the checks (Thu 19, 72 games on SportyBet), so this ticket has 2 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 2 legs win: about 69%."
+],
+"tickets": [
+{
+"code": "SWP7Y1",
+"odds": 1.32,
+"legs": [
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%, FotMob: 4.1 goals a game, Vitibet tip 2-1",
+"ts": 1795110300.0,
+"eid": "sr:match:74371866",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371866|18|total=1.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.0 goals a game",
+"ts": 1795118400.0,
+"eid": "sr:match:74403632",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74403632|18|total=1.5|12"
+}
+],
+"chance": 0.6858
+}
+]
+}
+]
