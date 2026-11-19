@@ -7,7 +7,7 @@
 "when": "Thu 19 Nov 11:50",
 "kind": "rebuild of ME1TRF",
 "odds": 192.96,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 13:00",
@@ -57,7 +57,7 @@
 "odds": 1.17,
 "ts": 1795093200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": ""
 },
 {
@@ -65,7 +65,10 @@
 "game": "Kigezi Homeboyz FC vs Express FC",
 "pick": "1st half double chance Express FC or draw",
 "odds": 1.2,
-"ts": 1795093200.0
+"ts": 1795093200.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Thu 16:00",
