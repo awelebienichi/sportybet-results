@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-19",
+"day": 2,
+"code": "H8Q4QU",
+"stake": 1770,
+"odds": 3.77,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-18",
 "day": 1,
 "code": "V098BS",
@@ -12,17 +21,17 @@
 }
 ],
 "start_stake": 1000.0,
-"stake": 1770,
+"stake": 1000.0,
 "odds": 5.0,
 "hour": 10,
-"day": 2,
+"day": 1,
 "current": {
 "date": "2026-11-19",
 "code": "H8Q4QU",
 "odds": 3.77,
 "stake": 1770,
 "n": 9,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-18",
 "short": "lower",
