@@ -1,5 +1,63 @@
 [
 {
+"when": "Thu 19 Nov 23:38",
+"at": 1795127910,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 6,
+"strict": "normal",
+"rid": "mwo4svv3vic3"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 2 live leg(s) were strong enough right now (you asked for 6).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 2 legs win: about 72%."
+],
+"tickets": [
+{
+"code": "H8QB3E",
+"odds": 1.26,
+"legs": [
+{
+"t": "Thu 23:30",
+"game": "EC Vitoria BA vs Red Bull Bragantino SP",
+"lg": "Brazil - Brasileiro Serie A",
+"pick": "Over 1.5",
+"odds": 1.04,
+"why": "LIVE 1-0 6': EC Vitoria BA expected 1.1 and Red Bull Bragantino SP 1.4 more goals (last 10 + season); 1-0 at 6' \u2013 89% chance; Flashscore home/away form 80%, FotMob: 2.4 goals a game, h2h 75% of 8 meetings (1.5 line)",
+"ts": 1795127400.0,
+"eid": "sr:match:66887174",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "66887174|18|total=1.5|12"
+},
+{
+"t": "Thu 23:30",
+"game": "CR Vasco da Gama RJ vs SC Internacional RS",
+"lg": "Brazil - Brasileiro Serie A",
+"pick": "Handicap 0:3 \u2013 SC Internacional RS",
+"odds": 1.21,
+"why": "LIVE 0-0 6': CR Vasco da Gama RJ expected 1.4 and SC Internacional RS 1.4 more goals (last 10 + season); 0-0 at 6' \u2013 92% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1795127400.0,
+"eid": "sr:match:66887160",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "66887160|14|hcp=0:3|1713"
+}
+],
+"chance": 0.7208
+}
+]
+},
+{
 "when": "Thu 19 Nov 20:37",
 "at": 1795117077,
 "req": {
@@ -6443,62 +6501,6 @@
 "spec": "",
 "oid": "1",
 "k": "74827346|1||1"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 08:59",
-"at": 1794643183,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwg47juv5uzl"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 2 live leg(s) were strong enough right now (you asked for 5).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "Y435ZH",
-"odds": 1.22,
-"legs": [
-{
-"t": "Sat 08:00",
-"game": "Persita Tangerang vs Dewa United FC",
-"lg": "Indonesia - U20 Super League",
-"pick": "Persita Tangerang or draw",
-"odds": 1.05,
-"why": "LIVE 1-0 45': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794639600.0,
-"eid": "sr:match:111111114488807",
-"mid": "10",
-"spec": "",
-"oid": "9",
-"k": "111111114488807|10||9"
-},
-{
-"t": "Sat 08:00",
-"game": "North District FC vs Hong Kong FC",
-"lg": "Hong Kong, China - Hongkong League Cup",
-"pick": "Handicap 0:3 \u2013 Hong Kong FC",
-"odds": 1.16,
-"why": "LIVE 0-0 45': North District FC expected 1.4 and Hong Kong FC 0.9 more goals (last 10); 0-0 at 45' \u2013 88% chance; h2h 88% of 8 meetings",
-"ts": 1794639600.0,
-"eid": "sr:match:76170238",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "76170238|14|hcp=0:3|1713"
 }
 ]
 }
