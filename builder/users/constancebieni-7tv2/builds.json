@@ -1,5 +1,126 @@
 [
 {
+"when": "Thu 19 Nov 10:30",
+"at": 1795080606,
+"req": {
+"type": "rollover",
+"legs": 7,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6422 if it wins"
+],
+"tickets": [
+{
+"code": "GDBLZX",
+"odds": 4.22,
+"legs": [
+{
+"t": "Thu 16:00",
+"game": "PFC Dobrudzha Dobrich vs FC Fratria Varna",
+"lg": "Bulgaria - Vtora Liga",
+"pick": "Over 1.5",
+"odds": 1.26,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 75%, Flashscore home/away 85%; FotMob: 2.9 goals a game, season: 2.9 goals a game",
+"ts": 1795100400.0,
+"eid": "sr:match:76805608",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76805608|18|total=1.5|12"
+},
+{
+"t": "Thu 16:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"lg": "Egypt - Egypt Cup",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 85%",
+"ts": 1795100400.0,
+"eid": "sr:match:76738342",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76738342|18|total=3.5|13"
+},
+{
+"t": "Thu 17:45",
+"game": "MC Alger vs Olympique Akbou",
+"lg": "Algeria - Ligue 1",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%, Flashscore home/away 90%; FotMob: 1.7 goals a game, Vitibet tip 1-0, season: 1.7 goals a game",
+"ts": 1795106700.0,
+"eid": "sr:match:75049114",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75049114|18|total=3.5|13"
+},
+{
+"t": "Thu 17:45",
+"game": "MB Rouissat vs CR Belouizdad",
+"lg": "Algeria - Ligue 1",
+"pick": "Handicap 2:0 \u2013 MB Rouissat",
+"odds": 1.22,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1795106700.0,
+"eid": "sr:match:75049106",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75049106|14|hcp=2:0|1711"
+},
+{
+"t": "Thu 18:00",
+"game": "AL Okhdood U21 vs AL Jabalain FC U21",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "Double chance AL Jabalain FC U21 or draw",
+"odds": 1.49,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
+"ts": 1795107600.0,
+"eid": "sr:match:75591618",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "75591618|10||11"
+},
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 85%; FotMob: 4.1 goals a game, Vitibet tip 2-1",
+"ts": 1795110300.0,
+"eid": "sr:match:74371866",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74371866|18|total=1.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "SL Benfica Lisbon W vs AS Roma W",
+"lg": "International Clubs - UEFA Champions League Women",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1795118400.0,
+"eid": "sr:match:74403632",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74403632|90|total=0.5|12"
+}
+],
+"chance": 0.1686
+}
+]
+},
+{
 "when": "Wed 18 Nov 10:00",
 "at": 1794992445,
 "req": {
@@ -6436,178 +6557,6 @@
 "spec": "",
 "oid": "11",
 "k": "76413240|63||11"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 08:24",
-"at": 1794641047,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"gb25"
-],
-"rid": "mwg2xgzzsvkr"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [],
-"tickets": [
-{
-"code": "SYG2PJ",
-"odds": 12.12,
-"legs": [
-{
-"t": "Sat 13:30",
-"game": "Marek Dupnica vs PFC Chernomorets Burgas",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.35,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 2.6 goals a game",
-"ts": 1794659400.0,
-"eid": "sr:match:72466634",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72466634|450001||25"
-},
-{
-"t": "Sat 14:00",
-"game": "Hamburger SV II vs Kickers Emden",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "Goal bounds 2-5+",
-"odds": 1.14,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, footybets 97%, FotMob: 4.3 goals a game, Vitibet tip 1-2",
-"ts": 1794661200.0,
-"eid": "sr:match:72674434",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72674434|450001||25"
-},
-{
-"t": "Sat 14:30",
-"game": "AS Megrine vs AS Agareb",
-"lg": "Tunisia - Ligue 2",
-"pick": "Goal bounds 2-5+",
-"odds": 1.49,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 70%",
-"ts": 1794663000.0,
-"eid": "sr:match:76515400",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76515400|450001||25"
-},
-{
-"t": "Sat 14:30",
-"game": "US Albinoleffe vs Union Brescia",
-"lg": "Italy - Serie C, Group A",
-"pick": "Goal bounds 2-5+",
-"odds": 1.32,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 75%, FotMob: 2.9 goals a game",
-"ts": 1794663000.0,
-"eid": "sr:match:73293334",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73293334|450001||25"
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"lg": "Wales - Cymru Championship South",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 75%",
-"ts": 1794664800.0,
-"eid": "sr:match:74352338",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74352338|450001||25"
-},
-{
-"t": "Sat 16:00",
-"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
-"lg": "Mexico - U21 Liga MX",
-"pick": "Goal bounds 2-5+",
-"odds": 1.21,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:74627426",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74627426|450001||25"
-},
-{
-"t": "Sat 16:00",
-"game": "Port Vale vs Accrington Stanley",
-"lg": "England - League Two",
-"pick": "Goal bounds 2-5+",
-"odds": 1.33,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, footybets 98%, FotMob: 2.4 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:72342368",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72342368|450001||25"
-},
-{
-"t": "Sat 17:00",
-"game": "CD Marchamalo vs Villarrubia CF",
-"lg": "Spain Amateur - Tercera Federacion, Group 18",
-"pick": "Goal bounds 2-5+",
-"odds": 1.4,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
-"ts": 1794672000.0,
-"eid": "sr:match:73560448",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73560448|450001||25"
-},
-{
-"t": "Sat 19:00",
-"game": "CD Noblejas vs CD Quintanar del Rey",
-"lg": "Spain Amateur - Tercera Federacion, Group 18",
-"pick": "Goal bounds 2-5+",
-"odds": 1.31,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794679200.0,
-"eid": "sr:match:73560446",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73560446|450001||25"
-},
-{
-"t": "Sat 20:30",
-"game": "Scotland vs Kosovo",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Goal bounds 2-5+",
-"odds": 1.18,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794684600.0,
-"eid": "sr:match:74838480",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74838480|450001||25"
 }
 ]
 }

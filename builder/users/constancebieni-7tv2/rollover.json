@@ -89,12 +89,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-18",
-"code": "TJ36B8",
-"odds": 4.01,
+"date": "2026-11-19",
+"code": "GDBLZX",
+"odds": 4.22,
 "stake": 100.0,
-"n": 8,
-"result": "lost"
+"n": 7,
+"result": null
 },
 "started": "2026-11-12",
 "short": "lower",
