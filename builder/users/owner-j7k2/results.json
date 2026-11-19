@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NVM1GB",
+"at": 1795099725,
+"when": "Thu 19 Nov 15:48",
+"kind": "your tracker's best markets",
+"odds": 17.8,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:45",
+"game": "Paris FC W vs HB KOEGE W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795110300.0
+},
+{
+"t": "Fri 11:00",
+"game": "Vissel Kobe vs Mito Hollyhock",
+"pick": "1st half double chance Vissel Kobe or draw",
+"odds": 1.12,
+"ts": 1795168800.0
+},
+{
+"t": "Fri 13:00",
+"game": "ACS Inter Ilfov vs Fotbal Club FCSB 2",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 18:00",
+"game": "MFK Karvina vs FC Banik Ostrava B",
+"pick": "MFK Karvina or GG",
+"odds": 1.07,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 19:00",
+"game": "Azam FC vs Singida Black Stars FC",
+"pick": "1st half double chance Azam FC or draw",
+"odds": 1.15,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Seraing vs RWD Molenbeek Youth",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Pontypridd Town or GG",
+"odds": 1.06,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Swansea University or GG",
+"odds": 1.06,
+"ts": 1795203000.0
+},
+{
+"t": "Sat 02:00",
+"game": "Miramar Rangers vs Cashmere Technical",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795222800.0
+},
+{
+"t": "Sat 05:00",
+"game": "Oakleigh Cannons vs Bayswater City",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795233600.0
+},
+{
+"t": "Sat 06:00",
+"game": "Suwon Bluewings vs Gyeongnam FC",
+"pick": "1st half double chance Suwon Bluewings or draw",
+"odds": 1.11,
+"ts": 1795237200.0
+},
+{
+"t": "Sat 13:00",
+"game": "Majosi SE vs Dunaharaszti MTK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ferencvarosi TC II vs Paksi FC II",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 14:00",
+"game": "SV Lochau vs FC Kufstein",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Kayserispor vs Sariyer SK",
+"pick": "Kayserispor or GG",
+"odds": 1.11,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Caersws vs Denbigh Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "KAS Eupen vs Sporting Hasselt",
+"pick": "KAS Eupen or GG",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Cove Rangers FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Chertsey Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Real Zaragoza vs CF Rayo Majadahonda",
+"pick": "1st half double chance Real Zaragoza or draw",
+"odds": 1.1,
+"ts": 1795275000.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 12:00",
+"game": "24Erzincanspor vs Karacabey Belediyespor",
+"pick": "1st half double chance 24Erzincanspor or draw",
+"odds": 1.13,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Paris FC vs Angers",
+"pick": "1st half double chance Paris FC or draw",
+"odds": 1.11,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 17:30",
+"game": "FK Sarajevo vs NK Siroki Brijeg",
+"pick": "1st half double chance FK Sarajevo or draw",
+"odds": 1.09,
+"ts": 1795365000.0
+}
+]
+},
+{
 "code": "YULZJD",
 "at": 1795085425,
 "when": "Thu 19 Nov 11:50",
