@@ -2463,7 +2463,10 @@
 "game": "Liverpool Montevideo vs Montevideo Wanderers",
 "pick": "Liverpool Montevideo or GG",
 "odds": 1.18,
-"ts": 1795203000.0
+"ts": 1795203000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:45",
@@ -6263,7 +6266,10 @@
 "game": "Rio Ave FC vs Vitoria SC",
 "pick": "Under 3.5",
 "odds": 1.17,
-"ts": 1795203000.0
+"ts": 1795203000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
