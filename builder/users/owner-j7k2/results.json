@@ -347,7 +347,7 @@
 "when": "Fri 20 Nov 12:05",
 "kind": "rebuild of K3B5W1",
 "odds": 3000.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:00",
@@ -405,7 +405,10 @@
 "game": "Darmstadt vs Heidenheim",
 "pick": "1st half Under 2.5",
 "odds": 1.18,
-"ts": 1795195800.0
+"ts": 1795195800.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
