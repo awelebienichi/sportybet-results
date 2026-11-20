@@ -35,7 +35,10 @@
 "game": "FC Iskra Ribnita vs CSF Spartanii Selemet",
 "pick": "FC Iskra Ribnita to win",
 "odds": 1.1,
-"ts": 1795172400.0
+"ts": 1795172400.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 12:30",
@@ -126,7 +129,10 @@
 "game": "De Red FC vs Persis Solo",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795176000.0
+"ts": 1795176000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 13:15",
@@ -164,7 +170,10 @@
 "game": "AGMK FC vs Qizilqum Zarafshon",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.1,
-"ts": 1795176000.0
+"ts": 1795176000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
