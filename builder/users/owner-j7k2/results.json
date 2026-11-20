@@ -434,14 +434,20 @@
 "game": "FAC Wien vs Young Violets Wien",
 "pick": "1st half double chance Young Violets Wien or draw",
 "odds": 1.39,
-"ts": 1795195800.0
+"ts": 1795195800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:30",
 "game": "SKN St Polten vs ASK Voitsberg",
 "pick": "1st half Under 2.5",
 "odds": 1.16,
-"ts": 1795195800.0
+"ts": 1795195800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 19:00",
