@@ -2,6 +2,121 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NEBARC",
+"at": 1795202697,
+"when": "Fri 20 Nov 20:24",
+"kind": "GG (both teams score)",
+"odds": 168.88,
+"status": "open",
+"legs": [
+{
+"t": "Sat 05:00",
+"game": "Oakleigh Cannons vs Bayswater City",
+"pick": "GG (both teams score)",
+"odds": 1.52,
+"ts": 1795233600.0
+},
+{
+"t": "Sat 11:00",
+"game": "Trencin vs FC DAC 1904 Dunajska Streda",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"ts": 1795255200.0
+},
+{
+"t": "Sat 12:00",
+"game": "Jagiellonia II Bialystok vs SK Mazovia Minsk Mazowiecki",
+"pick": "GG (both teams score)",
+"odds": 1.38,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 14:00",
+"game": "SV Rodinghausen vs FC Schalke 04 II",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "GG (both teams score)",
+"odds": 1.5,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:30",
+"game": "EA Guingamp vs Stade Brestois 29",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Pontardawe Town FC vs Baglan Dragons",
+"pick": "GG (both teams score)",
+"odds": 1.53,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC La Chaux De Fonds vs CS Chenois",
+"pick": "GG (both teams score)",
+"odds": 1.36,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "GG (both teams score)",
+"odds": 1.44,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "GG (both teams score)",
+"odds": 1.45,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Hzvv Hoogeveen vs SV Dvs 33 Ermelo",
+"pick": "GG (both teams score)",
+"odds": 1.33,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"pick": "GG (both teams score)",
+"odds": 1.36,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Prishtina Bern vs Lancy FC",
+"pick": "GG (both teams score)",
+"odds": 1.38,
+"ts": 1795284000.0
+}
+]
+},
+{
 "code": "UVDG1Y",
 "at": 1795202541,
 "when": "Fri 20 Nov 20:22",
@@ -1724,7 +1839,7 @@
 "odds": 1.19,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-2"
 },
 {
@@ -2632,7 +2747,7 @@
 "odds": 1.37,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-2"
 },
 {
@@ -2920,7 +3035,7 @@
 "odds": 1.37,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-2"
 },
 {
@@ -3618,7 +3733,7 @@
 "odds": 1.19,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-2"
 },
 {
@@ -5316,7 +5431,7 @@
 "odds": 1.36,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-2"
 },
 {
@@ -5801,7 +5916,7 @@
 "odds": 1.36,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-2"
 },
 {
