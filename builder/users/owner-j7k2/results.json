@@ -1122,7 +1122,7 @@
 "odds": 1.32,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": ""
 },
 {
@@ -1271,7 +1271,7 @@
 "odds": 1.32,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": ""
 },
 {
@@ -1373,7 +1373,10 @@
 "game": "Uganda Police FC vs Kampala Capital City Authority FC",
 "pick": "1st half double chance Kampala Capital City Authority FC or draw",
 "odds": 1.2,
-"ts": 1795179600.0
+"ts": 1795179600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
@@ -1458,7 +1461,7 @@
 "odds": 1.27,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": ""
 },
 {
