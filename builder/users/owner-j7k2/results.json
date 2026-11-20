@@ -2,6 +2,114 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "W47KNU",
+"at": 1795139500,
+"when": "Fri 20 Nov 02:51",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 125.22,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795201200.0
+},
+{
+"t": "Sat 12:00",
+"game": "Eintracht Frankfurt vs Hamburger SV",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 12:00",
+"game": "FC Barcelona vs CF Badalona",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Sampdoria Genoa vs Pro Vercelli 1892",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merida vs Atletico Madrid",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "SD Eibar vs Atletico Madrid W",
+"pick": "Over 2.5",
+"odds": 1.79,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:45",
+"game": "Malaga CF vs Real Betis Balompie",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795279500.0
+},
+{
+"t": "Sat 18:15",
+"game": "London City Lionesses vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795281300.0
+},
+{
+"t": "Sun 12:00",
+"game": "Granada CF vs Real Madrid W",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Fcf Como vs AS Roma W",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 17:00",
+"game": "CD Tenerife vs Madrid CFF",
+"pick": "Over 2.5",
+"odds": 1.69,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 20:30",
+"game": "Lazio Rome vs Juventus Turin W",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795375800.0
+}
+]
+},
+{
 "code": "MJYDRZ",
 "at": 1795124423,
 "when": "Thu 19 Nov 22:40",
