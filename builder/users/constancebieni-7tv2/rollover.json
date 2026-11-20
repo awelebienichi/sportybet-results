@@ -98,12 +98,12 @@
 "hour": 10,
 "day": 2,
 "current": {
-"date": "2026-11-19",
-"code": "GDBLZX",
-"odds": 4.22,
-"stake": 100.0,
-"n": 7,
-"result": "won"
+"date": "2026-11-20",
+"code": "ZETSZT",
+"odds": 4.13,
+"stake": 422,
+"n": 8,
+"result": null
 },
 "started": "2026-11-12",
 "short": "lower",
