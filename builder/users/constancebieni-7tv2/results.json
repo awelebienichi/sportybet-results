@@ -436,7 +436,7 @@
 "when": "Fri 20 Nov 12:37",
 "kind": "your chosen markets",
 "odds": 2.2,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:00",
@@ -483,7 +483,10 @@
 "game": "Azam FC vs Singida Black Stars FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.11,
-"ts": 1795197600.0
+"ts": 1795197600.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
