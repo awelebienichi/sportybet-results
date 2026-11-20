@@ -2788,7 +2788,10 @@
 "game": "De Graafschap vs MVV Maastricht",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -4694,7 +4697,10 @@
 "game": "De Graafschap vs MVV Maastricht",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
