@@ -7,14 +7,17 @@
 "when": "Fri 20 Nov 01:56",
 "kind": "live \u2013 best of all",
 "odds": 1.28,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 01:30",
 "game": "Sao Paulo FC SP vs Fluminense FC RJ",
 "pick": "Handicap 0:2 \u2013 Fluminense FC RJ",
 "odds": 1.11,
-"ts": 1795134600.0
+"ts": 1795134600.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 01:30",
