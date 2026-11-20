@@ -2,6 +2,128 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SESKPA",
+"at": 1795162640,
+"when": "Fri 20 Nov 09:17",
+"kind": "1st half Over 0.5",
+"odds": 15.56,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "FC Van Charentsavan vs FC Ararat-Armenia",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795172400.0
+},
+{
+"t": "Fri 18:00",
+"game": "MFK Karvina vs FC Banik Ostrava B",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Rapid Wien II vs Blau-Weiss Linz",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "TSV Havelse vs FC Viktoria Cologne",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Stade Nyonnais vs FC Wil 1900",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "De Graafschap vs MVV Maastricht",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Den Bosch vs VVV Venlo",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong FC Utrecht vs FC Emmen",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Ipswich Town U21 vs FC Porto B",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "1st half Over 0.5",
+"odds": 1.1,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "The New Saints FC vs Trefelin BGC",
+"pick": "1st half Over 0.5",
+"odds": 1.07,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795203900.0
+}
+]
+},
+{
 "code": "RAUN5V",
 "at": 1795156628,
 "when": "Fri 20 Nov 07:37",
@@ -3735,7 +3857,7 @@
 "odds": 1.38,
 "ts": 1795077000.0,
 "r": "W",
-"sc": "2-1",
+"sc": "6-4",
 "ht": "0-0"
 },
 {
@@ -4051,7 +4173,7 @@
 "odds": 1.38,
 "ts": 1795077000.0,
 "r": "W",
-"sc": "2-1",
+"sc": "6-4",
 "ht": "0-0"
 },
 {
