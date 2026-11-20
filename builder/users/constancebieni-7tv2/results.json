@@ -2,12 +2,186 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "YC3M3C",
+"at": 1795194209,
+"when": "Fri 20 Nov 18:03",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.12,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "TOP Oss vs Roda JC Kerkrade",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Vitesse Arnhem vs Jong AZ Alkmaar",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pogon Szczecin vs WKS Slask Wroclaw",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Miedz Legnica vs LKS Lodz",
+"pick": "Under 3.5",
+"odds": 1.43,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caernarfon Town FC vs Connah`s Quay Nomads FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Athletic Bilbao vs Espanyol",
+"pick": "Under 4.5",
+"odds": 1.22,
+"ts": 1795204800.0
+}
+]
+},
+{
+"code": "W0JY0M",
+"at": 1795194185,
+"when": "Fri 20 Nov 18:03",
+"kind": "live \u2013 best of all",
+"odds": 2.28,
+"status": "open",
+"legs": [
+{
+"t": "Fri 16:25",
+"game": "Shabab Al Ahli Dubai vs Ajman Club",
+"pick": "Ajman Club Under 2.5",
+"odds": 1.05,
+"ts": 1795188300.0
+},
+{
+"t": "Fri 16:30",
+"game": "Al Zawraa vs AL Talaba",
+"pick": "Al Zawraa Under 2.5",
+"odds": 1.03,
+"ts": 1795188600.0
+},
+{
+"t": "Fri 16:30",
+"game": "FK Potkozarje Aleksandrovac vs FK Famos Vojkovici",
+"pick": "FK Potkozarje Aleksandrovac Under 2.5",
+"odds": 1.07,
+"ts": 1795188600.0
+},
+{
+"t": "Fri 16:30",
+"game": "Al Gharafa SC vs Al Arabi Doha SC",
+"pick": "Al Gharafa SC Under 2.5",
+"odds": 1.07,
+"ts": 1795188600.0
+},
+{
+"t": "Fri 16:30",
+"game": "FC Botosani vs SC FC Voluntari",
+"pick": "Handicap 0:4 \u2013 SC FC Voluntari",
+"odds": 1.04,
+"ts": 1795188600.0
+},
+{
+"t": "Fri 16:30",
+"game": "Senegal vs Croatia",
+"pick": "Handicap 2:0 \u2013 Senegal",
+"odds": 1.07,
+"ts": 1795188600.0
+},
+{
+"t": "Fri 17:00",
+"game": "Shakhtar D vs FC Livyi Bereh Kyiv",
+"pick": "Handicap 0:3 \u2013 FC Livyi Bereh Kyiv",
+"odds": 1.03,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "Al Wehdat vs AL Arabi",
+"pick": "Al Wehdat Under 3.5",
+"odds": 1.04,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "ES Setif vs US Biskra",
+"pick": "ES Setif Under 2.5",
+"odds": 1.05,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "FK Septemvri Sofia vs PFC Lokomotiv Plovdiv",
+"pick": "Handicap 0:2 \u2013 PFC Lokomotiv Plovdiv",
+"odds": 1.03,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "FK Naftagas Elemir vs FK Borac Cacak",
+"pick": "FK Naftagas Elemir or draw",
+"odds": 1.05,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "Al Ittihad Ahli of Aleppo vs Al-Jaish SC (Syr)",
+"pick": "Al Ittihad Ahli of Aleppo Under 3.5",
+"odds": 1.09,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "FC Dinamo Tbilisi vs FC Torpedo Kutaisi",
+"pick": "Handicap 0:2 \u2013 FC Torpedo Kutaisi",
+"odds": 1.12,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "FC Juarez vs Atlas FC",
+"pick": "FC Juarez Under 3.5",
+"odds": 1.05,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:30",
+"game": "Police FC Rwanda vs AL Hilal (SDN)",
+"pick": "Handicap 3:0 \u2013 Police FC Rwanda",
+"odds": 1.06,
+"ts": 1795192200.0
+}
+]
+},
+{
 "code": "LT8SA2",
 "at": 1795178212,
 "when": "Fri 20 Nov 13:36",
 "kind": "live \u2013 best of all",
 "odds": 5.99,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
@@ -184,21 +358,30 @@
 "game": "The Cong - Viettel FC vs Song Lam Nghe An",
 "pick": "Handicap 0:3 \u2013 Song Lam Nghe An",
 "odds": 1.04,
-"ts": 1795176900.0
+"ts": 1795176900.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:15",
 "game": "Al Hikma vs Shabab AL Sahel",
 "pick": "Handicap 2:0 \u2013 Al Hikma",
 "odds": 1.1,
-"ts": 1795176900.0
+"ts": 1795176900.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 13:30",
 "game": "FC Bihor Oradea vs CS Gloria Bistrita",
 "pick": "Handicap 0:3 \u2013 CS Gloria Bistrita",
 "odds": 1.12,
-"ts": 1795177800.0
+"ts": 1795177800.0,
+"r": "L",
+"sc": "5-1",
+"ht": "2-0"
 }
 ]
 },
@@ -227,7 +410,7 @@
 "odds": 1.07,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -235,14 +418,20 @@
 "game": "Namungo FC vs Mbeya City FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795188600.0
+"ts": 1795188600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 17:15",
 "game": "Duhok FC vs Erbil SC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795191300.0
+"ts": 1795191300.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
@@ -361,14 +550,20 @@
 "game": "ES Hammam Sousse vs A Sakiet Edayer",
 "pick": "1st half double chance A Sakiet Edayer or draw",
 "odds": 1.21,
-"ts": 1795181400.0
+"ts": 1795181400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 16:25",
 "game": "Shabab Al Ahli Dubai vs Ajman Club",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1795188300.0
+"ts": 1795188300.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Fri 18:00",

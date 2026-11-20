@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UUSLQ9",
+"at": 1795194217,
+"when": "Fri 20 Nov 18:03",
+"kind": "your chosen markets",
+"odds": 7.56,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:30",
+"game": "Al Ahli Saudi FC vs Al Nassr Club",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Grasshopper Zurich vs FC Basel",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Rapperswil-Jona vs FC Aarau",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Stade Nyonnais vs FC Wil 1900",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bristol City U21 vs Norwich City U21",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Seraing vs RWD Molenbeek Youth",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Volendam vs Jong Ajax Amsterdam",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Queens Park Rangers U21 vs Blackburn Rovers U21",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Heracles Almelo vs Jong PSV Eindhoven",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Koninklijke Lierse Sportkring vs KSC Lokeren Temse",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong FC Utrecht vs FC Emmen",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Helmond Sport vs FC Dordrecht",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "RAAL La Louviere vs KV Kortrijk",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795204800.0
+}
+]
+},
+{
 "code": "NVM9VF",
 "at": 1795178346,
 "when": "Fri 20 Nov 13:39",
@@ -61,7 +211,10 @@
 "game": "ASO Chlef vs USM Khenchela",
 "pick": "1st half Under 2.5",
 "odds": 1.04,
-"ts": 1795190400.0
+"ts": 1795190400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 17:30",
@@ -422,7 +575,7 @@
 "odds": 1.23,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-5",
 "ht": ""
 },
 {
@@ -430,7 +583,10 @@
 "game": "Puskas Akademia vs Gyori ETO FC",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795179600.0
+"ts": 1795179600.0,
+"r": "W",
+"sc": "2-3",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -715,7 +871,7 @@
 "odds": 1.23,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-5",
 "ht": ""
 },
 {
@@ -723,7 +879,10 @@
 "game": "Puskas Akademia vs Gyori ETO FC",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795179600.0
+"ts": 1795179600.0,
+"r": "W",
+"sc": "2-3",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -1108,7 +1267,7 @@
 "odds": 1.23,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-5",
 "ht": ""
 },
 {
@@ -1116,7 +1275,10 @@
 "game": "Puskas Akademia vs Gyori ETO FC",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795179600.0
+"ts": 1795179600.0,
+"r": "W",
+"sc": "2-3",
+"ht": ""
 },
 {
 "t": "Fri 14:00",
@@ -1257,7 +1419,7 @@
 "odds": 1.23,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-5",
 "ht": ""
 },
 {
@@ -1265,7 +1427,10 @@
 "game": "Puskas Akademia vs Gyori ETO FC",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795179600.0
+"ts": 1795179600.0,
+"r": "W",
+"sc": "2-3",
+"ht": ""
 },
 {
 "t": "Fri 14:00",
@@ -1369,7 +1534,7 @@
 "when": "Fri 20 Nov 07:14",
 "kind": "daily rollover \u2013 day 1",
 "odds": 6.08,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 14:00",
@@ -1396,21 +1561,30 @@
 "game": "ES Hammam Sousse vs A Sakiet Edayer",
 "pick": "1st half double chance A Sakiet Edayer or draw",
 "odds": 1.21,
-"ts": 1795181400.0
+"ts": 1795181400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:30",
 "game": "Navbahor vs FK Neftchi Fargona",
 "pick": "1st half double chance Navbahor or draw",
 "odds": 1.26,
-"ts": 1795181400.0
+"ts": 1795181400.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 17:15",
 "game": "Duhok FC vs Erbil SC",
 "pick": "1st half double chance Erbil SC or draw",
 "odds": 1.29,
-"ts": 1795191300.0
+"ts": 1795191300.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:30",
@@ -1457,7 +1631,7 @@
 "odds": 1.23,
 "ts": 1795179600.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-5",
 "ht": ""
 },
 {
@@ -2624,14 +2798,20 @@
 "game": "Sanat Naft Abadan FC vs Esteghlal Khuzestan FC",
 "pick": "Half-time draw",
 "odds": 1.85,
-"ts": 1795185000.0
+"ts": 1795185000.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Fri 17:00",
 "game": "ASO Chlef vs USM Khenchela",
 "pick": "Half-time draw",
 "odds": 1.88,
-"ts": 1795190400.0
+"ts": 1795190400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -3016,21 +3196,30 @@
 "game": "ES Hammam Sousse vs A Sakiet Edayer",
 "pick": "1st half double chance A Sakiet Edayer or draw",
 "odds": 1.21,
-"ts": 1795181400.0
+"ts": 1795181400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 16:25",
 "game": "Shabab Al Ahli Dubai vs Ajman Club",
 "pick": "2nd half Over 0.5",
 "odds": 1.14,
-"ts": 1795188300.0
+"ts": 1795188300.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Fri 17:00",
 "game": "Shakhtar D vs FC Livyi Bereh Kyiv",
 "pick": "1st half double chance Shakhtar D or draw",
 "odds": 1.08,
-"ts": 1795190400.0
+"ts": 1795190400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 19:00",
@@ -3308,7 +3497,10 @@
 "game": "ACS Inter Ilfov vs Fotbal Club FCSB 2",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795176000.0
+"ts": 1795176000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 13:00",
@@ -3600,7 +3792,10 @@
 "game": "ACS Inter Ilfov vs Fotbal Club FCSB 2",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795176000.0
+"ts": 1795176000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -4868,7 +5063,7 @@
 "odds": 1.38,
 "ts": 1795077000.0,
 "r": "W",
-"sc": "6-4",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
@@ -5193,7 +5388,7 @@
 "odds": 1.38,
 "ts": 1795077000.0,
 "r": "W",
-"sc": "6-4",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
