@@ -2,6 +2,226 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "YRKFJE",
+"at": 1795211743,
+"when": "Fri 20 Nov 22:55",
+"kind": "your chosen markets",
+"odds": 16.54,
+"status": "open",
+"legs": [
+{
+"t": "Sat 02:00",
+"game": "Miramar Rangers vs Cashmere Technical",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795222800.0
+},
+{
+"t": "Sat 05:00",
+"game": "Oakleigh Cannons vs Bayswater City",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795233600.0
+},
+{
+"t": "Sat 10:00",
+"game": "Yangon United vs Ispe FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795251600.0
+},
+{
+"t": "Sat 10:30",
+"game": "Mahar Sagaing United FC vs Myawady FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795253400.0
+},
+{
+"t": "Sat 13:00",
+"game": "CS Tunari vs FC Petrolul Berca",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:00",
+"game": "Majosi SE vs Dunaharaszti MTK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:00",
+"game": "Ferencvarosi TC II vs Paksi FC II",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 14:00",
+"game": "SV Lochau vs FC Kufstein",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Inter Club de Escaldes vs CE Casa de Portugal",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:30",
+"game": "EA Guingamp vs Stade Brestois 29",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Caersws vs Denbigh Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Hannover 96 II vs SV Drochtersen/Assel",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "SSV Jeddeloh II vs SC Weiche Flensburg 08",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "FC La Chaux De Fonds vs CS Chenois",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "1. FC Cologne vs SV Darmstadt 98",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Cove Rangers FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Chertsey Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 19:30",
+"game": "Dongen vs RBC Roosendaal",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795285800.0
+},
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Esmtk Budapest vs Csepel SC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 15:00",
+"game": "Stoke City U21 vs Stockport County Reserves",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "KRC Harelbeke vs Cercle Brugge",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "ACF Fiorentina vs Como 1907",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:30",
+"game": "Arsenal WFC vs West Ham United FC Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795363200.0
+}
+]
+},
+{
 "code": "HS1X2N",
 "at": 1795209795,
 "when": "Fri 20 Nov 22:23",
