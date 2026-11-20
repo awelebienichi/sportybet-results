@@ -1882,7 +1882,7 @@
 "odds": 1.07,
 "ts": 1795201200.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-1"
 },
 {
@@ -2078,7 +2078,7 @@
 "odds": 1.07,
 "ts": 1795201200.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-1"
 },
 {
@@ -3562,7 +3562,10 @@
 "game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -3728,7 +3731,10 @@
 "game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -4294,7 +4300,10 @@
 "game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -4591,7 +4600,10 @@
 "game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
