@@ -1,5 +1,250 @@
 [
 {
+"when": "Fri 20 Nov 20:24",
+"at": 1795202697,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "gg",
+"legs": 15,
+"tickets": 2,
+"days": [
+"2026-11-20",
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpdbhhu2fzc"
+},
+"ok": true,
+"kind": "GG (both teams score)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 23 games qualified, enough for 1 ticket(s) of 15 with no game repeated (you asked for 2).",
+"Chance all 15 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "NEBARC",
+"odds": 168.88,
+"legs": [
+{
+"t": "Sat 05:00",
+"game": "Oakleigh Cannons vs Bayswater City",
+"lg": "Australia - Australian Championship",
+"pick": "GG (both teams score)",
+"odds": 1.52,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 75%, FotMob: both score 1.3+ a game",
+"ts": 1795233600.0,
+"eid": "sr:match:74827348",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "74827348|29||74"
+},
+{
+"t": "Sat 11:00",
+"game": "Trencin vs FC DAC 1904 Dunajska Streda",
+"lg": "Slovakia - U19 1. Liga",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"why": "stats rate 79% from both teams' last 10 and 8 meetings",
+"ts": 1795255200.0,
+"eid": "sr:match:72579150",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72579150|29||74"
+},
+{
+"t": "Sat 12:00",
+"game": "Jagiellonia II Bialystok vs SK Mazovia Minsk Mazowiecki",
+"lg": "Poland - III Liga, Group 1",
+"pick": "GG (both teams score)",
+"odds": 1.38,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%",
+"ts": 1795258800.0,
+"eid": "sr:match:72514896",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72514896|29||74"
+},
+{
+"t": "Sat 14:00",
+"game": "SV Rodinghausen vs FC Schalke 04 II",
+"lg": "Germany Amateur - Regionalliga West",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"why": "stats rate 74% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 94%, FotMob: both score 1.3+ a game",
+"ts": 1795266000.0,
+"eid": "sr:match:72808144",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72808144|29||74"
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"lg": "Norway - Eliteserien",
+"pick": "GG (both teams score)",
+"odds": 1.5,
+"why": "stats rate 79% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, FotMob: both score 1.3+ a game",
+"ts": 1795266000.0,
+"eid": "sr:match:67015476",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "67015476|29||74"
+},
+{
+"t": "Sat 14:30",
+"game": "EA Guingamp vs Stade Brestois 29",
+"lg": "France - U19 National",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings",
+"ts": 1795267800.0,
+"eid": "sr:match:73111852",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73111852|29||74"
+},
+{
+"t": "Sat 15:00",
+"game": "Pontardawe Town FC vs Baglan Dragons",
+"lg": "Wales - Cymru Championship South",
+"pick": "GG (both teams score)",
+"odds": 1.53,
+"why": "stats rate 86% from both teams' last 10 and 3 meetings; Flashscore home/away form 55%",
+"ts": 1795269600.0,
+"eid": "sr:match:72546180",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72546180|29||74"
+},
+{
+"t": "Sat 15:00",
+"game": "FC La Chaux De Fonds vs CS Chenois",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "GG (both teams score)",
+"odds": 1.36,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1795269600.0,
+"eid": "sr:match:72525498",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72525498|29||74"
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"lg": "Germany - Bundesliga",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"why": "stats rate 79% from both teams' last 10 and 8 meetings; Flashscore home/away form 65%, FotMob: both score 1.3+ a game",
+"ts": 1795271400.0,
+"eid": "sr:match:72513314",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72513314|29||74"
+},
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"lg": "Austria - 2. Liga",
+"pick": "GG (both teams score)",
+"odds": 1.35,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 65%, FotMob: both score 1.3+ a game",
+"ts": 1795271400.0,
+"eid": "sr:match:72440770",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72440770|29||74"
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"lg": "Scotland - League 2",
+"pick": "GG (both teams score)",
+"odds": 1.44,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, FotMob: both score 1.3+ a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72204346",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72204346|29||74"
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"lg": "England Amateur - National League South",
+"pick": "GG (both teams score)",
+"odds": 1.45,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 70%, FotMob: both score 1.3+ a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72758330",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72758330|29||74"
+},
+{
+"t": "Sat 18:00",
+"game": "Hzvv Hoogeveen vs SV Dvs 33 Ermelo",
+"lg": "Netherlands - Derde Divisie",
+"pick": "GG (both teams score)",
+"odds": 1.33,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1795280400.0,
+"eid": "sr:match:72595576",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72595576|29||74"
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"lg": "Switzerland - Super League",
+"pick": "GG (both teams score)",
+"odds": 1.36,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, footybets 87%, FotMob: both score 1.3+ a game, CompactStats 73% (bookmaker 73%)",
+"ts": 1795280400.0,
+"eid": "sr:match:74379718",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "74379718|29||74"
+},
+{
+"t": "Sat 19:00",
+"game": "FC Prishtina Bern vs Lancy FC",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "GG (both teams score)",
+"odds": 1.38,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1795284000.0,
+"eid": "sr:match:72525490",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "72525490|29||74"
+}
+],
+"chance": 0.0028
+}
+]
+},
+{
 "when": "Fri 20 Nov 20:22",
 "at": 1795202541,
 "req": {
@@ -12127,161 +12372,5 @@
 },
 "ok": false,
 "msg": "No safe rollover ticket today (1.77 odds possible, your minimum 5). Your stake waits for tomorrow."
-},
-{
-"when": "Wed 18 Nov 13:07",
-"at": 1795003650,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwm2tlh14c79"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 9 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 9 legs win: about 22%."
-],
-"tickets": [
-{
-"code": "Q6WA5C",
-"odds": 2.94,
-"legs": [
-{
-"t": "Wed 12:00",
-"game": "Cong an TP Ho Chi Minh vs Buriram United",
-"lg": "International Clubs - ASEAN Club Championship",
-"pick": "Buriram United Under 2.5",
-"odds": 1.04,
-"why": "LIVE 0-0 50': Cong an TP Ho Chi Minh expected 0.5 and Buriram United 0.6 more goals (last 10); 0-0 at 50' \u2013 96% chance; goals record 90% / 90% in both sides' last games",
-"ts": 1794999600.0,
-"eid": "sr:match:73085406",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73085406|20|total=2.5|13"
-},
-{
-"t": "Wed 12:00",
-"game": "Arnavutkoy Belediyesi Genclik Ve Spor vs 68 Aksaray Belediyespor",
-"lg": "Turkiye Amateur - 2. Lig",
-"pick": "68 Aksaray Belediyespor Under 3.5",
-"odds": 1.09,
-"why": "LIVE 0-1 48': Arnavutkoy Belediyesi Genclik Ve Spor expected 0.6 and 68 Aksaray Belediyespor 0.9 more goals (last 10 + season); 0-1 at 48' \u2013 91% chance; goals record 90% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794999600.0,
-"eid": "sr:match:72837338",
-"mid": "20",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72837338|20|total=3.5|13"
-},
-{
-"t": "Wed 12:00",
-"game": "AL Sinaa vs AL Sadiq SC",
-"lg": "Iraq - First Division",
-"pick": "Under 2.5",
-"odds": 1.08,
-"why": "LIVE 0-0 52': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794999600.0,
-"eid": "sr:match:76881234",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76881234|18|total=2.5|13"
-},
-{
-"t": "Wed 12:00",
-"game": "Baladiyat AL Mosul SC vs Samaraa FC",
-"lg": "Iraq - First Division",
-"pick": "Under 2.5",
-"odds": 1.08,
-"why": "LIVE 0-0 48': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794999600.0,
-"eid": "sr:match:76881236",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76881236|18|total=2.5|13"
-},
-{
-"t": "Wed 12:00",
-"game": "Chachoengsao FC vs Pluak Daeng Rayong United FC",
-"lg": "Thailand - Thai League 3",
-"pick": "Handicap 0:2 \u2013 Pluak Daeng Rayong United FC",
-"odds": 1.08,
-"why": "LIVE 1-1 51': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794999600.0,
-"eid": "sr:match:76681166",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "76681166|14|hcp=0:2|1713"
-},
-{
-"t": "Wed 12:00",
-"game": "Manisa Futbol Kulubu vs Ayvalikgucu Belediyespor",
-"lg": "Turkiye - U19 Gelisim Ligi",
-"pick": "Handicap 0:3 \u2013 Ayvalikgucu Belediyespor",
-"odds": 1.09,
-"why": "LIVE 0-0 48': no team stats for this game \u2013 SportyBet's own price says 87%",
-"ts": 1794999600.0,
-"eid": "sr:match:75437952",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75437952|14|hcp=0:3|1713"
-},
-{
-"t": "Wed 13:00",
-"game": "FK Tekstilac Odzaci vs FK Zeleznicar Pancevo",
-"lg": "Serbia - Serbian Cup",
-"pick": "Handicap 4:0 \u2013 FK Tekstilac Odzaci",
-"odds": 1.12,
-"why": "LIVE 0-0 6': FK Tekstilac Odzaci expected 0.8 and FK Zeleznicar Pancevo 1.5 more goals (last 10); 0-0 at 6' \u2013 94% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1795003200.0,
-"eid": "sr:match:75573048",
-"mid": "14",
-"spec": "hcp=4:0",
-"oid": "1711",
-"k": "75573048|14|hcp=4:0|1711"
-},
-{
-"t": "Wed 13:00",
-"game": "KF Iliria Fushe-Kruje vs Af Luftetari",
-"lg": "Albania - Kupa e Shqiperise",
-"pick": "Handicap 0:4 \u2013 Af Luftetari",
-"odds": 1.25,
-"why": "LIVE 1-0 6': KF Iliria Fushe-Kruje expected 1.4 and Af Luftetari 1.5 more goals (last 10); 1-0 at 6' \u2013 92% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1795003200.0,
-"eid": "sr:match:76251038",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "76251038|14|hcp=0:4|1713"
-},
-{
-"t": "Wed 13:00",
-"game": "KS Pogradeci vs FK Kukesi",
-"lg": "Albania - Kupa e Shqiperise",
-"pick": "Handicap 0:4 \u2013 FK Kukesi",
-"odds": 1.35,
-"why": "LIVE 1-0 5': KS Pogradeci expected 1.6 and FK Kukesi 1.1 more goals (last 10); 1-0 at 5' \u2013 87% chance; margin record 90% / 100% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1795003200.0,
-"eid": "sr:match:76251040",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "76251040|14|hcp=0:4|1713"
-}
-],
-"chance": 0.2191
-}
-]
 }
 ]
