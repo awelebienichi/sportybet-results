@@ -227,7 +227,7 @@
 "when": "Fri 20 Nov 22:23",
 "kind": "live \u2013 best of all",
 "odds": 1.18,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 20:45",
@@ -274,7 +274,10 @@
 "game": "Real Madrid Castilla vs Real Murcia CF",
 "pick": "Real Madrid Castilla or Real Murcia CF",
 "odds": 1.04,
-"ts": 1795205700.0
+"ts": 1795205700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 }
 ]
 },
