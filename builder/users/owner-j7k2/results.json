@@ -283,14 +283,17 @@
 "when": "Fri 20 Nov 12:02",
 "kind": "live \u2013 another goal coming",
 "odds": 1.12,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Fri 11:00",
 "game": "FC Master Saturn vs FC Baltika Kaliningrad",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795168800.0
+"ts": 1795168800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 }
 ]
 },
@@ -300,21 +303,27 @@
 "when": "Fri 20 Nov 11:57",
 "kind": "live \u2013 best of all",
 "odds": 1.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 10:00",
 "game": "Js Djijel vs MO Constantine",
 "pick": "Under 4.5",
 "odds": 1.03,
-"ts": 1795165200.0
+"ts": 1795165200.0,
+"r": "L",
+"sc": "2-3",
+"ht": "1-1"
 },
 {
 "t": "Fri 10:30",
 "game": "Rajasthan United vs Chanmari FC",
 "pick": "Rajasthan United or Chanmari FC",
 "odds": 1.06,
-"ts": 1795167000.0
+"ts": 1795167000.0,
+"r": "W",
+"sc": "1-4",
+"ht": "1-2"
 },
 {
 "t": "Fri 11:00",
