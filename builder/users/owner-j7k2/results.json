@@ -1872,7 +1872,7 @@
 "odds": 1.07,
 "ts": 1795201200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -2108,7 +2108,7 @@
 "odds": 1.06,
 "ts": 1795201200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -2742,7 +2742,10 @@
 "game": "Heracles Almelo vs Jong PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.23,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -3056,7 +3059,10 @@
 "game": "Heracles Almelo vs Jong PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.23,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -3412,7 +3418,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "1st half Over 0.5",
 "odds": 1.16,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 }
 ]
 },
@@ -3519,7 +3528,10 @@
 "game": "Heracles Almelo vs Jong PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.23,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -3682,7 +3694,10 @@
 "game": "Heracles Almelo vs Jong PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.23,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -3904,7 +3919,10 @@
 "game": "Heracles Almelo vs Jong PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -5306,7 +5324,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "1st half Over 0.5",
 "odds": 1.15,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
