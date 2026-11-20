@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NVM9VF",
+"at": 1795178346,
+"when": "Fri 20 Nov 13:39",
+"kind": "live \u2013 another goal coming",
+"odds": 1.56,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:35",
+"game": "Beijing Guoan vs Shanghai Port FC",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795174500.0
+},
+{
+"t": "Fri 13:00",
+"game": "CSM Pascani vs CS Gheorgheni",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:00",
+"game": "CSC Ghiroda SI Giarmata Vii vs CSM Unirea Alba Iulia",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795176000.0
+}
+]
+},
+{
 "code": "SYHYV9",
 "at": 1795172709,
 "when": "Fri 20 Nov 12:05",
