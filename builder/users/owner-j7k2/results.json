@@ -2,6 +2,282 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SYHYV9",
+"at": 1795172709,
+"when": "Fri 20 Nov 12:05",
+"kind": "rebuild of K3B5W1",
+"odds": 3000.22,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:00",
+"game": "AFC Inter Stars Sibiu vs ACS Kids Tampa Brasov",
+"pick": "AFC Inter Stars Sibiu to win",
+"odds": 1.24,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:00",
+"game": "ASO Chlef vs USM Khenchela",
+"pick": "1st half Under 2.5",
+"odds": 1.04,
+"ts": 1795190400.0
+},
+{
+"t": "Fri 17:30",
+"game": "FK Rostov vs PFK Krylia Sovetov Samara",
+"pick": "1st half GG \u2013 No",
+"odds": 1.17,
+"ts": 1795192200.0
+},
+{
+"t": "Fri 18:00",
+"game": "GKS Piast Gliwice vs Korona Kielce",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al Ahli Saudi FC vs Al Nassr Club",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 18:30",
+"game": "Arminia Bielefeld vs 1. FC Magdeburg",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 18:30",
+"game": "Darmstadt vs Heidenheim",
+"pick": "1st half Under 2.5",
+"odds": 1.18,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 18:30",
+"game": "FK Auda Riga vs Riga FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.26,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 18:30",
+"game": "FAC Wien vs Young Violets Wien",
+"pick": "1st half double chance Young Violets Wien or draw",
+"odds": 1.39,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 18:30",
+"game": "SKN St Polten vs ASK Voitsberg",
+"pick": "1st half Under 2.5",
+"odds": 1.16,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "FV Illertissen vs VfB Eichstatt",
+"pick": "1st half double chance FV Illertissen or draw",
+"odds": 1.16,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:00",
+"game": "FSV Mainz II vs TSV Steinbach Haiger",
+"pick": "1st half double chance TSV Steinbach Haiger or draw",
+"odds": 1.29,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:00",
+"game": "Molde vs Bodoe/Glimt",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:00",
+"game": "Grasshopper Zurich vs FC Basel",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "Neuchatel Xamax vs Etoile Carouge FC",
+"pick": "1st half double chance Neuchatel Xamax or draw",
+"odds": 1.28,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Red Star FC vs Pau FC",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Volendam vs Jong Ajax Amsterdam",
+"pick": "1st half GG \u2013 No",
+"odds": 1.45,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Helmond Sport vs FC Dordrecht",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:15",
+"game": "Yverdon-Sport vs FC Winterthur",
+"pick": "1st half double chance FC Winterthur or draw",
+"odds": 1.39,
+"ts": 1795202100.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "Over 2.5",
+"odds": 1.15,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "RAAL La Louviere vs KV Kortrijk",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Inverness Caledonian Thistle FC vs Ayr United FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "FC Andorra vs Leganes",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "CA Cerro vs Club Nacional de Football",
+"pick": "Club Nacional de Football to win",
+"odds": 1.72,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cercle Brugge vs KVC Westerlo",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "1st half double chance Southend United or draw",
+"odds": 1.47,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Airbus UK Broughton vs Colwyn Bay",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caernarfon Town FC vs Connah`s Quay Nomads FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.19,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cardiff Metropolitan University FC vs Ammanford",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Llandudno FC vs Barry Town United FC",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Pen-y-Bont FC vs Haverfordwest County AFC",
+"pick": "Pen-y-Bont FC to win",
+"odds": 1.48,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Athletic Bilbao vs Espanyol",
+"pick": "1st half GG \u2013 No",
+"odds": 1.21,
+"ts": 1795204800.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "1st half GG \u2013 No",
+"odds": 1.33,
+"ts": 1795204800.0
+},
+{
+"t": "Fri 22:30",
+"game": "Independiente Medellin vs Independiente Santa Fe",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795210200.0
+},
+{
+"t": "Fri 22:30",
+"game": "Huracanes Izcalli FC vs Gorilas de Juanacatlan",
+"pick": "1st half GG \u2013 No",
+"odds": 1.25,
+"ts": 1795210200.0
+}
+]
+},
+{
 "code": "YF5J52",
 "at": 1795172531,
 "when": "Fri 20 Nov 12:02",
