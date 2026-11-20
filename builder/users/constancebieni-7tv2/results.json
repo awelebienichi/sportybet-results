@@ -2,12 +2,36 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "Y2AJB6",
+"at": 1795136206,
+"when": "Fri 20 Nov 01:56",
+"kind": "live \u2013 best of all",
+"odds": 1.28,
+"status": "open",
+"legs": [
+{
+"t": "Fri 01:30",
+"game": "Sao Paulo FC SP vs Fluminense FC RJ",
+"pick": "Handicap 0:2 \u2013 Fluminense FC RJ",
+"odds": 1.11,
+"ts": 1795134600.0
+},
+{
+"t": "Fri 01:30",
+"game": "Orlando City SC vs FC Cincinnati",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795134600.0
+}
+]
+},
+{
 "code": "H8QB3E",
 "at": 1795127910,
 "when": "Thu 19 Nov 23:38",
 "kind": "live \u2013 best of all",
 "odds": 1.26,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Thu 23:30",
@@ -24,7 +48,10 @@
 "game": "CR Vasco da Gama RJ vs SC Internacional RS",
 "pick": "Handicap 0:3 \u2013 SC Internacional RS",
 "odds": 1.21,
-"ts": 1795127400.0
+"ts": 1795127400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 }
 ]
 },
