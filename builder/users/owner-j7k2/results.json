@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QNTX9E",
+"at": 1795204723,
+"when": "Fri 20 Nov 20:58",
+"kind": "your chosen markets",
+"odds": 6.8,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:00",
+"game": "SC Popesti Leordeni vs CSC 1599 Selimbar",
+"pick": "SC Popesti Leordeni to win",
+"odds": 1.56,
+"ts": 1795251600.0
+},
+{
+"t": "Sat 13:15",
+"game": "Nejmeh SC vs AL Mabarrah",
+"pick": "Nejmeh SC to win",
+"odds": 1.2,
+"ts": 1795263300.0
+},
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"pick": "Galatasaray Istanbul to win",
+"odds": 1.26,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bicskei Tc vs FC Tatabanya",
+"pick": "FC Tatabanya to win",
+"odds": 1.47,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Plymouth Parkway vs Malvern Town",
+"pick": "Plymouth Parkway to win",
+"odds": 1.41,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Real Zaragoza vs CF Rayo Majadahonda",
+"pick": "Real Zaragoza to win",
+"odds": 1.39,
+"ts": 1795275000.0
+}
+]
+},
+{
 "code": "SH80ST",
 "at": 1795204595,
 "when": "Fri 20 Nov 20:56",
