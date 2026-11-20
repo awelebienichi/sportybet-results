@@ -2516,7 +2516,10 @@
 "game": "Caernarfon Town FC vs Connah`s Quay Nomads FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.19,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
@@ -3394,7 +3397,10 @@
 "game": "Briton Ferry vs Holywell Town",
 "pick": "1st half Over 0.5",
 "odds": 1.17,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -5322,7 +5328,10 @@
 "game": "Briton Ferry vs Holywell Town",
 "pick": "1st half Over 0.5",
 "odds": 1.17,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -5634,7 +5643,10 @@
 "game": "Briton Ferry vs Holywell Town",
 "pick": "1st half Over 0.5",
 "odds": 1.17,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Fri 21:00",
