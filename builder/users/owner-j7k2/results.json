@@ -1880,7 +1880,10 @@
 "game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -2036,7 +2039,10 @@
 "game": "FC Stade Nyonnais vs FC Wil 1900",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1795199400.0
+"ts": 1795199400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -2070,7 +2076,10 @@
 "game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -3305,7 +3314,7 @@
 "odds": 1.25,
 "ts": 1795201200.0,
 "r": "L",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
@@ -3353,7 +3362,10 @@
 "game": "Pontypridd Town vs Carmarthen Town",
 "pick": "1st half Over 0.5",
 "odds": 1.17,
-"ts": 1795203000.0
+"ts": 1795203000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -5247,7 +5259,7 @@
 "odds": 1.25,
 "ts": 1795201200.0,
 "r": "L",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
