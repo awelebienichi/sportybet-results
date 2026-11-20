@@ -1,5 +1,28 @@
 [
 {
+"when": "Fri 20 Nov 20:41",
+"at": 1795203668,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwpdvasskvpc"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Sat 21). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Fri 20 Nov 20:27",
 "at": 1795202861,
 "req": {
@@ -13742,85 +13765,6 @@
 }
 ],
 "chance": 0.0002
-}
-]
-},
-{
-"when": "Wed 18 Nov 13:41",
-"at": 1795005699,
-"req": {
-"type": "rollover",
-"legs": 4,
-"rid": "mwm41jikwz13"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a61,000 \u2192 returns \u20a61,770 if it wins"
-],
-"tickets": [
-{
-"code": "V098BS",
-"odds": 1.77,
-"legs": [
-{
-"t": "Wed 15:00",
-"game": "Dinamo Minsk 2 vs FC Bate Borisov 2",
-"lg": "Belarus - Pervaya Liga",
-"pick": "1st half double chance Dinamo Minsk 2 or draw",
-"odds": 1.22,
-"why": "stats rate 90% from both teams' last 10 and 5 meetings (1st-half rollover)",
-"ts": 1795010400.0,
-"eid": "sr:match:76877462",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76877462|63||9"
-},
-{
-"t": "Wed 16:00",
-"game": "El Gouna FC vs Al Ittihad Alexandria Club",
-"lg": "Egypt - Egypt Cup",
-"pick": "1st half double chance Al Ittihad Alexandria Club or draw",
-"odds": 1.19,
-"why": "stats rate 83% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795014000.0,
-"eid": "sr:match:76738340",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "76738340|63||11"
-},
-{
-"t": "Wed 17:45",
-"game": "CR Temouchent vs Js El Biar",
-"lg": "Algeria - Ligue 1",
-"pick": "1st half GG \u2013 No",
-"odds": 1.1,
-"why": "stats rate 89% from both teams' last 10 and 4 meetings (1st-half rollover)",
-"ts": 1795020300.0,
-"eid": "sr:match:75049112",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "75049112|75||76"
-},
-{
-"t": "Wed 18:30",
-"game": "FK Zemun vs FK Radnicki 1923 Kragujevac",
-"lg": "Serbia - Serbian Cup",
-"pick": "1st half GG \u2013 No",
-"odds": 1.11,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795023000.0,
-"eid": "sr:match:75573044",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "75573044|75||76"
-}
-],
-"chance": 0.4641
 }
 ]
 }
