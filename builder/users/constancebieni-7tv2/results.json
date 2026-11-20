@@ -7,7 +7,7 @@
 "when": "Fri 20 Nov 18:03",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -21,7 +21,10 @@
 "game": "Vitesse Arnhem vs Jong AZ Alkmaar",
 "pick": "1st half Under 2.5",
 "odds": 1.17,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -594,7 +597,7 @@
 "when": "Fri 20 Nov 10:01",
 "kind": "daily rollover \u2013 day 2",
 "odds": 4.13,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 14:30",
@@ -631,7 +634,10 @@
 "game": "Vitesse Arnhem vs Jong AZ Alkmaar",
 "pick": "1st half Under 2.5",
 "odds": 1.16,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
