@@ -3041,7 +3041,10 @@
 "game": "Cercle Brugge vs KVC Westerlo",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
@@ -3098,7 +3101,10 @@
 "game": "Pen-y-Bont FC vs Haverfordwest County AFC",
 "pick": "Pen-y-Bont FC to win",
 "odds": 1.48,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 21:00",
