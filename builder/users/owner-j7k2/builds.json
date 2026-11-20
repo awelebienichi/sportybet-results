@@ -1,5 +1,31 @@
 [
 {
+"when": "Fri 20 Nov 02:50",
+"at": 1795139411,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-19",
+"2026-11-20",
+"2026-11-21",
+"2026-11-22"
+],
+"strict": "relaxed",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m10x"
+],
+"rid": "mwobmcarcye6"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Thu 19, Fri 20, Sat 21, Sun 22). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Thu 19 Nov 22:43",
 "at": 1795124633,
 "req": {
@@ -17451,132 +17477,6 @@
 }
 ],
 "chance": 0.0003
-}
-]
-},
-{
-"when": "Tue 17 Nov 18:13",
-"at": 1794935601,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 25,
-"tickets": 30,
-"days": [
-"2026-11-17",
-"2026-11-18",
-"2026-11-19",
-"2026-11-20",
-"2026-11-21",
-"2026-11-22"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"o25"
-],
-"rid": "mwkyaeazpxxn"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Only 6 games passed the checks (Tue 17, Wed 18, Thu 19, Fri 20, Sat 21, Sun 22, 937 games on SportyBet), so this ticket has 6 legs instead of 25. Tick more days or use 'Relaxed' for more.",
-"Only 6 games qualified, enough for 1 ticket(s) of 6 with no game repeated (you asked for 10).",
-"Chance all 6 legs win: about 14%."
-],
-"tickets": [
-{
-"code": "KBNW7Q",
-"odds": 5.52,
-"legs": [
-{
-"t": "Tue 20:00",
-"game": "Saint Kitts and Nevis vs Bonaire",
-"lg": "International - CONCACAF Nations League",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%, FotMob: 4.4 goals a game, season: 4.4 goals a game",
-"ts": 1794942000.0,
-"eid": "sr:match:75468432",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75468432|18|total=2.5|12"
-},
-{
-"t": "Wed 17:00",
-"game": "Silkeborg IF vs Randers Freja",
-"lg": "Denmark - U19 Ligaen",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "stats rate 85% from both teams' last 10; season: 3.8 goals a game",
-"ts": 1795017600.0,
-"eid": "sr:match:76769034",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76769034|18|total=2.5|12"
-},
-{
-"t": "Wed 20:00",
-"game": "West Ham United FC Women vs Wolverhampton Wanderers WFC",
-"lg": "England Amateur - FA Womens League Cup",
-"pick": "Over 2.5",
-"odds": 1.24,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 65%",
-"ts": 1795028400.0,
-"eid": "sr:match:73607444",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73607444|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Trethomas Bluebirds",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "stats rate 85% from both teams' last 10; season: 4.1 goals a game",
-"ts": 1795203000.0,
-"eid": "sr:match:72546176",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546176|18|total=2.5|12"
-},
-{
-"t": "Sat 15:30",
-"game": "Eintracht Frankfurt vs Hoffenheim",
-"lg": "Germany - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "stats rate 86% from both teams' last 10 and 8 meetings; FotMob: 3.8 goals a game, season: 3.8 goals a game, CompactStats 72% (bookmaker 72%)",
-"ts": 1795271400.0,
-"eid": "sr:match:72513314",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72513314|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Clyde FC vs Stirling Albion FC",
-"lg": "Scotland - League 2",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "stats rate 82% from both teams' last 10 and 8 meetings; FotMob: 3.9 goals a game, Vitibet tip 3-1, season: 3.9 goals a game",
-"ts": 1795273200.0,
-"eid": "sr:match:72204346",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72204346|18|total=2.5|12"
-}
-],
-"chance": 0.1352
 }
 ]
 }
