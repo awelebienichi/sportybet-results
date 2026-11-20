@@ -66,7 +66,7 @@
 "when": "Fri 20 Nov 18:03",
 "kind": "live \u2013 best of all",
 "odds": 2.28,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 16:25",
@@ -80,7 +80,10 @@
 "game": "Al Zawraa vs AL Talaba",
 "pick": "Al Zawraa Under 2.5",
 "odds": 1.03,
-"ts": 1795188600.0
+"ts": 1795188600.0,
+"r": "L",
+"sc": "3-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 16:30",
