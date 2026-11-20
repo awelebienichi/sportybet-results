@@ -100,7 +100,10 @@
 "game": "Al Gharafa SC vs Al Arabi Doha SC",
 "pick": "Al Gharafa SC Under 2.5",
 "odds": 1.07,
-"ts": 1795188600.0
+"ts": 1795188600.0,
+"r": "L",
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Fri 16:30",
@@ -568,7 +571,7 @@
 "odds": 1.15,
 "ts": 1795188300.0,
 "r": "W",
-"sc": "2-1",
+"sc": "3-1",
 "ht": "2-0"
 },
 {
