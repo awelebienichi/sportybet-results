@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Q2MC8T",
+"at": 1795204325,
+"when": "Fri 20 Nov 20:52",
+"kind": "your chosen markets",
+"odds": 31.6,
+"status": "open",
+"legs": [
+{
+"t": "Fri 21:15",
+"game": "SP Tre Fiori vs AC Juvenes/Dogana",
+"pick": "SP Tre Fiori to win",
+"odds": 1.52,
+"ts": 1795205700.0
+},
+{
+"t": "Sat 10:00",
+"game": "SC Popesti Leordeni vs CSC 1599 Selimbar",
+"pick": "SC Popesti Leordeni to win",
+"odds": 1.56,
+"ts": 1795251600.0
+},
+{
+"t": "Sat 13:15",
+"game": "Nejmeh SC vs AL Mabarrah",
+"pick": "Nejmeh SC to win",
+"odds": 1.2,
+"ts": 1795263300.0
+},
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"pick": "Galatasaray Istanbul to win",
+"odds": 1.26,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bicskei Tc vs FC Tatabanya",
+"pick": "FC Tatabanya to win",
+"odds": 1.47,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Cosmos Serravalle vs SC Faetano",
+"pick": "Cosmos Serravalle to win",
+"odds": 1.18,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merida vs Atletico Madrid",
+"pick": "Atletico Madrid to win",
+"odds": 1.2,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Plymouth Parkway vs Malvern Town",
+"pick": "Plymouth Parkway to win",
+"odds": 1.41,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Real Zaragoza vs CF Rayo Majadahonda",
+"pick": "Real Zaragoza to win",
+"odds": 1.39,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Prishtina Bern vs Lancy FC",
+"pick": "FC Prishtina Bern to win",
+"odds": 1.48,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 20:30",
+"game": "CF Esperanca D Andorra vs CE Carroi",
+"pick": "CF Esperanca D Andorra to win",
+"odds": 1.46,
+"ts": 1795289400.0
+}
+]
+},
+{
 "code": "JQWGDS",
 "at": 1795204003,
 "when": "Fri 20 Nov 20:46",
