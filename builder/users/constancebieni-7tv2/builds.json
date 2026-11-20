@@ -1,5 +1,314 @@
 [
 {
+"when": "Fri 20 Nov 13:36",
+"at": 1795178212,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 20,
+"strict": "normal",
+"rid": "mwoyqzqiqw0x"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 20 legs win: about 6% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "LT8SA2",
+"odds": 5.99,
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "FC Van Charentsavan vs FC Ararat-Armenia",
+"lg": "Armenia - Premier League",
+"pick": "FC Ararat-Armenia Under 2.5",
+"odds": 1.04,
+"why": "LIVE 1-1 76': FC Van Charentsavan expected 0.2 and FC Ararat-Armenia 0.4 more goals (last 10 + season); 1-1 at 76' \u2013 92% chance",
+"ts": 1795172400.0,
+"eid": "sr:match:75881458",
+"mid": "20",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75881458|20|total=2.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "Mathare United FC vs Kakamega Homeboyz",
+"lg": "Kenya - Premier League",
+"pick": "Under 3.5",
+"odds": 1.06,
+"why": "LIVE 1-1 76': Mathare United FC expected 0.2 and Kakamega Homeboyz 0.2 more goals (last 10 + season); 1-1 at 76' \u2013 94% chance; Flashscore home/away form 85%, season: 1.8 goals a game, h2h 62% of 8 meetings (3.5 line)",
+"ts": 1795172400.0,
+"eid": "sr:match:74056928",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74056928|18|total=3.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "AL Karma SC vs Gas AL Shimal U21",
+"lg": "Iraq - U21 Iraqi League",
+"pick": "Under 3.5",
+"odds": 1.08,
+"why": "LIVE 1-0 62': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1795172400.0,
+"eid": "sr:match:76913270",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76913270|18|total=3.5|13"
+},
+{
+"t": "Fri 12:00",
+"game": "FC Iskra Ribnita vs CSF Spartanii Selemet",
+"lg": "Moldova - Liga 1",
+"pick": "FC Iskra Ribnita to win",
+"odds": 1.1,
+"why": "LIVE 1-0 80': FC Iskra Ribnita expected 0.4 and CSF Spartanii Selemet 0.2 more goals (last 10 + season); 1-0 at 80' \u2013 89% chance; Flashscore home/away form 65%, season: won 62%, rival lost 69%",
+"ts": 1795172400.0,
+"eid": "sr:match:72576248",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72576248|1||1"
+},
+{
+"t": "Fri 12:30",
+"game": "Rakow II Czestochowa vs KS Gornik Polkowice",
+"lg": "Poland - III Liga, Group 3",
+"pick": "Rakow II Czestochowa Under 2.5",
+"odds": 1.04,
+"why": "LIVE 0-0 46': Rakow II Czestochowa expected 0.8 and KS Gornik Polkowice 0.9 more goals (last 10 + season); 0-0 at 46' \u2013 94% chance; goals record 90% / 90% in both sides' last games",
+"ts": 1795174200.0,
+"eid": "sr:match:73204178",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73204178|19|total=2.5|13"
+},
+{
+"t": "Fri 12:30",
+"game": "OKS Swit Szczecin vs ZKS Stal Stalowa Wola",
+"lg": "Poland - II Liga",
+"pick": "OKS Swit Szczecin Under 3.5",
+"odds": 1.05,
+"why": "LIVE 1-1 45': OKS Swit Szczecin expected 0.9 and ZKS Stal Stalowa Wola 0.9 more goals (last 10 + season); 1-1 at 45' \u2013 92% chance; goals record 90% / 80% in both sides' last games",
+"ts": 1795174200.0,
+"eid": "sr:match:72398828",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72398828|19|total=3.5|13"
+},
+{
+"t": "Fri 12:30",
+"game": "FSK Mariupol vs Agrobiznes Volochisk",
+"lg": "Ukraine - Persha Liga",
+"pick": "Handicap 0:2 \u2013 Agrobiznes Volochisk",
+"odds": 1.06,
+"why": "LIVE 0-0 48': FSK Mariupol expected 0.7 and Agrobiznes Volochisk 0.6 more goals (last 10 + season); 0-0 at 48' \u2013 88% chance; h2h 80% of 5 meetings",
+"ts": 1795174200.0,
+"eid": "sr:match:72550354",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "72550354|14|hcp=0:2|1713"
+},
+{
+"t": "Fri 12:30",
+"game": "East Bengal FC vs Sporting Club Delhi",
+"lg": "India - Indian Super League",
+"pick": "Handicap 0:3 \u2013 Sporting Club Delhi",
+"odds": 1.16,
+"why": "LIVE 1-1 45': East Bengal FC expected 1.1 and Sporting Club Delhi 1.4 more goals (last 10); 1-1 at 45' \u2013 94% chance; h2h 88% of 8 meetings",
+"ts": 1795174200.0,
+"eid": "sr:match:75110510",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "75110510|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 12:30",
+"game": "Albirex Niigata Singapore FC vs Balestier Khalsa FC",
+"lg": "Singapore - Premier League",
+"pick": "Albirex Niigata Singapore FC Under 3.5",
+"odds": 1.14,
+"why": "LIVE 1-1 46': Albirex Niigata Singapore FC expected 1.0 and Balestier Khalsa FC 0.7 more goals (last 10 + season); 1-1 at 46' \u2013 90% chance; goals record 90% / 80% in both sides' last games",
+"ts": 1795174200.0,
+"eid": "sr:match:73550144",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73550144|19|total=3.5|13"
+},
+{
+"t": "Fri 12:35",
+"game": "Beijing Guoan vs Shanghai Port FC",
+"lg": "China - FA Cup",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "LIVE 0-1 45': Beijing Guoan expected 1.0 and Shanghai Port FC 1.2 more goals (last 10); 0-1 at 45' \u2013 85% chance; Flashscore home/away form 85%, h2h 88% of 8 meetings (1.5 line)",
+"ts": 1795174500.0,
+"eid": "sr:match:74297732",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74297732|18|total=1.5|12"
+},
+{
+"t": "Fri 12:50",
+"game": "Al Taraji vs Al Safa SC (SA)",
+"lg": "Saudi Arabia - Second Division",
+"pick": "Al Safa SC (SA) or draw",
+"odds": 1.09,
+"why": "LIVE 0-1 46': Al Taraji expected 0.8 and Al Safa SC (SA) 0.8 more goals (last 10 + season); 0-1 at 46' \u2013 88% chance; Flashscore home/away form 65%",
+"ts": 1795175400.0,
+"eid": "sr:match:73774588",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "73774588|10||11"
+},
+{
+"t": "Fri 13:00",
+"game": "Police Tero FC vs Chanthaburi",
+"lg": "Thailand - Thai League 2",
+"pick": "Handicap 0:2 \u2013 Chanthaburi",
+"odds": 1.05,
+"why": "LIVE 0-0 36': Police Tero FC expected 0.6 and Chanthaburi 1.0 more goals (last 10 + season); 0-0 at 36' \u2013 92% chance; margin record 80% / 90% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1795176000.0,
+"eid": "sr:match:73075910",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "73075910|14|hcp=0:2|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "AGMK FC vs Qizilqum Zarafshon",
+"lg": "Uzbekistan - Superliga",
+"pick": "Handicap 0:3 \u2013 Qizilqum Zarafshon",
+"odds": 1.1,
+"why": "LIVE 0-0 36': AGMK FC expected 0.8 and Qizilqum Zarafshon 0.7 more goals (last 10 + season); 0-0 at 36' \u2013 96% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1795176000.0,
+"eid": "sr:match:68380654",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "68380654|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "Dewa United vs Persita Tangerang",
+"lg": "Indonesia - Super League",
+"pick": "Handicap 0:3 \u2013 Persita Tangerang",
+"odds": 1.09,
+"why": "LIVE 0-0 36': Dewa United expected 1.1 and Persita Tangerang 1.1 more goals (last 10 + season); 0-0 at 36' \u2013 94% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1795176000.0,
+"eid": "sr:match:73576724",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "73576724|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "KF Ferizaj vs KF Prishtina e Re",
+"lg": "Kosovo - Liga e Pare",
+"pick": "Handicap 0:3 \u2013 KF Prishtina e Re",
+"odds": 1.14,
+"why": "LIVE 1-0 36': KF Ferizaj expected 0.7 and KF Prishtina e Re 0.7 more goals (last 10 + season); 1-0 at 36' \u2013 89% chance; margin record 90% / 100% in both sides' last games",
+"ts": 1795176000.0,
+"eid": "sr:match:76882114",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76882114|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:00",
+"game": "CSC Ghiroda SI Giarmata Vii vs CSM Unirea Alba Iulia",
+"lg": "Romania - Liga 3",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "LIVE 0-1 35': CSC Ghiroda SI Giarmata Vii expected 0.7 and CSM Unirea Alba Iulia 1.3 more goals (last 10 + season); 0-1 at 35' \u2013 84% chance; Flashscore home/away form 90%, season: 3.1 goals a game, h2h 67% of 3 meetings (1.5 line)",
+"ts": 1795176000.0,
+"eid": "sr:match:74089510",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74089510|18|total=1.5|12"
+},
+{
+"t": "Fri 13:00",
+"game": "De Red FC vs Persis Solo",
+"lg": "Indonesia - Championship",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "LIVE 0-1 35': De Red FC expected 1.0 and Persis Solo 0.9 more goals (last 10 + season); 0-1 at 35' \u2013 80% chance; Flashscore home/away form 85%, season: 2.9 goals a game",
+"ts": 1795176000.0,
+"eid": "sr:match:73929354",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73929354|18|total=1.5|12"
+},
+{
+"t": "Fri 13:15",
+"game": "The Cong - Viettel FC vs Song Lam Nghe An",
+"lg": "Vietnam - V-League 1",
+"pick": "Handicap 0:3 \u2013 Song Lam Nghe An",
+"odds": 1.04,
+"why": "LIVE 0-0 22': The Cong - Viettel FC expected 0.8 and Song Lam Nghe An 1.4 more goals (last 10 + season); 0-0 at 22' \u2013 97% chance; margin record 100% / 90% in both sides' last games, h2h 75% of 8 meetings",
+"ts": 1795176900.0,
+"eid": "sr:match:74090508",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "74090508|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 13:15",
+"game": "Al Hikma vs Shabab AL Sahel",
+"lg": "Lebanon - Premier League",
+"pick": "Handicap 2:0 \u2013 Al Hikma",
+"odds": 1.1,
+"why": "LIVE 0-0 19': Al Hikma expected 0.8 and Shabab AL Sahel 0.8 more goals (last 10 + season); 0-0 at 19' \u2013 87% chance; h2h 88% of 8 meetings",
+"ts": 1795176900.0,
+"eid": "sr:match:75019716",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "75019716|14|hcp=2:0|1711"
+},
+{
+"t": "Fri 13:30",
+"game": "FC Bihor Oradea vs CS Gloria Bistrita",
+"lg": "Romania - Liga 2",
+"pick": "Handicap 0:3 \u2013 CS Gloria Bistrita",
+"odds": 1.12,
+"why": "LIVE 0-0 5': FC Bihor Oradea expected 1.5 and CS Gloria Bistrita 1.1 more goals (last 10 + season); 0-0 at 5' \u2013 88% chance; margin record 90% / 80% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1795177800.0,
+"eid": "sr:match:73086748",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "73086748|14|hcp=0:3|1713"
+}
+],
+"chance": 0.0634
+}
+]
+},
+{
 "when": "Fri 20 Nov 12:39",
 "at": 1795174764,
 "req": {
@@ -4991,61 +5300,5 @@
 },
 "ok": false,
 "msg": "Could not reach 10 odds with 5 legs or fewer from the 128 games that pass the checks for safest market per game (Sat 14). Allow more legs or a lower target."
-},
-{
-"when": "Sat 14 Nov 11:55",
-"at": 1794653702,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "handicap",
-"legs": 5,
-"strict": "normal",
-"rid": "mwgagxux7oz1"
-},
-"ok": true,
-"kind": "live \u2013 handicap & Asian handicap",
-"note": [
-"Only 2 live leg(s) were strong enough right now (you asked for 5).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away."
-],
-"tickets": [
-{
-"code": "MYZ68U",
-"odds": 1.11,
-"legs": [
-{
-"t": "Sat 10:30",
-"game": "Customs United FC vs Pluak Daeng Rayong United FC",
-"lg": "Thailand - Thai League 3",
-"pick": "Handicap 0:1 \u2013 Pluak Daeng Rayong United FC",
-"odds": 1.05,
-"why": "LIVE 0-1 65': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794648600.0,
-"eid": "sr:match:74952540",
-"mid": "14",
-"spec": "hcp=0:1",
-"oid": "1713",
-"k": "74952540|14|hcp=0:1|1713"
-},
-{
-"t": "Sat 11:00",
-"game": "FC Dinamo Moscow vs Ryazan VDV",
-"lg": "Russia - Superleague, Women",
-"pick": "Handicap 0:3 \u2013 Ryazan VDV",
-"odds": 1.07,
-"why": "LIVE 0-0 45': FC Dinamo Moscow expected 0.9 and Ryazan VDV 0.4 more goals (last 10 + season); 0-0 at 45' \u2013 93% chance; h2h 75% of 8 meetings",
-"ts": 1794650400.0,
-"eid": "sr:match:69592712",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "69592712|14|hcp=0:3|1713"
-}
-]
-}
-]
 }
 ]
