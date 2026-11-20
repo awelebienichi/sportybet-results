@@ -26,12 +26,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-19",
-"code": "H8Q4QU",
-"odds": 3.77,
-"stake": 1770,
+"date": "2026-11-20",
+"code": "J8KB6J",
+"odds": 6.08,
+"stake": 1000.0,
 "n": 9,
-"result": "lost"
+"result": null
 },
 "started": "2026-11-18",
 "short": "lower",
