@@ -2823,7 +2823,7 @@
 "when": "Thu 19 Nov 15:51",
 "kind": "your tracker's best markets",
 "odds": 57.07,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:45",
@@ -2850,7 +2850,10 @@
 "game": "Vissel Kobe vs Mito Hollyhock",
 "pick": "1st half double chance Vissel Kobe or draw",
 "odds": 1.12,
-"ts": 1795168800.0
+"ts": 1795168800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 13:00",
@@ -3119,7 +3122,7 @@
 "when": "Thu 19 Nov 15:48",
 "kind": "your tracker's best markets",
 "odds": 17.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:45",
@@ -3136,7 +3139,10 @@
 "game": "Vissel Kobe vs Mito Hollyhock",
 "pick": "1st half double chance Vissel Kobe or draw",
 "odds": 1.12,
-"ts": 1795168800.0
+"ts": 1795168800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 13:00",
