@@ -2,6 +2,121 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "J7RR83",
+"at": 1795156566,
+"when": "Fri 20 Nov 07:36",
+"kind": "Over 2.5 (lowest prices first)",
+"odds": 32.45,
+"status": "open",
+"legs": [
+{
+"t": "Fri 14:00",
+"game": "Kalamata vs AEK Athens",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795179600.0
+},
+{
+"t": "Fri 14:00",
+"game": "Puskas Akademia vs Gyori ETO FC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795179600.0
+},
+{
+"t": "Fri 14:00",
+"game": "Al Sadd SC vs Lusail SC",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795179600.0
+},
+{
+"t": "Fri 18:00",
+"game": "TWL Elektra vs FC 1980 Wien",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795194000.0
+},
+{
+"t": "Fri 18:30",
+"game": "Real Madrid vs CF Trival Valderas Alcorcon",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795195800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Molde vs Bodoe/Glimt",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Heracles Almelo vs Jong PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Queens Park Rangers U21 vs Blackburn Rovers U21",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Volendam vs Jong Ajax Amsterdam",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bayern Munich vs Cologne",
+"pick": "Over 2.5",
+"odds": 1.14,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795203900.0
+}
+]
+},
+{
 "code": "J8KB6J",
 "at": 1795155277,
 "when": "Fri 20 Nov 07:14",
