@@ -1,5 +1,104 @@
 [
 {
+"when": "Fri 20 Nov 22:23",
+"at": 1795209795,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwphjt7ixczs"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 5 legs win: about 66%."
+],
+"tickets": [
+{
+"code": "HS1X2N",
+"odds": 1.18,
+"legs": [
+{
+"t": "Fri 20:45",
+"game": "Pen-y-Bont FC vs Haverfordwest County AFC",
+"lg": "Wales - Cymru Premier",
+"pick": "Handicap 0:4 \u2013 Haverfordwest County AFC",
+"odds": 1.03,
+"why": "LIVE 2-0 77': Pen-y-Bont FC expected 0.3 and Haverfordwest County AFC 0.2 more goals (last 10 + season); 2-0 at 77' \u2013 93% chance; h2h 100% of 8 meetings",
+"ts": 1795203900.0,
+"eid": "sr:match:72522182",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "72522182|14|hcp=0:4|1713"
+},
+{
+"t": "Fri 20:45",
+"game": "Balzan FC vs Mosta FC",
+"lg": "Malta - Premier League",
+"pick": "Under 6.5",
+"odds": 1.03,
+"why": "LIVE 2-3 80': Balzan FC expected 0.2 and Mosta FC 0.2 more goals (last 10 + season); 2-3 at 80' \u2013 92% chance; Flashscore home/away form 80%",
+"ts": 1795203900.0,
+"eid": "sr:match:76463326",
+"mid": "18",
+"spec": "total=6.5",
+"oid": "13",
+"k": "76463326|18|total=6.5|13"
+},
+{
+"t": "Fri 20:45",
+"game": "ESTAC Troyes vs Le Havre",
+"lg": "France - Ligue 1",
+"pick": "Under 4.5",
+"odds": 1.05,
+"why": "LIVE 2-1 79': ESTAC Troyes expected 0.2 and Le Havre 0.2 more goals (last 10 + season); 2-1 at 79' \u2013 91% chance; Flashscore home/away form 60%, FotMob: 2.8 goals a game, h2h 88% of 8 meetings (3.5 line)",
+"ts": 1795203900.0,
+"eid": "sr:match:72036308",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72036308|18|total=4.5|13"
+},
+{
+"t": "Fri 21:00",
+"game": "Athletic Bilbao vs Espanyol",
+"lg": "Spain - LaLiga",
+"pick": "Athletic Bilbao Under 2.5",
+"odds": 1.03,
+"why": "LIVE 0-0 63': Athletic Bilbao expected 0.5 and Espanyol 0.3 more goals (last 10 + season); 0-0 at 63' \u2013 97% chance; h2h 88% of 8 meetings",
+"ts": 1795204800.0,
+"eid": "sr:match:72478708",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72478708|19|total=2.5|13"
+},
+{
+"t": "Fri 21:15",
+"game": "Real Madrid Castilla vs Real Murcia CF",
+"lg": "Spain - Primera Federacion",
+"pick": "Real Madrid Castilla or Real Murcia CF",
+"odds": 1.04,
+"why": "LIVE 0-2 45': Real Madrid Castilla expected 0.6 and Real Murcia CF 0.6 more goals (last 10 + season); 0-2 at 45' \u2013 93% chance",
+"ts": 1795205700.0,
+"eid": "sr:match:73068224",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "73068224|10||10"
+}
+],
+"chance": 0.6566
+}
+]
+},
+{
 "when": "Fri 20 Nov 18:03",
 "at": 1795194209,
 "req": {
@@ -5186,106 +5285,6 @@
 }
 ],
 "chance": 0.0037
-}
-]
-},
-{
-"when": "Sun 15 Nov 08:26",
-"at": 1794727595,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 15,
-"strict": "normal",
-"rid": "mwhigtcuytfq"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 5 live leg(s) were strong enough right now (you asked for 15).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 5 legs win: about 48%."
-],
-"tickets": [
-{
-"code": "ND8V7S",
-"odds": 1.63,
-"legs": [
-{
-"t": "Sun 07:00",
-"game": "Cerezo Osaka vs Urawa Red Diamonds",
-"lg": "Japan - J.League Cup",
-"pick": "Handicap 0:1 \u2013 Urawa Red Diamonds",
-"odds": 1.03,
-"why": "LIVE 0-1 65': Cerezo Osaka expected 0.5 and Urawa Red Diamonds 0.6 more goals (last 10); 0-1 at 65' \u2013 93% chance",
-"ts": 1794722400.0,
-"eid": "sr:match:76326618",
-"mid": "14",
-"spec": "hcp=0:1",
-"oid": "1713",
-"k": "76326618|14|hcp=0:1|1713"
-},
-{
-"t": "Sun 07:00",
-"game": "Kashima Antlers vs Yokohama F Marinos",
-"lg": "Japan - J.League Cup",
-"pick": "Yokohama F Marinos Under 2.5",
-"odds": 1.1,
-"why": "LIVE 2-1 61': Kashima Antlers expected 0.6 and Yokohama F Marinos 0.5 more goals (last 10); 2-1 at 61' \u2013 89% chance; goals record 80% / 90% in both sides' last games",
-"ts": 1794722400.0,
-"eid": "sr:match:76326556",
-"mid": "20",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76326556|20|total=2.5|13"
-},
-{
-"t": "Sun 07:00",
-"game": "Liaoning Shenbei Hefeng vs Beijing WFC",
-"lg": "China - Chinese Super League, Women",
-"pick": "Liaoning Shenbei Hefeng or Beijing WFC",
-"odds": 1.13,
-"why": "LIVE 1-0 69': Liaoning Shenbei Hefeng expected 0.3 and Beijing WFC 0.3 more goals (last 10 + season); 1-0 at 69' \u2013 85% chance",
-"ts": 1794722400.0,
-"eid": "sr:match:75107606",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "75107606|10||10"
-},
-{
-"t": "Sun 07:00",
-"game": "Zhejiang Hangzhou vs Jiangsu LFC",
-"lg": "China - Chinese Super League, Women",
-"pick": "Under 2.5",
-"odds": 1.19,
-"why": "LIVE 0-1 68': Zhejiang Hangzhou expected 0.2 and Jiangsu LFC 0.3 more goals (last 10 + season); 0-1 at 68' \u2013 87% chance; Flashscore home/away form 55%, h2h 75% of 8 meetings (2.5 line)",
-"ts": 1794722400.0,
-"eid": "sr:match:75107602",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75107602|18|total=2.5|13"
-},
-{
-"t": "Sun 08:00",
-"game": "FC Ryukyu vs Kochi United SC",
-"lg": "Japan - J3 League",
-"pick": "Handicap 2:0 \u2013 FC Ryukyu",
-"odds": 1.07,
-"why": "LIVE 0-0 23': FC Ryukyu expected 1.5 and Kochi United SC 0.9 more goals (last 10 + season); 0-0 at 23' \u2013 90% chance",
-"ts": 1794726000.0,
-"eid": "sr:match:72152202",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "72152202|14|hcp=2:0|1711"
-}
-],
-"chance": 0.4806
 }
 ]
 }
