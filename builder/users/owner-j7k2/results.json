@@ -7,7 +7,7 @@
 "when": "Fri 20 Nov 18:08",
 "kind": "your tracker's best markets",
 "odds": 6.79,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
@@ -38,7 +38,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -160,7 +163,7 @@
 "when": "Fri 20 Nov 18:03",
 "kind": "your chosen markets",
 "odds": 7.56,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:30",
@@ -208,7 +211,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -507,7 +513,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -850,7 +859,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -1152,7 +1164,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -1573,7 +1588,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -1632,7 +1650,7 @@
 "when": "Fri 20 Nov 07:36",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 32.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 14:00",
@@ -1721,7 +1739,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -1856,7 +1877,7 @@
 "when": "Fri 20 Nov 02:55",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 841.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 14:00",
@@ -1925,7 +1946,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -2082,7 +2106,7 @@
 "when": "Fri 20 Nov 02:51",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 125.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:30",
@@ -2096,7 +2120,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 12:00",
@@ -2190,7 +2217,7 @@
 "when": "Thu 19 Nov 22:40",
 "kind": "goal-fest teams (season data)",
 "odds": 386318.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 09:30",
@@ -2242,7 +2269,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -2483,7 +2513,7 @@
 "when": "Thu 19 Nov 22:35",
 "kind": "goal-fest teams (season data)",
 "odds": 7566.56,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -2518,7 +2548,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -2703,7 +2736,7 @@
 "when": "Thu 19 Nov 16:06",
 "kind": "Over 1.5",
 "odds": 86.4,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:45",
@@ -2757,7 +2790,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -3787,7 +3823,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -4078,7 +4117,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -4859,7 +4901,7 @@
 "when": "Wed 18 Nov 20:37",
 "kind": "goal-fest teams (season data)",
 "odds": 406.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
@@ -4873,7 +4915,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -5312,7 +5357,7 @@
 "when": "Wed 18 Nov 20:37",
 "kind": "goal-fest teams (season data)",
 "odds": 407.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 09:30",
@@ -5346,7 +5391,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -5627,7 +5675,7 @@
 "when": "Wed 18 Nov 20:36",
 "kind": "your chosen markets",
 "odds": 320.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 09:30",
@@ -5661,7 +5709,10 @@
 "game": "RFC Liege vs KVC Westerlo",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
