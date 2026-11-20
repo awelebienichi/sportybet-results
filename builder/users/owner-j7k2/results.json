@@ -1860,7 +1860,10 @@
 "game": "FC Volendam vs Jong Ajax Amsterdam",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -2074,7 +2077,10 @@
 "game": "FC Volendam vs Jong Ajax Amsterdam",
 "pick": "Over 1.5",
 "odds": 1.07,
-"ts": 1795201200.0
+"ts": 1795201200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -2385,7 +2391,7 @@
 "odds": 1.45,
 "ts": 1795201200.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
