@@ -44,7 +44,10 @@
 "game": "Athletic Bilbao vs Espanyol",
 "pick": "Athletic Bilbao Under 2.5",
 "odds": 1.03,
-"ts": 1795204800.0
+"ts": 1795204800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 21:15",
@@ -128,7 +131,10 @@
 "game": "Athletic Bilbao vs Espanyol",
 "pick": "Under 4.5",
 "odds": 1.22,
-"ts": 1795204800.0
+"ts": 1795204800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 }
 ]
 },
