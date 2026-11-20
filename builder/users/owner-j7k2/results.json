@@ -2473,7 +2473,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:45",
@@ -2704,7 +2707,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 21:00",
@@ -4212,7 +4218,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:45",
@@ -4376,7 +4385,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -4977,7 +4989,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:00",
@@ -5273,7 +5288,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:00",
@@ -5530,7 +5548,10 @@
 "game": "Caerphilly Athletic FC vs Llanelli Town",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795203900.0
+"ts": 1795203900.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 21:00",
