@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "XDNTJK",
+"at": 1795167297,
+"when": "Fri 20 Nov 10:34",
+"kind": "live \u2013 best of all",
+"odds": 1.72,
+"status": "open",
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "PSS Sleman vs Arema FC",
+"pick": "PSS Sleman or Arema FC",
+"odds": 1.06,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 09:30",
+"game": "Garuda Yaksa vs Madura United",
+"pick": "Handicap 0:2 \u2013 Madura United",
+"odds": 1.09,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 09:30",
+"game": "Sydney United 58 FC vs Sutherland Sharks",
+"pick": "Handicap 0:2 \u2013 Sutherland Sharks",
+"odds": 1.1,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 09:30",
+"game": "South Melbourne FC vs Canberra Croatia FC",
+"pick": "South Melbourne FC Under 5.5",
+"odds": 1.22,
+"ts": 1795163400.0
+},
+{
+"t": "Fri 09:40",
+"game": "Western Sydney Wanderers vs Adelaide United FC",
+"pick": "Handicap 0:2 \u2013 Adelaide United FC",
+"odds": 1.1,
+"ts": 1795164000.0
+}
+]
+},
+{
 "code": "ZETSZT",
 "at": 1795165302,
 "when": "Fri 20 Nov 10:01",
