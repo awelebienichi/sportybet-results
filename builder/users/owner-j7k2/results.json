@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UQH1MV",
+"at": 1795204853,
+"when": "Fri 20 Nov 21:00",
+"kind": "strong team to score in the 1st half",
+"odds": 4823.47,
+"status": "open",
+"legs": [
+{
+"t": "Sat 04:00",
+"game": "Club Tijuana de Caliente vs Atlante FC",
+"pick": "Club Tijuana de Caliente to score in 1st half",
+"odds": 1.61,
+"ts": 1795230000.0
+},
+{
+"t": "Sat 12:00",
+"game": "Kolos Kovalivka vs FC Kharkiv",
+"pick": "FC Kharkiv to score in 1st half",
+"odds": 1.92,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 13:00",
+"game": "Wolfsburg vs Holstein Kiel",
+"pick": "Wolfsburg to score in 1st half",
+"odds": 1.48,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:00",
+"game": "FK Otrant-Olympic Ulcinj vs FK Bokelj Kotor",
+"pick": "FK Otrant-Olympic Ulcinj to score in 1st half",
+"odds": 1.92,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 13:30",
+"game": "FK Arsenal Ceska Lipa vs SK Hanacka Slavia Kromeriz",
+"pick": "FK Arsenal Ceska Lipa to score in 1st half",
+"odds": 1.74,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Tromsoe IL vs Viking FK",
+"pick": "Viking FK to score in 1st half",
+"odds": 1.57,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"pick": "K.v.v. Quick Boys to score in 1st half",
+"odds": 1.38,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Oxford City vs Scarborough Athletic",
+"pick": "Oxford City to score in 1st half",
+"odds": 1.58,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Clyde FC to score in 1st half",
+"odds": 1.44,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Burton Albion vs Luton",
+"pick": "Luton to score in 1st half",
+"odds": 1.6,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Farnborough FC vs Salisbury FC",
+"pick": "Salisbury FC to score in 1st half",
+"odds": 1.55,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Queen of the South FC vs Hamilton Academical FC",
+"pick": "Hamilton Academical FC to score in 1st half",
+"odds": 1.53,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Chelmsford City",
+"pick": "Chelmsford City to score in 1st half",
+"odds": 1.57,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:30",
+"game": "Campobasso FC vs Vis Pesaro 1898",
+"pick": "Campobasso FC to score in 1st half",
+"odds": 1.58,
+"ts": 1795278600.0
+},
+{
+"t": "Sat 17:45",
+"game": "CSKA Moscow vs RFK Akhmat Grozny",
+"pick": "CSKA Moscow to score in 1st half",
+"odds": 1.64,
+"ts": 1795279500.0
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"pick": "Young Boys Bern to score in 1st half",
+"odds": 1.3,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Yellow-Red KV Mechelen vs Club Brugge",
+"pick": "Club Brugge to score in 1st half",
+"odds": 1.39,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "Rangers to score in 1st half",
+"odds": 1.51,
+"ts": 1795291200.0
+},
+{
+"t": "Sat 22:00",
+"game": "Deportivo Mixco vs CD Malacateco",
+"pick": "Deportivo Mixco to score in 1st half",
+"odds": 1.52,
+"ts": 1795294800.0
+}
+]
+},
+{
 "code": "QNTX9E",
 "at": 1795204723,
 "when": "Fri 20 Nov 20:58",
