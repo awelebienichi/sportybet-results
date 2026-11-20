@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X5QG89",
+"at": 1795194516,
+"when": "Fri 20 Nov 18:08",
+"kind": "your tracker's best markets",
+"odds": 6.79,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Azam FC vs Singida Black Stars FC",
+"pick": "1st half double chance Azam FC or draw",
+"odds": 1.12,
+"ts": 1795197600.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 19:30",
+"game": "FC Rapperswil-Jona vs FC Aarau",
+"pick": "Goal bounds 2-5+",
+"odds": 1.13,
+"ts": 1795199400.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Liege vs KVC Westerlo",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "RFC Seraing vs RWD Molenbeek Youth",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Volendam vs Jong Ajax Amsterdam",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Heracles Almelo vs Jong PSV Eindhoven",
+"pick": "1st half double chance Heracles Almelo or draw",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Bristol City U21 vs Norwich City U21",
+"pick": "Bristol City U21 or GG",
+"odds": 1.17,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "MC Oran vs JS Saoura",
+"pick": "1st half double chance MC Oran or draw",
+"odds": 1.11,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Koninklijke Lierse Sportkring vs KSC Lokeren Temse",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795201200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Swansea University vs Trethomas Bluebirds",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "RAAL La Louviere vs KV Kortrijk",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Pontypridd Town vs Carmarthen Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Liverpool Montevideo vs Montevideo Wanderers",
+"pick": "Liverpool Montevideo or GG",
+"odds": 1.18,
+"ts": 1795203000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Llanelli Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Southend United vs Boreham Wood FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerau Ely FC vs Newport City FC",
+"pick": "Caerau Ely FC or GG",
+"odds": 1.1,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Barnsley FC vs Sheffield Wednesday",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795204800.0
+}
+]
+},
+{
 "code": "UUSLQ9",
 "at": 1795194217,
 "when": "Fri 20 Nov 18:03",
