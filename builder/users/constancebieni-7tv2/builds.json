@@ -1,5 +1,180 @@
 [
 {
+"when": "Fri 20 Nov 12:39",
+"at": 1795174764,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-20"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"xg1"
+],
+"rid": "mwowp5dehapp"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 10 legs win: about 28%."
+],
+"tickets": [
+{
+"code": "SAGZTR",
+"odds": 2.2,
+"legs": [
+{
+"t": "Fri 13:00",
+"game": "AGMK FC vs Qizilqum Zarafshon",
+"lg": "Uzbekistan - Superliga",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.1,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1795176000.0,
+"eid": "sr:match:68380654",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "68380654|810002||3"
+},
+{
+"t": "Fri 14:00",
+"game": "Zakho FC vs Al Shorta SC",
+"lg": "Iraq - Stars League",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10 and 4 meetings",
+"ts": 1795179600.0,
+"eid": "sr:match:75949132",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "75949132|810002||3"
+},
+{
+"t": "Fri 16:30",
+"game": "Namungo FC vs Mbeya City FC",
+"lg": "Tanzania - Premier League",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.06,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795188600.0,
+"eid": "sr:match:73019646",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "73019646|810002||3"
+},
+{
+"t": "Fri 17:15",
+"game": "Duhok FC vs Erbil SC",
+"lg": "Iraq - Stars League",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"why": "stats rate 100% from both teams' last 10 and 4 meetings",
+"ts": 1795191300.0,
+"eid": "sr:match:75949124",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "75949124|810002||3"
+},
+{
+"t": "Fri 19:00",
+"game": "Azam FC vs Singida Black Stars FC",
+"lg": "Tanzania - Premier League",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1795197600.0,
+"eid": "sr:match:73019648",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "73019648|810002||3"
+},
+{
+"t": "Fri 19:00",
+"game": "Aarhus Fremad vs Hobro IK",
+"lg": "Denmark - 1. Division",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795197600.0,
+"eid": "sr:match:72044410",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "72044410|810002||3"
+},
+{
+"t": "Fri 20:30",
+"game": "CA Cerro vs Club Nacional de Football",
+"lg": "Uruguay - Primera Division",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1795203000.0,
+"eid": "sr:match:76883192",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76883192|810002||3"
+},
+{
+"t": "Fri 20:30",
+"game": "Liverpool Montevideo vs Montevideo Wanderers",
+"lg": "Uruguay - Primera Division",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.09,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1795203000.0,
+"eid": "sr:match:76883188",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76883188|810002||3"
+},
+{
+"t": "Fri 20:30",
+"game": "AC Trento vs AS Cittadella",
+"lg": "Italy - Serie C, Group A",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10 and 6 meetings",
+"ts": 1795203000.0,
+"eid": "sr:match:73293368",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "73293368|810002||3"
+},
+{
+"t": "Fri 22:30",
+"game": "Independiente Medellin vs Independiente Santa Fe",
+"lg": "Colombia - Liga DIMAYOR",
+"pick": "1st half excluded goals: 3+",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795210200.0,
+"eid": "sr:match:76838152",
+"mid": "810002",
+"spec": "",
+"oid": "3",
+"k": "76838152|810002||3"
+}
+],
+"chance": 0.2794
+}
+]
+},
+{
 "when": "Fri 20 Nov 12:37",
 "at": 1795174671,
 "req": {
@@ -4868,181 +5043,6 @@
 "spec": "hcp=0:3",
 "oid": "1713",
 "k": "69592712|14|hcp=0:3|1713"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 11:37",
-"at": 1794652626,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"u55"
-],
-"rid": "mwg9sywtaqxq"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 10 games passed the checks (Sat 14, 616 games on SportyBet), so this ticket has 10 legs instead of 50. Tick more days or use 'Relaxed' for more."
-],
-"tickets": [
-{
-"code": "V8T69A",
-"odds": 2.32,
-"legs": [
-{
-"t": "Sat 14:00",
-"game": "Valladolid vs CD Castellon",
-"lg": "Spain - LaLiga 2",
-"pick": "Under 5.5",
-"odds": 1.06,
-"why": "stats rate 96% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, FotMob: 2.8 goals a game, Vitibet tip 1-2, season: 2.8 goals a game",
-"ts": 1794661200.0,
-"eid": "sr:match:72477602",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "72477602|18|total=5.5|13"
-},
-{
-"t": "Sat 15:00",
-"game": "FC Paradiso vs FC Amical Saint-Prex",
-"lg": "Switzerland - Promotion League",
-"pick": "Under 5.5",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, season: 3.2 goals a game",
-"ts": 1794664800.0,
-"eid": "sr:match:72521064",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "72521064|18|total=5.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Salisbury FC vs Chichester City FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Under 5.5",
-"odds": 1.11,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.7 goals a game",
-"ts": 1794668400.0,
-"eid": "sr:match:76125304",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76125304|18|total=5.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Hebburn Town vs Guiseley FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Under 5.5",
-"odds": 1.08,
-"why": "stats rate 96% from both teams' last 10 and 5 meetings; Flashscore home/away form 95%",
-"ts": 1794668400.0,
-"eid": "sr:match:76125228",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76125228|18|total=5.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Wingate & Finchley vs Hashtag United",
-"lg": "England Amateur - FA Trophy",
-"pick": "Under 5.5",
-"odds": 1.12,
-"why": "stats rate 93% from both teams' last 10 and 6 meetings; Flashscore home/away form 85%",
-"ts": 1794668400.0,
-"eid": "sr:match:76125254",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76125254|18|total=5.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Dartford FC vs AFC Totton",
-"lg": "England Amateur - FA Trophy",
-"pick": "Under 5.5",
-"odds": 1.09,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794668400.0,
-"eid": "sr:match:76125286",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76125286|18|total=5.5|13"
-},
-{
-"t": "Sat 16:30",
-"game": "NAC Breda vs FC Emmen",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Under 5.5",
-"odds": 1.11,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
-"ts": 1794670200.0,
-"eid": "sr:match:72044810",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "72044810|18|total=5.5|13"
-},
-{
-"t": "Sat 18:00",
-"game": "USL Dunkerque vs Quevilly-Rouen Metropole",
-"lg": "France - Coupe de France",
-"pick": "Under 5.5",
-"odds": 1.08,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
-"ts": 1794675600.0,
-"eid": "sr:match:76171166",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76171166|18|total=5.5|13"
-},
-{
-"t": "Sat 18:30",
-"game": "Mallorca vs Cordoba CF",
-"lg": "Spain - LaLiga 2",
-"pick": "Under 5.5",
-"odds": 1.08,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 100%, FotMob: 2.6 goals a game, Vitibet tip 2-1, season: 2.6 goals a game",
-"ts": 1794677400.0,
-"eid": "sr:match:72477594",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "72477594|18|total=5.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "CR Brasil AL vs Ceara SC CE",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 5.5",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, FotMob: 2.6 goals a game, Vitibet tip 1-0, season: 2.6 goals a game",
-"ts": 1794684600.0,
-"eid": "sr:match:68823482",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "68823482|18|total=5.5|13"
 }
 ]
 }
