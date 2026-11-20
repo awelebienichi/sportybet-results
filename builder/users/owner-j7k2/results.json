@@ -2,6 +2,23 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YF5J52",
+"at": 1795172531,
+"when": "Fri 20 Nov 12:02",
+"kind": "live \u2013 another goal coming",
+"odds": 1.12,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "FC Master Saturn vs FC Baltika Kaliningrad",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795168800.0
+}
+]
+},
+{
 "code": "G0H3D9",
 "at": 1795172241,
 "when": "Fri 20 Nov 11:57",
