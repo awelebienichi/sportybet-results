@@ -1346,7 +1346,10 @@
 "game": "TSV Havelse vs FC Viktoria Cologne",
 "pick": "1st half Over 0.5",
 "odds": 1.19,
-"ts": 1795197600.0
+"ts": 1795197600.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 19:30",
@@ -3147,7 +3150,10 @@
 "game": "TSV Havelse vs FC Viktoria Cologne",
 "pick": "1st half Over 0.5",
 "odds": 1.19,
-"ts": 1795197600.0
+"ts": 1795197600.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
