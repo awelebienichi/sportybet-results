@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UH5CJU",
+"at": 1795202243,
+"when": "Fri 20 Nov 20:17",
+"kind": "full-time draw \u2013 two weak teams",
+"odds": 93788.89,
+"status": "open",
+"legs": [
+{
+"t": "Fri 22:00",
+"game": "Cobresal vs Audax Italiano",
+"pick": "Draw",
+"odds": 3.6,
+"ts": 1795208400.0
+},
+{
+"t": "Sat 07:00",
+"game": "Sichuan WFC vs Changchun Dazhong Zhuoyue",
+"pick": "Draw",
+"odds": 3.5,
+"ts": 1795240800.0
+},
+{
+"t": "Sat 13:45",
+"game": "Nassaji Mazandaran FC vs Aluminium Arak",
+"pick": "Draw",
+"odds": 3.1,
+"ts": 1795265100.0
+},
+{
+"t": "Sat 14:00",
+"game": "Dedza Dynamos FC vs Red Lions",
+"pick": "Draw",
+"odds": 2.85,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Nrb Teleghma vs JS Djidjel",
+"pick": "Draw",
+"odds": 2.95,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Fortuna Cologne vs SV Meppen 1912",
+"pick": "Draw",
+"odds": 3.6,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:30",
+"game": "Orbit College FC vs Gomora United",
+"pick": "Draw",
+"odds": 2.9,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Vado FC vs Latina Calcio",
+"pick": "Draw",
+"odds": 3.33,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 16:00",
+"game": "Adama City FC vs Sidama Bunna SC",
+"pick": "Draw",
+"odds": 2.65,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "SC Covilha vs Lusitano GC",
+"pick": "Draw",
+"odds": 3.1,
+"ts": 1795276800.0
+}
+]
+},
+{
 "code": "T41CWH",
 "at": 1795202162,
 "when": "Fri 20 Nov 20:16",
@@ -665,7 +745,10 @@
 "game": "Neuchatel Xamax vs Etoile Carouge FC",
 "pick": "1st half double chance Neuchatel Xamax or draw",
 "odds": 1.28,
-"ts": 1795199400.0
+"ts": 1795199400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -956,7 +1039,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -1267,7 +1353,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -1555,7 +1644,7 @@
 "odds": 1.19,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-4",
+"sc": "1-5",
 "ht": "0-2"
 },
 {
@@ -1700,7 +1789,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -1867,7 +1959,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -2090,7 +2185,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -2429,7 +2527,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -2448,7 +2549,7 @@
 "odds": 1.37,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-4",
+"sc": "1-5",
 "ht": "0-2"
 },
 {
@@ -2724,7 +2825,10 @@
 "game": "TWL Elektra vs FC 1980 Wien",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -2733,7 +2837,7 @@
 "odds": 1.37,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-4",
+"sc": "1-5",
 "ht": "0-2"
 },
 {
@@ -3431,7 +3535,7 @@
 "odds": 1.19,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-4",
+"sc": "1-5",
 "ht": "0-2"
 },
 {
@@ -5129,7 +5233,7 @@
 "odds": 1.36,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-4",
+"sc": "1-5",
 "ht": "0-2"
 },
 {
@@ -5614,7 +5718,7 @@
 "odds": 1.36,
 "ts": 1795197600.0,
 "r": "W",
-"sc": "1-4",
+"sc": "1-5",
 "ht": "0-2"
 },
 {
