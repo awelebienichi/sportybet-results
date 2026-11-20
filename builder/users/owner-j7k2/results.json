@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T41CWH",
+"at": 1795202162,
+"when": "Fri 20 Nov 20:16",
+"kind": "basketball \u2013 total points",
+"odds": 57.81,
+"status": "open",
+"legs": [
+{
+"t": "Fri 23:30",
+"game": "Sesi/Franca BC SP vs EC Uniao Corinthians",
+"pick": "Under 165.5 total points",
+"odds": 1.2,
+"ts": 1795213800.0
+},
+{
+"t": "Sat 09:30",
+"game": "Melbourne United vs New Zealand Breakers",
+"pick": "Over 175.5 total points",
+"odds": 1.21,
+"ts": 1795249800.0
+},
+{
+"t": "Sat 13:30",
+"game": "Turk Telekom vs Tofas SK Bursa",
+"pick": "Over 152.5 total points",
+"odds": 1.21,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Iraklis 2022 vs BC AEK Athens",
+"pick": "Over 143.5 total points",
+"odds": 1.22,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "SK Slavia Prague vs Basket Brno",
+"pick": "Under 188.5 total points",
+"odds": 1.22,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:50",
+"game": "Gargzdai Basketball vs Taurages Krepsinio Klubas",
+"pick": "Under 184.5 total points",
+"odds": 1.23,
+"ts": 1795272600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bahcesehir Koleji vs Korfez Basket",
+"pick": "Under 187.5 total points",
+"odds": 1.23,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Sporting Cp vs Portimonense SC",
+"pick": "Over 147.5 total points",
+"odds": 1.21,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "CP Esgueira vs CAB Madeira",
+"pick": "Under 188.5 total points",
+"odds": 1.23,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "PAOK BC vs BC Aris Thessaloniki",
+"pick": "Over 146.5 total points",
+"odds": 1.22,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 17:00",
+"game": "BK Decin vs BK Opava",
+"pick": "Over 154.5 total points",
+"odds": 1.2,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:30",
+"game": "KK Cedevita Olimpija Ljubljana vs BC Slovan Bratislava",
+"pick": "Under 179.5 total points",
+"odds": 1.24,
+"ts": 1795278600.0
+},
+{
+"t": "Sat 18:00",
+"game": "CB San Pablo Burgos vs CB Malaga",
+"pick": "Under 191.5 total points",
+"odds": 1.25,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Baloncesto Fuenlabrada vs CB Tizona",
+"pick": "Under 184.5 total points",
+"odds": 1.22,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Basketball Lowen Braunschweig vs Bamberg Baskets",
+"pick": "Under 189.5 total points",
+"odds": 1.24,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 19:15",
+"game": "CA Queluz vs SC Braga",
+"pick": "Under 190.5 total points",
+"odds": 1.23,
+"ts": 1795284900.0
+},
+{
+"t": "Sat 19:30",
+"game": "Basquet Manresa vs BC Andorra",
+"pick": "Under 196.5 total points",
+"odds": 1.26,
+"ts": 1795285800.0
+},
+{
+"t": "Sat 20:00",
+"game": "Baskets Oldenburg vs Skyliners Frankfurt",
+"pick": "Over 150.5 total points",
+"odds": 1.21,
+"ts": 1795287600.0
+},
+{
+"t": "Sat 20:00",
+"game": "Basquete Osasco vs Cruzeiro Basquete",
+"pick": "Under 175.5 total points",
+"odds": 1.24,
+"ts": 1795287600.0
+},
+{
+"t": "Sat 20:00",
+"game": "TBB Trier vs Niners Chemnitz",
+"pick": "Under 196.5 total points",
+"odds": 1.23,
+"ts": 1795287600.0
+}
+]
+},
+{
 "code": "X5QG89",
 "at": 1795194516,
 "when": "Fri 20 Nov 18:08",
@@ -1413,7 +1563,10 @@
 "game": "FC Stade Nyonnais vs FC Wil 1900",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795199400.0
+"ts": 1795199400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
