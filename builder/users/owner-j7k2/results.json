@@ -2089,14 +2089,17 @@
 "when": "Fri 20 Nov 20:17",
 "kind": "full-time draw \u2013 two weak teams",
 "odds": 93788.89,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 22:00",
 "game": "Cobresal vs Audax Italiano",
 "pick": "Draw",
 "odds": 3.6,
-"ts": 1795208400.0
+"ts": 1795208400.0,
+"r": "L",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 07:00",
@@ -2948,7 +2951,7 @@
 "odds": 1.08,
 "ts": 1795201200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
