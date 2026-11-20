@@ -906,14 +906,17 @@
 "when": "Fri 20 Nov 09:17",
 "kind": "1st half Over 0.5",
 "odds": 15.56,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
 "game": "FC Van Charentsavan vs FC Ararat-Armenia",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795172400.0
+"ts": 1795172400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -2655,14 +2658,17 @@
 "when": "Thu 19 Nov 15:58",
 "kind": "1st half Over 0.5",
 "odds": 308.28,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
 "game": "FC Van Charentsavan vs FC Ararat-Armenia",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795172400.0
+"ts": 1795172400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
@@ -3206,7 +3212,7 @@
 "odds": 1.12,
 "ts": 1795168800.0,
 "r": "L",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-1"
 },
 {
@@ -3495,7 +3501,7 @@
 "odds": 1.12,
 "ts": 1795168800.0,
 "r": "L",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-1"
 },
 {
