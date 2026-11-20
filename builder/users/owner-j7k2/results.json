@@ -404,7 +404,10 @@
 "game": "Arminia Bielefeld vs 1. FC Magdeburg",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1795195800.0
+"ts": 1795195800.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Fri 18:30",
@@ -422,9 +425,9 @@
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
 "ts": 1795195800.0,
-"r": "L",
-"sc": "1-1",
-"ht": ""
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:30",
@@ -1777,7 +1780,10 @@
 "game": "Rapid Wien II vs Blau-Weiss Linz",
 "pick": "1st half double chance Blau-Weiss Linz or draw",
 "odds": 1.15,
-"ts": 1795195800.0
+"ts": 1795195800.0,
+"r": "W",
+"sc": "1-3",
+"ht": "1-3"
 },
 {
 "t": "Fri 19:00",
