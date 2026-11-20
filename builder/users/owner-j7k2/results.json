@@ -371,7 +371,10 @@
 "game": "FK Rostov vs PFK Krylia Sovetov Samara",
 "pick": "1st half GG \u2013 No",
 "odds": 1.17,
-"ts": 1795192200.0
+"ts": 1795192200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 18:00",
@@ -1292,7 +1295,7 @@
 "odds": 1.2,
 "ts": 1795194000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": ""
 },
 {
@@ -3670,7 +3673,10 @@
 "game": "MFK Karvina vs FC Banik Ostrava B",
 "pick": "MFK Karvina or GG",
 "odds": 1.07,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
@@ -3955,7 +3961,10 @@
 "game": "MFK Karvina vs FC Banik Ostrava B",
 "pick": "MFK Karvina or GG",
 "odds": 1.07,
-"ts": 1795194000.0
+"ts": 1795194000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 19:00",
