@@ -1,5 +1,385 @@
 [
 {
+"when": "Fri 20 Nov 18:03",
+"at": 1795194209,
+"req": {
+"type": "rollover",
+"rid": "mwp7bep953ss"
+},
+"ok": false,
+"msg": "Today's rollover code is already out: YC3M3C"
+},
+{
+"when": "Fri 20 Nov 18:03",
+"at": 1795194209,
+"req": {
+"type": "rollover",
+"legs": 7,
+"rid": "mwp79mj4vmex"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a6100 \u2192 returns \u20a6412 if it wins"
+],
+"tickets": [
+{
+"code": "YC3M3C",
+"odds": 4.12,
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "TOP Oss vs Roda JC Kerkrade",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 90%",
+"ts": 1795201200.0,
+"eid": "sr:match:72044844",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72044844|90|total=0.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Vitesse Arnhem vs Jong AZ Alkmaar",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "1st half Under 2.5",
+"odds": 1.17,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 100%",
+"ts": 1795201200.0,
+"eid": "sr:match:72044846",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72044846|68|total=2.5|13"
+},
+{
+"t": "Fri 20:30",
+"game": "Pogon Szczecin vs WKS Slask Wroclaw",
+"lg": "Poland - Ekstraklasa",
+"pick": "Over 1.5",
+"odds": 1.23,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 88%, Flashscore home/away 95%; FotMob: 2.8 goals a game, Vitibet tip 2-1, season: 2.8 goals a game",
+"ts": 1795203000.0,
+"eid": "sr:match:72043332",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72043332|18|total=1.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Miedz Legnica vs LKS Lodz",
+"lg": "Poland - 1. Liga",
+"pick": "Under 3.5",
+"odds": 1.43,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 88%, Flashscore home/away 90%; FotMob: 2.2 goals a game, Vitibet tip 1-1, season: 2.2 goals a game",
+"ts": 1795203000.0,
+"eid": "sr:match:72230872",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72230872|18|total=3.5|13"
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Holywell Town",
+"lg": "Wales - Cymru Premier",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
+"ts": 1795203900.0,
+"eid": "sr:match:72522172",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72522172|68|total=0.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Caernarfon Town FC vs Connah`s Quay Nomads FC",
+"lg": "Wales - Cymru Premier",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%",
+"ts": 1795203900.0,
+"eid": "sr:match:72522174",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72522174|90|total=0.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "Athletic Bilbao vs Espanyol",
+"lg": "Spain - LaLiga",
+"pick": "Under 4.5",
+"odds": 1.22,
+"why": "both teams 89%+ in their own last 10 (home 89%, away 90%); head-to-head 88%, Flashscore home/away 95%; FotMob: 2.3 goals a game, Vitibet tip 2-1, season: 2.3 goals a game",
+"ts": 1795204800.0,
+"eid": "sr:match:72478708",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "72478708|18|total=4.5|13"
+}
+],
+"chance": 0.1723
+}
+]
+},
+{
+"when": "Fri 20 Nov 18:03",
+"at": 1795194185,
+"req": {
+"type": "rollover",
+"rid": "mwp78ty7ugqw"
+},
+"ok": false,
+"msg": "Today's rollover code is already out: ZETSZT"
+},
+{
+"when": "Fri 20 Nov 18:03",
+"at": 1795194185,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 15,
+"strict": "normal",
+"rid": "mwp6j050tc15"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 15 legs win: about 21% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "W0JY0M",
+"odds": 2.28,
+"legs": [
+{
+"t": "Fri 16:25",
+"game": "Shabab Al Ahli Dubai vs Ajman Club",
+"lg": "United Arab Emirates - Arabian Gulf League",
+"pick": "Ajman Club Under 2.5",
+"odds": 1.05,
+"why": "LIVE 2-1 75': Shabab Al Ahli Dubai expected 0.4 and Ajman Club 0.3 more goals (last 10 + season); 2-1 at 75' \u2013 95% chance; goals record 80% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795188300.0,
+"eid": "sr:match:75174744",
+"mid": "20",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75174744|20|total=2.5|13"
+},
+{
+"t": "Fri 16:30",
+"game": "Al Zawraa vs AL Talaba",
+"lg": "Iraq - Stars League",
+"pick": "Al Zawraa Under 2.5",
+"odds": 1.03,
+"why": "LIVE 1-1 71': Al Zawraa expected 0.3 and AL Talaba 0.3 more goals (last 10 + season); 1-1 at 71' \u2013 95% chance; goals record 90% / 100% in both sides' last games, h2h 100% of 4 meetings",
+"ts": 1795188600.0,
+"eid": "sr:match:75949136",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75949136|19|total=2.5|13"
+},
+{
+"t": "Fri 16:30",
+"game": "FK Potkozarje Aleksandrovac vs FK Famos Vojkovici",
+"lg": "Bosnia and Herzegovina - Prva Liga, Rep of Srpska",
+"pick": "FK Potkozarje Aleksandrovac Under 2.5",
+"odds": 1.07,
+"why": "LIVE 1-0 78': FK Potkozarje Aleksandrovac expected 0.3 and FK Famos Vojkovici 0.2 more goals (last 10 + season); 1-0 at 78' \u2013 96% chance",
+"ts": 1795188600.0,
+"eid": "sr:match:74173862",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74173862|19|total=2.5|13"
+},
+{
+"t": "Fri 16:30",
+"game": "Al Gharafa SC vs Al Arabi Doha SC",
+"lg": "Qatar - Stars League",
+"pick": "Al Gharafa SC Under 2.5",
+"odds": 1.07,
+"why": "LIVE 1-2 73': Al Gharafa SC expected 0.3 and Al Arabi Doha SC 0.4 more goals (last 10 + season); 1-2 at 73' \u2013 95% chance; goals record 90% / 90% in both sides' last games",
+"ts": 1795188600.0,
+"eid": "sr:match:73374580",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73374580|19|total=2.5|13"
+},
+{
+"t": "Fri 16:30",
+"game": "FC Botosani vs SC FC Voluntari",
+"lg": "Romania - Superliga",
+"pick": "Handicap 0:4 \u2013 SC FC Voluntari",
+"odds": 1.04,
+"why": "LIVE 3-1 70': FC Botosani expected 0.4 and SC FC Voluntari 0.3 more goals (last 10 + season); 3-1 at 70' \u2013 92% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795188600.0,
+"eid": "sr:match:72388104",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "72388104|14|hcp=0:4|1713"
+},
+{
+"t": "Fri 16:30",
+"game": "Senegal vs Croatia",
+"lg": "International Youth - U17 FIFA World Cup",
+"pick": "Handicap 2:0 \u2013 Senegal",
+"odds": 1.07,
+"why": "LIVE 1-1 74': Senegal expected 0.3 and Croatia 0.4 more goals (last 10); 1-1 at 74' \u2013 94% chance",
+"ts": 1795188600.0,
+"eid": "sr:match:71762460",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "71762460|14|hcp=2:0|1711"
+},
+{
+"t": "Fri 17:00",
+"game": "Shakhtar D vs FC Livyi Bereh Kyiv",
+"lg": "Ukraine - Premier League",
+"pick": "Handicap 0:3 \u2013 FC Livyi Bereh Kyiv",
+"odds": 1.03,
+"why": "LIVE 0-1 45': Shakhtar D expected 0.8 and FC Livyi Bereh Kyiv 0.3 more goals (last 10 + season); 0-1 at 45' \u2013 98% chance",
+"ts": 1795190400.0,
+"eid": "sr:match:72410042",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "72410042|14|hcp=0:3|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "Al Wehdat vs AL Arabi",
+"lg": "Jordan - Jordan Cup",
+"pick": "Al Wehdat Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-0 45': Al Wehdat expected 0.5 and AL Arabi 0.4 more goals (last 10); 1-0 at 45' \u2013 97% chance; goals record 100% / 90% in both sides' last games, h2h 100% of 7 meetings",
+"ts": 1795190400.0,
+"eid": "sr:match:76365880",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76365880|19|total=3.5|13"
+},
+{
+"t": "Fri 17:00",
+"game": "ES Setif vs US Biskra",
+"lg": "Algeria - Ligue 1",
+"pick": "ES Setif Under 2.5",
+"odds": 1.05,
+"why": "LIVE 0-1 45': ES Setif expected 0.7 and US Biskra 0.4 more goals (last 10 + season); 0-1 at 45' \u2013 94% chance; goals record 90% / 80% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1795190400.0,
+"eid": "sr:match:75049108",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75049108|19|total=2.5|13"
+},
+{
+"t": "Fri 17:00",
+"game": "FK Septemvri Sofia vs PFC Lokomotiv Plovdiv",
+"lg": "Bulgaria - Parva Liga",
+"pick": "Handicap 0:2 \u2013 PFC Lokomotiv Plovdiv",
+"odds": 1.03,
+"why": "LIVE 0-0 45': FK Septemvri Sofia expected 0.6 and PFC Lokomotiv Plovdiv 0.7 more goals (last 10 + season); 0-0 at 45' \u2013 92% chance; h2h 88% of 8 meetings",
+"ts": 1795190400.0,
+"eid": "sr:match:71998280",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "71998280|14|hcp=0:2|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "FK Naftagas Elemir vs FK Borac Cacak",
+"lg": "Serbia - Prva Liga",
+"pick": "FK Naftagas Elemir or draw",
+"odds": 1.05,
+"why": "LIVE 1-0 45': FK Naftagas Elemir expected 0.8 and FK Borac Cacak 0.7 more goals (last 10 + season); 1-0 at 45' \u2013 90% chance",
+"ts": 1795190400.0,
+"eid": "sr:match:72121026",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "72121026|10||9"
+},
+{
+"t": "Fri 17:00",
+"game": "Al Ittihad Ahli of Aleppo vs Al-Jaish SC (Syr)",
+"lg": "Syria - Premier League",
+"pick": "Al Ittihad Ahli of Aleppo Under 3.5",
+"odds": 1.09,
+"why": "LIVE 1-0 45': Al Ittihad Ahli of Aleppo expected 0.8 and Al-Jaish SC (Syr) 0.4 more goals (last 10); 1-0 at 45' \u2013 93% chance; goals record 80% / 100% in both sides' last games, h2h 83% of 6 meetings",
+"ts": 1795190400.0,
+"eid": "sr:match:76875246",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76875246|19|total=3.5|13"
+},
+{
+"t": "Fri 17:00",
+"game": "FC Dinamo Tbilisi vs FC Torpedo Kutaisi",
+"lg": "Georgia - Erovnuli Liga",
+"pick": "Handicap 0:2 \u2013 FC Torpedo Kutaisi",
+"odds": 1.12,
+"why": "LIVE 0-1 45': FC Dinamo Tbilisi expected 0.9 and FC Torpedo Kutaisi 0.7 more goals (last 10 + season); 0-1 at 45' \u2013 95% chance; h2h 88% of 8 meetings",
+"ts": 1795190400.0,
+"eid": "sr:match:67912874",
+"mid": "14",
+"spec": "hcp=0:2",
+"oid": "1713",
+"k": "67912874|14|hcp=0:2|1713"
+},
+{
+"t": "Fri 17:00",
+"game": "FC Juarez vs Atlas FC",
+"lg": "Mexico - U21 Liga MX",
+"pick": "FC Juarez Under 3.5",
+"odds": 1.05,
+"why": "LIVE 1-1 45': FC Juarez expected 1.1 and Atlas FC 0.9 more goals (last 10 + season); 1-1 at 45' \u2013 88% chance",
+"ts": 1795190400.0,
+"eid": "sr:match:72813938",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72813938|19|total=3.5|13"
+},
+{
+"t": "Fri 17:30",
+"game": "Police FC Rwanda vs AL Hilal (SDN)",
+"lg": "Rwanda - Premier League",
+"pick": "Handicap 3:0 \u2013 Police FC Rwanda",
+"odds": 1.06,
+"why": "LIVE 0-0 32': Police FC Rwanda expected 0.4 and AL Hilal (SDN) 0.7 more goals (last 10 + season); 0-0 at 32' \u2013 96% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1795192200.0,
+"eid": "sr:match:73806122",
+"mid": "14",
+"spec": "hcp=3:0",
+"oid": "1711",
+"k": "73806122|14|hcp=3:0|1711"
+}
+],
+"chance": 0.2112
+}
+]
+},
+{
 "when": "Fri 20 Nov 13:36",
 "at": 1795178212,
 "req": {
@@ -4908,397 +5288,5 @@
 "chance": 0.4806
 }
 ]
-},
-{
-"when": "Sun 15 Nov 08:01",
-"at": 1794726097,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "best",
-"legs": 15,
-"tickets": 1,
-"days": [
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwhhjy16o9g6"
-},
-"ok": true,
-"kind": "your tracker's best markets",
-"note": [
-"Chance all 15 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "R8BYF1",
-"odds": 38.72,
-"legs": [
-{
-"t": "Sun 09:00",
-"game": "INAC Kobe Leonessa vs Cerezo Osaka Sakai Ladies",
-"lg": "Japan - WE League, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.28,
-"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.5 goals a game",
-"ts": 1794729600.0,
-"eid": "sr:match:72339090",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72339090|450001||25"
-},
-{
-"t": "Sun 11:00",
-"game": "FC Chelyabinsk vs FK Veles Moscow",
-"lg": "Russia - 1. Liga",
-"pick": "FC Chelyabinsk or GG",
-"odds": 1.38,
-"why": "stats rate 88% from both teams' last 10 and 7 meetings; Flashscore home/away form 80%",
-"ts": 1794736800.0,
-"eid": "sr:match:72578456",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "72578456|860||74"
-},
-{
-"t": "Sun 12:00",
-"game": "AD Union Adarve vs Las Rozas CF",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "Goal bounds 2-5+",
-"odds": 1.3,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794740400.0,
-"eid": "sr:match:73581350",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73581350|450001||25"
-},
-{
-"t": "Sun 12:00",
-"game": "CD Aurrera de Vitoria vs SD Beasain",
-"lg": "Spain Amateur - Tercera Federacion, Group 4",
-"pick": "Goal bounds 2-5+",
-"odds": 1.32,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 70%",
-"ts": 1794740400.0,
-"eid": "sr:match:73557190",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73557190|450001||25"
-},
-{
-"t": "Sun 12:00",
-"game": "Real Sociedad San Sebastian vs Athletic Bilbao",
-"lg": "Spain - Primera Division Women",
-"pick": "1st half double chance Real Sociedad San Sebastian or draw",
-"odds": 1.23,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794740400.0,
-"eid": "sr:match:72491450",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72491450|63||9"
-},
-{
-"t": "Sun 13:00",
-"game": "Arna-Bjornar vs Roea",
-"lg": "Norway - Toppserien, Women",
-"pick": "1st half double chance Arna-Bjornar or draw",
-"odds": 1.26,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794744000.0,
-"eid": "sr:match:76617092",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76617092|63||9"
-},
-{
-"t": "Sun 13:00",
-"game": "Veszprem FC vs Zalaegerszeg TE II",
-"lg": "Hungary - NB III",
-"pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%",
-"ts": 1794744000.0,
-"eid": "sr:match:72879372",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72879372|450001||25"
-},
-{
-"t": "Sun 13:00",
-"game": "Skara FC vs Eskilsminne IF",
-"lg": "Sweden - Ettan",
-"pick": "Skara FC or GG",
-"odds": 1.2,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
-"ts": 1794744000.0,
-"eid": "sr:match:76657336",
-"mid": "860",
-"spec": "",
-"oid": "74",
-"k": "76657336|860||74"
-},
-{
-"t": "Sun 13:30",
-"game": "OFC Nesebar vs FC Fratria Varna",
-"lg": "Bulgaria - Vtora Liga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.27,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, FotMob: 2.9 goals a game",
-"ts": 1794745800.0,
-"eid": "sr:match:72466630",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72466630|450001||25"
-},
-{
-"t": "Sun 14:00",
-"game": "Tenerife CD vs AD Ceuta",
-"lg": "Spain - LaLiga 2",
-"pick": "Goal bounds 2-5+",
-"odds": 1.29,
-"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, footybets 92%, FotMob: 2.9 goals a game, Vitibet tip 2-1",
-"ts": 1794747600.0,
-"eid": "sr:match:72477600",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72477600|450001||25"
-},
-{
-"t": "Sun 17:00",
-"game": "UD Sanse vs Rayo Ciudad Alcobendas",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "Goal bounds 2-5+",
-"odds": 1.21,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1794758400.0,
-"eid": "sr:match:73581360",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73581360|450001||25"
-},
-{
-"t": "Sun 17:00",
-"game": "Real Balompedica Linense vs RC Portuense",
-"lg": "Spain Amateur - Tercera Federacion, Group 10",
-"pick": "Goal bounds 2-5+",
-"odds": 1.38,
-"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 70%",
-"ts": 1794758400.0,
-"eid": "sr:match:73583600",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73583600|450001||25"
-},
-{
-"t": "Sun 17:00",
-"game": "SD Gernika Club vs Real Oviedo Vetusta",
-"lg": "Spain - Segunda Federacion",
-"pick": "Goal bounds 2-5+",
-"odds": 1.39,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 65%, FotMob: 2.6 goals a game",
-"ts": 1794758400.0,
-"eid": "sr:match:72505294",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72505294|450001||25"
-},
-{
-"t": "Sun 17:00",
-"game": "Cotillas CD vs CD Algar",
-"lg": "Spain Amateur - Tercera Federacion, Group 13",
-"pick": "Goal bounds 2-5+",
-"odds": 1.28,
-"why": "stats rate 89% from both teams' last 10; Flashscore home/away form 78%",
-"ts": 1794758400.0,
-"eid": "sr:match:74567800",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74567800|450001||25"
-},
-{
-"t": "Sun 22:00",
-"game": "CD Platense Municipal Zacatecoluca vs Atletico Balboa",
-"lg": "El Salvador - Primera Division",
-"pick": "1st half double chance CD Platense Municipal Zacatecoluca or draw",
-"odds": 1.26,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794776400.0,
-"eid": "sr:match:73075404",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73075404|63||9"
-}
-],
-"chance": 0.0124
-}
-]
-},
-{
-"when": "Sun 15 Nov 00:04",
-"at": 1794697473,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 5,
-"strict": "normal",
-"rid": "mwh0f68spjw4"
-},
-"ok": false,
-"msg": "26 games are in play, but none fits that strategy right now (7 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
-},
-{
-"when": "Sat 14 Nov 14:18",
-"at": 1794662312,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "mix",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"target": 10,
-"rid": "mwgfle2evd6y"
-},
-"ok": true,
-"kind": "safest market per game",
-"note": [],
-"tickets": [
-{
-"code": "Q82MCY",
-"odds": 11.1,
-"legs": [
-{
-"t": "Sat 16:00",
-"game": "Swindon Town vs Grimsby Town",
-"lg": "England - League Two",
-"pick": "1st half double chance Swindon Town or draw",
-"odds": 1.48,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794668400.0,
-"eid": "sr:match:72342378",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72342378|63||9"
-},
-{
-"t": "Sat 16:00",
-"game": "Hebburn Town vs Guiseley FC",
-"lg": "England Amateur - FA Trophy",
-"pick": "Double chance Guiseley FC or draw",
-"odds": 1.46,
-"why": "stats rate 90% from both teams' last 10 and 5 meetings; Flashscore home/away form 70%",
-"ts": 1794668400.0,
-"eid": "sr:match:76125228",
-"mid": "10",
-"spec": "",
-"oid": "11",
-"k": "76125228|10||11"
-},
-{
-"t": "Sat 18:00",
-"game": "Villa FC vs Killarney Celtic",
-"lg": "Ireland - National League",
-"pick": "GG (both teams score)",
-"odds": 1.64,
-"why": "stats rate 83% from both teams' last 10",
-"ts": 1794675600.0,
-"eid": "sr:match:74141704",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74141704|29||74"
-},
-{
-"t": "Sat 18:00",
-"game": "Washington Spirit vs Utah Royals FC",
-"lg": "USA - National Womens Soccer League",
-"pick": "Under 3.5",
-"odds": 1.44,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, season: 2.6 goals a game",
-"ts": 1794675600.0,
-"eid": "sr:match:76636576",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76636576|18|total=3.5|13"
-},
-{
-"t": "Sat 20:30",
-"game": "America FC MG vs Avai FC SC",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 3.5",
-"odds": 1.46,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 2.2 goals a game, Vitibet tip 1-1, season: 2.2 goals a game",
-"ts": 1794684600.0,
-"eid": "sr:match:68823470",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "68823470|18|total=3.5|13"
-},
-{
-"t": "Sat 23:00",
-"game": "Deportivo Madryn vs CD Maipu",
-"lg": "Argentina - Primera Nacional",
-"pick": "1st half double chance CD Maipu or draw",
-"odds": 1.49,
-"why": "stats rate 90% from both teams' last 10",
-"ts": 1794693600.0,
-"eid": "sr:match:76413240",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "76413240|63||11"
-}
-]
-}
-]
-},
-{
-"when": "Sat 14 Nov 14:17",
-"at": 1794662238,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "mix",
-"legs": 5,
-"tickets": 1,
-"days": [
-"2026-11-14"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"target": 10,
-"rid": "mwgfjonjfn81"
-},
-"ok": false,
-"msg": "Could not reach 10 odds with 5 legs or fewer from the 128 games that pass the checks for safest market per game (Sat 14). Allow more legs or a lower target."
 }
 ]

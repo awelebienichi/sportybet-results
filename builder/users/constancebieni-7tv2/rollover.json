@@ -1,5 +1,5 @@
 {
-"active": true,
+"active": false,
 "history": [
 {
 "date": "2026-11-19",
@@ -93,19 +93,19 @@
 }
 ],
 "start_stake": 100.0,
-"stake": 422,
+"stake": 100.0,
 "odds": 4.0,
 "hour": 10,
-"day": 2,
+"day": 1,
 "current": {
 "date": "2026-11-20",
-"code": "ZETSZT",
-"odds": 4.13,
-"stake": 422,
-"n": 8,
+"code": "YC3M3C",
+"odds": 4.12,
+"stake": 100.0,
+"n": 7,
 "result": null
 },
-"started": "2026-11-12",
+"started": "2026-11-20",
 "short": "lower",
 "min_odds": 1.8,
 "level": "strong"
