@@ -22,7 +22,7 @@
 ],
 "start_stake": 1000.0,
 "stake": 1000.0,
-"odds": 5.0,
+"odds": 6.0,
 "hour": 10,
 "day": 1,
 "current": {
@@ -33,8 +33,8 @@
 "n": 9,
 "result": null
 },
-"started": "2026-11-18",
+"started": "2026-11-20",
 "short": "lower",
-"min_odds": 1.77,
+"min_odds": 1.8,
 "level": "h1"
 }
