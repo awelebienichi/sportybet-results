@@ -330,7 +330,10 @@
 "game": "Kashima Antlers vs Shimizu S-Pulse",
 "pick": "Handicap 0:3 \u2013 Shimizu S-Pulse",
 "odds": 1.04,
-"ts": 1795168800.0
+"ts": 1795168800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 11:00",
@@ -347,7 +350,10 @@
 "game": "Kashiwa Reysol vs JEF United Chiba",
 "pick": "Handicap 0:3 \u2013 JEF United Chiba",
 "odds": 1.06,
-"ts": 1795168800.0
+"ts": 1795168800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 11:30",
