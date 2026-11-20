@@ -2,6 +2,156 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "LT8SA2",
+"at": 1795178212,
+"when": "Fri 20 Nov 13:36",
+"kind": "live \u2013 best of all",
+"odds": 5.99,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "FC Van Charentsavan vs FC Ararat-Armenia",
+"pick": "FC Ararat-Armenia Under 2.5",
+"odds": 1.04,
+"ts": 1795172400.0
+},
+{
+"t": "Fri 12:00",
+"game": "Mathare United FC vs Kakamega Homeboyz",
+"pick": "Under 3.5",
+"odds": 1.06,
+"ts": 1795172400.0
+},
+{
+"t": "Fri 12:00",
+"game": "AL Karma SC vs Gas AL Shimal U21",
+"pick": "Under 3.5",
+"odds": 1.08,
+"ts": 1795172400.0
+},
+{
+"t": "Fri 12:00",
+"game": "FC Iskra Ribnita vs CSF Spartanii Selemet",
+"pick": "FC Iskra Ribnita to win",
+"odds": 1.1,
+"ts": 1795172400.0
+},
+{
+"t": "Fri 12:30",
+"game": "Rakow II Czestochowa vs KS Gornik Polkowice",
+"pick": "Rakow II Czestochowa Under 2.5",
+"odds": 1.04,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 12:30",
+"game": "OKS Swit Szczecin vs ZKS Stal Stalowa Wola",
+"pick": "OKS Swit Szczecin Under 3.5",
+"odds": 1.05,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 12:30",
+"game": "FSK Mariupol vs Agrobiznes Volochisk",
+"pick": "Handicap 0:2 \u2013 Agrobiznes Volochisk",
+"odds": 1.06,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 12:30",
+"game": "East Bengal FC vs Sporting Club Delhi",
+"pick": "Handicap 0:3 \u2013 Sporting Club Delhi",
+"odds": 1.16,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 12:30",
+"game": "Albirex Niigata Singapore FC vs Balestier Khalsa FC",
+"pick": "Albirex Niigata Singapore FC Under 3.5",
+"odds": 1.14,
+"ts": 1795174200.0
+},
+{
+"t": "Fri 12:35",
+"game": "Beijing Guoan vs Shanghai Port FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795174500.0
+},
+{
+"t": "Fri 12:50",
+"game": "Al Taraji vs Al Safa SC (SA)",
+"pick": "Al Safa SC (SA) or draw",
+"odds": 1.09,
+"ts": 1795175400.0
+},
+{
+"t": "Fri 13:00",
+"game": "Police Tero FC vs Chanthaburi",
+"pick": "Handicap 0:2 \u2013 Chanthaburi",
+"odds": 1.05,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:00",
+"game": "AGMK FC vs Qizilqum Zarafshon",
+"pick": "Handicap 0:3 \u2013 Qizilqum Zarafshon",
+"odds": 1.1,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:00",
+"game": "Dewa United vs Persita Tangerang",
+"pick": "Handicap 0:3 \u2013 Persita Tangerang",
+"odds": 1.09,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:00",
+"game": "KF Ferizaj vs KF Prishtina e Re",
+"pick": "Handicap 0:3 \u2013 KF Prishtina e Re",
+"odds": 1.14,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:00",
+"game": "CSC Ghiroda SI Giarmata Vii vs CSM Unirea Alba Iulia",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:00",
+"game": "De Red FC vs Persis Solo",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795176000.0
+},
+{
+"t": "Fri 13:15",
+"game": "The Cong - Viettel FC vs Song Lam Nghe An",
+"pick": "Handicap 0:3 \u2013 Song Lam Nghe An",
+"odds": 1.04,
+"ts": 1795176900.0
+},
+{
+"t": "Fri 13:15",
+"game": "Al Hikma vs Shabab AL Sahel",
+"pick": "Handicap 2:0 \u2013 Al Hikma",
+"odds": 1.1,
+"ts": 1795176900.0
+},
+{
+"t": "Fri 13:30",
+"game": "FC Bihor Oradea vs CS Gloria Bistrita",
+"pick": "Handicap 0:3 \u2013 CS Gloria Bistrita",
+"odds": 1.12,
+"ts": 1795177800.0
+}
+]
+},
+{
 "code": "SAGZTR",
 "at": 1795174671,
 "when": "Fri 20 Nov 12:37",
