@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "HS1X2N",
+"at": 1795209795,
+"when": "Fri 20 Nov 22:23",
+"kind": "live \u2013 best of all",
+"odds": 1.18,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:45",
+"game": "Pen-y-Bont FC vs Haverfordwest County AFC",
+"pick": "Handicap 0:4 \u2013 Haverfordwest County AFC",
+"odds": 1.03,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Balzan FC vs Mosta FC",
+"pick": "Under 6.5",
+"odds": 1.03,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 20:45",
+"game": "ESTAC Troyes vs Le Havre",
+"pick": "Under 4.5",
+"odds": 1.05,
+"ts": 1795203900.0
+},
+{
+"t": "Fri 21:00",
+"game": "Athletic Bilbao vs Espanyol",
+"pick": "Athletic Bilbao Under 2.5",
+"odds": 1.03,
+"ts": 1795204800.0
+},
+{
+"t": "Fri 21:15",
+"game": "Real Madrid Castilla vs Real Murcia CF",
+"pick": "Real Madrid Castilla or Real Murcia CF",
+"odds": 1.04,
+"ts": 1795205700.0
+}
+]
+},
+{
 "code": "YC3M3C",
 "at": 1795194209,
 "when": "Fri 20 Nov 18:03",
@@ -44,7 +89,10 @@
 "game": "Miedz Legnica vs LKS Lodz",
 "pick": "Under 3.5",
 "odds": 1.43,
-"ts": 1795203000.0
+"ts": 1795203000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
