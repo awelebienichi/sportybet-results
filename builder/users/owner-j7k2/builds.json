@@ -1,5 +1,66 @@
 [
 {
+"when": "Sat 21 Nov 06:38",
+"at": 1795239506,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25yw",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpz8pn23uag"
+},
+"ok": true,
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 2 legs win: about 53%."
+],
+"tickets": [
+{
+"code": "X39FFD",
+"odds": 1.72,
+"legs": [
+{
+"t": "Sat 11:00",
+"game": "Trencin vs FC DAC 1904 Dunajska Streda",
+"lg": "Slovakia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "strong side Trencin (win 1.35) scores 3.1 a game, 100% of its games over 2.5; FC DAC 1904 Dunajska Streda concedes 2.0 a game; 62% of 8 meetings over; season: 4.0 goals a game",
+"ts": 1795255200.0,
+"eid": "sr:match:72579150",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72579150|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Merida vs Atletico Madrid",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "strong side Atletico Madrid (win 1.2) scores 2.7 a game, 80% of its games over 2.5; Merida concedes 2.4 a game; season: 3.7 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72884882",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72884882|18|total=2.5|12"
+}
+],
+"chance": 0.5286
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:37",
 "at": 1795239430,
 "req": {
@@ -10317,319 +10378,6 @@
 }
 ],
 "chance": 0.0294
-}
-]
-},
-{
-"when": "Fri 20 Nov 07:37",
-"at": 1795156628,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-20"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwolwfi57qqe"
-},
-"ok": true,
-"kind": "Over 2.5 (lowest prices first)",
-"note": [
-"4 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Chance all 20 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "RAUN5V",
-"odds": 138.13,
-"legs": [
-{
-"t": "Fri 12:30",
-"game": "East Bengal FC vs Sporting Club Delhi",
-"lg": "India - Indian Super League",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "Over 2.5 at 1.34: SportyBet's own price gives 70%, 62% of 8 meetings; teams' last 10 70% / 90%; Flashscore home/away form 65%",
-"ts": 1795174200.0,
-"eid": "sr:match:75110510",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75110510|18|total=2.5|12"
-},
-{
-"t": "Fri 14:00",
-"game": "Kalamata vs AEK Athens",
-"lg": "Greece - U19 Super League",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "Over 2.5 at 1.23: SportyBet's own price gives 77%; teams' last 10 67% / 50%",
-"ts": 1795179600.0,
-"eid": "sr:match:73690298",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73690298|18|total=2.5|12"
-},
-{
-"t": "Fri 14:00",
-"game": "Puskas Akademia vs Gyori ETO FC",
-"lg": "Hungary - U19 National",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "Over 2.5 at 1.27: SportyBet's own price gives 74%; teams' last 10 80% / 80%; season: 4.5 goals a game",
-"ts": 1795179600.0,
-"eid": "sr:match:73549278",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73549278|18|total=2.5|12"
-},
-{
-"t": "Fri 14:00",
-"game": "Al Sadd SC vs Lusail SC",
-"lg": "Qatar - Stars League",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "Over 2.5 at 1.32: SportyBet's own price gives 71%; teams' last 10 70% / 50%; Flashscore home/away form 65%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
-"ts": 1795179600.0,
-"eid": "sr:match:73374578",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73374578|18|total=2.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "TWL Elektra vs FC 1980 Wien",
-"lg": "Austria Amateur - Wiener Stadtliga",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "Over 2.5 at 1.28: SportyBet's own price gives 74%; teams' last 10 70% / 80%; Flashscore home/away form 80%, season: 4.0 goals a game",
-"ts": 1795194000.0,
-"eid": "sr:match:72676166",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72676166|18|total=2.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "SC Red Star Penzing vs Hellas Kagran",
-"lg": "Austria Amateur - Wiener Stadtliga",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "Over 2.5 at 1.33: SportyBet's own price gives 71%; teams' last 10 70% / 60%; Flashscore home/away form 60%",
-"ts": 1795194000.0,
-"eid": "sr:match:72676172",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72676172|18|total=2.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "Real Madrid vs CF Trival Valderas Alcorcon",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "Over 2.5 at 1.22: SportyBet's own price gives 77%; teams' last 10 80% / 70%",
-"ts": 1795195800.0,
-"eid": "sr:match:72884886",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72884886|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "Molde vs Bodoe/Glimt",
-"lg": "Norway - Eliteserien",
-"pick": "Over 2.5",
-"odds": 1.24,
-"why": "Over 2.5 at 1.24: SportyBet's own price gives 76%, 75% of 8 meetings; teams' last 10 90% / 50%; Flashscore home/away form 80%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
-"ts": 1795197600.0,
-"eid": "sr:match:67015472",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "67015472|18|total=2.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "Over 2.5 at 1.28: SportyBet's own price gives 74%, 62% of 8 meetings; teams' last 10 100% / 100%; Flashscore home/away form 90%, season: 5.1 goals a game",
-"ts": 1795199400.0,
-"eid": "sr:match:73831616",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73831616|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Heracles Almelo vs Jong PSV Eindhoven",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "Over 2.5 at 1.23: SportyBet's own price gives 77%; teams' last 10 50% / 40%; Flashscore home/away form 70%, footybets 77%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
-"ts": 1795201200.0,
-"eid": "sr:match:72044840",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044840|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Queens Park Rangers U21 vs Blackburn Rovers U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "Over 2.5 at 1.23: SportyBet's own price gives 77%, 67% of 3 meetings; teams' last 10 80% / 90%; Flashscore home/away form 75%",
-"ts": 1795201200.0,
-"eid": "sr:match:73684658",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73684658|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "FC Volendam vs Jong Ajax Amsterdam",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.26,
-"why": "Over 2.5 at 1.26: SportyBet's own price gives 75%, 75% of 8 meetings; teams' last 10 70% / 50%; Flashscore home/away form 70%, footybets 82%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
-"ts": 1795201200.0,
-"eid": "sr:match:72044836",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044836|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "RFC Liege vs KVC Westerlo",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "Over 2.5 at 1.29: SportyBet's own price gives 73%, 100% of 7 meetings; teams' last 10 80% / 90%; Flashscore home/away form 80%",
-"ts": 1795201200.0,
-"eid": "sr:match:73831512",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73831512|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "K Beerschot VA vs Jeugd Royal Francs Borains ",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.31,
-"why": "Over 2.5 at 1.31: SportyBet's own price gives 72%; teams' last 10 80% / 80%; Flashscore home/away form 90%, season: 4.4 goals a game",
-"ts": 1795201200.0,
-"eid": "sr:match:73831510",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73831510|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "FC Den Bosch vs VVV Venlo",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "Over 2.5 at 1.34: SportyBet's own price gives 70%, 50% of 8 meetings; teams' last 10 60% / 70%; Flashscore home/away form 70%, footybets 78%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
-"ts": 1795201200.0,
-"eid": "sr:match:72044834",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044834|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "RFC Seraing vs RWD Molenbeek Youth",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "Over 2.5 at 1.34: SportyBet's own price gives 70%, 75% of 4 meetings; teams' last 10 80% / 60%; Flashscore home/away form 75%",
-"ts": 1795201200.0,
-"eid": "sr:match:73831508",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73831508|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Bayern Munich vs Cologne",
-"lg": "Germany - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.14,
-"why": "Over 2.5 at 1.14: SportyBet's own price gives 83%, 62% of 8 meetings; teams' last 10 90% / 60%; Flashscore home/away form 75%",
-"ts": 1795203000.0,
-"eid": "sr:match:72513310",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72513310|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Trethomas Bluebirds",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.31,
-"why": "Over 2.5 at 1.31: SportyBet's own price gives 72%; teams' last 10 80% / 90%; Flashscore home/away form 75%, season: 4.1 goals a game",
-"ts": 1795203000.0,
-"eid": "sr:match:72546176",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546176|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Caerphilly Athletic FC vs Llanelli Town",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "Over 2.5 at 1.32: SportyBet's own price gives 71%; teams' last 10 80% / 80%; Flashscore home/away form 80%",
-"ts": 1795203900.0,
-"eid": "sr:match:72546172",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546172|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Briton Ferry vs Holywell Town",
-"lg": "Wales - Cymru Premier",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "Over 2.5 at 1.33: SportyBet's own price gives 71%; teams' last 10 70% / 80%; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
-"ts": 1795203900.0,
-"eid": "sr:match:72522172",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72522172|18|total=2.5|12"
-}
-],
-"chance": 0.0027
 }
 ]
 }
