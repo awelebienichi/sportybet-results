@@ -301,7 +301,10 @@
 "game": "Barrow AFC vs Carlisle United",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.13,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -532,7 +535,10 @@
 "game": "Barrow AFC vs Carlisle United",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.13,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -569,14 +575,20 @@
 "game": "AVS Futebol SAD vs CD Tondela",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
 "game": "Raith Rovers FC vs Partick Thistle FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:15",
@@ -801,7 +813,10 @@
 "game": "Barrow AFC vs Carlisle United",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.13,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -838,7 +853,10 @@
 "game": "Raith Rovers FC vs Partick Thistle FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:15",
