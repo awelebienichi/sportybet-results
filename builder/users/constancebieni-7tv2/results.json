@@ -197,7 +197,10 @@
 "game": "FC Shinnik Yaroslavl vs FC Neftekhimik Nizhnekamsk",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -681,7 +684,10 @@
 "game": "FC Ajka vs Kazincbarcikai SC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
