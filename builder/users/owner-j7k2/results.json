@@ -2,6 +2,135 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UDGTQ9",
+"at": 1795257721,
+"when": "Sat 21 Nov 11:41",
+"kind": "1st half Over 0.5",
+"odds": 27.64,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Norwich vs Cardiff City",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al-Sailiya SC",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 14:30",
+"game": "Hoek vs GVVV Veenendaal",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Rkav Volendam vs Amsterdamsche FC",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795267800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "BVV Barendrecht vs VV Kloetinge",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 15:30",
+"game": "SK Sturm Graz II vs SKU Amstetten",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Farnborough FC vs Salisbury FC",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Aldershot Town FC vs Scunthorpe United",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Eindhoven vs RKC Waalwijk",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 16:30",
+"game": "NEC Nijmegen vs PSV Eindhoven",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 18:00",
+"game": "De Treffers Groesbeek vs Kozakken Boys Werkendam",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 20:00",
+"game": "CSD Xelaju MC vs CD Suchitepequez",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795287600.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795291200.0
+}
+]
+},
+{
 "code": "W0K7GX",
 "at": 1795251737,
 "when": "Sat 21 Nov 10:02",
