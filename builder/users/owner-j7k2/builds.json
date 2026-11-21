@@ -1,5 +1,66 @@
 [
 {
+"when": "Sat 21 Nov 06:28",
+"at": 1795238898,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "smallfav",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpyvmgivuzg"
+},
+"ok": true,
+"kind": "smallest-odds favourites to win",
+"note": [
+"5 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 2 legs win: about 76%."
+],
+"tickets": [
+{
+"code": "P50HMZ",
+"odds": 1.19,
+"legs": [
+{
+"t": "Sat 13:15",
+"game": "Nejmeh SC vs AL Mabarrah",
+"lg": "Lebanon - Premier League",
+"pick": "Nejmeh SC to win",
+"odds": 1.13,
+"why": "won 70% lost 10% of last 10, rival lost 80%; Flashscore home/away form 75%",
+"ts": 1795263300.0,
+"eid": "sr:match:75019718",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75019718|1||1"
+},
+{
+"t": "Sat 17:00",
+"game": "Pecsi MFC vs Sarbogard SE",
+"lg": "Hungary - NB III",
+"pick": "Pecsi MFC to win",
+"odds": 1.05,
+"why": "won 70% lost 10% of last 10, rival lost 70%; Flashscore home/away form 90%, season: won 80%, rival lost 73%",
+"ts": 1795276800.0,
+"eid": "sr:match:72880690",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72880690|1||1"
+}
+],
+"chance": 0.7645
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:27",
 "at": 1795238832,
 "req": {
@@ -11448,31 +11509,5 @@
 "chance": 0.004
 }
 ]
-},
-{
-"when": "Fri 20 Nov 02:50",
-"at": 1795139411,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 40,
-"tickets": 1,
-"days": [
-"2026-11-19",
-"2026-11-20",
-"2026-11-21",
-"2026-11-22"
-],
-"strict": "relaxed",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"m10x"
-],
-"rid": "mwobmcarcye6"
-},
-"ok": false,
-"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Thu 19, Fri 20, Sat 21, Sun 22). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
 }
 ]
