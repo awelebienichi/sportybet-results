@@ -374,21 +374,30 @@
 "game": "San Bartolome CF vs UD Las Palmas C",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1795280400.0
+"ts": 1795280400.0,
+"r": "W",
+"sc": "3-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
 "game": "PAE PS Kalamata vs AEK Athens",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1795282200.0
+"ts": 1795282200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
 "game": "Yeovil Town vs Forest Green Rovers",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795282200.0
+"ts": 1795282200.0,
+"r": "W",
+"sc": "3-2",
+"ht": "0-1"
 }
 ]
 },
@@ -637,7 +646,7 @@
 "odds": 1.06,
 "ts": 1795280400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
@@ -645,7 +654,10 @@
 "game": "CD Castellon vs Club Deportivo Eldense",
 "pick": "Under 5.5",
 "odds": 1.07,
-"ts": 1795282200.0
+"ts": 1795282200.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:30",
@@ -654,7 +666,7 @@
 "odds": 1.08,
 "ts": 1795282200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -912,7 +924,7 @@
 "odds": 1.06,
 "ts": 1795280400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
@@ -922,7 +934,7 @@
 "odds": 1.09,
 "ts": 1795280400.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -932,7 +944,7 @@
 "odds": 1.1,
 "ts": 1795282200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -940,14 +952,20 @@
 "game": "Pontevedra CF vs CD Lugo",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 20:00",
 "game": "CD Tecnico Universitario vs CD Cuenca",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795287600.0
+"ts": 1795287600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
@@ -1204,7 +1222,7 @@
 "odds": 1.06,
 "ts": 1795280400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
@@ -1214,7 +1232,7 @@
 "odds": 1.09,
 "ts": 1795280400.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -1224,7 +1242,7 @@
 "odds": 1.1,
 "ts": 1795282200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -1232,14 +1250,20 @@
 "game": "Pontevedra CF vs CD Lugo",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 20:00",
 "game": "CD Tecnico Universitario vs CD Cuenca",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795287600.0
+"ts": 1795287600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
