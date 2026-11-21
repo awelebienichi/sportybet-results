@@ -1,5 +1,77 @@
 [
 {
+"when": "Sat 21 Nov 02:07",
+"at": 1795223272,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwppkt96ew16"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 10).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 3 legs win: about 73%."
+],
+"tickets": [
+{
+"code": "XGBALA",
+"odds": 1.19,
+"legs": [
+{
+"t": "Sat 00:30",
+"game": "CD Palestino vs Deportes Union La Calera",
+"lg": "Chile - Primera Division",
+"pick": "GG \u2013 No",
+"odds": 1.03,
+"why": "LIVE 0-0 75': CD Palestino expected 0.3 and Deportes Union La Calera 0.2 more goals (last 10 + season); 0-0 at 75' \u2013 96% chance",
+"ts": 1795217400.0,
+"eid": "sr:match:67682114",
+"mid": "29",
+"spec": "",
+"oid": "76",
+"k": "67682114|29||76"
+},
+{
+"t": "Sat 00:35",
+"game": "CA Bucaramanga vs America de Cali",
+"lg": "Colombia - Liga DIMAYOR",
+"pick": "Under 5.5",
+"odds": 1.12,
+"why": "LIVE 2-2 70': CA Bucaramanga expected 0.3 and America de Cali 0.3 more goals (last 10 + season); 2-2 at 70' \u2013 86% chance; Flashscore home/away form 80%, FotMob: 2.3 goals a game, Vitibet tip 1-1, season: 2.5 goals a game, h2h 75% of 8 meetings (3.5 line)",
+"ts": 1795217700.0,
+"eid": "sr:match:76838158",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76838158|18|total=5.5|13"
+},
+{
+"t": "Sat 01:00",
+"game": "Rancho Santana FC vs Art Municipal Jalapa",
+"lg": "Nicaragua - Primera Division",
+"pick": "Art Municipal Jalapa Under 4.5",
+"odds": 1.03,
+"why": "LIVE 1-2 46': Rancho Santana FC expected 0.6 and Art Municipal Jalapa 0.8 more goals (last 10 + season); 1-2 at 46' \u2013 94% chance; goals record 100% / 90% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795219200.0,
+"eid": "sr:match:76880306",
+"mid": "20",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76880306|20|total=4.5|13"
+}
+],
+"chance": 0.727
+}
+]
+},
+{
 "when": "Fri 20 Nov 22:55",
 "at": 1795211743,
 "req": {
@@ -4931,118 +5003,5 @@
 },
 "ok": false,
 "msg": "77 games are in play, but none fits that strategy right now (13 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
-},
-{
-"when": "Sun 15 Nov 12:48",
-"at": 1794743320,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwhrthoxobag"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 6 legs win: about 60%."
-],
-"tickets": [
-{
-"code": "YGYH9M",
-"odds": 1.25,
-"legs": [
-{
-"t": "Sun 11:30",
-"game": "CD Cieza vs SCR Pena Deportiva",
-"lg": "Spain - Segunda Federacion",
-"pick": "SCR Pena Deportiva Under 1.5",
-"odds": 1.03,
-"why": "LIVE 1-0 60': CD Cieza expected 0.5 and SCR Pena Deportiva 0.3 more goals (last 10 + season); 1-0 at 60' \u2013 94% chance; goals record 80% / 80% in both sides' last games",
-"ts": 1794738600.0,
-"eid": "sr:match:72507572",
-"mid": "20",
-"spec": "total=1.5",
-"oid": "13",
-"k": "72507572|20|total=1.5|13"
-},
-{
-"t": "Sun 12:00",
-"game": "CD Utrera vs Bollullos CF",
-"lg": "Spain Amateur - Tercera Federacion, Group 10",
-"pick": "CD Utrera Under 3.5",
-"odds": 1.03,
-"why": "LIVE 1-1 45': CD Utrera expected 0.8 and Bollullos CF 0.7 more goals (last 10 + season); 1-1 at 45' \u2013 94% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794740400.0,
-"eid": "sr:match:73583604",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "73583604|19|total=3.5|13"
-},
-{
-"t": "Sun 12:00",
-"game": "CF Pobla de Mafumet vs UE San Juan Atletico de Montcada",
-"lg": "Spain Amateur - Tercera Federacion, Group 5",
-"pick": "CF Pobla de Mafumet Under 2.5",
-"odds": 1.03,
-"why": "LIVE 0-0 45': CF Pobla de Mafumet expected 0.8 and UE San Juan Atletico de Montcada 0.7 more goals (last 10 + season); 0-0 at 45' \u2013 93% chance; goals record 90% / 80% in both sides' last games",
-"ts": 1794740400.0,
-"eid": "sr:match:73577740",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73577740|19|total=2.5|13"
-},
-{
-"t": "Sun 12:00",
-"game": "Madrid CFF vs Logrono United",
-"lg": "Spain - Primera Division Women",
-"pick": "Madrid CFF Under 3.5",
-"odds": 1.03,
-"why": "LIVE 1-2 45': Madrid CFF expected 0.8 and Logrono United 0.9 more goals (last 10 + season); 1-2 at 45' \u2013 93% chance; goals record 100% / 100% in both sides' last games, h2h 75% of 8 meetings",
-"ts": 1794740400.0,
-"eid": "sr:match:72491446",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "72491446|19|total=3.5|13"
-},
-{
-"t": "Sun 12:00",
-"game": "UD Almeria B vs UD Melilla",
-"lg": "Spain Amateur - Tercera Federacion, Group 9",
-"pick": "UD Almeria B or UD Melilla",
-"odds": 1.04,
-"why": "LIVE 0-2 45': UD Almeria B expected 0.6 and UD Melilla 0.6 more goals (last 10 + season); 0-2 at 45' \u2013 93% chance",
-"ts": 1794740400.0,
-"eid": "sr:match:73582902",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "73582902|10||10"
-},
-{
-"t": "Sun 12:00",
-"game": "BKS Sparta Katowice vs Odra Bytom Odrzanski",
-"lg": "Poland - III Liga, Group 3",
-"pick": "Handicap 0:3 \u2013 Odra Bytom Odrzanski",
-"odds": 1.07,
-"why": "LIVE 0-0 45': BKS Sparta Katowice expected 0.8 and Odra Bytom Odrzanski 0.5 more goals (last 10 + season); 0-0 at 45' \u2013 95% chance; margin record 80% / 90% in both sides' last games",
-"ts": 1794740400.0,
-"eid": "sr:match:72516778",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "72516778|14|hcp=0:3|1713"
-}
-],
-"chance": 0.5958
-}
-]
 }
 ]
