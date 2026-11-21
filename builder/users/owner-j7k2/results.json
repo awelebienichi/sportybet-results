@@ -703,7 +703,10 @@
 "game": "KSV Hessen Kassel vs SGV Freiberg",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -1941,7 +1944,10 @@
 "game": "KSV Hessen Kassel vs SGV Freiberg",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -4258,7 +4264,10 @@
 "game": "KSV Hessen Kassel vs SGV Freiberg",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
