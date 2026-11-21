@@ -1016,7 +1016,7 @@
 "when": "Sat 21 Nov 14:57",
 "kind": "1st half Over 0.5",
 "odds": 42.03,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:30",
@@ -1140,7 +1140,10 @@
 "game": "Young Boys Bern vs FC Thun",
 "pick": "1st half Over 0.5",
 "odds": 1.13,
-"ts": 1795280400.0
+"ts": 1795280400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -5129,7 +5132,10 @@
 "game": "Young Boys Bern vs FC Thun",
 "pick": "Young Boys Bern to score in 1st half",
 "odds": 1.3,
-"ts": 1795280400.0
+"ts": 1795280400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:45",
