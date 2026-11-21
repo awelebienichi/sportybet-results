@@ -26,7 +26,7 @@
 "odds": 1.1,
 "ts": 1795273200.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -296,7 +296,10 @@
 "game": "KS Polonia Nysa vs Odra Bytom Odrzanski",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.13,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -483,7 +486,7 @@
 "odds": 1.11,
 "ts": 1795269600.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-1"
 },
 {
@@ -512,7 +515,10 @@
 "game": "KS Polonia Nysa vs Odra Bytom Odrzanski",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.13,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -727,7 +733,7 @@
 "odds": 1.11,
 "ts": 1795269600.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-1"
 },
 {
@@ -766,7 +772,10 @@
 "game": "KS Polonia Nysa vs Odra Bytom Odrzanski",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.13,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
