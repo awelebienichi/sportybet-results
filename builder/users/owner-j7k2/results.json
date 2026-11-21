@@ -2102,7 +2102,10 @@
 "game": "SSV Jeddeloh II vs SC Weiche Flensburg 08",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:30",
@@ -3455,7 +3458,10 @@
 "game": "SSV Jeddeloh II vs SC Weiche Flensburg 08",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
