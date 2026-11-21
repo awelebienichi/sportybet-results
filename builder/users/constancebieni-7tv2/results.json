@@ -674,14 +674,20 @@
 "game": "Chiangmai United vs Nakhon Pathom United FC",
 "pick": "Chiangmai United or Nakhon Pathom United FC",
 "odds": 1.05,
-"ts": 1795260600.0
+"ts": 1795260600.0,
+"r": "W",
+"sc": "2-5",
+"ht": "0-3"
 },
 {
 "t": "Sat 12:30",
 "game": "Chennaiyin FC vs Punjab FC",
 "pick": "Chennaiyin FC Under 2.5",
 "odds": 1.05,
-"ts": 1795260600.0
+"ts": 1795260600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 13:00",
@@ -789,7 +795,10 @@
 "game": "Chiangmai United vs Nakhon Pathom United FC",
 "pick": "Chiangmai United or Nakhon Pathom United FC",
 "odds": 1.05,
-"ts": 1795260600.0
+"ts": 1795260600.0,
+"r": "W",
+"sc": "2-5",
+"ht": "0-3"
 },
 {
 "t": "Sat 13:00",
