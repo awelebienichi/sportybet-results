@@ -1467,14 +1467,17 @@
 "when": "Fri 20 Nov 21:00",
 "kind": "strong team to score in the 1st half",
 "odds": 4823.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 04:00",
 "game": "Club Tijuana de Caliente vs Atlante FC",
 "pick": "Club Tijuana de Caliente to score in 1st half",
 "odds": 1.61,
-"ts": 1795230000.0
+"ts": 1795230000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:00",
