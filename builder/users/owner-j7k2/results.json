@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "P50HMZ",
+"at": 1795238832,
+"when": "Sat 21 Nov 06:27",
+"kind": "strong favourites to win",
+"odds": 1.19,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:15",
+"game": "Nejmeh SC vs AL Mabarrah",
+"pick": "Nejmeh SC to win",
+"odds": 1.13,
+"ts": 1795263300.0
+},
+{
+"t": "Sat 17:00",
+"game": "Pecsi MFC vs Sarbogard SE",
+"pick": "Pecsi MFC to win",
+"odds": 1.05,
+"ts": 1795276800.0
+}
+]
+},
+{
 "code": "ZLBCWJ",
 "at": 1795238760,
 "when": "Sat 21 Nov 06:25",
