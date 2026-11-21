@@ -2,6 +2,72 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PDCZ9P",
+"at": 1795250258,
+"when": "Sat 21 Nov 09:37",
+"kind": "your chosen markets",
+"odds": 4.22,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:00",
+"game": "SC Popesti Leordeni vs CSC 1599 Selimbar",
+"pick": "SC Popesti Leordeni to win (1UP)",
+"odds": 1.31,
+"ts": 1795251600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Southampton vs Derby County",
+"pick": "Southampton to win (1UP)",
+"odds": 1.21,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"pick": "Galatasaray Istanbul to win (1UP)",
+"odds": 1.1,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "NK Lokomotiva Zagreb vs HNK Hajduk Split",
+"pick": "HNK Hajduk Split to win (1UP)",
+"odds": 1.33,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Truro City vs Hemel Hempstead Town",
+"pick": "Truro City to win (1UP)",
+"odds": 1.24,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Brest vs Naftan Novopolotsk",
+"pick": "FC Brest to win (1UP)",
+"odds": 1.07,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 18:15",
+"game": "London City Lionesses vs Crystal Palace",
+"pick": "London City Lionesses to win (1UP)",
+"odds": 1.08,
+"ts": 1795281300.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "Rangers to win (1UP)",
+"odds": 1.27,
+"ts": 1795291200.0
+}
+]
+},
+{
 "code": "MWL4JP",
 "at": 1795240640,
 "when": "Sat 21 Nov 06:57",
