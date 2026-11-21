@@ -3036,7 +3036,10 @@
 "game": "Deportivo Mixco vs CD Malacateco",
 "pick": "1st half double chance Deportivo Mixco or draw",
 "odds": 1.11,
-"ts": 1795294800.0
+"ts": 1795294800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 23:00",
@@ -3344,7 +3347,10 @@
 "game": "Real Madrid vs Celta",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 }
 ]
 },
@@ -4228,7 +4234,7 @@
 "when": "Sat 21 Nov 09:37",
 "kind": "your chosen markets",
 "odds": 4.22,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 10:00",
@@ -4305,7 +4311,10 @@
 "game": "Motherwell FC vs Rangers",
 "pick": "Rangers to win (1UP)",
 "odds": 1.27,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 }
 ]
 },
