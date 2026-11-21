@@ -967,7 +967,10 @@
 "game": "FC Eindhoven vs RKC Waalwijk",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795275000.0
+"ts": 1795275000.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
@@ -1378,7 +1381,10 @@
 "game": "FC Eindhoven vs RKC Waalwijk",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1795275000.0
+"ts": 1795275000.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
