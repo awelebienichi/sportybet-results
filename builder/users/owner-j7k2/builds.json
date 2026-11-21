@@ -1,5 +1,65 @@
 [
 {
+"when": "Sat 21 Nov 06:33",
+"at": 1795239240,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h2o05",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpz2x2iy4qq"
+},
+"ok": true,
+"kind": "2nd half Over 0.5",
+"note": [
+"Chance all 2 legs win: about 73%."
+],
+"tickets": [
+{
+"code": "HDM5XU",
+"odds": 1.24,
+"legs": [
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"lg": "Germany - Bundesliga",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"why": "goal in the 2nd half in 100% of Eintracht Frankfurt's last 10 and 100% of Hoffenheim's last 10",
+"ts": 1795271400.0,
+"eid": "sr:match:72513314",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72513314|90|total=0.5|12"
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"lg": "Netherlands - Eredivisie",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"why": "goal in the 2nd half in 100% of Feyenoord's last 10 and 100% of Excelsior Rotterdam's last 10",
+"ts": 1795283100.0,
+"eid": "sr:match:72041256",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72041256|90|total=0.5|12"
+}
+],
+"chance": 0.7296
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:32",
 "at": 1795239170,
 "req": {
@@ -10843,15 +10903,5 @@
 "chance": 0.1061
 }
 ]
-},
-{
-"when": "Fri 20 Nov 07:17",
-"at": 1795155421,
-"req": {
-"type": "rollover",
-"rid": "mwol6mccn6dg"
-},
-"ok": false,
-"msg": "Today's rollover code is already out: J8KB6J"
 }
 ]
