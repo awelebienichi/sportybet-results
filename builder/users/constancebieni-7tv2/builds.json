@@ -1,5 +1,77 @@
 [
 {
+"when": "Sat 21 Nov 02:09",
+"at": 1795223365,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 5,
+"strict": "normal",
+"rid": "mwppmx8ap5xb"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 5).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 3 legs win: about 59%."
+],
+"tickets": [
+{
+"code": "KVF7EX",
+"odds": 1.47,
+"legs": [
+{
+"t": "Sat 00:30",
+"game": "CD Palestino vs Deportes Union La Calera",
+"lg": "Chile - Primera Division",
+"pick": "Handicap 1:0 \u2013 CD Palestino",
+"odds": 1.3,
+"why": "LIVE 0-0 76': CD Palestino expected 0.3 and Deportes Union La Calera 0.2 more goals (last 10 + season); 0-0 at 76' \u2013 85% chance; h2h 88% of 8 meetings",
+"ts": 1795217400.0,
+"eid": "sr:match:67682114",
+"mid": "14",
+"spec": "hcp=1:0",
+"oid": "1711",
+"k": "67682114|14|hcp=1:0|1711"
+},
+{
+"t": "Sat 00:35",
+"game": "CA Bucaramanga vs America de Cali",
+"lg": "Colombia - Liga DIMAYOR",
+"pick": "Under 5.5",
+"odds": 1.1,
+"why": "LIVE 2-2 71': CA Bucaramanga expected 0.3 and America de Cali 0.3 more goals (last 10 + season); 2-2 at 71' \u2013 86% chance; Flashscore home/away form 80%, FotMob: 2.3 goals a game, Vitibet tip 1-1, season: 2.5 goals a game, h2h 75% of 8 meetings (3.5 line)",
+"ts": 1795217700.0,
+"eid": "sr:match:76838158",
+"mid": "18",
+"spec": "total=5.5",
+"oid": "13",
+"k": "76838158|18|total=5.5|13"
+},
+{
+"t": "Sat 01:00",
+"game": "Rancho Santana FC vs Art Municipal Jalapa",
+"lg": "Nicaragua - Primera Division",
+"pick": "Art Municipal Jalapa Under 4.5",
+"odds": 1.03,
+"why": "LIVE 1-2 48': Rancho Santana FC expected 0.5 and Art Municipal Jalapa 0.7 more goals (last 10 + season); 1-2 at 48' \u2013 94% chance; goals record 100% / 90% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795219200.0,
+"eid": "sr:match:76880306",
+"mid": "20",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76880306|20|total=4.5|13"
+}
+],
+"chance": 0.5865
+}
+]
+},
+{
 "when": "Sat 21 Nov 02:08",
 "at": 1795223330,
 "req": {
@@ -5045,20 +5117,5 @@
 "chance": 0.419
 }
 ]
-},
-{
-"when": "Sun 15 Nov 14:01",
-"at": 1794747714,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "strict",
-"rid": "mwhudmqx3sgf"
-},
-"ok": false,
-"msg": "100 games are in play, but none fits that strategy right now (19 have no stats to judge them on). Try 'Best of all' or check back in a few minutes \u2013 the picture changes every few minutes."
 }
 ]
