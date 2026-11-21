@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-21",
+"day": 1,
+"code": "W0K7GX",
+"stake": 1000.0,
+"odds": 7.03,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-20",
 "day": 1,
 "code": "J8KB6J",
@@ -40,7 +49,7 @@
 "odds": 7.03,
 "stake": 1000.0,
 "n": 12,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-20",
 "short": "lower",
