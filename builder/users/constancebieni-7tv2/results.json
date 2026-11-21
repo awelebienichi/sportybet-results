@@ -275,14 +275,20 @@
 "game": "Lincoln City vs Wrexham AFC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
 "game": "Notts County vs Stevenage FC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -501,7 +507,10 @@
 "game": "Lincoln City vs Wrexham AFC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -758,7 +767,10 @@
 "game": "Lincoln City vs Wrexham AFC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
