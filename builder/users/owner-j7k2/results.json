@@ -665,7 +665,10 @@
 "game": "London City Lionesses vs Crystal Palace",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1795281300.0
+"ts": 1795281300.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:45",
@@ -2087,7 +2090,7 @@
 "odds": 1.74,
 "ts": 1795276800.0,
 "r": "W",
-"sc": "0-3",
+"sc": "1-3",
 "ht": "0-0"
 },
 {
