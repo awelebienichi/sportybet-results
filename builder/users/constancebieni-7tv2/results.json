@@ -2,6 +2,352 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "ZK49G7",
+"at": 1795294967,
+"when": "Sat 21 Nov 22:02",
+"kind": "strong team to score in the 1st half",
+"odds": 228114657.58,
+"status": "open",
+"legs": [
+{
+"t": "Sat 22:30",
+"game": "Deportivo Tachira vs Caracas FC",
+"pick": "Deportivo Tachira to score in 1st half",
+"odds": 1.59,
+"ts": 1795296600.0
+},
+{
+"t": "Sat 22:30",
+"game": "CD Universidad Catolica del Ecuador vs Barcelona SC",
+"pick": "CD Universidad Catolica del Ecuador to score in 1st half",
+"odds": 1.65,
+"ts": 1795296600.0
+},
+{
+"t": "Sun 00:30",
+"game": "Oriente Petrolero vs Independiente Petrolero",
+"pick": "Oriente Petrolero to score in 1st half",
+"odds": 1.41,
+"ts": 1795303800.0
+},
+{
+"t": "Sun 01:00",
+"game": "Chapecoense SC vs Cruzeiro EC MG",
+"pick": "Cruzeiro EC MG to score in 1st half",
+"odds": 1.51,
+"ts": 1795305600.0
+},
+{
+"t": "Sun 08:00",
+"game": "Shatin vs Eastern SC",
+"pick": "Eastern SC to score in 1st half",
+"odds": 1.57,
+"ts": 1795330800.0
+},
+{
+"t": "Sun 11:30",
+"game": "Batman Petrolspor vs Muglaspor",
+"pick": "Batman Petrolspor to score in 1st half",
+"odds": 1.56,
+"ts": 1795343400.0
+},
+{
+"t": "Sun 13:00",
+"game": "Burnley vs Blackburn Rovers",
+"pick": "Burnley to score in 1st half",
+"odds": 1.78,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:00",
+"game": "FK Pardubice vs FC Zbrojovka Brno",
+"pick": "FK Pardubice to score in 1st half",
+"odds": 1.68,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:30",
+"game": "Odds BK vs Bryne FK",
+"pick": "Odds BK to score in 1st half",
+"odds": 1.67,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"pick": "Barcelona to score in 1st half",
+"odds": 1.21,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Zurich vs FC St. Gallen 1879",
+"pick": "FC St. Gallen 1879 to score in 1st half",
+"odds": 1.57,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "Ajax to score in 1st half",
+"odds": 1.25,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "FC Dynamo-Makhachkala vs FK Spartak Moscow",
+"pick": "FK Spartak Moscow to score in 1st half",
+"odds": 1.56,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "SCR Altach vs Sturm Graz",
+"pick": "Sturm Graz to score in 1st half",
+"odds": 1.72,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "GNK Dinamo Zagreb vs NK Istra 1961",
+"pick": "GNK Dinamo Zagreb to score in 1st half",
+"odds": 1.28,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Dinamo Minsk vs FC Minsk",
+"pick": "FC Dinamo Minsk to score in 1st half",
+"odds": 1.37,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Etzella Ettelbruck vs FC Una Strassen",
+"pick": "FC Una Strassen to score in 1st half",
+"odds": 1.41,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"pick": "F91 Dudelange to score in 1st half",
+"odds": 1.38,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:15",
+"game": "Racing Santander vs Real Sociedad",
+"pick": "Real Sociedad to score in 1st half",
+"odds": 1.56,
+"ts": 1795360500.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "Trabzonspor to score in 1st half",
+"odds": 1.26,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bursaspor vs Sivasspor",
+"pick": "Bursaspor to score in 1st half",
+"odds": 1.32,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Rosenborg BK to score in 1st half",
+"odds": 1.45,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Alashkert Yerevan vs FC Noah Yerevan",
+"pick": "FC Noah Yerevan to score in 1st half",
+"odds": 1.81,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "HNK Rijeka vs HNK Gorica",
+"pick": "HNK Rijeka to score in 1st half",
+"odds": 1.47,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "Apollon Limassol to score in 1st half",
+"odds": 1.26,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "AC Milan to score in 1st half",
+"odds": 1.44,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "RC Celta Fortuna vs Valladolid",
+"pick": "Valladolid to score in 1st half",
+"odds": 1.76,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 21:00",
+"game": "Montego Bay United vs Waterhouse FC",
+"pick": "Montego Bay United to score in 1st half",
+"odds": 1.76,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"pick": "Nashville SC to score in 1st half",
+"odds": 1.42,
+"ts": 1795381200.0
+},
+{
+"t": "Mon 20:45",
+"game": "Calcio Lecco 1912 vs AC Lumezzane",
+"pick": "Calcio Lecco 1912 to score in 1st half",
+"odds": 1.62,
+"ts": 1795463100.0
+},
+{
+"t": "Tue 15:00",
+"game": "FK Akron Tolyatti vs CSKA Moscow",
+"pick": "CSKA Moscow to score in 1st half",
+"odds": 1.58,
+"ts": 1795528800.0
+},
+{
+"t": "Tue 18:45",
+"game": "Bodoe/Glimt vs LASK Linz",
+"pick": "Bodoe/Glimt to score in 1st half",
+"odds": 1.39,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 20:45",
+"game": "Carlisle United vs Tamworth FC",
+"pick": "Carlisle United to score in 1st half",
+"odds": 1.38,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Port Vale vs Northampton Town",
+"pick": "Port Vale to score in 1st half",
+"odds": 1.93,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Rangers vs Aberdeen",
+"pick": "Rangers to score in 1st half",
+"odds": 1.34,
+"ts": 1795550400.0
+},
+{
+"t": "Wed 12:00",
+"game": "FC Kryvbas Kriviy Rih vs FC Kharkiv",
+"pick": "FC Kharkiv to score in 1st half",
+"odds": 1.54,
+"ts": 1795604400.0
+},
+{
+"t": "Wed 18:45",
+"game": "Sabah Masazir vs Barcelona",
+"pick": "Barcelona to score in 1st half",
+"odds": 1.13,
+"ts": 1795628700.0
+},
+{
+"t": "Thu 17:30",
+"game": "FK Dinamo Moscow vs FC Fakel Voronezh",
+"pick": "FK Dinamo Moscow to score in 1st half",
+"odds": 1.51,
+"ts": 1795710600.0
+},
+{
+"t": "Thu 18:45",
+"game": "Ajax vs FC Thun",
+"pick": "Ajax to score in 1st half",
+"odds": 1.26,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "GNK Dinamo Zagreb vs Bayer Leverkusen",
+"pick": "Bayer Leverkusen to score in 1st half",
+"odds": 1.54,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "FK Jablonec vs Lugano",
+"pick": "Lugano to score in 1st half",
+"odds": 1.84,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 19:00",
+"game": "Aalborg BK vs Esbjerg FB",
+"pick": "Aalborg BK to score in 1st half",
+"odds": 1.6,
+"ts": 1795716000.0
+},
+{
+"t": "Thu 21:00",
+"game": "HNK Hajduk Split vs St. Truidense VV",
+"pick": "HNK Hajduk Split to score in 1st half",
+"odds": 1.83,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Maccabi Petah Tikva FC vs Hapoel Tel Aviv FC",
+"pick": "Hapoel Tel Aviv FC to score in 1st half",
+"odds": 1.49,
+"ts": 1795780800.0
+},
+{
+"t": "Fri 15:20",
+"game": "Al Qadsiah vs Al-Fayha FC",
+"pick": "Al Qadsiah to score in 1st half",
+"odds": 1.27,
+"ts": 1795789200.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Groningen vs Willem II Tilburg",
+"pick": "FC Groningen to score in 1st half",
+"odds": 1.29,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:15",
+"game": "Etoile Carouge FC vs Stade Lausanne Ouchy",
+"pick": "Stade Lausanne Ouchy to score in 1st half",
+"odds": 1.59,
+"ts": 1795806900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Coleraine FC vs Dungannon Swifts",
+"pick": "Coleraine FC to score in 1st half",
+"odds": 1.42,
+"ts": 1795808700.0
+}
+]
+},
+{
 "code": "PK3G0E",
 "at": 1795284518,
 "when": "Sat 21 Nov 19:08",
