@@ -152,7 +152,10 @@
 "game": "FC Utrecht vs SC Cambuur",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 19:00",
@@ -1182,7 +1185,10 @@
 "game": "FC Utrecht vs SC Cambuur",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 19:30",
@@ -1408,7 +1414,10 @@
 "game": "FC Utrecht vs SC Cambuur",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 19:00",
@@ -2153,7 +2162,10 @@
 "game": "CD Fas vs CD Cacahuatique",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "4-1",
+"ht": "4-1"
 },
 {
 "t": "Sat 19:30",
@@ -3520,7 +3532,7 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 40.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:30",
@@ -3588,7 +3600,10 @@
 "game": "FC Utrecht vs SC Cambuur",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 20:00",
@@ -4999,7 +5014,10 @@
 "game": "FC Utrecht vs SC Cambuur",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795283100.0
+"ts": 1795283100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:45",
@@ -5162,8 +5180,8 @@
 "odds": 1.58,
 "ts": 1795278600.0,
 "r": "W",
-"sc": "1-2",
-"ht": ""
+"sc": "2-2",
+"ht": "1-2"
 },
 {
 "t": "Sat 17:45",
