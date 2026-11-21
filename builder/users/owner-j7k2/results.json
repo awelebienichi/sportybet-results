@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "L4MAPW",
+"at": 1795239591,
+"when": "Sat 21 Nov 06:39",
+"kind": "goal-fest teams (season data)",
+"odds": 1.65,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "1 FC Slovacko vs SK Dynamo Ceske Budejovice",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795262400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795269600.0
+}
+]
+},
+{
 "code": "X39FFD",
 "at": 1795239506,
 "when": "Sat 21 Nov 06:38",
