@@ -247,14 +247,17 @@
 "when": "Sat 21 Nov 06:57",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 5465.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 09:00",
 "game": "Mamelodi Sundowns vs Golden Arrows",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795248000.0
+"ts": 1795248000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 10:00",
@@ -3109,14 +3112,17 @@
 "when": "Fri 20 Nov 20:46",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 2347.1,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 09:00",
 "game": "Mamelodi Sundowns vs Golden Arrows",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795248000.0
+"ts": 1795248000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 11:00",
