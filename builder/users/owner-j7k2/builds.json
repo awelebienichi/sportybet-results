@@ -1,5 +1,28 @@
 [
 {
+"when": "Sat 21 Nov 06:44",
+"at": 1795239841,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwpzfz20tt1f"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Sat 21). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Sat 21 Nov 06:43",
 "at": 1795239782,
 "req": {
@@ -9069,119 +9092,6 @@
 }
 ],
 "chance": 0.8503
-}
-]
-},
-{
-"when": "Fri 20 Nov 11:57",
-"at": 1795172241,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwov6yiih2af"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 6 legs win: about 58%."
-],
-"tickets": [
-{
-"code": "G0H3D9",
-"odds": 1.29,
-"legs": [
-{
-"t": "Fri 10:00",
-"game": "Js Djijel vs MO Constantine",
-"lg": "Algeria - U20 Coupe de Algerie",
-"pick": "Under 4.5",
-"odds": 1.03,
-"why": "LIVE 1-1 74': no team stats for this game \u2013 SportyBet's own price says 92%",
-"ts": 1795165200.0,
-"eid": "sr:match:76943004",
-"mid": "18",
-"spec": "total=4.5",
-"oid": "13",
-"k": "76943004|18|total=4.5|13"
-},
-{
-"t": "Fri 10:30",
-"game": "Rajasthan United vs Chanmari FC",
-"lg": "India - IFL",
-"pick": "Rajasthan United or Chanmari FC",
-"odds": 1.06,
-"why": "LIVE 1-3 68': Rajasthan United expected 0.3 and Chanmari FC 0.6 more goals (last 10); 1-3 at 68' \u2013 97% chance",
-"ts": 1795167000.0,
-"eid": "sr:match:75834484",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "75834484|10||10"
-},
-{
-"t": "Fri 11:00",
-"game": "Kashima Antlers vs Shimizu S-Pulse",
-"lg": "Japan - J1 League",
-"pick": "Handicap 0:3 \u2013 Shimizu S-Pulse",
-"odds": 1.04,
-"why": "LIVE 0-0 45': Kashima Antlers expected 1.0 and Shimizu S-Pulse 0.6 more goals (last 10 + season); 0-0 at 45' \u2013 93% chance; margin record 80% / 80% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1795168800.0,
-"eid": "sr:match:72149874",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "72149874|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 11:00",
-"game": "FC Master Saturn vs FC Baltika Kaliningrad",
-"lg": "Russia - MFL, Division B",
-"pick": "FC Baltika Kaliningrad Under 3.5",
-"odds": 1.03,
-"why": "LIVE 0-1 45': FC Master Saturn expected 1.0 and FC Baltika Kaliningrad 0.9 more goals (last 10); 0-1 at 45' \u2013 92% chance",
-"ts": 1795168800.0,
-"eid": "sr:match:76848890",
-"mid": "20",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76848890|20|total=3.5|13"
-},
-{
-"t": "Fri 11:00",
-"game": "Kashiwa Reysol vs JEF United Chiba",
-"lg": "Japan - J1 League",
-"pick": "Handicap 0:3 \u2013 JEF United Chiba",
-"odds": 1.06,
-"why": "LIVE 0-0 45': Kashiwa Reysol expected 1.0 and JEF United Chiba 0.7 more goals (last 10 + season); 0-0 at 45' \u2013 93% chance; margin record 80% / 100% in both sides' last games, h2h 88% of 8 meetings",
-"ts": 1795168800.0,
-"eid": "sr:match:72149876",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "72149876|14|hcp=0:3|1713"
-},
-{
-"t": "Fri 11:30",
-"game": "Imisli FK vs Zira FK",
-"lg": "Azerbaijan - Premier League",
-"pick": "Handicap 3:0 \u2013 Imisli FK",
-"odds": 1.04,
-"why": "LIVE 0-0 26': Imisli FK expected 1.0 and Zira FK 1.1 more goals (last 10 + season); 0-0 at 26' \u2013 94% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 4 meetings",
-"ts": 1795170600.0,
-"eid": "sr:match:73409334",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "73409334|14|hcp=3:0|1711"
-}
-],
-"chance": 0.5788
 }
 ]
 }
