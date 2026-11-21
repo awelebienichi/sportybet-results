@@ -160,7 +160,7 @@
 "when": "Sat 21 Nov 15:27",
 "kind": "Under 2.5 (low-scoring leagues)",
 "odds": 206.83,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -188,7 +188,10 @@
 "game": "Atzeneta UE vs CF Villarreal C",
 "pick": "Under 2.5",
 "odds": 1.66,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
@@ -268,7 +271,7 @@
 "when": "Sat 21 Nov 15:26",
 "kind": "Under 2.5 (low-scoring leagues)",
 "odds": 1872.43,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -296,7 +299,10 @@
 "game": "Atzeneta UE vs CF Villarreal C",
 "pick": "Under 2.5",
 "odds": 1.66,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
