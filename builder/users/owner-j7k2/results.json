@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HDM5XU",
+"at": 1795239240,
+"when": "Sat 21 Nov 06:33",
+"kind": "2nd half Over 0.5",
+"odds": 1.24,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"ts": 1795283100.0
+}
+]
+},
+{
 "code": "VWWAHC",
 "at": 1795239085,
 "when": "Sat 21 Nov 06:31",
