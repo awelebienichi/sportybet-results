@@ -1,5 +1,66 @@
 [
 {
+"when": "Sat 21 Nov 06:30",
+"at": 1795239029,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "smallfav",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpyygcdm0mj"
+},
+"ok": true,
+"kind": "smallest-odds favourites to win",
+"note": [
+"6 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 2 legs win: about 76%."
+],
+"tickets": [
+{
+"code": "P50HMZ",
+"odds": 1.19,
+"legs": [
+{
+"t": "Sat 13:15",
+"game": "Nejmeh SC vs AL Mabarrah",
+"lg": "Lebanon - Premier League",
+"pick": "Nejmeh SC to win",
+"odds": 1.13,
+"why": "won 70% lost 10% of last 10, rival lost 80%; Flashscore home/away form 75%",
+"ts": 1795263300.0,
+"eid": "sr:match:75019718",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "75019718|1||1"
+},
+{
+"t": "Sat 17:00",
+"game": "Pecsi MFC vs Sarbogard SE",
+"lg": "Hungary - NB III",
+"pick": "Pecsi MFC to win",
+"odds": 1.05,
+"why": "won 70% lost 10% of last 10, rival lost 70%; Flashscore home/away form 90%, season: won 80%, rival lost 73%",
+"ts": 1795276800.0,
+"eid": "sr:match:72880690",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72880690|1||1"
+}
+],
+"chance": 0.7645
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:28",
 "at": 1795238898,
 "req": {
@@ -11275,238 +11336,6 @@
 }
 ],
 "chance": 0.0003
-}
-]
-},
-{
-"when": "Fri 20 Nov 02:51",
-"at": 1795139500,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25yw",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-19",
-"2026-11-20",
-"2026-11-21",
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwobp96hrbna"
-},
-"ok": true,
-"kind": "Over 2.5 (strong teams in youth & women's leagues)",
-"note": [
-"Only 14 games passed the checks (Thu 19, Fri 20, Sat 21, Sun 22, 1484 games on SportyBet), so this ticket has 14 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Chance all 14 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "W47KNU",
-"odds": 125.22,
-"legs": [
-{
-"t": "Fri 19:30",
-"game": "KV RS Waasland Beveren vs Jeugd Lierse Kempenzonen",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "strong side KV RS Waasland Beveren (win 1.47) scores 4.2 a game, 100% of its games over 2.5; Jeugd Lierse Kempenzonen concedes 2.5 a game; 62% of 8 meetings over; Flashscore home/away form 90%, season: 5.1 goals a game",
-"ts": 1795199400.0,
-"eid": "sr:match:73831616",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73831616|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "RFC Liege vs KVC Westerlo",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "strong side KVC Westerlo (win 1.3) scores 2.7 a game, 90% of its games over 2.5; RFC Liege concedes 3.3 a game; 100% of 7 meetings over; Flashscore home/away form 80%",
-"ts": 1795201200.0,
-"eid": "sr:match:73831512",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73831512|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Eintracht Frankfurt vs Hamburger SV",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.25,
-"why": "strong side Eintracht Frankfurt (win 1.16) scores 2.8 a game, 70% of its games over 2.5; Hamburger SV concedes 2.0 a game; 75% of 8 meetings over; Flashscore home/away form 55%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
-"ts": 1795258800.0,
-"eid": "sr:match:72961100",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961100|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "FC Barcelona vs CF Badalona",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "strong side FC Barcelona (win 1.06) scores 2.8 a game, 60% of its games over 2.5; CF Badalona concedes 1.7 a game; season: 4.5 goals a game",
-"ts": 1795258800.0,
-"eid": "sr:match:72883770",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72883770|18|total=2.5|12"
-},
-{
-"t": "Sat 14:30",
-"game": "Sampdoria Genoa vs Pro Vercelli 1892",
-"lg": "Italy - Primavera 2",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "strong side Sampdoria Genoa (win 1.4) scores 3.1 a game, 90% of its games over 2.5; Pro Vercelli 1892 concedes 1.5 a game; 75% of 8 meetings over; Flashscore home/away form 80%",
-"ts": 1795267800.0,
-"eid": "sr:match:73711530",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73711530|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Merida vs Atletico Madrid",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "strong side Atletico Madrid (win 1.22) scores 2.7 a game, 80% of its games over 2.5; Merida concedes 2.4 a game; season: 3.7 goals a game",
-"ts": 1795273200.0,
-"eid": "sr:match:72884882",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72884882|18|total=2.5|12"
-},
-{
-"t": "Sat 17:00",
-"game": "SD Eibar vs Atletico Madrid W",
-"lg": "Spain - Primera Division Women",
-"pick": "Over 2.5",
-"odds": 1.79,
-"why": "strong side Atletico Madrid W (win 1.32) scores 2.2 a game, 70% of its games over 2.5; SD Eibar concedes 1.5 a game; 62% of 8 meetings over; Flashscore home/away form 65%",
-"ts": 1795276800.0,
-"eid": "sr:match:72491460",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72491460|18|total=2.5|12"
-},
-{
-"t": "Sat 17:45",
-"game": "Malaga CF vs Real Betis Balompie",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "strong side Real Betis Balompie (win 1.62) scores 3.3 a game, 80% of its games over 2.5; Malaga CF concedes 1.6 a game; season: 4.3 goals a game",
-"ts": 1795279500.0,
-"eid": "sr:match:72884328",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72884328|18|total=2.5|12"
-},
-{
-"t": "Sat 18:15",
-"game": "London City Lionesses vs Crystal Palace",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "strong side London City Lionesses (win 1.11) scores 2.3 a game, 70% of its games over 2.5; Crystal Palace concedes 2.2 a game; 80% of 5 meetings over; Flashscore home/away form 65%, FotMob: 3.4 goals a game, Vitibet tip 3-1",
-"ts": 1795281300.0,
-"eid": "sr:match:73346130",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346130|18|total=2.5|12"
-},
-{
-"t": "Sun 12:00",
-"game": "Granada CF vs Real Madrid W",
-"lg": "Spain - Primera Division Women",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "strong side Real Madrid W (win 1.24) scores 2.2 a game, 80% of its games over 2.5; Granada CF concedes 1.3 a game; 83% of 6 meetings over",
-"ts": 1795345200.0,
-"eid": "sr:match:72491466",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72491466|18|total=2.5|12"
-},
-{
-"t": "Sun 12:30",
-"game": "Fcf Como vs AS Roma W",
-"lg": "Italy - Serie A, Women",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "strong side AS Roma W (win 1.4) scores 2.9 a game, 90% of its games over 2.5; Fcf Como concedes 1.1 a game; 62% of 8 meetings over; FotMob: 3.6 goals a game",
-"ts": 1795347000.0,
-"eid": "sr:match:73095062",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73095062|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "RB Leipzig vs VfL Wolfsburg W",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.21,
-"why": "strong side VfL Wolfsburg W (win 1.17) scores 4.0 a game, 90% of its games over 2.5; RB Leipzig concedes 1.9 a game; 67% of 6 meetings over; FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72961102",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961102|18|total=2.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "CD Tenerife vs Madrid CFF",
-"lg": "Spain - Primera Division Women",
-"pick": "Over 2.5",
-"odds": 1.69,
-"why": "strong side CD Tenerife (win 1.63) scores 1.7 a game, 70% of its games over 2.5; Madrid CFF concedes 2.4 a game; 50% of 8 meetings over; FotMob: 3.5 goals a game",
-"ts": 1795363200.0,
-"eid": "sr:match:72491456",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72491456|18|total=2.5|12"
-},
-{
-"t": "Sun 20:30",
-"game": "Lazio Rome vs Juventus Turin W",
-"lg": "Italy - Serie A, Women",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "strong side Juventus Turin W (win 1.59) scores 2.1 a game, 90% of its games over 2.5; Lazio Rome concedes 1.4 a game; 62% of 8 meetings over",
-"ts": 1795375800.0,
-"eid": "sr:match:73095066",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73095066|18|total=2.5|12"
-}
-],
-"chance": 0.004
 }
 ]
 }
