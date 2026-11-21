@@ -882,7 +882,10 @@
 "game": "Farnborough FC vs Salisbury FC",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1289,7 +1292,10 @@
 "game": "Farnborough FC vs Salisbury FC",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1530,7 +1536,10 @@
 "game": "Farnborough FC vs Salisbury FC",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4455,7 +4464,10 @@
 "game": "Farnborough FC vs Salisbury FC",
 "pick": "Salisbury FC to score in 1st half",
 "odds": 1.55,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
