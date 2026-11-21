@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QXDANB",
+"at": 1795238562,
+"when": "Sat 21 Nov 06:22",
+"kind": "safest market per game",
+"odds": 1.24,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:30",
+"game": "Migori Youth FC vs Leopards SC",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"ts": 1795283100.0
+}
+]
+},
+{
 "code": "P1RL3T",
 "at": 1795224499,
 "when": "Sat 21 Nov 02:28",
