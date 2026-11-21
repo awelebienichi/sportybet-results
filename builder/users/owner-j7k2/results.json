@@ -2,6 +2,191 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NAVRCC",
+"at": 1795269300,
+"when": "Sat 21 Nov 14:54",
+"kind": "goal-fest teams (season data)",
+"odds": 4332.64,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 15:45",
+"game": "Real Sporting de Gijon vs Victoria CF",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795272300.0
+},
+{
+"t": "Sat 16:00",
+"game": "FC Naters Oberwallis vs Servette FC ",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merida vs Atletico Madrid",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Quorn FC vs Avro FC",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Workington AFC vs Gainsborough Trinity",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Whitby Town vs Leek Town FC",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Chertsey Town",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cray Wanderers vs Whitehawk FC",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bury FC vs Redcar Athletic FC",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "St Albans City vs AFC Whyteleafe",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dartford FC vs Leatherhead FC",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Ebbsfleet United FC",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:00",
+"game": "UD Logrones Promesas vs Danok Bat",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:45",
+"game": "Malaga CF vs Real Betis Balompie",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795279500.0
+},
+{
+"t": "Sat 18:00",
+"game": "Lugano vs Grasshopper Club Zurich",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Hzvv Hoogeveen vs SV Dvs 33 Ermelo",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:15",
+"game": "London City Lionesses vs Crystal Palace",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795281300.0
+},
+{
+"t": "Sat 18:45",
+"game": "FC Utrecht vs SC Cambuur",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 19:00",
+"game": "US Quevilly-Rouen Metropole vs Paris Saint-Germain FC",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Prishtina Bern vs Lancy FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:30",
+"game": "Dongen vs RBC Roosendaal",
+"pick": "Over 3.5",
+"odds": 1.65,
+"ts": 1795285800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Saltillo Soccer FC vs Halcones Negros FC",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795298400.0
+}
+]
+},
+{
 "code": "UDGTQ9",
 "at": 1795257721,
 "when": "Sat 21 Nov 11:41",
@@ -177,7 +362,7 @@
 "odds": 1.18,
 "ts": 1795264200.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
@@ -513,7 +698,10 @@
 "game": "CR Vasco da Gama RJ vs CR Flamengo RJ",
 "pick": "Over 2.5",
 "odds": 1.64,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -2738,7 +2926,10 @@
 "game": "Inter Milano U23 vs Potenza Calcio",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795267800.0
+"ts": 1795267800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -3053,7 +3244,7 @@
 "odds": 1.92,
 "ts": 1795262400.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -3277,7 +3468,10 @@
 "game": "PFC Nasaf vs PFK Mash AL Mubarek",
 "pick": "PFC Nasaf to win",
 "odds": 1.07,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -3607,7 +3801,10 @@
 "game": "CR Vasco da Gama RJ vs CR Flamengo RJ",
 "pick": "Over 2.5",
 "odds": 1.64,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:30",

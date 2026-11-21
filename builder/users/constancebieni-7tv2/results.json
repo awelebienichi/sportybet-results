@@ -701,7 +701,10 @@
 "game": "Diosgyori VTK Miskolc vs Astra HFC Budapest",
 "pick": "Diosgyori VTK Miskolc Under 2.5",
 "odds": 1.04,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:00",
@@ -722,7 +725,10 @@
 "game": "Hannover 96 vs Greuther Furth",
 "pick": "Handicap 0:2 \u2013 Greuther Furth",
 "odds": 1.05,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:00",
@@ -736,7 +742,10 @@
 "game": "1 FC Nuremberg vs Eintracht Braunschweig",
 "pick": "Handicap 0:4 \u2013 Eintracht Braunschweig",
 "odds": 1.03,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
@@ -760,7 +769,10 @@
 "game": "Bhayangkara Presisi Indonesia FC vs Persijap Jepara",
 "pick": "Handicap 0:4 \u2013 Persijap Jepara",
 "odds": 1.07,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
@@ -815,14 +827,20 @@
 "game": "1 FC Nuremberg vs Eintracht Braunschweig",
 "pick": "Eintracht Braunschweig Under 2.5",
 "odds": 1.03,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
 "game": "Diosgyori VTK Miskolc vs Astra HFC Budapest",
 "pick": "Diosgyori VTK Miskolc Under 2.5",
 "odds": 1.04,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:00",
@@ -836,7 +854,10 @@
 "game": "Hannover 96 vs Greuther Furth",
 "pick": "Handicap 0:2 \u2013 Greuther Furth",
 "odds": 1.05,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:00",
