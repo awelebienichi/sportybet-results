@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SUVPSC",
+"at": 1795269437,
+"when": "Sat 21 Nov 14:57",
+"kind": "1st half Over 0.5",
+"odds": 42.03,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Aldershot Town FC vs Scunthorpe United",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Farnborough FC vs Salisbury FC",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Worthing FC vs Harrogate Town",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Hereford FC vs Darlington FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "NEC Nijmegen vs PSV Eindhoven",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Eindhoven vs RKC Waalwijk",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Brest vs Naftan Novopolotsk",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795276800.0
+},
+{
+"t": "Sat 17:15",
+"game": "Nice vs PSG",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795277700.0
+},
+{
+"t": "Sat 18:00",
+"game": "De Treffers Groesbeek vs Kozakken Boys Werkendam",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Vaalerenga IF vs IK Start",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 18:45",
+"game": "FC Utrecht vs SC Cambuur",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 19:30",
+"game": "Grazer AK 1902 vs SK Rapid",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795285800.0
+},
+{
+"t": "Sat 20:00",
+"game": "CSD Xelaju MC vs CD Suchitepequez",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795287600.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795291200.0
+}
+]
+},
+{
 "code": "NAVRCC",
 "at": 1795269300,
 "when": "Sat 21 Nov 14:54",
