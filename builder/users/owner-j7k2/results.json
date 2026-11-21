@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "K0PFYK",
+"at": 1795238683,
+"when": "Sat 21 Nov 06:24",
+"kind": "your tracker's best markets",
+"odds": 1.17,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:30",
+"game": "1 FC Nuremberg vs Greuther Furth",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795253400.0
+},
+{
+"t": "Sat 13:00",
+"game": "CS Tunari vs FC Petrolul Berca",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795262400.0
+}
+]
+},
+{
 "code": "QXDANB",
 "at": 1795238562,
 "when": "Sat 21 Nov 06:22",
