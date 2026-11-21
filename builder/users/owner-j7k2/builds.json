@@ -1,5 +1,68 @@
 [
 {
+"when": "Sat 21 Nov 06:47",
+"at": 1795240064,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"wu25"
+],
+"rid": "mwpzkk9wem1u"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 2 legs win: about 79%."
+],
+"tickets": [
+{
+"code": "G788HV",
+"odds": 1.14,
+"legs": [
+{
+"t": "Sat 14:30",
+"game": "Vado FC vs Latina Calcio",
+"lg": "Italy - Serie C, Group B",
+"pick": "Vado FC Under 2.5 goals",
+"odds": 1.06,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1795267800.0,
+"eid": "sr:match:73294116",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73294116|19|total=2.5|13"
+},
+{
+"t": "Sat 17:30",
+"game": "ASD Pineto Calcio vs Delfino Pescara",
+"lg": "Italy - Serie C, Group B",
+"pick": "ASD Pineto Calcio Under 2.5 goals",
+"odds": 1.08,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings",
+"ts": 1795278600.0,
+"eid": "sr:match:73294110",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73294110|19|total=2.5|13"
+}
+],
+"chance": 0.7923
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:46",
 "at": 1795240003,
 "req": {
@@ -8531,78 +8594,6 @@
 }
 ],
 "chance": 0.0499
-}
-]
-},
-{
-"when": "Fri 20 Nov 13:39",
-"at": 1795178346,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "goals",
-"legs": 10,
-"strict": "normal",
-"rid": "mwoytw91egeq"
-},
-"ok": true,
-"kind": "live \u2013 another goal coming",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 3 legs win: about 56%."
-],
-"tickets": [
-{
-"code": "NVM9VF",
-"odds": 1.56,
-"legs": [
-{
-"t": "Fri 12:35",
-"game": "Beijing Guoan vs Shanghai Port FC",
-"lg": "China - FA Cup",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "LIVE 0-1 45': Beijing Guoan expected 1.0 and Shanghai Port FC 1.2 more goals (last 10); 0-1 at 45' \u2013 85% chance; Flashscore home/away form 85%, h2h 88% of 8 meetings (1.5 line)",
-"ts": 1795174500.0,
-"eid": "sr:match:74297732",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74297732|18|total=1.5|12"
-},
-{
-"t": "Fri 13:00",
-"game": "CSM Pascani vs CS Gheorgheni",
-"lg": "Romania - Liga 3",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "LIVE 1-0 39': CSM Pascani expected 1.0 and CS Gheorgheni 1.0 more goals (last 10 + season); 1-0 at 39' \u2013 83% chance; Flashscore home/away form 85%, season: 3.4 goals a game",
-"ts": 1795176000.0,
-"eid": "sr:match:74085816",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74085816|18|total=1.5|12"
-},
-{
-"t": "Fri 13:00",
-"game": "CSC Ghiroda SI Giarmata Vii vs CSM Unirea Alba Iulia",
-"lg": "Romania - Liga 3",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "LIVE 0-1 37': CSC Ghiroda SI Giarmata Vii expected 0.7 and CSM Unirea Alba Iulia 1.3 more goals (last 10 + season); 0-1 at 37' \u2013 83% chance; Flashscore home/away form 90%, season: 3.1 goals a game, h2h 67% of 3 meetings (1.5 line)",
-"ts": 1795176000.0,
-"eid": "sr:match:74089510",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74089510|18|total=1.5|12"
-}
-],
-"chance": 0.5645
 }
 ]
 }
