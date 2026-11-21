@@ -2070,7 +2070,10 @@
 "game": "Hannover 96 II vs SV Drochtersen/Assel",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -3213,7 +3216,7 @@
 "odds": 1.48,
 "ts": 1795269600.0,
 "r": "W",
-"sc": "2-3",
+"sc": "2-4",
 "ht": "2-1"
 },
 {
@@ -3570,7 +3573,7 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 21.51,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -3607,7 +3610,10 @@
 "game": "Hannover 96 II vs SV Drochtersen/Assel",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -3848,7 +3854,10 @@
 "game": "Hannover 96 II vs SV Drochtersen/Assel",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -4028,7 +4037,10 @@
 "game": "Hannover 96 II vs SV Drochtersen/Assel",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
