@@ -1,5 +1,318 @@
 [
 {
+"when": "Sat 21 Nov 15:33",
+"at": 1795271599,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwqick5p5yu7"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 20 games passed the checks (Sat 21, 464 games on SportyBet), so this ticket has 20 legs instead of 40. Tick more days or use 'Relaxed' for more.",
+"Chance all 20 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "M64825",
+"odds": 706.25,
+"legs": [
+{
+"t": "Sat 16:00",
+"game": "FC Naters Oberwallis vs Servette FC ",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "season: 4.2 and 3.6 goals a game (14/14 games); last 10 rate 85%; Flashscore home/away form 85%, season: 3.9 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72525492",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72525492|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"lg": "Scotland - League 2",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 4.1 and 3.6 goals a game (14/14 games); last 10 rate 85%; Flashscore home/away form 90%, FotMob: 3.9 goals a game, Vitibet tip 3-1, season: 3.9 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72204346",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72204346|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Merida vs Atletico Madrid",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "season: 3.6 and 3.9 goals a game (9/9 games); last 10 rate 79%; season: 3.7 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72884882",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72884882|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Quorn FC vs Avro FC",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "season: 4.3 and 4.2 goals a game (18/18 games); last 10 rate 80%; Flashscore home/away form 75%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:73018728",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73018728|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Chertsey Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 4.4 and 3.6 goals a game (15/17 games); last 10 rate 75%; Flashscore home/away form 70%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:73025194",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73025194|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Plymouth Parkway vs Malvern Town",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 3.4 and 4.1 goals a game (16/16 games); last 10 rate 75%; Flashscore home/away form 75%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:73025190",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73025190|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Whitby Town vs Leek Town FC",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 4.1 and 4.3 goals a game (19/17 games); last 10 rate 80%; Flashscore home/away form 75%, FotMob: 4.2 goals a game, season: 4.2 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:73018734",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73018734|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Leiston FC vs Leighton Town",
+"lg": "England Amateur - Southern League Premier Central",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "season: 3.8 and 3.4 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 65%, FotMob: 3.6 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:73022142",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73022142|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Worthing FC vs Harrogate Town",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 3.5 and 3.6 goals a game (17/17 games); last 10 rate 75%; Flashscore home/away form 65%, FotMob: 3.5 goals a game",
+"ts": 1795273200.0,
+"eid": "sr:match:72740834",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740834|18|total=2.5|12"
+},
+{
+"t": "Sat 17:00",
+"game": "LASK Linz vs TSV Hartberg",
+"lg": "Austria - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 3.8 and 3.5 goals a game (12/12 games); last 10 rate 85%; Flashscore home/away form 85%, FotMob: 3.6 goals a game",
+"ts": 1795276800.0,
+"eid": "sr:match:72345580",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72345580|18|total=2.5|12"
+},
+{
+"t": "Sat 17:00",
+"game": "UD Logrones Promesas vs Danok Bat",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 4.0 and 3.7 goals a game (9/9 games); last 10 rate 85%; season: 3.8 goals a game",
+"ts": 1795276800.0,
+"eid": "sr:match:72883226",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72883226|18|total=2.5|12"
+},
+{
+"t": "Sat 17:45",
+"game": "Malaga CF vs Real Betis Balompie",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 4.2 and 4.4 goals a game (11/11 games); last 10 rate 85%; season: 4.3 goals a game",
+"ts": 1795279500.0,
+"eid": "sr:match:72884328",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72884328|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Young Boys Bern vs FC Thun",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "season: 5.1 and 4.9 goals a game (13/13 games); last 10 rate 80%; Flashscore home/away form 90%, FotMob: 5.0 goals a game, season: 5.0 goals a game",
+"ts": 1795280400.0,
+"eid": "sr:match:74379718",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379718|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Lugano vs Grasshopper Club Zurich",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 3.9 and 3.5 goals a game (13/13 games); last 10 rate 80%; Flashscore home/away form 70%, FotMob: 3.7 goals a game",
+"ts": 1795280400.0,
+"eid": "sr:match:74379720",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379720|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Hzvv Hoogeveen vs SV Dvs 33 Ermelo",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 4.5 and 3.4 goals a game (13/13 games); last 10 rate 80%; Flashscore home/away form 70%, season: 3.9 goals a game",
+"ts": 1795280400.0,
+"eid": "sr:match:72595576",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72595576|18|total=2.5|12"
+},
+{
+"t": "Sat 18:45",
+"game": "FC Utrecht vs SC Cambuur",
+"lg": "Netherlands - Eredivisie",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "season: 4.6 and 4.3 goals a game (12/12 games); last 10 rate 75%; Flashscore home/away form 65%, FotMob: 4.5 goals a game, season: 4.5 goals a game, CompactStats 70% (bookmaker 67%)",
+"ts": 1795283100.0,
+"eid": "sr:match:72041254",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72041254|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "US Quevilly-Rouen Metropole vs Paris Saint-Germain FC",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.23,
+"why": "season: 4.5 and 4.4 goals a game (11/10 games); last 10 rate 75%; season: 4.5 goals a game",
+"ts": 1795284000.0,
+"eid": "sr:match:73111656",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111656|18|total=2.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "FC Prishtina Bern vs Lancy FC",
+"lg": "Switzerland - 1. Liga Classic",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 3.6 and 3.6 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 85%",
+"ts": 1795284000.0,
+"eid": "sr:match:72525490",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72525490|18|total=2.5|12"
+},
+{
+"t": "Sat 19:30",
+"game": "Dongen vs RBC Roosendaal",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 3.5",
+"odds": 1.65,
+"why": "season: 4.2 and 4.5 goals a game (13/12 games); last 10 rate 84%; Flashscore home/away form 65%",
+"ts": 1795285800.0,
+"eid": "sr:match:72596250",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "12",
+"k": "72596250|18|total=3.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Saltillo Soccer FC vs Halcones Negros FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "season: 4.3 and 3.8 goals a game (12/12 games); last 10 rate 85%; Flashscore home/away form 83%, season: 4.1 goals a game",
+"ts": 1795298400.0,
+"eid": "sr:match:74063626",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063626|18|total=2.5|12"
+}
+],
+"chance": 0.0005
+}
+]
+},
+{
 "when": "Sat 21 Nov 15:27",
 "at": 1795271232,
 "req": {
@@ -8442,128 +8755,6 @@
 }
 ],
 "chance": 0.0001
-}
-]
-},
-{
-"when": "Fri 20 Nov 20:58",
-"at": 1795204723,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 25,
-"tickets": 1,
-"days": [
-"2026-11-20",
-"2026-11-21"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"win"
-],
-"rid": "mwpej7x6sucq"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 6 games passed the checks (Fri 20, Sat 21, 918 games on SportyBet), so this ticket has 6 legs instead of 25. Tick more days or use 'Relaxed' for more.",
-"Chance all 6 legs win: about 11%."
-],
-"tickets": [
-{
-"code": "QNTX9E",
-"odds": 6.8,
-"legs": [
-{
-"t": "Sat 10:00",
-"game": "SC Popesti Leordeni vs CSC 1599 Selimbar",
-"lg": "Romania - Liga 2",
-"pick": "SC Popesti Leordeni to win",
-"odds": 1.56,
-"why": "stats rate 74% from both teams' last 10; Flashscore home/away form 75%, FotMob: 4th vs 19th of 22, Vitibet 71%, season: won 62%, rival lost 62%",
-"ts": 1795251600.0,
-"eid": "sr:match:73086750",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "73086750|1||1"
-},
-{
-"t": "Sat 13:15",
-"game": "Nejmeh SC vs AL Mabarrah",
-"lg": "Lebanon - Premier League",
-"pick": "Nejmeh SC to win",
-"odds": 1.2,
-"why": "stats rate 78% from both teams' last 10; Flashscore home/away form 75%",
-"ts": 1795263300.0,
-"eid": "sr:match:75019718",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75019718|1||1"
-},
-{
-"t": "Sat 14:00",
-"game": "Galatasaray Istanbul vs Samsunspor",
-"lg": "Turkiye - Super Lig",
-"pick": "Galatasaray Istanbul to win",
-"odds": 1.26,
-"why": "stats rate 79% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, FotMob: 1st vs 17th of 18, Vitibet 81%, season: won 82%, rival lost 73%",
-"ts": 1795266000.0,
-"eid": "sr:match:72723334",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "72723334|1||1"
-},
-{
-"t": "Sat 14:00",
-"game": "Bicskei Tc vs FC Tatabanya",
-"lg": "Hungary - NB III",
-"pick": "FC Tatabanya to win",
-"odds": 1.47,
-"why": "stats rate 73% from both teams' last 10 and 3 meetings; Flashscore home/away form 55%, season: won 69%, rival lost 50%",
-"ts": 1795266000.0,
-"eid": "sr:match:72879388",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "72879388|1||3"
-},
-{
-"t": "Sat 16:00",
-"game": "Plymouth Parkway vs Malvern Town",
-"lg": "England Amateur - Southern League Premier South",
-"pick": "Plymouth Parkway to win",
-"odds": 1.41,
-"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 90%, FotMob: 5th vs 22nd of 22",
-"ts": 1795273200.0,
-"eid": "sr:match:73025190",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "73025190|1||1"
-},
-{
-"t": "Sat 16:30",
-"game": "Real Zaragoza vs CF Rayo Majadahonda",
-"lg": "Spain - Primera Federacion",
-"pick": "Real Zaragoza to win",
-"odds": 1.39,
-"why": "stats rate 72% from both teams' last 10; Flashscore home/away form 50%, FotMob: 1st vs 19th of 20, season: won 67%, rival lost 75%",
-"ts": 1795275000.0,
-"eid": "sr:match:73068232",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "73068232|1||1"
-}
-],
-"chance": 0.1098
 }
 ]
 }
