@@ -2,6 +2,338 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "H20EW5",
+"at": 1795295295,
+"when": "Sat 21 Nov 22:08",
+"kind": "strong team to score in the 2nd half",
+"odds": 6862203.23,
+"status": "open",
+"legs": [
+{
+"t": "Sat 22:30",
+"game": "Deportivo Tachira vs Caracas FC",
+"pick": "Deportivo Tachira to score in 2nd half",
+"odds": 1.45,
+"ts": 1795296600.0
+},
+{
+"t": "Sun 06:00",
+"game": "Azul Claro Numazu vs YSCC Yokohama",
+"pick": "Azul Claro Numazu to score in 2nd half",
+"odds": 1.48,
+"ts": 1795323600.0
+},
+{
+"t": "Sun 12:00",
+"game": "FK Dinamo Moscow vs FK Krasnodar",
+"pick": "FK Dinamo Moscow to score in 2nd half",
+"odds": 1.6,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 13:00",
+"game": "Szentlorinc SE vs Kecskemeti TE",
+"pick": "Kecskemeti TE to score in 2nd half",
+"odds": 1.4,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:00",
+"game": "Persib Bandung vs Bali United FC",
+"pick": "Persib Bandung to score in 2nd half",
+"odds": 1.41,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:00",
+"game": "FK Pardubice vs FC Zbrojovka Brno",
+"pick": "FK Pardubice to score in 2nd half",
+"odds": 1.5,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 13:30",
+"game": "Energie Cottbus vs Hertha",
+"pick": "Hertha to score in 2nd half",
+"odds": 1.32,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"pick": "Barcelona to score in 2nd half",
+"odds": 1.15,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:45",
+"game": "GKS Katowice vs KKS Lech Poznan",
+"pick": "KKS Lech Poznan to score in 2nd half",
+"odds": 1.46,
+"ts": 1795355100.0
+},
+{
+"t": "Sun 16:00",
+"game": "KV Kortrijk vs Union Gilloise",
+"pick": "Union Gilloise to score in 2nd half",
+"odds": 1.37,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:15",
+"game": "Sporting Gijon vs Las Palmas",
+"pick": "Sporting Gijon to score in 2nd half",
+"odds": 1.64,
+"ts": 1795360500.0
+},
+{
+"t": "Sun 17:30",
+"game": "Liverpool vs Man Utd",
+"pick": "Liverpool to score in 2nd half",
+"odds": 1.41,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:30",
+"game": "RSC Anderlecht vs Oud-Heverlee Leuven",
+"pick": "RSC Anderlecht to score in 2nd half",
+"odds": 1.36,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Atalanta vs Inter",
+"pick": "Inter to score in 2nd half",
+"odds": 1.34,
+"ts": 1795376700.0
+},
+{
+"t": "Sun 21:45",
+"game": "SCU Torreense vs Benfica",
+"pick": "Benfica to score in 2nd half",
+"odds": 1.18,
+"ts": 1795380300.0
+},
+{
+"t": "Mon 02:00",
+"game": "Instituto AC Cordoba vs CA Huracan",
+"pick": "Instituto AC Cordoba to score in 2nd half",
+"odds": 1.84,
+"ts": 1795395600.0
+},
+{
+"t": "Mon 17:00",
+"game": "Ludogorets vs FC Dunav Ruse",
+"pick": "Ludogorets to score in 2nd half",
+"odds": 1.22,
+"ts": 1795449600.0
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"pick": "Fiorentina to score in 2nd half",
+"odds": 1.49,
+"ts": 1795463100.0
+},
+{
+"t": "Mon 23:30",
+"game": "Albion FC vs Danubio FC",
+"pick": "Albion FC to score in 2nd half",
+"odds": 1.64,
+"ts": 1795473000.0
+},
+{
+"t": "Tue 16:00",
+"game": "Zed FC vs Abo Qair Semads",
+"pick": "Zed FC to score in 2nd half",
+"odds": 1.74,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 19:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"pick": "Al Mokawloon Al Arab to score in 2nd half",
+"odds": 1.82,
+"ts": 1795543200.0
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"pick": "Fleetwood Town to score in 2nd half",
+"odds": 1.29,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Palermo FC vs FC Sudtirol Bolzano",
+"pick": "Palermo FC to score in 2nd half",
+"odds": 1.38,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bromley FC vs Wycombe Wanderers",
+"pick": "Wycombe Wanderers to score in 2nd half",
+"odds": 1.51,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Crawley Town vs Barnet FC",
+"pick": "Barnet FC to score in 2nd half",
+"odds": 1.43,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Blackpool FC vs Leicester",
+"pick": "Leicester to score in 2nd half",
+"odds": 1.42,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Boston United FC vs Barrow AFC",
+"pick": "Barrow AFC to score in 2nd half",
+"odds": 1.52,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Scunthorpe United vs Gateshead FC",
+"pick": "Scunthorpe United to score in 2nd half",
+"odds": 1.3,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"pick": "RB Leipzig to score in 2nd half",
+"odds": 1.26,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "Real Madrid to score in 2nd half",
+"odds": 1.15,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Man City vs Napoli",
+"pick": "Man City to score in 2nd half",
+"odds": 1.24,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Slovan Bratislava vs Betis",
+"pick": "Betis to score in 2nd half",
+"odds": 1.24,
+"ts": 1795550400.0
+},
+{
+"t": "Wed 11:00",
+"game": "V-Varen Nagasaki vs Kawasaki Frontale",
+"pick": "Kawasaki Frontale to score in 2nd half",
+"odds": 1.49,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 11:30",
+"game": "Urawa Red Diamonds vs Cerezo Osaka",
+"pick": "Urawa Red Diamonds to score in 2nd half",
+"odds": 1.47,
+"ts": 1795602600.0
+},
+{
+"t": "Wed 19:00",
+"game": "Al Sharqiya Enppi vs Ceramica Cleopatra",
+"pick": "Ceramica Cleopatra to score in 2nd half",
+"odds": 1.75,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"pick": "PSG to score in 2nd half",
+"odds": 1.26,
+"ts": 1795636800.0
+},
+{
+"t": "Thu 01:00",
+"game": "Boca Juniors vs Independiente Rivadavia",
+"pick": "Boca Juniors to score in 2nd half",
+"odds": 1.52,
+"ts": 1795651200.0
+},
+{
+"t": "Thu 18:45",
+"game": "Union Gilloise vs KKS Lech Poznan",
+"pick": "Union Gilloise to score in 2nd half",
+"odds": 1.3,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Ajax vs FC Thun",
+"pick": "Ajax to score in 2nd half",
+"odds": 1.19,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Viktoria Plzen vs Benfica",
+"pick": "Benfica to score in 2nd half",
+"odds": 1.34,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 21:00",
+"game": "Doncaster Rovers vs Huddersfield",
+"pick": "Huddersfield to score in 2nd half",
+"odds": 1.44,
+"ts": 1795723200.0
+},
+{
+"t": "Thu 21:00",
+"game": "Ferencvarosi Budapest vs NK Celje",
+"pick": "Ferencvarosi Budapest to score in 2nd half",
+"odds": 1.33,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Maccabi Petah Tikva FC vs Hapoel Tel Aviv FC",
+"pick": "Hapoel Tel Aviv FC to score in 2nd half",
+"odds": 1.37,
+"ts": 1795780800.0
+},
+{
+"t": "Fri 15:20",
+"game": "Al Qadsiah vs Al-Fayha FC",
+"pick": "Al Qadsiah to score in 2nd half",
+"odds": 1.2,
+"ts": 1795789200.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al-Ittihad Club vs Neom SC",
+"pick": "Al-Ittihad Club to score in 2nd half",
+"odds": 1.5,
+"ts": 1795800600.0
+},
+{
+"t": "Fri 19:00",
+"game": "Hvidovre IF vs Kolding IF",
+"pick": "Hvidovre IF to score in 2nd half",
+"odds": 1.49,
+"ts": 1795802400.0
+}
+]
+},
+{
 "code": "ZK49G7",
 "at": 1795294967,
 "when": "Sat 21 Nov 22:02",
