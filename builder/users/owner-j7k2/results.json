@@ -66,7 +66,10 @@
 "game": "Leiston FC vs Leighton Town",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -190,7 +193,7 @@
 "odds": 1.66,
 "ts": 1795273200.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -301,7 +304,7 @@
 "odds": 1.66,
 "ts": 1795273200.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": ""
 },
 {
@@ -1487,7 +1490,10 @@
 "game": "Burton Albion vs Luton",
 "pick": "1st half double chance Luton or draw",
 "odds": 1.16,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -2363,7 +2369,10 @@
 "game": "Spennymoor Town FC vs Harborough Town FC",
 "pick": "1st Half - Over/Under \u2013 Under 2.5",
 "odds": 1.14,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:00",
@@ -2492,7 +2501,7 @@
 "when": "Sat 21 Nov 06:41",
 "kind": "your chosen markets",
 "odds": 1.22,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 14:45",
@@ -2509,7 +2518,10 @@
 "game": "Spennymoor Town FC vs Harborough Town FC",
 "pick": "1st half Under 2.5",
 "odds": 1.14,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -3124,7 +3136,10 @@
 "game": "Leiston FC vs Leighton Town",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3198,7 +3213,7 @@
 "odds": 1.48,
 "ts": 1795269600.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-1"
 },
 {
@@ -4599,7 +4614,10 @@
 "game": "Oxford City vs Scarborough Athletic",
 "pick": "Oxford City to score in 1st half",
 "odds": 1.58,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
