@@ -1248,7 +1248,7 @@
 "odds": 1.2,
 "ts": 1795269600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -1957,7 +1957,10 @@
 "game": "BVV Barendrecht vs VV Kloetinge",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -2695,7 +2698,10 @@
 "game": "Jahn Regensburg vs FC Wurzburger Kickers",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -3434,7 +3440,10 @@
 "game": "BVV Barendrecht vs VV Kloetinge",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3669,7 +3678,10 @@
 "game": "BVV Barendrecht vs VV Kloetinge",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -3840,7 +3852,10 @@
 "game": "BVV Barendrecht vs VV Kloetinge",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
