@@ -1464,7 +1464,7 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 32.64,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 08:00",
@@ -1472,8 +1472,8 @@
 "pick": "Over 2.5",
 "odds": 1.4,
 "ts": 1795244400.0,
-"r": "W",
-"sc": "2-1",
+"r": "L",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -3628,7 +3628,7 @@
 "when": "Fri 20 Nov 20:27",
 "kind": "goal-fest teams (season data)",
 "odds": 1041.85,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 08:00",
@@ -3636,8 +3636,8 @@
 "pick": "Over 2.5",
 "odds": 1.4,
 "ts": 1795244400.0,
-"r": "W",
-"sc": "2-1",
+"r": "L",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
