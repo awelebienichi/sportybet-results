@@ -34,7 +34,10 @@
 "game": "AL Wakrah SC vs Al-Sailiya SC",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
@@ -251,7 +254,7 @@
 "when": "Sat 21 Nov 09:46",
 "kind": "1st half Over 0.5",
 "odds": 7.35,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:00",
@@ -268,7 +271,10 @@
 "game": "AL Wakrah SC vs Al-Sailiya SC",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
@@ -939,7 +945,10 @@
 "game": "Creck SC vs Malawi Armed Forces College FC",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.11,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
@@ -1078,7 +1087,10 @@
 "game": "Creck SC vs Malawi Armed Forces College FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.11,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:30",
