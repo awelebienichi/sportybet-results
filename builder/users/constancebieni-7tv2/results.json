@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "KVF7EX",
+"at": 1795223365,
+"when": "Sat 21 Nov 02:09",
+"kind": "live \u2013 best of all",
+"odds": 1.47,
+"status": "open",
+"legs": [
+{
+"t": "Sat 00:30",
+"game": "CD Palestino vs Deportes Union La Calera",
+"pick": "Handicap 1:0 \u2013 CD Palestino",
+"odds": 1.3,
+"ts": 1795217400.0
+},
+{
+"t": "Sat 00:35",
+"game": "CA Bucaramanga vs America de Cali",
+"pick": "Under 5.5",
+"odds": 1.1,
+"ts": 1795217700.0
+},
+{
+"t": "Sat 01:00",
+"game": "Rancho Santana FC vs Art Municipal Jalapa",
+"pick": "Art Municipal Jalapa Under 4.5",
+"odds": 1.03,
+"ts": 1795219200.0
+}
+]
+},
+{
 "code": "XGBALA",
 "at": 1795223272,
 "when": "Sat 21 Nov 02:07",
