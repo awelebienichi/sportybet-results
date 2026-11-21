@@ -804,7 +804,10 @@
 "game": "FK Akron Tolyatti vs FC Fakel Voronezh",
 "pick": "Handicap 3:0 \u2013 FK Akron Tolyatti",
 "odds": 1.05,
-"ts": 1795263300.0
+"ts": 1795263300.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:30",
@@ -918,7 +921,10 @@
 "game": "FK Akron Tolyatti vs FC Fakel Voronezh",
 "pick": "Handicap 3:0 \u2013 FK Akron Tolyatti",
 "odds": 1.05,
-"ts": 1795263300.0
+"ts": 1795263300.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 }
 ]
 },
@@ -1095,7 +1101,10 @@
 "game": "Tromsoe IL vs Viking FK",
 "pick": "Goal bounds 2-5+",
 "odds": 1.13,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:00",
