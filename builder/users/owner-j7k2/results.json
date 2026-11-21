@@ -670,7 +670,10 @@
 "game": "Billericay Town vs Slough Town",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3306,7 +3309,10 @@
 "game": "Hoek vs GVVV Veenendaal",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795267800.0
+"ts": 1795267800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
@@ -3435,7 +3441,10 @@
 "game": "Billericay Town vs Slough Town",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4280,7 +4289,10 @@
 "game": "CD Berceo vs CD Anguiano",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4520,7 +4532,10 @@
 "game": "Walton and Hersham FC vs Chelmsford City",
 "pick": "Chelmsford City to score in 1st half",
 "odds": 1.57,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 17:30",
