@@ -34,7 +34,10 @@
 "game": "Rancho Santana FC vs Art Municipal Jalapa",
 "pick": "Art Municipal Jalapa Under 4.5",
 "odds": 1.03,
-"ts": 1795219200.0
+"ts": 1795219200.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-2"
 }
 ]
 },
@@ -44,7 +47,7 @@
 "when": "Sat 21 Nov 02:07",
 "kind": "live \u2013 best of all",
 "odds": 1.19,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 00:30",
@@ -71,7 +74,10 @@
 "game": "Rancho Santana FC vs Art Municipal Jalapa",
 "pick": "Art Municipal Jalapa Under 4.5",
 "odds": 1.03,
-"ts": 1795219200.0
+"ts": 1795219200.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-2"
 }
 ]
 },
