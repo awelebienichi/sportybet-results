@@ -169,7 +169,10 @@
 "game": "Ethiopian Coffee SC vs Wolaita Dicha SC",
 "pick": "1st half double chance Wolaita Dicha SC or draw",
 "odds": 1.18,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
@@ -3007,7 +3010,10 @@
 "game": "FK Arsenal Ceska Lipa vs SK Hanacka Slavia Kromeriz",
 "pick": "FK Arsenal Ceska Lipa to score in 1st half",
 "odds": 1.74,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
