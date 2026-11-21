@@ -2072,7 +2072,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -2546,7 +2549,7 @@
 "when": "Sat 21 Nov 06:39",
 "kind": "goal-fest teams (season data)",
 "odds": 1.65,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -2563,7 +2566,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -2627,7 +2633,7 @@
 "when": "Sat 21 Nov 06:35",
 "kind": "Over 1.5",
 "odds": 1.19,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:00",
@@ -2644,7 +2650,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -3683,7 +3692,7 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 17.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:00",
@@ -3720,7 +3729,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:30",
@@ -3862,7 +3874,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -4045,7 +4060,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -4278,7 +4296,10 @@
 "game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
