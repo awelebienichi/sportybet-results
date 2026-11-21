@@ -7,7 +7,7 @@
 "when": "Sat 21 Nov 15:39",
 "kind": "your chosen markets",
 "odds": 14.7,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -26,7 +26,7 @@
 "odds": 1.1,
 "ts": 1795273200.0,
 "r": "W",
-"sc": "4-3",
+"sc": "4-4",
 "ht": "3-2"
 },
 {
@@ -75,7 +75,10 @@
 "game": "Huddersfield vs Leicester",
 "pick": "Over 1.5",
 "odds": 1.2,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",

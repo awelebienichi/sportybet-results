@@ -2,6 +2,163 @@
 "from": 1794833382,
 "tickets": [
 {
+"code": "ZRV0NY",
+"at": 1795279954,
+"when": "Sat 21 Nov 17:52",
+"kind": "combined SRSKNG + WTNQ17",
+"odds": 11.47,
+"status": "open",
+"legs": [
+{
+"t": "Sat 18:00",
+"game": "Parma Calcio vs Roma",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.22,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:30",
+"game": "Sevilla vs Betis",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.1,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Newcastle vs Arsenal",
+"pick": "Multigoals \u2013 1-5",
+"odds": 1.08,
+"ts": 1795282200.0
+},
+{
+"t": "Sat 20:45",
+"game": "Napoli vs Torino",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.12,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 20:45",
+"game": "Lens vs Toulouse",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.11,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 20:45",
+"game": "Lille vs Lyon",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.07,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:00",
+"game": "Real Madrid vs Celta",
+"pick": "Multigoals \u2013 1-5",
+"odds": 1.12,
+"ts": 1795291200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Juventus vs Venezia FC",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.14,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.12,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 15:00",
+"game": "Hull City vs Brighton",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.13,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Bologna vs Udinese",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.1,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Sassuolo vs Genoa",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.09,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Paris FC vs Angers",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.17,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.2,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:15",
+"game": "Racing Santander vs Real Sociedad",
+"pick": "Multigoals \u2013 1-5",
+"odds": 1.14,
+"ts": 1795360500.0
+},
+{
+"t": "Sun 17:15",
+"game": "Lorient vs Rennes",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.1,
+"ts": 1795364100.0
+},
+{
+"t": "Sun 17:30",
+"game": "Liverpool vs Man Utd",
+"pick": "Multigoals \u2013 1-5",
+"odds": 1.1,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "Multigoals \u2013 2-6",
+"odds": 1.13,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "Osasuna vs Malaga CF",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.08,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 20:45",
+"game": "Marseille vs Le Mans FC",
+"pick": "Excluded Number of Goals - First Half \u2013 3+",
+"odds": 1.17,
+"ts": 1795376700.0
+},
+{
+"t": "Sun 20:45",
+"game": "Atalanta vs Inter",
+"pick": "Multigoals \u2013 1-5",
+"odds": 1.11,
+"ts": 1795376700.0
+}
+]
+},
+{
 "code": "LT895Q",
 "at": 1795014240,
 "when": "Wed 18 Nov 16:04",
