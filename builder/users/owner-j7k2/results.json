@@ -1224,7 +1224,7 @@
 "odds": 1.23,
 "ts": 1795267800.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -1491,7 +1491,7 @@
 "odds": 1.23,
 "ts": 1795267800.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -1519,7 +1519,10 @@
 "game": "Radcliffe FC vs AFC Telford United",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2256,7 +2259,10 @@
 "game": "Radcliffe FC vs AFC Telford United",
 "pick": "1st Half - Over/Under \u2013 Over 0.5",
 "odds": 1.24,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2552,7 +2558,7 @@
 "when": "Sat 21 Nov 06:31",
 "kind": "1st half Over 0.5",
 "odds": 1.45,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 15:00",
@@ -2569,7 +2575,10 @@
 "game": "Radcliffe FC vs AFC Telford United",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 }
 ]
 },
