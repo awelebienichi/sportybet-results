@@ -14,7 +14,10 @@
 "game": "FC Naters Oberwallis vs Servette FC ",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "6-1",
+"ht": "3-1"
 },
 {
 "t": "Sat 16:00",
@@ -1213,7 +1216,10 @@
 "game": "FC Naters Oberwallis vs Servette FC ",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "6-1",
+"ht": "3-1"
 },
 {
 "t": "Sat 16:00",
@@ -3316,7 +3322,10 @@
 "game": "Kettering Town vs Needham Market",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4752,7 +4761,10 @@
 "game": "Kettering Town vs Needham Market",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
