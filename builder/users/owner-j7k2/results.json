@@ -1402,7 +1402,10 @@
 "game": "Ascoli Calcio 1898 vs L.R. Vicenza",
 "pick": "1st half double chance Ascoli Calcio 1898 or draw",
 "odds": 1.18,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -2081,7 +2084,7 @@
 "when": "Sat 21 Nov 06:49",
 "kind": "combined QXDANB + K0PFYK + ZLBCWJ + P50HMZ + VWWAHC + HDM5XU + HE7Z7X + RQAQYZ + X39FFD + L4MAPW + T7QC41 + NRBY4Y + L8WY4E + G788HV",
 "odds": 27.18,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:30",
@@ -2219,7 +2222,10 @@
 "game": "Foolad Khuzestan FC vs Sepahan SC",
 "pick": "1st Half - GG/NG \u2013 No",
 "odds": 1.1,
-"ts": 1795271400.0
+"ts": 1795271400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2309,7 +2315,7 @@
 "when": "Sat 21 Nov 06:45",
 "kind": "your chosen markets",
 "odds": 1.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:00",
@@ -2326,7 +2332,10 @@
 "game": "Foolad Khuzestan FC vs Sepahan SC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.1,
-"ts": 1795271400.0
+"ts": 1795271400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },
