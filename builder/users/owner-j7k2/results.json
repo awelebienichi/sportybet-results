@@ -892,7 +892,10 @@
 "game": "Worthing FC vs Harrogate Town",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4495,7 +4498,10 @@
 "game": "Queen of the South FC vs Hamilton Academical FC",
 "pick": "Hamilton Academical FC to score in 1st half",
 "odds": 1.53,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
