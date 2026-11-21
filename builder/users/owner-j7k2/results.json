@@ -1138,7 +1138,10 @@
 "game": "FC Prishtina Bern vs Lancy FC",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 19:30",
@@ -1741,7 +1744,10 @@
 "game": "FC Prishtina Bern vs Lancy FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 19:30",
@@ -2037,7 +2043,10 @@
 "game": "FC Prishtina Bern vs Lancy FC",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -2502,7 +2511,10 @@
 "game": "FC Prishtina Bern vs Lancy FC",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 19:30",
@@ -3558,7 +3570,10 @@
 "game": "FC Prishtina Bern vs Lancy FC",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 23:00",
@@ -5191,7 +5206,10 @@
 "game": "FC Prishtina Bern vs Lancy FC",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 }
 ]
 },
