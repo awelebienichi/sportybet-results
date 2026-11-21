@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T7QC41",
+"at": 1795239713,
+"when": "Sat 21 Nov 06:41",
+"kind": "your chosen markets",
+"odds": 1.22,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:45",
+"game": "Quevilly-Rouen Metropole vs Valenciennes FC",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1795268700.0
+},
+{
+"t": "Sat 16:00",
+"game": "Spennymoor Town FC vs Harborough Town FC",
+"pick": "1st half Under 2.5",
+"odds": 1.14,
+"ts": 1795273200.0
+}
+]
+},
+{
 "code": "L4MAPW",
 "at": 1795239591,
 "when": "Sat 21 Nov 06:39",
