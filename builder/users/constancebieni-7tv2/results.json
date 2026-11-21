@@ -667,7 +667,7 @@
 "when": "Sat 21 Nov 13:49",
 "kind": "live \u2013 best of all",
 "odds": 1.85,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -694,7 +694,10 @@
 "game": "FK Otrant-Olympic Ulcinj vs FK Bokelj Kotor",
 "pick": "Handicap 0:3 \u2013 FK Bokelj Kotor",
 "odds": 1.03,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -735,7 +738,10 @@
 "game": "Wolfsburg vs Holstein Kiel",
 "pick": "Handicap 0:3 \u2013 Holstein Kiel",
 "odds": 1.04,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "L",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -803,7 +809,7 @@
 "when": "Sat 21 Nov 13:49",
 "kind": "live \u2013 best of all",
 "odds": 1.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:30",
@@ -820,7 +826,10 @@
 "game": "FK Otrant-Olympic Ulcinj vs FK Bokelj Kotor",
 "pick": "Handicap 0:3 \u2013 FK Bokelj Kotor",
 "odds": 1.03,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -871,7 +880,10 @@
 "game": "Wolfsburg vs Holstein Kiel",
 "pick": "Handicap 0:3 \u2013 Holstein Kiel",
 "odds": 1.04,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "L",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
