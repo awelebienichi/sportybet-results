@@ -7,7 +7,7 @@
 "when": "Sat 21 Nov 15:33",
 "kind": "goal-fest teams (season data)",
 "odds": 706.25,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 16:00",
@@ -68,7 +68,10 @@
 "game": "Whitby Town vs Leek Town FC",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1218,7 +1221,10 @@
 "game": "Whitby Town vs Leek Town FC",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -3681,7 +3687,10 @@
 "game": "Whitby Town vs Leek Town FC",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 }
 ]
 },
@@ -4773,7 +4782,10 @@
 "game": "CE Sabadell FC vs CD Oberena",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795277700.0
+"ts": 1795277700.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 17:30",
