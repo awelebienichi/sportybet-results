@@ -1,5 +1,65 @@
 [
 {
+"when": "Sat 21 Nov 06:32",
+"at": 1795239170,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpz1gamoqe1"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Chance all 2 legs win: about 63%."
+],
+"tickets": [
+{
+"code": "VWWAHC",
+"odds": 1.45,
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "TOP TIER: goal in the 1st half in 100% of Jong Sparta Rotterdam's last 10 and 90% of K.v.v. Quick Boys's last 10",
+"ts": 1795269600.0,
+"eid": "sr:match:72594680",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594680|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Radcliffe FC vs AFC Telford United",
+"lg": "England Amateur - National League North",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "TOP TIER: goal in the 1st half in 100% of Radcliffe FC's last 8 and 100% of AFC Telford United's last 7",
+"ts": 1795273200.0,
+"eid": "sr:match:72759482",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72759482|68|total=0.5|12"
+}
+],
+"chance": 0.6252
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:31",
 "at": 1795239085,
 "req": {
@@ -10793,154 +10853,5 @@
 },
 "ok": false,
 "msg": "Today's rollover code is already out: J8KB6J"
-},
-{
-"when": "Fri 20 Nov 07:14",
-"at": 1795155277,
-"req": {
-"type": "rollover",
-"legs": 9,
-"rid": "mwol28zi0g26"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a61,000 \u2192 returns \u20a66,080 if it wins"
-],
-"tickets": [
-{
-"code": "J8KB6J",
-"odds": 6.08,
-"legs": [
-{
-"t": "Fri 14:00",
-"game": "Uganda Police FC vs Kampala Capital City Authority FC",
-"lg": "Uganda - Premier League",
-"pick": "1st half double chance Kampala Capital City Authority FC or draw",
-"odds": 1.2,
-"why": "stats rate 89% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795179600.0,
-"eid": "sr:match:73961744",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "73961744|63||11"
-},
-{
-"t": "Fri 14:00",
-"game": "Mohammedan SC vs Gokulam Kerala FC",
-"lg": "India - IFL",
-"pick": "1st half double chance Gokulam Kerala FC or draw",
-"odds": 1.15,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795179600.0,
-"eid": "sr:match:75834486",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "75834486|63||11"
-},
-{
-"t": "Fri 14:30",
-"game": "ES Hammam Sousse vs A Sakiet Edayer",
-"lg": "Tunisia - Ligue 1",
-"pick": "1st half double chance A Sakiet Edayer or draw",
-"odds": 1.21,
-"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
-"ts": 1795181400.0,
-"eid": "sr:match:76676802",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "76676802|63||11"
-},
-{
-"t": "Fri 14:30",
-"game": "Navbahor vs FK Neftchi Fargona",
-"lg": "Uzbekistan - Superliga",
-"pick": "1st half double chance Navbahor or draw",
-"odds": 1.26,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795181400.0,
-"eid": "sr:match:68380656",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "68380656|63||9"
-},
-{
-"t": "Fri 17:15",
-"game": "Duhok FC vs Erbil SC",
-"lg": "Iraq - Stars League",
-"pick": "1st half double chance Erbil SC or draw",
-"odds": 1.29,
-"why": "stats rate 90% from both teams' last 10 and 4 meetings (1st-half rollover)",
-"ts": 1795191300.0,
-"eid": "sr:match:75949124",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "75949124|63||11"
-},
-{
-"t": "Fri 18:30",
-"game": "Rapid Wien II vs Blau-Weiss Linz",
-"lg": "Austria - 2. Liga",
-"pick": "1st half double chance Blau-Weiss Linz or draw",
-"odds": 1.15,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795195800.0,
-"eid": "sr:match:72440776",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72440776|63||11"
-},
-{
-"t": "Fri 19:00",
-"game": "FV Illertissen vs VfB Eichstatt",
-"lg": "Germany Amateur - Regionalliga Bavaria",
-"pick": "1st half double chance FV Illertissen or draw",
-"odds": 1.17,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795197600.0,
-"eid": "sr:match:72727360",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72727360|63||9"
-},
-{
-"t": "Fri 19:00",
-"game": "FSV Mainz II vs TSV Steinbach Haiger",
-"lg": "Germany Amateur - Regionalliga Southwest",
-"pick": "1st half double chance TSV Steinbach Haiger or draw",
-"odds": 1.3,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795197600.0,
-"eid": "sr:match:72809398",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72809398|63||11"
-},
-{
-"t": "Fri 20:30",
-"game": "AC Trento vs AS Cittadella",
-"lg": "Italy - Serie C, Group A",
-"pick": "1st half double chance AC Trento or draw",
-"odds": 1.28,
-"why": "stats rate 90% from both teams' last 10 and 6 meetings (1st-half rollover)",
-"ts": 1795203000.0,
-"eid": "sr:match:73293368",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73293368|63||9"
-}
-],
-"chance": 0.1061
-}
-]
 }
 ]
