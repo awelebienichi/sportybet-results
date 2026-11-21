@@ -7,14 +7,17 @@
 "when": "Sat 21 Nov 11:41",
 "kind": "1st half Over 0.5",
 "odds": 27.64,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
 "game": "Norwich vs Cardiff City",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
