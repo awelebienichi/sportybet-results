@@ -2538,7 +2538,10 @@
 "game": "Club Ciudad de Bolivar vs CA Atlanta",
 "pick": "Under 2.5",
 "odds": 1.42,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 21:00",
@@ -2725,7 +2728,10 @@
 "game": "Club Ciudad de Bolivar vs CA Atlanta",
 "pick": "Under 2.5",
 "odds": 1.42,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 21:00",
