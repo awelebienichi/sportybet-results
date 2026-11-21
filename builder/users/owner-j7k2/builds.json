@@ -1,5 +1,178 @@
 [
 {
+"when": "Sat 21 Nov 09:46",
+"at": 1795250775,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwq5y5s7b2gq"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 10 games passed the checks (Sat 21, 912 games on SportyBet), so this ticket has 10 legs instead of 30. Tick more days or use 'Relaxed' for more.",
+"Chance all 10 legs win: about 8%."
+],
+"tickets": [
+{
+"code": "VK92TG",
+"odds": 7.35,
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Galatasaray Istanbul vs Samsunspor",
+"lg": "Turkiye - Super Lig",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"why": "TOP TIER: goal in the 1st half in 90% of Galatasaray Istanbul's last 10 and 100% of Samsunspor's last 10",
+"ts": 1795266000.0,
+"eid": "sr:match:72723334",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72723334|68|total=0.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al-Sailiya SC",
+"lg": "Qatar - Stars League",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"why": "TOP TIER: goal in the 1st half in 100% of AL Wakrah SC's last 10 and 90% of Al-Sailiya SC's last 10",
+"ts": 1795266000.0,
+"eid": "sr:match:73374572",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73374572|68|total=0.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "Hoek vs GVVV Veenendaal",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "TOP TIER: goal in the 1st half in 90% of Hoek's last 10 and 90% of GVVV Veenendaal's last 10",
+"ts": 1795267800.0,
+"eid": "sr:match:72594676",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594676|68|total=0.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "TOP TIER: goal in the 1st half in 100% of Jong Sparta Rotterdam's last 10 and 90% of K.v.v. Quick Boys's last 10",
+"ts": 1795269600.0,
+"eid": "sr:match:72594680",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594680|68|total=0.5|12"
+},
+{
+"t": "Sat 15:30",
+"game": "FC Liefering vs Wacker Innsbruck",
+"lg": "Austria - 2. Liga",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"why": "TOP TIER: goal in the 1st half in 100% of FC Liefering's last 10 and 90% of Wacker Innsbruck's last 10",
+"ts": 1795271400.0,
+"eid": "sr:match:72440770",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72440770|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Radcliffe FC vs AFC Telford United",
+"lg": "England Amateur - National League North",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "TOP TIER: goal in the 1st half in 100% of Radcliffe FC's last 8 and 100% of AFC Telford United's last 7",
+"ts": 1795273200.0,
+"eid": "sr:match:72759482",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72759482|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"lg": "England Amateur - National League South",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "TOP TIER: goal in the 1st half in 100% of Maidstone United FC's last 7 and 88% of Farnham Town's last 8",
+"ts": 1795273200.0,
+"eid": "sr:match:72758330",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72758330|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Farnborough FC vs Salisbury FC",
+"lg": "England Amateur - National League South",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"why": "goal in the 1st half in 88% of Farnborough FC's last 8 and 86% of Salisbury FC's last 7",
+"ts": 1795273200.0,
+"eid": "sr:match:72758326",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72758326|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Aldershot Town FC vs Scunthorpe United",
+"lg": "England - National League",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "goal in the 1st half in 88% of Aldershot Town FC's last 8 and 89% of Scunthorpe United's last 9",
+"ts": 1795273200.0,
+"eid": "sr:match:72740820",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740820|68|total=0.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "De Treffers Groesbeek vs Kozakken Boys Werkendam",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "TOP TIER: goal in the 1st half in 90% of De Treffers Groesbeek's last 10 and 90% of Kozakken Boys Werkendam's last 10",
+"ts": 1795280400.0,
+"eid": "sr:match:72594688",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72594688|68|total=0.5|12"
+}
+],
+"chance": 0.0835
+}
+]
+},
+{
 "when": "Sat 21 Nov 09:37",
 "at": 1795250258,
 "req": {
@@ -8648,179 +8821,6 @@
 "kind": "full-time draw \u2013 two weak teams",
 "note": [
 "Only 17 games qualified, enough for 1 ticket(s) of 10 with no game repeated (you asked for 2).",
-"Chance all 10 legs win: about 0%."
-],
-"tickets": [
-{
-"code": "UH5CJU",
-"odds": 93788.89,
-"legs": [
-{
-"t": "Fri 22:00",
-"game": "Cobresal vs Audax Italiano",
-"lg": "Chile - Primera Division",
-"pick": "Draw",
-"odds": 3.6,
-"why": "two weak sides (won 20% / 20% of last 10), draw 40% / 40%, 2.4 goals a game; Flashscore home/away form 25%",
-"ts": 1795208400.0,
-"eid": "sr:match:67682108",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "67682108|1||2"
-},
-{
-"t": "Sat 07:00",
-"game": "Sichuan WFC vs Changchun Dazhong Zhuoyue",
-"lg": "China - Chinese Super League, Women",
-"pick": "Draw",
-"odds": 3.5,
-"why": "two weak sides (won 20% / 30% of last 10), draw 40% / 30%, 2.2 goals a game; Flashscore home/away form 25%",
-"ts": 1795240800.0,
-"eid": "sr:match:75107608",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "75107608|1||2"
-},
-{
-"t": "Sat 13:45",
-"game": "Nassaji Mazandaran FC vs Aluminium Arak",
-"lg": "Iran - Pro League",
-"pick": "Draw",
-"odds": 3.1,
-"why": "two weak sides (won 20% / 30% of last 10), draw 60% / 40%, 1.8 goals a game; Flashscore home/away form 25%",
-"ts": 1795265100.0,
-"eid": "sr:match:76570802",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "76570802|1||2"
-},
-{
-"t": "Sat 14:00",
-"game": "Dedza Dynamos FC vs Red Lions",
-"lg": "Malawi - Super League",
-"pick": "Draw",
-"odds": 2.85,
-"why": "two weak sides (won 20% / 10% of last 10), draw 60% / 40%, 1.5 goals a game; Flashscore home/away form 35%",
-"ts": 1795266000.0,
-"eid": "sr:match:70381748",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "70381748|1||2"
-},
-{
-"t": "Sat 14:00",
-"game": "Nrb Teleghma vs JS Djidjel",
-"lg": "Algeria - Ligue 2",
-"pick": "Draw",
-"odds": 2.95,
-"why": "two weak sides (won 20% / 20% of last 10), draw 30% / 30%, 2.3 goals a game",
-"ts": 1795266000.0,
-"eid": "sr:match:76741770",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "76741770|1||2"
-},
-{
-"t": "Sat 14:00",
-"game": "Fortuna Cologne vs SV Meppen 1912",
-"lg": "Germany - 3. Liga",
-"pick": "Draw",
-"odds": 3.6,
-"why": "two weak sides (won 10% / 30% of last 10), draw 30% / 30%, 2.4 goals a game; Flashscore home/away form 25%",
-"ts": 1795266000.0,
-"eid": "sr:match:72680304",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "72680304|1||2"
-},
-{
-"t": "Sat 14:30",
-"game": "Orbit College FC vs Gomora United",
-"lg": "South Africa - Championship",
-"pick": "Draw",
-"odds": 2.9,
-"why": "two weak sides (won 0% / 30% of last 10), draw 50% / 30%, 2.2 goals a game; Flashscore home/away form 50%",
-"ts": 1795267800.0,
-"eid": "sr:match:74058150",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "74058150|1||2"
-},
-{
-"t": "Sat 14:30",
-"game": "Vado FC vs Latina Calcio",
-"lg": "Italy - Serie C, Group B",
-"pick": "Draw",
-"odds": 3.33,
-"why": "two weak sides (won 30% / 30% of last 10), draw 30% / 40%, 2.4 goals a game; Flashscore home/away form 25%",
-"ts": 1795267800.0,
-"eid": "sr:match:73294116",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "73294116|1||2"
-},
-{
-"t": "Sat 16:00",
-"game": "Adama City FC vs Sidama Bunna SC",
-"lg": "Ethiopia - Premier League",
-"pick": "Draw",
-"odds": 2.65,
-"why": "two weak sides (won 30% / 30% of last 10), draw 40% / 30%, 1.5 goals a game; Flashscore home/away form 30%",
-"ts": 1795273200.0,
-"eid": "sr:match:76482934",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "76482934|1||2"
-},
-{
-"t": "Sat 17:00",
-"game": "SC Covilha vs Lusitano GC",
-"lg": "Portugal - Liga Portugal 3",
-"pick": "Draw",
-"odds": 3.1,
-"why": "two weak sides (won 10% / 10% of last 10), draw 40% / 40%, 2.0 goals a game; Flashscore home/away form 35%",
-"ts": 1795276800.0,
-"eid": "sr:match:72939284",
-"mid": "1",
-"spec": "",
-"oid": "2",
-"k": "72939284|1||2"
-}
-],
-"chance": 0.0
-}
-]
-},
-{
-"when": "Fri 20 Nov 20:17",
-"at": 1795202243,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "drawweak",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-20",
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwpd1p1hei93"
-},
-"ok": true,
-"kind": "full-time draw \u2013 two weak teams",
-"note": [
 "Chance all 10 legs win: about 0%."
 ],
 "tickets": [
