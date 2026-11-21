@@ -2018,14 +2018,17 @@
 "when": "Fri 20 Nov 21:49",
 "kind": "Over 1.5",
 "odds": 1887.41,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 07:00",
 "game": "Central Coast Mariners vs Perth Glory FC",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795240800.0
+"ts": 1795240800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 08:00",
