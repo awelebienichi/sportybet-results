@@ -1478,7 +1478,10 @@
 "game": "VV Katwijk vs Rijnsburgse Boys",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
@@ -2748,14 +2751,17 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 29.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
 "game": "VV Katwijk vs Rijnsburgse Boys",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
@@ -3190,7 +3196,10 @@
 "game": "VV Katwijk vs Rijnsburgse Boys",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -3341,7 +3350,10 @@
 "game": "VV Katwijk vs Rijnsburgse Boys",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
