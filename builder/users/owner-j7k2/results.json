@@ -779,14 +779,17 @@
 "when": "Sat 21 Nov 19:06",
 "kind": "goal-fest teams (season data)",
 "odds": 4229.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 19:30",
 "game": "Dongen vs RBC Roosendaal",
 "pick": "Over 3.5",
 "odds": 1.65,
-"ts": 1795285800.0
+"ts": 1795285800.0,
+"r": "L",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 23:00",
@@ -1148,7 +1151,10 @@
 "game": "Dongen vs RBC Roosendaal",
 "pick": "Over 3.5",
 "odds": 1.65,
-"ts": 1795285800.0
+"ts": 1795285800.0,
+"r": "L",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 23:00",
@@ -1754,7 +1760,10 @@
 "game": "Dongen vs RBC Roosendaal",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1795285800.0
+"ts": 1795285800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 20:45",
@@ -2063,7 +2072,10 @@
 "game": "Dongen vs RBC Roosendaal",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1795285800.0
+"ts": 1795285800.0,
+"r": "L",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 21:00",
@@ -2521,7 +2533,10 @@
 "game": "Dongen vs RBC Roosendaal",
 "pick": "Over 3.5",
 "odds": 1.65,
-"ts": 1795285800.0
+"ts": 1795285800.0,
+"r": "L",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 23:00",
@@ -4885,7 +4900,10 @@
 "game": "Dongen vs RBC Roosendaal",
 "pick": "Over 3.5",
 "odds": 1.61,
-"ts": 1795285800.0
+"ts": 1795285800.0,
+"r": "L",
+"sc": "2-0",
+"ht": ""
 }
 ]
 },
