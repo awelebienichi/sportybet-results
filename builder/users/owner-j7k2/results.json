@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "W0K7GX",
+"at": 1795251737,
+"when": "Sat 21 Nov 10:02",
+"kind": "daily rollover \u2013 day 1",
+"odds": 7.03,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:30",
+"game": "Istanbulspor AS vs Ankara Keciorengucu",
+"pick": "1st half double chance Ankara Keciorengucu or draw",
+"odds": 1.24,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 11:30",
+"game": "Mardin 1969 Spor vs Bandirmaspor",
+"pick": "1st half double chance Mardin 1969 Spor or draw",
+"odds": 1.18,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 13:30",
+"game": "Ethiopian Coffee SC vs Wolaita Dicha SC",
+"pick": "1st half double chance Wolaita Dicha SC or draw",
+"odds": 1.18,
+"ts": 1795264200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Fortuna D vs SG Sonnenhof Grossaspach",
+"pick": "1st half double chance Fortuna D or draw",
+"odds": 1.18,
+"ts": 1795266000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Lazio vs Lecce",
+"pick": "1st half double chance Lazio or draw",
+"odds": 1.15,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "FK Mladost Lucani vs FK Zeleznicar Pancevo",
+"pick": "1st half double chance FK Zeleznicar Pancevo or draw",
+"odds": 1.17,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Ascoli Calcio 1898 vs L.R. Vicenza",
+"pick": "1st half double chance Ascoli Calcio 1898 or draw",
+"odds": 1.18,
+"ts": 1795269600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Burton Albion vs Luton",
+"pick": "1st half double chance Luton or draw",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Walton and Hersham FC vs Chelmsford City",
+"pick": "1st half double chance Chelmsford City or draw",
+"odds": 1.21,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:25",
+"game": "Dubai United FC vs Al Wahda FC (UAE)",
+"pick": "1st half double chance Al Wahda FC (UAE) or draw",
+"odds": 1.15,
+"ts": 1795274700.0
+},
+{
+"t": "Sat 21:00",
+"game": "Motherwell FC vs Rangers",
+"pick": "1st half double chance Rangers or draw",
+"odds": 1.17,
+"ts": 1795291200.0
+},
+{
+"t": "Sat 21:30",
+"game": "EC Bahia BA vs Coritiba FC PR",
+"pick": "1st half double chance EC Bahia BA or draw",
+"odds": 1.15,
+"ts": 1795293000.0
+}
+]
+},
+{
 "code": "VK92TG",
 "at": 1795250775,
 "when": "Sat 21 Nov 09:46",
