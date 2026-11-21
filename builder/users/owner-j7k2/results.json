@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NRBY4Y",
+"at": 1795239782,
+"when": "Sat 21 Nov 06:43",
+"kind": "your chosen markets",
+"odds": 1.3,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:30",
+"game": "Migori Youth FC vs Leopards SC",
+"pick": "Under 3.5",
+"odds": 1.12,
+"ts": 1795257000.0
+},
+{
+"t": "Sat 19:00",
+"game": "Stella Club D'Adjame vs FC San Pedro",
+"pick": "Under 3.5",
+"odds": 1.16,
+"ts": 1795284000.0
+}
+]
+},
+{
 "code": "T7QC41",
 "at": 1795239713,
 "when": "Sat 21 Nov 06:41",
