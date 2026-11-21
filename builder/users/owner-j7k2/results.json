@@ -452,7 +452,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:00",
@@ -587,7 +590,7 @@
 "when": "Sat 21 Nov 06:54",
 "kind": "goal-fest teams (season data)",
 "odds": 8260.77,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:00",
@@ -644,7 +647,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:30",
@@ -1961,7 +1967,7 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 25.51,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:00",
@@ -2018,7 +2024,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -2231,7 +2240,7 @@
 "when": "Sat 21 Nov 02:25",
 "kind": "goal-fest teams (season data)",
 "odds": 449.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:00",
@@ -2278,7 +2287,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:30",
@@ -2396,7 +2408,7 @@
 "when": "Fri 20 Nov 21:52",
 "kind": "goal-fest teams (season data)",
 "odds": 481.89,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:00",
@@ -2423,7 +2435,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:30",
@@ -3180,7 +3195,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Eintracht Frankfurt to win",
 "odds": 1.16,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -3477,7 +3495,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:00",
@@ -4145,7 +4166,10 @@
 "game": "Eintracht Frankfurt vs Hamburger SV",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795258800.0
+"ts": 1795258800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
