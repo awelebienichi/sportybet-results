@@ -7,7 +7,7 @@
 "when": "Sat 21 Nov 13:52",
 "kind": "your chosen markets",
 "odds": 12.81,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:30",
@@ -73,7 +73,10 @@
 "game": "Sampdoria Genoa vs Benevento Calcio",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -230,7 +233,7 @@
 "when": "Sat 21 Nov 13:52",
 "kind": "your chosen markets",
 "odds": 16.19,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:45",
@@ -279,7 +282,10 @@
 "game": "Sampdoria Genoa vs Benevento Calcio",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -450,7 +456,7 @@
 "when": "Sat 21 Nov 13:51",
 "kind": "your chosen markets",
 "odds": 16.49,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:45",
@@ -499,7 +505,10 @@
 "game": "Sampdoria Genoa vs Benevento Calcio",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795269600.0
+"ts": 1795269600.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -817,7 +826,10 @@
 "game": "AL Qous Club vs AL Nojoom FC",
 "pick": "AL Qous Club or AL Nojoom FC",
 "odds": 1.03,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "W",
+"sc": "1-5",
+"ht": ""
 }
 ]
 },
