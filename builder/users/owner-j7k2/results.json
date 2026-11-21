@@ -2576,14 +2576,17 @@
 "when": "Fri 20 Nov 20:56",
 "kind": "your chosen markets",
 "odds": 842.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 06:50",
 "game": "Brisbane Roar FC vs Melbourne City FC",
 "pick": "Melbourne City FC to win",
 "odds": 1.38,
-"ts": 1795240200.0
+"ts": 1795240200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 10:00",
