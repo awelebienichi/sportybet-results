@@ -2,6 +2,30 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZLBCWJ",
+"at": 1795238760,
+"when": "Sat 21 Nov 06:25",
+"kind": "GG (both teams score)",
+"odds": 1.84,
+"status": "open",
+"legs": [
+{
+"t": "Sat 12:00",
+"game": "Jagiellonia II Bialystok vs SK Mazovia Minsk Mazowiecki",
+"pick": "GG (both teams score)",
+"odds": 1.38,
+"ts": 1795258800.0
+},
+{
+"t": "Sat 15:30",
+"game": "Eintracht Frankfurt vs Hoffenheim",
+"pick": "GG (both teams score)",
+"odds": 1.33,
+"ts": 1795271400.0
+}
+]
+},
+{
 "code": "K0PFYK",
 "at": 1795238683,
 "when": "Sat 21 Nov 06:24",
