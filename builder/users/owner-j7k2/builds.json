@@ -1,5 +1,66 @@
 [
 {
+"when": "Sat 21 Nov 06:39",
+"at": 1795239591,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpzaklz7wrv"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 2 legs win: about 55%."
+],
+"tickets": [
+{
+"code": "L4MAPW",
+"odds": 1.65,
+"legs": [
+{
+"t": "Sat 13:00",
+"game": "1 FC Slovacko vs SK Dynamo Ceske Budejovice",
+"lg": "Czechia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "season: 4.1 and 4.8 goals a game (14/14 games); last 10 rate 85%; Flashscore home/away form 85%, season: 4.4 goals a game",
+"ts": 1795262400.0,
+"eid": "sr:match:76682566",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76682566|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 5.1 and 3.5 goals a game (13/13 games); last 10 rate 85%; Flashscore home/away form 90%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1795269600.0,
+"eid": "sr:match:72594680",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72594680|18|total=2.5|12"
+}
+],
+"chance": 0.55
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:38",
 "at": 1795239506,
 "req": {
@@ -10121,263 +10182,6 @@
 }
 ],
 "chance": 0.0001
-}
-]
-},
-{
-"when": "Fri 20 Nov 09:17",
-"at": 1795162640,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h1o05",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-20"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwop54dfxi17"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 16 games passed the checks (Fri 20, 276 games on SportyBet), so this ticket has 16 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 16 legs win: about 3% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "SESKPA",
-"odds": 15.56,
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "FC Van Charentsavan vs FC Ararat-Armenia",
-"lg": "Armenia - Premier League",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "goal in the 1st half in 78% of FC Van Charentsavan's last 9 and 100% of FC Ararat-Armenia's last 9",
-"ts": 1795172400.0,
-"eid": "sr:match:75881458",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75881458|68|total=0.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "MFK Karvina vs FC Banik Ostrava B",
-"lg": "Czechia - FNL",
-"pick": "1st half Over 0.5",
-"odds": 1.2,
-"why": "goal in the 1st half in 80% of MFK Karvina's last 10 and 90% of FC Banik Ostrava B's last 10",
-"ts": 1795194000.0,
-"eid": "sr:match:72587366",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72587366|68|total=0.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "Rapid Wien II vs Blau-Weiss Linz",
-"lg": "Austria - 2. Liga",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "TOP TIER: goal in the 1st half in 80% of Rapid Wien II's last 10 and 90% of Blau-Weiss Linz's last 10",
-"ts": 1795195800.0,
-"eid": "sr:match:72440776",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72440776|68|total=0.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "TSV Havelse vs FC Viktoria Cologne",
-"lg": "Germany - 3. Liga",
-"pick": "1st half Over 0.5",
-"odds": 1.19,
-"why": "TOP TIER: goal in the 1st half in 100% of TSV Havelse's last 10 and 90% of FC Viktoria Cologne's last 10",
-"ts": 1795197600.0,
-"eid": "sr:match:72680302",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72680302|68|total=0.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "FC Stade Nyonnais vs FC Wil 1900",
-"lg": "Switzerland - Challenge League",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "TOP TIER: goal in the 1st half in 80% of FC Stade Nyonnais's last 10 and 80% of FC Wil 1900's last 10",
-"ts": 1795199400.0,
-"eid": "sr:match:72176646",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72176646|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "De Graafschap vs MVV Maastricht",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "TOP TIER: goal in the 1st half in 90% of De Graafschap's last 10 and 90% of MVV Maastricht's last 10",
-"ts": 1795201200.0,
-"eid": "sr:match:72044832",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72044832|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "FC Den Bosch vs VVV Venlo",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.19,
-"why": "goal in the 1st half in 80% of FC Den Bosch's last 10 and 90% of VVV Venlo's last 10",
-"ts": 1795201200.0,
-"eid": "sr:match:72044834",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72044834|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Jong FC Utrecht vs FC Emmen",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"why": "goal in the 1st half in 80% of Jong FC Utrecht's last 10 and 90% of FC Emmen's last 10",
-"ts": 1795201200.0,
-"eid": "sr:match:72044842",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72044842|68|total=0.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Ipswich Town U21 vs FC Porto B",
-"lg": "International Youth - U21 Premier League International Cup",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "goal in the 1st half in 78% of Ipswich Town U21's last 9 and 80% of FC Porto B's last 10",
-"ts": 1795201200.0,
-"eid": "sr:match:75068420",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75068420|68|total=0.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Bayern Munich vs Cologne",
-"lg": "Germany - Bundesliga",
-"pick": "1st half Over 0.5",
-"odds": 1.1,
-"why": "TOP TIER: goal in the 1st half in 90% of Bayern Munich's last 10 and 80% of Cologne's last 10",
-"ts": 1795203000.0,
-"eid": "sr:match:72513310",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72513310|68|total=0.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Pontypridd Town vs Carmarthen Town",
-"lg": "Wales - Cymru Championship South",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "goal in the 1st half in 80% of Pontypridd Town's last 10 and 90% of Carmarthen Town's last 10",
-"ts": 1795203000.0,
-"eid": "sr:match:72546174",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72546174|68|total=0.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Trethomas Bluebirds",
-"lg": "Wales - Cymru Championship South",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "goal in the 1st half in 80% of Swansea University's last 10 and 90% of Trethomas Bluebirds's last 10",
-"ts": 1795203000.0,
-"eid": "sr:match:72546176",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72546176|68|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Briton Ferry vs Holywell Town",
-"lg": "Wales - Cymru Premier",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "TOP TIER: goal in the 1st half in 100% of Briton Ferry's last 10 and 100% of Holywell Town's last 10",
-"ts": 1795203900.0,
-"eid": "sr:match:72522172",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72522172|68|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "The New Saints FC vs Trefelin BGC",
-"lg": "Wales - Cymru Premier",
-"pick": "1st half Over 0.5",
-"odds": 1.07,
-"why": "TOP TIER: goal in the 1st half in 80% of The New Saints FC's last 10 and 90% of Trefelin BGC's last 10",
-"ts": 1795203900.0,
-"eid": "sr:match:72522184",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72522184|68|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Southend United vs Boreham Wood FC",
-"lg": "England - National League",
-"pick": "1st half Over 0.5",
-"odds": 1.2,
-"why": "goal in the 1st half in 89% of Southend United's last 9 and 89% of Boreham Wood FC's last 9",
-"ts": 1795203900.0,
-"eid": "sr:match:72740814",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72740814|68|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Caerphilly Athletic FC vs Llanelli Town",
-"lg": "Wales - Cymru Championship South",
-"pick": "1st half Over 0.5",
-"odds": 1.16,
-"why": "goal in the 1st half in 80% of Caerphilly Athletic FC's last 10 and 100% of Llanelli Town's last 10",
-"ts": 1795203900.0,
-"eid": "sr:match:72546172",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72546172|68|total=0.5|12"
-}
-],
-"chance": 0.0294
 }
 ]
 }
