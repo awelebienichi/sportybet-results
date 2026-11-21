@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QCEM49",
+"at": 1795269657,
+"when": "Sat 21 Nov 15:00",
+"kind": "your tracker's best markets",
+"odds": 19.73,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:30",
+"game": "FC Basel II vs FC Paradiso",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795271400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Clyde FC vs Stirling Albion FC",
+"pick": "Clyde FC or GG",
+"odds": 1.06,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Cove Rangers FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Chertsey Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "KAS Eupen vs Sporting Hasselt",
+"pick": "KAS Eupen or GG",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Workington AFC vs Gainsborough Trinity",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maidstone United FC vs Farnham Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Three Bridges vs Cheshunt FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "York City FC vs Walsall FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merida vs Atletico Madrid",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Wolves vs Charlton Athletic",
+"pick": "1st half double chance Wolves or draw",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Quorn FC vs Avro FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Plymouth Parkway vs Malvern Town",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Huddersfield vs Leicester",
+"pick": "Goal bounds 2-5+",
+"odds": 1.19,
+"ts": 1795273200.0
+},
+{
+"t": "Sat 16:30",
+"game": "Real Zaragoza vs CF Rayo Majadahonda",
+"pick": "1st half double chance Real Zaragoza or draw",
+"odds": 1.11,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Brest vs Naftan Novopolotsk",
+"pick": "1st half double chance FC Brest or draw",
+"odds": 1.06,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 16:30",
+"game": "NEC Nijmegen vs PSV Eindhoven",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795275000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Grasshopper Club Zurich II vs FC Schotz",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Hzvv Hoogeveen vs SV Dvs 33 Ermelo",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795280400.0
+},
+{
+"t": "Sat 18:15",
+"game": "London City Lionesses vs Crystal Palace",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795281300.0
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795283100.0
+},
+{
+"t": "Sat 19:00",
+"game": "Santa Cruz FC PE vs Ipojuca FC PE",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "US Quevilly-Rouen Metropole vs Paris Saint-Germain FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "CD Irapuato II vs FC Racing",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Prishtina Bern vs Lancy FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795284000.0
+},
+{
+"t": "Sat 19:30",
+"game": "Dongen vs RBC Roosendaal",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795285800.0
+},
+{
+"t": "Sat 20:45",
+"game": "Monaco vs AJ Auxerre",
+"pick": "Monaco or GG",
+"odds": 1.09,
+"ts": 1795290300.0
+},
+{
+"t": "Sat 21:30",
+"game": "EC Bahia BA vs Coritiba FC PR",
+"pick": "1st half double chance EC Bahia BA or draw",
+"odds": 1.14,
+"ts": 1795293000.0
+},
+{
+"t": "Sat 22:00",
+"game": "Deportivo Mixco vs CD Malacateco",
+"pick": "1st half double chance Deportivo Mixco or draw",
+"odds": 1.11,
+"ts": 1795294800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Saltillo Soccer FC vs Halcones Negros FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795298400.0
+}
+]
+},
+{
 "code": "LS1Q0A",
 "at": 1795269525,
 "when": "Sat 21 Nov 14:58",
@@ -2258,7 +2478,10 @@
 "game": "Melaka FC vs Star City FC",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1795264200.0
+"ts": 1795264200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:00",
