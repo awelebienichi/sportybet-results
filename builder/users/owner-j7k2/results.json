@@ -3010,7 +3010,10 @@
 "game": "Monaco vs AJ Auxerre",
 "pick": "Monaco or GG",
 "odds": 1.09,
-"ts": 1795290300.0
+"ts": 1795290300.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 21:30",
@@ -5834,7 +5837,10 @@
 "game": "FC Groningen vs SC Heerenveen",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 }
 ]
 },
