@@ -2545,7 +2545,10 @@
 "game": "Argentinos Juniors vs CA Independiente Avellaneda",
 "pick": "Under 2.5",
 "odds": 1.46,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-1"
 }
 ]
 },
@@ -2729,7 +2732,10 @@
 "game": "Argentinos Juniors vs CA Independiente Avellaneda",
 "pick": "Under 2.5",
 "odds": 1.46,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 21:30",
