@@ -861,8 +861,8 @@
 "odds": 1.08,
 "ts": 1795281300.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 18:45",
@@ -1157,7 +1157,10 @@
 "game": "London City Lionesses vs Crystal Palace",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795281300.0
+"ts": 1795281300.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 18:45",
@@ -1595,7 +1598,10 @@
 "game": "London City Lionesses vs Crystal Palace",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795281300.0
+"ts": 1795281300.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 18:45",
@@ -2339,7 +2345,10 @@
 "game": "London City Lionesses vs Crystal Palace",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795281300.0
+"ts": 1795281300.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 19:00",
@@ -3780,7 +3789,10 @@
 "game": "London City Lionesses vs Crystal Palace",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795281300.0
+"ts": 1795281300.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 18:45",
