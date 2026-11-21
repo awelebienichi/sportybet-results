@@ -903,7 +903,10 @@
 "game": "CS Tunari vs FC Petrolul Berca",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.09,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
@@ -1338,7 +1341,7 @@
 "when": "Sat 21 Nov 06:24",
 "kind": "your tracker's best markets",
 "odds": 1.17,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 10:30",
@@ -1355,7 +1358,10 @@
 "game": "CS Tunari vs FC Petrolul Berca",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 }
 ]
 },

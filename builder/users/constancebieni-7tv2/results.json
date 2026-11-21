@@ -989,7 +989,10 @@
 "game": "CS Tunari vs FC Petrolul Berca",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795262400.0
+"ts": 1795262400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
@@ -1013,7 +1016,10 @@
 "game": "SV Lochau vs FC Kufstein",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
