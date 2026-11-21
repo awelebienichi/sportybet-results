@@ -705,7 +705,10 @@
 "game": "FC Liefering vs Wacker Innsbruck",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795271400.0
+"ts": 1795271400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1100,7 +1103,10 @@
 "game": "FC Liefering vs Wacker Innsbruck",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1795271400.0
+"ts": 1795271400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -1323,7 +1329,10 @@
 "game": "FC Liefering vs Wacker Innsbruck",
 "pick": "1st half Over 0.5",
 "odds": 1.21,
-"ts": 1795271400.0
+"ts": 1795271400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
