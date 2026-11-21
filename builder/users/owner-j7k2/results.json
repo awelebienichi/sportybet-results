@@ -3017,7 +3017,10 @@
 "game": "EC Bahia BA vs Coritiba FC PR",
 "pick": "1st half double chance EC Bahia BA or draw",
 "odds": 1.14,
-"ts": 1795293000.0
+"ts": 1795293000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 22:00",
@@ -4093,7 +4096,10 @@
 "game": "EC Bahia BA vs Coritiba FC PR",
 "pick": "1st half double chance EC Bahia BA or draw",
 "odds": 1.15,
-"ts": 1795293000.0
+"ts": 1795293000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 }
 ]
 },
@@ -5935,7 +5941,10 @@
 "game": "CF Esperanca D Andorra vs CE Carroi",
 "pick": "Over 2.5",
 "odds": 1.51,
-"ts": 1795289400.0
+"ts": 1795289400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 }
 ]
 },
