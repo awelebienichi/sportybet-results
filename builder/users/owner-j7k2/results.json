@@ -1726,7 +1726,7 @@
 "odds": 1.64,
 "ts": 1795266000.0,
 "r": "W",
-"sc": "3-2",
+"sc": "3-3",
 "ht": "3-1"
 },
 {
@@ -2856,7 +2856,7 @@
 "when": "Sat 21 Nov 02:28",
 "kind": "goal-fest teams (season data)",
 "odds": 59.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:00",
@@ -2893,7 +2893,10 @@
 "game": "FC Augsburg II vs SpVgg Bayreuth",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
