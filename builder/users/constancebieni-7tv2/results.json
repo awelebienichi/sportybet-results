@@ -67,7 +67,7 @@
 "odds": 1.18,
 "ts": 1795273200.0,
 "r": "W",
-"sc": "4-1",
+"sc": "3-1",
 "ht": "2-1"
 },
 {
@@ -341,7 +341,10 @@
 "game": "AL Naft Maysan vs AL Mosul SC",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.07,
-"ts": 1795275000.0
+"ts": 1795275000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:30",
