@@ -2,6 +2,226 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "PK3G0E",
+"at": 1795284518,
+"when": "Sat 21 Nov 19:08",
+"kind": "your chosen markets",
+"odds": 16.78,
+"status": "open",
+"legs": [
+{
+"t": "Sun 00:00",
+"game": "Inter Miami CF vs Columbus Crew",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795302000.0
+},
+{
+"t": "Sun 02:00",
+"game": "La Tribu de Ciudad Juarez vs Real Refineros Cds",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795309200.0
+},
+{
+"t": "Sun 02:00",
+"game": "Canterbury United Pride vs West Coast Rangers FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795309200.0
+},
+{
+"t": "Sun 02:00",
+"game": "Wellington United Diamonds vs Wellington Phoenix",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795309200.0
+},
+{
+"t": "Sun 13:00",
+"game": "Esmtk Budapest vs Csepel SC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Eintracht Norderstedt vs FSV Schoningen 2011",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Zurich vs FC St. Gallen 1879",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Stoke City U21 vs Stockport County Reserves",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Hamburger SV II vs SV Werder Bremen II",
+"pick": "Goal bounds 2-5+",
+"odds": 1.08,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "KRC Harelbeke vs Cercle Brugge",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "ACF Fiorentina vs Como 1907",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:30",
+"game": "Arsenal WFC vs West Ham United FC Women",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "RFC Union Luxembourg vs FC Wiltz 71",
+"pick": "Goal bounds 2-5+",
+"odds": 1.06,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Zurich vs FC Yverdon",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795381200.0
+},
+{
+"t": "Mon 19:00",
+"game": "Wieczysta Krakow vs LKP Motor Lublin",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"pick": "Goal bounds 2-5+",
+"odds": 1.17,
+"ts": 1795458600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cdt Real Oruro vs Guabira Montero",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795460400.0
+},
+{
+"t": "Tue 20:45",
+"game": "Crawley Town vs Barnet FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Man City vs Napoli",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795550400.0
+},
+{
+"t": "Wed 21:00",
+"game": "Atletico Madrid vs Viking FK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795636800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Hoffenheim vs Sturm Graz",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795723200.0
+},
+{
+"t": "Thu 21:00",
+"game": "Juventus vs AC Omonia Nicosia",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 20:00",
+"game": "VVV Venlo vs RKC Waalwijk",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795806000.0
+}
+]
+},
+{
 "code": "VGU2YD",
 "at": 1795271977,
 "when": "Sat 21 Nov 15:39",
