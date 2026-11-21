@@ -2326,7 +2326,10 @@
 "game": "TSG Hoffenheim II vs SC Preussen 06 Munster",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1795266000.0
+"ts": 1795266000.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -2560,7 +2563,10 @@
 "game": "Inter Milano U23 vs Potenza Calcio",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795267800.0
+"ts": 1795267800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -3526,7 +3532,7 @@
 "odds": 1.17,
 "ts": 1795267800.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
