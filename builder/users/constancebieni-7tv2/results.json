@@ -87,14 +87,17 @@
 "when": "Fri 20 Nov 22:55",
 "kind": "your chosen markets",
 "odds": 16.54,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 02:00",
 "game": "Miramar Rangers vs Cashmere Technical",
 "pick": "Goal bounds 2-5+",
 "odds": 1.08,
-"ts": 1795222800.0
+"ts": 1795222800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 05:00",
