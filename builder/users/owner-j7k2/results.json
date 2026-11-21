@@ -208,7 +208,10 @@
 "game": "GD Interclube vs Atletico Petroleos de Luanda",
 "pick": "Under 2.5",
 "odds": 1.44,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -328,7 +331,10 @@
 "game": "GD Interclube vs Atletico Petroleos de Luanda",
 "pick": "Under 2.5",
 "odds": 1.44,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -355,7 +361,10 @@
 "game": "AL Naft Maysan vs AL Mosul SC",
 "pick": "Under 2.5",
 "odds": 1.65,
-"ts": 1795275000.0
+"ts": 1795275000.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:00",
@@ -1120,7 +1129,10 @@
 "game": "Vaalerenga IF vs IK Start",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795280400.0
+"ts": 1795280400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 18:45",
