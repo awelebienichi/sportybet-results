@@ -1,5 +1,65 @@
 [
 {
+"when": "Sat 21 Nov 06:22",
+"at": 1795238562,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "mix",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwpym2h00djn"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"Chance all 2 legs win: about 73%."
+],
+"tickets": [
+{
+"code": "QXDANB",
+"odds": 1.24,
+"legs": [
+{
+"t": "Sat 11:30",
+"game": "Migori Youth FC vs Leopards SC",
+"lg": "Kenya - Premier League",
+"pick": "Under 3.5",
+"odds": 1.12,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%, Vitibet tip 0-0, season: 1.3 goals a game",
+"ts": 1795257000.0,
+"eid": "sr:match:74056932",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74056932|18|total=3.5|13"
+},
+{
+"t": "Sat 18:45",
+"game": "Feyenoord vs Excelsior Rotterdam",
+"lg": "Netherlands - Eredivisie",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1795283100.0,
+"eid": "sr:match:72041256",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72041256|90|total=0.5|12"
+}
+],
+"chance": 0.7296
+}
+]
+},
+{
 "when": "Sat 21 Nov 02:28",
 "at": 1795224499,
 "req": {
@@ -12841,308 +12901,6 @@
 }
 ],
 "chance": 0.0016
-}
-]
-},
-{
-"when": "Thu 19 Nov 16:00",
-"at": 1795100436,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "htdrawweak",
-"legs": 40,
-"tickets": 1,
-"days": [
-"2026-11-19",
-"2026-11-20",
-"2026-11-21",
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwnofuofavm2"
-},
-"ok": true,
-"kind": "half-time draw \u2013 weak teams",
-"note": [
-"Only 19 games passed the checks (Thu 19, Fri 20, Sat 21, Sun 22, 1423 games on SportyBet), so this ticket has 19 legs instead of 40. Tick more days or use 'Relaxed' for more.",
-"Chance all 19 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "SQK9RM",
-"odds": 1763450.64,
-"legs": [
-{
-"t": "Thu 16:30",
-"game": "Al-Gharraf SC vs Al Quwa Al Jawiya",
-"lg": "Iraq - Stars League",
-"pick": "Half-time draw",
-"odds": 1.99,
-"why": "two weak sides (won 20% / 20% of last 10), level at half-time 70% / 60%",
-"ts": 1795102200.0,
-"eid": "sr:match:75949128",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "75949128|60||2"
-},
-{
-"t": "Thu 17:00",
-"game": "Ghaz Al-Shamal SC vs AL Karkh",
-"lg": "Iraq - Stars League",
-"pick": "Half-time draw",
-"odds": 1.94,
-"why": "two weak sides (won 30% / 30% of last 10), level at half-time 70% / 50%",
-"ts": 1795104000.0,
-"eid": "sr:match:75949130",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "75949130|60||2"
-},
-{
-"t": "Fri 15:30",
-"game": "Sanat Naft Abadan FC vs Esteghlal Khuzestan FC",
-"lg": "Iran - Pro League",
-"pick": "Half-time draw",
-"odds": 1.85,
-"why": "two weak sides (won 20% / 20% of last 10), level at half-time 50% / 70%",
-"ts": 1795185000.0,
-"eid": "sr:match:76570800",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76570800|60||2"
-},
-{
-"t": "Fri 17:00",
-"game": "ASO Chlef vs USM Khenchela",
-"lg": "Algeria - Ligue 1",
-"pick": "Half-time draw",
-"odds": 1.88,
-"why": "two weak sides (won 0% / 20% of last 10), level at half-time 50% / 80%",
-"ts": 1795190400.0,
-"eid": "sr:match:75049110",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "75049110|60||2"
-},
-{
-"t": "Fri 18:00",
-"game": "Chrobry Glogow vs Puszcza Niepolomice",
-"lg": "Poland - 1. Liga",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "two weak sides (won 10% / 30% of last 10), level at half-time 50% / 60%",
-"ts": 1795194000.0,
-"eid": "sr:match:72230868",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72230868|60||2"
-},
-{
-"t": "Sat 08:00",
-"game": "Gamba Osaka vs Fagiano Okayama",
-"lg": "Japan - J1 League",
-"pick": "Half-time draw",
-"odds": 2.3,
-"why": "two weak sides (won 20% / 30% of last 10), level at half-time 50% / 60%",
-"ts": 1795244400.0,
-"eid": "sr:match:72149886",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72149886|60||2"
-},
-{
-"t": "Sat 12:30",
-"game": "Parma Calcio vs SSC Napoli",
-"lg": "Italy - Serie A, Women",
-"pick": "Half-time draw",
-"odds": 2.1,
-"why": "two weak sides (won 20% / 20% of last 10), level at half-time 60% / 60%",
-"ts": 1795260600.0,
-"eid": "sr:match:73095070",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "73095070|60||2"
-},
-{
-"t": "Sat 13:45",
-"game": "Nassaji Mazandaran FC vs Aluminium Arak",
-"lg": "Iran - Pro League",
-"pick": "Half-time draw",
-"odds": 1.88,
-"why": "two weak sides (won 20% / 30% of last 10), level at half-time 50% / 60%",
-"ts": 1795265100.0,
-"eid": "sr:match:76570802",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76570802|60||2"
-},
-{
-"t": "Sat 14:00",
-"game": "Alaves vs RC Deportivo de A Coruna",
-"lg": "Spain - LaLiga",
-"pick": "Half-time draw",
-"odds": 2.1,
-"why": "two weak sides (won 20% / 20% of last 10), level at half-time 60% / 50%",
-"ts": 1795266000.0,
-"eid": "sr:match:72478706",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72478706|60||2"
-},
-{
-"t": "Sat 15:00",
-"game": "AIK vs Degerfors IF",
-"lg": "Sweden - Allsvenskan",
-"pick": "Half-time draw",
-"odds": 2.4,
-"why": "two weak sides (won 20% / 10% of last 10), level at half-time 60% / 50%",
-"ts": 1795269600.0,
-"eid": "sr:match:67126886",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "67126886|60||2"
-},
-{
-"t": "Sat 16:00",
-"game": "Tranmere Rovers FC vs Colchester United",
-"lg": "England - League Two",
-"pick": "Half-time draw",
-"odds": 2.2,
-"why": "two weak sides (won 20% / 30% of last 10), level at half-time 50% / 70%",
-"ts": 1795273200.0,
-"eid": "sr:match:72342402",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72342402|60||2"
-},
-{
-"t": "Sat 21:00",
-"game": "SC Telstar vs PEC Zwolle",
-"lg": "Netherlands - Eredivisie",
-"pick": "Half-time draw",
-"odds": 2.4,
-"why": "two weak sides (won 10% / 20% of last 10), level at half-time 60% / 50%",
-"ts": 1795291200.0,
-"eid": "sr:match:72041264",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72041264|60||2"
-},
-{
-"t": "Sun 00:30",
-"game": "Puntarenas FC vs CS Herediano",
-"lg": "Costa Rica - Primera Division",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "two weak sides (won 30% / 30% of last 10), level at half-time 50% / 50%",
-"ts": 1795303800.0,
-"eid": "sr:match:72053708",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72053708|60||2"
-},
-{
-"t": "Sun 04:00",
-"game": "Tigres UANL vs CF America",
-"lg": "Mexico - Liga MX",
-"pick": "Half-time draw",
-"odds": 2.4,
-"why": "two weak sides (won 20% / 20% of last 10), level at half-time 60% / 50%",
-"ts": 1795316400.0,
-"eid": "sr:match:72055328",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72055328|60||2"
-},
-{
-"t": "Sun 06:00",
-"game": "Gimcheon Sangmu FC vs Jeju SK FC",
-"lg": "Republic of Korea - K-League 1",
-"pick": "Half-time draw",
-"odds": 2.2,
-"why": "two weak sides (won 20% / 30% of last 10), level at half-time 70% / 70%",
-"ts": 1795323600.0,
-"eid": "sr:match:76045174",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "76045174|60||2"
-},
-{
-"t": "Sun 08:30",
-"game": "Paju Frontier FC vs Cheonan City FC",
-"lg": "Republic of Korea - K-League 2",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "two weak sides (won 30% / 30% of last 10), level at half-time 70% / 60%",
-"ts": 1795332600.0,
-"eid": "sr:match:68046858",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "68046858|60||2"
-},
-{
-"t": "Sun 12:30",
-"game": "Chiangrai United vs Lamphun Warriors FC",
-"lg": "Thailand - Thai League 1",
-"pick": "Half-time draw",
-"odds": 2.15,
-"why": "two weak sides (won 30% / 30% of last 10), level at half-time 50% / 70%",
-"ts": 1795347000.0,
-"eid": "sr:match:72942582",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72942582|60||2"
-},
-{
-"t": "Sun 14:30",
-"game": "US Pianese vs AS Gubbio",
-"lg": "Italy - Serie C, Group B",
-"pick": "Half-time draw",
-"odds": 2.05,
-"why": "two weak sides (won 20% / 10% of last 10), level at half-time 60% / 50%",
-"ts": 1795354200.0,
-"eid": "sr:match:73294108",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "73294108|60||2"
-},
-{
-"t": "Sun 17:00",
-"game": "Rodina Moscow vs Lokomotiv Moscow",
-"lg": "Russia - Premier League",
-"pick": "Half-time draw",
-"odds": 2.35,
-"why": "two weak sides (won 20% / 20% of last 10), level at half-time 50% / 50%",
-"ts": 1795363200.0,
-"eid": "sr:match:72334434",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72334434|60||2"
-}
-],
-"chance": 0.0
 }
 ]
 }
