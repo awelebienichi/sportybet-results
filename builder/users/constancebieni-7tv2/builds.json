@@ -1,5 +1,28 @@
 [
 {
+"when": "Sat 21 Nov 19:06",
+"at": 1795284405,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwqpyw3oldj0"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for your chosen markets (Sat 21) out of 81 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Sat 21 Nov 15:39",
 "at": 1795271977,
 "req": {
@@ -6213,181 +6236,6 @@
 }
 ],
 "chance": 0.2631
-}
-]
-},
-{
-"when": "Sun 15 Nov 17:44",
-"at": 1794761095,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-15"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"xg1"
-],
-"rid": "mwi2estehenc"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 10 legs win: about 28%."
-],
-"tickets": [
-{
-"code": "NATTN8",
-"odds": 2.22,
-"legs": [
-{
-"t": "Sun 18:15",
-"game": "Valencia CF vs Granada CF",
-"lg": "Spain - Primera Division Women",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.08,
-"why": "stats rate 95% from both teams' last 10 and 6 meetings",
-"ts": 1794762900.0,
-"eid": "sr:match:72491454",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "72491454|810002||3"
-},
-{
-"t": "Sun 19:00",
-"game": "Club Cipolletti vs Juventud Antoniana",
-"lg": "Argentina - Torneo Federal A",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.06,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1794765600.0,
-"eid": "sr:match:76322272",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76322272|810002||3"
-},
-{
-"t": "Sun 19:00",
-"game": "Leones Negros UDEG vs Atletico Morelia",
-"lg": "Mexico - Liga de Expansion MX",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.11,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794765600.0,
-"eid": "sr:match:76629022",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76629022|810002||3"
-},
-{
-"t": "Sun 20:00",
-"game": "Petrolina SFC PE vs Belo Jardim",
-"lg": "Brazil - Pernambucano",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10 and 6 meetings",
-"ts": 1794769200.0,
-"eid": "sr:match:76732860",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76732860|810002||3"
-},
-{
-"t": "Sun 20:00",
-"game": "Boca Juniors de Cali vs Independiente Valle Del Cauca",
-"lg": "Colombia - Torneo DIMAYOR",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.06,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings",
-"ts": 1794769200.0,
-"eid": "sr:match:76837298",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76837298|810002||3"
-},
-{
-"t": "Sun 21:00",
-"game": "Central SC PE vs Ypiranga PE",
-"lg": "Brazil - Pernambucano",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1794772800.0,
-"eid": "sr:match:76732862",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76732862|810002||3"
-},
-{
-"t": "Sun 21:00",
-"game": "Gotham FC vs Kansas City Current",
-"lg": "USA - National Womens Soccer League",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.08,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794772800.0,
-"eid": "sr:match:76636578",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76636578|810002||3"
-},
-{
-"t": "Sun 22:00",
-"game": "Union San Felipe vs Union Espanola",
-"lg": "Chile - Primera B",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.1,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1794776400.0,
-"eid": "sr:match:76422300",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76422300|810002||3"
-},
-{
-"t": "Sun 22:00",
-"game": "Deportes Magallanes vs CD Antofagasta",
-"lg": "Chile - Primera B",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.12,
-"why": "stats rate 95% from both teams' last 10 and 5 meetings",
-"ts": 1794776400.0,
-"eid": "sr:match:76422376",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76422376|810002||3"
-},
-{
-"t": "Sun 22:00",
-"game": "Cerro Porteno vs Sol de America Villa Elisa",
-"lg": "Paraguay - Copa Paraguay",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.08,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1794776400.0,
-"eid": "sr:match:76642966",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76642966|810002||3"
-}
-],
-"chance": 0.277
 }
 ]
 }
