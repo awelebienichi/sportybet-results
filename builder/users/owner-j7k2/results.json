@@ -1167,7 +1167,10 @@
 "game": "Bury FC vs Redcar Athletic FC",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -3409,7 +3412,10 @@
 "game": "Bury FC vs Redcar Athletic FC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
