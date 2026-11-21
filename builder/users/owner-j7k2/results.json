@@ -699,7 +699,10 @@
 "game": "CA Talleres de Remedios vs Real Pilar FC",
 "pick": "Under 2.5",
 "odds": 1.55,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 21:00",
@@ -880,7 +883,10 @@
 "game": "CA Talleres de Remedios vs Real Pilar FC",
 "pick": "Under 2.5",
 "odds": 1.55,
-"ts": 1795284000.0
+"ts": 1795284000.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 21:00",
@@ -1673,7 +1679,10 @@
 "game": "Motherwell FC vs Rangers",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 }
 ]
 },
@@ -2098,7 +2107,10 @@
 "game": "Motherwell FC vs Rangers",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795291200.0
+"ts": 1795291200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 }
 ]
 },
