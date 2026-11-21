@@ -339,7 +339,7 @@
 "when": "Sat 21 Nov 22:02",
 "kind": "strong team to score in the 1st half",
 "odds": 228114657.58,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 22:30",
@@ -356,7 +356,10 @@
 "game": "CD Universidad Catolica del Ecuador vs Barcelona SC",
 "pick": "CD Universidad Catolica del Ecuador to score in 1st half",
 "odds": 1.65,
-"ts": 1795296600.0
+"ts": 1795296600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 00:30",
