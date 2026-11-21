@@ -1,5 +1,68 @@
 [
 {
+"when": "Sat 21 Nov 06:45",
+"at": 1795239907,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 2,
+"tickets": 1,
+"days": [
+"2026-11-21"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1ggn"
+],
+"rid": "mwpzh7bre66f"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 2 legs win: about 74%."
+],
+"tickets": [
+{
+"code": "L8WY4E",
+"odds": 1.22,
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Creck SC vs Malawi Armed Forces College FC",
+"lg": "Malawi - Super League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10 and 3 meetings",
+"ts": 1795266000.0,
+"eid": "sr:match:70381734",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "70381734|75||76"
+},
+{
+"t": "Sat 15:30",
+"game": "Foolad Khuzestan FC vs Sepahan SC",
+"lg": "Iran - Pro League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795271400.0,
+"eid": "sr:match:76570804",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76570804|75||76"
+}
+],
+"chance": 0.7429
+}
+]
+},
+{
 "when": "Sat 21 Nov 06:44",
 "at": 1795239841,
 "req": {
@@ -9048,50 +9111,6 @@
 }
 ],
 "chance": 0.0001
-}
-]
-},
-{
-"when": "Fri 20 Nov 12:02",
-"at": 1795172531,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "goals",
-"legs": 10,
-"strict": "normal",
-"rid": "mwovd7asvb3f"
-},
-"ok": true,
-"kind": "live \u2013 another goal coming",
-"note": [
-"Only 1 live leg(s) were strong enough right now (you asked for 10).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 1 legs win: about 85%."
-],
-"tickets": [
-{
-"code": "YF5J52",
-"odds": 1.12,
-"legs": [
-{
-"t": "Fri 11:00",
-"game": "FC Master Saturn vs FC Baltika Kaliningrad",
-"lg": "Russia - MFL, Division B",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "LIVE 0-1 45': FC Master Saturn expected 1.0 and FC Baltika Kaliningrad 0.9 more goals (last 10); 0-1 at 45' \u2013 81% chance; h2h 67% of 3 meetings (1.5 line)",
-"ts": 1795168800.0,
-"eid": "sr:match:76848890",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76848890|18|total=1.5|12"
-}
-],
-"chance": 0.8503
 }
 ]
 }
