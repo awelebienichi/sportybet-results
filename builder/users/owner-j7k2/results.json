@@ -652,7 +652,10 @@
 "game": "Real Sporting de Gijon vs Victoria CF",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795272300.0
+"ts": 1795272300.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1023,7 +1026,10 @@
 "game": "Real Sporting de Gijon vs Victoria CF",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795272300.0
+"ts": 1795272300.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1784,7 +1790,10 @@
 "game": "Real Sporting de Gijon vs Victoria CF",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795272300.0
+"ts": 1795272300.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2026,7 +2035,10 @@
 "game": "Real Sporting de Gijon vs Victoria CF",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795272300.0
+"ts": 1795272300.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2951,7 +2963,10 @@
 "game": "SC Genemuiden vs ACV Assen",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1795267800.0
+"ts": 1795267800.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -4249,7 +4264,7 @@
 "odds": 1.19,
 "ts": 1795273200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": ""
 },
 {
@@ -4514,7 +4529,10 @@
 "game": "Burton Albion vs Luton",
 "pick": "Luton to score in 1st half",
 "odds": 1.6,
-"ts": 1795273200.0
+"ts": 1795273200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
