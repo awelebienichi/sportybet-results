@@ -59,14 +59,20 @@
 "game": "CD Subiza vs CD Pamplona",
 "pick": "CD Pamplona Under 1.5",
 "odds": 1.03,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:00",
 "game": "Viveiro CF vs UD Somozas",
 "pick": "Viveiro CF Under 3.5",
 "odds": 1.04,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Sun 12:30",
@@ -90,14 +96,17 @@
 "when": "Sun 22 Nov 13:17",
 "kind": "live \u2013 best of all",
 "odds": 1.36,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 12:00",
 "game": "El San Martin Ra vs UP Langreo",
 "pick": "UP Langreo Under 4.5",
 "odds": 1.03,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "L",
+"sc": "1-5",
+"ht": "0-2"
 },
 {
 "t": "Sun 12:00",
@@ -121,7 +130,10 @@
 "game": "Girona FC B vs UD Logrones B",
 "pick": "Girona FC B Under 2.5",
 "odds": 1.03,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:00",
@@ -142,7 +154,10 @@
 "game": "FC Real Sireti vs Petrocub Hincesti",
 "pick": "Petrocub Hincesti Under 3.5",
 "odds": 1.03,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
@@ -1301,7 +1316,10 @@
 "game": "Rayong FC vs Rasisalai United",
 "pick": "1st Half - Over/Under \u2013 Over 0.5",
 "odds": 1.25,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 13:00",
@@ -2191,14 +2209,17 @@
 "when": "Sun 22 Nov 09:18",
 "kind": "1st half Over 0.5",
 "odds": 1.74,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 13:00",
 "game": "Rayong FC vs Rasisalai United",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:30",
@@ -2259,7 +2280,10 @@
 "game": "Rayong FC vs Rasisalai United",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
