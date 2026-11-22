@@ -925,7 +925,10 @@
 "game": "Blauw Geel 38 vs Groene Ster",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 14:00",
@@ -1518,7 +1521,7 @@
 "when": "Sun 22 Nov 12:50",
 "kind": "smallest-odds favourites to win",
 "odds": 1554.11,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:00",
@@ -1532,7 +1535,10 @@
 "game": "FC Pyunik Yerevan vs Sardarapat FC",
 "pick": "FC Pyunik Yerevan to win",
 "odds": 1.23,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 14:00",
@@ -1738,7 +1744,7 @@
 "when": "Sun 22 Nov 12:42",
 "kind": "strong favourites to win",
 "odds": 1033.96,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:00",
@@ -1752,14 +1758,20 @@
 "game": "FC Pyunik Yerevan vs Sardarapat FC",
 "pick": "FC Pyunik Yerevan to win",
 "odds": 1.23,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 14:00",
 "game": "Paop Neas Amisou vs AO Kavala 1965",
 "pick": "AO Kavala 1965 to win",
 "odds": 1.28,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
@@ -2075,7 +2087,10 @@
 "game": "Blauw Geel 38 vs Groene Ster",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.16,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 14:00",
@@ -2673,7 +2688,10 @@
 "game": "Blauw Geel 38 vs Groene Ster",
 "pick": "1st half double chance Blauw Geel 38 or draw",
 "odds": 1.16,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 14:00",
@@ -3271,7 +3289,10 @@
 "game": "HSC Hannover vs VfB Lubeck",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:30",
@@ -4078,7 +4099,10 @@
 "game": "Blauw Geel 38 vs Groene Ster",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.28,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 14:30",
@@ -4094,7 +4118,7 @@
 "odds": 1.47,
 "ts": 1795354200.0,
 "r": "W",
-"sc": "1-3",
+"sc": "1-4",
 "ht": "1-1"
 },
 {
@@ -4620,7 +4644,10 @@
 "game": "Blauw Geel 38 vs Groene Ster",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.28,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 14:00",
@@ -4671,7 +4698,10 @@
 "game": "HSC Hannover vs VfB Lubeck",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:30",
@@ -4732,7 +4762,7 @@
 "odds": 1.47,
 "ts": 1795354200.0,
 "r": "W",
-"sc": "1-3",
+"sc": "1-4",
 "ht": "1-1"
 },
 {
@@ -5090,7 +5120,10 @@
 "game": "HSC Hannover vs VfB Lubeck",
 "pick": "GG (both teams score)",
 "odds": 1.37,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
