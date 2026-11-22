@@ -1269,14 +1269,17 @@
 "when": "Sun 22 Nov 12:54",
 "kind": "half-time draw \u2013 weak teams",
 "odds": 18.92,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 13:30",
 "game": "Sopoti Librazhd vs Korabi Peshkopi",
 "pick": "Half-time draw",
 "odds": 2.1,
-"ts": 1795350600.0
+"ts": 1795350600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 14:00",
@@ -1892,7 +1895,10 @@
 "game": "Ajax vs ADO Den Haag",
 "pick": "1st Half - Over/Under \u2013 Over 0.5",
 "odds": 1.16,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -2755,7 +2761,10 @@
 "game": "Ajax vs ADO Den Haag",
 "pick": "1st half Over 0.5",
 "odds": 1.16,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 17:00",
@@ -2829,14 +2838,20 @@
 "game": "Peterborough United U21 vs Luton Town Reserves",
 "pick": "1st half Over 0.5",
 "odds": 1.14,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Sun 14:30",
 "game": "Ajax vs ADO Den Haag",
 "pick": "1st half Over 0.5",
 "odds": 1.16,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:30",
