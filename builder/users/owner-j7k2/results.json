@@ -3021,7 +3021,10 @@
 "game": "Chapelton Maroons FC vs Cavalier FC",
 "pick": "Chapelton Maroons FC Over/Under \u2013 Under 2.5",
 "odds": 1.06,
-"ts": 1795377600.0
+"ts": 1795377600.0,
+"r": "W",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 21:00",
@@ -3174,7 +3177,7 @@
 "when": "Sun 22 Nov 11:23",
 "kind": "your chosen markets",
 "odds": 1.19,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 15:00",
@@ -3201,7 +3204,10 @@
 "game": "Chapelton Maroons FC vs Cavalier FC",
 "pick": "Chapelton Maroons FC Under 2.5 goals",
 "odds": 1.06,
-"ts": 1795377600.0
+"ts": 1795377600.0,
+"r": "W",
+"sc": "0-0",
+"ht": ""
 }
 ]
 },
