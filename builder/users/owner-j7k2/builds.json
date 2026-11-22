@@ -1,5 +1,320 @@
 [
 {
+"when": "Sun 22 Nov 09:23",
+"at": 1795335796,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mwrkk9oysye9"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 20 legs win: about 3% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "XY1XLN",
+"odds": 12.7,
+"legs": [
+{
+"t": "Sun 11:00",
+"game": "Belediye Kutahyaspor vs Hekimoglu Trabzon",
+"lg": "Turkiye Amateur - 2. Lig",
+"pick": "Over 1.5",
+"odds": 1.18,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%, season: 3.3 goals a game",
+"ts": 1795341600.0,
+"eid": "sr:match:72837936",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72837936|18|total=1.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "Arenas Club de Getxo vs Real Aviles CF",
+"lg": "Spain - Primera Federacion",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.3 goals a game, season: 3.3 goals a game",
+"ts": 1795345200.0,
+"eid": "sr:match:72559262",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72559262|18|total=1.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "FC Zurich vs FC St. Gallen 1879",
+"lg": "Switzerland - Super League",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, footybets 99%, FotMob: 3.7 goals a game, Vitibet tip 1-2, season: 3.7 goals a game, CompactStats 89% (bookmaker 89%)",
+"ts": 1795352400.0,
+"eid": "sr:match:74379724",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74379724|18|total=1.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "PAS Korinthos vs AE Asteras Vlachioti",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Over 1.5",
+"odds": 1.25,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 80%, season: 3.1 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:74040538",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74040538|18|total=1.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"lg": "Netherlands - Eredivisie",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 98%, FotMob: 3.7 goals a game, Vitibet tip 3-1, season: 3.7 goals a game",
+"ts": 1795354200.0,
+"eid": "sr:match:72041248",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72041248|18|total=1.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Union Sportive Cap D Ail U19 vs Bastia SC",
+"lg": "France - U19 National",
+"pick": "Over 1.5",
+"odds": 1.19,
+"why": "stats rate 95% from both teams' last 10; season: 3.9 goals a game",
+"ts": 1795354200.0,
+"eid": "sr:match:73111874",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73111874|18|total=1.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "ACF Fiorentina vs Como 1907",
+"lg": "Italy - Serie A, Women",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.3 goals a game, season: 3.3 goals a game",
+"ts": 1795356000.0,
+"eid": "sr:match:73095064",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73095064|18|total=1.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "BSC Young Boys U21 vs Juventus Zurich",
+"lg": "Switzerland - Promotion League",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 89% from both teams' last 10 and 4 meetings; Flashscore home/away form 90%, season: 3.8 goals a game",
+"ts": 1795356000.0,
+"eid": "sr:match:72521082",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72521082|18|total=1.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Paris FC W vs FC Fleury",
+"lg": "France - Premiere Ligue, Women",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.8 goals a game, Vitibet tip 2-1, season: 3.8 goals a game, CompactStats 81% (bookmaker 81%)",
+"ts": 1795356000.0,
+"eid": "sr:match:72700306",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72700306|18|total=1.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.06,
+"why": "stats rate 100% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963860",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963860|18|total=1.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 100%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963850",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963850|18|total=1.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "RFC Union Luxembourg vs FC Wiltz 71",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.06,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 4.0 goals a game, Vitibet tip 3-1, season: 4.0 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963852",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963852|18|total=1.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "US Hostert vs US Rumelange",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.6 goals a game, Vitibet tip 2-1, season: 3.6 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963854",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963854|18|total=1.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "FC Zurich vs FC Yverdon",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 5 meetings; Flashscore home/away form 80%, season: 3.8 goals a game",
+"ts": 1795361400.0,
+"eid": "sr:match:72652104",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72652104|18|total=1.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"lg": "Switzerland - Super League",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 99%, FotMob: 3.7 goals a game, Vitibet tip 2-1, season: 3.7 goals a game",
+"ts": 1795361400.0,
+"eid": "sr:match:74379726",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74379726|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "stats rate 92% from both teams' last 10 and 8 meetings; Flashscore home/away form 100%, FotMob: 3.7 goals a game, Vitibet tip 1-2, season: 3.7 goals a game",
+"ts": 1795363200.0,
+"eid": "sr:match:67015480",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "67015480|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Viljandi JK Tulevik vs FC Tallinn",
+"lg": "Estonia - Esiliiga",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 85%, Vitibet tip 1-2",
+"ts": 1795363200.0,
+"eid": "sr:match:76638680",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76638680|18|total=1.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "KFUM Oslo vs SK Brann",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 92% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 3.3 goals a game, Vitibet tip 1-2, season: 3.3 goals a game",
+"ts": 1795363200.0,
+"eid": "sr:match:67015468",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "67015468|18|total=1.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"lg": "Italy - Serie A",
+"pick": "Over 1.5",
+"odds": 1.13,
+"why": "stats rate 91% from both teams' last 10 and 6 meetings; Flashscore home/away form 85%, FotMob: 3.4 goals a game, Vitibet tip 2-1, season: 3.4 goals a game",
+"ts": 1795366800.0,
+"eid": "sr:match:71945416",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "71945416|18|total=1.5|12"
+},
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"lg": "USA - MLS",
+"pick": "Over 1.5",
+"odds": 1.13,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1795381200.0,
+"eid": "sr:match:76907548",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76907548|18|total=1.5|12"
+}
+],
+"chance": 0.0297
+}
+]
+},
+{
 "when": "Sun 22 Nov 09:18",
 "at": 1795335512,
 "req": {
@@ -19013,69 +19328,6 @@
 }
 ],
 "chance": 0.7777
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:45",
-"at": 1795239907,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"h1ggn"
-],
-"rid": "mwpzh7bre66f"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 2 legs win: about 74%."
-],
-"tickets": [
-{
-"code": "L8WY4E",
-"odds": 1.22,
-"legs": [
-{
-"t": "Sat 14:00",
-"game": "Creck SC vs Malawi Armed Forces College FC",
-"lg": "Malawi - Super League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.11,
-"why": "stats rate 95% from both teams' last 10 and 3 meetings",
-"ts": 1795266000.0,
-"eid": "sr:match:70381734",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "70381734|75||76"
-},
-{
-"t": "Sat 15:30",
-"game": "Foolad Khuzestan FC vs Sepahan SC",
-"lg": "Iran - Pro League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.1,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1795271400.0,
-"eid": "sr:match:76570804",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "76570804|75||76"
-}
-],
-"chance": 0.7429
 }
 ]
 }
