@@ -1,5 +1,80 @@
 [
 {
+"when": "Sun 22 Nov 09:31",
+"at": 1795336268,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "gg",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwrkuitfts00"
+},
+"ok": true,
+"kind": "GG (both teams score)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 3 legs win: about 29%."
+],
+"tickets": [
+{
+"code": "TWCSEM",
+"odds": 2.94,
+"legs": [
+{
+"t": "Sun 11:00",
+"game": "Estac Troyes vs FC Annecy U19",
+"lg": "France - U19 National",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"why": "stats rate 80% from both teams' last 10",
+"ts": 1795341600.0,
+"eid": "sr:match:73111832",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73111832|29||74"
+},
+{
+"t": "Sun 15:00",
+"game": "Sheffield United LFC vs Durham LFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "GG (both teams score)",
+"odds": 1.47,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
+"ts": 1795356000.0,
+"eid": "sr:match:73607368",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73607368|29||74"
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"lg": "Switzerland - Super League",
+"pick": "GG (both teams score)",
+"odds": 1.34,
+"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, footybets 96%, FotMob: both score 1.3+ a game",
+"ts": 1795361400.0,
+"eid": "sr:match:74379726",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "74379726|29||74"
+}
+],
+"chance": 0.2943
+}
+]
+},
+{
 "when": "Sun 22 Nov 09:30",
 "at": 1795336206,
 "req": {
@@ -18985,371 +19060,6 @@
 }
 ],
 "chance": 0.0
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:49",
-"at": 1795240145,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "combine",
-"codes": [
-"QXDANB",
-"K0PFYK",
-"ZLBCWJ",
-"P50HMZ",
-"VWWAHC",
-"VWWAHC",
-"HDM5XU",
-"HE7Z7X",
-"RQAQYZ",
-"X39FFD",
-"L4MAPW",
-"T7QC41",
-"NRBY4Y",
-"L8WY4E",
-"K0PFYK",
-"G788HV"
-],
-"rid": "mwpzmgpeohw7"
-},
-"ok": true,
-"kind": "combined QXDANB + K0PFYK + ZLBCWJ + P50HMZ + VWWAHC + HDM5XU + HE7Z7X + RQAQYZ + X39FFD + L4MAPW + T7QC41 + NRBY4Y + L8WY4E + G788HV",
-"note": [
-"3 game(s) were on more than one code with different picks; the first pick was kept (one game can only be once on a slip).",
-"Chance all 23 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "VMX6M6",
-"odds": 27.18,
-"legs": [
-{
-"t": "Sat 10:30",
-"game": "1 FC Nuremberg vs Greuther Furth",
-"lg": "Germany Amateur - U19 DFB Nachwuchsliga",
-"pick": "Goal Bounds \u2013 2-5+",
-"odds": 1.07,
-"why": "from K0PFYK",
-"ts": 1795253400.0,
-"eid": "sr:match:73218172",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73218172|450001||25"
-},
-{
-"t": "Sat 11:00",
-"game": "KTS-K Luzino vs Kss Kotwica Kornik",
-"lg": "Poland - III Liga, Group 2",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.22,
-"why": "from RQAQYZ",
-"ts": 1795255200.0,
-"eid": "sr:match:72516180",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72516180|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "Trencin vs FC DAC 1904 Dunajska Streda",
-"lg": "Slovakia - U19 1. Liga",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.3,
-"why": "from X39FFD",
-"ts": 1795255200.0,
-"eid": "sr:match:72579150",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72579150|18|total=2.5|12"
-},
-{
-"t": "Sat 11:30",
-"game": "Migori Youth FC vs Leopards SC",
-"lg": "Kenya - Premier League",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.12,
-"why": "from QXDANB",
-"ts": 1795257000.0,
-"eid": "sr:match:74056932",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74056932|18|total=3.5|13"
-},
-{
-"t": "Sat 12:00",
-"game": "Jagiellonia II Bialystok vs SK Mazovia Minsk Mazowiecki",
-"lg": "Poland - III Liga, Group 1",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.38,
-"why": "from ZLBCWJ",
-"ts": 1795258800.0,
-"eid": "sr:match:72514896",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72514896|29||74"
-},
-{
-"t": "Sat 13:00",
-"game": "CS Tunari vs FC Petrolul Berca",
-"lg": "Romania - Liga 3",
-"pick": "Goal Bounds \u2013 2-5+",
-"odds": 1.09,
-"why": "from K0PFYK",
-"ts": 1795262400.0,
-"eid": "sr:match:74086966",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74086966|450001||25"
-},
-{
-"t": "Sat 13:00",
-"game": "1 FC Slovacko vs SK Dynamo Ceske Budejovice",
-"lg": "Czechia - U19 1. Liga",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.24,
-"why": "from L4MAPW",
-"ts": 1795262400.0,
-"eid": "sr:match:76682566",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76682566|18|total=2.5|12"
-},
-{
-"t": "Sat 13:15",
-"game": "Nejmeh SC vs AL Mabarrah",
-"lg": "Lebanon - Premier League",
-"pick": "1X2 \u2013 Home",
-"odds": 1.13,
-"why": "from P50HMZ",
-"ts": 1795263300.0,
-"eid": "sr:match:75019718",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "75019718|1||1"
-},
-{
-"t": "Sat 14:00",
-"game": "Creck SC vs Malawi Armed Forces College FC",
-"lg": "Malawi - Super League",
-"pick": "1st Half - GG/NG \u2013 No",
-"odds": 1.11,
-"why": "from L8WY4E",
-"ts": 1795266000.0,
-"eid": "sr:match:70381734",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "70381734|75||76"
-},
-{
-"t": "Sat 14:30",
-"game": "Vado FC vs Latina Calcio",
-"lg": "Italy - Serie C, Group B",
-"pick": "Vado FC Over/Under \u2013 Under 2.5",
-"odds": 1.06,
-"why": "from G788HV",
-"ts": 1795267800.0,
-"eid": "sr:match:73294116",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73294116|19|total=2.5|13"
-},
-{
-"t": "Sat 14:45",
-"game": "Quevilly-Rouen Metropole vs Valenciennes FC",
-"lg": "France - Ligue 3",
-"pick": "1st Half - Over/Under \u2013 Under 2.5",
-"odds": 1.07,
-"why": "from T7QC41",
-"ts": 1795268700.0,
-"eid": "sr:match:72524038",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72524038|68|total=2.5|13"
-},
-{
-"t": "Sat 15:00",
-"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st Half - Over/Under \u2013 Over 0.5",
-"odds": 1.17,
-"why": "from VWWAHC",
-"ts": 1795269600.0,
-"eid": "sr:match:72594680",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72594680|68|total=0.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "Caersws vs Denbigh Town",
-"lg": "Wales - Cymru Championship, North",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.09,
-"why": "from HE7Z7X",
-"ts": 1795269600.0,
-"eid": "sr:match:72546710",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72546710|18|total=1.5|12"
-},
-{
-"t": "Sat 15:30",
-"game": "Eintracht Frankfurt vs Hoffenheim",
-"lg": "Germany - Bundesliga",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.33,
-"why": "from ZLBCWJ",
-"ts": 1795271400.0,
-"eid": "sr:match:72513314",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72513314|29||74"
-},
-{
-"t": "Sat 15:30",
-"game": "Foolad Khuzestan FC vs Sepahan SC",
-"lg": "Iran - Pro League",
-"pick": "1st Half - GG/NG \u2013 No",
-"odds": 1.1,
-"why": "from L8WY4E",
-"ts": 1795271400.0,
-"eid": "sr:match:76570804",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "76570804|75||76"
-},
-{
-"t": "Sat 16:00",
-"game": "Radcliffe FC vs AFC Telford United",
-"lg": "England Amateur - National League North",
-"pick": "1st Half - Over/Under \u2013 Over 0.5",
-"odds": 1.24,
-"why": "from VWWAHC",
-"ts": 1795273200.0,
-"eid": "sr:match:72759482",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72759482|68|total=0.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Merida vs Atletico Madrid",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.32,
-"why": "from X39FFD",
-"ts": 1795273200.0,
-"eid": "sr:match:72884882",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72884882|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Spennymoor Town FC vs Harborough Town FC",
-"lg": "England Amateur - National League North",
-"pick": "1st Half - Over/Under \u2013 Under 2.5",
-"odds": 1.14,
-"why": "from T7QC41",
-"ts": 1795273200.0,
-"eid": "sr:match:72759488",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72759488|68|total=2.5|13"
-},
-{
-"t": "Sat 17:00",
-"game": "Pecsi MFC vs Sarbogard SE",
-"lg": "Hungary - NB III",
-"pick": "1X2 \u2013 Home",
-"odds": 1.05,
-"why": "from P50HMZ",
-"ts": 1795276800.0,
-"eid": "sr:match:72880690",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "72880690|1||1"
-},
-{
-"t": "Sat 17:30",
-"game": "ASD Pineto Calcio vs Delfino Pescara",
-"lg": "Italy - Serie C, Group B",
-"pick": "ASD Pineto Calcio Over/Under \u2013 Under 2.5",
-"odds": 1.08,
-"why": "from G788HV",
-"ts": 1795278600.0,
-"eid": "sr:match:73294110",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73294110|19|total=2.5|13"
-},
-{
-"t": "Sat 18:45",
-"game": "Feyenoord vs Excelsior Rotterdam",
-"lg": "Netherlands - Eredivisie",
-"pick": "2nd Half - Over/Under \u2013 Over 0.5",
-"odds": 1.11,
-"why": "from QXDANB",
-"ts": 1795283100.0,
-"eid": "sr:match:72041256",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72041256|90|total=0.5|12"
-},
-{
-"t": "Sat 19:00",
-"game": "Sporting vs Uniao Serra",
-"lg": "Portugal - Taca de Portugal",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.06,
-"why": "from RQAQYZ",
-"ts": 1795284000.0,
-"eid": "sr:match:76080464",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76080464|18|total=2.5|12"
-},
-{
-"t": "Sat 19:00",
-"game": "Stella Club D'Adjame vs FC San Pedro",
-"lg": "Ivory Coast - Ligue 1",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.16,
-"why": "from NRBY4Y",
-"ts": 1795284000.0,
-"eid": "sr:match:76902250",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76902250|18|total=3.5|13"
-}
-],
-"chance": 0.012
 }
 ]
 }
