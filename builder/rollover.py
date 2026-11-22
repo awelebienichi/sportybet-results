@@ -257,11 +257,18 @@ def pick_h1(target, max_legs=15):
     F = phonebuild.pick_markets(G, LX, ["h1dc", "h1ggn", "h1u25"], 300)
     F = [p for p in F if any(RB[k][:3] == (p["mid"], p["spec"], p["oid"]) and lo <= p["odds"] <= hi for k, (lo, hi) in H1_RANGES.items())]
     for p in F: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
-    F.sort(key=lambda p: (-(p["mid"] == "63"), -p["chance"]))                  # 1st half double chance first: the one beating the odds
+    F.sort(key=lambda p: -p["chance"])
     try:
         import extra
         F, _ = extra.confirm(F, len(F))
     except Exception as e: print("rollover h1 checks skipped:", e)
+    # the three markets take turns (user, 22 Nov: "it just pushed out double chance"): best double chance, best GG No, best Under 2.5,
+    # then the next of each – so a ticket mixes all three while each still has strong legs
+    Q = [[p for p in F if p["mid"] == m] for m in ("63", "75", "68")]
+    F = []
+    while any(Q):
+        for q in Q:
+            if q: F.append(q.pop(0))
     legs, seen = [], set()
     for p in F:
         if p["eid"] in seen: continue
