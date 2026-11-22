@@ -542,7 +542,7 @@
 "odds": 1.38,
 "ts": 1795359600.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": ""
 },
 {
@@ -904,7 +904,10 @@
 "game": "F91 Dudelange vs Residence Walferdange",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -2760,7 +2763,10 @@
 "game": "F91 Dudelange vs Residence Walferdange",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 17:00",
