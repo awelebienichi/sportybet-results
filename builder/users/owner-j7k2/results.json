@@ -2,6 +2,142 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UH686S",
+"at": 1795348920,
+"when": "Sun 22 Nov 13:01",
+"kind": "goal-fest teams (season data)",
+"odds": 414.86,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:00",
+"game": "1. FC Phonix Lubeck vs FC St. Pauli II",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Eintracht Norderstedt vs FSV Schoningen 2011",
+"pick": "Over 2.5",
+"odds": 1.54,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "FC Rouen U19 vs SM Caen",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "Union Sportive Cap D Ail U19 vs Bastia SC",
+"pick": "Over 2.5",
+"odds": 1.63,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Hamburger SV II vs SV Werder Bremen II",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "Servette Geneva W vs FC St. Gallen-Staad",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "RFC Union Luxembourg vs FC Wiltz 71",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "Un Kaerjeng 97 vs US Mondorf-Les-Bains",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Zurich vs FC Yverdon",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:30",
+"game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795368600.0
+}
+]
+},
+{
 "code": "LEEWS6",
 "at": 1795348605,
 "when": "Sun 22 Nov 12:56",
@@ -77966,156 +78102,6 @@
 "game": "Spain vs England",
 "pick": "2nd half Over 0.5",
 "odds": 1.18,
-"ts": 1794771900.0
-}
-]
-},
-{
-"code": "PWMDHS",
-"at": 1794433590,
-"when": "Wed 11 Nov 22:46",
-"kind": "strong team to score in the 2nd half",
-"odds": 1096.34,
-"status": "open",
-"legs": [
-{
-"t": "Thu 20:45",
-"game": "Czechia vs Spain",
-"pick": "Spain to score in 2nd half",
-"odds": 1.25,
-"ts": 1794512700.0
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"pick": "England to score in 2nd half",
-"odds": 1.27,
-"ts": 1794512700.0
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"pick": "France to score in 2nd half",
-"odds": 1.52,
-"ts": 1794512700.0
-},
-{
-"t": "Thu 21:00",
-"game": "Bonaire vs Cuba",
-"pick": "Cuba to score in 2nd half",
-"odds": 1.16,
-"ts": 1794513600.0
-},
-{
-"t": "Fri 03:00",
-"game": "Atletico Morelia vs Leones Negros UDEG",
-"pick": "Atletico Morelia to score in 2nd half",
-"odds": 1.43,
-"ts": 1794535200.0
-},
-{
-"t": "Sat 00:00",
-"game": "Argentina vs Uruguay",
-"pick": "Argentina to score in 2nd half",
-"odds": 1.54,
-"ts": 1794610800.0
-},
-{
-"t": "Sat 14:30",
-"game": "US Albinoleffe vs Union Brescia",
-"pick": "Union Brescia to score in 2nd half",
-"odds": 1.57,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gateshead FC vs Barrow AFC",
-"pick": "Barrow AFC to score in 2nd half",
-"odds": 1.41,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Dumbarton FC vs Annan Athletic FC",
-"pick": "Dumbarton FC to score in 2nd half",
-"odds": 1.5,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Wycombe Wanderers vs Huddersfield",
-"pick": "Huddersfield to score in 2nd half",
-"odds": 1.58,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Airdrieonians FC vs Queen of the South FC",
-"pick": "Airdrieonians FC to score in 2nd half",
-"odds": 1.42,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"pick": "Ross County FC to score in 2nd half",
-"odds": 1.47,
-"ts": 1794677400.0
-},
-{
-"t": "Sat 18:30",
-"game": "Fleetwood Town vs Tranmere Rovers FC",
-"pick": "Fleetwood Town to score in 2nd half",
-"odds": 1.57,
-"ts": 1794677400.0
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"pick": "VVV Venlo to score in 2nd half",
-"odds": 1.36,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 20:00",
-"game": "Almere City FC vs Helmond Sport",
-"pick": "Almere City FC to score in 2nd half",
-"odds": 1.29,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 20:30",
-"game": "Deportivo Maldonado vs CA Cerro",
-"pick": "Deportivo Maldonado to score in 2nd half",
-"odds": 1.5,
-"ts": 1794684600.0
-},
-{
-"t": "Sat 23:00",
-"game": "CA Banfield vs Boca Juniors",
-"pick": "Boca Juniors to score in 2nd half",
-"odds": 1.58,
-"ts": 1794693600.0
-},
-{
-"t": "Sun 14:30",
-"game": "Delfino Pescara vs US Sambenedettese",
-"pick": "Delfino Pescara to score in 2nd half",
-"odds": 1.42,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 17:30",
-"game": "AS Cittadella vs US Folgore Caratese",
-"pick": "AS Cittadella to score in 2nd half",
-"odds": 1.46,
-"ts": 1794760200.0
-},
-{
-"t": "Sun 20:45",
-"game": "France vs Turkiye",
-"pick": "France to score in 2nd half",
-"odds": 1.2,
 "ts": 1794771900.0
 }
 ]
