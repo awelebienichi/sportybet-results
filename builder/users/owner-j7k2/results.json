@@ -119,7 +119,10 @@
 "game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 16:00",
@@ -267,7 +270,10 @@
 "game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 16:00",
@@ -1418,7 +1424,10 @@
 "game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 16:30",
@@ -3444,7 +3453,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:00",
@@ -3463,8 +3475,8 @@
 "odds": 1.17,
 "ts": 1795363200.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 17:00",
@@ -3987,7 +3999,10 @@
 "game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.56,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 16:30",
@@ -5589,7 +5604,10 @@
 "game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.56,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sun 16:00",
