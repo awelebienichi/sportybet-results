@@ -7,7 +7,7 @@
 "when": "Sun 22 Nov 17:00",
 "kind": "goal-fest teams (season data)",
 "odds": 7.57,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 18:00",
@@ -21,7 +21,10 @@
 "game": "FC Gutersloh 2000 vs RW Oberhausen",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 18:30",
@@ -226,7 +229,10 @@
 "game": "FC Gutersloh 2000 vs RW Oberhausen",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 18:30",
@@ -338,7 +344,10 @@
 "game": "FC Gutersloh 2000 vs RW Oberhausen",
 "pick": "Over 2.5",
 "odds": 1.54,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 19:00",
@@ -1791,7 +1800,10 @@
 "game": "HNK Rijeka vs HNK Gorica",
 "pick": "HNK Gorica excluded goals: 2",
 "odds": 1.11,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 18:00",
@@ -4674,7 +4686,10 @@
 "game": "FC Gutersloh 2000 vs RW Oberhausen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 21:00",
@@ -5988,7 +6003,10 @@
 "game": "FC Gutersloh 2000 vs RW Oberhausen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 18:00",
