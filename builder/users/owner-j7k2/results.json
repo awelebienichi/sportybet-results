@@ -1937,7 +1937,10 @@
 "game": "Estac Troyes vs FC Annecy U19",
 "pick": "GG (both teams score)",
 "odds": 1.49,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "2-4",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -2045,8 +2048,8 @@
 "odds": 1.17,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 14:00",
@@ -2513,7 +2516,10 @@
 "game": "Arenas Club de Getxo vs Real Aviles CF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.6,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:30",
@@ -2872,7 +2878,10 @@
 "game": "Estac Troyes vs FC Annecy U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "2-4",
+"ht": ""
 },
 {
 "t": "Sun 11:30",
@@ -3376,7 +3385,10 @@
 "game": "Estac Troyes vs FC Annecy U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "2-4",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -3470,7 +3482,10 @@
 "game": "Arenas Club de Getxo vs Real Aviles CF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.6,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -4053,7 +4068,10 @@
 "game": "Estac Troyes vs FC Annecy U19",
 "pick": "GG (both teams score)",
 "odds": 1.49,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "2-4",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -4147,7 +4165,10 @@
 "game": "Estac Troyes vs FC Annecy U19",
 "pick": "GG (both teams score)",
 "odds": 1.49,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "2-4",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -5158,7 +5179,10 @@
 "game": "Arenas Club de Getxo vs Real Aviles CF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.6,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -5359,7 +5383,10 @@
 "game": "Estac Troyes vs FC Annecy U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "2-4",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -5433,7 +5460,10 @@
 "game": "Arenas Club de Getxo vs Real Aviles CF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.6,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
