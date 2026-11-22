@@ -863,6 +863,7 @@ def pick_season(G, LX, kind, want):
         tot = lambda L_: sum(m["gf"] + m["ga"] for m in L_) / len(L_)
         lose = lambda L_: sum(m["gf"] < m["ga"] for m in L_) / len(L_)
         if kind in ("goalfest", "gfbounce"): return min(tot(H), tot(A))
+        if kind == "lowbounce": return -max(tot(H), tot(A))
         if kind == "beaten": return max(lose(H), lose(A))
         return -max(tot(H), tot(A))                                   # drawlow: the lower the better
     pre = sorted(usable, key=lambda g: -l10(g))[:max(80, want * 4)]
@@ -885,6 +886,17 @@ def pick_season(G, LX, kind, want):
             o25 = (f(H, lambda m: m["gf"] + m["ga"] >= 3) + f(A, lambda m: m["gf"] + m["ga"] >= 3)) / 2
             last = lambda L_: f"{L_[0]['gf']}-{L_[0]['ga']}"
             C.append((g, "18", "total=2.5", "12", "Over 2.5", o25, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game; last games {g['h']} {last(H)}, {g['a']} {last(A)} (bounce-back)"))
+        elif kind == "lowbounce":
+            # user's own type (23 Nov), the mirror of gfbounce: low-scoring teams (same gate as drawlow) whose LAST game had 3+ goals ->
+            # Under 2.5 now. Tested first on 6,030 such games: Under 2.5 came true 65% either way (no "back to normal" effect), worse when
+            # BOTH teams' last game had 3+ goals – skipped, as are strong favourites (blowouts sink unders)
+            if max(h["gpg"], a["gpg"]) > 2.4 + L * 3 or (h["gpg"] + a["gpg"]) / 2 > 2.0 + L * 3: continue
+            if min(g["x"].get("1", 99), g["x"].get("3", 99)) < U35_FAV: continue
+            hi = lambda L_: bool(L_) and L_[0]["gf"] + L_[0]["ga"] >= 3                       # LX lists are newest first
+            if not (hi(H) or hi(A)) or (hi(H) and hi(A)): continue
+            u25 = (f(H, lambda m: m["gf"] + m["ga"] <= 2) + f(A, lambda m: m["gf"] + m["ga"] <= 2)) / 2
+            last = lambda L_: f"{L_[0]['gf']}-{L_[0]['ga']}"
+            C.append((g, "18", "total=2.5", "13", "Under 2.5", u25, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game; last games {g['h']} {last(H)}, {g['a']} {last(A)} (back to low)"))
         elif kind == "goalfest":
             g2 = (h["gpg"] + a["gpg"]) / 2
             if min(h["gpg"], a["gpg"]) < 3.0 - L * 3 or g2 < 3.5 - L * 3: continue
@@ -926,7 +938,7 @@ def pick_season(G, LX, kind, want):
         if not od or od < 1.06: continue
         if not (mid == "1" and oid == "2") and (r_ < floor or od > 1.70): continue    # no coin-flip prices (draws are judged on their draw rate)
         if spec == "total=3.5" and oid == "13" and od > U35_MAX: continue
-        if mid == "18" and spec == "total=2.5" and oid == "13" and r_ < .80: continue     # Under 2.5: the tracker's weakest market
+        if mid == "18" and spec == "total=2.5" and oid == "13" and r_ < .80 and kind != "lowbounce": continue     # Under 2.5: the tracker's weakest market (the lowbounce type uses the normal bar)
         if mid == "1" and oid == "2" and r_ < .45 - L: continue
         v = edge(r_, od)
         if g["eid"] not in best or v > best[g["eid"]]["s"]:
@@ -1154,7 +1166,7 @@ def main(req):
             return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "gfbounce", "beaten", "drawlow") else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "gfbounce", "lowbounce", "beaten", "drawlow") else pick_goals(G, LX, kind)
     # strongest first (user, 15 Nov: "make the top priority the best of the best"): every leg ranked by its chance of coming true –
     # its stats rate and the bookmaker's own price together – so weaker legs are only used once all stronger ones are on the ticket
     if P and all(p.get("rate") is not None for p in P):
@@ -1167,7 +1179,7 @@ def main(req):
             import extra
             P, dropped = extra.confirm(P, legs * nt)
         except Exception as e: print("extra checks skipped:", e)
-    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "gfbounce": "goal-fest bounce-back (Over 2.5 after a quiet game)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
+    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "gfbounce": "goal-fest bounce-back (Over 2.5 after a quiet game)", "lowbounce": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)
