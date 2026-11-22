@@ -781,7 +781,7 @@
 "when": "Sat 21 Nov 19:08",
 "kind": "your chosen markets",
 "odds": 16.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 00:00",
@@ -908,7 +908,10 @@
 "game": "Arsenal WFC vs West Ham United FC Women",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795357800.0
+"ts": 1795357800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:00",
@@ -2776,7 +2779,10 @@
 "game": "Arsenal WFC vs West Ham United FC Women",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795357800.0
+"ts": 1795357800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:00",
