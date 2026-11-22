@@ -861,7 +861,10 @@
 "game": "KRC Harelbeke vs Cercle Brugge",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -2711,7 +2714,10 @@
 "game": "KRC Harelbeke vs Cercle Brugge",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
