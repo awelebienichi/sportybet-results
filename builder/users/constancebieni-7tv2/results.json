@@ -906,7 +906,10 @@
 "game": "RB Leipzig vs VfL Wolfsburg W",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:00",
@@ -2768,7 +2771,10 @@
 "game": "RB Leipzig vs VfL Wolfsburg W",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:00",
