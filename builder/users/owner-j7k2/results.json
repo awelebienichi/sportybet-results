@@ -2,6 +2,149 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NAW4CF",
+"at": 1795335427,
+"when": "Sun 22 Nov 09:17",
+"kind": "1st half Over 0.5",
+"odds": 31.32,
+"status": "open",
+"legs": [
+{
+"t": "Sun 11:30",
+"game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795343400.0
+},
+{
+"t": "Sun 12:15",
+"game": "FC Twente Enschede vs Willem II Tilburg",
+"pick": "1st half Over 0.5",
+"odds": 1.13,
+"ts": 1795346100.0
+},
+{
+"t": "Sun 12:30",
+"game": "Lion City Sailors FC vs Geylang International FC",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Rayong FC vs Rasisalai United",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Viborg FF vs Randers FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Peterborough United U21 vs Luton Town Reserves",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"pick": "1st half Over 0.5",
+"odds": 1.12,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "K Beerschot VA vs Jong KRC Genk",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "US Hostert vs US Rumelange",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Lausanne-Sport vs FC Vaduz",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bursaspor vs Sivasspor",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 19:15",
+"game": "Sarpsborg 08 vs Lillestroem SK",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795371300.0
+}
+]
+},
+{
 "code": "WZM6NL",
 "at": 1795320890,
 "when": "Sun 22 Nov 05:14",
@@ -78568,65 +78711,6 @@
 "game": "Aurora FC vs Deportivo Mixco",
 "pick": "1st half Over 0.5",
 "odds": 1.29,
-"ts": 1794520800.0
-}
-]
-},
-{
-"code": "W44YNA",
-"at": 1794409335,
-"when": "Wed 11 Nov 16:02",
-"kind": "1st half Over 0.5",
-"odds": 5.85,
-"status": "open",
-"legs": [
-{
-"t": "Wed 23:00",
-"game": "Londrina EC PR vs Nautico PE",
-"pick": "1st half Over 0.5",
-"odds": 1.35,
-"ts": 1794434400.0
-},
-{
-"t": "Thu 03:00",
-"game": "Piratas Veracruz vs Club Atletico La Paz",
-"pick": "1st half Over 0.5",
-"odds": 1.27,
-"ts": 1794448800.0
-},
-{
-"t": "Thu 04:00",
-"game": "CF Pachuca vs CF Monterrey",
-"pick": "1st half Over 0.5",
-"odds": 1.27,
-"ts": 1794452400.0
-},
-{
-"t": "Thu 07:00",
-"game": "New Zealand vs India",
-"pick": "1st half Over 0.5",
-"odds": 1.27,
-"ts": 1794463200.0
-},
-{
-"t": "Thu 14:00",
-"game": "Iceland vs Greece",
-"pick": "1st half Over 0.5",
-"odds": 1.37,
-"ts": 1794488400.0
-},
-{
-"t": "Thu 21:00",
-"game": "Bonaire vs Cuba",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"ts": 1794513600.0
-},
-{
-"t": "Thu 23:00",
-"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
-"pick": "1st half Over 0.5",
-"odds": 1.32,
 "ts": 1794520800.0
 }
 ]
