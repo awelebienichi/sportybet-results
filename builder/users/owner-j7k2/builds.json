@@ -1,5 +1,80 @@
 [
 {
+"when": "Sun 22 Nov 11:17",
+"at": 1795342646,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwronbt96ui4"
+},
+"ok": true,
+"kind": "Over 2.5 (lowest prices first)",
+"note": [
+"6 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 3 legs win: about 51%."
+],
+"tickets": [
+{
+"code": "URYDW5",
+"odds": 1.7,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "UD Las Palmas vs CD Longuera Toscal",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "Over 2.5 at 1.21: SportyBet's own price gives 78%; teams' last 10 70% / 90%; season: 4.1 goals a game",
+"ts": 1795348800.0,
+"eid": "sr:match:72885376",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72885376|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"lg": "Spain - LaLiga",
+"pick": "Over 2.5",
+"odds": 1.16,
+"why": "Over 2.5 at 1.16: SportyBet's own price gives 81%, 75% of 8 meetings; teams' last 10 100% / 60%; Flashscore home/away form 80%, FotMob: 3.9 goals a game, Vitibet tip 3-1, season: 3.9 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:72478710",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72478710|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "Over 2.5 at 1.21: SportyBet's own price gives 78%, 67% of 6 meetings; teams' last 10 90% / 100%; Flashscore home/away form 80%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963860",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963860|18|total=2.5|12"
+}
+],
+"chance": 0.5086
+}
+]
+},
+{
 "when": "Sun 22 Nov 11:14",
 "at": 1795342461,
 "req": {
@@ -18124,197 +18199,6 @@
 }
 ],
 "chance": 0.0158
-}
-]
-},
-{
-"when": "Sat 21 Nov 10:02",
-"at": 1795251737,
-"req": {
-"type": "rollover",
-"legs": 12,
-"rid": null
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a61,000 \u2192 returns \u20a67,030 if it wins"
-],
-"tickets": [
-{
-"code": "W0K7GX",
-"odds": 7.03,
-"legs": [
-{
-"t": "Sat 11:30",
-"game": "Istanbulspor AS vs Ankara Keciorengucu",
-"lg": "Turkiye - 1. Lig",
-"pick": "1st half double chance Ankara Keciorengucu or draw",
-"odds": 1.24,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795257000.0,
-"eid": "sr:match:72735916",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72735916|63||11"
-},
-{
-"t": "Sat 11:30",
-"game": "Mardin 1969 Spor vs Bandirmaspor",
-"lg": "Turkiye - 1. Lig",
-"pick": "1st half double chance Mardin 1969 Spor or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10 (1st-half rollover)",
-"ts": 1795257000.0,
-"eid": "sr:match:72735924",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72735924|63||9"
-},
-{
-"t": "Sat 13:30",
-"game": "Ethiopian Coffee SC vs Wolaita Dicha SC",
-"lg": "Ethiopia - Premier League",
-"pick": "1st half double chance Wolaita Dicha SC or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795264200.0,
-"eid": "sr:match:76482936",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "76482936|63||11"
-},
-{
-"t": "Sat 14:00",
-"game": "Fortuna D vs SG Sonnenhof Grossaspach",
-"lg": "Germany - 3. Liga",
-"pick": "1st half double chance Fortuna D or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10 (1st-half rollover)",
-"ts": 1795266000.0,
-"eid": "sr:match:72680288",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72680288|63||9"
-},
-{
-"t": "Sat 15:00",
-"game": "Lazio vs Lecce",
-"lg": "Italy - Serie A",
-"pick": "1st half double chance Lazio or draw",
-"odds": 1.15,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795269600.0,
-"eid": "sr:match:71945414",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "71945414|63||9"
-},
-{
-"t": "Sat 15:00",
-"game": "FK Mladost Lucani vs FK Zeleznicar Pancevo",
-"lg": "Serbia - Superliga",
-"pick": "1st half double chance FK Zeleznicar Pancevo or draw",
-"odds": 1.17,
-"why": "stats rate 90% from both teams' last 10 and 7 meetings (1st-half rollover)",
-"ts": 1795269600.0,
-"eid": "sr:match:72083144",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72083144|63||11"
-},
-{
-"t": "Sat 15:00",
-"game": "Ascoli Calcio 1898 vs L.R. Vicenza",
-"lg": "Italy - Serie B",
-"pick": "1st half double chance Ascoli Calcio 1898 or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795269600.0,
-"eid": "sr:match:73093074",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73093074|63||9"
-},
-{
-"t": "Sat 16:00",
-"game": "Burton Albion vs Luton",
-"lg": "England - League One",
-"pick": "1st half double chance Luton or draw",
-"odds": 1.16,
-"why": "stats rate 90% from both teams' last 10 and 6 meetings (1st-half rollover)",
-"ts": 1795273200.0,
-"eid": "sr:match:72341388",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72341388|63||11"
-},
-{
-"t": "Sat 16:00",
-"game": "Walton and Hersham FC vs Chelmsford City",
-"lg": "England Amateur - National League South",
-"pick": "1st half double chance Chelmsford City or draw",
-"odds": 1.21,
-"why": "stats rate 93% from both teams' last 10 (1st-half rollover)",
-"ts": 1795273200.0,
-"eid": "sr:match:72758336",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72758336|63||11"
-},
-{
-"t": "Sat 16:25",
-"game": "Dubai United FC vs Al Wahda FC (UAE)",
-"lg": "United Arab Emirates - Arabian Gulf League",
-"pick": "1st half double chance Al Wahda FC (UAE) or draw",
-"odds": 1.15,
-"why": "stats rate 95% from both teams' last 10 (1st-half rollover)",
-"ts": 1795274700.0,
-"eid": "sr:match:75174750",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "75174750|63||11"
-},
-{
-"t": "Sat 21:00",
-"game": "Motherwell FC vs Rangers",
-"lg": "Scotland - Premiership",
-"pick": "1st half double chance Rangers or draw",
-"odds": 1.17,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795291200.0,
-"eid": "sr:match:72201728",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72201728|63||11"
-},
-{
-"t": "Sat 21:30",
-"game": "EC Bahia BA vs Coritiba FC PR",
-"lg": "Brazil - Brasileiro Serie A",
-"pick": "1st half double chance EC Bahia BA or draw",
-"odds": 1.15,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795293000.0,
-"eid": "sr:match:66887194",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "66887194|63||9"
-}
-],
-"chance": 0.0793
 }
 ]
 }
