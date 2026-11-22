@@ -1,5 +1,28 @@
 [
 {
+"when": "Sun 22 Nov 12:55",
+"at": 1795348528,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m10x"
+],
+"rid": "mwrs5c8k0qa5"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Sun 22). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Sun 22 Nov 12:54",
 "at": 1795348488,
 "req": {
@@ -13974,224 +13997,6 @@
 }
 ],
 "chance": 0.3428
-}
-]
-},
-{
-"when": "Sun 22 Nov 04:34",
-"at": 1795318447,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "u25",
-"legs": 60,
-"tickets": 3,
-"days": [
-"2026-11-22"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwra7yjuv7bw"
-},
-"ok": true,
-"kind": "Under 2.5 (low-scoring leagues)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 13 games passed the checks (Sun 22, 713 games on SportyBet), so this ticket has 13 legs instead of 50. Tick more days or use 'Relaxed' for more.",
-"Only 13 games qualified, enough for 1 ticket(s) of 13 with no game repeated (you asked for 3).",
-"Under 2.5 has been the weakest market in your tracker.",
-"Chance all 13 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "QY7L8P",
-"odds": 121.86,
-"legs": [
-{
-"t": "Sun 07:00",
-"game": "Jiangsu LFC vs Liaoning Shenbei Hefeng",
-"lg": "China - Chinese Super League, Women",
-"pick": "Under 2.5",
-"odds": 1.57,
-"why": "Under 2.5 in 70% / 70% of the teams' last 10, 100% of 3 meetings, league avg 2.2 goals; Flashscore home/away form 50%",
-"ts": 1795327200.0,
-"eid": "sr:match:75107618",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "75107618|18|total=2.5|13"
-},
-{
-"t": "Sun 12:30",
-"game": "Moralo CP vs AD Llerenense",
-"lg": "Spain Amateur - Tercera Federacion, Group 14",
-"pick": "Under 2.5",
-"odds": 1.65,
-"why": "Under 2.5 in 70% / 60% of the teams' last 10, 75% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 70%",
-"ts": 1795347000.0,
-"eid": "sr:match:73564422",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73564422|18|total=2.5|13"
-},
-{
-"t": "Sun 13:00",
-"game": "Ballkani vs SC Gjilani",
-"lg": "Kosovo - Superliga",
-"pick": "Under 2.5",
-"odds": 1.71,
-"why": "Under 2.5 in 70% / 60% of the teams' last 10, 75% of 8 meetings, league avg 2.2 goals; Flashscore home/away form 50%",
-"ts": 1795348800.0,
-"eid": "sr:match:76640498",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76640498|18|total=2.5|13"
-},
-{
-"t": "Sun 14:00",
-"game": "Mitundu Baptist vs Masters FC",
-"lg": "Malawi - Super League",
-"pick": "Under 2.5",
-"odds": 1.43,
-"why": "Under 2.5 in 90% / 67% of the teams' last 10, league avg 2.0 goals; Flashscore home/away form 70%",
-"ts": 1795352400.0,
-"eid": "sr:match:70381742",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "70381742|18|total=2.5|13"
-},
-{
-"t": "Sun 14:00",
-"game": "Green Eagles vs Red Arrows",
-"lg": "Zambia - Super League",
-"pick": "Under 2.5",
-"odds": 1.36,
-"why": "Under 2.5 in 70% / 70% of the teams' last 10, 62% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 80%, season: 1.7 goals a game",
-"ts": 1795352400.0,
-"eid": "sr:match:76888904",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76888904|18|total=2.5|13"
-},
-{
-"t": "Sun 16:00",
-"game": "Chabab Ben Guerir vs US Yacoub Mansour",
-"lg": "Morocco - Botola Pro D2",
-"pick": "Under 2.5",
-"odds": 1.36,
-"why": "Under 2.5 in 80% / 70% of the teams' last 10, league avg 2.1 goals; Flashscore home/away form 75%",
-"ts": 1795359600.0,
-"eid": "sr:match:76675308",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76675308|18|total=2.5|13"
-},
-{
-"t": "Sun 17:30",
-"game": "Stade de Mbour vs Ajel de Rufisque",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.33,
-"why": "Under 2.5 in 80% / 80% of the teams' last 10, league avg 1.9 goals; Flashscore home/away form 90%, season: 1.4 goals a game",
-"ts": 1795365000.0,
-"eid": "sr:match:76967402",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76967402|18|total=2.5|13"
-},
-{
-"t": "Sun 17:30",
-"game": "US Ouakam vs Hlm",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.39,
-"why": "Under 2.5 in 60% / 60% of the teams' last 10, 100% of 4 meetings, league avg 1.9 goals; Flashscore home/away form 70%",
-"ts": 1795365000.0,
-"eid": "sr:match:76967406",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76967406|18|total=2.5|13"
-},
-{
-"t": "Sun 17:30",
-"game": "Teungueth FC vs ASC Diambars",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.32,
-"why": "Under 2.5 in 90% / 60% of the teams' last 10, 50% of 8 meetings, league avg 1.9 goals; Flashscore home/away form 65%",
-"ts": 1795365000.0,
-"eid": "sr:match:76967400",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76967400|18|total=2.5|13"
-},
-{
-"t": "Sun 18:00",
-"game": "Guediawaye FC vs ASC Jaraaf",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.35,
-"why": "Under 2.5 in 70% / 80% of the teams' last 10, 75% of 8 meetings, league avg 1.9 goals; Flashscore home/away form 75%, season: 1.5 goals a game",
-"ts": 1795366800.0,
-"eid": "sr:match:76967408",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76967408|18|total=2.5|13"
-},
-{
-"t": "Sun 18:00",
-"game": "Ittihad Khemisset vs Sportive Boujaad",
-"lg": "Morocco - Botola Pro D2",
-"pick": "Under 2.5",
-"odds": 1.36,
-"why": "Under 2.5 in 60% / 60% of the teams' last 10, league avg 2.1 goals; Flashscore home/away form 65%",
-"ts": 1795366800.0,
-"eid": "sr:match:76675310",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76675310|18|total=2.5|13"
-},
-{
-"t": "Sun 22:30",
-"game": "AC Goianiense GO vs Vila Nova FC GO",
-"lg": "Brazil - Brasileiro Serie B",
-"pick": "Under 2.5",
-"odds": 1.59,
-"why": "Under 2.5 in 80% / 70% of the teams' last 10, 62% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 70%, Vitibet tip 1-0",
-"ts": 1795383000.0,
-"eid": "sr:match:76848806",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76848806|18|total=2.5|13"
-},
-{
-"t": "Sun 23:30",
-"game": "CA Sarmiento de la Banda vs Club Cipolletti",
-"lg": "Argentina - Torneo Federal A",
-"pick": "Under 2.5",
-"odds": 1.46,
-"why": "Under 2.5 in 60% / 80% of the teams' last 10, league avg 2.1 goals; Flashscore home/away form 80%",
-"ts": 1795386600.0,
-"eid": "sr:match:76914648",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76914648|18|total=2.5|13"
-}
-],
-"chance": 0.0044
 }
 ]
 }
