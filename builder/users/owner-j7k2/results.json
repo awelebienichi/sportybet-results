@@ -977,7 +977,10 @@
 "game": "Sarpsborg 08 vs Lillestroem SK",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795371300.0
+"ts": 1795371300.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 20:45",
@@ -1502,7 +1505,10 @@
 "game": "Sarpsborg 08 vs Lillestroem SK",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795371300.0
+"ts": 1795371300.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 21:00",
