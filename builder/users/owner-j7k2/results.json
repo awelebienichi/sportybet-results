@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LM5Z5L",
+"at": 1795375950,
+"when": "Sun 22 Nov 20:32",
+"kind": "combined NW93TA + UH686S + Y4SYNC",
+"odds": 2.21,
+"status": "open",
+"legs": [
+{
+"t": "Sun 21:00",
+"game": "CF Atletas do Tirol CE vs Palmacia EC CE",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.24,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 21:45",
+"game": "SCU Torreense vs Benfica",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795380300.0
+},
+{
+"t": "Sun 22:15",
+"game": "The Strongest vs Blooming Santa Cruz",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795382100.0
+}
+]
+},
+{
 "code": "XY28AN",
 "at": 1795375766,
 "when": "Sun 22 Nov 20:29",
@@ -79215,156 +79246,6 @@
 "pick": "Under 5.5",
 "odds": 1.07,
 "ts": 1794699000.0
-}
-]
-},
-{
-"code": "TXGUEL",
-"at": 1794434130,
-"when": "Wed 11 Nov 22:55",
-"kind": "your chosen markets",
-"odds": 12.09,
-"status": "open",
-"legs": [
-{
-"t": "Thu 18:30",
-"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
-"pick": "Under 4.5",
-"odds": 1.17,
-"ts": 1794504600.0
-},
-{
-"t": "Fri 03:00",
-"game": "Atletico Morelia vs Leones Negros UDEG",
-"pick": "Under 4.5",
-"odds": 1.17,
-"ts": 1794535200.0
-},
-{
-"t": "Fri 17:00",
-"game": "Burkina Faso vs Mauritania",
-"pick": "Under 4.5",
-"odds": 1.06,
-"ts": 1794585600.0
-},
-{
-"t": "Sat 12:00",
-"game": "Podhale Nowy Targ vs Avia Swidnik",
-"pick": "Under 4.5",
-"odds": 1.2,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 16:00",
-"game": "Walton and Hersham FC vs Aveley FC",
-"pick": "Under 4.5",
-"odds": 1.19,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Spennymoor Town FC vs Scarborough Athletic",
-"pick": "Under 4.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Alfreton Town FC vs Southport FC",
-"pick": "Under 4.5",
-"odds": 1.21,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bath City FC vs Truro City",
-"pick": "Under 4.5",
-"odds": 1.15,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 17:00",
-"game": "Uganda vs Botswana",
-"pick": "Under 4.5",
-"odds": 1.06,
-"ts": 1794672000.0
-},
-{
-"t": "Sat 17:30",
-"game": "AC Lumezzane vs AC Trento",
-"pick": "Under 4.5",
-"odds": 1.09,
-"ts": 1794673800.0
-},
-{
-"t": "Sat 17:30",
-"game": "SSC Bari vs Calcio Foggia",
-"pick": "Under 4.5",
-"odds": 1.06,
-"ts": 1794673800.0
-},
-{
-"t": "Sat 18:30",
-"game": "Mallorca vs Cordoba CF",
-"pick": "Under 4.5",
-"odds": 1.21,
-"ts": 1794677400.0
-},
-{
-"t": "Sat 20:30",
-"game": "CR Brasil AL vs Ceara SC CE",
-"pick": "Under 4.5",
-"odds": 1.17,
-"ts": 1794684600.0
-},
-{
-"t": "Sat 22:30",
-"game": "Mirassol FC SP vs Atletico Mineiro MG",
-"pick": "Under 4.5",
-"odds": 1.13,
-"ts": 1794691800.0
-},
-{
-"t": "Sun 12:30",
-"game": "Novara FC vs Calcio Lecco 1912",
-"pick": "Under 4.5",
-"odds": 1.07,
-"ts": 1794742200.0
-},
-{
-"t": "Sun 13:30",
-"game": "Leopards SC vs Mombasa United FC",
-"pick": "Under 4.5",
-"odds": 1.07,
-"ts": 1794745800.0
-},
-{
-"t": "Sun 15:00",
-"game": "GKS Tychy vs Rekord Bielsko Biala",
-"pick": "Under 4.5",
-"odds": 1.17,
-"ts": 1794751200.0
-},
-{
-"t": "Sun 17:30",
-"game": "AS Cittadella vs US Folgore Caratese",
-"pick": "Under 4.5",
-"odds": 1.09,
-"ts": 1794760200.0
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"pick": "Under 4.5",
-"odds": 1.16,
-"ts": 1794760200.0
-},
-{
-"t": "Sun 17:30",
-"game": "Juventus Next Gen vs Treviso FBC 1993",
-"pick": "Under 4.5",
-"odds": 1.08,
-"ts": 1794760200.0
 }
 ]
 }
