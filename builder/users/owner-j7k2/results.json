@@ -1209,7 +1209,10 @@
 "game": "Union Sportive Cap D Ail U19 vs Bastia SC",
 "pick": "Over 2.5",
 "odds": 1.63,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -1376,7 +1379,10 @@
 "game": "FC Metz vs Nancy-Lorraine",
 "pick": "Nancy-Lorraine excluded goals: 3+",
 "odds": 1.09,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
@@ -1400,7 +1406,10 @@
 "game": "Sunderland AFC vs Burnley FC Women",
 "pick": "Burnley FC Women excluded goals: 2",
 "odds": 1.12,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 15:00",
@@ -3096,7 +3105,10 @@
 "game": "Union Sportive Cap D Ail U19 vs Bastia SC",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -4225,7 +4237,10 @@
 "game": "Union Sportive Cap D Ail U19 vs Bastia SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.63,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 14:45",
@@ -4994,7 +5009,10 @@
 "game": "Union Sportive Cap D Ail U19 vs Bastia SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.63,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
