@@ -792,7 +792,7 @@
 "odds": 1.32,
 "ts": 1795366800.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "1-0"
 },
 {
@@ -2137,7 +2137,10 @@
 "game": "CD San Roque de Lepe vs Conil CF",
 "pick": "CD San Roque de Lepe to win",
 "odds": 1.42,
-"ts": 1795365000.0
+"ts": 1795365000.0,
+"r": "W",
+"sc": "5-0",
+"ht": "3-0"
 },
 {
 "t": "Sun 17:30",
@@ -2432,7 +2435,10 @@
 "game": "CD San Roque de Lepe vs Conil CF",
 "pick": "CD San Roque de Lepe to win",
 "odds": 1.42,
-"ts": 1795365000.0
+"ts": 1795365000.0,
+"r": "W",
+"sc": "5-0",
+"ht": "3-0"
 },
 {
 "t": "Sun 18:00",
@@ -3639,7 +3645,10 @@
 "game": "KFUM Oslo vs SK Brann",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 18:00",
