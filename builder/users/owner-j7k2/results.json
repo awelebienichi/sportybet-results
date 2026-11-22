@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "G6N0UF",
+"at": 1795318511,
+"when": "Sun 22 Nov 04:35",
+"kind": "your chosen markets",
+"odds": 2.29,
+"status": "open",
+"legs": [
+{
+"t": "Sun 07:00",
+"game": "Jiangsu LFC vs Liaoning Shenbei Hefeng",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1795327200.0
+},
+{
+"t": "Sun 11:30",
+"game": "Shabana FC vs Mara Sugar FC",
+"pick": "Under 3.5",
+"odds": 1.14,
+"ts": 1795343400.0
+},
+{
+"t": "Sun 12:00",
+"game": "Racing Club Villalbes vs CD BARCO",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 14:00",
+"game": "Saronikos Anavisou vs A.P.O. Thyella Rafina FC",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Ionikos Nikea FC vs Vyrona",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795352400.0
+}
+]
+},
+{
 "code": "QY7L8P",
 "at": 1795318447,
 "when": "Sun 22 Nov 04:34",
