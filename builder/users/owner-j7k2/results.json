@@ -166,7 +166,10 @@
 "game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 16:45",
@@ -300,7 +303,10 @@
 "game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 16:45",
@@ -702,7 +708,7 @@
 "odds": 1.41,
 "ts": 1795361400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "0-0"
 },
 {
@@ -712,7 +718,7 @@
 "odds": 1.31,
 "ts": 1795362300.0,
 "r": "W",
-"sc": "0-4",
+"sc": "0-5",
 "ht": "0-3"
 },
 {
@@ -727,7 +733,10 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
@@ -1233,7 +1242,7 @@
 "odds": 1.32,
 "ts": 1795362300.0,
 "r": "W",
-"sc": "0-4",
+"sc": "0-5",
 "ht": "0-3"
 },
 {
@@ -1248,7 +1257,10 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
@@ -1451,7 +1463,10 @@
 "game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
@@ -2642,7 +2657,10 @@
 "game": "US Sambenedettese vs Perugia Calcio Spa",
 "pick": "1st Half - Over/Under \u2013 Under 2.5",
 "odds": 1.07,
-"ts": 1795365000.0
+"ts": 1795365000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:30",
@@ -2789,7 +2807,10 @@
 "game": "US Sambenedettese vs Perugia Calcio Spa",
 "pick": "1st half Under 2.5",
 "odds": 1.07,
-"ts": 1795365000.0
+"ts": 1795365000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:30",
@@ -2930,7 +2951,7 @@
 "when": "Sun 22 Nov 11:18",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 1.82,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -2957,7 +2978,10 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -3682,7 +3706,7 @@
 "odds": 1.23,
 "ts": 1795361400.0,
 "r": "L",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "0-0"
 },
 {
@@ -4015,7 +4039,10 @@
 "game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.57,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
@@ -4321,7 +4348,10 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.21,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 18:00",
@@ -4625,7 +4655,7 @@
 "odds": 1.34,
 "ts": 1795362300.0,
 "r": "W",
-"sc": "0-4",
+"sc": "0-5",
 "ht": "0-3"
 },
 {
@@ -5677,7 +5707,10 @@
 "game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.57,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 16:30",
@@ -5700,7 +5733,7 @@
 "odds": 1.34,
 "ts": 1795362300.0,
 "r": "W",
-"sc": "0-4",
+"sc": "0-5",
 "ht": "0-3"
 },
 {
@@ -5715,7 +5748,10 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.21,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
