@@ -52,7 +52,7 @@
 "when": "Sun 22 Nov 15:11",
 "kind": "goal-fest teams (season data)",
 "odds": 851.75,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -149,7 +149,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -361,7 +364,7 @@
 "when": "Sun 22 Nov 15:08",
 "kind": "goal-fest teams (season data)",
 "odds": 29.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 15:30",
@@ -378,7 +381,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -695,7 +701,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -1232,7 +1241,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -1458,7 +1470,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
@@ -2651,7 +2666,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "GG/NG \u2013 Yes",
 "odds": 1.34,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:00",
@@ -3234,7 +3252,7 @@
 "when": "Sun 22 Nov 09:31",
 "kind": "GG (both teams score)",
 "odds": 2.94,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 11:00",
@@ -3261,7 +3279,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "GG (both teams score)",
 "odds": 1.34,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 }
 ]
 },
@@ -4091,7 +4112,7 @@
 "when": "Sun 22 Nov 05:14",
 "kind": "combined MRQ92K + KK8ZAF + X86FXC + MSXVSR + SU97DW + PE09WP + XY1VM0 + NM2W5Q + M96JKP + SQLD5A + QSHFCJ + K99A7Q + WS9G2J + SMJA92 + Q10GCG + NU0JNF + KCB8TL + GPZ4PH + XNVQY6 + X4HKLP + M85QEG + J7SMKR + Z69CG3 + ZTPJTK + SB4L9E + V46B80 + WZ08QR + UR4E0M",
 "odds": 96.62,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 08:00",
@@ -4208,7 +4229,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:00",
@@ -5721,7 +5745,10 @@
 "game": "Basel vs FC Luzern",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 16:30",
