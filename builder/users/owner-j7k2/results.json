@@ -3685,7 +3685,10 @@
 "game": "AC Milan vs Frosinone",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 19:15",
@@ -4713,7 +4716,10 @@
 "game": "Guadalajara U21 vs Cruz Azul",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.86,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 16:45",
@@ -5567,7 +5573,10 @@
 "game": "Guadalajara U21 vs Cruz Azul",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.86,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
