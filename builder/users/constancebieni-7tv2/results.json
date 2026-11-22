@@ -717,7 +717,10 @@
 "game": "La Tribu de Ciudad Juarez vs Real Refineros Cds",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 02:00",
@@ -726,7 +729,7 @@
 "odds": 1.06,
 "ts": 1795309200.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-1"
 },
 {
