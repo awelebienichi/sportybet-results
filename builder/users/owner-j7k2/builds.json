@@ -1,5 +1,79 @@
 [
 {
+"when": "Sun 22 Nov 11:14",
+"at": 1795342461,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o15",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwrojcxgki0s"
+},
+"ok": true,
+"kind": "Over 1.5",
+"note": [
+"Chance all 3 legs win: about 69%."
+],
+"tickets": [
+{
+"code": "KBQLZ4",
+"odds": 1.25,
+"legs": [
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.06,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 100% of 6 meetings, league avg 4.0 goals; Flashscore home/away form 95%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963860",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963860|18|total=1.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Servette Geneva W vs FC St. Gallen-Staad",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 1.5",
+"odds": 1.06,
+"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 88% of 8 meetings, league avg 4.4 goals; Flashscore home/away form 80%, season: 3.9 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72652098",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72652098|18|total=1.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "FC Zurich vs FC Yverdon",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, 100% of 5 meetings, league avg 4.4 goals; Flashscore home/away form 80%, season: 3.8 goals a game",
+"ts": 1795361400.0,
+"eid": "sr:match:72652104",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72652104|18|total=1.5|12"
+}
+],
+"chance": 0.6926
+}
+]
+},
+{
 "when": "Sun 22 Nov 11:12",
 "at": 1795342375,
 "req": {
@@ -18241,179 +18315,6 @@
 }
 ],
 "chance": 0.0793
-}
-]
-},
-{
-"when": "Sat 21 Nov 09:46",
-"at": 1795250775,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h1o05",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwq5y5s7b2gq"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Only 10 games passed the checks (Sat 21, 912 games on SportyBet), so this ticket has 10 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Chance all 10 legs win: about 8%."
-],
-"tickets": [
-{
-"code": "VK92TG",
-"odds": 7.35,
-"legs": [
-{
-"t": "Sat 14:00",
-"game": "Galatasaray Istanbul vs Samsunspor",
-"lg": "Turkiye - Super Lig",
-"pick": "1st half Over 0.5",
-"odds": 1.19,
-"why": "TOP TIER: goal in the 1st half in 90% of Galatasaray Istanbul's last 10 and 100% of Samsunspor's last 10",
-"ts": 1795266000.0,
-"eid": "sr:match:72723334",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72723334|68|total=0.5|12"
-},
-{
-"t": "Sat 14:00",
-"game": "AL Wakrah SC vs Al-Sailiya SC",
-"lg": "Qatar - Stars League",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "TOP TIER: goal in the 1st half in 100% of AL Wakrah SC's last 10 and 90% of Al-Sailiya SC's last 10",
-"ts": 1795266000.0,
-"eid": "sr:match:73374572",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "73374572|68|total=0.5|12"
-},
-{
-"t": "Sat 14:30",
-"game": "Hoek vs GVVV Veenendaal",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"why": "TOP TIER: goal in the 1st half in 90% of Hoek's last 10 and 90% of GVVV Veenendaal's last 10",
-"ts": 1795267800.0,
-"eid": "sr:match:72594676",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72594676|68|total=0.5|12"
-},
-{
-"t": "Sat 15:00",
-"game": "Jong Sparta Rotterdam vs K.v.v. Quick Boys",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "TOP TIER: goal in the 1st half in 100% of Jong Sparta Rotterdam's last 10 and 90% of K.v.v. Quick Boys's last 10",
-"ts": 1795269600.0,
-"eid": "sr:match:72594680",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72594680|68|total=0.5|12"
-},
-{
-"t": "Sat 15:30",
-"game": "FC Liefering vs Wacker Innsbruck",
-"lg": "Austria - 2. Liga",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"why": "TOP TIER: goal in the 1st half in 100% of FC Liefering's last 10 and 90% of Wacker Innsbruck's last 10",
-"ts": 1795271400.0,
-"eid": "sr:match:72440770",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72440770|68|total=0.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Radcliffe FC vs AFC Telford United",
-"lg": "England Amateur - National League North",
-"pick": "1st half Over 0.5",
-"odds": 1.24,
-"why": "TOP TIER: goal in the 1st half in 100% of Radcliffe FC's last 8 and 100% of AFC Telford United's last 7",
-"ts": 1795273200.0,
-"eid": "sr:match:72759482",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72759482|68|total=0.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Maidstone United FC vs Farnham Town",
-"lg": "England Amateur - National League South",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "TOP TIER: goal in the 1st half in 100% of Maidstone United FC's last 7 and 88% of Farnham Town's last 8",
-"ts": 1795273200.0,
-"eid": "sr:match:72758330",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72758330|68|total=0.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Farnborough FC vs Salisbury FC",
-"lg": "England Amateur - National League South",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"why": "goal in the 1st half in 88% of Farnborough FC's last 8 and 86% of Salisbury FC's last 7",
-"ts": 1795273200.0,
-"eid": "sr:match:72758326",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72758326|68|total=0.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Aldershot Town FC vs Scunthorpe United",
-"lg": "England - National League",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "goal in the 1st half in 88% of Aldershot Town FC's last 8 and 89% of Scunthorpe United's last 9",
-"ts": 1795273200.0,
-"eid": "sr:match:72740820",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72740820|68|total=0.5|12"
-},
-{
-"t": "Sat 18:00",
-"game": "De Treffers Groesbeek vs Kozakken Boys Werkendam",
-"lg": "Netherlands - Tweede Divisie",
-"pick": "1st half Over 0.5",
-"odds": 1.24,
-"why": "TOP TIER: goal in the 1st half in 90% of De Treffers Groesbeek's last 10 and 90% of Kozakken Boys Werkendam's last 10",
-"ts": 1795280400.0,
-"eid": "sr:match:72594688",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72594688|68|total=0.5|12"
-}
-],
-"chance": 0.0835
 }
 ]
 }
