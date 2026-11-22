@@ -1,5 +1,108 @@
 [
 {
+"when": "Sun 22 Nov 17:00",
+"at": 1795363208,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mws0vnjroa1p"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 5 games passed the checks (Sun 22, 113 games on SportyBet), so this ticket has 5 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 5 legs win: about 10%."
+],
+"tickets": [
+{
+"code": "WENHW5",
+"odds": 7.57,
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"lg": "Cyprus - 1st Division",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "season: 3.6 and 3.6 goals a game (9/9 games); last 10 rate 80%; Flashscore home/away form 80%, FotMob: 3.6 goals a game",
+"ts": 1795366800.0,
+"eid": "sr:match:73160484",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73160484|18|total=2.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "FC Gutersloh 2000 vs RW Oberhausen",
+"lg": "Germany Amateur - Regionalliga West",
+"pick": "Over 2.5",
+"odds": 1.61,
+"why": "season: 3.4 and 3.1 goals a game (16/16 games); last 10 rate 75%; Flashscore home/away form 80%, footybets 85%",
+"ts": 1795366800.0,
+"eid": "sr:match:72808130",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72808130|18|total=2.5|12"
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 4.2 and 4.0 goals a game (10/10 games); last 10 rate 85%; Flashscore home/away form 85%, FotMob: 4.1 goals a game, season: 4.1 goals a game, CompactStats 71% (bookmaker 62%)",
+"ts": 1795368600.0,
+"eid": "sr:match:72961094",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961094|18|total=2.5|12"
+},
+{
+"t": "Sun 19:00",
+"game": "Real Sociedad vs Santutxu FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "season: 3.2 and 3.6 goals a game (9/9 games); last 10 rate 70%",
+"ts": 1795370400.0,
+"eid": "sr:match:72883236",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72883236|18|total=2.5|12"
+},
+{
+"t": "Sun 23:00",
+"game": "Real Apodaca FC vs Cdm FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "season: 3.2 and 4.4 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 70%, season: 3.8 goals a game",
+"ts": 1795384800.0,
+"eid": "sr:match:74063634",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063634|18|total=2.5|12"
+}
+],
+"chance": 0.1034
+}
+]
+},
+{
 "when": "Sun 22 Nov 15:11",
 "at": 1795356695,
 "req": {
@@ -10991,208 +11094,6 @@
 }
 ],
 "chance": 0.0774
-}
-]
-},
-{
-"when": "Sun 22 Nov 05:04",
-"at": 1795320289,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "gg",
-"legs": 25,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrbb8ymgv8b"
-},
-"ok": true,
-"kind": "GG (both teams score)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 12 games passed the checks (Sun 22, 704 games on SportyBet), so this ticket has 12 legs instead of 25. Tick more days or use 'Relaxed' for more.",
-"Chance all 12 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "XBVA7D",
-"odds": 102.98,
-"legs": [
-{
-"t": "Sun 11:00",
-"game": "Estac Troyes vs FC Annecy U19",
-"lg": "France - U19 National",
-"pick": "GG (both teams score)",
-"odds": 1.49,
-"why": "stats rate 80% from both teams' last 10",
-"ts": 1795341600.0,
-"eid": "sr:match:73111832",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73111832|29||74"
-},
-{
-"t": "Sun 12:00",
-"game": "Unia Skierniewice vs Pogon Siedlce",
-"lg": "Poland - 1. Liga",
-"pick": "GG (both teams score)",
-"odds": 1.46,
-"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 50%",
-"ts": 1795345200.0,
-"eid": "sr:match:72230884",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72230884|29||74"
-},
-{
-"t": "Sun 12:00",
-"game": "Songkhla FC vs Kanchanaburi Power FC",
-"lg": "Thailand - Thai League 2",
-"pick": "GG (both teams score)",
-"odds": 1.53,
-"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 65%, FotMob: both score 1.3+ a game",
-"ts": 1795345200.0,
-"eid": "sr:match:73075922",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73075922|29||74"
-},
-{
-"t": "Sun 14:00",
-"game": "HSC Hannover vs VfB Lubeck",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "GG (both teams score)",
-"odds": 1.37,
-"why": "stats rate 76% from both teams' last 10 and 5 meetings; Flashscore home/away form 55%, FotMob: both score 1.3+ a game",
-"ts": 1795352400.0,
-"eid": "sr:match:72674464",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72674464|29||74"
-},
-{
-"t": "Sun 14:00",
-"game": "1 FC Nuremberg II vs DJK Vilzing",
-"lg": "Germany Amateur - Regionalliga Bavaria",
-"pick": "GG (both teams score)",
-"odds": 1.4,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, footybets 94%, FotMob: both score 1.3+ a game",
-"ts": 1795352400.0,
-"eid": "sr:match:72727354",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72727354|29||74"
-},
-{
-"t": "Sun 14:00",
-"game": "Cordoba CF vs Real Oviedo",
-"lg": "Spain - LaLiga 2",
-"pick": "GG (both teams score)",
-"odds": 1.54,
-"why": "stats rate 78% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, FotMob: both score 1.3+ a game",
-"ts": 1795352400.0,
-"eid": "sr:match:72477614",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72477614|29||74"
-},
-{
-"t": "Sun 15:00",
-"game": "Sheffield United LFC vs Durham LFC",
-"lg": "England Amateur - FA Womens League Cup",
-"pick": "GG (both teams score)",
-"odds": 1.49,
-"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
-"ts": 1795356000.0,
-"eid": "sr:match:73607368",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73607368|29||74"
-},
-{
-"t": "Sun 16:00",
-"game": "Nyiregyhaza Spartacus FC vs Debreceni VSC",
-"lg": "Hungary - NB I",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"why": "stats rate 78% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, CompactStats 62% (bookmaker 62%)",
-"ts": 1795359600.0,
-"eid": "sr:match:72302692",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72302692|29||74"
-},
-{
-"t": "Sun 16:00",
-"game": "Un Kaerjeng 97 vs US Mondorf-Les-Bains",
-"lg": "Luxembourg - Division Nationale",
-"pick": "GG (both teams score)",
-"odds": 1.46,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, FotMob: both score 1.3+ a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963856",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72963856|29||74"
-},
-{
-"t": "Sun 16:30",
-"game": "Basel vs FC Luzern",
-"lg": "Switzerland - Super League",
-"pick": "GG (both teams score)",
-"odds": 1.34,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, footybets 96%, FotMob: both score 1.3+ a game",
-"ts": 1795361400.0,
-"eid": "sr:match:74379726",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74379726|29||74"
-},
-{
-"t": "Sun 18:00",
-"game": "Rayo Ciudad Alcobendas vs CD Colonia Moscardo",
-"lg": "Spain Amateur - Tercera Federacion, Group 7",
-"pick": "GG (both teams score)",
-"odds": 1.63,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
-"ts": 1795366800.0,
-"eid": "sr:match:73581378",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73581378|29||74"
-},
-{
-"t": "Sun 19:00",
-"game": "Montaneses FC vs Tigres de Alica FC",
-"lg": "Mexico - Liga Primera Premier",
-"pick": "GG (both teams score)",
-"odds": 1.46,
-"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 70%",
-"ts": 1795370400.0,
-"eid": "sr:match:74100802",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74100802|29||74"
-}
-],
-"chance": 0.0054
 }
 ]
 }
