@@ -3077,7 +3077,10 @@
 "game": "Nashville SC vs FC Cincinnati",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.16,
-"ts": 1795381200.0
+"ts": 1795381200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:30",
@@ -3599,7 +3602,10 @@
 "game": "Nashville SC vs FC Cincinnati",
 "pick": "1st half double chance Nashville SC or draw",
 "odds": 1.16,
-"ts": 1795381200.0
+"ts": 1795381200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:30",
