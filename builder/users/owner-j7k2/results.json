@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SZSHSF",
+"at": 1795336017,
+"when": "Sun 22 Nov 09:26",
+"kind": "safest market per game",
+"odds": 1.28,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "24Erzincanspor vs Karacabey Belediyespor",
+"pick": "1st half double chance 24Erzincanspor or draw",
+"odds": 1.13,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"pick": "2nd half Over 0.5",
+"odds": 1.07,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"pick": "Over 1.5",
+"odds": 1.06,
+"ts": 1795359600.0
+}
+]
+},
+{
 "code": "XY1XLN",
 "at": 1795335796,
 "when": "Sun 22 Nov 09:23",
@@ -78586,66 +78617,6 @@
 "r": "W",
 "sc": "0-1",
 "ht": "0-1"
-}
-]
-},
-{
-"code": "NNTPXF",
-"at": 1794415373,
-"when": "Wed 11 Nov 17:42",
-"kind": "live \u2013 best of all",
-"odds": 2.05,
-"status": "won",
-"legs": [
-{
-"t": "Wed 16:45",
-"game": "Kazakhstan vs Scotland",
-"pick": "Asian handicap Kazakhstan +2.5",
-"odds": 1.12,
-"ts": 1794411900.0,
-"r": "W",
-"sc": "1-3",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
-"pick": "AS Saint Priest or GFA Rumilly-Vallieres",
-"odds": 1.08,
-"ts": 1794412800.0,
-"r": "W",
-"sc": "2-4",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
-"pick": "Silifke Belediyespor or Icel Idmanyurdu Spor",
-"odds": 1.15,
-"ts": 1794412800.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "Czarni Sosnowiec vs SK Brann",
-"pick": "Handicap 6:0 \u2013 Czarni Sosnowiec",
-"odds": 1.27,
-"ts": 1794412800.0,
-"r": "W",
-"sc": "1-5",
-"ht": "0-4"
-},
-{
-"t": "Wed 17:30",
-"game": "CD Manacor vs Inter Ibiza CD",
-"pick": "Asian handicap Inter Ibiza CD +3.5",
-"odds": 1.16,
-"ts": 1794414600.0,
-"r": "W",
-"sc": "3-0",
-"ht": "1-0"
 }
 ]
 }
