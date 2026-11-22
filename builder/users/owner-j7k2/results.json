@@ -3058,7 +3058,10 @@
 "game": "Douglas Haig vs Club Olimpo",
 "pick": "Over/Under \u2013 Under 3.5",
 "odds": 1.11,
-"ts": 1795377600.0
+"ts": 1795377600.0,
+"r": "L",
+"sc": "2-2",
+"ht": "1-0"
 },
 {
 "t": "Sun 22:00",
@@ -3115,7 +3118,7 @@
 "odds": 1.08,
 "ts": 1795377600.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-0"
 },
 {
@@ -3133,7 +3136,7 @@
 "when": "Sun 22 Nov 11:26",
 "kind": "your chosen markets",
 "odds": 1.56,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:00",
@@ -3160,7 +3163,10 @@
 "game": "Douglas Haig vs Club Olimpo",
 "pick": "Under 3.5",
 "odds": 1.11,
-"ts": 1795377600.0
+"ts": 1795377600.0,
+"r": "L",
+"sc": "2-2",
+"ht": "1-0"
 }
 ]
 },
