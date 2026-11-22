@@ -494,7 +494,10 @@
 "game": "Inter Miami CF vs Columbus Crew",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795302000.0
+"ts": 1795302000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 06:00",
@@ -957,7 +960,10 @@
 "game": "Inter Miami CF vs Columbus Crew",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795302000.0
+"ts": 1795302000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 02:00",
@@ -1260,7 +1266,10 @@
 "game": "Inter Miami CF vs Columbus Crew",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795302000.0
+"ts": 1795302000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 05:00",
