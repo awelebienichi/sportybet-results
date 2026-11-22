@@ -2649,7 +2649,10 @@
 "game": "Wisla Plock vs Legia Warszawa",
 "pick": "1st Half - Over/Under \u2013 Under 2.5",
 "odds": 1.08,
-"ts": 1795365000.0
+"ts": 1795365000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 19:30",
@@ -2793,7 +2796,10 @@
 "game": "Wisla Plock vs Legia Warszawa",
 "pick": "1st half Under 2.5",
 "odds": 1.08,
-"ts": 1795365000.0
+"ts": 1795365000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:30",
