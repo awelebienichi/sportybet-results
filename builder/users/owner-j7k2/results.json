@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WZ0JA7",
+"at": 1795348488,
+"when": "Sun 22 Nov 12:54",
+"kind": "half-time draw \u2013 weak teams",
+"odds": 18.92,
+"status": "open",
+"legs": [
+{
+"t": "Sun 13:30",
+"game": "Sopoti Librazhd vs Korabi Peshkopi",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Mitundu Baptist vs Masters FC",
+"pick": "Half-time draw",
+"odds": 1.87,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "US Pianese vs AS Gubbio",
+"pick": "Half-time draw",
+"odds": 2.05,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Rodina Moscow vs Lokomotiv Moscow",
+"pick": "Half-time draw",
+"odds": 2.35,
+"ts": 1795363200.0
+}
+]
+},
+{
 "code": "QKCUFQ",
 "at": 1795348216,
 "when": "Sun 22 Nov 12:50",
@@ -1834,7 +1872,7 @@
 "odds": 1.22,
 "ts": 1795341600.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-0"
 },
 {
@@ -2582,7 +2620,7 @@
 "odds": 1.24,
 "ts": 1795341600.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-0"
 },
 {
@@ -4269,7 +4307,7 @@
 "odds": 1.24,
 "ts": 1795341600.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-0"
 },
 {
@@ -4532,7 +4570,7 @@
 "odds": 1.24,
 "ts": 1795341600.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-0"
 },
 {
@@ -4819,7 +4857,7 @@
 "odds": 1.24,
 "ts": 1795341600.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-0"
 },
 {
@@ -6437,7 +6475,7 @@
 "odds": 1.23,
 "ts": 1795341600.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-0"
 },
 {
@@ -78000,72 +78038,6 @@
 "pick": "1st half Over 0.5",
 "odds": 1.43,
 "ts": 1794756600.0
-}
-]
-},
-{
-"code": "XUWCJY",
-"at": 1794433505,
-"when": "Wed 11 Nov 22:45",
-"kind": "strong team to score in the 1st half",
-"odds": 21.16,
-"status": "open",
-"legs": [
-{
-"t": "Thu 21:00",
-"game": "Bonaire vs Cuba",
-"pick": "Cuba to score in 1st half",
-"odds": 1.23,
-"ts": 1794513600.0
-},
-{
-"t": "Sat 16:00",
-"game": "Southend United vs Aldershot Town FC",
-"pick": "Southend United to score in 1st half",
-"odds": 1.37,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"pick": "East Kilbride FC to score in 1st half",
-"odds": 1.54,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Edinburgh City FC vs Clyde FC",
-"pick": "Clyde FC to score in 1st half",
-"odds": 1.69,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:30",
-"game": "NAC Breda vs FC Emmen",
-"pick": "NAC Breda to score in 1st half",
-"odds": 1.47,
-"ts": 1794670200.0
-},
-{
-"t": "Sat 22:30",
-"game": "Haiti vs USA",
-"pick": "USA to score in 1st half",
-"odds": 1.45,
-"ts": 1794691800.0
-},
-{
-"t": "Sun 00:00",
-"game": "Club Nacional de Football vs Albion FC",
-"pick": "Club Nacional de Football to score in 1st half",
-"odds": 1.54,
-"ts": 1794697200.0
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"pick": "Ravenna FC 1913 to score in 1st half",
-"odds": 1.47,
-"ts": 1794760200.0
 }
 ]
 }
