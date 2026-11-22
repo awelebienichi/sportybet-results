@@ -2,6 +2,114 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "V3L14R",
+"at": 1795389274,
+"when": "Mon 23 Nov 00:14",
+"kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
+"odds": 178.06,
+"status": "open",
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795438800.0
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795463100.0
+},
+{
+"t": "Tue 03:05",
+"game": "Deportiva Venados vs Reboceros de La Piedad",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795485900.0
+},
+{
+"t": "Sat 16:00",
+"game": "KVC Westerlo vs RAAL La Louviere",
+"pick": "Over 2.5",
+"odds": 1.63,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 17:30",
+"game": "Blau-Weiss Linz vs SK Sturm Graz II",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Grasshopper Club Zurich vs Basel",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 20:00",
+"game": "KSC Lokeren Temse vs K Beerschot VA",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Le Havre vs Strasbourg",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795895100.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Luzern vs Lugano",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Salzburg vs LASK Linz",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795968000.0
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795969800.0
+},
+{
+"t": "Sun 18:00",
+"game": "Roma vs Monza",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795971600.0
+},
+{
+"t": "Sun 19:15",
+"game": "Sporting Hasselt vs RFC Liege",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795976100.0
+}
+]
+},
+{
 "code": "LM5Z5L",
 "at": 1795375950,
 "when": "Sun 22 Nov 20:32",
@@ -79351,30 +79459,6 @@
 "pick": "1st half GG \u2013 No",
 "odds": 1.2,
 "ts": 1794751200.0
-}
-]
-},
-{
-"code": "U944JV",
-"at": 1794434164,
-"when": "Wed 11 Nov 22:56",
-"kind": "your chosen markets",
-"odds": 1.13,
-"status": "open",
-"legs": [
-{
-"t": "Thu 18:30",
-"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
-"pick": "Under 5.5",
-"odds": 1.06,
-"ts": 1794504600.0
-},
-{
-"t": "Sun 00:30",
-"game": "Chapecoense SC vs CR Vasco da Gama RJ",
-"pick": "Under 5.5",
-"odds": 1.07,
-"ts": 1794699000.0
 }
 ]
 }
