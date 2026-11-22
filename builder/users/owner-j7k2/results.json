@@ -174,7 +174,10 @@
 "game": "Fencibles Utd vs Auckland United FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 08:00",
@@ -417,7 +420,10 @@
 "game": "Wellington United Diamonds vs Wellington Phoenix",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.22,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 06:30",
@@ -816,7 +822,10 @@
 "game": "Wellington United Diamonds vs Wellington Phoenix",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.22,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 04:00",
@@ -976,7 +985,10 @@
 "game": "Fencibles Utd vs Auckland United FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 06:00",
@@ -1575,7 +1587,10 @@
 "game": "Wellington United Diamonds vs Wellington Phoenix",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 02:00",
@@ -1599,7 +1614,10 @@
 "game": "Fencibles Utd vs Auckland United FC",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795309200.0
+"ts": 1795309200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 04:00",
