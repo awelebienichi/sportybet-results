@@ -1,5 +1,350 @@
 [
 {
+"when": "Sun 22 Nov 04:43",
+"at": 1795319011,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 30,
+"tickets": 3,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u35"
+],
+"rid": "mwrakgibg5f1"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 22 games passed the checks (Sun 22, 704 games on SportyBet), so this ticket has 22 legs instead of 30. Tick more days or use 'Relaxed' for more.",
+"Only 22 games qualified, enough for 1 ticket(s) of 22 with no game repeated (you asked for 3).",
+"Chance all 22 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "WF919G",
+"odds": 55.66,
+"legs": [
+{
+"t": "Sun 07:00",
+"game": "Jiangsu LFC vs Liaoning Shenbei Hefeng",
+"lg": "China - Chinese Super League, Women",
+"pick": "Under 3.5",
+"odds": 1.19,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; Flashscore home/away form 70%, season: 2.2 goals a game",
+"ts": 1795327200.0,
+"eid": "sr:match:75107618",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75107618|18|total=3.5|13"
+},
+{
+"t": "Sun 08:30",
+"game": "Jiangxi Dingnan United vs Guizhou Guiyang Athletic",
+"lg": "China - China League 1",
+"pick": "Under 3.5",
+"odds": 1.22,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 80%",
+"ts": 1795332600.0,
+"eid": "sr:match:76800138",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76800138|18|total=3.5|13"
+},
+{
+"t": "Sun 09:30",
+"game": "FK Ufa vs FK Ural Yekaterinburg",
+"lg": "Russia - 1. Liga",
+"pick": "Under 3.5",
+"odds": 1.25,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, FotMob: 2.3 goals a game, Vitibet tip 0-1, season: 2.3 goals a game",
+"ts": 1795336200.0,
+"eid": "sr:match:73937006",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73937006|18|total=3.5|13"
+},
+{
+"t": "Sun 11:30",
+"game": "Shabana FC vs Mara Sugar FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 3.5",
+"odds": 1.14,
+"why": "stats rate 90% from both teams' last 10 and 4 meetings; Flashscore home/away form 90%, Vitibet tip 0-0, season: 1.9 goals a game",
+"ts": 1795343400.0,
+"eid": "sr:match:74056930",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74056930|18|total=3.5|13"
+},
+{
+"t": "Sun 11:45",
+"game": "FE Grama vs CF Peralada",
+"lg": "Spain Amateur - Tercera Federacion, Group 5",
+"pick": "Under 3.5",
+"odds": 1.22,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, season: 2.1 goals a game",
+"ts": 1795344300.0,
+"eid": "sr:match:73577756",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73577756|18|total=3.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "Racing Club Villalbes vs CD BARCO",
+"lg": "Spain Amateur - Tercera Federacion, Group 1",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, season: 2.2 goals a game",
+"ts": 1795345200.0,
+"eid": "sr:match:73553850",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73553850|18|total=3.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "Viveiro CF vs UD Somozas",
+"lg": "Spain Amateur - Tercera Federacion, Group 1",
+"pick": "Under 3.5",
+"odds": 1.21,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, season: 2.0 goals a game",
+"ts": 1795345200.0,
+"eid": "sr:match:73553854",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73553854|18|total=3.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "FC Jove Espanol San Vicente vs CD Utiel",
+"lg": "Spain Amateur - Tercera Federacion, Group 6",
+"pick": "Under 3.5",
+"odds": 1.23,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, season: 2.5 goals a game",
+"ts": 1795345200.0,
+"eid": "sr:match:73578990",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73578990|18|total=3.5|13"
+},
+{
+"t": "Sun 12:30",
+"game": "Moralo CP vs AD Llerenense",
+"lg": "Spain Amateur - Tercera Federacion, Group 14",
+"pick": "Under 3.5",
+"odds": 1.23,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, season: 2.1 goals a game",
+"ts": 1795347000.0,
+"eid": "sr:match:73564422",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73564422|18|total=3.5|13"
+},
+{
+"t": "Sun 13:15",
+"game": "Tripoli AC vs Reyady Abaseya",
+"lg": "Lebanon - Premier League",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "stats rate 84% from both teams' last 10; Flashscore home/away form 95%, season: 2.3 goals a game",
+"ts": 1795349700.0,
+"eid": "sr:match:75019724",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75019724|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Saronikos Anavisou vs A.P.O. Thyella Rafina FC",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; Flashscore home/away form 85%, season: 1.4 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:74041088",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74041088|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Ionikos Nikea FC vs Vyrona",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, season: 1.8 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:74040806",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74040806|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Pao Rouf vs Apollon Smyrnis",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.25,
+"why": "stats rate 84% from both teams' last 10 and 6 meetings; Flashscore home/away form 80%, season: 2.2 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:74040802",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74040802|18|total=3.5|13"
+},
+{
+"t": "Sun 15:00",
+"game": "APO Levadiakos FC vs Atromitos Athinon",
+"lg": "Greece - Super League",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, FotMob: 2.0 goals a game, season: 2.0 goals a game",
+"ts": 1795356000.0,
+"eid": "sr:match:72936138",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72936138|18|total=3.5|13"
+},
+{
+"t": "Sun 15:00",
+"game": "FC Vizela vs CD Feirense",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "Under 3.5",
+"odds": 1.21,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%, FotMob: 1.8 goals a game, Vitibet tip 1-0, season: 1.8 goals a game",
+"ts": 1795356000.0,
+"eid": "sr:match:76536152",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76536152|18|total=3.5|13"
+},
+{
+"t": "Sun 15:30",
+"game": "Kabuscorp SCP vs FC Luanda",
+"lg": "Angola - Girabola",
+"pick": "Under 3.5",
+"odds": 1.15,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%, season: 1.8 goals a game",
+"ts": 1795357800.0,
+"eid": "sr:match:74436822",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74436822|18|total=3.5|13"
+},
+{
+"t": "Sun 16:30",
+"game": "UD Vall de Uxo vs CD Roda",
+"lg": "Spain Amateur - Tercera Federacion, Group 6",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "stats rate 84% from both teams' last 10 and 6 meetings; Flashscore home/away form 85%, season: 2.5 goals a game",
+"ts": 1795361400.0,
+"eid": "sr:match:73579004",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73579004|18|total=3.5|13"
+},
+{
+"t": "Sun 16:30",
+"game": "UE Porreres vs CD Ibiza Islas Pitiusas",
+"lg": "Spain Amateur - Tercera Federacion, Group 11",
+"pick": "Under 3.5",
+"odds": 1.24,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%, season: 2.1 goals a game",
+"ts": 1795361400.0,
+"eid": "sr:match:73584736",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73584736|18|total=3.5|13"
+},
+{
+"t": "Sun 17:00",
+"game": "FC Marbelli vs UD Almeria B",
+"lg": "Spain Amateur - Tercera Federacion, Group 9",
+"pick": "Under 3.5",
+"odds": 1.19,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 100%, season: 1.8 goals a game",
+"ts": 1795363200.0,
+"eid": "sr:match:73582922",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73582922|18|total=3.5|13"
+},
+{
+"t": "Sun 21:00",
+"game": "Douglas Haig vs Club Olimpo",
+"lg": "Argentina - Torneo Federal A",
+"pick": "Under 3.5",
+"odds": 1.15,
+"why": "stats rate 86% from both teams' last 10 and 4 meetings; Flashscore home/away form 90%, season: 1.9 goals a game",
+"ts": 1795377600.0,
+"eid": "sr:match:76914650",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76914650|18|total=3.5|13"
+},
+{
+"t": "Sun 23:00",
+"game": "CA River Plate (ARG) vs CA Lanus",
+"lg": "Argentina - Primera LPF",
+"pick": "Under 3.5",
+"odds": 1.21,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, Vitibet tip 1-0, season: 2.1 goals a game",
+"ts": 1795384800.0,
+"eid": "sr:match:76649196",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76649196|18|total=3.5|13"
+},
+{
+"t": "Sun 23:30",
+"game": "CA Sarmiento de la Banda vs Club Cipolletti",
+"lg": "Argentina - Torneo Federal A",
+"pick": "Under 3.5",
+"odds": 1.15,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 90%, season: 2.3 goals a game",
+"ts": 1795386600.0,
+"eid": "sr:match:76914648",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "76914648|18|total=3.5|13"
+}
+],
+"chance": 0.0061
+}
+]
+},
+{
 "when": "Sun 22 Nov 04:35",
 "at": 1795318511,
 "req": {
@@ -10105,66 +10450,6 @@
 }
 ],
 "chance": 0.7777
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:23",
-"at": 1795238594,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "mix",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwpyoxyutjbe"
-},
-"ok": true,
-"kind": "safest market per game",
-"note": [
-"Chance all 2 legs win: about 73%."
-],
-"tickets": [
-{
-"code": "QXDANB",
-"odds": 1.24,
-"legs": [
-{
-"t": "Sat 11:30",
-"game": "Migori Youth FC vs Leopards SC",
-"lg": "Kenya - Premier League",
-"pick": "Under 3.5",
-"odds": 1.12,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%, Vitibet tip 0-0, season: 1.3 goals a game",
-"ts": 1795257000.0,
-"eid": "sr:match:74056932",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74056932|18|total=3.5|13"
-},
-{
-"t": "Sat 18:45",
-"game": "Feyenoord vs Excelsior Rotterdam",
-"lg": "Netherlands - Eredivisie",
-"pick": "2nd half Over 0.5",
-"odds": 1.11,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1795283100.0,
-"eid": "sr:match:72041256",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72041256|90|total=0.5|12"
-}
-],
-"chance": 0.7296
 }
 ]
 }
