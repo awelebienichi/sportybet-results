@@ -7,7 +7,7 @@
 "when": "Sat 21 Nov 22:08",
 "kind": "strong team to score in the 2nd half",
 "odds": 6862203.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 22:30",
@@ -24,7 +24,10 @@
 "game": "Azul Claro Numazu vs YSCC Yokohama",
 "pick": "Azul Claro Numazu to score in 2nd half",
 "odds": 1.48,
-"ts": 1795323600.0
+"ts": 1795323600.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
