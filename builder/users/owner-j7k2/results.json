@@ -3929,7 +3929,10 @@
 "game": "SC Freiburg vs VfB Stuttgart",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.5,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
@@ -4557,7 +4560,10 @@
 "game": "SC Freiburg vs VfB Stuttgart",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.5,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
