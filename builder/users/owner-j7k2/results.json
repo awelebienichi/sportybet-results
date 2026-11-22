@@ -1294,7 +1294,10 @@
 "game": "RC Celta de Vigo vs CD Marina Youth",
 "pick": "1X2 \u2013 Home",
 "odds": 1.02,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -1846,7 +1849,10 @@
 "game": "RC Celta de Vigo vs CD Marina Youth",
 "pick": "RC Celta de Vigo to win",
 "odds": 1.02,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-2",
+"ht": ""
 },
 {
 "t": "Sun 17:00",
@@ -2277,7 +2283,7 @@
 "odds": 1.13,
 "ts": 1795346100.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
@@ -2949,7 +2955,10 @@
 "game": "FC Twente Enschede vs Willem II Tilburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.23,
-"ts": 1795346100.0
+"ts": 1795346100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 13:00",
@@ -3579,7 +3588,10 @@
 "game": "FC Twente Enschede vs Willem II Tilburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.23,
-"ts": 1795346100.0
+"ts": 1795346100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:15",
@@ -5290,7 +5302,10 @@
 "game": "FC Twente Enschede vs Willem II Tilburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.23,
-"ts": 1795346100.0
+"ts": 1795346100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 12:15",
