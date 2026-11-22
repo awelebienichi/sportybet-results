@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HF29XJ",
+"at": 1795350026,
+"when": "Sun 22 Nov 13:20",
+"kind": "live \u2013 best of all",
+"odds": 1.41,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "PVF Cong An Nhan Dan FC vs Quang Ninh FC",
+"pick": "Handicap 0:4 \u2013 Quang Ninh FC",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Utrera U19 vs FC Alhendin Balompie",
+"pick": "CD Utrera U19 Under 1.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Atletico Baleares vs Real Murcia Imperial FC",
+"pick": "CD Atletico Baleares Under 3.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "UD Ourense vs Racing Club de Ferrol",
+"pick": "Racing Club de Ferrol Under 3.5",
+"odds": 1.04,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "PFK Dinamo Samarqand vs FC Bunyodkor",
+"pick": "PFK Dinamo Samarqand Under 2.5",
+"odds": 1.04,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "AD Alcorcon vs CF Algeciras",
+"pick": "Handicap 0:4 \u2013 CF Algeciras",
+"odds": 1.06,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Subiza vs CD Pamplona",
+"pick": "CD Pamplona Under 1.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Viveiro CF vs UD Somozas",
+"pick": "Viveiro CF Under 3.5",
+"odds": 1.04,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Atletico Coruna Montaneros CF vs Pontevedra CF B",
+"pick": "Atletico Coruna Montaneros CF Under 3.5",
+"odds": 1.03,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 12:30",
+"game": "Union Brescia vs AC Renate",
+"pick": "Handicap 0:4 \u2013 AC Renate",
+"odds": 1.03,
+"ts": 1795347000.0
+}
+]
+},
+{
 "code": "RDAZBR",
 "at": 1795349860,
 "when": "Sun 22 Nov 13:17",
@@ -2678,7 +2758,10 @@
 "game": "Tarxien Rainbows FC vs Gudja United",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.46,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 12:15",
@@ -2813,7 +2896,10 @@
 "game": "FC Midtjylland vs HB KOEGE W",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.53,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -3364,7 +3450,10 @@
 "game": "Tarxien Rainbows FC vs Gudja United",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.46,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 12:00",
@@ -3461,7 +3550,10 @@
 "game": "FC Midtjylland vs HB KOEGE W",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.53,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 13:30",
@@ -4891,7 +4983,10 @@
 "game": "FC Midtjylland vs HB KOEGE W",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.53,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 13:30",
@@ -5133,7 +5228,10 @@
 "game": "FC Midtjylland vs HB KOEGE W",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.53,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 13:30",
@@ -5390,7 +5488,10 @@
 "game": "FC Midtjylland vs HB KOEGE W",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
@@ -77998,162 +78099,6 @@
 "pick": "Over 2.5",
 "odds": 1.53,
 "ts": 1794668400.0
-}
-]
-},
-{
-"code": "TL2G7N",
-"at": 1794433729,
-"when": "Wed 11 Nov 22:48",
-"kind": "Over 2.5 (high-scoring leagues)",
-"odds": 3668.4,
-"status": "open",
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "Club America vs Deportivo Toluca FC",
-"pick": "Over 2.5",
-"odds": 1.18,
-"ts": 1794445200.0,
-"r": "W",
-"sc": "3-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 09:30",
-"game": "APIA Leichhardt vs Adelaide City FC",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794472200.0,
-"r": "W",
-"sc": "3-0",
-"ht": "2-0"
-},
-{
-"t": "Thu 17:00",
-"game": "Italy vs Portugal",
-"pick": "Over 2.5",
-"odds": 1.85,
-"ts": 1794499200.0
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"pick": "Over 2.5",
-"odds": 1.68,
-"ts": 1794502800.0
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"pick": "Over 2.5",
-"odds": 1.46,
-"ts": 1794512700.0
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"pick": "Over 2.5",
-"odds": 1.33,
-"ts": 1794596400.0
-},
-{
-"t": "Fri 21:00",
-"game": "Grenada vs Saint Kitts and Nevis",
-"pick": "Over 2.5",
-"odds": 1.57,
-"ts": 1794600000.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
-"pick": "Over 2.5",
-"odds": 1.47,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"pick": "Over 2.5",
-"odds": 1.45,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leamington FC vs Leiston FC",
-"pick": "Over 2.5",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Braintree Town FC vs Kettering Town",
-"pick": "Over 2.5",
-"odds": 1.45,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bridlington Town vs Macclesfield FC",
-"pick": "Over 2.5",
-"odds": 1.45,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Farnham Town vs Ebbsfleet United FC",
-"pick": "Over 2.5",
-"odds": 1.56,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"pick": "Over 2.5",
-"odds": 1.41,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Halesowen Town FC vs Redditch United",
-"pick": "Over 2.5",
-"odds": 1.58,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"pick": "Over 2.5",
-"odds": 1.54,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Brentwood Town FC vs Ramsgate FC",
-"pick": "Over 2.5",
-"odds": 1.49,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Harrogate Town vs Altrincham FC",
-"pick": "Over 2.5",
-"odds": 1.55,
-"ts": 1794668400.0
-},
-{
-"t": "Sun 15:00",
-"game": "West Ham United FC Women vs Charlton Athletic",
-"pick": "Over 2.5",
-"odds": 1.7,
-"ts": 1794751200.0
-},
-{
-"t": "Sun 20:45",
-"game": "Croatia vs Czechia",
-"pick": "Over 2.5",
-"odds": 1.66,
-"ts": 1794771900.0
 }
 ]
 }
