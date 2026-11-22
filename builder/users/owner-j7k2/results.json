@@ -2,6 +2,170 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WF919G",
+"at": 1795319011,
+"when": "Sun 22 Nov 04:43",
+"kind": "your chosen markets",
+"odds": 55.66,
+"status": "open",
+"legs": [
+{
+"t": "Sun 07:00",
+"game": "Jiangsu LFC vs Liaoning Shenbei Hefeng",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1795327200.0
+},
+{
+"t": "Sun 08:30",
+"game": "Jiangxi Dingnan United vs Guizhou Guiyang Athletic",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1795332600.0
+},
+{
+"t": "Sun 09:30",
+"game": "FK Ufa vs FK Ural Yekaterinburg",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1795336200.0
+},
+{
+"t": "Sun 11:30",
+"game": "Shabana FC vs Mara Sugar FC",
+"pick": "Under 3.5",
+"odds": 1.14,
+"ts": 1795343400.0
+},
+{
+"t": "Sun 11:45",
+"game": "FE Grama vs CF Peralada",
+"pick": "Under 3.5",
+"odds": 1.22,
+"ts": 1795344300.0
+},
+{
+"t": "Sun 12:00",
+"game": "Racing Club Villalbes vs CD BARCO",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Viveiro CF vs UD Somozas",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "FC Jove Espanol San Vicente vs CD Utiel",
+"pick": "Under 3.5",
+"odds": 1.23,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Moralo CP vs AD Llerenense",
+"pick": "Under 3.5",
+"odds": 1.23,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 13:15",
+"game": "Tripoli AC vs Reyady Abaseya",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795349700.0
+},
+{
+"t": "Sun 14:00",
+"game": "Saronikos Anavisou vs A.P.O. Thyella Rafina FC",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Ionikos Nikea FC vs Vyrona",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Pao Rouf vs Apollon Smyrnis",
+"pick": "Under 3.5",
+"odds": 1.25,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 15:00",
+"game": "APO Levadiakos FC vs Atromitos Athinon",
+"pick": "Under 3.5",
+"odds": 1.2,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Vizela vs CD Feirense",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:30",
+"game": "Kabuscorp SCP vs FC Luanda",
+"pick": "Under 3.5",
+"odds": 1.15,
+"ts": 1795357800.0
+},
+{
+"t": "Sun 16:30",
+"game": "UD Vall de Uxo vs CD Roda",
+"pick": "Under 3.5",
+"odds": 1.17,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:30",
+"game": "UE Porreres vs CD Ibiza Islas Pitiusas",
+"pick": "Under 3.5",
+"odds": 1.24,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Marbelli vs UD Almeria B",
+"pick": "Under 3.5",
+"odds": 1.19,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 21:00",
+"game": "Douglas Haig vs Club Olimpo",
+"pick": "Under 3.5",
+"odds": 1.15,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 23:00",
+"game": "CA River Plate (ARG) vs CA Lanus",
+"pick": "Under 3.5",
+"odds": 1.21,
+"ts": 1795384800.0
+},
+{
+"t": "Sun 23:30",
+"game": "CA Sarmiento de la Banda vs Club Cipolletti",
+"pick": "Under 3.5",
+"odds": 1.15,
+"ts": 1795386600.0
+}
+]
+},
+{
 "code": "G6N0UF",
 "at": 1795318511,
 "when": "Sun 22 Nov 04:35",
