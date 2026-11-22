@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QY7L8P",
+"at": 1795318447,
+"when": "Sun 22 Nov 04:34",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 121.86,
+"status": "open",
+"legs": [
+{
+"t": "Sun 07:00",
+"game": "Jiangsu LFC vs Liaoning Shenbei Hefeng",
+"pick": "Under 2.5",
+"odds": 1.57,
+"ts": 1795327200.0
+},
+{
+"t": "Sun 12:30",
+"game": "Moralo CP vs AD Llerenense",
+"pick": "Under 2.5",
+"odds": 1.65,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Ballkani vs SC Gjilani",
+"pick": "Under 2.5",
+"odds": 1.71,
+"ts": 1795348800.0
+},
+{
+"t": "Sun 14:00",
+"game": "Mitundu Baptist vs Masters FC",
+"pick": "Under 2.5",
+"odds": 1.43,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Green Eagles vs Red Arrows",
+"pick": "Under 2.5",
+"odds": 1.36,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 16:00",
+"game": "Chabab Ben Guerir vs US Yacoub Mansour",
+"pick": "Under 2.5",
+"odds": 1.36,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 17:30",
+"game": "Stade de Mbour vs Ajel de Rufisque",
+"pick": "Under 2.5",
+"odds": 1.33,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 17:30",
+"game": "US Ouakam vs Hlm",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 17:30",
+"game": "Teungueth FC vs ASC Diambars",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Guediawaye FC vs ASC Jaraaf",
+"pick": "Under 2.5",
+"odds": 1.35,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "Ittihad Khemisset vs Sportive Boujaad",
+"pick": "Under 2.5",
+"odds": 1.36,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 22:30",
+"game": "AC Goianiense GO vs Vila Nova FC GO",
+"pick": "Under 2.5",
+"odds": 1.59,
+"ts": 1795383000.0
+},
+{
+"t": "Sun 23:30",
+"game": "CA Sarmiento de la Banda vs Club Cipolletti",
+"pick": "Under 2.5",
+"odds": 1.46,
+"ts": 1795386600.0
+}
+]
+},
+{
 "code": "X4HKLP",
 "at": 1795295802,
 "when": "Sat 21 Nov 22:16",
