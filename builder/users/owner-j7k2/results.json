@@ -199,7 +199,10 @@
 "game": "NK Rudar Velenje vs ND Beltinci",
 "pick": "Over 2.5",
 "odds": 1.62,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 17:00",
@@ -779,7 +782,7 @@
 "odds": 1.38,
 "ts": 1795363200.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
@@ -1318,7 +1321,7 @@
 "odds": 1.38,
 "ts": 1795363200.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
@@ -1745,7 +1748,10 @@
 "game": "Trabzonspor vs Eyupspor",
 "pick": "Eyupspor excluded goals: 2",
 "odds": 1.07,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:30",
@@ -2082,14 +2088,20 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "CD Espanyol Barcelona to win",
 "odds": 1.05,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "4-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
 "game": "Trabzonspor vs Eyupspor",
 "pick": "Trabzonspor to win",
 "odds": 1.14,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
@@ -2379,14 +2391,20 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "CD Espanyol Barcelona to win",
 "odds": 1.05,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "4-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
 "game": "Trabzonspor vs Eyupspor",
 "pick": "Trabzonspor to win",
 "odds": 1.14,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:30",
@@ -2715,14 +2733,20 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "1X2 \u2013 Home",
 "odds": 1.04,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "4-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
 "game": "Trabzonspor vs Eyupspor",
 "pick": "1X2 \u2013 Home",
 "odds": 1.14,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:30",
@@ -3143,7 +3167,7 @@
 "when": "Sun 22 Nov 11:10",
 "kind": "smallest-odds favourites to win",
 "odds": 1.21,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 12:00",
@@ -3160,14 +3184,20 @@
 "game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
 "pick": "CD Espanyol Barcelona to win",
 "odds": 1.04,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "4-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 17:00",
 "game": "Trabzonspor vs Eyupspor",
 "pick": "Trabzonspor to win",
 "odds": 1.14,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -4913,7 +4943,10 @@
 "game": "NK Rudar Velenje vs ND Beltinci",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.62,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 20:30",
@@ -5896,7 +5929,10 @@
 "game": "NK Rudar Velenje vs ND Beltinci",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.62,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 18:00",
