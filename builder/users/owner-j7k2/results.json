@@ -600,7 +600,10 @@
 "game": "Kahramanmaras Istiklalspor vs Adana 1954 FK",
 "pick": "1st half double chance Kahramanmaras Istiklalspor or draw",
 "odds": 1.22,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:30",
@@ -1114,7 +1117,10 @@
 "game": "FC Levadiakos vs Atromitos Athinon",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -2112,7 +2118,10 @@
 "game": "FC Levadiakos vs Atromitos Athinon",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 11:15",
@@ -5471,7 +5480,10 @@
 "game": "FC Levadiakos vs Atromitos Athinon",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -6182,7 +6194,10 @@
 "game": "FC Levadiakos vs Atromitos Athinon",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -6863,7 +6878,10 @@
 "game": "FC Levadiakos vs Atromitos Athinon",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795341600.0
+"ts": 1795341600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
