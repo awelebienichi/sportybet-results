@@ -76,7 +76,7 @@
 "odds": 1.32,
 "ts": 1795350600.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-1"
 },
 {
@@ -84,7 +84,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "Barcelona to score in 2nd half",
 "odds": 1.15,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:45",
@@ -459,7 +462,7 @@
 "odds": 1.21,
 "ts": 1795352400.0,
 "r": "L",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-2"
 },
 {
@@ -841,7 +844,10 @@
 "game": "Stoke City U21 vs Stockport County Reserves",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -2695,7 +2701,10 @@
 "game": "Stoke City U21 vs Stockport County Reserves",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",

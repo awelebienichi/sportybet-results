@@ -878,7 +878,10 @@
 "game": "Energie Cottbus vs Hertha",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795350600.0
+"ts": 1795350600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 13:45",
@@ -892,7 +895,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "Over 2.5",
 "odds": 1.14,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:00",
@@ -2053,7 +2059,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "2nd Half - Over/Under \u2013 Over 0.5",
 "odds": 1.07,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:00",
@@ -2101,7 +2110,10 @@
 "game": "Stoke City U21 vs Stockport County Reserves",
 "pick": "Goal Bounds \u2013 2-5+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -2399,7 +2411,10 @@
 "game": "Stoke City U21 vs Stockport County Reserves",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -2498,7 +2513,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "Over 2.5",
 "odds": 1.16,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -2726,7 +2744,10 @@
 "game": "Stoke City U21 vs Stockport County Reserves",
 "pick": "Goal bounds 2-5+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -2767,7 +2788,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "2nd half Over 0.5",
 "odds": 1.07,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -3457,14 +3481,20 @@
 "game": "Energie Cottbus vs Hertha",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.38,
-"ts": 1795350600.0
+"ts": 1795350600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 14:00",
 "game": "Barcelona vs Villarreal",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.17,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:00",
@@ -4439,7 +4469,10 @@
 "game": "Energie Cottbus vs Hertha",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.38,
-"ts": 1795350600.0
+"ts": 1795350600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 13:45",
@@ -4494,7 +4527,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.17,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:00",
