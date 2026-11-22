@@ -704,7 +704,10 @@
 "game": "Inter Miami CF vs Columbus Crew",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1795302000.0
+"ts": 1795302000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 02:00",
@@ -2594,7 +2597,10 @@
 "game": "Inter Miami CF vs Columbus Crew",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1795302000.0
+"ts": 1795302000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 13:00",
