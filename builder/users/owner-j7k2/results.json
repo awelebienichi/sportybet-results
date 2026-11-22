@@ -1105,7 +1105,10 @@
 "game": "Afk Csikszereda Miercurea Ciuc vs FC Farul Constanta",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -1122,7 +1125,10 @@
 "game": "SC Heerenveen vs ADO Den Haag",
 "pick": "1st Half - Double Chance \u2013 Home or Draw",
 "odds": 1.19,
-"ts": 1795346100.0
+"ts": 1795346100.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 13:00",
@@ -1514,7 +1520,10 @@
 "game": "Afk Csikszereda Miercurea Ciuc vs FC Farul Constanta",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sun 16:00",
@@ -1699,7 +1708,10 @@
 "game": "SC Heerenveen vs ADO Den Haag",
 "pick": "1st half double chance SC Heerenveen or draw",
 "odds": 1.19,
-"ts": 1795346100.0
+"ts": 1795346100.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 13:30",
@@ -2949,7 +2961,10 @@
 "game": "WAF Vorwarts Brigittenau vs Union Mauer",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795342500.0
+"ts": 1795342500.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -3239,7 +3254,10 @@
 "game": "WAF Vorwarts Brigittenau vs Union Mauer",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795342500.0
+"ts": 1795342500.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 11:30",
@@ -4895,7 +4913,7 @@
 "when": "Sun 22 Nov 04:55",
 "kind": "combined K99A7Q + QSHFCJ + M96JKP + SQLD5A",
 "odds": 750.63,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 11:00",
@@ -4922,7 +4940,10 @@
 "game": "WAF Vorwarts Brigittenau vs Union Mauer",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795342500.0
+"ts": 1795342500.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 11:30",
@@ -5191,7 +5212,10 @@
 "game": "WAF Vorwarts Brigittenau vs Union Mauer",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795342500.0
+"ts": 1795342500.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 11:30",
@@ -5481,7 +5505,10 @@
 "game": "WAF Vorwarts Brigittenau vs Union Mauer",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795342500.0
+"ts": 1795342500.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
@@ -5767,7 +5794,7 @@
 "when": "Sun 22 Nov 04:49",
 "kind": "your chosen markets",
 "odds": 1145.5,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -5804,7 +5831,10 @@
 "game": "WAF Vorwarts Brigittenau vs Union Mauer",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795342500.0
+"ts": 1795342500.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sun 12:00",
