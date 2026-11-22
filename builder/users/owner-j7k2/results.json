@@ -352,14 +352,17 @@
 "when": "Sun 22 Nov 05:14",
 "kind": "combined MRQ92K + KK8ZAF + X86FXC + MSXVSR + SU97DW + PE09WP + XY1VM0 + NM2W5Q + M96JKP + SQLD5A + QSHFCJ + K99A7Q + WS9G2J + SMJA92 + Q10GCG + NU0JNF + KCB8TL + GPZ4PH + XNVQY6 + X4HKLP + M85QEG + J7SMKR + Z69CG3 + ZTPJTK + SB4L9E + V46B80 + WZ08QR + UR4E0M",
 "odds": 142.26,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:30",
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -870,7 +873,7 @@
 "when": "Sun 22 Nov 05:12",
 "kind": "combined MRQ92K + KK8ZAF + X86FXC + MSXVSR + SU97DW + PE09WP + XY1VM0 + NM2W5Q + M96JKP + SQLD5A + QSHFCJ + K99A7Q + WS9G2J + SMJA92 + Q10GCG + NU0JNF + KCB8TL + GPZ4PH + XNVQY6 + X4HKLP + M85QEG + J7SMKR + Z69CG3 + ZTPJTK + SB4L9E + V46B80 + WZ08QR + UR4E0M",
 "odds": 627426316014332.4,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -904,7 +907,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 08:00",
@@ -1704,7 +1710,7 @@
 "when": "Sun 22 Nov 04:55",
 "kind": "combined K99A7Q + QSHFCJ + M96JKP + SQLD5A",
 "odds": 1136.03,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -1738,7 +1744,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 08:00",
@@ -2760,7 +2769,7 @@
 "when": "Sun 22 Nov 04:55",
 "kind": "combined K99A7Q + QSHFCJ + M96JKP + SQLD5A",
 "odds": 773.25,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -2794,7 +2803,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 08:00",
@@ -3038,7 +3050,7 @@
 "when": "Sun 22 Nov 04:50",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 1157378.96,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -3072,7 +3084,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 08:00",
@@ -4635,7 +4650,7 @@
 "when": "Sat 21 Nov 22:16",
 "kind": "combined V46B80 + SB4L9E",
 "odds": 22.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 02:00",
@@ -4652,7 +4667,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -5073,7 +5091,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 08:30",
@@ -5520,7 +5541,7 @@
 "when": "Sat 21 Nov 21:10",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 1004391.6,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 00:00",
@@ -5567,7 +5588,10 @@
 "game": "Leaper vs Kui Tan SC",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795325400.0
+"ts": 1795325400.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 08:00",
