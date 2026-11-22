@@ -1,5 +1,112 @@
 [
 {
+"when": "Sun 22 Nov 04:35",
+"at": 1795318511,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 30,
+"tickets": 3,
+"days": [
+"2026-11-22"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"u35"
+],
+"rid": "mwra9wk0a2u8"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 5 games passed the checks (Sun 22, 713 games on SportyBet), so this ticket has 5 legs instead of 30. Tick more days or use 'Relaxed' for more.",
+"Only 5 games qualified, enough for 1 ticket(s) of 5 with no game repeated (you asked for 3).",
+"Chance all 5 legs win: about 34%."
+],
+"tickets": [
+{
+"code": "G6N0UF",
+"odds": 2.29,
+"legs": [
+{
+"t": "Sun 07:00",
+"game": "Jiangsu LFC vs Liaoning Shenbei Hefeng",
+"lg": "China - Chinese Super League, Women",
+"pick": "Under 3.5",
+"odds": 1.19,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; Flashscore home/away form 70%, season: 2.2 goals a game",
+"ts": 1795327200.0,
+"eid": "sr:match:75107618",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "75107618|18|total=3.5|13"
+},
+{
+"t": "Sun 11:30",
+"game": "Shabana FC vs Mara Sugar FC",
+"lg": "Kenya - Premier League",
+"pick": "Under 3.5",
+"odds": 1.14,
+"why": "stats rate 90% from both teams' last 10 and 4 meetings; Flashscore home/away form 90%, Vitibet tip 0-0, season: 1.9 goals a game",
+"ts": 1795343400.0,
+"eid": "sr:match:74056930",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74056930|18|total=3.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "Racing Club Villalbes vs CD BARCO",
+"lg": "Spain Amateur - Tercera Federacion, Group 1",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, season: 2.2 goals a game",
+"ts": 1795345200.0,
+"eid": "sr:match:73553850",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73553850|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Saronikos Anavisou vs A.P.O. Thyella Rafina FC",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.17,
+"why": "stats rate 96% from both teams' last 10 and 3 meetings; Flashscore home/away form 85%, season: 1.4 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:74041088",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74041088|18|total=3.5|13"
+},
+{
+"t": "Sun 14:00",
+"game": "Ionikos Nikea FC vs Vyrona",
+"lg": "Greece - Gamma Ethniki",
+"pick": "Under 3.5",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95%, season: 1.8 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:74040806",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74040806|18|total=3.5|13"
+}
+],
+"chance": 0.3428
+}
+]
+},
+{
 "when": "Sun 22 Nov 04:34",
 "at": 1795318447,
 "req": {
@@ -10017,66 +10124,6 @@
 "from": "00:00",
 "to": "23:59",
 "rid": "mwpyoxyutjbe"
-},
-"ok": true,
-"kind": "safest market per game",
-"note": [
-"Chance all 2 legs win: about 73%."
-],
-"tickets": [
-{
-"code": "QXDANB",
-"odds": 1.24,
-"legs": [
-{
-"t": "Sat 11:30",
-"game": "Migori Youth FC vs Leopards SC",
-"lg": "Kenya - Premier League",
-"pick": "Under 3.5",
-"odds": 1.12,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 85%, Vitibet tip 0-0, season: 1.3 goals a game",
-"ts": 1795257000.0,
-"eid": "sr:match:74056932",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "74056932|18|total=3.5|13"
-},
-{
-"t": "Sat 18:45",
-"game": "Feyenoord vs Excelsior Rotterdam",
-"lg": "Netherlands - Eredivisie",
-"pick": "2nd half Over 0.5",
-"odds": 1.11,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1795283100.0,
-"eid": "sr:match:72041256",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72041256|90|total=0.5|12"
-}
-],
-"chance": 0.7296
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:22",
-"at": 1795238562,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "mix",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwpym2h00djn"
 },
 "ok": true,
 "kind": "safest market per game",
