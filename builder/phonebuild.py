@@ -862,7 +862,7 @@ def pick_season(G, LX, kind, want):
         H, A = LX[g["hid"]], LX[g["aid"]]
         tot = lambda L_: sum(m["gf"] + m["ga"] for m in L_) / len(L_)
         lose = lambda L_: sum(m["gf"] < m["ga"] for m in L_) / len(L_)
-        if kind == "goalfest": return min(tot(H), tot(A))
+        if kind in ("goalfest", "gfbounce"): return min(tot(H), tot(A))
         if kind == "beaten": return max(lose(H), lose(A))
         return -max(tot(H), tot(A))                                   # drawlow: the lower the better
     pre = sorted(usable, key=lambda g: -l10(g))[:max(80, want * 4)]
@@ -874,7 +874,18 @@ def pick_season(G, LX, kind, want):
         h, a = season.rates(Hs), season.rates(As)
         H, A = LX[g["hid"]], LX[g["aid"]]
         f = lambda L_, c: sum(1 for m in L_ if c(m)) / len(L_)
-        if kind == "goalfest":
+        if kind == "gfbounce":
+            # user's own type (23 Nov): goal-fest teams whose LAST game ended under 2.5 -> Over 2.5 now. Tested first on 5,453 goal-fest
+            # games: no bounce-back (after 1-3 quiet games Over 2.5 came true 66-67%, the same as any goal-fest game), and when BOTH
+            # teams' last 2 games were quiet only ~55% – so those are skipped. Separate type: no other picker uses this.
+            g2 = (h["gpg"] + a["gpg"]) / 2
+            if min(h["gpg"], a["gpg"]) < 3.0 - L * 3 or g2 < 3.5 - L * 3: continue
+            q = lambda L_, k: len(L_) >= k and all(m["gf"] + m["ga"] < 3 for m in L_[:k])      # LX lists are newest first
+            if not (q(H, 1) or q(A, 1)) or (q(H, 2) and q(A, 2)): continue
+            o25 = (f(H, lambda m: m["gf"] + m["ga"] >= 3) + f(A, lambda m: m["gf"] + m["ga"] >= 3)) / 2
+            last = lambda L_: f"{L_[0]['gf']}-{L_[0]['ga']}"
+            C.append((g, "18", "total=2.5", "12", "Over 2.5", o25, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game; last games {g['h']} {last(H)}, {g['a']} {last(A)} (bounce-back)"))
+        elif kind == "goalfest":
             g2 = (h["gpg"] + a["gpg"]) / 2
             if min(h["gpg"], a["gpg"]) < 3.0 - L * 3 or g2 < 3.5 - L * 3: continue
             o25 = (f(H, lambda m: m["gf"] + m["ga"] >= 3) + f(A, lambda m: m["gf"] + m["ga"] >= 3)) / 2
@@ -1143,7 +1154,7 @@ def main(req):
             return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "beaten", "drawlow") else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "gfbounce", "beaten", "drawlow") else pick_goals(G, LX, kind)
     # strongest first (user, 15 Nov: "make the top priority the best of the best"): every leg ranked by its chance of coming true –
     # its stats rate and the bookmaker's own price together – so weaker legs are only used once all stronger ones are on the ticket
     if P and all(p.get("rate") is not None for p in P):
@@ -1156,7 +1167,7 @@ def main(req):
             import extra
             P, dropped = extra.confirm(P, legs * nt)
         except Exception as e: print("extra checks skipped:", e)
-    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
+    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "gfbounce": "goal-fest bounce-back (Over 2.5 after a quiet game)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)
