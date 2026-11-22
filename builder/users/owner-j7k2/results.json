@@ -1440,7 +1440,7 @@
 "when": "Sun 22 Nov 12:56",
 "kind": "your chosen markets",
 "odds": 20.14,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 13:30",
@@ -1557,7 +1557,10 @@
 "game": "Usi Azzurri vs FC Sion II",
 "pick": "FC Sion II excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795356900.0
+"ts": 1795356900.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -1876,7 +1879,10 @@
 "game": "Usi Azzurri vs FC Sion II",
 "pick": "Usi Azzurri to win",
 "odds": 1.43,
-"ts": 1795356900.0
+"ts": 1795356900.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -2149,7 +2155,10 @@
 "game": "Usi Azzurri vs FC Sion II",
 "pick": "Usi Azzurri to win",
 "odds": 1.43,
-"ts": 1795356900.0
+"ts": 1795356900.0,
+"r": "L",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -3872,7 +3881,10 @@
 "game": "Usi Azzurri vs FC Sion II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.45,
-"ts": 1795356900.0
+"ts": 1795356900.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -5393,7 +5405,10 @@
 "game": "Usi Azzurri vs FC Sion II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.45,
-"ts": 1795356900.0
+"ts": 1795356900.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 15:30",
