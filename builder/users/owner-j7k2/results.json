@@ -490,7 +490,10 @@
 "game": "GNK Dinamo Zagreb vs NK Istra 1961",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
@@ -992,7 +995,10 @@
 "game": "GNK Dinamo Zagreb vs NK Istra 1961",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
@@ -2224,7 +2230,10 @@
 "game": "Servette Geneva W vs FC St. Gallen-Staad",
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.06,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 16:00",
@@ -2622,7 +2631,10 @@
 "game": "Servette Geneva W vs FC St. Gallen-Staad",
 "pick": "Over 1.5",
 "odds": 1.06,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sun 16:30",
@@ -3781,7 +3793,10 @@
 "game": "GNK Dinamo Zagreb vs NK Istra 1961",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
@@ -4926,7 +4941,10 @@
 "game": "GNK Dinamo Zagreb vs NK Istra 1961",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 15:00",
