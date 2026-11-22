@@ -1,5 +1,80 @@
 [
 {
+"when": "Sun 22 Nov 11:10",
+"at": 1795342205,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "smallfav",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwrocoidms9r"
+},
+"ok": true,
+"kind": "smallest-odds favourites to win",
+"note": [
+"4 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 3 legs win: about 71%."
+],
+"tickets": [
+{
+"code": "WUQUYR",
+"odds": 1.21,
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "RC Celta de Vigo vs CD Marina Youth",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "RC Celta de Vigo to win",
+"odds": 1.02,
+"why": "won 80% lost 0% of last 10, rival lost 56%; season: won 89%, rival lost 56%",
+"ts": 1795345200.0,
+"eid": "sr:match:72882636",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72882636|1||1"
+},
+{
+"t": "Sun 17:00",
+"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "CD Espanyol Barcelona to win",
+"odds": 1.04,
+"why": "won 90% lost 0% of last 10, rival lost 70%; season: won 89%, rival lost 67%",
+"ts": 1795363200.0,
+"eid": "sr:match:72883760",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72883760|1||1"
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"lg": "Turkiye - Super Lig",
+"pick": "Trabzonspor to win",
+"odds": 1.14,
+"why": "won 80% lost 20% of last 10, rival lost 89%, won 75% of 4 meetings; Flashscore home/away form 65%, FotMob: 2nd vs 18th of 18, Vitibet 82%, Zulubet 89%, season: won 73%, rival lost 91%",
+"ts": 1795363200.0,
+"eid": "sr:match:72723322",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72723322|1||1"
+}
+],
+"chance": 0.7143
+}
+]
+},
+{
 "when": "Sun 22 Nov 10:01",
 "at": 1795338066,
 "req": {
@@ -18414,376 +18489,6 @@
 }
 ],
 "chance": 0.1604
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:57",
-"at": 1795240640,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25yw",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwpzwzuw3dmx"
-},
-"ok": true,
-"kind": "Over 2.5 (strong teams in youth & women's leagues)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 24 games passed the checks (Sat 21, 912 games on SportyBet), so this ticket has 24 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Chance all 24 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "MWL4JP",
-"odds": 5465.14,
-"legs": [
-{
-"t": "Sat 09:00",
-"game": "Mamelodi Sundowns vs Golden Arrows",
-"lg": "South Africa - Diski Challenge, Reserves",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "strong side Mamelodi Sundowns (win 1.5) scores 2.1 a game, 60% of its games over 2.5; Golden Arrows concedes 1.5 a game; Flashscore home/away form 50%",
-"ts": 1795248000.0,
-"eid": "sr:match:75448396",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75448396|18|total=2.5|12"
-},
-{
-"t": "Sat 10:00",
-"game": "Debreceni VSC vs Varda Labdarugo Akademia",
-"lg": "Hungary - U19 National",
-"pick": "Over 2.5",
-"odds": 1.67,
-"why": "strong side Debreceni VSC (win 1.6) scores 2.5 a game, 60% of its games over 2.5; Varda Labdarugo Akademia concedes 1.1 a game",
-"ts": 1795251600.0,
-"eid": "sr:match:73549270",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73549270|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "Trencin vs FC DAC 1904 Dunajska Streda",
-"lg": "Slovakia - U19 1. Liga",
-"pick": "Over 2.5",
-"odds": 1.3,
-"why": "strong side Trencin (win 1.37) scores 3.1 a game, 100% of its games over 2.5; FC DAC 1904 Dunajska Streda concedes 2.0 a game; 62% of 8 meetings over; season: 4.0 goals a game",
-"ts": 1795255200.0,
-"eid": "sr:match:72579150",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72579150|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "1 FC Magdeburg vs Holstein Kiel",
-"lg": "Germany Amateur - U19 DFB Nachwuchsliga",
-"pick": "Over 2.5",
-"odds": 1.24,
-"why": "strong side 1 FC Magdeburg (win 1.44) scores 1.9 a game, 60% of its games over 2.5; Holstein Kiel concedes 2.9 a game; 75% of 8 meetings over; Flashscore home/away form 80%, season: 4.3 goals a game",
-"ts": 1795255200.0,
-"eid": "sr:match:73217904",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73217904|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "Panaitolikos vs Volos NPS",
-"lg": "Greece - U19 Super League",
-"pick": "Over 2.5",
-"odds": 1.58,
-"why": "strong side Volos NPS (win 1.59) scores 1.8 a game, 60% of its games over 2.5; Panaitolikos concedes 2.2 a game; 75% of 8 meetings over",
-"ts": 1795255200.0,
-"eid": "sr:match:73690306",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73690306|18|total=2.5|12"
-},
-{
-"t": "Sat 11:00",
-"game": "Orlando Pirates vs Durban City",
-"lg": "South Africa - Diski Challenge, Reserves",
-"pick": "Over 2.5",
-"odds": 1.49,
-"why": "strong side Orlando Pirates (win 1.35) scores 2.1 a game, 60% of its games over 2.5; Durban City concedes 1.8 a game; Flashscore home/away form 60%",
-"ts": 1795255200.0,
-"eid": "sr:match:75448398",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75448398|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "Eintracht Frankfurt vs Hamburger SV",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.25,
-"why": "strong side Eintracht Frankfurt (win 1.16) scores 2.8 a game, 70% of its games over 2.5; Hamburger SV concedes 2.0 a game; 75% of 8 meetings over; Flashscore home/away form 55%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
-"ts": 1795258800.0,
-"eid": "sr:match:72961100",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961100|18|total=2.5|12"
-},
-{
-"t": "Sat 12:00",
-"game": "FC Barcelona vs CF Badalona",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.26,
-"why": "strong side FC Barcelona (win 1.08) scores 2.8 a game, 60% of its games over 2.5; CF Badalona concedes 1.7 a game; season: 4.5 goals a game",
-"ts": 1795258800.0,
-"eid": "sr:match:72883770",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72883770|18|total=2.5|12"
-},
-{
-"t": "Sat 12:15",
-"game": "RC Deportivo De La Coruna vs ED Val Minor Nigran",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "strong side RC Deportivo De La Coruna (win 1.12) scores 2.5 a game, 60% of its games over 2.5; ED Val Minor Nigran concedes 1.3 a game",
-"ts": 1795259700.0,
-"eid": "sr:match:72882632",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72882632|18|total=2.5|12"
-},
-{
-"t": "Sat 13:00",
-"game": "CF Acodetti vs CD Tenerife",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "strong side CD Tenerife (win 1.26) scores 2.8 a game, 90% of its games over 2.5; CF Acodetti concedes 1.5 a game",
-"ts": 1795262400.0,
-"eid": "sr:match:72885380",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72885380|18|total=2.5|12"
-},
-{
-"t": "Sat 14:00",
-"game": "CR Vasco da Gama RJ vs CR Flamengo RJ",
-"lg": "Brazil - Carioca, Women",
-"pick": "Over 2.5",
-"odds": 1.64,
-"why": "strong side CR Flamengo RJ (win 1.5) scores 1.9 a game, 70% of its games over 2.5; CR Vasco da Gama RJ concedes 1.0 a game; 100% of 7 meetings over; Flashscore home/away form 60%",
-"ts": 1795266000.0,
-"eid": "sr:match:76640338",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76640338|18|total=2.5|12"
-},
-{
-"t": "Sat 14:30",
-"game": "Sampdoria Genoa vs Pro Vercelli 1892",
-"lg": "Italy - Primavera 2",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "strong side Sampdoria Genoa (win 1.38) scores 3.1 a game, 90% of its games over 2.5; Pro Vercelli 1892 concedes 1.5 a game; 75% of 8 meetings over; Flashscore home/away form 80%",
-"ts": 1795267800.0,
-"eid": "sr:match:73711530",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73711530|18|total=2.5|12"
-},
-{
-"t": "Sat 14:30",
-"game": "EA Guingamp vs Stade Brestois 29",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "strong side EA Guingamp (win 1.55) scores 3.2 a game, 80% of its games over 2.5; Stade Brestois 29 concedes 1.8 a game; 75% of 8 meetings over; season: 3.9 goals a game",
-"ts": 1795267800.0,
-"eid": "sr:match:73111852",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111852|18|total=2.5|12"
-},
-{
-"t": "Sat 15:45",
-"game": "Real Sporting de Gijon vs Victoria CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "strong side Real Sporting de Gijon (win 1.11) scores 2.5 a game, 90% of its games over 2.5; Victoria CF concedes 2.8 a game; season: 4.1 goals a game",
-"ts": 1795272300.0,
-"eid": "sr:match:72882626",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72882626|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "Merida vs Atletico Madrid",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "strong side Atletico Madrid (win 1.2) scores 2.7 a game, 80% of its games over 2.5; Merida concedes 2.4 a game; season: 3.7 goals a game",
-"ts": 1795273200.0,
-"eid": "sr:match:72884882",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72884882|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "SCU Torreense vs SL Benfica",
-"lg": "Portugal - U19 Campeonato Nacional",
-"pick": "Over 2.5",
-"odds": 1.66,
-"why": "strong side SL Benfica (win 1.52) scores 2.8 a game, 70% of its games over 2.5; SCU Torreense concedes 1.7 a game; 62% of 8 meetings over; Flashscore home/away form 55%",
-"ts": 1795273200.0,
-"eid": "sr:match:72874684",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72874684|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "CD Castellon SAD vs Murcia Promises CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.65,
-"why": "strong side CD Castellon SAD (win 1.44) scores 1.9 a game, 70% of its games over 2.5; Murcia Promises CF concedes 1.5 a game",
-"ts": 1795273200.0,
-"eid": "sr:match:72885896",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72885896|18|total=2.5|12"
-},
-{
-"t": "Sat 17:00",
-"game": "SD Eibar vs Atletico Madrid W",
-"lg": "Spain - Primera Division Women",
-"pick": "Over 2.5",
-"odds": 1.74,
-"why": "strong side Atletico Madrid W (win 1.32) scores 2.2 a game, 70% of its games over 2.5; SD Eibar concedes 1.5 a game; 62% of 8 meetings over; Flashscore home/away form 65%",
-"ts": 1795276800.0,
-"eid": "sr:match:72491460",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72491460|18|total=2.5|12"
-},
-{
-"t": "Sat 17:30",
-"game": "Penya Arrabal vs Villarreal CF",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "strong side Villarreal CF (win 1.26) scores 3.0 a game, 80% of its games over 2.5; Penya Arrabal concedes 1.4 a game",
-"ts": 1795278600.0,
-"eid": "sr:match:72885886",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72885886|18|total=2.5|12"
-},
-{
-"t": "Sat 17:45",
-"game": "Malaga CF vs Real Betis Balompie",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "strong side Real Betis Balompie (win 1.61) scores 3.3 a game, 80% of its games over 2.5; Malaga CF concedes 1.6 a game; season: 4.3 goals a game",
-"ts": 1795279500.0,
-"eid": "sr:match:72884328",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72884328|18|total=2.5|12"
-},
-{
-"t": "Sat 18:15",
-"game": "London City Lionesses vs Crystal Palace",
-"lg": "England Amateur - Super League Women",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "strong side London City Lionesses (win 1.1) scores 2.3 a game, 70% of its games over 2.5; Crystal Palace concedes 2.2 a game; 80% of 5 meetings over; Flashscore home/away form 65%, FotMob: 3.4 goals a game, Vitibet tip 3-1",
-"ts": 1795281300.0,
-"eid": "sr:match:73346130",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73346130|18|total=2.5|12"
-},
-{
-"t": "Sat 19:00",
-"game": "Santa Cruz FC PE vs Ipojuca FC PE",
-"lg": "Brazil - U20 Pernambucano",
-"pick": "Over 2.5",
-"odds": 1.37,
-"why": "strong side Santa Cruz FC PE (win 1.18) scores 3.9 a game, 80% of its games over 2.5; Ipojuca FC PE concedes 1.1 a game; 67% of 3 meetings over; Flashscore home/away form 60%",
-"ts": 1795284000.0,
-"eid": "sr:match:76585468",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76585468|18|total=2.5|12"
-},
-{
-"t": "Sat 19:00",
-"game": "CD Fas vs CD Cacahuatique",
-"lg": "El Salvador - Primera Division, Reserves",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "strong side CD Fas (win 1.4) scores 1.7 a game, 60% of its games over 2.5; CD Cacahuatique concedes 1.4 a game; 62% of 8 meetings over",
-"ts": 1795284000.0,
-"eid": "sr:match:76940980",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76940980|18|total=2.5|12"
-},
-{
-"t": "Sat 19:30",
-"game": "Standard Liege vs Club Brugge KV",
-"lg": "Belgium - Super League, Women",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "strong side Club Brugge KV (win 1.28) scores 2.1 a game, 60% of its games over 2.5; Standard Liege concedes 2.6 a game; 88% of 8 meetings over; Flashscore home/away form 60%",
-"ts": 1795285800.0,
-"eid": "sr:match:72303010",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72303010|18|total=2.5|12"
-}
-],
-"chance": 0.0001
 }
 ]
 }
