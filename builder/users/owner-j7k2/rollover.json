@@ -44,12 +44,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-21",
-"code": "W0K7GX",
-"odds": 7.03,
+"date": "2026-11-22",
+"code": "VPK9XM",
+"odds": 6.54,
 "stake": 1000.0,
-"n": 12,
-"result": "lost"
+"n": 11,
+"result": null
 },
 "started": "2026-11-20",
 "short": "lower",
