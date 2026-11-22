@@ -7,14 +7,17 @@
 "when": "Sun 22 Nov 20:53",
 "kind": "Over 1.5",
 "odds": 1.4,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 22:00",
 "game": "Nashville SC vs FC Cincinnati",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1795381200.0
+"ts": 1795381200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 23:00",
@@ -1093,7 +1096,10 @@
 "game": "Nashville SC vs FC Cincinnati",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795381200.0
+"ts": 1795381200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
