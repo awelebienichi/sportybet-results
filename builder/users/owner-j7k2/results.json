@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "RDAZBR",
+"at": 1795349860,
+"when": "Sun 22 Nov 13:17",
+"kind": "live \u2013 best of all",
+"odds": 1.36,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "El San Martin Ra vs UP Langreo",
+"pick": "UP Langreo Under 4.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "PVF Cong An Nhan Dan FC vs Quang Ninh FC",
+"pick": "Handicap 0:4 \u2013 Quang Ninh FC",
+"odds": 1.04,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Utrera U19 vs FC Alhendin Balompie",
+"pick": "CD Utrera U19 Under 1.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Girona FC B vs UD Logrones B",
+"pick": "Girona FC B Under 2.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "UCAM Murcia vs Yeclano Deportivo",
+"pick": "UCAM Murcia Under 3.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "CD Atletico Baleares vs Real Murcia Imperial FC",
+"pick": "CD Atletico Baleares Under 3.5",
+"odds": 1.04,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "FC Real Sireti vs Petrocub Hincesti",
+"pick": "Petrocub Hincesti Under 3.5",
+"odds": 1.03,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:00",
+"game": "UD Ourense vs Racing Club de Ferrol",
+"pick": "Racing Club de Ferrol Under 3.5",
+"odds": 1.04,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 12:30",
+"game": "CA Antoniano vs Puente Genil FC",
+"pick": "CA Antoniano Under 3.5",
+"odds": 1.03,
+"ts": 1795347000.0
+},
+{
+"t": "Sun 12:30",
+"game": "Atletico Coruna Montaneros CF vs Pontevedra CF B",
+"pick": "Atletico Coruna Montaneros CF Under 3.5",
+"odds": 1.03,
+"ts": 1795347000.0
+}
+]
+},
+{
 "code": "NW93TA",
 "at": 1795349022,
 "when": "Sun 22 Nov 13:03",
@@ -1117,8 +1197,8 @@
 "odds": 1.07,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 12:15",
@@ -1488,8 +1568,8 @@
 "odds": 1.07,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 15:00",
@@ -2476,8 +2556,8 @@
 "odds": 1.26,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 12:30",
@@ -3293,8 +3373,8 @@
 "odds": 1.26,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 12:00",
@@ -4975,8 +5055,8 @@
 "odds": 1.26,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 12:00",
@@ -5247,8 +5327,8 @@
 "odds": 1.26,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 12:00",
@@ -5295,8 +5375,8 @@
 "odds": 1.26,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 13:00",
@@ -5523,8 +5603,8 @@
 "odds": 1.26,
 "ts": 1795345200.0,
 "r": "W",
-"sc": "3-1",
-"ht": ""
+"sc": "4-1",
+"ht": "3-1"
 },
 {
 "t": "Sun 12:00",
@@ -78074,159 +78154,6 @@
 "pick": "Over 2.5",
 "odds": 1.66,
 "ts": 1794771900.0
-}
-]
-},
-{
-"code": "PX1ANL",
-"at": 1794433659,
-"when": "Wed 11 Nov 22:47",
-"kind": "Over 1.5",
-"odds": 21.93,
-"status": "open",
-"legs": [
-{
-"t": "Thu 03:00",
-"game": "Piratas Veracruz vs Club Atletico La Paz",
-"pick": "Over 1.5",
-"odds": 1.2,
-"ts": 1794448800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"pick": "Over 1.5",
-"odds": 1.21,
-"ts": 1794502800.0
-},
-{
-"t": "Thu 19:00",
-"game": "Chambery SF vs Grenoble Foot",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794506400.0
-},
-{
-"t": "Thu 20:30",
-"game": "England vs Czechia",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794511800.0
-},
-{
-"t": "Fri 03:00",
-"game": "Atletico Morelia vs Leones Negros UDEG",
-"pick": "Over 1.5",
-"odds": 1.19,
-"ts": 1794535200.0
-},
-{
-"t": "Fri 19:00",
-"game": "FC Roskilde vs Nykoebing FC",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794592800.0
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Treowen Stars",
-"pick": "Over 1.5",
-"odds": 1.08,
-"ts": 1794598200.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"pick": "Over 1.5",
-"odds": 1.15,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Walsall FC vs Barnet FC",
-"pick": "Over 1.5",
-"odds": 1.19,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"pick": "Over 1.5",
-"odds": 1.12,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Basingstoke Town FC vs Chippenham Town",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Evesham United vs Gosport Borough",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Frome Town vs Hanworth Villa",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Enfield Town vs Spalding United",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leek Town FC vs Morecambe FC",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Salisbury FC vs Chichester City FC",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Hanwell Town FC vs Plymouth Parkway",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Spennymoor Town FC vs Scarborough Athletic",
-"pick": "Over 1.5",
-"odds": 1.2,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"pick": "Over 1.5",
-"odds": 1.19,
-"ts": 1794677400.0
-},
-{
-"t": "Sun 13:30",
-"game": "OFC Nesebar vs FC Fratria Varna",
-"pick": "Over 1.5",
-"odds": 1.24,
-"ts": 1794745800.0
 }
 ]
 }
