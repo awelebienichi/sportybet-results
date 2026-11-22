@@ -179,7 +179,10 @@
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -272,7 +275,7 @@
 "when": "Sun 22 Nov 15:08",
 "kind": "goal-fest teams (season data)",
 "odds": 54.32,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -319,7 +322,10 @@
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 18:00",
@@ -741,7 +747,10 @@
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -1274,7 +1283,10 @@
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -2044,14 +2056,20 @@
 "game": "Panathinaikos vs OFI Crete",
 "pick": "Panathinaikos to win",
 "odds": 1.25,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:45",
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "FC Twente Enschede W to win",
 "odds": 1.24,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -2335,14 +2353,20 @@
 "game": "Panathinaikos vs OFI Crete",
 "pick": "Panathinaikos to win",
 "odds": 1.25,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:45",
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "FC Twente Enschede W to win",
 "odds": 1.24,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -3939,7 +3963,10 @@
 "game": "Panathinaikos vs OFI Crete",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.47,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -4867,7 +4894,10 @@
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -5780,14 +5810,20 @@
 "game": "Panathinaikos vs OFI Crete",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.47,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:45",
 "game": "Feyenoord Rotterdam vs FC Twente Enschede W",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 16:45",
