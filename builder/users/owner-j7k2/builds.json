@@ -1,5 +1,70 @@
 [
 {
+"when": "Sun 22 Nov 05:03",
+"at": 1795320218,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 25,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"gg"
+],
+"rid": "mwrbalhf62x4"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 2 games passed the checks (Sun 22, 704 games on SportyBet), so this ticket has 2 legs instead of 25. Tick more days or use 'Relaxed' for more.",
+"Chance all 2 legs win: about 41%."
+],
+"tickets": [
+{
+"code": "S046CD",
+"odds": 2.22,
+"legs": [
+{
+"t": "Sun 11:00",
+"game": "Estac Troyes vs FC Annecy U19",
+"lg": "France - U19 National",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"why": "stats rate 80% from both teams' last 10",
+"ts": 1795341600.0,
+"eid": "sr:match:73111832",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73111832|29||74"
+},
+{
+"t": "Sun 15:00",
+"game": "Sheffield United LFC vs Durham LFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "GG (both teams score)",
+"odds": 1.49,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
+"ts": 1795356000.0,
+"eid": "sr:match:73607368",
+"mid": "29",
+"spec": "",
+"oid": "74",
+"k": "73607368|29||74"
+}
+],
+"chance": 0.4086
+}
+]
+},
+{
 "when": "Sun 22 Nov 05:02",
 "at": 1795320138,
 "req": {
@@ -15110,66 +15175,6 @@
 }
 ],
 "chance": 0.7634
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:33",
-"at": 1795239240,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h2o05",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwpz2x2iy4qq"
-},
-"ok": true,
-"kind": "2nd half Over 0.5",
-"note": [
-"Chance all 2 legs win: about 73%."
-],
-"tickets": [
-{
-"code": "HDM5XU",
-"odds": 1.24,
-"legs": [
-{
-"t": "Sat 15:30",
-"game": "Eintracht Frankfurt vs Hoffenheim",
-"lg": "Germany - Bundesliga",
-"pick": "2nd half Over 0.5",
-"odds": 1.12,
-"why": "goal in the 2nd half in 100% of Eintracht Frankfurt's last 10 and 100% of Hoffenheim's last 10",
-"ts": 1795271400.0,
-"eid": "sr:match:72513314",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72513314|90|total=0.5|12"
-},
-{
-"t": "Sat 18:45",
-"game": "Feyenoord vs Excelsior Rotterdam",
-"lg": "Netherlands - Eredivisie",
-"pick": "2nd half Over 0.5",
-"odds": 1.11,
-"why": "goal in the 2nd half in 100% of Feyenoord's last 10 and 100% of Excelsior Rotterdam's last 10",
-"ts": 1795283100.0,
-"eid": "sr:match:72041256",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72041256|90|total=0.5|12"
-}
-],
-"chance": 0.7296
 }
 ]
 }
