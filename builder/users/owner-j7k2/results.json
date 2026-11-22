@@ -871,7 +871,7 @@
 "when": "Sun 22 Nov 13:03",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 3615.32,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 13:30",
@@ -935,7 +935,10 @@
 "game": "Vpv Purmersteijn vs USV Hercules",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -1109,14 +1112,17 @@
 "when": "Sun 22 Nov 13:01",
 "kind": "goal-fest teams (season data)",
 "odds": 414.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 14:00",
 "game": "1. FC Phonix Lubeck vs FC St. Pauli II",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
@@ -1545,7 +1551,10 @@
 "game": "1. FC Phonix Lubeck vs FC St. Pauli II",
 "pick": "1. FC Phonix Lubeck to win",
 "odds": 1.41,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:30",
@@ -3823,7 +3832,10 @@
 "game": "1. FC Phonix Lubeck vs FC St. Pauli II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
@@ -3966,7 +3978,10 @@
 "game": "Vpv Purmersteijn vs USV Hercules",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
@@ -4600,7 +4615,10 @@
 "game": "1. FC Phonix Lubeck vs FC St. Pauli II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
@@ -4654,7 +4672,10 @@
 "game": "Vpv Purmersteijn vs USV Hercules",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
