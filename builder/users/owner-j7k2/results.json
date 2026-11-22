@@ -14,7 +14,10 @@
 "game": "PVF Cong An Nhan Dan FC vs Quang Ninh FC",
 "pick": "Handicap 0:4 \u2013 Quang Ninh FC",
 "odds": 1.03,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -113,7 +116,10 @@
 "game": "PVF Cong An Nhan Dan FC vs Quang Ninh FC",
 "pick": "Handicap 0:4 \u2013 Quang Ninh FC",
 "odds": 1.04,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 12:00",
@@ -3185,7 +3191,10 @@
 "game": "Real Valladolid CF vs CD Unionistas Salamanca CF U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 13:00",
@@ -3538,7 +3547,10 @@
 "game": "Real Valladolid CF vs CD Unionistas Salamanca CF U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 12:00",
@@ -5250,7 +5262,10 @@
 "game": "Real Valladolid CF vs CD Unionistas Salamanca CF U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 12:15",
@@ -5537,7 +5552,10 @@
 "game": "Real Valladolid CF vs CD Unionistas Salamanca CF U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -5802,7 +5820,10 @@
 "game": "Real Valladolid CF vs CD Unionistas Salamanca CF U19",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795345200.0
+"ts": 1795345200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 12:30",
