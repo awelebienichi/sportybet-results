@@ -466,7 +466,10 @@
 "game": "Hamburger SV II vs SV Werder Bremen II",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 15:00",
@@ -965,7 +968,10 @@
 "game": "Hamburger SV II vs SV Werder Bremen II",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 15:00",
@@ -1156,7 +1162,10 @@
 "game": "Hamburger SV II vs SV Werder Bremen II",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 15:30",
@@ -2120,7 +2129,7 @@
 "odds": 1.22,
 "ts": 1795352400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
@@ -2730,7 +2739,7 @@
 "odds": 1.22,
 "ts": 1795352400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
@@ -3898,7 +3907,10 @@
 "game": "Hamburger SV II vs SV Werder Bremen II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 15:00",
@@ -4843,7 +4855,10 @@
 "game": "Hamburger SV II vs SV Werder Bremen II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sun 15:00",
