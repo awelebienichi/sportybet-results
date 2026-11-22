@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WENHW5",
+"at": 1795363208,
+"when": "Sun 22 Nov 17:00",
+"kind": "goal-fest teams (season data)",
+"odds": 7.57,
+"status": "open",
+"legs": [
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "FC Gutersloh 2000 vs RW Oberhausen",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 19:00",
+"game": "Real Sociedad vs Santutxu FC",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795370400.0
+},
+{
+"t": "Sun 23:00",
+"game": "Real Apodaca FC vs Cdm FC",
+"pick": "Over 2.5",
+"odds": 1.6,
+"ts": 1795384800.0
+}
+]
+},
+{
 "code": "Y4SYNC",
 "at": 1795356695,
 "when": "Sun 22 Nov 15:11",
@@ -1405,7 +1450,10 @@
 "game": "Hamrun Spartans FC vs Sliema Wanderers",
 "pick": "Hamrun Spartans FC excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 15:00",
@@ -78761,93 +78809,6 @@
 "game": "Danubio FC vs Liverpool Montevideo",
 "pick": "Under 3.5",
 "odds": 1.26,
-"ts": 1794771000.0
-}
-]
-},
-{
-"code": "P1NPB9",
-"at": 1794434040,
-"when": "Wed 11 Nov 22:53",
-"kind": "your chosen markets",
-"odds": 2.43,
-"status": "open",
-"legs": [
-{
-"t": "Fri 03:00",
-"game": "Atletico Morelia vs Leones Negros UDEG",
-"pick": "1st half Under 2.5",
-"odds": 1.13,
-"ts": 1794535200.0
-},
-{
-"t": "Fri 14:00",
-"game": "Mozambique vs Ethiopia",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
-"ts": 1794574800.0
-},
-{
-"t": "Fri 18:00",
-"game": "Moldova vs Kazakhstan",
-"pick": "1st half Under 2.5",
-"odds": 1.06,
-"ts": 1794589200.0
-},
-{
-"t": "Sat 14:00",
-"game": "Central Espanol FC vs CA Boston River",
-"pick": "1st half Under 2.5",
-"odds": 1.08,
-"ts": 1794661200.0
-},
-{
-"t": "Sat 16:00",
-"game": "Stenhousemuir FC vs Queens Park FC",
-"pick": "1st half Under 2.5",
-"odds": 1.08,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 20:30",
-"game": "Deportivo Maldonado vs CA Cerro",
-"pick": "1st half Under 2.5",
-"odds": 1.09,
-"ts": 1794684600.0
-},
-{
-"t": "Sat 20:30",
-"game": "Fortaleza EC CE vs Vila Nova FC GO",
-"pick": "1st half Under 2.5",
-"odds": 1.06,
-"ts": 1794684600.0
-},
-{
-"t": "Sun 00:30",
-"game": "Chapecoense SC vs CR Vasco da Gama RJ",
-"pick": "1st half Under 2.5",
-"odds": 1.15,
-"ts": 1794699000.0
-},
-{
-"t": "Sun 12:30",
-"game": "Novara FC vs Calcio Lecco 1912",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
-"ts": 1794742200.0
-},
-{
-"t": "Sun 16:30",
-"game": "FC Penafiel vs Lusitania FC Lourosa",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
-"ts": 1794756600.0
-},
-{
-"t": "Sun 20:30",
-"game": "Danubio FC vs Liverpool Montevideo",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
 "ts": 1794771000.0
 }
 ]
