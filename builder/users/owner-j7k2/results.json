@@ -59,7 +59,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -424,7 +427,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -590,7 +596,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -665,7 +674,10 @@
 "game": "de Graafschap vs Ajax Amsterdam",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:45",
@@ -1113,7 +1125,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -1171,7 +1186,10 @@
 "game": "de Graafschap vs Ajax Amsterdam",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:45",
@@ -1311,7 +1329,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -2447,8 +2468,8 @@
 "odds": 1.06,
 "ts": 1795359600.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -2755,7 +2776,7 @@
 "when": "Sun 22 Nov 11:20",
 "kind": "goal-fest teams (season data)",
 "odds": 1.9,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 12:00",
@@ -2772,7 +2793,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -2826,7 +2850,7 @@
 "when": "Sun 22 Nov 11:17",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 1.7,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 13:00",
@@ -2853,7 +2877,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 }
 ]
 },
@@ -2872,8 +2899,8 @@
 "odds": 1.06,
 "ts": 1795359600.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -3261,8 +3288,8 @@
 "odds": 1.06,
 "ts": 1795359600.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -3477,8 +3504,8 @@
 "odds": 1.12,
 "ts": 1795359600.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -3512,7 +3539,10 @@
 "game": "Lausanne-Sport vs FC Vaduz",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1795361400.0
+"ts": 1795361400.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 17:00",
@@ -4422,7 +4452,10 @@
 "game": "de Graafschap vs Ajax Amsterdam",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.34,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 18:00",
@@ -4553,7 +4586,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.22,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -5344,7 +5380,10 @@
 "game": "Swift Hesperange vs Atert Bissen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.22,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 16:00",
@@ -5461,7 +5500,10 @@
 "game": "de Graafschap vs Ajax Amsterdam",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.34,
-"ts": 1795362300.0
+"ts": 1795362300.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sun 16:45",
