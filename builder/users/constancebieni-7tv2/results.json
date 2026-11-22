@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "S4E5XL",
+"at": 1795371703,
+"when": "Sun 22 Nov 19:21",
+"kind": "Over 1.5",
+"odds": 2.24,
+"status": "open",
+"legs": [
+{
+"t": "Sun 20:45",
+"game": "Atalanta vs Inter",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795376700.0
+},
+{
+"t": "Sun 21:00",
+"game": "Sporting Cristal vs Cienciano",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 21:00",
+"game": "Sport Huancayo vs Universitario de Deportes",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795381200.0
+},
+{
+"t": "Sun 23:00",
+"game": "Inter San Carlos vs Sporting FC",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795384800.0
+}
+]
+},
+{
 "code": "H20EW5",
 "at": 1795295295,
 "when": "Sat 21 Nov 22:08",
@@ -634,7 +679,7 @@
 "odds": 1.44,
 "ts": 1795366800.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
@@ -991,7 +1036,7 @@
 "odds": 1.09,
 "ts": 1795366800.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
