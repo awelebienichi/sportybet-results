@@ -1219,7 +1219,7 @@
 "when": "Sun 22 Nov 05:14",
 "kind": "combined MRQ92K + KK8ZAF + X86FXC + MSXVSR + SU97DW + PE09WP + XY1VM0 + NM2W5Q + M96JKP + SQLD5A + QSHFCJ + K99A7Q + WS9G2J + SMJA92 + Q10GCG + NU0JNF + KCB8TL + GPZ4PH + XNVQY6 + X4HKLP + M85QEG + J7SMKR + Z69CG3 + ZTPJTK + SB4L9E + V46B80 + WZ08QR + UR4E0M",
 "odds": 193.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 06:00",
@@ -1236,7 +1236,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:15",
@@ -1466,7 +1469,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
@@ -2315,7 +2321,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.3,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
@@ -3386,7 +3395,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.3,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
@@ -3669,7 +3681,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
@@ -4153,7 +4168,7 @@
 "when": "Sun 22 Nov 04:47",
 "kind": "goal-fest teams (season data)",
 "odds": 23285021.11,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 08:00",
@@ -4180,7 +4195,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
@@ -4920,7 +4938,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.34,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 12:00",
@@ -5698,7 +5719,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.34,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
@@ -6539,7 +6563,10 @@
 "game": "Supreme FC vs Citizen AA",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795332600.0
+"ts": 1795332600.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sun 11:00",
