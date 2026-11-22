@@ -1598,7 +1598,10 @@
 "game": "San Marcos de Arica vs Deportes Magallanes",
 "pick": "Deportes Magallanes excluded goals: 3+",
 "odds": 1.08,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 16:15",
@@ -1641,8 +1644,8 @@
 "odds": 1.19,
 "ts": 1795361400.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sun 17:00",
