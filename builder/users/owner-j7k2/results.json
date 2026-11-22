@@ -117,7 +117,10 @@
 "game": "K Beerschot VA vs Jong KRC Genk",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:15",
@@ -259,7 +262,10 @@
 "game": "K Beerschot VA vs Jong KRC Genk",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:15",
@@ -618,7 +624,10 @@
 "game": "K Beerschot VA vs Jong KRC Genk",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
@@ -1138,7 +1147,10 @@
 "game": "K Beerschot VA vs Jong KRC Genk",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:30",
@@ -3475,8 +3487,8 @@
 "odds": 1.17,
 "ts": 1795359600.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
@@ -3517,7 +3529,10 @@
 "game": "Aalesunds FK vs Rosenborg BK",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 17:00",
@@ -3662,7 +3677,10 @@
 "game": "K Beerschot VA vs Jong KRC Genk",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.35,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:30",
@@ -5374,7 +5392,10 @@
 "game": "K Beerschot VA vs Jong KRC Genk",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.35,
-"ts": 1795359600.0
+"ts": 1795359600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
