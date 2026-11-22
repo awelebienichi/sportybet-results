@@ -7,7 +7,7 @@
 "when": "Sun 22 Nov 20:32",
 "kind": "combined NW93TA + UH686S + Y4SYNC",
 "odds": 2.21,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sun 21:00",
@@ -24,7 +24,10 @@
 "game": "SCU Torreense vs Benfica",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.38,
-"ts": 1795380300.0
+"ts": 1795380300.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:15",
@@ -1013,7 +1016,10 @@
 "game": "SCU Torreense vs Benfica",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795380300.0
+"ts": 1795380300.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:15",
@@ -1540,7 +1546,10 @@
 "game": "SCU Torreense vs Benfica",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795380300.0
+"ts": 1795380300.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sun 22:15",
