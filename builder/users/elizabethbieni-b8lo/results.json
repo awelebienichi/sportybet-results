@@ -622,7 +622,10 @@
 "game": "FC Vizela vs CD Feirense",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 }
 ]
 },
@@ -829,7 +832,10 @@
 "game": "FC Vizela vs CD Feirense",
 "pick": "1st half excluded goals: 3+",
 "odds": 1.06,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 }
 ]
 }
