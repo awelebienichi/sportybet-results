@@ -1,5 +1,79 @@
 [
 {
+"when": "Sun 22 Nov 11:12",
+"at": 1795342375,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwrohh66qs7f"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Chance all 3 legs win: about 50%."
+],
+"tickets": [
+{
+"code": "SKQ03T",
+"odds": 1.71,
+"legs": [
+{
+"t": "Sun 13:00",
+"game": "Rayong FC vs Rasisalai United",
+"lg": "Thailand - Thai League 1",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "TOP TIER: goal in the 1st half in 90% of Rayong FC's last 10 and 90% of Rasisalai United's last 10",
+"ts": 1795348800.0,
+"eid": "sr:match:72942584",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72942584|68|total=0.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"lg": "Netherlands - Eredivisie",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"why": "TOP TIER: goal in the 1st half in 90% of Ajax's last 10 and 90% of ADO Den Haag's last 10",
+"ts": 1795354200.0,
+"eid": "sr:match:72041248",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72041248|68|total=0.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"lg": "Turkiye - Super Lig",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"why": "TOP TIER: goal in the 1st half in 100% of Trabzonspor's last 10 and 100% of Eyupspor's last 9",
+"ts": 1795363200.0,
+"eid": "sr:match:72723322",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72723322|68|total=0.5|12"
+}
+],
+"chance": 0.5049
+}
+]
+},
+{
 "when": "Sun 22 Nov 11:10",
 "at": 1795342205,
 "req": {
@@ -18340,155 +18414,6 @@
 }
 ],
 "chance": 0.0835
-}
-]
-},
-{
-"when": "Sat 21 Nov 09:37",
-"at": 1795250258,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"up"
-],
-"rid": "mwq5lkf7kbu8"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"3 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 8 games passed the checks (Sat 21, 925 games on SportyBet), so this ticket has 8 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Chance all 8 legs win: about 16%."
-],
-"tickets": [
-{
-"code": "PDCZ9P",
-"odds": 4.22,
-"legs": [
-{
-"t": "Sat 10:00",
-"game": "SC Popesti Leordeni vs CSC 1599 Selimbar",
-"lg": "Romania - Liga 2",
-"pick": "SC Popesti Leordeni to win (1UP)",
-"odds": 1.31,
-"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 75%, FotMob: 4th vs 19th of 22, Vitibet 71%, season: won 62%, rival lost 62%",
-"ts": 1795251600.0,
-"eid": "sr:match:73086750",
-"mid": "60200",
-"spec": "",
-"oid": "1",
-"k": "73086750|60200||1"
-},
-{
-"t": "Sat 13:30",
-"game": "Southampton vs Derby County",
-"lg": "England - Championship",
-"pick": "Southampton to win (1UP)",
-"odds": 1.21,
-"why": "stats rate 80% from both teams' last 10 and 8 meetings; Flashscore home/away form 65%, FotMob: 7th vs 23rd of 24, Vitibet 69%, Zulubet 80%",
-"ts": 1795264200.0,
-"eid": "sr:match:72340046",
-"mid": "60200",
-"spec": "",
-"oid": "1",
-"k": "72340046|60200||1"
-},
-{
-"t": "Sat 14:00",
-"game": "Galatasaray Istanbul vs Samsunspor",
-"lg": "Turkiye - Super Lig",
-"pick": "Galatasaray Istanbul to win (1UP)",
-"odds": 1.1,
-"why": "stats rate 80% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%, FotMob: 1st vs 17th of 18, Vitibet 81%, season: won 82%, rival lost 73%",
-"ts": 1795266000.0,
-"eid": "sr:match:72723334",
-"mid": "60200",
-"spec": "",
-"oid": "1",
-"k": "72723334|60200||1"
-},
-{
-"t": "Sat 15:00",
-"game": "NK Lokomotiva Zagreb vs HNK Hajduk Split",
-"lg": "Croatia - HNL",
-"pick": "HNK Hajduk Split to win (1UP)",
-"odds": 1.33,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 55%, FotMob: 1st vs 9th of 10, Vitibet 59%, season: won 69%, rival lost 62%",
-"ts": 1795269600.0,
-"eid": "sr:match:71913050",
-"mid": "60200",
-"spec": "",
-"oid": "3",
-"k": "71913050|60200||3"
-},
-{
-"t": "Sat 16:00",
-"game": "Truro City vs Hemel Hempstead Town",
-"lg": "England Amateur - National League South",
-"pick": "Truro City to win (1UP)",
-"odds": 1.24,
-"why": "stats rate 80% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, FotMob: 4th vs 20th of 24, Vitibet 69%",
-"ts": 1795273200.0,
-"eid": "sr:match:72758334",
-"mid": "60200",
-"spec": "",
-"oid": "1",
-"k": "72758334|60200||1"
-},
-{
-"t": "Sat 16:30",
-"game": "FC Brest vs Naftan Novopolotsk",
-"lg": "Belarus - Vysshaya Liga",
-"pick": "FC Brest to win (1UP)",
-"odds": 1.07,
-"why": "stats rate 85% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, FotMob: 4th vs 16th of 16, Vitibet 82%",
-"ts": 1795275000.0,
-"eid": "sr:match:76645346",
-"mid": "60200",
-"spec": "",
-"oid": "1",
-"k": "76645346|60200||1"
-},
-{
-"t": "Sat 18:15",
-"game": "London City Lionesses vs Crystal Palace",
-"lg": "England Amateur - Super League Women",
-"pick": "London City Lionesses to win (1UP)",
-"odds": 1.08,
-"why": "stats rate 75% from both teams' last 10 and 5 meetings; Flashscore home/away form 55%, FotMob: 3rd vs 12th of 14, Vitibet 72%, season: won 60%, rival lost 50%",
-"ts": 1795281300.0,
-"eid": "sr:match:73346130",
-"mid": "60200",
-"spec": "",
-"oid": "1",
-"k": "73346130|60200||1"
-},
-{
-"t": "Sat 21:00",
-"game": "Motherwell FC vs Rangers",
-"lg": "Scotland - Premiership",
-"pick": "Rangers to win (1UP)",
-"odds": 1.27,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings; Flashscore home/away form 50%, FotMob: 2nd vs 9th of 12, Vitibet 55%",
-"ts": 1795291200.0,
-"eid": "sr:match:72201728",
-"mid": "60200",
-"spec": "",
-"oid": "3",
-"k": "72201728|60200||3"
-}
-],
-"chance": 0.1604
 }
 ]
 }
