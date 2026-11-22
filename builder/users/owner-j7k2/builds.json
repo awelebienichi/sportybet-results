@@ -1,5 +1,82 @@
 [
 {
+"when": "Sun 22 Nov 11:27",
+"at": 1795343262,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"h1ggn"
+],
+"rid": "mwrp0ky53dej"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 3 legs win: about 68%."
+],
+"tickets": [
+{
+"code": "UXVHGJ",
+"odds": 1.27,
+"legs": [
+{
+"t": "Sun 16:00",
+"game": "Hearts of Oak vs Aduana FC",
+"lg": "Ghana - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings",
+"ts": 1795359600.0,
+"eid": "sr:match:74441528",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74441528|75||76"
+},
+{
+"t": "Sun 21:00",
+"game": "Douglas Haig vs Club Olimpo",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 4 meetings",
+"ts": 1795377600.0,
+"eid": "sr:match:76914650",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76914650|75||76"
+},
+{
+"t": "Sun 23:30",
+"game": "CA Sarmiento de la Banda vs Club Cipolletti",
+"lg": "Argentina - Torneo Federal A",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1795386600.0,
+"eid": "sr:match:76914648",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76914648|75||76"
+}
+],
+"chance": 0.6796
+}
+]
+},
+{
 "when": "Sun 22 Nov 11:26",
 "at": 1795343195,
 "req": {
@@ -16269,236 +16346,6 @@
 }
 ],
 "chance": 0.0005
-}
-]
-},
-{
-"when": "Sat 21 Nov 15:27",
-"at": 1795271232,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "u25",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwqi4py7tc6e"
-},
-"ok": true,
-"kind": "Under 2.5 (low-scoring leagues)",
-"note": [
-"Only 14 games passed the checks (Sat 21, 464 games on SportyBet), so this ticket has 14 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Under 2.5 has been the weakest market in your tracker.",
-"Chance all 14 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "KR5WNN",
-"odds": 206.83,
-"legs": [
-{
-"t": "Sat 16:00",
-"game": "Adama City FC vs Sidama Bunna SC",
-"lg": "Ethiopia - Premier League",
-"pick": "Under 2.5",
-"odds": 1.28,
-"why": "Under 2.5 in 80% / 80% of the teams' last 10, 62% of 8 meetings, league avg 1.5 goals; Flashscore home/away form 65%",
-"ts": 1795273200.0,
-"eid": "sr:match:76482934",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76482934|18|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Olympique Club of Khouribga vs KAC Kenitra",
-"lg": "Morocco - Botola Pro D2",
-"pick": "Under 2.5",
-"odds": 1.35,
-"why": "Under 2.5 in 70% / 100% of the teams' last 10, 50% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 65%, season: 1.6 goals a game",
-"ts": 1795273200.0,
-"eid": "sr:match:76675298",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76675298|18|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "GD Interclube vs Atletico Petroleos de Luanda",
-"lg": "Angola - Girabola",
-"pick": "Under 2.5",
-"odds": 1.44,
-"why": "Under 2.5 in 70% / 70% of the teams' last 10, 62% of 8 meetings, league avg 1.9 goals; Flashscore home/away form 85%",
-"ts": 1795273200.0,
-"eid": "sr:match:74436816",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "74436816|18|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Atzeneta UE vs CF Villarreal C",
-"lg": "Spain Amateur - Tercera Federacion, Group 6",
-"pick": "Under 2.5",
-"odds": 1.66,
-"why": "Under 2.5 in 60% / 60% of the teams' last 10, 50% of 8 meetings, league avg 2.2 goals; Flashscore home/away form 55%",
-"ts": 1795273200.0,
-"eid": "sr:match:73578992",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73578992|18|total=2.5|13"
-},
-{
-"t": "Sat 16:30",
-"game": "AFAD Djekanou vs Inova Sca",
-"lg": "Ivory Coast - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.4,
-"why": "Under 2.5 in 70% / 90% of the teams' last 10, 50% of 4 meetings, league avg 1.8 goals; Vitibet tip 1-0",
-"ts": 1795275000.0,
-"eid": "sr:match:76902202",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76902202|18|total=2.5|13"
-},
-{
-"t": "Sat 18:00",
-"game": "Walidaan Dkr vs US Goree",
-"lg": "Senegal - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.38,
-"why": "Under 2.5 in 80% / 90% of the teams' last 10, 75% of 4 meetings, league avg 1.7 goals; Flashscore home/away form 90%, season: 1.4 goals a game",
-"ts": 1795280400.0,
-"eid": "sr:match:76967394",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76967394|18|total=2.5|13"
-},
-{
-"t": "Sat 18:00",
-"game": "CD Acero vs CD Soneja",
-"lg": "Spain Amateur - Tercera Federacion, Group 6",
-"pick": "Under 2.5",
-"odds": 1.64,
-"why": "Under 2.5 in 80% / 60% of the teams' last 10, league avg 2.2 goals; Flashscore home/away form 85%",
-"ts": 1795280400.0,
-"eid": "sr:match:73579006",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73579006|18|total=2.5|13"
-},
-{
-"t": "Sat 19:00",
-"game": "Niteroiense vs Goytacaz FC RJ",
-"lg": "Brazil - Carioca, Serie B1",
-"pick": "Under 2.5",
-"odds": 1.52,
-"why": "Under 2.5 in 80% / 80% of the teams' last 10, league avg 2.1 goals; Flashscore home/away form 65%",
-"ts": 1795284000.0,
-"eid": "sr:match:76582874",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76582874|18|total=2.5|13"
-},
-{
-"t": "Sat 19:00",
-"game": "CS Italiano vs CD Armenio",
-"lg": "Argentina - Primera B",
-"pick": "Under 2.5",
-"odds": 1.42,
-"why": "Under 2.5 in 60% / 80% of the teams' last 10, 88% of 8 meetings, league avg 2.0 goals; Flashscore home/away form 65%, Vitibet tip 0-0",
-"ts": 1795284000.0,
-"eid": "sr:match:76427136",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76427136|18|total=2.5|13"
-},
-{
-"t": "Sat 19:00",
-"game": "Defensa y Justicia vs CA Barracas Central",
-"lg": "Argentina - Primera LPF",
-"pick": "Under 2.5",
-"odds": 1.55,
-"why": "Under 2.5 in 70% / 70% of the teams' last 10, 80% of 5 meetings, league avg 2.1 goals; Flashscore home/away form 55%",
-"ts": 1795284000.0,
-"eid": "sr:match:76649190",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76649190|18|total=2.5|13"
-},
-{
-"t": "Sat 19:00",
-"game": "Stella Club D'Adjame vs FC San Pedro",
-"lg": "Ivory Coast - Ligue 1",
-"pick": "Under 2.5",
-"odds": 1.47,
-"why": "Under 2.5 in 60% / 70% of the teams' last 10, 62% of 8 meetings, league avg 1.8 goals; Flashscore home/away form 60%",
-"ts": 1795284000.0,
-"eid": "sr:match:76902250",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76902250|18|total=2.5|13"
-},
-{
-"t": "Sat 19:00",
-"game": "CA Talleres de Remedios vs Real Pilar FC",
-"lg": "Argentina - Primera B",
-"pick": "Under 2.5",
-"odds": 1.55,
-"why": "Under 2.5 in 60% / 60% of the teams' last 10, 67% of 3 meetings, league avg 2.0 goals; Flashscore home/away form 65%, Vitibet tip 1-0",
-"ts": 1795284000.0,
-"eid": "sr:match:76675062",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76675062|18|total=2.5|13"
-},
-{
-"t": "Sat 21:00",
-"game": "Club Ciudad de Bolivar vs CA Atlanta",
-"lg": "Argentina - Primera Nacional",
-"pick": "Under 2.5",
-"odds": 1.42,
-"why": "Under 2.5 in 60% / 70% of the teams' last 10, league avg 2.0 goals; Flashscore home/away form 55%, Vitibet tip 0-0",
-"ts": 1795291200.0,
-"eid": "sr:match:76938248",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76938248|18|total=2.5|13"
-},
-{
-"t": "Sat 21:00",
-"game": "Argentinos Juniors vs CA Independiente Avellaneda",
-"lg": "Argentina - Primera LPF",
-"pick": "Under 2.5",
-"odds": 1.46,
-"why": "Under 2.5 in 70% / 60% of the teams' last 10, 62% of 8 meetings, league avg 2.1 goals; Flashscore home/away form 60%, Vitibet tip 1-0",
-"ts": 1795291200.0,
-"eid": "sr:match:76649184",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76649184|18|total=2.5|13"
-}
-],
-"chance": 0.0024
 }
 ]
 }
