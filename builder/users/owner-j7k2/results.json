@@ -1751,7 +1751,10 @@
 "game": "Rodina Moscow vs Lokomotiv Moscow",
 "pick": "Half-time draw",
 "odds": 2.35,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
