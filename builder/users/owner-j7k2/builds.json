@@ -1,5 +1,174 @@
 [
 {
+"when": "Sun 22 Nov 13:20",
+"at": 1795350026,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "relaxed",
+"rid": "mwrt16vm6y57"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Relaxed safety: in testing only about 82 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 10 legs win: about 43%."
+],
+"tickets": [
+{
+"code": "HF29XJ",
+"odds": 1.41,
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "PVF Cong An Nhan Dan FC vs Quang Ninh FC",
+"lg": "Vietnam - V-League 2",
+"pick": "Handicap 0:4 \u2013 Quang Ninh FC",
+"odds": 1.03,
+"why": "LIVE 2-1 62': PVF Cong An Nhan Dan FC expected 0.6 and Quang Ninh FC 0.5 more goals (last 10 + season); 2-1 at 62' \u2013 97% chance; margin record 100% / 80% in both sides' last games",
+"ts": 1795345200.0,
+"eid": "sr:match:74672864",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "74672864|14|hcp=0:4|1713"
+},
+{
+"t": "Sun 12:00",
+"game": "CD Utrera U19 vs FC Alhendin Balompie",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "CD Utrera U19 Under 1.5",
+"odds": 1.03,
+"why": "LIVE 0-1 65': CD Utrera U19 expected 0.2 and FC Alhendin Balompie 0.9 more goals (last 10 + season); 0-1 at 65' \u2013 96% chance",
+"ts": 1795345200.0,
+"eid": "sr:match:72884320",
+"mid": "19",
+"spec": "total=1.5",
+"oid": "13",
+"k": "72884320|19|total=1.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "CD Atletico Baleares vs Real Murcia Imperial FC",
+"lg": "Spain - Segunda Federacion",
+"pick": "CD Atletico Baleares Under 3.5",
+"odds": 1.03,
+"why": "LIVE 1-0 62': CD Atletico Baleares expected 0.6 and Real Murcia Imperial FC 0.4 more goals (last 10 + season); 1-0 at 62' \u2013 96% chance; goals record 100% / 90% in both sides' last games",
+"ts": 1795345200.0,
+"eid": "sr:match:72507586",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "72507586|19|total=3.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "UD Ourense vs Racing Club de Ferrol",
+"lg": "Spain - Primera Federacion",
+"pick": "Racing Club de Ferrol Under 3.5",
+"odds": 1.04,
+"why": "LIVE 1-1 47': UD Ourense expected 0.3 and Racing Club de Ferrol 0.6 more goals (last 10 + season); 1-1 at 47' \u2013 96% chance; goals record 100% / 100% in both sides' last games",
+"ts": 1795345200.0,
+"eid": "sr:match:73107792",
+"mid": "20",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73107792|20|total=3.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "PFK Dinamo Samarqand vs FC Bunyodkor",
+"lg": "Uzbekistan - Superliga",
+"pick": "PFK Dinamo Samarqand Under 2.5",
+"odds": 1.04,
+"why": "LIVE 0-1 59': PFK Dinamo Samarqand expected 0.7 and FC Bunyodkor 0.4 more goals (last 10 + season); 0-1 at 59' \u2013 95% chance; h2h 88% of 8 meetings",
+"ts": 1795345200.0,
+"eid": "sr:match:68380658",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "68380658|19|total=2.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "AD Alcorcon vs CF Algeciras",
+"lg": "Spain - Primera Federacion",
+"pick": "Handicap 0:4 \u2013 CF Algeciras",
+"odds": 1.06,
+"why": "LIVE 1-0 62': AD Alcorcon expected 0.6 and CF Algeciras 0.5 more goals (last 10 + season); 1-0 at 62' \u2013 97% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 6 meetings",
+"ts": 1795345200.0,
+"eid": "sr:match:73068214",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "73068214|14|hcp=0:4|1713"
+},
+{
+"t": "Sun 12:00",
+"game": "CD Subiza vs CD Pamplona",
+"lg": "Spain Amateur - Tercera Federacion, Group 15",
+"pick": "CD Pamplona Under 1.5",
+"odds": 1.03,
+"why": "LIVE 0-0 65': CD Subiza expected 0.5 and CD Pamplona 0.3 more goals (last 10 + season); 0-0 at 65' \u2013 94% chance; h2h 88% of 8 meetings",
+"ts": 1795345200.0,
+"eid": "sr:match:75024584",
+"mid": "20",
+"spec": "total=1.5",
+"oid": "13",
+"k": "75024584|20|total=1.5|13"
+},
+{
+"t": "Sun 12:00",
+"game": "Viveiro CF vs UD Somozas",
+"lg": "Spain Amateur - Tercera Federacion, Group 1",
+"pick": "Viveiro CF Under 3.5",
+"odds": 1.04,
+"why": "LIVE 2-1 62': Viveiro CF expected 0.3 and UD Somozas 0.4 more goals (last 10 + season); 2-1 at 62' \u2013 95% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795345200.0,
+"eid": "sr:match:73553854",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73553854|19|total=3.5|13"
+},
+{
+"t": "Sun 12:30",
+"game": "Atletico Coruna Montaneros CF vs Pontevedra CF B",
+"lg": "Spain Amateur - Tercera Federacion, Group 1",
+"pick": "Atletico Coruna Montaneros CF Under 3.5",
+"odds": 1.03,
+"why": "LIVE 1-1 45': Atletico Coruna Montaneros CF expected 0.6 and Pontevedra CF B 0.9 more goals (last 10 + season); 1-1 at 45' \u2013 96% chance; goals record 100% / 100% in both sides' last games",
+"ts": 1795347000.0,
+"eid": "sr:match:73553844",
+"mid": "19",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73553844|19|total=3.5|13"
+},
+{
+"t": "Sun 12:30",
+"game": "Union Brescia vs AC Renate",
+"lg": "Italy - Serie C, Group A",
+"pick": "Handicap 0:4 \u2013 AC Renate",
+"odds": 1.03,
+"why": "LIVE 1-0 45': Union Brescia expected 0.9 and AC Renate 0.7 more goals (last 10 + season); 1-0 at 45' \u2013 94% chance; margin record 80% / 100% in both sides' last games",
+"ts": 1795347000.0,
+"eid": "sr:match:73293372",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "73293372|14|hcp=0:4|1713"
+}
+],
+"chance": 0.4312
+}
+]
+},
+{
 "when": "Sun 22 Nov 13:17",
 "at": 1795349860,
 "req": {
@@ -12896,264 +13065,6 @@
 }
 ],
 "chance": 0.0
-}
-]
-},
-{
-"when": "Sun 22 Nov 04:51",
-"at": 1795319519,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25yw",
-"legs": 100,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwravlj0s3tc"
-},
-"ok": true,
-"kind": "Over 2.5 (strong teams in youth & women's leagues)",
-"note": [
-"4 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 16 games passed the checks (Sun 22, 704 games on SportyBet), so this ticket has 16 legs instead of 50. Tick more days or use 'Relaxed' for more.",
-"Chance all 16 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "SQLD5A",
-"odds": 244.77,
-"legs": [
-{
-"t": "Sun 11:00",
-"game": "Estac Troyes vs FC Annecy U19",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "strong side Estac Troyes (win 1.54) scores 2.3 a game, 70% of its games over 2.5; FC Annecy U19 concedes 1.2 a game",
-"ts": 1795341600.0,
-"eid": "sr:match:73111832",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111832|18|total=2.5|12"
-},
-{
-"t": "Sun 12:00",
-"game": "CF Valencia vs FC Cartagena",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.26,
-"why": "strong side CF Valencia (win 1.1) scores 2.6 a game, 90% of its games over 2.5; FC Cartagena concedes 2.1 a game; season: 4.1 goals a game",
-"ts": 1795345200.0,
-"eid": "sr:match:72885890",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72885890|18|total=2.5|12"
-},
-{
-"t": "Sun 13:00",
-"game": "UD Las Palmas vs CD Longuera Toscal",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.21,
-"why": "strong side UD Las Palmas (win 1.06) scores 3.4 a game, 70% of its games over 2.5; CD Longuera Toscal concedes 2.4 a game; season: 4.1 goals a game",
-"ts": 1795348800.0,
-"eid": "sr:match:72885376",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72885376|18|total=2.5|12"
-},
-{
-"t": "Sun 13:00",
-"game": "FC Midtjylland vs HB KOEGE W",
-"lg": "Denmark - A Liga, Women",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "strong side HB KOEGE W (win 1.6) scores 2.5 a game, 80% of its games over 2.5; FC Midtjylland concedes 1.1 a game; 67% of 3 meetings over; Flashscore home/away form 55%",
-"ts": 1795348800.0,
-"eid": "sr:match:72652514",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652514|18|total=2.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "FC Rouen U19 vs SM Caen",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "strong side SM Caen (win 1.62) scores 2.5 a game, 70% of its games over 2.5; FC Rouen U19 concedes 2.5 a game; season: 3.9 goals a game",
-"ts": 1795354200.0,
-"eid": "sr:match:73111680",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111680|18|total=2.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "Amiens SC vs C Chartres Football",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "strong side Amiens SC (win 1.36) scores 2.3 a game, 90% of its games over 2.5; C Chartres Football concedes 1.8 a game; 75% of 4 meetings over",
-"ts": 1795354200.0,
-"eid": "sr:match:73111672",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111672|18|total=2.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "Valenciennes FC vs Versailles 78 FC U19",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "strong side Valenciennes FC (win 1.3) scores 2.2 a game, 60% of its games over 2.5; Versailles 78 FC U19 concedes 1.3 a game",
-"ts": 1795354200.0,
-"eid": "sr:match:73111664",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111664|18|total=2.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "Cruzeiro EC MG vs Atletico Mineiro MG",
-"lg": "Brazil - Mineiro, Women",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "strong side Cruzeiro EC MG (win 1.45) scores 3.2 a game, 80% of its games over 2.5; Atletico Mineiro MG concedes 1.2 a game; 75% of 8 meetings over; Flashscore home/away form 55%, season: 6.6 goals a game",
-"ts": 1795356000.0,
-"eid": "sr:match:76913296",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76913296|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "RB Leipzig vs VfL Wolfsburg W",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "strong side VfL Wolfsburg W (win 1.17) scores 4.0 a game, 90% of its games over 2.5; RB Leipzig concedes 1.9 a game; 67% of 6 meetings over; Flashscore home/away form 75%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72961102",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961102|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Guadalajara U21 vs Cruz Azul",
-"lg": "Mexico - U21 Liga MX",
-"pick": "Over 2.5",
-"odds": 1.86,
-"why": "strong side Guadalajara U21 (win 1.67) scores 2.0 a game, 80% of its games over 2.5; Cruz Azul concedes 2.9 a game; Flashscore home/away form 60%",
-"ts": 1795359600.0,
-"eid": "sr:match:72813950",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72813950|18|total=2.5|12"
-},
-{
-"t": "Sun 16:45",
-"game": "Feyenoord Rotterdam vs FC Twente Enschede W",
-"lg": "Netherlands - Eredivisie, Women",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "strong side FC Twente Enschede W (win 1.36) scores 3.0 a game, 60% of its games over 2.5; Feyenoord Rotterdam concedes 2.3 a game; 88% of 8 meetings over; Flashscore home/away form 80%, FotMob: 3.7 goals a game, CompactStats 66% (bookmaker 66%)",
-"ts": 1795362300.0,
-"eid": "sr:match:72467532",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72467532|18|total=2.5|12"
-},
-{
-"t": "Sun 16:45",
-"game": "de Graafschap vs Ajax Amsterdam",
-"lg": "Netherlands - Eredivisie, Women",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "strong side Ajax Amsterdam (win 1.3) scores 3.1 a game, 60% of its games over 2.5; de Graafschap concedes 1.3 a game; Flashscore home/away form 55%",
-"ts": 1795362300.0,
-"eid": "sr:match:72467536",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72467536|18|total=2.5|12"
-},
-{
-"t": "Sun 16:45",
-"game": "PSV Eindhoven vs PEC Zwolle",
-"lg": "Netherlands - Eredivisie, Women",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "strong side PSV Eindhoven (win 1.25) scores 1.9 a game, 60% of its games over 2.5; PEC Zwolle concedes 1.9 a game; 50% of 8 meetings over; Flashscore home/away form 65%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
-"ts": 1795362300.0,
-"eid": "sr:match:72467534",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72467534|18|total=2.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.21,
-"why": "strong side CD Espanyol Barcelona (win 1.07) scores 3.2 a game, 80% of its games over 2.5; Racing Club Zaragoza concedes 2.7 a game; season: 3.9 goals a game",
-"ts": 1795363200.0,
-"eid": "sr:match:72883760",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72883760|18|total=2.5|12"
-},
-{
-"t": "Sun 19:00",
-"game": "Real Sociedad vs Santutxu FC",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "strong side Real Sociedad (win 1.5) scores 2.6 a game, 70% of its games over 2.5; Santutxu FC concedes 1.5 a game",
-"ts": 1795370400.0,
-"eid": "sr:match:72883236",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72883236|18|total=2.5|12"
-},
-{
-"t": "Sun 20:30",
-"game": "Lazio Rome vs Juventus Turin W",
-"lg": "Italy - Serie A, Women",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "strong side Juventus Turin W (win 1.47) scores 2.1 a game, 90% of its games over 2.5; Lazio Rome concedes 1.4 a game; 62% of 8 meetings over; Flashscore home/away form 65%",
-"ts": 1795375800.0,
-"eid": "sr:match:73095066",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73095066|18|total=2.5|12"
-}
-],
-"chance": 0.0019
 }
 ]
 }
