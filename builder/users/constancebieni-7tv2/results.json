@@ -765,7 +765,10 @@
 "game": "Esmtk Budapest vs Csepel SC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
@@ -2637,7 +2640,10 @@
 "game": "Esmtk Budapest vs Csepel SC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 15:00",
