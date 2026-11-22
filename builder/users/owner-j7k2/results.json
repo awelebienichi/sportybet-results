@@ -2413,7 +2413,10 @@
 "game": "SCU Torreense vs Benfica",
 "pick": "Benfica to win",
 "odds": 1.19,
-"ts": 1795380300.0
+"ts": 1795380300.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 }
 ]
 },
@@ -2720,7 +2723,10 @@
 "game": "SCU Torreense vs Benfica",
 "pick": "Benfica to win",
 "odds": 1.19,
-"ts": 1795380300.0
+"ts": 1795380300.0,
+"r": "W",
+"sc": "1-3",
+"ht": "0-1"
 }
 ]
 },
