@@ -1,5 +1,108 @@
 [
 {
+"when": "Sun 22 Nov 19:21",
+"at": 1795371703,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "o15",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mws5xugygu4m"
+},
+"ok": true,
+"kind": "Over 1.5",
+"note": [
+"Only 5 games passed the checks (Sun 22, 42 games on SportyBet), so this ticket has 5 legs instead of 10. Tick more days or use 'Relaxed' for more.",
+"Chance all 5 legs win: about 35%."
+],
+"tickets": [
+{
+"code": "S4E5XL",
+"odds": 2.24,
+"legs": [
+{
+"t": "Sun 20:45",
+"game": "Atalanta vs Inter",
+"lg": "Italy - Serie A",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.4 goals; Flashscore home/away form 80%, footybets 99%, FotMob: 3.5 goals a game, Vitibet tip 1-2, season: 3.5 goals a game",
+"ts": 1795376700.0,
+"eid": "sr:match:71945406",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "71945406|18|total=1.5|12"
+},
+{
+"t": "Sun 21:00",
+"game": "Sporting Cristal vs Cienciano",
+"lg": "Peru - Liga 1",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "Over 1.5 in 80% / 80% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals; Flashscore home/away form 80%, FotMob: 3.4 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
+"ts": 1795377600.0,
+"eid": "sr:match:76414550",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76414550|18|total=1.5|12"
+},
+{
+"t": "Sun 21:00",
+"game": "Sport Huancayo vs Universitario de Deportes",
+"lg": "Peru - Liga 1",
+"pick": "Over 1.5",
+"odds": 1.25,
+"why": "Over 1.5 in 80% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals; Flashscore home/away form 90%, FotMob: 2.7 goals a game, Vitibet tip 2-1, season: 3.0 goals a game, CompactStats 80% (bookmaker 78%)",
+"ts": 1795377600.0,
+"eid": "sr:match:76414592",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76414592|18|total=1.5|12"
+},
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"lg": "USA - MLS",
+"pick": "Over 1.5",
+"odds": 1.13,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.1 goals; Flashscore home/away form 90%, footybets 99%, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1795381200.0,
+"eid": "sr:match:76907548",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76907548|18|total=1.5|12"
+},
+{
+"t": "Sun 23:00",
+"game": "Inter San Carlos vs Sporting FC",
+"lg": "Costa Rica - Primera Division",
+"pick": "Over 1.5",
+"odds": 1.24,
+"why": "Over 1.5 in 100% / 80% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 75%, FotMob: 3.0 goals a game, season: 3.0 goals a game",
+"ts": 1795384800.0,
+"eid": "sr:match:72053704",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72053704|18|total=1.5|12"
+}
+],
+"chance": 0.3504
+}
+]
+},
+{
 "when": "Sat 21 Nov 22:08",
 "at": 1795295295,
 "req": {
@@ -7509,148 +7612,6 @@
 }
 ],
 "chance": 0.6244
-}
-]
-},
-{
-"when": "Mon 16 Nov 20:42",
-"at": 1794858141,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 40,
-"strict": "normal",
-"rid": "mwjo6qzts7u8"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 8 live leg(s) were strong enough right now (you asked for 40).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 8 legs win: about 29%."
-],
-"tickets": [
-{
-"code": "GP3QBP",
-"odds": 2.28,
-"legs": [
-{
-"t": "Mon 19:00",
-"game": "Social Atletico Television vs CA River Plate (ARG)",
-"lg": "Argentina - Primera Division, Women",
-"pick": "Social Atletico Television Under 3.5",
-"odds": 1.11,
-"why": "LIVE 3-2 83': Social Atletico Television expected 0.1 and CA River Plate (ARG) 0.1 more goals (last 10 + season); 3-2 at 83' \u2013 92% chance; goals record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
-"ts": 1794852000.0,
-"eid": "sr:match:76730262",
-"mid": "19",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76730262|19|total=3.5|13"
-},
-{
-"t": "Mon 19:00",
-"game": "Atletico Lanus vs CA Talleres de Cordoba",
-"lg": "Argentina - Primera Division, Women",
-"pick": "Under 2.5",
-"odds": 1.12,
-"why": "LIVE 1-0 74': Atletico Lanus expected 0.1 and CA Talleres de Cordoba 0.3 more goals (last 10 + season); 1-0 at 74' \u2013 90% chance; Flashscore home/away form 70%",
-"ts": 1794852000.0,
-"eid": "sr:match:76730268",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76730268|18|total=2.5|13"
-},
-{
-"t": "Mon 19:00",
-"game": "Leones de Rosario FC vs CS Barracas",
-"lg": "Argentina - Primera C",
-"pick": "Under 1.5",
-"odds": 1.14,
-"why": "LIVE 0-0 73': Leones de Rosario FC expected 0.3 and CS Barracas 0.2 more goals (last 10 + season); 0-0 at 73' \u2013 90% chance; Flashscore home/away form 65%, h2h 67% of 3 meetings (2.5 line)",
-"ts": 1794852000.0,
-"eid": "sr:match:76485392",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "13",
-"k": "76485392|18|total=1.5|13"
-},
-{
-"t": "Mon 19:30",
-"game": "Municipal Limeno vs CD Fuerte San Francisco",
-"lg": "El Salvador - Primera Division, Reserves",
-"pick": "Municipal Limeno Under 2.5",
-"odds": 1.03,
-"why": "LIVE 0-0 45': Municipal Limeno expected 0.7 and CD Fuerte San Francisco 0.9 more goals (last 10 + season); 0-0 at 45' \u2013 95% chance; goals record 80% / 90% in both sides' last games, h2h 100% of 8 meetings",
-"ts": 1794853800.0,
-"eid": "sr:match:76779688",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76779688|19|total=2.5|13"
-},
-{
-"t": "Mon 20:00",
-"game": "Plymouth Argyle vs Leicester City U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Leicester City U21 to win",
-"odds": 1.05,
-"why": "LIVE 0-2 42': no team stats for this game \u2013 SportyBet's own price says 90%",
-"ts": 1794855600.0,
-"eid": "sr:match:73684680",
-"mid": "1",
-"spec": "",
-"oid": "3",
-"k": "73684680|1||3"
-},
-{
-"t": "Mon 20:00",
-"game": "Norwich City U21 vs Exeter City Reserve",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Handicap 0:3 \u2013 Exeter City Reserve",
-"odds": 1.35,
-"why": "LIVE 0-0 41': Norwich City U21 expected 1.2 and Exeter City Reserve 1.2 more goals (last 10); 0-0 at 41' \u2013 92% chance; margin record 100% / 90% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1794855600.0,
-"eid": "sr:match:73685050",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "73685050|14|hcp=0:3|1713"
-},
-{
-"t": "Mon 20:30",
-"game": "ASD Sorrento 1945 vs SS Monopoli",
-"lg": "Italy - Serie C, Group C",
-"pick": "Handicap 0:4 \u2013 SS Monopoli",
-"odds": 1.07,
-"why": "LIVE 1-0 11': ASD Sorrento 1945 expected 0.8 and SS Monopoli 1.1 more goals (last 10 + season); 1-0 at 11' \u2013 96% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 7 meetings",
-"ts": 1794857400.0,
-"eid": "sr:match:73294840",
-"mid": "14",
-"spec": "hcp=0:4",
-"oid": "1713",
-"k": "73294840|14|hcp=0:4|1713"
-},
-{
-"t": "Mon 20:30",
-"game": "Albacete Balompie vs RC Celta Fortuna",
-"lg": "Spain - LaLiga 2",
-"pick": "Over 1.5",
-"odds": 1.04,
-"why": "LIVE 1-0 11': Albacete Balompie expected 1.4 and RC Celta Fortuna 1.5 more goals (last 10 + season); 1-0 at 11' \u2013 92% chance; Flashscore home/away form 85%, footybets 87%, FotMob: 3.1 goals a game, Vitibet tip 2-1, season: 3.1 goals a game",
-"ts": 1794857400.0,
-"eid": "sr:match:72477582",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72477582|18|total=1.5|12"
-}
-],
-"chance": 0.2939
 }
 ]
 }
