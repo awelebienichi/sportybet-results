@@ -422,7 +422,10 @@
 "game": "FK Pardubice vs FC Zbrojovka Brno",
 "pick": "FK Pardubice to score in 1st half",
 "odds": 1.68,
-"ts": 1795348800.0
+"ts": 1795348800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 13:30",
