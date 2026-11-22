@@ -2,6 +2,30 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "HD1BDT",
+"at": 1795377202,
+"when": "Sun 22 Nov 20:53",
+"kind": "Over 1.5",
+"odds": 1.4,
+"status": "open",
+"legs": [
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"pick": "Over 1.5",
+"odds": 1.13,
+"ts": 1795381200.0
+},
+{
+"t": "Sun 23:00",
+"game": "Inter San Carlos vs Sporting FC",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795384800.0
+}
+]
+},
+{
 "code": "S4E5XL",
 "at": 1795371703,
 "when": "Sun 22 Nov 19:21",
