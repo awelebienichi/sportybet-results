@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "WUQUYR",
+"at": 1795342205,
+"when": "Sun 22 Nov 11:10",
+"kind": "smallest-odds favourites to win",
+"odds": 1.21,
+"status": "open",
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "RC Celta de Vigo vs CD Marina Youth",
+"pick": "RC Celta de Vigo to win",
+"odds": 1.02,
+"ts": 1795345200.0
+},
+{
+"t": "Sun 17:00",
+"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
+"pick": "CD Espanyol Barcelona to win",
+"odds": 1.04,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "Trabzonspor to win",
+"odds": 1.14,
+"ts": 1795363200.0
+}
+]
+},
+{
 "code": "VPK9XM",
 "at": 1795338066,
 "when": "Sun 22 Nov 10:01",
@@ -78513,96 +78544,6 @@
 "game": "CD Manacor vs Inter Ibiza CD",
 "pick": "Handicap 0:3 \u2013 Inter Ibiza CD",
 "odds": 1.22,
-"ts": 1794414600.0,
-"r": "L",
-"sc": "3-0",
-"ht": "1-0"
-}
-]
-},
-{
-"code": "GX0FDH",
-"at": 1794416295,
-"when": "Wed 11 Nov 17:58",
-"kind": "live \u2013 best of all",
-"odds": 3.85,
-"status": "lost",
-"legs": [
-{
-"t": "Wed 16:45",
-"game": "Kazakhstan vs Scotland",
-"pick": "Asian handicap Kazakhstan +3.5",
-"odds": 1.11,
-"ts": 1794411900.0,
-"r": "W",
-"sc": "1-3",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "Silifke Belediyespor vs Icel Idmanyurdu Spor",
-"pick": "Silifke Belediyespor Under 1.5",
-"odds": 1.1,
-"ts": 1794412800.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "Serbia vs Faroe Islands",
-"pick": "Under 4.5",
-"odds": 1.16,
-"ts": 1794412800.0,
-"r": "L",
-"sc": "4-1",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "Czarni Sosnowiec vs SK Brann",
-"pick": "SK Brann Under 6.5",
-"odds": 1.27,
-"ts": 1794412800.0,
-"r": "W",
-"sc": "1-5",
-"ht": "0-4"
-},
-{
-"t": "Wed 17:00",
-"game": "AS Saint Priest vs GFA Rumilly-Vallieres",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794412800.0,
-"r": "W",
-"sc": "2-4",
-"ht": "0-1"
-},
-{
-"t": "Wed 17:00",
-"game": "FC Fleury vs Toulouse FC",
-"pick": "Asian handicap Toulouse FC +4.5",
-"odds": 1.26,
-"ts": 1794412800.0,
-"r": "L",
-"sc": "7-0",
-"ht": "3-0"
-},
-{
-"t": "Wed 17:30",
-"game": "FK Babrungas Plunge vs FK Minija 2017",
-"pick": "Over 0.5",
-"odds": 1.16,
-"ts": 1794414600.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Wed 17:30",
-"game": "CD Manacor vs Inter Ibiza CD",
-"pick": "Handicap 0:3 \u2013 Inter Ibiza CD",
-"odds": 1.27,
 "ts": 1794414600.0,
 "r": "L",
 "sc": "3-0",
