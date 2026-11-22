@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QKCUFQ",
+"at": 1795348216,
+"when": "Sun 22 Nov 12:50",
+"kind": "smallest-odds favourites to win",
+"odds": 1554.11,
+"status": "open",
+"legs": [
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"pick": "Barcelona to win",
+"odds": 1.22,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Pyunik Yerevan vs Sardarapat FC",
+"pick": "FC Pyunik Yerevan to win",
+"odds": 1.23,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "1. FC Phonix Lubeck vs FC St. Pauli II",
+"pick": "1. FC Phonix Lubeck to win",
+"odds": 1.41,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ternana Calcio vs Asd Grassina",
+"pick": "Ternana Calcio to win",
+"odds": 1.21,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "Cesena FC vs Calcio Catania",
+"pick": "Cesena FC to win",
+"odds": 1.31,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "US Alessandria Calcio 1912 vs AC Saluzzo Calcio",
+"pick": "US Alessandria Calcio 1912 to win",
+"odds": 1.51,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"pick": "Ajax to win",
+"odds": 1.19,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "Frosinone vs Asd Vicenza Calcio",
+"pick": "Frosinone to win",
+"odds": 1.44,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Olympique Lyon W vs RC Strasbourg",
+"pick": "Olympique Lyon W to win",
+"odds": 1.02,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Dinamo Minsk vs FC Minsk",
+"pick": "FC Dinamo Minsk to win",
+"odds": 1.24,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Maxline Vitebsk vs Slavia Mozyr",
+"pick": "Maxline Vitebsk to win",
+"odds": 1.28,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "SS Pennarossa vs SP Tre Penne",
+"pick": "SP Tre Penne to win",
+"odds": 1.4,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:15",
+"game": "Usi Azzurri vs FC Sion II",
+"pick": "Usi Azzurri to win",
+"odds": 1.43,
+"ts": 1795356900.0
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"pick": "VfL Wolfsburg W to win",
+"odds": 1.18,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "FC Differdange 03 vs FC Progres Niederkorn",
+"pick": "FC Differdange 03 to win",
+"odds": 1.27,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "KV Kortrijk vs Union Gilloise",
+"pick": "Union Gilloise to win",
+"odds": 1.38,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "K Beerschot VA vs Jong KRC Genk",
+"pick": "K Beerschot VA to win",
+"odds": 1.33,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "Medeama SC vs FC AshantiGold 04",
+"pick": "Medeama SC to win",
+"odds": 1.35,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:30",
+"game": "Panathinaikos vs OFI Crete",
+"pick": "Panathinaikos to win",
+"odds": 1.25,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:45",
+"game": "Feyenoord Rotterdam vs FC Twente Enschede W",
+"pick": "FC Twente Enschede W to win",
+"odds": 1.24,
+"ts": 1795362300.0
+},
+{
+"t": "Sun 17:00",
+"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
+"pick": "CD Espanyol Barcelona to win",
+"odds": 1.05,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "Trabzonspor to win",
+"odds": 1.14,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Bursaspor vs Sivasspor",
+"pick": "Bursaspor to win",
+"odds": 1.18,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"pick": "Rosenborg BK to win",
+"odds": 1.74,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:30",
+"game": "CD San Roque de Lepe vs Conil CF",
+"pick": "CD San Roque de Lepe to win",
+"odds": 1.42,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 17:30",
+"game": "UDC Torredonjimeno vs CD Cantoria 2017 FC",
+"pick": "UDC Torredonjimeno to win",
+"odds": 1.38,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Olympiacos vs POT Iraklis",
+"pick": "Olympiacos to win",
+"odds": 1.19,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 19:00",
+"game": "Gremio FB Porto Alegrense RS vs Brasil de Farroupilha RS",
+"pick": "Gremio FB Porto Alegrense RS to win",
+"odds": 1.03,
+"ts": 1795370400.0
+},
+{
+"t": "Sun 20:00",
+"game": "CA Rosario Central vs Gimnasia y Esgrima Mendoza",
+"pick": "CA Rosario Central to win",
+"odds": 1.39,
+"ts": 1795374000.0
+},
+{
+"t": "Sun 21:45",
+"game": "SCU Torreense vs Benfica",
+"pick": "Benfica to win",
+"odds": 1.19,
+"ts": 1795380300.0
+}
+]
+},
+{
 "code": "G46YMB",
 "at": 1795347755,
 "when": "Sun 22 Nov 12:42",
@@ -77846,159 +78066,6 @@
 "pick": "Ravenna FC 1913 to score in 1st half",
 "odds": 1.47,
 "ts": 1794760200.0
-}
-]
-},
-{
-"code": "LSKAFX",
-"at": 1794433479,
-"when": "Wed 11 Nov 22:44",
-"kind": "smallest-odds favourites to win",
-"odds": 32.34,
-"status": "open",
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "Club America vs Deportivo Toluca FC",
-"pick": "Club America to win",
-"odds": 1.12,
-"ts": 1794445200.0,
-"r": "W",
-"sc": "3-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 19:00",
-"game": "CA San Lorenzo de Almagro vs Union de Santa Fe",
-"pick": "CA San Lorenzo de Almagro to win",
-"odds": 1.15,
-"ts": 1794506400.0
-},
-{
-"t": "Thu 20:00",
-"game": "Cayman Islands vs Guyana",
-"pick": "Guyana to win",
-"odds": 1.03,
-"ts": 1794510000.0
-},
-{
-"t": "Thu 20:00",
-"game": "Ivory Coast vs Gambia",
-"pick": "Ivory Coast to win",
-"odds": 1.2,
-"ts": 1794510000.0
-},
-{
-"t": "Thu 20:45",
-"game": "San Marino vs Belarus",
-"pick": "Belarus to win",
-"odds": 1.16,
-"ts": 1794512700.0
-},
-{
-"t": "Thu 20:45",
-"game": "Czechia vs Spain",
-"pick": "Spain to win",
-"odds": 1.23,
-"ts": 1794512700.0
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"pick": "England to win",
-"odds": 1.27,
-"ts": 1794512700.0
-},
-{
-"t": "Thu 21:00",
-"game": "Bonaire vs Cuba",
-"pick": "Cuba to win",
-"odds": 1.1,
-"ts": 1794513600.0
-},
-{
-"t": "Fri 17:00",
-"game": "Nigeria vs Tanzania",
-"pick": "Nigeria to win",
-"odds": 1.16,
-"ts": 1794585600.0
-},
-{
-"t": "Fri 20:45",
-"game": "Coleraine FC vs Portadown FC",
-"pick": "Coleraine FC to win",
-"odds": 1.21,
-"ts": 1794599100.0
-},
-{
-"t": "Fri 21:00",
-"game": "Morocco vs Niger",
-"pick": "Morocco to win",
-"odds": 1.05,
-"ts": 1794600000.0
-},
-{
-"t": "Sat 05:00",
-"game": "Melbourne City FC vs Newcastle Jets",
-"pick": "Melbourne City FC to win",
-"odds": 1.21,
-"ts": 1794628800.0
-},
-{
-"t": "Sat 13:45",
-"game": "Manchester United WFC vs Crystal Palace",
-"pick": "Manchester United WFC to win",
-"odds": 1.3,
-"ts": 1794660300.0
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"pick": "Billericay Town to win",
-"odds": 1.21,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bridlington Town vs Macclesfield FC",
-"pick": "Macclesfield FC to win",
-"odds": 1.24,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bourne Town vs Bromsgrove Sporting",
-"pick": "Bromsgrove Sporting to win",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 20:00",
-"game": "Algeria vs Togo",
-"pick": "Algeria to win",
-"odds": 1.22,
-"ts": 1794682800.0
-},
-{
-"t": "Sun 14:00",
-"game": "Hacken Gothenburg W vs Piteaa IF DFF",
-"pick": "Hacken Gothenburg W to win",
-"odds": 1.2,
-"ts": 1794747600.0
-},
-{
-"t": "Sun 14:30",
-"game": "Spezia Calcio vs Vado FC",
-"pick": "Spezia Calcio to win",
-"odds": 1.3,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 20:45",
-"game": "France vs Turkiye",
-"pick": "France to win",
-"odds": 1.21,
-"ts": 1794771900.0
 }
 ]
 }
