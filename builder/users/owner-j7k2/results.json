@@ -2092,7 +2092,10 @@
 "game": "Saronikos Anavisou vs A.P.O. Thyella Rafina FC",
 "pick": "Over/Under \u2013 Under 3.5",
 "odds": 1.17,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -2320,7 +2323,10 @@
 "game": "Saronikos Anavisou vs A.P.O. Thyella Rafina FC",
 "pick": "Under 3.5",
 "odds": 1.17,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -2865,7 +2871,7 @@
 "odds": 1.25,
 "ts": 1795352400.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": ""
 },
 {
