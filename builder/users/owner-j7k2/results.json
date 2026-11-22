@@ -915,7 +915,10 @@
 "game": "Brentford U21 vs Hull City U21",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 14:00",
@@ -2840,7 +2843,7 @@
 "odds": 1.14,
 "ts": 1795352400.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "1-0"
 },
 {
@@ -3234,7 +3237,10 @@
 "game": "Brentford U21 vs Hull City U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.27,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 14:00",
@@ -3374,7 +3380,10 @@
 "game": "FC Zurich vs FC St. Gallen 1879",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-0"
 },
 {
 "t": "Sun 14:30",
@@ -4562,7 +4571,10 @@
 "game": "Brentford U21 vs Hull City U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.27,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 14:00",
@@ -4610,7 +4622,10 @@
 "game": "FC Zurich vs FC St. Gallen 1879",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-0"
 },
 {
 "t": "Sun 14:00",
