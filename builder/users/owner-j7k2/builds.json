@@ -1,5 +1,349 @@
 [
 {
+"when": "Sun 22 Nov 04:49",
+"at": 1795319361,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 100,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwrarctlh78c"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 22 games passed the checks (Sun 22, 704 games on SportyBet), so this ticket has 22 legs instead of 50. Tick more days or use 'Relaxed' for more.",
+"Chance all 22 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "QSHFCJ",
+"odds": 1145.5,
+"legs": [
+{
+"t": "Sun 06:00",
+"game": "Gamba Osaka U21 vs Tokyo Verdy U21",
+"lg": "Japan - U21 J League",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "stats rate 75% from both teams' last 10; season: 4.0 goals a game",
+"ts": 1795323600.0,
+"eid": "sr:match:74459142",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74459142|18|total=2.5|12"
+},
+{
+"t": "Sun 08:00",
+"game": "Mendiola FC vs Kaya FC\u2013Iloilo",
+"lg": "Philippines - Philippines Footb. League",
+"pick": "Over 2.5",
+"odds": 1.18,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 70%",
+"ts": 1795330800.0,
+"eid": "sr:match:76733984",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76733984|18|total=2.5|12"
+},
+{
+"t": "Sun 08:00",
+"game": "Shatin vs Eastern SC",
+"lg": "Hong Kong, China - Premier League",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1795330800.0,
+"eid": "sr:match:73296524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73296524|18|total=2.5|12"
+},
+{
+"t": "Sun 11:15",
+"game": "WAF Vorwarts Brigittenau vs Union Mauer",
+"lg": "Austria Amateur - Wiener Stadtliga",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 65%",
+"ts": 1795342500.0,
+"eid": "sr:match:72676176",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72676176|18|total=2.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "CF Valencia vs FC Cartagena",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.26,
+"why": "stats rate 84% from both teams' last 10; season: 4.1 goals a game",
+"ts": 1795345200.0,
+"eid": "sr:match:72885890",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72885890|18|total=2.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "Olympique Lyon vs Stade Reims",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.59,
+"why": "stats rate 79% from both teams' last 10 and 6 meetings",
+"ts": 1795345200.0,
+"eid": "sr:match:73111802",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111802|18|total=2.5|12"
+},
+{
+"t": "Sun 13:30",
+"game": "Odds BK vs Bryne FK",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "stats rate 79% from both teams' last 10 and 8 meetings; Flashscore home/away form 65%, footybets 86%",
+"ts": 1795350600.0,
+"eid": "sr:match:76665538",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76665538|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Eintracht Norderstedt vs FSV Schoningen 2011",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "stats rate 76% from both teams' last 10 and 3 meetings; Flashscore home/away form 75%, footybets 84%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
+"ts": 1795352400.0,
+"eid": "sr:match:72674458",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72674458|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "SC Freiburg vs VfB Stuttgart",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 80%, CompactStats 69% (bookmaker 62%)",
+"ts": 1795352400.0,
+"eid": "sr:match:72961096",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961096|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "FC Rouen U19 vs SM Caen",
+"lg": "France - U19 National",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "stats rate 75% from both teams' last 10; season: 3.9 goals a game",
+"ts": 1795354200.0,
+"eid": "sr:match:73111680",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73111680|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Hamburger SV II vs SV Werder Bremen II",
+"lg": "Germany Amateur - Regionalliga North",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "stats rate 86% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, footybets 95%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795356000.0,
+"eid": "sr:match:75094606",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75094606|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "Sheffield United LFC vs Durham LFC",
+"lg": "England Amateur - FA Womens League Cup",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, FotMob: 4.7 goals a game",
+"ts": 1795356000.0,
+"eid": "sr:match:73607368",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73607368|18|total=2.5|12"
+},
+{
+"t": "Sun 15:00",
+"game": "ACF Fiorentina vs Como 1907",
+"lg": "Italy - Serie A, Women",
+"pick": "Over 2.5",
+"odds": 1.57,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1795356000.0,
+"eid": "sr:match:73095064",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73095064|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.22,
+"why": "stats rate 86% from both teams' last 10 and 6 meetings; Flashscore home/away form 80%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963860",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963860|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.38,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%, FotMob: 3.5 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963850",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963850|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "RB Leipzig vs VfL Wolfsburg W",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.22,
+"why": "stats rate 76% from both teams' last 10 and 6 meetings; Flashscore home/away form 75%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72961102",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961102|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Un Kaerjeng 97 vs US Mondorf-Les-Bains",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.57,
+"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963856",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963856|18|total=2.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "FC Zurich vs FC Yverdon",
+"lg": "Switzerland - Super League, Women",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "stats rate 86% from both teams' last 10 and 5 meetings; Flashscore home/away form 55%, season: 3.8 goals a game",
+"ts": 1795361400.0,
+"eid": "sr:match:72652104",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72652104|18|total=2.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "Basel vs FC Luzern",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "stats rate 78% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%, footybets 94%, FotMob: 3.7 goals a game, CompactStats 72% (bookmaker 71%)",
+"ts": 1795361400.0,
+"eid": "sr:match:74379726",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379726|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "stats rate 75% from both teams' last 10; season: 3.9 goals a game",
+"ts": 1795363200.0,
+"eid": "sr:match:72883760",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72883760|18|total=2.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"lg": "Cyprus - 1st Division",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.6 goals a game",
+"ts": 1795366800.0,
+"eid": "sr:match:73160484",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73160484|18|total=2.5|12"
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"lg": "Germany Amateur - Women Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.44,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%, FotMob: 4.1 goals a game, season: 4.1 goals a game, CompactStats 71% (bookmaker 66%)",
+"ts": 1795368600.0,
+"eid": "sr:match:72961094",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72961094|18|total=2.5|12"
+}
+],
+"chance": 0.0003
+}
+]
+},
+{
 "when": "Sun 22 Nov 04:47",
 "at": 1795319249,
 "req": {
@@ -11021,67 +11365,6 @@
 }
 ],
 "chance": 0.7645
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:25",
-"at": 1795238760,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "gg",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwpysg2ljhcu"
-},
-"ok": true,
-"kind": "GG (both teams score)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Chance all 2 legs win: about 49%."
-],
-"tickets": [
-{
-"code": "ZLBCWJ",
-"odds": 1.84,
-"legs": [
-{
-"t": "Sat 12:00",
-"game": "Jagiellonia II Bialystok vs SK Mazovia Minsk Mazowiecki",
-"lg": "Poland - III Liga, Group 1",
-"pick": "GG (both teams score)",
-"odds": 1.38,
-"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 85%",
-"ts": 1795258800.0,
-"eid": "sr:match:72514896",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72514896|29||74"
-},
-{
-"t": "Sat 15:30",
-"game": "Eintracht Frankfurt vs Hoffenheim",
-"lg": "Germany - Bundesliga",
-"pick": "GG (both teams score)",
-"odds": 1.33,
-"why": "stats rate 79% from both teams' last 10 and 8 meetings; Flashscore home/away form 65%, FotMob: both score 1.3+ a game",
-"ts": 1795271400.0,
-"eid": "sr:match:72513314",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "72513314|29||74"
-}
-],
-"chance": 0.4942
 }
 ]
 }
