@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UXVHGJ",
+"at": 1795343262,
+"when": "Sun 22 Nov 11:27",
+"kind": "your chosen markets",
+"odds": 1.27,
+"status": "open",
+"legs": [
+{
+"t": "Sun 16:00",
+"game": "Hearts of Oak vs Aduana FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.07,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 21:00",
+"game": "Douglas Haig vs Club Olimpo",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"ts": 1795377600.0
+},
+{
+"t": "Sun 23:30",
+"game": "CA Sarmiento de la Banda vs Club Cipolletti",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1795386600.0
+}
+]
+},
+{
 "code": "WL5KX7",
 "at": 1795343195,
 "when": "Sun 22 Nov 11:26",
@@ -77573,138 +77604,6 @@
 "pick": "Half-time draw",
 "odds": 2.0,
 "ts": 1794745800.0
-}
-]
-},
-{
-"code": "Q4ZSBT",
-"at": 1794433370,
-"when": "Wed 11 Nov 22:42",
-"kind": "GG (both teams score)",
-"odds": 1122.66,
-"status": "open",
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "CD FAS Santa Ana vs Inter Santa Tecla",
-"pick": "GG (both teams score)",
-"odds": 1.75,
-"ts": 1794445200.0,
-"r": "W",
-"sc": "2-2",
-"ht": "2-1"
-},
-{
-"t": "Fri 19:30",
-"game": "SC Neusiedl am See 1919 vs SV Lackenbach",
-"pick": "GG (both teams score)",
-"odds": 1.49,
-"ts": 1794594600.0
-},
-{
-"t": "Sat 05:00",
-"game": "Sydney United 58 FC vs South Melbourne FC",
-"pick": "GG (both teams score)",
-"odds": 1.58,
-"ts": 1794628800.0
-},
-{
-"t": "Sat 09:30",
-"game": "Bayswater City vs Sydney Olympic FC",
-"pick": "GG (both teams score)",
-"odds": 1.39,
-"ts": 1794645000.0
-},
-{
-"t": "Sat 13:00",
-"game": "Ringsted IF vs BK Frem",
-"pick": "GG (both teams score)",
-"odds": 1.48,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 14:00",
-"game": "Hoersholm-Usseroed IK vs Naesby BK",
-"pick": "GG (both teams score)",
-"odds": 1.35,
-"ts": 1794661200.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"pick": "GG (both teams score)",
-"odds": 1.44,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Walsall FC vs Barnet FC",
-"pick": "GG (both teams score)",
-"odds": 1.53,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Crewe Alexandra vs Newport County",
-"pick": "GG (both teams score)",
-"odds": 1.74,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gloucester City vs Sholing FC",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Frome Town vs Hanworth Villa",
-"pick": "GG (both teams score)",
-"odds": 1.52,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Halesowen Town FC vs Redditch United",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Braintree Town FC vs Kettering Town",
-"pick": "GG (both teams score)",
-"odds": 1.52,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leighton Town vs Stratford Town",
-"pick": "GG (both teams score)",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"pick": "GG (both teams score)",
-"odds": 1.41,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Didcot Town vs Slough Town",
-"pick": "GG (both teams score)",
-"odds": 1.4,
-"ts": 1794668400.0
-},
-{
-"t": "Sun 14:30",
-"game": "Potenza Calcio vs Scafatese Calcio 1922",
-"pick": "GG (both teams score)",
-"odds": 1.63,
-"ts": 1794749400.0
 }
 ]
 }
