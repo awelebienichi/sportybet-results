@@ -1830,7 +1830,7 @@
 "odds": 1.25,
 "ts": 1795343400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-1"
 },
 {
@@ -2481,7 +2481,10 @@
 "game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:15",
@@ -3027,7 +3030,10 @@
 "game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 11:30",
@@ -4707,7 +4713,10 @@
 "game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
@@ -4973,7 +4982,10 @@
 "game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
@@ -5776,7 +5788,10 @@
 "game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795343400.0
+"ts": 1795343400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sun 12:00",
