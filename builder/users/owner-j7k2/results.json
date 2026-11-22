@@ -1768,7 +1768,10 @@
 "game": "Apollon Limassol vs Als Omonia",
 "pick": "Apollon Limassol excluded goals: 1",
 "odds": 1.13,
-"ts": 1795366800.0
+"ts": 1795366800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 18:00",
@@ -3866,8 +3869,8 @@
 "odds": 1.17,
 "ts": 1795366800.0,
 "r": "W",
-"sc": "1-0",
-"ht": ""
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 18:00",

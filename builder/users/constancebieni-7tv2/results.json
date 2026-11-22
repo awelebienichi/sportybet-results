@@ -624,8 +624,8 @@
 "odds": 1.26,
 "ts": 1795366800.0,
 "r": "W",
-"sc": "1-0",
-"ht": ""
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 18:00",
@@ -642,7 +642,10 @@
 "game": "RC Celta Fortuna vs Valladolid",
 "pick": "Valladolid to score in 1st half",
 "odds": 1.76,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sun 21:00",
