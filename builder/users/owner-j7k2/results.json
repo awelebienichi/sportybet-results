@@ -2168,7 +2168,10 @@
 "game": "Sheffield United LFC vs Durham LFC",
 "pick": "GG/NG \u2013 Yes",
 "odds": 1.47,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 15:00",
@@ -2789,7 +2792,10 @@
 "game": "Sheffield United LFC vs Durham LFC",
 "pick": "GG (both teams score)",
 "odds": 1.47,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:30",
@@ -3339,7 +3345,10 @@
 "game": "Sheffield United LFC vs Durham LFC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.48,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 15:30",
@@ -3720,7 +3729,10 @@
 "game": "FC Concordia Basel vs FC Courtetelle",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.55,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "3-1",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -4649,7 +4661,10 @@
 "game": "FC Concordia Basel vs FC Courtetelle",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.55,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "3-1",
+"ht": ""
 },
 {
 "t": "Sun 14:00",
@@ -4856,7 +4871,10 @@
 "game": "Sheffield United LFC vs Durham LFC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.48,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 15:00",
@@ -5198,7 +5216,10 @@
 "game": "Sheffield United LFC vs Durham LFC",
 "pick": "GG (both teams score)",
 "odds": 1.49,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Sun 16:00",
