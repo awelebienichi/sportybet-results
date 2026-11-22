@@ -531,7 +531,10 @@
 "game": "Valenciennes FC vs Versailles 78 FC U19",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -3670,7 +3673,7 @@
 "when": "Sun 22 Nov 05:14",
 "kind": "combined MRQ92K + KK8ZAF + X86FXC + MSXVSR + SU97DW + PE09WP + XY1VM0 + NM2W5Q + M96JKP + SQLD5A + QSHFCJ + K99A7Q + WS9G2J + SMJA92 + Q10GCG + NU0JNF + KCB8TL + GPZ4PH + XNVQY6 + X4HKLP + M85QEG + J7SMKR + Z69CG3 + ZTPJTK + SB4L9E + V46B80 + WZ08QR + UR4E0M",
 "odds": 259.16,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 08:00",
@@ -3747,7 +3750,10 @@
 "game": "Valenciennes FC vs Versailles 78 FC U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 15:00",
@@ -5133,7 +5139,10 @@
 "game": "Valenciennes FC vs Versailles 78 FC U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795354200.0
+"ts": 1795354200.0,
+"r": "L",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sun 14:30",
