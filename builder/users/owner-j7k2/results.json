@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LEEWS6",
+"at": 1795348605,
+"when": "Sun 22 Nov 12:56",
+"kind": "your chosen markets",
+"odds": 20.14,
+"status": "open",
+"legs": [
+{
+"t": "Sun 13:30",
+"game": "Davao Aguilas vs Stallion Laguna FC",
+"pick": "Davao Aguilas excluded goals: 0",
+"odds": 1.07,
+"ts": 1795350600.0
+},
+{
+"t": "Sun 14:00",
+"game": "Mitundu Baptist vs Masters FC",
+"pick": "Masters FC excluded goals: 2",
+"odds": 1.13,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Coffrane vs FC Lausanne Sports U21",
+"pick": "FC Coffrane excluded goals: 3+",
+"odds": 1.14,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:00",
+"game": "Bangu AC RJ vs Madureira EC RJ",
+"pick": "Madureira EC RJ excluded goals: 3+",
+"odds": 1.08,
+"ts": 1795352400.0
+},
+{
+"t": "Sun 14:30",
+"game": "FC Metz vs Nancy-Lorraine",
+"pick": "Nancy-Lorraine excluded goals: 3+",
+"odds": 1.09,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 14:30",
+"game": "US Livorno 1915 vs Ravenna FC 1913",
+"pick": "US Livorno 1915 excluded goals: 2",
+"odds": 1.18,
+"ts": 1795354200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Hamrun Spartans FC vs Sliema Wanderers",
+"pick": "Hamrun Spartans FC excluded goals: 3+",
+"odds": 1.08,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Sunderland AFC vs Burnley FC Women",
+"pick": "Burnley FC Women excluded goals: 2",
+"odds": 1.12,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Churchill Brothers SC vs Mohun Bagan Super Giant",
+"pick": "Mohun Bagan Super Giant excluded goals: 0",
+"odds": 1.1,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "Catania FC vs SSC Bari",
+"pick": "SSC Bari excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:00",
+"game": "FC Biel-Bienne vs AC Bellinzona",
+"pick": "AC Bellinzona excluded goals: 3+",
+"odds": 1.07,
+"ts": 1795356000.0
+},
+{
+"t": "Sun 15:15",
+"game": "Usi Azzurri vs FC Sion II",
+"pick": "FC Sion II excluded goals: 3+",
+"odds": 1.06,
+"ts": 1795356900.0
+},
+{
+"t": "Sun 16:00",
+"game": "KV Kortrijk vs Union Gilloise",
+"pick": "Union Gilloise excluded goals: 0",
+"odds": 1.07,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:00",
+"game": "San Marcos de Arica vs Deportes Magallanes",
+"pick": "Deportes Magallanes excluded goals: 3+",
+"odds": 1.08,
+"ts": 1795359600.0
+},
+{
+"t": "Sun 16:15",
+"game": "Racing Santander vs Real Sociedad",
+"pick": "Racing Santander excluded goals: 3+",
+"odds": 1.2,
+"ts": 1795360500.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Zurich vs FC Yverdon",
+"pick": "FC Zurich excluded goals: 0",
+"odds": 1.06,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:30",
+"game": "Alondras CF vs Gran Pena FC",
+"pick": "Gran Pena FC excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Malaga City vs CD Alhaurino",
+"pick": "FC Malaga City excluded goals: 3+",
+"odds": 1.11,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 16:30",
+"game": "Deportivo Maritimo vs Aguilas FC B",
+"pick": "Aguilas FC B excluded goals: 0",
+"odds": 1.19,
+"ts": 1795361400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"pick": "Eyupspor excluded goals: 2",
+"odds": 1.07,
+"ts": 1795363200.0
+},
+{
+"t": "Sun 17:30",
+"game": "Forli FC vs Reggiana 1919",
+"pick": "Forli FC excluded goals: 3+",
+"odds": 1.1,
+"ts": 1795365000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"pick": "Apollon Limassol excluded goals: 1",
+"odds": 1.13,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "Ittihad Khemisset vs Sportive Boujaad",
+"pick": "Sportive Boujaad excluded goals: 2",
+"odds": 1.11,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "HNK Rijeka vs HNK Gorica",
+"pick": "HNK Gorica excluded goals: 2",
+"odds": 1.11,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "Rayo Ciudad Alcobendas vs CD Colonia Moscardo",
+"pick": "CD Colonia Moscardo excluded goals: 0",
+"odds": 1.2,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:00",
+"game": "AD Sarchi vs Municipal Grecia",
+"pick": "Municipal Grecia excluded goals: 3+",
+"odds": 1.12,
+"ts": 1795366800.0
+},
+{
+"t": "Sun 18:30",
+"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
+"pick": "1. FC Nuremberg excluded goals: 0",
+"odds": 1.11,
+"ts": 1795368600.0
+},
+{
+"t": "Sun 20:00",
+"game": "CA Rosario Central vs Gimnasia y Esgrima Mendoza",
+"pick": "Gimnasia y Esgrima Mendoza excluded goals: 2",
+"odds": 1.1,
+"ts": 1795374000.0
+},
+{
+"t": "Sun 20:45",
+"game": "Atalanta vs Inter",
+"pick": "Inter excluded goals: 0",
+"odds": 1.07,
+"ts": 1795376700.0
+},
+{
+"t": "Sun 22:00",
+"game": "Nashville SC vs FC Cincinnati",
+"pick": "Nashville SC excluded goals: 0",
+"odds": 1.07,
+"ts": 1795381200.0
+}
+]
+},
+{
 "code": "WZ0JA7",
 "at": 1795348488,
 "when": "Sun 22 Nov 12:54",
@@ -77897,165 +78117,6 @@
 "pick": "France to score in 2nd half",
 "odds": 1.2,
 "ts": 1794771900.0
-}
-]
-},
-{
-"code": "KRPG3U",
-"at": 1794433533,
-"when": "Wed 11 Nov 22:45",
-"kind": "1st half Over 0.5",
-"odds": 111.82,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 03:00",
-"game": "Piratas Veracruz vs Club Atletico La Paz",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"ts": 1794448800.0,
-"r": "L",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 04:00",
-"game": "CF Pachuca vs CF Monterrey",
-"pick": "1st half Over 0.5",
-"odds": 1.27,
-"ts": 1794452400.0,
-"r": "W",
-"sc": "0-1",
-"ht": ""
-},
-{
-"t": "Thu 07:00",
-"game": "New Zealand vs India",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"ts": 1794463200.0,
-"r": "W",
-"sc": "5-0",
-"ht": "3-0"
-},
-{
-"t": "Thu 14:00",
-"game": "Iceland vs Greece",
-"pick": "1st half Over 0.5",
-"odds": 1.37,
-"ts": 1794488400.0
-},
-{
-"t": "Thu 21:00",
-"game": "Bonaire vs Cuba",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"ts": 1794513600.0
-},
-{
-"t": "Thu 23:00",
-"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
-"pick": "1st half Over 0.5",
-"odds": 1.33,
-"ts": 1794520800.0
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"ts": 1794596400.0
-},
-{
-"t": "Sat 14:00",
-"game": "Valladolid vs CD Castellon",
-"pick": "1st half Over 0.5",
-"odds": 1.33,
-"ts": 1794661200.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
-"pick": "1st half Over 0.5",
-"odds": 1.24,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"pick": "1st half Over 0.5",
-"odds": 1.24,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"pick": "1st half Over 0.5",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Carlisle United vs Boston United FC",
-"pick": "1st half Over 0.5",
-"odds": 1.19,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Eastleigh FC vs AFC Fylde",
-"pick": "1st half Over 0.5",
-"odds": 1.24,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Harrogate Town vs Altrincham FC",
-"pick": "1st half Over 0.5",
-"odds": 1.27,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"ts": 1794677400.0
-},
-{
-"t": "Sat 20:00",
-"game": "De Graafschap vs TOP Oss",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 22:30",
-"game": "Haiti vs USA",
-"pick": "1st half Over 0.5",
-"odds": 1.28,
-"ts": 1794691800.0
-},
-{
-"t": "Sun 14:30",
-"game": "Potenza Calcio vs Scafatese Calcio 1922",
-"pick": "1st half Over 0.5",
-"odds": 1.29,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 16:30",
-"game": "FC Penafiel vs Lusitania FC Lourosa",
-"pick": "1st half Over 0.5",
-"odds": 1.43,
-"ts": 1794756600.0
 }
 ]
 }
