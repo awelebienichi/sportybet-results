@@ -586,7 +586,10 @@
 "game": "Aalesunds FK vs Rosenborg BK",
 "pick": "Rosenborg BK to score in 1st half",
 "odds": 1.45,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 17:00",
@@ -949,7 +952,10 @@
 "game": "Aalesunds FK vs Rosenborg BK",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sun 18:00",
@@ -2797,7 +2803,10 @@
 "game": "Aalesunds FK vs Rosenborg BK",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795363200.0
+"ts": 1795363200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },
