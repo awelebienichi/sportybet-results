@@ -1,6 +1,305 @@
 [
 {
 "when": "Sun 22 Nov 09:17",
+"at": 1795335473,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwrkdmdi9r93"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 19 games passed the checks (Sun 22, 714 games on SportyBet), so this ticket has 19 legs instead of 40. Tick more days or use 'Relaxed' for more.",
+"Chance all 19 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "NAW4CF",
+"odds": 31.6,
+"legs": [
+{
+"t": "Sun 11:30",
+"game": "Araz Nakhchivan PFK vs Neftchi Baku PFC",
+"lg": "Azerbaijan - Premier League",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "goal in the 1st half in 90% of Araz Nakhchivan PFK's last 10 and 80% of Neftchi Baku PFC's last 10",
+"ts": 1795343400.0,
+"eid": "sr:match:73409336",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73409336|68|total=0.5|12"
+},
+{
+"t": "Sun 12:15",
+"game": "FC Twente Enschede vs Willem II Tilburg",
+"lg": "Netherlands - Eredivisie",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"why": "goal in the 1st half in 80% of FC Twente Enschede's last 10 and 80% of Willem II Tilburg's last 10",
+"ts": 1795346100.0,
+"eid": "sr:match:72041252",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72041252|68|total=0.5|12"
+},
+{
+"t": "Sun 12:30",
+"game": "Lion City Sailors FC vs Geylang International FC",
+"lg": "Singapore - Premier League",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"why": "goal in the 1st half in 80% of Lion City Sailors FC's last 10 and 80% of Geylang International FC's last 10",
+"ts": 1795347000.0,
+"eid": "sr:match:73550150",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73550150|68|total=0.5|12"
+},
+{
+"t": "Sun 13:00",
+"game": "Rayong FC vs Rasisalai United",
+"lg": "Thailand - Thai League 1",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "TOP TIER: goal in the 1st half in 90% of Rayong FC's last 10 and 90% of Rasisalai United's last 10",
+"ts": 1795348800.0,
+"eid": "sr:match:72942584",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72942584|68|total=0.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Viborg FF vs Randers FC",
+"lg": "Denmark - Superliga",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "TOP TIER: goal in the 1st half in 80% of Viborg FF's last 10 and 80% of Randers FC's last 10",
+"ts": 1795352400.0,
+"eid": "sr:match:71925102",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "71925102|68|total=0.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Peterborough United U21 vs Luton Town Reserves",
+"lg": "England Amateur - Premier League Cup",
+"pick": "1st half Over 0.5",
+"odds": 1.14,
+"why": "goal in the 1st half in 90% of Peterborough United U21's last 10 and 80% of Luton Town Reserves's last 10",
+"ts": 1795352400.0,
+"eid": "sr:match:73684980",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73684980|68|total=0.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Ajax vs ADO Den Haag",
+"lg": "Netherlands - Eredivisie",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"why": "TOP TIER: goal in the 1st half in 90% of Ajax's last 10 and 90% of ADO Den Haag's last 10",
+"ts": 1795354200.0,
+"eid": "sr:match:72041248",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72041248|68|total=0.5|12"
+},
+{
+"t": "Sun 15:30",
+"game": "Augsburg vs Mainz",
+"lg": "Germany - Bundesliga",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "goal in the 1st half in 90% of Augsburg's last 10 and 80% of Mainz's last 10",
+"ts": 1795357800.0,
+"eid": "sr:match:72513316",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72513316|68|total=0.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"lg": "Luxembourg - Division Nationale",
+"pick": "1st half Over 0.5",
+"odds": 1.12,
+"why": "goal in the 1st half in 80% of Swift Hesperange's last 10 and 100% of Atert Bissen's last 9",
+"ts": 1795359600.0,
+"eid": "sr:match:72963860",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72963860|68|total=0.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "K Beerschot VA vs Jong KRC Genk",
+"lg": "Belgium - Challenger Pro League",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "goal in the 1st half in 90% of K Beerschot VA's last 10 and 80% of Jong KRC Genk's last 10",
+"ts": 1795359600.0,
+"eid": "sr:match:72302224",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72302224|68|total=0.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "F91 Dudelange vs Residence Walferdange",
+"lg": "Luxembourg - Division Nationale",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"why": "goal in the 1st half in 78% of F91 Dudelange's last 9 and 100% of Residence Walferdange's last 10",
+"ts": 1795359600.0,
+"eid": "sr:match:72963850",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72963850|68|total=0.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "US Hostert vs US Rumelange",
+"lg": "Luxembourg - Division Nationale",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "goal in the 1st half in 78% of US Hostert's last 9 and 100% of US Rumelange's last 9",
+"ts": 1795359600.0,
+"eid": "sr:match:72963854",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72963854|68|total=0.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "Lausanne-Sport vs FC Vaduz",
+"lg": "Switzerland - Super League",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"why": "goal in the 1st half in 80% of Lausanne-Sport's last 10 and 89% of FC Vaduz's last 9",
+"ts": 1795361400.0,
+"eid": "sr:match:76635258",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76635258|68|total=0.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Trabzonspor vs Eyupspor",
+"lg": "Turkiye - Super Lig",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"why": "TOP TIER: goal in the 1st half in 100% of Trabzonspor's last 10 and 100% of Eyupspor's last 9",
+"ts": 1795363200.0,
+"eid": "sr:match:72723322",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72723322|68|total=0.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Aalesunds FK vs Rosenborg BK",
+"lg": "Norway - Eliteserien",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"why": "goal in the 1st half in 100% of Aalesunds FK's last 10 and 80% of Rosenborg BK's last 10",
+"ts": 1795363200.0,
+"eid": "sr:match:67015480",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "67015480|68|total=0.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Bursaspor vs Sivasspor",
+"lg": "Turkiye - 1. Lig",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"why": "goal in the 1st half in 90% of Bursaspor's last 10 and 80% of Sivasspor's last 10",
+"ts": 1795363200.0,
+"eid": "sr:match:72735912",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72735912|68|total=0.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "Apollon Limassol vs Als Omonia",
+"lg": "Cyprus - 1st Division",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"why": "goal in the 1st half in 80% of Apollon Limassol's last 10 and 80% of Als Omonia's last 10",
+"ts": 1795366800.0,
+"eid": "sr:match:73160484",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73160484|68|total=0.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "AC Milan vs Frosinone",
+"lg": "Italy - Serie A",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "goal in the 1st half in 80% of AC Milan's last 10 and 90% of Frosinone's last 10",
+"ts": 1795366800.0,
+"eid": "sr:match:71945416",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "71945416|68|total=0.5|12"
+},
+{
+"t": "Sun 19:15",
+"game": "Sarpsborg 08 vs Lillestroem SK",
+"lg": "Norway - Eliteserien",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"why": "goal in the 1st half in 90% of Sarpsborg 08's last 10 and 80% of Lillestroem SK's last 10",
+"ts": 1795371300.0,
+"eid": "sr:match:67015474",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "67015474|68|total=0.5|12"
+}
+],
+"chance": 0.0125
+}
+]
+},
+{
+"when": "Sun 22 Nov 09:17",
 "at": 1795335427,
 "req": {
 "u": "owner-j7k2",
@@ -18489,69 +18788,6 @@
 }
 ],
 "chance": 0.6981
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:41",
-"at": 1795239713,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"h1u25"
-],
-"rid": "mwpzcsu87l65"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 2 legs win: about 74%."
-],
-"tickets": [
-{
-"code": "T7QC41",
-"odds": 1.22,
-"legs": [
-{
-"t": "Sat 14:45",
-"game": "Quevilly-Rouen Metropole vs Valenciennes FC",
-"lg": "France - Ligue 3",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1795268700.0,
-"eid": "sr:match:72524038",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72524038|68|total=2.5|13"
-},
-{
-"t": "Sat 16:00",
-"game": "Spennymoor Town FC vs Harborough Town FC",
-"lg": "England Amateur - National League North",
-"pick": "1st half Under 2.5",
-"odds": 1.14,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1795273200.0,
-"eid": "sr:match:72759488",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72759488|68|total=2.5|13"
-}
-],
-"chance": 0.7436
 }
 ]
 }
