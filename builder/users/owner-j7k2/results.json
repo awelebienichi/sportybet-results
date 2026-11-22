@@ -1271,7 +1271,10 @@
 "game": "Mitundu Baptist vs Masters FC",
 "pick": "Masters FC excluded goals: 2",
 "odds": 1.13,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 14:00",
@@ -1534,7 +1537,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "Barcelona to win",
 "odds": 1.22,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "3-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:00",
@@ -1760,7 +1766,10 @@
 "game": "Barcelona vs Villarreal",
 "pick": "Barcelona to win",
 "odds": 1.22,
-"ts": 1795352400.0
+"ts": 1795352400.0,
+"r": "W",
+"sc": "3-2",
+"ht": "0-2"
 },
 {
 "t": "Sun 14:00",
