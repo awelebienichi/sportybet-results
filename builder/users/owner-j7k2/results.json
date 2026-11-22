@@ -4267,14 +4267,17 @@
 "when": "Sat 21 Nov 22:16",
 "kind": "combined V46B80 + SB4L9E",
 "odds": 23.69,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 04:00",
 "game": "Eastern Suburbs AFC vs Wellington Phoenix FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.28,
-"ts": 1795316400.0
+"ts": 1795316400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 08:30",
@@ -4998,7 +5001,7 @@
 "when": "Sat 21 Nov 22:01",
 "kind": "combined V46B80 + SB4L9E",
 "odds": 531.38,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 02:00",
@@ -5015,7 +5018,10 @@
 "game": "Eastern Suburbs AFC vs Wellington Phoenix FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.28,
-"ts": 1795316400.0
+"ts": 1795316400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 06:30",
@@ -5756,7 +5762,7 @@
 "when": "Sat 21 Nov 21:10",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 33581.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 23:00",
@@ -5813,7 +5819,10 @@
 "game": "Eastern Suburbs AFC vs Wellington Phoenix FC",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795316400.0
+"ts": 1795316400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 06:30",
