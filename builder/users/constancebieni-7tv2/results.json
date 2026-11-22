@@ -874,7 +874,10 @@
 "game": "ACF Fiorentina vs Como 1907",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 15:30",
@@ -2727,7 +2730,10 @@
 "game": "ACF Fiorentina vs Como 1907",
 "pick": "Goal bounds 2-5+",
 "odds": 1.18,
-"ts": 1795356000.0
+"ts": 1795356000.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sun 15:30",
