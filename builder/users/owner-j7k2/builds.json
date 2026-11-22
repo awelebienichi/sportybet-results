@@ -1,5 +1,79 @@
 [
 {
+"when": "Sun 22 Nov 09:26",
+"at": 1795336017,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "mix",
+"legs": 3,
+"tickets": 1,
+"days": [
+"2026-11-22"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwrkp3ikuove"
+},
+"ok": true,
+"kind": "safest market per game",
+"note": [
+"Chance all 3 legs win: about 67%."
+],
+"tickets": [
+{
+"code": "SZSHSF",
+"odds": 1.28,
+"legs": [
+{
+"t": "Sun 12:00",
+"game": "24Erzincanspor vs Karacabey Belediyespor",
+"lg": "Turkiye Amateur - 2. Lig",
+"pick": "1st half double chance 24Erzincanspor or draw",
+"odds": 1.13,
+"why": "stats rate 100% from both teams' last 10",
+"ts": 1795345200.0,
+"eid": "sr:match:72837938",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72837938|63||9"
+},
+{
+"t": "Sun 14:00",
+"game": "Barcelona vs Villarreal",
+"lg": "Spain - LaLiga",
+"pick": "2nd half Over 0.5",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10",
+"ts": 1795352400.0,
+"eid": "sr:match:72478710",
+"mid": "90",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72478710|90|total=0.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Swift Hesperange vs Atert Bissen",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.06,
+"why": "stats rate 100% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
+"ts": 1795359600.0,
+"eid": "sr:match:72963860",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963860|18|total=1.5|12"
+}
+],
+"chance": 0.674
+}
+]
+},
+{
 "when": "Sun 22 Nov 09:23",
 "at": 1795335796,
 "req": {
@@ -19265,69 +19339,6 @@
 }
 ],
 "chance": 0.7923
-}
-]
-},
-{
-"when": "Sat 21 Nov 06:46",
-"at": 1795240003,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 2,
-"tickets": 1,
-"days": [
-"2026-11-21"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"gb25"
-],
-"rid": "mwpzjaacjb8g"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 2 legs win: about 78%."
-],
-"tickets": [
-{
-"code": "K0PFYK",
-"odds": 1.17,
-"legs": [
-{
-"t": "Sat 10:30",
-"game": "1 FC Nuremberg vs Greuther Furth",
-"lg": "Germany Amateur - U19 DFB Nachwuchsliga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings; Flashscore home/away form 90%",
-"ts": 1795253400.0,
-"eid": "sr:match:73218172",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73218172|450001||25"
-},
-{
-"t": "Sat 13:00",
-"game": "CS Tunari vs FC Petrolul Berca",
-"lg": "Romania - Liga 3",
-"pick": "Goal bounds 2-5+",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 100%",
-"ts": 1795262400.0,
-"eid": "sr:match:74086966",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74086966|450001||25"
-}
-],
-"chance": 0.7777
 }
 ]
 }
