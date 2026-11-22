@@ -34,7 +34,10 @@
 "game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 19:00",
@@ -245,7 +248,10 @@
 "game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 19:00",
@@ -438,7 +444,10 @@
 "game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 01:30",
@@ -1574,7 +1583,10 @@
 "game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -1851,7 +1863,10 @@
 "game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
 "pick": "1. FC Nuremberg excluded goals: 0",
 "odds": 1.11,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 20:00",
@@ -4408,7 +4423,10 @@
 "game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.46,
-"ts": 1795368600.0
+"ts": 1795368600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sun 21:45",
