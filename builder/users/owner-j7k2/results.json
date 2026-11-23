@@ -343,7 +343,7 @@
 "when": "Mon 23 Nov 13:20",
 "kind": "rebuild of TQW009",
 "odds": 1501.89,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:45",
@@ -360,7 +360,10 @@
 "game": "AL Jeel vs AL Saqer FC",
 "pick": "1st half double chance AL Saqer FC or draw",
 "odds": 1.27,
-"ts": 1795444200.0
+"ts": 1795444200.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Mon 16:00",
