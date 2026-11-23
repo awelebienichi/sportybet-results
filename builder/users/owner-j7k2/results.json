@@ -52,7 +52,10 @@
 "game": "FK Neftchi Fargona vs Al Hilal SFC",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795441500.0
+"ts": 1795441500.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 16:00",
@@ -260,8 +263,8 @@
 "odds": 1.22,
 "ts": 1795441500.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "1-2",
+"ht": "0-2"
 }
 ]
 },
@@ -271,14 +274,17 @@
 "when": "Mon 23 Nov 13:34",
 "kind": "goal-fest teams (season data)",
 "odds": 16.49,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:00",
 "game": "Barnsley U21 vs Bolton Wanderers",
 "pick": "Over 2.5",
 "odds": 1.14,
-"ts": 1795438800.0
+"ts": 1795438800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 17:00",
@@ -346,8 +352,8 @@
 "odds": 1.14,
 "ts": 1795441500.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 15:30",
@@ -747,14 +753,17 @@
 "when": "Mon 23 Nov 05:41",
 "kind": "goal-fest teams (season data)",
 "odds": 829.64,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:00",
 "game": "Barnsley U21 vs Bolton Wanderers",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795438800.0
+"ts": 1795438800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 20:45",
@@ -897,14 +906,17 @@
 "when": "Mon 23 Nov 05:37",
 "kind": "combined ZGPKAF + V3L14R",
 "odds": 6573.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:00",
 "game": "Barnsley U21 vs Bolton Wanderers",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.2,
-"ts": 1795438800.0
+"ts": 1795438800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 20:45",
@@ -1290,14 +1302,17 @@
 "when": "Mon 23 Nov 00:14",
 "kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
 "odds": 178.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:00",
 "game": "Barnsley U21 vs Bolton Wanderers",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795438800.0
+"ts": 1795438800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 20:45",
@@ -1438,7 +1453,7 @@
 "when": "Sun 22 Nov 20:29",
 "kind": "goal-fest teams (season data)",
 "odds": 55.61,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 00:15",
@@ -1475,7 +1490,10 @@
 "game": "Barnsley U21 vs Bolton Wanderers",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1795438800.0
+"ts": 1795438800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 17:00",
@@ -2046,7 +2064,7 @@
 "when": "Sun 22 Nov 15:08",
 "kind": "goal-fest teams (season data)",
 "odds": 16.83,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sun 16:00",
@@ -2133,7 +2151,10 @@
 "game": "Barnsley U21 vs Bolton Wanderers",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795438800.0
+"ts": 1795438800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Mon 17:00",
