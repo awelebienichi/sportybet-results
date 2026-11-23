@@ -1,5 +1,80 @@
 [
 {
+"when": "Mon 23 Nov 15:16",
+"at": 1795443398,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "htdrawweak",
+"legs": 5,
+"tickets": 1,
+"days": [
+"2026-11-23"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwtcme67d978"
+},
+"ok": true,
+"kind": "half-time draw \u2013 weak teams",
+"note": [
+"Only 3 games passed the checks (Mon 23, 68 games on SportyBet), so this ticket has 3 legs instead of 5. Tick more days or use 'Relaxed' for more.",
+"Chance all 3 legs win: about 7%."
+],
+"tickets": [
+{
+"code": "MCVXSV",
+"odds": 12.97,
+"legs": [
+{
+"t": "Mon 18:00",
+"game": "NK Slaven Belupo vs NK Osijek",
+"lg": "Croatia - HNL",
+"pick": "Half-time draw",
+"odds": 2.3,
+"why": "two weak sides (won 30% / 20% of last 10), level at half-time 60% / 50%",
+"ts": 1795453200.0,
+"eid": "sr:match:71913138",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "71913138|60||2"
+},
+{
+"t": "Mon 19:00",
+"game": "Orgryte IS vs Kalmar FF",
+"lg": "Sweden - Allsvenskan",
+"pick": "Half-time draw",
+"odds": 2.35,
+"why": "two weak sides (won 10% / 20% of last 10), level at half-time 70% / 60%",
+"ts": 1795456800.0,
+"eid": "sr:match:67126892",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "67126892|60||2"
+},
+{
+"t": "Mon 21:00",
+"game": "Levante vs Elche CF",
+"lg": "Spain - LaLiga",
+"pick": "Half-time draw",
+"odds": 2.4,
+"why": "two weak sides (won 20% / 30% of last 10), level at half-time 50% / 60%",
+"ts": 1795464000.0,
+"eid": "sr:match:72478714",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72478714|60||2"
+}
+],
+"chance": 0.0666
+}
+]
+},
+{
 "when": "Mon 23 Nov 13:52",
 "at": 1795438364,
 "req": {
@@ -9138,83 +9213,6 @@
 }
 ],
 "chance": 0.5543
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:25",
-"at": 1795343141,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"h1u25"
-],
-"rid": "mwrox8b3kp64"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 3 legs win: about 69%."
-],
-"tickets": [
-{
-"code": "WVBNJQ",
-"odds": 1.25,
-"legs": [
-{
-"t": "Sun 17:30",
-"game": "US Sambenedettese vs Perugia Calcio Spa",
-"lg": "Italy - Serie C, Group B",
-"pick": "1st half Under 2.5",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1795365000.0,
-"eid": "sr:match:73294112",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73294112|68|total=2.5|13"
-},
-{
-"t": "Sun 17:30",
-"game": "Wisla Plock vs Legia Warszawa",
-"lg": "Poland - Ekstraklasa",
-"pick": "1st half Under 2.5",
-"odds": 1.08,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings",
-"ts": 1795365000.0,
-"eid": "sr:match:72043342",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72043342|68|total=2.5|13"
-},
-{
-"t": "Sun 22:30",
-"game": "LDU Quito vs SD Aucas",
-"lg": "Ecuador - LigaPro Primera A",
-"pick": "1st half Under 2.5",
-"odds": 1.08,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1795383000.0,
-"eid": "sr:match:74735118",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "74735118|68|total=2.5|13"
-}
-],
-"chance": 0.6922
 }
 ]
 }
