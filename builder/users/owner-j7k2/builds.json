@@ -1,5 +1,383 @@
 [
 {
+"when": "Mon 23 Nov 05:37",
+"at": 1795408670,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "combine",
+"codes": [
+"ZGPKAF",
+"V3L14R"
+],
+"rid": "mwsryksk9k26"
+},
+"ok": true,
+"kind": "combined ZGPKAF + V3L14R",
+"note": [
+"Chance all 25 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "JA8CDZ",
+"odds": 6573.06,
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.2,
+"why": "from V3L14R",
+"ts": 1795438800.0,
+"eid": "sr:match:73601844",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601844|18|total=2.5|12"
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"lg": "Italy - Serie A",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.58,
+"why": "from V3L14R",
+"ts": 1795463100.0,
+"eid": "sr:match:71945418",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71945418|18|total=2.5|12"
+},
+{
+"t": "Tue 03:05",
+"game": "Deportiva Venados vs Reboceros de La Piedad",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.53,
+"why": "from V3L14R",
+"ts": 1795485900.0,
+"eid": "sr:match:74100804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74100804|18|total=2.5|12"
+},
+{
+"t": "Tue 18:30",
+"game": "Durban City FC vs Polokwane City",
+"lg": "South Africa - Premiership",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.59,
+"why": "from ZGPKAF",
+"ts": 1795541400.0,
+"eid": "sr:match:73258884",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73258884|68|total=0.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.3,
+"why": "from ZGPKAF",
+"ts": 1795636800.0,
+"eid": "sr:match:74166048",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74166048|68|total=0.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Gent vs Crvena Zvezda",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.38,
+"why": "from ZGPKAF",
+"ts": 1795723200.0,
+"eid": "sr:match:74173340",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74173340|68|total=0.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.5,
+"why": "from ZGPKAF",
+"ts": 1795802400.0,
+"eid": "sr:match:72531690",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72531690|68|total=0.5|12"
+},
+{
+"t": "Sat 08:30",
+"game": "Bucheon FC 1995 vs Gimcheon Sangmu FC",
+"lg": "Republic of Korea - K-League 1",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.36,
+"why": "from ZGPKAF",
+"ts": 1795851000.0,
+"eid": "sr:match:76045182",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76045182|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Patro Eisden Maasmechelen vs Jeugd KAA Gent B",
+"lg": "Belgium - Challenger Pro League",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.29,
+"why": "from ZGPKAF",
+"ts": 1795878000.0,
+"eid": "sr:match:72302238",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72302238|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "KVC Westerlo vs RAAL La Louviere",
+"lg": "Belgium - Pro League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.63,
+"why": "from V3L14R",
+"ts": 1795878000.0,
+"eid": "sr:match:72366486",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72366486|18|total=2.5|12"
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"lg": "Germany - 3. Liga",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.49,
+"why": "from V3L14R",
+"ts": 1795879800.0,
+"eid": "sr:match:72680326",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72680326|18|total=2.5|12"
+},
+{
+"t": "Sat 16:45",
+"game": "PFC Cherno More Varna vs Botev Plovdiv",
+"lg": "Bulgaria - Parva Liga",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.44,
+"why": "from ZGPKAF",
+"ts": 1795880700.0,
+"eid": "sr:match:71998284",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "71998284|68|total=0.5|12"
+},
+{
+"t": "Sat 17:30",
+"game": "Blau-Weiss Linz vs SK Sturm Graz II",
+"lg": "Austria - 2. Liga",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"why": "from V3L14R",
+"ts": 1795883400.0,
+"eid": "sr:match:72440782",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72440782|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"lg": "Italy - Serie A",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.41,
+"why": "from ZGPKAF",
+"ts": 1795885200.0,
+"eid": "sr:match:71945440",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "71945440|68|total=0.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Grasshopper Club Zurich vs Basel",
+"lg": "Switzerland - Super League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.46,
+"why": "from V3L14R",
+"ts": 1795885200.0,
+"eid": "sr:match:74375420",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74375420|18|total=2.5|12"
+},
+{
+"t": "Sat 20:00",
+"game": "KSC Lokeren Temse vs K Beerschot VA",
+"lg": "Belgium - Challenger Pro League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.57,
+"why": "from V3L14R",
+"ts": 1795892400.0,
+"eid": "sr:match:72302234",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72302234|18|total=2.5|12"
+},
+{
+"t": "Sat 20:45",
+"game": "Le Havre vs Strasbourg",
+"lg": "France - Ligue 1",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.6,
+"why": "from V3L14R",
+"ts": 1795895100.0,
+"eid": "sr:match:72036316",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72036316|18|total=2.5|12"
+},
+{
+"t": "Sun 00:30",
+"game": "Colo-Colo vs Deportes La Serena",
+"lg": "Chile - Primera Division",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.23,
+"why": "from ZGPKAF",
+"ts": 1795908600.0,
+"eid": "sr:match:67682122",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "67682122|68|total=0.5|12"
+},
+{
+"t": "Sun 11:30",
+"game": "Pendikspor vs Igdir FK",
+"lg": "Turkiye - 1. Lig",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.39,
+"why": "from ZGPKAF",
+"ts": 1795948200.0,
+"eid": "sr:match:72735930",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72735930|68|total=0.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "FC Luzern vs Lugano",
+"lg": "Switzerland - Super League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"why": "from V3L14R",
+"ts": 1795957200.0,
+"eid": "sr:match:74379778",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379778|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Salzburg vs LASK Linz",
+"lg": "Austria - Bundesliga",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"why": "from V3L14R",
+"ts": 1795968000.0,
+"eid": "sr:match:72345594",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72345594|18|total=2.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"lg": "Germany - Bundesliga",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"why": "from V3L14R",
+"ts": 1795969800.0,
+"eid": "sr:match:72513332",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72513332|18|total=2.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "Roma vs Monza",
+"lg": "Italy - Serie A",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"why": "from V3L14R",
+"ts": 1795971600.0,
+"eid": "sr:match:71945436",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71945436|18|total=2.5|12"
+},
+{
+"t": "Sun 19:15",
+"game": "Sporting Hasselt vs RFC Liege",
+"lg": "Belgium - Challenger Pro League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.45,
+"why": "from V3L14R",
+"ts": 1795976100.0,
+"eid": "sr:match:72302232",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72302232|18|total=2.5|12"
+},
+{
+"t": "Sun 21:30",
+"game": "Porto vs Sporting",
+"lg": "Portugal - Liga Portugal",
+"pick": "1st Half - Over/Under \u2013 Over 0.5",
+"odds": 1.39,
+"why": "from ZGPKAF",
+"ts": 1795984200.0,
+"eid": "sr:match:72531030",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72531030|68|total=0.5|12"
+}
+],
+"chance": 0.0
+}
+]
+},
+{
 "when": "Mon 23 Nov 05:34",
 "at": 1795408462,
 "req": {
@@ -7597,80 +7975,6 @@
 }
 ],
 "chance": 0.7053
-}
-]
-},
-{
-"when": "Sun 22 Nov 09:26",
-"at": 1795336017,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "mix",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrkp3ikuove"
-},
-"ok": true,
-"kind": "safest market per game",
-"note": [
-"Chance all 3 legs win: about 67%."
-],
-"tickets": [
-{
-"code": "SZSHSF",
-"odds": 1.28,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "24Erzincanspor vs Karacabey Belediyespor",
-"lg": "Turkiye Amateur - 2. Lig",
-"pick": "1st half double chance 24Erzincanspor or draw",
-"odds": 1.13,
-"why": "stats rate 100% from both teams' last 10",
-"ts": 1795345200.0,
-"eid": "sr:match:72837938",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72837938|63||9"
-},
-{
-"t": "Sun 14:00",
-"game": "Barcelona vs Villarreal",
-"lg": "Spain - LaLiga",
-"pick": "2nd half Over 0.5",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1795352400.0,
-"eid": "sr:match:72478710",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72478710|90|total=0.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Swift Hesperange vs Atert Bissen",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 1.5",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963860",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72963860|18|total=1.5|12"
-}
-],
-"chance": 0.674
 }
 ]
 }
