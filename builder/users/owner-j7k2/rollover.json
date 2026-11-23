@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-23",
+"day": 1,
+"code": "UE4JHN",
+"stake": 1000.0,
+"odds": 6.37,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-22",
 "day": 1,
 "code": "VPK9XM",
@@ -58,7 +67,7 @@
 "odds": 6.37,
 "stake": 1000.0,
 "n": 12,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-20",
 "short": "lower",
