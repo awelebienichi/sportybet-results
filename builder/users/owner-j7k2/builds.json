@@ -1,5 +1,25 @@
 [
 {
+"when": "Mon 23 Nov 13:13",
+"at": 1795435981,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-23"
+],
+"strict": "normal",
+"from": "22:00",
+"to": "06:00",
+"rid": "mwt882bf4uev"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Mon 23, 22:00\u201306:00) out of 8 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Mon 23 Nov 10:00",
 "at": 1795424433,
 "req": {
@@ -8422,80 +8442,6 @@
 }
 ],
 "chance": 0.6926
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:12",
-"at": 1795342375,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "h1o05",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrohh66qs7f"
-},
-"ok": true,
-"kind": "1st half Over 0.5",
-"note": [
-"Chance all 3 legs win: about 50%."
-],
-"tickets": [
-{
-"code": "SKQ03T",
-"odds": 1.71,
-"legs": [
-{
-"t": "Sun 13:00",
-"game": "Rayong FC vs Rasisalai United",
-"lg": "Thailand - Thai League 1",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"why": "TOP TIER: goal in the 1st half in 90% of Rayong FC's last 10 and 90% of Rasisalai United's last 10",
-"ts": 1795348800.0,
-"eid": "sr:match:72942584",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72942584|68|total=0.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "Ajax vs ADO Den Haag",
-"lg": "Netherlands - Eredivisie",
-"pick": "1st half Over 0.5",
-"odds": 1.16,
-"why": "TOP TIER: goal in the 1st half in 90% of Ajax's last 10 and 90% of ADO Den Haag's last 10",
-"ts": 1795354200.0,
-"eid": "sr:match:72041248",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72041248|68|total=0.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "Trabzonspor vs Eyupspor",
-"lg": "Turkiye - Super Lig",
-"pick": "1st half Over 0.5",
-"odds": 1.18,
-"why": "TOP TIER: goal in the 1st half in 100% of Trabzonspor's last 10 and 100% of Eyupspor's last 9",
-"ts": 1795363200.0,
-"eid": "sr:match:72723322",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72723322|68|total=0.5|12"
-}
-],
-"chance": 0.5049
 }
 ]
 }
