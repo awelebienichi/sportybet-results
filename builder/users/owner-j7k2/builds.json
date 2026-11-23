@@ -1,5 +1,66 @@
 [
 {
+"when": "Mon 23 Nov 13:37",
+"at": 1795437444,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1o05",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-23"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwt93bxuu4hf"
+},
+"ok": true,
+"kind": "1st half Over 0.5",
+"note": [
+"Only 2 games passed the checks (Mon 23, 88 games on SportyBet), so this ticket has 2 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 2 legs win: about 68%."
+],
+"tickets": [
+{
+"code": "YMXTC2",
+"odds": 1.34,
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "1st half Over 0.5",
+"odds": 1.1,
+"why": "goal in the 1st half in 100% of Barnsley U21's last 10 and 80% of Bolton Wanderers's last 10",
+"ts": 1795438800.0,
+"eid": "sr:match:73601844",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73601844|68|total=0.5|12"
+},
+{
+"t": "Mon 14:45",
+"game": "FK Neftchi Fargona vs Al Hilal SFC",
+"lg": "International Clubs - AFC Champions League Elite",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"why": "TOP TIER: goal in the 1st half in 80% of FK Neftchi Fargona's last 10 and 90% of Al Hilal SFC's last 10",
+"ts": 1795441500.0,
+"eid": "sr:match:73835890",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73835890|68|total=0.5|12"
+}
+],
+"chance": 0.6759
+}
+]
+},
+{
 "when": "Mon 23 Nov 13:34",
 "at": 1795437290,
 "req": {
@@ -8803,83 +8864,6 @@
 }
 ],
 "chance": 0.7253
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:21",
-"at": 1795342900,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "markets",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"gb25"
-],
-"rid": "mwrospeduve2"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 3 legs win: about 72%."
-],
-"tickets": [
-{
-"code": "WXSVZF",
-"odds": 1.2,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "CF Valencia vs FC Cartagena",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Goal bounds 2-5+",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10",
-"ts": 1795345200.0,
-"eid": "sr:match:72885890",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72885890|450001||25"
-},
-{
-"t": "Sun 15:00",
-"game": "Stoke City U21 vs Stockport County Reserves",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Goal bounds 2-5+",
-"odds": 1.06,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90%",
-"ts": 1795356000.0,
-"eid": "sr:match:73685108",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "73685108|450001||25"
-},
-{
-"t": "Sun 16:00",
-"game": "RB Leipzig vs VfL Wolfsburg W",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Goal bounds 2-5+",
-"odds": 1.06,
-"why": "stats rate 96% from both teams' last 10 and 6 meetings; Flashscore home/away form 100%, FotMob: 4.0 goals a game, Vitibet tip 1-2",
-"ts": 1795359600.0,
-"eid": "sr:match:72961102",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "72961102|450001||25"
-}
-],
-"chance": 0.7185
 }
 ]
 }
