@@ -1,5 +1,100 @@
 [
 {
+"when": "Mon 23 Nov 06:47",
+"at": 1795412836,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "lowbounce",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-23",
+"2026-11-24",
+"2026-11-25",
+"2026-11-26",
+"2026-11-27",
+"2026-11-28",
+"2026-11-29"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwsuffxmjyl5"
+},
+"ok": true,
+"kind": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)",
+"note": [
+"Only 4 games passed the checks (Mon 23, Tue 24, Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, 733 games on SportyBet), so this ticket has 4 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 4 legs win: about 16%."
+],
+"tickets": [
+{
+"code": "QHBUD4",
+"odds": 5.05,
+"legs": [
+{
+"t": "Mon 14:45",
+"game": "Shenavar Sazi Qeshm vs Naft Gachsaran",
+"lg": "Iran - Azadegan League",
+"pick": "Under 2.5",
+"odds": 1.33,
+"why": "season: 1.7 and 1.8 goals a game; last games Shenavar Sazi Qeshm 2-3, Naft Gachsaran 1-0 (back to low); last 10 rate 70%; Flashscore home/away form 60%, FotMob: 1.8 goals a game",
+"ts": 1795441500.0,
+"eid": "sr:match:76638378",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76638378|18|total=2.5|13"
+},
+{
+"t": "Tue 16:00",
+"game": "Smouha SC vs National Bank of Egypt SC",
+"lg": "Egypt - Premier League",
+"pick": "Under 2.5",
+"odds": 1.43,
+"why": "season: 1.2 and 2.2 goals a game; last games Smouha SC 0-1, National Bank of Egypt SC 4-1 (back to low); last 10 rate 80%; Flashscore home/away form 90%, footybets 69%, FotMob: 1.8 goals a game",
+"ts": 1795532400.0,
+"eid": "sr:match:73463722",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73463722|18|total=2.5|13"
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "Under 2.5",
+"odds": 1.57,
+"why": "season: 1.6 and 1.5 goals a game; last games CD Feirense 2-2, Portimonense SC 0-1 (back to low); last 10 rate 70%; FotMob: 1.6 goals a game, season: 1.6 goals a game",
+"ts": 1795802400.0,
+"eid": "sr:match:72531690",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72531690|18|total=2.5|13"
+},
+{
+"t": "Sat 15:00",
+"game": "Ascoli Calcio 1898 vs Virtus Entella",
+"lg": "Italy - Serie B",
+"pick": "Under 2.5",
+"odds": 1.69,
+"why": "season: 2.3 and 2.2 goals a game; last games Ascoli Calcio 1898 2-2, Virtus Entella 0-1 (back to low); last 10 rate 70%; Vitibet tip 1-0",
+"ts": 1795874400.0,
+"eid": "sr:match:73093162",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73093162|18|total=2.5|13"
+}
+],
+"chance": 0.163
+}
+]
+},
+{
 "when": "Mon 23 Nov 05:42",
 "at": 1795408949,
 "req": {
@@ -8285,183 +8380,6 @@
 }
 ],
 "chance": 0.7143
-}
-]
-},
-{
-"when": "Sun 22 Nov 10:01",
-"at": 1795338066,
-"req": {
-"type": "rollover",
-"legs": 11,
-"rid": null
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a61,000 \u2192 returns \u20a66,540 if it wins"
-],
-"tickets": [
-{
-"code": "VPK9XM",
-"odds": 6.54,
-"legs": [
-{
-"t": "Sun 11:00",
-"game": "Kahramanmaras Istiklalspor vs Adana 1954 FK",
-"lg": "Turkiye Amateur - 2. Lig",
-"pick": "1st half double chance Kahramanmaras Istiklalspor or draw",
-"odds": 1.22,
-"why": "stats rate 90% from both teams' last 10 (1st-half rollover)",
-"ts": 1795341600.0,
-"eid": "sr:match:72837944",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72837944|63||9"
-},
-{
-"t": "Sun 11:30",
-"game": "Anagennisi Karditsas 1904 vs Kallithea FC",
-"lg": "Greece - Super League 2",
-"pick": "1st half double chance Kallithea FC or draw",
-"odds": 1.17,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795343400.0,
-"eid": "sr:match:74172560",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "74172560|63||11"
-},
-{
-"t": "Sun 12:00",
-"game": "FC Bregalnica 2008 AD vs FC Struga Trim Lum",
-"lg": "North Macedonia - 1. MFL",
-"pick": "1st half double chance FC Struga Trim Lum or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795345200.0,
-"eid": "sr:match:72045834",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72045834|63||11"
-},
-{
-"t": "Sun 12:15",
-"game": "SC Heerenveen vs ADO Den Haag",
-"lg": "Netherlands - Eredivisie, Women",
-"pick": "1st half double chance SC Heerenveen or draw",
-"odds": 1.19,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795346100.0,
-"eid": "sr:match:72467530",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72467530|63||9"
-},
-{
-"t": "Sun 13:30",
-"game": "KV Waasland-Beveren vs Gent",
-"lg": "Belgium - Pro League",
-"pick": "1st half double chance Gent or draw",
-"odds": 1.22,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795350600.0,
-"eid": "sr:match:72366458",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "72366458|63||11"
-},
-{
-"t": "Sun 14:00",
-"game": "Blauw Geel 38 vs Groene Ster",
-"lg": "Netherlands - Derde Divisie",
-"pick": "1st half double chance Blauw Geel 38 or draw",
-"odds": 1.16,
-"why": "stats rate 95% from both teams' last 10 (1st-half rollover)",
-"ts": 1795352400.0,
-"eid": "sr:match:72596248",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72596248|63||9"
-},
-{
-"t": "Sun 14:00",
-"game": "Bangu AC RJ vs Madureira EC RJ",
-"lg": "Brazil - U20 Carioca, Serie A",
-"pick": "1st half double chance Bangu AC RJ or draw",
-"odds": 1.22,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795352400.0,
-"eid": "sr:match:76846036",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76846036|63||9"
-},
-{
-"t": "Sun 15:00",
-"game": "Bologna vs Udinese",
-"lg": "Italy - Serie A",
-"pick": "1st half double chance Bologna or draw",
-"odds": 1.18,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795356000.0,
-"eid": "sr:match:71945408",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "71945408|63||9"
-},
-{
-"t": "Sun 15:00",
-"game": "FC Vizela vs CD Feirense",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "1st half double chance FC Vizela or draw",
-"odds": 1.19,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795356000.0,
-"eid": "sr:match:76536152",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76536152|63||9"
-},
-{
-"t": "Sun 22:00",
-"game": "Nashville SC vs FC Cincinnati",
-"lg": "USA - MLS",
-"pick": "1st half double chance Nashville SC or draw",
-"odds": 1.16,
-"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795381200.0,
-"eid": "sr:match:76907548",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76907548|63||9"
-},
-{
-"t": "Sun 22:30",
-"game": "Fluminense FC RJ vs Mirassol FC SP",
-"lg": "Brazil - Brasileiro Serie A",
-"pick": "1st half double chance Fluminense FC RJ or draw",
-"odds": 1.16,
-"why": "stats rate 90% from both teams' last 10 and 3 meetings (1st-half rollover)",
-"ts": 1795383000.0,
-"eid": "sr:match:66887178",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "66887178|63||9"
-}
-],
-"chance": 0.0894
 }
 ]
 }
