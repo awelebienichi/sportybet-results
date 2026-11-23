@@ -2,6 +2,212 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GKHD05",
+"at": 1795438364,
+"when": "Mon 23 Nov 13:52",
+"kind": "rebuild of J4XY7V",
+"odds": 997.46,
+"status": "open",
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"pick": "1st half double chance Bolton Wanderers or draw",
+"odds": 1.47,
+"ts": 1795438800.0
+},
+{
+"t": "Mon 14:45",
+"game": "FK Neftchi Fargona vs Al Hilal SFC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795441500.0
+},
+{
+"t": "Mon 16:00",
+"game": "Wadi Degla SC vs Al Ittihad Alexandria Club",
+"pick": "1st half double chance Wadi Degla SC or draw",
+"odds": 1.23,
+"ts": 1795446000.0
+},
+{
+"t": "Mon 16:00",
+"game": "Asteras Tripolis vs Aris Thessaloniki",
+"pick": "1st half double chance Aris Thessaloniki or draw",
+"odds": 1.22,
+"ts": 1795446000.0
+},
+{
+"t": "Mon 17:00",
+"game": "Al Ain FC vs Esteghlal FC Tehran",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1795449600.0
+},
+{
+"t": "Mon 17:00",
+"game": "Tractor Tabriz vs Al Wasl FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.18,
+"ts": 1795449600.0
+},
+{
+"t": "Mon 17:00",
+"game": "Ludogorets vs FC Dunav Ruse",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795449600.0
+},
+{
+"t": "Mon 17:30",
+"game": "FC Koper vs Aluminij Kidricevo",
+"pick": "1st half GG \u2013 No",
+"odds": 1.2,
+"ts": 1795451400.0
+},
+{
+"t": "Mon 17:45",
+"game": "Ben Aknoun vs USM Alger",
+"pick": "1st half double chance USM Alger or draw",
+"odds": 1.19,
+"ts": 1795452300.0
+},
+{
+"t": "Mon 18:00",
+"game": "NK Slaven Belupo vs NK Osijek",
+"pick": "1st half double chance NK Osijek or draw",
+"odds": 1.33,
+"ts": 1795453200.0
+},
+{
+"t": "Mon 19:00",
+"game": "Orgryte IS vs Kalmar FF",
+"pick": "1st half double chance Kalmar FF or draw",
+"odds": 1.24,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:00",
+"game": "Broendby IF vs FC Midtjylland",
+"pick": "1st half double chance FC Midtjylland or draw",
+"odds": 1.37,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:00",
+"game": "ACS Sepsi OSK Sfantu Gheorghe vs Rapid Bucuresti 1923",
+"pick": "1st half double chance Rapid Bucuresti 1923 or draw",
+"odds": 1.19,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:00",
+"game": "Wieczysta Krakow vs LKP Motor Lublin",
+"pick": "1st half double chance Wieczysta Krakow or draw",
+"odds": 1.38,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:00",
+"game": "JS Kabylie vs MC Alger",
+"pick": "1st half double chance JS Kabylie or draw",
+"odds": 1.17,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:00",
+"game": "Hammarby IF vs IFK Goteborg",
+"pick": "1st half double chance Hammarby IF or draw",
+"odds": 1.07,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:15",
+"game": "Al-Ittihad Club vs Pakhtakor",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795457700.0
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795458600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
+"pick": "1st half GG \u2013 No",
+"odds": 1.45,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Bournemouth U21 vs Leicester City U21",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Newcastle United U21 vs Nottingham Forest U21",
+"pick": "1st half double chance Newcastle United U21 or draw",
+"odds": 1.38,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cdt Real Oruro vs Guabira Montero",
+"pick": "1st half Under 2.5",
+"odds": 1.24,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Wolverhampton Wanderers U21 vs Preston North End Reserves",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Jong PSV Eindhoven vs Jong FC Utrecht",
+"pick": "1st half double chance Jong FC Utrecht or draw",
+"odds": 1.44,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Brighton & Hove Albion U21 vs West Ham U21",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795463100.0
+},
+{
+"t": "Mon 21:00",
+"game": "Brentford vs Everton",
+"pick": "1st half double chance Everton or draw",
+"odds": 1.41,
+"ts": 1795464000.0
+},
+{
+"t": "Mon 21:00",
+"game": "Levante vs Elche CF",
+"pick": "1st half double chance Elche CF or draw",
+"odds": 1.45,
+"ts": 1795464000.0
+}
+]
+},
+{
 "code": "YMXTC2",
 "at": 1795437444,
 "when": "Mon 23 Nov 13:37",
@@ -78135,142 +78341,6 @@
 "pick": "Half-time draw",
 "odds": 1.92,
 "ts": 1794589200.0
-}
-]
-},
-{
-"code": "TECAE5",
-"at": 1794438158,
-"when": "Thu 12 Nov 00:02",
-"kind": "combined SU5QG1 + JBBZ6N + Q4ZSBT + NLZCKQ + XLXWMQ + LSKAFX + XUWCJY + KRPG3U + PWMDHS + T6DU15 + PX1ANL + TL2G7N + Q67D4N + JX4GZS + REEXJ8 + JEDZW7 + X3TC1C + MDZFN9 + P1NPB9 + T2QZU0 + TXGUEL + U944JV",
-"odds": 135.48,
-"status": "open",
-"legs": [
-{
-"t": "Sun 14:30",
-"game": "Spezia Calcio vs Vado FC",
-"pick": "1X2 \u2013 Home",
-"odds": 1.3,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 14:30",
-"game": "Delfino Pescara vs US Sambenedettese",
-"pick": "2nd Half - Delfino Pescara Over/Under \u2013 Over 0.5",
-"odds": 1.42,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 14:30",
-"game": "Guidonia Montecelio 1937 FC vs AS Ostiamare",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.31,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 14:30",
-"game": "MVV Maastricht vs Vitesse Arnhem",
-"pick": "MVV Maastricht Over/Under \u2013 Under 2.5",
-"odds": 1.15,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 14:30",
-"game": "Salernitana vs Catania FC",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.3,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 15:00",
-"game": "West Ham United FC Women vs Charlton Athletic",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.7,
-"ts": 1794751200.0
-},
-{
-"t": "Sun 15:00",
-"game": "GKS Tychy vs Rekord Bielsko Biala",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.46,
-"ts": 1794751200.0
-},
-{
-"t": "Sun 15:00",
-"game": "FK Sochi vs FC Shinnik Yaroslavl",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.33,
-"ts": 1794751200.0
-},
-{
-"t": "Sun 16:30",
-"game": "FC Penafiel vs Lusitania FC Lourosa",
-"pick": "1st Half - Over/Under \u2013 Over 0.5",
-"odds": 1.43,
-"ts": 1794756600.0
-},
-{
-"t": "Sun 17:30",
-"game": "Ravenna FC 1913 vs Forli FC",
-"pick": "1st half - Ravenna FC 1913 Over/Under \u2013 Over 0.5",
-"odds": 1.47,
-"ts": 1794760200.0
-},
-{
-"t": "Sun 17:30",
-"game": "AS Cittadella vs US Folgore Caratese",
-"pick": "2nd Half - AS Cittadella Over/Under \u2013 Over 0.5",
-"odds": 1.46,
-"ts": 1794760200.0
-},
-{
-"t": "Sun 17:30",
-"game": "Juventus Next Gen vs Treviso FBC 1993",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.08,
-"ts": 1794760200.0
-},
-{
-"t": "Sun 18:30",
-"game": "Eibar vs Cadiz",
-"pick": "2nd Half - Over/Under \u2013 Over 0.5",
-"odds": 1.21,
-"ts": 1794763800.0
-},
-{
-"t": "Sun 19:00",
-"game": "Deportivo Moron vs CA Colegiales",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.12,
-"ts": 1794765600.0
-},
-{
-"t": "Sun 20:30",
-"game": "Danubio FC vs Liverpool Montevideo",
-"pick": "1st Half - Over/Under \u2013 Under 2.5",
-"odds": 1.07,
-"ts": 1794771000.0
-},
-{
-"t": "Sun 20:45",
-"game": "Croatia vs Czechia",
-"pick": "2nd Half - Over/Under \u2013 Over 0.5",
-"odds": 1.22,
-"ts": 1794771900.0
-},
-{
-"t": "Sun 20:45",
-"game": "Spain vs England",
-"pick": "1X2 \u2013 Home",
-"odds": 1.6,
-"ts": 1794771900.0
-},
-{
-"t": "Sun 20:45",
-"game": "France vs Turkiye",
-"pick": "1X2 \u2013 Home",
-"odds": 1.21,
-"ts": 1794771900.0
 }
 ]
 }
