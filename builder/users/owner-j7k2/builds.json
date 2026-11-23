@@ -1,5 +1,21 @@
 [
 {
+"when": "Mon 23 Nov 13:15",
+"at": 1795436136,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "combine",
+"codes": [
+"RLNZAW",
+"RLNZAW"
+],
+"rid": "mwt8bflv3yr4"
+},
+"ok": false,
+"msg": "Enter at least two booking codes to combine."
+},
+{
 "when": "Mon 23 Nov 13:13",
 "at": 1795435981,
 "req": {
@@ -8368,80 +8384,6 @@
 }
 ],
 "chance": 0.5086
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:14",
-"at": 1795342461,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o15",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrojcxgki0s"
-},
-"ok": true,
-"kind": "Over 1.5",
-"note": [
-"Chance all 3 legs win: about 69%."
-],
-"tickets": [
-{
-"code": "KBQLZ4",
-"odds": 1.25,
-"legs": [
-{
-"t": "Sun 16:00",
-"game": "Swift Hesperange vs Atert Bissen",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 1.5",
-"odds": 1.06,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 100% of 6 meetings, league avg 4.0 goals; Flashscore home/away form 95%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963860",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72963860|18|total=1.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Servette Geneva W vs FC St. Gallen-Staad",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 1.5",
-"odds": 1.06,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 88% of 8 meetings, league avg 4.4 goals; Flashscore home/away form 80%, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72652098",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72652098|18|total=1.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "FC Zurich vs FC Yverdon",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 1.5",
-"odds": 1.11,
-"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, 100% of 5 meetings, league avg 4.4 goals; Flashscore home/away form 80%, season: 3.8 goals a game",
-"ts": 1795361400.0,
-"eid": "sr:match:72652104",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72652104|18|total=1.5|12"
-}
-],
-"chance": 0.6926
 }
 ]
 }
