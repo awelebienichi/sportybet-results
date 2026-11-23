@@ -1,5 +1,323 @@
 [
 {
+"when": "Mon 23 Nov 05:42",
+"at": 1795408949,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-23",
+"2026-11-24",
+"2026-11-25",
+"2026-11-26",
+"2026-11-27",
+"2026-11-28",
+"2026-11-29"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwss4itm3rgx"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Chance all 20 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "YPS4PG",
+"odds": 829.64,
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.2,
+"why": "season: 5.0 and 3.8 goals a game (9/10 games); last 10 rate 75%; Flashscore home/away form 60%, season: 4.4 goals a game",
+"ts": 1795438800.0,
+"eid": "sr:match:73601844",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601844|18|total=2.5|12"
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"lg": "Italy - Serie A",
+"pick": "Over 2.5",
+"odds": 1.58,
+"why": "season: 3.8 and 3.8 goals a game (11/11 games); last 10 rate 85%; Flashscore home/away form 70%, footybets 89%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795463100.0,
+"eid": "sr:match:71945418",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71945418|18|total=2.5|12"
+},
+{
+"t": "Tue 03:05",
+"game": "Deportiva Venados vs Reboceros de La Piedad",
+"lg": "Mexico - Liga Primera Premier",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "season: 3.7 and 3.0 goals a game (11/11 games); last 10 rate 80%; Flashscore home/away form 70%",
+"ts": 1795485900.0,
+"eid": "sr:match:74100804",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74100804|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Ebbsfleet United FC vs Billericay Town",
+"lg": "England Amateur - National League South",
+"pick": "Over 2.5",
+"odds": 1.45,
+"why": "season: 3.2 and 3.6 goals a game (17/16 games); last 10 rate 89%; Flashscore home/away form 60%",
+"ts": 1795549500.0,
+"eid": "sr:match:72758342",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72758342|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Slough Town vs Farnborough FC",
+"lg": "England Amateur - National League South",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "season: 3.7 and 3.1 goals a game (17/17 games); last 10 rate 75%; Flashscore home/away form 50%",
+"ts": 1795549500.0,
+"eid": "sr:match:72758356",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72758356|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Telford United vs Buxton FC",
+"lg": "England Amateur - National League North",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "season: 2.7 and 3.7 goals a game (17/17 games); last 10 rate 85%; Flashscore home/away form 70%",
+"ts": 1795549500.0,
+"eid": "sr:match:72759492",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72759492|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Forest Green Rovers vs Southend United",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.37,
+"why": "season: 3.5 and 4.1 goals a game (15/18 games); last 10 rate 73%; Flashscore home/away form 75%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:72740848",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740848|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "FC Groningen vs Willem II Tilburg",
+"lg": "Netherlands - Eredivisie",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 4.7 and 4.2 goals a game (13/13 games); last 10 rate 75%; FotMob: 4.4 goals a game, season: 4.4 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:72041270",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72041270|18|total=2.5|12"
+},
+{
+"t": "Sat 02:00",
+"game": "Columbus Crew vs Inter Miami CF",
+"lg": "USA - MLS",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "season: 3.3 and 4.1 goals a game (34/34 games); last 10 rate 80%",
+"ts": 1795827600.0,
+"eid": "sr:match:76609140",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76609140|18|total=2.5|12"
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"lg": "Germany - 3. Liga",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 3.3 and 3.8 goals a game (14/14 games); last 10 rate 80%; FotMob: 3.5 goals a game",
+"ts": 1795879800.0,
+"eid": "sr:match:72680326",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72680326|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "FC Vaduz vs FC Zurich",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "season: 4.1 and 3.9 goals a game (14/14 games); last 10 rate 85%; FotMob: 4.0 goals a game, season: 4.0 goals a game",
+"ts": 1795885200.0,
+"eid": "sr:match:74379774",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379774|18|total=2.5|12"
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"lg": "Netherlands - Eredivisie",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "season: 4.4 and 4.3 goals a game (13/13 games); last 10 rate 85%; footybets 89%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1795896000.0,
+"eid": "sr:match:72041282",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72041282|18|total=2.5|12"
+},
+{
+"t": "Sun 12:15",
+"game": "FC Volendam vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "season: 4.0 and 3.6 goals a game (16/16 games); last 10 rate 80%; FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795950900.0,
+"eid": "sr:match:72044866",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044866|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "FC Luzern vs Lugano",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.42,
+"why": "season: 3.6 and 3.9 goals a game (14/14 games); last 10 rate 85%; FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795957200.0,
+"eid": "sr:match:74379778",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379778|18|total=2.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "SV Ried vs TSV Hartberg",
+"lg": "Austria - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "season: 3.5 and 3.5 goals a game (13/13 games); last 10 rate 80%; FotMob: 3.5 goals a game",
+"ts": 1795959000.0,
+"eid": "sr:match:72345596",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72345596|18|total=2.5|12"
+},
+{
+"t": "Sun 16:30",
+"game": "FC Thun vs FC St. Gallen 1879",
+"lg": "Switzerland - Super League",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 4.9 and 3.6 goals a game (14/14 games); last 10 rate 75%; FotMob: 4.2 goals a game, season: 4.2 goals a game",
+"ts": 1795966200.0,
+"eid": "sr:match:74379780",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74379780|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "Salzburg vs LASK Linz",
+"lg": "Austria - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.41,
+"why": "season: 3.3 and 3.7 goals a game (13/13 games); last 10 rate 80%; FotMob: 3.5 goals a game",
+"ts": 1795968000.0,
+"eid": "sr:match:72345594",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72345594|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "SK Brann vs Kristiansund BK",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "season: 3.6 and 3.1 goals a game (27/27 games); last 10 rate 75%",
+"ts": 1795968000.0,
+"eid": "sr:match:67015484",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "67015484|18|total=2.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"lg": "Germany - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "season: 3.4 and 4.4 goals a game (10/10 games); last 10 rate 80%; FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1795969800.0,
+"eid": "sr:match:72513332",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72513332|18|total=2.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "Roma vs Monza",
+"lg": "Italy - Serie A",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 3.9 and 3.8 goals a game (12/11 games); last 10 rate 80%; FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1795971600.0,
+"eid": "sr:match:71945436",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71945436|18|total=2.5|12"
+}
+],
+"chance": 0.0005
+}
+]
+},
+{
 "when": "Mon 23 Nov 05:41",
 "at": 1795408875,
 "req": {
@@ -8144,81 +8462,6 @@
 }
 ],
 "chance": 0.0894
-}
-]
-},
-{
-"when": "Sun 22 Nov 09:31",
-"at": 1795336268,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "gg",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrkuitfts00"
-},
-"ok": true,
-"kind": "GG (both teams score)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Chance all 3 legs win: about 29%."
-],
-"tickets": [
-{
-"code": "TWCSEM",
-"odds": 2.94,
-"legs": [
-{
-"t": "Sun 11:00",
-"game": "Estac Troyes vs FC Annecy U19",
-"lg": "France - U19 National",
-"pick": "GG (both teams score)",
-"odds": 1.49,
-"why": "stats rate 80% from both teams' last 10",
-"ts": 1795341600.0,
-"eid": "sr:match:73111832",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73111832|29||74"
-},
-{
-"t": "Sun 15:00",
-"game": "Sheffield United LFC vs Durham LFC",
-"lg": "England Amateur - FA Womens League Cup",
-"pick": "GG (both teams score)",
-"odds": 1.47,
-"why": "stats rate 82% from both teams' last 10 and 8 meetings; Flashscore home/away form 75%",
-"ts": 1795356000.0,
-"eid": "sr:match:73607368",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "73607368|29||74"
-},
-{
-"t": "Sun 16:30",
-"game": "Basel vs FC Luzern",
-"lg": "Switzerland - Super League",
-"pick": "GG (both teams score)",
-"odds": 1.34,
-"why": "stats rate 75% from both teams' last 10 and 8 meetings; Flashscore home/away form 60%, footybets 96%, FotMob: both score 1.3+ a game",
-"ts": 1795361400.0,
-"eid": "sr:match:74379726",
-"mid": "29",
-"spec": "",
-"oid": "74",
-"k": "74379726|29||74"
-}
-],
-"chance": 0.2943
 }
 ]
 }
