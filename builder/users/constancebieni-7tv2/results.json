@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "UGKZQW",
+"at": 1795472045,
+"when": "Mon 23 Nov 23:14",
+"kind": "live \u2013 best of all",
+"odds": 1.52,
+"status": "open",
+"legs": [
+{
+"t": "Mon 21:56",
+"game": "Real San Joaquin vs Atletico Colina",
+"pick": "Under 3.5",
+"odds": 1.09,
+"ts": 1795467360.0
+},
+{
+"t": "Mon 22:00",
+"game": "Santa Clara vs Maritimo Madeira",
+"pick": "Santa Clara to win",
+"odds": 1.03,
+"ts": 1795467600.0
+},
+{
+"t": "Mon 22:00",
+"game": "CS 2 de Mayo vs Sportivo San Lorenzo",
+"pick": "Under 2.5",
+"odds": 1.1,
+"ts": 1795467600.0
+},
+{
+"t": "Mon 22:00",
+"game": "Penarol Montevideo vs Montevideo Wanderers",
+"pick": "Penarol Montevideo or Montevideo Wanderers",
+"odds": 1.08,
+"ts": 1795467600.0
+},
+{
+"t": "Mon 22:15",
+"game": "FC Universitario de Vinto vs GV Club Deportivo San Jose de Oruro",
+"pick": "FC Universitario de Vinto Under 2.5",
+"odds": 1.15,
+"ts": 1795468500.0
+}
+]
+},
+{
 "code": "HD1BDT",
 "at": 1795377202,
 "when": "Sun 22 Nov 20:53",
@@ -249,14 +294,20 @@
 "game": "Ludogorets vs FC Dunav Ruse",
 "pick": "Ludogorets to score in 2nd half",
 "odds": 1.22,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Monza vs Fiorentina",
 "pick": "Fiorentina to score in 2nd half",
 "odds": 1.49,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "L",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 23:30",
@@ -756,7 +807,10 @@
 "game": "Calcio Lecco 1912 vs AC Lumezzane",
 "pick": "Calcio Lecco 1912 to score in 1st half",
 "odds": 1.62,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 15:00",
@@ -1109,21 +1163,30 @@
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Goal bounds 2-5+",
 "odds": 1.17,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Cdt Real Oruro vs Guabira Montero",
 "pick": "Goal bounds 2-5+",
 "odds": 1.09,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",

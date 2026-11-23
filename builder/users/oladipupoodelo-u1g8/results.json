@@ -104,7 +104,10 @@
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 }
 ]
 },
@@ -201,14 +204,20 @@
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 }
 ]
 }

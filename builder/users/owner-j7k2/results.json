@@ -7,28 +7,37 @@
 "when": "Mon 23 Nov 15:16",
 "kind": "half-time draw \u2013 weak teams",
 "odds": 12.97,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 18:00",
 "game": "NK Slaven Belupo vs NK Osijek",
 "pick": "Half-time draw",
 "odds": 2.3,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 19:00",
 "game": "Orgryte IS vs Kalmar FF",
 "pick": "Half-time draw",
 "odds": 2.35,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "L",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Mon 21:00",
 "game": "Levante vs Elche CF",
 "pick": "Half-time draw",
 "odds": 2.4,
-"ts": 1795464000.0
+"ts": 1795464000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 }
 ]
 },
@@ -38,7 +47,7 @@
 "when": "Mon 23 Nov 13:52",
 "kind": "rebuild of J4XY7V",
 "odds": 997.46,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 14:00",
@@ -74,7 +83,7 @@
 "odds": 1.22,
 "ts": 1795446000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -82,168 +91,240 @@
 "game": "Al Ain FC vs Esteghlal FC Tehran",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 17:00",
 "game": "Tractor Tabriz vs Al Wasl FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-1"
 },
 {
 "t": "Mon 17:00",
 "game": "Ludogorets vs FC Dunav Ruse",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 17:30",
 "game": "FC Koper vs Aluminij Kidricevo",
 "pick": "1st half GG \u2013 No",
 "odds": 1.2,
-"ts": 1795451400.0
+"ts": 1795451400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Mon 17:45",
 "game": "Ben Aknoun vs USM Alger",
 "pick": "1st half double chance USM Alger or draw",
 "odds": 1.19,
-"ts": 1795452300.0
+"ts": 1795452300.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 18:00",
 "game": "NK Slaven Belupo vs NK Osijek",
 "pick": "1st half double chance NK Osijek or draw",
 "odds": 1.33,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 19:00",
 "game": "Orgryte IS vs Kalmar FF",
 "pick": "1st half double chance Kalmar FF or draw",
 "odds": 1.24,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "L",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Broendby IF vs FC Midtjylland",
 "pick": "1st half double chance FC Midtjylland or draw",
 "odds": 1.37,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
 "game": "ACS Sepsi OSK Sfantu Gheorghe vs Rapid Bucuresti 1923",
 "pick": "1st half double chance Rapid Bucuresti 1923 or draw",
 "odds": 1.19,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "1-3",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "1st half double chance Wieczysta Krakow or draw",
 "odds": 1.38,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:00",
 "game": "JS Kabylie vs MC Alger",
 "pick": "1st half double chance JS Kabylie or draw",
 "odds": 1.17,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 19:00",
 "game": "Hammarby IF vs IFK Goteborg",
 "pick": "1st half double chance Hammarby IF or draw",
 "odds": 1.07,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 19:15",
 "game": "Al-Ittihad Club vs Pakhtakor",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795457700.0
+"ts": 1795457700.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
 "pick": "1st half GG \u2013 No",
 "odds": 1.45,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Bournemouth U21 vs Leicester City U21",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "5-3",
+"ht": "3-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Newcastle United U21 vs Nottingham Forest U21",
 "pick": "1st half double chance Newcastle United U21 or draw",
 "odds": 1.38,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Cdt Real Oruro vs Guabira Montero",
 "pick": "1st half Under 2.5",
 "odds": 1.24,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Wolverhampton Wanderers U21 vs Preston North End Reserves",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "6-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Jong PSV Eindhoven vs Jong FC Utrecht",
 "pick": "1st half double chance Jong FC Utrecht or draw",
 "odds": 1.44,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-2"
 },
 {
 "t": "Mon 20:00",
 "game": "Brighton & Hove Albion U21 vs West Ham U21",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Monza vs Fiorentina",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 21:00",
 "game": "Brentford vs Everton",
 "pick": "1st half double chance Everton or draw",
 "odds": 1.41,
-"ts": 1795464000.0
+"ts": 1795464000.0,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Mon 21:00",
 "game": "Levante vs Elche CF",
 "pick": "1st half double chance Elche CF or draw",
 "odds": 1.45,
-"ts": 1795464000.0
+"ts": 1795464000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 }
 ]
 },
@@ -297,49 +378,70 @@
 "game": "Torino FC vs Bologna FC",
 "pick": "Over 2.5",
 "odds": 1.67,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "4-2",
+"ht": "2-0"
 },
 {
 "t": "Mon 18:00",
 "game": "Istanbul BB vs Corum FK",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "4-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Cdt Real Oruro vs Guabira Montero",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
 "pick": "Over 2.5",
 "odds": 1.28,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Monza vs Fiorentina",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -378,218 +480,308 @@
 "odds": 1.15,
 "ts": 1795446000.0,
 "r": "L",
-"sc": "1-1",
-"ht": ""
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 16:00",
 "game": "Sporting Braga vs Leixoes SC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795446000.0
+"ts": 1795446000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 16:00",
 "game": "Csa Steaua Bucuresti vs AFC Chindia Targoviste",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795446000.0
+"ts": 1795446000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-0"
 },
 {
 "t": "Mon 17:00",
 "game": "Ludogorets vs FC Dunav Ruse",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 17:00",
 "game": "Al-Shamal vs Al Ahli Saudi FC",
 "pick": "1st half Under 2.5",
 "odds": 1.16,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 17:00",
 "game": "Tractor Tabriz vs Al Wasl FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "1-5",
+"ht": "0-1"
 },
 {
 "t": "Mon 17:00",
 "game": "Torino FC vs Bologna FC",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "4-2",
+"ht": "2-0"
 },
 {
 "t": "Mon 18:00",
 "game": "Istanbul BB vs Corum FK",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "4-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 18:00",
 "game": "Krasava ENY Ypsonas FC vs Anorthosis Famagusta",
 "pick": "1st half Under 2.5",
 "odds": 1.08,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 18:00",
 "game": "Podbeskidzie Bielsko-Bia\u0142a vs Bruk-Bet Termalica Nieciecza",
 "pick": "1st half double chance Bruk-Bet Termalica Nieciecza or draw",
 "odds": 1.28,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 18:00",
 "game": "AL Qadisiya vs AL Hilal (Ksa)",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Mon 19:00",
 "game": "Broendby IF vs FC Midtjylland",
 "pick": "1st half double chance FC Midtjylland or draw",
 "odds": 1.37,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:00",
 "game": "ACS Sepsi OSK Sfantu Gheorghe vs Rapid Bucuresti 1923",
 "pick": "1st half double chance Rapid Bucuresti 1923 or draw",
 "odds": 1.19,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "1-3",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Hammarby IF vs IFK Goteborg",
 "pick": "1st half double chance Hammarby IF or draw",
 "odds": 1.07,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "3-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 19:00",
 "game": "Orgryte IS vs Kalmar FF",
 "pick": "1st half double chance Kalmar FF or draw",
 "odds": 1.24,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "L",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Mon 19:15",
 "game": "Al-Ittihad Club vs Pakhtakor",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795457700.0
+"ts": 1795457700.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Cdt Real Oruro vs Guabira Montero",
 "pick": "1st half Under 2.5",
 "odds": 1.24,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Bournemouth U21 vs Leicester City U21",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "5-3",
+"ht": "3-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Brighton & Hove Albion U21 vs West Ham U21",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Newcastle United U21 vs Nottingham Forest U21",
 "pick": "1st half double chance Newcastle United U21 or draw",
 "odds": 1.38,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Reading U21 vs Exeter City Reserve",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Wolverhampton Wanderers U21 vs Preston North End Reserves",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "6-1",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
 "pick": "1st half GG \u2013 No",
 "odds": 1.45,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:00",
 "game": "SC Braga vs SL Benfica Lisbon W",
 "pick": "1st half double chance SL Benfica Lisbon W or draw",
 "odds": 1.08,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:30",
 "game": "AD Ceuta vs Almeria",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795462200.0
+"ts": 1795462200.0,
+"r": "L",
+"sc": "2-3",
+"ht": "2-2"
 },
 {
 "t": "Mon 20:30",
 "game": "US Grosseto vs Guidonia Montecelio 1937 FC",
 "pick": "Over 1.5",
 "odds": 1.19,
-"ts": 1795462200.0
+"ts": 1795462200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:30",
 "game": "CA Juventud de Las Piedras vs Defensor Sporting",
 "pick": "1st half GG \u2013 No",
 "odds": 1.19,
-"ts": 1795462200.0
+"ts": 1795462200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Monza vs Fiorentina",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Mon 21:00",
 "game": "Brentford vs Everton",
 "pick": "1st half double chance Everton or draw",
 "odds": 1.41,
-"ts": 1795464000.0
+"ts": 1795464000.0,
+"r": "L",
+"sc": "4-0",
+"ht": "2-0"
 },
 {
 "t": "Mon 22:00",
@@ -666,64 +858,88 @@
 "odds": 1.14,
 "ts": 1795446000.0,
 "r": "L",
-"sc": "1-1",
-"ht": ""
+"sc": "2-2",
+"ht": "1-1"
 },
 {
 "t": "Mon 18:00",
 "game": "Krasava ENY Ypsonas FC vs Anorthosis Famagusta",
 "pick": "1st half Under 2.5",
 "odds": 1.08,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Mon 18:00",
 "game": "Bodrum FK vs Van Spor FK",
 "pick": "1st half double chance Bodrum FK or draw",
 "odds": 1.26,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 19:00",
 "game": "JS Kabylie vs MC Alger",
 "pick": "1st half GG \u2013 No",
 "odds": 1.08,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Mon 19:00",
 "game": "ACS Sepsi OSK Sfantu Gheorghe vs Rapid Bucuresti 1923",
 "pick": "1st half double chance Rapid Bucuresti 1923 or draw",
 "odds": 1.19,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "1-3",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Orgryte IS vs Kalmar FF",
 "pick": "1st half double chance Kalmar FF or draw",
 "odds": 1.24,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "L",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Mon 20:00",
 "game": "RCD Espanyol Barcelona vs Valencia CF",
 "pick": "1st half double chance RCD Espanyol Barcelona or draw",
 "odds": 1.2,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Nantes vs Grenoble Foot",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 21:00",
 "game": "Gimnasia y Esgrima La Plata vs Newell's Old Boys",
 "pick": "1st half double chance Gimnasia y Esgrima La Plata or draw",
 "odds": 1.21,
-"ts": 1795464000.0
+"ts": 1795464000.0,
+"r": "W",
+"sc": "3-2",
+"ht": "1-0"
 }
 ]
 },
@@ -791,7 +1007,10 @@
 "game": "Monza vs Fiorentina",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 03:05",
@@ -944,7 +1163,10 @@
 "game": "Monza vs Fiorentina",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.58,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 03:05",
@@ -1343,7 +1565,10 @@
 "game": "Monza vs Fiorentina",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 03:05",
@@ -1524,49 +1749,70 @@
 "game": "Torino FC vs Bologna FC",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "4-2",
+"ht": "2-0"
 },
 {
 "t": "Mon 18:00",
 "game": "Istanbul BB vs Corum FK",
 "pick": "Over 2.5",
 "odds": 1.6,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "4-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:00",
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Mon 20:00",
 "game": "Cdt Real Oruro vs Guabira Montero",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Monza vs Fiorentina",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -1973,14 +2219,20 @@
 "game": "Istanbul BB vs Corum FK",
 "pick": "Over 2.5",
 "odds": 1.6,
-"ts": 1795453200.0
+"ts": 1795453200.0,
+"r": "W",
+"sc": "4-2",
+"ht": "0-1"
 },
 {
 "t": "Mon 19:30",
 "game": "Diosgyori VTK vs Karcag SE",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795458600.0
+"ts": 1795458600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 }
 ]
 },
@@ -2057,28 +2309,40 @@
 "game": "Wieczysta Krakow vs LKP Motor Lublin",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1795456800.0
+"ts": 1795456800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Cdt Real Oruro vs Guabira Montero",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Mon 20:00",
 "game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795460400.0
+"ts": 1795460400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 20:45",
 "game": "Monza vs Fiorentina",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795463100.0
+"ts": 1795463100.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 }
 ]
 },
@@ -2185,7 +2449,10 @@
 "game": "Torino FC vs Bologna FC",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795449600.0
+"ts": 1795449600.0,
+"r": "W",
+"sc": "4-2",
+"ht": "2-0"
 }
 ]
 },
