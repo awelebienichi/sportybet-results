@@ -69,7 +69,10 @@
 "game": "Asteras Tripolis vs Aris Thessaloniki",
 "pick": "1st half double chance Aris Thessaloniki or draw",
 "odds": 1.22,
-"ts": 1795446000.0
+"ts": 1795446000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Mon 17:00",
@@ -731,7 +734,10 @@
 "game": "Shenavar Sazi Qeshm vs Naft Gachsaran",
 "pick": "Under 2.5",
 "odds": 1.33,
-"ts": 1795441500.0
+"ts": 1795441500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 16:00",
@@ -1280,7 +1286,10 @@
 "game": "Shenavar Sazi Qeshm vs Naft Gachsaran",
 "pick": "Under 2.5",
 "odds": 1.33,
-"ts": 1795441500.0
+"ts": 1795441500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 16:00",
