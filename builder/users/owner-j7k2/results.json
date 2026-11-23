@@ -2,6 +2,44 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QHBUD4",
+"at": 1795412836,
+"when": "Mon 23 Nov 06:47",
+"kind": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)",
+"odds": 5.05,
+"status": "open",
+"legs": [
+{
+"t": "Mon 14:45",
+"game": "Shenavar Sazi Qeshm vs Naft Gachsaran",
+"pick": "Under 2.5",
+"odds": 1.33,
+"ts": 1795441500.0
+},
+{
+"t": "Tue 16:00",
+"game": "Smouha SC vs National Bank of Egypt SC",
+"pick": "Under 2.5",
+"odds": 1.43,
+"ts": 1795532400.0
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"pick": "Under 2.5",
+"odds": 1.57,
+"ts": 1795802400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Ascoli Calcio 1898 vs Virtus Entella",
+"pick": "Under 2.5",
+"odds": 1.69,
+"ts": 1795874400.0
+}
+]
+},
+{
 "code": "YPS4PG",
 "at": 1795408875,
 "when": "Mon 23 Nov 05:41",
@@ -79265,26 +79303,6 @@
 "pick": "1st Half - Double Chance \u2013 Draw or Away",
 "odds": 1.4,
 "ts": 1794589200.0
-}
-]
-},
-{
-"code": "YJ4Z9F",
-"at": 1794435885,
-"when": "Wed 11 Nov 23:24",
-"kind": "rebuild of WBGQ2A",
-"odds": 1.61,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 01:00",
-"game": "New York Knicks vs Cleveland Cavaliers",
-"pick": "New York Knicks to win",
-"odds": 1.61,
-"ts": 1794441600.0,
-"r": "L",
-"sc": "107-115",
-"ht": "23-33"
 }
 ]
 }
