@@ -1,5 +1,25 @@
 [
 {
+"when": "Mon 23 Nov 13:33",
+"at": 1795437225,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-23"
+],
+"strict": "normal",
+"from": "22:00",
+"to": "06:00",
+"rid": "mwt8y7no740g"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Mon 23, 22:00\u201306:00) out of 7 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Mon 23 Nov 13:20",
 "at": 1795436408,
 "req": {
@@ -8789,81 +8809,6 @@
 }
 ],
 "chance": 0.4536
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:18",
-"at": 1795342733,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25yw",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrop8yav2ta"
-},
-"ok": true,
-"kind": "Over 2.5 (strong teams in youth & women's leagues)",
-"note": [
-"4 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Chance all 3 legs win: about 48%."
-],
-"tickets": [
-{
-"code": "TKK8Z9",
-"odds": 1.82,
-"legs": [
-{
-"t": "Sun 16:00",
-"game": "Servette Geneva W vs FC St. Gallen-Staad",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "strong side Servette Geneva W (win 1.1) scores 2.5 a game, 100% of its games over 2.5; FC St. Gallen-Staad concedes 3.0 a game; 75% of 8 meetings over; Flashscore home/away form 80%, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72652098",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652098|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "RB Leipzig vs VfL Wolfsburg W",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "strong side VfL Wolfsburg W (win 1.18) scores 4.0 a game, 90% of its games over 2.5; RB Leipzig concedes 1.9 a game; 67% of 6 meetings over; Flashscore home/away form 75%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72961102",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961102|18|total=2.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.21,
-"why": "strong side CD Espanyol Barcelona (win 1.04) scores 3.2 a game, 80% of its games over 2.5; Racing Club Zaragoza concedes 2.7 a game; season: 3.9 goals a game",
-"ts": 1795363200.0,
-"eid": "sr:match:72883760",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72883760|18|total=2.5|12"
-}
-],
-"chance": 0.4758
 }
 ]
 }
