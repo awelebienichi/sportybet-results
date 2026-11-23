@@ -1,5 +1,105 @@
 [
 {
+"when": "Mon 23 Nov 23:14",
+"at": 1795472045,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 8,
+"strict": "normal",
+"rid": "mwttjxasi6pm"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 5 live leg(s) were strong enough right now (you asked for 8).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 5 legs win: about 51%."
+],
+"tickets": [
+{
+"code": "UGKZQW",
+"odds": 1.52,
+"legs": [
+{
+"t": "Mon 21:56",
+"game": "Real San Joaquin vs Atletico Colina",
+"lg": "Chile - Segunda Division",
+"pick": "Under 3.5",
+"odds": 1.09,
+"why": "LIVE 0-1 58': Real San Joaquin expected 0.5 and Atletico Colina 0.6 more goals (last 10 + season); 0-1 at 58' \u2013 89% chance; h2h 67% of 3 meetings (3.5 line)",
+"ts": 1795467360.0,
+"eid": "sr:match:73204194",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73204194|18|total=3.5|13"
+},
+{
+"t": "Mon 22:00",
+"game": "Santa Clara vs Maritimo Madeira",
+"lg": "Portugal - U23 Liga Next Gen",
+"pick": "Santa Clara to win",
+"odds": 1.03,
+"why": "LIVE 2-0 60': Santa Clara expected 0.5 and Maritimo Madeira 0.5 more goals (last 10 + season); 2-0 at 60' \u2013 90% chance",
+"ts": 1795467600.0,
+"eid": "sr:match:72962364",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "72962364|1||1"
+},
+{
+"t": "Mon 22:00",
+"game": "CS 2 de Mayo vs Sportivo San Lorenzo",
+"lg": "Paraguay - Division de Honor",
+"pick": "Under 2.5",
+"odds": 1.1,
+"why": "LIVE 0-0 56': CS 2 de Mayo expected 0.5 and Sportivo San Lorenzo 0.5 more goals (last 10 + season); 0-0 at 56' \u2013 88% chance; h2h 62% of 8 meetings (2.5 line)",
+"ts": 1795467600.0,
+"eid": "sr:match:73038666",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73038666|18|total=2.5|13"
+},
+{
+"t": "Mon 22:00",
+"game": "Penarol Montevideo vs Montevideo Wanderers",
+"lg": "Uruguay - Tercera Division, Reserves",
+"pick": "Penarol Montevideo or Montevideo Wanderers",
+"odds": 1.08,
+"why": "LIVE 1-0 52': Penarol Montevideo expected 0.9 and Montevideo Wanderers 0.5 more goals (last 10); 1-0 at 52' \u2013 86% chance",
+"ts": 1795467600.0,
+"eid": "sr:match:111111114710578",
+"mid": "10",
+"spec": "",
+"oid": "10",
+"k": "111111114710578|10||10"
+},
+{
+"t": "Mon 22:15",
+"game": "FC Universitario de Vinto vs GV Club Deportivo San Jose de Oruro",
+"lg": "Bolivia - Division Profesional",
+"pick": "FC Universitario de Vinto Under 2.5",
+"odds": 1.15,
+"why": "LIVE 0-0 45': FC Universitario de Vinto expected 0.9 and GV Club Deportivo San Jose de Oruro 0.9 more goals (last 10 + season); 0-0 at 45' \u2013 92% chance; h2h 80% of 5 meetings",
+"ts": 1795468500.0,
+"eid": "sr:match:75449104",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "75449104|19|total=2.5|13"
+}
+],
+"chance": 0.5108
+}
+]
+},
+{
 "when": "Sun 22 Nov 20:53",
 "at": 1795377202,
 "req": {
@@ -7498,78 +7598,6 @@
 }
 ],
 "chance": 0.16
-}
-]
-},
-{
-"when": "Tue 17 Nov 01:07",
-"at": 1794874068,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 40,
-"strict": "normal",
-"rid": "mwjsqh9e7iy0"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 3 live leg(s) were strong enough right now (you asked for 40).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 3 legs win: about 62%."
-],
-"tickets": [
-{
-"code": "SRS5HK",
-"odds": 1.38,
-"legs": [
-{
-"t": "Tue 00:00",
-"game": "Montevideo Wanderers vs CA Juventud de Las Piedras",
-"lg": "Uruguay - Primera Division",
-"pick": "Under 4.5",
-"odds": 1.05,
-"why": "LIVE 1-0 48': Montevideo Wanderers expected 0.6 and CA Juventud de Las Piedras 0.7 more goals (last 10 + season); 1-0 at 48' \u2013 94% chance; FotMob: 2.0 goals a game, Vitibet tip 1-1, season: 2.4 goals a game, h2h 62% of 8 meetings (3.5 line)",
-"ts": 1794870000.0,
-"eid": "sr:match:76455626",
-"mid": "18",
-"spec": "total=4.5",
-"oid": "13",
-"k": "76455626|18|total=4.5|13"
-},
-{
-"t": "Tue 00:00",
-"game": "CA Paranaense PR vs Parana Clube PR",
-"lg": "Brazil - Copa Parana",
-"pick": "Handicap 2:0 \u2013 CA Paranaense PR",
-"odds": 1.08,
-"why": "LIVE 0-0 47': CA Paranaense PR expected 0.7 and Parana Clube PR 0.8 more goals (last 10); 0-0 at 47' \u2013 87% chance; h2h 100% of 8 meetings",
-"ts": 1794870000.0,
-"eid": "sr:match:76642744",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76642744|14|hcp=2:0|1711"
-},
-{
-"t": "Tue 00:00",
-"game": "Brazil vs Peru",
-"lg": "International Youth - U20 Friendly Games",
-"pick": "Handicap 0:5 \u2013 Peru",
-"odds": 1.22,
-"why": "LIVE 2-0 45': Brazil expected 1.0 and Peru 0.4 more goals (last 10); 2-0 at 45' \u2013 89% chance; margin record 100% / 100% in both sides' last games, h2h 75% of 4 meetings",
-"ts": 1794870000.0,
-"eid": "sr:match:76558026",
-"mid": "14",
-"spec": "hcp=0:5",
-"oid": "1713",
-"k": "76558026|14|hcp=0:5|1713"
-}
-],
-"chance": 0.6244
 }
 ]
 }
