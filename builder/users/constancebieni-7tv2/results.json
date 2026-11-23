@@ -7,7 +7,7 @@
 "when": "Mon 23 Nov 23:14",
 "kind": "live \u2013 best of all",
 "odds": 1.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Mon 21:56",
@@ -54,7 +54,10 @@
 "game": "FC Universitario de Vinto vs GV Club Deportivo San Jose de Oruro",
 "pick": "FC Universitario de Vinto Under 2.5",
 "odds": 1.15,
-"ts": 1795468500.0
+"ts": 1795468500.0,
+"r": "L",
+"sc": "3-0",
+"ht": "0-0"
 }
 ]
 },
