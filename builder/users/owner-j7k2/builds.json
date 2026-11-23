@@ -1,5 +1,151 @@
 [
 {
+"when": "Mon 23 Nov 13:34",
+"at": 1795437290,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-23"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwt8zwz8akuk"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 8 games passed the checks (Mon 23, 88 games on SportyBet), so this ticket has 8 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 8 legs win: about 4%."
+],
+"tickets": [
+{
+"code": "XJLPCF",
+"odds": 16.49,
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.14,
+"why": "season: 5.0 and 3.8 goals a game (9/10 games); last 10 rate 75%; Flashscore home/away form 60%, season: 4.4 goals a game",
+"ts": 1795438800.0,
+"eid": "sr:match:73601844",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601844|18|total=2.5|12"
+},
+{
+"t": "Mon 17:00",
+"game": "Torino FC vs Bologna FC",
+"lg": "Italy - Primavera 1",
+"pick": "Over 2.5",
+"odds": 1.67,
+"why": "season: 4.0 and 4.6 goals a game (10/10 games); last 10 rate 95%; Flashscore home/away form 80%, season: 4.3 goals a game",
+"ts": 1795449600.0,
+"eid": "sr:match:72440002",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72440002|18|total=2.5|12"
+},
+{
+"t": "Mon 18:00",
+"game": "Istanbul BB vs Corum FK",
+"lg": "Turkiye - Super Lig",
+"pick": "Over 2.5",
+"odds": 1.5,
+"why": "season: 3.3 and 3.8 goals a game (11/11 games); last 10 rate 75%; Flashscore home/away form 65%, FotMob: 3.5 goals a game",
+"ts": 1795453200.0,
+"eid": "sr:match:72723326",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72723326|18|total=2.5|12"
+},
+{
+"t": "Mon 19:00",
+"game": "Wieczysta Krakow vs LKP Motor Lublin",
+"lg": "Poland - Ekstraklasa",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "season: 3.3 and 3.3 goals a game (14/14 games); last 10 rate 80%; Flashscore home/away form 70%, footybets 86%",
+"ts": 1795456800.0,
+"eid": "sr:match:72043326",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72043326|18|total=2.5|12"
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"lg": "Hungary - NB II",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "season: 3.4 and 3.5 goals a game (13/13 games); last 10 rate 75%; FotMob: 3.5 goals a game",
+"ts": 1795458600.0,
+"eid": "sr:match:76772874",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76772874|18|total=2.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Cdt Real Oruro vs Guabira Montero",
+"lg": "Bolivia - Division Profesional",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 4.0 and 3.6 goals a game (25/25 games); last 10 rate 75%; Flashscore home/away form 55%, footybets 73%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795460400.0,
+"eid": "sr:match:75449102",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75449102|18|total=2.5|12"
+},
+{
+"t": "Mon 20:00",
+"game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 3.7 and 4.5 goals a game (15/15 games); last 10 rate 70%; Flashscore home/away form 70%, footybets 91%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1795460400.0,
+"eid": "sr:match:72044826",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044826|18|total=2.5|12"
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"lg": "Italy - Serie A",
+"pick": "Over 2.5",
+"odds": 1.57,
+"why": "season: 3.8 and 3.8 goals a game (11/11 games); last 10 rate 85%; Flashscore home/away form 70%, footybets 89%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795463100.0,
+"eid": "sr:match:71945418",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71945418|18|total=2.5|12"
+}
+],
+"chance": 0.041
+}
+]
+},
+{
 "when": "Mon 23 Nov 13:33",
 "at": 1795437225,
 "req": {
@@ -8734,81 +8880,6 @@
 }
 ],
 "chance": 0.7185
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:20",
-"at": 1795342817,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwror1sy7yf9"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Chance all 3 legs win: about 45%."
-],
-"tickets": [
-{
-"code": "URRFPD",
-"odds": 1.9,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "Afk Csikszereda Miercurea Ciuc vs FC Farul Constanta",
-"lg": "Romania - Superliga, Women",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "season: 4.6 and 7.9 goals a game (12/12 games); last 10 rate 90%; Flashscore home/away form 80%, season: 6.2 goals a game",
-"ts": 1795345200.0,
-"eid": "sr:match:73842746",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73842746|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Swift Hesperange vs Atert Bissen",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 2.5",
-"odds": 1.21,
-"why": "season: 3.8 and 4.0 goals a game (12/12 games); last 10 rate 95%; Flashscore home/away form 80%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963860",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72963860|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Servette Geneva W vs FC St. Gallen-Staad",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "season: 3.9 and 3.9 goals a game (12/12 games); last 10 rate 95%; Flashscore home/away form 80%, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72652098",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652098|18|total=2.5|12"
-}
-],
-"chance": 0.4536
 }
 ]
 }
