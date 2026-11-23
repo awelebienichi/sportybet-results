@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZGPKAF",
+"at": 1795408462,
+"when": "Mon 23 Nov 05:34",
+"kind": "1st half Over 0.5 bounce-back (after 3 half-time 0-0s)",
+"odds": 36.22,
+"status": "open",
+"legs": [
+{
+"t": "Tue 18:30",
+"game": "Durban City FC vs Polokwane City",
+"pick": "1st half Over 0.5",
+"odds": 1.59,
+"ts": 1795541400.0
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"pick": "1st half Over 0.5",
+"odds": 1.3,
+"ts": 1795636800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Gent vs Crvena Zvezda",
+"pick": "1st half Over 0.5",
+"odds": 1.38,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"pick": "1st half Over 0.5",
+"odds": 1.5,
+"ts": 1795802400.0
+},
+{
+"t": "Sat 08:30",
+"game": "Bucheon FC 1995 vs Gimcheon Sangmu FC",
+"pick": "1st half Over 0.5",
+"odds": 1.36,
+"ts": 1795851000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Patro Eisden Maasmechelen vs Jeugd KAA Gent B",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:45",
+"game": "PFC Cherno More Varna vs Botev Plovdiv",
+"pick": "1st half Over 0.5",
+"odds": 1.44,
+"ts": 1795880700.0
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"pick": "1st half Over 0.5",
+"odds": 1.41,
+"ts": 1795885200.0
+},
+{
+"t": "Sun 00:30",
+"game": "Colo-Colo vs Deportes La Serena",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795908600.0
+},
+{
+"t": "Sun 11:30",
+"game": "Pendikspor vs Igdir FK",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"ts": 1795948200.0
+},
+{
+"t": "Sun 21:30",
+"game": "Porto vs Sporting",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"ts": 1795984200.0
+}
+]
+},
+{
 "code": "JKEE47",
 "at": 1795408326,
 "when": "Mon 23 Nov 05:32",
@@ -79169,156 +79256,6 @@
 "pick": "CD Godoy Cruz excluded goals: 1",
 "odds": 1.48,
 "ts": 1794772800.0
-}
-]
-},
-{
-"code": "NR9077",
-"at": 1794434402,
-"when": "Wed 11 Nov 23:00",
-"kind": "your chosen markets",
-"odds": 35.21,
-"status": "open",
-"legs": [
-{
-"t": "Thu 20:00",
-"game": "Barbados vs Guadeloupe",
-"pick": "Excluded goals: 2",
-"odds": 1.24,
-"ts": 1794510000.0
-},
-{
-"t": "Thu 20:45",
-"game": "England vs Croatia",
-"pick": "Excluded goals: 4",
-"odds": 1.17,
-"ts": 1794512700.0
-},
-{
-"t": "Fri 17:00",
-"game": "Tunisia vs Libya",
-"pick": "Excluded goals: 3",
-"odds": 1.22,
-"ts": 1794585600.0
-},
-{
-"t": "Fri 20:45",
-"game": "Limavady United FC vs Cliftonville FC",
-"pick": "Excluded goals: 3",
-"odds": 1.23,
-"ts": 1794599100.0
-},
-{
-"t": "Fri 21:00",
-"game": "Grenada vs Saint Kitts and Nevis",
-"pick": "Excluded goals: 2",
-"odds": 1.22,
-"ts": 1794600000.0
-},
-{
-"t": "Sat 06:00",
-"game": "Shonan Bellmare vs Yokohama FC",
-"pick": "Excluded goals: 5+",
-"odds": 1.13,
-"ts": 1794632400.0
-},
-{
-"t": "Sat 13:30",
-"game": "Marek Dupnica vs PFC Chernomorets Burgas",
-"pick": "Excluded goals: 1",
-"odds": 1.21,
-"ts": 1794659400.0
-},
-{
-"t": "Sat 14:00",
-"game": "NK Vrhnika vs Tabor Sezana",
-"pick": "Excluded goals: 2",
-"odds": 1.26,
-"ts": 1794661200.0
-},
-{
-"t": "Sat 14:30",
-"game": "US Albinoleffe vs Union Brescia",
-"pick": "Excluded goals: 1",
-"odds": 1.19,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 15:00",
-"game": "ASA Aarhus vs Holbaek B&I",
-"pick": "Excluded goals: 2",
-"odds": 1.2,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leatherhead FC vs St Albans City",
-"pick": "Excluded goals: 2",
-"odds": 1.23,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Dover Athletic FC vs Burgess Hill Town",
-"pick": "Excluded goals: 3",
-"odds": 1.22,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Welling United vs Three Bridges",
-"pick": "Excluded goals: 3",
-"odds": 1.22,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "AFC Wimbledon vs Blackpool FC",
-"pick": "Excluded goals: 4",
-"odds": 1.14,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Walsall FC vs Barnet FC",
-"pick": "Excluded goals: 1",
-"odds": 1.12,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 17:30",
-"game": "AS Gubbio vs US Grosseto",
-"pick": "Excluded goals: 3",
-"odds": 1.22,
-"ts": 1794673800.0
-},
-{
-"t": "Sat 18:00",
-"game": "Norway vs Wales",
-"pick": "Excluded goals: 4",
-"odds": 1.18,
-"ts": 1794675600.0
-},
-{
-"t": "Sat 20:30",
-"game": "CR Brasil AL vs Ceara SC CE",
-"pick": "Excluded goals: 5+",
-"odds": 1.17,
-"ts": 1794684600.0
-},
-{
-"t": "Sat 20:30",
-"game": "Deportivo Maldonado vs CA Cerro",
-"pick": "Excluded goals: 1",
-"odds": 1.18,
-"ts": 1794684600.0
-},
-{
-"t": "Sun 13:30",
-"game": "OFC Nesebar vs FC Fratria Varna",
-"pick": "Excluded goals: 1",
-"odds": 1.16,
-"ts": 1794745800.0
 }
 ]
 }
