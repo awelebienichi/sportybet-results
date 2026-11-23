@@ -230,7 +230,10 @@
 "game": "Puerto Rico Surf SC vs San Juan FC",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795393800.0
+"ts": 1795393800.0,
+"r": "W",
+"sc": "1-5",
+"ht": ""
 },
 {
 "t": "Mon 14:00",
@@ -566,7 +569,7 @@
 "when": "Sun 22 Nov 15:10",
 "kind": "goal-fest teams (season data)",
 "odds": 2.97,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Mon 00:15",
@@ -593,7 +596,10 @@
 "game": "Puerto Rico Surf SC vs San Juan FC",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795393800.0
+"ts": 1795393800.0,
+"r": "W",
+"sc": "1-5",
+"ht": ""
 }
 ]
 },
@@ -761,7 +767,10 @@
 "game": "Puerto Rico Surf SC vs San Juan FC",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795393800.0
+"ts": 1795393800.0,
+"r": "W",
+"sc": "1-5",
+"ht": ""
 },
 {
 "t": "Mon 19:00",
