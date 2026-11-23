@@ -53,12 +53,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-22",
-"code": "VPK9XM",
-"odds": 6.54,
+"date": "2026-11-23",
+"code": "UE4JHN",
+"odds": 6.37,
 "stake": 1000.0,
-"n": 11,
-"result": "lost"
+"n": 12,
+"result": null
 },
 "started": "2026-11-20",
 "short": "lower",

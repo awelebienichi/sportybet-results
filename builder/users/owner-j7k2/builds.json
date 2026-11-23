@@ -1,5 +1,196 @@
 [
 {
+"when": "Mon 23 Nov 10:00",
+"at": 1795424433,
+"req": {
+"type": "rollover",
+"legs": 12,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a61,000 \u2192 returns \u20a66,370 if it wins"
+],
+"tickets": [
+{
+"code": "UE4JHN",
+"odds": 6.37,
+"legs": [
+{
+"t": "Mon 13:45",
+"game": "Pas Pyrgos vs GS Marko",
+"lg": "Greece - Super League 2",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"why": "stats rate 95% from both teams' last 10 (1st-half rollover)",
+"ts": 1795437900.0,
+"eid": "sr:match:74172552",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74172552|75||76"
+},
+{
+"t": "Mon 14:00",
+"game": "PAOK Thessaloniki B vs Niki Volou 1924 PAE",
+"lg": "Greece - Super League 2",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795438800.0,
+"eid": "sr:match:74172548",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "74172548|75||76"
+},
+{
+"t": "Mon 16:00",
+"game": "Wadi Degla SC vs Al Ittihad Alexandria Club",
+"lg": "Egypt - Premier League",
+"pick": "1st half double chance Wadi Degla SC or draw",
+"odds": 1.22,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795446000.0,
+"eid": "sr:match:73463726",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73463726|63||9"
+},
+{
+"t": "Mon 16:00",
+"game": "Flamurtari Vlore vs Bylis Ballsh",
+"lg": "Albania - Kategoria e Pare",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795446000.0,
+"eid": "sr:match:73753184",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73753184|75||76"
+},
+{
+"t": "Mon 18:00",
+"game": "Krasava ENY Ypsonas FC vs Anorthosis Famagusta",
+"lg": "Cyprus - 1st Division",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"why": "stats rate 95% from both teams' last 10 and 3 meetings (1st-half rollover)",
+"ts": 1795453200.0,
+"eid": "sr:match:73160476",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73160476|68|total=2.5|13"
+},
+{
+"t": "Mon 18:00",
+"game": "Bodrum FK vs Van Spor FK",
+"lg": "Turkiye - 1. Lig",
+"pick": "1st half double chance Bodrum FK or draw",
+"odds": 1.26,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795453200.0,
+"eid": "sr:match:72735926",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72735926|63||9"
+},
+{
+"t": "Mon 19:00",
+"game": "JS Kabylie vs MC Alger",
+"lg": "Algeria - Ligue 1",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795456800.0,
+"eid": "sr:match:76481686",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76481686|75||76"
+},
+{
+"t": "Mon 19:00",
+"game": "ACS Sepsi OSK Sfantu Gheorghe vs Rapid Bucuresti 1923",
+"lg": "Romania - Superliga",
+"pick": "1st half double chance Rapid Bucuresti 1923 or draw",
+"odds": 1.19,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795456800.0,
+"eid": "sr:match:72388102",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "72388102|63||11"
+},
+{
+"t": "Mon 19:00",
+"game": "Orgryte IS vs Kalmar FF",
+"lg": "Sweden - Allsvenskan",
+"pick": "1st half double chance Kalmar FF or draw",
+"odds": 1.24,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795456800.0,
+"eid": "sr:match:67126892",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "67126892|63||11"
+},
+{
+"t": "Mon 20:00",
+"game": "RCD Espanyol Barcelona vs Valencia CF",
+"lg": "Spain - Primera Division Women",
+"pick": "1st half double chance RCD Espanyol Barcelona or draw",
+"odds": 1.2,
+"why": "stats rate 94% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795460400.0,
+"eid": "sr:match:72491462",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72491462|63||9"
+},
+{
+"t": "Mon 20:45",
+"game": "Nantes vs Grenoble Foot",
+"lg": "France - Ligue 2",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 89% from both teams' last 10 and 6 meetings (1st-half rollover)",
+"ts": 1795463100.0,
+"eid": "sr:match:76878922",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76878922|75||76"
+},
+{
+"t": "Mon 21:00",
+"game": "Gimnasia y Esgrima La Plata vs Newell's Old Boys",
+"lg": "Argentina - Primera LPF",
+"pick": "1st half double chance Gimnasia y Esgrima La Plata or draw",
+"odds": 1.21,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795464000.0,
+"eid": "sr:match:76649192",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76649192|63||9"
+}
+],
+"chance": 0.0874
+}
+]
+},
+{
 "when": "Mon 23 Nov 06:47",
 "at": 1795412836,
 "req": {
@@ -8305,81 +8496,6 @@
 }
 ],
 "chance": 0.5049
-}
-]
-},
-{
-"when": "Sun 22 Nov 11:10",
-"at": 1795342205,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "smallfav",
-"legs": 3,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrocoidms9r"
-},
-"ok": true,
-"kind": "smallest-odds favourites to win",
-"note": [
-"4 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Chance all 3 legs win: about 71%."
-],
-"tickets": [
-{
-"code": "WUQUYR",
-"odds": 1.21,
-"legs": [
-{
-"t": "Sun 12:00",
-"game": "RC Celta de Vigo vs CD Marina Youth",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "RC Celta de Vigo to win",
-"odds": 1.02,
-"why": "won 80% lost 0% of last 10, rival lost 56%; season: won 89%, rival lost 56%",
-"ts": 1795345200.0,
-"eid": "sr:match:72882636",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "72882636|1||1"
-},
-{
-"t": "Sun 17:00",
-"game": "CD Espanyol Barcelona vs Racing Club Zaragoza",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "CD Espanyol Barcelona to win",
-"odds": 1.04,
-"why": "won 90% lost 0% of last 10, rival lost 70%; season: won 89%, rival lost 67%",
-"ts": 1795363200.0,
-"eid": "sr:match:72883760",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "72883760|1||1"
-},
-{
-"t": "Sun 17:00",
-"game": "Trabzonspor vs Eyupspor",
-"lg": "Turkiye - Super Lig",
-"pick": "Trabzonspor to win",
-"odds": 1.14,
-"why": "won 80% lost 20% of last 10, rival lost 89%, won 75% of 4 meetings; Flashscore home/away form 65%, FotMob: 2nd vs 18th of 18, Vitibet 82%, Zulubet 89%, season: won 73%, rival lost 91%",
-"ts": 1795363200.0,
-"eid": "sr:match:72723322",
-"mid": "1",
-"spec": "",
-"oid": "1",
-"k": "72723322|1||1"
-}
-],
-"chance": 0.7143
 }
 ]
 }
