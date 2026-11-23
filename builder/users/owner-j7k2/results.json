@@ -2,6 +2,72 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XJLPCF",
+"at": 1795437290,
+"when": "Mon 23 Nov 13:34",
+"kind": "goal-fest teams (season data)",
+"odds": 16.49,
+"status": "open",
+"legs": [
+{
+"t": "Mon 14:00",
+"game": "Barnsley U21 vs Bolton Wanderers",
+"pick": "Over 2.5",
+"odds": 1.14,
+"ts": 1795438800.0
+},
+{
+"t": "Mon 17:00",
+"game": "Torino FC vs Bologna FC",
+"pick": "Over 2.5",
+"odds": 1.67,
+"ts": 1795449600.0
+},
+{
+"t": "Mon 18:00",
+"game": "Istanbul BB vs Corum FK",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795453200.0
+},
+{
+"t": "Mon 19:00",
+"game": "Wieczysta Krakow vs LKP Motor Lublin",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795456800.0
+},
+{
+"t": "Mon 19:30",
+"game": "Diosgyori VTK vs Karcag SE",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795458600.0
+},
+{
+"t": "Mon 20:00",
+"game": "Cdt Real Oruro vs Guabira Montero",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:00",
+"game": "Jong Ajax Amsterdam vs Jong AZ Alkmaar",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795460400.0
+},
+{
+"t": "Mon 20:45",
+"game": "Monza vs Fiorentina",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795463100.0
+}
+]
+},
+{
 "code": "YJ8YZV",
 "at": 1795436408,
 "when": "Mon 23 Nov 13:20",
@@ -78541,366 +78607,6 @@
 "pick": "GG/NG \u2013 Yes",
 "odds": 1.63,
 "ts": 1794749400.0
-}
-]
-},
-{
-"code": "LUDR08",
-"at": 1794438158,
-"when": "Thu 12 Nov 00:02",
-"kind": "combined SU5QG1 + JBBZ6N + Q4ZSBT + NLZCKQ + XLXWMQ + LSKAFX + XUWCJY + KRPG3U + PWMDHS + T6DU15 + PX1ANL + TL2G7N + Q67D4N + JX4GZS + REEXJ8 + JEDZW7 + X3TC1C + MDZFN9 + P1NPB9 + T2QZU0 + TXGUEL + U944JV",
-"odds": 2561575.9,
-"status": "open",
-"legs": [
-{
-"t": "Sat 16:00",
-"game": "Brentwood Town FC vs Ramsgate FC",
-"pick": "Goal Bounds \u2013 2-5+",
-"odds": 1.15,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Crewe Alexandra vs Newport County",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.74,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gloucester City vs Sholing FC",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Frome Town vs Hanworth Villa",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.52,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Braintree Town FC vs Kettering Town",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.52,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Scunthorpe United vs Worthing FC",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.41,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Didcot Town vs Slough Town",
-"pick": "GG/NG \u2013 Yes",
-"odds": 1.4,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"pick": "1X2 \u2013 Away",
-"odds": 1.66,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Stockport County FC vs Reading FC",
-"pick": "1X2 \u2013 Home",
-"odds": 1.9,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Milton Keynes Dons vs Burton Albion",
-"pick": "1X2 \u2013 Home",
-"odds": 1.7,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"pick": "1X2 \u2013 Home",
-"odds": 1.21,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bridlington Town vs Macclesfield FC",
-"pick": "1X2 \u2013 Away",
-"odds": 1.24,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bourne Town vs Bromsgrove Sporting",
-"pick": "1X2 \u2013 Away",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Southend United vs Aldershot Town FC",
-"pick": "1st half - Southend United Over/Under \u2013 Over 0.5",
-"odds": 1.37,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "East Kilbride FC vs Alloa Athletic FC",
-"pick": "1st half - East Kilbride FC Over/Under \u2013 Over 0.5",
-"odds": 1.54,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Edinburgh City FC vs Clyde FC",
-"pick": "1st half - Clyde FC Over/Under \u2013 Over 0.5",
-"odds": 1.69,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Carlisle United vs Boston United FC",
-"pick": "1st Half - Over/Under \u2013 Over 0.5",
-"odds": 1.19,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Eastleigh FC vs AFC Fylde",
-"pick": "1st Half - Over/Under \u2013 Over 0.5",
-"odds": 1.24,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Harrogate Town vs Altrincham FC",
-"pick": "1st Half - Over/Under \u2013 Over 0.5",
-"odds": 1.27,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Dumbarton FC vs Annan Athletic FC",
-"pick": "2nd Half - Dumbarton FC Over/Under \u2013 Over 0.5",
-"odds": 1.5,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Airdrieonians FC vs Queen of the South FC",
-"pick": "2nd Half - Airdrieonians FC Over/Under \u2013 Over 0.5",
-"odds": 1.42,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Wigan Athletic vs Barnsley FC",
-"pick": "2nd Half - Over/Under \u2013 Over 0.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Rochdale AFC vs York City FC",
-"pick": "2nd Half - Over/Under \u2013 Over 0.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Basingstoke Town FC vs Chippenham Town",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Evesham United vs Gosport Borough",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Enfield Town vs Spalding United",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leek Town FC vs Morecambe FC",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Salisbury FC vs Chichester City FC",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Hanwell Town FC vs Plymouth Parkway",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Spennymoor Town FC vs Scarborough Athletic",
-"pick": "Over/Under \u2013 Over 1.5",
-"odds": 1.2,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leamington FC vs Leiston FC",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Farnham Town vs Ebbsfleet United FC",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.56,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Tottenham Hotspur FC vs Everton FC Women",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.53,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Warrington Rylands 1906 FC vs Whitby Town",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leatherhead FC vs St Albans City",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.61,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Curzon Ashton FC vs Quorn FC",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.53,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "MKS Chojniczanka Chojnice vs Zawisza Bydgoszcz",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.52,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Redcar Athletic FC vs Warrington Town",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.48,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Lewes FC vs Stanway Rovers",
-"pick": "Double Chance \u2013 Home or Draw",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Stenhousemuir FC vs Queens Park FC",
-"pick": "1st Half - Over/Under \u2013 Under 2.5",
-"odds": 1.08,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "East Fife FC vs Peterhead FC",
-"pick": "Over/Under \u2013 Under 3.5",
-"odds": 1.36,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Walton and Hersham FC vs Aveley FC",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.19,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Alfreton Town FC vs Southport FC",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.21,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bath City FC vs Truro City",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.15,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:30",
-"game": "NAC Breda vs FC Emmen",
-"pick": "1st half - NAC Breda Over/Under \u2013 Over 0.5",
-"odds": 1.47,
-"ts": 1794670200.0
-},
-{
-"t": "Sat 17:00",
-"game": "Uganda vs Botswana",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.06,
-"ts": 1794672000.0
-},
-{
-"t": "Sat 17:30",
-"game": "AS Gubbio vs US Grosseto",
-"pick": "Double Chance \u2013 Draw or Away",
-"odds": 1.34,
-"ts": 1794673800.0
-},
-{
-"t": "Sat 17:30",
-"game": "AC Lumezzane vs AC Trento",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.09,
-"ts": 1794673800.0
-},
-{
-"t": "Sat 17:30",
-"game": "SSC Bari vs Calcio Foggia",
-"pick": "Over/Under \u2013 Under 4.5",
-"odds": 1.06,
-"ts": 1794673800.0
-},
-{
-"t": "Sat 18:00",
-"game": "Deportivo Madryn vs CD Maipu",
-"pick": "1st Half - Double Chance \u2013 Draw or Away",
-"odds": 1.57,
-"ts": 1794675600.0
 }
 ]
 }
