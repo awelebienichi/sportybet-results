@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VDT3RY",
+"at": 1795503660,
+"when": "Tue 24 Nov 08:00",
+"kind": "Over 2.5 (lowest prices first)",
+"odds": 113.67,
+"status": "open",
+"legs": [
+{
+"t": "Tue 08:45",
+"game": "Newcastle United Jets vs Kashiwa Reysol",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795506300.0
+},
+{
+"t": "Tue 10:00",
+"game": "Persija Jakarta vs Sumsel United",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795510800.0
+},
+{
+"t": "Tue 12:00",
+"game": "Galatasaray SK vs Aston Villa",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795518000.0
+},
+{
+"t": "Tue 14:00",
+"game": "Charlton Athletic U21 vs Coventry City U21",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 14:00",
+"game": "Slovan Bratislava vs Real Betis Balompie",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 16:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 16:00",
+"game": "Feyenoord Rotterdam vs FC Porto",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 16:00",
+"game": "Manchester City FC vs SSC Napoli U20",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 18:45",
+"game": "Bodoe/Glimt vs LASK Linz",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 19:15",
+"game": "Al Nassr Club vs Al Sadd SC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795544100.0
+},
+{
+"t": "Tue 20:00",
+"game": "Oxford United vs Tottenham Hotspur U21",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Salford City vs Sunderland U21",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Queens Park Rangers U21 vs Southampton U21",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Ipswich Town U21 vs Bromley FC U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "Over 2.5",
+"odds": 1.15,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Man City vs Napoli",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795550400.0
+}
+]
+},
+{
 "code": "HALHRQ",
 "at": 1795503311,
 "when": "Tue 24 Nov 07:55",
@@ -78341,100 +78491,6 @@
 "pick": "Under 176.5 total points",
 "odds": 1.43,
 "ts": 1794526200.0
-}
-]
-},
-{
-"code": "NYLQ0D",
-"at": 1794461275,
-"when": "Thu 12 Nov 06:27",
-"kind": "basketball \u2013 total points",
-"odds": 8.6,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"pick": "Over 143.5 total points",
-"odds": 1.2,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "65-86",
-"ht": "21-17"
-},
-{
-"t": "Thu 20:00",
-"game": "Skyliners Frankfurt vs Maxima Roma",
-"pick": "Under 186.5 total points",
-"odds": 1.26,
-"ts": 1794510000.0,
-"r": "L",
-"sc": "89-113",
-"ht": "14-28"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"ts": 1794510300.0,
-"r": "W",
-"sc": "80-73",
-"ht": "25-21"
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"pick": "Under 196.5 total points",
-"odds": 1.25,
-"ts": 1794511800.0,
-"r": "W",
-"sc": "102-87",
-"ht": "29-19"
-},
-{
-"t": "Thu 21:00",
-"game": "Real Madrid vs KK Crvena zvezda Belgrade",
-"pick": "Over 161.5 total points",
-"odds": 1.22,
-"ts": 1794513600.0,
-"r": "W",
-"sc": "105-84",
-"ht": "38-20"
-},
-{
-"t": "Fri 00:30",
-"game": "Indiana Hoosiers vs Tennessee Tech Golden Eagles",
-"pick": "Under 175.5 total points",
-"odds": 1.48,
-"ts": 1794526200.0,
-"r": "W",
-"sc": "90-66",
-"ht": "41-37"
-},
-{
-"t": "Fri 01:00",
-"game": "Philadelphia 76ers vs Toronto Raptors",
-"pick": "Over 208.5 total points",
-"odds": 1.25,
-"ts": 1794528000.0,
-"r": "W",
-"sc": "123-112",
-"ht": "24-33"
-},
-{
-"t": "Fri 01:00",
-"game": "Washington Wizards vs Detroit Pistons",
-"pick": "Under 233.5 total points",
-"odds": 1.27,
-"ts": 1794528000.0
-},
-{
-"t": "Fri 02:00",
-"game": "Minnesota Timberwolves vs Dallas Mavericks",
-"pick": "Under 240.5 total points",
-"odds": 1.26,
-"ts": 1794531600.0
 }
 ]
 }
