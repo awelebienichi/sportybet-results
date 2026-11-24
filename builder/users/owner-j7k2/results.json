@@ -557,8 +557,8 @@
 "odds": 1.18,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "4-0",
-"ht": ""
+"sc": "5-0",
+"ht": "4-0"
 },
 {
 "t": "Tue 20:45",
@@ -2311,7 +2311,10 @@
 "game": "RB Leipzig vs Lens",
 "pick": "RB Leipzig to win (1UP)",
 "odds": 1.16,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "3-1",
+"ht": "2-0"
 },
 {
 "t": "Tue 21:00",
@@ -2853,7 +2856,10 @@
 "game": "Chapecoense SC vs SE Palmeiras SP",
 "pick": "1st half double chance SE Palmeiras SP or draw",
 "odds": 1.26,
-"ts": 1795554000.0
+"ts": 1795554000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Tue 23:00",
