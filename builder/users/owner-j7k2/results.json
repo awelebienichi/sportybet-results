@@ -572,7 +572,7 @@
 "when": "Tue 24 Nov 13:33",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 131.69,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -629,7 +629,10 @@
 "game": "Feyenoord Rotterdam vs FC Porto",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 18:45",
@@ -764,7 +767,10 @@
 "game": "Feyenoord Rotterdam vs FC Porto",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 18:45",
@@ -1472,7 +1478,7 @@
 "when": "Tue 24 Nov 13:04",
 "kind": "rebuild of TPNPUV \u2013 safest market per game",
 "odds": 5013.77,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:45",
@@ -1499,7 +1505,10 @@
 "game": "Feyenoord Rotterdam vs FC Porto",
 "pick": "Feyenoord Rotterdam or GG",
 "odds": 1.08,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 17:00",
@@ -2123,7 +2132,7 @@
 "when": "Tue 24 Nov 08:04",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 560.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 08:45",
@@ -2200,7 +2209,10 @@
 "game": "Feyenoord Rotterdam vs FC Porto",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 16:00",
@@ -2332,7 +2344,7 @@
 "when": "Tue 24 Nov 08:00",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 113.67,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 08:45",
@@ -2399,7 +2411,10 @@
 "game": "Feyenoord Rotterdam vs FC Porto",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 16:00",
@@ -2550,7 +2565,10 @@
 "game": "Feyenoord Rotterdam vs FC Porto",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
