@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YCS9AJ",
+"at": 1795550564,
+"when": "Tue 24 Nov 21:02",
+"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
+"odds": 8.68,
+"status": "open",
+"legs": [
+{
+"t": "Wed 01:30",
+"game": "Sao Paulo FC SP vs Atletico Mineiro MG",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795566600.0
+},
+{
+"t": "Wed 11:00",
+"game": "Sigma Olomouc vs FC Banik Ostrava",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 11:00",
+"game": "Gamba Osaka vs Port FC",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 11:00",
+"game": "V-Varen Nagasaki vs Kawasaki Frontale",
+"pick": "Over 1.5",
+"odds": 1.16,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 11:00",
+"game": "Kashima Antlers vs Jeonbuk FC",
+"pick": "Over 1.5",
+"odds": 1.23,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 13:00",
+"game": "Lech II Poznan vs Baltyk Koszalin",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795608000.0
+},
+{
+"t": "Wed 13:00",
+"game": "Deltras FC vs Persik Kediri",
+"pick": "Over 1.5",
+"odds": 1.21,
+"ts": 1795608000.0
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 20:45",
+"game": "Hartlepool United vs Solihull Moors FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795635900.0
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795636800.0
+}
+]
+},
+{
 "code": "YMBF9F",
 "at": 1795541202,
 "when": "Tue 24 Nov 18:26",
@@ -79102,76 +79196,6 @@
 "r": "W",
 "sc": "2-1",
 "ht": "2-1"
-}
-]
-},
-{
-"code": "PWMMUR",
-"at": 1794509641,
-"when": "Thu 12 Nov 19:54",
-"kind": "live \u2013 best of all",
-"odds": 1.31,
-"status": "won",
-"legs": [
-{
-"t": "Thu 18:30",
-"game": "Malta vs Eswatini",
-"pick": "Handicap 0:3 \u2013 Eswatini",
-"odds": 1.06,
-"ts": 1794504600.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 19:00",
-"game": "CA Huracan vs Estudiantes de Rio Cuarto Reserve",
-"pick": "CA Huracan Under 2.5",
-"odds": 1.03,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 19:00",
-"game": "Ceara SC CE vs FC Atletico CE",
-"pick": "Handicap 0:3 \u2013 FC Atletico CE",
-"odds": 1.05,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "2-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 19:00",
-"game": "CD Godoy Cruz vs Gimnasia de la Plata Reserve",
-"pick": "CD Godoy Cruz Under 4.5",
-"odds": 1.04,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "3-1",
-"ht": "2-1"
-},
-{
-"t": "Thu 19:00",
-"game": "CA Osasuna vs Logrono United",
-"pick": "Logrono United Under 4.5",
-"odds": 1.06,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-2"
-},
-{
-"t": "Thu 19:00",
-"game": "Rosario Central Reserve vs CA River Plate (Arg) Reserve",
-"pick": "CA River Plate (Arg) Reserve Under 2.5",
-"odds": 1.04,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
 }
 ]
 }
