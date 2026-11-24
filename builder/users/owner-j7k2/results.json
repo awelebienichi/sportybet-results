@@ -2,6 +2,282 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "PVB95Q",
+"at": 1795522064,
+"when": "Tue 24 Nov 13:07",
+"kind": "rebuild of TPNPUV \u2013 tracker's best markets",
+"odds": 4250.29,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:45",
+"game": "East Bengal FC vs Al Hussein Irbid",
+"pick": "1st half double chance East Bengal FC or draw",
+"odds": 1.39,
+"ts": 1795527900.0
+},
+{
+"t": "Tue 15:30",
+"game": "AL Fateh vs AL Taawoun U21",
+"pick": "Goal bounds 2-5+",
+"odds": 1.19,
+"ts": 1795530600.0
+},
+{
+"t": "Tue 16:00",
+"game": "Feyenoord Rotterdam vs FC Porto",
+"pick": "Feyenoord Rotterdam to win (1UP)",
+"odds": 1.36,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 17:00",
+"game": "FC Fratria Varna vs FC Yantra Gabrovo",
+"pick": "FC Fratria Varna to win (1UP)",
+"odds": 1.35,
+"ts": 1795536000.0
+},
+{
+"t": "Tue 17:30",
+"game": "FK Zenit Saint Petersburg vs PFK Krylia Sovetov Samara",
+"pick": "FK Zenit Saint Petersburg to win (1UP)",
+"odds": 1.28,
+"ts": 1795537800.0
+},
+{
+"t": "Tue 18:30",
+"game": "Orlando Pirates FC vs Lamontville Golden Arrows",
+"pick": "Goal bounds 2-5+",
+"odds": 1.31,
+"ts": 1795541400.0
+},
+{
+"t": "Tue 18:45",
+"game": "Bodoe/Glimt vs LASK Linz",
+"pick": "Bodoe/Glimt to win (1UP)",
+"odds": 1.17,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 18:45",
+"game": "Galatasaray Istanbul vs Aston Villa",
+"pick": "1st half double chance Galatasaray Istanbul or draw",
+"odds": 1.46,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 19:15",
+"game": "Al Nassr Club vs Al Sadd SC",
+"pick": "Al Nassr Club to win (1UP)",
+"odds": 1.12,
+"ts": 1795544100.0
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"pick": "Fleetwood Town to win (1UP)",
+"odds": 1.21,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"pick": "1st half double chance Huddersfield Town (R) or draw",
+"odds": 1.33,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Palermo FC vs FC Sudtirol Bolzano",
+"pick": "Palermo FC to win (1UP)",
+"odds": 1.25,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Virtus Entella vs Hellas Verona",
+"pick": "Goal bounds 2-5+",
+"odds": 1.35,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Cardiff City vs Preston North End",
+"pick": "Cardiff City to win (1UP)",
+"odds": 1.23,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Norwich vs Queens Park Rangers",
+"pick": "1st half double chance Norwich or draw",
+"odds": 1.26,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Portsmouth FC vs West Ham",
+"pick": "Goal bounds 2-5+",
+"odds": 1.24,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Blackpool FC vs Leicester",
+"pick": "Leicester to win (1UP)",
+"odds": 1.33,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bradford City FC vs Barnsley FC",
+"pick": "Bradford City FC to win (1UP)",
+"odds": 1.3,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bromley FC vs Wycombe Wanderers",
+"pick": "Wycombe Wanderers to win (1UP)",
+"odds": 1.37,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Fylde vs FC Halifax Town",
+"pick": "1st half double chance AFC Fylde or draw",
+"odds": 1.26,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Halesowen Town FC vs Stourbridge FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Dungannon Swifts vs Coleraine FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.15,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Harland And Wolff Welders vs Linfield FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hibernian FC vs Dundee FC",
+"pick": "Hibernian FC to win (1UP)",
+"odds": 1.3,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ross County FC vs Stenhousemuir FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.18,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "Pen-y-Bont FC to win (1UP)",
+"odds": 1.08,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bristol City vs Wrexham AFC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.36,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Crawley Town vs Barnet FC",
+"pick": "Barnet FC to win (1UP)",
+"odds": 1.41,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Feyenoord vs Porto",
+"pick": "1st half double chance Feyenoord or draw",
+"odds": 1.45,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Man City vs Napoli",
+"pick": "Man City to win (1UP)",
+"odds": 1.14,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"pick": "RB Leipzig to win (1UP)",
+"odds": 1.16,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "1st half double chance Real Madrid or draw",
+"odds": 1.08,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Wolves vs Derby County",
+"pick": "Goal bounds 2-5+",
+"odds": 1.2,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Rangers vs Aberdeen",
+"pick": "Rangers to win (1UP)",
+"odds": 1.11,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Como 1907 vs AEK Athens",
+"pick": "Como 1907 to win (1UP)",
+"odds": 1.14,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Slovan Bratislava vs Betis",
+"pick": "Betis to win (1UP)",
+"odds": 1.14,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 22:00",
+"game": "Chapecoense SC vs SE Palmeiras SP",
+"pick": "SE Palmeiras SP to win (1UP)",
+"odds": 1.52,
+"ts": 1795554000.0
+}
+]
+},
+{
 "code": "G0JVWS",
 "at": 1795521851,
 "when": "Tue 24 Nov 13:04",
@@ -77770,26 +78046,6 @@
 "game": "Hannover 96 vs TSV Havelse",
 "pick": "Hannover 96 Under 7.5",
 "odds": 1.14,
-"ts": 1794481200.0,
-"r": "W",
-"sc": "6-1",
-"ht": "4-0"
-}
-]
-},
-{
-"code": "YSQCB6",
-"at": 1794485827,
-"when": "Thu 12 Nov 13:17",
-"kind": "live \u2013 best of all",
-"odds": 1.25,
-"status": "won",
-"legs": [
-{
-"t": "Thu 12:00",
-"game": "Hannover 96 vs TSV Havelse",
-"pick": "Hannover 96 Under 6.5",
-"odds": 1.25,
 "ts": 1794481200.0,
 "r": "W",
 "sc": "6-1",
