@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YMBF9F",
+"at": 1795541202,
+"when": "Tue 24 Nov 18:26",
+"kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
+"odds": 130.19,
+"status": "open",
+"legs": [
+{
+"t": "Tue 20:45",
+"game": "Leek Town FC vs Gainsborough Trinity",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795549500.0
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795633200.0
+},
+{
+"t": "Sat 13:30",
+"game": "Barry Town United FC vs Caernarfon Town FC",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"pick": "Over 2.5",
+"odds": 1.6,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 17:30",
+"game": "Blau-Weiss Linz vs SK Sturm Graz II",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Grasshopper Club Zurich vs Basel",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 20:00",
+"game": "KSC Lokeren Temse vs K Beerschot VA",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Le Havre vs Strasbourg",
+"pick": "Over 2.5",
+"odds": 1.62,
+"ts": 1795895100.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Luzern vs Lugano",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Salzburg vs LASK Linz",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795968000.0
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795969800.0
+},
+{
+"t": "Sun 19:15",
+"game": "Sporting Hasselt vs RFC Liege",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795976100.0
+}
+]
+},
+{
 "code": "J5Z9KA",
 "at": 1795540394,
 "when": "Tue 24 Nov 18:13",
@@ -78870,76 +78971,6 @@
 "r": "W",
 "sc": "1-1",
 "ht": "1-0"
-}
-]
-},
-{
-"code": "KRPQ51",
-"at": 1794508211,
-"when": "Thu 12 Nov 19:30",
-"kind": "live \u2013 best of all",
-"odds": 1.33,
-"status": "won",
-"legs": [
-{
-"t": "Thu 18:00",
-"game": "Lithuania vs Suriname",
-"pick": "Lithuania Under 1.5",
-"odds": 1.03,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 18:00",
-"game": "Armenia vs Cyprus",
-"pick": "Armenia Under 2.5",
-"odds": 1.06,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 18:00",
-"game": "Turkiye vs Belgium",
-"pick": "Turkiye Under 2.5",
-"odds": 1.05,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "1-2",
-"ht": "1-2"
-},
-{
-"t": "Thu 18:00",
-"game": "Tunisia vs Gabon",
-"pick": "Under 3.5",
-"odds": 1.03,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-},
-{
-"t": "Thu 18:30",
-"game": "Malta vs Eswatini",
-"pick": "Handicap 0:3 \u2013 Eswatini",
-"odds": 1.03,
-"ts": 1794504600.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 19:00",
-"game": "Chambery SF vs Grenoble Foot",
-"pick": "Handicap 4:0 \u2013 Chambery SF",
-"odds": 1.09,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-0"
 }
 ]
 }
