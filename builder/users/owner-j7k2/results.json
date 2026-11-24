@@ -2,6 +2,128 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UX9C19",
+"at": 1795495604,
+"when": "Tue 24 Nov 05:46",
+"kind": "goal-fest teams (season data)",
+"odds": 477.19,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "Charlton Athletic U21 vs Coventry City U21",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 15:25",
+"game": "AL Ettifaq U21 vs AL Nassr",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795530300.0
+},
+{
+"t": "Tue 15:30",
+"game": "AL Fateh vs AL Taawoun U21",
+"pick": "Over 2.5",
+"odds": 1.63,
+"ts": 1795530600.0
+},
+{
+"t": "Tue 16:00",
+"game": "FC Felgueiras 1932 U23 vs Academico Viseu",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 20:00",
+"game": "FC Dietikon vs USV Eschen-Mauren",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ebbsfleet United FC vs Billericay Town",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Woking FC vs Worthing FC",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Slough Town vs Farnborough FC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Fylde vs FC Halifax Town",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Telford United vs Buxton FC",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Forest Green Rovers vs Southend United",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Anstey Nomads vs Redditch United",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Leatherhead FC vs Ramsgate FC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Wingate & Finchley",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1795549500.0
+}
+]
+},
+{
 "code": "MCVXSV",
 "at": 1795443398,
 "when": "Mon 23 Nov 15:16",
@@ -78175,107 +78297,6 @@
 "r": "L",
 "sc": "89-113",
 "ht": "14-28"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"ts": 1794510300.0
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"pick": "Under 196.5 total points",
-"odds": 1.25,
-"ts": 1794511800.0
-},
-{
-"t": "Thu 21:00",
-"game": "Real Madrid vs KK Crvena zvezda Belgrade",
-"pick": "Over 161.5 total points",
-"odds": 1.22,
-"ts": 1794513600.0
-}
-]
-},
-{
-"code": "YA6HQJ",
-"at": 1794440446,
-"when": "Thu 12 Nov 00:40",
-"kind": "basketball \u2013 total points",
-"odds": 10.09,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 01:00",
-"game": "Toronto Raptors vs Boston Celtics",
-"pick": "Over 202.5 total points",
-"odds": 1.25,
-"ts": 1794441600.0,
-"r": "L",
-"sc": "93-98",
-"ht": "38-29"
-},
-{
-"t": "Thu 01:00",
-"game": "Norfolk State Spartans vs Old Dominion Monarchs",
-"pick": "Over 128.5 total points",
-"odds": 1.4,
-"ts": 1794441600.0,
-"r": "W",
-"sc": "60-71",
-"ht": "24-36"
-},
-{
-"t": "Thu 01:00",
-"game": "Indiana Pacers vs Washington Wizards",
-"pick": "Under 240.5 total points",
-"odds": 1.29,
-"ts": 1794441600.0,
-"r": "W",
-"sc": "114-101",
-"ht": "26-25"
-},
-{
-"t": "Thu 02:00",
-"game": "Milwaukee Bucks vs Los Angeles Lakers",
-"pick": "Over 215.5 total points",
-"odds": 1.24,
-"ts": 1794445200.0,
-"r": "W",
-"sc": "112-123",
-"ht": "28-30"
-},
-{
-"t": "Thu 03:00",
-"game": "Utah Jazz vs Orlando Magic",
-"pick": "Over 201.5 total points",
-"odds": 1.25,
-"ts": 1794448800.0,
-"r": "W",
-"sc": "108-123",
-"ht": "34-29"
-},
-{
-"t": "Thu 03:30",
-"game": "Houston Rockets vs Golden State Warriors",
-"pick": "Over 206.5 total points",
-"odds": 1.25,
-"ts": 1794450600.0,
-"r": "W",
-"sc": "115-108",
-"ht": "35-20"
-},
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"pick": "Over 143.5 total points",
-"odds": 1.2,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "65-86",
-"ht": "21-17"
 },
 {
 "t": "Thu 20:05",
