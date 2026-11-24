@@ -287,6 +287,16 @@ def pick_h1o05(G, LX, half=1):
                         why=("TOP TIER: " if top else "") + f"goal in the {'1st' if half == 1 else '2nd'} half in {hr:.0%} of {g['h']}'s last {nh} and {ar:.0%} of {g['a']}'s last {na}"))
     return sorted(out, key=lambda r: -r["s"])
 
+def pick_goalmix(G, LX):
+    """user's type (24 Nov): Over 2.5 and Over 1.5 together from teams that score a lot. Over 2.5 legs: goal-fest games only (season
+    goals a game, same gate as pick_season goalfest) priced up to the Over 2.5 cap, taken lowest price first (16 Nov: the price is what
+    held up for Over 2.5); Over 1.5 legs: the top tier only (o15_top). Each leg is tagged so the tickets keep the user's 35/65 split."""
+    O25 = [p for p in pick_season(G, LX, "goalfest", 200) if p["spec"] == "total=2.5" and p["odds"] <= O25_MAX.get(round(ST["L"], 1), 1.60)]
+    for p in O25: p["part"] = "o25"; p["rate"] = 1 / (p["odds"] * 1.06)
+    O15 = [p for p in pick_goals(G, LX, "o15") if p.get("top")]
+    for p in O15: p["part"] = "o15"
+    return O25 + O15
+
 def pick_h1bounce(G, LX):
     """user's own type (23 Nov): a team that usually has a goal before half-time (85%+ of its other recent games) but whose last 3
     games were 0-0 at the break -> 1st half Over 0.5 now. Tested first on 3,190 teams' 100-game histories: after three 0-0 first halves
@@ -1211,7 +1221,7 @@ def main(req):
             return f_ <= m <= t_ if f_ <= t_ else (m >= f_ or m <= t_)
         G = [g for g in G if _in(g)]; span += f", {req['from']}–{req['to']}"
     LX = fetch_teams(G)
-    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1bounce(G, LX) if kind == "h1bounce" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "gfbounce", "lowbounce", "beaten", "drawlow") else pick_goals(G, LX, kind)
+    P = pick_fav(G, LX, kind == "smallfav") if kind in ("fav", "smallfav") else pick_fav1h(G, LX) if kind == "fav1h" else pick_fav1h(G, LX, 2) if kind == "fav2h" else pick_h1o05(G, LX) if kind == "h1o05" else pick_h1bounce(G, LX) if kind == "h1bounce" else pick_goalmix(G, LX) if kind == "goalmix" else pick_h1o05(G, LX, 2) if kind == "h2o05" else pick_yw_strong(G, LX) if kind == "o25yw" else pick_markets(G, LX, req.get("markets") or [], legs * nt) if kind == "markets" else pick_multi(G, LX, kind, legs * nt) if kind in SETS else pick_htdraw(G, LX) if kind == "htdraw" else pick_draw_weak(G, LX) if kind == "drawweak" else pick_draw_weak(G, LX, True) if kind == "htdrawweak" else pick_season(G, LX, kind, legs * nt) if kind in ("goalfest", "gfbounce", "lowbounce", "beaten", "drawlow") else pick_goals(G, LX, kind)
     # strongest first (user, 15 Nov: "make the top priority the best of the best"): every leg ranked by its chance of coming true –
     # its stats rate and the bookmaker's own price together – so weaker legs are only used once all stronger ones are on the ticket
     if P and all(p.get("rate") is not None for p in P):
@@ -1224,11 +1234,11 @@ def main(req):
             import extra
             P, dropped = extra.confirm(P, legs * nt)
         except Exception as e: print("extra checks skipped:", e)
-    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "gfbounce": "goal-fest bounce-back (Over 2.5 after a quiet game)", "lowbounce": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)", "h1bounce": "1st half Over 0.5 bounce-back (after 3 half-time 0-0s)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
+    names = {"drawweak": "full-time draw – two weak teams", "htdrawweak": "half-time draw – weak teams", "goalfest": "goal-fest teams (season data)", "gfbounce": "goal-fest bounce-back (Over 2.5 after a quiet game)", "lowbounce": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)", "h1bounce": "1st half Over 0.5 bounce-back (after 3 half-time 0-0s)", "goalmix": "Over 2.5 + Over 1.5 mix (high-scoring teams)", "beaten": "always-beaten teams (season data)", "drawlow": "draw & low-scoring teams (season data)", "markets": "your chosen markets", "htdraw": "half-time draw", "gg": "GG (both teams score)", "best": "your tracker's best markets", "mix": "safest market per game", "h2o05": "2nd half Over 0.5", "fav2h": "strong team to score in the 2nd half", "h1o05": "1st half Over 0.5", "fav1h": "strong team to score in the 1st half", "fav": "strong favourites to win", "smallfav": "smallest-odds favourites to win", "o15": "Over 1.5", "o25": "Over 2.5 (lowest prices first)",
              "o25yw": "Over 2.5 (strong teams in youth & women's leagues)", "u25": "Under 2.5 (low-scoring leagues)"}
     note = [f"{dropped} leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them."] if dropped else []
     target = float(req.get("target") or 0)
-    if target > 1:   # fill each ticket with the strongest legs until it reaches the target odds (legs = the most allowed)
+    if target > 1 and kind != "goalmix":   # fill each ticket with the strongest legs until it reaches the target odds (legs = the most allowed); the goal mix keeps its 35/65 split instead
         T, i = [], 0
         for _ in range(nt):
             t, prod = [], 1.0
@@ -1237,6 +1247,18 @@ def main(req):
         if not T:
             return dict(ok=False, msg=f"Could not reach {target:g} odds with {legs} legs or fewer from the {len(P)} games that pass the checks for {names[kind]} ({span}). Allow more legs or a lower target.")
         if len(T) < nt: note.append(f"Only enough strong games for {len(T)} ticket(s) at about {target:g} odds with no game repeated (you asked for {nt}).")
+        return finish(T, kind, names, note, req)
+    if kind == "goalmix":   # keep the user's split on every ticket: 35% Over 2.5, 65% Over 1.5 (each part strongest first)
+        A25 = [p for p in P if p.get("part") == "o25"]; A15 = [p for p in P if p.get("part") == "o15"]
+        n25 = round(legs * .35); n15 = legs - n25; T = []
+        for i in range(nt):
+            a, b = A25[i * n25:(i + 1) * n25], A15[i * n15:(i + 1) * n15]
+            if len(a) < n25 or len(b) < n15:
+                if not T: note.append(f"Only {len(A25)} Over 2.5 and {len(A15)} Over 1.5 legs passed ({span}); this ticket has {len(a)} + {len(b)} instead of {n25} + {n15}. Tick more days for more.")
+                else: note.append(f"Only enough strong games for {len(T)} ticket(s) of {legs} (you asked for {nt})."); break
+            if a or b: T.append(a + b)
+            if len(a) < n25 or len(b) < n15: break
+        if not T: return dict(ok=False, msg=f"No Over 2.5 / Over 1.5 legs passed the checks ({span}). Tick more days or use 'Relaxed'.")
         return finish(T, kind, names, note, req)
     if len(P) < 2:
         if kind == "markets" and set(req.get("markets") or []) <= {"m5x", "m10x"}:
