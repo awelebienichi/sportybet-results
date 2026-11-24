@@ -44,7 +44,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
@@ -1456,7 +1459,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
@@ -1480,7 +1486,7 @@
 "when": "Tue 24 Nov 08:06",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 1.55,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -1497,7 +1503,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 }
 ]
 },
@@ -1574,7 +1583,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
@@ -1767,7 +1779,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
@@ -1909,7 +1924,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795532400.0
+"ts": 1795532400.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
