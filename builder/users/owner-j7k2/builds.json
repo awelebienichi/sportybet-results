@@ -1,5 +1,150 @@
 [
 {
+"when": "Tue 24 Nov 08:10",
+"at": 1795504256,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "bball",
+"kind": "total",
+"legs": 25,
+"days": [
+"2026-11-24",
+"2026-11-25"
+],
+"strict": "normal",
+"rid": "mwucva40tm2a"
+},
+"ok": true,
+"kind": "basketball \u2013 total points",
+"note": [
+"Only 8 basketball games passed the checks (Tue 24, Wed 25, 51 judged), so the ticket has 8 legs.",
+"Normal: in testing about 85 in 100 such legs came true.",
+"Chance all 8 legs win: about 12%."
+],
+"tickets": [
+{
+"code": "YDCSAB",
+"odds": 5.45,
+"legs": [
+{
+"t": "Tue 18:00",
+"game": "Besiktas JK vs Paris Basketball",
+"lg": "International - Euroleague",
+"pick": "Under 197.5 total points",
+"odds": 1.24,
+"why": "expected Besiktas JK 90 \u2013 Paris Basketball 91 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; Flashscore home/away form 95%",
+"ts": 1795539600.0,
+"eid": "sr:match:73263198",
+"mid": "225",
+"spec": "total=197.5",
+"oid": "13",
+"k": "73263198|225|total=197.5|13"
+},
+{
+"t": "Tue 19:00",
+"game": "KK Crvena zvezda Belgrade vs Virtus Bologna",
+"lg": "International - Euroleague",
+"pick": "Over 159.5 total points",
+"odds": 1.22,
+"why": "expected KK Crvena zvezda Belgrade 95 \u2013 Virtus Bologna 87 (last 10/10 games, home edge included); 90% by the stats, 84% with the price",
+"ts": 1795543200.0,
+"eid": "sr:match:73263200",
+"mid": "225",
+"spec": "total=159.5",
+"oid": "12",
+"k": "73263200|225|total=159.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Bayern Munich vs Maccabi Tel-Aviv",
+"lg": "International - Euroleague",
+"pick": "Under 192.5 total points",
+"odds": 1.26,
+"why": "expected Bayern Munich 90 \u2013 Maccabi Tel-Aviv 82 (last 10/10 games, home edge included); 87% by the stats, 81% with the price; h2h 75% of 8 meetings, Flashscore home/away form 90%",
+"ts": 1795546800.0,
+"eid": "sr:match:73263202",
+"mid": "225",
+"spec": "total=192.5",
+"oid": "13",
+"k": "73263202|225|total=192.5|13"
+},
+{
+"t": "Tue 20:30",
+"game": "Valencia Basket vs Panathinaikos BC",
+"lg": "International - Euroleague",
+"pick": "Over 162.5 total points",
+"odds": 1.22,
+"why": "expected Valencia Basket 92 \u2013 Panathinaikos BC 84 (last 10/10 games, home edge included); 78% by the stats, 78% with the price; h2h 75% of 8 meetings, Flashscore home/away form 70%",
+"ts": 1795548600.0,
+"eid": "sr:match:73263204",
+"mid": "225",
+"spec": "total=162.5",
+"oid": "12",
+"k": "73263204|225|total=162.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "FC Barcelona vs Fenerbahce Istanbul",
+"lg": "International - Euroleague",
+"pick": "Over 157.5 total points",
+"odds": 1.22,
+"why": "expected FC Barcelona 89 \u2013 Fenerbahce Istanbul 87 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 85%",
+"ts": 1795550400.0,
+"eid": "sr:match:73263208",
+"mid": "225",
+"spec": "total=157.5",
+"oid": "12",
+"k": "73263208|225|total=157.5|12"
+},
+{
+"t": "Wed 01:00",
+"game": "Orlando Magic vs Detroit Pistons",
+"lg": "USA - NBA",
+"pick": "Over 200.5 total points",
+"odds": 1.24,
+"why": "expected Orlando Magic 113 \u2013 Detroit Pistons 110 (last 10/10 games, home edge included); 90% by the stats, 83% with the price; Flashscore home/away form 75%, NBA ratings say 220 points",
+"ts": 1795564800.0,
+"eid": "sr:match:73697014",
+"mid": "225",
+"spec": "total=200.5",
+"oid": "12",
+"k": "73697014|225|total=200.5|12"
+},
+{
+"t": "Wed 02:00",
+"game": "Washington Wizards vs Boston Celtics",
+"lg": "USA - NBA",
+"pick": "Under 230.5 total points",
+"odds": 1.25,
+"why": "expected Washington Wizards 106 \u2013 Boston Celtics 110 (last 10/10 games, home edge included); 79% by the stats, 77% with the price; OddsShark O/U records 63% (WAS 7-11, BOS 6-11), Flashscore home/away form 70%, NBA ratings say 218 points",
+"ts": 1795568400.0,
+"eid": "sr:match:73697016",
+"mid": "225",
+"spec": "total=230.5",
+"oid": "13",
+"k": "73697016|225|total=230.5|13"
+},
+{
+"t": "Wed 04:00",
+"game": "Denver Nuggets vs Dallas Mavericks",
+"lg": "USA - NBA",
+"pick": "Over 218.5 total points",
+"odds": 1.24,
+"why": "expected Denver Nuggets 118 \u2013 Dallas Mavericks 113 (last 10/10 games, home edge included); 76% by the stats, 76% with the price; h2h 75% of 8 meetings, Flashscore home/away form 80%, NBA ratings say 227 points",
+"ts": 1795575600.0,
+"eid": "sr:match:73697018",
+"mid": "225",
+"spec": "total=218.5",
+"oid": "12",
+"k": "73697018|225|total=218.5|12"
+}
+],
+"chance": 0.1241
+}
+]
+},
+{
 "when": "Tue 24 Nov 08:07",
 "at": 1795504037,
 "req": {
@@ -8122,291 +8267,6 @@
 }
 ],
 "chance": 0.0001
-}
-]
-},
-{
-"when": "Sun 22 Nov 13:01",
-"at": 1795348920,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwrsd67vqv3y"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 18 games passed the checks (Sun 22, 507 games on SportyBet), so this ticket has 18 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Chance all 18 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "UH686S",
-"odds": 414.86,
-"legs": [
-{
-"t": "Sun 14:00",
-"game": "1. FC Phonix Lubeck vs FC St. Pauli II",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "season: 3.5 and 3.7 goals a game (17/16 games); last 10 rate 75%; Flashscore home/away form 75%, footybets 84%, FotMob: 3.6 goals a game, Vitibet tip 3-1",
-"ts": 1795352400.0,
-"eid": "sr:match:72674466",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72674466|18|total=2.5|12"
-},
-{
-"t": "Sun 14:00",
-"game": "Eintracht Norderstedt vs FSV Schoningen 2011",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "Over 2.5",
-"odds": 1.54,
-"why": "season: 4.7 and 3.2 goals a game (16/17 games); last 10 rate 80%; Flashscore home/away form 75%, footybets 84%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795352400.0,
-"eid": "sr:match:72674458",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72674458|18|total=2.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "FC Rouen U19 vs SM Caen",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 4.0 and 3.8 goals a game (11/11 games); last 10 rate 75%; season: 3.9 goals a game",
-"ts": 1795354200.0,
-"eid": "sr:match:73111680",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111680|18|total=2.5|12"
-},
-{
-"t": "Sun 14:30",
-"game": "Union Sportive Cap D Ail U19 vs Bastia SC",
-"lg": "France - U19 National",
-"pick": "Over 2.5",
-"odds": 1.63,
-"why": "season: 3.8 and 3.9 goals a game (11/10 games); last 10 rate 80%; season: 3.9 goals a game",
-"ts": 1795354200.0,
-"eid": "sr:match:73111874",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73111874|18|total=2.5|12"
-},
-{
-"t": "Sun 15:00",
-"game": "Hamburger SV II vs SV Werder Bremen II",
-"lg": "Germany Amateur - Regionalliga North",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "season: 4.0 and 3.5 goals a game (18/18 games); last 10 rate 85%; Flashscore home/away form 85%, footybets 95%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
-"ts": 1795356000.0,
-"eid": "sr:match:75094606",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75094606|18|total=2.5|12"
-},
-{
-"t": "Sun 15:30",
-"game": "Augsburg vs Mainz",
-"lg": "Germany - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "season: 4.4 and 4.1 goals a game (9/9 games); last 10 rate 80%; Flashscore home/away form 65%, footybets 90%, FotMob: 4.3 goals a game, season: 4.3 goals a game",
-"ts": 1795357800.0,
-"eid": "sr:match:72513316",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72513316|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Swift Hesperange vs Atert Bissen",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 2.5",
-"odds": 1.21,
-"why": "season: 3.8 and 4.0 goals a game (12/12 games); last 10 rate 95%; Flashscore home/away form 80%, FotMob: 3.9 goals a game, Vitibet tip 1-4, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963860",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72963860|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Servette Geneva W vs FC St. Gallen-Staad",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 2.5",
-"odds": 1.22,
-"why": "season: 3.9 and 3.9 goals a game (12/12 games); last 10 rate 95%; Flashscore home/away form 80%, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72652098",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652098|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "RFC Union Luxembourg vs FC Wiltz 71",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "season: 3.7 and 4.2 goals a game (12/12 games); last 10 rate 80%; Flashscore home/away form 85%, FotMob: 4.0 goals a game, Vitibet tip 3-1, season: 4.0 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963852",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72963852|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "RB Leipzig vs VfL Wolfsburg W",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.23,
-"why": "season: 3.8 and 4.3 goals a game (10/10 games); last 10 rate 80%; Flashscore home/away form 75%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72961102",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961102|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Un Kaerjeng 97 vs US Mondorf-Les-Bains",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "season: 4.3 and 3.7 goals a game (12/12 games); last 10 rate 95%; Flashscore home/away form 80%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963856",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72963856|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "FC Victoria Rosport vs AS La Jeunesse D Esch/Alzette",
-"lg": "Luxembourg - Division Nationale",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "season: 4.2 and 3.6 goals a game (12/12 games); last 10 rate 80%; Flashscore home/away form 65%, FotMob: 3.9 goals a game, season: 3.9 goals a game",
-"ts": 1795359600.0,
-"eid": "sr:match:72963864",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72963864|18|total=2.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "Basel vs FC Luzern",
-"lg": "Switzerland - Super League",
-"pick": "Over 2.5",
-"odds": 1.36,
-"why": "season: 3.5 and 3.8 goals a game (13/13 games); last 10 rate 80%; Flashscore home/away form 75%, footybets 94%, FotMob: 3.7 goals a game",
-"ts": 1795361400.0,
-"eid": "sr:match:74379726",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74379726|18|total=2.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "FC Zurich vs FC Yverdon",
-"lg": "Switzerland - Super League, Women",
-"pick": "Over 2.5",
-"odds": 1.37,
-"why": "season: 4.0 and 3.7 goals a game (12/12 games); last 10 rate 80%; Flashscore home/away form 55%, season: 3.8 goals a game",
-"ts": 1795361400.0,
-"eid": "sr:match:72652104",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72652104|18|total=2.5|12"
-},
-{
-"t": "Sun 16:30",
-"game": "1. FC Saarbrucken vs SV Wehen Wiesbaden",
-"lg": "Germany - 3. Liga",
-"pick": "Over 2.5",
-"odds": 1.58,
-"why": "season: 4.4 and 3.3 goals a game (13/13 games); last 10 rate 75%; Flashscore home/away form 70%, footybets 68%, FotMob: 3.8 goals a game, season: 3.8 goals a game, CompactStats 63% (bookmaker 61%)",
-"ts": 1795361400.0,
-"eid": "sr:match:72680298",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72680298|18|total=2.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "Aalesunds FK vs Rosenborg BK",
-"lg": "Norway - Eliteserien",
-"pick": "Over 2.5",
-"odds": 1.35,
-"why": "season: 4.0 and 3.3 goals a game (26/26 games); last 10 rate 80%; Flashscore home/away form 80%, footybets 97%, FotMob: 3.7 goals a game",
-"ts": 1795363200.0,
-"eid": "sr:match:67015480",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "67015480|18|total=2.5|12"
-},
-{
-"t": "Sun 18:00",
-"game": "Apollon Limassol vs Als Omonia",
-"lg": "Cyprus - 1st Division",
-"pick": "Over 2.5",
-"odds": 1.36,
-"why": "season: 3.6 and 3.6 goals a game (9/9 games); last 10 rate 80%; Flashscore home/away form 80%, FotMob: 3.6 goals a game",
-"ts": 1795366800.0,
-"eid": "sr:match:73160484",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73160484|18|total=2.5|12"
-},
-{
-"t": "Sun 18:30",
-"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "season: 4.2 and 4.0 goals a game (10/10 games); last 10 rate 85%; Flashscore home/away form 85%, FotMob: 4.1 goals a game, season: 4.1 goals a game, CompactStats 71% (bookmaker 64%)",
-"ts": 1795368600.0,
-"eid": "sr:match:72961094",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961094|18|total=2.5|12"
-}
-],
-"chance": 0.001
 }
 ]
 }
