@@ -751,7 +751,10 @@
 "game": "Sheffield United U21 vs Millwall U21",
 "pick": "Over 2.5",
 "odds": 1.45,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -1852,7 +1855,10 @@
 "game": "Orlando Pirates FC vs Lamontville Golden Arrows",
 "pick": "Orlando Pirates FC to win",
 "odds": 1.4,
-"ts": 1795541400.0
+"ts": 1795541400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 18:45",

@@ -7,7 +7,7 @@
 "when": "Tue 24 Nov 18:47",
 "kind": "live \u2013 best of all",
 "odds": 1.62,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Tue 17:30",
@@ -64,7 +64,10 @@
 "game": "Orlando Pirates FC vs Lamontville Golden Arrows",
 "pick": "Handicap 0:3 \u2013 Lamontville Golden Arrows",
 "odds": 1.15,
-"ts": 1795541400.0
+"ts": 1795541400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 }
 ]
 },
