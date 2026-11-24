@@ -945,7 +945,7 @@
 "odds": 1.31,
 "ts": 1795546800.0,
 "r": "W",
-"sc": "4-0",
+"sc": "5-0",
 "ht": "0-0"
 },
 {
@@ -1223,7 +1223,7 @@
 "odds": 1.31,
 "ts": 1795546800.0,
 "r": "W",
-"sc": "4-0",
+"sc": "5-0",
 "ht": "0-0"
 },
 {
@@ -2054,7 +2054,10 @@
 "game": "Feyenoord vs Porto",
 "pick": "1st half double chance Feyenoord or draw",
 "odds": 1.45,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 21:00",
@@ -2075,7 +2078,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "1st half double chance Real Madrid or draw",
 "odds": 1.08,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 21:00",
@@ -2998,7 +3004,7 @@
 "odds": 1.31,
 "ts": 1795546800.0,
 "r": "W",
-"sc": "4-0",
+"sc": "5-0",
 "ht": "0-0"
 },
 {
@@ -3224,7 +3230,7 @@
 "odds": 1.31,
 "ts": 1795546800.0,
 "r": "W",
-"sc": "4-0",
+"sc": "5-0",
 "ht": "0-0"
 },
 {
@@ -3673,7 +3679,10 @@
 "game": "Feyenoord vs Porto",
 "pick": "1st half double chance Feyenoord or draw",
 "odds": 1.44,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 21:00",
@@ -3707,7 +3716,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "1st half double chance Real Madrid or draw",
 "odds": 1.07,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
