@@ -46,8 +46,8 @@
 "odds": 1.19,
 "ts": 1795532400.0,
 "r": "W",
-"sc": "2-3",
-"ht": ""
+"sc": "3-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 16:00",
@@ -172,7 +172,7 @@
 "when": "Tue 24 Nov 13:29",
 "kind": "your chosen markets",
 "odds": 83.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:30",
@@ -189,7 +189,10 @@
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
@@ -276,7 +279,7 @@
 "when": "Tue 24 Nov 13:24",
 "kind": "goal-fest teams (season data)",
 "odds": 7.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -293,7 +296,10 @@
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 15:30",
@@ -324,7 +330,7 @@
 "when": "Tue 24 Nov 13:22",
 "kind": "goal-fest teams (season data)",
 "odds": 485.13,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -341,7 +347,10 @@
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 15:30",
@@ -1609,8 +1618,8 @@
 "odds": 1.2,
 "ts": 1795532400.0,
 "r": "W",
-"sc": "2-3",
-"ht": ""
+"sc": "3-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 16:00",
@@ -1808,8 +1817,8 @@
 "odds": 1.2,
 "ts": 1795532400.0,
 "r": "W",
-"sc": "2-3",
-"ht": ""
+"sc": "3-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 16:00",
@@ -1920,7 +1929,7 @@
 "when": "Tue 24 Nov 07:55",
 "kind": "your chosen markets",
 "odds": 94.55,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 12:00",
@@ -1947,7 +1956,10 @@
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
@@ -1956,8 +1968,8 @@
 "odds": 1.2,
 "ts": 1795532400.0,
 "r": "W",
-"sc": "2-3",
-"ht": ""
+"sc": "3-3",
+"ht": "2-3"
 },
 {
 "t": "Tue 16:00",
@@ -2037,14 +2049,17 @@
 "when": "Tue 24 Nov 07:54",
 "kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
 "odds": 3.04,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 15:25",
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 15:30",
@@ -2288,14 +2303,17 @@
 "when": "Tue 24 Nov 05:50",
 "kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
 "odds": 136.85,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 15:25",
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -2389,7 +2407,7 @@
 "when": "Tue 24 Nov 05:46",
 "kind": "goal-fest teams (season data)",
 "odds": 477.19,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -2406,7 +2424,10 @@
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 15:30",

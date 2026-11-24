@@ -7,14 +7,17 @@
 "when": "Tue 24 Nov 14:18",
 "kind": "your chosen markets",
 "odds": 27.27,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 15:25",
 "game": "AL Ettifaq U21 vs AL Nassr",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795530300.0
+"ts": 1795530300.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 16:00",
