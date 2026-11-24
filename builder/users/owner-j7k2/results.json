@@ -208,7 +208,7 @@
 "when": "Tue 24 Nov 18:13",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 129.26,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 19:00",
@@ -346,7 +346,10 @@
 "game": "Crawley Town vs Barnet FC",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -497,7 +500,10 @@
 "game": "Crawley Town vs Barnet FC",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1058,7 +1064,10 @@
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -1092,7 +1101,10 @@
 "game": "Blackpool FC vs Leicester",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1463,7 +1475,10 @@
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -1839,7 +1854,7 @@
 "when": "Tue 24 Nov 13:11",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -1893,7 +1908,10 @@
 "game": "Crawley Town vs Barnet FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 21:00",
@@ -2129,7 +2147,10 @@
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -2470,14 +2491,20 @@
 "game": "Dungannon Swifts vs Coleraine FC",
 "pick": "Double chance Coleraine FC or draw",
 "odds": 1.28,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-5",
+"ht": "1-2"
 },
 {
 "t": "Tue 20:45",
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Linfield FC to win",
 "odds": 1.23,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -2514,7 +2541,10 @@
 "game": "Crawley Town vs Barnet FC",
 "pick": "GG (both teams score)",
 "odds": 1.52,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 21:00",
@@ -3229,7 +3259,10 @@
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -3580,7 +3613,10 @@
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",

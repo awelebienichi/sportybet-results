@@ -144,7 +144,10 @@
 "game": "Harland And Wolff Welders vs Linfield FC",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -560,7 +563,10 @@
 "game": "Crawley Town vs Barnet FC",
 "pick": "Barnet FC to score in 2nd half",
 "odds": 1.43,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1427,7 +1433,10 @@
 "game": "Crawley Town vs Barnet FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.16,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 21:00",
