@@ -1888,7 +1888,10 @@
 "game": "Dungannon Swifts vs Coleraine FC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -2117,7 +2120,10 @@
 "game": "Palermo FC vs FC Sudtirol Bolzano",
 "pick": "2nd half Over 0.5",
 "odds": 1.19,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-0"
 },
 {
 "t": "Tue 20:00",
