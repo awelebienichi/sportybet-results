@@ -1122,7 +1122,7 @@
 "when": "Tue 24 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 6.2,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -1139,7 +1139,10 @@
 "game": "Blacks Power FC vs Entebbe UPPC FC",
 "pick": "1st half double chance Entebbe UPPC FC or draw",
 "odds": 1.15,
-"ts": 1795525200.0
+"ts": 1795525200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 14:15",
@@ -1989,7 +1992,10 @@
 "game": "Charlton Athletic U21 vs Coventry City U21",
 "pick": "1st half GG \u2013 No",
 "odds": 1.42,
-"ts": 1795525200.0
+"ts": 1795525200.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Tue 15:00",
