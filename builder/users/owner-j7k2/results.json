@@ -2146,7 +2146,7 @@
 "when": "Tue 24 Nov 08:11",
 "kind": "basketball \u2013 total points",
 "odds": 57.32,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 12:30",
@@ -2163,7 +2163,10 @@
 "game": "BC Zalgiris Kaunas II vs BC Telsiai",
 "pick": "Under 186.5 total points",
 "odds": 1.4,
-"ts": 1795536000.0
+"ts": 1795536000.0,
+"r": "L",
+"sc": "89-98",
+"ht": "23-27"
 },
 {
 "t": "Tue 17:45",
