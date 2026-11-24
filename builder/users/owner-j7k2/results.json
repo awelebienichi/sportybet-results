@@ -543,7 +543,10 @@
 "game": "Moyola Park FC vs Ballymena United",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -892,7 +895,10 @@
 "game": "Ipswich Town U21 vs Bromley FC U21",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
@@ -1155,7 +1161,10 @@
 "game": "Ipswich Town U21 vs Bromley FC U21",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
@@ -2876,7 +2885,10 @@
 "game": "Ipswich Town U21 vs Bromley FC U21",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
@@ -3093,7 +3105,10 @@
 "game": "Ipswich Town U21 vs Bromley FC U21",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:00",
