@@ -2,6 +2,275 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "G0JVWS",
+"at": 1795521851,
+"when": "Tue 24 Nov 13:04",
+"kind": "rebuild of TPNPUV \u2013 safest market per game",
+"odds": 5013.77,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:45",
+"game": "East Bengal FC vs Al Hussein Irbid",
+"pick": "1st half double chance East Bengal FC or draw",
+"odds": 1.39,
+"ts": 1795527900.0
+},
+{
+"t": "Tue 15:30",
+"game": "AL Fateh vs AL Taawoun U21",
+"pick": "Over 1.5",
+"odds": 1.19,
+"ts": 1795530600.0
+},
+{
+"t": "Tue 16:00",
+"game": "Feyenoord Rotterdam vs FC Porto",
+"pick": "Feyenoord Rotterdam or GG",
+"odds": 1.08,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 17:00",
+"game": "FC Fratria Varna vs FC Yantra Gabrovo",
+"pick": "Over 1.5",
+"odds": 1.24,
+"ts": 1795536000.0
+},
+{
+"t": "Tue 17:30",
+"game": "FK Zenit Saint Petersburg vs PFK Krylia Sovetov Samara",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795537800.0
+},
+{
+"t": "Tue 18:30",
+"game": "Orlando Pirates FC vs Lamontville Golden Arrows",
+"pick": "Orlando Pirates FC to win",
+"odds": 1.4,
+"ts": 1795541400.0
+},
+{
+"t": "Tue 18:45",
+"game": "Bodoe/Glimt vs LASK Linz",
+"pick": "1st half double chance Bodoe/Glimt or draw",
+"odds": 1.16,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 18:45",
+"game": "Galatasaray Istanbul vs Aston Villa",
+"pick": "1st half double chance Galatasaray Istanbul or draw",
+"odds": 1.46,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 19:15",
+"game": "Al Nassr Club vs Al Sadd SC",
+"pick": "GG (both teams score)",
+"odds": 1.59,
+"ts": 1795544100.0
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"pick": "GG (both teams score)",
+"odds": 1.45,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Palermo FC vs FC Sudtirol Bolzano",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Virtus Entella vs Hellas Verona",
+"pick": "Double chance Hellas Verona or draw",
+"odds": 1.31,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Cardiff City vs Preston North End",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Norwich vs Queens Park Rangers",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Portsmouth FC vs West Ham",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Blackpool FC vs Leicester",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bradford City FC vs Barnsley FC",
+"pick": "1st half Under 2.5",
+"odds": 1.19,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bromley FC vs Wycombe Wanderers",
+"pick": "Wycombe Wanderers to win (1UP)",
+"odds": 1.37,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Fylde vs FC Halifax Town",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Halesowen Town FC vs Stourbridge FC",
+"pick": "GG (both teams score)",
+"odds": 1.37,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"pick": "GG (both teams score)",
+"odds": 1.5,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Dungannon Swifts vs Coleraine FC",
+"pick": "Double chance Coleraine FC or draw",
+"odds": 1.28,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Harland And Wolff Welders vs Linfield FC",
+"pick": "Linfield FC to win",
+"odds": 1.23,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hibernian FC vs Dundee FC",
+"pick": "GG (both teams score)",
+"odds": 1.74,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "1st half Over 0.5",
+"odds": 1.15,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Bristol City vs Wrexham AFC",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Crawley Town vs Barnet FC",
+"pick": "GG (both teams score)",
+"odds": 1.52,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Feyenoord vs Porto",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Man City vs Napoli",
+"pick": "GG (both teams score)",
+"odds": 1.58,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "2nd half Over 0.5",
+"odds": 1.07,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Wolves vs Derby County",
+"pick": "2nd half Over 0.5",
+"odds": 1.21,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Rangers vs Aberdeen",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Como 1907 vs AEK Athens",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Slovan Bratislava vs Betis",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 22:00",
+"game": "Chapecoense SC vs SE Palmeiras SP",
+"pick": "Double chance SE Palmeiras SP or draw",
+"odds": 1.33,
+"ts": 1795554000.0
+}
+]
+},
+{
 "code": "P0KDFG",
 "at": 1795510845,
 "when": "Tue 24 Nov 10:00",
@@ -77525,390 +77794,6 @@
 "r": "W",
 "sc": "6-1",
 "ht": "4-0"
-}
-]
-},
-{
-"code": "Z662V5",
-"at": 1794485553,
-"when": "Thu 12 Nov 13:12",
-"kind": "rebuild of SP9D73",
-"odds": 2992.21,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 15:00",
-"game": "Boca Juniors vs Social Atletico Television",
-"pick": "Under 3.5",
-"odds": 1.25,
-"ts": 1794492000.0,
-"r": "L",
-"sc": "5-0",
-"ht": "2-0"
-},
-{
-"t": "Thu 16:00",
-"game": "Uzbekistan vs Russia",
-"pick": "Over 1.5",
-"odds": 1.37,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-0"
-},
-{
-"t": "Thu 16:00",
-"game": "Ghana vs Somalia",
-"pick": "Double chance Ghana or Somalia",
-"odds": 1.04,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 17:00",
-"game": "Congo DR vs Sierra Leone",
-"pick": "Excluded goals: 0",
-"odds": 1.04,
-"ts": 1794499200.0,
-"r": "W",
-"sc": "3-1",
-"ht": "2-0"
-},
-{
-"t": "Thu 17:00",
-"game": "France vs Denmark",
-"pick": "Handicap 0:2 \u2013 Denmark",
-"odds": 1.57,
-"ts": 1794499200.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 17:00",
-"game": "Italy vs Portugal",
-"pick": "Portugal excluded goals: 0",
-"odds": 1.28,
-"ts": 1794499200.0,
-"r": "L",
-"sc": "1-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 17:00",
-"game": "Equatorial Guinea vs Zimbabwe",
-"pick": "Double chance Equatorial Guinea or Zimbabwe",
-"odds": 1.38,
-"ts": 1794499200.0,
-"r": "L",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 17:00",
-"game": "Madagascar vs Guinea-Bissau",
-"pick": "1st half Over 0.5",
-"odds": 1.56,
-"ts": 1794499200.0,
-"r": "L",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 18:00",
-"game": "Armenia vs Cyprus",
-"pick": "Excluded goals: 1",
-"odds": 1.23,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 18:00",
-"game": "Turkiye vs Belgium",
-"pick": "Excluded goals: 4",
-"odds": 1.18,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "1-2",
-"ht": "1-2"
-},
-{
-"t": "Thu 18:00",
-"game": "SCU Torreense vs Sparta Prague",
-"pick": "Excluded goals: 2",
-"odds": 1.24,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "3-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 18:00",
-"game": "Lithuania vs Suriname",
-"pick": "1st half double chance Suriname or draw",
-"odds": 1.26,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 18:30",
-"game": "Malta vs Eswatini",
-"pick": "Over 1.5",
-"odds": 1.4,
-"ts": 1794504600.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 18:30",
-"game": "Calvo Sotelo Puertollano vs Albacete Balompie",
-"pick": "1st half GG \u2013 No",
-"odds": 1.22,
-"ts": 1794504600.0,
-"r": "W",
-"sc": "0-3",
-"ht": "0-2"
-},
-{
-"t": "Thu 18:45",
-"game": "FC Barcelona W vs Arsenal WFC",
-"pick": "FC Barcelona W excluded goals: 2",
-"odds": 1.23,
-"ts": 1794505500.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 19:00",
-"game": "Colon de Santa Fe Reserve vs CA Central Cordoba SE Reserve",
-"pick": "Excluded goals: 0",
-"odds": 1.06,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Thu 19:00",
-"game": "CD Tarancon vs Levante",
-"pick": "Over 1.5",
-"odds": 1.09,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-0"
-},
-{
-"t": "Thu 19:00",
-"game": "CDA Navalcarnero vs Betis",
-"pick": "2nd half Over 0.5",
-"odds": 1.13,
-"ts": 1794506400.0,
-"r": "W",
-"sc": "2-3",
-"ht": "0-1"
-},
-{
-"t": "Thu 19:30",
-"game": "Kimberley de Mar Del Plata vs Club Olimpo",
-"pick": "Handicap 0:2 \u2013 Club Olimpo",
-"odds": 1.34,
-"ts": 1794508200.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Thu 20:00",
-"game": "Benin vs Central African Republic",
-"pick": "Central African Republic excluded goals: 2",
-"odds": 1.1,
-"ts": 1794510000.0,
-"r": "W",
-"sc": "4-1",
-"ht": "3-1"
-},
-{
-"t": "Thu 20:00",
-"game": "Cameroon vs Namibia",
-"pick": "2nd half Over 0.5",
-"odds": 1.33,
-"ts": 1794510000.0,
-"r": "L",
-"sc": "2-0",
-"ht": "2-0"
-},
-{
-"t": "Thu 20:00",
-"game": "Ivory Coast vs Gambia",
-"pick": "Gambia excluded goals: 1",
-"odds": 1.39,
-"ts": 1794510000.0,
-"r": "L",
-"sc": "2-1",
-"ht": "2-1"
-},
-{
-"t": "Thu 20:00",
-"game": "CA Talleres de Cordoba vs San Luis FC",
-"pick": "Double chance CA Talleres de Cordoba or San Luis FC",
-"odds": 1.16,
-"ts": 1794510000.0,
-"r": "W",
-"sc": "2-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 20:00",
-"game": "Barbados vs Guadeloupe",
-"pick": "Excluded goals: 2",
-"odds": 1.24,
-"ts": 1794510000.0,
-"r": "W",
-"sc": "0-3",
-"ht": "0-2"
-},
-{
-"t": "Thu 20:30",
-"game": "England vs Czechia",
-"pick": "Over 1.5",
-"odds": 1.15,
-"ts": 1794511800.0,
-"r": "W",
-"sc": "6-1",
-"ht": "4-0"
-},
-{
-"t": "Thu 20:45",
-"game": "Albania vs Finland",
-"pick": "Double chance Albania or Finland",
-"odds": 1.4,
-"ts": 1794512700.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"pick": "1st half excluded goals: 2",
-"odds": 1.25,
-"ts": 1794512700.0,
-"r": "L",
-"sc": "3-1",
-"ht": "1-1"
-},
-{
-"t": "Thu 20:45",
-"game": "Montenegro vs Latvia",
-"pick": "1st half excluded goals: 2",
-"odds": 1.23,
-"ts": 1794512700.0,
-"r": "W",
-"sc": "2-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 20:45",
-"game": "San Marino vs Belarus",
-"pick": "Belarus excluded goals: 1",
-"odds": 1.19,
-"ts": 1794512700.0,
-"r": "W",
-"sc": "0-2",
-"ht": ""
-},
-{
-"t": "Thu 21:00",
-"game": "Bonaire vs Cuba",
-"pick": "1st half Over 0.5",
-"odds": 1.16,
-"ts": 1794513600.0,
-"r": "W",
-"sc": "1-7",
-"ht": "0-1"
-},
-{
-"t": "Thu 21:00",
-"game": "SL Benfica Lisbon W vs FK Austria Wien",
-"pick": "SL Benfica Lisbon W excluded goals: 2",
-"odds": 1.3,
-"ts": 1794513600.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-0"
-},
-{
-"t": "Thu 21:00",
-"game": "Mount Pleasant FC vs Portmore United",
-"pick": "1st half Under 2.5",
-"odds": 1.06,
-"ts": 1794513600.0
-},
-{
-"t": "Thu 22:00",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"pick": "CD Aguila San Miguel to win (1UP)",
-"odds": 1.38,
-"ts": 1794517200.0
-},
-{
-"t": "Thu 23:00",
-"game": "Boca Juniors vs Newells Old Boys",
-"pick": "Excluded goals: 5+",
-"odds": 1.08,
-"ts": 1794520800.0,
-"r": "W",
-"sc": "1-3",
-"ht": "0-2"
-},
-{
-"t": "Thu 23:00",
-"game": "Aurora FC vs Deportivo Mixco",
-"pick": "Handicap 0:2 \u2013 Deportivo Mixco",
-"odds": 1.24,
-"ts": 1794520800.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 23:00",
-"game": "Academia Puerto Cabello vs Monagas SC",
-"pick": "Excluded goals: 4",
-"odds": 1.13,
-"ts": 1794520800.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 23:00",
-"game": "AA Ponte Preta SP vs Operario Ferroviario EC PR",
-"pick": "1st half Over 0.5",
-"odds": 1.32,
-"ts": 1794520800.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-0"
-},
-{
-"t": "Thu 23:15",
-"game": "EC Bahia BA vs EC Vitoria BA",
-"pick": "Excluded goals: 4",
-"odds": 1.18,
-"ts": 1794521700.0,
-"r": "W",
-"sc": "3-3",
-"ht": ""
 }
 ]
 }
