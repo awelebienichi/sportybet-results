@@ -436,6 +436,11 @@ def safe_enough(k, g, LX, rate, odds):
     is not a coin flip. Strict: 1.60 max and the market's bar +2 points; Normal: 1.75, -3; Relaxed: 2.00, -8.
     Value only decides between legs that already pass this."""
     mx = SAFE.get(round(ST["L"], 1), SAFE[0.1])[0] + LONG.get(k, 0)
+    # 24 Nov: 1st half double chance "away or draw" won 75% at 1.15-1.30 vs 82.5% implied (72 legs; 6 of the rollover's 9 losing
+    # legs) while "home or draw" won 87.6% vs 82.4% – the away side is no longer picked
+    if k == "h1dc_x2": return False
+    # 1st half Under 2.5 with a strong favourite: 77% came true (favourite under 1.30) / 84% (1.30-1.60) vs 88-90% (1.60+), 940 priced games
+    if k == "h1u25" and min(g["x"].get("1", 99), g["x"].get("3", 99)) < U35_FAV: return False
     if k == "o15": mx = min(mx, O15_MAX)
     if k == "h1o05": mx = min(mx, H1O05_MAX)
     if k == "u35":
@@ -705,6 +710,8 @@ def rebuild(req):
     target = float(req.get("target") or 0)
     groups = [x for x in (req.get("markets") or list(RB_GROUPS)) if x in RB_GROUPS] or list(RB_GROUPS)
     keys = [k for gname in groups for k in RB_GROUPS[gname]]
+    if req.get("preset") in ("mix", "best"):                                    # user, 24 Nov: the same markets as "safest market per game" / "tracker's best markets"
+        keys = [k for k in SETS[req["preset"]] if k in RB]
     old = load(code) if code else []
     if not old: return dict(ok=False, msg=f"Could not load code {code or '(empty)'} from SportyBet.")
     now = time.time()
@@ -741,6 +748,7 @@ def rebuild(req):
                 hit = lambda L: sum(m["h1f"] + m["h1a"] > 0 for m in L) / len(L)
                 top = len(H1_) >= 6 and len(A1_) >= 6 and (min(hit(H1_), hit(A1_)) >= .9 or (min(hit(H1_), hit(A1_)) >= .8 and min(hit(H1_[-5:]), hit(A1_[-5:])) >= 1))
                 pb = max(pb, .86) if top else min(pb, .78)
+            elif k == "h1dc_x2" or (k == "h1u25" and min(xh, xa) < U35_FAV): continue     # same rules as safe_enough (24 Nov)
             elif k == "u35":
                 if od > U35_MAX or exp_goals(LX[g["hid"]], LX[g["aid"]]) >= U35_EXP or min(xh, xa) < U35_FAV: continue
             elif k == "o25":
@@ -792,7 +800,8 @@ def rebuild(req):
         if abs(p / target - 1) <= .01: note.append(f"Total odds {p:,.2f} – on your target of {target:g}.")
         elif p < target: note.append(f"Highest odds possible with your markets on these games: {p:,.2f} (you asked for {target:g}).")
         else: note.append(f"Closest the prices allow: {p:,.2f} (you asked for {target:g}).")
-    return finish([legs], "rebuild", {"rebuild": f"rebuild of {code}"}, note, req)
+    how = {"mix": " – safest market per game", "best": " – tracker's best markets"}.get(req.get("preset"), "")
+    return finish([legs], "rebuild", {"rebuild": f"rebuild of {code}{how}"}, note, req)
 
 # ---------- combine several booking codes into one ----------
 def combine(req):

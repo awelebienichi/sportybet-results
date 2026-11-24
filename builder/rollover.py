@@ -21,10 +21,14 @@ def handle(req, notify, uid=None):
     CUR["uid"] = uid or users.OWNER; CUR["rid"] = req.get("rid")
     s = load(); t = req.get("type")
     if t == "rollover_start":
+        keep = s.get("current")
         stake = max(100.0, float(req.get("stake") or 1000)); odds = min(20.0, max(1.5, float(req.get("odds") or 4)))
         hour = int(req.get("hour") or 10) % 24
         s.update(active=True, start_stake=stake, stake=stake, odds=odds, hour=hour, day=1, current=None, started=today(), short="skip" if req.get("short") == "skip" else "lower",
                  min_odds=min(odds, max(1.3, float(req.get("min_odds") or 1.8))), level=req.get("level") if req.get("level") in ("strictest", "h1") else "strong")
+        if req.get("keep_today") and (keep or {}).get("date") == today():          # settings change only: today's ticket stays, new settings from tomorrow
+            s["current"] = keep; save(s)
+            notify("Daily rollover updated", f"Stake {naira(stake)}, about {odds:g} odds a day, ticket every day at {hour:02d}:00.\nToday's ticket {keep.get('code')} stays; the new settings start with tomorrow's ticket."); return
         save(s); notify("Daily rollover started", f"Stake {naira(stake)}, about {odds:g} odds a day, ticket every day at {hour:02d}:00.\nToday's ticket is being built now.")
         build_today(s, notify, force=True)
     elif t == "rollover_stop":
@@ -176,9 +180,9 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
         mid, oid = c["mid"], c["oid"]
         if mid in ("19", "20") and oid == "13" and ((mid == "19" and xh <= xa) or (mid == "20" and xa <= xh)): continue   # weaker team only
         if (mid == "450005" and ((oid == "3" and xh < xa) or (oid == "0" and xh >= 3.1))) or (mid == "450006" and ((oid == "3" and xa < xh) or (oid == "0" and xa >= 3.1))): continue
-        if mid in ("450004", "450005", "450006", "810002") or (mid == "75" and oid == "76"): continue   # user, 10 Nov: no excluded goals or 1st half GG No in the rollover
+        if mid in ("450004", "450005", "450006", "810002") or (mid == "75" and oid == "76") or (mid == "63" and oid == "11"): continue   # + 1st half away or draw (24 Nov)   # user, 10 Nov: no excluded goals or 1st half GG No in the rollover
         few_goals = (mid == "18" and oid == "13") or (mid == "450004" and oid == "5") or (mid == "68" and oid == "13") or (mid == "810002" and oid == "3")
-        if few_goals and min(xh, xa) <= 1.35: continue          # blowout risk: a heavy favourite can run up the score
+        if few_goals and min(xh, xa) < phonebuild.U35_FAV: continue          # blowout risk: a strong favourite (under 1.60) can run up the score
         goals_happen = (mid in ("18", "68") and oid == "12") or mid in ("29", "450001", "90", "69", "70", "91", "92", "860") or (mid == "75" and oid == "74")
         if goals_happen:
             H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
@@ -246,7 +250,9 @@ def pick_safe(target, lo=None, hi=None, level="strong"):  # noqa: the strictest 
 # user, 18 Nov: a 5-odds daily rollover from 1st half double chance, 1st half GG No and 1st half Under 2.5 only – each in the price
 # range where it really won on the tracker (1st half double chance 1.15-1.30: 86.7% of 98 legs, beating the odds; 1st half GG No
 # 1.15 or less: 89.5% of 76; 1st half Under 2.5 1.15 or less: 86.6% of 97). Pricier legs of these markets lost far more.
-H1_RANGES = {"h1dc_1x": (1.15, 1.30), "h1dc_x2": (1.15, 1.30), "h1gg_n": (1.04, 1.15), "h1u25": (1.04, 1.15)}
+# 24 Nov (5 losing days in a row, 44 of 53 legs won): "away or draw" dropped (75% vs 82.5% implied), Over 1.5 top tier (~88%) and
+# 1st half Over 0.5 top tier (~86%) added; 1st half Under 2.5 no longer with a strong favourite (see phonebuild.safe_enough)
+H1_RANGES = {"h1dc_1x": (1.15, 1.30), "h1gg_n": (1.04, 1.15), "h1u25": (1.04, 1.15), "o15": (1.04, 1.25), "h1o05": (1.04, 1.25)}
 def pick_h1(target, max_legs=15):
     """today's strongest 1st-half legs in those ranges, the normal builder's checks (Flashscore, footybets, FotMob, DFP, Vitibet,
     season) on top, one per game, added strongest first until the ticket reaches the target odds"""
@@ -254,8 +260,19 @@ def pick_h1(target, max_legs=15):
     phonebuild.ST["L"] = 0.1
     G = phonebuild.games_cached(now + 45 * 60, end); LX = phonebuild.fetch_teams(G)
     RB = phonebuild.RB
-    F = phonebuild.pick_markets(G, LX, ["h1dc", "h1ggn", "h1u25"], 300)
+    F = phonebuild.pick_markets(G, LX, ["h1dc", "h1ggn", "h1u25", "o15", "h1"], 300)
     F = [p for p in F if any(RB[k][:3] == (p["mid"], p["spec"], p["oid"]) and lo <= p["odds"] <= hi for k, (lo, hi) in H1_RANGES.items())]
+    GM = {g["eid"]: g for g in G}
+    def top(p):                                                                  # the two Over markets: top tier only
+        g = GM[p["eid"]]; H, A = LX[g["hid"]], LX[g["aid"]]
+        if p["mid"] == "18": return phonebuild.o15_top(H, A)
+        if p["mid"] == "68" and p["oid"] == "12":
+            H1_, A1_ = [m for m in H if m["h1f"] is not None], [m for m in A if m["h1f"] is not None]
+            if len(H1_) < 6 or len(A1_) < 6: return False
+            hit = lambda L: sum(m["h1f"] + m["h1a"] > 0 for m in L) / len(L)
+            lo = min(hit(H1_), hit(A1_)); return lo >= .9 or (lo >= .8 and min(hit(H1_[-5:]), hit(A1_[-5:])) >= 1)
+        return True
+    F = [p for p in F if top(p)]
     for p in F: p["chance"] = (min(p["rate"], .99) + 1 / (p["odds"] * 1.06)) / 2
     F.sort(key=lambda p: -p["chance"])
     try:
@@ -264,7 +281,9 @@ def pick_h1(target, max_legs=15):
     except Exception as e: print("rollover h1 checks skipped:", e)
     # the three markets take turns (user, 22 Nov: "it just pushed out double chance"): best double chance, best GG No, best Under 2.5,
     # then the next of each – so a ticket mixes all three while each still has strong legs
-    Q = [[p for p in F if p["mid"] == m] for m in ("63", "75", "68")]
+    kinds = (lambda p: p["mid"] == "63", lambda p: p["mid"] == "75", lambda p: p["mid"] == "68" and p["oid"] == "13",
+             lambda p: p["mid"] == "18", lambda p: p["mid"] == "68" and p["oid"] == "12")
+    Q = [[p for p in F if k(p)] for k in kinds]
     F = []
     while any(Q):
         for q in Q:
