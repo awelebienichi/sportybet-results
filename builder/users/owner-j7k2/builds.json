@@ -1,5 +1,25 @@
 [
 {
+"when": "Tue 24 Nov 13:43",
+"at": 1795524222,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25yw",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-24"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwuoqumz86h6"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for Over 2.5 (strong teams in youth & women's leagues) (Tue 24) out of 146 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Tue 24 Nov 13:33",
 "at": 1795523580,
 "req": {
@@ -8565,78 +8585,6 @@
 }
 ],
 "chance": 0.0028
-}
-]
-},
-{
-"when": "Sun 22 Nov 20:32",
-"at": 1795375950,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "combine",
-"codes": [
-"NW93TA",
-"UH686S",
-"Y4SYNC"
-],
-"rid": "mws8hcn6t3rm"
-},
-"ok": true,
-"kind": "combined NW93TA + UH686S + Y4SYNC",
-"note": [
-"65 leg(s) had already started and were left out.",
-"Chance all 3 legs win: about 39%."
-],
-"tickets": [
-{
-"code": "LM5Z5L",
-"odds": 2.21,
-"legs": [
-{
-"t": "Sun 21:00",
-"game": "CF Atletas do Tirol CE vs Palmacia EC CE",
-"lg": "Brazil - Taca Fares Lopes",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.24,
-"why": "from NW93TA",
-"ts": 1795377600.0,
-"eid": "sr:match:74835688",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74835688|18|total=2.5|12"
-},
-{
-"t": "Sun 21:45",
-"game": "SCU Torreense vs Benfica",
-"lg": "Portugal - Taca de Portugal",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.38,
-"why": "from NW93TA",
-"ts": 1795380300.0,
-"eid": "sr:match:76080460",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76080460|18|total=2.5|12"
-},
-{
-"t": "Sun 22:15",
-"game": "The Strongest vs Blooming Santa Cruz",
-"lg": "Bolivia - Division Profesional",
-"pick": "Over/Under \u2013 Over 2.5",
-"odds": 1.29,
-"why": "from NW93TA",
-"ts": 1795382100.0,
-"eid": "sr:match:75449098",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "75449098|18|total=2.5|12"
-}
-],
-"chance": 0.3913
 }
 ]
 }
