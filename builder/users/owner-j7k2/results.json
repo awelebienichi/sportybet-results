@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LQVDCK",
+"at": 1795538478,
+"when": "Tue 24 Nov 17:41",
+"kind": "1st half Over 0.5",
+"odds": 7.89,
+"status": "open",
+"legs": [
+{
+"t": "Tue 19:15",
+"game": "Al Nassr Club vs Al Sadd SC",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795544100.0
+},
+{
+"t": "Tue 20:00",
+"game": "Queens Park Rangers U21 vs Southampton U21",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "South Shields vs Worksop Town",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Forest Green Rovers vs Southend United",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Merthyr Town vs Bedford Town Football Club",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Fylde vs FC Halifax Town",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Blackpool FC vs Leicester",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Scunthorpe United vs Gateshead FC",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "1st half Over 0.5",
+"odds": 1.11,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Como 1907 vs AEK Athens",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795550400.0
+}
+]
+},
+{
 "code": "P94TWD",
 "at": 1795538305,
 "when": "Tue 24 Nov 17:38",
@@ -78636,76 +78730,6 @@
 "r": "W",
 "sc": "1-1",
 "ht": "0-0"
-}
-]
-},
-{
-"code": "MSUJKZ",
-"at": 1794500590,
-"when": "Thu 12 Nov 17:23",
-"kind": "live \u2013 best of all",
-"odds": 1.46,
-"status": "won",
-"legs": [
-{
-"t": "Thu 16:00",
-"game": "Ghana vs Somalia",
-"pick": "Handicap 0:4 \u2013 Somalia",
-"odds": 1.09,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 16:00",
-"game": "Portugal vs Lithuania",
-"pick": "Handicap 0:3 \u2013 Lithuania",
-"odds": 1.09,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 16:00",
-"game": "Csd Tristan Suarez Reserve vs Almirante Brown Reserve",
-"pick": "Csd Tristan Suarez Reserve to win",
-"odds": 1.03,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "2-0",
-"ht": "2-0"
-},
-{
-"t": "Thu 16:00",
-"game": "Al-Ahly Amman vs Amman FC",
-"pick": "Al-Ahly Amman Under 1.5",
-"odds": 1.07,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 16:00",
-"game": "Club Lujan Reserve vs CA Claypole Reserves",
-"pick": "Under 3.5",
-"odds": 1.04,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "2-1",
-"ht": ""
-},
-{
-"t": "Thu 17:00",
-"game": "Congo DR vs Sierra Leone",
-"pick": "Handicap 0:5 \u2013 Sierra Leone",
-"odds": 1.07,
-"ts": 1794499200.0,
-"r": "W",
-"sc": "3-1",
-"ht": "2-0"
 }
 ]
 }
