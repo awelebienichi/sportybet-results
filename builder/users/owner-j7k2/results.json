@@ -2,6 +2,107 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KETA1V",
+"at": 1795495849,
+"when": "Tue 24 Nov 05:50",
+"kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
+"odds": 136.85,
+"status": "open",
+"legs": [
+{
+"t": "Tue 15:25",
+"game": "AL Ettifaq U21 vs AL Nassr",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795530300.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795549500.0
+},
+{
+"t": "Sat 13:30",
+"game": "Barry Town United FC vs Caernarfon Town FC",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 16:00",
+"game": "KVC Westerlo vs RAAL La Louviere",
+"pick": "Over 2.5",
+"odds": 1.63,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 17:30",
+"game": "Blau-Weiss Linz vs SK Sturm Graz II",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Grasshopper Club Zurich vs Basel",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 20:00",
+"game": "KSC Lokeren Temse vs K Beerschot VA",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Le Havre vs Strasbourg",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795895100.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Luzern vs Lugano",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Salzburg vs LASK Linz",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795968000.0
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795969800.0
+},
+{
+"t": "Sun 19:15",
+"game": "Sporting Hasselt vs RFC Liege",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795976100.0
+}
+]
+},
+{
 "code": "UX9C19",
 "at": 1795495604,
 "when": "Tue 24 Nov 05:46",
@@ -78247,77 +78348,6 @@
 "r": "W",
 "sc": "115-108",
 "ht": "35-20"
-}
-]
-},
-{
-"code": "UXRY1F",
-"at": 1794441471,
-"when": "Thu 12 Nov 00:57",
-"kind": "basketball \u2013 total points",
-"odds": 4.61,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 02:00",
-"game": "Memphis Grizzlies vs Denver Nuggets",
-"pick": "Under 243.5 total points",
-"odds": 1.27,
-"ts": 1794445200.0,
-"r": "W",
-"sc": "118-123",
-"ht": "24-35"
-},
-{
-"t": "Thu 03:30",
-"game": "Houston Rockets vs Golden State Warriors",
-"pick": "Over 206.5 total points",
-"odds": 1.25,
-"ts": 1794450600.0,
-"r": "W",
-"sc": "115-108",
-"ht": "35-20"
-},
-{
-"t": "Thu 18:00",
-"game": "Kk Parnu vs Keravnos Strovolou Nicosia",
-"pick": "Over 143.5 total points",
-"odds": 1.2,
-"ts": 1794502800.0,
-"r": "W",
-"sc": "65-86",
-"ht": "21-17"
-},
-{
-"t": "Thu 20:00",
-"game": "Skyliners Frankfurt vs Maxima Roma",
-"pick": "Under 186.5 total points",
-"odds": 1.26,
-"ts": 1794510000.0,
-"r": "L",
-"sc": "89-113",
-"ht": "14-28"
-},
-{
-"t": "Thu 20:05",
-"game": "Maccabi Tel-Aviv vs Hapoel Tel-Aviv",
-"pick": "Under 194.5 total points",
-"odds": 1.26,
-"ts": 1794510300.0
-},
-{
-"t": "Thu 20:30",
-"game": "Valencia Basket vs Bayern Munich",
-"pick": "Under 196.5 total points",
-"odds": 1.25,
-"ts": 1794511800.0
-},
-{
-"t": "Thu 21:00",
-"game": "Real Madrid vs KK Crvena zvezda Belgrade",
-"pick": "Over 161.5 total points",
-"odds": 1.22,
-"ts": 1794513600.0
 }
 ]
 }
