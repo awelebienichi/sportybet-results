@@ -1401,7 +1401,7 @@
 "odds": 1.19,
 "ts": 1795543200.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
@@ -1519,7 +1519,7 @@
 "when": "Tue 24 Nov 13:07",
 "kind": "rebuild of TPNPUV \u2013 tracker's best markets",
 "odds": 4250.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:45",
@@ -1617,7 +1617,10 @@
 "game": "Huddersfield Town (R) vs Swansea City U21",
 "pick": "1st half double chance Huddersfield Town (R) or draw",
 "odds": 1.33,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
@@ -2197,7 +2200,7 @@
 "odds": 1.19,
 "ts": 1795543200.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
@@ -3221,7 +3224,7 @@
 "odds": 1.2,
 "ts": 1795543200.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
