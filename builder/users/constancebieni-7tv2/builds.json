@@ -1,5 +1,180 @@
 [
 {
+"when": "Tue 24 Nov 14:18",
+"at": 1795526332,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-24"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwupzxxgg65i"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 10 legs win: about 2%."
+],
+"tickets": [
+{
+"code": "L6Q0MR",
+"odds": 27.27,
+"legs": [
+{
+"t": "Tue 15:25",
+"game": "AL Ettifaq U21 vs AL Nassr",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "stats rate 75% from both teams' last 10; season: 3.9 goals a game",
+"ts": 1795530300.0,
+"eid": "sr:match:73326526",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73326526|18|total=2.5|12"
+},
+{
+"t": "Tue 16:00",
+"game": "Feyenoord Rotterdam vs FC Porto",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.8 goals a game",
+"ts": 1795532400.0,
+"eid": "sr:match:74560640",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74560640|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "stats rate 76% from both teams' last 10 and 3 meetings; Flashscore home/away form 65%",
+"ts": 1795546800.0,
+"eid": "sr:match:73684706",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73684706|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Queens Park Rangers U21 vs Southampton U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1795546800.0,
+"eid": "sr:match:73684660",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73684660|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"lg": "England - EFL Trophy",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1795546800.0,
+"eid": "sr:match:73661560",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73661560|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Woking FC vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%, CompactStats 62% (bookmaker 62%)",
+"ts": 1795549500.0,
+"eid": "sr:match:72740854",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740854|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Harland And Wolff Welders vs Linfield FC",
+"lg": "Northern Ireland - League Cup",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "stats rate 79% from both teams' last 10 and 3 meetings; Flashscore home/away form 70%",
+"ts": 1795549500.0,
+"eid": "sr:match:75974246",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75974246|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 65%, FotMob: 3.6 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:77098210",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77098210|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Leatherhead FC vs Ramsgate FC",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "stats rate 79% from both teams' last 10 and 3 meetings; Flashscore home/away form 70%, FotMob: 3.5 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:75997140",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75997140|18|total=2.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 80%, footybets 85%, FotMob: 4.5 goals a game",
+"ts": 1795550400.0,
+"eid": "sr:match:74166026",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74166026|18|total=2.5|12"
+}
+],
+"chance": 0.0225
+}
+]
+},
+{
 "when": "Mon 23 Nov 23:14",
 "at": 1795472045,
 "req": {
@@ -7465,140 +7640,5 @@
 },
 "ok": false,
 "msg": "20 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 40 legs is 2.74 odds. Lower the target, allow more legs, or try again in a few minutes."
-},
-{
-"when": "Tue 17 Nov 10:00",
-"at": 1794906015,
-"req": {
-"type": "rollover",
-"legs": 8,
-"rid": null
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a6100 \u2192 returns \u20a6423 if it wins"
-],
-"tickets": [
-{
-"code": "P0GTHN",
-"odds": 4.23,
-"legs": [
-{
-"t": "Tue 11:00",
-"game": "Slovakia vs Estonia",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 85%",
-"ts": 1794909600.0,
-"eid": "sr:match:74754174",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "74754174|450001||25"
-},
-{
-"t": "Tue 12:00",
-"game": "Hungary vs Czechia",
-"lg": "International Youth - U19 UEFA European Championship, Qualification",
-"pick": "Over 1.5",
-"odds": 1.23,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); Flashscore home/away 89%",
-"ts": 1794913200.0,
-"eid": "sr:match:74723536",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74723536|18|total=1.5|12"
-},
-{
-"t": "Tue 17:00",
-"game": "Kenya vs South Africa",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 2:0 \u2013 Kenya",
-"odds": 1.29,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794931200.0,
-"eid": "sr:match:75802258",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "75802258|14|hcp=2:0|1711"
-},
-{
-"t": "Tue 20:00",
-"game": "Luton vs Peterborough United",
-"lg": "England - EFL Trophy",
-"pick": "1st half Under 2.5",
-"odds": 1.26,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 90%",
-"ts": 1794942000.0,
-"eid": "sr:match:73661312",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73661312|68|total=2.5|13"
-},
-{
-"t": "Tue 20:00",
-"game": "Saint Lucia vs Barbados",
-"lg": "International - CONCACAF Nations League",
-"pick": "2nd half Over 0.5",
-"odds": 1.15,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 100%",
-"ts": 1794942000.0,
-"eid": "sr:match:75468316",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75468316|90|total=0.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Burgess Hill Town vs Brentwood Town FC",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Goal bounds 2-5+",
-"odds": 1.14,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%, Flashscore home/away 85%; FotMob: 3.4 goals a game",
-"ts": 1794944700.0,
-"eid": "sr:match:75997132",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75997132|450001||25"
-},
-{
-"t": "Tue 20:45",
-"game": "Ramsgate FC vs Cray Wanderers",
-"lg": "England Amateur - Isthmian League, Pr. Div",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); head-to-head 100%, Flashscore home/away 85%; FotMob: 3.5 goals a game",
-"ts": 1794944700.0,
-"eid": "sr:match:75656114",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75656114|450001||25"
-},
-{
-"t": "Tue 20:45",
-"game": "Ireland vs Kosovo",
-"lg": "International - UEFA Nations League",
-"pick": "1st half double chance Ireland or draw",
-"odds": 1.21,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1794944700.0,
-"eid": "sr:match:68932742",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "68932742|63||9"
-}
-],
-"chance": 0.16
-}
-]
 }
 ]
