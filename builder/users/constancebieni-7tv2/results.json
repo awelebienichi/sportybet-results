@@ -2,6 +2,58 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "X23DVZ",
+"at": 1795542448,
+"when": "Tue 24 Nov 18:47",
+"kind": "live \u2013 best of all",
+"odds": 1.62,
+"status": "open",
+"legs": [
+{
+"t": "Tue 17:30",
+"game": "FK Zenit Saint Petersburg vs PFK Krylia Sovetov Samara",
+"pick": "Handicap 0:4 \u2013 PFK Krylia Sovetov Samara",
+"odds": 1.03,
+"ts": 1795537800.0
+},
+{
+"t": "Tue 17:30",
+"game": "SC Kiyovu  vs AL Hilal (SDN)",
+"pick": "Under 3.5",
+"odds": 1.05,
+"ts": 1795537800.0
+},
+{
+"t": "Tue 18:00",
+"game": "AL Riyadh SC U21 vs AL Ahli Jeddah",
+"pick": "AL Riyadh SC U21 or draw",
+"odds": 1.05,
+"ts": 1795539600.0
+},
+{
+"t": "Tue 18:00",
+"game": "Al Duhail SC vs Neom SC",
+"pick": "Al Duhail SC to win",
+"odds": 1.17,
+"ts": 1795539600.0
+},
+{
+"t": "Tue 18:30",
+"game": "Durban City FC vs Polokwane City",
+"pick": "Handicap 2:0 \u2013 Durban City FC",
+"odds": 1.06,
+"ts": 1795541400.0
+},
+{
+"t": "Tue 18:30",
+"game": "Orlando Pirates FC vs Lamontville Golden Arrows",
+"pick": "Handicap 0:3 \u2013 Lamontville Golden Arrows",
+"odds": 1.15,
+"ts": 1795541400.0
+}
+]
+},
+{
 "code": "L6Q0MR",
 "at": 1795526332,
 "when": "Tue 24 Nov 14:18",
