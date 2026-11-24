@@ -980,7 +980,9 @@ def pick_season(G, LX, kind, want):
                 if exp_goals(H, A) < U35_EXP and min(g["x"].get("1", 99), g["x"].get("3", 99)) >= U35_FAV:     # same Under 3.5 rules as the other builders
                     C.append((g, "18", "total=3.5", "13", "Under 3.5", u35, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
                 if g2 <= 2.0 + L * 3: C.append((g, "18", "total=2.5", "13", "Under 2.5", u25, f"season: {h['gpg']:.1f} and {a['gpg']:.1f} goals a game"))
-            if min(h["draw"], a["draw"]) >= .40:
+            # 25 Nov test (85,335 games): both teams drawing 40%+ of their season AND both teams' games averaging 2.2 goals or less ->
+            # 35% draws (all games 25.6%); draws there are usually priced 2.80-3.00, so only 3.00+ is taken (see the price loop)
+            if min(h["draw"], a["draw"]) >= .40 and max(h["gpg"], a["gpg"]) <= 2.2:
                 dr = (f(H, lambda m: m["gf"] == m["ga"]) + f(A, lambda m: m["gf"] == m["ga"])) / 2
                 C.append((g, "1", "", "2", "Draw", dr, f"season: draws {h['draw']:.0%} and {a['draw']:.0%}"))
     # prices for the shortlisted games, then the best-value safe option per game
@@ -994,8 +996,8 @@ def pick_season(G, LX, kind, want):
         if not (mid == "1" and oid == "2") and (r_ < floor or od > 1.70): continue    # no coin-flip prices (draws are judged on their draw rate)
         if spec == "total=3.5" and oid == "13" and od > U35_MAX: continue
         if mid == "18" and spec == "total=2.5" and oid == "13" and r_ < .80 and kind != "lowbounce": continue     # Under 2.5: the tracker's weakest market (the lowbounce type uses the normal bar)
-        if mid == "1" and oid == "2" and r_ < .45 - L: continue
-        v = edge(r_, od)
+        if mid == "1" and oid == "2" and od < 3.0: continue                             # the draw only pays at 3.00+ (35% needs 2.86 to break even)
+        v = edge(r_, od) + (1 if mid == "1" and oid == "2" else 0)                  # a draw that meets the tested rule takes the game (25 Nov)
         if g["eid"] not in best or v > best[g["eid"]]["s"]:
             best[g["eid"]] = dict(eid=g["eid"], mid=mid, spec=spec, oid=oid, pick=pick, odds=od, ts=g["ts"], game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=v, rate=r_,
                                   why=f"{why}; last 10 rate {r_:.0%}")
