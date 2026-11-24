@@ -153,7 +153,7 @@
 "odds": 1.49,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "2-2",
+"sc": "3-2",
 "ht": "1-2"
 },
 {
@@ -547,7 +547,10 @@
 "game": "Bromley FC vs Wycombe Wanderers",
 "pick": "Wycombe Wanderers to score in 2nd half",
 "odds": 1.51,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -609,7 +612,10 @@
 "game": "Slovan Bratislava vs Betis",
 "pick": "Betis to score in 2nd half",
 "odds": 1.24,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 11:00",
