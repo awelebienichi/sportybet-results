@@ -58,19 +58,19 @@
 ],
 "start_stake": 1000.0,
 "stake": 1000.0,
-"odds": 3.0,
+"odds": 4.0,
 "hour": 10,
 "day": 1,
 "current": {
 "date": "2026-11-24",
-"code": "P0KDFG",
-"odds": 6.2,
+"code": "ZXDA95",
+"odds": 4.12,
 "stake": 1000.0,
-"n": 12,
+"n": 7,
 "result": null
 },
 "started": "2026-11-24",
 "short": "lower",
 "min_odds": 1.8,
-"level": "h1"
+"level": "strong"
 }
