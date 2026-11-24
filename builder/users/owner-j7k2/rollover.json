@@ -63,14 +63,14 @@
 "day": 1,
 "current": {
 "date": "2026-11-24",
-"code": "ZXDA95",
-"odds": 4.12,
+"code": "HPFG48",
+"odds": 4.16,
 "stake": 1000.0,
-"n": 7,
+"n": 11,
 "result": null
 },
 "started": "2026-11-24",
 "short": "lower",
 "min_odds": 1.8,
-"level": "strong"
+"level": "h1"
 }

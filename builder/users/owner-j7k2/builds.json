@@ -1,5 +1,182 @@
 [
 {
+"when": "Tue 24 Nov 13:14",
+"at": 1795522465,
+"req": {
+"type": "rollover",
+"legs": 11,
+"rid": "mwunphpxr9mn"
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a61,000 \u2192 returns \u20a64,160 if it wins"
+],
+"tickets": [
+{
+"code": "HPFG48",
+"odds": 4.16,
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "FK Arsenal Tivat vs FK Decic Tuzi",
+"lg": "Montenegro - 1. CFL",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795525200.0,
+"eid": "sr:match:76811384",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76811384|75||76"
+},
+{
+"t": "Tue 16:00",
+"game": "Zed FC vs Abo Qair Semads",
+"lg": "Egypt - Premier League",
+"pick": "1st half double chance Zed FC or draw",
+"odds": 1.19,
+"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
+"ts": 1795532400.0,
+"eid": "sr:match:73463720",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73463720|63||9"
+},
+{
+"t": "Tue 16:00",
+"game": "Smouha SC vs National Bank of Egypt SC",
+"lg": "Egypt - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 94% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795532400.0,
+"eid": "sr:match:73463722",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73463722|75||76"
+},
+{
+"t": "Tue 19:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"lg": "Egypt - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
+"ts": 1795543200.0,
+"eid": "sr:match:73463724",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73463724|75||76"
+},
+{
+"t": "Tue 19:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"lg": "Egypt - Premier League",
+"pick": "1st half double chance Al Mokawloon Al Arab or draw",
+"odds": 1.19,
+"why": "stats rate 88% from both teams' last 10 and 3 meetings (1st-half rollover)",
+"ts": 1795543200.0,
+"eid": "sr:match:73463728",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73463728|63||9"
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 1.5",
+"odds": 1.07,
+"why": "stats rate 100% from both teams' last 10 and 3 meetings; Flashscore home/away form 90% (1st-half rollover)",
+"ts": 1795546800.0,
+"eid": "sr:match:73684706",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73684706|18|total=1.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Queens Park Rangers U21 vs Southampton U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90% (1st-half rollover)",
+"ts": 1795546800.0,
+"eid": "sr:match:73684660",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73684660|18|total=1.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "South Shields vs Worksop Town",
+"lg": "England Amateur - National League North",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"why": "stats rate 100% from both teams' last 10 and 3 meetings (1st-half rollover)",
+"ts": 1795549500.0,
+"eid": "sr:match:72759514",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72759514|68|total=0.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Salisbury FC vs AFC Totton",
+"lg": "England Amateur - National League South",
+"pick": "1st half double chance Salisbury FC or draw",
+"odds": 1.18,
+"why": "stats rate 87% from both teams' last 10 and 5 meetings (1st-half rollover)",
+"ts": 1795549500.0,
+"eid": "sr:match:72758354",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72758354|63||9"
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"lg": "Wales - Cymru Premier",
+"pick": "1st half Over 0.5",
+"odds": 1.15,
+"why": "stats rate 90% from both teams' last 10 (1st-half rollover)",
+"ts": 1795549500.0,
+"eid": "sr:match:76793576",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "76793576|68|total=0.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Slough Town vs Farnborough FC",
+"lg": "England Amateur - National League South",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 3.4 goals a game, Vitibet tip 2-1, season: 3.4 goals a game (1st-half rollover)",
+"ts": 1795549500.0,
+"eid": "sr:match:72758356",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72758356|18|total=1.5|12"
+}
+],
+"chance": 0.1407
+}
+]
+},
+{
 "when": "Tue 24 Nov 13:12",
 "at": 1795522369,
 "req": {
@@ -8193,82 +8370,6 @@
 }
 ],
 "chance": 0.0004
-}
-]
-},
-{
-"when": "Sun 22 Nov 15:10",
-"at": 1795356639,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-22",
-"2026-11-23"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "04:01",
-"rid": "mwrwzerb7cdb"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 3 games passed the checks (Sun 22, Mon 23, 00:00\u201304:01, 18 games on SportyBet), so this ticket has 3 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 3 legs win: about 29%."
-],
-"tickets": [
-{
-"code": "K0Q9M6",
-"odds": 2.97,
-"legs": [
-{
-"t": "Mon 00:15",
-"game": "Tauro FC vs CD Plaza Amador Panama City",
-"lg": "Panama - Liga Panamena",
-"pick": "Over 2.5",
-"odds": 1.63,
-"why": "season: 2.8 and 3.8 goals a game (16/16 games); last 10 rate 70%; Flashscore home/away form 60%",
-"ts": 1795389300.0,
-"eid": "sr:match:76967054",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76967054|18|total=2.5|12"
-},
-{
-"t": "Mon 00:30",
-"game": "Chicago Fire vs Charlotte FC",
-"lg": "USA - MLS",
-"pick": "Over 2.5",
-"odds": 1.36,
-"why": "season: 3.5 and 3.4 goals a game (34/34 games); last 10 rate 85%; Flashscore home/away form 85%, footybets 84%",
-"ts": 1795390200.0,
-"eid": "sr:match:76609138",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76609138|18|total=2.5|12"
-},
-{
-"t": "Mon 01:30",
-"game": "Puerto Rico Surf SC vs San Juan FC",
-"lg": "Puerto Rico - LPR Pro",
-"pick": "Over 2.5",
-"odds": 1.34,
-"why": "season: 4.0 and 3.9 goals a game (13/14 games); last 10 rate 75%; season: 4.0 goals a game",
-"ts": 1795393800.0,
-"eid": "sr:match:77056312",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "77056312|18|total=2.5|12"
-}
-],
-"chance": 0.2908
 }
 ]
 }
