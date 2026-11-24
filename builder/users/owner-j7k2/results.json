@@ -740,7 +740,7 @@
 "when": "Tue 24 Nov 17:41",
 "kind": "1st half Over 0.5",
 "odds": 7.89,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 19:15",
@@ -787,7 +787,10 @@
 "game": "Forest Green Rovers vs Southend United",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -804,14 +807,20 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
 "game": "Blackpool FC vs Leicester",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -828,7 +837,10 @@
 "game": "Real Madrid vs PSV Eindhoven",
 "pick": "1st half Over 0.5",
 "odds": 1.11,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 21:00",
@@ -991,7 +1003,10 @@
 "game": "Eastbourne Borough vs Aveley FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -1918,7 +1933,10 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "1st half double chance AFC Fylde or draw",
 "odds": 1.26,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -2236,7 +2254,10 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -2465,7 +2486,10 @@
 "game": "Port Vale vs Northampton Town",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 22:00",
