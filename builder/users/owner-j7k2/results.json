@@ -668,7 +668,7 @@
 "when": "Tue 24 Nov 17:38",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 1360.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 18:45",
@@ -727,7 +727,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
@@ -975,7 +978,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
@@ -1085,7 +1091,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -1877,7 +1886,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "GG (both teams score)",
 "odds": 1.45,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
@@ -2619,7 +2631,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:00",
@@ -2824,7 +2839,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -2933,7 +2951,10 @@
 "game": "Fleetwood Town vs Leeds United U21",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
