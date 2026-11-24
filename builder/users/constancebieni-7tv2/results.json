@@ -2,6 +2,37 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "JFS9Y5",
+"at": 1795557460,
+"when": "Tue 24 Nov 22:57",
+"kind": "live \u2013 best of all",
+"odds": 1.2,
+"status": "open",
+"legs": [
+{
+"t": "Tue 21:30",
+"game": "Club Nacional Montevideo vs CA Penarol Montevideo",
+"pick": "Handicap 0:3 \u2013 CA Penarol Montevideo",
+"odds": 1.07,
+"ts": 1795552200.0
+},
+{
+"t": "Tue 22:00",
+"game": "Chapecoense SC vs SE Palmeiras SP",
+"pick": "Handicap 0:4 \u2013 SE Palmeiras SP",
+"odds": 1.03,
+"ts": 1795554000.0
+},
+{
+"t": "Tue 22:00",
+"game": "Club Deportivo Platense Reserves vs CD Choloma Reserves",
+"pick": "Club Deportivo Platense Reserves to win",
+"odds": 1.09,
+"ts": 1795554000.0
+}
+]
+},
+{
 "code": "X23DVZ",
 "at": 1795542448,
 "when": "Tue 24 Nov 18:47",
