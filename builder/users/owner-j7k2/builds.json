@@ -1,5 +1,108 @@
 [
 {
+"when": "Tue 24 Nov 13:24",
+"at": 1795523057,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-24"
+],
+"strict": "strict",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwuo281tu3q1"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Only 5 games passed the checks (Tue 24, 163 games on SportyBet), so this ticket has 5 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 5 legs win: about 11%."
+],
+"tickets": [
+{
+"code": "NBXPAZ",
+"odds": 7.23,
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "Charlton Athletic U21 vs Coventry City U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.25,
+"why": "season: 3.9 and 3.8 goals a game (10/9 games); last 10 rate 75%; Flashscore home/away form 80%, season: 3.8 goals a game",
+"ts": 1795525200.0,
+"eid": "sr:match:76126736",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76126736|18|total=2.5|12"
+},
+{
+"t": "Tue 15:25",
+"game": "AL Ettifaq U21 vs AL Nassr",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "season: 4.8 and 3.0 goals a game (10/8 games); last 10 rate 75%; season: 3.9 goals a game",
+"ts": 1795530300.0,
+"eid": "sr:match:73326526",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73326526|18|total=2.5|12"
+},
+{
+"t": "Tue 15:30",
+"game": "AL Fateh vs AL Taawoun U21",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "Over 2.5",
+"odds": 1.63,
+"why": "season: 3.2 and 4.1 goals a game (9/8 games); last 10 rate 75%",
+"ts": 1795530600.0,
+"eid": "sr:match:73326528",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73326528|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Leek Town FC vs Gainsborough Trinity",
+"lg": "England Amateur - Northern Premier League Premier",
+"pick": "Over 2.5",
+"odds": 1.61,
+"why": "season: 4.2 and 3.4 goals a game (18/19 games); last 10 rate 85%; Flashscore home/away form 90%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:75799142",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75799142|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 4.0 and 3.3 goals a game (17/18 games); last 10 rate 80%; Flashscore home/away form 65%, FotMob: 3.6 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:77098210",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77098210|18|total=2.5|12"
+}
+],
+"chance": 0.1083
+}
+]
+},
+{
 "when": "Tue 24 Nov 13:22",
 "at": 1795522954,
 "req": {
@@ -8214,108 +8317,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Sun 22, 22:00\u201306:00) out of 19 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Sun 22 Nov 17:00",
-"at": 1795363208,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mws0vnjroa1p"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 5 games passed the checks (Sun 22, 113 games on SportyBet), so this ticket has 5 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 5 legs win: about 10%."
-],
-"tickets": [
-{
-"code": "WENHW5",
-"odds": 7.57,
-"legs": [
-{
-"t": "Sun 18:00",
-"game": "Apollon Limassol vs Als Omonia",
-"lg": "Cyprus - 1st Division",
-"pick": "Over 2.5",
-"odds": 1.38,
-"why": "season: 3.6 and 3.6 goals a game (9/9 games); last 10 rate 80%; Flashscore home/away form 80%, FotMob: 3.6 goals a game",
-"ts": 1795366800.0,
-"eid": "sr:match:73160484",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73160484|18|total=2.5|12"
-},
-{
-"t": "Sun 18:00",
-"game": "FC Gutersloh 2000 vs RW Oberhausen",
-"lg": "Germany Amateur - Regionalliga West",
-"pick": "Over 2.5",
-"odds": 1.61,
-"why": "season: 3.4 and 3.1 goals a game (16/16 games); last 10 rate 75%; Flashscore home/away form 80%, footybets 85%",
-"ts": 1795366800.0,
-"eid": "sr:match:72808130",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72808130|18|total=2.5|12"
-},
-{
-"t": "Sun 18:30",
-"game": "1. FSV Mainz 05 vs 1. FC Nuremberg",
-"lg": "Germany Amateur - Women Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.49,
-"why": "season: 4.2 and 4.0 goals a game (10/10 games); last 10 rate 85%; Flashscore home/away form 85%, FotMob: 4.1 goals a game, season: 4.1 goals a game, CompactStats 71% (bookmaker 62%)",
-"ts": 1795368600.0,
-"eid": "sr:match:72961094",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72961094|18|total=2.5|12"
-},
-{
-"t": "Sun 19:00",
-"game": "Real Sociedad vs Santutxu FC",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "season: 3.2 and 3.6 goals a game (9/9 games); last 10 rate 70%",
-"ts": 1795370400.0,
-"eid": "sr:match:72883236",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72883236|18|total=2.5|12"
-},
-{
-"t": "Sun 23:00",
-"game": "Real Apodaca FC vs Cdm FC",
-"lg": "Mexico - Liga Premier Serie A",
-"pick": "Over 2.5",
-"odds": 1.6,
-"why": "season: 3.2 and 4.4 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 70%, season: 3.8 goals a game",
-"ts": 1795384800.0,
-"eid": "sr:match:74063634",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74063634|18|total=2.5|12"
-}
-],
-"chance": 0.1034
-}
-]
 }
 ]
