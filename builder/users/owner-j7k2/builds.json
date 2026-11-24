@@ -1,5 +1,25 @@
 [
 {
+"when": "Tue 24 Nov 17:39",
+"at": 1795538387,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25yw",
+"legs": 25,
+"tickets": 1,
+"days": [
+"2026-11-24"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwux6z61onfr"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for Over 2.5 (strong teams in youth & women's leagues) (Tue 24) out of 117 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Tue 24 Nov 17:38",
 "at": 1795538305,
 "req": {
@@ -8624,115 +8644,6 @@
 }
 ],
 "chance": 0.0336
-}
-]
-},
-{
-"when": "Mon 23 Nov 00:25",
-"at": 1795389902,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "lowbounce",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-23",
-"2026-11-24",
-"2026-11-25",
-"2026-11-26",
-"2026-11-27",
-"2026-11-28",
-"2026-11-29"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwsgs70klf36"
-},
-"ok": true,
-"kind": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)",
-"note": [
-"Only 5 games passed the checks (Mon 23, Tue 24, Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, 728 games on SportyBet), so this ticket has 5 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 5 legs win: about 12%."
-],
-"tickets": [
-{
-"code": "LQ81R5",
-"odds": 6.46,
-"legs": [
-{
-"t": "Mon 01:00",
-"game": "Gimnasia Y Tiro de Salta vs CSD Tristan Suarez",
-"lg": "Argentina - Primera Nacional",
-"pick": "Under 2.5",
-"odds": 1.28,
-"why": "season: 2.0 and 1.4 goals a game; last games Gimnasia Y Tiro de Salta 1-0, CSD Tristan Suarez 1-3 (back to low); last 10 rate 75%; Flashscore home/away form 80%, Vitibet tip 0-0, season: 1.7 goals a game",
-"ts": 1795392000.0,
-"eid": "sr:match:76938252",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76938252|18|total=2.5|13"
-},
-{
-"t": "Mon 14:45",
-"game": "Shenavar Sazi Qeshm vs Naft Gachsaran",
-"lg": "Iran - Azadegan League",
-"pick": "Under 2.5",
-"odds": 1.33,
-"why": "season: 1.7 and 1.8 goals a game; last games Shenavar Sazi Qeshm 2-3, Naft Gachsaran 1-0 (back to low); last 10 rate 70%; Flashscore home/away form 60%, FotMob: 1.8 goals a game",
-"ts": 1795441500.0,
-"eid": "sr:match:76638378",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76638378|18|total=2.5|13"
-},
-{
-"t": "Tue 16:00",
-"game": "Smouha SC vs National Bank of Egypt SC",
-"lg": "Egypt - Premier League",
-"pick": "Under 2.5",
-"odds": 1.43,
-"why": "season: 1.2 and 2.2 goals a game; last games Smouha SC 0-1, National Bank of Egypt SC 4-1 (back to low); last 10 rate 80%; Flashscore home/away form 90%, FotMob: 1.8 goals a game",
-"ts": 1795532400.0,
-"eid": "sr:match:73463722",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73463722|18|total=2.5|13"
-},
-{
-"t": "Fri 19:00",
-"game": "CD Feirense vs Portimonense SC",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "Under 2.5",
-"odds": 1.57,
-"why": "season: 1.6 and 1.5 goals a game; last games CD Feirense 2-2, Portimonense SC 0-1 (back to low); last 10 rate 70%; FotMob: 1.6 goals a game, season: 1.6 goals a game",
-"ts": 1795802400.0,
-"eid": "sr:match:72531690",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72531690|18|total=2.5|13"
-},
-{
-"t": "Sat 15:00",
-"game": "Ascoli Calcio 1898 vs Virtus Entella",
-"lg": "Italy - Serie B",
-"pick": "Under 2.5",
-"odds": 1.69,
-"why": "season: 2.3 and 2.2 goals a game; last games Ascoli Calcio 1898 2-2, Virtus Entella 0-1 (back to low); last 10 rate 70%; Vitibet tip 1-0",
-"ts": 1795874400.0,
-"eid": "sr:match:73093162",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73093162|18|total=2.5|13"
-}
-],
-"chance": 0.1213
 }
 ]
 }
