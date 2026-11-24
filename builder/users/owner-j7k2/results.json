@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "HPFG48",
+"at": 1795522465,
+"when": "Tue 24 Nov 13:14",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.16,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "FK Arsenal Tivat vs FK Decic Tuzi",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 16:00",
+"game": "Zed FC vs Abo Qair Semads",
+"pick": "1st half double chance Zed FC or draw",
+"odds": 1.19,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 16:00",
+"game": "Smouha SC vs National Bank of Egypt SC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 19:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"pick": "1st half GG \u2013 No",
+"odds": 1.14,
+"ts": 1795543200.0
+},
+{
+"t": "Tue 19:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"pick": "1st half double chance Al Mokawloon Al Arab or draw",
+"odds": 1.19,
+"ts": 1795543200.0
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Queens Park Rangers U21 vs Southampton U21",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "South Shields vs Worksop Town",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Salisbury FC vs AFC Totton",
+"pick": "1st half double chance Salisbury FC or draw",
+"odds": 1.18,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "1st half Over 0.5",
+"odds": 1.15,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Slough Town vs Farnborough FC",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795549500.0
+}
+]
+},
+{
 "code": "ZXDA95",
 "at": 1795522311,
 "when": "Tue 24 Nov 13:11",
@@ -78028,66 +78115,6 @@
 "ts": 1794495600.0,
 "r": "W",
 "sc": "0-0",
-"ht": "0-0"
-}
-]
-},
-{
-"code": "KYEFPW",
-"at": 1794490434,
-"when": "Thu 12 Nov 14:33",
-"kind": "live \u2013 best of all",
-"odds": 2.14,
-"status": "won",
-"legs": [
-{
-"t": "Thu 13:30",
-"game": "El Entag El Harby vs Baladiyyat AL Mehalla",
-"pick": "Baladiyyat AL Mehalla Under 1.5",
-"odds": 1.14,
-"ts": 1794486600.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 14:00",
-"game": "Scotland vs Ukraine",
-"pick": "Over 1.5",
-"odds": 1.1,
-"ts": 1794488400.0,
-"r": "W",
-"sc": "4-0",
-"ht": "2-0"
-},
-{
-"t": "Thu 14:00",
-"game": "Iceland vs Greece",
-"pick": "Handicap 0:2 \u2013 Greece",
-"odds": 1.12,
-"ts": 1794488400.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Thu 14:00",
-"game": "Serbia vs North Macedonia",
-"pick": "Handicap 0:4 \u2013 North Macedonia",
-"odds": 1.22,
-"ts": 1794488400.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 14:00",
-"game": "Germany vs Sweden",
-"pick": "Handicap 0:2 \u2013 Sweden",
-"odds": 1.27,
-"ts": 1794488400.0,
-"r": "W",
-"sc": "2-1",
 "ht": "0-0"
 }
 ]
