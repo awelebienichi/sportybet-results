@@ -264,7 +264,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -292,7 +295,10 @@
 "game": "Slough Town vs Farnborough FC",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -442,7 +448,10 @@
 "game": "Slough Town vs Farnborough FC",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -632,7 +641,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -844,7 +856,10 @@
 "game": "Salford City vs Sunderland U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:00",
@@ -882,7 +897,10 @@
 "game": "Tranmere Rovers FC vs Everton U21",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:00",
@@ -1101,7 +1119,10 @@
 "game": "Salford City vs Sunderland U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:00",
@@ -1139,7 +1160,10 @@
 "game": "Tranmere Rovers FC vs Everton U21",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -1269,7 +1293,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -1344,7 +1371,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 }
 ]
 },
@@ -1436,7 +1466,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.49,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -1583,7 +1616,10 @@
 "game": "Slough Town vs Farnborough FC",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 }
 ]
 },
@@ -1742,7 +1778,10 @@
 "game": "Al Nassr Club vs Al Sadd SC",
 "pick": "Al Nassr Club to win (1UP)",
 "odds": 1.12,
-"ts": 1795544100.0
+"ts": 1795544100.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:00",
@@ -1841,7 +1880,7 @@
 "odds": 1.15,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -2150,7 +2189,7 @@
 "odds": 1.5,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -2799,7 +2838,10 @@
 "game": "Salford City vs Sunderland U21",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:00",
@@ -2837,7 +2879,10 @@
 "game": "Tranmere Rovers FC vs Everton U21",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -3010,7 +3055,10 @@
 "game": "Salford City vs Sunderland U21",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:00",
@@ -3174,7 +3222,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.45,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -3438,8 +3489,8 @@
 "odds": 1.36,
 "ts": 1795546800.0,
 "r": "L",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -3677,7 +3728,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Over 2.5",
 "odds": 1.45,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
