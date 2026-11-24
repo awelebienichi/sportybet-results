@@ -1555,7 +1555,10 @@
 "game": "Orlando Pirates FC vs Lamontville Golden Arrows",
 "pick": "Goal bounds 2-5+",
 "odds": 1.31,
-"ts": 1795541400.0
+"ts": 1795541400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 18:45",
@@ -2147,7 +2150,7 @@
 "odds": 1.12,
 "ts": 1795541400.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "0-0"
 },
 {
