@@ -1827,7 +1827,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "Goal bounds 2-5+",
 "odds": 1.15,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -2133,7 +2136,10 @@
 "game": "Malvern Town vs Hanworth Villa",
 "pick": "GG (both teams score)",
 "odds": 1.5,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -3393,7 +3399,7 @@
 "odds": 1.33,
 "ts": 1795546800.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
