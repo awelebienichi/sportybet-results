@@ -2953,7 +2953,7 @@
 "when": "Tue 24 Nov 07:47",
 "kind": "rebuild of XRYKRQ",
 "odds": 242.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 14:00",
@@ -3050,7 +3050,10 @@
 "game": "Al Duhail SC vs Neom SC",
 "pick": "1st half double chance Neom SC or draw",
 "odds": 1.24,
-"ts": 1795539600.0
+"ts": 1795539600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Tue 18:30",
