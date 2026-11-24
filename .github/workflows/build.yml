@@ -10,6 +10,7 @@ concurrency:
   cancel-in-progress: false
 permissions:
   contents: write
+  actions: write      # lets each run start its own replacement (listen.py handoff)
 jobs:
   listen:
     runs-on: ubuntu-latest

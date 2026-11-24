@@ -3,7 +3,7 @@
 - checks for build.html requests every few seconds and builds them straight away
 - a background thread keeps the 7-day game list and every team's last-10 form warm, so a build only has to do the
   final checks (head-to-head) and the booking"""
-import os, sys, time, threading, traceback
+import os, sys, time, threading, traceback, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import poll, phonebuild
 END = time.time() + int(os.environ.get("RUN_SECONDS", "20700"))
@@ -41,8 +41,21 @@ def live_scores():
         except Exception: traceback.print_exc()
         time.sleep(75)
 
+def handoff():
+    """start the next run ourselves ~15 minutes before this one ends, so it is already queued and takes over the moment this one
+    stops (user, 24 Nov: "it should run anytime i want" – GitHub's 20-minute timer often fired hours late, leaving no listener).
+    The concurrency group keeps it waiting until this run finishes; the timer stays as a backup."""
+    while time.time() < END - 15 * 60: time.sleep(60)
+    for _ in range(5):
+        r = subprocess.run(["gh", "workflow", "run", "build.yml", "-R", os.environ.get("GITHUB_REPOSITORY", "awelebienichi/sportybet-results")],
+                           capture_output=True, text=True)
+        print("handoff: next run requested" if r.returncode == 0 else f"handoff failed: {r.stderr.strip()[:200]}", flush=True)
+        if r.returncode == 0: return
+        time.sleep(60)
+
 threading.Thread(target=warm, daemon=True).start()
 threading.Thread(target=live_scores, daemon=True).start()
+threading.Thread(target=handoff, daemon=True).start()
 state = poll.load_state()
 while time.time() < END:
     try:
