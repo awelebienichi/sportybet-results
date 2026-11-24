@@ -685,7 +685,10 @@
 "game": "Como 1907 vs AEK Athens",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 21:00",
@@ -2341,14 +2344,20 @@
 "game": "Rangers vs Aberdeen",
 "pick": "Rangers to win (1UP)",
 "odds": 1.11,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "3-2",
+"ht": "0-1"
 },
 {
 "t": "Tue 21:00",
 "game": "Como 1907 vs AEK Athens",
 "pick": "Como 1907 to win (1UP)",
 "odds": 1.14,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 21:00",
@@ -2983,7 +2992,10 @@
 "game": "ASVEL Lyon-Villeurbanne vs Olimpia Milano",
 "pick": "Under 186.5 total points",
 "odds": 1.26,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "91-95",
+"ht": "24-24"
 },
 {
 "t": "Tue 21:00",
