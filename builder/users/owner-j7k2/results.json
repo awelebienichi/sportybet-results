@@ -2,6 +2,205 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LBDHD4",
+"at": 1795502861,
+"when": "Tue 24 Nov 07:47",
+"kind": "rebuild of XRYKRQ",
+"odds": 242.48,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "Arsenal FC vs Borussia Dortmund",
+"pick": "1st half double chance Borussia Dortmund or draw",
+"odds": 1.27,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 14:00",
+"game": "Charlton Athletic U21 vs Coventry City U21",
+"pick": "1st half GG \u2013 No",
+"odds": 1.42,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 15:00",
+"game": "FK Akron Tolyatti vs CSKA Moscow",
+"pick": "1st half GG \u2013 No",
+"odds": 1.23,
+"ts": 1795528800.0
+},
+{
+"t": "Tue 16:00",
+"game": "Manchester City FC vs SSC Napoli U20",
+"pick": "1st half double chance Manchester City FC or draw",
+"odds": 1.09,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 16:00",
+"game": "Smouha SC vs National Bank of Egypt SC",
+"pick": "1st half double chance Smouha SC or draw",
+"odds": 1.27,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 16:00",
+"game": "Zed FC vs Abo Qair Semads",
+"pick": "1st half double chance Zed FC or draw",
+"odds": 1.19,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 16:00",
+"game": "FC Felgueiras 1932 U23 vs Academico Viseu",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 17:00",
+"game": "MSK Zilina vs MFK Ruzomberok",
+"pick": "1st half GG \u2013 No",
+"odds": 1.32,
+"ts": 1795536000.0
+},
+{
+"t": "Tue 18:00",
+"game": "Torreense vs FC Vizela",
+"pick": "Over 1.5",
+"odds": 1.18,
+"ts": 1795539600.0
+},
+{
+"t": "Tue 18:00",
+"game": "Al Duhail SC vs Neom SC",
+"pick": "1st half double chance Neom SC or draw",
+"odds": 1.24,
+"ts": 1795539600.0
+},
+{
+"t": "Tue 18:30",
+"game": "Durban City FC vs Polokwane City",
+"pick": "1st half double chance Durban City FC or draw",
+"odds": 1.18,
+"ts": 1795541400.0
+},
+{
+"t": "Tue 18:45",
+"game": "Bodoe/Glimt vs LASK Linz",
+"pick": "1st half GG \u2013 No",
+"odds": 1.4,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 18:45",
+"game": "Galatasaray Istanbul vs Aston Villa",
+"pick": "1st half double chance Galatasaray Istanbul or draw",
+"odds": 1.45,
+"ts": 1795542300.0
+},
+{
+"t": "Tue 19:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"pick": "1st half double chance Al Mokawloon Al Arab or draw",
+"odds": 1.2,
+"ts": 1795543200.0
+},
+{
+"t": "Tue 19:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"ts": 1795543200.0
+},
+{
+"t": "Tue 19:15",
+"game": "Al Nassr Club vs Al Sadd SC",
+"pick": "1st half double chance Al Nassr Club or draw",
+"odds": 1.1,
+"ts": 1795544100.0
+},
+{
+"t": "Tue 20:00",
+"game": "Cesena FC vs Ascoli Calcio 1898",
+"pick": "1st half double chance Cesena FC or draw",
+"odds": 1.33,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "L.R. Vicenza vs Carrarese Calcio",
+"pick": "1st half double chance Carrarese Calcio or draw",
+"odds": 1.24,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"pick": "1st half double chance Fleetwood Town or draw",
+"odds": 1.17,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:00",
+"game": "Tranmere Rovers FC vs Everton U21",
+"pick": "1st half GG \u2013 No",
+"odds": 1.36,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Carlisle United vs Tamworth FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.27,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Como 1907 vs AEK Athens",
+"pick": "1st half double chance Como 1907 or draw",
+"odds": 1.1,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Feyenoord vs Porto",
+"pick": "1st half double chance Feyenoord or draw",
+"odds": 1.44,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Man City vs Napoli",
+"pick": "1st half double chance Man City or draw",
+"odds": 1.12,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"pick": "1st half double chance RB Leipzig or draw",
+"odds": 1.15,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Slovan Bratislava vs Betis",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795550400.0
+},
+{
+"t": "Tue 21:00",
+"game": "Real Madrid vs PSV Eindhoven",
+"pick": "1st half double chance Real Madrid or draw",
+"odds": 1.07,
+"ts": 1795550400.0
+}
+]
+},
+{
 "code": "KETA1V",
 "at": 1795495849,
 "when": "Tue 24 Nov 05:50",
@@ -78328,26 +78527,6 @@
 "pick": "Over 161.5 total points",
 "odds": 1.22,
 "ts": 1794513600.0
-}
-]
-},
-{
-"code": "SH58HC",
-"at": 1794441533,
-"when": "Thu 12 Nov 00:58",
-"kind": "basketball \u2013 total points",
-"odds": 1.25,
-"status": "won",
-"legs": [
-{
-"t": "Thu 03:30",
-"game": "Houston Rockets vs Golden State Warriors",
-"pick": "Over 206.5 total points",
-"odds": 1.25,
-"ts": 1794450600.0,
-"r": "W",
-"sc": "115-108",
-"ht": "35-20"
 }
 ]
 }
