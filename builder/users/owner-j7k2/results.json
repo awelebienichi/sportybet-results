@@ -328,8 +328,8 @@
 "odds": 1.14,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -2199,7 +2199,10 @@
 "game": "Wolves vs Derby County",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 21:00",
@@ -2543,7 +2546,10 @@
 "game": "Wolves vs Derby County",
 "pick": "2nd half Over 0.5",
 "odds": 1.21,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 21:00",
@@ -2801,7 +2807,10 @@
 "game": "Valencia Basket vs Panathinaikos BC",
 "pick": "Over 162.5 total points",
 "odds": 1.22,
-"ts": 1795548600.0
+"ts": 1795548600.0,
+"r": "W",
+"sc": "83-86",
+"ht": "19-19"
 },
 {
 "t": "Tue 20:30",
@@ -2890,7 +2899,10 @@
 "game": "Valencia Basket vs Panathinaikos BC",
 "pick": "Over 162.5 total points",
 "odds": 1.22,
-"ts": 1795548600.0
+"ts": 1795548600.0,
+"r": "W",
+"sc": "83-86",
+"ht": "19-19"
 },
 {
 "t": "Tue 21:00",
