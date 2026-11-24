@@ -2,6 +2,65 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "ZXDA95",
+"at": 1795522311,
+"when": "Tue 24 Nov 13:11",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.12,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "Sreenidi Deccan FC vs Chanmari FC",
+"pick": "Handicap 0:2 \u2013 Chanmari FC",
+"odds": 1.44,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 17:00",
+"game": "Shabab Al Ahli Dubai vs Al Qadsiah",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795536000.0
+},
+{
+"t": "Tue 20:45",
+"game": "South Shields vs Worksop Town",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Hampton & Richmond Borough vs Dover Athletic FC",
+"pick": "Handicap 0:2 \u2013 Dover Athletic FC",
+"odds": 1.2,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Weston-super-Mare vs Walton and Hersham FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.18,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Crawley Town vs Barnet FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 21:00",
+"game": "Arsenal vs Borussia Dortmund",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"ts": 1795550400.0
+}
+]
+},
+{
 "code": "PVB95Q",
 "at": 1795522064,
 "when": "Tue 24 Nov 13:07",
@@ -78030,26 +78089,6 @@
 "r": "W",
 "sc": "2-1",
 "ht": "0-0"
-}
-]
-},
-{
-"code": "PBFPDF",
-"at": 1794486539,
-"when": "Thu 12 Nov 13:28",
-"kind": "live \u2013 best of all",
-"odds": 1.14,
-"status": "won",
-"legs": [
-{
-"t": "Thu 12:00",
-"game": "Hannover 96 vs TSV Havelse",
-"pick": "Hannover 96 Under 7.5",
-"odds": 1.14,
-"ts": 1794481200.0,
-"r": "W",
-"sc": "6-1",
-"ht": "4-0"
 }
 ]
 }
