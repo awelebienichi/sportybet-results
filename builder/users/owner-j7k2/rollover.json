@@ -62,12 +62,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-23",
-"code": "UE4JHN",
-"odds": 6.37,
+"date": "2026-11-24",
+"code": "P0KDFG",
+"odds": 6.2,
 "stake": 1000.0,
 "n": 12,
-"result": "lost"
+"result": null
 },
 "started": "2026-11-20",
 "short": "lower",

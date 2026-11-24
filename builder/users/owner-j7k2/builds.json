@@ -1,5 +1,196 @@
 [
 {
+"when": "Tue 24 Nov 10:00",
+"at": 1795510845,
+"req": {
+"type": "rollover",
+"legs": 12,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a61,000 \u2192 returns \u20a66,200 if it wins"
+],
+"tickets": [
+{
+"code": "P0KDFG",
+"odds": 6.2,
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "FK Arsenal Tivat vs FK Decic Tuzi",
+"lg": "Montenegro - 1. CFL",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795525200.0,
+"eid": "sr:match:76811384",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "76811384|75||76"
+},
+{
+"t": "Tue 14:00",
+"game": "Blacks Power FC vs Entebbe UPPC FC",
+"lg": "Uganda - Premier League",
+"pick": "1st half double chance Entebbe UPPC FC or draw",
+"odds": 1.15,
+"why": "stats rate 85% from both teams' last 10 (1st-half rollover)",
+"ts": 1795525200.0,
+"eid": "sr:match:73961754",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "73961754|63||11"
+},
+{
+"t": "Tue 14:15",
+"game": "AGMK FC vs Navbahor",
+"lg": "Uzbekistan - Cup",
+"pick": "1st half double chance Navbahor or draw",
+"odds": 1.22,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795526100.0,
+"eid": "sr:match:75880820",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "75880820|63||11"
+},
+{
+"t": "Tue 16:00",
+"game": "Zed FC vs Abo Qair Semads",
+"lg": "Egypt - Premier League",
+"pick": "1st half double chance Zed FC or draw",
+"odds": 1.19,
+"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
+"ts": 1795532400.0,
+"eid": "sr:match:73463720",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73463720|63||9"
+},
+{
+"t": "Tue 16:00",
+"game": "Smouha SC vs National Bank of Egypt SC",
+"lg": "Egypt - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 94% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795532400.0,
+"eid": "sr:match:73463722",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73463722|75||76"
+},
+{
+"t": "Tue 18:30",
+"game": "Orlando Pirates FC vs Lamontville Golden Arrows",
+"lg": "South Africa - Premiership",
+"pick": "1st half GG \u2013 No",
+"odds": 1.12,
+"why": "stats rate 94% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795541400.0,
+"eid": "sr:match:73258892",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73258892|75||76"
+},
+{
+"t": "Tue 19:00",
+"game": "Al-Masry vs Asyut Petroleum",
+"lg": "Egypt - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
+"ts": 1795543200.0,
+"eid": "sr:match:73463724",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73463724|75||76"
+},
+{
+"t": "Tue 19:00",
+"game": "Al Mokawloon Al Arab vs El Qanah FC",
+"lg": "Egypt - Premier League",
+"pick": "1st half double chance Al Mokawloon Al Arab or draw",
+"odds": 1.19,
+"why": "stats rate 88% from both teams' last 10 and 3 meetings (1st-half rollover)",
+"ts": 1795543200.0,
+"eid": "sr:match:73463728",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73463728|63||9"
+},
+{
+"t": "Tue 20:45",
+"game": "Kings Lynn FC vs Radcliffe FC",
+"lg": "England Amateur - National League North",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"why": "stats rate 88% from both teams' last 10 and 4 meetings (1st-half rollover)",
+"ts": 1795549500.0,
+"eid": "sr:match:72759504",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "72759504|68|total=2.5|13"
+},
+{
+"t": "Tue 20:45",
+"game": "Port Vale vs Northampton Town",
+"lg": "England - League Two",
+"pick": "1st half GG \u2013 No",
+"odds": 1.15,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795549500.0,
+"eid": "sr:match:75464906",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "75464906|75||76"
+},
+{
+"t": "Tue 22:00",
+"game": "Chapecoense SC vs SE Palmeiras SP",
+"lg": "Brazil - Brasileiro Serie A",
+"pick": "1st half double chance SE Palmeiras SP or draw",
+"odds": 1.26,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795554000.0,
+"eid": "sr:match:66887216",
+"mid": "63",
+"spec": "",
+"oid": "11",
+"k": "66887216|63||11"
+},
+{
+"t": "Tue 23:00",
+"game": "Coquimbo Unido vs Deportes Union La Calera",
+"lg": "Chile - Copa Chile",
+"pick": "1st half double chance Coquimbo Unido or draw",
+"odds": 1.16,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795557600.0,
+"eid": "sr:match:75424546",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "75424546|63||9"
+}
+],
+"chance": 0.0897
+}
+]
+},
+{
 "when": "Tue 24 Nov 08:11",
 "at": 1795504281,
 "req": {
@@ -8043,21 +8234,5 @@
 "chance": 0.4438
 }
 ]
-},
-{
-"when": "Sun 22 Nov 13:17",
-"at": 1795349837,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "live",
-"strategy": "mix",
-"legs": 10,
-"strict": "normal",
-"rid": "mwrsx703l4o7",
-"target": 10
-},
-"ok": false,
-"msg": "10 odds can't be reached right now: 76 live leg(s) are strong enough, and the most they make with up to 10 legs is 1.38 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
