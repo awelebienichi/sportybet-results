@@ -530,7 +530,10 @@
 "game": "Bracknell Town FC vs Berkhamsted FC",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -2157,7 +2160,10 @@
 "game": "Hibernian FC vs Dundee FC",
 "pick": "Hibernian FC to win (1UP)",
 "odds": 1.3,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Tue 20:45",
