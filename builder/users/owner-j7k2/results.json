@@ -3249,14 +3249,20 @@
 "game": "Cesena FC vs Ascoli Calcio 1898",
 "pick": "1st half double chance Cesena FC or draw",
 "odds": 1.33,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:00",
 "game": "L.R. Vicenza vs Carrarese Calcio",
 "pick": "1st half double chance Carrarese Calcio or draw",
 "odds": 1.24,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:00",
