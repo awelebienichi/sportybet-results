@@ -252,7 +252,10 @@
 "game": "Queens Park Rangers U21 vs Southampton U21",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -465,7 +468,10 @@
 "game": "Queens Park Rangers U21 vs Southampton U21",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
@@ -1035,8 +1041,8 @@
 "odds": 1.41,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "3-1",
+"ht": "2-1"
 },
 {
 "t": "Tue 20:45",
@@ -1696,7 +1702,10 @@
 "game": "Queens Park Rangers U21 vs Southampton U21",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795546800.0
+"ts": 1795546800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Tue 20:45",
