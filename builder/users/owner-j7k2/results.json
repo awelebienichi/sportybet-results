@@ -2,6 +2,128 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "UHTRMW",
+"at": 1795522954,
+"when": "Tue 24 Nov 13:22",
+"kind": "goal-fest teams (season data)",
+"odds": 485.13,
+"status": "open",
+"legs": [
+{
+"t": "Tue 14:00",
+"game": "Charlton Athletic U21 vs Coventry City U21",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795525200.0
+},
+{
+"t": "Tue 15:25",
+"game": "AL Ettifaq U21 vs AL Nassr",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795530300.0
+},
+{
+"t": "Tue 15:30",
+"game": "AL Fateh vs AL Taawoun U21",
+"pick": "Over 2.5",
+"odds": 1.63,
+"ts": 1795530600.0
+},
+{
+"t": "Tue 16:00",
+"game": "FC Felgueiras 1932 U23 vs Academico Viseu",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795532400.0
+},
+{
+"t": "Tue 20:00",
+"game": "FC Dietikon vs USV Eschen-Mauren",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795546800.0
+},
+{
+"t": "Tue 20:45",
+"game": "Ebbsfleet United FC vs Billericay Town",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Woking FC vs Worthing FC",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Slough Town vs Farnborough FC",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Leek Town FC vs Gainsborough Trinity",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Holywell Town vs Pen-y-Bont FC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "AFC Fylde vs FC Halifax Town",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Forest Green Rovers vs Southend United",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Anstey Nomads vs Redditch United",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Cray Wanderers vs Wingate & Finchley",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795549500.0
+},
+{
+"t": "Tue 20:45",
+"game": "Leatherhead FC vs Ramsgate FC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795549500.0
+}
+]
+},
+{
 "code": "HPFG48",
 "at": 1795522465,
 "when": "Tue 24 Nov 13:14",
@@ -78096,26 +78218,6 @@
 "r": "W",
 "sc": "2-0",
 "ht": "1-0"
-}
-]
-},
-{
-"code": "LQR2BZ",
-"at": 1794496639,
-"when": "Thu 12 Nov 16:17",
-"kind": "live \u2013 best of all",
-"odds": 1.25,
-"status": "won",
-"legs": [
-{
-"t": "Thu 16:00",
-"game": "Al-Ahly Amman vs Amman FC",
-"pick": "Handicap 0:2 \u2013 Amman FC",
-"odds": 1.25,
-"ts": 1794495600.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
 }
 ]
 }
