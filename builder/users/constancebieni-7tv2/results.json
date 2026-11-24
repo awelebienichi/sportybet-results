@@ -611,7 +611,10 @@
 "game": "Man City vs Napoli",
 "pick": "Man City to score in 2nd half",
 "odds": 1.24,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Tue 21:00",
@@ -1431,7 +1434,10 @@
 "game": "Man City vs Napoli",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1795550400.0
+"ts": 1795550400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 21:00",
