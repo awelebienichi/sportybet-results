@@ -1,5 +1,77 @@
 [
 {
+"when": "Tue 24 Nov 22:57",
+"at": 1795557460,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwv8jnhenyb3"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 3 live leg(s) were strong enough right now (you asked for 10).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 3 legs win: about 72%."
+],
+"tickets": [
+{
+"code": "JFS9Y5",
+"odds": 1.2,
+"legs": [
+{
+"t": "Tue 21:30",
+"game": "Club Nacional Montevideo vs CA Penarol Montevideo",
+"lg": "Uruguay - Primera Division, Women",
+"pick": "Handicap 0:3 \u2013 CA Penarol Montevideo",
+"odds": 1.07,
+"why": "LIVE 1-0 59': Club Nacional Montevideo expected 0.9 and CA Penarol Montevideo 1.3 more goals (last 10 + season); 1-0 at 59' \u2013 89% chance; h2h 83% of 6 meetings",
+"ts": 1795552200.0,
+"eid": "sr:match:76915358",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76915358|14|hcp=0:3|1713"
+},
+{
+"t": "Tue 22:00",
+"game": "Chapecoense SC vs SE Palmeiras SP",
+"lg": "Brazil - Brasileiro Serie A",
+"pick": "Handicap 0:4 \u2013 SE Palmeiras SP",
+"odds": 1.03,
+"why": "LIVE 2-0 45': Chapecoense SC expected 0.5 and SE Palmeiras SP 1.2 more goals (last 10 + season); 2-0 at 45' \u2013 94% chance; margin record 100% / 100% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795554000.0,
+"eid": "sr:match:66887216",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "66887216|14|hcp=0:4|1713"
+},
+{
+"t": "Tue 22:00",
+"game": "Club Deportivo Platense Reserves vs CD Choloma Reserves",
+"lg": "Honduras - Honduras Reserve League",
+"pick": "Club Deportivo Platense Reserves to win",
+"odds": 1.09,
+"why": "LIVE 2-1 45': no team stats for this game \u2013 SportyBet's own price says 87%",
+"ts": 1795554000.0,
+"eid": "sr:match:111111114717251",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "111111114717251|1||1"
+}
+],
+"chance": 0.7191
+}
+]
+},
+{
 "when": "Tue 24 Nov 18:47",
 "at": 1795542448,
 "req": {
@@ -7722,21 +7794,5 @@
 "chance": 0.1939
 }
 ]
-},
-{
-"when": "Tue 17 Nov 20:23",
-"at": 1794943391,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 12,
-"strict": "normal",
-"rid": "mwl2y4b71pbv",
-"target": 20
-},
-"ok": false,
-"msg": "20 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 12 legs is 2.98 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
