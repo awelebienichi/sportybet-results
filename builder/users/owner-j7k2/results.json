@@ -299,7 +299,10 @@
 "game": "Anstey Nomads vs Redditch United",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Tue 20:45",
@@ -684,7 +687,7 @@
 "when": "Tue 24 Nov 17:42",
 "kind": "goal-fest teams (season data)",
 "odds": 174.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:00",
@@ -701,7 +704,10 @@
 "game": "Ebbsfleet United FC vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -748,7 +754,10 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -779,7 +788,10 @@
 "game": "Anstey Nomads vs Redditch United",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Tue 20:45",
@@ -1097,7 +1109,10 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1505,7 +1520,10 @@
 "game": "Ebbsfleet United FC vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 21:00",
@@ -1642,7 +1660,10 @@
 "game": "Ebbsfleet United FC vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -1699,7 +1720,10 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -1713,7 +1737,10 @@
 "game": "Anstey Nomads vs Redditch United",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Tue 20:45",
@@ -2096,7 +2123,10 @@
 "game": "Bradford City FC vs Barnsley FC",
 "pick": "Bradford City FC to win (1UP)",
 "odds": 1.3,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Tue 20:45",
@@ -2455,7 +2485,7 @@
 "odds": 1.19,
 "ts": 1795549500.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "1-0"
 },
 {
@@ -3656,7 +3686,10 @@
 "game": "Ebbsfleet United FC vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.51,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 21:00",
@@ -4157,7 +4190,10 @@
 "game": "Ebbsfleet United FC vs Billericay Town",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Tue 20:45",
@@ -4204,7 +4240,10 @@
 "game": "AFC Fylde vs FC Halifax Town",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Tue 20:45",
@@ -4225,7 +4264,10 @@
 "game": "Anstey Nomads vs Redditch United",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Tue 20:45",
