@@ -1,5 +1,119 @@
 [
 {
+"when": "Tue 24 Nov 18:47",
+"at": 1795542448,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mwuzlrdpnjn7"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Only 6 live leg(s) were strong enough right now (you asked for 10).",
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 6 legs win: about 46%."
+],
+"tickets": [
+{
+"code": "X23DVZ",
+"odds": 1.62,
+"legs": [
+{
+"t": "Tue 17:30",
+"game": "FK Zenit Saint Petersburg vs PFK Krylia Sovetov Samara",
+"lg": "Russia - Russian Cup",
+"pick": "Handicap 0:4 \u2013 PFK Krylia Sovetov Samara",
+"odds": 1.03,
+"why": "LIVE 1-0 52': FK Zenit Saint Petersburg expected 0.7 and PFK Krylia Sovetov Samara 0.5 more goals (last 10 + season); 1-0 at 52' \u2013 96% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1795537800.0,
+"eid": "sr:match:72344002",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "72344002|14|hcp=0:4|1713"
+},
+{
+"t": "Tue 17:30",
+"game": "SC Kiyovu  vs AL Hilal (SDN)",
+"lg": "Rwanda - Premier League",
+"pick": "Under 3.5",
+"odds": 1.05,
+"why": "LIVE 1-0 59': SC Kiyovu  expected 0.3 and AL Hilal (SDN) 0.3 more goals (last 10 + season); 1-0 at 59' \u2013 96% chance; Flashscore home/away form 90%, season: 1.7 goals a game",
+"ts": 1795537800.0,
+"eid": "sr:match:77062294",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "77062294|18|total=3.5|13"
+},
+{
+"t": "Tue 18:00",
+"game": "AL Riyadh SC U21 vs AL Ahli Jeddah",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "AL Riyadh SC U21 or draw",
+"odds": 1.05,
+"why": "LIVE 1-0 46': AL Riyadh SC U21 expected 0.8 and AL Ahli Jeddah 0.9 more goals (last 10 + season); 1-0 at 46' \u2013 86% chance",
+"ts": 1795539600.0,
+"eid": "sr:match:73326534",
+"mid": "10",
+"spec": "",
+"oid": "9",
+"k": "73326534|10||9"
+},
+{
+"t": "Tue 18:00",
+"game": "Al Duhail SC vs Neom SC",
+"lg": "International Clubs - Gulf Club Champions League",
+"pick": "Al Duhail SC to win",
+"odds": 1.17,
+"why": "LIVE 2-0 47': Al Duhail SC expected 0.8 and Neom SC 0.6 more goals (last 10); 2-0 at 47' \u2013 91% chance; Flashscore home/away form 50%",
+"ts": 1795539600.0,
+"eid": "sr:match:76552892",
+"mid": "1",
+"spec": "",
+"oid": "1",
+"k": "76552892|1||1"
+},
+{
+"t": "Tue 18:30",
+"game": "Durban City FC vs Polokwane City",
+"lg": "South Africa - Premiership",
+"pick": "Handicap 2:0 \u2013 Durban City FC",
+"odds": 1.06,
+"why": "LIVE 0-0 16': Durban City FC expected 1.0 and Polokwane City 1.0 more goals (last 10 + season); 0-0 at 16' \u2013 86% chance; h2h 100% of 3 meetings",
+"ts": 1795541400.0,
+"eid": "sr:match:73258884",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "73258884|14|hcp=2:0|1711"
+},
+{
+"t": "Tue 18:30",
+"game": "Orlando Pirates FC vs Lamontville Golden Arrows",
+"lg": "South Africa - Premiership",
+"pick": "Handicap 0:3 \u2013 Lamontville Golden Arrows",
+"odds": 1.15,
+"why": "LIVE 0-0 16': Orlando Pirates FC expected 1.2 and Lamontville Golden Arrows 0.4 more goals (last 10 + season); 0-0 at 16' \u2013 88% chance",
+"ts": 1795541400.0,
+"eid": "sr:match:73258892",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "73258892|14|hcp=0:3|1713"
+}
+],
+"chance": 0.4607
+}
+]
+},
+{
 "when": "Tue 24 Nov 14:18",
 "at": 1795526332,
 "req": {
@@ -7624,21 +7738,5 @@
 },
 "ok": false,
 "msg": "20 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 12 legs is 2.98 odds. Lower the target, allow more legs, or try again in a few minutes."
-},
-{
-"when": "Tue 17 Nov 20:22",
-"at": 1794943360,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 40,
-"strict": "normal",
-"rid": "mwl2xb6cg3ee",
-"target": 20
-},
-"ok": false,
-"msg": "20 odds can't be reached right now: 12 live leg(s) are strong enough, and the most they make with up to 40 legs is 2.74 odds. Lower the target, allow more legs, or try again in a few minutes."
 }
 ]
