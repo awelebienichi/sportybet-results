@@ -435,7 +435,10 @@
 "game": "Carrick Rangers vs Glenavon FC",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Tue 21:00",
@@ -608,7 +611,10 @@
 "game": "Holywell Town vs Pen-y-Bont FC",
 "pick": "1st half Over 0.5",
 "odds": 1.16,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -643,7 +649,10 @@
 "game": "Scunthorpe United vs Gateshead FC",
 "pick": "1st half Over 0.5",
 "odds": 1.22,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Tue 21:00",
@@ -1437,7 +1446,10 @@
 "game": "Holywell Town vs Pen-y-Bont FC",
 "pick": "1st half Over 0.5",
 "odds": 1.15,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
@@ -2034,7 +2046,10 @@
 "game": "Holywell Town vs Pen-y-Bont FC",
 "pick": "1st half Over 0.5",
 "odds": 1.15,
-"ts": 1795549500.0
+"ts": 1795549500.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Tue 20:45",
