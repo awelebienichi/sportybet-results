@@ -1542,7 +1542,10 @@
 "game": "Galatasaray Istanbul vs Aston Villa",
 "pick": "1st half double chance Galatasaray Istanbul or draw",
 "odds": 1.46,
-"ts": 1795542300.0
+"ts": 1795542300.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 19:15",
@@ -1826,14 +1829,20 @@
 "game": "Bodoe/Glimt vs LASK Linz",
 "pick": "1st half double chance Bodoe/Glimt or draw",
 "odds": 1.16,
-"ts": 1795542300.0
+"ts": 1795542300.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 18:45",
 "game": "Galatasaray Istanbul vs Aston Villa",
 "pick": "1st half double chance Galatasaray Istanbul or draw",
 "odds": 1.46,
-"ts": 1795542300.0
+"ts": 1795542300.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 19:15",
@@ -3091,14 +3100,20 @@
 "game": "Bodoe/Glimt vs LASK Linz",
 "pick": "1st half GG \u2013 No",
 "odds": 1.4,
-"ts": 1795542300.0
+"ts": 1795542300.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 18:45",
 "game": "Galatasaray Istanbul vs Aston Villa",
 "pick": "1st half double chance Galatasaray Istanbul or draw",
 "odds": 1.45,
-"ts": 1795542300.0
+"ts": 1795542300.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Tue 19:00",
