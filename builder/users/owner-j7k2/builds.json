@@ -1,5 +1,223 @@
 [
 {
+"when": "Tue 24 Nov 13:29",
+"at": 1795523352,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-24"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwuo8gcc2pln"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 13 games passed the checks (Tue 24, 163 games on SportyBet), so this ticket has 13 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 13 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "SLBLZA",
+"odds": 83.3,
+"legs": [
+{
+"t": "Tue 14:30",
+"game": "Persiraja Banda vs Dewa United",
+"lg": "Indonesia - League Cup",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1795527000.0,
+"eid": "sr:match:76075976",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76075976|18|total=2.5|12"
+},
+{
+"t": "Tue 15:25",
+"game": "AL Ettifaq U21 vs AL Nassr",
+"lg": "Saudi Arabia - U21 Elite League",
+"pick": "Over 2.5",
+"odds": 1.48,
+"why": "stats rate 75% from both teams' last 10; season: 3.9 goals a game",
+"ts": 1795530300.0,
+"eid": "sr:match:73326526",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73326526|18|total=2.5|12"
+},
+{
+"t": "Tue 16:00",
+"game": "Feyenoord Rotterdam vs FC Porto",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.8 goals a game",
+"ts": 1795532400.0,
+"eid": "sr:match:74560640",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74560640|18|total=2.5|12"
+},
+{
+"t": "Tue 18:45",
+"game": "Galatasaray Istanbul vs Aston Villa",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 80%, footybets 80%, FotMob: 4.4 goals a game",
+"ts": 1795542300.0,
+"eid": "sr:match:74166016",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74166016|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Huddersfield Town (R) vs Swansea City U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "stats rate 76% from both teams' last 10 and 3 meetings; Flashscore home/away form 65%",
+"ts": 1795546800.0,
+"eid": "sr:match:73684706",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73684706|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Queens Park Rangers U21 vs Southampton U21",
+"lg": "England Amateur - Premier League Cup",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 70%",
+"ts": 1795546800.0,
+"eid": "sr:match:73684660",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73684660|18|total=2.5|12"
+},
+{
+"t": "Tue 20:00",
+"game": "Fleetwood Town vs Leeds United U21",
+"lg": "England - EFL Trophy",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 60%",
+"ts": 1795546800.0,
+"eid": "sr:match:73661560",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73661560|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Woking FC vs Worthing FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%, CompactStats 62% (bookmaker 62%)",
+"ts": 1795549500.0,
+"eid": "sr:match:72740854",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740854|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Harland And Wolff Welders vs Linfield FC",
+"lg": "Northern Ireland - League Cup",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "stats rate 79% from both teams' last 10 and 3 meetings; Flashscore home/away form 70%",
+"ts": 1795549500.0,
+"eid": "sr:match:75974246",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75974246|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Malvern Town vs Hanworth Villa",
+"lg": "England Amateur - Southern League Premier South",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 65%, FotMob: 3.6 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:77098210",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77098210|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Leatherhead FC vs Ramsgate FC",
+"lg": "England Amateur - Isthmian League, Pr. Div",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "stats rate 79% from both teams' last 10 and 3 meetings; Flashscore home/away form 70%, FotMob: 3.5 goals a game",
+"ts": 1795549500.0,
+"eid": "sr:match:75997140",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75997140|18|total=2.5|12"
+},
+{
+"t": "Tue 20:45",
+"game": "Ebbsfleet United FC vs Billericay Town",
+"lg": "England Amateur - National League South",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "stats rate 78% from both teams' last 10 and 4 meetings; Flashscore home/away form 60%",
+"ts": 1795549500.0,
+"eid": "sr:match:72758342",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72758342|18|total=2.5|12"
+},
+{
+"t": "Tue 21:00",
+"game": "RB Leipzig vs Lens",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "stats rate 75% from both teams' last 10; Flashscore home/away form 80%, footybets 85%, FotMob: 4.5 goals a game",
+"ts": 1795550400.0,
+"eid": "sr:match:74166026",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74166026|18|total=2.5|12"
+}
+],
+"chance": 0.0064
+}
+]
+},
+{
 "when": "Tue 24 Nov 13:24",
 "at": 1795523057,
 "req": {
@@ -8297,25 +8515,5 @@
 "chance": 0.0105
 }
 ]
-},
-{
-"when": "Sun 22 Nov 20:04",
-"at": 1795374289,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-22"
-],
-"strict": "normal",
-"from": "22:00",
-"to": "06:00",
-"rid": "mws7hauncyjx"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Sun 22, 22:00\u201306:00) out of 19 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
