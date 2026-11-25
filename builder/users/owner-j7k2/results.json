@@ -16,7 +16,7 @@
 "odds": 1.09,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
@@ -100,14 +100,20 @@
 "game": "TSG Hoffenheim vs PAOK Thessaloniki",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 18:00",
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 19:00",
@@ -232,7 +238,7 @@
 "odds": 1.09,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
@@ -240,14 +246,20 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:00",
 "game": "TSG Hoffenheim vs PAOK Thessaloniki",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 18:00",
@@ -358,7 +370,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 19:00",
@@ -413,7 +428,10 @@
 "game": "TSG Hoffenheim vs PAOK Thessaloniki",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-0"
 }
 ]
 },
@@ -440,7 +458,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:00",
@@ -449,8 +470,8 @@
 "odds": 1.12,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 19:00",
@@ -536,7 +557,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:00",
@@ -545,8 +569,8 @@
 "odds": 1.12,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 19:00",
@@ -659,7 +683,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:00",
@@ -668,8 +695,8 @@
 "odds": 1.12,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "2-1",
+"ht": "2-0"
 },
 {
 "t": "Wed 19:00",
@@ -854,8 +881,8 @@
 "odds": 1.11,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 18:00",
@@ -1366,7 +1393,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 20:00",
@@ -1617,7 +1647,7 @@
 "odds": 1.17,
 "ts": 1795626000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "4-1",
 "ht": "2-1"
 },
 {
@@ -1799,7 +1829,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 19:00",
@@ -2904,7 +2937,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Wed 19:00",
