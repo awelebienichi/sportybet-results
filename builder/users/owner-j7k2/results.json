@@ -599,7 +599,7 @@
 "odds": 1.2,
 "ts": 1795600800.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
@@ -686,7 +686,7 @@
 "when": "Wed 25 Nov 08:55",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 328.59,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 10:00",
@@ -707,7 +707,10 @@
 "game": "Gamba Osaka vs Port FC",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795600800.0
+"ts": 1795600800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:00",
