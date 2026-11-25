@@ -316,9 +316,11 @@ def pick_o25quiet(G, LX):
             if p["eid"] in seen or p["eid"] not in GM or p["odds"] > O25_MAX.get(round(ST["L"], 1), 1.60): continue
             g = GM[p["eid"]]; H, A = LX.get(g["hid"], []), LX.get(g["aid"], [])
             if not (q3(H) or q3(A)) or (q3(H) and q3(A)): continue
+            Q = H if q3(H) else A; rest = Q[3:]                                    # the quiet team must really be a high scorer (user, 25 Nov):
+            if len(rest) < 5 or sum(m["gf"] + m["ga"] >= 3 for m in rest) / len(rest) < .70 - ST["L"] / 2: continue   # Over 2.5 in 70%+ of its games before the run
             seen.add(p["eid"]); team = g["h"] if q3(H) else g["a"]
             out.append(dict(p, rate=1 / (p["odds"] * 1.06),
-                            why=f"{' + '.join(dict.fromkeys(member[p['eid']]))}; {team} had no Over 2.5 in its last 3 ({last3(H if q3(H) else A)}); " + p.get("why", "")))
+                            why=f"{' + '.join(dict.fromkeys(member[p['eid']]))}; {team}: Over 2.5 in {sum(m['gf'] + m['ga'] >= 3 for m in rest)}/{len(rest)} games before, then none in its last 3 ({last3(Q)}); " + p.get("why", "")))
     return out
 
 def pick_h1bounce(G, LX):
