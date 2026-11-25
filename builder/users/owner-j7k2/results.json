@@ -942,7 +942,10 @@
 "game": "Rangers vs AZ Alkmaar",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-0"
 },
 {
 "t": "Wed 21:00",
@@ -1653,7 +1656,10 @@
 "game": "Atletico Madrid vs Viking FK",
 "pick": "Goal bounds 2-5+",
 "odds": 1.07,
-"ts": 1795636800.0
+"ts": 1795636800.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Wed 21:00",
