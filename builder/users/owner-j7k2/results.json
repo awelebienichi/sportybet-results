@@ -301,8 +301,8 @@
 "odds": 1.42,
 "ts": 1795629600.0,
 "r": "W",
-"sc": "3-3",
-"ht": ""
+"sc": "3-4",
+"ht": "3-3"
 },
 {
 "t": "Wed 19:00",
@@ -1247,7 +1247,10 @@
 "game": "Lokomotiv Moscow vs FK Rostov",
 "pick": "Double chance FK Rostov or draw",
 "odds": 1.52,
-"ts": 1795627800.0
+"ts": 1795627800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Wed 18:45",
