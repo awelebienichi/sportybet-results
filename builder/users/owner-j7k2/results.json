@@ -733,7 +733,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:45",
@@ -938,7 +941,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:00",
@@ -1020,7 +1026,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:15",
@@ -1121,7 +1130,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:45",
@@ -1226,7 +1238,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:45",
@@ -1358,7 +1373,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:45",
@@ -1987,7 +2005,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Double chance VV Gemert or draw",
 "odds": 1.43,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:00",
@@ -2118,7 +2139,7 @@
 "when": "Wed 25 Nov 12:14",
 "kind": "goal-fest teams (season data)",
 "odds": 1.86,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 18:00",
@@ -2135,7 +2156,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 }
 ]
 },
@@ -2599,7 +2623,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:45",
@@ -3483,14 +3510,17 @@
 "when": "Wed 25 Nov 06:35",
 "kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
 "odds": 27422.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 20:00",
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 23:00",
@@ -3722,7 +3752,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 23:00",
@@ -4018,7 +4051,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 20:45",
@@ -4059,7 +4095,7 @@
 "when": "Tue 24 Nov 18:26",
 "kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
 "odds": 130.19,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 20:45",
@@ -4086,7 +4122,10 @@
 "game": "RBC Roosendaal vs VV Gemert",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
