@@ -1,5 +1,178 @@
 [
 {
+"when": "Wed 25 Nov 16:00",
+"at": 1795618812,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalmix",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-25"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mww921icjoa2"
+},
+"ok": true,
+"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
+"note": [
+"Only 4 Over 2.5 and 6 Over 1.5 legs passed (Wed 25); this ticket has 4 + 6 instead of 18 + 32. Tick more days for more.",
+"Chance all 10 legs win: about 7%."
+],
+"tickets": [
+{
+"code": "GPTTS7",
+"odds": 8.29,
+"legs": [
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, league avg 4.4 goals; Flashscore home/away form 95%",
+"ts": 1795622400.0,
+"eid": "sr:match:76573536",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76573536|18|total=1.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 4.0 and 4.6 goals a game (9/9 games); last 10 rate 85%; season: 4.3 goals a game",
+"ts": 1795626000.0,
+"eid": "sr:match:76705576",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76705576|18|total=2.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "TSG Hoffenheim vs PAOK Thessaloniki",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 4.4 goals; Flashscore home/away form 95%",
+"ts": 1795626000.0,
+"eid": "sr:match:76573542",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76573542|18|total=1.5|12"
+},
+{
+"t": "Wed 19:00",
+"game": "Americano RJ vs America FC RJ",
+"lg": "Brazil - U20 Carioca, Serie A2",
+"pick": "Over 2.5",
+"odds": 1.59,
+"why": "season: 5.0 and 3.2 goals a game (10/10 games); last 10 rate 70%; season: 4.1 goals a game",
+"ts": 1795629600.0,
+"eid": "sr:match:76712408",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76712408|18|total=2.5|12"
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "season: 4.3 and 3.8 goals a game (13/13 games); last 10 rate 78%; Flashscore home/away form 75%, season: 4.0 goals a game",
+"ts": 1795633200.0,
+"eid": "sr:match:76486868",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76486868|18|total=2.5|12"
+},
+{
+"t": "Wed 20:45",
+"game": "Hartlepool United vs Solihull Moors FC",
+"lg": "England - National League",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.4 goals; Flashscore home/away form 80%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game, CompactStats 81% (bookmaker 81%)",
+"ts": 1795635900.0,
+"eid": "sr:match:72740860",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72740860|18|total=1.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 85%, footybets 83%, FotMob: 5.2 goals a game, Vitibet tip 1-2",
+"ts": 1795636800.0,
+"eid": "sr:match:74166038",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74166038|18|total=1.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 85%, FotMob: 5.4 goals a game, Vitibet tip 3-1",
+"ts": 1795636800.0,
+"eid": "sr:match:74166046",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74166046|18|total=1.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "TOP TIER: Over 1.5 in 80% / 100% of the teams' last 10, 67% of 3 meetings, league avg 3.5 goals; Flashscore home/away form 90%, footybets 86%, FotMob: 3.5 goals a game",
+"ts": 1795636800.0,
+"eid": "sr:match:74166048",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74166048|18|total=1.5|12"
+},
+{
+"t": "Wed 23:00",
+"game": "Guerreros de Autlan vs Heroes de Zaci FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "season: 4.1 and 3.2 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 70%",
+"ts": 1795644000.0,
+"eid": "sr:match:77025114",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77025114|18|total=2.5|12"
+}
+],
+"chance": 0.0741
+}
+]
+},
+{
 "when": "Wed 25 Nov 15:25",
 "at": 1795616706,
 "req": {
@@ -8733,183 +8906,6 @@
 }
 ],
 "chance": 0.0009
-}
-]
-},
-{
-"when": "Tue 24 Nov 13:14",
-"at": 1795522465,
-"req": {
-"type": "rollover",
-"legs": 11,
-"rid": "mwunphpxr9mn"
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a61,000 \u2192 returns \u20a64,160 if it wins"
-],
-"tickets": [
-{
-"code": "HPFG48",
-"odds": 4.16,
-"legs": [
-{
-"t": "Tue 14:00",
-"game": "FK Arsenal Tivat vs FK Decic Tuzi",
-"lg": "Montenegro - 1. CFL",
-"pick": "1st half GG \u2013 No",
-"odds": 1.12,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795525200.0,
-"eid": "sr:match:76811384",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "76811384|75||76"
-},
-{
-"t": "Tue 16:00",
-"game": "Zed FC vs Abo Qair Semads",
-"lg": "Egypt - Premier League",
-"pick": "1st half double chance Zed FC or draw",
-"odds": 1.19,
-"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
-"ts": 1795532400.0,
-"eid": "sr:match:73463720",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73463720|63||9"
-},
-{
-"t": "Tue 16:00",
-"game": "Smouha SC vs National Bank of Egypt SC",
-"lg": "Egypt - Premier League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.12,
-"why": "stats rate 94% from both teams' last 10 and 8 meetings (1st-half rollover)",
-"ts": 1795532400.0,
-"eid": "sr:match:73463722",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "73463722|75||76"
-},
-{
-"t": "Tue 19:00",
-"game": "Al-Masry vs Asyut Petroleum",
-"lg": "Egypt - Premier League",
-"pick": "1st half GG \u2013 No",
-"odds": 1.14,
-"why": "stats rate 100% from both teams' last 10 (1st-half rollover)",
-"ts": 1795543200.0,
-"eid": "sr:match:73463724",
-"mid": "75",
-"spec": "",
-"oid": "76",
-"k": "73463724|75||76"
-},
-{
-"t": "Tue 19:00",
-"game": "Al Mokawloon Al Arab vs El Qanah FC",
-"lg": "Egypt - Premier League",
-"pick": "1st half double chance Al Mokawloon Al Arab or draw",
-"odds": 1.19,
-"why": "stats rate 88% from both teams' last 10 and 3 meetings (1st-half rollover)",
-"ts": 1795543200.0,
-"eid": "sr:match:73463728",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "73463728|63||9"
-},
-{
-"t": "Tue 20:00",
-"game": "Huddersfield Town (R) vs Swansea City U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Over 1.5",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 3 meetings; Flashscore home/away form 90% (1st-half rollover)",
-"ts": 1795546800.0,
-"eid": "sr:match:73684706",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73684706|18|total=1.5|12"
-},
-{
-"t": "Tue 20:00",
-"game": "Queens Park Rangers U21 vs Southampton U21",
-"lg": "England Amateur - Premier League Cup",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 90% (1st-half rollover)",
-"ts": 1795546800.0,
-"eid": "sr:match:73684660",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73684660|18|total=1.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "South Shields vs Worksop Town",
-"lg": "England Amateur - National League North",
-"pick": "1st half Over 0.5",
-"odds": 1.19,
-"why": "stats rate 100% from both teams' last 10 and 3 meetings (1st-half rollover)",
-"ts": 1795549500.0,
-"eid": "sr:match:72759514",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72759514|68|total=0.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Salisbury FC vs AFC Totton",
-"lg": "England Amateur - National League South",
-"pick": "1st half double chance Salisbury FC or draw",
-"odds": 1.18,
-"why": "stats rate 87% from both teams' last 10 and 5 meetings (1st-half rollover)",
-"ts": 1795549500.0,
-"eid": "sr:match:72758354",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "72758354|63||9"
-},
-{
-"t": "Tue 20:45",
-"game": "Holywell Town vs Pen-y-Bont FC",
-"lg": "Wales - Cymru Premier",
-"pick": "1st half Over 0.5",
-"odds": 1.15,
-"why": "stats rate 90% from both teams' last 10 (1st-half rollover)",
-"ts": 1795549500.0,
-"eid": "sr:match:76793576",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "76793576|68|total=0.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Slough Town vs Farnborough FC",
-"lg": "England Amateur - National League South",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "stats rate 96% from both teams' last 10 and 8 meetings; Flashscore home/away form 85%, FotMob: 3.4 goals a game, Vitibet tip 2-1, season: 3.4 goals a game (1st-half rollover)",
-"ts": 1795549500.0,
-"eid": "sr:match:72758356",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72758356|18|total=1.5|12"
-}
-],
-"chance": 0.1407
 }
 ]
 }
