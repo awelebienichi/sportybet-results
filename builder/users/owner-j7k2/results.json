@@ -2,6 +2,121 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "V47L8K",
+"at": 1795585290,
+"when": "Wed 25 Nov 06:41",
+"kind": "1st half Over 0.5 bounce-back (after 3 half-time 0-0s)",
+"odds": 74.95,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "AC Nagano Parceiro vs Kagoshima United",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 17:00",
+"game": "Al-Muharraq SC vs Arkadag FK",
+"pick": "1st half Over 0.5",
+"odds": 1.4,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1795636800.0
+},
+{
+"t": "Thu 21:00",
+"game": "Gent vs Crvena Zvezda",
+"pick": "1st half Over 0.5",
+"odds": 1.38,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"pick": "1st half Over 0.5",
+"odds": 1.49,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 21:00",
+"game": "Levante vs Racing Santander",
+"pick": "1st half Over 0.5",
+"odds": 1.28,
+"ts": 1795809600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Barry Town United FC vs Caernarfon Town FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Altrincham FC vs Worthing FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Patro Eisden Maasmechelen vs Jeugd KAA Gent B",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:45",
+"game": "PFC Cherno More Varna vs Botev Plovdiv",
+"pick": "1st half Over 0.5",
+"odds": 1.45,
+"ts": 1795880700.0
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"pick": "1st half Over 0.5",
+"odds": 1.41,
+"ts": 1795885200.0
+},
+{
+"t": "Sun 00:30",
+"game": "Colo-Colo vs Deportes La Serena",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"ts": 1795908600.0
+},
+{
+"t": "Sun 14:30",
+"game": "Ravenna FC 1913 vs SEF Torres Sassari",
+"pick": "1st half Over 0.5",
+"odds": 1.32,
+"ts": 1795959000.0
+},
+{
+"t": "Sun 15:30",
+"game": "FK Novi Pazar vs Crvena Zvezda",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795962600.0
+},
+{
+"t": "Sun 21:30",
+"game": "Porto vs Sporting",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"ts": 1795984200.0
+}
+]
+},
+{
 "code": "UES1S2",
 "at": 1795584931,
 "when": "Wed 25 Nov 06:35",
@@ -3466,7 +3581,10 @@
 "game": "Denver Nuggets vs Dallas Mavericks",
 "pick": "Under 244.5 total points",
 "odds": 1.28,
-"ts": 1795575600.0
+"ts": 1795575600.0,
+"r": "W",
+"sc": "101-120",
+"ht": "17-24"
 }
 ]
 },
@@ -3553,7 +3671,10 @@
 "game": "Denver Nuggets vs Dallas Mavericks",
 "pick": "Over 218.5 total points",
 "odds": 1.24,
-"ts": 1795575600.0
+"ts": 1795575600.0,
+"r": "W",
+"sc": "101-120",
+"ht": "17-24"
 }
 ]
 },
@@ -79926,76 +80047,6 @@
 "r": "W",
 "sc": "71-82",
 "ht": "20-25"
-}
-]
-},
-{
-"code": "TD4YXA",
-"at": 1794517149,
-"when": "Thu 12 Nov 21:59",
-"kind": "live \u2013 best of all",
-"odds": 1.35,
-"status": "won",
-"legs": [
-{
-"t": "Thu 20:30",
-"game": "CS Cerrito vs Colon FC",
-"pick": "Under 3.5",
-"odds": 1.04,
-"ts": 1794511800.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-1"
-},
-{
-"t": "Thu 20:30",
-"game": "CA Atenas de San Carlos vs Club Oriental de Football",
-"pick": "GG \u2013 No",
-"odds": 1.09,
-"ts": 1794511800.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Thu 20:45",
-"game": "Italy vs France",
-"pick": "Handicap 3:0 \u2013 Italy",
-"odds": 1.04,
-"ts": 1794512700.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-1"
-},
-{
-"t": "Thu 20:45",
-"game": "Albania vs Finland",
-"pick": "Albania or Finland",
-"odds": 1.03,
-"ts": 1794512700.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Thu 20:45",
-"game": "Czechia vs Spain",
-"pick": "Handicap 4:0 \u2013 Czechia",
-"odds": 1.07,
-"ts": 1794512700.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Thu 21:00",
-"game": "SL Benfica Lisbon W vs FK Austria Wien",
-"pick": "SL Benfica Lisbon W Under 3.5",
-"odds": 1.04,
-"ts": 1794513600.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-0"
 }
 ]
 }
