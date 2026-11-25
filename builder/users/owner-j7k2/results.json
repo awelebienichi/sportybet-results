@@ -1670,7 +1670,10 @@
 "game": "Bolton Wanderers vs West Bromwich Albion",
 "pick": "Goal bounds 2-5+",
 "odds": 1.21,
-"ts": 1795635900.0
+"ts": 1795635900.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 20:45",
@@ -2037,7 +2040,10 @@
 "game": "Bolton Wanderers vs West Bromwich Albion",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1795635900.0
+"ts": 1795635900.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 20:45",
@@ -2061,7 +2067,10 @@
 "game": "Harrogate Town vs Kidderminster Harriers FC",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1795635900.0
+"ts": 1795635900.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 21:00",
