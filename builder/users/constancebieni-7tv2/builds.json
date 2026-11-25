@@ -1,5 +1,322 @@
 [
 {
+"when": "Wed 25 Nov 15:42",
+"at": 1795617764,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-25",
+"2026-11-26",
+"2026-11-27"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o15"
+],
+"rid": "mww8f9d3pqyq"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Chance all 20 legs win: about 3% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "JPQXQN",
+"odds": 11.91,
+"legs": [
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1795622400.0,
+"eid": "sr:match:76573536",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76573536|18|total=1.5|12"
+},
+{
+"t": "Wed 18:00",
+"game": "TSG Hoffenheim vs PAOK Thessaloniki",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 95%",
+"ts": 1795626000.0,
+"eid": "sr:match:76573542",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76573542|18|total=1.5|12"
+},
+{
+"t": "Wed 20:45",
+"game": "Hartlepool United vs Solihull Moors FC",
+"lg": "England - National League",
+"pick": "Over 1.5",
+"odds": 1.2,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game, CompactStats 81% (bookmaker 81%)",
+"ts": 1795635900.0,
+"eid": "sr:match:72740860",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72740860|18|total=1.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Atletico Madrid vs Viking FK",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 1.5",
+"odds": 1.07,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%, footybets 90%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
+"ts": 1795636800.0,
+"eid": "sr:match:74166036",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74166036|18|total=1.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%, footybets 83%, FotMob: 5.2 goals a game, Vitibet tip 1-2",
+"ts": 1795636800.0,
+"eid": "sr:match:74166038",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74166038|18|total=1.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 85%, FotMob: 5.4 goals a game, Vitibet tip 3-1",
+"ts": 1795636800.0,
+"eid": "sr:match:74166046",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74166046|18|total=1.5|12"
+},
+{
+"t": "Thu 12:00",
+"game": "Uttaradit Saksiam FC vs Songkhla FC",
+"lg": "Thailand - Thai League 2",
+"pick": "Over 1.5",
+"odds": 1.21,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 89%, FotMob: 3.2 goals a game, season: 3.2 goals a game",
+"ts": 1795690800.0,
+"eid": "sr:match:73075942",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "73075942|18|total=1.5|12"
+},
+{
+"t": "Thu 18:45",
+"game": "Heart of Midlothian FC vs Monaco",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 90%, Vitibet tip 1-2",
+"ts": 1795715100.0,
+"eid": "sr:match:74173324",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173324|18|total=1.5|12"
+},
+{
+"t": "Thu 18:45",
+"game": "Viktoria Plzen vs Benfica",
+"lg": "International Clubs - UEFA Europa League",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 100%, footybets 93%, FotMob: 3.2 goals a game, Vitibet tip 1-2",
+"ts": 1795715100.0,
+"eid": "sr:match:74173064",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173064|18|total=1.5|12"
+},
+{
+"t": "Thu 18:45",
+"game": "Ajax vs FC Thun",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "Over 1.5",
+"odds": 1.07,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 90%, footybets 90%, Vitibet tip 3-1",
+"ts": 1795715100.0,
+"eid": "sr:match:74173314",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173314|18|total=1.5|12"
+},
+{
+"t": "Thu 18:45",
+"game": "SK Brann vs AGF Aarhus",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, footybets 88%, Vitibet tip 2-1",
+"ts": 1795715100.0,
+"eid": "sr:match:74173330",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173330|18|total=1.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Juventus vs AC Omonia Nicosia",
+"lg": "International Clubs - UEFA Europa League",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
+"ts": 1795723200.0,
+"eid": "sr:match:74173082",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173082|18|total=1.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Ferencvarosi Budapest vs NK Celje",
+"lg": "International Clubs - UEFA Europa League",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%, FotMob: 3.5 goals a game, Vitibet tip 2-1",
+"ts": 1795723200.0,
+"eid": "sr:match:74173080",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173080|18|total=1.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "FK Borac Banja Luka vs Atalanta",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "Over 1.5",
+"odds": 1.16,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 80%, footybets 91%, Vitibet tip 1-2",
+"ts": 1795723200.0,
+"eid": "sr:match:74173334",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "74173334|18|total=1.5|12"
+},
+{
+"t": "Fri 15:20",
+"game": "Al Qadsiah vs Al-Fayha FC",
+"lg": "Saudi Arabia - Saudi Pro League",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings; FotMob: 3.3 goals a game, Vitibet tip 3-1, season: 3.3 goals a game",
+"ts": 1795789200.0,
+"eid": "sr:match:76638674",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76638674|18|total=1.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "VVV Venlo vs RKC Waalwijk",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 96% from both teams' last 10 and 8 meetings; FotMob: 3.6 goals a game, Vitibet tip 2-1, season: 3.6 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:72044862",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72044862|18|total=1.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "MVV Maastricht vs Jong PSV Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:72044858",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72044858|18|total=1.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Scunthorpe United vs Wealdstone FC",
+"lg": "England - National League",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 93% from both teams' last 10 and 3 meetings; FotMob: 3.2 goals a game, season: 3.2 goals a game",
+"ts": 1795808700.0,
+"eid": "sr:match:72740862",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72740862|18|total=1.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Coleraine FC vs Dungannon Swifts",
+"lg": "Northern Ireland - Premiership",
+"pick": "Over 1.5",
+"odds": 1.15,
+"why": "stats rate 93% from both teams' last 10 and 8 meetings; FotMob: 3.0 goals a game, Vitibet tip 3-1, season: 3.0 goals a game",
+"ts": 1795808700.0,
+"eid": "sr:match:72346438",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72346438|18|total=1.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Cambrian United vs Trefelin BGC",
+"lg": "Wales - Cymru Premier",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
+"ts": 1795808700.0,
+"eid": "sr:match:72522190",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72522190|18|total=1.5|12"
+}
+],
+"chance": 0.0316
+}
+]
+},
+{
 "when": "Wed 25 Nov 15:39",
 "at": 1795617587,
 "req": {
@@ -7629,141 +7946,6 @@
 }
 ],
 "chance": 0.1686
-}
-]
-},
-{
-"when": "Wed 18 Nov 10:00",
-"at": 1794992445,
-"req": {
-"type": "rollover",
-"legs": 8,
-"rid": null
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 1",
-"note": [
-"Stake \u20a6100 \u2192 returns \u20a6401 if it wins"
-],
-"tickets": [
-{
-"code": "TJ36B8",
-"odds": 4.01,
-"legs": [
-{
-"t": "Wed 13:00",
-"game": "Rekord Bielsko-Biala vs Kks Lech Poznan",
-"lg": "Poland - Ekstraliga, Women",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); Flashscore home/away 85%",
-"ts": 1795003200.0,
-"eid": "sr:match:76165734",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "76165734|450001||25"
-},
-{
-"t": "Wed 13:00",
-"game": "Bylis Ballsh vs KS Beselidhja",
-"lg": "Albania - Kupa e Shqiperise",
-"pick": "1st half double chance Bylis Ballsh or draw",
-"odds": 1.14,
-"why": "both teams 89%+ in their own last 10 (home 89%, away 90%); head-to-head 100%",
-"ts": 1795003200.0,
-"eid": "sr:match:76251048",
-"mid": "63",
-"spec": "",
-"oid": "9",
-"k": "76251048|63||9"
-},
-{
-"t": "Wed 14:00",
-"game": "FC Bengaluru United vs Sreenidi Deccan FC",
-"lg": "India - IFL",
-"pick": "Handicap 2:0 \u2013 FC Bengaluru United",
-"odds": 1.22,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1795006800.0,
-"eid": "sr:match:75911698",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "75911698|14|hcp=2:0|1711"
-},
-{
-"t": "Wed 15:00",
-"game": "Dinamo Minsk 2 vs FC Bate Borisov 2",
-"lg": "Belarus - Pervaya Liga",
-"pick": "Under 5.5",
-"odds": 1.15,
-"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); head-to-head 100%; season: 3.3 goals a game",
-"ts": 1795010400.0,
-"eid": "sr:match:76877462",
-"mid": "18",
-"spec": "total=5.5",
-"oid": "13",
-"k": "76877462|18|total=5.5|13"
-},
-{
-"t": "Wed 16:00",
-"game": "El Gouna FC vs Al Ittihad Alexandria Club",
-"lg": "Egypt - Egypt Cup",
-"pick": "Under 3.5",
-"odds": 1.13,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 88%, Flashscore home/away 85%",
-"ts": 1795014000.0,
-"eid": "sr:match:76738340",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76738340|18|total=3.5|13"
-},
-{
-"t": "Wed 19:00",
-"game": "Utebo FC vs CE Sabadell FC",
-"lg": "Spain - Copa del Rey",
-"pick": "Handicap 2:0 \u2013 Utebo FC",
-"odds": 1.51,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); no head-to-head/Flashscore data, nothing against",
-"ts": 1795024800.0,
-"eid": "sr:match:76661768",
-"mid": "14",
-"spec": "hcp=2:0",
-"oid": "1711",
-"k": "76661768|14|hcp=2:0|1711"
-},
-{
-"t": "Wed 20:45",
-"game": "Gosport Borough vs Chertsey Town",
-"lg": "England Amateur - Southern League Premier South",
-"pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 100%, Flashscore home/away 95%; FotMob: 3.5 goals a game",
-"ts": 1795031100.0,
-"eid": "sr:match:75655848",
-"mid": "450001",
-"spec": "",
-"oid": "25",
-"k": "75655848|450001||25"
-},
-{
-"t": "Wed 21:00",
-"game": "Juventus Turin W vs Oud-Heverlee Leuven W",
-"lg": "International Clubs - UEFA Champions League Women",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "both teams 90%+ in their own last 10 (home 100%, away 90%); Flashscore home/away 85%; FotMob: 3.8 goals a game, Vitibet tip 2-1",
-"ts": 1795032000.0,
-"eid": "sr:match:74371862",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74371862|18|total=1.5|12"
-}
-],
-"chance": 0.1689
 }
 ]
 }
