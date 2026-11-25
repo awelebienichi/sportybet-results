@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GPTTS7",
+"at": 1795618812,
+"when": "Wed 25 Nov 16:00",
+"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
+"odds": 8.29,
+"status": "open",
+"legs": [
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 18:00",
+"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 18:00",
+"game": "TSG Hoffenheim vs PAOK Thessaloniki",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Americano RJ vs America FC RJ",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 20:45",
+"game": "Hartlepool United vs Solihull Moors FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795635900.0
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 23:00",
+"game": "Guerreros de Autlan vs Heroes de Zaci FC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795644000.0
+}
+]
+},
+{
 "code": "N57A4Y",
 "at": 1795616706,
 "when": "Wed 25 Nov 15:25",
@@ -81000,72 +81080,6 @@
 "pick": "Over 2.5",
 "odds": 1.32,
 "ts": 1794598200.0
-}
-]
-},
-{
-"code": "LA1XXR",
-"at": 1794539933,
-"when": "Fri 13 Nov 04:18",
-"kind": "goal-fest teams (season data)",
-"odds": 12.91,
-"status": "open",
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
-"pick": "Over 2.5",
-"odds": 1.3,
-"ts": 1794592800.0
-},
-{
-"t": "Fri 19:30",
-"game": "SV Drochtersen/Assel vs VfB Oldenburg",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794594600.0
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"pick": "Over 2.5",
-"odds": 1.34,
-"ts": 1794598200.0
-},
-{
-"t": "Sat 10:15",
-"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
-"pick": "Over 2.5",
-"odds": 1.35,
-"ts": 1794647700.0
-},
-{
-"t": "Sat 11:00",
-"game": "MFK Chrudim vs FK Jablonec B",
-"pick": "Over 2.5",
-"odds": 1.42,
-"ts": 1794650400.0
-},
-{
-"t": "Sat 12:00",
-"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 14:00",
-"game": "Hoersholm-Usseroed IK vs Naesby BK",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794661200.0
-},
-{
-"t": "Sat 15:15",
-"game": "Amsterdamsche FC vs De Treffers Groesbeek",
-"pick": "Over 2.5",
-"odds": 1.44,
-"ts": 1794665700.0
 }
 ]
 }
