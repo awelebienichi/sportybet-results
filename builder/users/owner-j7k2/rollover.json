@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-25",
+"day": 1,
+"code": "VVQGPY",
+"stake": 1000.0,
+"odds": 4.45,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-24",
 "day": 1,
 "code": "HPFG48",
@@ -76,7 +85,7 @@
 "odds": 4.45,
 "stake": 1000.0,
 "n": 11,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-24",
 "short": "lower",
