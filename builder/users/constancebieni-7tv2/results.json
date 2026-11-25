@@ -377,7 +377,7 @@
 "when": "Wed 25 Nov 15:39",
 "kind": "live \u2013 best of all",
 "odds": 1.79,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Wed 14:00",
@@ -464,7 +464,10 @@
 "game": "Club Brugge vs Liverpool",
 "pick": "Handicap 0:3 \u2013 Liverpool",
 "odds": 1.08,
-"ts": 1795615200.0
+"ts": 1795615200.0,
+"r": "W",
+"sc": "4-3",
+"ht": "2-2"
 },
 {
 "t": "Wed 15:00",
