@@ -2091,14 +2091,17 @@
 "when": "Wed 25 Nov 00:42",
 "kind": "draw & low-scoring teams (season data)",
 "odds": 33.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:30",
 "game": "Kakamega Homeboyz vs Shabana FC",
 "pick": "Under 3.5",
 "odds": 1.14,
-"ts": 1795602600.0
+"ts": 1795602600.0,
+"r": "L",
+"sc": "2-2",
+"ht": "1-2"
 },
 {
 "t": "Wed 12:00",
