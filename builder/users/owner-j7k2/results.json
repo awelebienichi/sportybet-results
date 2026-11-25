@@ -2,6 +2,163 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GUQ2ZK",
+"at": 1795587053,
+"when": "Wed 25 Nov 07:10",
+"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
+"odds": 4649.95,
+"status": "open",
+"legs": [
+{
+"t": "Wed 10:30",
+"game": "FC Samgurali Tskaltubo vs FC Torpedo Kutaisi",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795599000.0
+},
+{
+"t": "Wed 21:00",
+"game": "Inter vs Stuttgart",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795636800.0
+},
+{
+"t": "Thu 18:45",
+"game": "Brighton vs CS Universitatea Craiova",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Heart of Midlothian FC vs Monaco",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 21:00",
+"game": "Freiburg vs FC Twente Enschede",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795723200.0
+},
+{
+"t": "Thu 21:00",
+"game": "PFC CSKA Sofia vs Trabzonspor",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 19:00",
+"game": "AB Gladsaxe vs Vejle BK",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 21:00",
+"game": "Southampton vs Middlesbrough FC",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795809600.0
+},
+{
+"t": "Sat 09:30",
+"game": "Bali United FC vs Bhayangkara Presisi Indonesia FC",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795854600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Carlisle United vs Sutton United",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 20:30",
+"game": "VfL 1899 Osnabruck vs Hannover 96",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795894200.0
+},
+{
+"t": "Sat 20:45",
+"game": "PSG vs Lorient",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795895100.0
+},
+{
+"t": "Sun 14:00",
+"game": "Hobro IK vs FC Fredericia",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 15:05",
+"game": "Brighton vs Newcastle",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1795961100.0
+},
+{
+"t": "Sun 15:30",
+"game": "FK Novi Pazar vs Crvena Zvezda",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795962600.0
+},
+{
+"t": "Sun 15:30",
+"game": "Freiburg vs RB Leipzig",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795962600.0
+},
+{
+"t": "Sun 16:00",
+"game": "Royal Antwerp FC vs RSC Anderlecht",
+"pick": "Over 2.5",
+"odds": 1.6,
+"ts": 1795964400.0
+},
+{
+"t": "Sun 22:00",
+"game": "CD Universidad Catolica vs Huachipato",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795986000.0
+},
+{
+"t": "Sun 22:15",
+"game": "Club Bolivar vs Always Ready",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795986900.0
+}
+]
+},
+{
 "code": "V47L8K",
 "at": 1795585290,
 "when": "Wed 25 Nov 06:41",
@@ -80027,26 +80184,6 @@
 "pick": "Over 162.5 total points",
 "odds": 1.22,
 "ts": 1794598200.0
-}
-]
-},
-{
-"code": "W5CMR2",
-"at": 1794519089,
-"when": "Thu 12 Nov 22:31",
-"kind": "live basketball",
-"odds": 1.05,
-"status": "won",
-"legs": [
-{
-"t": "Thu 21:00",
-"game": "Cestistica Citta Di San Severo vs Pelle Livorno",
-"pick": "Pelle Livorno to win (incl. OT)",
-"odds": 1.05,
-"ts": 1794513600.0,
-"r": "W",
-"sc": "71-82",
-"ht": "20-25"
 }
 ]
 }
