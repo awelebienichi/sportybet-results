@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VVQGPY",
+"at": 1795597248,
+"when": "Wed 25 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.45,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Hokkaido Consadole Sapporo vs Fujieda MYFC",
+"pick": "1st half double chance Hokkaido Consadole Sapporo or draw",
+"odds": 1.2,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 11:00",
+"game": "Mito Hollyhock vs Tokyo Verdy",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 11:00",
+"game": "FC Osaka vs Tochigi SC",
+"pick": "1st half double chance FC Osaka or draw",
+"odds": 1.23,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 13:00",
+"game": "FK Radnicki Nis vs FK Zeleznicar Pancevo",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"ts": 1795608000.0
+},
+{
+"t": "Wed 14:00",
+"game": "Maroons FC vs SC Villa",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1795611600.0
+},
+{
+"t": "Wed 16:00",
+"game": "Dinamo Tbilisi vs ACF Fiorentina",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795618800.0
+},
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 19:00",
+"game": "Ghazl El Mahallah vs Suez Petrojet",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 20:00",
+"game": "SC Pisa vs Modena FC",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 20:00",
+"game": "Mantova 1911 vs SS Arezzo",
+"pick": "1st half double chance Mantova 1911 or draw",
+"odds": 1.17,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795636800.0
+}
+]
+},
+{
 "code": "YH217A",
 "at": 1795593310,
 "when": "Wed 25 Nov 08:55",
@@ -80505,107 +80592,6 @@
 "pick": "Over 2.5",
 "odds": 1.45,
 "ts": 1794682800.0
-}
-]
-},
-{
-"code": "MH1TY7",
-"at": 1794538978,
-"when": "Fri 13 Nov 04:02",
-"kind": "1st half Over 0.5",
-"odds": 24.37,
-"status": "open",
-"legs": [
-{
-"t": "Fri 14:00",
-"game": "Mozambique vs Ethiopia",
-"pick": "1st half Over 0.5",
-"odds": 1.47,
-"ts": 1794574800.0
-},
-{
-"t": "Fri 14:00",
-"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
-"pick": "1st half Over 0.5",
-"odds": 1.32,
-"ts": 1794574800.0
-},
-{
-"t": "Fri 15:15",
-"game": "United Arab Emirates vs Honduras",
-"pick": "1st half Over 0.5",
-"odds": 1.47,
-"ts": 1794579300.0
-},
-{
-"t": "Fri 17:00",
-"game": "Cape Verde vs Liberia",
-"pick": "1st half Over 0.5",
-"odds": 1.36,
-"ts": 1794585600.0
-},
-{
-"t": "Fri 18:00",
-"game": "Moldova vs Kazakhstan",
-"pick": "1st half Over 0.5",
-"odds": 1.57,
-"ts": 1794589200.0
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"ts": 1794592800.0
-},
-{
-"t": "Fri 19:00",
-"game": "Spain vs Japan",
-"pick": "1st half Over 0.5",
-"odds": 1.25,
-"ts": 1794592800.0
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"ts": 1794596400.0
-},
-{
-"t": "Fri 20:00",
-"game": "Peterborough United U21 vs Newcastle United U21",
-"pick": "1st half Over 0.5",
-"odds": 1.16,
-"ts": 1794596400.0
-},
-{
-"t": "Fri 20:30",
-"game": "Denbigh Town vs Gresford Athletic",
-"pick": "1st half Over 0.5",
-"odds": 1.13,
-"ts": 1794598200.0
-},
-{
-"t": "Fri 20:30",
-"game": "Swansea University vs Treowen Stars",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"ts": 1794598200.0
-},
-{
-"t": "Fri 20:45",
-"game": "Serbia vs Germany",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"ts": 1794599100.0
-},
-{
-"t": "Fri 21:00",
-"game": "Grenada vs Saint Kitts and Nevis",
-"pick": "1st half Over 0.5",
-"odds": 1.22,
-"ts": 1794600000.0
 }
 ]
 }
