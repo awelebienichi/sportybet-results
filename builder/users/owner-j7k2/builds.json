@@ -1,5 +1,254 @@
 [
 {
+"when": "Wed 25 Nov 06:41",
+"at": 1795585290,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "h1bounce",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-25",
+"2026-11-26",
+"2026-11-27",
+"2026-11-28",
+"2026-11-29",
+"2026-11-30",
+"2026-12-01"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwvp2qif4u6u"
+},
+"ok": true,
+"kind": "1st half Over 0.5 bounce-back (after 3 half-time 0-0s)",
+"note": [
+"Only 15 games passed the checks (Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, Mon 30, Tue 01, 948 games on SportyBet), so this ticket has 15 legs instead of 50. Tick more days or use 'Relaxed' for more.",
+"Chance all 15 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "V47L8K",
+"odds": 74.95,
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "AC Nagano Parceiro vs Kagoshima United",
+"lg": "Japan - J3 League",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"why": "Kagoshima United: 1st-half goal in 83% of its 6 games before, then 4 half-times 0-0 in a row (bounce-back)",
+"ts": 1795600800.0,
+"eid": "sr:match:72152226",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72152226|68|total=0.5|12"
+},
+{
+"t": "Wed 17:00",
+"game": "Al-Muharraq SC vs Arkadag FK",
+"lg": "International Clubs - AFC Champions League Two",
+"pick": "1st half Over 0.5",
+"odds": 1.4,
+"why": "Arkadag FK: 1st-half goal in 80% of its 5 games before, then 5 half-times 0-0 in a row (bounce-back)",
+"ts": 1795622400.0,
+"eid": "sr:match:73835198",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73835198|68|total=0.5|12"
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"why": "Sporting: 1st-half goal in 100% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795636800.0,
+"eid": "sr:match:74166048",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74166048|68|total=0.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Gent vs Crvena Zvezda",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "1st half Over 0.5",
+"odds": 1.38,
+"why": "Crvena Zvezda: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795723200.0,
+"eid": "sr:match:74173340",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74173340|68|total=0.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"lg": "Portugal - Liga Portugal 2",
+"pick": "1st half Over 0.5",
+"odds": 1.49,
+"why": "Portimonense SC: 1st-half goal in 83% of its 6 games before, then 4 half-times 0-0 in a row (bounce-back)",
+"ts": 1795802400.0,
+"eid": "sr:match:72531690",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72531690|68|total=0.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "Levante vs Racing Santander",
+"lg": "Spain - LaLiga",
+"pick": "1st half Over 0.5",
+"odds": 1.28,
+"why": "Levante: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795809600.0,
+"eid": "sr:match:72478736",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72478736|68|total=0.5|12"
+},
+{
+"t": "Sat 13:30",
+"game": "Barry Town United FC vs Caernarfon Town FC",
+"lg": "Wales - Cymru Premier",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "Barry Town United FC: 1st-half goal in 100% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795869000.0,
+"eid": "sr:match:72522186",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72522186|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Altrincham FC vs Worthing FC",
+"lg": "England - National League",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"why": "Altrincham FC: 1st-half goal in 80% of its 5 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795878000.0,
+"eid": "sr:match:72740868",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72740868|68|total=0.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Patro Eisden Maasmechelen vs Jeugd KAA Gent B",
+"lg": "Belgium - Challenger Pro League",
+"pick": "1st half Over 0.5",
+"odds": 1.29,
+"why": "Jeugd KAA Gent B: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795878000.0,
+"eid": "sr:match:72302238",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72302238|68|total=0.5|12"
+},
+{
+"t": "Sat 16:45",
+"game": "PFC Cherno More Varna vs Botev Plovdiv",
+"lg": "Bulgaria - Parva Liga",
+"pick": "1st half Over 0.5",
+"odds": 1.45,
+"why": "PFC Cherno More Varna: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795880700.0,
+"eid": "sr:match:71998284",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "71998284|68|total=0.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"lg": "Italy - Serie A",
+"pick": "1st half Over 0.5",
+"odds": 1.41,
+"why": "Torino: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795885200.0,
+"eid": "sr:match:71945440",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "71945440|68|total=0.5|12"
+},
+{
+"t": "Sun 00:30",
+"game": "Colo-Colo vs Deportes La Serena",
+"lg": "Chile - Primera Division",
+"pick": "1st half Over 0.5",
+"odds": 1.24,
+"why": "Deportes La Serena: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795908600.0,
+"eid": "sr:match:67682122",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "67682122|68|total=0.5|12"
+},
+{
+"t": "Sun 14:30",
+"game": "Ravenna FC 1913 vs SEF Torres Sassari",
+"lg": "Italy - Serie C, Group B",
+"pick": "1st half Over 0.5",
+"odds": 1.32,
+"why": "SEF Torres Sassari: 1st-half goal in 83% of its 6 games before, then 4 half-times 0-0 in a row (bounce-back)",
+"ts": 1795959000.0,
+"eid": "sr:match:73294130",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "73294130|68|total=0.5|12"
+},
+{
+"t": "Sun 15:30",
+"game": "FK Novi Pazar vs Crvena Zvezda",
+"lg": "Serbia - Superliga",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"why": "Crvena Zvezda: 1st-half goal in 86% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795962600.0,
+"eid": "sr:match:72083162",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72083162|68|total=0.5|12"
+},
+{
+"t": "Sun 21:30",
+"game": "Porto vs Sporting",
+"lg": "Portugal - Liga Portugal",
+"pick": "1st half Over 0.5",
+"odds": 1.39,
+"why": "Sporting: 1st-half goal in 100% of its 7 games before, then 3 half-times 0-0 in a row (bounce-back)",
+"ts": 1795984200.0,
+"eid": "sr:match:72531030",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "72531030|68|total=0.5|12"
+}
+],
+"chance": 0.0064
+}
+]
+},
+{
 "when": "Wed 25 Nov 06:35",
 "at": 1795584931,
 "req": {
@@ -8315,81 +8564,6 @@
 }
 ],
 "chance": 0.001
-}
-]
-},
-{
-"when": "Mon 23 Nov 15:16",
-"at": 1795443398,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "htdrawweak",
-"legs": 5,
-"tickets": 1,
-"days": [
-"2026-11-23"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwtcme67d978"
-},
-"ok": true,
-"kind": "half-time draw \u2013 weak teams",
-"note": [
-"Only 3 games passed the checks (Mon 23, 68 games on SportyBet), so this ticket has 3 legs instead of 5. Tick more days or use 'Relaxed' for more.",
-"Chance all 3 legs win: about 7%."
-],
-"tickets": [
-{
-"code": "MCVXSV",
-"odds": 12.97,
-"legs": [
-{
-"t": "Mon 18:00",
-"game": "NK Slaven Belupo vs NK Osijek",
-"lg": "Croatia - HNL",
-"pick": "Half-time draw",
-"odds": 2.3,
-"why": "two weak sides (won 30% / 20% of last 10), level at half-time 60% / 50%",
-"ts": 1795453200.0,
-"eid": "sr:match:71913138",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "71913138|60||2"
-},
-{
-"t": "Mon 19:00",
-"game": "Orgryte IS vs Kalmar FF",
-"lg": "Sweden - Allsvenskan",
-"pick": "Half-time draw",
-"odds": 2.35,
-"why": "two weak sides (won 10% / 20% of last 10), level at half-time 70% / 60%",
-"ts": 1795456800.0,
-"eid": "sr:match:67126892",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "67126892|60||2"
-},
-{
-"t": "Mon 21:00",
-"game": "Levante vs Elche CF",
-"lg": "Spain - LaLiga",
-"pick": "Half-time draw",
-"odds": 2.4,
-"why": "two weak sides (won 20% / 30% of last 10), level at half-time 50% / 60%",
-"ts": 1795464000.0,
-"eid": "sr:match:72478714",
-"mid": "60",
-"spec": "",
-"oid": "2",
-"k": "72478714|60||2"
-}
-],
-"chance": 0.0666
 }
 ]
 }
