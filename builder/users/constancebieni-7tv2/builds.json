@@ -1,5 +1,174 @@
 [
 {
+"when": "Wed 25 Nov 15:39",
+"at": 1795617587,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mww8c8ksocqq"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 10 legs win: about 34%."
+],
+"tickets": [
+{
+"code": "PN02VK",
+"odds": 1.79,
+"legs": [
+{
+"t": "Wed 14:00",
+"game": "Kabwe Warriors vs Nkwazi",
+"lg": "Zambia - Super League",
+"pick": "Kabwe Warriors Under 2.5",
+"odds": 1.06,
+"why": "LIVE 1-1 68': Kabwe Warriors expected 0.2 and Nkwazi 0.2 more goals (last 10 + season); 1-1 at 68' \u2013 97% chance; goals record 90% / 100% in both sides' last games, h2h 75% of 8 meetings",
+"ts": 1795611600.0,
+"eid": "sr:match:74201368",
+"mid": "19",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74201368|19|total=2.5|13"
+},
+{
+"t": "Wed 14:00",
+"game": "FK Bokelj Kotor vs OFK Petrovac",
+"lg": "Montenegro - 1. CFL",
+"pick": "OFK Petrovac or draw",
+"odds": 1.03,
+"why": "LIVE 0-0 82': FK Bokelj Kotor expected 0.1 and OFK Petrovac 0.1 more goals (last 10 + season); 0-0 at 82' \u2013 91% chance; Flashscore home/away form 60%",
+"ts": 1795611600.0,
+"eid": "sr:match:76811380",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "76811380|10||11"
+},
+{
+"t": "Wed 14:00",
+"game": "Napsa Stars vs Konkola Blades",
+"lg": "Zambia - Super League",
+"pick": "Under 3.5",
+"odds": 1.05,
+"why": "LIVE 1-1 76': Napsa Stars expected 0.2 and Konkola Blades 0.3 more goals (last 10 + season); 1-1 at 76' \u2013 91% chance; Flashscore home/away form 95%, season: 2.4 goals a game, h2h 100% of 8 meetings (3.5 line)",
+"ts": 1795611600.0,
+"eid": "sr:match:74201100",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "74201100|18|total=3.5|13"
+},
+{
+"t": "Wed 14:00",
+"game": "Zanaco FC vs Nkana FC",
+"lg": "Zambia - Super League",
+"pick": "Under 2.5",
+"odds": 1.07,
+"why": "LIVE 0-1 75': Zanaco FC expected 0.2 and Nkana FC 0.3 more goals (last 10 + season); 0-1 at 75' \u2013 89% chance; Flashscore home/away form 80%, h2h 62% of 8 meetings (2.5 line)",
+"ts": 1795611600.0,
+"eid": "sr:match:74201104",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "13",
+"k": "74201104|18|total=2.5|13"
+},
+{
+"t": "Wed 14:22",
+"game": "Kema Aswan vs Suhag FC",
+"lg": "Egypt - Egypt Second Division B",
+"pick": "Under 4.5",
+"odds": 1.06,
+"why": "LIVE 1-1 55': no team stats for this game \u2013 SportyBet's own price says 89%",
+"ts": 1795612920.0,
+"eid": "sr:match:111111114668600",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "111111114668600|18|total=4.5|13"
+},
+{
+"t": "Wed 14:30",
+"game": "Audace Cerignola vs Inter Milano U23",
+"lg": "Italy - Serie C, Group C",
+"pick": "Under 4.5",
+"odds": 1.05,
+"why": "LIVE 1-0 46': Audace Cerignola expected 0.7 and Inter Milano U23 0.8 more goals (last 10 + season); 1-0 at 46' \u2013 92% chance; Flashscore home/away form 75%, FotMob: 2.8 goals a game",
+"ts": 1795613400.0,
+"eid": "sr:match:76627464",
+"mid": "18",
+"spec": "total=4.5",
+"oid": "13",
+"k": "76627464|18|total=4.5|13"
+},
+{
+"t": "Wed 14:45",
+"game": "PFC Nasaf vs AL-Khaldiya SC",
+"lg": "International Clubs - AFC Champions League Two",
+"pick": "Under 3.5",
+"odds": 1.03,
+"why": "LIVE 0-0 45': PFC Nasaf expected 0.7 and AL-Khaldiya SC 0.6 more goals (last 10); 0-0 at 45' \u2013 93% chance; FotMob: 2.4 goals a game",
+"ts": 1795614300.0,
+"eid": "sr:match:73835168",
+"mid": "18",
+"spec": "total=3.5",
+"oid": "13",
+"k": "73835168|18|total=3.5|13"
+},
+{
+"t": "Wed 15:00",
+"game": "Inter Milano vs VfB Stuttgart",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Handicap 0:1 \u2013 VfB Stuttgart",
+"odds": 1.09,
+"why": "LIVE 0-2 38': Inter Milano expected 1.3 and VfB Stuttgart 1.2 more goals (last 10); 0-2 at 38' \u2013 91% chance",
+"ts": 1795615200.0,
+"eid": "sr:match:74560714",
+"mid": "14",
+"spec": "hcp=0:1",
+"oid": "1713",
+"k": "74560714|14|hcp=0:1|1713"
+},
+{
+"t": "Wed 15:00",
+"game": "Club Brugge vs Liverpool",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Handicap 0:3 \u2013 Liverpool",
+"odds": 1.08,
+"why": "LIVE 2-2 37': Club Brugge expected 1.6 and Liverpool 1.2 more goals (last 10); 2-2 at 37' \u2013 88% chance; margin record 90% / 80% in both sides' last games",
+"ts": 1795615200.0,
+"eid": "sr:match:74560720",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "74560720|14|hcp=0:3|1713"
+},
+{
+"t": "Wed 15:00",
+"game": "LOSC Lille vs Bayern Munich",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Bayern Munich or draw",
+"odds": 1.1,
+"why": "LIVE 1-2 39': LOSC Lille expected 1.0 and Bayern Munich 1.3 more goals (last 10); 1-2 at 39' \u2013 88% chance; Flashscore home/away form 55%",
+"ts": 1795615200.0,
+"eid": "sr:match:74560716",
+"mid": "10",
+"spec": "",
+"oid": "11",
+"k": "74560716|10||11"
+}
+],
+"chance": 0.3371
+}
+]
+},
+{
 "when": "Tue 24 Nov 22:57",
 "at": 1795557460,
 "req": {
@@ -7595,203 +7764,6 @@
 }
 ],
 "chance": 0.1689
-}
-]
-},
-{
-"when": "Tue 17 Nov 20:24",
-"at": 1794943448,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 12,
-"strict": "normal",
-"rid": "mwl2z7dx3yyz"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 12 legs win: about 19% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "QB5SA0",
-"odds": 2.87,
-"legs": [
-{
-"t": "Tue 18:45",
-"game": "Ireland vs Finland",
-"lg": "International Youth - U21 UEFA European Championship, Qualification",
-"pick": "Handicap 0:3 \u2013 Finland",
-"odds": 1.15,
-"why": "LIVE 2-0 81': Ireland expected 0.1 and Finland 0.3 more goals (last 10 + season); 2-0 at 81' \u2013 89% chance; margin record 100% / 100% in both sides' last games",
-"ts": 1794937500.0,
-"eid": "sr:match:75439656",
-"mid": "14",
-"spec": "hcp=0:3",
-"oid": "1713",
-"k": "75439656|14|hcp=0:3|1713"
-},
-{
-"t": "Tue 19:00",
-"game": "Independiente Rivadavia de Mendoza Reserve vs CA Platense",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "Under 3.5",
-"odds": 1.03,
-"why": "LIVE 0-1 64': Independiente Rivadavia de Mendoza Reserve expected 0.5 and CA Platense 0.4 more goals (last 10 + season); 0-1 at 64' \u2013 92% chance; season: 2.6 goals a game",
-"ts": 1794938400.0,
-"eid": "sr:match:76792530",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76792530|18|total=3.5|13"
-},
-{
-"t": "Tue 19:00",
-"game": "Defensa Y Justicia Reserve vs CA Huracan",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "Defensa Y Justicia Reserve Under 2.5",
-"odds": 1.09,
-"why": "LIVE 1-0 65': Defensa Y Justicia Reserve expected 0.3 and CA Huracan 0.4 more goals (last 10 + season); 1-0 at 65' \u2013 94% chance; goals record 100% / 80% in both sides' last games, h2h 86% of 7 meetings",
-"ts": 1794938400.0,
-"eid": "sr:match:76792536",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76792536|19|total=2.5|13"
-},
-{
-"t": "Tue 19:00",
-"game": "Albania vs Spain",
-"lg": "International Youth - U21 Friendly Games",
-"pick": "GG \u2013 No",
-"odds": 1.07,
-"why": "LIVE 0-0 62': Albania expected 0.3 and Spain 1.0 more goals (last 10); 0-0 at 62' \u2013 88% chance",
-"ts": 1794938400.0,
-"eid": "sr:match:76419012",
-"mid": "29",
-"spec": "",
-"oid": "76",
-"k": "76419012|29||76"
-},
-{
-"t": "Tue 19:00",
-"game": "San Lorenzo de Almagro Res. vs CA Tigre Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "San Lorenzo de Almagro Res. Under 2.5",
-"odds": 1.1,
-"why": "LIVE 1-0 62': San Lorenzo de Almagro Res. expected 0.5 and CA Tigre Reserve 0.4 more goals (last 10 + season); 1-0 at 62' \u2013 91% chance; goals record 80% / 80% in both sides' last games, h2h 100% of 4 meetings",
-"ts": 1794938400.0,
-"eid": "sr:match:76792532",
-"mid": "19",
-"spec": "total=2.5",
-"oid": "13",
-"k": "76792532|19|total=2.5|13"
-},
-{
-"t": "Tue 19:00",
-"game": "Estudiantes de Rio Cuarto Reserve vs Colon de Santa Fe Reserve",
-"lg": "Argentina - Primera LPF, Reserves",
-"pick": "Under 3.5",
-"odds": 1.12,
-"why": "LIVE 1-1 68': Estudiantes de Rio Cuarto Reserve expected 0.3 and Colon de Santa Fe Reserve 0.2 more goals (last 10 + season); 1-1 at 68' \u2013 87% chance; Flashscore home/away form 95%, season: 2.0 goals a game",
-"ts": 1794938400.0,
-"eid": "sr:match:76792534",
-"mid": "18",
-"spec": "total=3.5",
-"oid": "13",
-"k": "76792534|18|total=3.5|13"
-},
-{
-"t": "Tue 19:30",
-"game": "Ipojuca FC PE vs Santa Cruz FC PE",
-"lg": "Brazil - U20 Pernambucano",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "LIVE 0-1 45': Ipojuca FC PE expected 0.7 and Santa Cruz FC PE 1.4 more goals (last 10 + season); 0-1 at 45' \u2013 83% chance; Flashscore home/away form 60%, season: 3.5 goals a game",
-"ts": 1794940200.0,
-"eid": "sr:match:76585400",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76585400|18|total=1.5|12"
-},
-{
-"t": "Tue 20:00",
-"game": "Rwanda vs Mali",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 3:0 \u2013 Rwanda",
-"odds": 1.06,
-"why": "LIVE 0-0 20': Rwanda expected 1.0 and Mali 0.9 more goals (last 10); 0-0 at 20' \u2013 95% chance; margin record 90% / 100% in both sides' last games, h2h 80% of 5 meetings",
-"ts": 1794942000.0,
-"eid": "sr:match:75802308",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "75802308|14|hcp=3:0|1711"
-},
-{
-"t": "Tue 20:00",
-"game": "Liberia vs Cape Verde",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 3:0 \u2013 Liberia",
-"odds": 1.05,
-"why": "LIVE 0-0 23': Liberia expected 1.1 and Cape Verde 1.6 more goals (last 10); 0-0 at 23' \u2013 88% chance; margin record 90% / 80% in both sides' last games, h2h 100% of 3 meetings",
-"ts": 1794942000.0,
-"eid": "sr:match:75802310",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "75802310|14|hcp=3:0|1711"
-},
-{
-"t": "Tue 20:00",
-"game": "Mauritania vs Burkina Faso",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 3:0 \u2013 Mauritania",
-"odds": 1.07,
-"why": "LIVE 0-1 22': Mauritania expected 1.0 and Burkina Faso 0.9 more goals (last 10); 0-1 at 22' \u2013 88% chance; margin record 90% / 100% in both sides' last games, h2h 100% of 6 meetings",
-"ts": 1794942000.0,
-"eid": "sr:match:75802278",
-"mid": "14",
-"spec": "hcp=3:0",
-"oid": "1711",
-"k": "75802278|14|hcp=3:0|1711"
-},
-{
-"t": "Tue 20:00",
-"game": "Botswana vs Uganda",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:2 \u2013 Uganda",
-"odds": 1.1,
-"why": "LIVE 0-0 23': Botswana expected 0.9 and Uganda 1.1 more goals (last 10); 0-0 at 23' \u2013 87% chance; h2h 100% of 5 meetings",
-"ts": 1794942000.0,
-"eid": "sr:match:75802282",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "75802282|14|hcp=0:2|1713"
-},
-{
-"t": "Tue 20:00",
-"game": "Congo vs Comoros",
-"lg": "International - Africa Cup of Nations Qualification",
-"pick": "Handicap 0:2 \u2013 Comoros",
-"odds": 1.15,
-"why": "LIVE 0-0 21': Congo expected 0.7 and Comoros 0.8 more goals (last 10); 0-0 at 21' \u2013 91% chance; margin record 100% / 80% in both sides' last games",
-"ts": 1794942000.0,
-"eid": "sr:match:75803692",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "75803692|14|hcp=0:2|1713"
-}
-],
-"chance": 0.1939
 }
 ]
 }
