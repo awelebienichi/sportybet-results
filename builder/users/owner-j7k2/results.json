@@ -1476,7 +1476,10 @@
 "game": "America PE vs Central SC PE",
 "pick": "1st half double chance America PE or draw",
 "odds": 1.29,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Wed 20:00",
@@ -1736,7 +1739,10 @@
 "game": "Mantova 1911 vs SS Arezzo",
 "pick": "1st half double chance Mantova 1911 or draw",
 "odds": 1.17,
-"ts": 1795633200.0
+"ts": 1795633200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 21:00",
