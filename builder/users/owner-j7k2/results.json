@@ -270,8 +270,8 @@
 "pick": "Over 2.5",
 "odds": 1.57,
 "ts": 1795626000.0,
-"r": "W",
-"sc": "2-1",
+"r": "L",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
@@ -1205,7 +1205,10 @@
 "game": "Qatar SC vs Al-Nasr Dubai CSC",
 "pick": "Double chance Al-Nasr Dubai CSC or draw",
 "odds": 1.25,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
