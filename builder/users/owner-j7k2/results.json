@@ -14,7 +14,10 @@
 "game": "Hokkaido Consadole Sapporo vs Fujieda MYFC",
 "pick": "1st half double chance Hokkaido Consadole Sapporo or draw",
 "odds": 1.2,
-"ts": 1795600800.0
+"ts": 1795600800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 11:00",
@@ -28,7 +31,10 @@
 "game": "FC Osaka vs Tochigi SC",
 "pick": "1st half double chance FC Osaka or draw",
 "odds": 1.23,
-"ts": 1795600800.0
+"ts": 1795600800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 13:00",
@@ -1080,14 +1086,17 @@
 "when": "Wed 25 Nov 06:41",
 "kind": "1st half Over 0.5 bounce-back (after 3 half-time 0-0s)",
 "odds": 74.95,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
 "game": "AC Nagano Parceiro vs Kagoshima United",
 "pick": "1st half Over 0.5",
 "odds": 1.39,
-"ts": 1795600800.0
+"ts": 1795600800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:00",
