@@ -7,14 +7,17 @@
 "when": "Wed 25 Nov 15:44",
 "kind": "your chosen markets",
 "odds": 48.36,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 17:00",
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -230,14 +233,17 @@
 "when": "Wed 25 Nov 15:42",
 "kind": "your chosen markets",
 "odds": 11.91,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 17:00",
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",

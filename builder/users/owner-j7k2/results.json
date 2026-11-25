@@ -83,14 +83,17 @@
 "when": "Wed 25 Nov 16:04",
 "kind": "combined VUPX7K + GPTTS7 + N57A4Y",
 "odds": 13.36,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 17:00",
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.46,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -163,14 +166,17 @@
 "when": "Wed 25 Nov 16:02",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 1490.08,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 17:00",
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 17:00",
@@ -179,7 +185,7 @@
 "odds": 1.46,
 "ts": 1795622400.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "1-1"
 },
 {
@@ -384,14 +390,17 @@
 "when": "Wed 25 Nov 16:00",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 2.06,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 17:00",
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -408,14 +417,17 @@
 "when": "Wed 25 Nov 16:00",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 8.29,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 17:00",
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -491,7 +503,7 @@
 "when": "Wed 25 Nov 15:25",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 9.49,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 16:00",
@@ -508,7 +520,10 @@
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -584,7 +599,7 @@
 "when": "Wed 25 Nov 13:14",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 18.5,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 14:00",
@@ -628,7 +643,10 @@
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 18:00",
@@ -1147,7 +1165,10 @@
 "game": "Atalanta BC U23 vs ASD Pineto Calcio",
 "pick": "1st half Under 2.5",
 "odds": 1.08,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:30",
@@ -1356,7 +1377,7 @@
 "when": "Wed 25 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -1423,7 +1444,10 @@
 "game": "FC Hradec Kralove vs Kairat Almaty",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795622400.0
+"ts": 1795622400.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:00",
