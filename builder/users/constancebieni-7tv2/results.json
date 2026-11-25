@@ -64,7 +64,10 @@
 "game": "Club Brugge vs Liverpool",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795636800.0
+"ts": 1795636800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 21:00",
@@ -292,7 +295,10 @@
 "game": "Club Brugge vs Liverpool",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795636800.0
+"ts": 1795636800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 21:00",
