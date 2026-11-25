@@ -598,7 +598,7 @@
 "when": "Wed 25 Nov 12:21",
 "kind": "rebuild of NRDSRN \u2013 tracker's best markets",
 "odds": 3021.58,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 13:00",
@@ -665,7 +665,10 @@
 "game": "RFK Akhmat Grozny vs FK Krasnodar",
 "pick": "1st half double chance RFK Akhmat Grozny or draw",
 "odds": 1.27,
-"ts": 1795618800.0
+"ts": 1795618800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 16:00",
@@ -952,7 +955,10 @@
 "game": "RFK Akhmat Grozny vs FK Krasnodar",
 "pick": "1st half Under 2.5",
 "odds": 1.1,
-"ts": 1795618800.0
+"ts": 1795618800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Wed 16:00",
