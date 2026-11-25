@@ -1195,7 +1195,10 @@
 "game": "Matebele vs Gaborone United",
 "pick": "Gaborone United to win",
 "odds": 1.4,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "L",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Wed 18:00",
@@ -1209,7 +1212,10 @@
 "game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
 "pick": "Double chance Cef Puertos de Las Palmas or draw",
 "odds": 1.56,
-"ts": 1795626000.0
+"ts": 1795626000.0,
+"r": "L",
+"sc": "3-1",
+"ht": ""
 },
 {
 "t": "Wed 18:00",
@@ -1233,7 +1239,10 @@
 "game": "Sabah Masazir vs Barcelona",
 "pick": "2nd half Over 0.5",
 "odds": 1.06,
-"ts": 1795628700.0
+"ts": 1795628700.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Wed 18:45",
@@ -1511,7 +1520,10 @@
 "game": "Ghazl El Mahallah vs Suez Petrojet",
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
-"ts": 1795629600.0
+"ts": 1795629600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Wed 20:00",
