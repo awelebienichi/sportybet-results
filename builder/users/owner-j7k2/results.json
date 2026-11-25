@@ -3202,7 +3202,10 @@
 "game": "Orlando Magic vs Detroit Pistons",
 "pick": "Over 200.5 total points",
 "odds": 1.24,
-"ts": 1795564800.0
+"ts": 1795564800.0,
+"r": "L",
+"sc": "86-104",
+"ht": "22-16"
 },
 {
 "t": "Wed 02:00",
@@ -3226,7 +3229,7 @@
 "when": "Tue 24 Nov 08:10",
 "kind": "basketball \u2013 total points",
 "odds": 5.45,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Tue 18:00",
@@ -3283,7 +3286,10 @@
 "game": "Orlando Magic vs Detroit Pistons",
 "pick": "Over 200.5 total points",
 "odds": 1.24,
-"ts": 1795564800.0
+"ts": 1795564800.0,
+"r": "L",
+"sc": "86-104",
+"ht": "22-16"
 },
 {
 "t": "Wed 02:00",
