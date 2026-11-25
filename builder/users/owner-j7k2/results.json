@@ -1100,7 +1100,10 @@
 "game": "US Cremonese vs US Avellino",
 "pick": "Goal bounds 2-5+",
 "odds": 1.32,
-"ts": 1795629600.0
+"ts": 1795629600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Wed 19:30",
