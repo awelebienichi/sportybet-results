@@ -304,7 +304,10 @@ def pick_o25quiet(G, LX):
     (Flashscore, footybets, FotMob, DFP, Vitibet, season table, CompactStats). Tested on all teams: after 3 games without Over 2.5
     the next went over 58-61% (normal 60-67%) – no bounce-back; youth & women's leagues were not tested on their own."""
     pools = [("strong youth & women's side", pick_yw_strong(G, LX)), ("Over 2.5 lowest prices", pick_goals(G, LX, "o25")),
-             ("goal-fest teams", [p for p in pick_season(G, LX, "goalfest", 200) if p["spec"] == "total=2.5"])]
+             ("goal-fest teams", [p for p in pick_season(G, LX, "goalfest", 200) if p["spec"] == "total=2.5"]),
+             # user, 25 Nov ("there are lots of games on sportybet"): every other game too – the high-scorer check below decides
+             ("high-scoring team", [dict(eid=g["eid"], mid="18", spec="total=2.5", oid="12", pick="Over 2.5", odds=g["ou"][("total=2.5", "12")], ts=g["ts"],
+                                         game=f"{g['h']} vs {g['a']}", lg=g["lg"], s=0, rate=0, why="") for g in G if ("total=2.5", "12") in g["ou"]])]
     GM = {g["eid"]: g for g in G}; out, seen = [], set()
     member = {}
     for name, P_ in pools:
