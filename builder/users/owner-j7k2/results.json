@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T5AWDJ",
+"at": 1795584472,
+"when": "Wed 25 Nov 06:27",
+"kind": "goal-fest teams (season data)",
+"odds": 7.24,
+"status": "open",
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Sigma Olomouc vs FC Banik Ostrava",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795600800.0
+},
+{
+"t": "Wed 13:00",
+"game": "Lech II Poznan vs Baltyk Koszalin",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795608000.0
+},
+{
+"t": "Wed 18:00",
+"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Americano RJ vs America FC RJ",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 23:00",
+"game": "Guerreros de Autlan vs Heroes de Zaci FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795644000.0
+}
+]
+},
+{
 "code": "N895DG",
 "at": 1795563726,
 "when": "Wed 25 Nov 00:42",
@@ -79853,103 +79905,6 @@
 "pick": "Over 2.5",
 "odds": 1.4,
 "ts": 1794675300.0
-},
-{
-"t": "Sun 10:15",
-"game": "Bohemians Prague 1905 B vs FK Kraluv Dvur",
-"pick": "Over 2.5",
-"odds": 1.28,
-"ts": 1794734100.0
-}
-]
-},
-{
-"code": "LFK3YW",
-"at": 1794515944,
-"when": "Thu 12 Nov 21:39",
-"kind": "goal-fest teams (season data)",
-"odds": 102.18,
-"status": "lost",
-"legs": [
-{
-"t": "Thu 22:00",
-"game": "CD Aguila San Miguel vs Municipal Limeno",
-"pick": "Over 2.5",
-"odds": 1.69,
-"ts": 1794517200.0,
-"r": "L",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 18:30",
-"game": "FC Viktoria Plzen B vs FK Loko Prague",
-"pick": "Over 2.5",
-"odds": 1.31,
-"ts": 1794591000.0
-},
-{
-"t": "Sat 15:00",
-"game": "K.v.v. Quick Boys vs Jong Almere City FC",
-"pick": "Over 2.5",
-"odds": 1.38,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
-"pick": "Over 2.5",
-"odds": 1.47,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:00",
-"game": "Rohda Raalte vs VV Katwijk",
-"pick": "Over 2.5",
-"odds": 1.4,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leamington FC vs Leiston FC",
-"pick": "Over 2.5",
-"odds": 1.52,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Warrington Rylands 1906 FC vs Whitby Town",
-"pick": "Over 2.5",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"pick": "Over 2.5",
-"odds": 1.5,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leatherhead FC vs St Albans City",
-"pick": "Over 2.5",
-"odds": 1.62,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 18:15",
-"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
-"pick": "Over 2.5",
-"odds": 1.57,
-"ts": 1794676500.0
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"pick": "Over 2.5",
-"odds": 1.45,
-"ts": 1794682800.0
 },
 {
 "t": "Sun 10:15",
