@@ -28,7 +28,10 @@
 "game": "GNK Dinamo Zagreb vs SL Benfica",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1795608000.0
+"ts": 1795608000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 14:00",
@@ -297,7 +300,10 @@
 "game": "GNK Dinamo Zagreb vs SL Benfica",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1795608000.0
+"ts": 1795608000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Wed 14:00",
