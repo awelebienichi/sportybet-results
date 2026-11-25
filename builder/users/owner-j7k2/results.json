@@ -878,7 +878,10 @@
 "game": "Lech II Poznan vs Baltyk Koszalin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795608000.0
+"ts": 1795608000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 13:00",
@@ -1081,7 +1084,10 @@
 "game": "Lech II Poznan vs Baltyk Koszalin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795608000.0
+"ts": 1795608000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 13:00",
@@ -2180,7 +2186,7 @@
 "when": "Wed 25 Nov 06:27",
 "kind": "goal-fest teams (season data)",
 "odds": 7.24,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -2197,7 +2203,10 @@
 "game": "Lech II Poznan vs Baltyk Koszalin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795608000.0
+"ts": 1795608000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 18:00",
@@ -2419,7 +2428,7 @@
 "when": "Tue 24 Nov 21:02",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 8.68,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Wed 01:30",
@@ -2476,7 +2485,10 @@
 "game": "Lech II Poznan vs Baltyk Koszalin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795608000.0
+"ts": 1795608000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 13:00",
