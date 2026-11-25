@@ -2,6 +2,170 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KSMZBB",
+"at": 1795618929,
+"when": "Wed 25 Nov 16:02",
+"kind": "Over 2.5 (lowest prices first)",
+"odds": 1490.08,
+"status": "open",
+"legs": [
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 17:00",
+"game": "HJK Helsinki vs Stabaek IF",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 17:00",
+"game": "Kuwait SC vs Al Wahda FC (UAE)",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 17:00",
+"game": "AL Faisaly (Jor) vs Al Rayyan SC",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 17:00",
+"game": "Qadsia SC vs Al-Fahaheel",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 17:30",
+"game": "Al-Khor SC vs AL Shamal Future",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795624200.0
+},
+{
+"t": "Wed 18:00",
+"game": "Bravo Ljubljana vs NK Odranci",
+"pick": "Over 2.5",
+"odds": 1.09,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 18:00",
+"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 18:00",
+"game": "TSG Hoffenheim vs PAOK Thessaloniki",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 18:00",
+"game": "Qatar SC vs Al-Nasr Dubai CSC",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 18:45",
+"game": "Sabah Masazir vs Barcelona",
+"pick": "Over 2.5",
+"odds": 1.13,
+"ts": 1795628700.0
+},
+{
+"t": "Wed 18:45",
+"game": "Slavia Prague vs Villarreal",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795628700.0
+},
+{
+"t": "Wed 19:00",
+"game": "Sporting de Huelva vs FC Badalona Women",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 19:00",
+"game": "Americano RJ vs America FC RJ",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 20:00",
+"game": "Boreham Wood FC vs Aldershot Town FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 20:00",
+"game": "Rangers vs AZ Alkmaar",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 21:00",
+"game": "Atletico Madrid vs Viking FK",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "Inter vs Stuttgart",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 23:00",
+"game": "Guerreros de Autlan vs Heroes de Zaci FC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795644000.0
+}
+]
+},
+{
 "code": "PL5P25",
 "at": 1795618889,
 "when": "Wed 25 Nov 16:01",
@@ -80991,26 +81155,6 @@
 "r": "W",
 "sc": "2-1",
 "ht": ""
-}
-]
-},
-{
-"code": "H02MAR",
-"at": 1794541115,
-"when": "Fri 13 Nov 04:38",
-"kind": "live \u2013 best of all",
-"odds": 1.12,
-"status": "won",
-"legs": [
-{
-"t": "Fri 03:00",
-"game": "Atletico Morelia vs Leones Negros UDEG",
-"pick": "Atletico Morelia or Leones Negros UDEG",
-"odds": 1.12,
-"ts": 1794535200.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
 }
 ]
 }
