@@ -3212,7 +3212,10 @@
 "game": "Washington Wizards vs Boston Celtics",
 "pick": "Under 230.5 total points",
 "odds": 1.25,
-"ts": 1795568400.0
+"ts": 1795568400.0,
+"r": "L",
+"sc": "116-131",
+"ht": "28-34"
 },
 {
 "t": "Wed 04:00",
@@ -3296,7 +3299,10 @@
 "game": "Washington Wizards vs Boston Celtics",
 "pick": "Under 230.5 total points",
 "odds": 1.25,
-"ts": 1795568400.0
+"ts": 1795568400.0,
+"r": "L",
+"sc": "116-131",
+"ht": "28-34"
 },
 {
 "t": "Wed 04:00",
