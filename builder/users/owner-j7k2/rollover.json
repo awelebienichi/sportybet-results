@@ -71,12 +71,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-24",
-"code": "HPFG48",
-"odds": 4.16,
+"date": "2026-11-25",
+"code": "VVQGPY",
+"odds": 4.45,
 "stake": 1000.0,
 "n": 11,
-"result": "lost"
+"result": null
 },
 "started": "2026-11-24",
 "short": "lower",

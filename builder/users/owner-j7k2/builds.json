@@ -1,5 +1,182 @@
 [
 {
+"when": "Wed 25 Nov 10:00",
+"at": 1795597248,
+"req": {
+"type": "rollover",
+"legs": 11,
+"rid": null
+},
+"ok": true,
+"kind": "daily rollover \u2013 day 1",
+"note": [
+"Stake \u20a61,000 \u2192 returns \u20a64,450 if it wins"
+],
+"tickets": [
+{
+"code": "VVQGPY",
+"odds": 4.45,
+"legs": [
+{
+"t": "Wed 11:00",
+"game": "Hokkaido Consadole Sapporo vs Fujieda MYFC",
+"lg": "Japan - J2 League",
+"pick": "1st half double chance Hokkaido Consadole Sapporo or draw",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10 and 4 meetings (1st-half rollover)",
+"ts": 1795600800.0,
+"eid": "sr:match:72151386",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72151386|63||9"
+},
+{
+"t": "Wed 11:00",
+"game": "Mito Hollyhock vs Tokyo Verdy",
+"lg": "Japan - J1 League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.11,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795600800.0,
+"eid": "sr:match:72149894",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "72149894|75||76"
+},
+{
+"t": "Wed 11:00",
+"game": "FC Osaka vs Tochigi SC",
+"lg": "Japan - J3 League",
+"pick": "1st half double chance FC Osaka or draw",
+"odds": 1.23,
+"why": "stats rate 90% from both teams' last 10 (1st-half rollover)",
+"ts": 1795600800.0,
+"eid": "sr:match:72152232",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72152232|63||9"
+},
+{
+"t": "Wed 13:00",
+"game": "FK Radnicki Nis vs FK Zeleznicar Pancevo",
+"lg": "Serbia - Superliga",
+"pick": "1st half Under 2.5",
+"odds": 1.07,
+"why": "stats rate 95% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795608000.0,
+"eid": "sr:match:76371322",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "76371322|68|total=2.5|13"
+},
+{
+"t": "Wed 14:00",
+"game": "Maroons FC vs SC Villa",
+"lg": "Uganda - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"why": "stats rate 100% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795611600.0,
+"eid": "sr:match:73961762",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73961762|75||76"
+},
+{
+"t": "Wed 16:00",
+"game": "Dinamo Tbilisi vs ACF Fiorentina",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "stats rate 95% from both teams' last 10; Flashscore home/away form 95% (1st-half rollover)",
+"ts": 1795618800.0,
+"eid": "sr:match:76573532",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76573532|18|total=1.5|12"
+},
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"lg": "International Youth - UEFA Youth League",
+"pick": "Over 1.5",
+"odds": 1.14,
+"why": "stats rate 100% from both teams' last 10; Flashscore home/away form 95% (1st-half rollover)",
+"ts": 1795622400.0,
+"eid": "sr:match:76573536",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "76573536|18|total=1.5|12"
+},
+{
+"t": "Wed 19:00",
+"game": "Ghazl El Mahallah vs Suez Petrojet",
+"lg": "Egypt - Premier League",
+"pick": "1st half GG \u2013 No",
+"odds": 1.13,
+"why": "stats rate 94% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795629600.0,
+"eid": "sr:match:73463734",
+"mid": "75",
+"spec": "",
+"oid": "76",
+"k": "73463734|75||76"
+},
+{
+"t": "Wed 20:00",
+"game": "SC Pisa vs Modena FC",
+"lg": "Italy - Serie B",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795633200.0,
+"eid": "sr:match:73093156",
+"mid": "68",
+"spec": "total=2.5",
+"oid": "13",
+"k": "73093156|68|total=2.5|13"
+},
+{
+"t": "Wed 20:00",
+"game": "Mantova 1911 vs SS Arezzo",
+"lg": "Italy - Serie B",
+"pick": "1st half double chance Mantova 1911 or draw",
+"odds": 1.17,
+"why": "stats rate 85% from both teams' last 10 and 8 meetings (1st-half rollover)",
+"ts": 1795633200.0,
+"eid": "sr:match:73093150",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "73093150|63||9"
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"lg": "International Clubs - UEFA Champions League",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"why": "stats rate 95% from both teams' last 10 (1st-half rollover)",
+"ts": 1795636800.0,
+"eid": "sr:match:74166038",
+"mid": "68",
+"spec": "total=0.5",
+"oid": "12",
+"k": "74166038|68|total=0.5|12"
+}
+],
+"chance": 0.1313
+}
+]
+},
+{
 "when": "Wed 25 Nov 08:55",
 "at": 1795593310,
 "req": {
@@ -8551,249 +8728,6 @@
 }
 ],
 "chance": 0.0897
-}
-]
-},
-{
-"when": "Tue 24 Nov 08:11",
-"at": 1795504281,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "bball",
-"kind": "total",
-"legs": 25,
-"days": [
-"2026-11-24",
-"2026-11-25"
-],
-"strict": "relaxed",
-"rid": "mwucvsjg86cg"
-},
-"ok": true,
-"kind": "basketball \u2013 total points",
-"note": [
-"Only 15 basketball games passed the checks (Tue 24, Wed 25, 51 judged), so the ticket has 15 legs.",
-"Relaxed: in testing about 80 in 100 such legs came true.",
-"Chance all 15 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "UE4UG3",
-"odds": 57.32,
-"legs": [
-{
-"t": "Tue 12:30",
-"game": "Dalian Wenti vs Hefei",
-"lg": "China - WCBA",
-"pick": "Over 147.5 total points",
-"odds": 1.42,
-"why": "expected Dalian Wenti 82 \u2013 Hefei 80 (last 10/10 games, home edge included); 80% by the stats, 73% with the price; h2h 75% of 4 meetings",
-"ts": 1795519800.0,
-"eid": "sr:match:76692544",
-"mid": "225",
-"spec": "total=147.5",
-"oid": "12",
-"k": "76692544|225|total=147.5|12"
-},
-{
-"t": "Tue 17:00",
-"game": "BC Zalgiris Kaunas II vs BC Telsiai",
-"lg": "Lithuania - NKL",
-"pick": "Under 186.5 total points",
-"odds": 1.4,
-"why": "expected BC Zalgiris Kaunas II 82 \u2013 BC Telsiai 92 (last 10/10 games, home edge included); 76% by the stats, 71% with the price; h2h 88% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1795536000.0,
-"eid": "sr:match:76806632",
-"mid": "225",
-"spec": "total=186.5",
-"oid": "13",
-"k": "76806632|225|total=186.5|13"
-},
-{
-"t": "Tue 17:45",
-"game": "Elitzur Shomron Hlp vs Hapoel Migdal Haemek Jezreel",
-"lg": "Israel - National League",
-"pick": "Over 157.5 total points",
-"odds": 1.4,
-"why": "expected Elitzur Shomron Hlp 89 \u2013 Hapoel Migdal Haemek Jezreel 80 (last 10/10 games, home edge included); 75% by the stats, 71% with the price; h2h 80% of 5 meetings, Flashscore home/away form 80%",
-"ts": 1795538700.0,
-"eid": "sr:match:75019252",
-"mid": "225",
-"spec": "total=157.5",
-"oid": "12",
-"k": "75019252|225|total=157.5|12"
-},
-{
-"t": "Tue 18:00",
-"game": "Besiktas JK vs Paris Basketball",
-"lg": "International - Euroleague",
-"pick": "Under 197.5 total points",
-"odds": 1.24,
-"why": "expected Besiktas JK 90 \u2013 Paris Basketball 91 (last 10/10 games, home edge included); 81% by the stats, 79% with the price; Flashscore home/away form 95%",
-"ts": 1795539600.0,
-"eid": "sr:match:73263198",
-"mid": "225",
-"spec": "total=197.5",
-"oid": "13",
-"k": "73263198|225|total=197.5|13"
-},
-{
-"t": "Tue 18:30",
-"game": "Northern Colorado Bears vs SE Louisiana Lions",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Over 138.5 total points",
-"odds": 1.43,
-"why": "expected Northern Colorado Bears 84 \u2013 SE Louisiana Lions 68 (last 10/10 games, home edge included); 78% by the stats, 72% with the price; Flashscore home/away form 75%",
-"ts": 1795541400.0,
-"eid": "sr:match:74068306",
-"mid": "225",
-"spec": "total=138.5",
-"oid": "12",
-"k": "74068306|225|total=138.5|12"
-},
-{
-"t": "Tue 19:00",
-"game": "KK Crvena zvezda Belgrade vs Virtus Bologna",
-"lg": "International - Euroleague",
-"pick": "Over 159.5 total points",
-"odds": 1.22,
-"why": "expected KK Crvena zvezda Belgrade 95 \u2013 Virtus Bologna 87 (last 10/10 games, home edge included); 90% by the stats, 84% with the price",
-"ts": 1795543200.0,
-"eid": "sr:match:73263200",
-"mid": "225",
-"spec": "total=159.5",
-"oid": "12",
-"k": "73263200|225|total=159.5|12"
-},
-{
-"t": "Tue 19:00",
-"game": "FIU Panthers vs Southern Utah Thunderbirds",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Under 174.5 total points",
-"odds": 1.42,
-"why": "expected FIU Panthers 83 \u2013 Southern Utah Thunderbirds 79 (last 10/10 games, home edge included, FIU Panthers on 2nd game in 2 days, Southern Utah Thunderbirds on 2nd game in 2 days); 76% by the stats, 71% with the price",
-"ts": 1795543200.0,
-"eid": "sr:match:75211168",
-"mid": "225",
-"spec": "total=174.5",
-"oid": "13",
-"k": "75211168|225|total=174.5|13"
-},
-{
-"t": "Tue 20:00",
-"game": "Bayern Munich vs Maccabi Tel-Aviv",
-"lg": "International - Euroleague",
-"pick": "Under 192.5 total points",
-"odds": 1.26,
-"why": "expected Bayern Munich 90 \u2013 Maccabi Tel-Aviv 82 (last 10/10 games, home edge included); 87% by the stats, 81% with the price; h2h 75% of 8 meetings, Flashscore home/away form 90%",
-"ts": 1795546800.0,
-"eid": "sr:match:73263202",
-"mid": "225",
-"spec": "total=192.5",
-"oid": "13",
-"k": "73263202|225|total=192.5|13"
-},
-{
-"t": "Tue 20:30",
-"game": "Valencia Basket vs Panathinaikos BC",
-"lg": "International - Euroleague",
-"pick": "Over 162.5 total points",
-"odds": 1.22,
-"why": "expected Valencia Basket 92 \u2013 Panathinaikos BC 84 (last 10/10 games, home edge included); 78% by the stats, 78% with the price; h2h 75% of 8 meetings, Flashscore home/away form 70%",
-"ts": 1795548600.0,
-"eid": "sr:match:73263204",
-"mid": "225",
-"spec": "total=162.5",
-"oid": "12",
-"k": "73263204|225|total=162.5|12"
-},
-{
-"t": "Tue 20:30",
-"game": "Ole Miss Rebels vs BYU Cougars",
-"lg": "USA - NCAA, Regular Season",
-"pick": "Under 167.5 total points",
-"odds": 1.43,
-"why": "expected Ole Miss Rebels 79 \u2013 BYU Cougars 73 (last 10/10 games, home edge included, Ole Miss Rebels on 2nd game in 2 days, BYU Cougars on 2nd game in 2 days); 82% by the stats, 74% with the price",
-"ts": 1795548600.0,
-"eid": "sr:match:77119644",
-"mid": "225",
-"spec": "total=167.5",
-"oid": "13",
-"k": "77119644|225|total=167.5|13"
-},
-{
-"t": "Tue 20:45",
-"game": "ASVEL Lyon-Villeurbanne vs Olimpia Milano",
-"lg": "International - Euroleague",
-"pick": "Under 186.5 total points",
-"odds": 1.26,
-"why": "expected ASVEL Lyon-Villeurbanne 87 \u2013 Olimpia Milano 90 (last 10/10 games, home edge included); 72% by the stats, 73% with the price; h2h 100% of 8 meetings, Flashscore home/away form 80%",
-"ts": 1795549500.0,
-"eid": "sr:match:73263206",
-"mid": "225",
-"spec": "total=186.5",
-"oid": "13",
-"k": "73263206|225|total=186.5|13"
-},
-{
-"t": "Tue 21:00",
-"game": "FC Barcelona vs Fenerbahce Istanbul",
-"lg": "International - Euroleague",
-"pick": "Over 157.5 total points",
-"odds": 1.22,
-"why": "expected FC Barcelona 89 \u2013 Fenerbahce Istanbul 87 (last 10/10 games, home edge included); 84% by the stats, 81% with the price; Flashscore home/away form 85%",
-"ts": 1795550400.0,
-"eid": "sr:match:73263208",
-"mid": "225",
-"spec": "total=157.5",
-"oid": "12",
-"k": "73263208|225|total=157.5|12"
-},
-{
-"t": "Wed 01:00",
-"game": "Orlando Magic vs Detroit Pistons",
-"lg": "USA - NBA",
-"pick": "Over 200.5 total points",
-"odds": 1.24,
-"why": "expected Orlando Magic 113 \u2013 Detroit Pistons 110 (last 10/10 games, home edge included); 90% by the stats, 83% with the price; Flashscore home/away form 75%, NBA ratings say 220 points",
-"ts": 1795564800.0,
-"eid": "sr:match:73697014",
-"mid": "225",
-"spec": "total=200.5",
-"oid": "12",
-"k": "73697014|225|total=200.5|12"
-},
-{
-"t": "Wed 02:00",
-"game": "Washington Wizards vs Boston Celtics",
-"lg": "USA - NBA",
-"pick": "Under 230.5 total points",
-"odds": 1.25,
-"why": "expected Washington Wizards 106 \u2013 Boston Celtics 110 (last 10/10 games, home edge included); 79% by the stats, 77% with the price; OddsShark O/U records 63% (WAS 7-11, BOS 6-11), Flashscore home/away form 70%, NBA ratings say 218 points",
-"ts": 1795568400.0,
-"eid": "sr:match:73697016",
-"mid": "225",
-"spec": "total=230.5",
-"oid": "13",
-"k": "73697016|225|total=230.5|13"
-},
-{
-"t": "Wed 04:00",
-"game": "Denver Nuggets vs Dallas Mavericks",
-"lg": "USA - NBA",
-"pick": "Under 244.5 total points",
-"odds": 1.28,
-"why": "expected Denver Nuggets 118 \u2013 Dallas Mavericks 113 (last 10/10 games, home edge included); 77% by the stats, 75% with the price; Flashscore home/away form 75%, NBA ratings say 227 points",
-"ts": 1795575600.0,
-"eid": "sr:match:73697018",
-"mid": "225",
-"spec": "total=244.5",
-"oid": "13",
-"k": "73697018|225|total=244.5|13"
-}
-],
-"chance": 0.0084
 }
 ]
 }
