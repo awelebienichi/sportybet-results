@@ -2,6 +2,135 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "R6M5JC",
+"at": 1795588331,
+"when": "Wed 25 Nov 07:32",
+"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
+"odds": 2902.69,
+"status": "open",
+"legs": [
+{
+"t": "Wed 10:30",
+"game": "FC Samgurali Tskaltubo vs FC Torpedo Kutaisi",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795599000.0
+},
+{
+"t": "Wed 11:00",
+"game": "Kirovets-Voskhozhdeniye Youth vs FK Nizhny Novgorod",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795600800.0
+},
+{
+"t": "Thu 15:00",
+"game": "FC Orenburg vs FK Spartak Moscow",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795701600.0
+},
+{
+"t": "Thu 15:00",
+"game": "FK Ural Yekaterinburg vs PFK Arsenal Tula",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1795701600.0
+},
+{
+"t": "Thu 21:00",
+"game": "Freiburg vs FC Twente Enschede",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795723200.0
+},
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795802400.0
+},
+{
+"t": "Sat 00:00",
+"game": "CD Antofagasta vs Deportes Copiapo",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 17:00",
+"game": "FK Austria Wien vs Wolfsberger AC",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "Gaziantep FK vs Amed Sportif Faaliyetler",
+"pick": "Over 2.5",
+"odds": 1.69,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 19:15",
+"game": "Beitar Jerusalem FC vs Hapoel Jerusalem FC",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795889700.0
+},
+{
+"t": "Sat 20:30",
+"game": "VfL 1899 Osnabruck vs Hannover 96",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795894200.0
+},
+{
+"t": "Sun 14:00",
+"game": "Hobro IK vs FC Fredericia",
+"pick": "Over 2.5",
+"odds": 1.53,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 14:00",
+"game": "Granada vs AD Ceuta",
+"pick": "Over 2.5",
+"odds": 1.69,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 15:00",
+"game": "Modena FC vs Calcio Padova",
+"pick": "Over 2.5",
+"odds": 1.7,
+"ts": 1795960800.0
+},
+{
+"t": "Sun 15:30",
+"game": "Freiburg vs RB Leipzig",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795962600.0
+},
+{
+"t": "Sun 16:00",
+"game": "Royal Antwerp FC vs RSC Anderlecht",
+"pick": "Over 2.5",
+"odds": 1.6,
+"ts": 1795964400.0
+},
+{
+"t": "Sun 17:00",
+"game": "Puszcza Niepolomice vs FKS Stal Mielec",
+"pick": "Over 2.5",
+"odds": 1.68,
+"ts": 1795968000.0
+}
+]
+},
+{
 "code": "R7US8H",
 "at": 1795588269,
 "when": "Wed 25 Nov 07:31",
@@ -80225,23 +80354,6 @@
 "pick": "Over 2.5",
 "odds": 1.79,
 "ts": 1794605400.0
-}
-]
-},
-{
-"code": "X2L2KY",
-"at": 1794538171,
-"when": "Fri 13 Nov 03:49",
-"kind": "live \u2013 best of all",
-"odds": 1.04,
-"status": "open",
-"legs": [
-{
-"t": "Fri 02:45",
-"game": "Sonio Takamatsu vs Blancdieu Hirosaki",
-"pick": "Blancdieu Hirosaki to win",
-"odds": 1.04,
-"ts": 1794534300.0
 }
 ]
 }
