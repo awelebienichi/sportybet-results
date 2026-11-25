@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "T3GMBN",
+"at": 1795619096,
+"when": "Wed 25 Nov 16:04",
+"kind": "combined VUPX7K + GPTTS7 + N57A4Y",
+"odds": 13.36,
+"status": "open",
+"legs": [
+{
+"t": "Wed 17:00",
+"game": "FC Hradec Kralove vs Kairat Almaty",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.46,
+"ts": 1795622400.0
+},
+{
+"t": "Wed 18:00",
+"game": "TSG Hoffenheim vs PAOK Thessaloniki",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 18:00",
+"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795626000.0
+},
+{
+"t": "Wed 19:00",
+"game": "Americano RJ vs America FC RJ",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.59,
+"ts": 1795629600.0
+},
+{
+"t": "Wed 20:00",
+"game": "RBC Roosendaal vs VV Gemert",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795633200.0
+},
+{
+"t": "Wed 20:45",
+"game": "Hartlepool United vs Solihull Moors FC",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.2,
+"ts": 1795635900.0
+},
+{
+"t": "Wed 21:00",
+"game": "Club Brugge vs Liverpool",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.09,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "PSG vs Roma",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.09,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 21:00",
+"game": "Sporting vs Man Utd",
+"pick": "Over/Under \u2013 Over 1.5",
+"odds": 1.15,
+"ts": 1795636800.0
+},
+{
+"t": "Wed 23:00",
+"game": "Guerreros de Autlan vs Heroes de Zaci FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.27,
+"ts": 1795644000.0
+}
+]
+},
+{
 "code": "KSMZBB",
 "at": 1795618929,
 "when": "Wed 25 Nov 16:02",
@@ -81135,26 +81215,6 @@
 "r": "W",
 "sc": "7-1",
 "ht": "1-0"
-}
-]
-},
-{
-"code": "P1NSWW",
-"at": 1794546422,
-"when": "Fri 13 Nov 06:07",
-"kind": "live \u2013 best of all",
-"odds": 1.06,
-"status": "won",
-"legs": [
-{
-"t": "Fri 04:30",
-"game": "FC Real Bengaluru vs Bangalore Dream United FC",
-"pick": "FC Real Bengaluru to win",
-"odds": 1.06,
-"ts": 1794540600.0,
-"r": "W",
-"sc": "2-1",
-"ht": ""
 }
 ]
 }
