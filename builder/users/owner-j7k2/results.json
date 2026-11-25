@@ -646,7 +646,10 @@
 "game": "Kashima Antlers vs Jeonbuk FC",
 "pick": "Over 1.5",
 "odds": 1.21,
-"ts": 1795600800.0
+"ts": 1795600800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 13:00",
@@ -2011,7 +2014,10 @@
 "game": "Kashima Antlers vs Jeonbuk FC",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1795600800.0
+"ts": 1795600800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Wed 13:00",
