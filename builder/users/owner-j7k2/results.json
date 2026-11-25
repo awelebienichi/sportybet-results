@@ -710,7 +710,7 @@
 "when": "Wed 25 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.45,
-"status": "lost",
+"status": "open",
 "legs": [
 {
 "t": "Wed 11:00",
@@ -758,9 +758,9 @@
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
 "ts": 1795611600.0,
-"r": "L",
-"sc": "1-1",
-"ht": ""
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Wed 16:00",
