@@ -1,5 +1,143 @@
 [
 {
+"when": "Wed 25 Nov 07:21",
+"at": 1795587708,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25quiet",
+"legs": 50,
+"tickets": 1,
+"days": [
+"2026-11-25",
+"2026-11-26",
+"2026-11-27",
+"2026-11-28",
+"2026-11-29",
+"2026-11-30",
+"2026-12-01"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwvqivhaxb0w"
+},
+"ok": true,
+"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
+"note": [
+"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Only 7 games passed the checks (Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, Mon 30, Tue 01, 960 games on SportyBet), so this ticket has 7 legs instead of 50. Tick more days or use 'Relaxed' for more.",
+"Chance all 7 legs win: about 3%."
+],
+"tickets": [
+{
+"code": "MWMWTQ",
+"odds": 21.57,
+"legs": [
+{
+"t": "Wed 10:30",
+"game": "FC Samgurali Tskaltubo vs FC Torpedo Kutaisi",
+"lg": "Georgia - Erovnuli Liga",
+"pick": "Over 2.5",
+"odds": 1.57,
+"why": "Over 2.5 lowest prices; FC Samgurali Tskaltubo: Over 2.5 in 6/7 games before, then none in its last 3 (0-1 0-2 0-0); Over 2.5 at 1.57: SportyBet's own price gives 60%, 75% of 8 meetings; teams' last 10 60% / 60%; Flashscore home/away form 60%",
+"ts": 1795599000.0,
+"eid": "sr:match:67912896",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "67912896|18|total=2.5|12"
+},
+{
+"t": "Thu 21:00",
+"game": "Freiburg vs FC Twente Enschede",
+"lg": "International Clubs - UEFA Conference League",
+"pick": "Over 2.5",
+"odds": 1.55,
+"why": "Over 2.5 lowest prices; Freiburg: Over 2.5 in 7/7 games before, then none in its last 3 (1-0 2-0 1-0); Over 2.5 at 1.55: SportyBet's own price gives 61%; teams' last 10 70% / 70%; Flashscore home/away form 80%, footybets 87%, CompactStats 63% (bookmaker 62%)",
+"ts": 1795723200.0,
+"eid": "sr:match:74173346",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74173346|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"lg": "Denmark - Superliga",
+"pick": "Over 2.5",
+"odds": 1.59,
+"why": "Over 2.5 lowest prices + goal-fest teams; Broendby IF: Over 2.5 in 6/7 games before, then none in its last 3 (0-2 0-1 2-0); Over 2.5 at 1.59: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 80% / 60%",
+"ts": 1795802400.0,
+"eid": "sr:match:71925118",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71925118|18|total=2.5|12"
+},
+{
+"t": "Sat 20:30",
+"game": "VfL 1899 Osnabruck vs Hannover 96",
+"lg": "Germany - 2. Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "Over 2.5 lowest prices; VfL 1899 Osnabruck: Over 2.5 in 5/7 games before, then none in its last 3 (0-0 0-1 0-2); Over 2.5 at 1.56: SportyBet's own price gives 60%, 50% of 8 meetings; teams' last 10 50% / 60%",
+"ts": 1795894200.0,
+"eid": "sr:match:72514012",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72514012|18|total=2.5|12"
+},
+{
+"t": "Sun 14:00",
+"game": "Hobro IK vs FC Fredericia",
+"lg": "Denmark - 1. Division",
+"pick": "Over 2.5",
+"odds": 1.53,
+"why": "Over 2.5 lowest prices; Hobro IK: Over 2.5 in 5/7 games before, then none in its last 3 (1-1 0-1 1-1); Over 2.5 at 1.53: SportyBet's own price gives 62%, 50% of 8 meetings; teams' last 10 50% / 60%",
+"ts": 1795957200.0,
+"eid": "sr:match:72044420",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044420|18|total=2.5|12"
+},
+{
+"t": "Sun 15:30",
+"game": "Freiburg vs RB Leipzig",
+"lg": "Germany - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.46,
+"why": "Over 2.5 lowest prices + goal-fest teams; Freiburg: Over 2.5 in 7/7 games before, then none in its last 3 (1-0 2-0 1-0); Over 2.5 at 1.46: SportyBet's own price gives 65%, 62% of 8 meetings; teams' last 10 70% / 80%; FotMob: 3.8 goals a game, season: 3.8 goals a game, CompactStats 67% (bookmaker 65%)",
+"ts": 1795962600.0,
+"eid": "sr:match:72513334",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72513334|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Royal Antwerp FC vs RSC Anderlecht",
+"lg": "Belgium - Pro League",
+"pick": "Over 2.5",
+"odds": 1.6,
+"why": "Over 2.5 lowest prices; RSC Anderlecht: Over 2.5 in 6/7 games before, then none in its last 3 (1-0 1-1 2-0); Over 2.5 at 1.60: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 70% / 60%",
+"ts": 1795964400.0,
+"eid": "sr:match:72366476",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72366476|18|total=2.5|12"
+}
+],
+"chance": 0.0329
+}
+]
+},
+{
 "when": "Wed 25 Nov 07:10",
 "at": 1795587053,
 "req": {
@@ -8418,227 +8556,6 @@
 }
 ],
 "chance": 0.0011
-}
-]
-},
-{
-"when": "Tue 24 Nov 05:50",
-"at": 1795495849,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "gfbounce",
-"legs": 30,
-"tickets": 1,
-"days": [
-"2026-11-24",
-"2026-11-25",
-"2026-11-26",
-"2026-11-27",
-"2026-11-28",
-"2026-11-29",
-"2026-11-30"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwu7v03ne2gl"
-},
-"ok": true,
-"kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
-"note": [
-"Only 13 games passed the checks (Tue 24, Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, Mon 30, 864 games on SportyBet), so this ticket has 13 legs instead of 30. Tick more days or use 'Relaxed' for more.",
-"Chance all 13 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "KETA1V",
-"odds": 136.85,
-"legs": [
-{
-"t": "Tue 15:25",
-"game": "AL Ettifaq U21 vs AL Nassr",
-"lg": "Saudi Arabia - U21 Elite League",
-"pick": "Over 2.5",
-"odds": 1.47,
-"why": "season: 4.8 and 3.0 goals a game; last games AL Ettifaq U21 0-2, AL Nassr 1-1 (bounce-back); last 10 rate 75%; season: 3.9 goals a game",
-"ts": 1795530300.0,
-"eid": "sr:match:73326526",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73326526|18|total=2.5|12"
-},
-{
-"t": "Tue 20:45",
-"game": "Holywell Town vs Pen-y-Bont FC",
-"lg": "Wales - Cymru Premier",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "season: 4.3 and 2.8 goals a game; last games Holywell Town 0-1, Pen-y-Bont FC 2-0 (bounce-back); last 10 rate 70%; Flashscore home/away form 75%, FotMob: 3.6 goals a game, Vitibet tip 1-3",
-"ts": 1795549500.0,
-"eid": "sr:match:76793576",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76793576|18|total=2.5|12"
-},
-{
-"t": "Sat 13:30",
-"game": "Barry Town United FC vs Caernarfon Town FC",
-"lg": "Wales - Cymru Premier",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "season: 3.9 and 3.8 goals a game; last games Barry Town United FC 1-1, Caernarfon Town FC 1-0 (bounce-back); last 10 rate 70%; FotMob: 3.8 goals a game, season: 3.8 goals a game",
-"ts": 1795869000.0,
-"eid": "sr:match:72522186",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72522186|18|total=2.5|12"
-},
-{
-"t": "Sat 16:00",
-"game": "KVC Westerlo vs RAAL La Louviere",
-"lg": "Belgium - Pro League",
-"pick": "Over 2.5",
-"odds": 1.63,
-"why": "season: 4.8 and 3.3 goals a game; last games KVC Westerlo 0-1, RAAL La Louviere 0-3 (bounce-back); last 10 rate 75%; footybets 86%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795878000.0,
-"eid": "sr:match:72366486",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72366486|18|total=2.5|12"
-},
-{
-"t": "Sat 16:30",
-"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
-"lg": "Germany - 3. Liga",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "season: 3.3 and 3.8 goals a game; last games SG Sonnenhof Grossaspach 1-3, MSV Duisburg 2-0 (bounce-back); last 10 rate 80%; FotMob: 3.5 goals a game",
-"ts": 1795879800.0,
-"eid": "sr:match:72680326",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72680326|18|total=2.5|12"
-},
-{
-"t": "Sat 17:30",
-"game": "Blau-Weiss Linz vs SK Sturm Graz II",
-"lg": "Austria - 2. Liga",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 3.7 and 3.7 goals a game; last games Blau-Weiss Linz 6-1, SK Sturm Graz II 1-1 (bounce-back); last 10 rate 70%; footybets 88%, FotMob: 3.7 goals a game, Vitibet tip 3-1",
-"ts": 1795883400.0,
-"eid": "sr:match:72440782",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72440782|18|total=2.5|12"
-},
-{
-"t": "Sat 18:00",
-"game": "Grasshopper Club Zurich vs Basel",
-"lg": "Switzerland - Super League",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "season: 3.4 and 3.4 goals a game; last games Grasshopper Club Zurich 1-2, Basel 0-2 (bounce-back); last 10 rate 70%; FotMob: 3.4 goals a game",
-"ts": 1795885200.0,
-"eid": "sr:match:74375420",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74375420|18|total=2.5|12"
-},
-{
-"t": "Sat 20:00",
-"game": "KSC Lokeren Temse vs K Beerschot VA",
-"lg": "Belgium - Challenger Pro League",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "season: 3.5 and 3.5 goals a game; last games KSC Lokeren Temse 0-1, K Beerschot VA 5-1 (bounce-back); last 10 rate 75%; FotMob: 3.5 goals a game",
-"ts": 1795892400.0,
-"eid": "sr:match:72302234",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72302234|18|total=2.5|12"
-},
-{
-"t": "Sat 20:45",
-"game": "Le Havre vs Strasbourg",
-"lg": "France - Ligue 1",
-"pick": "Over 2.5",
-"odds": 1.61,
-"why": "season: 3.2 and 3.7 goals a game; last games Le Havre 1-3, Strasbourg 0-1 (bounce-back); last 10 rate 70%; FotMob: 3.5 goals a game",
-"ts": 1795895100.0,
-"eid": "sr:match:72036316",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72036316|18|total=2.5|12"
-},
-{
-"t": "Sun 14:00",
-"game": "FC Luzern vs Lugano",
-"lg": "Switzerland - Super League",
-"pick": "Over 2.5",
-"odds": 1.41,
-"why": "season: 3.6 and 3.9 goals a game; last games FC Luzern 2-0, Lugano 2-1 (bounce-back); last 10 rate 85%; FotMob: 3.8 goals a game, season: 3.8 goals a game",
-"ts": 1795957200.0,
-"eid": "sr:match:74379778",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74379778|18|total=2.5|12"
-},
-{
-"t": "Sun 17:00",
-"game": "Salzburg vs LASK Linz",
-"lg": "Austria - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.42,
-"why": "season: 3.3 and 3.7 goals a game; last games Salzburg 0-1, LASK Linz 2-1 (bounce-back); last 10 rate 80%; FotMob: 3.5 goals a game",
-"ts": 1795968000.0,
-"eid": "sr:match:72345594",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72345594|18|total=2.5|12"
-},
-{
-"t": "Sun 17:30",
-"game": "Hoffenheim vs Augsburg",
-"lg": "Germany - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "season: 3.4 and 4.4 goals a game; last games Hoffenheim 0-1, Augsburg 3-1 (bounce-back); last 10 rate 80%; FotMob: 3.9 goals a game, season: 3.9 goals a game",
-"ts": 1795969800.0,
-"eid": "sr:match:72513332",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72513332|18|total=2.5|12"
-},
-{
-"t": "Sun 19:15",
-"game": "Sporting Hasselt vs RFC Liege",
-"lg": "Belgium - Challenger Pro League",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "season: 3.0 and 3.7 goals a game; last games Sporting Hasselt 1-1, RFC Liege 2-0 (bounce-back); last 10 rate 70%",
-"ts": 1795976100.0,
-"eid": "sr:match:72302232",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72302232|18|total=2.5|12"
-}
-],
-"chance": 0.0039
 }
 ]
 }
