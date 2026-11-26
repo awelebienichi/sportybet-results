@@ -1,5 +1,229 @@
 [
 {
+"when": "Thu 26 Nov 23:19",
+"at": 1795731568,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "combine",
+"codes": [
+"P8JYTL",
+"H8T9DJ"
+],
+"rid": "mwy47c263f8a"
+},
+"ok": true,
+"kind": "combined P8JYTL + H8T9DJ",
+"note": [
+"Chance all 14 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "N9QCZ4",
+"odds": 185.21,
+"legs": [
+{
+"t": "Fri 01:00",
+"game": "Diriangen FC Diriamba vs Indigenas de Matagalpa FC",
+"lg": "Nicaragua - Primera Division",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.45,
+"why": "from H8T9DJ",
+"ts": 1795737600.0,
+"eid": "sr:match:77028614",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77028614|18|total=2.5|12"
+},
+{
+"t": "Fri 02:00",
+"game": "CD Marte Soyapango vs Independiente FC",
+"lg": "El Salvador - Liga de Ascenso",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.58,
+"why": "from P8JYTL",
+"ts": 1795741200.0,
+"eid": "sr:match:77117824",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77117824|18|total=2.5|12"
+},
+{
+"t": "Fri 13:00",
+"game": "Maccabi Petah Tikva FC vs Hapoel Tel Aviv FC",
+"lg": "Israel - Premier League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.61,
+"why": "from P8JYTL",
+"ts": 1795780800.0,
+"eid": "sr:match:72225432",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72225432|18|total=2.5|12"
+},
+{
+"t": "Fri 14:00",
+"game": "Hapoel Kfar Shalem FC vs Hapoel Kfar Saba FC",
+"lg": "Israel - National League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"why": "from P8JYTL",
+"ts": 1795784400.0,
+"eid": "sr:match:72284206",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72284206|18|total=2.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "Rakow Czestochowa vs GKS Piast Gliwice",
+"lg": "Poland - Ekstraklasa",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.55,
+"why": "from H8T9DJ",
+"ts": 1795798800.0,
+"eid": "sr:match:72043352",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72043352|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"lg": "Denmark - Superliga",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.59,
+"why": "from P8JYTL",
+"ts": 1795802400.0,
+"eid": "sr:match:71925118",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71925118|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.31,
+"why": "from P8JYTL",
+"ts": 1795806000.0,
+"eid": "sr:match:73601848",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601848|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Jong AZ Alkmaar vs TOP Oss",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"why": "from P8JYTL",
+"ts": 1795806000.0,
+"eid": "sr:match:72044854",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044854|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Llanelli Town vs Cardiff Draconians",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"why": "from P8JYTL",
+"ts": 1795807800.0,
+"eid": "sr:match:72546192",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546192|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Bangor 1876 FC vs Mold Alexandra FC",
+"lg": "Wales - Cymru Championship, North",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.49,
+"why": "from P8JYTL",
+"ts": 1795807800.0,
+"eid": "sr:match:72546728",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546728|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Newport City FC vs Pontardawe Town FC",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.5,
+"why": "from H8T9DJ",
+"ts": 1795807800.0,
+"eid": "sr:match:72546194",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546194|18|total=2.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Cambrian United vs Trefelin BGC",
+"lg": "Wales - Cymru Premier",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.52,
+"why": "from P8JYTL",
+"ts": 1795808700.0,
+"eid": "sr:match:72522190",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72522190|18|total=2.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Bala Town FC vs Caersws",
+"lg": "Wales - Cymru Championship, North",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.46,
+"why": "from H8T9DJ",
+"ts": 1795808700.0,
+"eid": "sr:match:72546724",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546724|18|total=2.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "France vs Venezuela",
+"lg": "International - Int. Friendly Games W",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.16,
+"why": "from H8T9DJ",
+"ts": 1795809600.0,
+"eid": "sr:match:76915624",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76915624|18|total=2.5|12"
+}
+],
+"chance": 0.0027
+}
+]
+},
+{
 "when": "Thu 26 Nov 23:15",
 "at": 1795731326,
 "req": {
@@ -9763,184 +9987,6 @@
 }
 ],
 "chance": 0.0
-}
-]
-},
-{
-"when": "Wed 25 Nov 07:36",
-"at": 1795588599,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25quiet",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-25",
-"2026-11-26",
-"2026-11-27",
-"2026-11-28",
-"2026-11-29"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwvr2xth4v2u"
-},
-"ok": true,
-"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 10 games passed the checks (Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, 903 games on SportyBet), so this ticket has 10 legs instead of 50. Tick more days or use 'Relaxed' for more.",
-"Chance all 10 legs win: about 1%."
-],
-"tickets": [
-{
-"code": "R7US8H",
-"odds": 75.05,
-"legs": [
-{
-"t": "Wed 10:30",
-"game": "FC Samgurali Tskaltubo vs FC Torpedo Kutaisi",
-"lg": "Georgia - Erovnuli Liga",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "Over 2.5 lowest prices + high-scoring team; FC Samgurali Tskaltubo: Over 2.5 in 6/7 games before, then none in its last 3 (0-1 0-2 0-0); Over 2.5 at 1.57: SportyBet's own price gives 60%, 75% of 8 meetings; teams' last 10 60% / 60%; Flashscore home/away form 60%",
-"ts": 1795599000.0,
-"eid": "sr:match:67912896",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "67912896|18|total=2.5|12"
-},
-{
-"t": "Wed 11:00",
-"game": "Kirovets-Voskhozhdeniye Youth vs FK Nizhny Novgorod",
-"lg": "Russia - MFL, Division A",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "high-scoring team; FK Nizhny Novgorod: Over 2.5 in 6/7 games before, then none in its last 3 (0-0 1-1 0-1); ",
-"ts": 1795600800.0,
-"eid": "sr:match:77115478",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "77115478|18|total=2.5|12"
-},
-{
-"t": "Thu 15:00",
-"game": "FC Orenburg vs FK Spartak Moscow",
-"lg": "Russia - Russian Cup",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "high-scoring team; FC Orenburg: Over 2.5 in 5/7 games before, then none in its last 3 (0-2 0-2 0-0); ; Flashscore home/away form 65%, FotMob: 4.0 goals a game, season: 4.0 goals a game",
-"ts": 1795701600.0,
-"eid": "sr:match:72343934",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72343934|18|total=2.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "Freiburg vs FC Twente Enschede",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 2.5",
-"odds": 1.55,
-"why": "Over 2.5 lowest prices + high-scoring team; Freiburg: Over 2.5 in 7/7 games before, then none in its last 3 (1-0 2-0 1-0); Over 2.5 at 1.55: SportyBet's own price gives 61%; teams' last 10 70% / 70%; Flashscore home/away form 80%, footybets 87%, CompactStats 63% (bookmaker 62%)",
-"ts": 1795723200.0,
-"eid": "sr:match:74173346",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74173346|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "SonderjyskE vs Broendby IF",
-"lg": "Denmark - Superliga",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "Over 2.5 lowest prices + goal-fest teams + high-scoring team; Broendby IF: Over 2.5 in 6/7 games before, then none in its last 3 (0-2 0-1 2-0); Over 2.5 at 1.59: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 80% / 60%",
-"ts": 1795802400.0,
-"eid": "sr:match:71925118",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "71925118|18|total=2.5|12"
-},
-{
-"t": "Sat 19:15",
-"game": "Beitar Jerusalem FC vs Hapoel Jerusalem FC",
-"lg": "Israel - Premier League",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "high-scoring team; Beitar Jerusalem FC: Over 2.5 in 5/7 games before, then none in its last 3 (1-1 1-1 1-0); ",
-"ts": 1795889700.0,
-"eid": "sr:match:72225438",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72225438|18|total=2.5|12"
-},
-{
-"t": "Sat 20:30",
-"game": "VfL 1899 Osnabruck vs Hannover 96",
-"lg": "Germany - 2. Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "Over 2.5 lowest prices + high-scoring team; VfL 1899 Osnabruck: Over 2.5 in 5/7 games before, then none in its last 3 (0-0 0-1 0-2); Over 2.5 at 1.56: SportyBet's own price gives 60%, 50% of 8 meetings; teams' last 10 50% / 60%",
-"ts": 1795894200.0,
-"eid": "sr:match:72514012",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72514012|18|total=2.5|12"
-},
-{
-"t": "Sun 14:00",
-"game": "Hobro IK vs FC Fredericia",
-"lg": "Denmark - 1. Division",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "Over 2.5 lowest prices + high-scoring team; Hobro IK: Over 2.5 in 5/7 games before, then none in its last 3 (1-1 0-1 1-1); Over 2.5 at 1.53: SportyBet's own price gives 62%, 50% of 8 meetings; teams' last 10 50% / 60%",
-"ts": 1795957200.0,
-"eid": "sr:match:72044420",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044420|18|total=2.5|12"
-},
-{
-"t": "Sun 15:30",
-"game": "Freiburg vs RB Leipzig",
-"lg": "Germany - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "Over 2.5 lowest prices + goal-fest teams + high-scoring team; Freiburg: Over 2.5 in 7/7 games before, then none in its last 3 (1-0 2-0 1-0); Over 2.5 at 1.46: SportyBet's own price gives 65%, 62% of 8 meetings; teams' last 10 70% / 80%; FotMob: 3.8 goals a game, season: 3.8 goals a game, CompactStats 67% (bookmaker 65%)",
-"ts": 1795962600.0,
-"eid": "sr:match:72513334",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72513334|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Royal Antwerp FC vs RSC Anderlecht",
-"lg": "Belgium - Pro League",
-"pick": "Over 2.5",
-"odds": 1.6,
-"why": "Over 2.5 lowest prices + high-scoring team; RSC Anderlecht: Over 2.5 in 6/7 games before, then none in its last 3 (1-0 1-1 2-0); Over 2.5 at 1.60: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 70% / 60%",
-"ts": 1795964400.0,
-"eid": "sr:match:72366476",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72366476|18|total=2.5|12"
-}
-],
-"chance": 0.0082
 }
 ]
 }
