@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "P4VYPC",
+"at": 1795709624,
+"when": "Thu 26 Nov 17:13",
+"kind": "half-time draw \u2013 weak teams",
+"odds": 2064531.64,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:30",
+"game": "Imisli FK vs Safa",
+"pick": "Half-time draw",
+"odds": 2.05,
+"ts": 1795775400.0
+},
+{
+"t": "Fri 13:30",
+"game": "Ethiopian Coffee SC vs Halaba Ketema",
+"pick": "Half-time draw",
+"odds": 1.84,
+"ts": 1795782600.0
+},
+{
+"t": "Fri 14:00",
+"game": "Hapoel Acre FC vs Maccabi Herzliya",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1795784400.0
+},
+{
+"t": "Fri 15:00",
+"game": "Shabab AL Ordun vs AL Salt",
+"pick": "Half-time draw",
+"odds": 1.98,
+"ts": 1795788000.0
+},
+{
+"t": "Fri 17:00",
+"game": "Al-Gharraf SC vs AL Mosul SC",
+"pick": "Half-time draw",
+"odds": 1.94,
+"ts": 1795795200.0
+},
+{
+"t": "Fri 18:00",
+"game": "NK Celik Zenica vs FK BSK Banja Luka",
+"pick": "Half-time draw",
+"odds": 2.2,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 19:00",
+"game": "CD Feirense vs Portimonense SC",
+"pick": "Half-time draw",
+"odds": 2.0,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:00",
+"game": "Athletic Bilbao B vs Cultural Leonesa",
+"pick": "Half-time draw",
+"odds": 2.05,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Delfin SC vs Orense SC",
+"pick": "Half-time draw",
+"odds": 1.98,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 21:15",
+"game": "Maritimo Madeira vs Nacional da Madeira",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1795810500.0
+},
+{
+"t": "Sun 05:00",
+"game": "Vanraure Hachinohe FC vs Fujieda MYFC",
+"pick": "Half-time draw",
+"odds": 2.05,
+"ts": 1795924800.0
+},
+{
+"t": "Sun 06:00",
+"game": "Gimpo FC vs Hwaseong FC",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1795928400.0
+},
+{
+"t": "Sun 06:00",
+"game": "Mito Hollyhock vs V-Varen Nagasaki",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1795928400.0
+},
+{
+"t": "Sun 06:00",
+"game": "Chungnam Asan FC vs Busan IPark",
+"pick": "Half-time draw",
+"odds": 2.2,
+"ts": 1795928400.0
+},
+{
+"t": "Sun 10:30",
+"game": "FC Hertha Wels vs FAC Wien",
+"pick": "Half-time draw",
+"odds": 2.2,
+"ts": 1795944600.0
+},
+{
+"t": "Sun 11:00",
+"game": "Birzebbuga St. Peters FC vs Gzira United FC",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1795946400.0
+},
+{
+"t": "Sun 11:30",
+"game": "Pendikspor vs Igdir FK",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1795948200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Hai Phong FC vs The Cong - Viettel FC",
+"pick": "Half-time draw",
+"odds": 2.1,
+"ts": 1795950000.0
+},
+{
+"t": "Sun 14:00",
+"game": "ASC Otelul Galati vs FC Uta Arad",
+"pick": "Half-time draw",
+"odds": 2.15,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 21:00",
+"game": "Deportivo Camioneros vs CA Talleres de Remedios",
+"pick": "Half-time draw",
+"odds": 1.89,
+"ts": 1795982400.0
+}
+]
+},
+{
 "code": "N0Y2L4",
 "at": 1795709079,
 "when": "Thu 26 Nov 17:04",
@@ -82653,104 +82803,6 @@
 "r": "W",
 "sc": "1-1",
 "ht": "1-0"
-}
-]
-},
-{
-"code": "PQXP4P",
-"at": 1794566157,
-"when": "Fri 13 Nov 11:35",
-"kind": "goal-fest teams (season data)",
-"odds": 55.07,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"pick": "Over 2.5",
-"odds": 1.54,
-"ts": 1794567600.0,
-"r": "L",
-"sc": "1-1",
-"ht": ""
-},
-{
-"t": "Fri 18:30",
-"game": "FC Viktoria Plzen B vs FK Loko Prague",
-"pick": "Over 2.5",
-"odds": 1.33,
-"ts": 1794591000.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Fri 18:30",
-"game": "Hamburger SV vs 1. FSV Mainz 05",
-"pick": "Over 2.5",
-"odds": 1.47,
-"ts": 1794591000.0,
-"r": "W",
-"sc": "6-1",
-"ht": "4-1"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Helsingoer vs Holstebro BK",
-"pick": "Over 2.5",
-"odds": 1.57,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-3",
-"ht": "2-2"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"pick": "Over 2.5",
-"odds": 1.43,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-2",
-"ht": "1-2"
-},
-{
-"t": "Fri 19:00",
-"game": "KS Polonia Nysa vs KS Gornik Polkowice",
-"pick": "Over 2.5",
-"odds": 1.54,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "1-3",
-"ht": "1-1"
-},
-{
-"t": "Fri 19:30",
-"game": "SV Drochtersen/Assel vs VfB Oldenburg",
-"pick": "Over 2.5",
-"odds": 1.54,
-"ts": 1794594600.0
-},
-{
-"t": "Fri 19:30",
-"game": "ASK Royal Sped Klingenbach vs SV Leithaprodersdorf",
-"pick": "Over 2.5",
-"odds": 1.54,
-"ts": 1794594600.0
-},
-{
-"t": "Fri 20:00",
-"game": "FC Portalban/Gletterens vs FC Echallens Region",
-"pick": "Over 2.5",
-"odds": 1.43,
-"ts": 1794596400.0
-},
-{
-"t": "Fri 22:30",
-"game": "Club Calor vs Real Apodaca FC",
-"pick": "Over 2.5",
-"odds": 1.56,
-"ts": 1794605400.0
 }
 ]
 }
