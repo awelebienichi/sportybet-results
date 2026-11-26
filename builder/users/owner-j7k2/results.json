@@ -573,7 +573,10 @@
 "game": "Uttaradit Saksiam FC vs Songkhla FC",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795690800.0
+"ts": 1795690800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Thu 13:00",
@@ -852,14 +855,20 @@
 "game": "Uttaradit Saksiam FC vs Songkhla FC",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795690800.0
+"ts": 1795690800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Thu 13:15",
 "game": "Tai Po FC vs Adelaide United FC",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795695300.0
+"ts": 1795695300.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Thu 13:45",
