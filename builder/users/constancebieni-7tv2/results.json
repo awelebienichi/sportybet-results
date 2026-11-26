@@ -157,7 +157,7 @@
 "when": "Thu 26 Nov 17:24",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 30.9,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:45",
@@ -178,7 +178,10 @@
 "game": "Besiktas Istanbul vs Hapoel Be`er Sheva FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795715100.0
+"ts": 1795715100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:45",

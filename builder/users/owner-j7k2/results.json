@@ -785,7 +785,10 @@
 "game": "Besiktas Istanbul vs Hapoel Be`er Sheva FC",
 "pick": "1st half double chance Besiktas Istanbul or draw",
 "odds": 1.1,
-"ts": 1795715100.0
+"ts": 1795715100.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:45",
@@ -1243,7 +1246,10 @@
 "game": "Besiktas Istanbul vs Hapoel Be`er Sheva FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795715100.0
+"ts": 1795715100.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 18:45",
