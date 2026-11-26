@@ -296,7 +296,10 @@
 "game": "FC Nizhny Novgorod vs FC Tekstilshchik Ivanovo",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795708800.0
+"ts": 1795708800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Thu 17:00",
@@ -869,7 +872,10 @@
 "game": "FC Nizhny Novgorod vs FC Tekstilshchik Ivanovo",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795708800.0
+"ts": 1795708800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Thu 18:20",
