@@ -456,14 +456,17 @@
 "when": "Wed 25 Nov 20:50",
 "kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
 "odds": 4629.46,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 02:00",
 "game": "Managua FC vs CD Walter Ferretti",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1795654800.0
+"ts": 1795654800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 02:00",
@@ -3714,7 +3717,10 @@
 "game": "Managua FC vs CD Walter Ferretti",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795654800.0
+"ts": 1795654800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:00",
