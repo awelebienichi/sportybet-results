@@ -2,6 +2,79 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "P8JYTL",
+"at": 1795731326,
+"when": "Thu 26 Nov 23:15",
+"kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
+"odds": 32.44,
+"status": "open",
+"legs": [
+{
+"t": "Fri 02:00",
+"game": "CD Marte Soyapango vs Independiente FC",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795741200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Maccabi Petah Tikva FC vs Hapoel Tel Aviv FC",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795780800.0
+},
+{
+"t": "Fri 14:00",
+"game": "Hapoel Kfar Shalem FC vs Hapoel Kfar Saba FC",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795784400.0
+},
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong AZ Alkmaar vs TOP Oss",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Llanelli Town vs Cardiff Draconians",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bangor 1876 FC vs Mold Alexandra FC",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cambrian United vs Trefelin BGC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795808700.0
+}
+]
+},
+{
 "code": "H8T9DJ",
 "at": 1795731200,
 "when": "Thu 26 Nov 23:13",
@@ -83276,165 +83349,6 @@
 "pick": "Over 1.5",
 "odds": 1.2,
 "ts": 1794771900.0
-}
-]
-},
-{
-"code": "KX74R9",
-"at": 1794569351,
-"when": "Fri 13 Nov 12:29",
-"kind": "Over 1.5",
-"odds": 19.31,
-"status": "open",
-"legs": [
-{
-"t": "Fri 19:30",
-"game": "SV Drochtersen/Assel vs VfB Oldenburg",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794594600.0,
-"r": "W",
-"sc": "3-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 20:00",
-"game": "Grenada vs Saint Kitts and Nevis",
-"pick": "Over 1.5",
-"odds": 1.14,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "3-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"pick": "Over 1.5",
-"odds": 1.09,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "2-0",
-"ht": ""
-},
-{
-"t": "Fri 20:45",
-"game": "Crusaders FC vs Carrick Rangers",
-"pick": "Over 1.5",
-"odds": 1.14,
-"ts": 1794599100.0
-},
-{
-"t": "Sat 02:00",
-"game": "Guerreros Del Pac\u00edfico FC vs Santiago FC",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794618000.0
-},
-{
-"t": "Sat 05:00",
-"game": "Sydney United 58 FC vs South Melbourne FC",
-"pick": "Over 1.5",
-"odds": 1.26,
-"ts": 1794628800.0
-},
-{
-"t": "Sat 13:00",
-"game": "FC Slovan Galanta vs MFK Tatran Liptovsky Mikulas",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 13:00",
-"game": "MSK Povazska Bystrica vs FK Pohronie Ziar Nad Hronom Dolna Zdana",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"pick": "Over 1.5",
-"odds": 1.15,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:00",
-"game": "K.v.v. Quick Boys vs Jong Almere City FC",
-"pick": "Over 1.5",
-"odds": 1.11,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Evesham United vs Gosport Borough",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Frome Town vs Hanworth Villa",
-"pick": "Over 1.5",
-"odds": 1.19,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Hanwell Town FC vs Plymouth Parkway",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Farnham Town vs Ebbsfleet United FC",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Worksop Town vs South Shields",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Lewes FC vs Stanway Rovers",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Bourne Town vs Bromsgrove Sporting",
-"pick": "Over 1.5",
-"odds": 1.15,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:30",
-"game": "NAC Breda vs FC Emmen",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794670200.0
-},
-{
-"t": "Sat 19:00",
-"game": "RSC Anderlecht vs Club Brugge KV",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794679200.0
-},
-{
-"t": "Sun 16:45",
-"game": "FC Twente Enschede W vs PSV Eindhoven",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794757500.0
 }
 ]
 }
