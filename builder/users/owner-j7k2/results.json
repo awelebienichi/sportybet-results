@@ -435,7 +435,10 @@
 "game": "Abha Club vs Al-Shabab FC (SA)",
 "pick": "Al-Shabab FC (SA) to win (1UP)",
 "odds": 1.4,
-"ts": 1795705500.0
+"ts": 1795705500.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 16:30",
@@ -726,7 +729,10 @@
 "game": "Abha Club vs Al-Shabab FC (SA)",
 "pick": "Double chance Al-Shabab FC (SA) or draw",
 "odds": 1.25,
-"ts": 1795705500.0
+"ts": 1795705500.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 16:30",
