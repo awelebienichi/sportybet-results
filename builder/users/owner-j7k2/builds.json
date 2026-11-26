@@ -1,5 +1,29 @@
 [
 {
+"when": "Thu 26 Nov 15:32",
+"at": 1795703533,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-26",
+"2026-11-27",
+"2026-11-28",
+"2026-11-29"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 20000,
+"rid": "mwxnia3bvpko"
+},
+"ok": false,
+"msg": "Could not reach 20000 odds with 40 legs or fewer from the 355 games that pass the checks for Over 2.5 (lowest prices first) (Thu 26, Fri 27, Sat 28, Sun 29). Allow more legs or a lower target."
+},
+{
 "when": "Thu 26 Nov 15:18",
 "at": 1795702726,
 "req": {
@@ -10471,87 +10495,6 @@
 }
 ],
 "chance": 0.0112
-}
-]
-},
-{
-"when": "Tue 24 Nov 23:33",
-"at": 1795559588,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "lowbounce",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-24",
-"2026-11-25",
-"2026-11-26",
-"2026-11-27",
-"2026-11-28",
-"2026-11-29",
-"2026-11-30"
-],
-"strict": "relaxed",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwv9t8ouzmdy"
-},
-"ok": true,
-"kind": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)",
-"note": [
-"Only 3 games passed the checks (Tue 24, Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, Mon 30, 892 games on SportyBet), so this ticket has 3 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 3 legs win: about 25%."
-],
-"tickets": [
-{
-"code": "VCKVQ1",
-"odds": 3.48,
-"legs": [
-{
-"t": "Wed 12:00",
-"game": "Aps Bomet FC vs Migori Youth FC",
-"lg": "Kenya - Premier League",
-"pick": "Under 2.5",
-"odds": 1.43,
-"why": "season: 1.6 and 1.7 goals a game; last games Aps Bomet FC 2-1, Migori Youth FC 0-1 (back to low); last 10 rate 70%; Vitibet tip 1-0, season: 1.7 goals a game",
-"ts": 1795604400.0,
-"eid": "sr:match:74056954",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "74056954|18|total=2.5|13"
-},
-{
-"t": "Wed 18:00",
-"game": "Tonota FC vs Nico United",
-"lg": "Botswana - Premier League",
-"pick": "Under 2.5",
-"odds": 1.53,
-"why": "season: 2.1 and 2.0 goals a game; last games Tonota FC 2-1, Nico United 1-1 (back to low); last 10 rate 74%; Flashscore home/away form 90%, Vitibet tip 1-0",
-"ts": 1795626000.0,
-"eid": "sr:match:73959830",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "73959830|18|total=2.5|13"
-},
-{
-"t": "Fri 19:00",
-"game": "CD Feirense vs Portimonense SC",
-"lg": "Portugal - Liga Portugal 2",
-"pick": "Under 2.5",
-"odds": 1.59,
-"why": "season: 1.6 and 1.5 goals a game; last games CD Feirense 2-2, Portimonense SC 0-1 (back to low); last 10 rate 70%; FotMob: 1.6 goals a game, season: 1.6 goals a game",
-"ts": 1795802400.0,
-"eid": "sr:match:72531690",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72531690|18|total=2.5|13"
-}
-],
-"chance": 0.2483
 }
 ]
 }
