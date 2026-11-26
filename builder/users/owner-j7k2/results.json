@@ -657,14 +657,20 @@
 "game": "Sparta Prague vs Alkmaar",
 "pick": "1st half double chance Sparta Prague or draw",
 "odds": 1.42,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 21:00",
 "game": "Freiburg vs FC Twente Enschede",
 "pick": "1st half double chance Freiburg or draw",
 "odds": 1.23,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 21:00",
@@ -1012,7 +1018,10 @@
 "game": "Sparta Prague vs Alkmaar",
 "pick": "1st half double chance Sparta Prague or draw",
 "odds": 1.42,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Thu 21:00",
@@ -1033,7 +1042,10 @@
 "game": "Nordsjaelland vs Panathinaikos",
 "pick": "1st half Under 2.5",
 "odds": 1.15,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 21:00",
@@ -1057,7 +1069,10 @@
 "game": "OFI Crete vs RSC Anderlecht",
 "pick": "1st half Under 2.5",
 "odds": 1.15,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Thu 21:00",
@@ -1552,7 +1567,10 @@
 "game": "Nordsjaelland vs Panathinaikos",
 "pick": "1st half Under 2.5",
 "odds": 1.15,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 21:00",
