@@ -553,14 +553,20 @@
 "game": "Pafos FC vs FC Midtjylland",
 "pick": "1st half double chance Pafos FC or draw",
 "odds": 1.43,
-"ts": 1795715100.0
+"ts": 1795715100.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Thu 18:45",
 "game": "SK Brann vs AGF Aarhus",
 "pick": "1st half double chance SK Brann or draw",
 "odds": 1.32,
-"ts": 1795715100.0
+"ts": 1795715100.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Thu 18:45",
