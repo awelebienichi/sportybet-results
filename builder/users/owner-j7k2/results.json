@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VQUQML",
+"at": 1795731074,
+"when": "Thu 26 Nov 23:11",
+"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
+"odds": 2.69,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 20:45",
+"game": "Bala Town FC vs Caersws",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 21:00",
+"game": "France vs Venezuela",
+"pick": "Over 2.5",
+"odds": 1.16,
+"ts": 1795809600.0
+}
+]
+},
+{
 "code": "GE1K7P",
 "at": 1795730792,
 "when": "Thu 26 Nov 23:06",
@@ -83365,46 +83396,6 @@
 "r": "W",
 "sc": "51-62",
 "ht": "21-11"
-}
-]
-},
-{
-"code": "PBFZH6",
-"at": 1794568587,
-"when": "Fri 13 Nov 12:16",
-"kind": "live \u2013 best of all",
-"odds": 1.28,
-"status": "won",
-"legs": [
-{
-"t": "Fri 11:00",
-"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
-"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
-"odds": 1.03,
-"ts": 1794564000.0,
-"r": "W",
-"sc": "3-1",
-"ht": "3-0"
-},
-{
-"t": "Fri 11:00",
-"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
-"pick": "Under 3.5",
-"odds": 1.05,
-"ts": 1794564000.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"pick": "Handicap 0:2 \u2013 NK Slaven Belupo",
-"odds": 1.18,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
 }
 ]
 }
