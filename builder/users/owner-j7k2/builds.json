@@ -1,5 +1,318 @@
 [
 {
+"when": "Thu 26 Nov 23:06",
+"at": 1795730792,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25all",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-27"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwy3po7e5ujh"
+},
+"ok": true,
+"kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
+"note": [
+"2 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
+"Chance all 20 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "GE1K7P",
+"odds": 170.85,
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "MKS Korona Kielce vs Wisla Krakow",
+"lg": "Poland - CLJ",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.35: SportyBet's own price gives 70%, 75% of 8 meetings; teams' last 10 50% / 70%; Flashscore home/away form 70%",
+"ts": 1795777200.0,
+"eid": "sr:match:73050936",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73050936|18|total=2.5|12"
+},
+{
+"t": "Fri 13:00",
+"game": "Hapoel Umm AL Fahm vs Hapoel Bnei Jat United",
+"lg": "Israel - Liga Alef",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.36: SportyBet's own price gives 69%; teams' last 10 70% / 50%; Flashscore home/away form 60%",
+"ts": 1795780800.0,
+"eid": "sr:match:111111114287680",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "111111114287680|18|total=2.5|12"
+},
+{
+"t": "Fri 13:15",
+"game": "Brunei DPMM FC vs Kelantan Red Warrior FC",
+"lg": "Malaysia - Super League",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.24: SportyBet's own price gives 76%; teams' last 10 80% / 90%; Flashscore home/away form 65%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1795781700.0,
+"eid": "sr:match:73062438",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73062438|18|total=2.5|12"
+},
+{
+"t": "Fri 15:20",
+"game": "Al Qadsiah vs Al-Fayha FC",
+"lg": "Saudi Arabia - Saudi Pro League",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.29: SportyBet's own price gives 73%, 50% of 8 meetings; teams' last 10 70% / 60%; Flashscore home/away form 55%, footybets 90%, Vitibet tip 3-1",
+"ts": 1795789200.0,
+"eid": "sr:match:76638674",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76638674|18|total=2.5|12"
+},
+{
+"t": "Fri 18:00",
+"game": "Simmeringer SC vs LAC Inter",
+"lg": "Austria Amateur - Wiener Stadtliga",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.35: SportyBet's own price gives 70%, 100% of 4 meetings; teams' last 10 50% / 50%; Flashscore home/away form 70%",
+"ts": 1795798800.0,
+"eid": "sr:match:72676184",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72676184|18|total=2.5|12"
+},
+{
+"t": "Fri 19:00",
+"game": "Hansa Rostock vs TSV Havelse",
+"lg": "Germany - 3. Liga",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.33: SportyBet's own price gives 71%; teams' last 10 40% / 80%; Flashscore home/away form 75%, footybets 85%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
+"ts": 1795802400.0,
+"eid": "sr:match:72680312",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72680312|18|total=2.5|12"
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.13,
+"why": "Over 2.5 lowest prices + strong youth & women's side; Over 2.5 at 1.13: SportyBet's own price gives 83%; teams' last 10 100% / 78%; Flashscore home/away form 65%, season: 5.2 goals a game",
+"ts": 1795804200.0,
+"eid": "sr:match:73831516",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73831516|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Manchester City U21 vs West Bromwich Albion FC U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.17,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.17: SportyBet's own price gives 81%, 40% of 5 meetings; teams' last 10 100% / 80%; Flashscore home/away form 85%, FotMob: 5.3 goals a game, Vitibet tip 3-1",
+"ts": 1795806000.0,
+"eid": "sr:match:73603152",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603152|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Jong Ajax Amsterdam vs Heracles Almelo",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.27: SportyBet's own price gives 74%, 67% of 3 meetings; teams' last 10 70% / 60%; Flashscore home/away form 65%, footybets 80%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:72044852",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044852|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "NAC Breda vs FC Den Bosch",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.27,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.27: SportyBet's own price gives 74%, 50% of 8 meetings; teams' last 10 50% / 50%; Flashscore home/away form 55%",
+"ts": 1795806000.0,
+"eid": "sr:match:72044860",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044860|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.28: SportyBet's own price gives 74%, 88% of 8 meetings; teams' last 10 90% / 90%; Flashscore home/away form 80%, FotMob: 4.5 goals a game, season: 4.5 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:73603154",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603154|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "West Ham U21 vs Tottenham Hotspur U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.31,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.31: SportyBet's own price gives 72%, 62% of 8 meetings; teams' last 10 80% / 80%; Flashscore home/away form 65%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:73603156",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603156|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"lg": "England Amateur - U21 Professional Development League",
+"pick": "Over 2.5",
+"odds": 1.31,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.31: SportyBet's own price gives 72%, 62% of 8 meetings; teams' last 10 80% / 70%; Flashscore home/away form 65%",
+"ts": 1795806000.0,
+"eid": "sr:match:73601848",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73601848|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Jong FC Utrecht vs Almere City FC",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.33: SportyBet's own price gives 71%, 62% of 8 meetings; teams' last 10 80% / 80%; Flashscore home/away form 75%, footybets 89%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:72044856",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044856|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "RWD Molenbeek Youth vs RAAL La Louviere",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.35,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.35: SportyBet's own price gives 70%, 100% of 5 meetings; teams' last 10 50% / 70%; Flashscore home/away form 90%",
+"ts": 1795806000.0,
+"eid": "sr:match:73831518",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73831518|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.36: SportyBet's own price gives 69%, 50% of 6 meetings; teams' last 10 100% / 90%; Flashscore home/away form 95%, FotMob: 4.4 goals a game, season: 4.4 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:73603150",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603150|18|total=2.5|12"
+},
+{
+"t": "Fri 20:15",
+"game": "FC Winterthur vs FC Rapperswil-Jona",
+"lg": "Switzerland - Challenge League",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.36: SportyBet's own price gives 69%, 62% of 8 meetings; teams' last 10 70% / 60%; Flashscore home/away form 80%, footybets 81%",
+"ts": 1795806900.0,
+"eid": "sr:match:72176650",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72176650|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "Over 2.5 lowest prices + goal-fest teams; Over 2.5 at 1.34: SportyBet's own price gives 70%, 50% of 4 meetings; teams' last 10 100% / 80%; Flashscore home/away form 80%, season: 4.3 goals a game",
+"ts": 1795807800.0,
+"eid": "sr:match:72546190",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546190|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "Over 2.5 lowest prices + goal-fest teams + strong youth & women's side; Over 2.5 at 1.34: SportyBet's own price gives 70%, 75% of 8 meetings; teams' last 10 90% / 100%; Flashscore home/away form 95%, season: 4.1 goals a game",
+"ts": 1795807800.0,
+"eid": "sr:match:73831524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73831524|18|total=2.5|12"
+},
+{
+"t": "Fri 21:00",
+"game": "France vs Venezuela",
+"lg": "International - Int. Friendly Games W",
+"pick": "Over 2.5",
+"odds": 1.16,
+"why": "Over 2.5 lowest prices; Over 2.5 at 1.16: SportyBet's own price gives 81%; teams' last 10 60% / 70%; Flashscore home/away form 65%",
+"ts": 1795809600.0,
+"eid": "sr:match:76915624",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76915624|18|total=2.5|12"
+}
+],
+"chance": 0.0022
+}
+]
+},
+{
 "when": "Thu 26 Nov 17:50",
 "at": 1795711836,
 "req": {
@@ -9990,144 +10303,6 @@
 }
 ],
 "chance": 0.0082
-}
-]
-},
-{
-"when": "Wed 25 Nov 07:21",
-"at": 1795587708,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25quiet",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-25",
-"2026-11-26",
-"2026-11-27",
-"2026-11-28",
-"2026-11-29",
-"2026-11-30",
-"2026-12-01"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwvqivhaxb0w"
-},
-"ok": true,
-"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 7 games passed the checks (Wed 25, Thu 26, Fri 27, Sat 28, Sun 29, Mon 30, Tue 01, 960 games on SportyBet), so this ticket has 7 legs instead of 50. Tick more days or use 'Relaxed' for more.",
-"Chance all 7 legs win: about 3%."
-],
-"tickets": [
-{
-"code": "MWMWTQ",
-"odds": 21.57,
-"legs": [
-{
-"t": "Wed 10:30",
-"game": "FC Samgurali Tskaltubo vs FC Torpedo Kutaisi",
-"lg": "Georgia - Erovnuli Liga",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "Over 2.5 lowest prices; FC Samgurali Tskaltubo: Over 2.5 in 6/7 games before, then none in its last 3 (0-1 0-2 0-0); Over 2.5 at 1.57: SportyBet's own price gives 60%, 75% of 8 meetings; teams' last 10 60% / 60%; Flashscore home/away form 60%",
-"ts": 1795599000.0,
-"eid": "sr:match:67912896",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "67912896|18|total=2.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "Freiburg vs FC Twente Enschede",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 2.5",
-"odds": 1.55,
-"why": "Over 2.5 lowest prices; Freiburg: Over 2.5 in 7/7 games before, then none in its last 3 (1-0 2-0 1-0); Over 2.5 at 1.55: SportyBet's own price gives 61%; teams' last 10 70% / 70%; Flashscore home/away form 80%, footybets 87%, CompactStats 63% (bookmaker 62%)",
-"ts": 1795723200.0,
-"eid": "sr:match:74173346",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74173346|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "SonderjyskE vs Broendby IF",
-"lg": "Denmark - Superliga",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "Over 2.5 lowest prices + goal-fest teams; Broendby IF: Over 2.5 in 6/7 games before, then none in its last 3 (0-2 0-1 2-0); Over 2.5 at 1.59: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 80% / 60%",
-"ts": 1795802400.0,
-"eid": "sr:match:71925118",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "71925118|18|total=2.5|12"
-},
-{
-"t": "Sat 20:30",
-"game": "VfL 1899 Osnabruck vs Hannover 96",
-"lg": "Germany - 2. Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.56,
-"why": "Over 2.5 lowest prices; VfL 1899 Osnabruck: Over 2.5 in 5/7 games before, then none in its last 3 (0-0 0-1 0-2); Over 2.5 at 1.56: SportyBet's own price gives 60%, 50% of 8 meetings; teams' last 10 50% / 60%",
-"ts": 1795894200.0,
-"eid": "sr:match:72514012",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72514012|18|total=2.5|12"
-},
-{
-"t": "Sun 14:00",
-"game": "Hobro IK vs FC Fredericia",
-"lg": "Denmark - 1. Division",
-"pick": "Over 2.5",
-"odds": 1.53,
-"why": "Over 2.5 lowest prices; Hobro IK: Over 2.5 in 5/7 games before, then none in its last 3 (1-1 0-1 1-1); Over 2.5 at 1.53: SportyBet's own price gives 62%, 50% of 8 meetings; teams' last 10 50% / 60%",
-"ts": 1795957200.0,
-"eid": "sr:match:72044420",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044420|18|total=2.5|12"
-},
-{
-"t": "Sun 15:30",
-"game": "Freiburg vs RB Leipzig",
-"lg": "Germany - Bundesliga",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "Over 2.5 lowest prices + goal-fest teams; Freiburg: Over 2.5 in 7/7 games before, then none in its last 3 (1-0 2-0 1-0); Over 2.5 at 1.46: SportyBet's own price gives 65%, 62% of 8 meetings; teams' last 10 70% / 80%; FotMob: 3.8 goals a game, season: 3.8 goals a game, CompactStats 67% (bookmaker 65%)",
-"ts": 1795962600.0,
-"eid": "sr:match:72513334",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72513334|18|total=2.5|12"
-},
-{
-"t": "Sun 16:00",
-"game": "Royal Antwerp FC vs RSC Anderlecht",
-"lg": "Belgium - Pro League",
-"pick": "Over 2.5",
-"odds": 1.6,
-"why": "Over 2.5 lowest prices; RSC Anderlecht: Over 2.5 in 6/7 games before, then none in its last 3 (1-0 1-1 2-0); Over 2.5 at 1.60: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 70% / 60%",
-"ts": 1795964400.0,
-"eid": "sr:match:72366476",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72366476|18|total=2.5|12"
-}
-],
-"chance": 0.0329
 }
 ]
 }
