@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "GE1K7P",
+"at": 1795730792,
+"when": "Thu 26 Nov 23:06",
+"kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
+"odds": 170.85,
+"status": "open",
+"legs": [
+{
+"t": "Fri 12:00",
+"game": "MKS Korona Kielce vs Wisla Krakow",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795777200.0
+},
+{
+"t": "Fri 13:00",
+"game": "Hapoel Umm AL Fahm vs Hapoel Bnei Jat United",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795780800.0
+},
+{
+"t": "Fri 13:15",
+"game": "Brunei DPMM FC vs Kelantan Red Warrior FC",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795781700.0
+},
+{
+"t": "Fri 15:20",
+"game": "Al Qadsiah vs Al-Fayha FC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795789200.0
+},
+{
+"t": "Fri 18:00",
+"game": "Simmeringer SC vs LAC Inter",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Hansa Rostock vs TSV Havelse",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"pick": "Over 2.5",
+"odds": 1.13,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Manchester City U21 vs West Bromwich Albion FC U21",
+"pick": "Over 2.5",
+"odds": 1.17,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong Ajax Amsterdam vs Heracles Almelo",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "NAC Breda vs FC Den Bosch",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "West Ham U21 vs Tottenham Hotspur U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong FC Utrecht vs Almere City FC",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "RWD Molenbeek Youth vs RAAL La Louviere",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:15",
+"game": "FC Winterthur vs FC Rapperswil-Jona",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795806900.0
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 21:00",
+"game": "France vs Venezuela",
+"pick": "Over 2.5",
+"odds": 1.16,
+"ts": 1795809600.0
+}
+]
+},
+{
 "code": "SEV8JD",
 "at": 1795711836,
 "when": "Thu 26 Nov 17:50",
@@ -83255,46 +83405,6 @@
 "r": "W",
 "sc": "1-1",
 "ht": "1-1"
-}
-]
-},
-{
-"code": "T0A6MZ",
-"at": 1794568518,
-"when": "Fri 13 Nov 12:15",
-"kind": "live \u2013 best of all",
-"odds": 1.39,
-"status": "won",
-"legs": [
-{
-"t": "Fri 11:00",
-"game": "Samara Kryliya Sovetov vs SKA-Khabarovsk Youth",
-"pick": "Samara Kryliya Sovetov or SKA-Khabarovsk Youth",
-"odds": 1.03,
-"ts": 1794564000.0,
-"r": "W",
-"sc": "3-1",
-"ht": "3-0"
-},
-{
-"t": "Fri 11:00",
-"game": "FC Prykarpattya Ivano-Frankivsk vs FC Kolos Kovalivka 2",
-"pick": "FC Kolos Kovalivka 2 Under 1.5",
-"odds": 1.04,
-"ts": 1794564000.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"pick": "Over 1.5",
-"odds": 1.3,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "1-1",
-"ht": ""
 }
 ]
 }
