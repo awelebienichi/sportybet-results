@@ -247,14 +247,20 @@
 "game": "NEC Nijmegen vs Rennes",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Thu 21:00",
 "game": "Crystal Palace vs Real Sociedad",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 }
 ]
 },
