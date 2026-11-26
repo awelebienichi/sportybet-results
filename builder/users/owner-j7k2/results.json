@@ -701,14 +701,17 @@
 "when": "Thu 26 Nov 10:45",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 2236.99,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 12:00",
 "game": "Uttaradit Saksiam FC vs Songkhla FC",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795690800.0
+"ts": 1795690800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Thu 13:00",
