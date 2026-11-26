@@ -80,12 +80,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-25",
-"code": "VVQGPY",
-"odds": 4.45,
+"date": "2026-11-26",
+"code": "JYX93R",
+"odds": 4.01,
 "stake": 1000.0,
-"n": 11,
-"result": "lost"
+"n": 10,
+"result": null
 },
 "started": "2026-11-24",
 "short": "lower",
