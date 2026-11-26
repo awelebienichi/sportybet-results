@@ -2,6 +2,15 @@
 "active": true,
 "history": [
 {
+"date": "2026-11-26",
+"day": 1,
+"code": "JYX93R",
+"stake": 1000.0,
+"odds": 4.01,
+"result": "lost",
+"returned": 0
+},
+{
 "date": "2026-11-25",
 "day": 1,
 "code": "VVQGPY",
@@ -85,7 +94,7 @@
 "odds": 4.01,
 "stake": 1000.0,
 "n": 10,
-"result": null
+"result": "lost"
 },
 "started": "2026-11-24",
 "short": "lower",

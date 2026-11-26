@@ -313,7 +313,7 @@
 "when": "Thu 26 Nov 17:04",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 6.38,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 18:20",
@@ -392,7 +392,7 @@
 "odds": 1.15,
 "ts": 1795723200.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-0"
 },
 {
@@ -400,7 +400,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 21:00",
@@ -1025,7 +1028,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 21:00",
@@ -1179,7 +1185,7 @@
 "when": "Thu 26 Nov 10:59",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 13.51,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 12:00",
@@ -1308,7 +1314,7 @@
 "odds": 1.15,
 "ts": 1795723200.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-0"
 },
 {
@@ -1316,7 +1322,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 21:00",
@@ -1530,7 +1539,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 21:00",
@@ -1557,7 +1569,7 @@
 "when": "Thu 26 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.01,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 12:00",
@@ -1636,7 +1648,7 @@
 "odds": 1.15,
 "ts": 1795723200.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-0"
 },
 {
@@ -1644,7 +1656,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 23:30",

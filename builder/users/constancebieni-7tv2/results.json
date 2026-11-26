@@ -430,7 +430,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 21:00",
@@ -439,7 +442,7 @@
 "odds": 1.16,
 "ts": 1795723200.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-0"
 },
 {
@@ -671,7 +674,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 21:00",
@@ -680,7 +686,7 @@
 "odds": 1.16,
 "ts": 1795723200.0,
 "r": "W",
-"sc": "2-2",
+"sc": "2-3",
 "ht": "2-0"
 },
 {
@@ -1615,7 +1621,10 @@
 "game": "Ferencvarosi Budapest vs NK Celje",
 "pick": "Ferencvarosi Budapest to score in 2nd half",
 "odds": 1.33,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:00",
