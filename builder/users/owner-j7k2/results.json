@@ -530,14 +530,17 @@
 "when": "Thu 26 Nov 11:49",
 "kind": "rebuild of Q6CHKB \u2013 safest market per game",
 "odds": 4988.82,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 15:20",
 "game": "Al-Salmiya SC vs AL Tadhamon",
 "pick": "Al-Salmiya SC to win",
 "odds": 1.56,
-"ts": 1795702800.0
+"ts": 1795702800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Thu 15:25",
