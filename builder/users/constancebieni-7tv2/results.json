@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "VPLY5N",
+"at": 1795710292,
+"when": "Thu 26 Nov 17:24",
+"kind": "Over 2.5 (lowest prices first)",
+"odds": 30.9,
+"status": "open",
+"legs": [
+{
+"t": "Thu 18:45",
+"game": "Ajax vs FC Thun",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Salzburg vs FC Ararat-Armenia",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Besiktas Istanbul vs Hapoel Be`er Sheva FC",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Brighton vs CS Universitatea Craiova",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Viktoria Plzen vs Benfica",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 18:45",
+"game": "Union Gilloise vs KKS Lech Poznan",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1795715100.0
+},
+{
+"t": "Thu 20:00",
+"game": "Stoke City U21 vs Milan Futuro",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795719600.0
+},
+{
+"t": "Thu 21:00",
+"game": "SCU Torreense vs Celtic",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795723200.0
+},
+{
+"t": "Thu 21:00",
+"game": "NEC Nijmegen vs Rennes",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795723200.0
+},
+{
+"t": "Thu 21:00",
+"game": "Crystal Palace vs Real Sociedad",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795723200.0
+}
+]
+},
+{
 "code": "U7EJ2C",
 "at": 1795617878,
 "when": "Wed 25 Nov 15:44",
