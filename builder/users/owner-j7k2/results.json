@@ -401,7 +401,7 @@
 "when": "Thu 26 Nov 11:53",
 "kind": "rebuild of Q6CHKB \u2013 tracker's best markets",
 "odds": 4831.39,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Thu 15:20",
@@ -425,7 +425,10 @@
 "game": "Cabrayil vs Moik Baku",
 "pick": "Goal bounds 2-5+",
 "odds": 1.2,
-"ts": 1795705200.0
+"ts": 1795705200.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:05",
@@ -713,7 +716,10 @@
 "game": "Cabrayil vs Moik Baku",
 "pick": "Double chance Moik Baku or draw",
 "odds": 1.47,
-"ts": 1795705200.0
+"ts": 1795705200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Thu 16:05",
