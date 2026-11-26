@@ -445,7 +445,10 @@
 "game": "FC Kairat Almaty vs Mjallby AIF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.28,
-"ts": 1795707000.0
+"ts": 1795707000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
@@ -739,7 +742,10 @@
 "game": "FC Kairat Almaty vs Mjallby AIF",
 "pick": "Double chance Mjallby AIF or draw",
 "odds": 1.64,
-"ts": 1795707000.0
+"ts": 1795707000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Thu 17:00",
