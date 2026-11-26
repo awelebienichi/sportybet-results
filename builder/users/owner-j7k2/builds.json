@@ -1,5 +1,25 @@
 [
 {
+"when": "Thu 26 Nov 11:02",
+"at": 1795687376,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-26"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwxdwa6uwtvp"
+},
+"ok": false,
+"msg": "Only 1 game(s) pass the checks for goal-fest teams (season data) (Thu 26) out of 98 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Thu 26 Nov 11:01",
 "at": 1795687299,
 "req": {
@@ -8866,207 +8886,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for Over 2.5 (strong teams in youth & women's leagues) (Tue 24, Wed 25) out of 163 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Tue 24 Nov 21:02",
-"at": 1795550564,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalmix",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-24",
-"2026-11-25"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwv4ez9mew3v"
-},
-"ok": true,
-"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
-"note": [
-"Only 3 Over 2.5 and 9 Over 1.5 legs passed (Tue 24, Wed 25); this ticket has 3 + 9 instead of 7 + 13. Tick more days for more.",
-"Chance all 12 legs win: about 6% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "YCS9AJ",
-"odds": 8.68,
-"legs": [
-{
-"t": "Wed 01:30",
-"game": "Sao Paulo FC SP vs Atletico Mineiro MG",
-"lg": "Brazil - U20 Copa do Brasil",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 75% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 85%",
-"ts": 1795566600.0,
-"eid": "sr:match:76515490",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76515490|18|total=1.5|12"
-},
-{
-"t": "Wed 11:00",
-"game": "Sigma Olomouc vs FC Banik Ostrava",
-"lg": "Czechia - U19 1. Liga",
-"pick": "Over 2.5",
-"odds": 1.31,
-"why": "season: 4.6 and 4.0 goals a game (14/13 games); last 10 rate 80%; Flashscore home/away form 65%, season: 4.3 goals a game",
-"ts": 1795600800.0,
-"eid": "sr:match:74828778",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74828778|18|total=2.5|12"
-},
-{
-"t": "Wed 11:00",
-"game": "Gamba Osaka vs Port FC",
-"lg": "International Clubs - AFC Champions League Elite",
-"pick": "Over 1.5",
-"odds": 1.11,
-"why": "TOP TIER: Over 1.5 in 80% / 100% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 80%, footybets 86%, FotMob: 5.0 goals a game",
-"ts": 1795600800.0,
-"eid": "sr:match:73836106",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73836106|18|total=1.5|12"
-},
-{
-"t": "Wed 11:00",
-"game": "V-Varen Nagasaki vs Kawasaki Frontale",
-"lg": "Japan - J1 League",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "TOP TIER: Over 1.5 in 80% / 90% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 85%, footybets 86%, FotMob: 3.1 goals a game, Vitibet tip 1-2, season: 3.1 goals a game",
-"ts": 1795600800.0,
-"eid": "sr:match:72149906",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72149906|18|total=1.5|12"
-},
-{
-"t": "Wed 11:00",
-"game": "Kashima Antlers vs Jeonbuk FC",
-"lg": "International Clubs - AFC Champions League Elite",
-"pick": "Over 1.5",
-"odds": 1.23,
-"why": "TOP TIER: Over 1.5 in 90% / 80% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 90%, footybets 89%, FotMob: 2.9 goals a game",
-"ts": 1795600800.0,
-"eid": "sr:match:73836104",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73836104|18|total=1.5|12"
-},
-{
-"t": "Wed 13:00",
-"game": "Lech II Poznan vs Baltyk Koszalin",
-"lg": "Poland - III Liga, Group 2",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "season: 4.7 and 2.8 goals a game (17/17 games); last 10 rate 75%; Flashscore home/away form 70%, season: 3.8 goals a game",
-"ts": 1795608000.0,
-"eid": "sr:match:76677910",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76677910|18|total=2.5|12"
-},
-{
-"t": "Wed 13:00",
-"game": "Deltras FC vs Persik Kediri",
-"lg": "Indonesia - League Cup",
-"pick": "Over 1.5",
-"odds": 1.21,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 90%",
-"ts": 1795608000.0,
-"eid": "sr:match:76076094",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76076094|18|total=1.5|12"
-},
-{
-"t": "Wed 20:00",
-"game": "RBC Roosendaal vs VV Gemert",
-"lg": "Netherlands - Derde Divisie",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "season: 4.3 and 3.8 goals a game (13/13 games); last 10 rate 78%; Flashscore home/away form 75%, season: 4.0 goals a game",
-"ts": 1795633200.0,
-"eid": "sr:match:76486868",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76486868|18|total=2.5|12"
-},
-{
-"t": "Wed 20:45",
-"game": "Hartlepool United vs Solihull Moors FC",
-"lg": "England - National League",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.4 goals; Flashscore home/away form 80%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game, CompactStats 81% (bookmaker 81%)",
-"ts": 1795635900.0,
-"eid": "sr:match:72740860",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72740860|18|total=1.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Club Brugge vs Liverpool",
-"lg": "International Clubs - UEFA Champions League",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 85%, footybets 83%, FotMob: 5.2 goals a game, Vitibet tip 1-2",
-"ts": 1795636800.0,
-"eid": "sr:match:74166038",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74166038|18|total=1.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "PSG vs Roma",
-"lg": "International Clubs - UEFA Champions League",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 85%, FotMob: 5.4 goals a game, Vitibet tip 3-1",
-"ts": 1795636800.0,
-"eid": "sr:match:74166046",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74166046|18|total=1.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Sporting vs Man Utd",
-"lg": "International Clubs - UEFA Champions League",
-"pick": "Over 1.5",
-"odds": 1.17,
-"why": "TOP TIER: Over 1.5 in 80% / 100% of the teams' last 10, 67% of 3 meetings, league avg 3.5 goals; Flashscore home/away form 90%, footybets 86%, FotMob: 3.5 goals a game",
-"ts": 1795636800.0,
-"eid": "sr:match:74166048",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74166048|18|total=1.5|12"
-}
-],
-"chance": 0.0641
-}
-]
 }
 ]
