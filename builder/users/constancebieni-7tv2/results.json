@@ -408,7 +408,10 @@
 "game": "Juventus vs AC Omonia Nicosia",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Thu 21:00",
@@ -643,7 +646,10 @@
 "game": "Juventus vs AC Omonia Nicosia",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Thu 21:00",
@@ -2382,7 +2388,10 @@
 "game": "Juventus vs AC Omonia Nicosia",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795723200.0
+"ts": 1795723200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
