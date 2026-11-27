@@ -3699,7 +3699,10 @@
 "game": "Cardiff Metropolitan University FC vs Airbus UK Broughton",
 "pick": "1st half double chance Cardiff Metropolitan University FC or draw",
 "odds": 1.29,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
@@ -3951,7 +3954,10 @@
 "game": "Glentoran FC vs Larne FC",
 "pick": "1st half Under 2.5",
 "odds": 1.09,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
@@ -3981,7 +3987,7 @@
 "odds": 1.16,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "3-0",
+"sc": "2-0",
 "ht": ""
 },
 {
@@ -5762,7 +5768,10 @@
 "game": "Glentoran FC vs Larne FC",
 "pick": "1st half double chance Glentoran FC or draw",
 "odds": 1.38,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
@@ -5994,7 +6003,7 @@
 "odds": 1.23,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-1"
 },
 {
@@ -6050,7 +6059,10 @@
 "game": "Glentoran FC vs Larne FC",
 "pick": "1st half Under 2.5",
 "odds": 1.09,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:45",
