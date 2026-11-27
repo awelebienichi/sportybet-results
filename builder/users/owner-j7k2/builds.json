@@ -1,5 +1,25 @@
 [
 {
+"when": "Fri 27 Nov 10:36",
+"at": 1795772196,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-26"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwyse97hhul9"
+},
+"ok": false,
+"msg": "Only 0 game(s) pass the checks for Over 2.5 (lowest prices first) (Thu 26) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
+},
+{
 "when": "Fri 27 Nov 10:34",
 "at": 1795772044,
 "req": {
@@ -9527,123 +9547,6 @@
 }
 ],
 "chance": 0.0187
-}
-]
-},
-{
-"when": "Wed 25 Nov 07:57",
-"at": 1795589838,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-25"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwvrt0eeoc7a"
-},
-"ok": true,
-"kind": "goal-fest teams (season data)",
-"note": [
-"Only 6 games passed the checks (Wed 25, 179 games on SportyBet), so this ticket has 6 legs instead of 50. Tick more days or use 'Relaxed' for more.",
-"Chance all 6 legs win: about 12%."
-],
-"tickets": [
-{
-"code": "T5AWDJ",
-"odds": 6.41,
-"legs": [
-{
-"t": "Wed 11:00",
-"game": "Sigma Olomouc vs FC Banik Ostrava",
-"lg": "Czechia - U19 1. Liga",
-"pick": "Over 2.5",
-"odds": 1.32,
-"why": "season: 4.6 and 4.0 goals a game (14/13 games); last 10 rate 80%; Flashscore home/away form 65%, season: 4.3 goals a game",
-"ts": 1795600800.0,
-"eid": "sr:match:74828778",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "74828778|18|total=2.5|12"
-},
-{
-"t": "Wed 13:00",
-"game": "Lech II Poznan vs Baltyk Koszalin",
-"lg": "Poland - III Liga, Group 2",
-"pick": "Over 2.5",
-"odds": 1.29,
-"why": "season: 4.7 and 2.8 goals a game (17/17 games); last 10 rate 75%; Flashscore home/away form 70%, season: 3.8 goals a game",
-"ts": 1795608000.0,
-"eid": "sr:match:76677910",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76677910|18|total=2.5|12"
-},
-{
-"t": "Wed 18:00",
-"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "season: 4.0 and 4.6 goals a game (9/9 games); last 10 rate 85%; season: 4.3 goals a game",
-"ts": 1795626000.0,
-"eid": "sr:match:76705576",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76705576|18|total=2.5|12"
-},
-{
-"t": "Wed 19:00",
-"game": "Americano RJ vs America FC RJ",
-"lg": "Brazil - U20 Carioca, Serie A2",
-"pick": "Over 2.5",
-"odds": 1.58,
-"why": "season: 5.0 and 3.2 goals a game (10/10 games); last 10 rate 70%; season: 4.1 goals a game",
-"ts": 1795629600.0,
-"eid": "sr:match:76712408",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76712408|18|total=2.5|12"
-},
-{
-"t": "Wed 20:00",
-"game": "RBC Roosendaal vs VV Gemert",
-"lg": "Netherlands - Derde Divisie",
-"pick": "Over 2.5",
-"odds": 1.33,
-"why": "season: 4.3 and 3.8 goals a game (13/13 games); last 10 rate 78%; Flashscore home/away form 75%, season: 4.0 goals a game",
-"ts": 1795633200.0,
-"eid": "sr:match:76486868",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76486868|18|total=2.5|12"
-},
-{
-"t": "Wed 23:00",
-"game": "Guerreros de Autlan vs Heroes de Zaci FC",
-"lg": "Mexico - Liga Premier Serie A",
-"pick": "Over 2.5",
-"odds": 1.28,
-"why": "season: 4.1 and 3.2 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 70%",
-"ts": 1795644000.0,
-"eid": "sr:match:77025114",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "77025114|18|total=2.5|12"
-}
-],
-"chance": 0.1164
 }
 ]
 }
