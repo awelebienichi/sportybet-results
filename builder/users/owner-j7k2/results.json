@@ -782,7 +782,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:15",
@@ -1539,7 +1542,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
@@ -3111,7 +3117,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -4699,8 +4708,8 @@
 "odds": 1.08,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -4857,7 +4866,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -4988,7 +5000,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -5377,7 +5392,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -7054,7 +7072,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:15",
@@ -7253,7 +7274,10 @@
 "game": "Fulham U21 vs Nottingham Forest U21",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:15",
