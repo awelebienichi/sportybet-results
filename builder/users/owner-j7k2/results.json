@@ -3650,7 +3650,10 @@
 "game": "CD Revilla vs Velarde CF",
 "pick": "Goal bounds 2-5+",
 "odds": 1.22,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -3947,7 +3950,10 @@
 "game": "CD Revilla vs Velarde CF",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -4118,8 +4124,8 @@
 "odds": 1.24,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:30",
@@ -6821,8 +6827,8 @@
 "odds": 1.25,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 23:00",
@@ -6940,7 +6946,10 @@
 "game": "Newport City FC vs Pontardawe Town FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.5,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
@@ -7111,7 +7120,10 @@
 "game": "Newport City FC vs Pontardawe Town FC",
 "pick": "Over 2.5",
 "odds": 1.5,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
@@ -7696,7 +7708,10 @@
 "game": "Maritimo Madeira vs Nacional da Madeira",
 "pick": "Half-time draw",
 "odds": 2.15,
-"ts": 1795810500.0
+"ts": 1795810500.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sun 05:00",
