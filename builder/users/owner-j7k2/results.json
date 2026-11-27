@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "YTGGLN",
+"at": 1795772458,
+"when": "Fri 27 Nov 10:40",
+"kind": "Over 2.5 (lowest prices first)",
+"odds": 8.36,
+"status": "open",
+"legs": [
+{
+"t": "Sat 00:00",
+"game": "Bolivia vs Uruguay",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 12:35",
+"game": "China vs Thailand",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795865700.0
+},
+{
+"t": "Sat 13:30",
+"game": "Aliaga Futbol vs Kastamonuspor",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al Sadd SC",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Liverpool U21 vs Birmingham City U21",
+"pick": "Over 2.5",
+"odds": 1.19,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bodoe/Glimt vs KFUM Oslo",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Brora Rangers",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:45",
+"game": "PSV Eindhoven vs Go Ahead Eagles",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795887900.0
+}
+]
+},
+{
 "code": "JYAUZV",
 "at": 1795772311,
 "when": "Fri 27 Nov 10:38",
@@ -83024,162 +83104,6 @@
 "pick": "Over/Under \u2013 Over 1.5",
 "odds": 1.18,
 "ts": 1794668400.0
-}
-]
-},
-{
-"code": "KFX1BQ",
-"at": 1794569351,
-"when": "Fri 13 Nov 12:29",
-"kind": "Over 1.5",
-"odds": 30.47,
-"status": "open",
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"pick": "Over 1.5",
-"odds": 1.12,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-2"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Helsingoer vs Holstebro BK",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-3",
-"ht": "2-2"
-},
-{
-"t": "Sat 06:00",
-"game": "Oita Trinita vs Tochigi City FC",
-"pick": "Over 1.5",
-"odds": 1.23,
-"ts": 1794632400.0
-},
-{
-"t": "Sat 12:00",
-"game": "Gornik Leczna vs KS Hutnik Krakow SSA",
-"pick": "Over 1.5",
-"odds": 1.2,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 14:30",
-"game": "Rijnsburgse Boys vs Koninklijke HFC",
-"pick": "Over 1.5",
-"odds": 1.11,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 14:30",
-"game": "US Albinoleffe vs Union Brescia",
-"pick": "Over 1.5",
-"odds": 1.32,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 15:00",
-"game": "IJsselmeervogels vs BVV Barendrecht",
-"pick": "Over 1.5",
-"odds": 1.11,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:15",
-"game": "Amsterdamsche FC vs De Treffers Groesbeek",
-"pick": "Over 1.5",
-"odds": 1.12,
-"ts": 1794665700.0
-},
-{
-"t": "Sat 16:00",
-"game": "Basingstoke Town FC vs Chippenham Town",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Salisbury FC vs Chichester City FC",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Weston-super-Mare vs Farnborough FC",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Eastleigh FC vs AFC Fylde",
-"pick": "Over 1.5",
-"odds": 1.14,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gloucester City vs Sholing FC",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Rochdale AFC vs York City FC",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Sheffield Wednesday vs Plymouth Argyle",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sun 12:00",
-"game": "AD Union Adarve vs Las Rozas CF",
-"pick": "Over 1.5",
-"odds": 1.32,
-"ts": 1794740400.0
-},
-{
-"t": "Sun 12:00",
-"game": "CD Aurrera de Vitoria vs SD Beasain",
-"pick": "Over 1.5",
-"odds": 1.31,
-"ts": 1794740400.0
-},
-{
-"t": "Sun 17:00",
-"game": "UD Sanse vs Rayo Ciudad Alcobendas",
-"pick": "Over 1.5",
-"odds": 1.19,
-"ts": 1794758400.0
-},
-{
-"t": "Sun 17:00",
-"game": "SD Leioa vs Real Sociedad C",
-"pick": "Over 1.5",
-"odds": 1.24,
-"ts": 1794758400.0
-},
-{
-"t": "Sun 17:30",
-"game": "Arsenal WFC vs London City Lionesses",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794760200.0
 }
 ]
 }
