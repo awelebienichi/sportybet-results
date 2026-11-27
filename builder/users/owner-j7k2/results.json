@@ -2,6 +2,93 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "QZX36Z",
+"at": 1795770020,
+"when": "Fri 27 Nov 10:00",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.64,
+"status": "open",
+"legs": [
+{
+"t": "Fri 13:30",
+"game": "Ethiopian Coffee SC vs Halaba Ketema",
+"pick": "1st half GG \u2013 No",
+"odds": 1.09,
+"ts": 1795782600.0
+},
+{
+"t": "Fri 13:45",
+"game": "Aluminium Arak vs Persepolis FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.1,
+"ts": 1795783500.0
+},
+{
+"t": "Fri 16:00",
+"game": "Malkiya Club vs Manama Club",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1795791600.0
+},
+{
+"t": "Fri 18:00",
+"game": "Dukla Prague vs FC Silon Taborsko",
+"pick": "1st half Under 2.5",
+"odds": 1.11,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Umraniyespor vs Manisa Futbol Kulubu",
+"pick": "1st half double chance Umraniyespor or draw",
+"odds": 1.27,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:30",
+"game": "Stellenbosch FC vs TS Galaxy FC",
+"pick": "1st half double chance Stellenbosch FC or draw",
+"odds": 1.16,
+"ts": 1795800600.0
+},
+{
+"t": "Fri 19:00",
+"game": "Hansa Rostock vs TSV Havelse",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong AZ Alkmaar vs TOP Oss",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Newport City FC vs Pontardawe Town FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 23:00",
+"game": "CA Atlanta vs Club Ciudad de Bolivar",
+"pick": "1st half double chance CA Atlanta or draw",
+"odds": 1.17,
+"ts": 1795816800.0
+}
+]
+},
+{
 "code": "N9QCZ4",
 "at": 1795731568,
 "when": "Thu 26 Nov 23:19",
@@ -83172,159 +83259,6 @@
 "pick": "Over 1.5",
 "odds": 1.22,
 "ts": 1794771900.0
-}
-]
-},
-{
-"code": "KCV0N1",
-"at": 1794569351,
-"when": "Fri 13 Nov 12:29",
-"kind": "Over 1.5",
-"odds": 35.37,
-"status": "open",
-"legs": [
-{
-"t": "Fri 14:00",
-"game": "Shillong Lajong FC vs Sreenidi Deccan FC",
-"pick": "Over 1.5",
-"odds": 1.23,
-"ts": 1794574800.0,
-"r": "W",
-"sc": "2-1",
-"ht": "0-0"
-},
-{
-"t": "Fri 20:30",
-"game": "Latina Calcio vs Campobasso FC",
-"pick": "Over 1.5",
-"odds": 1.34,
-"ts": 1794598200.0
-},
-{
-"t": "Sat 01:00",
-"game": "Ecuador vs Costa Rica",
-"pick": "Over 1.5",
-"odds": 1.23,
-"ts": 1794614400.0
-},
-{
-"t": "Sat 13:00",
-"game": "Ishoej IF vs Sundby BK",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"pick": "Over 1.5",
-"odds": 1.09,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 16:00",
-"game": "SD Eibar C vs CD Derio",
-"pick": "Over 1.5",
-"odds": 1.28,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Tottenham Hotspur FC vs Everton FC Women",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Enfield Town vs Spalding United",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Spennymoor Town FC vs Scarborough Athletic",
-"pick": "Over 1.5",
-"odds": 1.2,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Braintree Town FC vs Kettering Town",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"pick": "Over 1.5",
-"odds": 1.15,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Wingate & Finchley vs Hashtag United",
-"pick": "Over 1.5",
-"odds": 1.11,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Didcot Town vs Slough Town",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "AFC Wimbledon vs Blackpool FC",
-"pick": "Over 1.5",
-"odds": 1.25,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Folkestone Invicta vs Cray Wanderers",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 18:15",
-"game": "Brighton and Hove Albion WFC vs Liverpool LFC",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794676500.0
-},
-{
-"t": "Sat 20:30",
-"game": "Scotland vs Kosovo",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794684600.0
-},
-{
-"t": "Sun 06:00",
-"game": "FC Ska-Khabarovsk vs Leningradets",
-"pick": "Over 1.5",
-"odds": 1.32,
-"ts": 1794718800.0
-},
-{
-"t": "Sun 13:30",
-"game": "OFC Nesebar vs FC Fratria Varna",
-"pick": "Over 1.5",
-"odds": 1.24,
-"ts": 1794745800.0
-},
-{
-"t": "Sun 13:30",
-"game": "FK Buducnost Banovici vs NK TOSK Tesanj",
-"pick": "Over 1.5",
-"odds": 1.25,
-"ts": 1794745800.0
 }
 ]
 }
