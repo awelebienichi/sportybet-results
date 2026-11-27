@@ -4101,7 +4101,10 @@
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -4488,7 +4491,10 @@
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:30",
@@ -6288,7 +6294,10 @@
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
