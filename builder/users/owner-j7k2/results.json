@@ -1478,7 +1478,7 @@
 "when": "Fri 27 Nov 17:54",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 1560.35,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -1512,7 +1512,10 @@
 "game": "Denbigh Town vs Brickfield Rangers",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 02:00",
@@ -2160,7 +2163,7 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 31.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -2177,7 +2180,10 @@
 "game": "Denbigh Town vs Brickfield Rangers",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 11:00",
@@ -2923,7 +2929,10 @@
 "game": "Denbigh Town vs Brickfield Rangers",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 08:00",
