@@ -2,6 +2,51 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "MYH35V",
+"at": 1795764009,
+"when": "Fri 27 Nov 08:20",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 3.93,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Budapest Honved vs Puskas Akademia",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795773600.0
+},
+{
+"t": "Fri 14:30",
+"game": "US Cremonese vs Union Brescia",
+"pick": "Over 2.5",
+"odds": 1.47,
+"ts": 1795786200.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"pick": "Over 2.5",
+"odds": 1.13,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "KV Kortrijk vs RFC Seraing",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795807800.0
+}
+]
+},
+{
 "code": "SEV8JD",
 "at": 1795712382,
 "when": "Thu 26 Nov 17:59",
