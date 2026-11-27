@@ -605,7 +605,7 @@
 "odds": 1.17,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "4-0",
+"sc": "4-1",
 "ht": "3-0"
 },
 {
@@ -1098,7 +1098,10 @@
 "game": "Scunthorpe United vs Wealdstone FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -1299,7 +1302,10 @@
 "game": "Scunthorpe United vs Wealdstone FC",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
