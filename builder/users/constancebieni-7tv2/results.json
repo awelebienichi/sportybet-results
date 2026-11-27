@@ -624,7 +624,10 @@
 "game": "Jong FC Utrecht vs Almere City FC",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -1026,7 +1029,10 @@
 "game": "VVV Venlo vs RKC Waalwijk",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -1228,7 +1234,10 @@
 "game": "VVV Venlo vs RKC Waalwijk",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -2970,7 +2979,10 @@
 "game": "VVV Venlo vs RKC Waalwijk",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 }
 ]
 },

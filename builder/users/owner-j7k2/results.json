@@ -5410,7 +5410,10 @@
 "game": "Jong AZ Alkmaar vs TOP Oss",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -6391,7 +6394,10 @@
 "game": "Jong AZ Alkmaar vs TOP Oss",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -6494,7 +6500,10 @@
 "game": "Jong AZ Alkmaar vs TOP Oss",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -6731,7 +6740,10 @@
 "game": "Jong FC Utrecht vs Almere City FC",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -6903,7 +6915,10 @@
 "game": "Jong FC Utrecht vs Almere City FC",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
