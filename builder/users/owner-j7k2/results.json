@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "S9CGMR",
+"at": 1795814950,
+"when": "Fri 27 Nov 22:29",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 754.93,
+"status": "open",
+"legs": [
+{
+"t": "Fri 23:00",
+"game": "CA Atlanta vs Club Ciudad de Bolivar",
+"pick": "Under 2.5",
+"odds": 1.38,
+"ts": 1795816800.0
+},
+{
+"t": "Sat 00:00",
+"game": "Vila Nova FC GO vs AC Goianiense GO",
+"pick": "Under 2.5",
+"odds": 1.47,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 01:00",
+"game": "CSD Tristan Suarez vs Gimnasia Y Tiro de Salta",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1795824000.0
+},
+{
+"t": "Sat 01:00",
+"game": "Deportivo Moron vs Colon de Santa Fe",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795824000.0
+},
+{
+"t": "Sat 13:00",
+"game": "A Sakiet Edayer vs Stade Tunisien",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 13:30",
+"game": "Ethio Electric vs Hadiya Hossana FC",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 13:30",
+"game": "Civil Service United FC vs Mitundu Baptist",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Roan United vs Nkwazi",
+"pick": "Under 2.5",
+"odds": 1.34,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Red Lions vs Karonga United FC",
+"pick": "Under 2.5",
+"odds": 1.42,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bugesera FC vs Gicumbi FC",
+"pick": "Under 2.5",
+"odds": 1.5,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Leicesterford City vs Hope FC",
+"pick": "Under 2.5",
+"odds": 1.53,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 14:30",
+"game": "Cape Town City FC vs Venda Football Academy",
+"pick": "Under 2.5",
+"odds": 1.53,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Police Xi vs Sua Flamingoes",
+"pick": "Under 2.5",
+"odds": 1.48,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "Petroleos Do Lobito vs CD Sao Salvador",
+"pick": "Under 2.5",
+"odds": 1.42,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Pontevedra CF B vs Celtiga CF",
+"pick": "Under 2.5",
+"odds": 1.71,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:30",
+"game": "ASC Diambars vs ASC Jaraaf",
+"pick": "Under 2.5",
+"odds": 1.26,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 17:30",
+"game": "Ajel de Rufisque vs US Ouakam",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "US Goree vs Teungueth FC",
+"pick": "Under 2.5",
+"odds": 1.27,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Dakar Sacre Coeur vs Casa Sport",
+"pick": "Under 2.5",
+"odds": 1.28,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "AS Pikine vs Stade de Mbour",
+"pick": "Under 2.5",
+"odds": 1.29,
+"ts": 1795885200.0
+}
+]
+},
+{
 "code": "Q4JQA0",
 "at": 1795814792,
 "when": "Fri 27 Nov 22:26",
@@ -4358,7 +4508,7 @@
 "odds": 1.09,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -6259,7 +6409,7 @@
 "odds": 1.38,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -6580,7 +6730,7 @@
 "odds": 1.09,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -85154,86 +85304,6 @@
 "r": "L",
 "sc": "0-0",
 "ht": "0-0"
-}
-]
-},
-{
-"code": "T2RML2",
-"at": 1794606801,
-"when": "Fri 13 Nov 22:53",
-"kind": "goal-fest teams (season data)",
-"odds": 8.23,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 10:15",
-"game": "Bridlicna vs Opava B",
-"pick": "Over 2.5",
-"odds": 1.42,
-"ts": 1794647700.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-2"
-},
-{
-"t": "Sat 10:15",
-"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
-"pick": "Over 2.5",
-"odds": 1.35,
-"ts": 1794647700.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 11:00",
-"game": "MFK Chrudim vs FK Jablonec B",
-"pick": "Over 2.5",
-"odds": 1.41,
-"ts": 1794650400.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-2"
-},
-{
-"t": "Sat 11:45",
-"game": "SFC Opava vs FC Pardubice",
-"pick": "Over 2.5",
-"odds": 1.28,
-"ts": 1794653100.0,
-"r": "W",
-"sc": "5-1",
-"ht": "2-0"
-},
-{
-"t": "Sat 12:00",
-"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794654000.0,
-"r": "W",
-"sc": "3-2",
-"ht": "1-1"
-},
-{
-"t": "Sat 12:00",
-"game": "Real Betis Balompie vs Cadiz CF",
-"pick": "Over 2.5",
-"odds": 1.38,
-"ts": 1794654000.0,
-"r": "L",
-"sc": "0-0",
-"ht": ""
-},
-{
-"t": "Sat 13:00",
-"game": "Koldingq vs FC Nordsjaelland",
-"pick": "Over 2.5",
-"odds": 1.24,
-"ts": 1794657600.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-2"
 }
 ]
 }
