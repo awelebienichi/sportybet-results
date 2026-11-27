@@ -1,5 +1,177 @@
 [
 {
+"when": "Fri 27 Nov 14:41",
+"at": 1795786863,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-29"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwz14342dlkz"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Chance all 10 legs win: about 3%."
+],
+"tickets": [
+{
+"code": "V272Z9",
+"odds": 21.94,
+"legs": [
+{
+"t": "Sun 08:00",
+"game": "Kowloon City vs Eastern District",
+"lg": "Hong Kong, China - Premier League",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "season: 3.4 and 3.7 goals a game (7/7 games); last 10 rate 90%",
+"ts": 1795935600.0,
+"eid": "sr:match:73296506",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73296506|18|total=2.5|12"
+},
+{
+"t": "Sun 12:00",
+"game": "JKS 1909 Jaroslaw vs KS Wisloka Debica",
+"lg": "Poland - III Liga, Group 4",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "season: 3.8 and 3.0 goals a game (18/18 games); last 10 rate 85%",
+"ts": 1795950000.0,
+"eid": "sr:match:72517424",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72517424|18|total=2.5|12"
+},
+{
+"t": "Sun 12:15",
+"game": "FC Volendam vs FC Eindhoven",
+"lg": "Netherlands - Eerste Divisie",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "season: 4.0 and 3.6 goals a game (16/16 games); last 10 rate 80%; FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795950900.0,
+"eid": "sr:match:72044866",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72044866|18|total=2.5|12"
+},
+{
+"t": "Sun 12:30",
+"game": "Young Lions FC vs Lion City Sailors FC",
+"lg": "Singapore - Premier League",
+"pick": "Over 2.5",
+"odds": 1.13,
+"why": "season: 4.7 and 4.7 goals a game (7/6 games); last 10 rate 70%; FotMob: 4.7 goals a game, Vitibet tip 1-5, season: 4.7 goals a game",
+"ts": 1795951800.0,
+"eid": "sr:match:73550158",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73550158|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "US Rumelange vs Un Kaerjeng 97",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "season: 4.4 and 4.3 goals a game (13/13 games); last 10 rate 95%; FotMob: 4.3 goals a game, season: 4.3 goals a game",
+"ts": 1795964400.0,
+"eid": "sr:match:72963870",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963870|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Residence Walferdange vs RFC Union Luxembourg",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.37,
+"why": "season: 3.8 and 3.7 goals a game (13/13 games); last 10 rate 85%; FotMob: 3.7 goals a game, season: 3.7 goals a game",
+"ts": 1795964400.0,
+"eid": "sr:match:72963866",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963866|18|total=2.5|12"
+},
+{
+"t": "Sun 16:00",
+"game": "Atert Bissen vs FC Differdange 03",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 2.5",
+"odds": 1.54,
+"why": "season: 4.0 and 4.0 goals a game (13/13 games); last 10 rate 90%; FotMob: 4.0 goals a game, season: 4.0 goals a game",
+"ts": 1795964400.0,
+"eid": "sr:match:72963878",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72963878|18|total=2.5|12"
+},
+{
+"t": "Sun 17:00",
+"game": "SK Brann vs Kristiansund BK",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 3.6 and 3.1 goals a game (27/27 games); last 10 rate 80%",
+"ts": 1795968000.0,
+"eid": "sr:match:67015484",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "67015484|18|total=2.5|12"
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"lg": "Germany - Bundesliga",
+"pick": "Over 2.5",
+"odds": 1.3,
+"why": "season: 3.4 and 4.4 goals a game (10/10 games); last 10 rate 80%; FotMob: 3.9 goals a game, season: 3.9 goals a game",
+"ts": 1795969800.0,
+"eid": "sr:match:72513332",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72513332|18|total=2.5|12"
+},
+{
+"t": "Sun 18:00",
+"game": "Roma vs Monza",
+"lg": "Italy - Serie A",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "season: 3.9 and 3.8 goals a game (12/12 games); last 10 rate 90%; FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795971600.0,
+"eid": "sr:match:71945436",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "71945436|18|total=2.5|12"
+}
+],
+"chance": 0.028
+}
+]
+},
+{
 "when": "Fri 27 Nov 14:39",
 "at": 1795786774,
 "req": {
@@ -9136,179 +9308,6 @@
 }
 ],
 "chance": 0.4406
-}
-]
-},
-{
-"when": "Wed 25 Nov 16:00",
-"at": 1795618812,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalmix",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-25"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mww921icjoa2"
-},
-"ok": true,
-"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
-"note": [
-"Only 4 Over 2.5 and 6 Over 1.5 legs passed (Wed 25); this ticket has 4 + 6 instead of 18 + 32. Tick more days for more.",
-"Chance all 10 legs win: about 7%."
-],
-"tickets": [
-{
-"code": "GPTTS7",
-"odds": 8.29,
-"legs": [
-{
-"t": "Wed 17:00",
-"game": "FC Hradec Kralove vs Kairat Almaty",
-"lg": "International Youth - UEFA Youth League",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, league avg 4.4 goals; Flashscore home/away form 95%",
-"ts": 1795622400.0,
-"eid": "sr:match:76573536",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76573536|18|total=1.5|12"
-},
-{
-"t": "Wed 18:00",
-"game": "CD Longuera Toscal vs Cef Puertos de Las Palmas",
-"lg": "Spain - U19 Division de Honor Juvenil",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "season: 4.0 and 4.6 goals a game (9/9 games); last 10 rate 85%; season: 4.3 goals a game",
-"ts": 1795626000.0,
-"eid": "sr:match:76705576",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76705576|18|total=2.5|12"
-},
-{
-"t": "Wed 18:00",
-"game": "TSG Hoffenheim vs PAOK Thessaloniki",
-"lg": "International Youth - UEFA Youth League",
-"pick": "Over 1.5",
-"odds": 1.12,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 4.4 goals; Flashscore home/away form 95%",
-"ts": 1795626000.0,
-"eid": "sr:match:76573542",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76573542|18|total=1.5|12"
-},
-{
-"t": "Wed 19:00",
-"game": "Americano RJ vs America FC RJ",
-"lg": "Brazil - U20 Carioca, Serie A2",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "season: 5.0 and 3.2 goals a game (10/10 games); last 10 rate 70%; season: 4.1 goals a game",
-"ts": 1795629600.0,
-"eid": "sr:match:76712408",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76712408|18|total=2.5|12"
-},
-{
-"t": "Wed 20:00",
-"game": "RBC Roosendaal vs VV Gemert",
-"lg": "Netherlands - Derde Divisie",
-"pick": "Over 2.5",
-"odds": 1.4,
-"why": "season: 4.3 and 3.8 goals a game (13/13 games); last 10 rate 78%; Flashscore home/away form 75%, season: 4.0 goals a game",
-"ts": 1795633200.0,
-"eid": "sr:match:76486868",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76486868|18|total=2.5|12"
-},
-{
-"t": "Wed 20:45",
-"game": "Hartlepool United vs Solihull Moors FC",
-"lg": "England - National League",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.4 goals; Flashscore home/away form 80%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game, CompactStats 81% (bookmaker 81%)",
-"ts": 1795635900.0,
-"eid": "sr:match:72740860",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72740860|18|total=1.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Club Brugge vs Liverpool",
-"lg": "International Clubs - UEFA Champions League",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 85%, footybets 83%, FotMob: 5.2 goals a game, Vitibet tip 1-2",
-"ts": 1795636800.0,
-"eid": "sr:match:74166038",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74166038|18|total=1.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "PSG vs Roma",
-"lg": "International Clubs - UEFA Champions League",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 85%, FotMob: 5.4 goals a game, Vitibet tip 3-1",
-"ts": 1795636800.0,
-"eid": "sr:match:74166046",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74166046|18|total=1.5|12"
-},
-{
-"t": "Wed 21:00",
-"game": "Sporting vs Man Utd",
-"lg": "International Clubs - UEFA Champions League",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "TOP TIER: Over 1.5 in 80% / 100% of the teams' last 10, 67% of 3 meetings, league avg 3.5 goals; Flashscore home/away form 90%, footybets 86%, FotMob: 3.5 goals a game",
-"ts": 1795636800.0,
-"eid": "sr:match:74166048",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74166048|18|total=1.5|12"
-},
-{
-"t": "Wed 23:00",
-"game": "Guerreros de Autlan vs Heroes de Zaci FC",
-"lg": "Mexico - Liga Premier Serie A",
-"pick": "Over 2.5",
-"odds": 1.27,
-"why": "season: 4.1 and 3.2 goals a game (12/12 games); last 10 rate 70%; Flashscore home/away form 70%",
-"ts": 1795644000.0,
-"eid": "sr:match:77025114",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "77025114|18|total=2.5|12"
-}
-],
-"chance": 0.0741
 }
 ]
 }
