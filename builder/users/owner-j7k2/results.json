@@ -5369,7 +5369,10 @@
 "game": "Grazer AK 1902 vs SCR Altach",
 "pick": "1st half double chance Grazer AK 1902 or draw",
 "odds": 1.4,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 19:30",
