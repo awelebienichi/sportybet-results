@@ -1285,14 +1285,17 @@
 "when": "Thu 26 Nov 23:06",
 "kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
 "odds": 170.85,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 12:00",
 "game": "MKS Korona Kielce vs Wisla Krakow",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795777200.0
+"ts": 1795777200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:00",
@@ -1465,7 +1468,10 @@
 "game": "MKS Korona Kielce vs Wisla Krakow",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795777200.0
+"ts": 1795777200.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:15",
