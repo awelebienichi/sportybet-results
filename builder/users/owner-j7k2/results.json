@@ -222,7 +222,10 @@
 "game": "KV Kortrijk vs RFC Seraing",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 00:00",
@@ -1838,7 +1841,10 @@
 "game": "KV Kortrijk vs RFC Seraing",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 10:15",
@@ -2736,7 +2742,10 @@
 "game": "KV Kortrijk vs RFC Seraing",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -3566,7 +3575,7 @@
 "odds": 1.1,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -3991,7 +4000,10 @@
 "game": "Llanelli Town vs Cardiff Draconians",
 "pick": "1st half Over 0.5",
 "odds": 1.19,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -5626,7 +5638,7 @@
 "odds": 1.1,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
