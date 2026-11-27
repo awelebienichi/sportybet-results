@@ -1505,7 +1505,10 @@
 "game": "Hapoel Kfar Shalem FC vs Hapoel Kfar Saba FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795784400.0
+"ts": 1795784400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -1612,7 +1615,10 @@
 "game": "Hapoel Kfar Shalem FC vs Hapoel Kfar Saba FC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795784400.0
+"ts": 1795784400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
