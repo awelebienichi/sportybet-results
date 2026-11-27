@@ -5795,7 +5795,10 @@
 "game": "Jong KRC Genk vs RSC Anderlecht Futures",
 "pick": "Jong KRC Genk or GG",
 "odds": 1.15,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-5",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
