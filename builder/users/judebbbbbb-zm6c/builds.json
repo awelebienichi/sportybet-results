@@ -1,5 +1,195 @@
 [
 {
+"when": "Fri 27 Nov 01:45",
+"at": 1795740319,
+"req": {
+"u": "judebbbbbb-zm6c",
+"name": "Jude Bbbbbb",
+"type": "markets",
+"legs": 30,
+"tickets": 1,
+"days": [
+"2026-11-27"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"o25"
+],
+"rid": "mwy9e4ziegil"
+},
+"ok": true,
+"kind": "your chosen markets",
+"note": [
+"Only 11 games passed the checks (Fri 27, 250 games on SportyBet), so this ticket has 11 legs instead of 30. Tick more days or use 'Relaxed' for more.",
+"Chance all 11 legs win: about 2% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "L6R2P7",
+"odds": 25.41,
+"legs": [
+{
+"t": "Fri 09:30",
+"game": "Broadmeadow Magic FC vs Lions FC",
+"lg": "Australia - Australian Championship",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 75%",
+"ts": 1795768200.0,
+"eid": "sr:match:77065630",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "77065630|18|total=2.5|12"
+},
+{
+"t": "Fri 13:15",
+"game": "Brunei DPMM FC vs Kelantan Red Warrior FC",
+"lg": "Malaysia - Super League",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "stats rate 85% from both teams' last 10; Flashscore home/away form 65%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1795781700.0,
+"eid": "sr:match:73062438",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73062438|18|total=2.5|12"
+},
+{
+"t": "Fri 14:00",
+"game": "Hapoel Kfar Shalem FC vs Hapoel Kfar Saba FC",
+"lg": "Israel - National League",
+"pick": "Over 2.5",
+"odds": 1.43,
+"why": "stats rate 82% from both teams' last 10 and 7 meetings; Flashscore home/away form 65%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
+"ts": 1795784400.0,
+"eid": "sr:match:72284206",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72284206|18|total=2.5|12"
+},
+{
+"t": "Fri 17:30",
+"game": "ZKS Stal Stalowa Wola vs Legia Warszawa II",
+"lg": "Poland - II Liga",
+"pick": "Over 2.5",
+"odds": 1.56,
+"why": "stats rate 80% from both teams' last 10; Flashscore home/away form 75%, FotMob: 3.6 goals a game",
+"ts": 1795797000.0,
+"eid": "sr:match:72398856",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72398856|18|total=2.5|12"
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.13,
+"why": "stats rate 89% from both teams' last 10; Flashscore home/away form 65%, season: 5.2 goals a game",
+"ts": 1795804200.0,
+"eid": "sr:match:73831516",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73831516|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 80%, FotMob: 4.5 goals a game, season: 4.5 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:73603154",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603154|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Manchester City U21 vs West Bromwich Albion FC U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.17,
+"why": "stats rate 75% from both teams' last 10 and 5 meetings; Flashscore home/away form 85%, FotMob: 5.3 goals a game, Vitibet tip 3-1",
+"ts": 1795806000.0,
+"eid": "sr:match:73603152",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603152|18|total=2.5|12"
+},
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "stats rate 82% from both teams' last 10 and 6 meetings; Flashscore home/away form 95%, FotMob: 4.4 goals a game, season: 4.4 goals a game",
+"ts": 1795806000.0,
+"eid": "sr:match:73603150",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603150|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"lg": "Belgium - U21 Pro League",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "stats rate 89% from both teams' last 10 and 8 meetings; Flashscore home/away form 95%, season: 4.1 goals a game",
+"ts": 1795807800.0,
+"eid": "sr:match:73831524",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73831524|18|total=2.5|12"
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 2.5",
+"odds": 1.47,
+"why": "stats rate 78% from both teams' last 10 and 4 meetings; Flashscore home/away form 80%, season: 4.3 goals a game",
+"ts": 1795807800.0,
+"eid": "sr:match:72546190",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72546190|18|total=2.5|12"
+},
+{
+"t": "Fri 20:45",
+"game": "Coleraine FC vs Dungannon Swifts",
+"lg": "Northern Ireland - Premiership",
+"pick": "Over 2.5",
+"odds": 1.49,
+"why": "stats rate 79% from both teams' last 10 and 8 meetings; Flashscore home/away form 50%, Vitibet tip 3-1",
+"ts": 1795808700.0,
+"eid": "sr:match:72346438",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72346438|18|total=2.5|12"
+}
+],
+"chance": 0.023
+}
+]
+},
+{
 "when": "Mon 16 Nov 08:04",
 "at": 1794812646,
 "req": {
@@ -9023,25 +9213,5 @@
 ]
 }
 ]
-},
-{
-"when": "Thu 12 Nov 06:40",
-"at": 1794462000,
-"req": {
-"u": "judebbbbbb-zm6c",
-"name": "Jude Bbbbbb",
-"type": "u25",
-"legs": 50,
-"tickets": 1,
-"days": [
-"2026-11-12"
-],
-"strict": "relaxed",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwd4aoxpjb9i"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for Under 2.5 (low-scoring leagues) (Thu 12) out of 92 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
