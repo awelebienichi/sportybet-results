@@ -7,14 +7,17 @@
 "when": "Fri 27 Nov 01:45",
 "kind": "your chosen markets",
 "odds": 25.41,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 09:30",
 "game": "Broadmeadow Magic FC vs Lions FC",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795768200.0
+"ts": 1795768200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:15",
