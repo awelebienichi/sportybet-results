@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Q4JQA0",
+"at": 1795814792,
+"when": "Fri 27 Nov 22:26",
+"kind": "Under 2.5 (low-scoring leagues)",
+"odds": 588.41,
+"status": "open",
+"legs": [
+{
+"t": "Fri 23:00",
+"game": "CA Atlanta vs Club Ciudad de Bolivar",
+"pick": "Under 2.5",
+"odds": 1.38,
+"ts": 1795816800.0
+},
+{
+"t": "Sat 00:00",
+"game": "Vila Nova FC GO vs AC Goianiense GO",
+"pick": "Under 2.5",
+"odds": 1.47,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 01:00",
+"game": "CSD Tristan Suarez vs Gimnasia Y Tiro de Salta",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1795824000.0
+},
+{
+"t": "Sat 01:00",
+"game": "Deportivo Moron vs Colon de Santa Fe",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795824000.0
+},
+{
+"t": "Sat 13:00",
+"game": "A Sakiet Edayer vs Stade Tunisien",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 13:30",
+"game": "Ethio Electric vs Hadiya Hossana FC",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 13:30",
+"game": "Civil Service United FC vs Mitundu Baptist",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Roan United vs Nkwazi",
+"pick": "Under 2.5",
+"odds": 1.34,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "CA Bizertin vs ES Zarzis",
+"pick": "Under 2.5",
+"odds": 1.36,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Red Lions vs Karonga United FC",
+"pick": "Under 2.5",
+"odds": 1.42,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Musanze FC vs Al-Merrikh SC (SDN)",
+"pick": "Under 2.5",
+"odds": 1.47,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Leicesterford City vs Hope FC",
+"pick": "Under 2.5",
+"odds": 1.53,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 14:30",
+"game": "Cape Town City FC vs Venda Football Academy",
+"pick": "Under 2.5",
+"odds": 1.53,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Police Xi vs Sua Flamingoes",
+"pick": "Under 2.5",
+"odds": 1.48,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "Petroleos Do Lobito vs CD Sao Salvador",
+"pick": "Under 2.5",
+"odds": 1.42,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 17:30",
+"game": "ASC Diambars vs ASC Jaraaf",
+"pick": "Under 2.5",
+"odds": 1.26,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 17:30",
+"game": "Ajel de Rufisque vs US Ouakam",
+"pick": "Under 2.5",
+"odds": 1.32,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "US Goree vs Teungueth FC",
+"pick": "Under 2.5",
+"odds": 1.27,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Dakar Sacre Coeur vs Casa Sport",
+"pick": "Under 2.5",
+"odds": 1.28,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "AS Pikine vs Stade de Mbour",
+"pick": "Under 2.5",
+"odds": 1.29,
+"ts": 1795885200.0
+}
+]
+},
+{
 "code": "WEQF5A",
 "at": 1795814692,
 "when": "Fri 27 Nov 22:24",
@@ -380,7 +530,7 @@
 "odds": 1.37,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -2035,7 +2185,7 @@
 "odds": 1.37,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -2960,7 +3110,7 @@
 "odds": 1.37,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -3815,7 +3965,7 @@
 "odds": 1.1,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -4124,7 +4274,7 @@
 "odds": 1.43,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -6082,7 +6232,7 @@
 "odds": 1.1,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -6390,7 +6540,7 @@
 "odds": 1.06,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "3-4",
+"sc": "3-5",
 "ht": "1-4"
 },
 {
@@ -85081,165 +85231,6 @@
 "r": "W",
 "sc": "1-2",
 "ht": "0-2"
-}
-]
-},
-{
-"code": "U4V4LJ",
-"at": 1794606595,
-"when": "Fri 13 Nov 22:49",
-"kind": "your tracker's best markets",
-"odds": 95.03,
-"status": "open",
-"legs": [
-{
-"t": "Sat 02:00",
-"game": "Peru vs Bolivia",
-"pick": "Goal bounds 2-5+",
-"odds": 1.36,
-"ts": 1794618000.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Sat 12:00",
-"game": "Czechia vs Croatia",
-"pick": "1st half double chance Czechia or draw",
-"odds": 1.35,
-"ts": 1794654000.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Sat 13:30",
-"game": "Marek Dupnica vs PFC Chernomorets Burgas",
-"pick": "Goal bounds 2-5+",
-"odds": 1.36,
-"ts": 1794659400.0,
-"r": "W",
-"sc": "1-3",
-"ht": ""
-},
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"pick": "1st half double chance GVVV Veenendaal or draw",
-"odds": 1.41,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 14:30",
-"game": "US Albinoleffe vs Union Brescia",
-"pick": "Goal bounds 2-5+",
-"odds": 1.32,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"pick": "Llantwit Major or GG",
-"odds": 1.17,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Swindon Town vs Grimsby Town",
-"pick": "1st half double chance Swindon Town or draw",
-"odds": 1.45,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
-"pick": "Goal bounds 2-5+",
-"odds": 1.21,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gateshead FC vs Barrow AFC",
-"pick": "Barrow AFC to win (1UP)",
-"odds": 1.29,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Finland vs Iceland",
-"pick": "1st half double chance Finland or draw",
-"odds": 1.28,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "SD Eibar C vs CD Derio",
-"pick": "Goal bounds 2-5+",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Halesowen Town FC vs Redditch United",
-"pick": "Halesowen Town FC or GG",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 17:00",
-"game": "Uganda vs Botswana",
-"pick": "Uganda or GG",
-"odds": 1.2,
-"ts": 1794672000.0
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.2,
-"ts": 1794677400.0
-},
-{
-"t": "Sat 19:00",
-"game": "CD Noblejas vs CD Quintanar del Rey",
-"pick": "Goal bounds 2-5+",
-"odds": 1.31,
-"ts": 1794679200.0
-},
-{
-"t": "Sat 19:30",
-"game": "CD Armenio vs CS Italiano",
-"pick": "1st half double chance CD Armenio or draw",
-"odds": 1.23,
-"ts": 1794681000.0
-},
-{
-"t": "Sat 20:00",
-"game": "Almere City FC vs Helmond Sport",
-"pick": "1st half double chance Almere City FC or draw",
-"odds": 1.16,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 20:00",
-"game": "CA Temperley vs Club Ciudad de Bolivar",
-"pick": "1st half double chance CA Temperley or draw",
-"odds": 1.15,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 20:30",
-"game": "Scotland vs Kosovo",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"ts": 1794684600.0
-},
-{
-"t": "Sat 20:45",
-"game": "Portugal vs Denmark",
-"pick": "1st half double chance Portugal or draw",
-"odds": 1.17,
-"ts": 1794685500.0
 }
 ]
 }
