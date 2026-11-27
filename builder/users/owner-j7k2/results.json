@@ -3538,7 +3538,10 @@
 "game": "MVV Maastricht vs Jong PSV Eindhoven",
 "pick": "1st half double chance MVV Maastricht or draw",
 "odds": 1.29,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:15",
@@ -3799,7 +3802,10 @@
 "game": "MVV Maastricht vs Jong PSV Eindhoven",
 "pick": "1st half Under 2.5",
 "odds": 1.2,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 20:15",
@@ -4601,7 +4607,10 @@
 "game": "WKW ETO FC Gyor vs Debreceni VSC",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -4799,7 +4808,10 @@
 "game": "WKW ETO FC Gyor vs Debreceni VSC",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -5504,7 +5516,7 @@
 "odds": 1.35,
 "ts": 1795804200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "1-1"
 },
 {
