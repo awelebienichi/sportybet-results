@@ -1579,14 +1579,17 @@
 "when": "Thu 26 Nov 17:13",
 "kind": "half-time draw \u2013 weak teams",
 "odds": 2064531.64,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 11:30",
 "game": "Imisli FK vs Safa",
 "pick": "Half-time draw",
 "odds": 2.05,
-"ts": 1795775400.0
+"ts": 1795775400.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-2"
 },
 {
 "t": "Fri 13:30",
