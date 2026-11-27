@@ -5552,7 +5552,7 @@
 "odds": 1.23,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": ""
 },
 {
@@ -5812,7 +5812,10 @@
 "game": "Jong KRC Genk vs RSC Anderlecht Futures",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
