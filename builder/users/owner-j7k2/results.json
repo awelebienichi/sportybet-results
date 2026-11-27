@@ -4252,14 +4252,20 @@
 "game": "Briton Ferry vs Pen-y-Bont FC",
 "pick": "Pen-y-Bont FC to win (1UP)",
 "odds": 1.35,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:45",
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "Cambrian United to win (1UP)",
 "odds": 1.39,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
