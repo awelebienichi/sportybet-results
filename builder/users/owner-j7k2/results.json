@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "VXSPHE",
+"at": 1795786774,
+"when": "Fri 27 Nov 14:39",
+"kind": "goal-fest teams (season data)",
+"odds": 25.41,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs FAC Wien Amateure",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "SC Wiedenbruck vs 1. FC Cologne II",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs BVV Barendrecht",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Redcar Athletic FC vs Workington AFC",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Vaduz vs FC Zurich",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Charlotte FC vs Chicago Fire",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795896000.0
+}
+]
+},
+{
 "code": "TM8PE8",
 "at": 1795786699,
 "when": "Fri 27 Nov 14:38",
@@ -1004,7 +1084,7 @@
 "odds": 1.09,
 "ts": 1795782600.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -1012,7 +1092,10 @@
 "game": "Aluminium Arak vs Persepolis FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.1,
-"ts": 1795783500.0
+"ts": 1795783500.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 16:00",
@@ -1705,7 +1788,7 @@
 "odds": 1.84,
 "ts": 1795782600.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -82858,116 +82941,6 @@
 "ts": 1794571200.0,
 "r": "W",
 "sc": "1-2",
-"ht": "1-0"
-}
-]
-},
-{
-"code": "P33LTM",
-"at": 1794572152,
-"when": "Fri 13 Nov 13:15",
-"kind": "live \u2013 best of all",
-"odds": 3.1,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
-"pick": "Under 2.5",
-"odds": 1.06,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"pick": "Stinta Poli Timisoara 2 or draw",
-"odds": 1.06,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "1-1",
-"ht": ""
-},
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"pick": "Nafta 1903 Lendava Under 2.5",
-"odds": 1.09,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Fri 12:30",
-"game": "Turun Palloseura vs Tampereen Ilves",
-"pick": "Tampereen Ilves or draw",
-"odds": 1.06,
-"ts": 1794569400.0,
-"r": "L",
-"sc": "2-1",
-"ht": ""
-},
-{
-"t": "Fri 13:00",
-"game": "SC FC Voluntari II vs ACS Progresul Mogosoaia",
-"pick": "SC FC Voluntari II or ACS Progresul Mogosoaia",
-"odds": 1.04,
-"ts": 1794571200.0,
-"r": "W",
-"sc": "3-2",
-"ht": ""
-},
-{
-"t": "Fri 13:00",
-"game": "KF Tefik Canga vs KF Vjosa",
-"pick": "Handicap 0:3 \u2013 KF Vjosa",
-"odds": 1.15,
-"ts": 1794571200.0,
-"r": "W",
-"sc": "3-2",
-"ht": ""
-},
-{
-"t": "Fri 13:00",
-"game": "CSO Cugir vs CSC Ghiroda SI Giarmata Vii",
-"pick": "CSC Ghiroda SI Giarmata Vii or draw",
-"odds": 1.14,
-"ts": 1794571200.0,
-"r": "W",
-"sc": "0-3",
-"ht": "0-3"
-},
-{
-"t": "Fri 13:00",
-"game": "Singapore vs Paraguay",
-"pick": "Handicap 5:0 \u2013 Singapore",
-"odds": 1.27,
-"ts": 1794571200.0,
-"r": "W",
-"sc": "1-4",
-"ht": "1-2"
-},
-{
-"t": "Fri 13:00",
-"game": "Budaorsi SC vs Erdi VSE",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794571200.0,
-"r": "W",
-"sc": "1-2",
-"ht": "1-0"
-},
-{
-"t": "Fri 13:00",
-"game": "Vasas SC II vs Szegedi Vasutas SE",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794571200.0,
-"r": "W",
-"sc": "3-0",
 "ht": "1-0"
 }
 ]
