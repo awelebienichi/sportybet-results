@@ -2,6 +2,177 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NDDDT2",
+"at": 1795795995,
+"when": "Fri 27 Nov 17:13",
+"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
+"odds": 108.74,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "Wigry Suwalki vs Jagiellonia II Bialystok",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Rakow Czestochowa vs GKS Piast Gliwice",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:30",
+"game": "Bochum vs Darmstadt",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795800600.0
+},
+{
+"t": "Fri 19:00",
+"game": "Hansa Rostock vs TSV Havelse",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:30",
+"game": "SC Kriens vs FC Aarau",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 19:30",
+"game": "WKW ETO FC Gyor vs Debreceni VSC",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "RWD Molenbeek Youth vs RAAL La Louviere",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong Ajax Amsterdam vs Heracles Almelo",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "West Ham U21 vs Tottenham Hotspur U21",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "MVV Maastricht vs Jong PSV Eindhoven",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Groningen vs Willem II Tilburg",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "US Le Pays Du Valois vs Valenciennes FC",
+"pick": "Over 1.5",
+"odds": 1.2,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bangor 1876 FC vs Mold Alexandra FC",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Llanelli Town vs Cardiff Draconians",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"pick": "Over 1.5",
+"odds": 1.14,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Moyola Park FC vs Annagh United FC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Warrington Rylands 1906 FC vs Lancaster City",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cambrian United vs Trefelin BGC",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Coleraine FC vs Dungannon Swifts",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795808700.0
+}
+]
+},
+{
 "code": "NT91JL",
 "at": 1795795742,
 "when": "Fri 27 Nov 17:09",
@@ -636,7 +807,7 @@
 "odds": 1.28,
 "ts": 1795791600.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "2-1"
 },
 {
@@ -1080,7 +1251,7 @@
 "when": "Fri 27 Nov 11:02",
 "kind": "combined TMVEMV + YTGGLN + JYAUZV",
 "odds": 396.34,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:15",
@@ -1097,7 +1268,10 @@
 "game": "Al Qadsiah vs Al-Fayha FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.25,
-"ts": 1795789200.0
+"ts": 1795789200.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:30",
@@ -1489,7 +1663,10 @@
 "game": "Al Qadsiah vs Al-Fayha FC",
 "pick": "Over 2.5",
 "odds": 1.25,
-"ts": 1795789200.0
+"ts": 1795789200.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:30",
@@ -1563,7 +1740,7 @@
 "odds": 1.09,
 "ts": 1795791600.0,
 "r": "L",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "2-1"
 },
 {
@@ -1962,7 +2139,10 @@
 "game": "Al Qadsiah vs Al-Fayha FC",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795789200.0
+"ts": 1795789200.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -2131,7 +2311,10 @@
 "game": "Al Qadsiah vs Al-Fayha FC",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795789200.0
+"ts": 1795789200.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -3857,7 +4040,10 @@
 "game": "Al Qadsiah vs Al-Fayha FC",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795789200.0
+"ts": 1795789200.0,
+"r": "L",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -82785,216 +82971,6 @@
 "pick": "Denmark or GG",
 "odds": 1.19,
 "ts": 1794944700.0
-}
-]
-},
-{
-"code": "X370JR",
-"at": 1794578812,
-"when": "Fri 13 Nov 15:06",
-"kind": "your tracker's best markets",
-"odds": 12.08,
-"status": "won",
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "Cape Verde vs Liberia",
-"pick": "Cape Verde or GG",
-"odds": 1.1,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "4-2",
-"ht": "3-1"
-},
-{
-"t": "Fri 18:30",
-"game": "Hamburger SV vs 1. FSV Mainz 05",
-"pick": "Goal bounds 2-5+",
-"odds": 1.14,
-"ts": 1794591000.0,
-"r": "W",
-"sc": "6-1",
-"ht": "4-1"
-},
-{
-"t": "Fri 18:30",
-"game": "FC Viktoria Plzen B vs FK Loko Prague",
-"pick": "Goal bounds 2-5+",
-"odds": 1.1,
-"ts": 1794591000.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Fri 19:00",
-"game": "SD Ponferradina vs CP Cacereno SAD",
-"pick": "1st half double chance SD Ponferradina or draw",
-"odds": 1.18,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-0"
-},
-{
-"t": "Fri 19:00",
-"game": "Spain vs Japan",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Roskilde vs Nykoebing FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.14,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"pick": "Goal bounds 2-5+",
-"odds": 1.12,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-2"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Helsingoer vs Holstebro BK",
-"pick": "Goal bounds 2-5+",
-"odds": 1.18,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-3",
-"ht": "2-2"
-},
-{
-"t": "Fri 19:00",
-"game": "Switzerland vs Romania",
-"pick": "Switzerland or GG",
-"odds": 1.12,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
-"pick": "Goal bounds 2-5+",
-"odds": 1.08,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 19:30",
-"game": "SV Drochtersen/Assel vs VfB Oldenburg",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"ts": 1794594600.0,
-"r": "W",
-"sc": "3-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 20:00",
-"game": "Dijon vs US Orleans",
-"pick": "Dijon or GG",
-"odds": 1.13,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-2"
-},
-{
-"t": "Fri 20:00",
-"game": "Deportivo Lara vs Zamora FC Barinas II",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 20:00",
-"game": "FC Portalban/Gletterens vs FC Echallens Region",
-"pick": "Goal bounds 2-5+",
-"odds": 1.13,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "2-1",
-"ht": ""
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"pick": "Goal bounds 2-5+",
-"odds": 1.07,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-1"
-},
-{
-"t": "Fri 20:00",
-"game": "Puerto Rico vs Dominica",
-"pick": "1st half double chance Puerto Rico or draw",
-"odds": 1.08,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "4-2",
-"ht": "1-0"
-},
-{
-"t": "Fri 20:30",
-"game": "Latina Calcio vs Campobasso FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.33,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "4-0",
-"ht": "1-0"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Royal Francs Borains  vs RAAL La Louviere",
-"pick": "Goal bounds 2-5+",
-"odds": 1.08,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "4-2",
-"ht": "2-1"
-},
-{
-"t": "Fri 20:30",
-"game": "ACD Ospitaletto vs Dolomiti Bellunesi",
-"pick": "ACD Ospitaletto or GG",
-"odds": 1.15,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"pick": "Goal bounds 2-5+",
-"odds": 1.08,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "6-1",
-"ht": "2-0"
 }
 ]
 }
