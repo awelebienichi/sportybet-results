@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "KLYUBL",
+"at": 1795815309,
+"when": "Fri 27 Nov 22:35",
+"kind": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)",
+"odds": 7.78,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Civil Service United FC vs Mitundu Baptist",
+"pick": "Under 2.5",
+"odds": 1.39,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Ethnikos Asteras FC vs A.P.O. Thyella Rafina FC",
+"pick": "Under 2.5",
+"odds": 1.51,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Bugesera FC vs Gicumbi FC",
+"pick": "Under 2.5",
+"odds": 1.5,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Police Xi vs Sua Flamingoes",
+"pick": "Under 2.5",
+"odds": 1.48,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 17:30",
+"game": "Newroz SC vs Al Kahrabaa SC",
+"pick": "Under 2.5",
+"odds": 1.67,
+"ts": 1795883400.0
+}
+]
+},
+{
 "code": "S9CGMR",
 "at": 1795814950,
 "when": "Fri 27 Nov 22:29",
@@ -85218,116 +85263,6 @@
 "r": "W",
 "sc": "106-104",
 "ht": "26-27"
-}
-]
-},
-{
-"code": "WYARAV",
-"at": 1794606902,
-"when": "Fri 13 Nov 22:55",
-"kind": "goal-fest teams (season data)",
-"odds": 39.22,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 10:15",
-"game": "Bridlicna vs Opava B",
-"pick": "Over 2.5",
-"odds": 1.42,
-"ts": 1794647700.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-2"
-},
-{
-"t": "Sat 10:15",
-"game": "SK Aritma Prague vs Tj Jiskra Domazlice",
-"pick": "Over 2.5",
-"odds": 1.35,
-"ts": 1794647700.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 10:15",
-"game": "FK Horni Redice vs SK Zapy",
-"pick": "Over 2.5",
-"odds": 1.41,
-"ts": 1794647700.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 11:00",
-"game": "Ankaraspor vs Aliaga Futbol",
-"pick": "Over 2.5",
-"odds": 1.59,
-"ts": 1794650400.0,
-"r": "L",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Sat 11:00",
-"game": "MFK Chrudim vs FK Jablonec B",
-"pick": "Over 2.5",
-"odds": 1.41,
-"ts": 1794650400.0,
-"r": "L",
-"sc": "0-2",
-"ht": "0-2"
-},
-{
-"t": "Sat 12:00",
-"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794654000.0,
-"r": "W",
-"sc": "3-2",
-"ht": "1-1"
-},
-{
-"t": "Sat 12:00",
-"game": "Real Betis Balompie vs Cadiz CF",
-"pick": "Over 2.5",
-"odds": 1.38,
-"ts": 1794654000.0,
-"r": "L",
-"sc": "0-0",
-"ht": ""
-},
-{
-"t": "Sat 12:00",
-"game": "LKS Lodz II vs SK Mazovia Minsk Mazowiecki",
-"pick": "Over 2.5",
-"odds": 1.48,
-"ts": 1794654000.0,
-"r": "W",
-"sc": "3-2",
-"ht": "2-0"
-},
-{
-"t": "Sat 13:00",
-"game": "Csm Sacele vs AFC Inter Stars Sibiu",
-"pick": "Over 2.5",
-"odds": 1.53,
-"ts": 1794657600.0,
-"r": "W",
-"sc": "1-2",
-"ht": "1-1"
-},
-{
-"t": "Sat 13:00",
-"game": "Ringsted IF vs BK Frem",
-"pick": "Over 2.5",
-"odds": 1.49,
-"ts": 1794657600.0,
-"r": "L",
-"sc": "0-0",
-"ht": "0-0"
 }
 ]
 }
