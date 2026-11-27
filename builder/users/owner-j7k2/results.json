@@ -2,6 +2,247 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NXJP9H",
+"at": 1795796956,
+"when": "Fri 27 Nov 17:29",
+"kind": "rebuild of KRV2TP \u2013 safest market per game",
+"odds": 1985.55,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "NK Celik Zenica vs FK BSK Banja Luka",
+"pick": "GG (both teams score)",
+"odds": 1.75,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "SK Artis Brno vs 1. FC Slovacko Uherske Hradiste",
+"pick": "1st half double chance SK Artis Brno or draw",
+"odds": 1.27,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Umraniyespor vs Manisa Futbol Kulubu",
+"pick": "1st half double chance Umraniyespor or draw",
+"odds": 1.26,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Alanyaspor vs Konyaspor",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Caykur Rizespor vs Kasimpasa Istanbul",
+"pick": "1st half Under 2.5",
+"odds": 1.15,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:30",
+"game": "Al-Ittihad Club vs Neom SC",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795800600.0
+},
+{
+"t": "Fri 18:30",
+"game": "Stellenbosch FC vs TS Galaxy FC",
+"pick": "1st half double chance Stellenbosch FC or draw",
+"odds": 1.17,
+"ts": 1795800600.0
+},
+{
+"t": "Fri 19:00",
+"game": "SV Schwechat vs A-Xiii Auhof Center",
+"pick": "GG (both teams score)",
+"odds": 1.44,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:30",
+"game": "SC Kriens vs FC Aarau",
+"pick": "1st half double chance SC Kriens or draw",
+"odds": 1.41,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:00",
+"game": "RWD Molenbeek Youth vs RAAL La Louviere",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "GG (both teams score)",
+"odds": 1.3,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "MVV Maastricht vs Jong PSV Eindhoven",
+"pick": "1st half Under 2.5",
+"odds": 1.2,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:15",
+"game": "Etoile Carouge FC vs Stade Lausanne Ouchy",
+"pick": "Double chance Stade Lausanne Ouchy or draw",
+"odds": 1.25,
+"ts": 1795806900.0
+},
+{
+"t": "Fri 20:30",
+"game": "KV Kortrijk vs RFC Seraing",
+"pick": "GG (both teams score)",
+"odds": 1.43,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "GG (both teams score)",
+"odds": 1.44,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "CD Revilla vs Velarde CF",
+"pick": "Over 1.5",
+"odds": 1.22,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Afan Lido vs Caerau Ely FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bangor 1876 FC vs Mold Alexandra FC",
+"pick": "GG (both teams score)",
+"odds": 1.41,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Werder Bremen vs Borussia M\u00b4gladbach",
+"pick": "1st half Under 2.5",
+"odds": 1.19,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Venezia FC vs Bologna",
+"pick": "2nd half Over 0.5",
+"odds": 1.29,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Coleraine FC vs Dungannon Swifts",
+"pick": "GG (both teams score)",
+"odds": 1.66,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Glentoran FC vs Larne FC",
+"pick": "1st half Under 2.5",
+"odds": 1.09,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Briton Ferry vs Pen-y-Bont FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.2,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cambrian United vs Trefelin BGC",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cardiff Metropolitan University FC vs Airbus UK Broughton",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Colwyn Bay vs Ammanford",
+"pick": "1st half Over 0.5",
+"odds": 1.16,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Flint Town United vs The New Saints FC",
+"pick": "The New Saints FC to win",
+"odds": 1.12,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Caerphilly Athletic FC vs Baglan Dragons",
+"pick": "GG (both teams score)",
+"odds": 1.64,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Bala Town FC vs Caersws",
+"pick": "Bala Town FC or GG",
+"odds": 1.1,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Denbigh Town vs Brickfield Rangers",
+"pick": "1st half Under 2.5",
+"odds": 1.2,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Brest vs Paris FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.26,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 21:00",
+"game": "Nottingham Forest vs Chelsea",
+"pick": "1st half double chance Nottingham Forest or draw",
+"odds": 1.31,
+"ts": 1795809600.0
+}
+]
+},
+{
 "code": "HAMW4T",
 "at": 1795796692,
 "when": "Fri 27 Nov 17:24",
@@ -82892,76 +83133,6 @@
 "r": "W",
 "sc": "3-0",
 "ht": "0-0"
-}
-]
-},
-{
-"code": "KT4E72",
-"at": 1794585180,
-"when": "Fri 13 Nov 16:53",
-"kind": "live \u2013 best of all",
-"odds": 1.36,
-"status": "won",
-"legs": [
-{
-"t": "Fri 16:00",
-"game": "Iraq vs Lebanon",
-"pick": "Handicap 0:3 \u2013 Lebanon",
-"odds": 1.05,
-"ts": 1794582000.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 16:00",
-"game": "Sahl Horan SC vs AL Sareeh",
-"pick": "Sahl Horan SC or AL Sareeh",
-"odds": 1.04,
-"ts": 1794582000.0,
-"r": "W",
-"sc": "4-2",
-"ht": "2-0"
-},
-{
-"t": "Fri 16:00",
-"game": "Jerash Club vs Ittihad AL Ramtha",
-"pick": "Ittihad AL Ramtha Under 1.5",
-"odds": 1.07,
-"ts": 1794582000.0,
-"r": "W",
-"sc": "3-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 16:00",
-"game": "Al-Shabab vs AL Bahrain",
-"pick": "Al-Shabab or draw",
-"odds": 1.1,
-"ts": 1794582000.0,
-"r": "W",
-"sc": "3-2",
-"ht": ""
-},
-{
-"t": "Fri 16:15",
-"game": "AS Police Niger vs Liberte FC",
-"pick": "AS Police Niger or draw",
-"odds": 1.03,
-"ts": 1794582900.0,
-"r": "W",
-"sc": "1-1",
-"ht": ""
-},
-{
-"t": "Fri 16:15",
-"game": "US Gendarmerie Nationale vs Tagour Pc",
-"pick": "US Gendarmerie Nationale or Tagour Pc",
-"odds": 1.03,
-"ts": 1794582900.0,
-"r": "W",
-"sc": "1-0",
-"ht": ""
 }
 ]
 }
