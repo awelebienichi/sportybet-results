@@ -4803,7 +4803,10 @@
 "game": "SonderjyskE vs Broendby IF",
 "pick": "Over 2.5",
 "odds": 1.61,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:30",
@@ -6611,7 +6614,10 @@
 "game": "SonderjyskE vs Broendby IF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.59,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -6717,7 +6723,10 @@
 "game": "SonderjyskE vs Broendby IF",
 "pick": "Over 2.5",
 "odds": 1.59,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -6765,7 +6774,7 @@
 "when": "Thu 26 Nov 23:13",
 "kind": "Over 2.5 \u2013 strong teams after 2 games without Over 2.5",
 "odds": 13.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 01:00",
@@ -6792,7 +6801,10 @@
 "game": "SonderjyskE vs Broendby IF",
 "pick": "Over 2.5",
 "odds": 1.59,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:30",
@@ -6830,14 +6842,17 @@
 "when": "Thu 26 Nov 23:11",
 "kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
 "odds": 2.69,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "SonderjyskE vs Broendby IF",
 "pick": "Over 2.5",
 "odds": 1.59,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:45",
