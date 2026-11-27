@@ -7,7 +7,7 @@
 "when": "Fri 27 Nov 08:20",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 3.93,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 11:00",
@@ -24,7 +24,10 @@
 "game": "US Cremonese vs Union Brescia",
 "pick": "Over 2.5",
 "odds": 1.47,
-"ts": 1795786200.0
+"ts": 1795786200.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:30",
