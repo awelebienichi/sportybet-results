@@ -4840,7 +4840,7 @@
 "odds": 1.2,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -6004,7 +6004,10 @@
 "game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
 "pick": "GG (both teams score)",
 "odds": 1.49,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "L",
+"sc": "5-0",
+"ht": ""
 },
 {
 "t": "Fri 19:30",
@@ -6095,7 +6098,10 @@
 "game": "Royal Francs Borains vs KAS Eupen",
 "pick": "2nd half Over 0.5",
 "odds": 1.19,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "2-2",
+"ht": "2-2"
 },
 {
 "t": "Fri 20:15",
@@ -7631,7 +7637,7 @@
 "odds": 1.98,
 "ts": 1795806000.0,
 "r": "L",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-2"
 },
 {
