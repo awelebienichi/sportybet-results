@@ -1084,14 +1084,17 @@
 "when": "Fri 27 Nov 17:54",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 1685.44,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:30",
 "game": "Wuppertaler SV vs Spvg. Solingen-Wald",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -1317,7 +1320,7 @@
 "odds": 1.37,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
@@ -2076,7 +2079,7 @@
 "odds": 1.37,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
@@ -2575,14 +2578,17 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 63.95,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:30",
 "game": "Wuppertaler SV vs Spvg. Solingen-Wald",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -3315,7 +3321,7 @@
 "odds": 1.37,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
@@ -3648,7 +3654,10 @@
 "game": "Wuppertaler SV vs Spvg. Solingen-Wald",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -4235,7 +4244,10 @@
 "game": "Coleraine FC vs Dungannon Swifts",
 "pick": "Goal bounds 2-5+",
 "odds": 1.14,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:45",
@@ -4562,7 +4574,10 @@
 "game": "Coleraine FC vs Dungannon Swifts",
 "pick": "GG (both teams score)",
 "odds": 1.66,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:45",
@@ -5512,7 +5527,10 @@
 "game": "Coleraine FC vs Dungannon Swifts",
 "pick": "Over 1.5",
 "odds": 1.15,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
@@ -6512,7 +6530,7 @@
 "odds": 1.1,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-1"
 },
 {
