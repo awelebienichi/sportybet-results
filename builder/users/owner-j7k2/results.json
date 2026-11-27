@@ -2,6 +2,1176 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XDRTHV",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 48.16,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "West Ham U21 vs Tottenham Hotspur U21",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Sat 02:00",
+"game": "Wellington Phoenix FC vs Wellington Olympic",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795827600.0
+},
+{
+"t": "Sat 12:00",
+"game": "MKS Viktoria Wrzesnia vs Polonia Sroda Wielkopolska",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795863600.0
+},
+{
+"t": "Sat 13:30",
+"game": "AFC Fylde vs Aldershot Town FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs BVV Barendrecht",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Hamburger SV vs Bayern Munich",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.35,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Stranraer FC vs Clachnacuddin FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.44,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:30",
+"game": "FC Emmen vs Helmond Sport",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Wiltz 71 vs US Hostert",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795888800.0
+},
+{
+"t": "Sun 10:15",
+"game": "SK Slavia Prague B vs FK Arsenal Ceska Lipa",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795943700.0
+},
+{
+"t": "Sun 14:15",
+"game": "Ferencvarosi Budapest vs Zalaegerszeg TE",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795958100.0
+},
+{
+"t": "Sun 17:00",
+"game": "SK Brann vs Kristiansund BK",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795968000.0
+}
+]
+},
+{
+"code": "NAY6MY",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 35.23,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "NAC Breda vs FC Den Bosch",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.3,
+"ts": 1795806000.0
+},
+{
+"t": "Sat 00:00",
+"game": "Bolivia vs Uruguay",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.25,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 11:00",
+"game": "FC Petrzalka U19 vs MFK Dukla Banska Bystrica",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:15",
+"game": "Al-Hazm vs Al Nassr Club",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795868100.0
+},
+{
+"t": "Sat 14:30",
+"game": "Excelsior Maassluis vs Dongen",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "CD Lugo U19 vs RC Celta de Vigo",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Farnborough FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:45",
+"game": "PSV Eindhoven vs Go Ahead Eagles",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.22,
+"ts": 1795887900.0
+},
+{
+"t": "Sun 04:30",
+"game": "Portland Timbers vs FC Dallas",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795923000.0
+},
+{
+"t": "Sun 14:00",
+"game": "FC Luzern vs Lugano",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795957200.0
+},
+{
+"t": "Sun 17:00",
+"game": "Salzburg vs LASK Linz",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795968000.0
+}
+]
+},
+{
+"code": "JDYVT1",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 46.31,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "Jong Ajax Amsterdam vs Heracles Almelo",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.3,
+"ts": 1795806000.0
+},
+{
+"t": "Sat 00:00",
+"game": "Independiente Petrolero vs Cdt Real Oruro",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 11:00",
+"game": "MFk Skalica U19 vs MSK Zilina",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Rasisalai United vs Buriram United",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:30",
+"game": "ACV Assen vs Harkemase Boys",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Rapid Wien II vs Kapfenberger SV",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Maldon & Tiptree FC vs St Albans City",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Guiseley FC vs Whitby Town",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.31,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795887000.0
+},
+{
+"t": "Sun 04:00",
+"game": "Birkenhead United AFC vs Miramar Rangers",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795921200.0
+},
+{
+"t": "Sun 13:30",
+"game": "1. FC Magdeburg vs Energie Cottbus",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795955400.0
+},
+{
+"t": "Sun 17:00",
+"game": "AL Ahly SC (EGY) vs Primeiro de Agosto",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795968000.0
+}
+]
+},
+{
+"code": "GHQL33",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 28.37,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 21:00",
+"game": "France vs Venezuela",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.16,
+"ts": 1795809600.0
+},
+{
+"t": "Sat 11:00",
+"game": "Sanliurfaspor vs Somaspor",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Hertha vs Karlsruher SC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:30",
+"game": "US Avellino vs US Salernitana",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:20",
+"game": "Al-Ettifaq FC vs Al Hilal SFC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795875600.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merthyr Town vs Worksop Town",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.22,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:30",
+"game": "Charlotte FC vs Chicago Fire",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"ts": 1795887000.0
+},
+{
+"t": "Sun 02:00",
+"game": "Cashmere Technical vs Auckland United FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795914000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Belediye Derincespor vs Adana Demirspor",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.21,
+"ts": 1795953600.0
+},
+{
+"t": "Sun 17:00",
+"game": "FC Ordino vs FC Santa Coloma",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795968000.0
+}
+]
+},
+{
+"code": "SR9A7P",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 36.43,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Flint Town United vs The New Saints FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795808700.0
+},
+{
+"t": "Sat 11:00",
+"game": "Naftan Novopolotsk vs FC Dinamo Minsk",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.35,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:00",
+"game": "KS Pelikan Lowicz vs MKS Mlawianka Mlawa",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Borussia Dortmund II vs VfL Bochum II",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.3,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:15",
+"game": "Al Wasl FC vs Al Dhafra SSC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795875300.0
+},
+{
+"t": "Sat 16:00",
+"game": "Musselburgh Athletic FC vs Airdrieonians FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Brora Rangers",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.22,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "SC Cambuur vs Feyenoord Rotterdam",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795885200.0
+},
+{
+"t": "Sun 02:00",
+"game": "Napier City Rovers AFC vs Eastern Suburbs AFC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795914000.0
+},
+{
+"t": "Sun 13:00",
+"game": "Slavia Prague vs FC Banik Ostrava",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795953600.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Sion vs Young Boys Bern",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795966200.0
+}
+]
+},
+{
+"code": "X88K4N",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 31.47,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "Manchester City U21 vs West Bromwich Albion FC U21",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.17,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:45",
+"game": "Denbigh Town vs Brickfield Rangers",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795808700.0
+},
+{
+"t": "Sat 11:00",
+"game": "Budai Futball Club SE vs Ferencvarosi TC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Kts Weszlo vs LKS 1926 Lomza",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al Sadd SC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.28,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "IJsselmeervogels vs Jong Sparta Rotterdam",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Redcar Athletic FC vs Workington AFC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bodoe/Glimt vs KFUM Oslo",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.31,
+"ts": 1795885200.0
+},
+{
+"t": "Sun 00:30",
+"game": "CA Nacional Potosi vs Oriente Petrolero",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.26,
+"ts": 1795908600.0
+},
+{
+"t": "Sun 13:00",
+"game": "Arnavutkoy Belediyesi Genclik Ve Spor vs Mus 1984 Musspor",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795953600.0
+},
+{
+"t": "Sun 16:30",
+"game": "FC Thun vs FC St. Gallen 1879",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795966200.0
+}
+]
+},
+{
+"code": "LBEVFN",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 34.21,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.15,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795807800.0
+},
+{
+"t": "Sat 11:00",
+"game": "Gornik Zabrze vs KS Arkonia Szczecin U19",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:00",
+"game": "Bjarg vs Sogndal Fotball",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:00",
+"game": "FSV Schoningen 2011 vs SV Werder Bremen II",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Liverpool U21 vs Birmingham City U21",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.19,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "AFC Whyteleafe vs Aveley FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Gosport Borough",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.28,
+"ts": 1795885200.0
+},
+{
+"t": "Sun 00:00",
+"game": "Auckland FC Reserves vs Auckland City FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.31,
+"ts": 1795906800.0
+},
+{
+"t": "Sun 12:30",
+"game": "Young Lions FC vs Lion City Sailors FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.13,
+"ts": 1795951800.0
+},
+{
+"t": "Sun 16:30",
+"game": "Paksi FC vs Puskas Akademia FC Felcsut",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795966200.0
+},
+{
+"t": "Sun 20:00",
+"game": "Inter Club de Escaldes vs CE Casa de Portugal",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.3,
+"ts": 1795978800.0
+}
+]
+},
+{
+"code": "ZQ2VMD",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 47.57,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "RWD Molenbeek Youth vs RAAL La Louviere",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "KV Kortrijk vs RFC Seraing",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795807800.0
+},
+{
+"t": "Sat 10:15",
+"game": "SK Slavia Prague C vs Sparta Prague B",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795857300.0
+},
+{
+"t": "Sat 12:35",
+"game": "China vs Thailand",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.2,
+"ts": 1795865700.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs FAC Wien Amateure",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.35,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Frosinone vs Parma Calcio",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Slough Town vs Tonbridge Angels",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cleethorpes Town FC vs Quorn FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Vaduz vs FC Zurich",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.25,
+"ts": 1795903200.0
+},
+{
+"t": "Sun 12:15",
+"game": "FC Volendam vs FC Eindhoven",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795950900.0
+},
+{
+"t": "Sun 16:15",
+"game": "RC Deportivo de A Coruna vs Barcelona",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.25,
+"ts": 1795965300.0
+},
+{
+"t": "Sun 20:00",
+"game": "NEC Nijmegen vs FC Twente Enschede",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795978800.0
+}
+]
+},
+{
+"code": "L8CUTN",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 50.47,
+"status": "open",
+"legs": [
+{
+"t": "Fri 20:00",
+"game": "FC Groningen vs Willem II Tilburg",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.44,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "Llanelli Town vs Cardiff Draconians",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"ts": 1795807800.0
+},
+{
+"t": "Sat 10:00",
+"game": "Gyori ETO FC vs Fehervar FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.3,
+"ts": 1795856400.0
+},
+{
+"t": "Sat 12:30",
+"game": "Balestier Khalsa FC vs Hougang United FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795865400.0
+},
+{
+"t": "Sat 14:00",
+"game": "SC Weiche Flensburg 08 vs HSC Hannover",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.36,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Forest Green Rovers vs Tamworth FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rangers vs Falkirk FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Slovan Bratislava vs FK Kosice",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Cdm FC vs Real Refineros Cds",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795903200.0
+},
+{
+"t": "Sun 12:00",
+"game": "Zaglebie Lubin II vs KS Polonia Nysa",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795950000.0
+},
+{
+"t": "Sun 16:00",
+"game": "US Rumelange vs Un Kaerjeng 97",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.28,
+"ts": 1795964400.0
+},
+{
+"t": "Sun 19:15",
+"game": "Viking FK vs Vaalerenga IF",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.25,
+"ts": 1795976100.0
+}
+]
+},
+{
+"code": "YJAJ4V",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 63.95,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:30",
+"game": "Wuppertaler SV vs Spvg. Solingen-Wald",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795807800.0
+},
+{
+"t": "Sat 10:00",
+"game": "CS Concordia Chiajna vs Csl Stefanestii de Jos",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795856400.0
+},
+{
+"t": "Sat 12:00",
+"game": "Chemik Bydgoszcz vs Lech II Poznan",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795863600.0
+},
+{
+"t": "Sat 14:00",
+"game": "SV Waldhof Mannheim 07 vs VfB Stuttgart II",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "AE Kifisia vs Kalamata",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Threave Rovers vs Alloa Athletic FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Malvern Town vs Chertsey Town",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:30",
+"game": "Blau-Weiss Linz vs SK Sturm Graz II",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 21:00",
+"game": "Real Madrid vs Alaves",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795896000.0
+},
+{
+"t": "Sun 12:00",
+"game": "Lechia Tomaszow Mazowiecki vs Wisla Plock II",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795950000.0
+},
+{
+"t": "Sun 16:00",
+"game": "Residence Walferdange vs RFC Union Luxembourg",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.37,
+"ts": 1795964400.0
+},
+{
+"t": "Sun 18:30",
+"game": "Standard Liege vs Club Brugge",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795973400.0
+}
+]
+},
+{
+"code": "YRN6LE",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 66.38,
+"status": "open",
+"legs": [
+{
+"t": "Fri 19:00",
+"game": "Hansa Rostock vs TSV Havelse",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.33,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 20:15",
+"game": "FC Winterthur vs FC Rapperswil-Jona",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795806900.0
+},
+{
+"t": "Sat 08:00",
+"game": "North District FC vs Southern District Football Club",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795849200.0
+},
+{
+"t": "Sat 12:00",
+"game": "SK Mazovia Minsk Mazowiecki vs KS Ck Troszyn",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795863600.0
+},
+{
+"t": "Sat 14:00",
+"game": "TSV Steinbach Haiger vs SV Sandhausen",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Treowen Stars",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Avro FC vs Bamber Bridge",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Sabah Masazir vs Araz Nakhchivan PFK",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:30",
+"game": "Uzbekistan vs Papua New Guinea",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795896000.0
+},
+{
+"t": "Sun 11:00",
+"game": "Arka Gdynia vs Rakow Czestochowa U19",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.39,
+"ts": 1795946400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Stabaek IF vs Odds BK",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.29,
+"ts": 1795959000.0
+},
+{
+"t": "Sun 18:00",
+"game": "Roma vs Monza",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795971600.0
+}
+]
+},
+{
+"code": "ZK6EKG",
+"at": 1795797522,
+"when": "Fri 27 Nov 17:38",
+"kind": "combined V8XZZP + TM8RCV + MYH87V",
+"odds": 49.98,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "Simmeringer SC vs LAC Inter",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Sat 02:00",
+"game": "Columbus Crew vs Inter Miami CF",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.4,
+"ts": 1795827600.0
+},
+{
+"t": "Sat 12:00",
+"game": "Baltyk Koszalin vs KTS-K Luzino",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.42,
+"ts": 1795863600.0
+},
+{
+"t": "Sat 13:30",
+"game": "Aliaga Futbol vs Kastamonuspor",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.24,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:30",
+"game": "Rijnsburgse Boys vs SV Spakenburg",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Admira Wacker Modling vs FC Liefering",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.38,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Newington FC vs Glenavon FC",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.34,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:00",
+"game": "FC Noah Yerevan vs FC BKMA Yerevan",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.28,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 19:30",
+"game": "Austria Lustenau vs SK Rapid",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795890600.0
+},
+{
+"t": "Sun 11:00",
+"game": "Zemplin Michalovce vs Tatran Presov",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.43,
+"ts": 1795946400.0
+},
+{
+"t": "Sun 14:30",
+"game": "Feyenoord vs Ajax",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.41,
+"ts": 1795959000.0
+},
+{
+"t": "Sun 17:30",
+"game": "Hoffenheim vs Augsburg",
+"pick": "Over/Under \u2013 Over 2.5",
+"odds": 1.32,
+"ts": 1795969800.0
+}
+]
+},
+{
 "code": "V8XZZP",
 "at": 1795797384,
 "when": "Fri 27 Nov 17:36",
@@ -82938,988 +84108,6 @@
 "pick": "Over 2.5",
 "odds": 1.38,
 "ts": 1794682800.0
-}
-]
-},
-{
-"code": "HRZN3W",
-"at": 1794599339,
-"when": "Fri 13 Nov 20:48",
-"kind": "goal-fest teams (season data)",
-"odds": 268.29,
-"status": "open",
-"legs": [
-{
-"t": "Sat 12:00",
-"game": "Miedz Legnica II vs KS Row 1964 Rybnik",
-"pick": "Over 2.5",
-"odds": 1.39,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 12:00",
-"game": "Real Betis Balompie vs Cadiz CF",
-"pick": "Over 2.5",
-"odds": 1.38,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 15:00",
-"game": "K.v.v. Quick Boys vs Jong Almere City FC",
-"pick": "Over 2.5",
-"odds": 1.32,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:00",
-"game": "Rohda Raalte vs VV Katwijk",
-"pick": "Over 2.5",
-"odds": 1.38,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:00",
-"game": "Montpellier HSC vs GFC Ajaccio",
-"pick": "Over 2.5",
-"odds": 1.44,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:15",
-"game": "Amsterdamsche FC vs De Treffers Groesbeek",
-"pick": "Over 2.5",
-"odds": 1.46,
-"ts": 1794665700.0
-},
-{
-"t": "Sat 16:00",
-"game": "Gallos Blancos de Queretaro vs CF Monterrey U21",
-"pick": "Over 2.5",
-"odds": 1.67,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"pick": "Over 2.5",
-"odds": 1.51,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Warrington Rylands 1906 FC vs Whitby Town",
-"pick": "Over 2.5",
-"odds": 1.47,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 18:00",
-"game": "Villa FC vs Killarney Celtic",
-"pick": "Over 3.5",
-"odds": 1.64,
-"ts": 1794675600.0
-},
-{
-"t": "Sat 18:00",
-"game": "FC St. Gallen-Staad vs FC Zurich",
-"pick": "Over 2.5",
-"odds": 1.57,
-"ts": 1794675600.0
-},
-{
-"t": "Sat 18:00",
-"game": "FC Yverdon vs Young Boys Bern",
-"pick": "Over 2.5",
-"odds": 1.43,
-"ts": 1794675600.0
-},
-{
-"t": "Sat 19:00",
-"game": "RBC Roosendaal vs VV Goes",
-"pick": "Over 2.5",
-"odds": 1.23,
-"ts": 1794679200.0
-},
-{
-"t": "Sat 20:00",
-"game": "VVV Venlo vs FC Eindhoven",
-"pick": "Over 2.5",
-"odds": 1.46,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 23:00",
-"game": "Real Refineros Cds vs Saltillo Soccer FC",
-"pick": "Over 2.5",
-"odds": 1.49,
-"ts": 1794693600.0
-}
-]
-},
-{
-"code": "UFVKT9",
-"at": 1794598542,
-"when": "Fri 13 Nov 20:35",
-"kind": "Under 2.5 (low-scoring leagues)",
-"odds": 9.07,
-"status": "open",
-"legs": [
-{
-"t": "Sat 11:30",
-"game": "Ulinzi Stars FC vs Migori Youth FC",
-"pick": "Under 2.5",
-"odds": 1.44,
-"ts": 1794652200.0
-},
-{
-"t": "Sat 13:00",
-"game": "Aps Bomet FC vs Bandari FC",
-"pick": "Under 2.5",
-"odds": 1.42,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 19:00",
-"game": "CA Atlanta vs CA Estudiantes",
-"pick": "Under 2.5",
-"odds": 1.4,
-"ts": 1794679200.0
-},
-{
-"t": "Sat 19:30",
-"game": "CD Armenio vs CS Italiano",
-"pick": "Under 2.5",
-"odds": 1.4,
-"ts": 1794681000.0
-},
-{
-"t": "Sat 22:00",
-"game": "Club Comunicaciones vs Arsenal de Sarandi",
-"pick": "Under 2.5",
-"odds": 1.47,
-"ts": 1794690000.0
-},
-{
-"t": "Sat 23:00",
-"game": "Real Pilar FC vs CA Talleres de Remedios",
-"pick": "Under 2.5",
-"odds": 1.54,
-"ts": 1794693600.0
-}
-]
-},
-{
-"code": "VTC47F",
-"at": 1794598448,
-"when": "Fri 13 Nov 20:34",
-"kind": "Under 2.5 (low-scoring leagues)",
-"odds": 41.46,
-"status": "open",
-"legs": [
-{
-"t": "Sat 07:00",
-"game": "Guangdong Meizhou Hakka FC vs Sichuan WFC",
-"pick": "Under 2.5",
-"odds": 1.52,
-"ts": 1794636000.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-0"
-},
-{
-"t": "Sat 11:30",
-"game": "Ulinzi Stars FC vs Migori Youth FC",
-"pick": "Under 2.5",
-"odds": 1.44,
-"ts": 1794652200.0
-},
-{
-"t": "Sat 12:00",
-"game": "Nairobi United FC vs Mara Sugar FC",
-"pick": "Under 2.5",
-"odds": 1.44,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 13:00",
-"game": "Aps Bomet FC vs Bandari FC",
-"pick": "Under 2.5",
-"odds": 1.42,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 15:00",
-"game": "Sportive Boujaad vs Chabab Ben Guerir",
-"pick": "Under 2.5",
-"odds": 1.44,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 19:00",
-"game": "CA Atlanta vs CA Estudiantes",
-"pick": "Under 2.5",
-"odds": 1.4,
-"ts": 1794679200.0
-},
-{
-"t": "Sat 19:30",
-"game": "CD Armenio vs CS Italiano",
-"pick": "Under 2.5",
-"odds": 1.4,
-"ts": 1794681000.0
-},
-{
-"t": "Sat 22:00",
-"game": "Club Comunicaciones vs Arsenal de Sarandi",
-"pick": "Under 2.5",
-"odds": 1.47,
-"ts": 1794690000.0
-},
-{
-"t": "Sat 22:00",
-"game": "Colon de Santa Fe vs CA Ferrocarril Midland",
-"pick": "Under 2.5",
-"odds": 1.45,
-"ts": 1794690000.0
-},
-{
-"t": "Sat 23:00",
-"game": "Real Pilar FC vs CA Talleres de Remedios",
-"pick": "Under 2.5",
-"odds": 1.54,
-"ts": 1794693600.0
-}
-]
-},
-{
-"code": "VD2MFC",
-"at": 1794596769,
-"when": "Fri 13 Nov 20:06",
-"kind": "live basketball",
-"odds": 1.82,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Iserlohn Kangaroos vs Uni Baskets Munster",
-"pick": "Uni Baskets Munster to win (incl. OT)",
-"odds": 1.05,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "72-91",
-"ht": "17-16"
-},
-{
-"t": "Fri 19:00",
-"game": "Eagles Graz vs BBC Nord Dragonz",
-"pick": "BBC Nord Dragonz to win (incl. OT)",
-"odds": 1.12,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "75-103",
-"ht": "16-24"
-},
-{
-"t": "Fri 19:04",
-"game": "Uppsala Basket vs KFUM Umea",
-"pick": "KFUM Umea to win (incl. OT)",
-"odds": 1.09,
-"ts": 1794593040.0,
-"r": "W",
-"sc": "78-89",
-"ht": "14-26"
-},
-{
-"t": "Fri 19:30",
-"game": "Homenetmen vs Atlas Ferzol",
-"pick": "Homenetmen to win (incl. OT)",
-"odds": 1.18,
-"ts": 1794594600.0,
-"r": "L",
-"sc": "89-92",
-"ht": ""
-},
-{
-"t": "Fri 19:30",
-"game": "Fraport Skyliners II vs Ahorn Camp Baskets",
-"pick": "Fraport Skyliners II to win (incl. OT)",
-"odds": 1.12,
-"ts": 1794594600.0,
-"r": "W",
-"sc": "82-71",
-"ht": "18-11"
-}
-]
-},
-{
-"code": "KB0S0L",
-"at": 1794596690,
-"when": "Fri 13 Nov 20:04",
-"kind": "live \u2013 best of all",
-"odds": 1.32,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Albania vs Luxembourg",
-"pick": "Under 6.5",
-"odds": 1.03,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-1",
-"ht": "2-1"
-},
-{
-"t": "Fri 19:00",
-"game": "HIK Hellerup vs B93 Copenhagen",
-"pick": "Handicap 0:3 \u2013 B93 Copenhagen",
-"odds": 1.05,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-2",
-"ht": "3-2"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"pick": "Handicap 4:0 \u2013 VV Kloetinge",
-"odds": 1.07,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-2"
-},
-{
-"t": "Fri 19:00",
-"game": "SD Ponferradina vs CP Cacereno SAD",
-"pick": "CP Cacereno SAD Under 1.5",
-"odds": 1.14,
-"ts": 1794592800.0,
-"r": "L",
-"sc": "1-2",
-"ht": "0-0"
-}
-]
-},
-{
-"code": "WA9HA9",
-"at": 1794593890,
-"when": "Fri 13 Nov 19:18",
-"kind": "live \u2013 another goal coming",
-"odds": 1.06,
-"status": "won",
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Albania vs Luxembourg",
-"pick": "Over 1.5",
-"odds": 1.06,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "1-1",
-"ht": ""
-}
-]
-},
-{
-"code": "YTBKZB",
-"at": 1794591209,
-"when": "Fri 13 Nov 18:33",
-"kind": "live \u2013 best of all",
-"odds": 4.52,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "Burkina Faso vs Mauritania",
-"pick": "Burkina Faso Under 1.5",
-"odds": 1.03,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 17:00",
-"game": "Cape Verde vs Liberia",
-"pick": "Handicap 0:4 \u2013 Liberia",
-"odds": 1.09,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "4-2",
-"ht": "3-1"
-},
-{
-"t": "Fri 17:00",
-"game": "South Africa vs Kenya",
-"pick": "South Africa Under 2.5",
-"odds": 1.14,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "2-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 17:00",
-"game": "Nigeria vs Tanzania",
-"pick": "Handicap 0:4 \u2013 Tanzania",
-"odds": 1.14,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-1"
-},
-{
-"t": "Fri 17:00",
-"game": "Gabon vs Lesotho",
-"pick": "Gabon Under 2.5",
-"odds": 1.16,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "2-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 17:05",
-"game": "Halcones Zuniga Soccer Club vs Aztecas A.M.F.",
-"pick": "Under 5.5",
-"odds": 1.05,
-"ts": 1794585900.0,
-"r": "W",
-"sc": "1-2",
-"ht": ""
-},
-{
-"t": "Fri 17:20",
-"game": "Star Sport Academy vs Old Edwardians FC",
-"pick": "Star Sport Academy or draw",
-"odds": 1.05,
-"ts": 1794586800.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 17:30",
-"game": "Norway vs Poland",
-"pick": "Handicap 0:2 \u2013 Poland",
-"odds": 1.03,
-"ts": 1794587400.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Fri 17:30",
-"game": "Nd Dravinja vs Krka Novo Mesto",
-"pick": "Nd Dravinja or Krka Novo Mesto",
-"odds": 1.07,
-"ts": 1794587400.0,
-"r": "W",
-"sc": "3-0",
-"ht": "2-0"
-},
-{
-"t": "Fri 17:30",
-"game": "AL Hala vs AL Budaiya",
-"pick": "AL Hala or AL Budaiya",
-"odds": 1.04,
-"ts": 1794587400.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-2"
-},
-{
-"t": "Fri 17:30",
-"game": "Kuwait vs Syria",
-"pick": "Kuwait or Syria",
-"odds": 1.09,
-"ts": 1794587400.0,
-"r": "W",
-"sc": "3-0",
-"ht": "2-0"
-},
-{
-"t": "Fri 17:35",
-"game": "Colegio Once Mexico vs Guardianes de Oriente",
-"pick": "Guardianes de Oriente to win",
-"odds": 1.05,
-"ts": 1794587700.0,
-"r": "W",
-"sc": "2-3",
-"ht": ""
-},
-{
-"t": "Fri 17:59",
-"game": "Shooting Stars vs Bendel Insurance FC",
-"pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
-"odds": 1.03,
-"ts": 1794589140.0,
-"r": "W",
-"sc": "2-1",
-"ht": "0-0"
-},
-{
-"t": "Fri 18:00",
-"game": "JS Saoura vs USM Khenchela",
-"pick": "Handicap 0:3 \u2013 USM Khenchela",
-"odds": 1.14,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Fri 18:00",
-"game": "Moldova vs Kazakhstan",
-"pick": "Handicap 0:2 \u2013 Kazakhstan",
-"odds": 1.12,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 18:00",
-"game": "KS Wisloka Debica vs MKS Czarni Polaniec",
-"pick": "Handicap 2:0 \u2013 KS Wisloka Debica",
-"odds": 1.15,
-"ts": 1794589200.0,
-"r": "L",
-"sc": "1-4",
-"ht": "1-1"
-},
-{
-"t": "Fri 18:00",
-"game": "SK Sturm Graz vs First Vienna FC 1894",
-"pick": "Handicap 0:3 \u2013 First Vienna FC 1894",
-"odds": 1.22,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-1"
-}
-]
-},
-{
-"code": "ZERS8K",
-"at": 1794591011,
-"when": "Fri 13 Nov 18:30",
-"kind": "live \u2013 best of all",
-"odds": 1.32,
-"status": "won",
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "Gabon vs Lesotho",
-"pick": "Handicap 0:4 \u2013 Lesotho",
-"odds": 1.03,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "2-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 17:00",
-"game": "Burkina Faso vs Mauritania",
-"pick": "Burkina Faso Under 1.5",
-"odds": 1.05,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 17:00",
-"game": "South Africa vs Kenya",
-"pick": "Under 4.5",
-"odds": 1.04,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "2-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 18:00",
-"game": "Shooting Stars vs Bendel Insurance FC",
-"pick": "Handicap 0:3 \u2013 Bendel Insurance FC",
-"odds": 1.04,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "2-1",
-"ht": "0-0"
-},
-{
-"t": "Fri 18:00",
-"game": "JS Saoura vs USM Khenchela",
-"pick": "Handicap 0:3 \u2013 USM Khenchela",
-"odds": 1.14,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-}
-]
-},
-{
-"code": "M1RX1T",
-"at": 1794590894,
-"when": "Fri 13 Nov 18:28",
-"kind": "live basketball",
-"odds": 1.44,
-"status": "won",
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "KB Prishtina vs KB Vellaznimi",
-"pick": "KB Vellaznimi to win (incl. OT)",
-"odds": 1.29,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "62-66",
-"ht": ""
-},
-{
-"t": "Fri 18:00",
-"game": "Apoel Nicosia vs Enosis Neon Paralimni",
-"pick": "Enosis Neon Paralimni to win (incl. OT)",
-"odds": 1.12,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "71-89",
-"ht": "16-34"
-}
-]
-},
-{
-"code": "YGXW0U",
-"at": 1794588442,
-"when": "Fri 13 Nov 17:47",
-"kind": "basketball \u2013 total points",
-"odds": 54.16,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 18:00",
-"game": "MKS Start Lublin vs GTK Gliwice",
-"pick": "Over 147.5 total points",
-"odds": 1.21,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "87-83",
-"ht": "21-13"
-},
-{
-"t": "Fri 18:00",
-"game": "Kufstein Towers vs Swans Gmunden",
-"pick": "Under 183.5 total points",
-"odds": 1.22,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "73-84",
-"ht": "22-20"
-},
-{
-"t": "Fri 19:00",
-"game": "BK Vejen81 vs Bakken Bears",
-"pick": "Under 191.5 total points",
-"odds": 1.22,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "61-126",
-"ht": "24-30"
-},
-{
-"t": "Fri 19:00",
-"game": "SKN St. Polten Basketball vs Flyers Wels",
-"pick": "Over 149.5 total points",
-"odds": 1.21,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "95-93",
-"ht": "28-23"
-},
-{
-"t": "Fri 20:00",
-"game": "BC Vienna vs BK Dukes Klosterneuburg",
-"pick": "Over 148.5 total points",
-"odds": 1.21,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "73-84",
-"ht": "21-12"
-},
-{
-"t": "Fri 20:15",
-"game": "Panathinaikos BC vs FC Barcelona",
-"pick": "Over 158.5 total points",
-"odds": 1.23,
-"ts": 1794597300.0,
-"r": "L",
-"sc": "74-76",
-"ht": "17-17"
-},
-{
-"t": "Fri 20:30",
-"game": "KK Krka Novo Mesto vs HKK Siroki",
-"pick": "Over 145.5 total points",
-"odds": 1.2,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "79-100",
-"ht": "12-23"
-},
-{
-"t": "Fri 23:30",
-"game": "Cruzeiro Basquete vs Unifacisa",
-"pick": "Under 172.5 total points",
-"odds": 1.23,
-"ts": 1794609000.0
-},
-{
-"t": "Sat 00:00",
-"game": "Ferro Carril Oeste vs Penarol Mar Del Plata",
-"pick": "Under 177.5 total points",
-"odds": 1.25,
-"ts": 1794610800.0,
-"r": "W",
-"sc": "76-85",
-"ht": ""
-},
-{
-"t": "Sat 02:00",
-"game": "Chicago Bulls vs Atlanta Hawks",
-"pick": "Under 259.5 total points",
-"odds": 1.26,
-"ts": 1794618000.0,
-"r": "W",
-"sc": "125-117",
-"ht": "33-24"
-},
-{
-"t": "Sat 04:00",
-"game": "Sacramento Kings vs Portland Trail Blazers",
-"pick": "Over 215.5 total points",
-"odds": 1.24,
-"ts": 1794625200.0,
-"r": "W",
-"sc": "107-120",
-"ht": "25-34"
-},
-{
-"t": "Sat 07:05",
-"game": "Yokohama B-Corsairs vs Shiga Lakestars",
-"pick": "Over 151.5 total points",
-"odds": 1.21,
-"ts": 1794636300.0
-},
-{
-"t": "Sat 08:30",
-"game": "Samsung Thunders vs Anyang Jungkwanjang Red Boosters",
-"pick": "Over 148.5 total points",
-"odds": 1.21,
-"ts": 1794641400.0
-},
-{
-"t": "Sat 09:30",
-"game": "Melbourne United vs SE Melbourne Phoenix",
-"pick": "Under 213.5 total points",
-"odds": 1.22,
-"ts": 1794645000.0
-},
-{
-"t": "Sat 12:00",
-"game": "FC Universitatea Cluj vs KD Ilirija",
-"pick": "Under 186.5 total points",
-"odds": 1.22,
-"ts": 1794654000.0
-},
-{
-"t": "Sat 15:00",
-"game": "Twarde Pierniki Torun vs Trefl Sopot",
-"pick": "Over 160.5 total points",
-"odds": 1.2,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "SC Braga vs UD Oliveirense",
-"pick": "Under 185.5 total points",
-"odds": 1.23,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "BC AEK Athens vs AE Doxa Lefkadas",
-"pick": "Under 173.5 total points",
-"odds": 1.22,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:30",
-"game": "Promitheas Patras BC vs Iraklis 2022",
-"pick": "Over 146.5 total points",
-"odds": 1.21,
-"ts": 1794670200.0
-},
-{
-"t": "Sat 17:30",
-"game": "Hapoel Tel-Aviv vs Bnei Herzliya Basket",
-"pick": "Under 188.5 total points",
-"odds": 1.22,
-"ts": 1794673800.0
-}
-]
-},
-{
-"code": "PEJ3RC",
-"at": 1794588273,
-"when": "Fri 13 Nov 17:44",
-"kind": "always-beaten teams (season data)",
-"odds": 2.3,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 19:00",
-"game": "Skive IK vs Thisted FC",
-"pick": "Double chance Skive IK or draw",
-"odds": 1.21,
-"ts": 1794592800.0,
-"r": "L",
-"sc": "1-2",
-"ht": "0-1"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Nantes vs RC Lens",
-"pick": "Double chance FC Nantes or draw",
-"odds": 1.16,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Helsingoer vs Holstebro BK",
-"pick": "Double chance FC Helsingoer or draw",
-"odds": 1.11,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-3",
-"ht": "2-2"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"pick": "Double chance RFC Liege or draw",
-"odds": 1.33,
-"ts": 1794598200.0,
-"r": "L",
-"sc": "6-1",
-"ht": "2-0"
-},
-{
-"t": "Fri 20:45",
-"game": "Glentoran FC vs Bangor FC",
-"pick": "Double chance Glentoran FC or draw",
-"odds": 1.11,
-"ts": 1794599100.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-}
-]
-},
-{
-"code": "SX895H",
-"at": 1794587996,
-"when": "Fri 13 Nov 17:39",
-"kind": "your chosen markets",
-"odds": 11.2,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 18:00",
-"game": "Germany vs Belgium",
-"pick": "1st half GG \u2013 No",
-"odds": 1.27,
-"ts": 1794589200.0,
-"r": "L",
-"sc": "1-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Roskilde vs Nykoebing FC",
-"pick": "1st half GG \u2013 No",
-"odds": 1.28,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 20:45",
-"game": "Netherlands vs Greece",
-"pick": "1st half GG \u2013 No",
-"odds": 1.28,
-"ts": 1794599100.0,
-"r": "W",
-"sc": "7-0",
-"ht": "5-0"
-},
-{
-"t": "Sat 00:00",
-"game": "Saint-Martin vs El Salvador",
-"pick": "1st half GG \u2013 No",
-"odds": 1.23,
-"ts": 1794610800.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 06:00",
-"game": "RB Omiya Ardija vs Montedio Yamagata",
-"pick": "1st half GG \u2013 No",
-"odds": 1.27,
-"ts": 1794632400.0
-},
-{
-"t": "Sat 13:00",
-"game": "Slask II Wroclaw vs KS Lechia Zielona Gora",
-"pick": "1st half GG \u2013 No",
-"odds": 1.34,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 16:00",
-"game": "Stockport County FC vs Reading FC",
-"pick": "1st half GG \u2013 No",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Wycombe Wanderers vs Huddersfield",
-"pick": "1st half GG \u2013 No",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 20:00",
-"game": "RKC Waalwijk vs FC Den Bosch",
-"pick": "1st half GG \u2013 No",
-"odds": 1.35,
-"ts": 1794682800.0
-},
-{
-"t": "Tue 20:45",
-"game": "Ukraine vs Georgia",
-"pick": "1st half GG \u2013 No",
-"odds": 1.2,
-"ts": 1794944700.0
 }
 ]
 }
