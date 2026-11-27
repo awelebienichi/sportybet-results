@@ -205,7 +205,10 @@
 "game": "RWD Molenbeek Youth vs RAAL La Louviere",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -1843,7 +1846,10 @@
 "game": "RWD Molenbeek Youth vs RAAL La Louviere",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -2733,7 +2739,10 @@
 "game": "RWD Molenbeek Youth vs RAAL La Louviere",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:15",
@@ -3560,7 +3569,10 @@
 "game": "RWD Molenbeek Youth vs RAAL La Louviere",
 "pick": "RWD Molenbeek Youth or GG",
 "odds": 1.13,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -3576,7 +3588,7 @@
 "odds": 1.29,
 "ts": 1795806000.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-2"
 },
 {
@@ -3835,7 +3847,7 @@
 "odds": 1.1,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -3855,7 +3867,7 @@
 "odds": 1.2,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-2"
 },
 {
@@ -3991,7 +4003,10 @@
 "game": "Bala Town FC vs Caersws",
 "pick": "Bala Town FC or GG",
 "odds": 1.1,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
@@ -4273,7 +4288,7 @@
 "odds": 1.1,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -4701,7 +4716,7 @@
 "odds": 1.1,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -4751,7 +4766,7 @@
 "odds": 1.14,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-2"
 },
 {
@@ -7128,7 +7143,10 @@
 "game": "RWD Molenbeek Youth vs RAAL La Louviere",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
@@ -7333,7 +7351,10 @@
 "game": "RWD Molenbeek Youth vs RAAL La Louviere",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:00",
