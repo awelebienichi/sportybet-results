@@ -2,6 +2,226 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "Y4UTSM",
+"at": 1795797045,
+"when": "Fri 27 Nov 17:30",
+"kind": "your chosen markets",
+"odds": 21.09,
+"status": "open",
+"legs": [
+{
+"t": "Fri 18:00",
+"game": "Umraniyespor vs Manisa Futbol Kulubu",
+"pick": "Handicap 2:0 \u2013 Umraniyespor",
+"odds": 1.09,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 19:00",
+"game": "Hvidovre IF vs Kolding IF",
+"pick": "Handicap 2:0 \u2013 Hvidovre IF",
+"odds": 1.06,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:00",
+"game": "AS Cannes vs Le Puy-En Velay FC",
+"pick": "Handicap 2:0 \u2013 AS Cannes",
+"odds": 1.11,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 20:15",
+"game": "Etoile Carouge FC vs Stade Lausanne Ouchy",
+"pick": "Handicap 0:2 \u2013 Stade Lausanne Ouchy",
+"odds": 1.06,
+"ts": 1795806900.0
+},
+{
+"t": "Fri 20:45",
+"game": "Venezia FC vs Bologna",
+"pick": "Handicap 0:2 \u2013 Bologna",
+"odds": 1.11,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Oud-Heverlee Leuven vs KV Kortrijk",
+"pick": "Handicap 2:0 \u2013 Oud-Heverlee Leuven",
+"odds": 1.08,
+"ts": 1795808700.0
+},
+{
+"t": "Sat 00:00",
+"game": "Vila Nova FC GO vs AC Goianiense GO",
+"pick": "Handicap 2:0 \u2013 Vila Nova FC GO",
+"odds": 1.09,
+"ts": 1795820400.0
+},
+{
+"t": "Sat 06:00",
+"game": "Shimizu S-Pulse vs Urawa Red Diamonds",
+"pick": "Handicap 0:2 \u2013 Urawa Red Diamonds",
+"odds": 1.06,
+"ts": 1795842000.0
+},
+{
+"t": "Sat 06:00",
+"game": "FC Anyang vs Jeju SK FC",
+"pick": "Handicap 0:2 \u2013 Jeju SK FC",
+"odds": 1.19,
+"ts": 1795842000.0
+},
+{
+"t": "Sat 08:30",
+"game": "Bucheon FC 1995 vs Gimcheon Sangmu FC",
+"pick": "Handicap 0:2 \u2013 Gimcheon Sangmu FC",
+"odds": 1.11,
+"ts": 1795851000.0
+},
+{
+"t": "Sat 13:30",
+"game": "Preston North End vs Norwich",
+"pick": "Handicap 0:2 \u2013 Norwich",
+"odds": 1.06,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 13:30",
+"game": "Blackburn Rovers vs Charlton Athletic",
+"pick": "Handicap 2:0 \u2013 Blackburn Rovers",
+"odds": 1.08,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 13:30",
+"game": "HB Koege vs Aarhus Fremad",
+"pick": "Handicap 2:0 \u2013 HB Koege",
+"odds": 1.12,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "Rot-Weiss Essen vs TSG Hoffenheim II",
+"pick": "Handicap 2:0 \u2013 Rot-Weiss Essen",
+"odds": 1.06,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "FK Radnik Surdulica vs FK Vojvodina Novi Sad",
+"pick": "Handicap 0:2 \u2013 FK Vojvodina Novi Sad",
+"odds": 1.07,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Mashujaa FC vs TRA United Sports Club",
+"pick": "Handicap 0:2 \u2013 TRA United Sports Club",
+"odds": 1.11,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "1.SK Prostejov vs FK Viktoria Zizkov",
+"pick": "Handicap 0:2 \u2013 FK Viktoria Zizkov",
+"odds": 1.19,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "GD Chaves vs CD Tondela",
+"pick": "Handicap 0:2 \u2013 CD Tondela",
+"odds": 1.07,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rochdale AFC vs Barnet FC",
+"pick": "Handicap 0:2 \u2013 Barnet FC",
+"odds": 1.07,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"pick": "Handicap 0:2 \u2013 MSV Duisburg",
+"odds": 1.1,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 17:00",
+"game": "CODM Meknes vs Renaissance Zemamra",
+"pick": "Handicap 0:2 \u2013 Renaissance Zemamra",
+"odds": 1.19,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:30",
+"game": "Mura Murska Sobota vs NK Maribor",
+"pick": "Handicap 0:2 \u2013 NK Maribor",
+"odds": 1.06,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 17:30",
+"game": "WKS Slask Wroclaw vs GKS Katowice",
+"pick": "Handicap 0:2 \u2013 GKS Katowice",
+"odds": 1.12,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 17:30",
+"game": "Salernitana vs SS Monopoli",
+"pick": "Handicap 0:2 \u2013 SS Monopoli",
+"odds": 1.23,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"pick": "Handicap 0:2 \u2013 Lazio",
+"odds": 1.1,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Football Bourg-En-Bresse Peronnas 01 vs Thionville US Lusitanos",
+"pick": "Handicap 0:2 \u2013 Thionville US Lusitanos",
+"odds": 1.13,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Ipswich Town vs Aston Villa",
+"pick": "Handicap 0:2 \u2013 Aston Villa",
+"odds": 1.1,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:45",
+"game": "Motherwell FC vs Hibernian FC",
+"pick": "Handicap 0:2 \u2013 Hibernian FC",
+"odds": 1.16,
+"ts": 1795887900.0
+},
+{
+"t": "Sat 19:00",
+"game": "Sporting Lisbon B vs Amarante FC",
+"pick": "Handicap 2:0 \u2013 Sporting Lisbon B",
+"odds": 1.06,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 19:00",
+"game": "Lusitania FC Lourosa vs FC Vizela",
+"pick": "Handicap 0:2 \u2013 FC Vizela",
+"odds": 1.2,
+"ts": 1795888800.0
+}
+]
+},
+{
 "code": "MYH35V",
 "at": 1795764009,
 "when": "Fri 27 Nov 08:20",
