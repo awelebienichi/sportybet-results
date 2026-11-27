@@ -391,7 +391,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -1312,7 +1315,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 00:00",
@@ -3056,7 +3062,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -3726,7 +3735,10 @@
 "game": "Norwich City U21 vs Chelsea U21",
 "pick": "GG (both teams score)",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -4120,7 +4132,10 @@
 "game": "Norwich City U21 vs Chelsea U21",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -4136,7 +4151,7 @@
 "odds": 1.08,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -4496,7 +4511,10 @@
 "game": "Bochum vs Darmstadt",
 "pick": "Over 1.5",
 "odds": 1.22,
-"ts": 1795800600.0
+"ts": 1795800600.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
@@ -4527,7 +4545,10 @@
 "game": "Norwich City U21 vs Chelsea U21",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -4543,7 +4564,7 @@
 "odds": 1.08,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -5388,7 +5409,10 @@
 "game": "WKW ETO FC Gyor vs Debreceni VSC",
 "pick": "1st half double chance WKW ETO FC Gyor or draw",
 "odds": 1.35,
-"ts": 1795804200.0
+"ts": 1795804200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:00",
@@ -5425,7 +5449,7 @@
 "odds": 1.08,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -5662,7 +5686,10 @@
 "game": "Norwich City U21 vs Chelsea U21",
 "pick": "GG (both teams score)",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -5685,7 +5712,7 @@
 "odds": 1.08,
 "ts": 1795806000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -5835,7 +5862,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -6230,7 +6260,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over 2.5",
 "odds": 1.3,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -6331,7 +6364,10 @@
 "game": "Norwich City U21 vs Chelsea U21",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -6744,7 +6780,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over 2.5",
 "odds": 1.27,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
@@ -6919,7 +6958,10 @@
 "game": "Jong Ajax Amsterdam vs Heracles Almelo",
 "pick": "Over 2.5",
 "odds": 1.26,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Fri 20:00",
