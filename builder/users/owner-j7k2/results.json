@@ -3647,7 +3647,7 @@
 "odds": 1.14,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-1"
 },
 {
@@ -3774,7 +3774,10 @@
 "game": "Nottingham Forest vs Chelsea",
 "pick": "1st half double chance Nottingham Forest or draw",
 "odds": 1.31,
-"ts": 1795809600.0
+"ts": 1795809600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -3941,7 +3944,7 @@
 "odds": 1.13,
 "ts": 1795807800.0,
 "r": "W",
-"sc": "2-1",
+"sc": "2-2",
 "ht": "1-1"
 },
 {
@@ -4072,7 +4075,10 @@
 "game": "Nottingham Forest vs Chelsea",
 "pick": "1st half double chance Nottingham Forest or draw",
 "odds": 1.31,
-"ts": 1795809600.0
+"ts": 1795809600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 }
 ]
 },
@@ -5845,7 +5851,10 @@
 "game": "Nottingham Forest vs Chelsea",
 "pick": "1st half double chance Nottingham Forest or draw",
 "odds": 1.29,
-"ts": 1795809600.0
+"ts": 1795809600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 21:00",
@@ -6139,7 +6148,10 @@
 "game": "Nottingham Forest vs Chelsea",
 "pick": "1st half double chance Nottingham Forest or draw",
 "odds": 1.29,
-"ts": 1795809600.0
+"ts": 1795809600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 21:00",
