@@ -7,7 +7,7 @@
 "when": "Fri 27 Nov 17:54",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 1647.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -34,7 +34,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 02:00",
@@ -1753,7 +1756,7 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 34.21,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -1770,7 +1773,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 11:00",
@@ -3124,7 +3130,7 @@
 "when": "Fri 27 Nov 17:36",
 "kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
 "odds": 173592.87,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -3225,7 +3231,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 21:00",
@@ -5103,7 +5112,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -5248,7 +5260,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -5652,7 +5667,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 20:30",
@@ -5936,7 +5954,7 @@
 "odds": 1.1,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "1-2",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -7429,7 +7447,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Fri 21:00",
@@ -7643,7 +7664,10 @@
 "game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 }
 ]
 },
