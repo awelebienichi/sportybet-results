@@ -3381,7 +3381,10 @@
 "game": "SK Artis Brno vs 1. FC Slovacko Uherske Hradiste",
 "pick": "1st half double chance SK Artis Brno or draw",
 "odds": 1.27,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -3408,7 +3411,10 @@
 "game": "Caykur Rizespor vs Kasimpasa Istanbul",
 "pick": "1st half double chance Caykur Rizespor or draw",
 "odds": 1.24,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:30",
@@ -3607,7 +3613,7 @@
 "when": "Fri 27 Nov 17:29",
 "kind": "rebuild of KRV2TP \u2013 safest market per game",
 "odds": 1985.55,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -3621,14 +3627,20 @@
 "game": "SK Artis Brno vs 1. FC Slovacko Uherske Hradiste",
 "pick": "1st half double chance SK Artis Brno or draw",
 "odds": 1.27,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
 "game": "Umraniyespor vs Manisa Futbol Kulubu",
 "pick": "1st half double chance Umraniyespor or draw",
 "odds": 1.26,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 18:00",
@@ -3645,7 +3657,10 @@
 "game": "Caykur Rizespor vs Kasimpasa Istanbul",
 "pick": "1st half Under 2.5",
 "odds": 1.15,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:30",
@@ -5259,7 +5274,10 @@
 "game": "SK Artis Brno vs 1. FC Slovacko Uherske Hradiste",
 "pick": "1st half double chance SK Artis Brno or draw",
 "odds": 1.29,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -5488,7 +5506,10 @@
 "game": "SK Artis Brno vs 1. FC Slovacko Uherske Hradiste",
 "pick": "1st half double chance SK Artis Brno or draw",
 "odds": 1.29,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 18:00",
@@ -6187,7 +6208,10 @@
 "game": "Umraniyespor vs Manisa Futbol Kulubu",
 "pick": "1st half double chance Umraniyespor or draw",
 "odds": 1.27,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 18:30",
@@ -6918,7 +6942,10 @@
 "game": "NK Celik Zenica vs FK BSK Banja Luka",
 "pick": "Half-time draw",
 "odds": 2.2,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:00",
