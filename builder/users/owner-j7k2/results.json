@@ -392,14 +392,17 @@
 "when": "Fri 27 Nov 17:54",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 2320.92,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -1955,14 +1958,17 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 50.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.44,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -2371,14 +2377,17 @@
 "when": "Fri 27 Nov 17:36",
 "kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
 "odds": 41388791.22,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Over 2.5",
 "odds": 1.44,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
@@ -5039,7 +5048,10 @@
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:30",
