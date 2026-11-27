@@ -922,7 +922,10 @@
 "game": "Ethiopian Coffee SC vs Halaba Ketema",
 "pick": "1st half GG \u2013 No",
 "odds": 1.09,
-"ts": 1795782600.0
+"ts": 1795782600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 13:45",
@@ -1620,7 +1623,10 @@
 "game": "Ethiopian Coffee SC vs Halaba Ketema",
 "pick": "Half-time draw",
 "odds": 1.84,
-"ts": 1795782600.0
+"ts": 1795782600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 14:00",
