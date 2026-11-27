@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "TM8PE8",
+"at": 1795786699,
+"when": "Fri 27 Nov 14:38",
+"kind": "goal-fest teams (season data)",
+"odds": 26.01,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:30",
+"game": "ZKS Stal Stalowa Wola vs Legia Warszawa II",
+"pick": "Over 2.5",
+"odds": 1.5,
+"ts": 1795797000.0
+},
+{
+"t": "Fri 19:30",
+"game": "SC Kriens vs FC Aarau",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "West Ham U21 vs Tottenham Hotspur U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"pick": "Over 3.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cardiff Metropolitan University FC vs Airbus UK Broughton",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795808700.0
+}
+]
+},
+{
 "code": "W32XFT",
 "at": 1795776001,
 "when": "Fri 27 Nov 11:40",
@@ -82889,46 +82969,6 @@
 "r": "W",
 "sc": "3-0",
 "ht": "1-0"
-}
-]
-},
-{
-"code": "TG74U5",
-"at": 1794571158,
-"when": "Fri 13 Nov 12:59",
-"kind": "live \u2013 best of all",
-"odds": 1.19,
-"status": "won",
-"legs": [
-{
-"t": "Fri 12:00",
-"game": "Nafta 1903 Lendava vs NK Slaven Belupo",
-"pick": "Nafta 1903 Lendava Under 3.5",
-"odds": 1.03,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Fri 12:00",
-"game": "Al Hedod SC vs AL Hashd AL Shade",
-"pick": "Handicap 2:0 \u2013 Al Hedod SC",
-"odds": 1.04,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 12:00",
-"game": "Stinta Poli Timisoara 2 vs ACS Progresul Pecica",
-"pick": "Stinta Poli Timisoara 2 or draw",
-"odds": 1.11,
-"ts": 1794567600.0,
-"r": "W",
-"sc": "1-1",
-"ht": ""
 }
 ]
 }
