@@ -486,8 +486,8 @@
 "odds": 1.28,
 "ts": 1795791600.0,
 "r": "W",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 16:30",
@@ -1384,7 +1384,7 @@
 "when": "Fri 27 Nov 10:00",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.64,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 13:30",
@@ -1411,7 +1411,10 @@
 "game": "Malkiya Club vs Manama Club",
 "pick": "1st half Under 2.5",
 "odds": 1.09,
-"ts": 1795791600.0
+"ts": 1795791600.0,
+"r": "L",
+"sc": "2-1",
+"ht": "2-1"
 },
 {
 "t": "Fri 18:00",
