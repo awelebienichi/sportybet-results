@@ -3732,7 +3732,7 @@
 "odds": 1.04,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -4013,7 +4013,10 @@
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
@@ -4032,8 +4035,8 @@
 "odds": 1.16,
 "ts": 1795808700.0,
 "r": "W",
-"sc": "2-0",
-"ht": ""
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Fri 20:45",
@@ -4831,7 +4834,10 @@
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -4896,7 +4902,10 @@
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
@@ -5092,7 +5101,10 @@
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "Over 2.5",
 "odds": 1.57,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 }
 ]
 },
@@ -5731,7 +5743,10 @@
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -6027,7 +6042,10 @@
 "game": "FC Groningen vs Willem II Tilburg",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795806000.0
+"ts": 1795806000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:00",
@@ -6908,7 +6926,10 @@
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.52,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 20:45",
@@ -7019,7 +7040,10 @@
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 }
 ]
 },
@@ -7083,7 +7107,10 @@
 "game": "Cambrian United vs Trefelin BGC",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 21:00",
