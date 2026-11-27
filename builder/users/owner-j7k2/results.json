@@ -820,7 +820,7 @@
 "when": "Fri 27 Nov 10:38",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 7.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 11:00",
@@ -837,7 +837,10 @@
 "game": "Lernayin Artsakh FC vs FC Pyunik Yerevan 2",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795773600.0
+"ts": 1795773600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 11:00",
