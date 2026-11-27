@@ -3393,7 +3393,7 @@
 "odds": 1.27,
 "ts": 1795798800.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -3642,7 +3642,7 @@
 "odds": 1.26,
 "ts": 1795798800.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -4445,14 +4445,17 @@
 "when": "Fri 27 Nov 17:13",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 108.74,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
 "game": "Wigry Suwalki vs Jagiellonia II Bialystok",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 18:00",
@@ -4619,7 +4622,7 @@
 "when": "Fri 27 Nov 17:09",
 "kind": "goal-fest teams (season data)",
 "odds": 1569.41,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 17:30",
@@ -4646,7 +4649,10 @@
 "game": "Wigry Suwalki vs Jagiellonia II Bialystok",
 "pick": "Over 2.5",
 "odds": 1.48,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Fri 19:00",
@@ -5329,7 +5335,10 @@
 "game": "Als Omonia vs Omonia Aradippou",
 "pick": "1st half double chance Als Omonia or draw",
 "odds": 1.39,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 19:30",
@@ -6240,7 +6249,7 @@
 "odds": 1.27,
 "ts": 1795798800.0,
 "r": "L",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -6991,7 +7000,10 @@
 "game": "CD Feirense vs Portimonense SC",
 "pick": "Half-time draw",
 "odds": 2.0,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Fri 19:00",
