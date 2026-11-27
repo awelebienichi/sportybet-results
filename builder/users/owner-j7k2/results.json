@@ -762,14 +762,17 @@
 "when": "Fri 27 Nov 17:54",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 2418.33,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.33,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -2124,14 +2127,17 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 66.38,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.33,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:15",
@@ -2689,14 +2695,17 @@
 "when": "Fri 27 Nov 17:36",
 "kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
 "odds": 6198530.93,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 20:00",
@@ -6906,7 +6915,10 @@
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:30",
@@ -7102,7 +7114,10 @@
 "game": "Hansa Rostock vs TSV Havelse",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795802400.0
+"ts": 1795802400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Fri 19:30",
