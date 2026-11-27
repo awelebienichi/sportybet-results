@@ -3607,7 +3607,10 @@
 "game": "Carmarthen Town vs Swansea University",
 "pick": "Goal bounds 2-5+",
 "odds": 1.11,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:30",
@@ -4749,7 +4752,10 @@
 "game": "Carmarthen Town vs Swansea University",
 "pick": "Over 1.5",
 "odds": 1.14,
-"ts": 1795807800.0
+"ts": 1795807800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 20:45",
