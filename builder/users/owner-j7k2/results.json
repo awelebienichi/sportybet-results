@@ -5223,7 +5223,7 @@
 "when": "Fri 27 Nov 11:40",
 "kind": "rebuild of LY82SX \u2013 tracker's best markets",
 "odds": 997.56,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 15:20",
@@ -5284,7 +5284,10 @@
 "game": "NK Radomlje vs Nafta 1903 Lendava",
 "pick": "1st half double chance NK Radomlje or draw",
 "odds": 1.33,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 18:00",
