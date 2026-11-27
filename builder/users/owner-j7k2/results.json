@@ -4634,7 +4634,10 @@
 "game": "Flint Town United vs The New Saints FC",
 "pick": "The New Saints FC to win",
 "odds": 1.12,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "0-4",
+"ht": "0-1"
 },
 {
 "t": "Fri 20:45",
@@ -6852,7 +6855,10 @@
 "game": "Flint Town United vs The New Saints FC",
 "pick": "The New Saints FC to win",
 "odds": 1.13,
-"ts": 1795808700.0
+"ts": 1795808700.0,
+"r": "W",
+"sc": "0-4",
+"ht": "0-1"
 },
 {
 "t": "Fri 21:00",
