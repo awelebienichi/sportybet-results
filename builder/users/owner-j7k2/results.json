@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NT91JL",
+"at": 1795795742,
+"when": "Fri 27 Nov 17:09",
+"kind": "goal-fest teams (season data)",
+"odds": 1569.41,
+"status": "open",
+"legs": [
+{
+"t": "Fri 17:30",
+"game": "ZKS Stal Stalowa Wola vs Legia Warszawa II",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795797000.0
+},
+{
+"t": "Fri 18:00",
+"game": "Rakow Czestochowa vs GKS Piast Gliwice",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 18:00",
+"game": "Wigry Suwalki vs Jagiellonia II Bialystok",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795798800.0
+},
+{
+"t": "Fri 19:00",
+"game": "SonderjyskE vs Broendby IF",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795802400.0
+},
+{
+"t": "Fri 19:30",
+"game": "SC Kriens vs FC Aarau",
+"pick": "Over 2.5",
+"odds": 1.44,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 19:30",
+"game": "WKW ETO FC Gyor vs Debreceni VSC",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Fulham U21 vs Nottingham Forest U21",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "West Ham U21 vs Tottenham Hotspur U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Cardiff City U21 vs Swansea City U21",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"pick": "Over 3.5",
+"odds": 1.4,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "FC Groningen vs Willem II Tilburg",
+"pick": "Over 2.5",
+"odds": 1.46,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:30",
+"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Carmarthen Town vs Swansea University",
+"pick": "Over 2.5",
+"odds": 1.48,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Llanelli Town vs Cardiff Draconians",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:30",
+"game": "Bangor 1876 FC vs Mold Alexandra FC",
+"pick": "Over 2.5",
+"odds": 1.45,
+"ts": 1795807800.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cardiff Metropolitan University FC vs Airbus UK Broughton",
+"pick": "Over 2.5",
+"odds": 1.61,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Moyola Park FC vs Annagh United FC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Warrington Rylands 1906 FC vs Lancaster City",
+"pick": "Over 2.5",
+"odds": 1.55,
+"ts": 1795808700.0
+},
+{
+"t": "Fri 20:45",
+"game": "Cambrian United vs Trefelin BGC",
+"pick": "Over 2.5",
+"odds": 1.57,
+"ts": 1795808700.0
+}
+]
+},
+{
 "code": "LTJJRX",
 "at": 1795787320,
 "when": "Fri 27 Nov 14:48",
@@ -82845,216 +82995,6 @@
 "r": "W",
 "sc": "6-1",
 "ht": "2-0"
-}
-]
-},
-{
-"code": "MMYD8D",
-"at": 1794578727,
-"when": "Fri 13 Nov 15:05",
-"kind": "safest market per game",
-"odds": 29.0,
-"status": "lost",
-"legs": [
-{
-"t": "Fri 17:00",
-"game": "Nigeria vs Tanzania",
-"pick": "2nd half Over 0.5",
-"odds": 1.21,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-1"
-},
-{
-"t": "Fri 17:00",
-"game": "Turkiye vs Czechia",
-"pick": "Under 3.5",
-"odds": 1.24,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-0"
-},
-{
-"t": "Fri 17:00",
-"game": "Cape Verde vs Liberia",
-"pick": "Cape Verde or GG",
-"odds": 1.1,
-"ts": 1794585600.0,
-"r": "W",
-"sc": "4-2",
-"ht": "3-1"
-},
-{
-"t": "Fri 18:00",
-"game": "JS Saoura vs USM Khenchela",
-"pick": "1st half double chance USM Khenchela or draw",
-"odds": 1.5,
-"ts": 1794589200.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Fri 19:00",
-"game": "Spain vs Japan",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Fri 19:00",
-"game": "SD Ponferradina vs CP Cacereno SAD",
-"pick": "1st half double chance SD Ponferradina or draw",
-"odds": 1.18,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-0"
-},
-{
-"t": "Fri 19:00",
-"game": "VV Kloetinge vs Hoek",
-"pick": "1st half Over 0.5",
-"odds": 1.21,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-3",
-"ht": "1-2"
-},
-{
-"t": "Fri 19:00",
-"game": "FC Rapperswil-Jona vs Grasshopper Zurich",
-"pick": "Over 1.5",
-"odds": 1.08,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-2",
-"ht": "1-1"
-},
-{
-"t": "Fri 19:00",
-"game": "Switzerland vs Romania",
-"pick": "Switzerland or GG",
-"odds": 1.12,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-0"
-},
-{
-"t": "Fri 20:00",
-"game": "Bermuda vs Saint Lucia",
-"pick": "1st half Over 0.5",
-"odds": 1.14,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-1"
-},
-{
-"t": "Fri 20:00",
-"game": "Dijon vs US Orleans",
-"pick": "Dijon or GG",
-"odds": 1.13,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-2"
-},
-{
-"t": "Fri 20:00",
-"game": "Millwall U21 vs Sheffield United U21",
-"pick": "2nd half Over 0.5",
-"odds": 1.14,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-2"
-},
-{
-"t": "Fri 20:00",
-"game": "Peterborough United U21 vs Newcastle United U21",
-"pick": "1st half Over 0.5",
-"odds": 1.15,
-"ts": 1794596400.0,
-"r": "W",
-"sc": "1-0",
-"ht": ""
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Royal Francs Borains  vs RAAL La Louviere",
-"pick": "Over 1.5",
-"odds": 1.08,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "4-2",
-"ht": "2-1"
-},
-{
-"t": "Fri 20:30",
-"game": "Jeugd Sporting Hasselt vs RFC Liege",
-"pick": "Over 1.5",
-"odds": 1.08,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "6-1",
-"ht": "2-0"
-},
-{
-"t": "Fri 20:30",
-"game": "ACD Ospitaletto vs Dolomiti Bellunesi",
-"pick": "ACD Ospitaletto or GG",
-"odds": 1.15,
-"ts": 1794598200.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Fri 20:45",
-"game": "Andorra vs Gibraltar",
-"pick": "1st half double chance Gibraltar or draw",
-"odds": 1.51,
-"ts": 1794599100.0,
-"r": "L",
-"sc": "2-0",
-"ht": "2-0"
-},
-{
-"t": "Fri 20:45",
-"game": "Ballymena United vs Linfield FC",
-"pick": "2nd half Over 0.5",
-"odds": 1.23,
-"ts": 1794599100.0,
-"r": "L",
-"sc": "0-3",
-"ht": "0-3"
-},
-{
-"t": "Fri 20:45",
-"game": "Serbia vs Germany",
-"pick": "1st half Over 0.5",
-"odds": 1.23,
-"ts": 1794599100.0,
-"r": "W",
-"sc": "1-3",
-"ht": "0-2"
-},
-{
-"t": "Fri 20:45",
-"game": "Slovenia vs Switzerland",
-"pick": "1st half double chance Switzerland or draw",
-"odds": 1.13,
-"ts": 1794599100.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
 }
 ]
 }
