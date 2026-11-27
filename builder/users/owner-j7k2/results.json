@@ -2,6 +2,86 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "JYAUZV",
+"at": 1795772311,
+"when": "Fri 27 Nov 10:38",
+"kind": "Over 2.5 (lowest prices first)",
+"odds": 7.8,
+"status": "open",
+"legs": [
+{
+"t": "Fri 11:00",
+"game": "Malatya Yesilyurt Belediyespor vs Agrispor 1970 SK",
+"pick": "Over 2.5",
+"odds": 1.15,
+"ts": 1795773600.0
+},
+{
+"t": "Fri 11:00",
+"game": "Lernayin Artsakh FC vs FC Pyunik Yerevan 2",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795773600.0
+},
+{
+"t": "Fri 11:00",
+"game": "Budapest Honved vs Puskas Akademia",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795773600.0
+},
+{
+"t": "Fri 13:15",
+"game": "Brunei DPMM FC vs Kelantan Red Warrior FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795781700.0
+},
+{
+"t": "Fri 15:20",
+"game": "Al Qadsiah vs Al-Fayha FC",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795789200.0
+},
+{
+"t": "Fri 19:30",
+"game": "KV RS Waasland Beveren vs Jeugd Sporting Hasselt",
+"pick": "Over 2.5",
+"odds": 1.11,
+"ts": 1795804200.0
+},
+{
+"t": "Fri 20:00",
+"game": "Manchester City U21 vs West Bromwich Albion FC U21",
+"pick": "Over 2.5",
+"odds": 1.17,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Jong Ajax Amsterdam vs Heracles Almelo",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 20:00",
+"game": "Norwich City U21 vs Chelsea U21",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795806000.0
+},
+{
+"t": "Fri 21:00",
+"game": "France vs Venezuela",
+"pick": "Over 2.5",
+"odds": 1.16,
+"ts": 1795809600.0
+}
+]
+},
+{
 "code": "QZX36Z",
 "at": 1795770020,
 "when": "Fri 27 Nov 10:00",
@@ -83100,165 +83180,6 @@
 "pick": "Over 1.5",
 "odds": 1.17,
 "ts": 1794760200.0
-}
-]
-},
-{
-"code": "TLGS6J",
-"at": 1794569351,
-"when": "Fri 13 Nov 12:29",
-"kind": "Over 1.5",
-"odds": 43.0,
-"status": "open",
-"legs": [
-{
-"t": "Fri 18:30",
-"game": "Hamburger SV vs 1. FSV Mainz 05",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794591000.0,
-"r": "W",
-"sc": "6-1",
-"ht": "4-1"
-},
-{
-"t": "Fri 19:00",
-"game": "Spain vs Japan",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Fri 19:00",
-"game": "HIK Hellerup vs B93 Copenhagen",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794592800.0,
-"r": "W",
-"sc": "3-2",
-"ht": ""
-},
-{
-"t": "Sat 02:00",
-"game": "Peru vs Bolivia",
-"pick": "Over 1.5",
-"odds": 1.36,
-"ts": 1794618000.0
-},
-{
-"t": "Sat 13:00",
-"game": "Kjelsaas vs Bjarg",
-"pick": "Over 1.5",
-"odds": 1.09,
-"ts": 1794657600.0
-},
-{
-"t": "Sat 13:30",
-"game": "Marek Dupnica vs PFC Chernomorets Burgas",
-"pick": "Over 1.5",
-"odds": 1.36,
-"ts": 1794659400.0
-},
-{
-"t": "Sat 15:00",
-"game": "FC Bassecourt vs Zug 94",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 15:00",
-"game": "Llanuwchllyn vs CPD Y Rhyl 1879",
-"pick": "Over 1.5",
-"odds": 1.14,
-"ts": 1794664800.0
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"pick": "Over 1.5",
-"odds": 1.11,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Leek Town FC vs Morecambe FC",
-"pick": "Over 1.5",
-"odds": 1.13,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Halesowen Town FC vs Redditch United",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Eastbourne Borough vs Chertsey Town",
-"pick": "Over 1.5",
-"odds": 1.17,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 16:00",
-"game": "Maidstone United FC vs Maidenhead United FC",
-"pick": "Over 1.5",
-"odds": 1.26,
-"ts": 1794668400.0
-},
-{
-"t": "Sat 20:00",
-"game": "Aguilas FC B vs CF Santomera",
-"pick": "Over 1.5",
-"odds": 1.31,
-"ts": 1794682800.0
-},
-{
-"t": "Sun 03:00",
-"game": "Club Atletico La Paz vs Piratas Veracruz",
-"pick": "Over 1.5",
-"odds": 1.18,
-"ts": 1794708000.0
-},
-{
-"t": "Sun 14:30",
-"game": "PFK Beroe Stara Zagora vs PFC Vihren Sandanski",
-"pick": "Over 1.5",
-"odds": 1.28,
-"ts": 1794749400.0
-},
-{
-"t": "Sun 16:00",
-"game": "CD Manacor vs UD Alcudia",
-"pick": "Over 1.5",
-"odds": 1.16,
-"ts": 1794754800.0
-},
-{
-"t": "Sun 16:30",
-"game": "CF Algeciras vs Antequera CF",
-"pick": "Over 1.5",
-"odds": 1.31,
-"ts": 1794756600.0
-},
-{
-"t": "Sun 17:00",
-"game": "Cotillas CD vs CD Algar",
-"pick": "Over 1.5",
-"odds": 1.28,
-"ts": 1794758400.0
-},
-{
-"t": "Sun 20:45",
-"game": "Croatia vs Czechia",
-"pick": "Over 1.5",
-"odds": 1.22,
-"ts": 1794771900.0
 }
 ]
 }
