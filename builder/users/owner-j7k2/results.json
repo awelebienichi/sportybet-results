@@ -3395,7 +3395,10 @@
 "game": "Alanyaspor vs Konyaspor",
 "pick": "Alanyaspor or GG",
 "odds": 1.37,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
@@ -5230,7 +5233,10 @@
 "game": "Alanyaspor vs Konyaspor",
 "pick": "Goal bounds 2-5+",
 "odds": 1.37,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Fri 18:00",
