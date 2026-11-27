@@ -4458,8 +4458,8 @@
 "odds": 1.14,
 "ts": 1795798800.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 18:30",
@@ -4633,7 +4633,10 @@
 "game": "Rakow Czestochowa vs GKS Piast Gliwice",
 "pick": "Over 2.5",
 "odds": 1.46,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 18:00",
@@ -6334,7 +6337,10 @@
 "game": "Rakow Czestochowa vs GKS Piast Gliwice",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.55,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 19:00",
@@ -6506,7 +6512,10 @@
 "game": "Rakow Czestochowa vs GKS Piast Gliwice",
 "pick": "Over 2.5",
 "odds": 1.55,
-"ts": 1795798800.0
+"ts": 1795798800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Fri 19:00",
