@@ -589,7 +589,10 @@
 "game": "Saint-Etienne vs FC Villefranche-Beaujolais",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.53,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 23:00",
@@ -1552,7 +1555,10 @@
 "game": "Saint-Etienne vs FC Villefranche-Beaujolais",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.53,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 19:30",
@@ -2454,7 +2460,10 @@
 "game": "Saint-Etienne vs FC Villefranche-Beaujolais",
 "pick": "Over 2.5",
 "odds": 1.53,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 22:00",
@@ -3345,8 +3354,8 @@
 "pick": "Over 2.5",
 "odds": 1.41,
 "ts": 1795881600.0,
-"r": "L",
-"sc": "1-0",
+"r": "W",
+"sc": "4-3",
 "ht": ""
 },
 {
@@ -3692,14 +3701,20 @@
 "game": "SC Recife PE vs Santa Cruz FC PE",
 "pick": "Over 1.5",
 "odds": 1.24,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 19:30",
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over 1.5",
 "odds": 1.13,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:45",
@@ -5181,8 +5196,8 @@
 "pick": "Over 2.5",
 "odds": 1.41,
 "ts": 1795881600.0,
-"r": "L",
-"sc": "1-0",
+"r": "W",
+"sc": "4-3",
 "ht": ""
 },
 {
@@ -5771,7 +5786,7 @@
 "odds": 1.4,
 "ts": 1795888800.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": "1-0"
 },
 {
@@ -5779,7 +5794,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Goal bounds 2-5+",
 "odds": 1.12,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 20:45",
@@ -6133,7 +6151,10 @@
 "game": "Ballymena United vs Cliftonville FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 19:30",
@@ -7474,7 +7495,10 @@
 "game": "Saint-Etienne vs FC Villefranche-Beaujolais",
 "pick": "2nd half Over 0.5",
 "odds": 1.18,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 20:00",
@@ -7692,7 +7716,10 @@
 "game": "Ballymena United vs Cliftonville FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 20:00",
@@ -8482,14 +8509,20 @@
 "game": "Ballymena United vs Cliftonville FC",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 19:00",
 "game": "Saint-Etienne vs FC Villefranche-Beaujolais",
 "pick": "2nd half Over 0.5",
 "odds": 1.17,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 20:00",
@@ -10141,8 +10174,8 @@
 "pick": "Over 2.5",
 "odds": 1.4,
 "ts": 1795881600.0,
-"r": "L",
-"sc": "1-0",
+"r": "W",
+"sc": "4-3",
 "ht": ""
 },
 {
