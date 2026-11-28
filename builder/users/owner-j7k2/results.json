@@ -5766,7 +5766,10 @@
 "game": "Ballymena United vs Cliftonville FC",
 "pick": "1st half double chance Ballymena United or draw",
 "odds": 1.4,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 19:30",
@@ -8083,7 +8086,10 @@
 "game": "Hartlepool United vs Southend United",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795887000.0
+"ts": 1795887000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 }
 ]
 },
@@ -8881,7 +8887,10 @@
 "game": "Hartlepool United vs Southend United",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795887000.0
+"ts": 1795887000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-1"
 }
 ]
 },
