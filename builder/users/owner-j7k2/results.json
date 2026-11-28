@@ -3,8 +3,8 @@
 "tickets": [
 {
 "code": "RP629U",
-"at": 1795856690,
-"when": "Sat 28 Nov 10:04",
+"at": 1795856985,
+"when": "Sat 28 Nov 10:09",
 "kind": "daily rollover \u2013 day 1",
 "odds": 4.16,
 "status": "open",
@@ -62,7 +62,7 @@
 "t": "Sat 16:00",
 "game": "Dorking Wanderers vs Farnborough FC",
 "pick": "Over 1.5",
-"odds": 1.07,
+"odds": 1.08,
 "ts": 1795878000.0
 },
 {

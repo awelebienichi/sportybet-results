@@ -1,7 +1,7 @@
 [
 {
-"when": "Sat 28 Nov 10:04",
-"at": 1795856690,
+"when": "Sat 28 Nov 10:09",
+"at": 1795856985,
 "req": {
 "type": "rollover",
 "legs": 12,
@@ -120,7 +120,7 @@
 "game": "Dorking Wanderers vs Farnborough FC",
 "lg": "England Amateur - National League South",
 "pick": "Over 1.5",
-"odds": 1.07,
+"odds": 1.08,
 "why": "stats rate 96% from both teams' last 10 and 6 meetings; Flashscore home/away form 85%, FotMob: 3.5 goals a game, Vitibet tip 3-1, season: 3.5 goals a game (1st-half rollover)",
 "ts": 1795878000.0,
 "eid": "sr:match:72758366",
@@ -186,7 +186,7 @@
 "k": "74735124|68|total=2.5|13"
 }
 ],
-"chance": 0.1351
+"chance": 0.1339
 }
 ]
 },
