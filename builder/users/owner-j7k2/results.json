@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "NQ77D9",
+"at": 1795839554,
+"when": "Sat 28 Nov 05:19",
+"kind": "goal-fest teams (season data)",
+"odds": 487.48,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:00",
+"game": "Gyori ETO FC vs Fehervar FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795856400.0
+},
+{
+"t": "Sat 12:00",
+"game": "Vasas Kubala Academy vs Illes Akademia",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795863600.0
+},
+{
+"t": "Sat 13:00",
+"game": "Lech Poznan vs Zaglebie Lubin",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs FAC Wien Amateure",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "SC Wiedenbruck vs 1. FC Cologne II",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "SV Rodinghausen vs Borussia Monchengladbach II",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "FSV Schoningen 2011 vs SV Werder Bremen II",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "GVVV Veenendaal vs BVV Barendrecht",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Redcar Athletic FC vs Workington AFC",
+"pick": "Over 2.5",
+"odds": 1.42,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Gosport Borough",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Altrincham FC vs Worthing FC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Farnborough FC",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "FC Vaduz vs FC Zurich",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "SC Cambuur vs Feyenoord Rotterdam",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Charlotte FC vs Chicago Fire",
+"pick": "Over 2.5",
+"odds": 1.38,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "Over 2.5",
+"odds": 1.43,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 23:00",
+"game": "Cdm FC vs Real Refineros Cds",
+"pick": "Over 2.5",
+"odds": 1.35,
+"ts": 1795903200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "M6TMV5",
 "at": 1795839474,
 "when": "Sat 28 Nov 05:17",
@@ -85434,76 +85584,6 @@
 "r": "W",
 "sc": "1-0",
 "ht": "0-0"
-},
-{
-"t": "Sat 05:30",
-"game": "Blancdieu Hirosaki vs Gakunan F Mosperio",
-"pick": "Blancdieu Hirosaki or Gakunan F Mosperio",
-"odds": 1.03,
-"ts": 1794630600.0,
-"r": "W",
-"sc": "1-6",
-"ht": "0-2"
-}
-]
-},
-{
-"code": "RZEKNA",
-"at": 1794632829,
-"when": "Sat 14 Nov 06:07",
-"kind": "live \u2013 best of all",
-"odds": 1.44,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 05:00",
-"game": "Melbourne Victory vs Adelaide United FC",
-"pick": "Melbourne Victory Under 3.5",
-"odds": 1.05,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Sat 05:00",
-"game": "Okinawa SV vs Yokogawa Musashino FC",
-"pick": "Okinawa SV Under 2.5",
-"odds": 1.07,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 05:00",
-"game": "Vonds Ichihara FC vs J-Lease FC",
-"pick": "Handicap 2:0 \u2013 Vonds Ichihara FC",
-"odds": 1.04,
-"ts": 1794628800.0,
-"r": "L",
-"sc": "1-3",
-"ht": "1-0"
-},
-{
-"t": "Sat 05:00",
-"game": "Melbourne City FC vs Newcastle Jets",
-"pick": "Melbourne City FC Under 3.5",
-"odds": 1.1,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Sat 05:00",
-"game": "Criacao Shinjuku vs Briobecca Urayasu",
-"pick": "Under 6.5",
-"odds": 1.09,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "2-2",
-"ht": ""
 },
 {
 "t": "Sat 05:30",
