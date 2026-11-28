@@ -773,7 +773,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -1057,7 +1060,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -1380,7 +1386,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -1414,7 +1423,10 @@
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1703,7 +1715,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -1730,7 +1745,10 @@
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1950,7 +1968,10 @@
 "game": "FC Corvinul Hunedoara 1921 vs FC Farul Constanta",
 "pick": "1st half double chance FC Corvinul Hunedoara 1921 or draw",
 "odds": 1.25,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2266,7 +2287,10 @@
 "game": "Cukaricki vs FK Mladost Lucani",
 "pick": "1st half double chance Cukaricki or draw",
 "odds": 1.14,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:15",
@@ -2725,14 +2749,20 @@
 "game": "Scarborough Athletic vs Hereford FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
 "game": "Port Vale vs Newport County",
 "pick": "1st half GG \u2013 No",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:15",
@@ -3267,7 +3297,10 @@
 "game": "Derby County vs Watford",
 "pick": "1st half GG \u2013 No",
 "odds": 1.2,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3284,7 +3317,10 @@
 "game": "Fleetwood Town vs Accrington Stanley",
 "pick": "1st half GG \u2013 No",
 "odds": 1.19,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:30",
@@ -3387,7 +3423,10 @@
 "game": "Volos NPS vs Asteras Tripolis",
 "pick": "Half-time draw",
 "odds": 1.96,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3500,8 +3539,8 @@
 "odds": 1.18,
 "ts": 1795876200.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 16:00",
@@ -4057,7 +4096,10 @@
 "game": "Stevenage FC vs Blackpool FC",
 "pick": "1st half double chance Stevenage FC or draw",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4354,8 +4396,8 @@
 "odds": 1.18,
 "ts": 1795876200.0,
 "r": "W",
-"sc": "2-1",
-"ht": ""
+"sc": "2-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 16:00",
@@ -5114,7 +5156,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.2,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -5421,7 +5466,10 @@
 "game": "Stevenage FC vs Blackpool FC",
 "pick": "1st half double chance Stevenage FC or draw",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -6239,7 +6287,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:15",
@@ -6256,7 +6307,10 @@
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -6861,14 +6915,20 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -7044,7 +7104,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.19,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:30",
@@ -8181,7 +8244,10 @@
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 17:00",
@@ -8885,7 +8951,10 @@
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -8980,7 +9049,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.19,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -10707,7 +10779,10 @@
 "game": "Liverpool U21 vs Birmingham City U21",
 "pick": "Over 2.5",
 "odds": 1.19,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -10734,7 +10809,10 @@
 "game": "Bodoe/Glimt vs KFUM Oslo",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "3-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
