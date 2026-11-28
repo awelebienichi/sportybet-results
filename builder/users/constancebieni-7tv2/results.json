@@ -7,14 +7,17 @@
 "when": "Sat 28 Nov 13:01",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 7.2,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:00",
 "game": "FC Kilia Kiel vs TSB Flensburg",
 "pick": "Over 2.5",
 "odds": 1.18,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
@@ -45,7 +48,10 @@
 "game": "IJsselmeervogels vs Jong Sparta Rotterdam",
 "pick": "Over 1.5",
 "odds": 1.09,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -128,7 +134,7 @@
 "when": "Sat 28 Nov 12:58",
 "kind": "goal-fest teams (season data)",
 "odds": 11.8,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -152,7 +158,10 @@
 "game": "FC Kilia Kiel vs TSB Flensburg",
 "pick": "Over 2.5",
 "odds": 1.18,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
