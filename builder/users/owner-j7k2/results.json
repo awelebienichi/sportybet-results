@@ -1543,7 +1543,7 @@
 "when": "Sat 28 Nov 13:00",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 13.89,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 14:00",
@@ -1570,7 +1570,10 @@
 "game": "Chinese Taipei vs South Africa",
 "pick": "Over 2.5",
 "odds": 1.73,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -2744,7 +2747,10 @@
 "game": "West Ham vs Stoke City",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2783,7 +2789,7 @@
 "odds": 1.17,
 "ts": 1795878900.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": ""
 },
 {
@@ -3554,7 +3560,7 @@
 "odds": 1.18,
 "ts": 1795876200.0,
 "r": "W",
-"sc": "2-3",
+"sc": "2-2",
 "ht": "2-1"
 },
 {
@@ -4414,7 +4420,7 @@
 "odds": 1.18,
 "ts": 1795876200.0,
 "r": "W",
-"sc": "2-3",
+"sc": "2-2",
 "ht": "2-1"
 },
 {
@@ -5990,7 +5996,10 @@
 "game": "Chinese Taipei vs South Africa",
 "pick": "Over 2.5",
 "odds": 1.66,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
