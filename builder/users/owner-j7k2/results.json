@@ -1921,7 +1921,7 @@
 "when": "Sat 28 Nov 12:18",
 "kind": "your chosen markets",
 "odds": 75.12,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -2002,7 +2002,10 @@
 "game": "FK Teplice vs FC Slovan Liberec",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2280,7 +2283,7 @@
 "odds": 1.18,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "1-0"
 },
 {
