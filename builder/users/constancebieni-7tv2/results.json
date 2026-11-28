@@ -426,7 +426,10 @@
 "game": "WKS Slask Wroclaw vs GKS Katowice",
 "pick": "Handicap 0:2 \u2013 GKS Katowice",
 "odds": 1.12,
-"ts": 1795883400.0
+"ts": 1795883400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:00",
@@ -751,7 +754,10 @@
 "game": "WKS Slask Wroclaw vs GKS Katowice",
 "pick": "Handicap 0:2 \u2013 GKS Katowice",
 "odds": 1.12,
-"ts": 1795883400.0
+"ts": 1795883400.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:30",
