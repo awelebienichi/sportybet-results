@@ -3904,7 +3904,10 @@
 "game": "GD Chaves vs CD Tondela",
 "pick": "2nd half Over 0.5",
 "odds": 1.25,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 16:00",
@@ -4634,7 +4637,10 @@
 "game": "GD Chaves vs CD Tondela",
 "pick": "2nd half Over 0.5",
 "odds": 1.25,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 15:00",
@@ -6467,7 +6473,10 @@
 "game": "Police Xi vs Sua Flamingoes",
 "pick": "Under 2.5",
 "odds": 1.48,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 17:30",
@@ -6611,7 +6620,10 @@
 "game": "Police Xi vs Sua Flamingoes",
 "pick": "Under 2.5",
 "odds": 1.48,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -6807,7 +6819,10 @@
 "game": "Police Xi vs Sua Flamingoes",
 "pick": "Under 2.5",
 "odds": 1.48,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -7610,7 +7625,10 @@
 "game": "Rapid Wien II vs Kapfenberger SV",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -8658,7 +8676,10 @@
 "game": "Rapid Wien II vs Kapfenberger SV",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -9940,7 +9961,10 @@
 "game": "Rapid Wien II vs Kapfenberger SV",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:30",
