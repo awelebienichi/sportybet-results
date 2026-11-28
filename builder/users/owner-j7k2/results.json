@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "M6TMV5",
+"at": 1795839474,
+"when": "Sat 28 Nov 05:17",
+"kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
+"odds": 100.21,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:00",
+"game": "Gyori ETO FC vs Fehervar FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795856400.0
+},
+{
+"t": "Sat 10:00",
+"game": "CS Concordia Chiajna vs Csl Stefanestii de Jos",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795856400.0
+},
+{
+"t": "Sat 12:30",
+"game": "Balestier Khalsa FC vs Hougang United FC",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795865400.0
+},
+{
+"t": "Sat 12:35",
+"game": "China vs Thailand",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795865700.0
+},
+{
+"t": "Sat 13:00",
+"game": "CD Sobradillo vs UD Las Palmas",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 13:00",
+"game": "Lech Poznan vs Zaglebie Lubin",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 13:30",
+"game": "Aliaga Futbol vs Kastamonuspor",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al Sadd SC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "Borussia Dortmund II vs VfL Bochum II",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 15:00",
+"game": "Liverpool U21 vs Birmingham City U21",
+"pick": "Over 2.5",
+"odds": 1.19,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:15",
+"game": "Al Wasl FC vs Al Dhafra SSC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795875300.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bodoe/Glimt vs KFUM Oslo",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Brora Rangers",
+"pick": "Over 2.5",
+"odds": 1.22,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:00",
+"game": "FC Noah Yerevan vs FC BKMA Yerevan",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:45",
+"game": "PSV Eindhoven vs Go Ahead Eagles",
+"pick": "Over 2.5",
+"odds": 1.23,
+"ts": 1795887900.0
+},
+{
+"t": "Sat 19:00",
+"game": "Canada vs Panama",
+"pick": "Over 2.5",
+"odds": 1.27,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.26,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "KLYUBL",
 "at": 1795815309,
 "when": "Fri 27 Nov 22:35",
@@ -85364,46 +85514,6 @@
 "r": "W",
 "sc": "1-6",
 "ht": "0-2"
-}
-]
-},
-{
-"code": "PHL9QS",
-"at": 1794618127,
-"when": "Sat 14 Nov 02:02",
-"kind": "live basketball",
-"odds": 1.34,
-"status": "won",
-"legs": [
-{
-"t": "Sat 00:30",
-"game": "Loyola Marymount Lions vs Alabama A&m Bulldogs",
-"pick": "Loyola Marymount Lions to win (incl. OT)",
-"odds": 1.06,
-"ts": 1794612600.0,
-"r": "W",
-"sc": "73-37",
-"ht": "18-10"
-},
-{
-"t": "Sat 01:00",
-"game": "Orlando Magic vs Milwaukee Bucks",
-"pick": "Orlando Magic to win (incl. OT)",
-"odds": 1.04,
-"ts": 1794614400.0,
-"r": "W",
-"sc": "107-99",
-"ht": "23-15"
-},
-{
-"t": "Sat 01:00",
-"game": "Indiana Pacers vs New York Knicks",
-"pick": "Indiana Pacers +9.5 (handicap)",
-"odds": 1.22,
-"ts": 1794614400.0,
-"r": "W",
-"sc": "106-104",
-"ht": "26-27"
 }
 ]
 }
