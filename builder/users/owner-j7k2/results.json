@@ -422,7 +422,10 @@
 "game": "FC Cartagena vs Real Murcia",
 "pick": "Over 2.5",
 "odds": 1.51,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2153,7 +2156,10 @@
 "game": "Zamalek SC vs Africain",
 "pick": "1st half double chance Zamalek SC or draw",
 "odds": 1.15,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 17:00",
@@ -2724,7 +2730,7 @@
 "odds": 1.29,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-2",
+"sc": "2-2",
 "ht": "0-1"
 },
 {
@@ -3108,7 +3114,7 @@
 "odds": 1.2,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "4-0",
+"sc": "5-0",
 "ht": "3-0"
 },
 {
@@ -3342,7 +3348,10 @@
 "game": "Anorthosis Famagusta vs Karmiotissa FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 17:30",
@@ -5300,7 +5309,10 @@
 "game": "Al Ahli Doha SC vs Al Duhail SC",
 "pick": "2nd half Over 0.5",
 "odds": 1.13,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:00",
@@ -5847,7 +5859,7 @@
 "when": "Sat 28 Nov 07:33",
 "kind": "your chosen markets",
 "odds": 37.43,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:00",
@@ -5991,7 +6003,10 @@
 "game": "FC Noah Yerevan vs FC BKMA Yerevan",
 "pick": "1st half Over 0.5",
 "odds": 1.15,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:30",
