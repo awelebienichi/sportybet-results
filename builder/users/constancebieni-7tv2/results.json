@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "VA685N",
+"at": 1795896615,
+"when": "Sat 28 Nov 21:10",
+"kind": "live \u2013 best of all",
+"odds": 1.73,
+"status": "open",
+"legs": [
+{
+"t": "Sat 20:00",
+"game": "Rs Berkane vs Colombe Sportive Du Dja Et Lobo",
+"pick": "Handicap 0:4 \u2013 Colombe Sportive Du Dja Et Lobo",
+"odds": 1.03,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:00",
+"game": "RWDM Brussels vs RCS Onhaye",
+"pick": "Handicap 0:4 \u2013 RCS Onhaye",
+"odds": 1.03,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:00",
+"game": "GV Club Deportivo San Jose de Oruro vs Real Potosi",
+"pick": "Real Potosi Under 4.5",
+"odds": 1.03,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:00",
+"game": "AS Far Rabat vs Durban City FC",
+"pick": "Handicap 0:4 \u2013 Durban City FC",
+"odds": 1.09,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:00",
+"game": "Raja Casablanca Athletic vs Asko",
+"pick": "Handicap 0:3 \u2013 Asko",
+"odds": 1.1,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:00",
+"game": "CD Alcoyano vs CF Lorca Deportiva",
+"pick": "Handicap 0:1 \u2013 CF Lorca Deportiva",
+"odds": 1.06,
+"ts": 1795892400.0
+},
+{
+"t": "Sat 20:15",
+"game": "Wisla Krakow vs LKP Motor Lublin",
+"pick": "Handicap 2:0 \u2013 Wisla Krakow",
+"odds": 1.04,
+"ts": 1795893300.0
+},
+{
+"t": "Sat 20:30",
+"game": "Servette Geneva vs Lausanne-Sport",
+"pick": "Handicap 2:0 \u2013 Servette Geneva",
+"odds": 1.04,
+"ts": 1795894200.0
+},
+{
+"t": "Sat 20:45",
+"game": "Le Havre vs Strasbourg",
+"pick": "Over 1.5",
+"odds": 1.04,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Inter vs Genoa",
+"pick": "Handicap 0:4 \u2013 Genoa",
+"odds": 1.11,
+"ts": 1795895100.0
+}
+]
+},
+{
 "code": "Y8HZQX",
 "at": 1795867292,
 "when": "Sat 28 Nov 13:01",
