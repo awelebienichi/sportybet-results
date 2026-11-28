@@ -3131,7 +3131,7 @@
 "when": "Sat 28 Nov 11:25",
 "kind": "safest market per game",
 "odds": 25.52,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -3178,7 +3178,10 @@
 "game": "Milton Keynes Dons vs Notts County",
 "pick": "2nd half Over 0.5",
 "odds": 1.21,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
@@ -3782,7 +3785,7 @@
 "when": "Sat 28 Nov 11:23",
 "kind": "safest market per game",
 "odds": 24.03,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -3839,7 +3842,10 @@
 "game": "Milton Keynes Dons vs Notts County",
 "pick": "2nd half Over 0.5",
 "odds": 1.21,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
