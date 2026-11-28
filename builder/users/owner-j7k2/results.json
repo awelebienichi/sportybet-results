@@ -3560,7 +3560,10 @@
 "game": "APOEL Nikosia vs Krasava ENY Ypsonas FC",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 17:00",
@@ -3858,7 +3861,10 @@
 "game": "APOEL Nikosia vs Krasava ENY Ypsonas FC",
 "pick": "Over 2.5",
 "odds": 1.58,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:00",
@@ -5975,7 +5981,10 @@
 "game": "Zamalek SC vs Africain",
 "pick": "Under 3.5",
 "odds": 1.16,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 17:00",
@@ -6277,7 +6286,7 @@
 "odds": 1.27,
 "ts": 1795883400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-1"
 },
 {
@@ -6305,7 +6314,10 @@
 "game": "Elche CF vs Atletico Madrid",
 "pick": "1st half GG \u2013 No",
 "odds": 1.22,
-"ts": 1795887000.0
+"ts": 1795887000.0,
+"r": "L",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 20:00",
@@ -6684,7 +6696,10 @@
 "game": "H2O Purepechas FC vs Irapuato",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "0-4",
+"ht": "0-4"
 },
 {
 "t": "Sat 20:30",
@@ -7328,7 +7343,10 @@
 "game": "APOEL Nikosia vs Krasava ENY Ypsonas FC",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 17:00",
@@ -8168,7 +8186,7 @@
 "when": "Sat 28 Nov 11:23",
 "kind": "safest market per game",
 "odds": 16.73,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 12:00",
@@ -8305,7 +8323,10 @@
 "game": "APOEL Nikosia vs Krasava ENY Ypsonas FC",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:00",
@@ -9632,7 +9653,10 @@
 "game": "FK Partizan Belgrade vs FK Radnicki Nis",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1795887000.0
+"ts": 1795887000.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
