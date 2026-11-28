@@ -6280,7 +6280,10 @@
 "game": "NK Osijek vs HNK Rijeka",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:30",
@@ -6653,7 +6656,10 @@
 "game": "FC Chambly Oise vs US Avranches",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -7513,7 +7519,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "1st half double chance Maccabi Tel Aviv FC or draw",
 "odds": 1.07,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -8279,7 +8288,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "1st half double chance Maccabi Tel Aviv FC or draw",
 "odds": 1.07,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
