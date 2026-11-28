@@ -821,14 +821,17 @@
 "when": "Sat 28 Nov 18:24",
 "kind": "combined JYYBH6 + UPZLEC + NBZH0F + TYWL8U + ZYNPTF",
 "odds": 259.49,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 19:00",
 "game": "Fotbal Club FCSB vs AFK Csikszereda Miercurea Ciuc",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 22:30",
@@ -1559,7 +1562,10 @@
 "game": "Fotbal Club FCSB vs AFK Csikszereda Miercurea Ciuc",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 19:00",
@@ -2927,7 +2933,10 @@
 "game": "Fotbal Club FCSB vs AFK Csikszereda Miercurea Ciuc",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 19:00",
@@ -3499,7 +3508,10 @@
 "game": "Fotbal Club FCSB vs AFK Csikszereda Miercurea Ciuc",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795888800.0
+"ts": 1795888800.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 19:00",
