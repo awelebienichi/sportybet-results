@@ -482,7 +482,7 @@
 "when": "Sat 28 Nov 13:02",
 "kind": "Over 2.5 (lowest prices first)",
 "odds": 1805.41,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -545,7 +545,10 @@
 "game": "Rijnsburgse Boys vs SV Spakenburg",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -754,7 +757,7 @@
 "when": "Sat 28 Nov 12:44",
 "kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
 "odds": 1617.63,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:15",
@@ -824,7 +827,10 @@
 "game": "Rijnsburgse Boys vs SV Spakenburg",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -4381,7 +4387,10 @@
 "game": "Rijnsburgse Boys vs SV Spakenburg",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -6603,7 +6612,10 @@
 "game": "Rijnsburgse Boys vs SV Spakenburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -7957,7 +7969,10 @@
 "game": "Rijnsburgse Boys vs SV Spakenburg",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.32,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -9025,7 +9040,10 @@
 "game": "Rijnsburgse Boys vs SV Spakenburg",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
