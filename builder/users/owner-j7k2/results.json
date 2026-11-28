@@ -328,7 +328,7 @@
 "when": "Sat 28 Nov 14:42",
 "kind": "goal-fest teams (season data)",
 "odds": 612.3,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:15",
@@ -363,7 +363,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -384,7 +387,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 2.5",
 "odds": 1.56,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -630,7 +636,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -658,7 +667,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -887,7 +899,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -915,7 +930,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1161,7 +1179,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1175,7 +1196,10 @@
 "game": "Guiseley FC vs Whitby Town",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1451,7 +1475,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1465,7 +1492,10 @@
 "game": "Guiseley FC vs Whitby Town",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -2327,7 +2357,7 @@
 "odds": 1.16,
 "ts": 1795872600.0,
 "r": "W",
-"sc": "2-0",
+"sc": "3-0",
 "ht": "2-0"
 },
 {
@@ -3127,7 +3157,10 @@
 "game": "Plymouth Parkway vs Sholing FC",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3430,7 +3463,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4202,7 +4238,7 @@
 "when": "Sat 28 Nov 11:23",
 "kind": "safest market per game",
 "odds": 16.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -4328,7 +4364,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4695,7 +4734,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4723,7 +4765,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -5244,7 +5289,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -5520,7 +5568,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -6492,7 +6543,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
@@ -6920,7 +6974,10 @@
 "game": "Guiseley FC vs Whitby Town",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -7847,7 +7904,7 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 46.31,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -7915,7 +7972,10 @@
 "game": "Guiseley FC vs Whitby Town",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -8345,7 +8405,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -9677,7 +9740,10 @@
 "game": "Taunton Town vs Gosport Borough",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:30",
@@ -10058,7 +10124,10 @@
 "game": "Guiseley FC vs Whitby Town",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -11350,7 +11419,10 @@
 "game": "Harrogate Town vs Yeovil Town",
 "pick": "Over 1.5",
 "odds": 1.16,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
