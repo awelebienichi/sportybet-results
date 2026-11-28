@@ -2665,7 +2665,7 @@
 "odds": 1.09,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": "0-2"
 },
 {
@@ -4657,7 +4657,10 @@
 "game": "FC Admira Wacker Modling vs FC Liefering",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -4770,7 +4773,10 @@
 "game": "FC Admira Wacker Modling vs FC Liefering",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -10608,7 +10614,10 @@
 "game": "FC Admira Wacker Modling vs FC Liefering",
 "pick": "1st half Over 0.5",
 "odds": 1.2,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-0",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
