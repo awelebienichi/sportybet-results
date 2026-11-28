@@ -1386,7 +1386,10 @@
 "game": "FC Vaduz vs FC Zurich",
 "pick": "Over 1.5",
 "odds": 1.11,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -2200,7 +2203,10 @@
 "game": "FC Vaduz vs FC Zurich",
 "pick": "Over 1.5",
 "odds": 1.11,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -2496,7 +2502,10 @@
 "game": "FC Vaduz vs FC Zurich",
 "pick": "Over 1.5",
 "odds": 1.11,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -3344,7 +3353,10 @@
 "game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
 "pick": "MSV Duisburg to win (1UP)",
 "odds": 1.49,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 17:00",
@@ -5232,7 +5244,10 @@
 "game": "FC Vaduz vs FC Zurich",
 "pick": "FC Vaduz or GG",
 "odds": 1.13,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -6202,7 +6217,10 @@
 "game": "FC Vaduz vs FC Zurich",
 "pick": "FC Vaduz or GG",
 "odds": 1.13,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:30",
@@ -6964,7 +6982,10 @@
 "game": "FC Vaduz vs FC Zurich",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
