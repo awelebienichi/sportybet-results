@@ -2,6 +2,51 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "SLD8TG",
+"at": 1795872946,
+"when": "Sat 28 Nov 14:35",
+"kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
+"odds": 6.37,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "VV Sparta Nijkerk vs SC Genemuiden",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Clermont Foot Youth vs FC Annecy U19",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Newington FC vs Glenavon FC",
+"pick": "Over 2.5",
+"odds": 1.37,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:30",
+"game": "FK Partizan Belgrade vs FK Radnicki Nis",
+"pick": "Over 2.5",
+"odds": 1.49,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 19:15",
+"game": "Beitar Jerusalem FC vs Hapoel Jerusalem FC",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795889700.0
+}
+]
+},
+{
 "code": "UNRSN3",
 "at": 1795867848,
 "when": "Sat 28 Nov 13:10",
@@ -86896,36 +86941,6 @@
 "r": "W",
 "sc": "1-1",
 "ht": "0-1"
-}
-]
-},
-{
-"code": "N0THUX",
-"at": 1794635972,
-"when": "Sat 14 Nov 06:59",
-"kind": "draw & low-scoring teams (season data)",
-"odds": 2.64,
-"status": "won",
-"legs": [
-{
-"t": "Sat 15:00",
-"game": "AS Saint-Etienne vs OGC Nice",
-"pick": "Under 3.5",
-"odds": 1.59,
-"ts": 1794664800.0,
-"r": "W",
-"sc": "1-0",
-"ht": "1-0"
-},
-{
-"t": "Sat 19:00",
-"game": "Goytacaz FC RJ vs Niteroiense",
-"pick": "Under 2.5",
-"odds": 1.66,
-"ts": 1794679200.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
 }
 ]
 }
