@@ -3098,7 +3098,10 @@
 "game": "ASK Voitsberg vs Young Violets Wien",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3898,7 +3901,10 @@
 "game": "ASK Voitsberg vs Young Violets Wien",
 "pick": "Over 1.5",
 "odds": 1.18,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -5145,7 +5151,10 @@
 "game": "GVVV Veenendaal vs BVV Barendrecht",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
@@ -5189,7 +5198,10 @@
 "game": "Al Wasl FC vs Al Dhafra SSC",
 "pick": "Over 1.5",
 "odds": 1.08,
-"ts": 1795875300.0
+"ts": 1795875300.0,
+"r": "W",
+"sc": "2-0",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
