@@ -2,6 +2,226 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "Z6YNA7",
+"at": 1795866276,
+"when": "Sat 28 Nov 12:44",
+"kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
+"odds": 1617.63,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:15",
+"game": "Al-Hazm vs Al Nassr Club",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795868100.0
+},
+{
+"t": "Sat 13:30",
+"game": "Aliaga Futbol vs Kastamonuspor",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 13:30",
+"game": "FC Nordsjaelland vs Esbjerg",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC Kilia Kiel vs TSB Flensburg",
+"pick": "Over 2.5",
+"odds": 1.18,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al Sadd SC",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs FAC Wien Amateure",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "UD Los Llanos de Aridane vs SD Villaverde Norte",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "SC Weiche Flensburg 08 vs HSC Hannover",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
+"pick": "Over 2.5",
+"odds": 1.15,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 14:30",
+"game": "Rijnsburgse Boys vs SV Spakenburg",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 14:30",
+"game": "Excelsior Maassluis vs Dongen",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Liverpool U21 vs Birmingham City U21",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "IJsselmeervogels vs Jong Sparta Rotterdam",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:15",
+"game": "Al Wasl FC vs Al Dhafra SSC",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795875300.0
+},
+{
+"t": "Sat 16:00",
+"game": "Bodoe/Glimt vs KFUM Oslo",
+"pick": "Over 2.5",
+"odds": 1.19,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Brora Rangers",
+"pick": "Over 2.5",
+"odds": 1.19,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Farnborough FC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Taunton Town vs Gosport Borough",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "AFC Whyteleafe vs Aveley FC",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Guiseley FC vs Whitby Town",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Real Bedford vs Needham Market",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "SC Cambuur vs Feyenoord Rotterdam",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:45",
+"game": "PSV Eindhoven vs Go Ahead Eagles",
+"pick": "Over 2.5",
+"odds": 1.25,
+"ts": 1795887900.0
+},
+{
+"t": "Sat 19:00",
+"game": "Canada vs Panama",
+"pick": "Over 2.5",
+"odds": 1.3,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 21:00",
+"game": "Real Madrid vs Alaves",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "V8BHSX",
 "at": 1795865742,
 "when": "Sat 28 Nov 12:35",
@@ -5420,7 +5640,7 @@
 "odds": 1.43,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-2"
 },
 {
@@ -6105,7 +6325,7 @@
 "odds": 1.43,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-2"
 },
 {
@@ -6899,7 +7119,7 @@
 "odds": 1.43,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "0-3",
+"sc": "0-4",
 "ht": "0-2"
 },
 {
@@ -85782,36 +86002,6 @@
 "r": "L",
 "sc": "1-0",
 "ht": "0-0"
-}
-]
-},
-{
-"code": "LJMK21",
-"at": 1794635355,
-"when": "Sat 14 Nov 06:49",
-"kind": "Over 2.5 (high-scoring leagues)",
-"odds": 2.07,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 13:30",
-"game": "Jerash FC vs AL Lewaa Club",
-"pick": "Over 2.5",
-"odds": 1.64,
-"ts": 1794659400.0,
-"r": "L",
-"sc": "0-2",
-"ht": ""
-},
-{
-"t": "Sat 19:00",
-"game": "RBC Roosendaal vs VV Goes",
-"pick": "Over 2.5",
-"odds": 1.26,
-"ts": 1794679200.0,
-"r": "W",
-"sc": "3-4",
-"ht": ""
 }
 ]
 }
