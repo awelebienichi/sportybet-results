@@ -1112,7 +1112,10 @@
 "game": "Al-Hazm vs Al Nassr Club",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795868100.0
+"ts": 1795868100.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
@@ -6223,7 +6226,10 @@
 "game": "Al-Hazm vs Al Nassr Club",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.33,
-"ts": 1795868100.0
+"ts": 1795868100.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -7328,7 +7334,10 @@
 "game": "Al-Hazm vs Al Nassr Club",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.33,
-"ts": 1795868100.0
+"ts": 1795868100.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:30",
@@ -9483,7 +9492,10 @@
 "game": "Al-Hazm vs Al Nassr Club",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795868100.0
+"ts": 1795868100.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
