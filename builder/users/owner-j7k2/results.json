@@ -2,6 +2,37 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "H3AR9J",
+"at": 1795879214,
+"when": "Sat 28 Nov 16:20",
+"kind": "pattern combo (0 HT draw + 0 bankers + 3 1st-half + 0 Over 1.5 + 0 basketball)",
+"odds": 1.56,
+"status": "open",
+"legs": [
+{
+"t": "Sat 17:30",
+"game": "Newroz SC vs Al Kahrabaa SC",
+"pick": "1st half double chance Newroz SC or draw",
+"odds": 1.15,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 20:45",
+"game": "Royal Charleroi SC vs KV Waasland-Beveren",
+"pick": "1st half double chance Royal Charleroi SC or draw",
+"odds": 1.18,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 22:00",
+"game": "CR Vasco da Gama RJ vs Botafogo FR RJ",
+"pick": "1st half double chance CR Vasco da Gama RJ or draw",
+"odds": 1.15,
+"ts": 1795899600.0
+}
+]
+},
+{
 "code": "ZWU5ZP",
 "at": 1795877095,
 "when": "Sat 28 Nov 15:44",
@@ -2444,7 +2475,10 @@
 "game": "MFk Dukla Banska Bystrica vs MFK Ruzomberok",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3358,7 +3392,10 @@
 "game": "Frosinone vs Parma Calcio",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:30",
@@ -4028,7 +4065,10 @@
 "game": "Frosinone vs Parma Calcio",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "2-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:30",
@@ -5199,7 +5239,7 @@
 "odds": 1.12,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": ""
 },
 {
@@ -11233,7 +11273,7 @@
 "odds": 1.12,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-0",
+"sc": "2-0",
 "ht": ""
 },
 {
@@ -87623,86 +87663,6 @@
 "r": "W",
 "sc": "3-1",
 "ht": "1-1"
-}
-]
-},
-{
-"code": "KVZTS4",
-"at": 1794637591,
-"when": "Sat 14 Nov 07:26",
-"kind": "live \u2013 best of all",
-"odds": 1.46,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 06:00",
-"game": "FC Gifu vs Matsumoto Yamaga FC",
-"pick": "Under 2.5",
-"odds": 1.03,
-"ts": 1794632400.0,
-"r": "W",
-"sc": "0-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 06:00",
-"game": "Shonan Bellmare vs Yokohama FC",
-"pick": "Shonan Bellmare Under 2.5",
-"odds": 1.04,
-"ts": 1794632400.0,
-"r": "W",
-"sc": "2-0",
-"ht": "1-0"
-},
-{
-"t": "Sat 06:00",
-"game": "Giravanz Kitakyushu vs Thespa Gunma",
-"pick": "Under 6.5",
-"odds": 1.04,
-"ts": 1794632400.0,
-"r": "L",
-"sc": "4-3",
-"ht": "1-1"
-},
-{
-"t": "Sat 06:00",
-"game": "Albirex Niigata vs Tegevajaro Miyazaki",
-"pick": "Under 4.5",
-"odds": 1.05,
-"ts": 1794632400.0,
-"r": "W",
-"sc": "1-3",
-"ht": "1-1"
-},
-{
-"t": "Sat 06:00",
-"game": "RB Omiya Ardija vs Montedio Yamagata",
-"pick": "Handicap 0:4 \u2013 Montedio Yamagata",
-"odds": 1.06,
-"ts": 1794632400.0,
-"r": "W",
-"sc": "2-1",
-"ht": "1-0"
-},
-{
-"t": "Sat 06:00",
-"game": "Fukushima United FC vs SC Sagamihara",
-"pick": "Fukushima United FC Under 2.5",
-"odds": 1.08,
-"ts": 1794632400.0,
-"r": "W",
-"sc": "1-0",
-"ht": "1-0"
-},
-{
-"t": "Sat 06:00",
-"game": "Fujieda MYFC vs Ventforet Kofu",
-"pick": "GG \u2013 No",
-"odds": 1.09,
-"ts": 1794632400.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
 }
 ]
 }
