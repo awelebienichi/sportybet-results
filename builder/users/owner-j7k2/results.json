@@ -5535,8 +5535,8 @@
 "odds": 1.6,
 "ts": 1795892400.0,
 "r": "W",
-"sc": "2-3",
-"ht": ""
+"sc": "2-4",
+"ht": "2-3"
 },
 {
 "t": "Sat 20:30",
@@ -9179,7 +9179,7 @@
 "when": "Sat 28 Nov 11:25",
 "kind": "safest market per game",
 "odds": 14.7,
-"status": "open",
+"status": "won",
 "legs": [
 {
 "t": "Sat 12:00",
@@ -9376,7 +9376,10 @@
 "game": "KSC Lokeren Temse vs K Beerschot VA",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795892400.0
+"ts": 1795892400.0,
+"r": "W",
+"sc": "2-4",
+"ht": "2-3"
 }
 ]
 },
@@ -10182,7 +10185,10 @@
 "game": "KSC Lokeren Temse vs K Beerschot VA",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795892400.0
+"ts": 1795892400.0,
+"r": "W",
+"sc": "2-4",
+"ht": "2-3"
 },
 {
 "t": "Sat 20:00",
@@ -10799,7 +10805,7 @@
 "odds": 1.07,
 "ts": 1795892400.0,
 "r": "W",
-"sc": "2-1",
+"sc": "3-1",
 "ht": "2-0"
 },
 {
