@@ -2,6 +2,86 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "LYVBU8",
+"at": 1795867127,
+"when": "Sat 28 Nov 12:58",
+"kind": "goal-fest teams (season data)",
+"odds": 11.8,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "1. FC Frankfurt vs FSV Budissa Bautzen",
+"pick": "Over 2.5",
+"odds": 1.34,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs FAC Wien Amateure",
+"pick": "Over 2.5",
+"odds": 1.31,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:00",
+"game": "FC Kilia Kiel vs TSB Flensburg",
+"pick": "Over 2.5",
+"odds": 1.18,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
+"pick": "Over 2.5",
+"odds": 1.15,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 14:30",
+"game": "Tec vs ADO 20 Heemskerk",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"pick": "Over 2.5",
+"odds": 1.36,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Cdm FC vs Real Refineros Cds",
+"pick": "Over 2.5",
+"odds": 1.33,
+"ts": 1795903200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "HGYPAA",
 "at": 1795797303,
 "when": "Fri 27 Nov 17:35",
