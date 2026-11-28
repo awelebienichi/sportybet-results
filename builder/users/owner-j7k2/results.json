@@ -2058,7 +2058,10 @@
 "game": "North District FC vs Southern District Football Club",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795849200.0
+"ts": 1795849200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 11:00",
@@ -3460,7 +3463,10 @@
 "game": "North District FC vs Southern District Football Club",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795849200.0
+"ts": 1795849200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 12:00",
@@ -3684,7 +3690,10 @@
 "game": "North District FC vs Southern District Football Club",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795849200.0
+"ts": 1795849200.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 10:15",
