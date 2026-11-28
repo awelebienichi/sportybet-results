@@ -530,7 +530,7 @@
 "when": "Fri 27 Nov 17:30",
 "kind": "your chosen markets",
 "odds": 21.09,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -784,7 +784,10 @@
 "game": "Football Bourg-En-Bresse Peronnas 01 vs Thionville US Lusitanos",
 "pick": "Handicap 0:2 \u2013 Thionville US Lusitanos",
 "odds": 1.13,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "L",
+"sc": "3-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 18:30",
