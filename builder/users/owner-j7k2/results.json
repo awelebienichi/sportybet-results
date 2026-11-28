@@ -5449,7 +5449,10 @@
 "game": "Boness United vs Brechin City FC",
 "pick": "1st half Over 0.5",
 "odds": 1.23,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -11513,7 +11516,10 @@
 "game": "Boness United vs Brechin City FC",
 "pick": "1st half Over 0.5",
 "odds": 1.24,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
