@@ -2515,7 +2515,7 @@
 "odds": 1.08,
 "ts": 1795874400.0,
 "r": "L",
-"sc": "2-1",
+"sc": "3-1",
 "ht": ""
 },
 {
@@ -2675,7 +2675,7 @@
 "odds": 1.13,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-0",
 "ht": "0-0"
 },
 {
@@ -2683,7 +2683,10 @@
 "game": "Esteghlal FC Tehran vs Sanat Naft Abadan FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.08,
-"ts": 1795873500.0
+"ts": 1795873500.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -4643,7 +4646,10 @@
 "game": "Esteghlal FC Tehran vs Sanat Naft Abadan FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.08,
-"ts": 1795873500.0
+"ts": 1795873500.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
