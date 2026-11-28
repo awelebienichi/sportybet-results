@@ -939,7 +939,10 @@
 "game": "Independiente Petrolero vs Cdt Real Oruro",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795820400.0
+"ts": 1795820400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 10:00",
@@ -1898,7 +1901,10 @@
 "game": "Independiente Petrolero vs Cdt Real Oruro",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795820400.0
+"ts": 1795820400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 11:00",
@@ -3353,7 +3359,10 @@
 "game": "Independiente Petrolero vs Cdt Real Oruro",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795820400.0
+"ts": 1795820400.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 02:00",
