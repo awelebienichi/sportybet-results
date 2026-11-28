@@ -474,7 +474,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 23:00",
@@ -1565,7 +1568,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 20:00",
@@ -2917,7 +2923,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 21:00",
@@ -3468,7 +3477,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 21:00",
@@ -3713,7 +3725,7 @@
 "odds": 1.13,
 "ts": 1795890600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -3933,7 +3945,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 20:00",
@@ -5796,7 +5811,7 @@
 "odds": 1.12,
 "ts": 1795890600.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -9130,7 +9145,7 @@
 "odds": 1.08,
 "ts": 1795888800.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -10822,7 +10837,10 @@
 "game": "ASC Diambars vs ASC Jaraaf",
 "pick": "Under 2.5",
 "odds": 1.26,
-"ts": 1795883400.0
+"ts": 1795883400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:30",
@@ -11029,7 +11047,10 @@
 "game": "ASC Diambars vs ASC Jaraaf",
 "pick": "Under 2.5",
 "odds": 1.26,
-"ts": 1795883400.0
+"ts": 1795883400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:30",
@@ -12644,7 +12665,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 00:30",
@@ -14141,7 +14165,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sun 11:00",
@@ -14493,7 +14520,10 @@
 "game": "Austria Lustenau vs SK Rapid",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795890600.0
+"ts": 1795890600.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 21:00",
