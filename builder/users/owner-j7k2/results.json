@@ -415,7 +415,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -663,7 +666,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -1967,7 +1973,10 @@
 "game": "AC Carpi vs Calcio Lecco 1912",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -2430,7 +2439,7 @@
 "odds": 1.14,
 "ts": 1795869000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
@@ -2478,14 +2487,20 @@
 "game": "Chippa United FC vs Kaizer Chiefs",
 "pick": "1st half GG \u2013 No",
 "odds": 1.1,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
 "game": "AmaZulu FC vs Milford FC",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 15:00",
@@ -4108,7 +4123,10 @@
 "game": "AC Carpi vs Calcio Lecco 1912",
 "pick": "1st half Under 2.5",
 "odds": 1.1,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -4363,7 +4381,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -4888,7 +4909,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:15",
@@ -5121,7 +5145,10 @@
 "game": "Lech Poznan vs Zaglebie Lubin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -5316,7 +5343,10 @@
 "game": "Lech Poznan vs Zaglebie Lubin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
@@ -5869,7 +5899,10 @@
 "game": "Lech Poznan vs Zaglebie Lubin",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
@@ -10845,7 +10878,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:15",
