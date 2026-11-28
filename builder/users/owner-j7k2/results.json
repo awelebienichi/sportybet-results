@@ -417,7 +417,7 @@
 "odds": 1.12,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -668,7 +668,7 @@
 "odds": 1.12,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -4395,7 +4395,7 @@
 "odds": 1.12,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -4923,7 +4923,7 @@
 "odds": 1.12,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
@@ -5469,7 +5469,7 @@
 "when": "Fri 27 Nov 22:35",
 "kind": "low-scoring teams back to low (Under 2.5 after a 3+ goal game)",
 "odds": 7.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
@@ -5483,7 +5483,10 @@
 "game": "Ethnikos Asteras FC vs A.P.O. Thyella Rafina FC",
 "pick": "Under 2.5",
 "odds": 1.51,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
@@ -6095,7 +6098,10 @@
 "game": "AFC Fylde vs Aldershot Town FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -6955,7 +6961,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 15:15",
@@ -7312,7 +7321,10 @@
 "game": "AFC Fylde vs Aldershot Town FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:30",
@@ -8417,7 +8429,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -8747,7 +8762,10 @@
 "game": "Llantwit Major vs Treowen Stars",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-3",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -9165,7 +9183,10 @@
 "game": "AFC Fylde vs Aldershot Town FC",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -10892,7 +10913,7 @@
 "odds": 1.12,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "0-2",
+"sc": "0-3",
 "ht": ""
 },
 {
