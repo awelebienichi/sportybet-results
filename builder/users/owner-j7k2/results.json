@@ -6282,7 +6282,10 @@
 "game": "SK Mazovia Minsk Mazowiecki vs KS Ck Troszyn",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
@@ -7716,7 +7719,10 @@
 "game": "SK Mazovia Minsk Mazowiecki vs KS Ck Troszyn",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:00",
@@ -8407,7 +8413,10 @@
 "game": "SK Mazovia Minsk Mazowiecki vs KS Ck Troszyn",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:00",
