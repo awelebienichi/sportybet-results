@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "LJSPS7",
+"at": 1795839674,
+"when": "Sat 28 Nov 05:21",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 93.42,
+"status": "open",
+"legs": [
+{
+"t": "Sat 10:00",
+"game": "Gyori ETO FC vs Fehervar FC",
+"pick": "Over 2.5",
+"odds": 1.28,
+"ts": 1795856400.0
+},
+{
+"t": "Sat 11:00",
+"game": "ZP Sport Podbrezova vs Trencin",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 11:00",
+"game": "MFk Skalica U19 vs MSK Zilina",
+"pick": "Over 2.5",
+"odds": 1.39,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 11:00",
+"game": "Volos NPS vs Asteras Tripolis",
+"pick": "Over 2.5",
+"odds": 1.71,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:00",
+"game": "CD Sobradillo vs UD Las Palmas",
+"pick": "Over 2.5",
+"odds": 1.24,
+"ts": 1795867200.0
+},
+{
+"t": "Sat 14:00",
+"game": "Belgium vs France",
+"pick": "Over 2.5",
+"odds": 1.58,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Sampdoria Genoa vs AC Renate",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Chinese Taipei vs South Africa",
+"pick": "Over 2.5",
+"odds": 1.66,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Kelme CF vs CD Castellon SAD",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:00",
+"game": "CF Damm vs CE Sabadell FC",
+"pick": "Over 2.5",
+"odds": 1.4,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 18:00",
+"game": "SC Cambuur vs Feyenoord Rotterdam",
+"pick": "Over 2.5",
+"odds": 1.32,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 22:30",
+"game": "Mexico vs Haiti",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1795901400.0
+}
+]
+},
+{
 "code": "NQ77D9",
 "at": 1795839554,
 "when": "Sat 28 Nov 05:19",
@@ -85514,86 +85608,6 @@
 "pick": "Over 2.5",
 "odds": 1.47,
 "ts": 1794686400.0
-}
-]
-},
-{
-"code": "RV4Y3P",
-"at": 1794632886,
-"when": "Sat 14 Nov 06:08",
-"kind": "live \u2013 best of all",
-"odds": 1.77,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 05:00",
-"game": "Melbourne Victory vs Adelaide United FC",
-"pick": "Melbourne Victory Under 3.5",
-"odds": 1.04,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-1"
-},
-{
-"t": "Sat 05:00",
-"game": "Okinawa SV vs Yokogawa Musashino FC",
-"pick": "Okinawa SV Under 2.5",
-"odds": 1.06,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 05:00",
-"game": "Vonds Ichihara FC vs J-Lease FC",
-"pick": "Handicap 2:0 \u2013 Vonds Ichihara FC",
-"odds": 1.04,
-"ts": 1794628800.0,
-"r": "L",
-"sc": "1-3",
-"ht": "1-0"
-},
-{
-"t": "Sat 05:00",
-"game": "Melbourne City FC vs Newcastle Jets",
-"pick": "Melbourne City FC Under 3.5",
-"odds": 1.1,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Sat 05:00",
-"game": "Criacao Shinjuku vs Briobecca Urayasu",
-"pick": "Under 6.5",
-"odds": 1.09,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "2-2",
-"ht": ""
-},
-{
-"t": "Sat 05:00",
-"game": "Sydney United 58 FC vs South Melbourne FC",
-"pick": "Over 0.5",
-"odds": 1.25,
-"ts": 1794628800.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 05:30",
-"game": "Blancdieu Hirosaki vs Gakunan F Mosperio",
-"pick": "Blancdieu Hirosaki or Gakunan F Mosperio",
-"odds": 1.03,
-"ts": 1794630600.0,
-"r": "W",
-"sc": "1-6",
-"ht": "0-2"
 }
 ]
 }
