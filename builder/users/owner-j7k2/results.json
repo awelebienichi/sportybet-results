@@ -2233,7 +2233,10 @@
 "game": "Dacia Buiucani vs FC Zimbru Chisinau",
 "pick": "1st half GG \u2013 No",
 "odds": 1.18,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:00",
@@ -2261,7 +2264,10 @@
 "game": "AL Naft vs Al Quwa Al Jawiya",
 "pick": "1st half GG \u2013 No",
 "odds": 1.13,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -2419,7 +2425,10 @@
 "game": "Civil Service United FC vs Mitundu Baptist",
 "pick": "1st half GG \u2013 No",
 "odds": 1.1,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -2546,7 +2555,7 @@
 "odds": 1.17,
 "ts": 1795867200.0,
 "r": "W",
-"sc": "1-0",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -2692,14 +2701,17 @@
 "when": "Sat 28 Nov 11:59",
 "kind": "half-time draw \u2013 weak teams",
 "odds": 95.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:30",
 "game": "Civil Service United FC vs Mitundu Baptist",
 "pick": "Half-time draw",
 "odds": 1.82,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:00",
@@ -3365,7 +3377,7 @@
 "when": "Sat 28 Nov 11:23",
 "kind": "safest market per game",
 "odds": 33.47,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:45",
@@ -3392,7 +3404,10 @@
 "game": "Civil Service United FC vs Mitundu Baptist",
 "pick": "1st half double chance Civil Service United FC or draw",
 "odds": 1.2,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
