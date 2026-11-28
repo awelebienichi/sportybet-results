@@ -2418,7 +2418,7 @@
 "odds": 1.14,
 "ts": 1795869000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -3270,7 +3270,10 @@
 "game": "KS Hetman Zamosc vs MKS Podlasie Biala Podlaska",
 "pick": "1st half double chance KS Hetman Zamosc or draw",
 "odds": 1.17,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
@@ -4532,7 +4535,10 @@
 "game": "KS Hetman Zamosc vs MKS Podlasie Biala Podlaska",
 "pick": "1st half double chance KS Hetman Zamosc or draw",
 "odds": 1.17,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:45",
@@ -5480,7 +5486,10 @@
 "game": "A Sakiet Edayer vs Stade Tunisien",
 "pick": "Under 2.5",
 "odds": 1.32,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
@@ -5642,7 +5651,10 @@
 "game": "A Sakiet Edayer vs Stade Tunisien",
 "pick": "Under 2.5",
 "odds": 1.32,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
