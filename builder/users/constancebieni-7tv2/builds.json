@@ -1,5 +1,177 @@
 [
 {
+"when": "Sat 28 Nov 12:58",
+"at": 1795867127,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "goalfest",
+"legs": 10,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mx0cvtptzszl"
+},
+"ok": true,
+"kind": "goal-fest teams (season data)",
+"note": [
+"Chance all 10 legs win: about 5%."
+],
+"tickets": [
+{
+"code": "LYVBU8",
+"odds": 11.8,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "1. FC Frankfurt vs FSV Budissa Bautzen",
+"lg": "Germany Amateur - Oberliga NOFV South",
+"pick": "Over 2.5",
+"odds": 1.34,
+"why": "season: 4.6 and 3.8 goals a game (12/12 games); last 10 rate 85%; Flashscore home/away form 75%, season: 4.2 goals a game",
+"ts": 1795869000.0,
+"eid": "sr:match:72729494",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72729494|18|total=2.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "FC 1980 Wien vs FAC Wien Amateure",
+"lg": "Austria Amateur - Wiener Stadtliga",
+"pick": "Over 2.5",
+"odds": 1.31,
+"why": "season: 3.9 and 3.5 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 80%, season: 3.7 goals a game",
+"ts": 1795870800.0,
+"eid": "sr:match:72676188",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72676188|18|total=2.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "FC Kilia Kiel vs TSB Flensburg",
+"lg": "Germany Amateur - Oberliga Schleswig-Holstein",
+"pick": "Over 2.5",
+"odds": 1.18,
+"why": "season: 5.6 and 4.0 goals a game (17/18 games); last 10 rate 80%; Flashscore home/away form 80%, season: 4.8 goals a game",
+"ts": 1795870800.0,
+"eid": "sr:match:72730372",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72730372|18|total=2.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
+"lg": "Germany Amateur - Oberliga Schleswig-Holstein",
+"pick": "Over 2.5",
+"odds": 1.15,
+"why": "season: 4.7 and 4.6 goals a game (18/18 games); last 10 rate 80%; Flashscore home/away form 90%, season: 4.7 goals a game",
+"ts": 1795872600.0,
+"eid": "sr:match:72730366",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72730366|18|total=2.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "Tec vs ADO 20 Heemskerk",
+"lg": "Netherlands - Derde Divisie",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 4.9 and 3.9 goals a game (14/14 games); last 10 rate 85%; Flashscore home/away form 75%, season: 4.4 goals a game",
+"ts": 1795872600.0,
+"eid": "sr:match:72595596",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72595596|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 2.5",
+"odds": 1.36,
+"why": "season: 4.3 and 4.0 goals a game (14/14 games); last 10 rate 90%; Flashscore home/away form 70%, FotMob: 4.1 goals a game, season: 4.1 goals a game",
+"ts": 1795874400.0,
+"eid": "sr:match:72594700",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72594700|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "season: 3.9 and 2.9 goals a game (19/18 games); last 10 rate 85%; Flashscore home/away form 90%, FotMob: 3.4 goals a game, Vitibet tip 4-1",
+"ts": 1795878000.0,
+"eid": "sr:match:72740870",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740870|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"lg": "Norway - Eliteserien",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "season: 3.3 and 4.2 goals a game (27/27 games); last 10 rate 90%; Flashscore home/away form 95%, FotMob: 3.8 goals a game, season: 3.8 goals a game",
+"ts": 1795885200.0,
+"eid": "sr:match:67015490",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "67015490|18|total=2.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Cdm FC vs Real Refineros Cds",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.33,
+"why": "season: 4.3 and 4.2 goals a game (13/13 games); last 10 rate 90%; Flashscore home/away form 77%, season: 4.3 goals a game",
+"ts": 1795903200.0,
+"eid": "sr:match:74063648",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063648|18|total=2.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "season: 4.3 and 4.3 goals a game (13/13 games); last 10 rate 85%; Flashscore home/away form 85%, season: 4.3 goals a game",
+"ts": 1795903200.0,
+"eid": "sr:match:74063646",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063646|18|total=2.5|12"
+}
+],
+"chance": 0.052
+}
+]
+},
+{
 "when": "Fri 27 Nov 17:35",
 "at": 1795797303,
 "req": {
@@ -9306,141 +9478,6 @@
 }
 ],
 "chance": 0.4594
-}
-]
-},
-{
-"when": "Fri 20 Nov 10:01",
-"at": 1795165302,
-"req": {
-"type": "rollover",
-"legs": 8,
-"rid": null
-},
-"ok": true,
-"kind": "daily rollover \u2013 day 2",
-"note": [
-"Stake \u20a6422 \u2192 returns \u20a61,743 if it wins"
-],
-"tickets": [
-{
-"code": "ZETSZT",
-"odds": 4.13,
-"legs": [
-{
-"t": "Fri 14:30",
-"game": "ES Hammam Sousse vs A Sakiet Edayer",
-"lg": "Tunisia - Ligue 1",
-"pick": "1st half double chance A Sakiet Edayer or draw",
-"odds": 1.21,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1795181400.0,
-"eid": "sr:match:76676802",
-"mid": "63",
-"spec": "",
-"oid": "11",
-"k": "76676802|63||11"
-},
-{
-"t": "Fri 16:25",
-"game": "Shabab Al Ahli Dubai vs Ajman Club",
-"lg": "United Arab Emirates - Arabian Gulf League",
-"pick": "2nd half Over 0.5",
-"odds": 1.15,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
-"ts": 1795188300.0,
-"eid": "sr:match:75174744",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "75174744|90|total=0.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "Igdir FK vs Umraniyespor",
-"lg": "Turkiye - 1. Lig",
-"pick": "Handicap 0:2 \u2013 Umraniyespor",
-"odds": 1.3,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1795194000.0,
-"eid": "sr:match:72735908",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "72735908|14|hcp=0:2|1713"
-},
-{
-"t": "Fri 20:00",
-"game": "Vitesse Arnhem vs Jong AZ Alkmaar",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "1st half Under 2.5",
-"odds": 1.16,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 100%); head-to-head 100%",
-"ts": 1795201200.0,
-"eid": "sr:match:72044846",
-"mid": "68",
-"spec": "total=2.5",
-"oid": "13",
-"k": "72044846|68|total=2.5|13"
-},
-{
-"t": "Fri 20:00",
-"game": "Nancy-Lorraine vs Dijon",
-"lg": "France - Ligue 2",
-"pick": "2nd half Over 0.5",
-"odds": 1.2,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 90%",
-"ts": 1795201200.0,
-"eid": "sr:match:72037460",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72037460|90|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Briton Ferry vs Holywell Town",
-"lg": "Wales - Cymru Premier",
-"pick": "1st half Over 0.5",
-"odds": 1.17,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); no head-to-head/Flashscore data, nothing against",
-"ts": 1795203900.0,
-"eid": "sr:match:72522172",
-"mid": "68",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72522172|68|total=0.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Caernarfon Town FC vs Connah`s Quay Nomads FC",
-"lg": "Wales - Cymru Premier",
-"pick": "2nd half Over 0.5",
-"odds": 1.22,
-"why": "both teams 90%+ in their own last 10 (home 90%, away 90%); head-to-head 100%",
-"ts": 1795203900.0,
-"eid": "sr:match:72522174",
-"mid": "90",
-"spec": "total=0.5",
-"oid": "12",
-"k": "72522174|90|total=0.5|12"
-},
-{
-"t": "Fri 21:00",
-"game": "Barnsley FC vs Sheffield Wednesday",
-"lg": "England - League One",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "both teams 100%+ in their own last 10 (home 100%, away 100%); head-to-head 88%, Flashscore home/away 90%, footybets 86%; FotMob: 2.8 goals a game, Vitibet tip 1-2, season: 2.8 goals a game",
-"ts": 1795204800.0,
-"eid": "sr:match:72341382",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72341382|18|total=1.5|12"
-}
-],
-"chance": 0.1637
 }
 ]
 }
