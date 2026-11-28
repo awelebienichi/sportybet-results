@@ -4634,7 +4634,10 @@
 "game": "Gornik Zabrze vs KS Arkonia Szczecin U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:00",
@@ -6444,7 +6447,10 @@
 "game": "Gornik Zabrze vs KS Arkonia Szczecin U19",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -7128,7 +7134,10 @@
 "game": "Gornik Zabrze vs KS Arkonia Szczecin U19",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 11:00",
