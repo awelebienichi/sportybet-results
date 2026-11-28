@@ -566,7 +566,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -713,7 +716,7 @@
 "when": "Sat 28 Nov 14:35",
 "kind": "Over 2.5 \u2013 strong teams after 3 games without Over 2.5",
 "odds": 6.37,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 15:00",
@@ -737,7 +740,10 @@
 "game": "Newington FC vs Glenavon FC",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 18:30",
@@ -888,7 +894,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -991,7 +1000,7 @@
 "odds": 1.14,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -1205,7 +1214,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -1870,7 +1882,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -2429,7 +2444,10 @@
 "game": "Aberdeen vs Dundee FC",
 "pick": "GG (both teams score)",
 "odds": 1.59,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 16:00",
@@ -3343,7 +3361,7 @@
 "odds": 1.15,
 "ts": 1795879800.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -3753,7 +3771,7 @@
 "odds": 1.15,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -4156,7 +4174,10 @@
 "game": "Slough Town vs Tonbridge Angels",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:15",
@@ -4723,7 +4744,7 @@
 "odds": 1.15,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -4921,7 +4942,10 @@
 "game": "Slough Town vs Tonbridge Angels",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -5267,7 +5291,7 @@
 "odds": 1.07,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
@@ -5307,7 +5331,7 @@
 "odds": 1.14,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -5547,7 +5571,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -5650,7 +5677,7 @@
 "odds": 1.14,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
@@ -6695,7 +6722,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.21,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -7331,7 +7361,10 @@
 "game": "Ross County FC vs Brora Rangers",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -7750,7 +7783,10 @@
 "game": "Slough Town vs Tonbridge Angels",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -8225,7 +8261,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.22,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:30",
@@ -8429,7 +8468,10 @@
 "game": "Musselburgh Athletic FC vs Airdrieonians FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -8666,7 +8708,10 @@
 "game": "Newington FC vs Glenavon FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.34,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -9171,7 +9216,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.22,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:30",
@@ -9273,7 +9321,10 @@
 "game": "Musselburgh Athletic FC vs Airdrieonians FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -9561,7 +9612,7 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 47.57,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -9628,7 +9679,10 @@
 "game": "Slough Town vs Tonbridge Angels",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -10120,7 +10174,10 @@
 "game": "Newington FC vs Glenavon FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.34,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 17:00",
@@ -10383,7 +10440,10 @@
 "game": "Slough Town vs Tonbridge Angels",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -10407,7 +10467,10 @@
 "game": "Musselburgh Athletic FC vs Airdrieonians FC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -10885,7 +10948,10 @@
 "game": "Newington FC vs Glenavon FC",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -11324,7 +11390,10 @@
 "game": "Boreham Wood FC vs Gateshead FC",
 "pick": "Over 2.5",
 "odds": 1.22,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -12291,7 +12360,7 @@
 "odds": 1.25,
 "ts": 1795878000.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
