@@ -2005,7 +2005,7 @@
 "when": "Sat 28 Nov 12:18",
 "kind": "your chosen markets",
 "odds": 15.0,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -2039,7 +2039,10 @@
 "game": "FK Vora vs KF Teuta",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
