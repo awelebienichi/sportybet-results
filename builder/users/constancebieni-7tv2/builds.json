@@ -1,5 +1,174 @@
 [
 {
+"when": "Sat 28 Nov 21:10",
+"at": 1795896615,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "live",
+"strategy": "mix",
+"legs": 10,
+"strict": "normal",
+"rid": "mx0ugsxvhgj5"
+},
+"ok": true,
+"kind": "live \u2013 best of all",
+"note": [
+"Normal safety: in testing about 88 in 100 such legs came true.",
+"Live odds move fast \u2013 load the code on SportyBet straight away.",
+"Chance all 10 legs win: about 35%."
+],
+"tickets": [
+{
+"code": "VA685N",
+"odds": 1.73,
+"legs": [
+{
+"t": "Sat 20:00",
+"game": "Rs Berkane vs Colombe Sportive Du Dja Et Lobo",
+"lg": "International Clubs - CAF Champions League",
+"pick": "Handicap 0:4 \u2013 Colombe Sportive Du Dja Et Lobo",
+"odds": 1.03,
+"why": "LIVE 1-0 48': Rs Berkane expected 0.5 and Colombe Sportive Du Dja Et Lobo 0.6 more goals (last 10); 1-0 at 48' \u2013 98% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1795892400.0,
+"eid": "sr:match:76163352",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "76163352|14|hcp=0:4|1713"
+},
+{
+"t": "Sat 20:00",
+"game": "RWDM Brussels vs RCS Onhaye",
+"lg": "Belgium - Nationale 1 ACFF",
+"pick": "Handicap 0:4 \u2013 RCS Onhaye",
+"odds": 1.03,
+"why": "LIVE 1-0 45': RWDM Brussels expected 0.8 and RCS Onhaye 0.6 more goals (last 10 + season); 1-0 at 45' \u2013 95% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1795892400.0,
+"eid": "sr:match:72595234",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "72595234|14|hcp=0:4|1713"
+},
+{
+"t": "Sat 20:00",
+"game": "GV Club Deportivo San Jose de Oruro vs Real Potosi",
+"lg": "Bolivia - Division Profesional",
+"pick": "Real Potosi Under 4.5",
+"odds": 1.03,
+"why": "LIVE 2-2 50': GV Club Deportivo San Jose de Oruro expected 0.6 and Real Potosi 0.8 more goals (last 10 + season); 2-2 at 50' \u2013 93% chance; goals record 90% / 100% in both sides' last games",
+"ts": 1795892400.0,
+"eid": "sr:match:75449110",
+"mid": "20",
+"spec": "total=4.5",
+"oid": "13",
+"k": "75449110|20|total=4.5|13"
+},
+{
+"t": "Sat 20:00",
+"game": "AS Far Rabat vs Durban City FC",
+"lg": "International Clubs - CAF Confederations Cup",
+"pick": "Handicap 0:4 \u2013 Durban City FC",
+"odds": 1.09,
+"why": "LIVE 2-1 50': AS Far Rabat expected 0.6 and Durban City FC 0.5 more goals (last 10); 2-1 at 50' \u2013 97% chance; margin record 100% / 100% in both sides' last games",
+"ts": 1795892400.0,
+"eid": "sr:match:76163432",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "76163432|14|hcp=0:4|1713"
+},
+{
+"t": "Sat 20:00",
+"game": "Raja Casablanca Athletic vs Asko",
+"lg": "International Clubs - CAF Confederations Cup",
+"pick": "Handicap 0:3 \u2013 Asko",
+"odds": 1.1,
+"why": "LIVE 0-0 49': Raja Casablanca Athletic expected 0.7 and Asko 0.5 more goals (last 10); 0-0 at 49' \u2013 96% chance; margin record 100% / 90% in both sides' last games",
+"ts": 1795892400.0,
+"eid": "sr:match:76163410",
+"mid": "14",
+"spec": "hcp=0:3",
+"oid": "1713",
+"k": "76163410|14|hcp=0:3|1713"
+},
+{
+"t": "Sat 20:00",
+"game": "CD Alcoyano vs CF Lorca Deportiva",
+"lg": "Spain - Segunda Federacion",
+"pick": "Handicap 0:1 \u2013 CF Lorca Deportiva",
+"odds": 1.06,
+"why": "LIVE 0-1 48': CD Alcoyano expected 0.6 and CF Lorca Deportiva 0.7 more goals (last 10 + season); 0-1 at 48' \u2013 91% chance",
+"ts": 1795892400.0,
+"eid": "sr:match:72507604",
+"mid": "14",
+"spec": "hcp=0:1",
+"oid": "1713",
+"k": "72507604|14|hcp=0:1|1713"
+},
+{
+"t": "Sat 20:15",
+"game": "Wisla Krakow vs LKP Motor Lublin",
+"lg": "Poland - Ekstraklasa",
+"pick": "Handicap 2:0 \u2013 Wisla Krakow",
+"odds": 1.04,
+"why": "LIVE 0-0 45': Wisla Krakow expected 0.9 and LKP Motor Lublin 0.7 more goals (last 10 + season); 0-0 at 45' \u2013 89% chance; margin record 80% / 100% in both sides' last games",
+"ts": 1795893300.0,
+"eid": "sr:match:72043346",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "72043346|14|hcp=2:0|1711"
+},
+{
+"t": "Sat 20:30",
+"game": "Servette Geneva vs Lausanne-Sport",
+"lg": "Switzerland - Super League",
+"pick": "Handicap 2:0 \u2013 Servette Geneva",
+"odds": 1.04,
+"why": "LIVE 0-0 40': Servette Geneva expected 1.0 and Lausanne-Sport 0.7 more goals (last 10 + season); 0-0 at 40' \u2013 90% chance; margin record 80% / 90% in both sides' last games, h2h 100% of 8 meetings",
+"ts": 1795894200.0,
+"eid": "sr:match:74379776",
+"mid": "14",
+"spec": "hcp=2:0",
+"oid": "1711",
+"k": "74379776|14|hcp=2:0|1711"
+},
+{
+"t": "Sat 20:45",
+"game": "Le Havre vs Strasbourg",
+"lg": "France - Ligue 1",
+"pick": "Over 1.5",
+"odds": 1.04,
+"why": "LIVE 0-1 20': Le Havre expected 1.2 and Strasbourg 1.6 more goals (last 10 + season); 0-1 at 20' \u2013 92% chance; Flashscore home/away form 75%, FotMob: 3.5 goals a game, Vitibet tip 1-2, season: 3.5 goals a game, h2h 88% of 8 meetings (1.5 line)",
+"ts": 1795895100.0,
+"eid": "sr:match:72036316",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72036316|18|total=1.5|12"
+},
+{
+"t": "Sat 20:45",
+"game": "Inter vs Genoa",
+"lg": "Italy - Serie A",
+"pick": "Handicap 0:4 \u2013 Genoa",
+"odds": 1.11,
+"why": "LIVE 0-0 22': Inter expected 1.4 and Genoa 1.0 more goals (last 10 + season); 0-0 at 22' \u2013 95% chance; margin record 100% / 100% in both sides' last games, h2h 88% of 8 meetings",
+"ts": 1795895100.0,
+"eid": "sr:match:71945432",
+"mid": "14",
+"spec": "hcp=0:4",
+"oid": "1713",
+"k": "71945432|14|hcp=0:4|1713"
+}
+],
+"chance": 0.354
+}
+]
+},
+{
 "when": "Sat 28 Nov 13:01",
 "at": 1795867292,
 "req": {
@@ -9292,181 +9461,6 @@
 "xg1"
 ],
 "rid": "mwowp5dehapp"
-},
-"ok": true,
-"kind": "your chosen markets",
-"note": [
-"Chance all 10 legs win: about 28%."
-],
-"tickets": [
-{
-"code": "SAGZTR",
-"odds": 2.2,
-"legs": [
-{
-"t": "Fri 13:00",
-"game": "AGMK FC vs Qizilqum Zarafshon",
-"lg": "Uzbekistan - Superliga",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.1,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1795176000.0,
-"eid": "sr:match:68380654",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "68380654|810002||3"
-},
-{
-"t": "Fri 14:00",
-"game": "Zakho FC vs Al Shorta SC",
-"lg": "Iraq - Stars League",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10 and 4 meetings",
-"ts": 1795179600.0,
-"eid": "sr:match:75949132",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "75949132|810002||3"
-},
-{
-"t": "Fri 16:30",
-"game": "Namungo FC vs Mbeya City FC",
-"lg": "Tanzania - Premier League",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.06,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1795188600.0,
-"eid": "sr:match:73019646",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "73019646|810002||3"
-},
-{
-"t": "Fri 17:15",
-"game": "Duhok FC vs Erbil SC",
-"lg": "Iraq - Stars League",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.07,
-"why": "stats rate 100% from both teams' last 10 and 4 meetings",
-"ts": 1795191300.0,
-"eid": "sr:match:75949124",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "75949124|810002||3"
-},
-{
-"t": "Fri 19:00",
-"game": "Azam FC vs Singida Black Stars FC",
-"lg": "Tanzania - Premier League",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.11,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1795197600.0,
-"eid": "sr:match:73019648",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "73019648|810002||3"
-},
-{
-"t": "Fri 19:00",
-"game": "Aarhus Fremad vs Hobro IK",
-"lg": "Denmark - 1. Division",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.08,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1795197600.0,
-"eid": "sr:match:72044410",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "72044410|810002||3"
-},
-{
-"t": "Fri 20:30",
-"game": "CA Cerro vs Club Nacional de Football",
-"lg": "Uruguay - Primera Division",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1795203000.0,
-"eid": "sr:match:76883192",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76883192|810002||3"
-},
-{
-"t": "Fri 20:30",
-"game": "Liverpool Montevideo vs Montevideo Wanderers",
-"lg": "Uruguay - Primera Division",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.09,
-"why": "stats rate 100% from both teams' last 10 and 8 meetings",
-"ts": 1795203000.0,
-"eid": "sr:match:76883188",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76883188|810002||3"
-},
-{
-"t": "Fri 20:30",
-"game": "AC Trento vs AS Cittadella",
-"lg": "Italy - Serie C, Group A",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.07,
-"why": "stats rate 95% from both teams' last 10 and 6 meetings",
-"ts": 1795203000.0,
-"eid": "sr:match:73293368",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "73293368|810002||3"
-},
-{
-"t": "Fri 22:30",
-"game": "Independiente Medellin vs Independiente Santa Fe",
-"lg": "Colombia - Liga DIMAYOR",
-"pick": "1st half excluded goals: 3+",
-"odds": 1.08,
-"why": "stats rate 95% from both teams' last 10 and 8 meetings",
-"ts": 1795210200.0,
-"eid": "sr:match:76838152",
-"mid": "810002",
-"spec": "",
-"oid": "3",
-"k": "76838152|810002||3"
-}
-],
-"chance": 0.2794
-}
-]
-},
-{
-"when": "Fri 20 Nov 12:37",
-"at": 1795174671,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "markets",
-"legs": 10,
-"tickets": 1,
-"days": [
-"2026-11-20"
-],
-"strict": "strict",
-"from": "00:00",
-"to": "23:59",
-"markets": [
-"xg1"
-],
-"rid": "mwowlt8uliga"
 },
 "ok": true,
 "kind": "your chosen markets",
