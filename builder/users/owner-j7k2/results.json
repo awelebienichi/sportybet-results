@@ -11329,7 +11329,10 @@
 "game": "CD Lugo U19 vs RC Celta de Vigo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-3",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -12533,7 +12536,10 @@
 "game": "CD Lugo U19 vs RC Celta de Vigo",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-3",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -14081,7 +14087,10 @@
 "game": "CD Lugo U19 vs RC Celta de Vigo",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "1-3",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
