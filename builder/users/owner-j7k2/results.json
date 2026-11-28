@@ -3041,7 +3041,7 @@
 "odds": 1.17,
 "ts": 1795878900.0,
 "r": "L",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "2-1"
 },
 {
@@ -3647,7 +3647,7 @@
 "odds": 1.2,
 "ts": 1795881600.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-0"
 },
 {
@@ -4062,7 +4062,10 @@
 "game": "CF Calamocha vs UE Olot",
 "pick": "Double chance UE Olot or draw",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:00",
@@ -4813,7 +4816,10 @@
 "game": "CF Calamocha vs UE Olot",
 "pick": "Double chance UE Olot or draw",
 "odds": 1.17,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
