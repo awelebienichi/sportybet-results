@@ -2059,7 +2059,7 @@
 "when": "Sat 28 Nov 12:18",
 "kind": "your chosen markets",
 "odds": 33.19,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -2093,7 +2093,10 @@
 "game": "Delfino Pescara vs US Pianese",
 "pick": "1st half GG \u2013 No",
 "odds": 1.22,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -3107,7 +3110,7 @@
 "odds": 1.19,
 "ts": 1795867200.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -3284,7 +3287,10 @@
 "game": "AFC Nera Bogodinti vs CSC Ghiroda SI Giarmata Vii",
 "pick": "Double chance CSC Ghiroda SI Giarmata Vii or draw",
 "odds": 1.06,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
@@ -3740,7 +3746,7 @@
 "odds": 1.19,
 "ts": 1795867200.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-0"
 },
 {
@@ -3913,7 +3919,10 @@
 "game": "AFC Nera Bogodinti vs CSC Ghiroda SI Giarmata Vii",
 "pick": "Double chance CSC Ghiroda SI Giarmata Vii or draw",
 "odds": 1.06,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "2-2",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
