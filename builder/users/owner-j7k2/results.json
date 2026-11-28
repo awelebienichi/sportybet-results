@@ -1931,14 +1931,20 @@
 "game": "FK Radnik Surdulica vs FK Vojvodina Novi Sad",
 "pick": "1st half GG \u2013 No",
 "odds": 1.25,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
 "game": "Betis vs Rayo Vallecano",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
@@ -2447,7 +2453,10 @@
 "game": "CA Bizertin vs ES Zarzis",
 "pick": "1st half GG \u2013 No",
 "odds": 1.1,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
@@ -2567,7 +2576,7 @@
 "odds": 1.17,
 "ts": 1795867200.0,
 "r": "W",
-"sc": "1-1",
+"sc": "1-2",
 "ht": "0-0"
 },
 {
