@@ -6778,7 +6778,7 @@
 "odds": 1.18,
 "ts": 1795885200.0,
 "r": "W",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
@@ -7640,7 +7640,10 @@
 "game": "Neuchatel Xamax vs FC Stade Nyonnais",
 "pick": "2nd half Over 0.5",
 "odds": 1.14,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -8655,7 +8658,10 @@
 "game": "Neuchatel Xamax vs FC Stade Nyonnais",
 "pick": "2nd half Over 0.5",
 "odds": 1.14,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
