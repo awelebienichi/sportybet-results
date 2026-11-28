@@ -1,5 +1,28 @@
 [
 {
+"when": "Sat 28 Nov 05:26",
+"at": 1795839994,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "markets",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"markets": [
+"m5x"
+],
+"rid": "mwzwqz2g2rsn"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Sat 28). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Sat 28 Nov 05:24",
 "at": 1795839855,
 "req": {
@@ -16239,206 +16262,5 @@
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Thu 26) out of 55 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Thu 26 Nov 17:06",
-"at": 1795709194,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalmix",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-26"
-],
-"strict": "relaxed",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwxqvu8jwl9a"
-},
-"ok": true,
-"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
-"note": [
-"Only 0 Over 2.5 and 12 Over 1.5 legs passed (Thu 26); this ticket has 0 + 12 instead of 7 + 13. Tick more days for more.",
-"Chance all 12 legs win: about 9% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "N0Y2L4",
-"odds": 6.38,
-"legs": [
-{
-"t": "Thu 18:20",
-"game": "Al Arabi vs Khaitan SC",
-"lg": "Kuwait - Emir Cup",
-"pick": "Over 1.5",
-"odds": 1.21,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals; Flashscore home/away form 75%",
-"ts": 1795713600.0,
-"eid": "sr:match:75992124",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "75992124|18|total=1.5|12"
-},
-{
-"t": "Thu 18:45",
-"game": "Heart of Midlothian FC vs Monaco",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 1.5",
-"odds": 1.19,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 90%, Vitibet tip 1-2",
-"ts": 1795715100.0,
-"eid": "sr:match:74173324",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173324|18|total=1.5|12"
-},
-{
-"t": "Thu 18:45",
-"game": "Viktoria Plzen vs Benfica",
-"lg": "International Clubs - UEFA Europa League",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 100%, footybets 93%, FotMob: 3.2 goals a game, Vitibet tip 1-2",
-"ts": 1795715100.0,
-"eid": "sr:match:74173064",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173064|18|total=1.5|12"
-},
-{
-"t": "Thu 18:45",
-"game": "KF Egnatia Rrogozhine vs Lincoln Red Imps",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "TOP TIER: Over 1.5 in 80% / 90% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 85%, Vitibet tip 2-1",
-"ts": 1795715100.0,
-"eid": "sr:match:74173326",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173326|18|total=1.5|12"
-},
-{
-"t": "Thu 18:45",
-"game": "Union Gilloise vs KKS Lech Poznan",
-"lg": "International Clubs - UEFA Europa League",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "TOP TIER: Over 1.5 in 80% / 80% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 80%, footybets 92%, FotMob: 3.2 goals a game, Vitibet tip 3-1",
-"ts": 1795715100.0,
-"eid": "sr:match:74173072",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173072|18|total=1.5|12"
-},
-{
-"t": "Thu 20:00",
-"game": "Stoke City U21 vs Milan Futuro",
-"lg": "International Youth - U21 Premier League International Cup",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.6 goals; Flashscore home/away form 90%",
-"ts": 1795719600.0,
-"eid": "sr:match:73734950",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73734950|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "Juventus vs AC Omonia Nicosia",
-"lg": "International Clubs - UEFA Europa League",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 95%, FotMob: 3.5 goals a game, Vitibet tip 3-1",
-"ts": 1795723200.0,
-"eid": "sr:match:74173082",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173082|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "FK Borac Banja Luka vs Atalanta",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 80%, footybets 91%, Vitibet tip 1-2",
-"ts": 1795723200.0,
-"eid": "sr:match:74173334",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173334|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "Ferencvarosi Budapest vs NK Celje",
-"lg": "International Clubs - UEFA Europa League",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 80%, FotMob: 3.5 goals a game, Vitibet tip 2-1",
-"ts": 1795723200.0,
-"eid": "sr:match:74173080",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173080|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "Lyon vs Lillestroem SK",
-"lg": "International Clubs - UEFA Europa League",
-"pick": "Over 1.5",
-"odds": 1.13,
-"why": "TOP TIER: Over 1.5 in 90% / 80% of the teams' last 10, league avg 3.2 goals; Flashscore home/away form 90%, footybets 93%, FotMob: 3.1 goals a game, Vitibet tip 3-1",
-"ts": 1795723200.0,
-"eid": "sr:match:74173088",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173088|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "PFC CSKA Sofia vs Trabzonspor",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 1.5",
-"odds": 1.16,
-"why": "TOP TIER: Over 1.5 in 90% / 80% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 85%, footybets 88%",
-"ts": 1795723200.0,
-"eid": "sr:match:74173342",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173342|18|total=1.5|12"
-},
-{
-"t": "Thu 21:00",
-"game": "Inter Club de Escaldes vs Copenhagen",
-"lg": "International Clubs - UEFA Conference League",
-"pick": "Over 1.5",
-"odds": 1.25,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.3 goals; Flashscore home/away form 80%, footybets 90%, Vitibet tip 1-3",
-"ts": 1795723200.0,
-"eid": "sr:match:74173338",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "74173338|18|total=1.5|12"
-}
-],
-"chance": 0.0873
-}
-]
 }
 ]
