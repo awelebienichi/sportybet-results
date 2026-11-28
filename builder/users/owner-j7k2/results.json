@@ -4595,21 +4595,30 @@
 "game": "SC Wiedenbruck vs 1. FC Cologne II",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
 "game": "SV Rodinghausen vs Borussia Monchengladbach II",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
 "game": "FSV Schoningen 2011 vs SV Werder Bremen II",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -5481,7 +5490,10 @@
 "game": "FSV Schoningen 2011 vs SV Werder Bremen II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.38,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -6299,7 +6311,10 @@
 "game": "TSV Steinbach Haiger vs SV Sandhausen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -7286,7 +7301,10 @@
 "game": "FSV Schoningen 2011 vs SV Werder Bremen II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.38,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -7732,7 +7750,10 @@
 "game": "TSV Steinbach Haiger vs SV Sandhausen",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -8026,7 +8047,10 @@
 "game": "TSV Steinbach Haiger vs SV Sandhausen",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -8484,7 +8508,10 @@
 "game": "FSV Schoningen 2011 vs SV Werder Bremen II",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -10951,7 +10978,10 @@
 "game": "SC Wiedenbruck vs 1. FC Cologne II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.48,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
