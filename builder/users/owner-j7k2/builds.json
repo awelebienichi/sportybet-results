@@ -1,5 +1,206 @@
 [
 {
+"when": "Sat 28 Nov 05:21",
+"at": 1795839674,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25yw",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwzwke5lfjrk"
+},
+"ok": true,
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"note": [
+"Only 12 games passed the checks (Sat 28, 852 games on SportyBet), so this ticket has 12 legs instead of 20. Tick more days or use 'Relaxed' for more.",
+"Chance all 12 legs win: about 1% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "LJSPS7",
+"odds": 93.42,
+"legs": [
+{
+"t": "Sat 10:00",
+"game": "Gyori ETO FC vs Fehervar FC",
+"lg": "Hungary - U19 National",
+"pick": "Over 2.5",
+"odds": 1.28,
+"why": "strong side Gyori ETO FC (win 1.37) scores 2.3 a game, 80% of its games over 2.5; Fehervar FC concedes 2.4 a game; season: 3.8 goals a game",
+"ts": 1795856400.0,
+"eid": "sr:match:73549292",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73549292|18|total=2.5|12"
+},
+{
+"t": "Sat 11:00",
+"game": "ZP Sport Podbrezova vs Trencin",
+"lg": "Slovakia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "strong side Trencin (win 1.52) scores 3.2 a game, 100% of its games over 2.5; ZP Sport Podbrezova concedes 1.5 a game; 100% of 8 meetings over; season: 3.9 goals a game",
+"ts": 1795860000.0,
+"eid": "sr:match:72579162",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72579162|18|total=2.5|12"
+},
+{
+"t": "Sat 11:00",
+"game": "MFk Skalica U19 vs MSK Zilina",
+"lg": "Slovakia - U19 1. Liga",
+"pick": "Over 2.5",
+"odds": 1.39,
+"why": "strong side MSK Zilina (win 1.37) scores 2.1 a game, 80% of its games over 2.5; MFk Skalica U19 concedes 2.6 a game",
+"ts": 1795860000.0,
+"eid": "sr:match:72579164",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72579164|18|total=2.5|12"
+},
+{
+"t": "Sat 11:00",
+"game": "Volos NPS vs Asteras Tripolis",
+"lg": "Greece - U19 Super League",
+"pick": "Over 2.5",
+"odds": 1.71,
+"why": "strong side Volos NPS (win 1.68) scores 1.8 a game, 60% of its games over 2.5; Asteras Tripolis concedes 1.6 a game; 62% of 8 meetings over",
+"ts": 1795860000.0,
+"eid": "sr:match:73690316",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73690316|18|total=2.5|12"
+},
+{
+"t": "Sat 13:00",
+"game": "CD Sobradillo vs UD Las Palmas",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.24,
+"why": "strong side UD Las Palmas (win 1.09) scores 4.1 a game, 80% of its games over 2.5; CD Sobradillo concedes 1.9 a game; season: 4.1 goals a game",
+"ts": 1795867200.0,
+"eid": "sr:match:72885390",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72885390|18|total=2.5|12"
+},
+{
+"t": "Sat 14:00",
+"game": "Belgium vs France",
+"lg": "International Youth - U19 European Championship, Women, Qualification",
+"pick": "Over 2.5",
+"odds": 1.58,
+"why": "strong side France (win 1.54) scores 1.8 a game, 80% of its games over 2.5; Belgium concedes 1.3 a game; Flashscore home/away form 65%",
+"ts": 1795870800.0,
+"eid": "sr:match:73469170",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73469170|18|total=2.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "Sampdoria Genoa vs AC Renate",
+"lg": "Italy - Primavera 2",
+"pick": "Over 2.5",
+"odds": 1.52,
+"why": "strong side Sampdoria Genoa (win 1.61) scores 3.1 a game, 90% of its games over 2.5; AC Renate concedes 1.8 a game; Flashscore home/away form 85%",
+"ts": 1795872600.0,
+"eid": "sr:match:73711550",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73711550|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Chinese Taipei vs South Africa",
+"lg": "International - FIFA World Cup, Women, Qualification",
+"pick": "Over 2.5",
+"odds": 1.66,
+"why": "strong side South Africa (win 1.37) scores 1.7 a game, 70% of its games over 2.5; Chinese Taipei concedes 1.9 a game; Flashscore home/away form 70%",
+"ts": 1795874400.0,
+"eid": "sr:match:76708006",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "76708006|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Kelme CF vs CD Castellon SAD",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.59,
+"why": "strong side CD Castellon SAD (win 1.39) scores 2.1 a game, 70% of its games over 2.5; Kelme CF concedes 1.8 a game; Flashscore home/away form 50%",
+"ts": 1795878000.0,
+"eid": "sr:match:72885910",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72885910|18|total=2.5|12"
+},
+{
+"t": "Sat 17:00",
+"game": "CF Damm vs CE Sabadell FC",
+"lg": "Spain - U19 Division de Honor Juvenil",
+"pick": "Over 2.5",
+"odds": 1.4,
+"why": "strong side CF Damm (win 1.29) scores 2.9 a game, 70% of its games over 2.5; CE Sabadell FC concedes 1.7 a game; Flashscore home/away form 64%, season: 3.8 goals a game",
+"ts": 1795881600.0,
+"eid": "sr:match:72883782",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72883782|18|total=2.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "SC Cambuur vs Feyenoord Rotterdam",
+"lg": "Netherlands - U21, Divisie 1",
+"pick": "Over 2.5",
+"odds": 1.32,
+"why": "strong side Feyenoord Rotterdam (win 1.44) scores 3.3 a game, 90% of its games over 2.5; SC Cambuur concedes 1.3 a game; 75% of 8 meetings over; Flashscore home/away form 80%, season: 3.9 goals a game",
+"ts": 1795885200.0,
+"eid": "sr:match:75069294",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "75069294|18|total=2.5|12"
+},
+{
+"t": "Sat 22:30",
+"game": "Mexico vs Haiti",
+"lg": "International - CONCACAF Championship, Women",
+"pick": "Over 2.5",
+"odds": 1.51,
+"why": "strong side Mexico (win 1.19) scores 2.6 a game, 60% of its games over 2.5; Haiti concedes 2.4 a game; Flashscore home/away form 60%",
+"ts": 1795901400.0,
+"eid": "sr:match:73045428",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73045428|18|total=2.5|12"
+}
+],
+"chance": 0.006
+}
+]
+},
+{
 "when": "Sat 28 Nov 05:19",
 "at": 1795839554,
 "req": {
@@ -16126,29 +16327,5 @@
 "chance": 0.0873
 }
 ]
-},
-{
-"when": "Thu 26 Nov 15:32",
-"at": 1795703533,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25",
-"legs": 40,
-"tickets": 1,
-"days": [
-"2026-11-26",
-"2026-11-27",
-"2026-11-28",
-"2026-11-29"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"target": 20000,
-"rid": "mwxnia3bvpko"
-},
-"ok": false,
-"msg": "Could not reach 20000 odds with 40 legs or fewer from the 355 games that pass the checks for Over 2.5 (lowest prices first) (Thu 26, Fri 27, Sat 28, Sun 29). Allow more legs or a lower target."
 }
 ]
