@@ -3837,7 +3837,10 @@
 "game": "MKS Viktoria Wrzesnia vs Polonia Sroda Wielkopolska",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
@@ -5010,7 +5013,10 @@
 "game": "MKS Viktoria Wrzesnia vs Polonia Sroda Wielkopolska",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 13:30",
@@ -6314,7 +6320,10 @@
 "game": "MKS Viktoria Wrzesnia vs Polonia Sroda Wielkopolska",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 12:00",
