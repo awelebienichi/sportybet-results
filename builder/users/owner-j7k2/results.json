@@ -2666,7 +2666,7 @@
 "odds": 1.13,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -5493,7 +5493,10 @@
 "game": "Bugesera FC vs Gicumbi FC",
 "pick": "Under 2.5",
 "odds": 1.5,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 15:00",
@@ -5517,7 +5520,7 @@
 "when": "Fri 27 Nov 22:29",
 "kind": "Under 2.5 (low-scoring leagues)",
 "odds": 754.93,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 23:00",
@@ -5574,7 +5577,10 @@
 "game": "Ethio Electric vs Hadiya Hossana FC",
 "pick": "Under 2.5",
 "odds": 1.32,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
@@ -5602,7 +5608,10 @@
 "game": "Bugesera FC vs Gicumbi FC",
 "pick": "Under 2.5",
 "odds": 1.5,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 14:30",
@@ -5739,7 +5748,10 @@
 "game": "Ethio Electric vs Hadiya Hossana FC",
 "pick": "Under 2.5",
 "odds": 1.32,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
