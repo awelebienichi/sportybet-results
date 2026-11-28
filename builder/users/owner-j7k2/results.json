@@ -549,7 +549,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -834,7 +837,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1111,7 +1117,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1426,7 +1435,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -3091,7 +3103,10 @@
 "game": "Schwarz-Weiss Bregenz vs Austria Salzburg",
 "pick": "Half-time draw",
 "odds": 2.3,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 16:00",
@@ -4732,7 +4747,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -5620,7 +5638,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -6848,7 +6869,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.35,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
@@ -7282,7 +7306,10 @@
 "game": "US Avellino vs US Salernitana",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -8201,7 +8228,10 @@
 "game": "US Avellino vs US Salernitana",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:20",
@@ -8644,7 +8674,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.35,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -9321,7 +9354,10 @@
 "game": "US Avellino vs US Salernitana",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
@@ -9773,7 +9809,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -11491,7 +11530,10 @@
 "game": "FC 1980 Wien vs FAC Wien Amateure",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 14:30",
