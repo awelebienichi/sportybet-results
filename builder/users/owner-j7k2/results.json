@@ -768,7 +768,10 @@
 "game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
 "pick": "Over 2.5",
 "odds": 1.15,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 14:30",
@@ -1074,7 +1077,10 @@
 "game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
 "pick": "Over 2.5",
 "odds": 1.15,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 15:00",
@@ -1373,7 +1379,10 @@
 "game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
 "pick": "Over 2.5",
 "odds": 1.15,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 14:30",
@@ -1715,7 +1724,10 @@
 "game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
 "pick": "Over 2.5",
 "odds": 1.15,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-2",
+"ht": "2-1"
 },
 {
 "t": "Sat 14:30",
@@ -2244,7 +2256,10 @@
 "game": "FK Zeleziarne Podbrezova vs DAC 1904 Dunajska Streda",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:30",
@@ -4148,7 +4163,10 @@
 "game": "FK Zeleziarne Podbrezova vs DAC 1904 Dunajska Streda",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:30",
@@ -4867,7 +4885,10 @@
 "game": "FK Zeleziarne Podbrezova vs DAC 1904 Dunajska Streda",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:30",
@@ -11867,8 +11888,8 @@
 "odds": 1.25,
 "ts": 1795876200.0,
 "r": "W",
-"sc": "0-1",
-"ht": ""
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 15:30",
