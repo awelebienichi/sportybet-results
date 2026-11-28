@@ -1,7 +1,7 @@
 [
 {
-"when": "Sat 28 Nov 15:44",
-"at": 1795877095,
+"when": "Sat 28 Nov 15:51",
+"at": 1795877487,
 "req": {
 "u": "owner-j7k2",
 "name": "Owner",
@@ -28,7 +28,7 @@
 "tickets": [
 {
 "code": "ZWU5ZP",
-"odds": 45.37,
+"odds": 44.98,
 "legs": [
 {
 "t": "Sat 16:15",
@@ -77,7 +77,7 @@
 "game": "APOEL Nikosia vs Krasava ENY Ypsonas FC",
 "lg": "Cyprus - 1st Division",
 "pick": "Over 1.5",
-"odds": 1.18,
+"odds": 1.17,
 "why": "stats rate 90% from both teams' last 10; Flashscore home/away form 90%, FotMob: 3.3 goals a game, Vitibet tip 3-1, season: 3.3 goals a game",
 "ts": 1795881600.0,
 "eid": "sr:match:73160492",
