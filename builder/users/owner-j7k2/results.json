@@ -3644,7 +3644,7 @@
 "when": "Sat 28 Nov 05:21",
 "kind": "Over 2.5 (strong teams in youth & women's leagues)",
 "odds": 93.42,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:00",
@@ -3678,7 +3678,10 @@
 "game": "Volos NPS vs Asteras Tripolis",
 "pick": "Over 2.5",
 "odds": 1.71,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
