@@ -7297,7 +7297,10 @@
 "game": "Kisvarda FC vs Nyiregyhaza Spartacus FC",
 "pick": "Half-time draw",
 "odds": 2.2,
-"ts": 1795889700.0
+"ts": 1795889700.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 }
 ]
 },
