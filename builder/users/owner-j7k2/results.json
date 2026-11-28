@@ -4425,7 +4425,7 @@
 "when": "Fri 27 Nov 22:24",
 "kind": "Over 2.5 \u2013 all pickers together (lowest prices, goal-fest, youth & women)",
 "odds": 104.96,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 00:00",
@@ -4462,7 +4462,10 @@
 "game": "FC Petrzalka U19 vs MFK Dukla Banska Bystrica",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 12:00",
@@ -4784,7 +4787,7 @@
 "when": "Fri 27 Nov 17:54",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 1675.92,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -4841,7 +4844,10 @@
 "game": "FC Petrzalka U19 vs MFK Dukla Banska Bystrica",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 12:35",
@@ -5246,7 +5252,7 @@
 "odds": 1.36,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "0-1"
 },
 {
@@ -5896,7 +5902,7 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 35.23,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 20:00",
@@ -5923,7 +5929,10 @@
 "game": "FC Petrzalka U19 vs MFK Dukla Banska Bystrica",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.29,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:15",
@@ -6128,7 +6137,7 @@
 "odds": 1.36,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "0-1"
 },
 {
@@ -7552,7 +7561,7 @@
 "odds": 1.36,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "3-1",
+"sc": "3-2",
 "ht": "0-1"
 },
 {
@@ -7993,7 +8002,10 @@
 "game": "FC Petrzalka U19 vs MFK Dukla Banska Bystrica",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 12:35",
@@ -9244,7 +9256,10 @@
 "game": "FC Petrzalka U19 vs MFK Dukla Banska Bystrica",
 "pick": "Over 2.5",
 "odds": 1.29,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "L",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 12:30",
