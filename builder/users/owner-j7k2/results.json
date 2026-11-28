@@ -1954,7 +1954,7 @@
 "odds": 1.25,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "0-1",
+"sc": "0-2",
 "ht": "0-1"
 },
 {
@@ -3197,7 +3197,10 @@
 "game": "SV Waldhof Mannheim 07 vs VfB Stuttgart II",
 "pick": "2nd half Over 0.5",
 "odds": 1.13,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -3861,7 +3864,10 @@
 "game": "SV Waldhof Mannheim 07 vs VfB Stuttgart II",
 "pick": "2nd half Over 0.5",
 "odds": 1.13,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
