@@ -2134,7 +2134,7 @@
 "odds": 1.25,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": "0-1"
 },
 {
@@ -2453,7 +2453,7 @@
 "odds": 1.1,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
@@ -3049,7 +3049,7 @@
 "odds": 1.17,
 "ts": 1795870800.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
@@ -3593,7 +3593,10 @@
 "game": "Sepahan SC vs Nassaji Mazandaran FC",
 "pick": "1st half double chance Sepahan SC or draw",
 "odds": 1.08,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-1"
 },
 {
 "t": "Sat 15:15",
@@ -3729,7 +3732,7 @@
 "odds": 1.17,
 "ts": 1795870800.0,
 "r": "L",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "0-1"
 },
 {
@@ -4255,7 +4258,10 @@
 "game": "Sepahan SC vs Nassaji Mazandaran FC",
 "pick": "1st half double chance Sepahan SC or draw",
 "odds": 1.08,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "3-1",
+"ht": "3-1"
 },
 {
 "t": "Sat 15:15",
@@ -5856,7 +5862,10 @@
 "game": "Red Lions vs Karonga United FC",
 "pick": "Under 2.5",
 "odds": 1.42,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -6037,7 +6046,10 @@
 "game": "Red Lions vs Karonga United FC",
 "pick": "Under 2.5",
 "odds": 1.42,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -7017,7 +7029,10 @@
 "game": "SV Waldhof Mannheim 07 vs VfB Stuttgart II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
@@ -8588,7 +8603,10 @@
 "game": "SV Waldhof Mannheim 07 vs VfB Stuttgart II",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -9023,7 +9041,10 @@
 "game": "SV Waldhof Mannheim 07 vs VfB Stuttgart II",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "1-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:30",
