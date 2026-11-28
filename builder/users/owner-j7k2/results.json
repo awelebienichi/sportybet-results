@@ -2674,7 +2674,7 @@
 "odds": 1.1,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "1-1",
+"sc": "2-1",
 "ht": "1-0"
 },
 {
@@ -5737,7 +5737,10 @@
 "game": "Civil Service United FC vs Mitundu Baptist",
 "pick": "Under 2.5",
 "odds": 1.39,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -5848,7 +5851,10 @@
 "game": "Civil Service United FC vs Mitundu Baptist",
 "pick": "Under 2.5",
 "odds": 1.39,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -6025,7 +6031,10 @@
 "game": "Civil Service United FC vs Mitundu Baptist",
 "pick": "Under 2.5",
 "odds": 1.39,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 14:00",
@@ -6039,7 +6048,10 @@
 "game": "CA Bizertin vs ES Zarzis",
 "pick": "Under 2.5",
 "odds": 1.36,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "2-1",
+"ht": "1-0"
 },
 {
 "t": "Sat 14:00",
