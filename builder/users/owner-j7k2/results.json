@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "H2301U",
+"at": 1795867259,
+"when": "Sat 28 Nov 13:00",
+"kind": "Over 2.5 (strong teams in youth & women's leagues)",
+"odds": 13.89,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "Belgium vs France",
+"pick": "Over 2.5",
+"odds": 1.56,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Sampdoria Genoa vs AC Renate",
+"pick": "Over 2.5",
+"odds": 1.52,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Chinese Taipei vs South Africa",
+"pick": "Over 2.5",
+"odds": 1.73,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 16:00",
+"game": "Kelme CF vs CD Castellon SAD",
+"pick": "Over 2.5",
+"odds": 1.59,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:00",
+"game": "CF Damm vs CE Sabadell FC",
+"pick": "Over 2.5",
+"odds": 1.41,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 22:30",
+"game": "Mexico vs Haiti",
+"pick": "Over 2.5",
+"odds": 1.51,
+"ts": 1795901400.0
+}
+]
+},
+{
 "code": "Z6YNA7",
 "at": 1795866276,
 "when": "Sat 28 Nov 12:44",
@@ -86003,36 +86055,6 @@
 "odds": 1.66,
 "ts": 1794679200.0,
 "r": "W",
-"sc": "1-0",
-"ht": "0-0"
-}
-]
-},
-{
-"code": "T7N4MP",
-"at": 1794635469,
-"when": "Sat 14 Nov 06:51",
-"kind": "Over 2.5 (strong teams in youth & women's leagues)",
-"odds": 1.5,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 11:45",
-"game": "SFC Opava vs FC Pardubice",
-"pick": "Over 2.5",
-"odds": 1.24,
-"ts": 1794653100.0,
-"r": "W",
-"sc": "5-1",
-"ht": "2-0"
-},
-{
-"t": "Sat 13:30",
-"game": "Spain vs Wales",
-"pick": "Over 2.5",
-"odds": 1.21,
-"ts": 1794659400.0,
-"r": "L",
 "sc": "1-0",
 "ht": "0-0"
 }

@@ -2,6 +2,121 @@
 "from": 1794401861,
 "tickets": [
 {
+"code": "Y8HZQX",
+"at": 1795867292,
+"when": "Sat 28 Nov 13:01",
+"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
+"odds": 7.2,
+"status": "open",
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "FC Kilia Kiel vs TSB Flensburg",
+"pick": "Over 2.5",
+"odds": 1.18,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
+"pick": "Over 2.5",
+"odds": 1.15,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "Liverpool U21 vs Birmingham City U21",
+"pick": "Over 2.5",
+"odds": 1.2,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"pick": "Over 1.5",
+"odds": 1.1,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "IJsselmeervogels vs Jong Sparta Rotterdam",
+"pick": "Over 1.5",
+"odds": 1.09,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Treowen Stars",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"pick": "Over 2.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Farnborough FC",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Man Utd vs Brentford",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Over 1.5",
+"odds": 1.08,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Wiltz 71 vs US Hostert",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 22:15",
+"game": "Guabira Montero vs FC Universitario de Vinto",
+"pick": "Over 1.5",
+"odds": 1.11,
+"ts": 1795900500.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Over 2.5",
+"odds": 1.29,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "LYVBU8",
 "at": 1795867127,
 "when": "Sat 28 Nov 12:58",
