@@ -1618,7 +1618,10 @@
 "game": "Real Bedford vs Needham Market",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:00",
@@ -1959,7 +1962,10 @@
 "game": "Real Bedford vs Needham Market",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:00",
