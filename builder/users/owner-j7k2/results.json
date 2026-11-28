@@ -1750,7 +1750,7 @@
 "odds": 1.17,
 "ts": 1795860000.0,
 "r": "W",
-"sc": "0-2",
+"sc": "1-2",
 "ht": ""
 },
 {
@@ -3838,7 +3838,10 @@
 "game": "Naftan Novopolotsk vs FC Dinamo Minsk",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.35,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 12:00",
@@ -4608,7 +4611,10 @@
 "game": "Naftan Novopolotsk vs FC Dinamo Minsk",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.35,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 13:00",
@@ -5907,7 +5913,10 @@
 "game": "Naftan Novopolotsk vs FC Dinamo Minsk",
 "pick": "Over 2.5",
 "odds": 1.35,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 11:00",
