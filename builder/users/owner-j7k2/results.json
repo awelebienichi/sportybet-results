@@ -2,6 +2,289 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "X24U6J",
+"at": 1795864812,
+"when": "Sat 28 Nov 12:20",
+"kind": "rebuild of K3EJ3Q \u2013 safest market per game",
+"odds": 4995.73,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "Epinal vs Amiens",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Treowen Stars",
+"pick": "GG (both teams score)",
+"odds": 1.37,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:20",
+"game": "Al-Ettifaq FC vs Al Hilal SFC",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795875600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Hamburger SV vs Bayern Munich",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 15:30",
+"game": "FK Zeleziarne Podbrezova vs DAC 1904 Dunajska Streda",
+"pick": "2nd half Over 0.5",
+"odds": 1.15,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"pick": "GG (both teams score)",
+"odds": 1.37,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Man Utd vs Brentford",
+"pick": "Over 1.5",
+"odds": 1.17,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Queens Park Rangers vs Sheffield United",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "West Bromwich Albion vs Bristol City",
+"pick": "1st half Under 2.5",
+"odds": 1.12,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Sabah Masazir vs Araz Nakhchivan PFK",
+"pick": "GG (both teams score)",
+"odds": 1.63,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Plateau United vs Ikorodu City",
+"pick": "Over 1.5",
+"odds": 1.25,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "FC Corvinul Hunedoara 1921 vs FC Farul Constanta",
+"pick": "2nd half Over 0.5",
+"odds": 1.23,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Aberdeen vs Dundee FC",
+"pick": "GG (both teams score)",
+"odds": 1.59,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rangers vs Falkirk FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cukaricki vs FK Mladost Lucani",
+"pick": "1st half double chance Cukaricki or draw",
+"odds": 1.14,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:15",
+"game": "Malaga CF vs Athletic Bilbao",
+"pick": "Double chance Athletic Bilbao or draw",
+"odds": 1.2,
+"ts": 1795878900.0
+},
+{
+"t": "Sat 16:30",
+"game": "Excelsior Rotterdam vs SC Telstar",
+"pick": "GG (both teams score)",
+"odds": 1.63,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"pick": "GG (both teams score)",
+"odds": 1.51,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 17:00",
+"game": "Pyramids FC vs Maghreb AS de Fes",
+"pick": "2nd half Over 0.5",
+"odds": 1.32,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "Zamalek SC vs Africain",
+"pick": "Under 3.5",
+"odds": 1.16,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "La Roche Vendee Football vs Voltigeurs de Chateaubriant",
+"pick": "La Roche Vendee Football to win",
+"odds": 1.51,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "Gaziantep FK vs Amed Sportif Faaliyetler",
+"pick": "Double chance Amed Sportif Faaliyetler or draw",
+"odds": 1.36,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"pick": "2nd half Over 0.5",
+"odds": 1.25,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "2nd half Over 0.5",
+"odds": 1.1,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "1st half Under 2.5",
+"odds": 1.31,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:30",
+"game": "Charlotte FC vs Chicago Fire",
+"pick": "2nd half Over 0.5",
+"odds": 1.13,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:45",
+"game": "PSV Eindhoven vs Go Ahead Eagles",
+"pick": "2nd half Over 0.5",
+"odds": 1.1,
+"ts": 1795887900.0
+},
+{
+"t": "Sat 19:00",
+"game": "Ballymena United vs Cliftonville FC",
+"pick": "2nd half Over 0.5",
+"odds": 1.16,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 19:30",
+"game": "Austria Lustenau vs SK Rapid",
+"pick": "2nd half Over 0.5",
+"odds": 1.14,
+"ts": 1795890600.0
+},
+{
+"t": "Sat 20:45",
+"game": "Inter vs Genoa",
+"pick": "Over 1.5",
+"odds": 1.15,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Nice vs ESTAC Troyes",
+"pick": "2nd half Over 0.5",
+"odds": 1.22,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "PSG vs Lorient",
+"pick": "2nd half Over 0.5",
+"odds": 1.17,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Royal Charleroi SC vs KV Waasland-Beveren",
+"pick": "2nd half Over 0.5",
+"odds": 1.19,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 21:00",
+"game": "Real Madrid vs Alaves",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "2nd half Over 0.5",
+"odds": 1.12,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 22:15",
+"game": "Guabira Montero vs FC Universitario de Vinto",
+"pick": "2nd half Over 0.5",
+"odds": 1.11,
+"ts": 1795900500.0
+},
+{
+"t": "Sat 22:30",
+"game": "Philadelphia Union vs New England Revolution",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795901400.0
+},
+{
+"t": "Sat 23:00",
+"game": "Cdm FC vs Real Refineros Cds",
+"pick": "GG (both teams score)",
+"odds": 1.55,
+"ts": 1795903200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Guerreros de Autlan to win (1UP)",
+"odds": 1.4,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "HY2ANJ",
 "at": 1795864715,
 "when": "Sat 28 Nov 12:18",
@@ -4443,7 +4726,10 @@
 "game": "Sanliurfaspor vs Somaspor",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 12:00",
@@ -5319,7 +5605,10 @@
 "game": "Sanliurfaspor vs Somaspor",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.36,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:00",
@@ -6734,7 +7023,10 @@
 "game": "Sanliurfaspor vs Somaspor",
 "pick": "Over 2.5",
 "odds": 1.36,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 11:00",
@@ -85252,36 +85544,6 @@
 "r": "L",
 "sc": "0-0",
 "ht": ""
-}
-]
-},
-{
-"code": "N27ZSZ",
-"at": 1794635133,
-"when": "Sat 14 Nov 06:45",
-"kind": "2nd half Over 0.5",
-"odds": 1.35,
-"status": "won",
-"legs": [
-{
-"t": "Sat 13:50",
-"game": "Al Dhafra SSC vs Ajman Club",
-"pick": "2nd half Over 0.5",
-"odds": 1.17,
-"ts": 1794660600.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 16:00",
-"game": "Yeovil Town vs Boreham Wood FC",
-"pick": "2nd half Over 0.5",
-"odds": 1.15,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "2-2",
-"ht": "2-1"
 }
 ]
 }
