@@ -5719,7 +5719,10 @@
 "game": "Charlotte FC vs Chicago Fire",
 "pick": "1st half double chance Charlotte FC or draw",
 "odds": 1.41,
-"ts": 1795887000.0
+"ts": 1795887000.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 18:45",
@@ -10726,7 +10729,10 @@
 "game": "Dakar Sacre Coeur vs Casa Sport",
 "pick": "Under 2.5",
 "odds": 1.28,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -10924,7 +10930,10 @@
 "game": "Dakar Sacre Coeur vs Casa Sport",
 "pick": "Under 2.5",
 "odds": 1.28,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "L",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
