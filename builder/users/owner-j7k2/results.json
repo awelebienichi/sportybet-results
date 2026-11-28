@@ -394,7 +394,10 @@
 "game": "Cleethorpes Town FC vs Quorn FC",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -1361,7 +1364,10 @@
 "game": "VV Eemdijk vs Vpv Purmersteijn",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "4-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 15:00",
@@ -7173,7 +7179,10 @@
 "game": "Cleethorpes Town FC vs Quorn FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -8960,7 +8969,10 @@
 "game": "Cleethorpes Town FC vs Quorn FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -10184,7 +10196,10 @@
 "game": "Cleethorpes Town FC vs Quorn FC",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "2-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
