@@ -1,5 +1,247 @@
 [
 {
+"when": "Sat 28 Nov 13:01",
+"at": 1795867292,
+"req": {
+"u": "constancebieni-7tv2",
+"name": "Constance Bienichi",
+"type": "goalmix",
+"legs": 15,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mx0d0ani9gcq"
+},
+"ok": true,
+"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
+"note": [
+"Chance all 15 legs win: about 7% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
+],
+"tickets": [
+{
+"code": "Y8HZQX",
+"odds": 7.2,
+"legs": [
+{
+"t": "Sat 14:00",
+"game": "FC Kilia Kiel vs TSB Flensburg",
+"lg": "Germany Amateur - Oberliga Schleswig-Holstein",
+"pick": "Over 2.5",
+"odds": 1.18,
+"why": "season: 5.6 and 4.0 goals a game (17/18 games); last 10 rate 80%",
+"ts": 1795870800.0,
+"eid": "sr:match:72730372",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72730372|18|total=2.5|12"
+},
+{
+"t": "Sat 14:30",
+"game": "1 FC Phonix Lubeck II vs Kaltenkirchener Turnerschaft",
+"lg": "Germany Amateur - Oberliga Schleswig-Holstein",
+"pick": "Over 2.5",
+"odds": 1.15,
+"why": "season: 4.7 and 4.6 goals a game (18/18 games); last 10 rate 80%",
+"ts": 1795872600.0,
+"eid": "sr:match:72730366",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72730366|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Liverpool U21 vs Birmingham City U21",
+"lg": "England Amateur - U21 Premier League 2",
+"pick": "Over 2.5",
+"odds": 1.2,
+"why": "season: 2.8 and 4.2 goals a game (6/6 games); last 10 rate 70%",
+"ts": 1795874400.0,
+"eid": "sr:match:73603158",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "73603158|18|total=2.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 1.5",
+"odds": 1.1,
+"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, league avg 3.8 goals; Flashscore home/away form 85%, FotMob: 4.1 goals a game, Vitibet tip 1-2, season: 4.1 goals a game",
+"ts": 1795874400.0,
+"eid": "sr:match:72594700",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72594700|18|total=1.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "IJsselmeervogels vs Jong Sparta Rotterdam",
+"lg": "Netherlands - Tweede Divisie",
+"pick": "Over 1.5",
+"odds": 1.09,
+"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 90%, FotMob: 3.7 goals a game, Vitibet tip 2-1, season: 3.7 goals a game",
+"ts": 1795874400.0,
+"eid": "sr:match:72594698",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72594698|18|total=1.5|12"
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Treowen Stars",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "TOP TIER: Over 1.5 in 100% / 80% of the teams' last 10, 100% of 3 meetings, league avg 3.8 goals; Flashscore home/away form 85%, season: 3.6 goals a game",
+"ts": 1795874400.0,
+"eid": "sr:match:72546196",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72546196|18|total=1.5|12"
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"lg": "Wales - Cymru Championship South",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 100% of 3 meetings, league avg 3.8 goals; Flashscore home/away form 80%, season: 3.5 goals a game",
+"ts": 1795876200.0,
+"eid": "sr:match:72546198",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72546198|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Boreham Wood FC vs Gateshead FC",
+"lg": "England - National League",
+"pick": "Over 2.5",
+"odds": 1.21,
+"why": "season: 3.9 and 2.9 goals a game (19/18 games); last 10 rate 85%",
+"ts": 1795878000.0,
+"eid": "sr:match:72740870",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "72740870|18|total=2.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Farnborough FC",
+"lg": "England Amateur - National League South",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, 100% of 6 meetings, league avg 3.4 goals; Flashscore home/away form 85%, FotMob: 3.5 goals a game, Vitibet tip 3-1, season: 3.5 goals a game",
+"ts": 1795878000.0,
+"eid": "sr:match:72758366",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72758366|18|total=1.5|12"
+},
+{
+"t": "Sat 16:00",
+"game": "Man Utd vs Brentford",
+"lg": "England - Premier League",
+"pick": "Over 1.5",
+"odds": 1.17,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.2 goals; Flashscore home/away form 95%, FotMob: 3.1 goals a game, Vitibet tip 1-2, season: 3.1 goals a game",
+"ts": 1795878000.0,
+"eid": "sr:match:72221426",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72221426|18|total=1.5|12"
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"lg": "Norway - Eliteserien",
+"pick": "Over 1.5",
+"odds": 1.08,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.9 goals; Flashscore home/away form 100%, FotMob: 3.8 goals a game, Vitibet tip 2-1, season: 3.8 goals a game",
+"ts": 1795885200.0,
+"eid": "sr:match:67015490",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "67015490|18|total=1.5|12"
+},
+{
+"t": "Sat 19:00",
+"game": "FC Wiltz 71 vs US Hostert",
+"lg": "Luxembourg - Division Nationale",
+"pick": "Over 1.5",
+"odds": 1.12,
+"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.9 goals; Flashscore home/away form 90%, FotMob: 3.9 goals a game, Vitibet tip 1-2, season: 3.9 goals a game",
+"ts": 1795888800.0,
+"eid": "sr:match:72963868",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72963868|18|total=1.5|12"
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"lg": "Netherlands - Eredivisie",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.9 goals; Flashscore home/away form 95%, FotMob: 4.3 goals a game, Vitibet tip 2-1, season: 4.3 goals a game",
+"ts": 1795896000.0,
+"eid": "sr:match:72041282",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "72041282|18|total=1.5|12"
+},
+{
+"t": "Sat 22:15",
+"game": "Guabira Montero vs FC Universitario de Vinto",
+"lg": "Bolivia - Division Profesional",
+"pick": "Over 1.5",
+"odds": 1.11,
+"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 3.4 goals; Flashscore home/away form 100%, FotMob: 3.4 goals a game, Vitibet tip 2-1, season: 3.4 goals a game",
+"ts": 1795900500.0,
+"eid": "sr:match:75449112",
+"mid": "18",
+"spec": "total=1.5",
+"oid": "12",
+"k": "75449112|18|total=1.5|12"
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"lg": "Mexico - Liga Premier Serie A",
+"pick": "Over 2.5",
+"odds": 1.29,
+"why": "season: 4.3 and 4.3 goals a game (13/13 games); last 10 rate 85%",
+"ts": 1795903200.0,
+"eid": "sr:match:74063646",
+"mid": "18",
+"spec": "total=2.5",
+"oid": "12",
+"k": "74063646|18|total=2.5|12"
+}
+],
+"chance": 0.0668
+}
+]
+},
+{
 "when": "Sat 28 Nov 12:58",
 "at": 1795867127,
 "req": {
@@ -9378,106 +9620,6 @@
 }
 ],
 "chance": 0.2794
-}
-]
-},
-{
-"when": "Fri 20 Nov 10:34",
-"at": 1795167297,
-"req": {
-"u": "constancebieni-7tv2",
-"name": "Constance Bienichi",
-"type": "live",
-"strategy": "mix",
-"legs": 6,
-"strict": "normal",
-"rid": "mwos94h5khz0"
-},
-"ok": true,
-"kind": "live \u2013 best of all",
-"note": [
-"Only 5 live leg(s) were strong enough right now (you asked for 6).",
-"Normal safety: in testing about 88 in 100 such legs came true.",
-"Live odds move fast \u2013 load the code on SportyBet straight away.",
-"Chance all 5 legs win: about 46%."
-],
-"tickets": [
-{
-"code": "XDNTJK",
-"odds": 1.72,
-"legs": [
-{
-"t": "Fri 09:30",
-"game": "PSS Sleman vs Arema FC",
-"lg": "Indonesia - Super League",
-"pick": "PSS Sleman or Arema FC",
-"odds": 1.06,
-"why": "LIVE 0-2 45': PSS Sleman expected 1.0 and Arema FC 1.0 more goals (last 10 + season); 0-2 at 45' \u2013 91% chance",
-"ts": 1795163400.0,
-"eid": "sr:match:73576722",
-"mid": "10",
-"spec": "",
-"oid": "10",
-"k": "73576722|10||10"
-},
-{
-"t": "Fri 09:30",
-"game": "Garuda Yaksa vs Madura United",
-"lg": "Indonesia - Super League",
-"pick": "Handicap 0:2 \u2013 Madura United",
-"odds": 1.09,
-"why": "LIVE 0-0 47': Garuda Yaksa expected 0.7 and Madura United 1.0 more goals (last 10 + season); 0-0 at 47' \u2013 91% chance; margin record 80% / 80% in both sides' last games",
-"ts": 1795163400.0,
-"eid": "sr:match:73576720",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "73576720|14|hcp=0:2|1713"
-},
-{
-"t": "Fri 09:30",
-"game": "Sydney United 58 FC vs Sutherland Sharks",
-"lg": "Australia - Australian Championship",
-"pick": "Handicap 0:2 \u2013 Sutherland Sharks",
-"odds": 1.1,
-"why": "LIVE 0-0 45': Sydney United 58 FC expected 0.9 and Sutherland Sharks 0.8 more goals (last 10 + season); 0-0 at 45' \u2013 85% chance; h2h 100% of 8 meetings",
-"ts": 1795163400.0,
-"eid": "sr:match:74827302",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "74827302|14|hcp=0:2|1713"
-},
-{
-"t": "Fri 09:30",
-"game": "South Melbourne FC vs Canberra Croatia FC",
-"lg": "Australia - Australian Championship",
-"pick": "South Melbourne FC Under 5.5",
-"odds": 1.22,
-"why": "LIVE 3-2 45': South Melbourne FC expected 1.0 and Canberra Croatia FC 0.7 more goals (last 10 + season); 3-2 at 45' \u2013 89% chance; goals record 80% / 90% in both sides' last games",
-"ts": 1795163400.0,
-"eid": "sr:match:74827300",
-"mid": "19",
-"spec": "total=5.5",
-"oid": "13",
-"k": "74827300|19|total=5.5|13"
-},
-{
-"t": "Fri 09:40",
-"game": "Western Sydney Wanderers vs Adelaide United FC",
-"lg": "Australia - A-League",
-"pick": "Handicap 0:2 \u2013 Adelaide United FC",
-"odds": 1.1,
-"why": "LIVE 0-1 45': Western Sydney Wanderers expected 1.0 and Adelaide United FC 1.0 more goals (last 10); 0-1 at 45' \u2013 94% chance; h2h 100% of 8 meetings",
-"ts": 1795164000.0,
-"eid": "sr:match:72897430",
-"mid": "14",
-"spec": "hcp=0:2",
-"oid": "1713",
-"k": "72897430|14|hcp=0:2|1713"
-}
-],
-"chance": 0.4594
 }
 ]
 }
