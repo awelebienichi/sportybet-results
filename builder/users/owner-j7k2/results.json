@@ -2,6 +2,289 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "V8BHSX",
+"at": 1795865742,
+"when": "Sat 28 Nov 12:35",
+"kind": "rebuild of K3EJ3Q \u2013 tracker's best markets",
+"odds": 5000.97,
+"status": "open",
+"legs": [
+{
+"t": "Sat 15:00",
+"game": "Epinal vs Amiens",
+"pick": "Goal bounds 2-5+",
+"odds": 1.35,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "Llantwit Major vs Treowen Stars",
+"pick": "1st half double chance Llantwit Major or draw",
+"odds": 1.3,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:20",
+"game": "Al-Ettifaq FC vs Al Hilal SFC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795875600.0
+},
+{
+"t": "Sat 15:30",
+"game": "Hamburger SV vs Bayern Munich",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 15:30",
+"game": "FK Zeleziarne Podbrezova vs DAC 1904 Dunajska Streda",
+"pick": "DAC 1904 Dunajska Streda to win (1UP)",
+"odds": 1.36,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 15:30",
+"game": "Trethomas Bluebirds vs Ynyshir Albions",
+"pick": "1st half double chance Trethomas Bluebirds or draw",
+"odds": 1.34,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Man Utd vs Brentford",
+"pick": "Goal bounds 2-5+",
+"odds": 1.16,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Queens Park Rangers vs Sheffield United",
+"pick": "Goal bounds 2-5+",
+"odds": 1.25,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "West Bromwich Albion vs Bristol City",
+"pick": "West Bromwich Albion to win (1UP)",
+"odds": 1.38,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Sabah Masazir vs Araz Nakhchivan PFK",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Plateau United vs Ikorodu City",
+"pick": "Goal bounds 2-5+",
+"odds": 1.25,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "FC Corvinul Hunedoara 1921 vs FC Farul Constanta",
+"pick": "1st half double chance FC Corvinul Hunedoara 1921 or draw",
+"odds": 1.25,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Aberdeen vs Dundee FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.19,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rangers vs Falkirk FC",
+"pick": "Goal bounds 2-5+",
+"odds": 1.1,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Cukaricki vs FK Mladost Lucani",
+"pick": "Cukaricki to win (1UP)",
+"odds": 1.3,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:15",
+"game": "Malaga CF vs Athletic Bilbao",
+"pick": "Athletic Bilbao to win (1UP)",
+"odds": 1.37,
+"ts": 1795878900.0
+},
+{
+"t": "Sat 16:30",
+"game": "Excelsior Rotterdam vs SC Telstar",
+"pick": "1st half double chance Excelsior Rotterdam or draw",
+"odds": 1.28,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 16:30",
+"game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
+"pick": "MSV Duisburg to win (1UP)",
+"odds": 1.49,
+"ts": 1795879800.0
+},
+{
+"t": "Sat 17:00",
+"game": "Pyramids FC vs Maghreb AS de Fes",
+"pick": "Goal bounds 2-5+",
+"odds": 1.41,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "Zamalek SC vs Africain",
+"pick": "1st half double chance Zamalek SC or draw",
+"odds": 1.15,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "La Roche Vendee Football vs Voltigeurs de Chateaubriant",
+"pick": "Goal bounds 2-5+",
+"odds": 1.22,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:00",
+"game": "Gaziantep FK vs Amed Sportif Faaliyetler",
+"pick": "Amed Sportif Faaliyetler to win (1UP)",
+"odds": 1.62,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 18:00",
+"game": "Torino vs Lazio",
+"pick": "Goal bounds 2-5+",
+"odds": 1.27,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "Goal bounds 2-5+",
+"odds": 1.07,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "Stuttgart vs Eintracht Frankfurt",
+"pick": "1st half double chance Stuttgart or draw",
+"odds": 1.27,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:30",
+"game": "Charlotte FC vs Chicago Fire",
+"pick": "1st half double chance Charlotte FC or draw",
+"odds": 1.41,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 18:45",
+"game": "PSV Eindhoven vs Go Ahead Eagles",
+"pick": "1st half double chance PSV Eindhoven or draw",
+"odds": 1.1,
+"ts": 1795887900.0
+},
+{
+"t": "Sat 19:00",
+"game": "Ballymena United vs Cliftonville FC",
+"pick": "1st half double chance Ballymena United or draw",
+"odds": 1.4,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 19:30",
+"game": "Austria Lustenau vs SK Rapid",
+"pick": "Goal bounds 2-5+",
+"odds": 1.12,
+"ts": 1795890600.0
+},
+{
+"t": "Sat 20:45",
+"game": "Inter vs Genoa",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Nice vs ESTAC Troyes",
+"pick": "Nice to win (1UP)",
+"odds": 1.37,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "PSG vs Lorient",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 20:45",
+"game": "Royal Charleroi SC vs KV Waasland-Beveren",
+"pick": "Royal Charleroi SC to win (1UP)",
+"odds": 1.31,
+"ts": 1795895100.0
+},
+{
+"t": "Sat 21:00",
+"game": "Real Madrid vs Alaves",
+"pick": "1st half double chance Real Madrid or draw",
+"odds": 1.08,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "1st half double chance SC Cambuur or draw",
+"odds": 1.28,
+"ts": 1795896000.0
+},
+{
+"t": "Sat 22:15",
+"game": "Guabira Montero vs FC Universitario de Vinto",
+"pick": "Goal bounds 2-5+",
+"odds": 1.11,
+"ts": 1795900500.0
+},
+{
+"t": "Sat 22:30",
+"game": "Philadelphia Union vs New England Revolution",
+"pick": "Goal bounds 2-5+",
+"odds": 1.14,
+"ts": 1795901400.0
+},
+{
+"t": "Sat 23:00",
+"game": "Cdm FC vs Real Refineros Cds",
+"pick": "Goal bounds 2-5+",
+"odds": 1.09,
+"ts": 1795903200.0
+},
+{
+"t": "Sat 23:00",
+"game": "Guerreros de Autlan vs Saltillo Soccer FC",
+"pick": "Guerreros de Autlan to win (1UP)",
+"odds": 1.4,
+"ts": 1795903200.0
+}
+]
+},
+{
 "code": "X24U6J",
 "at": 1795864812,
 "when": "Sat 28 Nov 12:20",
@@ -85528,36 +85811,6 @@
 "ts": 1794679200.0,
 "r": "W",
 "sc": "3-4",
-"ht": ""
-}
-]
-},
-{
-"code": "PYWEPS",
-"at": 1794635337,
-"when": "Sat 14 Nov 06:48",
-"kind": "Over 1.5",
-"odds": 1.25,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"pick": "Over 1.5",
-"odds": 1.09,
-"ts": 1794663000.0,
-"r": "W",
-"sc": "3-2",
-"ht": "1-2"
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"pick": "Over 1.5",
-"odds": 1.15,
-"ts": 1794664800.0,
-"r": "L",
-"sc": "0-0",
 "ht": ""
 }
 ]
