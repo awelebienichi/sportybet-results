@@ -1,5 +1,25 @@
 [
 {
+"when": "Sat 28 Nov 05:27",
+"at": 1795840021,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "earlynogoal",
+"legs": 20,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mwzwruakpbt1"
+},
+"ok": false,
+"msg": "Only 0 game(s) have a strong 1\u20135 / 1\u201310 minutes draw right now (Sat 28). SportyBet opens these markets on only a few games, mostly on match day and mainly in the bigger leagues \u2013 try again closer to kick-off, or tick them together with other markets."
+},
+{
 "when": "Sat 28 Nov 05:26",
 "at": 1795839994,
 "req": {
@@ -16242,25 +16262,5 @@
 "chance": 0.0
 }
 ]
-},
-{
-"when": "Thu 26 Nov 17:09",
-"at": 1795709353,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalfest",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-26"
-],
-"strict": "relaxed",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwxqzdzexdch"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for goal-fest teams (season data) (Thu 26) out of 55 on SportyBet. Try 'Relaxed', more days, or another type."
 }
 ]
