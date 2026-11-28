@@ -1310,8 +1310,8 @@
 "odds": 1.18,
 "ts": 1795879800.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 17:00",
@@ -1352,7 +1352,10 @@
 "game": "CD Elemental Atletico Mineros vs CD Laredo",
 "pick": "Over 1.5",
 "odds": 1.23,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "0-2",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:30",
@@ -1604,7 +1607,10 @@
 "game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
 "pick": "Over 2.5",
 "odds": 1.59,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 17:00",
@@ -2159,8 +2165,8 @@
 "odds": 1.18,
 "ts": 1795879800.0,
 "r": "W",
-"sc": "0-2",
-"ht": ""
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 17:00",
@@ -3672,7 +3678,10 @@
 "game": "SG Sonnenhof Grossaspach vs MSV Duisburg",
 "pick": "GG (both teams score)",
 "odds": 1.51,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 17:00",
@@ -4356,7 +4365,10 @@
 "game": "ASD Sorrento 1945 vs Cosenza Calcio",
 "pick": "1st half GG \u2013 No",
 "odds": 1.12,
-"ts": 1795883400.0
+"ts": 1795883400.0,
+"r": "W",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 18:00",
@@ -5190,7 +5202,10 @@
 "game": "Hapoel Haifa FC vs Ironi Tiberias",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:00",
@@ -5393,7 +5408,10 @@
 "game": "FC Noah Yerevan vs FC BKMA Yerevan",
 "pick": "2nd half Over 0.5",
 "odds": 1.11,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -5954,7 +5972,10 @@
 "game": "Hapoel Haifa FC vs Ironi Tiberias",
 "pick": "2nd half Over 0.5",
 "odds": 1.16,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 17:00",
@@ -7249,7 +7270,7 @@
 "odds": 1.15,
 "ts": 1795881600.0,
 "r": "L",
-"sc": "0-0",
+"sc": "1-0",
 "ht": "0-0"
 },
 {
