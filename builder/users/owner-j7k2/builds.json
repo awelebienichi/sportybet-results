@@ -1,5 +1,26 @@
 [
 {
+"when": "Sat 28 Nov 11:20",
+"at": 1795861220,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "mix",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 10000,
+"rid": "mx09cs32q0t2"
+},
+"ok": false,
+"msg": "Could not reach 10000 odds with 40 legs or fewer from the 131 games that pass the checks for safest market per game (Sat 28). Allow more legs or a lower target."
+},
+{
 "when": "Sat 28 Nov 10:26",
 "at": 1795857989,
 "req": {
@@ -16090,166 +16111,6 @@
 }
 ],
 "chance": 0.0027
-}
-]
-},
-{
-"when": "Thu 26 Nov 23:15",
-"at": 1795731326,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "gfbounce",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-27"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwy424mb9707"
-},
-"ok": true,
-"kind": "goal-fest bounce-back (Over 2.5 after a quiet game)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 9 games passed the checks (Fri 27, 255 games on SportyBet), so this ticket has 9 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 9 legs win: about 2%."
-],
-"tickets": [
-{
-"code": "P8JYTL",
-"odds": 32.44,
-"legs": [
-{
-"t": "Fri 02:00",
-"game": "CD Marte Soyapango vs Independiente FC",
-"lg": "El Salvador - Liga de Ascenso",
-"pick": "Over 2.5",
-"odds": 1.58,
-"why": "season: 3.1 and 4.0 goals a game; last games CD Marte Soyapango 1-0, Independiente FC 4-1 (bounce-back); last 10 rate 70%",
-"ts": 1795741200.0,
-"eid": "sr:match:77117824",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "77117824|18|total=2.5|12"
-},
-{
-"t": "Fri 13:00",
-"game": "Maccabi Petah Tikva FC vs Hapoel Tel Aviv FC",
-"lg": "Israel - Premier League",
-"pick": "Over 2.5",
-"odds": 1.61,
-"why": "season: 3.9 and 2.7 goals a game; last games Maccabi Petah Tikva FC 2-2, Hapoel Tel Aviv FC 1-0 (bounce-back); last 10 rate 90%; Flashscore home/away form 80%, CompactStats 62% (bookmaker 60%)",
-"ts": 1795780800.0,
-"eid": "sr:match:72225432",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72225432|18|total=2.5|12"
-},
-{
-"t": "Fri 14:00",
-"game": "Hapoel Kfar Shalem FC vs Hapoel Kfar Saba FC",
-"lg": "Israel - National League",
-"pick": "Over 2.5",
-"odds": 1.43,
-"why": "season: 3.8 and 3.6 goals a game; last games Hapoel Kfar Shalem FC 1-0, Hapoel Kfar Saba FC 1-2 (bounce-back); last 10 rate 80%; Flashscore home/away form 65%, FotMob: 3.7 goals a game, season: 3.7 goals a game",
-"ts": 1795784400.0,
-"eid": "sr:match:72284206",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72284206|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "SonderjyskE vs Broendby IF",
-"lg": "Denmark - Superliga",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "season: 3.7 and 3.1 goals a game; last games SonderjyskE 1-2, Broendby IF 0-2 (bounce-back); last 10 rate 70%; Flashscore home/away form 75%, footybets 86%",
-"ts": 1795802400.0,
-"eid": "sr:match:71925118",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "71925118|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Cardiff City U21 vs Swansea City U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Over 2.5",
-"odds": 1.31,
-"why": "season: 3.8 and 3.5 goals a game; last games Cardiff City U21 3-1, Swansea City U21 2-0 (bounce-back); last 10 rate 75%; Flashscore home/away form 65%",
-"ts": 1795806000.0,
-"eid": "sr:match:73601848",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73601848|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Jong AZ Alkmaar vs TOP Oss",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 2.5",
-"odds": 1.39,
-"why": "season: 4.4 and 2.9 goals a game; last games Jong AZ Alkmaar 0-3, TOP Oss 1-0 (bounce-back); last 10 rate 70%; Flashscore home/away form 55%, footybets 79%, FotMob: 3.7 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:72044854",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72044854|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Llanelli Town vs Cardiff Draconians",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.36,
-"why": "season: 3.7 and 3.4 goals a game; last games Llanelli Town 0-1, Cardiff Draconians 1-7 (bounce-back); last 10 rate 70%; Flashscore home/away form 65%",
-"ts": 1795807800.0,
-"eid": "sr:match:72546192",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546192|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Bangor 1876 FC vs Mold Alexandra FC",
-"lg": "Wales - Cymru Championship, North",
-"pick": "Over 2.5",
-"odds": 1.49,
-"why": "season: 3.9 and 3.6 goals a game; last games Bangor 1876 FC 0-2, Mold Alexandra FC 2-1 (bounce-back); last 10 rate 70%; Flashscore home/away form 90%, season: 3.8 goals a game",
-"ts": 1795807800.0,
-"eid": "sr:match:72546728",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546728|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Cambrian United vs Trefelin BGC",
-"lg": "Wales - Cymru Premier",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "season: 4.1 and 2.9 goals a game; last games Cambrian United 2-0, Trefelin BGC 0-3 (bounce-back); last 10 rate 70%; Flashscore home/away form 65%, FotMob: 3.5 goals a game",
-"ts": 1795808700.0,
-"eid": "sr:match:72522190",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72522190|18|total=2.5|12"
-}
-],
-"chance": 0.0199
 }
 ]
 }
