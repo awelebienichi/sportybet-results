@@ -6394,7 +6394,10 @@
 "game": "Cape Town City FC vs Venda Football Academy",
 "pick": "Under 2.5",
 "odds": 1.53,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -6587,7 +6590,10 @@
 "game": "Cape Town City FC vs Venda Football Academy",
 "pick": "Under 2.5",
 "odds": 1.53,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:00",
@@ -6971,7 +6977,10 @@
 "game": "FC Emmen vs Helmond Sport",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 18:00",
@@ -8196,7 +8205,10 @@
 "game": "FC Emmen vs Helmond Sport",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 19:00",
@@ -10216,7 +10228,10 @@
 "game": "FC Emmen vs Helmond Sport",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795879800.0
+"ts": 1795879800.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 17:30",
