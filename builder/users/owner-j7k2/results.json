@@ -2712,7 +2712,10 @@
 "game": "Vllaznia Shkoder vs KF Laci",
 "pick": "1st half GG \u2013 No",
 "odds": 1.15,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -2795,7 +2798,7 @@
 "when": "Sat 28 Nov 12:18",
 "kind": "your chosen markets",
 "odds": 23.78,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 13:00",
@@ -2889,7 +2892,10 @@
 "game": "Torquay United vs Chelmsford City",
 "pick": "1st half GG \u2013 No",
 "odds": 1.26,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 16:00",
@@ -3068,7 +3074,7 @@
 "odds": 1.08,
 "ts": 1795874400.0,
 "r": "L",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-1"
 },
 {
@@ -3076,7 +3082,10 @@
 "game": "FK Velez Mostar vs FK Zeljeznicar Sarajevo",
 "pick": "1st half GG \u2013 No",
 "odds": 1.14,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 16:00",
@@ -3998,7 +4007,7 @@
 "odds": 1.08,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-1"
 },
 {
@@ -4699,7 +4708,7 @@
 "odds": 1.08,
 "ts": 1795874400.0,
 "r": "W",
-"sc": "4-1",
+"sc": "5-1",
 "ht": "3-1"
 },
 {
@@ -7443,7 +7452,10 @@
 "game": "ACV Assen vs Harkemase Boys",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -8489,7 +8501,10 @@
 "game": "ACV Assen vs Harkemase Boys",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -9749,7 +9764,10 @@
 "game": "ACV Assen vs Harkemase Boys",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "0-0",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
