@@ -2012,7 +2012,10 @@
 "game": "KS Stilon Gorzow Wlkp vs BKS Sparta Katowice",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
@@ -2989,7 +2992,10 @@
 "game": "Bjarg vs Sogndal Fotball",
 "pick": "1st half double chance Bjarg or draw",
 "odds": 1.28,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "1-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 13:30",
