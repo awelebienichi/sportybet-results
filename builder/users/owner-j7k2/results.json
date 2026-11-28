@@ -2625,7 +2625,7 @@
 "odds": 1.29,
 "ts": 1795878000.0,
 "r": "W",
-"sc": "0-1",
+"sc": "1-1",
 "ht": "0-1"
 },
 {
@@ -3765,7 +3765,10 @@
 "game": "Aberystwyth Town FC vs Pontypridd Town",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:30",
@@ -4477,7 +4480,10 @@
 "game": "Aberystwyth Town FC vs Pontypridd Town",
 "pick": "2nd half Over 0.5",
 "odds": 1.15,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:30",
