@@ -5129,7 +5129,10 @@
 "game": "Budai Futball Club SE vs Ferencvarosi TC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 12:00",
@@ -5811,7 +5814,10 @@
 "game": "Budai Futball Club SE vs Ferencvarosi TC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.43,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:00",
@@ -6602,7 +6608,10 @@
 "game": "Budai Futball Club SE vs Ferencvarosi TC",
 "pick": "Over 2.5",
 "odds": 1.43,
-"ts": 1795860000.0
+"ts": 1795860000.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 12:00",
