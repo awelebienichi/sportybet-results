@@ -35,7 +35,10 @@
 "game": "VV Kloetinge vs Jong Almere City FC",
 "pick": "Over 1.5",
 "odds": 1.1,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -302,7 +305,10 @@
 "game": "Preston North End vs Norwich",
 "pick": "Handicap 0:2 \u2013 Norwich",
 "odds": 1.06,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
@@ -562,7 +568,10 @@
 "game": "Preston North End vs Norwich",
 "pick": "Handicap 0:2 \u2013 Norwich",
 "odds": 1.06,
-"ts": 1795869000.0
+"ts": 1795869000.0,
+"r": "W",
+"sc": "1-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
