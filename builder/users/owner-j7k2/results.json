@@ -3384,14 +3384,20 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "Over 2.5",
 "odds": 1.34,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
 "game": "Slovan Bratislava vs FK Kosice",
 "pick": "Over 2.5",
 "odds": 1.38,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -5070,7 +5076,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
@@ -5426,7 +5435,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
@@ -6761,7 +6773,7 @@
 "odds": 1.18,
 "ts": 1795885200.0,
 "r": "W",
-"sc": "1-5",
+"sc": "1-6",
 "ht": "0-4"
 },
 {
@@ -6970,7 +6982,10 @@
 "game": "CD Lugo vs UD Ourense",
 "pick": "1st half GG \u2013 No",
 "odds": 1.16,
-"ts": 1795887900.0
+"ts": 1795887900.0,
+"r": "W",
+"sc": "1-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 20:00",
@@ -7629,7 +7644,7 @@
 "odds": 1.07,
 "ts": 1795885200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
@@ -8416,7 +8431,7 @@
 "odds": 1.07,
 "ts": 1795885200.0,
 "r": "W",
-"sc": "2-0",
+"sc": "2-1",
 "ht": "0-0"
 },
 {
@@ -11802,7 +11817,10 @@
 "game": "Slovan Bratislava vs FK Kosice",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:30",
@@ -12514,7 +12532,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 19:30",
@@ -13250,7 +13271,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.31,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sun 00:30",
@@ -13621,7 +13645,10 @@
 "game": "Slovan Bratislava vs FK Kosice",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.37,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 23:00",
@@ -14864,7 +14891,10 @@
 "game": "Slovan Bratislava vs FK Kosice",
 "pick": "Over 2.5",
 "odds": 1.37,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "3-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
@@ -15285,7 +15315,10 @@
 "game": "Maccabi Tel Aviv FC vs Hapoel Petah Tikva FC",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "2-1",
+"ht": "0-0"
 },
 {
 "t": "Sat 18:00",
