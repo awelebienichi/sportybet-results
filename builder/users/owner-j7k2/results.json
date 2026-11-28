@@ -3828,7 +3828,10 @@
 "game": "CD Sobradillo vs UD Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:00",
@@ -4555,7 +4558,10 @@
 "game": "CD Sobradillo vs UD Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 14:00",
@@ -4829,7 +4835,10 @@
 "game": "CD Sobradillo vs UD Las Palmas",
 "pick": "Over 2.5",
 "odds": 1.24,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-3",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:00",
