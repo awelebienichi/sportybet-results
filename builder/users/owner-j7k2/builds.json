@@ -1,5 +1,26 @@
 [
 {
+"when": "Sat 28 Nov 10:26",
+"at": 1795857989,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "o25quiet2",
+"legs": 40,
+"tickets": 1,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"target": 50000,
+"rid": "mx07gulsyuux"
+},
+"ok": false,
+"msg": "Could not reach 50000 odds with 40 legs or fewer from the 21 games that pass the checks for Over 2.5 \u2013 strong teams after 2 games without Over 2.5 (Sat 28). Allow more legs or a lower target."
+},
+{
 "when": "Sat 28 Nov 10:23",
 "at": 1795857816,
 "req": {
@@ -16229,138 +16250,6 @@
 }
 ],
 "chance": 0.0199
-}
-]
-},
-{
-"when": "Thu 26 Nov 23:13",
-"at": 1795731200,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25quiet2",
-"legs": 20,
-"tickets": 1,
-"days": [
-"2026-11-27"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwy3zeo5j06i"
-},
-"ok": true,
-"kind": "Over 2.5 \u2013 strong teams after 2 games without Over 2.5",
-"note": [
-"2 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 7 games passed the checks (Fri 27, 255 games on SportyBet), so this ticket has 7 legs instead of 20. Tick more days or use 'Relaxed' for more.",
-"Chance all 7 legs win: about 5%."
-],
-"tickets": [
-{
-"code": "H8T9DJ",
-"odds": 13.8,
-"legs": [
-{
-"t": "Fri 01:00",
-"game": "Diriangen FC Diriamba vs Indigenas de Matagalpa FC",
-"lg": "Nicaragua - Primera Division",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "Over 2.5 lowest prices + high-scoring team; Diriangen FC Diriamba: Over 2.5 in 6/8 games before, then none in its last 2 (0-1 2-0); Over 2.5 at 1.45: SportyBet's own price gives 65%, 50% of 8 meetings; teams' last 10 60% / 60%; Flashscore home/away form 65%",
-"ts": 1795737600.0,
-"eid": "sr:match:77028614",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "77028614|18|total=2.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "Rakow Czestochowa vs GKS Piast Gliwice",
-"lg": "Poland - Ekstraklasa",
-"pick": "Over 2.5",
-"odds": 1.55,
-"why": "Over 2.5 lowest prices + goal-fest teams + high-scoring team; GKS Piast Gliwice: Over 2.5 in 6/8 games before, then none in its last 2 (2-0 0-0); Over 2.5 at 1.55: SportyBet's own price gives 61%, 75% of 8 meetings; teams' last 10 90% / 60%; Flashscore home/away form 65%, footybets 77%, FotMob: 3.5 goals a game",
-"ts": 1795798800.0,
-"eid": "sr:match:72043352",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72043352|18|total=2.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "SonderjyskE vs Broendby IF",
-"lg": "Denmark - Superliga",
-"pick": "Over 2.5",
-"odds": 1.59,
-"why": "Over 2.5 lowest prices + goal-fest teams + high-scoring team; Broendby IF: Over 2.5 in 6/8 games before, then none in its last 2 (0-2 0-1); Over 2.5 at 1.59: SportyBet's own price gives 59%, 50% of 8 meetings; teams' last 10 80% / 60%; Flashscore home/away form 75%, footybets 86%",
-"ts": 1795802400.0,
-"eid": "sr:match:71925118",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "71925118|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Newport City FC vs Pontardawe Town FC",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 2.5",
-"odds": 1.5,
-"why": "Over 2.5 lowest prices + high-scoring team; Newport City FC: Over 2.5 in 6/8 games before, then none in its last 2 (0-2 0-1); Over 2.5 at 1.50: SportyBet's own price gives 63%; teams' last 10 60% / 70%; Flashscore home/away form 75%",
-"ts": 1795807800.0,
-"eid": "sr:match:72546194",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546194|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Bala Town FC vs Caersws",
-"lg": "Wales - Cymru Championship, North",
-"pick": "Over 2.5",
-"odds": 1.46,
-"why": "Over 2.5 lowest prices + high-scoring team; Bala Town FC: Over 2.5 in 6/8 games before, then none in its last 2 (1-0 1-0); Over 2.5 at 1.46: SportyBet's own price gives 65%, 50% of 4 meetings; teams' last 10 60% / 60%; Flashscore home/away form 70%",
-"ts": 1795808700.0,
-"eid": "sr:match:72546724",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546724|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Cambrian United vs Trefelin BGC",
-"lg": "Wales - Cymru Premier",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "Over 2.5 lowest prices + goal-fest teams + high-scoring team; Cambrian United: Over 2.5 in 6/8 games before, then none in its last 2 (2-0 1-0); Over 2.5 at 1.52: SportyBet's own price gives 62%, 75% of 8 meetings; teams' last 10 60% / 80%; Flashscore home/away form 65%, FotMob: 3.5 goals a game",
-"ts": 1795808700.0,
-"eid": "sr:match:72522190",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72522190|18|total=2.5|12"
-},
-{
-"t": "Fri 21:00",
-"game": "France vs Venezuela",
-"lg": "International - Int. Friendly Games W",
-"pick": "Over 2.5",
-"odds": 1.16,
-"why": "Over 2.5 lowest prices + high-scoring team; France: Over 2.5 in 6/8 games before, then none in its last 2 (1-0 2-0); Over 2.5 at 1.16: SportyBet's own price gives 81%; teams' last 10 60% / 70%; Flashscore home/away form 65%",
-"ts": 1795809600.0,
-"eid": "sr:match:76915624",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "76915624|18|total=2.5|12"
-}
-],
-"chance": 0.0515
 }
 ]
 }
