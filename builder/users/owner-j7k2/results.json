@@ -1558,7 +1558,10 @@
 "game": "Columbus Crew vs Inter Miami CF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795827600.0
+"ts": 1795827600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 11:00",
@@ -2843,7 +2846,7 @@
 "when": "Fri 27 Nov 17:38",
 "kind": "combined V8XZZP + TM8RCV + MYH87V",
 "odds": 49.98,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 18:00",
@@ -2867,7 +2870,10 @@
 "game": "Columbus Crew vs Inter Miami CF",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.4,
-"ts": 1795827600.0
+"ts": 1795827600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 12:00",
@@ -3403,7 +3409,10 @@
 "game": "Columbus Crew vs Inter Miami CF",
 "pick": "Over 2.5",
 "odds": 1.4,
-"ts": 1795827600.0
+"ts": 1795827600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 11:00",
@@ -4982,7 +4991,7 @@
 "when": "Fri 27 Nov 17:20",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 3135.18,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 19:00",
@@ -5069,7 +5078,10 @@
 "game": "Columbus Crew vs Inter Miami CF",
 "pick": "Over 1.5",
 "odds": 1.12,
-"ts": 1795827600.0
+"ts": 1795827600.0,
+"r": "L",
+"sc": "1-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 10:00",
