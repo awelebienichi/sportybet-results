@@ -6485,7 +6485,10 @@
 "game": "Baltyk Koszalin vs KTS-K Luzino",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:00",
@@ -7829,7 +7832,10 @@
 "game": "Baltyk Koszalin vs KTS-K Luzino",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.42,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:30",
@@ -7989,7 +7995,10 @@
 "game": "Baltyk Koszalin vs KTS-K Luzino",
 "pick": "Over 2.5",
 "odds": 1.42,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "0-1",
+"ht": "0-1"
 },
 {
 "t": "Sat 13:00",
