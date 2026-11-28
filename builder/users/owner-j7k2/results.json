@@ -6016,7 +6016,10 @@
 "game": "Chemik Bydgoszcz vs Lech II Poznan",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 13:00",
@@ -7540,7 +7543,10 @@
 "game": "Chemik Bydgoszcz vs Lech II Poznan",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.39,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 14:00",
@@ -8348,7 +8354,10 @@
 "game": "Chemik Bydgoszcz vs Lech II Poznan",
 "pick": "Over 2.5",
 "odds": 1.39,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 12:30",
