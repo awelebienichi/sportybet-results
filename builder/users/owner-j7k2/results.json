@@ -2323,7 +2323,10 @@
 "game": "Carrarese Calcio vs Juve Stabia",
 "pick": "1st half GG \u2013 No",
 "odds": 1.21,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 15:30",
@@ -3574,7 +3577,10 @@
 "game": "Asteras Magoulas vs Kyanous Asteras Varis",
 "pick": "Under 3.5",
 "odds": 1.21,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -4230,7 +4236,10 @@
 "game": "Asteras Magoulas vs Kyanous Asteras Varis",
 "pick": "Under 3.5",
 "odds": 1.21,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "1-2",
+"ht": ""
 },
 {
 "t": "Sat 15:00",
@@ -5855,7 +5864,10 @@
 "game": "Leicesterford City vs Hope FC",
 "pick": "Under 2.5",
 "odds": 1.53,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sat 14:30",
@@ -5928,7 +5940,7 @@
 "when": "Fri 27 Nov 22:26",
 "kind": "Under 2.5 (low-scoring leagues)",
 "odds": 588.41,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Fri 23:00",
@@ -6023,14 +6035,20 @@
 "game": "Musanze FC vs Al-Merrikh SC (SDN)",
 "pick": "Under 2.5",
 "odds": 1.47,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:30",
 "game": "Leicesterford City vs Hope FC",
 "pick": "Under 2.5",
 "odds": 1.53,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "L",
+"sc": "1-2",
+"ht": "1-1"
 },
 {
 "t": "Sat 14:30",
