@@ -1094,7 +1094,10 @@
 "game": "UD Los Llanos de Aridane vs SD Villaverde Norte",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "5-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1400,7 +1403,10 @@
 "game": "UD Los Llanos de Aridane vs SD Villaverde Norte",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "W",
+"sc": "5-0",
+"ht": ""
 },
 {
 "t": "Sat 14:00",
@@ -1607,7 +1613,10 @@
 "game": "Al-Ettifaq FC vs Al Hilal SFC",
 "pick": "Goal bounds 2-5+",
 "odds": 1.1,
-"ts": 1795875600.0
+"ts": 1795875600.0,
+"r": "W",
+"sc": "1-1",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
@@ -2362,8 +2371,8 @@
 "odds": 1.22,
 "ts": 1795872600.0,
 "r": "L",
-"sc": "1-1",
-"ht": ""
+"sc": "2-1",
+"ht": "1-1"
 },
 {
 "t": "Sat 14:30",
