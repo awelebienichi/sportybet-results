@@ -1,5 +1,123 @@
 [
 {
+"when": "Sat 28 Nov 11:59",
+"at": 1795863579,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "htdrawweak",
+"legs": 10,
+"tickets": 5,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"from": "00:00",
+"to": "23:59",
+"rid": "mx0arpc1fpyu"
+},
+"ok": true,
+"kind": "half-time draw \u2013 weak teams",
+"note": [
+"Only 6 games passed the checks (Sat 28, 763 games on SportyBet), so this ticket has 6 legs instead of 10. Tick more days or use 'Relaxed' for more.",
+"Only 6 games qualified, enough for 1 ticket(s) of 6 with no game repeated (you asked for 5).",
+"Chance all 6 legs win: about 1%."
+],
+"tickets": [
+{
+"code": "L6RKKE",
+"odds": 95.48,
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Civil Service United FC vs Mitundu Baptist",
+"lg": "Malawi - Super League",
+"pick": "Half-time draw",
+"odds": 1.82,
+"why": "two weak sides (won 30% / 30% of last 10), level at half-time 90% / 70%",
+"ts": 1795869000.0,
+"eid": "sr:match:70381752",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "70381752|60||2"
+},
+{
+"t": "Sat 15:00",
+"game": "Chennaiyin FC vs Mumbai City",
+"lg": "India - Indian Super League",
+"pick": "Half-time draw",
+"odds": 2.3,
+"why": "two weak sides (won 10% / 20% of last 10), level at half-time 60% / 60%",
+"ts": 1795874400.0,
+"eid": "sr:match:77150268",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "77150268|60||2"
+},
+{
+"t": "Sat 15:30",
+"game": "Schwarz-Weiss Bregenz vs Austria Salzburg",
+"lg": "Austria - 2. Liga",
+"pick": "Half-time draw",
+"odds": 2.3,
+"why": "two weak sides (won 10% / 30% of last 10), level at half-time 70% / 60%",
+"ts": 1795876200.0,
+"eid": "sr:match:72440792",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72440792|60||2"
+},
+{
+"t": "Sat 16:00",
+"game": "Volos NPS vs Asteras Tripolis",
+"lg": "Greece - Super League",
+"pick": "Half-time draw",
+"odds": 1.96,
+"why": "two weak sides (won 0% / 20% of last 10), level at half-time 50% / 60%",
+"ts": 1795878000.0,
+"eid": "sr:match:72936154",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72936154|60||2"
+},
+{
+"t": "Sat 16:00",
+"game": "Colchester United vs York City FC",
+"lg": "England - League Two",
+"pick": "Half-time draw",
+"odds": 2.3,
+"why": "two weak sides (won 30% / 30% of last 10), level at half-time 70% / 60%",
+"ts": 1795878000.0,
+"eid": "sr:match:72342408",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72342408|60||2"
+},
+{
+"t": "Sat 19:15",
+"game": "Kisvarda FC vs Nyiregyhaza Spartacus FC",
+"lg": "Hungary - NB I",
+"pick": "Half-time draw",
+"odds": 2.2,
+"why": "two weak sides (won 20% / 30% of last 10), level at half-time 60% / 50%",
+"ts": 1795889700.0,
+"eid": "sr:match:72302698",
+"mid": "60",
+"spec": "",
+"oid": "2",
+"k": "72302698|60||2"
+}
+],
+"chance": 0.0078
+}
+]
+},
+{
 "when": "Sat 28 Nov 11:25",
 "at": 1795861526,
 "req": {
@@ -18611,26 +18729,6 @@
 "from": "00:00",
 "to": "23:59",
 "rid": "mwyse97hhul9"
-},
-"ok": false,
-"msg": "Only 0 game(s) pass the checks for Over 2.5 (lowest prices first) (Thu 26) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
-},
-{
-"when": "Fri 27 Nov 10:34",
-"at": 1795772044,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "o25",
-"legs": 6,
-"tickets": 1,
-"days": [
-"2026-11-26"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwysa6lh4kvw"
 },
 "ok": false,
 "msg": "Only 0 game(s) pass the checks for Over 2.5 (lowest prices first) (Thu 26) out of 0 on SportyBet. Try 'Relaxed', more days, or another type."
