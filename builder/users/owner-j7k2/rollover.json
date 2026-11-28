@@ -98,12 +98,12 @@
 "hour": 10,
 "day": 1,
 "current": {
-"date": "2026-11-27",
-"code": "QZX36Z",
-"odds": 4.64,
+"date": "2026-11-28",
+"code": "RP629U",
+"odds": 4.16,
 "stake": 1000.0,
-"n": 11,
-"result": "lost"
+"n": 12,
+"result": null
 },
 "started": "2026-11-24",
 "short": "lower",

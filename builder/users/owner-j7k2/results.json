@@ -2,6 +2,100 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "RP629U",
+"at": 1795856690,
+"when": "Sat 28 Nov 10:04",
+"kind": "daily rollover \u2013 day 1",
+"odds": 4.16,
+"status": "open",
+"legs": [
+{
+"t": "Sat 12:00",
+"game": "KS Hetman Zamosc vs MKS Podlasie Biala Podlaska",
+"pick": "1st half double chance KS Hetman Zamosc or draw",
+"odds": 1.17,
+"ts": 1795863600.0
+},
+{
+"t": "Sat 12:45",
+"game": "Tractor Tabriz vs Zob Ahan Isfahan FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"ts": 1795866300.0
+},
+{
+"t": "Sat 13:30",
+"game": "Ethio Electric vs Hadiya Hossana FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:45",
+"game": "Esteghlal FC Tehran vs Sanat Naft Abadan FC",
+"pick": "1st half GG \u2013 No",
+"odds": 1.08,
+"ts": 1795873500.0
+},
+{
+"t": "Sat 15:00",
+"game": "Epinal vs Amiens",
+"pick": "1st half Under 2.5",
+"odds": 1.08,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Admira Wacker Modling vs FC Liefering",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Stevenage FC vs Blackpool FC",
+"pick": "1st half double chance Stevenage FC or draw",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dorking Wanderers vs Farnborough FC",
+"pick": "Over 1.5",
+"odds": 1.07,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merthyr Town vs Worksop Town",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:30",
+"game": "Newroz SC vs Al Kahrabaa SC",
+"pick": "1st half double chance Newroz SC or draw",
+"odds": 1.16,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 22:15",
+"game": "Guabira Montero vs FC Universitario de Vinto",
+"pick": "Over 1.5",
+"odds": 1.12,
+"ts": 1795900500.0
+},
+{
+"t": "Sat 22:30",
+"game": "Barcelona SC vs SD Aucas",
+"pick": "1st half Under 2.5",
+"odds": 1.06,
+"ts": 1795901400.0
+}
+]
+},
+{
 "code": "XVNYAJ",
 "at": 1795847630,
 "when": "Sat 28 Nov 07:33",
@@ -85355,198 +85449,6 @@
 "pick": "1st half double chance Tritones Vallarta MFC or draw",
 "odds": 1.21,
 "ts": 1794693600.0
-}
-]
-},
-{
-"code": "PEJ9MS",
-"at": 1794633454,
-"when": "Sat 14 Nov 06:17",
-"kind": "your tracker's best markets",
-"odds": 31.27,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 09:30",
-"game": "Bayswater City vs Sydney Olympic FC",
-"pick": "1st half double chance Bayswater City or draw",
-"odds": 1.23,
-"ts": 1794645000.0,
-"r": "W",
-"sc": "2-1",
-"ht": "2-1"
-},
-{
-"t": "Sat 10:15",
-"game": "Brandys Nad Labem vs SK Slany",
-"pick": "Goal bounds 2-5+",
-"odds": 1.11,
-"ts": 1794647700.0,
-"r": "W",
-"sc": "1-1",
-"ht": "1-0"
-},
-{
-"t": "Sat 12:00",
-"game": "RCD Espanyol Barcelona vs CD Tenerife",
-"pick": "1st half double chance RCD Espanyol Barcelona or draw",
-"odds": 1.27,
-"ts": 1794654000.0,
-"r": "W",
-"sc": "1-3",
-"ht": "1-0"
-},
-{
-"t": "Sat 12:00",
-"game": "LKS Lodz II vs SK Mazovia Minsk Mazowiecki",
-"pick": "Goal bounds 2-5+",
-"odds": 1.13,
-"ts": 1794654000.0,
-"r": "W",
-"sc": "3-2",
-"ht": "2-0"
-},
-{
-"t": "Sat 13:00",
-"game": "KS Ck Troszyn vs Olimpia Zambrow",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"ts": 1794657600.0,
-"r": "L",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 13:30",
-"game": "WDA Swiecie vs Chemik Bydgoszcz",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"ts": 1794659400.0,
-"r": "W",
-"sc": "1-1",
-"ht": "0-1"
-},
-{
-"t": "Sat 14:00",
-"game": "Bronshoj BK vs Vanloese IF",
-"pick": "1st half double chance Bronshoj BK or draw",
-"odds": 1.21,
-"ts": 1794661200.0,
-"r": "W",
-"sc": "5-1",
-"ht": "2-1"
-},
-{
-"t": "Sat 14:00",
-"game": "SK Hanacka Slavia Kromeriz vs FK Fotbal Trinec",
-"pick": "SK Hanacka Slavia Kromeriz or GG",
-"odds": 1.16,
-"ts": 1794661200.0,
-"r": "L",
-"sc": "0-1",
-"ht": "0-0"
-},
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"pick": "1st half double chance GVVV Veenendaal or draw",
-"odds": 1.4,
-"ts": 1794663000.0,
-"r": "L",
-"sc": "3-2",
-"ht": "1-2"
-},
-{
-"t": "Sat 15:00",
-"game": "Llantwit Major vs Cardiff Draconians",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"ts": 1794664800.0,
-"r": "L",
-"sc": "0-0",
-"ht": ""
-},
-{
-"t": "Sat 16:00",
-"game": "Finland vs Iceland",
-"pick": "1st half double chance Finland or draw",
-"odds": 1.29,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 16:00",
-"game": "Brentwood Town FC vs Ramsgate FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.13,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "0-3",
-"ht": ""
-},
-{
-"t": "Sat 16:00",
-"game": "Billericay Town vs Waltham Abbey FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.09,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "3-1",
-"ht": "1-1"
-},
-{
-"t": "Sat 16:00",
-"game": "Hanwell Town FC vs Plymouth Parkway",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "2-1",
-"ht": "0-0"
-},
-{
-"t": "Sat 18:00",
-"game": "RC Strasbourg vs Toulouse FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.18,
-"ts": 1794675600.0
-},
-{
-"t": "Sat 20:00",
-"game": "Aguilas FC B vs CF Santomera",
-"pick": "Goal bounds 2-5+",
-"odds": 1.3,
-"ts": 1794682800.0
-},
-{
-"t": "Sat 20:30",
-"game": "Scotland vs Kosovo",
-"pick": "Goal bounds 2-5+",
-"odds": 1.18,
-"ts": 1794684600.0
-},
-{
-"t": "Sat 20:45",
-"game": "Portugal vs Denmark",
-"pick": "1st half double chance Portugal or draw",
-"odds": 1.16,
-"ts": 1794685500.0
-},
-{
-"t": "Sat 21:00",
-"game": "Chorrillo FC vs Panama City FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.19,
-"ts": 1794686400.0
-},
-{
-"t": "Sat 22:00",
-"game": "CSD Xelaju MC vs CD Guastatoya",
-"pick": "1st half double chance CSD Xelaju MC or draw",
-"odds": 1.13,
-"ts": 1794690000.0
 }
 ]
 }
