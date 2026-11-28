@@ -436,7 +436,10 @@
 "game": "Torino vs Lazio",
 "pick": "Handicap 0:2 \u2013 Lazio",
 "odds": 1.1,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 19:00",
@@ -777,7 +780,10 @@
 "game": "Torino vs Lazio",
 "pick": "Handicap 0:2 \u2013 Lazio",
 "odds": 1.1,
-"ts": 1795885200.0
+"ts": 1795885200.0,
+"r": "W",
+"sc": "1-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 18:00",
