@@ -1304,7 +1304,10 @@
 "game": "Sampdoria Genoa vs AC Renate",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
@@ -5463,7 +5466,10 @@
 "game": "Sampdoria Genoa vs AC Renate",
 "pick": "Over 2.5",
 "odds": 1.52,
-"ts": 1795872600.0
+"ts": 1795872600.0,
+"r": "W",
+"sc": "3-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 15:00",
