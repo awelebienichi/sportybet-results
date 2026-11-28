@@ -2,6 +2,156 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "XVNYAJ",
+"at": 1795847630,
+"when": "Sat 28 Nov 07:33",
+"kind": "your chosen markets",
+"odds": 37.43,
+"status": "open",
+"legs": [
+{
+"t": "Sat 11:00",
+"game": "Naftan Novopolotsk vs FC Dinamo Minsk",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795860000.0
+},
+{
+"t": "Sat 13:30",
+"game": "AFC Fylde vs Aldershot Town FC",
+"pick": "1st half Over 0.5",
+"odds": 1.18,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 14:00",
+"game": "AL Wakrah SC vs Al Sadd SC",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795870800.0
+},
+{
+"t": "Sat 14:30",
+"game": "Rijnsburgse Boys vs SV Spakenburg",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795872600.0
+},
+{
+"t": "Sat 15:00",
+"game": "VV Kloetinge vs Jong Almere City FC",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:00",
+"game": "K.v.v. Quick Boys vs De Treffers Groesbeek",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "FC Admira Wacker Modling vs FC Liefering",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Ross County FC vs Brora Rangers",
+"pick": "1st half Over 0.5",
+"odds": 1.12,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Merthyr Town vs Worksop Town",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Boness United vs Brechin City FC",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Dundee United vs St. Johnstone FC",
+"pick": "1st half Over 0.5",
+"odds": 1.25,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Buxton FC vs Spennymoor Town FC",
+"pick": "1st half Over 0.5",
+"odds": 1.21,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Rangers vs Falkirk FC",
+"pick": "1st half Over 0.5",
+"odds": 1.19,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Stranraer FC vs Clachnacuddin FC",
+"pick": "1st half Over 0.5",
+"odds": 1.2,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 17:00",
+"game": "FC Noah Yerevan vs FC BKMA Yerevan",
+"pick": "1st half Over 0.5",
+"odds": 1.15,
+"ts": 1795881600.0
+},
+{
+"t": "Sat 17:30",
+"game": "Blau-Weiss Linz vs SK Sturm Graz II",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795883400.0
+},
+{
+"t": "Sat 18:00",
+"game": "Rosenborg BK vs Molde",
+"pick": "1st half Over 0.5",
+"odds": 1.17,
+"ts": 1795885200.0
+},
+{
+"t": "Sat 18:30",
+"game": "FK Partizan Belgrade vs FK Radnicki Nis",
+"pick": "1st half Over 0.5",
+"odds": 1.23,
+"ts": 1795887000.0
+},
+{
+"t": "Sat 19:00",
+"game": "FC Wiltz 71 vs US Hostert",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795888800.0
+},
+{
+"t": "Sat 21:00",
+"game": "SC Cambuur vs Sparta Rotterdam",
+"pick": "1st half Over 0.5",
+"odds": 1.22,
+"ts": 1795896000.0
+}
+]
+},
+{
 "code": "H5RNBD",
 "at": 1795839855,
 "when": "Sat 28 Nov 05:24",
@@ -85388,207 +85538,6 @@
 "pick": "1st half double chance CSD Xelaju MC or draw",
 "odds": 1.13,
 "ts": 1794690000.0
-}
-]
-},
-{
-"code": "RTXBDR",
-"at": 1794633454,
-"when": "Sat 14 Nov 06:17",
-"kind": "your tracker's best markets",
-"odds": 36.76,
-"status": "lost",
-"legs": [
-{
-"t": "Sat 07:00",
-"game": "Central Coast Mariners vs Perth Glory FC",
-"pick": "1st half double chance Central Coast Mariners or draw",
-"odds": 1.19,
-"ts": 1794636000.0,
-"r": "W",
-"sc": "0-1",
-"ht": "0-0"
-},
-{
-"t": "Sat 10:15",
-"game": "FK Pardubice B vs FK Varnsdorf",
-"pick": "1st half double chance FK Pardubice B or draw",
-"odds": 1.2,
-"ts": 1794647700.0,
-"r": "W",
-"sc": "2-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 12:55",
-"game": "AL Nojoom FC vs Jubbah Club",
-"pick": "AL Nojoom FC or GG",
-"odds": 1.2,
-"ts": 1794657300.0,
-"r": "W",
-"sc": "1-2",
-"ht": ""
-},
-{
-"t": "Sat 13:00",
-"game": "Legionistki Warszawa vs AP ORLEN Gdansk",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"ts": 1794657600.0,
-"r": "W",
-"sc": "0-2",
-"ht": "0-1"
-},
-{
-"t": "Sat 13:00",
-"game": "IFK Goteborg vs Umea IK",
-"pick": "Goal bounds 2-5+",
-"odds": 1.17,
-"ts": 1794657600.0,
-"r": "L",
-"sc": "1-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 13:30",
-"game": "Rekord Bielsko-Biala vs Sleza Wroclaw",
-"pick": "Goal bounds 2-5+",
-"odds": 1.15,
-"ts": 1794659400.0,
-"r": "W",
-"sc": "1-4",
-"ht": "1-2"
-},
-{
-"t": "Sat 14:00",
-"game": "FC Versailles 78 vs Rodez Aveyron Football",
-"pick": "1st half double chance FC Versailles 78 or draw",
-"odds": 1.37,
-"ts": 1794661200.0,
-"r": "L",
-"sc": "3-2",
-"ht": "1-2"
-},
-{
-"t": "Sat 14:00",
-"game": "Hamburger SV II vs Kickers Emden",
-"pick": "Goal bounds 2-5+",
-"odds": 1.13,
-"ts": 1794661200.0,
-"r": "W",
-"sc": "1-5",
-"ht": "0-3"
-},
-{
-"t": "Sat 16:00",
-"game": "Swindon Town vs Grimsby Town",
-"pick": "1st half double chance Swindon Town or draw",
-"odds": 1.45,
-"ts": 1794668400.0,
-"r": "L",
-"sc": "1-4",
-"ht": "0-2"
-},
-{
-"t": "Sat 16:00",
-"game": "Cove Rangers FC vs Montrose FC",
-"pick": "Cove Rangers FC or GG",
-"odds": 1.24,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "3-0",
-"ht": "0-0"
-},
-{
-"t": "Sat 16:00",
-"game": "SD Eibar C vs CD Derio",
-"pick": "Goal bounds 2-5+",
-"odds": 1.26,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "2-0",
-"ht": ""
-},
-{
-"t": "Sat 16:00",
-"game": "Milton Keynes Dons vs Burton Albion",
-"pick": "1st half double chance Milton Keynes Dons or draw",
-"odds": 1.19,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "6-2",
-"ht": "2-0"
-},
-{
-"t": "Sat 16:00",
-"game": "FC Cartagena vs Villarreal CF",
-"pick": "Goal bounds 2-5+",
-"odds": 1.16,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "0-3",
-"ht": ""
-},
-{
-"t": "Sat 16:00",
-"game": "Leek Town FC vs Morecambe FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.14,
-"ts": 1794668400.0,
-"r": "L",
-"sc": "0-1",
-"ht": "0-0"
-},
-{
-"t": "Sat 16:00",
-"game": "Salisbury FC vs Chichester City FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.13,
-"ts": 1794668400.0,
-"r": "W",
-"sc": "4-0",
-"ht": "3-0"
-},
-{
-"t": "Sat 16:30",
-"game": "Atletico Santa Cruz vs UCAM Murcia II",
-"pick": "Goal bounds 2-5+",
-"odds": 1.32,
-"ts": 1794670200.0,
-"r": "L",
-"sc": "1-0",
-"ht": "1-0"
-},
-{
-"t": "Sat 17:30",
-"game": "SSC Bari vs Calcio Foggia",
-"pick": "1st half double chance SSC Bari or draw",
-"odds": 1.14,
-"ts": 1794673800.0,
-"r": "W",
-"sc": "3-1",
-"ht": "3-1"
-},
-{
-"t": "Sat 18:00",
-"game": "UD Las Palmas C vs SD Villaverde Norte",
-"pick": "Goal bounds 2-5+",
-"odds": 1.14,
-"ts": 1794675600.0
-},
-{
-"t": "Sat 18:30",
-"game": "Hamilton Academical FC vs Ross County FC",
-"pick": "Goal bounds 2-5+",
-"odds": 1.2,
-"ts": 1794677400.0
-},
-{
-"t": "Sat 19:00",
-"game": "America PE vs Vera Cruz PE",
-"pick": "1st half double chance America PE or draw",
-"odds": 1.08,
-"ts": 1794679200.0
 }
 ]
 }
