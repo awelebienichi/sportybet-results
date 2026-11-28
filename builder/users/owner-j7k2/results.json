@@ -2,6 +2,58 @@
 "from": 1794378137,
 "tickets": [
 {
+"code": "L6RKKE",
+"at": 1795863579,
+"when": "Sat 28 Nov 11:59",
+"kind": "half-time draw \u2013 weak teams",
+"odds": 95.48,
+"status": "open",
+"legs": [
+{
+"t": "Sat 13:30",
+"game": "Civil Service United FC vs Mitundu Baptist",
+"pick": "Half-time draw",
+"odds": 1.82,
+"ts": 1795869000.0
+},
+{
+"t": "Sat 15:00",
+"game": "Chennaiyin FC vs Mumbai City",
+"pick": "Half-time draw",
+"odds": 2.3,
+"ts": 1795874400.0
+},
+{
+"t": "Sat 15:30",
+"game": "Schwarz-Weiss Bregenz vs Austria Salzburg",
+"pick": "Half-time draw",
+"odds": 2.3,
+"ts": 1795876200.0
+},
+{
+"t": "Sat 16:00",
+"game": "Volos NPS vs Asteras Tripolis",
+"pick": "Half-time draw",
+"odds": 1.96,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 16:00",
+"game": "Colchester United vs York City FC",
+"pick": "Half-time draw",
+"odds": 2.3,
+"ts": 1795878000.0
+},
+{
+"t": "Sat 19:15",
+"game": "Kisvarda FC vs Nyiregyhaza Spartacus FC",
+"pick": "Half-time draw",
+"odds": 2.2,
+"ts": 1795889700.0
+}
+]
+},
+{
 "code": "VG9YBK",
 "at": 1795861526,
 "when": "Sat 28 Nov 11:25",
@@ -84615,30 +84667,6 @@
 "pick": "Cruzeiro EC MG to win",
 "odds": 1.48,
 "ts": 1794679200.0
-}
-]
-},
-{
-"code": "X8QGRV",
-"at": 1794634494,
-"when": "Sat 14 Nov 06:34",
-"kind": "your tracker's best markets",
-"odds": 2.03,
-"status": "open",
-"legs": [
-{
-"t": "Sat 14:30",
-"game": "GVVV Veenendaal vs SV Spakenburg",
-"pick": "1st half double chance GVVV Veenendaal or draw",
-"odds": 1.4,
-"ts": 1794663000.0
-},
-{
-"t": "Sat 16:00",
-"game": "Swindon Town vs Grimsby Town",
-"pick": "1st half double chance Swindon Town or draw",
-"odds": 1.45,
-"ts": 1794668400.0
 }
 ]
 }
