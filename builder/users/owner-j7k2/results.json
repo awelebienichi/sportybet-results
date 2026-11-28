@@ -2844,7 +2844,7 @@
 "odds": 1.1,
 "ts": 1795870800.0,
 "r": "W",
-"sc": "0-0",
+"sc": "0-1",
 "ht": "0-0"
 },
 {
@@ -2979,7 +2979,10 @@
 "game": "Chennaiyin FC vs Mumbai City",
 "pick": "Half-time draw",
 "odds": 2.3,
-"ts": 1795874400.0
+"ts": 1795874400.0,
+"r": "L",
+"sc": "2-0",
+"ht": "2-0"
 },
 {
 "t": "Sat 15:30",
@@ -3034,7 +3037,10 @@
 "game": "SC Preussen 06 Munster vs SC Verl",
 "pick": "2nd half Over 0.5",
 "odds": 1.18,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
@@ -3711,7 +3717,10 @@
 "game": "SC Preussen 06 Munster vs SC Verl",
 "pick": "2nd half Over 0.5",
 "odds": 1.18,
-"ts": 1795870800.0
+"ts": 1795870800.0,
+"r": "L",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 14:00",
@@ -10844,7 +10853,10 @@
 "game": "FK Zeleziarne Podbrezova vs DAC 1904 Dunajska Streda",
 "pick": "1st half Over 0.5",
 "odds": 1.25,
-"ts": 1795876200.0
+"ts": 1795876200.0,
+"r": "W",
+"sc": "0-1",
+"ht": ""
 },
 {
 "t": "Sat 15:30",
