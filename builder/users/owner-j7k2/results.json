@@ -2218,7 +2218,10 @@
 "game": "Malaga CF vs Athletic Bilbao",
 "pick": "Athletic Bilbao to win (1UP)",
 "odds": 1.37,
-"ts": 1795878900.0
+"ts": 1795878900.0,
+"r": "W",
+"sc": "3-4",
+"ht": "1-4"
 },
 {
 "t": "Sat 16:30",
@@ -2552,7 +2555,10 @@
 "game": "Malaga CF vs Athletic Bilbao",
 "pick": "Double chance Athletic Bilbao or draw",
 "odds": 1.2,
-"ts": 1795878900.0
+"ts": 1795878900.0,
+"r": "W",
+"sc": "3-4",
+"ht": "1-4"
 },
 {
 "t": "Sat 16:30",
