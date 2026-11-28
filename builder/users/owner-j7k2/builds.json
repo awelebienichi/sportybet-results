@@ -1,5 +1,81 @@
 [
 {
+"when": "Sat 28 Nov 16:20",
+"at": 1795879214,
+"req": {
+"u": "owner-j7k2",
+"name": "Owner",
+"type": "pattern",
+"fh": 3,
+"htd": 0,
+"bank": 0,
+"bb": 0,
+"o15": 0,
+"days": [
+"2026-11-28"
+],
+"strict": "normal",
+"rid": "mx0k2udiq3l7"
+},
+"ok": true,
+"kind": "pattern combo (0 HT draw + 0 bankers + 3 1st-half + 0 Over 1.5 + 0 basketball)",
+"note": [
+"Pattern estimate from your own results: about 79% chance this ticket wins (about 8 in 10).",
+"Chance all 3 legs win: about 55%."
+],
+"tickets": [
+{
+"code": "H3AR9J",
+"odds": 1.56,
+"legs": [
+{
+"t": "Sat 17:30",
+"game": "Newroz SC vs Al Kahrabaa SC",
+"lg": "Iraq - Stars League",
+"pick": "1st half double chance Newroz SC or draw",
+"odds": 1.15,
+"why": "stats rate 95% from both teams' last 10 and 4 meetings (your 1st-half pattern)",
+"ts": 1795883400.0,
+"eid": "sr:match:75949154",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "75949154|63||9"
+},
+{
+"t": "Sat 20:45",
+"game": "Royal Charleroi SC vs KV Waasland-Beveren",
+"lg": "Belgium - Pro League",
+"pick": "1st half double chance Royal Charleroi SC or draw",
+"odds": 1.18,
+"why": "stats rate 90% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795895100.0,
+"eid": "sr:match:72366472",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "72366472|63||9"
+},
+{
+"t": "Sat 22:00",
+"game": "CR Vasco da Gama RJ vs Botafogo FR RJ",
+"lg": "Brazil - U20 Carioca, Serie A",
+"pick": "1st half double chance CR Vasco da Gama RJ or draw",
+"odds": 1.15,
+"why": "stats rate 88% from both teams' last 10 and 8 meetings (your 1st-half pattern)",
+"ts": 1795899600.0,
+"eid": "sr:match:76809648",
+"mid": "63",
+"spec": "",
+"oid": "9",
+"k": "76809648|63||9"
+}
+],
+"chance": 0.5535
+}
+]
+},
+{
 "when": "Sat 28 Nov 15:51",
 "at": 1795877487,
 "req": {
@@ -20919,362 +20995,6 @@
 }
 ],
 "chance": 0.0
-}
-]
-},
-{
-"when": "Fri 27 Nov 17:13",
-"at": 1795795995,
-"req": {
-"u": "owner-j7k2",
-"name": "Owner",
-"type": "goalmix",
-"legs": 25,
-"tickets": 1,
-"days": [
-"2026-11-27"
-],
-"strict": "normal",
-"from": "00:00",
-"to": "23:59",
-"rid": "mwz6k6xqy7ng"
-},
-"ok": true,
-"kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
-"note": [
-"1 leg(s) dropped because Flashscore, footybets, FotMob, DFP or Vitibet went against them.",
-"Only 7 Over 2.5 and 17 Over 1.5 legs passed (Fri 27); this ticket has 7 + 16 instead of 9 + 16. Tick more days for more.",
-"Chance all 23 legs win: about 0% \u2013 in your results, tickets of 11+ legs have won 0 of 29; 1\u20133 legs won 64%."
-],
-"tickets": [
-{
-"code": "NDDDT2",
-"odds": 108.74,
-"legs": [
-{
-"t": "Fri 18:00",
-"game": "Wigry Suwalki vs Jagiellonia II Bialystok",
-"lg": "Poland - III Liga, Group 1",
-"pick": "Over 2.5",
-"odds": 1.48,
-"why": "season: 3.0 and 3.7 goals a game (18/18 games); last 10 rate 70%; Flashscore home/away form 65%",
-"ts": 1795798800.0,
-"eid": "sr:match:72514914",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72514914|18|total=2.5|12"
-},
-{
-"t": "Fri 18:00",
-"game": "Rakow Czestochowa vs GKS Piast Gliwice",
-"lg": "Poland - Ekstraklasa",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 2.9 goals; Flashscore home/away form 90%, footybets 99%, FotMob: 3.5 goals a game, Vitibet tip 2-1, season: 3.5 goals a game",
-"ts": 1795798800.0,
-"eid": "sr:match:72043352",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72043352|18|total=1.5|12"
-},
-{
-"t": "Fri 18:30",
-"game": "Bochum vs Darmstadt",
-"lg": "Germany - 2. Bundesliga",
-"pick": "Over 1.5",
-"odds": 1.22,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.1 goals; Flashscore home/away form 80%, FotMob: 2.5 goals a game, Vitibet tip 2-1",
-"ts": 1795800600.0,
-"eid": "sr:match:72514000",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72514000|18|total=1.5|12"
-},
-{
-"t": "Fri 19:00",
-"game": "Hansa Rostock vs TSV Havelse",
-"lg": "Germany - 3. Liga",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, league avg 3.5 goals; Flashscore home/away form 95%, FotMob: 3.5 goals a game, Vitibet tip 3-1, season: 3.5 goals a game",
-"ts": 1795802400.0,
-"eid": "sr:match:72680312",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72680312|18|total=1.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "SC Kriens vs FC Aarau",
-"lg": "Switzerland - Challenge League",
-"pick": "Over 2.5",
-"odds": 1.44,
-"why": "season: 3.2 and 3.3 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 75%, CompactStats 67% (bookmaker 66%)",
-"ts": 1795804200.0,
-"eid": "sr:match:72176658",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72176658|18|total=2.5|12"
-},
-{
-"t": "Fri 19:30",
-"game": "WKW ETO FC Gyor vs Debreceni VSC",
-"lg": "Hungary - NB I",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "season: 2.9 and 3.6 goals a game (14/14 games); last 10 rate 75%; Flashscore home/away form 65%",
-"ts": 1795804200.0,
-"eid": "sr:match:72302696",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72302696|18|total=2.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Norwich City U21 vs Chelsea U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 100% of 8 meetings, league avg 4.7 goals; Flashscore home/away form 90%, FotMob: 4.5 goals a game, Vitibet tip 1-2, season: 4.5 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:73603154",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73603154|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "RWD Molenbeek Youth vs RAAL La Louviere",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, 100% of 5 meetings, league avg 4.2 goals; Flashscore home/away form 100%, season: 3.1 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:73831518",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73831518|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Jong Ajax Amsterdam vs Heracles Almelo",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 3 meetings, league avg 3.1 goals; Flashscore home/away form 85%, FotMob: 3.8 goals a game, Vitibet tip 1-2, season: 3.8 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:72044852",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72044852|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Cardiff City U21 vs Swansea City U21",
-"lg": "England Amateur - U21 Professional Development League",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 75% of 8 meetings, league avg 3.8 goals; Flashscore home/away form 80%, season: 3.6 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:73601848",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73601848|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "West Ham U21 vs Tottenham Hotspur U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, 75% of 8 meetings, league avg 4.7 goals; Flashscore home/away form 85%, FotMob: 3.8 goals a game, Vitibet tip 1-2, season: 3.8 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:73603156",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73603156|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "Fulham U21 vs Nottingham Forest U21",
-"lg": "England Amateur - U21 Premier League 2",
-"pick": "Over 1.5",
-"odds": 1.08,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 67% of 6 meetings, league avg 4.7 goals; Flashscore home/away form 95%, FotMob: 4.4 goals a game, Vitibet tip 2-1, season: 4.4 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:73603150",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73603150|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "MVV Maastricht vs Jong PSV Eindhoven",
-"lg": "Netherlands - Eerste Divisie",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 88% of 8 meetings, league avg 3.1 goals; Flashscore home/away form 95%, FotMob: 3.2 goals a game, Vitibet tip 2-1, season: 3.2 goals a game",
-"ts": 1795806000.0,
-"eid": "sr:match:72044858",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72044858|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "FC Groningen vs Willem II Tilburg",
-"lg": "Netherlands - Eredivisie",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 75% of 8 meetings, league avg 4.4 goals; Flashscore home/away form 95%, FotMob: 4.4 goals a game, Vitibet tip 2-1, season: 4.4 goals a game, CompactStats 86% (bookmaker 86%)",
-"ts": 1795806000.0,
-"eid": "sr:match:72041270",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72041270|18|total=1.5|12"
-},
-{
-"t": "Fri 20:00",
-"game": "US Le Pays Du Valois vs Valenciennes FC",
-"lg": "France - Coupe de France",
-"pick": "Over 1.5",
-"odds": 1.2,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, league avg 3.4 goals; Flashscore home/away form 73%",
-"ts": 1795806000.0,
-"eid": "sr:match:76735450",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "76735450|18|total=1.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Bangor 1876 FC vs Mold Alexandra FC",
-"lg": "Wales - Cymru Championship, North",
-"pick": "Over 2.5",
-"odds": 1.45,
-"why": "season: 3.9 and 3.6 goals a game (14/14 games); last 10 rate 70%; Flashscore home/away form 90%, season: 3.8 goals a game",
-"ts": 1795807800.0,
-"eid": "sr:match:72546728",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72546728|18|total=2.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "KVC Westerlo vs Jeugd Lierse Kempenzonen",
-"lg": "Belgium - U21 Pro League",
-"pick": "Over 1.5",
-"odds": 1.09,
-"why": "TOP TIER: Over 1.5 in 100% / 100% of the teams' last 10, 88% of 8 meetings, league avg 4.2 goals; Flashscore home/away form 100%, season: 4.1 goals a game",
-"ts": 1795807800.0,
-"eid": "sr:match:73831524",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "73831524|18|total=1.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Llanelli Town vs Cardiff Draconians",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 1.5",
-"odds": 1.1,
-"why": "TOP TIER: Over 1.5 in 90% / 100% of the teams' last 10, league avg 3.9 goals; Flashscore home/away form 85%, season: 3.6 goals a game",
-"ts": 1795807800.0,
-"eid": "sr:match:72546192",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72546192|18|total=1.5|12"
-},
-{
-"t": "Fri 20:30",
-"game": "Carmarthen Town vs Swansea University",
-"lg": "Wales - Cymru Championship South",
-"pick": "Over 1.5",
-"odds": 1.14,
-"why": "TOP TIER: Over 1.5 in 100% / 90% of the teams' last 10, 75% of 4 meetings, league avg 3.9 goals; Flashscore home/away form 90%, season: 4.3 goals a game",
-"ts": 1795807800.0,
-"eid": "sr:match:72546190",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72546190|18|total=1.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Moyola Park FC vs Annagh United FC",
-"lg": "Northern Ireland - Championship",
-"pick": "Over 2.5",
-"odds": 1.52,
-"why": "season: 3.0 and 3.5 goals a game (17/17 games); last 10 rate 75%; Flashscore home/away form 70%",
-"ts": 1795808700.0,
-"eid": "sr:match:72347038",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72347038|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Warrington Rylands 1906 FC vs Lancaster City",
-"lg": "England Amateur - Northern Premier League Premier",
-"pick": "Over 2.5",
-"odds": 1.55,
-"why": "season: 3.5 and 3.0 goals a game (20/20 games); last 10 rate 75%; Flashscore home/away form 65%",
-"ts": 1795808700.0,
-"eid": "sr:match:73018758",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "73018758|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Cambrian United vs Trefelin BGC",
-"lg": "Wales - Cymru Premier",
-"pick": "Over 2.5",
-"odds": 1.57,
-"why": "season: 4.1 and 2.9 goals a game (17/17 games); last 10 rate 70%; Flashscore home/away form 65%, FotMob: 3.5 goals a game",
-"ts": 1795808700.0,
-"eid": "sr:match:72522190",
-"mid": "18",
-"spec": "total=2.5",
-"oid": "12",
-"k": "72522190|18|total=2.5|12"
-},
-{
-"t": "Fri 20:45",
-"game": "Coleraine FC vs Dungannon Swifts",
-"lg": "Northern Ireland - Premiership",
-"pick": "Over 1.5",
-"odds": 1.15,
-"why": "TOP TIER: Over 1.5 in 90% / 90% of the teams' last 10, 100% of 8 meetings, league avg 3.2 goals; Flashscore home/away form 75%, FotMob: 3.0 goals a game, Vitibet tip 3-1, season: 3.0 goals a game",
-"ts": 1795808700.0,
-"eid": "sr:match:72346438",
-"mid": "18",
-"spec": "total=1.5",
-"oid": "12",
-"k": "72346438|18|total=1.5|12"
-}
-],
-"chance": 0.003
 }
 ]
 }
