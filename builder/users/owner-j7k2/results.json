@@ -1547,7 +1547,10 @@
 "game": "Holstein Kiel vs 1 FC Kaiserslautern",
 "pick": "1st half GG \u2013 No",
 "odds": 1.25,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -2680,7 +2683,10 @@
 "game": "A Sakiet Edayer vs Stade Tunisien",
 "pick": "1st half double chance A Sakiet Edayer or draw",
 "odds": 1.21,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:30",
@@ -3286,7 +3292,10 @@
 "game": "A Sakiet Edayer vs Stade Tunisien",
 "pick": "1st half double chance A Sakiet Edayer or draw",
 "odds": 1.21,
-"ts": 1795867200.0
+"ts": 1795867200.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 13:00",
@@ -3722,7 +3731,7 @@
 "when": "Sat 28 Nov 10:23",
 "kind": "Over 2.5 + Over 1.5 mix (high-scoring teams)",
 "odds": 1134.21,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 11:00",
@@ -3739,7 +3748,10 @@
 "game": "Vasas Kubala Academy vs Illes Akademia",
 "pick": "Over 2.5",
 "odds": 1.32,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:30",
@@ -4527,7 +4539,7 @@
 "when": "Sat 28 Nov 05:19",
 "kind": "goal-fest teams (season data)",
 "odds": 487.48,
-"status": "open",
+"status": "lost",
 "legs": [
 {
 "t": "Sat 10:00",
@@ -4544,7 +4556,10 @@
 "game": "Vasas Kubala Academy vs Illes Akademia",
 "pick": "Over 2.5",
 "odds": 1.33,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 13:00",
@@ -5252,7 +5267,10 @@
 "game": "Vasas Kubala Academy vs Illes Akademia",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795863600.0
+"ts": 1795863600.0,
+"r": "L",
+"sc": "2-0",
+"ht": "1-0"
 },
 {
 "t": "Sat 12:35",
