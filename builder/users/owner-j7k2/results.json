@@ -1619,7 +1619,10 @@
 "game": "AFC Whyteleafe vs Aveley FC",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -1966,7 +1969,10 @@
 "game": "AFC Whyteleafe vs Aveley FC",
 "pick": "Over 2.5",
 "odds": 1.31,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -3222,7 +3228,10 @@
 "game": "La Roche Vendee Football vs Voltigeurs de Chateaubriant",
 "pick": "1st half GG \u2013 No",
 "odds": 1.19,
-"ts": 1795881600.0
+"ts": 1795881600.0,
+"r": "W",
+"sc": "0-0",
+"ht": "0-0"
 },
 {
 "t": "Sat 17:30",
@@ -7646,7 +7655,10 @@
 "game": "AFC Whyteleafe vs Aveley FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -9674,7 +9686,10 @@
 "game": "AFC Whyteleafe vs Aveley FC",
 "pick": "Over/Under \u2013 Over 2.5",
 "odds": 1.41,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
@@ -10576,7 +10591,10 @@
 "game": "AFC Whyteleafe vs Aveley FC",
 "pick": "Over 2.5",
 "odds": 1.41,
-"ts": 1795878000.0
+"ts": 1795878000.0,
+"r": "L",
+"sc": "0-2",
+"ht": "0-2"
 },
 {
 "t": "Sat 16:00",
